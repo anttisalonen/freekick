@@ -1,0 +1,2 @@
+  - creates automatic input for players for startup, half time, full time
+  - creates automatic input for referee

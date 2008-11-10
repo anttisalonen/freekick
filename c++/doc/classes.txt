@@ -1,0 +1,59 @@
+Namespaces in freekick:
+freekick
+freekick::soccer
+freekick::match
+freekick::match::network
+freekick::match::client
+freekick::match::client::cl_ogre
+freekick::match::client::cl_2d
+freekick::match::server
+freekick::match::server::rules
+freekick::match::server::physics
+
+Classes:
+
+data   - addutil::Color
+data   - addutil::Entity
+data   - addutil::Human
+data   - addutil::Time
+data   - addutil::Vector3
+data   - addutil::Drawable
+facade - addutil::network::Client
+facade - addutil::network::Server
+data   - addutil::network::IP_Connection
+
+
+data - fkdb - rel. static             - freekick::soccer::Club
+data - fkdb - rel. static             - freekick::soccer::Kit
+data - fkdb - rel. static             - freekick::soccer::Pitch
+data - fkdb - rel. static             - freekick::soccer::Player
+data - fkdb - rel. static             - freekick::soccer::Referee
+data - fkdb - rel. static             - freekick::soccer::Stadium
+
+data - extend-for-match - rel. static - freekick::match::Club
+data - extend-for-match - rel. static - freekick::match::Goal
+data - extend-for-match - rel. static - freekick::match::Ball
+data - extend-for-match - state       - freekick::match::Player
+data - extend-for-match - state       - freekick::match::Referee
+data - extend-for-match - state       - freekick::match::Status
+
+data - disposable                     - freekick::match::network::Event
+data - disposable                     - freekick::match::network::InputEvent
+facade                                - freekick::match::network::Client
+facade                                - freekick::match::network::Server
+
+facade                                - freekick::match::client::Configuration
+facade                                - freekick::match::client::Input
+data - configuration                  - freekick::match::client::InputConfiguration
+data - externlib-dep                  - freekick::match::client::cl_ogre::InputHandler
+data - externlib-dep                  - freekick::match::client::cl_ogre::Graphics
+data - externlib-dep                  - freekick::match::client::cl_ogre::GraphicsUpdater
+
+??                                    - freekick::match::server::Console
+facade                                - freekick::match::server::Rules
+facade                                - freekick::match::server::Physics
+
+# Network - split
+
+# freekick::common::match::MatchStatus -> merge with Status
+# freekick::client::InputType -> remove

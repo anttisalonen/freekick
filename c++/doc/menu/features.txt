@@ -1,0 +1,80 @@
+Main Menu
+-Starting a game/match/session/event
+ - load
+ - friendly
+ - quick start
+ - diy (equiv. to competition editor)
+  - tournament
+  - league
+  - cup
+ - predefined
+  - tournament
+  - season
+  - cup
+ - career
+-Editors/Viewers
+ - players
+ - clubs
+ - etc. (other databases)
+-Miscellaneous
+ - replays
+ - options
+-Quit
+
+Start:
+Components
+player chooser
+club chooser
+competition viewer
+schedule viewer
+match starter
+ai match result calculator
+tactic chooser (for ai coaches)
+
+Editor:
+Components
+database viewer
+file browser & chooser
+database saver
+filter, sort
+database updater & exporter
+selecting parts of a database
+unions, intersections of databases
+
+Options:
+- Client path
+- Client options (?: could be invoked by starting client with a specific parameter)
+  - Controls
+  - Connection: server IP & port (overridable by parameter)
+- Server path
+- Server options
+  - Arcade mode
+  - Match length
+  - Injuries
+  - IP black/whitelisting
+- AI path
+- AI options
+  - Difficulty
+  - Aggressiveness
+  - Replacing missing human players with AI players
+
+Processes:
+Menu
+ - starts other processes
+Soccer game
+ - Organisatory part
+ - Shows schedule
+ - Shows league/competition tables
+ - Shows upcoming matches (for all clubs)
+ - Shows results of played matches (local and AI)
+ - Shows finances, transfer options (where applicable)
+ - Starts matches
+Match starter
+ - parameters: 
+   - opposing teams (files (static & match-specific data e.g. injuries))
+   - milieu (place, time)
+   - options (match settings e.g. arcade mode)
+   - player settings (human players, ai players, server ip&port)
+ - starts client (+ai & server)
+Editor
+Replay viewer

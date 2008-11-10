@@ -1,0 +1,31 @@
+There will be databases for:
+Players
+Clubs
+Pitches
+Stadiums
+Graphics
+Models
+Referees
+Balls
+Tactics
+Competitions
+Coaches
+
+Database requirements:
+-add
+-delete
+-find
+-filter (by key/attribute)
+-sort (by key/attribute)
+-diff (find changes between databases)
+-union (combine elements)
+-intersection
+
+Implementation:
+Associative array: extended std::(hash_)map
+
+A Freekick distribution includes standard databases.
+Freekick should be able to update its own databases.
+Databases should be saved in files to allow update via e.g. wget.
+A server should offer database updates.
+A server should offer the possibility to manipulate databases in Wiki style.

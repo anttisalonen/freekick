@@ -1,0 +1,36 @@
+Able to compile:
+Vector3
+Color
+Drawable
+Entity
+Time
+Human
+Ball
+Player
+Kit
+Referee
+Club
+MatchStatus
+Pitch
+Goal
+Stadium
+InputConfiguration
+IP_Connection
+Configuration
+Status
+Network
+InputHandler
+Input
+
+Todo:
+Status.cpp
+Stadium.cpp
+ServerEvent.cpp
+InputType
+
+Links (network/physics/Bullet):
+http://www.ogre3d.org/phpBB2/viewtopic.php?p=311377&sid=ce193664e1d3d7c4af509e6f4e2718c6
+http://www.ogre3d.org/phpBB2/viewtopic.php?t=29034
+http://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking
+http://www.ogre3d.org/phpBB2/viewtopic.php?t=42841
+http://www.bulletphysics.com/Bullet/phpBB3/viewtopic.php?f=9&t=2490&st=0&sk=t&sd=a&start=0

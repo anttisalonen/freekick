@@ -1,0 +1,39 @@
+Server
+
+Tasks:
+- generates the scene
+  - sets player & ball positions
+  - sets stadium, goal positions, collision meshes
+- accepts incoming connections
+  - validates the player requests from clients
+- sends clients match status
+  - dynamic object positions
+  - time, score, chat messages
+- receives input from the clients
+  - validates input
+  - handles input
+    - checks if player can/is allowed to move/kick/etc.
+    - movement
+      - updates player acceleration
+    - kicking
+      - updates ball acceleration
+    - tackles
+      - updates status of tackling player and tackled player(s)
+    - interference
+      - updates status of interfering/interfered player
+- calculates physics events
+  - moves dynamic objects as by velocity, acceleration
+  - handles collisions
+  - applies gravity
+  - applies friction
+  - updates weather
+  - applies wind, rain, snow
+- updates rules
+  - starts & ends match & half time
+  - checks for ball in/out of play
+    - sets ball position when ball has been out of play
+  - keeps track of controlling player/club
+    - for ball in/out of play purposes
+    - for statistics
+  - checks for fouls 
+    - gives severity points for collisions/tackles/interference

@@ -1,0 +1,25 @@
+Client
+Configuration:
+  - via parameters(primarily)/Menu+Config-file
+    - server IP, port
+    - Human player (ID)
+  - via Menu+Config-file
+    - controls
+- Connecting to the server
+- displaying the match
+  - players
+  - status (ball in/out of play)
+  - time
+  - date
+  - weather
+  - match/tournament/round name
+  - used tactics
+  - lineups
+  - score
+
+allowing player to:
+  - watch replays
+  - set camera controls
+  - quit
+  - control a player/spectator
+  - chat

@@ -1,0 +1,348 @@
+Parts:
+1. (Source/Sink) Network/TCP
+2. (Sink)        Graphics/Ogre
+3. (Source)      Input/OIS
+4. (Source/Sink) Status/Client+Match
+
+Interfaces:
+1. TCP -> Status
+2. Status -> Graphics
+3. Input -> TCP
+
+Interface 1:
+Status::insertEvent(Event const * const);
+
+Interface 2:
+Status::getPlayerInfos(PlayerInfos const * const) const;
+...
+
+Interface 3:
+Network::sendData(string);
+
+Tasks:
+1. Read server data & send to status
+2. Read status & draw
+3. Read input & send to network
+
+Part 1:
+Network::Network(Conf, Status);
+Network::sendData(string);
+Network::run();
+
+Part 2:
+Graphics::Graphics(Conf, Status);
+Graphics::run();
+
+Part 3:
+Input::Input(Conf, Status);
+
+Part 4:
+void Status::insertEvent(Event const * const);
+void Status::insertEvents(vector <const Event*> const);
+const bool Status::quitting() const;
+
+-----------------------------------
+Input I
+-----------------------------------
+Input:
+
+A SETUP is a map between ACTIONS and METHODS
+One ACTION defined by one BOOLEAN PARAMETER and zero or more ADDITIONAL PARAMETERS
+A VECTOR2D consists of an ANGLE (LINEAR PARAMETER) and a length (LINEAR PARAMETER)
+A VECTOR3D consists of two ANGLES (LINEAR PARAMETER) and a length (LINEAR PARAMETER)
+A LINEAR PARAMETER can be represented by a BOOLEAN PARAMETER
+All ACTIONS are DEFINABLE, i.e. LINEAR PARAMETERS can be made BOOLEAN PARAMETERS
+CAMERA ACTIONS may be AUTOMATIC, i.e. defined by the player or ball position
+
+Input actions:
+a. Player Controls
+ 1. Moving (Vector2D)
+ 1.1. Walking (abstract)
+ 1.2. Running (abstract)
+ 2. Kicking (Vector3D)
+ 1.1. Passing (abstract)
+ 1.2. Shooting (abstract)
+ 1.3. Long ball (abstract)
+ 3. Special actions
+ 3.1. Heading (one linear parameter: A)
+ 3.2. Tackling (one linear parameter: B)
+ 3.3. Diving (one linear parameter: C)
+ 3.4. ...
+b. Camera Controls
+ 1. Moving (Vector3D)
+ 2. Rotating (three linear parameters: A, B, C)
+
+Input methods:
+1. Mouse
+1.1. Moving (two linear parameters)
+  a. Position pointed to on the pitch
+  b. Direction pointed to on the pitch
+  c. Coordinates on the screen
+  d. Delta coordinates to the controlled
+1.2. Clicking (three boolean parameters)
+  a. Press left/right/middle button
+1.3. Middle button rolling (two boolean parameters)
+  a. Roll up/down
+1.4. Holding (three boolean parameters, one linear parameter)
+  a. Release left/right/middle button, measure time button held
+1.5. Drag & drop (combination of 1.1. and 1.2.)
+  a. Hold & release button, measure cursor movement as in 1.1.
+1.6. Mouse gestures (x boolean parameters)
+  a. A gesture as defined in the gesture list
+1.7. Mouse chords (x boolean parameters)
+  a. Hold button x & press button y
+1.8. Middle button rolling (one linear parameter)
+  a. State machine to count position
+2. Keyboard
+2.1. Pressing (x boolean parameters)
+  a. Press key x
+2.2. Holding (x linear parameters)
+  a. Hold key x, measure time key held down
+2.3. Chords (x boolean parameters)
+  a. Hold key x & press key y
+2.4. Pressing (x linear parameters)
+  a. State machine to count position
+3. Camera
+3.1. Camera direction
+  a. Direction pointed to on the pitch
+
+SETUP 1: (SDL)
+a.1. -> 1.1.a. (move to cursor [Vector2D])
+a.2. -> 1.5.a.(1.1.a) + 1.8.a. (hold mouse #1 for position, set parameter [Y] by rolling, kick to cursor [XZ])
+a.3. -> 2.1.a. (keys x, c, v etc.)
+b.1. -> auto (Top-Down)
+b.2. -> auto (90°)
+
+SETUP 2: (Shoulder)
+a.1. -> 2.1. (linear parameters definable) (direction by camera [XZ], velocity by key [XZ])
+a.2. -> 1.1. + 1.2. (hold mouse button and set direction by mouse direction [XZ], release button to kick; mouse button defines [Y])
+a.3. -> 2.1. (keys x, c, v etc.)
+b.1. -> auto
+b.2. -> auto + 1.1. + 1.2.
+
+Parameters:
+parameters submit either a numeric or boolean value
+a boolean value by a parameter is interpreted as a specified numeric value
+Actions:
+actions receive parameters (values) as input
+actions are moving, kicking, heading and tackling as well as moving and rotating the camera
+Input methods:
+input methods include moving mouse, dragging and dropping, holding key down
+applying an event to a method yields a parameter
+Input device handlers:
+input device handlers have input methods
+ois events are interpreted by the input device handler
+an input device handler interprets ois events depending on registered input methods
+if a device handler sees an assigned method was performed, the ois event is applied to the input method and the resulting parameter is applied to the action
+Input setup:
+input setup maps a parameter of an input method for each parameter required by action
+input setup registers methods to a device handler
+event -> device handler -> method -> parameter -> action
+
+OIS Event: MouseButton1Released(50, 200pix) -> 
+MouseDeviceHandler: this was a drag and drop of (-30, 80pix) ->
+MouseDeviceHandler: Drag and drop is registered, and needs 1.1.a (position on the pitch), so we convert to (20, 5m) -> 
+MouseDragAndDropMethod: (20, 5m) corresponds to Kick (20, 5m) ->
+Action Kick (20, 5m)
+
+class Action:
+    Action(int num_parameters)
+    addMethod(
+class ParameterType:
+    linear/boolean
+class InputDeviceHandler:
+    mouse/keyboard/camera/joystick
+    vector <InputMethod*> available_methods
+class InputMethod:
+    vector <
+    vector <ParameterType*> available_parameters
+    vector <int> parameter_transformation_threshold
+    bool newEvent() const
+    vector <int*> eventParameters() const
+Example of an Action:
+    Kick(3, 0); needed_parameters:
+Example of an InputDeviceHandler:
+    Mouse; Methods: mousePosOnPitch, mouseCoordsToPlayer, press button x/y/z, drag & drop, etc. Callbacks for actual events from OIS
+Example of an InputMethod:
+    mousePosOnPitch; available_parameters: xpos(linear), ypos(linear)
+Example of an Event: (object)
+    mouseReleased(xpos, ypos)
+
+class InputSetup:
+    Action move(2, 0)
+    Action kick(3, 0)
+    Action head(1, 0)
+    Action tackle(1, 0)
+    Move.addMethod(mousePosOnPitch)
+    Kick.addMethod(
+
+Control setup:
+class Action:
+    - name
+    - list of needed parameter types
+class InputMethod:
+    - input device: mouse/keyboard/joystick/camera
+    - type: linear/boolean
+    - number of parameters
+    - parameter list: handles to mouse buttons, handles to keys, etc.
+class Input:
+    - collection of input methods
+class Setup:
+    - map <Action*, Input*>
+-----------------------------------
+Input II
+-----------------------------------
+Direct events: KeyPressed key, KeyReleased key, MouseMoved x y, MouseMovedRelative x y, MousePressed b, MouseReleased b
+Client events: MouseMovedOnPitch x y z, MouseMovedRelativeOnPitch x y z, MouseDraggedAndDropped x y b, MouseDraggedAndDroppedOnPitch x y b
+Direct actions: Move x z, Kick x y z, Head x, Tackle x 
+Client actions: MoveRelativeToCamera x z, KickRelativeToCamera x y z, Move Camera x y z, Rotate Camera a b c, Set Camera x y z a b c, Follow Ball 
+Configuration:
+KeyPressed 'a' -> Move 500 0 0 0
+KeyPressed 'b' -> Move 0 0 200 0
+MouseMovedOnPitch x y 0 -> Move x y
+-----------------------------------
+Input III
+-----------------------------------
+Configurable events
+Player run linear
+Player run boolean
+Player walk boolean      
+Player kick linear
+Player kick pass
+Plaeyr kick shoot
+Player kick set height
+Player heading linear
+Player heading boolean
+Player tackle 
+Camera position
+Camera rotate
+
+
+Configurable inputs:
+MousePitchPosition
+MouseScreenPosition
+KeyA
+KeyB
+...
+
+LeftMouseButton
+MiddleMouseButton
+MouseScrollPosition
+
+Calibrable linear inputs:
+MousePitchPosition
+MouseScreenPosition
+MouseScrollPosition
+-----------------------------------
+Input IV
+-----------------------------------
+Configuration:
+Action parameter:
+MoveX, MoveZ, MoveCamForward, MoveCamStrafe
+KickX, KickY, KickZ
+Head, Tackle
+N.B. Move CamForward defined by Camera Vector
+
+Linear input methods (state machines):
+MousePosition
+PlayerPosition
+BallPosition
+ScrollPosition
+Joystick
+None
+
+N.B. PlayerPosition/BallPosition only makes sense with the camera.
+Applying PlayerPosition to Camera defines camera to follow the
+player (including angles).
+
+Thresholds:
+Keyboard key
+Mouse button
+Joystick button
+None
+
+N.B. Threshold "Down" means continuous action.
+Threshold "Up" means action after releasing key/button.
+
+For each Action parameter a method, threshold and a multiplier, e.g.:
+MoveX   -> MousePosition None 10
+MoveZ   -> MousePosition None 10
+MoveF   -> None None 0
+MoveS   -> None None 0
+KickX   -> MousePosition RightMouseUp 10
+KickY   -> ScrollPosition None 1
+KickZ   -> MousePosition RightMouseUp 10
+...
+MoveX   -> None None 0
+MoveZ   -> None None 0
+MoveF   -> None Key_w_Down 1
+MoveS   -> None Key_d_Down 1
+Head    -> None Key_x_Down 5
+
+Camera controls defined separately:
+CameraX, CameraY, CameraZ, CameraA, CameraB, CameraC, Camera[1234][XYZABC]
+N.B. Camera[XYZABC] define how the camera could be moved
+N.B. Camera[1234] for predefined camera locations
+CameraX -> None None 0
+...
+CameraX -> PlayerPosition None 1
+CameraY -> PlayerPosition None 1
+CameraZ -> PlayerPosition None 1
+CameraA -> MousePosition None 1
+
+config file -> Parser -> Input Setup
+The input handler checks if the received event corresponds to an action in the input setup.
+If the action criteria is fulfilled (threshold), the action power is calculated
+(input value * multiplier) and sent to the server.
+
+-----------------------------------
+Main:
+-----------------------------------
+
+main()
+{
+    conf = new config(); // config file + either menu or command line
+    // config = network + control conf
+    status = new status();
+    network = new network(conf, status);  // connects
+    inp = new input(conf, status, network);
+    graphics = new graphics(conf, status, inp);
+    t1 = new_thread(network->run());
+    t2 = new_thread(graphics->run());
+    join(t1);
+    join(t2);
+}
+
+Network::run()
+{
+    while(data = get_data())
+    {
+        events = get_events_from_data(data);
+        status->update(events);
+    }
+}
+
+Graphics::run()
+{
+    while(!status->quit)
+    {
+        draw(status);
+    }
+}
+
+input::new_input()
+{
+    string = input_to_data(input, conf); // control config in conf
+    handle->write(string);
+}
+
+string& input::input_to_data(InputData const * const ipd, Config const * const conf)
+{
+    inputconf = conf->getInputConf();
+    foreach(method = all_registered_input_methods(inputconf))
+    {
+        if(input in ipd == method) retval += action(method);
+    }
+    return retval;
+}
+

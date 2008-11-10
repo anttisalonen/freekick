@@ -1,0 +1,22 @@
+There will be databases for:
+Players
+Clubs
+Pitches
+Stadiums
+Graphics
+Models
+Referees
+Balls
+
+Database requirements:
+-add
+-delete
+-find
+-filter (by key/attribute)
+-sort (by key/attribute)
+-diff (find changes between databases)
+-union (combine elements)
+-intersection
+
+Implementation:
+Associative array: extended std::(hash_)map
