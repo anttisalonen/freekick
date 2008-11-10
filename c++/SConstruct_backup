@@ -1,5 +1,0 @@
-Program('client_ogre', 
-Glob('*.cpp'), 
-CPPFLAGS = '-Wall -Wno-deprecated', 
-LIBS = ['boost_thread', 'boost_system', 'OgreMain', 'CEGUIBase', 'OIS', 'CEGUIOgreRenderer'], 
-CPPPATH = ['/usr/local/include/OGRE', '/usr/local/include/CEGUI'])
