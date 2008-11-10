@@ -1,0 +1,6126 @@
+<Clubs>
+  <club name="Forest Green Rovers">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Forest Green Rovers Stadium"/>
+    <contracts>
+      <contract player="2157"/>
+      <contract player="12007"/>
+      <contract player="12059"/>
+      <contract player="14017"/>
+      <contract player="16001"/>
+      <contract player="20033"/>
+      <contract player="26023"/>
+      <contract player="38007"/>
+      <contract player="40007"/>
+      <contract player="50056"/>
+      <contract player="50059"/>
+      <contract player="50067"/>
+      <contract player="56047"/>
+      <contract player="62055"/>
+      <contract player="62102"/>
+      <contract player="66081"/>
+      <contract player="68037"/>
+      <contract player="68050"/>
+      <contract player="72035"/>
+      <contract player="72205"/>
+      <contract player="74064"/>
+      <contract player="76088"/>
+    </contracts>
+  </club>
+  <club name="Fulham">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Craven Cottage"/>
+    <contracts>
+      <contract player="2109"/>
+      <contract player="2120"/>
+      <contract player="2142"/>
+      <contract player="2153"/>
+      <contract player="2190"/>
+      <contract player="2215"/>
+      <contract player="6007"/>
+      <contract player="6010"/>
+      <contract player="6063"/>
+      <contract player="6079"/>
+      <contract player="10006"/>
+      <contract player="12019"/>
+      <contract player="14045"/>
+      <contract player="16008"/>
+      <contract player="16013"/>
+      <contract player="18021"/>
+      <contract player="20022"/>
+      <contract player="26006"/>
+      <contract player="36006"/>
+      <contract player="38028"/>
+      <contract player="42007"/>
+      <contract player="44001"/>
+      <contract player="46048"/>
+      <contract player="48044"/>
+      <contract player="50063"/>
+      <contract player="54033"/>
+      <contract player="56008"/>
+      <contract player="58044"/>
+      <contract player="60016"/>
+      <contract player="62027"/>
+      <contract player="62028"/>
+      <contract player="62085"/>
+      <contract player="62091"/>
+      <contract player="64014"/>
+      <contract player="68090"/>
+      <contract player="72066"/>
+      <contract player="72175"/>
+      <contract player="74090"/>
+      <contract player="76063"/>
+      <contract player="76068"/>
+      <contract player="80058"/>
+    </contracts>
+  </club>
+  <club name="Gillingham">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Priestfield Stadium"/>
+    <contracts>
+      <contract player="2027"/>
+      <contract player="2171"/>
+      <contract player="2187"/>
+      <contract player="2252"/>
+      <contract player="2329"/>
+      <contract player="6030"/>
+      <contract player="6072"/>
+      <contract player="26027"/>
+      <contract player="28003"/>
+      <contract player="28018"/>
+      <contract player="28046"/>
+      <contract player="28058"/>
+      <contract player="36027"/>
+      <contract player="50043"/>
+      <contract player="56013"/>
+      <contract player="56065"/>
+      <contract player="56069"/>
+      <contract player="58010"/>
+      <contract player="64040"/>
+      <contract player="64053"/>
+      <contract player="72033"/>
+      <contract player="72044"/>
+      <contract player="72089"/>
+      <contract player="72149"/>
+      <contract player="74027"/>
+      <contract player="74132"/>
+      <contract player="74133"/>
+      <contract player="76127"/>
+    </contracts>
+  </club>
+  <club name="Grimsby Town">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Blundell Park"/>
+    <contracts>
+      <contract player="2008"/>
+      <contract player="2098"/>
+      <contract player="2106"/>
+      <contract player="2223"/>
+      <contract player="6029"/>
+      <contract player="6034"/>
+      <contract player="18016"/>
+      <contract player="22006"/>
+      <contract player="28049"/>
+      <contract player="34018"/>
+      <contract player="48031"/>
+      <contract player="50046"/>
+      <contract player="58050"/>
+      <contract player="60018"/>
+      <contract player="60046"/>
+      <contract player="66012"/>
+      <contract player="68021"/>
+      <contract player="72075"/>
+      <contract player="76005"/>
+      <contract player="76133"/>
+      <contract player="76140"/>
+      <contract player="80020"/>
+    </contracts>
+  </club>
+  <club name="Grays Athletic">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Grays Athletic Stadium"/>
+    <contracts>
+      <contract player="2194"/>
+      <contract player="2199"/>
+      <contract player="2333"/>
+      <contract player="6048"/>
+      <contract player="32019"/>
+      <contract player="40011"/>
+      <contract player="40015"/>
+      <contract player="44041"/>
+      <contract player="46055"/>
+      <contract player="48030"/>
+      <contract player="50025"/>
+      <contract player="52001"/>
+      <contract player="62050"/>
+      <contract player="62114"/>
+      <contract player="64042"/>
+      <contract player="70096"/>
+      <contract player="72038"/>
+      <contract player="72058"/>
+      <contract player="72184"/>
+      <contract player="72185"/>
+      <contract player="72186"/>
+      <contract player="72187"/>
+      <contract player="72204"/>
+      <contract player="76029"/>
+      <contract player="76085"/>
+      <contract player="76108"/>
+      <contract player="76112"/>
+      <contract player="76126"/>
+      <contract player="76147"/>
+      <contract player="80034"/>
+    </contracts>
+  </club>
+  <club name="Halifax Town">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="The Shay"/>
+    <contracts>
+      <contract player="2007"/>
+      <contract player="2177"/>
+      <contract player="2248"/>
+      <contract player="2268"/>
+      <contract player="4004"/>
+      <contract player="6037"/>
+      <contract player="6068"/>
+      <contract player="14019"/>
+      <contract player="22035"/>
+      <contract player="34012"/>
+      <contract player="36020"/>
+      <contract player="36034"/>
+      <contract player="40018"/>
+      <contract player="40029"/>
+      <contract player="44008"/>
+      <contract player="44048"/>
+      <contract player="48021"/>
+      <contract player="50009"/>
+      <contract player="52030"/>
+      <contract player="56044"/>
+      <contract player="62011"/>
+      <contract player="62035"/>
+      <contract player="68096"/>
+      <contract player="74084"/>
+      <contract player="76079"/>
+      <contract player="76086"/>
+    </contracts>
+  </club>
+  <club name="Hereford United">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Edgar Street"/>
+    <contracts>
+      <contract player="2003"/>
+      <contract player="2078"/>
+      <contract player="2260"/>
+      <contract player="2289"/>
+      <contract player="12012"/>
+      <contract player="28017"/>
+      <contract player="44046"/>
+      <contract player="50004"/>
+      <contract player="50020"/>
+      <contract player="50040"/>
+      <contract player="56062"/>
+      <contract player="58049"/>
+      <contract player="62002"/>
+      <contract player="64005"/>
+      <contract player="68040"/>
+      <contract player="72069"/>
+      <contract player="76031"/>
+      <contract player="80088"/>
+    </contracts>
+  </club>
+  <club name="Histon">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Histon Stadium"/>
+    <contracts>
+      <contract player="2112"/>
+      <contract player="2238"/>
+      <contract player="12065"/>
+      <contract player="16016"/>
+      <contract player="18020"/>
+      <contract player="26016"/>
+      <contract player="38011"/>
+      <contract player="50010"/>
+      <contract player="52051"/>
+      <contract player="52052"/>
+      <contract player="52053"/>
+      <contract player="60003"/>
+      <contract player="60004"/>
+      <contract player="62004"/>
+      <contract player="64044"/>
+      <contract player="64046"/>
+      <contract player="72106"/>
+      <contract player="72206"/>
+      <contract player="72207"/>
+      <contract player="72208"/>
+      <contract player="72209"/>
+      <contract player="74005"/>
+      <contract player="74071"/>
+      <contract player="74072"/>
+      <contract player="74073"/>
+      <contract player="74123"/>
+      <contract player="80015"/>
+    </contracts>
+  </club>
+  <club name="Huddersfield Town">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Galpharm Stadium"/>
+    <contracts>
+      <contract player="2181"/>
+      <contract player="2275"/>
+      <contract player="4014"/>
+      <contract player="6009"/>
+      <contract player="6025"/>
+      <contract player="6027"/>
+      <contract player="14022"/>
+      <contract player="34017"/>
+      <contract player="44031"/>
+      <contract player="46005"/>
+      <contract player="48023"/>
+      <contract player="50005"/>
+      <contract player="50006"/>
+      <contract player="56022"/>
+      <contract player="60045"/>
+      <contract player="60054"/>
+      <contract player="62059"/>
+      <contract player="66039"/>
+      <contract player="70037"/>
+      <contract player="72068"/>
+      <contract player="72076"/>
+      <contract player="72086"/>
+      <contract player="74062"/>
+      <contract player="74085"/>
+      <contract player="74109"/>
+      <contract player="76148"/>
+    </contracts>
+  </club>
+  <club name="Hull City">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Hull City Stadium"/>
+    <contracts>
+      <contract player="2097"/>
+      <contract player="2226"/>
+      <contract player="2241"/>
+      <contract player="2281"/>
+      <contract player="4003"/>
+      <contract player="4007"/>
+      <contract player="6055"/>
+      <contract player="14005"/>
+      <contract player="14042"/>
+      <contract player="16044"/>
+      <contract player="22007"/>
+      <contract player="22027"/>
+      <contract player="24005"/>
+      <contract player="32008"/>
+      <contract player="36008"/>
+      <contract player="44015"/>
+      <contract player="48017"/>
+      <contract player="48032"/>
+      <contract player="50031"/>
+      <contract player="52024"/>
+      <contract player="70014"/>
+      <contract player="70086"/>
+      <contract player="72176"/>
+      <contract player="72177"/>
+      <contract player="72178"/>
+      <contract player="72179"/>
+      <contract player="72180"/>
+      <contract player="74076"/>
+      <contract player="80056"/>
+    </contracts>
+  </club>
+  <club name="Ipswich Town">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Portman Road"/>
+    <contracts>
+      <contract player="2023"/>
+      <contract player="2282"/>
+      <contract player="2299"/>
+      <contract player="2332"/>
+      <contract player="2336"/>
+      <contract player="10023"/>
+      <contract player="12010"/>
+      <contract player="18011"/>
+      <contract player="22009"/>
+      <contract player="40023"/>
+      <contract player="44047"/>
+      <contract player="44052"/>
+      <contract player="44053"/>
+      <contract player="48036"/>
+      <contract player="54018"/>
+      <contract player="56053"/>
+      <contract player="60022"/>
+      <contract player="60036"/>
+      <contract player="62043"/>
+      <contract player="62065"/>
+      <contract player="62066"/>
+      <contract player="64017"/>
+      <contract player="66062"/>
+      <contract player="66084"/>
+      <contract player="72154"/>
+      <contract player="72155"/>
+      <contract player="72156"/>
+      <contract player="72157"/>
+      <contract player="76084"/>
+      <contract player="80008"/>
+      <contract player="80040"/>
+      <contract player="80060"/>
+    </contracts>
+  </club>
+  <club name="Arsenal">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Emirates stadium"/>
+    <contracts>
+      <contract player="14056"/>
+      <contract player="14059"/>
+      <contract player="18001"/>
+      <contract player="24008"/>
+      <contract player="34009"/>
+      <contract player="38022"/>
+      <contract player="40008"/>
+      <contract player="40010"/>
+      <contract player="46061"/>
+      <contract player="50012"/>
+      <contract player="50048"/>
+      <contract player="52041"/>
+      <contract player="58071"/>
+      <contract player="60009"/>
+      <contract player="60011"/>
+      <contract player="60017"/>
+      <contract player="60024"/>
+      <contract player="60043"/>
+      <contract player="62051"/>
+      <contract player="62072"/>
+      <contract player="64032"/>
+      <contract player="66003"/>
+      <contract player="66097"/>
+      <contract player="68018"/>
+      <contract player="70012"/>
+      <contract player="70013"/>
+      <contract player="70039"/>
+      <contract player="72001"/>
+      <contract player="72050"/>
+      <contract player="72095"/>
+      <contract player="74116"/>
+      <contract player="74128"/>
+      <contract player="80047"/>
+    </contracts>
+  </club>
+  <club name="Kidderminster Harriers">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Aggborough Stadium"/>
+    <contracts>
+      <contract player="2018"/>
+      <contract player="2110"/>
+      <contract player="2126"/>
+      <contract player="2279"/>
+      <contract player="6069"/>
+      <contract player="12028"/>
+      <contract player="46039"/>
+      <contract player="52015"/>
+      <contract player="56045"/>
+      <contract player="58037"/>
+      <contract player="58039"/>
+      <contract player="60012"/>
+      <contract player="60061"/>
+      <contract player="62024"/>
+      <contract player="62095"/>
+      <contract player="66061"/>
+      <contract player="66074"/>
+      <contract player="68048"/>
+      <contract player="76125"/>
+    </contracts>
+  </club>
+  <club name="Leeds United">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Elland Road"/>
+    <contracts>
+      <contract player="1"/>
+      <contract player="2124"/>
+      <contract player="2201"/>
+      <contract player="2236"/>
+      <contract player="6044"/>
+      <contract player="10001"/>
+      <contract player="14054"/>
+      <contract player="20019"/>
+      <contract player="24002"/>
+      <contract player="26005"/>
+      <contract player="30006"/>
+      <contract player="36030"/>
+      <contract player="38006"/>
+      <contract player="38013"/>
+      <contract player="40016"/>
+      <contract player="46022"/>
+      <contract player="56036"/>
+      <contract player="56072"/>
+      <contract player="60028"/>
+      <contract player="62037"/>
+      <contract player="66064"/>
+      <contract player="68033"/>
+      <contract player="68063"/>
+      <contract player="70016"/>
+      <contract player="70078"/>
+      <contract player="72018"/>
+      <contract player="72025"/>
+      <contract player="74010"/>
+      <contract player="74033"/>
+      <contract player="74097"/>
+      <contract player="74131"/>
+      <contract player="76040"/>
+    </contracts>
+  </club>
+  <club name="Leicester City">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="The Walkers Stadium"/>
+    <contracts>
+      <contract player="2019"/>
+      <contract player="2020"/>
+      <contract player="2094"/>
+      <contract player="2150"/>
+      <contract player="2251"/>
+      <contract player="6036"/>
+      <contract player="8024"/>
+      <contract player="16034"/>
+      <contract player="16040"/>
+      <contract player="24011"/>
+      <contract player="28057"/>
+      <contract player="32004"/>
+      <contract player="50016"/>
+      <contract player="50041"/>
+      <contract player="52005"/>
+      <contract player="56057"/>
+      <contract player="56061"/>
+      <contract player="58003"/>
+      <contract player="58009"/>
+      <contract player="58032"/>
+      <contract player="62026"/>
+      <contract player="64007"/>
+      <contract player="66018"/>
+      <contract player="68012"/>
+      <contract player="68085"/>
+      <contract player="70015"/>
+      <contract player="72055"/>
+      <contract player="72079"/>
+      <contract player="72158"/>
+      <contract player="72159"/>
+      <contract player="72189"/>
+      <contract player="74079"/>
+      <contract player="74089"/>
+      <contract player="80053"/>
+    </contracts>
+  </club>
+  <club name="Aston Villa">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Villa Park"/>
+    <contracts>
+      <contract player="2249"/>
+      <contract player="6053"/>
+      <contract player="12024"/>
+      <contract player="12026"/>
+      <contract player="12045"/>
+      <contract player="14057"/>
+      <contract player="18038"/>
+      <contract player="20006"/>
+      <contract player="28045"/>
+      <contract player="36028"/>
+      <contract player="40038"/>
+      <contract player="50064"/>
+      <contract player="52009"/>
+      <contract player="64013"/>
+      <contract player="66009"/>
+      <contract player="66035"/>
+      <contract player="70008"/>
+      <contract player="70009"/>
+      <contract player="76052"/>
+      <contract player="80048"/>
+      <contract player="80070"/>
+    </contracts>
+  </club>
+  <club name="Lincoln City">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Sincil Bank"/>
+    <contracts>
+      <contract player="2031"/>
+      <contract player="2060"/>
+      <contract player="2138"/>
+      <contract player="2189"/>
+      <contract player="12030"/>
+      <contract player="14008"/>
+      <contract player="14016"/>
+      <contract player="14018"/>
+      <contract player="38004"/>
+      <contract player="44019"/>
+      <contract player="52031"/>
+      <contract player="54031"/>
+      <contract player="56010"/>
+      <contract player="62048"/>
+      <contract player="68023"/>
+      <contract player="70004"/>
+      <contract player="70005"/>
+      <contract player="70044"/>
+      <contract player="72022"/>
+      <contract player="72053"/>
+      <contract player="74113"/>
+      <contract player="76100"/>
+      <contract player="76105"/>
+    </contracts>
+  </club>
+  <club name="Liverpool">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Anfield"/>
+    <contracts>
+      <contract player="2055"/>
+      <contract player="2234"/>
+      <contract player="2308"/>
+      <contract player="12001"/>
+      <contract player="12044"/>
+      <contract player="14046"/>
+      <contract player="18036"/>
+      <contract player="22012"/>
+      <contract player="28014"/>
+      <contract player="28025"/>
+      <contract player="30008"/>
+      <contract player="34007"/>
+      <contract player="40022"/>
+      <contract player="42009"/>
+      <contract player="44003"/>
+      <contract player="50057"/>
+      <contract player="52023"/>
+      <contract player="54008"/>
+      <contract player="56015"/>
+      <contract player="58065"/>
+      <contract player="60020"/>
+      <contract player="60040"/>
+      <contract player="62031"/>
+      <contract player="62122"/>
+      <contract player="66016"/>
+      <contract player="70021"/>
+      <contract player="70022"/>
+      <contract player="70068"/>
+      <contract player="70071"/>
+      <contract player="70072"/>
+      <contract player="70073"/>
+      <contract player="72008"/>
+      <contract player="72061"/>
+      <contract player="72088"/>
+      <contract player="74077"/>
+      <contract player="74078"/>
+      <contract player="74117"/>
+      <contract player="76130"/>
+    </contracts>
+  </club>
+  <club name="Macclesfield Town">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Moss Rose"/>
+    <contracts>
+      <contract player="2049"/>
+      <contract player="4021"/>
+      <contract player="12057"/>
+      <contract player="14063"/>
+      <contract player="16017"/>
+      <contract player="16039"/>
+      <contract player="20024"/>
+      <contract player="28054"/>
+      <contract player="44014"/>
+      <contract player="48019"/>
+      <contract player="54007"/>
+      <contract player="54022"/>
+      <contract player="60059"/>
+      <contract player="66037"/>
+      <contract player="68024"/>
+      <contract player="68025"/>
+      <contract player="68088"/>
+      <contract player="70075"/>
+      <contract player="70079"/>
+      <contract player="72188"/>
+      <contract player="74101"/>
+      <contract player="76041"/>
+      <contract player="76049"/>
+      <contract player="76094"/>
+      <contract player="76114"/>
+      <contract player="80039"/>
+    </contracts>
+  </club>
+  <club name="Middlesbrough">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Riverside Stadium"/>
+    <contracts>
+      <contract player="2335"/>
+      <contract player="10019"/>
+      <contract player="18010"/>
+      <contract player="18019"/>
+      <contract player="18022"/>
+      <contract player="22020"/>
+      <contract player="24023"/>
+      <contract player="28056"/>
+      <contract player="30005"/>
+      <contract player="32014"/>
+      <contract player="36029"/>
+      <contract player="38025"/>
+      <contract player="40002"/>
+      <contract player="42001"/>
+      <contract player="42004"/>
+      <contract player="54002"/>
+      <contract player="56017"/>
+      <contract player="58007"/>
+      <contract player="58023"/>
+      <contract player="58058"/>
+      <contract player="60069"/>
+      <contract player="62001"/>
+      <contract player="66011"/>
+      <contract player="66090"/>
+      <contract player="66091"/>
+      <contract player="68091"/>
+      <contract player="72104"/>
+      <contract player="74002"/>
+      <contract player="74003"/>
+      <contract player="76010"/>
+    </contracts>
+  </club>
+  <club name="Millwall">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="The New Den"/>
+    <contracts>
+      <contract player="2039"/>
+      <contract player="2178"/>
+      <contract player="2317"/>
+      <contract player="4016"/>
+      <contract player="6078"/>
+      <contract player="12033"/>
+      <contract player="16012"/>
+      <contract player="16025"/>
+      <contract player="18025"/>
+      <contract player="20003"/>
+      <contract player="22033"/>
+      <contract player="28044"/>
+      <contract player="32021"/>
+      <contract player="40028"/>
+      <contract player="46029"/>
+      <contract player="50033"/>
+      <contract player="52042"/>
+      <contract player="56007"/>
+      <contract player="62108"/>
+      <contract player="62110"/>
+      <contract player="64062"/>
+      <contract player="68028"/>
+      <contract player="68060"/>
+      <contract player="68074"/>
+      <contract player="70007"/>
+      <contract player="72014"/>
+      <contract player="72150"/>
+      <contract player="74120"/>
+      <contract player="76026"/>
+      <contract player="76059"/>
+      <contract player="80001"/>
+      <contract player="80044"/>
+      <contract player="80076"/>
+    </contracts>
+  </club>
+  <club name="Manchester City">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="City of Manchester Stadium"/>
+    <contracts>
+      <contract player="2041"/>
+      <contract player="2134"/>
+      <contract player="2250"/>
+      <contract player="6024"/>
+      <contract player="6026"/>
+      <contract player="18040"/>
+      <contract player="24016"/>
+      <contract player="30010"/>
+      <contract player="30013"/>
+      <contract player="32001"/>
+      <contract player="36005"/>
+      <contract player="36009"/>
+      <contract player="38031"/>
+      <contract player="48026"/>
+      <contract player="48037"/>
+      <contract player="54012"/>
+      <contract player="56060"/>
+      <contract player="58064"/>
+      <contract player="60025"/>
+      <contract player="62075"/>
+      <contract player="62076"/>
+      <contract player="68017"/>
+      <contract player="70001"/>
+      <contract player="70027"/>
+      <contract player="70094"/>
+      <contract player="72030"/>
+      <contract player="72062"/>
+      <contract player="72138"/>
+      <contract player="74042"/>
+      <contract player="74080"/>
+      <contract player="74081"/>
+      <contract player="80042"/>
+      <contract player="80050"/>
+    </contracts>
+  </club>
+  <club name="Mansfield Town">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Field Mill"/>
+    <contracts>
+      <contract player="2139"/>
+      <contract player="8011"/>
+      <contract player="12061"/>
+      <contract player="14004"/>
+      <contract player="14033"/>
+      <contract player="14036"/>
+      <contract player="40024"/>
+      <contract player="44013"/>
+      <contract player="44051"/>
+      <contract player="46035"/>
+      <contract player="46036"/>
+      <contract player="50045"/>
+      <contract player="56006"/>
+      <contract player="58069"/>
+      <contract player="60021"/>
+      <contract player="60023"/>
+      <contract player="60034"/>
+      <contract player="62067"/>
+      <contract player="64001"/>
+      <contract player="66088"/>
+      <contract player="70030"/>
+      <contract player="72077"/>
+      <contract player="72083"/>
+      <contract player="74046"/>
+      <contract player="74107"/>
+      <contract player="78013"/>
+    </contracts>
+  </club>
+  <club name="Manchester United">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Old Trafford"/>
+    <contracts>
+      <contract player="2068"/>
+      <contract player="2145"/>
+      <contract player="2173"/>
+      <contract player="2175"/>
+      <contract player="2239"/>
+      <contract player="12011"/>
+      <contract player="12031"/>
+      <contract player="14001"/>
+      <contract player="16007"/>
+      <contract player="20020"/>
+      <contract player="22043"/>
+      <contract player="24017"/>
+      <contract player="32009"/>
+      <contract player="32012"/>
+      <contract player="40037"/>
+      <contract player="46018"/>
+      <contract player="50070"/>
+      <contract player="52038"/>
+      <contract player="54016"/>
+      <contract player="58068"/>
+      <contract player="62105"/>
+      <contract player="64018"/>
+      <contract player="64036"/>
+      <contract player="64039"/>
+      <contract player="68076"/>
+      <contract player="68081"/>
+      <contract player="70011"/>
+      <contract player="70018"/>
+      <contract player="70020"/>
+      <contract player="72017"/>
+      <contract player="72060"/>
+      <contract player="72071"/>
+      <contract player="72107"/>
+      <contract player="74022"/>
+      <contract player="76018"/>
+      <contract player="76019"/>
+      <contract player="76038"/>
+      <contract player="76136"/>
+      <contract player="80064"/>
+    </contracts>
+  </club>
+  <club name="Morecambe">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Morecambe Stadium"/>
+    <contracts>
+      <contract player="2186"/>
+      <contract player="4011"/>
+      <contract player="6050"/>
+      <contract player="8014"/>
+      <contract player="8015"/>
+      <contract player="12047"/>
+      <contract player="12062"/>
+      <contract player="14053"/>
+      <contract player="16002"/>
+      <contract player="32024"/>
+      <contract player="36016"/>
+      <contract player="36018"/>
+      <contract player="36021"/>
+      <contract player="40025"/>
+      <contract player="44028"/>
+      <contract player="46037"/>
+      <contract player="50058"/>
+      <contract player="58047"/>
+      <contract player="58052"/>
+      <contract player="60007"/>
+      <contract player="62100"/>
+      <contract player="62101"/>
+      <contract player="64058"/>
+      <contract player="72034"/>
+      <contract player="74049"/>
+      <contract player="80011"/>
+      <contract player="80061"/>
+    </contracts>
+  </club>
+  <club name="Newcastle United">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="St James' Park"/>
+    <contracts>
+      <contract player="2010"/>
+      <contract player="2015"/>
+      <contract player="2070"/>
+      <contract player="2081"/>
+      <contract player="6005"/>
+      <contract player="6006"/>
+      <contract player="14058"/>
+      <contract player="18002"/>
+      <contract player="22046"/>
+      <contract player="24006"/>
+      <contract player="28015"/>
+      <contract player="32007"/>
+      <contract player="36007"/>
+      <contract player="44011"/>
+      <contract player="46054"/>
+      <contract player="48003"/>
+      <contract player="48016"/>
+      <contract player="54017"/>
+      <contract player="58029"/>
+      <contract player="68072"/>
+      <contract player="70032"/>
+      <contract player="70033"/>
+      <contract player="70062"/>
+      <contract player="70069"/>
+      <contract player="70093"/>
+      <contract player="72182"/>
+      <contract player="74006"/>
+    </contracts>
+  </club>
+  <club name="Nottingham Forest">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="City Ground"/>
+    <contracts>
+      <contract player="2122"/>
+      <contract player="2166"/>
+      <contract player="4019"/>
+      <contract player="14060"/>
+      <contract player="20008"/>
+      <contract player="28041"/>
+      <contract player="36013"/>
+      <contract player="40026"/>
+      <contract player="48034"/>
+      <contract player="48061"/>
+      <contract player="48062"/>
+      <contract player="50008"/>
+      <contract player="52018"/>
+      <contract player="54001"/>
+      <contract player="54037"/>
+      <contract player="56021"/>
+      <contract player="64027"/>
+      <contract player="68013"/>
+      <contract player="70003"/>
+      <contract player="72023"/>
+      <contract player="72059"/>
+      <contract player="72078"/>
+      <contract player="74011"/>
+      <contract player="74012"/>
+      <contract player="76032"/>
+      <contract player="76057"/>
+      <contract player="76095"/>
+      <contract player="76104"/>
+      <contract player="76144"/>
+    </contracts>
+  </club>
+  <club name="Norwich City">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Carrow Road"/>
+    <contracts>
+      <contract player="2035"/>
+      <contract player="2046"/>
+      <contract player="2095"/>
+      <contract player="2267"/>
+      <contract player="10021"/>
+      <contract player="12066"/>
+      <contract player="16005"/>
+      <contract player="18030"/>
+      <contract player="20005"/>
+      <contract player="20012"/>
+      <contract player="44018"/>
+      <contract player="46043"/>
+      <contract player="48039"/>
+      <contract player="48059"/>
+      <contract player="58040"/>
+      <contract player="62109"/>
+      <contract player="66019"/>
+      <contract player="66020"/>
+      <contract player="66052"/>
+      <contract player="66054"/>
+      <contract player="68020"/>
+      <contract player="68086"/>
+      <contract player="68087"/>
+      <contract player="72070"/>
+      <contract player="72080"/>
+      <contract player="76098"/>
+      <contract player="80063"/>
+    </contracts>
+  </club>
+  <club name="Notts County">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Meadow Lane"/>
+    <contracts>
+      <contract player="2105"/>
+      <contract player="2116"/>
+      <contract player="2156"/>
+      <contract player="2320"/>
+      <contract player="6015"/>
+      <contract player="6051"/>
+      <contract player="8020"/>
+      <contract player="16019"/>
+      <contract player="16036"/>
+      <contract player="20013"/>
+      <contract player="20032"/>
+      <contract player="26007"/>
+      <contract player="28038"/>
+      <contract player="44050"/>
+      <contract player="54019"/>
+      <contract player="56055"/>
+      <contract player="62060"/>
+      <contract player="66070"/>
+      <contract player="68047"/>
+      <contract player="72103"/>
+      <contract player="72116"/>
+      <contract player="80021"/>
+      <contract player="80085"/>
+    </contracts>
+  </club>
+  <club name="Oldham Athletic">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Boundary Park"/>
+    <contracts>
+      <contract player="2034"/>
+      <contract player="2077"/>
+      <contract player="2096"/>
+      <contract player="2119"/>
+      <contract player="2271"/>
+      <contract player="2273"/>
+      <contract player="2318"/>
+      <contract player="32006"/>
+      <contract player="38005"/>
+      <contract player="44007"/>
+      <contract player="54006"/>
+      <contract player="54028"/>
+      <contract player="56035"/>
+      <contract player="58020"/>
+      <contract player="60052"/>
+      <contract player="66047"/>
+      <contract player="66087"/>
+      <contract player="72039"/>
+      <contract player="72048"/>
+      <contract player="72122"/>
+      <contract player="72123"/>
+      <contract player="72194"/>
+      <contract player="74060"/>
+      <contract player="74124"/>
+      <contract player="76110"/>
+      <contract player="76131"/>
+      <contract player="76138"/>
+    </contracts>
+  </club>
+  <club name="Oxford United">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="The Kassam Stadium"/>
+    <contracts>
+      <contract player="2258"/>
+      <contract player="2293"/>
+      <contract player="6016"/>
+      <contract player="12034"/>
+      <contract player="22010"/>
+      <contract player="22031"/>
+      <contract player="26008"/>
+      <contract player="28032"/>
+      <contract player="56039"/>
+      <contract player="58046"/>
+      <contract player="58056"/>
+      <contract player="62099"/>
+      <contract player="68049"/>
+      <contract player="70019"/>
+      <contract player="72012"/>
+      <contract player="74108"/>
+      <contract player="76001"/>
+      <contract player="76007"/>
+      <contract player="76028"/>
+    </contracts>
+  </club>
+  <club name="Peterborough United">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Peterborough United Stadium"/>
+    <contracts>
+      <contract player="2100"/>
+      <contract player="2207"/>
+      <contract player="2257"/>
+      <contract player="2286"/>
+      <contract player="2294"/>
+      <contract player="12049"/>
+      <contract player="16033"/>
+      <contract player="34008"/>
+      <contract player="38001"/>
+      <contract player="40013"/>
+      <contract player="46038"/>
+      <contract player="50044"/>
+      <contract player="52026"/>
+      <contract player="56067"/>
+      <contract player="58011"/>
+      <contract player="60037"/>
+      <contract player="64047"/>
+      <contract player="68095"/>
+      <contract player="70047"/>
+      <contract player="70048"/>
+      <contract player="72064"/>
+      <contract player="72065"/>
+      <contract player="72099"/>
+      <contract player="74001"/>
+    </contracts>
+  </club>
+  <club name="Plymouth Argyle">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Home Park"/>
+    <contracts>
+      <contract player="2088"/>
+      <contract player="2228"/>
+      <contract player="12050"/>
+      <contract player="16022"/>
+      <contract player="22044"/>
+      <contract player="26018"/>
+      <contract player="26020"/>
+      <contract player="28026"/>
+      <contract player="34006"/>
+      <contract player="36025"/>
+      <contract player="40006"/>
+      <contract player="48015"/>
+      <contract player="50038"/>
+      <contract player="54020"/>
+      <contract player="56071"/>
+      <contract player="60050"/>
+      <contract player="62016"/>
+      <contract player="70098"/>
+      <contract player="72020"/>
+      <contract player="72109"/>
+      <contract player="72110"/>
+      <contract player="72111"/>
+    </contracts>
+  </club>
+  <club name="Portsmouth">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Fratton Park"/>
+    <contracts>
+      <contract player="2"/>
+      <contract player="2013"/>
+      <contract player="2103"/>
+      <contract player="2107"/>
+      <contract player="2162"/>
+      <contract player="2330"/>
+      <contract player="10002"/>
+      <contract player="12021"/>
+      <contract player="12036"/>
+      <contract player="14007"/>
+      <contract player="14041"/>
+      <contract player="24018"/>
+      <contract player="38015"/>
+      <contract player="38024"/>
+      <contract player="40020"/>
+      <contract player="40032"/>
+      <contract player="44043"/>
+      <contract player="46027"/>
+      <contract player="46049"/>
+      <contract player="48002"/>
+      <contract player="56029"/>
+      <contract player="62053"/>
+      <contract player="64006"/>
+      <contract player="66059"/>
+      <contract player="68056"/>
+      <contract player="70064"/>
+      <contract player="70103"/>
+      <contract player="72003"/>
+      <contract player="72198"/>
+      <contract player="76067"/>
+      <contract player="80031"/>
+    </contracts>
+  </club>
+  <club name="Preston North End">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Deepdale"/>
+    <contracts>
+      <contract player="2313"/>
+      <contract player="2328"/>
+      <contract player="8010"/>
+      <contract player="10009"/>
+      <contract player="10025"/>
+      <contract player="20002"/>
+      <contract player="22015"/>
+      <contract player="24014"/>
+      <contract player="26026"/>
+      <contract player="28002"/>
+      <contract player="34001"/>
+      <contract player="38032"/>
+      <contract player="44016"/>
+      <contract player="46030"/>
+      <contract player="48027"/>
+      <contract player="48043"/>
+      <contract player="48055"/>
+      <contract player="50035"/>
+      <contract player="52033"/>
+      <contract player="56059"/>
+      <contract player="60029"/>
+      <contract player="68078"/>
+      <contract player="70089"/>
+      <contract player="74069"/>
+      <contract player="80027"/>
+      <contract player="80082"/>
+    </contracts>
+  </club>
+  <club name="Port Vale">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Vale Park"/>
+    <contracts>
+      <contract player="2131"/>
+      <contract player="2314"/>
+      <contract player="6042"/>
+      <contract player="6062"/>
+      <contract player="14021"/>
+      <contract player="16020"/>
+      <contract player="22018"/>
+      <contract player="26004"/>
+      <contract player="28051"/>
+      <contract player="32002"/>
+      <contract player="36015"/>
+      <contract player="44034"/>
+      <contract player="54023"/>
+      <contract player="54035"/>
+      <contract player="58048"/>
+      <contract player="62121"/>
+      <contract player="62123"/>
+      <contract player="64035"/>
+      <contract player="64041"/>
+      <contract player="70060"/>
+      <contract player="74102"/>
+      <contract player="74122"/>
+      <contract player="74125"/>
+      <contract player="76037"/>
+      <contract player="76118"/>
+      <contract player="76119"/>
+      <contract player="76142"/>
+      <contract player="78004"/>
+      <contract player="78019"/>
+    </contracts>
+  </club>
+  <club name="Queen's Park Rangers">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Loftus Road"/>
+    <contracts>
+      <contract player="8009"/>
+      <contract player="12005"/>
+      <contract player="12043"/>
+      <contract player="14040"/>
+      <contract player="18023"/>
+      <contract player="26001"/>
+      <contract player="26025"/>
+      <contract player="34019"/>
+      <contract player="36037"/>
+      <contract player="40031"/>
+      <contract player="48020"/>
+      <contract player="50018"/>
+      <contract player="52002"/>
+      <contract player="56030"/>
+      <contract player="58001"/>
+      <contract player="58012"/>
+      <contract player="60044"/>
+      <contract player="60064"/>
+      <contract player="62012"/>
+      <contract player="62014"/>
+      <contract player="64034"/>
+      <contract player="72004"/>
+      <contract player="76011"/>
+      <contract player="76013"/>
+      <contract player="76061"/>
+      <contract player="76075"/>
+      <contract player="78016"/>
+      <contract player="88001"/>
+    </contracts>
+  </club>
+  <club name="Rushden &amp; Diamonds">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Nene Park"/>
+    <contracts>
+      <contract player="2063"/>
+      <contract player="2091"/>
+      <contract player="2242"/>
+      <contract player="2327"/>
+      <contract player="10017"/>
+      <contract player="14026"/>
+      <contract player="14027"/>
+      <contract player="46052"/>
+      <contract player="56014"/>
+      <contract player="58034"/>
+      <contract player="62115"/>
+      <contract player="64026"/>
+      <contract player="66089"/>
+      <contract player="68052"/>
+      <contract player="68069"/>
+      <contract player="70082"/>
+      <contract player="72031"/>
+      <contract player="72032"/>
+      <contract player="72085"/>
+      <contract player="72094"/>
+      <contract player="72203"/>
+      <contract player="76135"/>
+      <contract player="78001"/>
+      <contract player="80013"/>
+    </contracts>
+  </club>
+  <club name="Reading">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Madejski Stadium"/>
+    <contracts>
+      <contract player="2045"/>
+      <contract player="2121"/>
+      <contract player="2144"/>
+      <contract player="2280"/>
+      <contract player="12048"/>
+      <contract player="12064"/>
+      <contract player="14015"/>
+      <contract player="16014"/>
+      <contract player="16042"/>
+      <contract player="20011"/>
+      <contract player="26022"/>
+      <contract player="26028"/>
+      <contract player="28001"/>
+      <contract player="28020"/>
+      <contract player="28030"/>
+      <contract player="38010"/>
+      <contract player="40035"/>
+      <contract player="44039"/>
+      <contract player="44042"/>
+      <contract player="54009"/>
+      <contract player="58006"/>
+      <contract player="60055"/>
+      <contract player="62032"/>
+      <contract player="62033"/>
+      <contract player="64009"/>
+      <contract player="66034"/>
+      <contract player="68054"/>
+      <contract player="68098"/>
+      <contract player="72002"/>
+      <contract player="72024"/>
+      <contract player="72063"/>
+      <contract player="72098"/>
+      <contract player="72169"/>
+      <contract player="72172"/>
+      <contract player="74035"/>
+      <contract player="74036"/>
+      <contract player="74110"/>
+      <contract player="76004"/>
+      <contract player="76048"/>
+      <contract player="76066"/>
+      <contract player="76115"/>
+      <contract player="76122"/>
+    </contracts>
+  </club>
+  <club name="Rochdale">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Spotland"/>
+    <contracts>
+      <contract player="2032"/>
+      <contract player="2043"/>
+      <contract player="2203"/>
+      <contract player="6077"/>
+      <contract player="24021"/>
+      <contract player="34005"/>
+      <contract player="36010"/>
+      <contract player="36023"/>
+      <contract player="38012"/>
+      <contract player="46028"/>
+      <contract player="50007"/>
+      <contract player="52011"/>
+      <contract player="56033"/>
+      <contract player="62023"/>
+      <contract player="62063"/>
+      <contract player="66086"/>
+      <contract player="68057"/>
+      <contract player="72013"/>
+      <contract player="72121"/>
+      <contract player="74038"/>
+      <contract player="74104"/>
+      <contract player="76015"/>
+      <contract player="76078"/>
+      <contract player="78009"/>
+      <contract player="78010"/>
+      <contract player="80030"/>
+    </contracts>
+  </club>
+  <club name="Rotherham United">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Millmoor"/>
+    <contracts>
+      <contract player="2058"/>
+      <contract player="2099"/>
+      <contract player="2216"/>
+      <contract player="2261"/>
+      <contract player="2302"/>
+      <contract player="6056"/>
+      <contract player="8004"/>
+      <contract player="14012"/>
+      <contract player="26024"/>
+      <contract player="32003"/>
+      <contract player="44038"/>
+      <contract player="48050"/>
+      <contract player="52017"/>
+      <contract player="56016"/>
+      <contract player="60065"/>
+      <contract player="60066"/>
+      <contract player="64019"/>
+      <contract player="64029"/>
+      <contract player="64061"/>
+      <contract player="68092"/>
+      <contract player="70088"/>
+      <contract player="72081"/>
+      <contract player="72100"/>
+      <contract player="74015"/>
+      <contract player="74016"/>
+      <contract player="76025"/>
+      <contract player="76132"/>
+    </contracts>
+  </club>
+  <club name="Scunthorpe United">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Glanford Park"/>
+    <contracts>
+      <contract player="2033"/>
+      <contract player="2092"/>
+      <contract player="2161"/>
+      <contract player="4006"/>
+      <contract player="12013"/>
+      <contract player="14032"/>
+      <contract player="14035"/>
+      <contract player="20017"/>
+      <contract player="32020"/>
+      <contract player="40030"/>
+      <contract player="46034"/>
+      <contract player="46050"/>
+      <contract player="52016"/>
+      <contract player="54030"/>
+      <contract player="56003"/>
+      <contract player="58051"/>
+      <contract player="62013"/>
+      <contract player="62046"/>
+      <contract player="70006"/>
+      <contract player="70026"/>
+      <contract player="76091"/>
+      <contract player="78002"/>
+    </contracts>
+  </club>
+  <club name="Shrewsbury Town">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="New Meadow"/>
+    <contracts>
+      <contract player="2025"/>
+      <contract player="2141"/>
+      <contract player="6046"/>
+      <contract player="18006"/>
+      <contract player="20030"/>
+      <contract player="44037"/>
+      <contract player="50049"/>
+      <contract player="52012"/>
+      <contract player="54032"/>
+      <contract player="56001"/>
+      <contract player="56011"/>
+      <contract player="56046"/>
+      <contract player="58022"/>
+      <contract player="64015"/>
+      <contract player="64043"/>
+      <contract player="68077"/>
+      <contract player="70066"/>
+      <contract player="72052"/>
+      <contract player="74008"/>
+      <contract player="74047"/>
+      <contract player="80057"/>
+    </contracts>
+  </club>
+  <club name="Sheffield United">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Bramall Lane"/>
+    <contracts>
+      <contract player="2052"/>
+      <contract player="2067"/>
+      <contract player="2069"/>
+      <contract player="2085"/>
+      <contract player="2125"/>
+      <contract player="2188"/>
+      <contract player="2272"/>
+      <contract player="2276"/>
+      <contract player="2303"/>
+      <contract player="4009"/>
+      <contract player="8012"/>
+      <contract player="14011"/>
+      <contract player="14062"/>
+      <contract player="16038"/>
+      <contract player="22025"/>
+      <contract player="26017"/>
+      <contract player="28009"/>
+      <contract player="28037"/>
+      <contract player="44032"/>
+      <contract player="46019"/>
+      <contract player="48012"/>
+      <contract player="50068"/>
+      <contract player="56063"/>
+      <contract player="62111"/>
+      <contract player="64011"/>
+      <contract player="64031"/>
+      <contract player="66051"/>
+      <contract player="66100"/>
+      <contract player="70043"/>
+      <contract player="72028"/>
+      <contract player="72040"/>
+      <contract player="72051"/>
+      <contract player="74019"/>
+      <contract player="76060"/>
+      <contract player="76062"/>
+    </contracts>
+  </club>
+  <club name="Sheffield Wednesday">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Hillsborough"/>
+    <contracts>
+      <contract player="2006"/>
+      <contract player="2212"/>
+      <contract player="2219"/>
+      <contract player="6076"/>
+      <contract player="10013"/>
+      <contract player="20028"/>
+      <contract player="24009"/>
+      <contract player="28035"/>
+      <contract player="34002"/>
+      <contract player="48056"/>
+      <contract player="50002"/>
+      <contract player="50030"/>
+      <contract player="50065"/>
+      <contract player="52021"/>
+      <contract player="66050"/>
+      <contract player="66053"/>
+      <contract player="68035"/>
+      <contract player="68038"/>
+      <contract player="68070"/>
+      <contract player="68071"/>
+      <contract player="70105"/>
+      <contract player="72057"/>
+      <contract player="72147"/>
+      <contract player="72148"/>
+      <contract player="74044"/>
+      <contract player="80017"/>
+      <contract player="80074"/>
+    </contracts>
+  </club>
+  <club name="Bradford City">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Valley Parade"/>
+    <contracts>
+      <contract player="2053"/>
+      <contract player="2202"/>
+      <contract player="2221"/>
+      <contract player="2225"/>
+      <contract player="6061"/>
+      <contract player="10003"/>
+      <contract player="12052"/>
+      <contract player="20026"/>
+      <contract player="42006"/>
+      <contract player="48038"/>
+      <contract player="52039"/>
+      <contract player="54005"/>
+      <contract player="56051"/>
+      <contract player="58017"/>
+      <contract player="62036"/>
+      <contract player="66073"/>
+      <contract player="68004"/>
+      <contract player="68039"/>
+      <contract player="72153"/>
+      <contract player="74028"/>
+      <contract player="74032"/>
+      <contract player="74054"/>
+      <contract player="74055"/>
+      <contract player="76033"/>
+      <contract player="76074"/>
+      <contract player="78005"/>
+      <contract player="80049"/>
+    </contracts>
+  </club>
+  <club name="Southend United">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Roots Hall"/>
+    <contracts>
+      <contract player="2057"/>
+      <contract player="2297"/>
+      <contract player="6047"/>
+      <contract player="12056"/>
+      <contract player="14037"/>
+      <contract player="16021"/>
+      <contract player="22008"/>
+      <contract player="26033"/>
+      <contract player="28039"/>
+      <contract player="46045"/>
+      <contract player="46047"/>
+      <contract player="48014"/>
+      <contract player="50036"/>
+      <contract player="56064"/>
+      <contract player="62019"/>
+      <contract player="62098"/>
+      <contract player="66004"/>
+      <contract player="66057"/>
+      <contract player="72168"/>
+      <contract player="74037"/>
+      <contract player="76039"/>
+      <contract player="76045"/>
+      <contract player="80029"/>
+    </contracts>
+  </club>
+  <club name="Stockport County">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Edgeley Park"/>
+    <contracts>
+      <contract player="6058"/>
+      <contract player="12006"/>
+      <contract player="20016"/>
+      <contract player="30002"/>
+      <contract player="30012"/>
+      <contract player="34010"/>
+      <contract player="40034"/>
+      <contract player="52008"/>
+      <contract player="54021"/>
+      <contract player="56024"/>
+      <contract player="60032"/>
+      <contract player="62017"/>
+      <contract player="62062"/>
+      <contract player="62096"/>
+      <contract player="62112"/>
+      <contract player="64024"/>
+      <contract player="66014"/>
+      <contract player="68094"/>
+      <contract player="70029"/>
+      <contract player="70080"/>
+      <contract player="70095"/>
+      <contract player="72173"/>
+      <contract player="78014"/>
+      <contract player="78015"/>
+    </contracts>
+  </club>
+  <club name="Stoke City">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Britannia Stadium"/>
+    <contracts>
+      <contract player="2001"/>
+      <contract player="2040"/>
+      <contract player="2093"/>
+      <contract player="2129"/>
+      <contract player="2245"/>
+      <contract player="2319"/>
+      <contract player="6052"/>
+      <contract player="12038"/>
+      <contract player="18004"/>
+      <contract player="28013"/>
+      <contract player="30009"/>
+      <contract player="32015"/>
+      <contract player="32016"/>
+      <contract player="34014"/>
+      <contract player="36012"/>
+      <contract player="46003"/>
+      <contract player="54026"/>
+      <contract player="56070"/>
+      <contract player="60002"/>
+      <contract player="66030"/>
+      <contract player="70010"/>
+      <contract player="74086"/>
+      <contract player="74087"/>
+      <contract player="80026"/>
+    </contracts>
+  </club>
+  <club name="Stafford Rangers">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Stafford Rangers Stadium"/>
+    <contracts>
+      <contract player="2076"/>
+      <contract player="2168"/>
+      <contract player="2291"/>
+      <contract player="30003"/>
+      <contract player="38014"/>
+      <contract player="46060"/>
+      <contract player="60014"/>
+      <contract player="62009"/>
+      <contract player="66080"/>
+      <contract player="68029"/>
+      <contract player="68051"/>
+      <contract player="68066"/>
+      <contract player="70084"/>
+      <contract player="72211"/>
+      <contract player="72212"/>
+      <contract player="72213"/>
+      <contract player="72214"/>
+      <contract player="74063"/>
+      <contract player="74070"/>
+      <contract player="74095"/>
+      <contract player="74096"/>
+      <contract player="74118"/>
+      <contract player="76017"/>
+      <contract player="76044"/>
+      <contract player="76089"/>
+      <contract player="76097"/>
+      <contract player="76109"/>
+      <contract player="76124"/>
+      <contract player="80079"/>
+    </contracts>
+  </club>
+  <club name="Sunderland">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Stadium of Light"/>
+    <contracts>
+      <contract player="2022"/>
+      <contract player="2024"/>
+      <contract player="2083"/>
+      <contract player="2108"/>
+      <contract player="2213"/>
+      <contract player="2232"/>
+      <contract player="8002"/>
+      <contract player="8003"/>
+      <contract player="12016"/>
+      <contract player="16031"/>
+      <contract player="20004"/>
+      <contract player="20018"/>
+      <contract player="20031"/>
+      <contract player="22041"/>
+      <contract player="26015"/>
+      <contract player="28022"/>
+      <contract player="38020"/>
+      <contract player="42005"/>
+      <contract player="44012"/>
+      <contract player="44027"/>
+      <contract player="46026"/>
+      <contract player="50034"/>
+      <contract player="54013"/>
+      <contract player="56040"/>
+      <contract player="58067"/>
+      <contract player="60013"/>
+      <contract player="62029"/>
+      <contract player="64033"/>
+      <contract player="68010"/>
+      <contract player="72183"/>
+      <contract player="74017"/>
+      <contract player="74040"/>
+      <contract player="76027"/>
+      <contract player="76058"/>
+      <contract player="76083"/>
+      <contract player="80066"/>
+    </contracts>
+  </club>
+  <club name="Stevenage Borough">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Stevenage Borough Stadium"/>
+    <contracts>
+      <contract player="2148"/>
+      <contract player="2220"/>
+      <contract player="6002"/>
+      <contract player="6017"/>
+      <contract player="10020"/>
+      <contract player="16015"/>
+      <contract player="20015"/>
+      <contract player="24012"/>
+      <contract player="28047"/>
+      <contract player="38016"/>
+      <contract player="40003"/>
+      <contract player="46016"/>
+      <contract player="48057"/>
+      <contract player="50055"/>
+      <contract player="54003"/>
+      <contract player="54010"/>
+      <contract player="56068"/>
+      <contract player="62010"/>
+      <contract player="66046"/>
+      <contract player="68083"/>
+      <contract player="68093"/>
+      <contract player="70074"/>
+      <contract player="72006"/>
+      <contract player="72219"/>
+      <contract player="72220"/>
+      <contract player="74074"/>
+      <contract player="74088"/>
+      <contract player="76043"/>
+      <contract player="76080"/>
+    </contracts>
+  </club>
+  <club name="Swansea City">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="The Liberty Stadium"/>
+    <contracts>
+      <contract player="2256"/>
+      <contract player="2262"/>
+      <contract player="4005"/>
+      <contract player="18005"/>
+      <contract player="28016"/>
+      <contract player="36039"/>
+      <contract player="48008"/>
+      <contract player="48009"/>
+      <contract player="48047"/>
+      <contract player="52020"/>
+      <contract player="52037"/>
+      <contract player="60041"/>
+      <contract player="60060"/>
+      <contract player="62047"/>
+      <contract player="62073"/>
+      <contract player="62082"/>
+      <contract player="68043"/>
+      <contract player="70028"/>
+      <contract player="70097"/>
+      <contract player="72108"/>
+      <contract player="72139"/>
+      <contract player="72151"/>
+      <contract player="72197"/>
+      <contract player="74075"/>
+      <contract player="80073"/>
+      <contract player="80075"/>
+    </contracts>
+  </club>
+  <club name="Swindon Town">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Swindon Town Stadium"/>
+    <contracts>
+      <contract player="2152"/>
+      <contract player="2209"/>
+      <contract player="2224"/>
+      <contract player="2278"/>
+      <contract player="8005"/>
+      <contract player="10015"/>
+      <contract player="12069"/>
+      <contract player="28048"/>
+      <contract player="32025"/>
+      <contract player="40004"/>
+      <contract player="42003"/>
+      <contract player="46011"/>
+      <contract player="50037"/>
+      <contract player="52003"/>
+      <contract player="52032"/>
+      <contract player="62044"/>
+      <contract player="64008"/>
+      <contract player="72084"/>
+      <contract player="72135"/>
+      <contract player="72174"/>
+      <contract player="74050"/>
+      <contract player="74051"/>
+      <contract player="74052"/>
+      <contract player="74053"/>
+      <contract player="74103"/>
+      <contract player="76090"/>
+      <contract player="76099"/>
+      <contract player="78007"/>
+      <contract player="78008"/>
+    </contracts>
+  </club>
+  <club name="Torquay United">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Plainmoor"/>
+    <contracts>
+      <contract player="2080"/>
+      <contract player="2263"/>
+      <contract player="2321"/>
+      <contract player="10004"/>
+      <contract player="16035"/>
+      <contract player="22032"/>
+      <contract player="26031"/>
+      <contract player="26032"/>
+      <contract player="38008"/>
+      <contract player="48006"/>
+      <contract player="48025"/>
+      <contract player="64010"/>
+      <contract player="66010"/>
+      <contract player="66045"/>
+      <contract player="66103"/>
+      <contract player="70002"/>
+    </contracts>
+  </club>
+  <club name="Tottenham Hotspur">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="White Hart Lane"/>
+    <contracts>
+      <contract player="8025"/>
+      <contract player="12037"/>
+      <contract player="14044"/>
+      <contract player="18041"/>
+      <contract player="20021"/>
+      <contract player="22038"/>
+      <contract player="26009"/>
+      <contract player="26029"/>
+      <contract player="36002"/>
+      <contract player="40014"/>
+      <contract player="44002"/>
+      <contract player="46042"/>
+      <contract player="48001"/>
+      <contract player="48011"/>
+      <contract player="48028"/>
+      <contract player="50015"/>
+      <contract player="52004"/>
+      <contract player="54034"/>
+      <contract player="60010"/>
+      <contract player="62008"/>
+      <contract player="62078"/>
+      <contract player="66028"/>
+      <contract player="66075"/>
+      <contract player="68008"/>
+      <contract player="68062"/>
+      <contract player="68068"/>
+      <contract player="70040"/>
+      <contract player="70092"/>
+      <contract player="74112"/>
+      <contract player="74129"/>
+      <contract player="76055"/>
+      <contract player="76117"/>
+      <contract player="80010"/>
+      <contract player="80086"/>
+    </contracts>
+  </club>
+  <club name="Tranmere Rovers">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Prenton Park"/>
+    <contracts>
+      <contract player="2029"/>
+      <contract player="2132"/>
+      <contract player="2137"/>
+      <contract player="2140"/>
+      <contract player="2315"/>
+      <contract player="22036"/>
+      <contract player="22042"/>
+      <contract player="34003"/>
+      <contract player="36035"/>
+      <contract player="52027"/>
+      <contract player="62022"/>
+      <contract player="62093"/>
+      <contract player="66079"/>
+      <contract player="68015"/>
+      <contract player="68016"/>
+      <contract player="70045"/>
+      <contract player="72152"/>
+      <contract player="74048"/>
+      <contract player="80025"/>
+      <contract player="80052"/>
+    </contracts>
+  </club>
+  <club name="Walsall">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Bescot Stadium"/>
+    <contracts>
+      <contract player="2135"/>
+      <contract player="2169"/>
+      <contract player="2229"/>
+      <contract player="6073"/>
+      <contract player="12027"/>
+      <contract player="14043"/>
+      <contract player="16028"/>
+      <contract player="18035"/>
+      <contract player="24007"/>
+      <contract player="28023"/>
+      <contract player="38023"/>
+      <contract player="58018"/>
+      <contract player="58030"/>
+      <contract player="62025"/>
+      <contract player="62119"/>
+      <contract player="64021"/>
+      <contract player="64060"/>
+      <contract player="68001"/>
+      <contract player="72074"/>
+      <contract player="74092"/>
+      <contract player="78006"/>
+    </contracts>
+  </club>
+  <club name="West Bromwich Albion">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="The Hawthorns"/>
+    <contracts>
+      <contract player="2113"/>
+      <contract player="2155"/>
+      <contract player="2331"/>
+      <contract player="6012"/>
+      <contract player="6065"/>
+      <contract player="16041"/>
+      <contract player="18037"/>
+      <contract player="28042"/>
+      <contract player="30004"/>
+      <contract player="40005"/>
+      <contract player="46023"/>
+      <contract player="46033"/>
+      <contract player="50019"/>
+      <contract player="52047"/>
+      <contract player="54025"/>
+      <contract player="56002"/>
+      <contract player="60062"/>
+      <contract player="62030"/>
+      <contract player="62071"/>
+      <contract player="62077"/>
+      <contract player="66031"/>
+      <contract player="66032"/>
+      <contract player="68009"/>
+      <contract player="68019"/>
+      <contract player="70061"/>
+      <contract player="72181"/>
+    </contracts>
+  </club>
+  <club name="Weymouth">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Weymouth Stadium"/>
+    <contracts>
+      <contract player="2004"/>
+      <contract player="2017"/>
+      <contract player="2044"/>
+      <contract player="2265"/>
+      <contract player="2311"/>
+      <contract player="6011"/>
+      <contract player="6060"/>
+      <contract player="10026"/>
+      <contract player="20029"/>
+      <contract player="54024"/>
+      <contract player="62007"/>
+      <contract player="62061"/>
+      <contract player="62068"/>
+      <contract player="66015"/>
+      <contract player="66042"/>
+      <contract player="66101"/>
+      <contract player="68053"/>
+      <contract player="70024"/>
+      <contract player="70025"/>
+      <contract player="72015"/>
+      <contract player="72041"/>
+      <contract player="72056"/>
+      <contract player="74024"/>
+      <contract player="74025"/>
+      <contract player="76046"/>
+      <contract player="76113"/>
+      <contract player="76134"/>
+      <contract player="80007"/>
+    </contracts>
+  </club>
+  <club name="Wigan Athletic">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="JJB Stadium"/>
+    <contracts>
+      <contract player="2002"/>
+      <contract player="2086"/>
+      <contract player="2114"/>
+      <contract player="2158"/>
+      <contract player="2284"/>
+      <contract player="12002"/>
+      <contract player="12014"/>
+      <contract player="16027"/>
+      <contract player="18008"/>
+      <contract player="18012"/>
+      <contract player="18024"/>
+      <contract player="40033"/>
+      <contract player="44004"/>
+      <contract player="50017"/>
+      <contract player="58057"/>
+      <contract player="60026"/>
+      <contract player="66107"/>
+      <contract player="68084"/>
+      <contract player="70085"/>
+      <contract player="72118"/>
+      <contract player="72119"/>
+      <contract player="72120"/>
+      <contract player="80035"/>
+      <contract player="80054"/>
+      <contract player="80089"/>
+    </contracts>
+  </club>
+  <club name="West Ham United">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Boleyn Ground"/>
+    <contracts>
+      <contract player="2036"/>
+      <contract player="2164"/>
+      <contract player="2211"/>
+      <contract player="2231"/>
+      <contract player="2235"/>
+      <contract player="2243"/>
+      <contract player="4015"/>
+      <contract player="6003"/>
+      <contract player="6020"/>
+      <contract player="6032"/>
+      <contract player="6040"/>
+      <contract player="6043"/>
+      <contract player="6064"/>
+      <contract player="10005"/>
+      <contract player="12032"/>
+      <contract player="14025"/>
+      <contract player="24004"/>
+      <contract player="26002"/>
+      <contract player="26013"/>
+      <contract player="40027"/>
+      <contract player="48010"/>
+      <contract player="50060"/>
+      <contract player="54029"/>
+      <contract player="56027"/>
+      <contract player="58043"/>
+      <contract player="62064"/>
+      <contract player="66071"/>
+      <contract player="68041"/>
+      <contract player="68073"/>
+      <contract player="74130"/>
+      <contract player="76081"/>
+      <contract player="76087"/>
+      <contract player="76102"/>
+      <contract player="76116"/>
+      <contract player="76123"/>
+      <contract player="80077"/>
+    </contracts>
+  </club>
+  <club name="MK Dons">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="MK Dons Stadium"/>
+    <contracts>
+      <contract player="2012"/>
+      <contract player="2014"/>
+      <contract player="2066"/>
+      <contract player="2292"/>
+      <contract player="6028"/>
+      <contract player="6041"/>
+      <contract player="14009"/>
+      <contract player="14029"/>
+      <contract player="14031"/>
+      <contract player="20009"/>
+      <contract player="22016"/>
+      <contract player="24015"/>
+      <contract player="28011"/>
+      <contract player="42010"/>
+      <contract player="44035"/>
+      <contract player="48053"/>
+      <contract player="50013"/>
+      <contract player="60039"/>
+      <contract player="66005"/>
+      <contract player="66110"/>
+      <contract player="70059"/>
+      <contract player="74041"/>
+      <contract player="74127"/>
+      <contract player="76051"/>
+      <contract player="76093"/>
+      <contract player="80046"/>
+    </contracts>
+  </club>
+  <club name="Woking">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Woking Stadium"/>
+    <contracts>
+      <contract player="36026"/>
+      <contract player="38002"/>
+      <contract player="46001"/>
+      <contract player="50039"/>
+      <contract player="52019"/>
+      <contract player="58053"/>
+      <contract player="60038"/>
+      <contract player="62003"/>
+      <contract player="64050"/>
+      <contract player="70099"/>
+      <contract player="72016"/>
+      <contract player="72199"/>
+      <contract player="72200"/>
+      <contract player="72201"/>
+      <contract player="72202"/>
+      <contract player="74031"/>
+      <contract player="76016"/>
+      <contract player="76036"/>
+      <contract player="76076"/>
+      <contract player="78003"/>
+    </contracts>
+  </club>
+  <club name="Wolverhampton Wanderers">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Molineux"/>
+    <contracts>
+      <contract player="2030"/>
+      <contract player="2075"/>
+      <contract player="2253"/>
+      <contract player="4020"/>
+      <contract player="22001"/>
+      <contract player="28005"/>
+      <contract player="28031"/>
+      <contract player="44023"/>
+      <contract player="48013"/>
+      <contract player="48042"/>
+      <contract player="50003"/>
+      <contract player="50014"/>
+      <contract player="50032"/>
+      <contract player="52036"/>
+      <contract player="52045"/>
+      <contract player="52050"/>
+      <contract player="54036"/>
+      <contract player="56037"/>
+      <contract player="58004"/>
+      <contract player="58021"/>
+      <contract player="58038"/>
+      <contract player="62106"/>
+      <contract player="66022"/>
+      <contract player="66063"/>
+      <contract player="66066"/>
+      <contract player="68011"/>
+      <contract player="70038"/>
+      <contract player="72010"/>
+      <contract player="72011"/>
+      <contract player="72162"/>
+      <contract player="74018"/>
+      <contract player="76006"/>
+      <contract player="76073"/>
+      <contract player="80032"/>
+    </contracts>
+  </club>
+  <club name="Wrexham">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Wrexham Stadium"/>
+    <contracts>
+      <contract player="2079"/>
+      <contract player="2185"/>
+      <contract player="2214"/>
+      <contract player="2240"/>
+      <contract player="2287"/>
+      <contract player="2316"/>
+      <contract player="2339"/>
+      <contract player="6045"/>
+      <contract player="8018"/>
+      <contract player="28019"/>
+      <contract player="38021"/>
+      <contract player="46009"/>
+      <contract player="46032"/>
+      <contract player="50022"/>
+      <contract player="50050"/>
+      <contract player="54011"/>
+      <contract player="60015"/>
+      <contract player="60053"/>
+      <contract player="62118"/>
+      <contract player="62120"/>
+      <contract player="64002"/>
+      <contract player="66027"/>
+      <contract player="68032"/>
+      <contract player="68034"/>
+      <contract player="68065"/>
+      <contract player="72021"/>
+      <contract player="72043"/>
+      <contract player="74034"/>
+      <contract player="76009"/>
+      <contract player="78012"/>
+      <contract player="80002"/>
+      <contract player="80065"/>
+      <contract player="80078"/>
+    </contracts>
+  </club>
+  <club name="Wycombe Wanderers">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Adams Park"/>
+    <contracts>
+      <contract player="2005"/>
+      <contract player="2090"/>
+      <contract player="2117"/>
+      <contract player="2130"/>
+      <contract player="2338"/>
+      <contract player="6004"/>
+      <contract player="6033"/>
+      <contract player="12004"/>
+      <contract player="12068"/>
+      <contract player="16029"/>
+      <contract player="22013"/>
+      <contract player="22021"/>
+      <contract player="28034"/>
+      <contract player="36001"/>
+      <contract player="36003"/>
+      <contract player="44036"/>
+      <contract player="46013"/>
+      <contract player="46024"/>
+      <contract player="48048"/>
+      <contract player="48051"/>
+      <contract player="56031"/>
+      <contract player="56066"/>
+      <contract player="58002"/>
+      <contract player="62117"/>
+      <contract player="66006"/>
+      <contract player="68031"/>
+      <contract player="68061"/>
+      <contract player="76020"/>
+      <contract player="76024"/>
+    </contracts>
+  </club>
+  <club name="Yeovil Town">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Huish Park"/>
+    <contracts>
+      <contract player="2170"/>
+      <contract player="2183"/>
+      <contract player="2191"/>
+      <contract player="2244"/>
+      <contract player="2326"/>
+      <contract player="6067"/>
+      <contract player="6075"/>
+      <contract player="8017"/>
+      <contract player="12022"/>
+      <contract player="12023"/>
+      <contract player="14047"/>
+      <contract player="36024"/>
+      <contract player="60019"/>
+      <contract player="62087"/>
+      <contract player="62089"/>
+      <contract player="66002"/>
+      <contract player="68036"/>
+      <contract player="72005"/>
+      <contract player="72090"/>
+      <contract player="72193"/>
+      <contract player="74065"/>
+      <contract player="76111"/>
+      <contract player="80024"/>
+      <contract player="80068"/>
+    </contracts>
+  </club>
+  <club name="York City">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Bootham Crescent"/>
+    <contracts>
+      <contract player="2296"/>
+      <contract player="2334"/>
+      <contract player="4018"/>
+      <contract player="12060"/>
+      <contract player="14006"/>
+      <contract player="28029"/>
+      <contract player="32013"/>
+      <contract player="38009"/>
+      <contract player="46025"/>
+      <contract player="46040"/>
+      <contract player="48041"/>
+      <contract player="48045"/>
+      <contract player="50027"/>
+      <contract player="52035"/>
+      <contract player="58027"/>
+      <contract player="58045"/>
+      <contract player="62045"/>
+      <contract player="62058"/>
+      <contract player="64003"/>
+      <contract player="66069"/>
+      <contract player="68022"/>
+      <contract player="68026"/>
+      <contract player="68079"/>
+      <contract player="72027"/>
+      <contract player="74091"/>
+      <contract player="76103"/>
+      <contract player="76137"/>
+      <contract player="76141"/>
+    </contracts>
+  </club>
+  <club name="Birmingham City">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="St Andrews"/>
+    <contracts>
+      <contract player="2259"/>
+      <contract player="10018"/>
+      <contract player="12025"/>
+      <contract player="12063"/>
+      <contract player="12067"/>
+      <contract player="18013"/>
+      <contract player="20001"/>
+      <contract player="22037"/>
+      <contract player="24013"/>
+      <contract player="34021"/>
+      <contract player="38026"/>
+      <contract player="44021"/>
+      <contract player="48024"/>
+      <contract player="56025"/>
+      <contract player="56052"/>
+      <contract player="58035"/>
+      <contract player="58070"/>
+      <contract player="62054"/>
+      <contract player="62074"/>
+      <contract player="64022"/>
+      <contract player="64051"/>
+      <contract player="66099"/>
+      <contract player="74083"/>
+      <contract player="76050"/>
+      <contract player="76069"/>
+    </contracts>
+  </club>
+  <club name="Blackburn Rovers">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Ewood Park"/>
+    <contracts>
+      <contract player="6008"/>
+      <contract player="8013"/>
+      <contract player="12015"/>
+      <contract player="12018"/>
+      <contract player="14049"/>
+      <contract player="18045"/>
+      <contract player="20025"/>
+      <contract player="22029"/>
+      <contract player="26011"/>
+      <contract player="28028"/>
+      <contract player="30007"/>
+      <contract player="34013"/>
+      <contract player="36031"/>
+      <contract player="44017"/>
+      <contract player="48040"/>
+      <contract player="62021"/>
+      <contract player="62079"/>
+      <contract player="64056"/>
+      <contract player="66008"/>
+      <contract player="66041"/>
+      <contract player="68044"/>
+      <contract player="68045"/>
+      <contract player="68046"/>
+      <contract player="72046"/>
+      <contract player="72112"/>
+      <contract player="72113"/>
+      <contract player="74004"/>
+      <contract player="76071"/>
+      <contract player="80005"/>
+      <contract player="80018"/>
+      <contract player="80055"/>
+      <contract player="80062"/>
+    </contracts>
+  </club>
+  <club name="Blackpool">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Bloomfield Road"/>
+    <contracts>
+      <contract player="2102"/>
+      <contract player="2304"/>
+      <contract player="12003"/>
+      <contract player="12041"/>
+      <contract player="12042"/>
+      <contract player="14034"/>
+      <contract player="16003"/>
+      <contract player="16043"/>
+      <contract player="18032"/>
+      <contract player="20007"/>
+      <contract player="22005"/>
+      <contract player="24003"/>
+      <contract player="24020"/>
+      <contract player="30014"/>
+      <contract player="32023"/>
+      <contract player="36038"/>
+      <contract player="44024"/>
+      <contract player="44033"/>
+      <contract player="48007"/>
+      <contract player="52029"/>
+      <contract player="52044"/>
+      <contract player="58026"/>
+      <contract player="58061"/>
+      <contract player="66026"/>
+      <contract player="68027"/>
+      <contract player="70017"/>
+      <contract player="70104"/>
+      <contract player="72140"/>
+      <contract player="72141"/>
+      <contract player="76008"/>
+    </contracts>
+  </club>
+  <club name="Barnet">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Underhill Stadium"/>
+    <contracts>
+      <contract player="2082"/>
+      <contract player="2084"/>
+      <contract player="2255"/>
+      <contract player="2283"/>
+      <contract player="36036"/>
+      <contract player="44022"/>
+      <contract player="48005"/>
+      <contract player="50029"/>
+      <contract player="52048"/>
+      <contract player="56004"/>
+      <contract player="56005"/>
+      <contract player="58014"/>
+      <contract player="60068"/>
+      <contract player="64052"/>
+      <contract player="64054"/>
+      <contract player="72101"/>
+      <contract player="72114"/>
+      <contract player="72170"/>
+      <contract player="74021"/>
+      <contract player="74045"/>
+      <contract player="76014"/>
+      <contract player="76101"/>
+    </contracts>
+  </club>
+  <club name="Bolton Wanderers">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Reebok Stadium"/>
+    <contracts>
+      <contract player="2037"/>
+      <contract player="2210"/>
+      <contract player="2305"/>
+      <contract player="2309"/>
+      <contract player="10011"/>
+      <contract player="12017"/>
+      <contract player="14023"/>
+      <contract player="18003"/>
+      <contract player="18028"/>
+      <contract player="22017"/>
+      <contract player="28053"/>
+      <contract player="34015"/>
+      <contract player="40017"/>
+      <contract player="52040"/>
+      <contract player="58016"/>
+      <contract player="58036"/>
+      <contract player="58042"/>
+      <contract player="60001"/>
+      <contract player="64020"/>
+      <contract player="66024"/>
+      <contract player="66025"/>
+      <contract player="66056"/>
+      <contract player="66060"/>
+      <contract player="66098"/>
+      <contract player="68042"/>
+      <contract player="68089"/>
+      <contract player="70065"/>
+      <contract player="72019"/>
+      <contract player="72124"/>
+      <contract player="72125"/>
+      <contract player="72126"/>
+      <contract player="72127"/>
+      <contract player="74094"/>
+      <contract player="76047"/>
+      <contract player="80006"/>
+      <contract player="80051"/>
+    </contracts>
+  </club>
+  <club name="Brentford">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Griffin Park"/>
+    <contracts>
+      <contract player="6018"/>
+      <contract player="18018"/>
+      <contract player="18029"/>
+      <contract player="42008"/>
+      <contract player="54027"/>
+      <contract player="56012"/>
+      <contract player="56026"/>
+      <contract player="58054"/>
+      <contract player="58055"/>
+      <contract player="62020"/>
+      <contract player="62049"/>
+      <contract player="64025"/>
+      <contract player="66076"/>
+      <contract player="68064"/>
+      <contract player="70091"/>
+      <contract player="72054"/>
+      <contract player="72082"/>
+      <contract player="80080"/>
+    </contracts>
+  </club>
+  <club name="Brighton &amp; Hove Albion">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Withdean Stadium"/>
+    <contracts>
+      <contract player="2011"/>
+      <contract player="2061"/>
+      <contract player="2285"/>
+      <contract player="2298"/>
+      <contract player="14024"/>
+      <contract player="44040"/>
+      <contract player="46008"/>
+      <contract player="48029"/>
+      <contract player="48046"/>
+      <contract player="52022"/>
+      <contract player="52046"/>
+      <contract player="58060"/>
+      <contract player="60035"/>
+      <contract player="60056"/>
+      <contract player="64063"/>
+      <contract player="66007"/>
+      <contract player="66013"/>
+      <contract player="66040"/>
+      <contract player="66102"/>
+      <contract player="66104"/>
+      <contract player="66105"/>
+      <contract player="66106"/>
+    </contracts>
+  </club>
+  <club name="Bristol Rovers">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Memorial Stadium"/>
+    <contracts>
+      <contract player="2101"/>
+      <contract player="2277"/>
+      <contract player="2300"/>
+      <contract player="2301"/>
+      <contract player="2306"/>
+      <contract player="2337"/>
+      <contract player="8007"/>
+      <contract player="10014"/>
+      <contract player="12070"/>
+      <contract player="14028"/>
+      <contract player="20010"/>
+      <contract player="28043"/>
+      <contract player="36014"/>
+      <contract player="46002"/>
+      <contract player="52025"/>
+      <contract player="60031"/>
+      <contract player="66078"/>
+      <contract player="68059"/>
+      <contract player="72102"/>
+      <contract player="72130"/>
+      <contract player="74126"/>
+      <contract player="76012"/>
+      <contract player="76145"/>
+      <contract player="80004"/>
+      <contract player="80009"/>
+    </contracts>
+  </club>
+  <club name="Bury">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Gigg Lane"/>
+    <contracts>
+      <contract player="2227"/>
+      <contract player="2322"/>
+      <contract player="6066"/>
+      <contract player="12039"/>
+      <contract player="14013"/>
+      <contract player="14055"/>
+      <contract player="16024"/>
+      <contract player="44029"/>
+      <contract player="56023"/>
+      <contract player="60049"/>
+      <contract player="64016"/>
+      <contract player="64023"/>
+      <contract player="64030"/>
+      <contract player="66108"/>
+      <contract player="70087"/>
+      <contract player="72042"/>
+      <contract player="72045"/>
+      <contract player="72128"/>
+      <contract player="74061"/>
+      <contract player="74105"/>
+      <contract player="74106"/>
+      <contract player="80003"/>
+      <contract player="80087"/>
+    </contracts>
+  </club>
+  <club name="Accrington Stanley">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Accrington Stanley Stadium"/>
+    <contracts>
+      <contract player="4017"/>
+      <contract player="8019"/>
+      <contract player="16006"/>
+      <contract player="18007"/>
+      <contract player="36040"/>
+      <contract player="38019"/>
+      <contract player="40036"/>
+      <contract player="50051"/>
+      <contract player="50052"/>
+      <contract player="50053"/>
+      <contract player="50054"/>
+      <contract player="58005"/>
+      <contract player="58033"/>
+      <contract player="58062"/>
+      <contract player="66095"/>
+      <contract player="70063"/>
+      <contract player="70067"/>
+      <contract player="70090"/>
+      <contract player="72091"/>
+      <contract player="74066"/>
+      <contract player="76056"/>
+      <contract player="76072"/>
+      <contract player="76139"/>
+      <contract player="80041"/>
+      <contract player="80043"/>
+    </contracts>
+  </club>
+  <club name="Burton Albion">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Burton Albion Stadium"/>
+    <contracts>
+      <contract player="2021"/>
+      <contract player="2054"/>
+      <contract player="2159"/>
+      <contract player="2180"/>
+      <contract player="2192"/>
+      <contract player="2198"/>
+      <contract player="6059"/>
+      <contract player="20014"/>
+      <contract player="22003"/>
+      <contract player="22014"/>
+      <contract player="48004"/>
+      <contract player="48049"/>
+      <contract player="54015"/>
+      <contract player="58019"/>
+      <contract player="60030"/>
+      <contract player="66043"/>
+      <contract player="74023"/>
+    </contracts>
+  </club>
+  <club name="Burnley">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Turf Moor"/>
+    <contracts>
+      <contract player="2127"/>
+      <contract player="2208"/>
+      <contract player="2325"/>
+      <contract player="4013"/>
+      <contract player="6013"/>
+      <contract player="8008"/>
+      <contract player="10008"/>
+      <contract player="12035"/>
+      <contract player="14050"/>
+      <contract player="18017"/>
+      <contract player="18027"/>
+      <contract player="20023"/>
+      <contract player="22002"/>
+      <contract player="22039"/>
+      <contract player="36033"/>
+      <contract player="62069"/>
+      <contract player="62070"/>
+      <contract player="68080"/>
+      <contract player="72142"/>
+      <contract player="76035"/>
+      <contract player="80083"/>
+    </contracts>
+  </club>
+  <club name="Cambridge United">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Abbey Stadium"/>
+    <contracts>
+      <contract player="2062"/>
+      <contract player="2154"/>
+      <contract player="6019"/>
+      <contract player="14003"/>
+      <contract player="14039"/>
+      <contract player="14048"/>
+      <contract player="14061"/>
+      <contract player="16023"/>
+      <contract player="20034"/>
+      <contract player="30001"/>
+      <contract player="46012"/>
+      <contract player="48064"/>
+      <contract player="50021"/>
+      <contract player="52028"/>
+      <contract player="52049"/>
+      <contract player="56019"/>
+      <contract player="56032"/>
+      <contract player="62090"/>
+      <contract player="68058"/>
+      <contract player="70042"/>
+      <contract player="72007"/>
+      <contract player="72190"/>
+      <contract player="74013"/>
+      <contract player="74059"/>
+      <contract player="76064"/>
+      <contract player="76107"/>
+    </contracts>
+  </club>
+  <club name="Cardiff City">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Ninian Park"/>
+    <contracts>
+      <contract player="2064"/>
+      <contract player="2149"/>
+      <contract player="2163"/>
+      <contract player="2176"/>
+      <contract player="2182"/>
+      <contract player="6023"/>
+      <contract player="8006"/>
+      <contract player="8016"/>
+      <contract player="12020"/>
+      <contract player="12051"/>
+      <contract player="14010"/>
+      <contract player="14014"/>
+      <contract player="22028"/>
+      <contract player="40001"/>
+      <contract player="40009"/>
+      <contract player="48060"/>
+      <contract player="52006"/>
+      <contract player="58041"/>
+      <contract player="70041"/>
+      <contract player="72087"/>
+      <contract player="76077"/>
+      <contract player="80019"/>
+    </contracts>
+  </club>
+  <club name="Charlton Athletic">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="The Valley"/>
+    <contracts>
+      <contract player="2073"/>
+      <contract player="2089"/>
+      <contract player="2160"/>
+      <contract player="2200"/>
+      <contract player="2264"/>
+      <contract player="4010"/>
+      <contract player="8021"/>
+      <contract player="12053"/>
+      <contract player="18042"/>
+      <contract player="28006"/>
+      <contract player="32010"/>
+      <contract player="32018"/>
+      <contract player="36004"/>
+      <contract player="36032"/>
+      <contract player="46017"/>
+      <contract player="48033"/>
+      <contract player="48063"/>
+      <contract player="50023"/>
+      <contract player="50026"/>
+      <contract player="56041"/>
+      <contract player="60047"/>
+      <contract player="62052"/>
+      <contract player="62083"/>
+      <contract player="62084"/>
+      <contract player="66048"/>
+      <contract player="72037"/>
+      <contract player="72105"/>
+      <contract player="72117"/>
+      <contract player="72136"/>
+      <contract player="74007"/>
+      <contract player="74014"/>
+      <contract player="74043"/>
+      <contract player="74082"/>
+      <contract player="76070"/>
+      <contract player="76143"/>
+    </contracts>
+  </club>
+  <club name="Chelsea">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Stamford Bridge"/>
+    <contracts>
+      <contract player="2115"/>
+      <contract player="6001"/>
+      <contract player="10010"/>
+      <contract player="12008"/>
+      <contract player="12058"/>
+      <contract player="16032"/>
+      <contract player="18043"/>
+      <contract player="28007"/>
+      <contract player="28055"/>
+      <contract player="30011"/>
+      <contract player="32011"/>
+      <contract player="34016"/>
+      <contract player="34022"/>
+      <contract player="36019"/>
+      <contract player="38033"/>
+      <contract player="46004"/>
+      <contract player="46007"/>
+      <contract player="58031"/>
+      <contract player="58059"/>
+      <contract player="60042"/>
+      <contract player="60071"/>
+      <contract player="66036"/>
+      <contract player="66092"/>
+      <contract player="66093"/>
+      <contract player="68007"/>
+      <contract player="70034"/>
+      <contract player="70035"/>
+      <contract player="70100"/>
+      <contract player="70101"/>
+      <contract player="70102"/>
+      <contract player="72067"/>
+      <contract player="72096"/>
+      <contract player="72097"/>
+      <contract player="74119"/>
+      <contract player="76082"/>
+      <contract player="80084"/>
+    </contracts>
+  </club>
+  <club name="Cheltenham Town">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Whaddon Road"/>
+    <contracts>
+      <contract player="2056"/>
+      <contract player="2087"/>
+      <contract player="2230"/>
+      <contract player="4002"/>
+      <contract player="6014"/>
+      <contract player="6038"/>
+      <contract player="16011"/>
+      <contract player="18014"/>
+      <contract player="26030"/>
+      <contract player="28024"/>
+      <contract player="44009"/>
+      <contract player="50042"/>
+      <contract player="56028"/>
+      <contract player="56038"/>
+      <contract player="56042"/>
+      <contract player="56049"/>
+      <contract player="56050"/>
+      <contract player="58025"/>
+      <contract player="60067"/>
+      <contract player="62107"/>
+      <contract player="64012"/>
+      <contract player="66001"/>
+      <contract player="66021"/>
+      <contract player="66029"/>
+      <contract player="68006"/>
+      <contract player="72137"/>
+    </contracts>
+  </club>
+  <club name="Colchester United">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Layer Road"/>
+    <contracts>
+      <contract player="2038"/>
+      <contract player="2047"/>
+      <contract player="2072"/>
+      <contract player="2179"/>
+      <contract player="2217"/>
+      <contract player="2270"/>
+      <contract player="2290"/>
+      <contract player="2312"/>
+      <contract player="10016"/>
+      <contract player="12054"/>
+      <contract player="16004"/>
+      <contract player="24019"/>
+      <contract player="26019"/>
+      <contract player="34020"/>
+      <contract player="36017"/>
+      <contract player="42002"/>
+      <contract player="46031"/>
+      <contract player="46053"/>
+      <contract player="50001"/>
+      <contract player="50028"/>
+      <contract player="58008"/>
+      <contract player="58063"/>
+      <contract player="60048"/>
+      <contract player="72093"/>
+      <contract player="72160"/>
+      <contract player="72161"/>
+      <contract player="74093"/>
+      <contract player="78017"/>
+    </contracts>
+  </club>
+  <club name="Carlisle United">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Brunton Park"/>
+    <contracts>
+      <contract player="6074"/>
+      <contract player="18031"/>
+      <contract player="22034"/>
+      <contract player="22045"/>
+      <contract player="26003"/>
+      <contract player="28033"/>
+      <contract player="28052"/>
+      <contract player="38029"/>
+      <contract player="40012"/>
+      <contract player="46010"/>
+      <contract player="54004"/>
+      <contract player="56009"/>
+      <contract player="60008"/>
+      <contract player="60051"/>
+      <contract player="60070"/>
+      <contract player="62006"/>
+      <contract player="62092"/>
+      <contract player="62094"/>
+      <contract player="64059"/>
+      <contract player="68005"/>
+      <contract player="68075"/>
+      <contract player="70076"/>
+      <contract player="72009"/>
+      <contract player="72115"/>
+      <contract player="80023"/>
+      <contract player="80033"/>
+    </contracts>
+  </club>
+  <club name="Crystal Palace">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Selhurst Park"/>
+    <contracts>
+      <contract player="2065"/>
+      <contract player="2111"/>
+      <contract player="2184"/>
+      <contract player="2247"/>
+      <contract player="2254"/>
+      <contract player="6022"/>
+      <contract player="6049"/>
+      <contract player="10007"/>
+      <contract player="18044"/>
+      <contract player="24010"/>
+      <contract player="28059"/>
+      <contract player="46014"/>
+      <contract player="48052"/>
+      <contract player="48054"/>
+      <contract player="50061"/>
+      <contract player="52007"/>
+      <contract player="62040"/>
+      <contract player="62042"/>
+      <contract player="62116"/>
+      <contract player="68067"/>
+      <contract player="70081"/>
+      <contract player="72143"/>
+      <contract player="72144"/>
+      <contract player="72145"/>
+      <contract player="72146"/>
+      <contract player="74114"/>
+      <contract player="74115"/>
+      <contract player="74121"/>
+      <contract player="76092"/>
+      <contract player="80037"/>
+      <contract player="80081"/>
+    </contracts>
+  </club>
+  <club name="Crawley Town">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Crawley Town Stadium"/>
+    <contracts>
+      <contract player="2165"/>
+      <contract player="2218"/>
+      <contract player="4008"/>
+      <contract player="10022"/>
+      <contract player="12055"/>
+      <contract player="14002"/>
+      <contract player="22026"/>
+      <contract player="48058"/>
+      <contract player="58013"/>
+      <contract player="60058"/>
+      <contract player="62005"/>
+      <contract player="62041"/>
+      <contract player="64004"/>
+      <contract player="66085"/>
+      <contract player="68030"/>
+      <contract player="68055"/>
+      <contract player="68097"/>
+      <contract player="70023"/>
+      <contract player="76106"/>
+      <contract player="76120"/>
+      <contract player="76121"/>
+      <contract player="76146"/>
+      <contract player="80069"/>
+    </contracts>
+  </club>
+  <club name="Crewe Alexandra">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="The Alexandra Stadium"/>
+    <contracts>
+      <contract player="2028"/>
+      <contract player="14030"/>
+      <contract player="22011"/>
+      <contract player="22019"/>
+      <contract player="28012"/>
+      <contract player="32026"/>
+      <contract player="36011"/>
+      <contract player="36022"/>
+      <contract player="38017"/>
+      <contract player="44026"/>
+      <contract player="50047"/>
+      <contract player="52043"/>
+      <contract player="62015"/>
+      <contract player="62038"/>
+      <contract player="62039"/>
+      <contract player="64037"/>
+      <contract player="66017"/>
+      <contract player="66023"/>
+      <contract player="66049"/>
+      <contract player="70046"/>
+      <contract player="72029"/>
+      <contract player="72049"/>
+      <contract player="72163"/>
+      <contract player="72164"/>
+      <contract player="72165"/>
+      <contract player="72166"/>
+      <contract player="72167"/>
+    </contracts>
+  </club>
+  <club name="Chesterfield">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Chesterfield Stadium"/>
+    <contracts>
+      <contract player="2026"/>
+      <contract player="2048"/>
+      <contract player="2059"/>
+      <contract player="2074"/>
+      <contract player="2118"/>
+      <contract player="2151"/>
+      <contract player="4001"/>
+      <contract player="22004"/>
+      <contract player="26010"/>
+      <contract player="28027"/>
+      <contract player="34004"/>
+      <contract player="46015"/>
+      <contract player="46021"/>
+      <contract player="56034"/>
+      <contract player="58015"/>
+      <contract player="62057"/>
+      <contract player="62104"/>
+      <contract player="66058"/>
+      <contract player="66083"/>
+      <contract player="66111"/>
+      <contract player="74056"/>
+      <contract player="74057"/>
+      <contract player="74058"/>
+    </contracts>
+  </club>
+  <club name="Chester City">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Saunders Honda Stadium"/>
+    <contracts>
+      <contract player="2009"/>
+      <contract player="2042"/>
+      <contract player="2071"/>
+      <contract player="2123"/>
+      <contract player="2143"/>
+      <contract player="2295"/>
+      <contract player="6054"/>
+      <contract player="14038"/>
+      <contract player="14065"/>
+      <contract player="26014"/>
+      <contract player="38018"/>
+      <contract player="44006"/>
+      <contract player="44020"/>
+      <contract player="46046"/>
+      <contract player="56043"/>
+      <contract player="56048"/>
+      <contract player="64028"/>
+      <contract player="66094"/>
+      <contract player="66109"/>
+      <contract player="72072"/>
+      <contract player="72092"/>
+      <contract player="74020"/>
+      <contract player="74098"/>
+      <contract player="74099"/>
+      <contract player="74100"/>
+      <contract player="76023"/>
+      <contract player="76096"/>
+      <contract player="80028"/>
+    </contracts>
+  </club>
+  <club name="Darlington">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Darlington Stadium"/>
+    <contracts>
+      <contract player="2104"/>
+      <contract player="2172"/>
+      <contract player="2222"/>
+      <contract player="2288"/>
+      <contract player="2324"/>
+      <contract player="6035"/>
+      <contract player="6039"/>
+      <contract player="6070"/>
+      <contract player="28010"/>
+      <contract player="38030"/>
+      <contract player="40019"/>
+      <contract player="44010"/>
+      <contract player="44025"/>
+      <contract player="44030"/>
+      <contract player="46044"/>
+      <contract player="48035"/>
+      <contract player="50024"/>
+      <contract player="52010"/>
+      <contract player="56018"/>
+      <contract player="64049"/>
+      <contract player="70036"/>
+      <contract player="70077"/>
+      <contract player="72026"/>
+      <contract player="72073"/>
+      <contract player="72129"/>
+      <contract player="76042"/>
+      <contract player="78011"/>
+    </contracts>
+  </club>
+  <club name="Derby County">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Pride Park"/>
+    <contracts>
+      <contract player="2051"/>
+      <contract player="2136"/>
+      <contract player="2174"/>
+      <contract player="2195"/>
+      <contract player="2205"/>
+      <contract player="2237"/>
+      <contract player="8023"/>
+      <contract player="10012"/>
+      <contract player="18034"/>
+      <contract player="18039"/>
+      <contract player="20027"/>
+      <contract player="22022"/>
+      <contract player="26021"/>
+      <contract player="28021"/>
+      <contract player="28050"/>
+      <contract player="32017"/>
+      <contract player="44045"/>
+      <contract player="46020"/>
+      <contract player="46051"/>
+      <contract player="48018"/>
+      <contract player="50011"/>
+      <contract player="54014"/>
+      <contract player="62080"/>
+      <contract player="62113"/>
+      <contract player="64048"/>
+      <contract player="66067"/>
+      <contract player="66072"/>
+      <contract player="72047"/>
+      <contract player="74039"/>
+      <contract player="76054"/>
+      <contract player="78018"/>
+      <contract player="80012"/>
+      <contract player="80016"/>
+    </contracts>
+  </club>
+  <club name="Doncaster Rovers">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Keepmoat Stadium"/>
+    <contracts>
+      <contract player="2196"/>
+      <contract player="2197"/>
+      <contract player="2266"/>
+      <contract player="2269"/>
+      <contract player="2307"/>
+      <contract player="6031"/>
+      <contract player="14064"/>
+      <contract player="16010"/>
+      <contract player="16026"/>
+      <contract player="16030"/>
+      <contract player="22023"/>
+      <contract player="34011"/>
+      <contract player="56054"/>
+      <contract player="58024"/>
+      <contract player="60033"/>
+      <contract player="62018"/>
+      <contract player="62056"/>
+      <contract player="64055"/>
+      <contract player="66068"/>
+      <contract player="70083"/>
+      <contract player="72036"/>
+      <contract player="80014"/>
+      <contract player="80038"/>
+      <contract player="80045"/>
+    </contracts>
+  </club>
+  <club name="Droylsden">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Droylsden Stadium"/>
+    <contracts>
+      <contract player="2193"/>
+      <contract player="16009"/>
+      <contract player="16018"/>
+      <contract player="16037"/>
+      <contract player="18009"/>
+      <contract player="22024"/>
+      <contract player="28008"/>
+      <contract player="44005"/>
+      <contract player="46059"/>
+      <contract player="60005"/>
+      <contract player="60006"/>
+      <contract player="68014"/>
+      <contract player="70031"/>
+      <contract player="72215"/>
+      <contract player="72216"/>
+      <contract player="72217"/>
+      <contract player="72218"/>
+      <contract player="74029"/>
+      <contract player="76002"/>
+      <contract player="76128"/>
+      <contract player="76129"/>
+    </contracts>
+  </club>
+  <club name="Aldershot Town">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Aldershot Town Stadium"/>
+    <contracts>
+      <contract player="2147"/>
+      <contract player="8022"/>
+      <contract player="12009"/>
+      <contract player="14020"/>
+      <contract player="14051"/>
+      <contract player="22030"/>
+      <contract player="22040"/>
+      <contract player="28040"/>
+      <contract player="50066"/>
+      <contract player="56056"/>
+      <contract player="58066"/>
+      <contract player="62034"/>
+      <contract player="62081"/>
+      <contract player="62086"/>
+      <contract player="62088"/>
+      <contract player="62103"/>
+      <contract player="66096"/>
+      <contract player="68099"/>
+      <contract player="72191"/>
+      <contract player="72192"/>
+      <contract player="74026"/>
+      <contract player="74068"/>
+      <contract player="76003"/>
+    </contracts>
+  </club>
+  <club name="Everton">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Goodison Park"/>
+    <contracts>
+      <contract player="2016"/>
+      <contract player="2146"/>
+      <contract player="6057"/>
+      <contract player="14052"/>
+      <contract player="18015"/>
+      <contract player="18026"/>
+      <contract player="24001"/>
+      <contract player="24022"/>
+      <contract player="26012"/>
+      <contract player="28004"/>
+      <contract player="28036"/>
+      <contract player="32005"/>
+      <contract player="38027"/>
+      <contract player="40021"/>
+      <contract player="44044"/>
+      <contract player="46006"/>
+      <contract player="56020"/>
+      <contract player="60057"/>
+      <contract player="66033"/>
+      <contract player="66038"/>
+      <contract player="66055"/>
+      <contract player="66065"/>
+      <contract player="70070"/>
+      <contract player="76021"/>
+      <contract player="76022"/>
+      <contract player="76053"/>
+      <contract player="76065"/>
+    </contracts>
+  </club>
+  <club name="Exeter City">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="St James Park"/>
+    <contracts>
+      <contract player="2050"/>
+      <contract player="2128"/>
+      <contract player="2167"/>
+      <contract player="2204"/>
+      <contract player="2310"/>
+      <contract player="6021"/>
+      <contract player="10024"/>
+      <contract player="38003"/>
+      <contract player="46041"/>
+      <contract player="46056"/>
+      <contract player="50069"/>
+      <contract player="52014"/>
+      <contract player="52034"/>
+      <contract player="56058"/>
+      <contract player="58028"/>
+      <contract player="66077"/>
+      <contract player="66082"/>
+      <contract player="72131"/>
+      <contract player="72132"/>
+      <contract player="72133"/>
+      <contract player="72134"/>
+      <contract player="72195"/>
+      <contract player="72196"/>
+      <contract player="80059"/>
+    </contracts>
+  </club>
+  <club name="Farsley Celtic">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Farsley Celtic Stadium"/>
+    <contracts>
+      <contract player="2133"/>
+      <contract player="2206"/>
+      <contract player="2233"/>
+      <contract player="2274"/>
+      <contract player="4012"/>
+      <contract player="12029"/>
+      <contract player="12040"/>
+      <contract player="18033"/>
+      <contract player="44049"/>
+      <contract player="52013"/>
+      <contract player="60027"/>
+      <contract player="62097"/>
+      <contract player="64057"/>
+      <contract player="66044"/>
+      <contract player="68002"/>
+      <contract player="68003"/>
+      <contract player="70049"/>
+      <contract player="70050"/>
+      <contract player="70051"/>
+      <contract player="70052"/>
+      <contract player="70053"/>
+      <contract player="70054"/>
+      <contract player="70055"/>
+      <contract player="70056"/>
+      <contract player="70057"/>
+      <contract player="70058"/>
+      <contract player="72171"/>
+      <contract player="72210"/>
+      <contract player="74009"/>
+      <contract player="74030"/>
+      <contract player="74111"/>
+      <contract player="80036"/>
+      <contract player="80072"/>
+    </contracts>
+  </club>
+  <club name="Altrincham">
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Altrincham Stadium"/>
+    <contracts>
+      <contract player="2246"/>
+      <contract player="2323"/>
+      <contract player="6071"/>
+      <contract player="8001"/>
+      <contract player="12046"/>
+      <contract player="16045"/>
+      <contract player="32022"/>
+      <contract player="46057"/>
+      <contract player="46058"/>
+      <contract player="48022"/>
+      <contract player="50062"/>
+      <contract player="60063"/>
+      <contract player="64038"/>
+      <contract player="64045"/>
+      <contract player="68082"/>
+      <contract player="74067"/>
+      <contract player="76030"/>
+      <contract player="76034"/>
+      <contract player="80022"/>
+      <contract player="80067"/>
+      <contract player="80071"/>
+    </contracts>
+  </club>
+</Clubs>

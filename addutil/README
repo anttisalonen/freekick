@@ -1,0 +1,30 @@
+Libaddutil - miscellaneous utility functions in Haskell needed by Freekick,
+a soccer game.
+
+Installation (using Cabal):
+
+1. Decompress in a directory of your choice, e.g.:
+ $ tar xvzf libaddutil-0.0.1.tar.gz
+2. Change to decompressed directory:
+ $ cd libaddutil-0.0.1
+3. Configure, build and install using Cabal, e.g.:
+ $ runhaskell Setup.hs configure --user --prefix=$HOME
+ $ runhaskell Setup.hs build
+ $ runhaskell Setup.hs install
+4. Done!
+
+Copyright (c) 2008, Antti Salonen. 
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+

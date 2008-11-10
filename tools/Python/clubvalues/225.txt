@@ -1,0 +1,27 @@
+225
+
+   Latest Belgian Division 1 Table
+
+
+                    P  HW HD HL HGF HGA AW AD AL AGF AGA Points GD
+   Standard Liege   31 13  3  0  36  11  7  8  0  19   6     71 +38
+   Anderlecht       31 12  2  1  29   9  6  5  5  22  20     61 +22
+   FC Bruges        31 10  2  3  21  14  8  5  3  19  14     61 +12
+   Cercle Bruges    31 10  5  1  33   9  6  3  6  26  22     56 +28
+   Germinal (GBA)   31  9  3  4  24  11  6  3  6  18  19     51 +12
+   Westerlo         31  6  6  4  25  15  6  3  6  17  15     45 +12
+   Gent             31  8  5  3  33  20  4  4  7  18  24     45  +7
+   Charleroi        31  6  5  4  18  16  6  2  8  19  23     43  -2
+   Waregem          31 10  2  4  26  22  2  5  8  16  27     43  -7
+   Genk             31  7  3  5  26  20  4  5  7  24  30     41   0
+   Mechelen         31  6  5  4  23  20  3  5  8  16  25     37  -6
+   Mouscron         31  5  4  6  18  19  5  2  9  17  22     36  -6
+   Lokeren          31  4  8  3  11   9  3  6  7  15  22     35  -5
+   Roeselare        31  6  4  6  22  24  2  7  6  12  26     35 -16
+   RAEC Mons Bergen 31  4  7  4  18  14  3  3 10  17  28     31  -7
+   Denderleeun      31  5  3  7  16  24  3  3 10  15  28     30 -21
+   St. Truiden      31  3  5  8  14  24  2  3 10  13  27     23 -24
+   FC Brussels      31  3  3 10  17  30  1  3 11   8  32     18 -37
+   REAC             0   0  0  0   0   0  0  0  0   0   0      0   0
+   RWD Molenbeek    0   0  0  0   0   0  0  0  0   0   0      0   0
+

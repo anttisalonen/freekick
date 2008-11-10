@@ -1,0 +1,115 @@
+Man Utd    	    950
+Chelsea    	    940
+Arsenal    	    930
+Liverpool  	    920
+Everton    	    910
+Aston Villa	    900
+Blackburn  	    890
+Portsmouth 	    880
+Man City   	    870
+West Ham   	    860
+Tottenham  	    850
+Newcastle  	    840
+Middlesbro 	    830
+Wigan      	    820
+Sunderland 	    810
+Bolton     	    800
+Fulham     	    790
+Reading    	    780
+Birmingham 	    770
+Derby      	    760
+West Brom  	    750
+Stoke      	    744
+Hull City  	    738
+Bristol C  	    732
+C Palace   	    726
+Watford    	    720
+Wolves     	    714
+Ipswich    	    708
+Sheff Utd  	    702
+Plymouth   	    696
+Charlton   	    690
+Cardiff    	    684
+Burnley    	    678
+QPR        	    672
+Preston    	    666
+Sheff Wed  	    660
+Norwich    	    654
+Barnsley   	    648
+Blackpool  	    642
+Southampton	    636
+Coventry   	    630
+Leicester  	    624
+Scunthorpe 	    618
+Colchester 	    612
+Swansea      	    600
+Nottm Forest 	    595
+Doncaster    	    590
+Carlisle     	    585
+Leeds        	    580
+Southend     	    575
+Brighton     	    570
+Oldham       	    565
+Northampton  	    560
+Huddersfield 	    555
+Tranmere     	    550
+Walsall      	    545
+Swindon      	    540
+Leyton Orient	    535
+Hartlepool   	    530
+Bristol R    	    525
+Millwall     	    520
+Yeovil       	    515
+Cheltenham   	    510
+Crewe        	    505
+Bournemouth  	    500
+Gillingham   	    495
+Port Vale    	    490
+Luton        	    485
+MK Dons     	    475
+Peterborough	    470
+Hereford    	    465
+Stockport   	    460
+Rochdale    	    455
+Darlington  	    450
+Wycombe     	    445
+Chesterfield	    440
+Rotherham   	    435
+Bradford    	    430
+Morecambe   	    425
+Barnet      	    420
+Bury        	    415
+Brentford   	    410
+Lincoln     	    405
+Grimsby     	    400
+Accrington  	    395
+Shrewsbury  	    390
+Macclesfield	    385
+Notts Co    	    380
+Chester     	    375
+Mansfield   	    370
+Wrexham     	    365
+Aldershot    	    350
+Cambridge    	    346
+Torquay      	    342
+Exeter       	    338
+Burton       	    334
+Stevenage    	    330
+Histon       	    326
+Forest Green 	    322
+Oxford       	    318
+Grays        	    314
+Ebbsfleet    	    310
+Salisbury    	    306
+Kidderminster	    302
+York         	    298
+Crawley      	    294
+Rushden      	    290
+Woking       	    286
+Weymouth     	    282
+Northwich    	    278
+Halifax      	    274
+Altrincham   	    270
+Farsley      	    266
+Stafford     	    262
+Droylsden    	    258

@@ -1,0 +1,20 @@
+213
+
+   Latest Scottish Division 1 Table
+
+
+                P  HW HD HL HGF HGA AW AD AL AGF AGA Points GD
+   Hamilton     36 14  4  0  29   3  9  3  6  33  24     76 +35
+   Dundee       36 13  3  2  34  13  7  6  5  24  17     69 +28
+   St Johnstone 36 10  7  1  38  21  5  6  7  22  24     58 +15
+   Queen of Sth 36  9  6  3  29  20  5  4  9  18  23     52  +4
+   Dunfermline  36  7  5  6  19  20  6  7  5  17  21     51  -5
+   Partick      36  7  8  3  23  15  4  4 10  17  24     45  +1
+   Livingston   36  8  4  6  29  26  2  5 11  26  40     39 -11
+   Morton       36  4  5  9  22  29  5  5  8  18  29     37 -18
+   Clyde        36  5  3 10  22  32  4  7  7  18  27     37 -19
+   Stirling     36  3  7  8  22  33  1  5 12  19  38     24 -30
+   Airdrie Utd  0   0  0  0   0   0  0  0  0   0   0      0   0
+   Alloa        0   0  0  0   0   0  0  0  0   0   0      0   0
+   Raith        0   0  0  0   0   0  0  0  0   0   0      0   0
+

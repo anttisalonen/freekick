@@ -1,0 +1,24 @@
+Swansea      	    600
+Nottm Forest 	    595
+Doncaster    	    590
+Carlisle     	    585
+Leeds        	    580
+Southend     	    575
+Brighton     	    570
+Oldham       	    565
+Northampton  	    560
+Huddersfield 	    555
+Tranmere     	    550
+Walsall      	    545
+Swindon      	    540
+Leyton Orient	    535
+Hartlepool   	    530
+Bristol R    	    525
+Millwall     	    520
+Yeovil       	    515
+Cheltenham   	    510
+Crewe        	    505
+Bournemouth  	    500
+Gillingham   	    495
+Port Vale    	    490
+Luton        	    485

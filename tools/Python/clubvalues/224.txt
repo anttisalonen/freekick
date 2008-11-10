@@ -1,0 +1,25 @@
+224
+
+   Latest Portuguese Division 1 Table
+
+
+                        P  HW HD HL HGF HGA AW AD AL AGF AGA Points GD
+   Porto                30 13  1  1  33   4 11  2  2  27   9     69 +47
+   Sporting Lisbon      30 12  3  0  34  10  4  4  7  12  18     55 +18
+   V Guimaraes          30 11  2  2  22  13  4  6  5  15  19     53  +5
+   Benfica              30  7  6  2  26  10  6  7  2  19  11     52 +24
+   Maritimo             30  8  3  4  21  12  6  1  8  19  18     46 +10
+   Vitoria Setubal      30  8  4  3  23  12  3  8  4  14  21     45  +4
+   Braga                30  7  5  3  19  11  3  6  6  13  23     41  -2
+   Belenenses           30  5  5  5  17  17  6  5  4  18  16     40  +2
+   Boavista             30  7  6  2  22  16  1  6  8  10  25     36  -9
+   Nacional (Por)       30  6  3  6  11  13  3  5  7  12  15     35  -5
+   Naval                30  4  5  6  12  22  5  2  8  14  23     34 -19
+   Acad. Coimbra        30  3 10  2  15  15  3  4  8  16  23     32  -7
+   Est. Amadora         30  6  5  4  21  15  0  8  7   8  26     31 -12
+   Leixoes              30  3  8  4  18  17  1  6  8   9  20     26 -10
+   Pacos Ferreira       30  5  5  5  19  20  1  2 12  12  29     25 -18
+   Uniao Leiria         30  2  4  9  13  23  1  3 11  12  30     16 -28
+   Nacional de Medellin 0   0  0  0   0   0  0  0  0   0   0      0   0
+   Naval Primeiro Maio  0   0  0  0   0   0  0  0  0   0   0      0   0
+

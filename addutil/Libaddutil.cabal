@@ -1,0 +1,30 @@
+Name:           libaddutil
+Version:        0.0.1
+Cabal-Version:  >= 1.2
+License:        GPL
+License-File:   LICENSE
+Author:         Antti Salonen<ajsalonen at gmail dot com>
+Copyright:      Antti Salonen 2008
+Stability:      Unstable
+Homepage:       http://finder.homelinux.org/freekick
+Category:       Utilities
+Synopsis:       A miscellaneous utility library for Haskell
+
+Data-files:
+  README
+
+Library
+  Build-Depends:  base, haskell98, hexpat, containers,
+                  bytestring, network>=2.1.0.0,
+                  mtl>=1.1.0.0, stm>=2.1.1.0,
+                  old-time>=1.0.0.0
+  Exposed-modules:
+    Libaddutil.Colors, Libaddutil.Primitives, Libaddutil.Person,
+    Libaddutil.ListUtils, Libaddutil.XMLParse, Libaddutil.Net,
+    Libaddutil.Vector, Libaddutil.STMServer, Libaddutil.STMUtils,
+    Libaddutil.Misc, Libaddutil.Entity, Libaddutil.Physics,
+    Libaddutil.Collision
+
+  Include-dirs:   .
+  Ghc-options:    -Wall -O2
+

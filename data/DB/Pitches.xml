@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pitches>
+  <pitch id="501" name="sand01">
+    <friction value="0.95"/>
+    <size minx="50" minz="60" maxx="800" maxz="1050"/>
+    <area x="50" z="100"/>
+    <image file="pitches/sand01.jpg"/>
+  </pitch>
+  <pitch id="502" name="grass01">
+    <friction value="0.92"/>
+    <size minx="50" minz="55" maxx="800" maxz="1050"/>
+    <area x="50" z="105"/>
+    <image file="pitches/grass01.jpg"/>
+  </pitch>
+  <pitch id="503" name="grass02">
+    <friction value="1.05"/>
+    <size minx="40" minz="60" maxx="850" maxz="1050"/>
+    <area x="55" z="100"/>
+    <image file="pitches/grass02.jpg"/>
+  </pitch>
+</Pitches>
+

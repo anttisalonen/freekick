@@ -1,0 +1,43 @@
+Name:           libfreekick
+Version:        0.0.2
+Cabal-Version:  >= 1.2
+License:        GPL
+License-File:   LICENSE
+Author:         Antti Salonen<ajsalonen at gmail dot com>
+Copyright:      Antti Salonen 2008
+Stability:      Unstable
+Homepage:       http://finder.homelinux.org/freekick
+Category:       Games
+Synopsis:       A library for Freekick, a soccer game
+
+Data-files:
+  README, TODO
+
+Library
+  Build-Depends:  base, haskell98, hexpat, containers,
+                  bytestring, network>=2.1.0.0,
+                  mtl>=1.1.0.0, stm>=2.1.1.0,
+                  old-time>=1.0.0.0, process,
+                  libaddutil>=0.0.1
+  Exposed-modules:
+    Freekick.Libsoccer.Club, Freekick.Libsoccer.Player,
+    Freekick.Libsoccer.Calendar, Freekick.Libsoccer.Country,
+    Freekick.Libsoccer.Database, Freekick.Libsoccer.Formation,
+    Freekick.Libsoccer.LeagueSystem, Freekick.Libsoccer.Match,
+    Freekick.Libsoccer.Organization, Freekick.Libsoccer.Pitch, 
+    Freekick.Libsoccer.Region, Freekick.Libsoccer.Scenario, 
+    Freekick.Libsoccer.Stage, Freekick.Libsoccer.Tournament,
+    Freekick.Libsoccer.TournamentInstance, Freekick.Libsoccer.Trophy,
+    Freekick.Libsoccer.World, Freekick.Libsoccer.Stadium,
+    Freekick.Libsoccer.MatchInfo, Freekick.Libsoccer.Lineup,
+    Freekick.Libsoccer.Common,
+    Freekick.Libmatch.MatchStatus,
+    Freekick.Libmatch.Control, Freekick.Libmatch.PlayerInfo,
+    Freekick.Libmatch.Rules, Freekick.Libmatch.SoccerPhysics
+
+  Include-dirs:   .
+  Ghc-options:    -Wall -O2
+
+  Other-modules:
+    Freekick.Libsoccer.DatabaseHelper
+

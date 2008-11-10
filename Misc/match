@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo Starting server...
+./ai $1 &
+echo Starting client...
+./ui
+killall ai
+

@@ -1,0 +1,25 @@
+223
+
+   Latest Dutch Division 1 Table
+
+
+                 P  HW HD HL HGF HGA AW AD AL AGF AGA Points GD
+   PSV Eindhoven 32 12  3  1  40  11  8  5  3  23  12     68 +40
+   Ajax          32 11  3  2  52  19  7  6  3  35  24     63 +44
+   NAC Breda     32  8  3  5  23  19 10  3  3  23  18     60  +9
+   FC Twente     32 10  4  2  27  14  6  6  4  22  17     58 +18
+   Heerenveen    32  8  3  5  51  26  9  3  4  30  18     57 +37
+   Feyenoord     32 11  3  2  37  12  6  3  7  23  26     57 +22
+   FC Groningen  32  9  2  5  22  17  6  4  6  30  34     51  +1
+   Roda JC       32  7  5  4  27  23  4  6  6  24  28     44   0
+   NEC Nijmegen  32  7  5  4  29  17  5  2  9  16  32     43  -4
+   Vitesse Arn.  32  7  5  4  24  18  5  2  9  22  35     43  -7
+   FC Utrecht    32  7  3  6  34  27  5  3  8  23  27     42  +3
+   AZ Alkmaar    32  7  4  5  24  14  3  5  8  22  38     39  -6
+   Heracles      32  6  5  5  19  19  2  3 11  14  39     32 -25
+   Sp. Rotterdam 32  6  5  5  29  24  2  2 12  19  49     31 -25
+   De Graafschap 32  3  5  8  16  29  4  3  9  16  31     29 -28
+   Willem II     32  6  2  8  30  23  1  5 10   7  23     28  -9
+   VV Venlo      32  3  4  9  21  36  3  4  9  19  36     26 -32
+   Excelsior R.  32  5  3  8  20  31  2  2 12  11  38     26 -38
+

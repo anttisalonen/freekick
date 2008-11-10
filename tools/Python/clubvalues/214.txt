@@ -1,0 +1,20 @@
+214
+
+   Latest Scottish Division 2 Table
+
+
+                P  HW HD HL HGF HGA AW AD AL AGF AGA Points GD
+   Ross County  36 11  4  3  45  23 11  3  4  33  21     73 +34
+   Airdrie Utd  36 11  3  4  32  12  9  3  6  32  22     66 +30
+   Raith        36  8  3  7  28  27 11  0  7  32  23     60 +10
+   Alloa        36 12  1  5  32  27  4  7  7  25  29     56  +1
+   Peterhead    36 10  2  6  37  25  6  5  7  28  29     55 +11
+   Brechin      36  7  7  4  35  23  6  6  6  28  25     52 +15
+   Ayr          36  6  2 10  26  32  7  5  6  25  30     46 -11
+   Queen's Park 36  6  3  9  23  26  7  2  9  25  25     44  -3
+   Cowdenbeath  36  5  4  9  20  33  5  3 10  27  40     37 -26
+   Berwick      36  2  6 10  25  42  1  1 16  15  59     16 -61
+   Arbroath     0   0  0  0   0   0  0  0  0   0   0      0   0
+   Montrose     0   0  0  0   0   0  0  0  0   0   0      0   0
+   Stranraer    0   0  0  0   0   0  0  0  0   0   0      0   0
+

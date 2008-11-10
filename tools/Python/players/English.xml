@@ -1,0 +1,3369 @@
+<Clubs>
+  <club name="Forest Green Rovers">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Forest Green Rovers Stadium"/>
+  </club>
+  <club name="Fulham">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Craven Cottage"/>
+  </club>
+  <club name="Gillingham">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Priestfield Stadium"/>
+  </club>
+  <club name="Grimsby Town">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Blundell Park"/>
+  </club>
+  <club name="Grays Athletic">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Grays Athletic Stadium"/>
+  </club>
+  <club name="Halifax Town">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="The Shay"/>
+  </club>
+  <club name="Hereford United">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Edgar Street"/>
+  </club>
+  <club name="Histon">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Histon Stadium"/>
+  </club>
+  <club name="Huddersfield Town">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Galpharm Stadium"/>
+  </club>
+  <club name="Hull City">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Hull City Stadium"/>
+  </club>
+  <club name="Ipswich Town">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Portman Road"/>
+  </club>
+  <club name="Arsenal">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Emirates stadium"/>
+  </club>
+  <club name="Kidderminster Harriers">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Aggborough Stadium"/>
+  </club>
+  <club name="Leeds United">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Elland Road"/>
+  </club>
+  <club name="Leicester City">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="The Walkers Stadium"/>
+  </club>
+  <club name="Aston Villa">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Villa Park"/>
+  </club>
+  <club name="Lincoln City">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Sincil Bank"/>
+  </club>
+  <club name="Liverpool">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Anfield"/>
+  </club>
+  <club name="Macclesfield Town">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Moss Rose"/>
+  </club>
+  <club name="Middlesbrough">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Riverside Stadium"/>
+  </club>
+  <club name="Millwall">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="The New Den"/>
+  </club>
+  <club name="Manchester City">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="City of Manchester Stadium"/>
+  </club>
+  <club name="Mansfield Town">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Field Mill"/>
+  </club>
+  <club name="Manchester United">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Old Trafford"/>
+  </club>
+  <club name="Morecambe">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Morecambe Stadium"/>
+  </club>
+  <club name="Newcastle United">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="St James' Park"/>
+  </club>
+  <club name="Nottingham Forest">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="City Ground"/>
+  </club>
+  <club name="Norwich City">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Carrow Road"/>
+  </club>
+  <club name="Notts County">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Meadow Lane"/>
+  </club>
+  <club name="Oldham Athletic">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Boundary Park"/>
+  </club>
+  <club name="Oxford United">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="The Kassam Stadium"/>
+  </club>
+  <club name="Peterborough United">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Peterborough United Stadium"/>
+  </club>
+  <club name="Plymouth Argyle">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Home Park"/>
+  </club>
+  <club name="Portsmouth">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Fratton Park"/>
+  </club>
+  <club name="Preston North End">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Deepdale"/>
+  </club>
+  <club name="Port Vale">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Vale Park"/>
+  </club>
+  <club name="Queen's Park Rangers">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Loftus Road"/>
+  </club>
+  <club name="Rushden &amp; Diamonds">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Nene Park"/>
+  </club>
+  <club name="Reading">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Madejski Stadium"/>
+  </club>
+  <club name="Rochdale">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Spotland"/>
+  </club>
+  <club name="Rotherham United">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Millmoor"/>
+  </club>
+  <club name="Scunthorpe United">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Glanford Park"/>
+  </club>
+  <club name="Shrewsbury Town">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="New Meadow"/>
+  </club>
+  <club name="Sheffield United">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Bramall Lane"/>
+  </club>
+  <club name="Sheffield Wednesday">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Hillsborough"/>
+  </club>
+  <club name="Bradford City">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Valley Parade"/>
+  </club>
+  <club name="Southend United">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Roots Hall"/>
+  </club>
+  <club name="Stockport County">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Edgeley Park"/>
+  </club>
+  <club name="Stoke City">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Britannia Stadium"/>
+  </club>
+  <club name="Stafford Rangers">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Stafford Rangers Stadium"/>
+  </club>
+  <club name="Sunderland">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Stadium of Light"/>
+  </club>
+  <club name="Stevenage Borough">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Stevenage Borough Stadium"/>
+  </club>
+  <club name="Swansea City">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="The Liberty Stadium"/>
+  </club>
+  <club name="Swindon Town">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Swindon Town Stadium"/>
+  </club>
+  <club name="Torquay United">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Plainmoor"/>
+  </club>
+  <club name="Tottenham Hotspur">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="White Hart Lane"/>
+  </club>
+  <club name="Tranmere Rovers">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Prenton Park"/>
+  </club>
+  <club name="Walsall">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Bescot Stadium"/>
+  </club>
+  <club name="West Bromwich Albion">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="The Hawthorns"/>
+  </club>
+  <club name="Weymouth">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Weymouth Stadium"/>
+  </club>
+  <club name="Wigan Athletic">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="JJB Stadium"/>
+  </club>
+  <club name="West Ham United">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Boleyn Ground"/>
+  </club>
+  <club name="MK Dons">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="MK Dons Stadium"/>
+  </club>
+  <club name="Woking">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Woking Stadium"/>
+  </club>
+  <club name="Wolverhampton Wanderers">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Molineux"/>
+  </club>
+  <club name="Wrexham">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Wrexham Stadium"/>
+  </club>
+  <club name="Wycombe Wanderers">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Adams Park"/>
+  </club>
+  <club name="Yeovil Town">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Huish Park"/>
+  </club>
+  <club name="York City">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Bootham Crescent"/>
+  </club>
+  <club name="Birmingham City">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="St Andrews"/>
+  </club>
+  <club name="Blackburn Rovers">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Ewood Park"/>
+  </club>
+  <club name="Blackpool">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Bloomfield Road"/>
+  </club>
+  <club name="Barnet">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Underhill Stadium"/>
+  </club>
+  <club name="Bolton Wanderers">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Reebok Stadium"/>
+  </club>
+  <club name="Brentford">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Griffin Park"/>
+  </club>
+  <club name="Brighton &amp; Hove Albion">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Withdean Stadium"/>
+  </club>
+  <club name="Bristol Rovers">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Memorial Stadium"/>
+  </club>
+  <club name="Bury">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Gigg Lane"/>
+  </club>
+  <club name="Accrington Stanley">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Accrington Stanley Stadium"/>
+  </club>
+  <club name="Burton Albion">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Burton Albion Stadium"/>
+  </club>
+  <club name="Burnley">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Turf Moor"/>
+  </club>
+  <club name="Cambridge United">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Abbey Stadium"/>
+  </club>
+  <club name="Cardiff City">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Ninian Park"/>
+  </club>
+  <club name="Charlton Athletic">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="The Valley"/>
+  </club>
+  <club name="Chelsea">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Stamford Bridge"/>
+  </club>
+  <club name="Cheltenham Town">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Whaddon Road"/>
+  </club>
+  <club name="Colchester United">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Layer Road"/>
+  </club>
+  <club name="Carlisle United">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Brunton Park"/>
+  </club>
+  <club name="Crystal Palace">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Selhurst Park"/>
+  </club>
+  <club name="Crawley Town">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Crawley Town Stadium"/>
+  </club>
+  <club name="Crewe Alexandra">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="The Alexandra Stadium"/>
+  </club>
+  <club name="Chesterfield">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Chesterfield Stadium"/>
+  </club>
+  <club name="Chester City">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Saunders Honda Stadium"/>
+  </club>
+  <club name="Darlington">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Darlington Stadium"/>
+  </club>
+  <club name="Derby County">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Pride Park"/>
+  </club>
+  <club name="Doncaster Rovers">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Keepmoat Stadium"/>
+  </club>
+  <club name="Droylsden">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Droylsden Stadium"/>
+  </club>
+  <club name="Aldershot Town">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Aldershot Town Stadium"/>
+  </club>
+  <club name="Everton">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Goodison Park"/>
+  </club>
+  <club name="Exeter City">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="St James Park"/>
+  </club>
+  <club name="Farsley Celtic">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Farsley Celtic Stadium"/>
+  </club>
+  <club name="Altrincham">
+    <kits>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey>
+          <type value="0"/>
+          <color r="255" g="255" b="255"/>
+          <image value=""/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="England"/>
+    <region name="England"/>
+    <stadium name="Altrincham Stadium"/>
+  </club>
+</Clubs>
+

@@ -1,0 +1,2 @@
+#!/bin/sh
+runhaskell Setup.hs configure --user --prefix=$HOME/freekick $1 $2 $3 $4 && runhaskell Setup.hs build && runhaskell Setup.hs install

@@ -1,0 +1,31 @@
+- write the README
++spotvalue: equality on x-axis, minus/plus for own/opponent goal
++players running slower (generally + depending on ball
+   distance/"situation energy")
++check which club is in control of the ball (last touched)
+-fix seekVelocity?
+-long passes
+-improve goalkeeper ai
+-improve interpose ai
+-goal keepers hold the ball
+-moving towards the ball (but not too far)
+-take note of personality + skills
++collision detection
+-pathfinding because of collision detection
+-goal keepers
+-long passes
+-different dribble distances based on situation
++forward passing/passing to teammates' future positions
+-kicking ball to difficult angles e.g. backwards slower, dependent of
+   control skill
+-referee setting situation to blocking e.g. after player position
+   changes
+-heading
+-tackling
+-fouls
+-yellow and red cards
+-injuries
+-substitutions
+-club tactics
+-coaches
+

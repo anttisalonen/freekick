@@ -1,0 +1,65 @@
+Idle -> Not on the ball -> Near to ball  -> Opponents nearby -> Ball in the air    -> !Estimate landing point and do heading
+                                                             -> Ball on the ground -> Ball, opponent not too fast -> !Run to ball
+                                                                                      Ball/opponent too fast      -> !Tackle
+                                         -> No opponents     -> !Run to ball
+                        -> Far from ball -> !Go to position as in formation
+     -> On the ball     -> Peaceful -> Teammate in good position -> !Pass
+                                    -> I'm near goal             -> !Shoot
+                                    -> Otherwise                 -> !Dribble
+                        -> Danger   -> Teammate in good position -> !Pass
+                                    -> Near own goal             -> !Long ball
+                                    -> Near their goal           -> !Shoot
+                                    -> Otherwise                 -> There's room -> !Flip
+                                                                 -> No room      -> !Do decoy/trick
+
+Flow
+
+
+Start -> Kickoff -> Play -> Goal -> Kickoff
+                         -> Out (side) -> Throwin -> Play
+                         -> Half time/full time
+                         -> Out (end, own side) -> Corner kick -> Play
+                         -> Out (end, other side) -> Goal kick -> Play
+                         -> Foul -> Free kick -> Play
+
+Physics:
+
+Decision -> Player data -> Player injured? -> Yes -> !Lie down
+                                              no -> Player in the air? (Tackled/jumping) -> Yes -> !Calculate default
+                                                                                            No  -> Player just kicked?
+  Player just kicked? -> Yes -> Lower the kick timer
+                         No  -> Player just tackled/was tackled? -> No -> ...
+  ... Decision to Move/run/jump -> !Calculate as decided
+                  Kick/pass/dribble -> Ball near enough -> Yes -> !Calculate ball as decided
+                                                           no  -> !calculate default
+                  tackle -> !get down -> another player there -> no -> !calculate
+                                                                yes -> !knock player down -> injured? -> yes -> !injure player
+                                                                                                         no -> !calculate
+                                Player just tackled/was tackled? -> Yes -> !lower tackle timer -> tackle timer down? -> no -> !stay down
+                                                                                                                        yes -> get up
+
+Player data
+injury level/counter
+location
+angle
+velocity
+acceleration
+down counter (tackled)
+kick counter
+fatigue level
+
+http://en.wikipedia.org/wiki/Tree_(data_structure)
+http://en.wikipedia.org/wiki/Decision_tree
+http://en.wikipedia.org/wiki/Alternating_decision_tree
+http://en.wikipedia.org/wiki/Decision_tree_learning
+http://en.wikipedia.org/wiki/Grafting_(computer)
+http://en.wikipedia.org/wiki/Binary_decision_diagram
+http://en.wikipedia.org/wiki/Graph_theory
+http://en.wikipedia.org/wiki/Artificial_neural_network
+http://en.wikipedia.org/wiki/Dynamic_programming
+http://de.wikipedia.org/wiki/Mustererkennung
+http://en.wikipedia.org/wiki/Artificial_intelligence
+http://de.wikipedia.org/wiki/Gerichteter_azyklischer_Graph
+http://en.wikipedia.org/wiki/Fuzzy_system
+http://en.wikipedia.org/wiki/Supervised_learning
+http://en.wikipedia.org/wiki/Boolean_satisfiability_problem

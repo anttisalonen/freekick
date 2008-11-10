@@ -1,0 +1,24 @@
+Aldershot    	    350
+Cambridge    	    346
+Torquay      	    342
+Exeter       	    338
+Burton       	    334
+Stevenage    	    330
+Histon       	    326
+Forest Green 	    322
+Oxford       	    318
+Grays        	    314
+Ebbsfleet    	    310
+Salisbury    	    306
+Kidderminster	    302
+York         	    298
+Crawley      	    294
+Rushden      	    290
+Woking       	    286
+Weymouth     	    282
+Northwich    	    278
+Halifax      	    274
+Altrincham   	    270
+Farsley      	    266
+Stafford     	    262
+Droylsden    	    258

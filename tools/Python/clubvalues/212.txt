@@ -1,0 +1,19 @@
+212
+
+   Latest Scottish Premier Table
+
+
+                P  HW HD HL HGF HGA AW AD AL AGF AGA Points GD
+   Celtic       37 14  4  1  42   7 13  1  4  41  19     86 +57
+   Rangers      35 18  0  1  50  10  8  4  4  30  20     82 +50
+   Motherwell   36  9  3  6  29  25  8  2  8  18  20     56  +2
+   Dundee Utd   37  9  6  3  26  13  5  4 10  27  33     52  +7
+   Hibernian    37 10  5  3  34  20  4  5 10  15  23     52  +6
+   Aberdeen     37 10  5  4  31  21  4  3 11  17  37     50 -10
+   Falkirk      37  8  6  5  21  16  5  4  9  23  31     49  -3
+   Hearts       38  8  4  7  27  26  5  5  9  20  29     48  -8
+   Inverness CT 37  9  1  8  32  28  4  2 13  19  34     42 -11
+   St Mirren    36  7  4  7  17  24  3  6  9   9  27     40 -25
+   Kilmarnock   37  6  5  7  24  22  3  5 11  13  29     37 -14
+   Gretna       38  4  3 11  18  34  1  5 14  14  49     13 -51
+

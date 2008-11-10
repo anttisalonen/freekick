@@ -1,0 +1,35 @@
+1. Soccer game.
+2. Divided into an organizational part and a match part.
+3. The match part is divided into server and client.
+4. Server handles the physics calculations and the movement calculations of the match.
+5. Server is started at the beginning of a match.
+6. Clients connect to the server at the beginning of a match.
+7. A client may reside on the same computer as the server.
+8. There is a process that handles AI.
+9. AI connects to the server like other clients.
+10. During match, clients send movement and control data to the server.
+11. During match, AI also sends movement data of the AI players to the server.
+12. AI also handles the rules and the referee AI.
+13. Physics part sends game information constantly to all the clients, including AI.
+14. The clients receive initial match data after connecting to the server.
+15. The clients (including AI) must tell the server which player(s) they control.
+16. The server process as well as the AI process are started by the organizational part.
+17. In single player mode, also the client process is started by the organizational part.
+18. The server process gets the match data from a temporary file created by the organizational part.
+19. The organizational part gets the match data after the match from a temporary file created by the server process.
+20. The server process quits after the match, when either all the clients have been disconnected or after a timeout (5 minutes/300 seconds, configurable).
+21. The server sends the clients "delta data" very fast (20..60 FPS) and the actual data (without delta) ("update data" as a precaution with longer intervals (once per second).
+22. The delta data sent from server to the clients during the match includes player and ball positions.
+23. The update data sent from server to the clients includes match score, time and match status.
+24. The data sent from the client to the server includes the controlled player id, actions made by the player and miscellaneous data (chat messages, pausing the game).
+25. Miscellaneous data can be sent using bindings or system console.
+26. The server is able to accept clients during the whole match.
+27. The server assigns clients to the players as they connect.
+28. Clients that signal they should not be assigned to any player or clients saying they should be assigned to a player that already has another client assigned are spectators.
+29. If a client disconnects during the match (times out), the corresponding player (if any) is temporarily injured. If the client doesn't reconnect during a certain time (the time interval is configurable), the player is substituted by the coach for another (possibly AI) player.
+30. The server updates the match state continuously and in regular intervals (60 FPS).
+31. If the server sends delta data to a client faster the client can process it, the client can ask the server to lower the rate with which the server sends the data.
+32. After a client has connected with the server, the client must tell the server when it's ready for the match.
+33. The server won't start the match until all the clients are connected (all players have a client (or AI) assigned to them) and have signaled they are ready.
+34. The server keeps accepting connections in case a client needs to reconnect or spectators connect.
+

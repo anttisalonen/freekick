@@ -1,0 +1,62 @@
+<Cultures>
+  <Templates>
+    <Def name="Asian" abbr="asi">
+      <Skins>
+        <Skin r="210" g="190" b="130" prob="100"/>
+      </Skins>
+      <Eyes>
+        <Eye r="40" g="0" b="15" prob="100"/>
+      </Eyes>
+      <Hairs>
+        <Hair r="0-20" g="0-20" b="0-20" prob="100"/>
+      </Hairs>
+    </Def>
+    <Def name="North European" abbr="neu">
+      <Skins>
+        <Skin r="220-230" g="170-190" b="150-160" prob="100"/>
+      </Skins>
+      <Eyes>
+        <Eye r="40" g="0" b="15" prob="60"/>
+        <Eye r="15" g="100" b="15" prob="30"/>
+        <Eye r="0" g="70" b="255" prob="10"/>
+      </Eyes>
+      <Hairs>
+        <Hair r="50-60" g="30-40" b="20-30" prob="60"/>
+        <Hair r="0-20" g="0-20" b="0-20" prob="20"/>
+        <Hair r="220-230" g="210-220" b="60-70" prob="20"/>
+      </Hairs>
+    </Def>
+    <Def name="South European" abbr="seu">
+      <Skins>
+        <Skin r="180-190" g="130-140" b="30-40" prob="100"/>
+      </Skins>
+      <Eyes>
+        <Eye r="40" g="0" b="15" prob="100"/>
+      </Eyes>
+      <Hairs>
+        <Hair r="0-20" g="0-20" b="0-20" prob="100"/>
+      </Hairs>
+    </Def>
+    <Def name="African" abbr="afr">
+      <Skins>
+        <Skin r="60-70" g="30-40" b="0" prob="100"/>
+      </Skins>
+      <Eyes>
+        <Eye r="40" g="0" b="15" prob="100"/>
+      </Eyes>
+      <Hairs>
+        <Hair r="0-20" g="0-20" b="0-20" prob="100"/>
+      </Hairs>
+    </Def>
+  </Templates>
+  <Groups>
+    <Group name="China" template="asi"/>
+    <Group name="Japan" template="asi"/>
+    <Group name="Austria" template="neu"/>
+    <Group name="England" template="neu"/>
+    <Group name="Australia" template="neu"/>
+    <Group name="Norway" template="neu"/>
+    <Group name="Belgium" template="neu"/>
+    <Group name="Brazil" template="seu"/>
+  </Groups>
+</Cultures>

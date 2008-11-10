@@ -1,0 +1,23 @@
+MK Dons     	    475
+Peterborough	    470
+Hereford    	    465
+Stockport   	    460
+Rochdale    	    455
+Darlington  	    450
+Wycombe     	    445
+Chesterfield	    440
+Rotherham   	    435
+Bradford    	    430
+Morecambe   	    425
+Barnet      	    420
+Bury        	    415
+Brentford   	    410
+Lincoln     	    405
+Grimsby     	    400
+Accrington  	    395
+Shrewsbury  	    390
+Macclesfield	    385
+Notts Co    	    380
+Chester     	    375
+Mansfield   	    370
+Wrexham     	    365

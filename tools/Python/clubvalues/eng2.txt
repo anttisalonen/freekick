@@ -1,0 +1,24 @@
+West Brom  	    750
+Stoke      	    744
+Hull City  	    738
+Bristol C  	    732
+C Palace   	    726
+Watford    	    720
+Wolves     	    714
+Ipswich    	    708
+Sheff Utd  	    702
+Plymouth   	    696
+Charlton   	    690
+Cardiff    	    684
+Burnley    	    678
+QPR        	    672
+Preston    	    666
+Sheff Wed  	    660
+Norwich    	    654
+Barnsley   	    648
+Blackpool  	    642
+Southampton	    636
+Coventry   	    630
+Leicester  	    624
+Scunthorpe 	    618
+Colchester 	    612

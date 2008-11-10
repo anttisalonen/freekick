@@ -1,0 +1,20 @@
+Man Utd    	    950
+Chelsea    	    940
+Arsenal    	    930
+Liverpool  	    920
+Everton    	    910
+Aston Villa	    900
+Blackburn  	    890
+Portsmouth 	    880
+Man City   	    870
+West Ham   	    860
+Tottenham  	    850
+Newcastle  	    840
+Middlesbro 	    830
+Wigan      	    820
+Sunderland 	    810
+Bolton     	    800
+Fulham     	    790
+Reading    	    780
+Birmingham 	    770
+Derby      	    760

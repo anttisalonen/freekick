@@ -1,0 +1,4 @@
+#!/bin/sh
+
+ghc --make -i$HOME/programmierung/haskell/working/League/:$HOME/programmierung/haskell/working Main.hs
+

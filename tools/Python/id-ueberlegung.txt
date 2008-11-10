@@ -1,0 +1,21 @@
+ids werden am meisten benutzt, wenn ergebnisse generiert werden
+vor der generierung der ergebnisse:
+generierung der zeitpläne
+liste der zu simulierenden ligen:
+1. durchmappen, dabei für jedes team in den ligen spiele generieren und in listen eintragen (<-: liste der spiele als liste im liga-datenstruktur: spieleliste)
+spieleliste: daten über das kommende spiel: spielende clubs, datum, zeit, ort, tournier
+2. spieleliste wird nach uhrzeit und datum sortiert und bei der generierung der ergebnisse durchgeguckt
+
+bei der generierung der ergebnisse:
+hauptschleife -> 1 woche/1 tag generieren
+3. spieleliste durchmappen, davon die richtigen (jetzt zu spielenden) spiele rausnehmen
+4. diese teilliste mappen und ergebnis erzeugen, abhängig von den teams, spieler, wetter, tournier...
+
+zu 1: ligen haben eine liste von clubids: diese müssen aufgelöst werden, um ort des spiels in die spieleliste einzutragen. die clubids werden in die spieleliste eingetragen.
+zu 4: die spielerids/die (durchschnittliche) stärke der clubs müssen aufgelöst werden, um das ergebnis zu berechnen. dazu müssen auch die clubids aufgelöst werden.
+
+auflösung:
+es gibt datenstrukturen (finite maps passen am besten?), die schlüssel (ids) und daten (spieler, club, etc.) enthalten.
+
+
+

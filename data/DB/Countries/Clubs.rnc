@@ -1,0 +1,66 @@
+element Clubs
+{
+    element club
+    { 
+        attribute name{text},
+        element kits
+        {
+            element kit
+            {
+                element jersey
+                {
+                    attribute type{text},
+                    element color
+                    {
+                        attribute r{text},
+                        attribute g{text},
+                        attribute b{text}
+                    }+,
+                    element image
+                    {
+                        attribute value{text}
+                    }?
+                },
+                element shorts
+                {
+                    element color
+                    {
+                        attribute r{text},
+                        attribute g{text},
+                        attribute b{text}
+                    }+,
+                    attribute image{text}?
+                },
+                element socks
+                {
+                    element color
+                    {
+                        attribute r{text},
+                        attribute g{text},
+                        attribute b{text}
+                    }+
+                }
+            }+
+        },
+        element country
+        {
+            attribute name{text}
+        },
+        element region 
+        {
+            attribute name{text}
+        },
+        element stadium 
+        {
+            attribute name{text}
+        },
+        element contracts
+        {
+            element contract 
+            {
+                attribute player{text}
+            }+
+        }+
+    }*
+}
+

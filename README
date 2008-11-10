@@ -1,0 +1,19 @@
+Freekick - a soccer game written in Haskell.
+
+This is the README file for the darcs repository of freekick. You can simply
+compile and install freekick and the necessary libraries using the script
+buildall:
+
+ $ ./buildall
+
+This will install freekick to $HOME/freekick using Cabal. If you want to
+tweak the installation (as in change the installation directory), feel free
+to modify the script as necessary. You also need the other libraries, e.g. 
+Hexpat and the SDL bindings. Cabal will let you know what you're missing.
+
+For information on using and starting freekick, see the README file in the
+freekick subdirectory.
+
+Comments, questions, patches: ajsalonen@gmail.com
+For the newest version see http://finder.homelinux.org/freekick/
+

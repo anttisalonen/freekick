@@ -1,0 +1,27 @@
+21
+
+   Latest English Premier Table
+
+
+               P  HW HD HL HGF HGA AW AD AL AGF AGA Points GD
+   Man Utd     38 17  1  1  47   7 10  5  4  33  15     87 +58
+   Chelsea     38 12  7  0  36  13 13  3  3  29  13     85 +39
+   Arsenal     38 14  5  0  37  11 10  6  3  37  20     83 +43
+   Liverpool   38 12  6  1  43  13  9  7  3  24  15     76 +39
+   Everton     38 11  4  4  34  17  8  4  7  21  16     65 +22
+   Aston Villa 38 10  3  6  34  22  6  9  4  37  29     60 +20
+   Blackburn   38  8  7  4  26  19  7  6  6  24  29     58  +2
+   Portsmouth  38  7  8  4  24  14  9  1  9  24  26     57  +8
+   Man City    38 11  4  4  28  20  4  6  9  17  33     55  -8
+   West Ham    38  7  7  5  24  24  6  3 10  18  26     49  -8
+   Tottenham   38  8  5  6  46  34  3  8  8  20  27     46  +5
+   Newcastle   38  8  5  6  25  26  3  5 11  20  39     43 -20
+   Middlesbro  38  7  5  7  27  23  3  7  9  16  30     42 -10
+   Wigan       38  8  5  6  21  17  2  5 12  13  34     40 -17
+   Sunderland  38  9  3  7  23  21  2  3 14  13  38     39 -23
+   Bolton      38  7  5  7  23  18  2  5 12  13  36     37 -18
+   Fulham      38  5  5  9  22  31  3  7  9  16  29     36 -22
+   Reading     38  8  2  9  19  25  2  4 13  22  41     36 -25
+   Birmingham  38  6  8  5  30  23  2  3 14  16  39     35 -16
+   Derby       38  1  5 13  12  43  0  3 16   8  46     11 -69
+

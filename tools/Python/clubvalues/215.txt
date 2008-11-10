@@ -1,0 +1,17 @@
+215
+
+   Latest Scottish Division 3 Table
+
+
+                 P  HW HD HL HGF HGA AW AD AL AGF AGA Points GD
+   East Fife     36 14  2  2  40   8 14  2  2  37  16     88 +53
+   Stranraer     36 10  3  5  29  21  9  5  4  36  22     65 +22
+   Montrose      36  9  3  6  31  22  8  5  5  28  14     59 +23
+   Arbroath      36  6  7  5  24  20  8  3  7  30  27     52  +7
+   Stenh'semuir  36  6  5  7  23  27  7  4  7  27  32     48  -9
+   Elgin City    36  9  2  7  35  33  4  6  8  21  35     47 -12
+   Albion        36  4  7  7  29  35  5  3 10  22  33     37 -17
+   Dumbarton     36  7  5  6  17  19  2  5 11  14  29     37 -17
+   East Stirling 36  6  3  9  32  35  4  1 13  16  36     34 -23
+   Forfar        36  6  3  9  20  26  2  6 10  15  36     33 -27
+

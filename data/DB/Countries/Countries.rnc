@@ -1,0 +1,195 @@
+element Countries
+{
+    element country
+    { 
+        attribute name{text},
+        attribute abbr{text},
+        element team
+        {
+            attribute id{text}
+        },
+        element Regions
+        {
+            element region
+            {
+                attribute name{text},
+                element region
+                {
+                    attribute name{text},
+                    element region
+                    {
+                        attribute name{text},
+                        element region
+                        {
+                            attribute name{text},
+                            element stadium
+                            {
+                                attribute name{text},
+                                attribute capacity{text}
+                            }*
+                        }*,
+                        element stadium
+                        {
+                            attribute name{text},
+                            attribute capacity{text}
+                        }*
+                    }*,
+                    element stadium
+                    {
+                        attribute name{text},
+                        attribute capacity{text}
+                    }*
+                }*,
+                element stadium
+                {
+                    attribute name{text},
+                    attribute capacity{text}
+                }*
+            }+
+        },
+        element Tournaments
+        {
+            element tournament
+            {
+                attribute id{text}?,
+                attribute name{text},
+                element stage
+                {
+                    attribute id{text}?,
+                    attribute name{text},
+                    attribute type{text},
+                    element setup
+                    {
+                        attribute seeded{text},
+                        attribute participantnum{text},
+                        attribute rounds{text},
+                        attribute extratime{text},
+                        attribute penalties{text},
+                        attribute replays{text},
+                        attribute awaygoals{text}
+                    },
+                    element trophy
+                    {
+                        attribute id{text}?,
+                        attribute name{text},
+                        element image
+                        {
+                            attribute file{text}
+                        },
+                        element value
+                        {
+                            attribute points{text},
+                            attribute bonus{text}
+                        }
+                    }?,
+                    element cuppr
+                    {
+                        attribute tournament{text}?,
+                        attribute stage{text}
+                    }?,
+                    element cuprl
+                    {
+                        attribute tournament{text}?,
+                        attribute stage{text}
+                    }?
+                }+
+            }+
+        }*,
+        element leaguesystem
+        {
+            attribute id{text}?,
+            attribute name{text},
+            element schedule
+            {
+                attribute sm{text},
+                attribute sd{text},
+                attribute em{text},
+                attribute ed{text}
+            },
+            element Levels
+            {
+                element level
+                {
+                    element branch
+                    {
+                        element stage
+                        {
+                            attribute id{text}?,
+                            attribute name{text},
+                            attribute type{text},
+                            element setup
+                            {
+                                attribute seeded{text},
+                                attribute participantnum{text},
+                                attribute groups{text}?,
+                                attribute rounds{text},
+                                attribute pointsperwin{text}?,
+                                attribute extratime{text}?,
+                                attribute penalties{text}?,
+                                attribute replays{text}?,
+                                attribute awaygoals{text}?
+                            },
+                            element cuppr
+                            {
+                                attribute tournament{text}?,
+                                attribute stage{text}
+                            }?,
+                            element cuprl
+                            {
+                                attribute tournament{text}?,
+                                attribute stage{text}
+                            }?,
+                            element leagueprs
+                            {
+                                element leaguepr
+                                {
+                                    attribute num{text},
+                                    attribute tournament{text}?,
+                                    attribute stage{text}
+                                }*
+                            }?,
+                            element leaguerls
+                            {
+                                element leaguerl
+                                {
+                                    attribute num{text},
+                                    attribute tournament{text}?,
+                                    attribute stage{text}
+                                }*
+                            }?,
+                            element attendances
+                            {
+                                element attendance
+                                {
+                                    attribute highest{text}?,
+                                    attribute num{text}?,
+                                    attribute tournament{text},
+                                    attribute stage{text}
+                                }+
+                            }?,
+                            element trophy
+                            {
+                                attribute id{text},
+                                attribute name{text},
+                                element image
+                                {
+                                    attribute file{text}
+                                },
+                                element value
+                                {
+                                    attribute points{text},
+                                    attribute bonus{text}
+                                }
+                            }?
+                        },
+                        element region
+                        {
+                            attribute id{text}
+                        }
+                    }+
+                }+
+            }
+        }
+    }+
+}
+

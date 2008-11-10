@@ -1,0 +1,189 @@
+
+   S E R V E R                                   |   C L I E N T
+
+           (once)       (60FPS)           (60FPS)
+        -> rules ->  -> controls   ->  -> match data ->  -> locations ->
+WORLD RULES        AI             PHYSICS              UI            GRAPHICS
+                     <- match data <-  <- controls   <-
+                        (60FPS)           (60FPS)
+ <configuration>  <process>       <process>                 <process>
+
+Rules:
+Configuration
+
+AI:
+Major task:
+a) Event: receive players' status from the server (~60 FPS)
+b) Calculate a decision based on the status
+c) Send the decision (as user input) to the server (asap)
+
+Minor task 1:
+a) If physics does not send data and times out, notify and wait
+
+Minor task 2:
+a) If input buffer from physics runs full, notify and ask for lower FPS from physics
+
+Initialization tasks:
+a) Connect to the server
+b) Receive initial match data from the server
+c) Send "OK" to the server
+
+PHYSICS:
+Major task:
+a) Timer: send match data to clients (~60 FPS)
+b) Receive control information from clients
+c) Calculate player positions as specified by the player data and controls
+
+Minor task 1:
+a) If a client times out, create an "injured" event in the match
+b) Accept a reconnecting client if within timeout
+
+Minor task 2:
+a) If AI times out, notify and wait
+
+Initialization tasks:
+a) Parse the match start file
+b) Wait for connections from all clients and the AI
+c) Send initial match data to the clients
+d) Wait until all the clients are ready (receive "OK"s)
+
+CLIENT:
+Major task 1:
+a) Receive players' status from the server (~60 FPS)
+b) Draw the pitch, players and the ball
+
+Major task 2:
+a) Read user input
+b) Send user input to the server (~60 FPS)
+
+Minor task 1:
+a) If physics does not send data and times out, notify and wait
+
+Minor task 2:
+a) If input buffer from physics runs full, notify and ask for lower FPS from physics
+
+Initialization tasks:
+a) Connect to the server
+b) Receive initial match data from the server
+c) Display match data
+d) Send "OK" to the server
+
+COMMUNICATIONS PROTOCOL
+
+Controls:
+(ACTION ["PARAMETERS"])
+actions: move(a) kick(b) tackle(c) hold(d)
+move parameters: desired_velocity_vector player_id
+kick parameters: desired_ball_velocity_vector player_id
+tackle parameters: player_id
+hold_ball parameters: desired_velocity_vector player_id
+e.g.
+(a 3.295 0 0 156)   # run along the x-axis with 3m/s
+(a 0 10.29 0 12843)  # jump (heading)
+(b 30 5 40 7583) # kick the ball with the velocity of 50m/s along x/z, 5m/s along y
+(c 375)                 # tackle
+(d 2.59 0 2.0 9573)                # hold the ball and run
+Note: player_id should always be sent by the AI and by the human clients
+
+
+Match data:
+1. Initialization (beginning)
+    - Clubs
+    - Stadium
+    - General player data (names, colors, etc.)
+2. Occasional (correcting) update (~ 1/Second)
+    - Player locations
+    - Time
+    - Score
+3. Constant update (~ 30/Second)
+    - Player velocities
+    - Player accelerations
+
+1. Initialization protocol: Haskell serialization of data type MatchInfo as specified in Libsoccer
+
+2. Correcting update 
+  Player locations
+  Interrupts (at special events)
+    - Pause, time, score, etc.
+
+Protocol:
+For updates on player locations:
+as in (3.)
+For updates on match state:
+TYPE VALUE
+types: pause(A), time(B), score(C), status(D)
+pause parameters: boolean
+time parameters: minutes seconds [halftime (1/2) [extratime (0/1)]]
+score parameters: homegoals awaygoals [homepenalties awaypenalties]
+status parameters: ballstatus owner pointx pointy refstatus
+  ball status: 
+       0        in play
+       1        pre kick off
+       2        kick off
+       3        throw in
+       4        goal kick
+       5        corner kick
+       6        indirect free kick
+       7        direct free kick
+       8        penalty kick
+       9        dropped ball
+       10       half time / full time
+  owner:
+       0        "up" team
+       1        "down" team
+  pointx/y:
+       x y z    the point where play will be restarted
+  ref status:
+       0        free for play (not blocked)
+       1        preparation for the status (blocked)
+                (e.g. corner kick not given free yet)
+e.g.
+(A 1)                 # pause on
+(B 30 40)             # set time to 30:40 of the current half
+(B 20 33 2)           # set time to 20:33 of the second half
+(B 23 3 1 0)          # set time to 23:03 of the first half
+(B 2 3 2 1)           # set time to 02:03 of the second half of the extra time
+(C 1 1)               # set score to 1-1
+(C 2 2 3 2)           # set score to 2-2, 3-2 after penalties
+(D 0 1 0 0 0)         # playing, down club has control
+(D 5 0 6500 11000 1)  # preparing for corner kick for up club
+
+3. 
+Constant update (~ 60/Second)
+    - Player velocity
+    - Player acceleration
+
+Procotol: 
+(n v x y z a b g)
+ n = player id (ball: -2)
+ v = location (0)/velocity (1)/acceleration (2)
+ x, y, z = coordinates
+ a, b, g = angles
+
+
+---------- 
+Obsolete:
+(Match Data Protocol:)
+(TYPE [OBJECT] KEY=VALUE [KEY=VALUE ...])
+Three types of keys:
+1. General (club, stadium, player, time, score)
+2. Corrections (player, ball, time, score)
+3. Updates (player, ball)
+
+a. club club_data
+b. stadium stadium_data
+c. player player_data
+d. update (player (player_location) (velocity) (acceleration))
+
+e.g.
+a 1 name="Arsenal" # club 1 name
+a 2 name="Chelsea" # club 2 name
+b 1 name="Stadium" capacity="20000" # stadium name, capacity
+b 2 time="32:02"
+b 3 score="1:2"
+c 101 name="Gary Player" # team 1 pl 1
+c 234 name="Two" skin="200 200 200" # team 2 pl 34
+d 101 location="0.2 0.4 0.0" # t1 pl1 location
+d 234 acceleration="0.0 -0.5 0.0" #t2 pl23 acceleration
+
+

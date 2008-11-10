@@ -1,0 +1,31 @@
+23
+
+   Latest Football League One Table
+
+
+                 P  HW HD HL HGF HGA AW AD AL AGF AGA Points GD
+   Swansea       46 13  5  5  38  21 14  6  3  44  21     92 +40
+   Nottm Forest  46 13  8  2  37  13  9  8  6  27  19     82 +32
+   Doncaster     46 14  4  5  34  18  9  7  7  31  23     80 +24
+   Carlisle      46 17  3  3  39  16  6  8  9  25  30     80 +18
+   Leeds         46 15  4  4  41  18 12  6  5  31  20     76 +34
+   Southend      46 12  6  5  35  20 10  4  9  35  35     76 +15
+   Brighton      46 12  6  5  37  25  7  6 10  21  25     69  +8
+   Oldham        46 10  7  6  32  21  8  6  9  26  25     67 +12
+   Northampton   46 12  6  5  38  21  5  9  9  22  34     66  +5
+   Huddersfield  46 12  4  7  29  22  8  2 13  21  40     66 -12
+   Tranmere      46 13  4  6  32  18  5  7 11  20  29     65  +5
+   Walsall       46  7  9  7  27  26  9  7  7  25  20     64  +6
+   Swindon       46 12  5  6  41  24  4  8 11  22  32     61  +7
+   Leyton Orient 46  9  6  8  27  29  7  6 10  22  34     60 -14
+   Hartlepool    46 11  5  7  40  26  4  4 15  23  40     54  -3
+   Bristol R     46  5 10  8  25  30  7  7  9  20  23     53  -8
+   Millwall      46  9  4 10  30  26  5  6 12  15  34     52 -15
+   Yeovil        46  9  4 10  19  27  5  6 12  19  32     52 -21
+   Cheltenham    46 10  8  5  23  21  3  4 16  19  43     51 -22
+   Crewe         46  8  6  9  27  33  4  8 11  20  32     50 -18
+   Bournemouth   46 10  4  9  31  35  7  3 13  31  37     48 -10
+   Gillingham    46  9  9  5  26  22  2  4 17  18  51     46 -29
+   Port Vale     46  5  8 10  26  35  4  3 16  21  46     38 -34
+   Luton         46 10  5  8  29  25  1  5 17  14  38     33 -20
+
