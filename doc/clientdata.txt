@@ -1,0 +1,29 @@
+Client data file:
+reservations:
+
+pl "test1" (pw "secret1") has id 1234
+pl "test2" (pw "secret2") has id 3456
+...
+
+in client data file:
+lists of who plays as whom
+client username/password hash lists
+min/max number of human players
+
+server behavior:
+for "casual"/single player matches/matches on public servers:
+- client authenticates itself on the server: just allow everyone
+- anyone can play as anybody
+  - client(s) simply say which player they control
+- start game when clients are ready
+
+for "league" matches:
+- soccer player with id x is only allowed to be controlled by player named "xx"/ai
+- client authenticates itself on the server: server has username/password lists
+- at least/maximum xx human players are expected before start
+
+-> human player account for each soccer player
+-> soccer players without account are ai
+-> human player account: name, password (hash), player id
+-> client sends name, pw, id, server verifies
+

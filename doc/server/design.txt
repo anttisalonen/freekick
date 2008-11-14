@@ -1,0 +1,79 @@
+Server design:
+
+Flow:
+1. Init
+  a. parse match data (from initiator)
+    1. match data has information as in matchdata.txt
+      a. players, clubs, place, time, setting, lineups
+    - check pitch measurements
+    - check lineups (number of players) and number of substitutes
+    - choose club kits and referee+goalkeeper kit colors
+  b. parse client data (from initiator)
+    1. client data has information as in clientdata.txt
+      a. rules on when the match is allowed to start
+      b. rules on how many clients are expected
+      c. rules on which client gets to control which player
+      d. client username/password lists
+  c. accept connections
+    1. when the criteria from client data is passed, start match init
+2. Match
+  a. match initialization
+    1. walking in, hymns, celebrations, coin toss
+    2. when 1. finished and players on their sides, start match
+  b. match
+    - rules
+      - ball in and out of play
+      - fouls
+      - offside
+      - start match/half
+      - injury time
+      - end match/half
+      - receive & handle substitution requests
+     - update state machine in status
+     - track next standard situation + controlling club
+    - physics
+
+Ball in and out of play - state machine:
+rules-state_machine.xmi
+
+Data structures:
+see matchdata.txt
+
+
+server encapsulates/controls match
+commands on server console/client actions(disconnect) affect/pause match
+
+
+Parts (i.e. threads):
+- physics simulation
+- console
+- rules simulation
+- dispatcher
+
+States:
+- match state (player, ball etc. positions etc., match time etc.)
+- server state (client stati, pause etc.)
+- rules state (ball in/out of play, throwin, controlling club etc.)
+
+Tasks:
+1. Physics simulation
+ - constantly updates the match state
+ - notifies Rules simulation of any changes (delta)
+ - notifies Dispatcher of any changes
+2. Console
+ - Reads server state via command line
+ - Writes server state (toggles pause, kicks clients etc.) via command line
+ - notifies Dispatcher of any changes
+ - notifies Physics of any relevant changes, e.g. pause
+3. Rules simulation
+ - constantly checks the match state
+ - when changes in Rules are found, updates the rules state
+ - notifies Dispatcher of any changes
+4. Dispatcher
+ - Receives messages from physics, console, rules
+ - constantly sends status updates (events) to clients
+
+Server + Bullet:
+- Each entity has a motionstate
+- motionstate::setworldtransform is called whenever the object is moved
+  -> this function broadcasts its new position to the clients in regular intervals

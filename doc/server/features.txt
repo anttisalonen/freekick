@@ -2,10 +2,12 @@ Server
 
 Tasks:
 - generates the scene
+  - read match data file
   - sets player & ball positions
   - sets stadium, goal positions, collision meshes
 - accepts incoming connections
   - validates the player requests from clients
+  - reads match data file to see which clients can log in/players can be human
 - sends clients match status
   - dynamic object positions
   - time, score, chat messages
@@ -37,3 +39,31 @@ Tasks:
     - for statistics
   - checks for fouls 
     - gives severity points for collisions/tackles/interference
+
+Options:
+- Client disconnection handling: pause/replace by ai/resume/wait
+
+Flow:
+- initialization: 
+  - parses match data file
+  - parses client data file
+- accepts connections
+- when everyone is connected and have sent the "ok to start"-bit (or console tells the server to), start match initialization
+- after match initialization start match
+- during match:
+  - control physics
+  - control rules
+- half time:
+  - offer snacks
+  - show entertaining statistics
+  - resume match
+- full time:
+  - wait until all clients are disconnected
+  - kick ai
+
+Console functions:
+- kick/ban
+- write to clients
+- moderating/disabling chat
+- set server/match setup: arcade mode, match length, etc.
+- start/restart/finish match

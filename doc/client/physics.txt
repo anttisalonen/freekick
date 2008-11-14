@@ -1,0 +1,7 @@
+Physics integration on the client side:
+
+1. Server (server side physics) updates match status with e.g. 20 Hz frequency
+2. Physics (client side physics) updates match status with e.g. 60 Hz frequency
+
+Server updates are taken over 1:1 on the client side
+Client side physics only handles 

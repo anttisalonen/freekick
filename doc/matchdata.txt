@@ -1,0 +1,61 @@
+##2008 11 10
+Match data file:
+    MatchInfo { homecl        :: Club
+              , awaycl        :: Club
+              , homepl        :: [Player]
+              , awaypl        :: [Player]
+              , hformation    :: Formation
+              , aformation    :: Formation
+              , hlineup       :: Lineup
+              , alineup       :: Lineup
+              , pitchinfo     :: Pitch
+              , starttime     :: DateTime
+              }
+- lineups include substitutes
+- additional: organizatory information on match: tournament name, round name, international/official?, max. substitutes, min. stadium capacity
+- additional: half time interval, match length, extra time/penalties/golden goal
+
+##2008 11 11
+match:
+- static match data
+ - place
+ - tournament, round name
+ - rules:
+  - max. substitutes
+  - extra time
+  - penalties
+  - away goals
+  - golden goal
+  - half time interval
+  - match length
+  - given yellow cards
+ - referee
+ - clubs:
+  - club names
+  - available players
+- dynamic match data
+ - time incl. which half time
+ - ball pos
+ - referee pos
+ - weather
+ - attacking directions
+ - clubs:
+  - players' pos
+  - players' roles (subs etc.) (current lineup)
+  - formation
+ - clients
+ - score
+ - statistics incl. injury time
+ - rules status (ball in/out of play)
+- the day after data
+ - injuries
+ - score
+ - statistics:
+  - yellow/red cards
+
+server:
+- disconnection handling
+
+static match data comes from the initiator and is saved for server
+dynamic match data is used by the server
+day after data is saved by the server for the initiator
