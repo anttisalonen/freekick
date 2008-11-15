@@ -22,28 +22,67 @@
 #ifndef ENTITY_H
 #define ENTITY_H
 
+#include <iostream>
 #include <string>
-#include "Drawable.h"
-#include "Color.h"
+#include <exception>
+#include <boost/date_time/posix_time/posix_time.hpp>
+
 #include "Vector3.h"
+#include "Color.h"
 
 /**
   * class Entity
   */
 
-class Entity : public Drawable
+class Entity
 {
 public:
-
     virtual ~Entity() { }
+    /**
+     * @return Vector3*
+     */
+    virtual const Vector3& getPosition ( ) const;
+    /**
+     * @return Color*
+     */
+    virtual const Color& getColor ( ) const;
+    /**
+     * @return string*
+     */
+    virtual const std::string& getModel ( ) const;
+    /**
+     * @return Vector3*
+     */
+    virtual const Vector3& getDirection ( ) const;
+    virtual const Vector3& getVelocity() const;
+    virtual const Vector3& getAcceleration() const;
+    void setMass(float m);
+    void setPosition(float x, float y, float z);
+    void setVelocity(float x, float y, float z);
+    void setAcceleration(float x, float y, float z);
+    void setDirection(float x, float y, float z);
+    void setModel(std::string m);
+    void setColor(float r, float g, float b);
+    void setColor(const Color& col);
+    void setAutomaticOrientation(bool a);
+    void update(float interval);
     void update(int v, float x, float y, float z);
+    void interpolate(boost::posix_time::ptime pt);
+    virtual const int getID() = 0;
 
 protected:
-    Entity(float _mass = 0.0f);
 
 private:
+    Vector3 position;
+    Vector3 old_position;
+    Vector3 velocity;
+    Vector3 acceleration;
+    Vector3 direction;
+    std::string model;
     float mass;
-
+    Color color;
+    bool autoorientation;
+    boost::posix_time::ptime last_move;
 };
 
 #endif // ENTITY_H

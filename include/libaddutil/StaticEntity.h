@@ -19,37 +19,13 @@
 **************************************************************************/
 
 
-#ifndef PITCH_H
-#define PITCH_H
+#ifndef STATICENTITY_H
+#define STATICENTITY_H
 
-#include <string>
-#include "Vector3.h"
-#include "Color.h"
-#include "StaticEntity.h"
+#include "Entity.h"
 
-/**
-  * class Pitch
-  */
-
-class Pitch : public StaticEntity
+class StaticEntity : public Entity
 {
-public:
-
-    /**
-     * @param  w
-     * @param  l
-     */
-     Pitch (float w, float l );
-     const int getID() { return -1002; }
-
-private:
-
-    // Private attributes
-    //  
-
-    const float width;
-    const float length;
-
 };
 
-#endif // PITCH_H
+#endif // STATICENTITY_H

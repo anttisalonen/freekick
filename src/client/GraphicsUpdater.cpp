@@ -36,9 +36,9 @@ bool GraphicsUpdater::frameStarted(const Ogre::FrameEvent& evt)
     status->interpolateAll(end_time);
 */
 
-    typedef boost::shared_ptr<Drawable> PtrDrawable;
-    std::set <PtrDrawable>* drs = status->getDrawables();
-    std::set <PtrDrawable>::iterator d;
+    typedef boost::shared_ptr<Entity> PtrEntity;
+    std::set <PtrEntity>* drs = status->getEntities();
+    std::set <PtrEntity>::iterator d;
 
     for (d = drs->begin(); d != drs->end(); d++)
     {

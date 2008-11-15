@@ -39,7 +39,7 @@
 #include "Referee.h"
 #include "MatchStatus.h"
 #include "Club.h"
-#include "Drawable.h"
+#include "Entity.h"
 
 /**
   * class Status
@@ -69,7 +69,7 @@ public:
      */
      void newEvents (std::vector <std::string>& events );
 
-     std::set <boost::shared_ptr<Drawable> >* getDrawables ( );
+     std::set <boost::shared_ptr<Entity> >* getEntities ( );
 
      void addClub(const std::string& name);
      void addPlayer(const std::string& clubname, int idnum, const Color& col);
@@ -92,7 +92,7 @@ private:
     std::map <std::string, boost::shared_ptr<Club> > clubs;
     Referee* referee;
     MatchStatus* matchstatus;
-    std::set <boost::shared_ptr<Drawable> > drawables;
+    std::set <boost::shared_ptr<Entity> > entities;
     boost::shared_ptr<Club> homeclub;
     boost::shared_ptr<Club> awayclub;
     boost::posix_time::ptime update_time;

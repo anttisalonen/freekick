@@ -28,7 +28,7 @@
  Status::Status ( ) 
      : ball(new Ball(0.4f))
 {
-    drawables.insert(ball);
+    entities.insert(ball);
 }
 
 Status::~Status()
@@ -92,20 +92,20 @@ void Status::addPlayer(const std::string& clubname, int idnum, const Color& col)
             int n = pcl.second->getNumberOfPlayers();
             boost::shared_ptr<Player> pl (new Player("", n, idnum, col));
             pcl.second->addPlayer(pl);
-            drawables.insert(pl);
+            entities.insert(pl);
             return;
         }
     }
 }
 
-std::set <boost::shared_ptr<Drawable> >* Status::getDrawables ()
+std::set <boost::shared_ptr<Entity> >* Status::getEntities ()
 {
-    return &drawables;
+    return &entities;
 }
 
 void Status::updateAll(float interval)
 {
-    BOOST_FOREACH(boost::shared_ptr<Drawable> d, drawables)
+    BOOST_FOREACH(boost::shared_ptr<Entity> d, entities)
     {
         d->update(interval);
     }
@@ -113,7 +113,7 @@ void Status::updateAll(float interval)
 
 void Status::interpolateAll(boost::posix_time::ptime pt)
 {
-    BOOST_FOREACH(boost::shared_ptr<Drawable> d, drawables)
+    BOOST_FOREACH(boost::shared_ptr<Entity> d, entities)
     {
         d->interpolate(pt);
     }

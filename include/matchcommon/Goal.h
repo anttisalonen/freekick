@@ -25,13 +25,13 @@
 #include <string>
 #include "Vector3.h"
 #include "Color.h"
-#include "Drawable.h"
+#include "StaticEntity.h"
 
 /**
   * class Goal
   */
 
-class Goal : public Drawable
+class Goal : public StaticEntity
 {
 public:
     /**

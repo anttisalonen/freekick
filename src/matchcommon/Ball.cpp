@@ -24,9 +24,9 @@
  * @param  _mass
  */
  Ball::Ball (float _mass )
-     : Entity(_mass)
 {
     setModel("ball.mesh");
+    setMass(_mass);
 }
 
 
