@@ -22,7 +22,7 @@
 
 namespace freekick
 {
-    namespace match
+    namespace soccer
     {
 /**
  * @param  name
@@ -30,7 +30,6 @@ namespace freekick
         Club::Club (const std::string& _name ) 
             : name(_name)
         {
-
         }
 
         const std::string& Club::getName()
@@ -54,15 +53,24 @@ namespace freekick
             return (players.find(i) != players.end());
         }
 
-        bool Club::updatePlayer(int i, int v, float x, float y, float z)
+        const Player& Club::getPlayer(int i)
         {
             std::map <int, boost::shared_ptr<Player> >::iterator it = players.find(i);
-            if(it != players.end())
+            if(it == players.end())
+                throw "Club::getPlayer: No player found";
+            return *(it->second);
+        }
+
+        template <typename ContT>
+        void Club::getPlayers(ContT& pls)
+        {
+            pls.clear();
+            typedef std::pair<int, boost::shared_ptr<Player> > pair_pl;
+
+            BOOST_FOREACH(pair_pl p, players)
             {
-                it->second->update(v, x, y, z);
-                return true;
+                pls.push_back(p.second);
             }
-            return false;
         }
 
         template <typename ContT>

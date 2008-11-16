@@ -18,32 +18,19 @@
   This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
-
-#ifndef BALL_H
-#define BALL_H
-
-#include "DynamicEntity.h"
-
-/**
- * class Ball
- */
+#include "Stadium.h"
 
 namespace freekick
 {
-    namespace match
+    namespace soccer
     {
-        class Ball : public addutil::DynamicEntity
+/**
+ */
+        Stadium::Stadium ( ) 
         {
-        public:
 
-            /**
-             * @param  _mass
-             */
-            Ball (float _mass );
-            const int getID() { return -2; }
-
-        };
+        }
     }
 }
 
-#endif // BALL_H
+

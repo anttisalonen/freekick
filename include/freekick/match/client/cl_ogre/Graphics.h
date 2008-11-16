@@ -32,7 +32,7 @@
 #include <OgreCEGUIRenderer.h>
 
 #include "Configuration.h"
-#include "Status.h"
+#include "MatchStatus.h"
 #include "Input.h"
 #include "GraphicsUpdater.h"
 
@@ -57,7 +57,7 @@ namespace freekick
                      * @param  stat
                      * @param  inp
                      */
-                    Graphics (Configuration* conf, Status* stat, Input* inp);
+                    Graphics (Configuration* conf, MatchStatus* stat, Input* inp);
                     virtual ~Graphics();
                     bool run();
 
@@ -78,7 +78,7 @@ namespace freekick
                     void startRenderLoop();
 
                     Configuration* configuration;
-                    Status* status;
+                    MatchStatus* status;
                     Input* input;
                     GraphicsUpdater* updater;
 

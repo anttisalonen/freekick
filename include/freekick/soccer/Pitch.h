@@ -23,9 +23,6 @@
 #define PITCH_H
 
 #include <string>
-#include "Vector3.h"
-#include "Color.h"
-#include "StaticEntity.h"
 
 /**
  * class Pitch
@@ -35,7 +32,7 @@ namespace freekick
 {
     namespace soccer
     {
-        class Pitch : public addutil::StaticEntity
+        class Pitch
         {
         public:
 
@@ -44,7 +41,6 @@ namespace freekick
              * @param  l
              */
             Pitch (float w, float l );
-            const int getID() { return -1002; }
 
         private:
 

@@ -41,7 +41,7 @@
 #include <boost/foreach.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
 
-#include "Status.h"
+#include "MatchStatus.h"
 #include "IP_Connection.h"
 #include "Event.h"
 
@@ -76,7 +76,7 @@ namespace freekick
                  * @param  conf
                  * @param  stat
                  */
-                Network (addutil::network::IP_Connection conn, Status* stat );
+                Network (addutil::network::IP_Connection conn, MatchStatus* stat );
                 virtual ~Network();
 
                 /**
@@ -108,7 +108,7 @@ namespace freekick
                 // Private attributes
                 //  
 
-                freekick::match::Status* status;
+                freekick::match::MatchStatus* status;
                 addutil::network::IP_Connection ip_conn;
                 boost::asio::io_service io_service;
                 boost::asio::ip::tcp::resolver resolver;

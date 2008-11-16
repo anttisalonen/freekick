@@ -33,7 +33,7 @@ namespace freekick
  * @param  stat
  * @param  inp
  */
-                Graphics::Graphics (Configuration* conf, Status* stat, Input* inp) 
+                Graphics::Graphics (Configuration* conf, MatchStatus* stat, Input* inp) 
                     : configuration(conf), status(stat), input(inp), updater(new GraphicsUpdater(stat))
                 {
                 }

@@ -37,7 +37,7 @@ namespace freekick
             using namespace addutil::network;
             using namespace freekick;
 
-            Network::Network (IP_Connection conn, Status* stat )
+            Network::Network (IP_Connection conn, MatchStatus* stat )
                 : status(stat), 
                   ip_conn(conn), 
                   resolver(io_service), 

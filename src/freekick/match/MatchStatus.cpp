@@ -18,7 +18,7 @@
   This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
-#include "Status.h"
+#include "MatchStatus.h"
 
 namespace freekick
 {
@@ -29,20 +29,20 @@ namespace freekick
 
 /**
  */
-        Status::Status ( ) 
-            : ball(new Ball(0.4f))
+        MatchStatus::MatchStatus ( ) 
+            : ball(new MatchBall(0.4f))
         {
             entities.insert(ball);
         }
 
-        Status::~Status()
+        MatchStatus::~MatchStatus()
         {
         }
 
 /**
  * @param  evt
  */
-        void Status::newEvent (const std::string& evt ) 
+        void MatchStatus::newEvent (const std::string& evt ) 
         {
             int n, v;
             float x, y, z, a, b, g;
@@ -53,7 +53,7 @@ namespace freekick
                 ball->update(v, x, y, z);
                 return;
             }
-            typedef std::pair<std::string, boost::shared_ptr<Club> > pair_cl;
+            typedef std::pair<std::string, boost::shared_ptr<MatchClub> > pair_cl;
             BOOST_FOREACH(pair_cl cl, clubs)
             {
                 if (cl.second->updatePlayer(n, v, x, y, z))
@@ -65,15 +65,15 @@ namespace freekick
 /**
  * @param  events
  */
-        void Status::newEvents (std::vector <std::string>& events ) 
+        void MatchStatus::newEvents (std::vector <std::string>& events ) 
         {
             BOOST_FOREACH(std::string s, events)
                 newEvent(s);
         }
 
-        void Status::addClub(const std::string& name)
+        void MatchStatus::addClub(const std::string& name)
         {
-            boost::shared_ptr<Club> cl (new Club(name));
+            boost::shared_ptr<MatchClub> cl (new MatchClub(name));
             clubs[name] = cl;
             int numclubs = clubs.size();
             if(numclubs == 1) 
@@ -82,32 +82,32 @@ namespace freekick
                 awayclub = cl;
         }
 
-        void Status::addPlayer(const std::string& clubname, int idnum, const Color& col)
+        void MatchStatus::addPlayer(const std::string& clubname, int idnum, const Color& col)
         {
             if(idnum < 1) 
             {
-                throw "Status::addPlayer: invalid parameter (idnum)";
+                throw "MatchStatus::addPlayer: invalid parameter (idnum)";
             }
-            typedef std::pair<std::string, boost::shared_ptr<Club> > pair_cl;
+            typedef std::pair<std::string, boost::shared_ptr<MatchClub> > pair_cl;
             BOOST_FOREACH(pair_cl pcl, clubs)
             {
                 if(pcl.second->getName() == clubname)
                 {
                     int n = pcl.second->getNumberOfPlayers();
-                    boost::shared_ptr<Player> pl (new Player("", n, idnum, col));
-                    pcl.second->addPlayer(pl);
+                    boost::shared_ptr<MatchPlayer> pl (new MatchPlayer(Player("", n, idnum), col));
+                    pcl.second->addMatchPlayer(pl);
                     entities.insert(pl);
                     return;
                 }
             }
         }
 
-        std::set <boost::shared_ptr<Entity> >* Status::getEntities ()
+        std::set <boost::shared_ptr<Entity> >* MatchStatus::getEntities ()
         {
             return &entities;
         }
 
-        void Status::updateAll(float interval)
+        void MatchStatus::updateAll(float interval)
         {
             BOOST_FOREACH(boost::shared_ptr<Entity> d, entities)
             {
@@ -115,7 +115,7 @@ namespace freekick
             }
         }
 
-        void Status::interpolateAll(boost::posix_time::ptime pt)
+        void MatchStatus::interpolateAll(boost::posix_time::ptime pt)
         {
             BOOST_FOREACH(boost::shared_ptr<Entity> d, entities)
             {
@@ -123,7 +123,7 @@ namespace freekick
             }
         }
 
-        bool Status::run()
+        bool MatchStatus::run()
         {
             /*
               long milliseconds = 25;
@@ -150,30 +150,30 @@ namespace freekick
         }
 
 /*
-  const std::string& Status::getHomeClubName() const
+  const std::string& MatchStatus::getHomeClubName() const
   {
-  if(clubs.size() == 0) throw "Status::getHomeClubName: No clubs in status";
+  if(clubs.size() == 0) throw "MatchStatus::getHomeClubName: No clubs in status";
   std::map<std::string, boost::shared_ptr<Club> >::iterator it = clubs.begin();
   return (*it).first;
   }
 */
 
         template <typename ContT>
-        void Status::getHomePlayerIDs(ContT& ids)
+        void MatchStatus::getHomePlayerIDs(ContT& ids)
         {
-            if(homeclub.use_count() == 0) throw "Status::getHomePlayerIDs: No home club";
+            if(homeclub.use_count() == 0) throw "MatchStatus::getHomePlayerIDs: No home club";
             getClubPlayerIDs(homeclub, ids);
         }
 
         template <typename ContT>
-        void Status::getAwayPlayerIDs(ContT& ids)
+        void MatchStatus::getAwayPlayerIDs(ContT& ids)
         {
-            if(awayclub.use_count() == 0) throw "Status::getAwayPlayerIDs: No away club";
+            if(awayclub.use_count() == 0) throw "MatchStatus::getAwayPlayerIDs: No away club";
             getClubPlayerIDs(awayclub, ids);
         }
 
         template <typename ContT>
-        void Status::getClubPlayerIDs(const boost::shared_ptr<Club> c, ContT& ids)
+        void MatchStatus::getClubPlayerIDs(const boost::shared_ptr<MatchClub> c, ContT& ids)
         {
             c->getPlayerIDs(ids);
         }

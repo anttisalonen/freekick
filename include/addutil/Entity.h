@@ -73,6 +73,7 @@ namespace addutil
         virtual const int getID() = 0;
 
     protected:
+        Entity(float _mass = 0.0f, std::string _model = "");
 
     private:
         Vector3 position;

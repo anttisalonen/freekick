@@ -18,21 +18,22 @@
   This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
+#include "MatchPlayer.h"
 
-#ifndef DYNAMICENTITY_H
-#define DYNAMICENTITY_H
-
-#include "Entity.h"
-
-#include <string>
-
-namespace addutil
+namespace freekick
 {
-    class DynamicEntity : public Entity
+    namespace match
     {
-    protected:
-        DynamicEntity(float _mass = 0.0f, std::string _model = "");
-    };
-}
+        MatchPlayer::MatchPlayer (const freekick::soccer::Player& p, const addutil::Color& c)
+            : Player(p), 
+              DynamicEntity(70.0f, "robot.mesh")
+        {
+            setColor(c);
+        }
 
-#endif // DYNAMICENTITY_H
+        const int MatchPlayer::getID()
+        {
+            return Player::getID();
+        }
+    }
+}

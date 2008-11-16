@@ -15,23 +15,21 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
 #include "Ball.h"
 
 namespace freekick
 {
-    namespace match
+    namespace soccer
     {
-/**
- * @param  _mass
- */
-        Ball::Ball (float _mass )
+        Ball::Ball (float m)
+            : mass(m)
         {
-            setModel("ball.mesh");
-            setMass(_mass);
+        }
+        float Ball::getMass() const 
+        {
+            return mass;
         }
     }
 }
-

@@ -15,24 +15,38 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
 
-#ifndef DYNAMICENTITY_H
-#define DYNAMICENTITY_H
-
-#include "Entity.h"
+#ifndef MATCHSTADIUM_H
+#define MATCHSTADIUM_H
 
 #include <string>
+#include "StaticEntity.h"
+#include "Stadium.h"
+#include "MatchIDs.h"
 
-namespace addutil
+/**
+ * class Stadium
+ */
+
+namespace freekick
 {
-    class DynamicEntity : public Entity
+    namespace match
     {
-    protected:
-        DynamicEntity(float _mass = 0.0f, std::string _model = "");
-    };
+        class MatchStadium : public freekick::soccer::Stadium, public addutil::StaticEntity
+        {
+        public:
+
+            /**
+             */
+            MatchStadium ( );
+            const int getID() const { return StadiumID; }
+
+        private:
+
+        };
+    }
 }
 
-#endif // DYNAMICENTITY_H
+#endif // MATCHSTADIUM_H

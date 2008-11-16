@@ -15,24 +15,46 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
 
-#ifndef DYNAMICENTITY_H
-#define DYNAMICENTITY_H
-
-#include "Entity.h"
+#ifndef PLAYER_H
+#define PLAYER_H
 
 #include <string>
 
-namespace addutil
+#include "Human.h"
+#include "Color.h"
+
+/**
+ * class Player
+ */
+
+namespace freekick
 {
-    class DynamicEntity : public Entity
+    namespace soccer
     {
-    protected:
-        DynamicEntity(float _mass = 0.0f, std::string _model = "");
-    };
+        class Player : public addutil::Human
+        {
+        public:
+
+            // Constructors/Destructors
+            //  
+
+            /**
+             * @param  name
+             * @param  num
+             */
+            Player (const std::string& _name, unsigned int num, unsigned int _idnumber);
+            const int getID();
+
+        private:
+
+            const unsigned int number;
+            const unsigned int idnumber;
+
+        };
+    }
 }
 
-#endif // DYNAMICENTITY_H
+#endif // PLAYER_H

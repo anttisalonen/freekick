@@ -33,7 +33,7 @@ namespace freekick
  * @param  stat
  * @param  netw
  */
-                Input::Input (Configuration* conf, Status* stat, Network* netw ) 
+                Input::Input (Configuration* conf, MatchStatus* stat, Network* netw ) 
                     : configuration(conf), 
                       status(stat), 
                       network(netw)

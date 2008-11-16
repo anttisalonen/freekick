@@ -18,45 +18,35 @@
   This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
-
-#ifndef PLAYER_H
-#define PLAYER_H
-
-#include <string>
-
-#include "Human.h"
-#include "Color.h"
-
-/**
- * class Player
- */
+#include "MatchClub.h"
 
 namespace freekick
 {
     namespace match
     {
-        class Player : public addutil::Human
+/**
+ * @param  name
+ */
+        MatchClub::MatchClub (const Club& c)
+            : Club(c)
         {
-        public:
+        }
 
-            // Constructors/Destructors
-            //  
+        void MatchClub::addMatchPlayer(boost::shared_ptr<MatchPlayer> p)
+        {
+            int id = p->getID();
+            matchplayers[id] = p;
+        }
 
-            /**
-             * @param  name
-             * @param  num
-             */
-            Player (const std::string& _name, unsigned int num, unsigned int _idnumber);
-            Player (const std::string& _name, unsigned int num, unsigned int _idnumber, const addutil::Color& col);
-            const int getID();
-
-        private:
-
-            const unsigned int number;
-            const unsigned int idnumber;
-
-        };
+        bool MatchClub::updatePlayer(int i, int v, float x, float y, float z)
+        {
+            std::map <int, boost::shared_ptr<MatchPlayer> >::iterator it = matchplayers.find(i);
+            if(it != matchplayers.end())
+            {
+                it->second->update(v, x, y, z);
+                return true;
+            }
+            return false;
+        }
     }
 }
-
-#endif // PLAYER_H

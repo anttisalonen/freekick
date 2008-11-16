@@ -28,7 +28,7 @@ namespace freekick
         {
             namespace cl_ogre
             {
-                GraphicsUpdater::GraphicsUpdater(Status* s)
+                GraphicsUpdater::GraphicsUpdater(MatchStatus* s)
                     : status(s)
                 {
                 }
@@ -74,7 +74,8 @@ namespace freekick
                                     ent->setMaterialName("Examples/EnvMappedRustySteel");
                                 node = smgr->getRootSceneNode()->createChildSceneNode(nname.str());
                                 node->attachObject(ent);
-                                node->setScale(0.05f, 0.05f, 0.05f);
+                                if(modelfile == "robot.mesh")
+                                    node->setScale(0.05f, 0.05f, 0.05f);
                                 entitymap[dr_id] = ent;
                                 (*d)->setAutomaticOrientation(true);
                             }

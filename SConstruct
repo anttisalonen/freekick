@@ -19,14 +19,13 @@ soccer_env.Library(soccer_name, soccer_obj)
 
 match_env = addutil_env.Clone()
 match_env.Append(CPPPATH = ['./include/'])
+match_env.Append(CPPPATH = ['./include/freekick'])
 match_env.Append(CPPPATH = ['./include/freekick/soccer'])
 match_env.Append(CPPPATH = ['./include/freekick/match'])
 match_env.Append(CPPPATH = ['./include/freekick/match/network'])
-match_env['LIBPATH'] = ['./lib']
-match_env['LIBS'] = ['soccer']
 match_name = 'lib/match'
 match_obj = Glob('src/freekick/match/*.cpp') + Glob('src/freekick/match/network/*.cpp') + soccer_obj
-libmatch = match_env.Library(match_name, match_obj)
+match_env.Library(match_name, match_obj)
 
 
 ogreclient_env = def_env.Clone()

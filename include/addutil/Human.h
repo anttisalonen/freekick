@@ -24,7 +24,6 @@
 
 #include <string>
 #include "Color.h"
-#include "DynamicEntity.h"
 
 /**
  * class Human
@@ -32,7 +31,7 @@
 
 namespace addutil
 {
-    class Human : public DynamicEntity
+    class Human
     {
     public:
         virtual ~Human() { }

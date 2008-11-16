@@ -21,6 +21,12 @@
 
 namespace addutil
 {
+    Entity::Entity(float _mass, std::string _model)
+        : model(_model),
+          mass(_mass)
+    {
+    }
+
     const Vector3& Entity::getPosition ( ) const
     {
         return position;

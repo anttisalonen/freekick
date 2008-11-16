@@ -48,7 +48,7 @@ void run_network(Network* n)
     n->run();
 }
 
-void run_status(Status* s)
+void run_status(MatchStatus* s)
 {
     s->run();
 }
@@ -67,7 +67,7 @@ int main(int argc, char** argv)
     {
         Configuration* configuration = new Configuration (argc, argv);
         addutil::network::IP_Connection conn = configuration->getServerConnection();
-        Status* status = new Status();
+        MatchStatus* status = new MatchStatus();
         Network* network = new Network(conn, status);
         Input* input = new Input(configuration, status, network);
         Graphics* graphics = new Graphics(configuration, status, input);

@@ -27,7 +27,7 @@
 
 #include "Network.h"
 
-void run_status(Status* s)
+void run_status(MatchStatus* s)
 {
     s->run();
 }
@@ -36,7 +36,7 @@ int main(int argc, char** argv)
 {
     try
     {
-        Status* status = new Status();
+        MatchStatus* status = new MatchStatus();
         Network* network = new Network(conn, status);
 
         std::cerr << "Freekick server starting" << std::endl;

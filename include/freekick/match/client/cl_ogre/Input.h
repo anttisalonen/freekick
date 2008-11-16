@@ -31,7 +31,7 @@
 #include <OIS/OIS.h>
 
 #include "Configuration.h"
-#include "Status.h"
+#include "MatchStatus.h"
 #include "Network.h"
 #include "InputHandler.h"
 #include "Entity.h"
@@ -53,7 +53,7 @@ namespace freekick
                 {
                 public:
 
-                    Input (Configuration* conf, Status* stat, Network* netw );
+                    Input (Configuration* conf, MatchStatus* stat, Network* netw );
                     ~Input();
                     InputConfiguration* getInputConfiguration ( ) const;
                     void setCameraPos(float x, float y, float z);
@@ -64,7 +64,7 @@ namespace freekick
                 private:
 
                     Configuration* configuration;
-                    Status* status;
+                    MatchStatus* status;
                     Network* network;
                     InputHandler* inputhandler;
 

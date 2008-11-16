@@ -19,49 +19,38 @@
 **************************************************************************/
 
 
-#ifndef CLUB_H
-#define CLUB_H
+#ifndef MATCHREFEREE_H
+#define MATCHREFEREE_H
 
 #include <string>
-#include <vector>
-#include <map>
-
-#include <boost/shared_ptr.hpp>
-#include <boost/foreach.hpp>
-
-#include "freekick/match/Player.h"
-#include "freekick/soccer/Kit.h"
+#include "DynamicEntity.h"
+#include "Kit.h"
+#include "Referee.h"
+#include "MatchIDs.h"
 
 /**
- * class Club
+ * class Referee
  */
 
 namespace freekick
 {
     namespace match
     {
-        using namespace freekick::soccer;
-        class Club
+        class MatchReferee : public freekick::soccer::Referee
         {
         public:
+
             /**
-             * @param  name
              */
-            Club (const std::string& _name);
-            const std::string& getName();
-            int getNumberOfPlayers();
-            void addPlayer(boost::shared_ptr<Player> p);
-            bool hasPlayer(int i);
-            bool updatePlayer(int i, int v, float x, float y, float z);
-            template <typename ContT> void getPlayerIDs(ContT& ids);
+            MatchReferee (const freekick::soccer::Referee& r);
+            const int getID() const { return RefereeID; }
 
         private:
-            std::string name;
-            std::map <int, boost::shared_ptr<Player> > players;
-            std::vector <Kit> kits;
-            Kit* currkit;
+
+            freekick::soccer::Kit* kit;
+
         };
     }
 }
 
-#endif // CLUB_H
+#endif // MATCHREFEREE_H

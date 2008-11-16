@@ -19,20 +19,32 @@
 **************************************************************************/
 
 
-#ifndef DYNAMICENTITY_H
-#define DYNAMICENTITY_H
-
-#include "Entity.h"
-
+#ifndef REFEREE_H
+#define REFEREE_H
 #include <string>
 
-namespace addutil
+#include "addutil/Human.h"
+
+/**
+ * class Referee
+ */
+
+namespace freekick
 {
-    class DynamicEntity : public Entity
+    namespace soccer
     {
-    protected:
-        DynamicEntity(float _mass = 0.0f, std::string _model = "");
-    };
+        class Referee : public addutil::Human
+        {
+        public:
+
+            /**
+             */
+            Referee ();
+
+        private:
+
+        };
+    }
 }
 
-#endif // DYNAMICENTITY_H
+#endif // REFEREE_H

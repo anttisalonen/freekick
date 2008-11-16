@@ -19,20 +19,36 @@
 **************************************************************************/
 
 
-#ifndef DYNAMICENTITY_H
-#define DYNAMICENTITY_H
-
-#include "Entity.h"
+#ifndef MATCHPITCH_H
+#define MATCHPITCH_H
 
 #include <string>
+#include "Pitch.h"
+#include "StaticEntity.h"
+#include "MatchIDs.h"
 
-namespace addutil
+/**
+ * class MatchPitch
+ */
+
+namespace freekick
 {
-    class DynamicEntity : public Entity
+    namespace match
     {
-    protected:
-        DynamicEntity(float _mass = 0.0f, std::string _model = "");
-    };
+        class MatchPitch : public freekick::soccer::Pitch, public addutil::StaticEntity
+        {
+        public:
+
+            MatchPitch (const Pitch& p);
+            const int getID() { return PitchID; }
+
+        private:
+
+            // Private attributes
+            //  
+
+        };
+    }
 }
 
-#endif // DYNAMICENTITY_H
+#endif // MATCHPITCH_H

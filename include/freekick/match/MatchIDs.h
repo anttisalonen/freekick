@@ -15,39 +15,23 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
 
-#ifndef REFEREE_H
-#define REFEREE_H
-#include <string>
-#include "addutil/Human.h"
-#include "freekick/soccer/Kit.h"
-
-/**
- * class Referee
- */
+#ifndef MATCHIDS_H
+#define MATCHIDS_H
 
 namespace freekick
 {
     namespace match
     {
-        class Referee : public addutil::Human
-        {
-        public:
-
-            /**
-             */
-            Referee ( );
-            const int getID() const { return -3; }
-
-        private:
-
-            freekick::soccer::Kit* kit;
-
-        };
+        const int BallID         = -2;
+        const int RefereeID      = -3;
+        const int FirstGoalID    = -1000;
+        const int SecondGoalID   = -1001;
+        const int PitchID        = -1002;
+        const int StadiumID      = -1003;
     }
 }
 
-#endif // REFEREE_H
+#endif // MATCHIDS_H

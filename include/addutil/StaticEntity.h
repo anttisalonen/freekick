@@ -22,12 +22,16 @@
 #ifndef STATICENTITY_H
 #define STATICENTITY_H
 
+#include <string>
+
 #include "Entity.h"
 
 namespace addutil
 {
     class StaticEntity : public Entity
     {
+    protected:
+        StaticEntity(std::string _model = "");
     };
 }
 

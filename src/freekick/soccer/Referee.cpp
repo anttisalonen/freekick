@@ -15,24 +15,22 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
+#include "Referee.h"
 
-#ifndef DYNAMICENTITY_H
-#define DYNAMICENTITY_H
-
-#include "Entity.h"
-
-#include <string>
-
-namespace addutil
+namespace freekick
 {
-    class DynamicEntity : public Entity
+    namespace soccer
     {
-    protected:
-        DynamicEntity(float _mass = 0.0f, std::string _model = "");
-    };
+// Constructors/Destructors
+//  
+
+/**
+ */
+        Referee::Referee ( ) 
+        {
+        }
+    }
 }
 
-#endif // DYNAMICENTITY_H

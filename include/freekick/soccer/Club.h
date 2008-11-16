@@ -15,53 +15,51 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
 
-#ifndef GRAPHICSUPDATER_H
-#define GRAPHICSUPDATER_H
+#ifndef CLUB_H
+#define CLUB_H
 
-#include <iostream>
+#include <string>
 #include <vector>
 #include <map>
 
-#include <boost/foreach.hpp>
 #include <boost/shared_ptr.hpp>
+#include <boost/foreach.hpp>
 
-#include <Ogre.h>
-
-#include "MatchStatus.h"
-#include "Color.h"
+#include "freekick/soccer/Player.h"
+#include "freekick/soccer/Kit.h"
 
 /**
- * class GraphicsUpdater
+ * class Club
  */
 
 namespace freekick
 {
-    namespace match
+    namespace soccer
     {
-        namespace client
+        class Club
         {
-            namespace cl_ogre
-            {
-                class GraphicsUpdater : public Ogre::FrameListener
-                {
-                public:
-                    GraphicsUpdater(MatchStatus* s);
-                    virtual ~GraphicsUpdater();
-                    bool frameStarted(const Ogre::FrameEvent& evt);
-                    void setSceneManager(Ogre::SceneManager* s);
+        public:
+            /**
+             * @param  name
+             */
+            Club (const std::string& _name);
+            const std::string& getName();
+            int getNumberOfPlayers();
+            void addPlayer(boost::shared_ptr<Player> p);
+            bool hasPlayer(int i);
+            const Player& getPlayer(int i);
+            template <typename ContT> void getPlayers(ContT& pls);
+            template <typename ContT> void getPlayerIDs(ContT& ids);
 
-                private:
-                    MatchStatus* status;
-                    Ogre::SceneManager* smgr;
-                    std::map <int, Ogre::Entity* > entitymap;
-                };
-            }
-        }
+        private:
+            std::string name;
+            std::map <int, boost::shared_ptr<Player> > players;
+            std::vector <Kit> kits;
+        };
     }
 }
 
-#endif // GRAPHICSUPDATER_H
+#endif // CLUB_H

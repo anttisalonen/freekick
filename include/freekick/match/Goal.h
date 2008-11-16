@@ -26,6 +26,7 @@
 #include "Vector3.h"
 #include "Color.h"
 #include "StaticEntity.h"
+#include "MatchIDs.h"
 
 /**
  * class Goal
@@ -42,7 +43,7 @@ namespace freekick
              * @param  first
              */
             Goal (bool _first );
-            const int getID() const { return -1001 + first; }
+            const int getID() const { if (first) return FirstGoalID; return SecondGoalID; }
 
         private:
             bool first;

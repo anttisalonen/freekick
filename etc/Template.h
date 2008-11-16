@@ -15,24 +15,23 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
 
-#ifndef DYNAMICENTITY_H
-#define DYNAMICENTITY_H
+#ifndef BALL_H
+#define BALL_H
 
-#include "Entity.h"
+/**
+ * class Ball
+ */
 
-#include <string>
-
-namespace addutil
+namespace freekick
 {
-    class DynamicEntity : public Entity
+    class Ball
     {
-    protected:
-        DynamicEntity(float _mass = 0.0f, std::string _model = "");
+    public:
+        virtual ~Ball() { }
     };
 }
 
-#endif // DYNAMICENTITY_H
+#endif // BALL_H

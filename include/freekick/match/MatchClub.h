@@ -19,20 +19,46 @@
 **************************************************************************/
 
 
-#ifndef DYNAMICENTITY_H
-#define DYNAMICENTITY_H
-
-#include "Entity.h"
+#ifndef MATCHCLUB_H
+#define MATCHCLUB_H
 
 #include <string>
+#include <vector>
+#include <map>
 
-namespace addutil
+#include <boost/shared_ptr.hpp>
+#include <boost/foreach.hpp>
+
+#include "Club.h"
+#include "Kit.h"
+#include "MatchPlayer.h"
+
+/**
+ * class MatchClub
+ */
+
+namespace freekick
 {
-    class DynamicEntity : public Entity
+    namespace match
     {
-    protected:
-        DynamicEntity(float _mass = 0.0f, std::string _model = "");
-    };
+        using namespace freekick::soccer;
+        class MatchClub : public Club
+        {
+        public:
+            /**
+             * @param  name
+             */
+            MatchClub (const Club& c);
+            void addMatchPlayer(boost::shared_ptr<MatchPlayer> p);
+            bool updatePlayer(int i, int v, float x, float y, float z);
+
+        private:
+            /* TODO: MatchClub has a map of MatchPlayers as well as a map of Players.
+               The map of Players should be removed. */
+            std::map <int, boost::shared_ptr<MatchPlayer> > matchplayers;
+            Kit* currkit;
+        };
+    }
 }
 
-#endif // DYNAMICENTITY_H
+#endif // MATCHCLUB_H

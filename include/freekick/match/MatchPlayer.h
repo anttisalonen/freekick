@@ -18,32 +18,37 @@
   This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
+
+#ifndef MATCHPLAYER_H
+#define MATCHPLAYER_H
+
+#include <string>
+
+#include "DynamicEntity.h"
 #include "Player.h"
+#include "Color.h"
+
+/**
+ * class Player
+ */
 
 namespace freekick
 {
     namespace match
     {
-/**
- * @param  name
- * @param  num
- */
-        Player::Player (const std::string& _name, unsigned int num, unsigned int _idnumber )
-            : number(num), idnumber(_idnumber)
+        class MatchPlayer : public freekick::soccer::Player, public addutil::DynamicEntity
         {
-            setModel("robot.mesh");
-        }
+        public:
 
-        Player::Player (const std::string& _name, unsigned int num, unsigned int _idnumber, const addutil::Color& col)
-            : number(num), idnumber(_idnumber)
-        {
-            setModel("robot.mesh");
-            setColor(col);
-        }
+            // Constructors/Destructors
+            //  
+            MatchPlayer (const freekick::soccer::Player& p, const addutil::Color& c);
+            const int getID();
 
-        const int Player::getID()
-        {
-            return idnumber;
-        }
+        private:
+
+        };
     }
 }
+
+#endif // MATCHPLAYER_H

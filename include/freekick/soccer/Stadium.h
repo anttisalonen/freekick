@@ -24,8 +24,6 @@
 
 #include <string>
 #include "Color.h"
-#include "Vector3.h"
-#include "StaticEntity.h"
 
 /**
  * class Stadium
@@ -35,14 +33,13 @@ namespace freekick
 {
     namespace soccer
     {
-        class Stadium : public addutil::StaticEntity
+        class Stadium
         {
         public:
 
             /**
              */
             Stadium ( );
-            const int getID() const { return -1003; }
 
         private:
 

@@ -22,32 +22,97 @@
 #ifndef MATCHSTATUS_H
 #define MATCHSTATUS_H
 
+#include <vector>
+#include <set>
+#include <string>
+#include <iostream>
+#include <sstream>
+#include <exception>
+
+#include <boost/foreach.hpp>
+#include <boost/shared_ptr.hpp>
+#include <boost/date_time/posix_time/posix_time.hpp>
+#include <boost/thread.hpp>
+
+#include "Entity.h"
 #include "Time.h"
+#include "MatchStadium.h"
+#include "MatchBall.h"
+#include "MatchReferee.h"
+#include "MatchClub.h"
 
 /**
-  * class MatchStatus
-  */
+ * class Status
+ */
 
-class MatchStatus
+namespace freekick
 {
-public:
+    namespace match
+    {
+        using namespace addutil;
+        using namespace freekick::soccer;
+        using namespace freekick::match;
+        class MatchStatus
+        {
+        public:
+            
+            // Constructors/Destructors
+            //  
 
-    // Constructors/Destructors
-    //  
-    /**
-     */
-     MatchStatus ( );
+            /**
+             */
+            MatchStatus ( );
+            virtual ~MatchStatus();
 
-private:
-    // Private attributes
-    //  
+            // Public member functions
 
-    Time currtime;
-    unsigned int score_home;
-    unsigned int score_away;
-    unsigned int injurytime;
-    bool secondhalf;
+            /**
+             * @param  evt
+             */
+            void newEvent (const std::string& evt );
 
-};
+            /**
+             * @param  events
+             */
+            void newEvents (std::vector <std::string>& events );
+
+            std::set <boost::shared_ptr<addutil::Entity> >* getEntities ( );
+
+            void addClub(const std::string& name);
+            void addPlayer(const std::string& clubname, int idnum, const Color& col);
+            void addBall();
+            void updateAll(float interval);
+            void interpolateAll(boost::posix_time::ptime pt);
+
+            bool run();
+//     const std::string& getHomeClubName() const;
+            template <typename ContT> void getHomePlayerIDs(ContT& ids);
+            template <typename ContT> void getAwayPlayerIDs(ContT& ids);
+
+        private:
+
+            // Private attributes
+            //  
+
+            MatchStadium* stadium;
+            boost::shared_ptr<MatchBall> ball;
+            std::map <std::string, boost::shared_ptr<MatchClub> > clubs;
+            MatchReferee* referee;
+            std::set <boost::shared_ptr<Entity> > entities;
+            boost::shared_ptr<MatchClub> homeclub;
+            boost::shared_ptr<MatchClub> awayclub;
+            boost::posix_time::ptime update_time;
+
+            Time currtime;
+            unsigned int score_home;
+            unsigned int score_away;
+            unsigned int injurytime;
+            bool secondhalf;
+
+            template <typename ContT> void getClubPlayerIDs(const boost::shared_ptr<MatchClub> c, ContT& ids);
+
+        };
+    }
+}
 
 #endif // MATCHSTATUS_H

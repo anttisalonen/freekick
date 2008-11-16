@@ -18,21 +18,38 @@
   This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
-#include "Referee.h"
+
+#ifndef MATCHBALL_H
+#define MATCHBALL_H
+
+#include <boost/shared_ptr.hpp>
+
+#include "DynamicEntity.h"
+#include "Ball.h"
+
+#include "MatchIDs.h"
+
+/**
+ * class Ball
+ */
 
 namespace freekick
 {
     namespace match
     {
-// Constructors/Destructors
-//  
-
-/**
- */
-        Referee::Referee ( ) 
+        class MatchBall : public addutil::DynamicEntity, public freekick::soccer::Ball
         {
+        public:
 
-        }
+            /**
+             * @param  _mass
+             */
+            MatchBall (const Ball& b);
+            const int getID() { return BallID; }
+
+        private:
+        };
     }
 }
 
+#endif // MATCHBALL_H
