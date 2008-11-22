@@ -1,0 +1,61 @@
+physics:
+
+class Observer
+{
+};
+
+class PhysicsObserver : public Observer
+{
+public:
+    virtual void physicsStateUpdated(const PhysicsUpdate& phu) = 0;
+};
+
+class ListenerObserver : public Observer
+{
+public:
+    virtual void newInput(const vector<Input>& iv) = 0;
+};
+
+class RulesObserver : public Observer
+{
+public:
+    virtual void rulesStateUpdated(const RulesUpdate& ru) = 0;
+}
+
+class Physics : public ListenerObserver
+{
+public:
+    Physics(std::string& inputfile);
+    void attachPhysicsObserver(const PhysicsObserver&, float interval) = 0;
+    void getCurrentPhysicsStateSnapshot(const PhysicsState&);
+    void getCurrentMatchStateSnapshot(const MatchState&);
+    bool isRunning();
+    void togglePause();
+    void run() = 0;
+    void setPhysicsWorldStepFrequency(float f) = 0;
+    float getPhysicsWorldStepFrequency() const = 0;
+private:
+    PhysicsState ps;
+    MatchState ms;
+    bool running;
+};
+
+class Rules : public PhysicsObserver
+{
+public:
+    Rules();
+    void getCurrentRulesStateSnapshot(const RulesState&);
+    void run() = 0;
+private:
+    RulesState rs;
+};
+
+class Dispatcher : public PhysicsObserver, public RulesObserver
+{
+public:
+    Dispatcher(boost::shared_ptr<ServerState>);
+protected:
+    boost::shared_ptr<ServerState> getServerState();
+private:
+    boost::shared_ptr<ServerState> ss;
+};

@@ -1,0 +1,104 @@
+Freekick server design - Part 2
+
+States:
+physics state (entities as in physics engine, pitch type)
+match state (player positions, injuries)
+rules state (ball in/out, score, time)
+server state (connected clients)
+
+Actions:
+physics simulation -> sends results to dispatcher
+ - updates physics and match state constantly
+rules simulation   -> sends results to dispatcher
+ - on every nth physics update, updates rules state
+dispatcher         -> sends updates to clients
+ - on every nth match/rules/server update, dispatches updates
+listener           -> sends results to physics simulation
+ - reads & verifies client input, inputs that to physics simulation
+handler            -> sends results to server state
+ - connects new clients, handles disconnections
+ - i.e. reads ip input, inputs that to server state
+console            -> sends results to server/rules/physics state
+ - controls everything (commands are delegated)
+
+Input:
+clients -> listener -> physics -> match state
+clients -> handler -> server state
+
+Processing:
+physics
+ - reads physics state
+ - writes to physics and match states
+rules
+ - receives updates about match state
+ - reads match and rules states
+ - writes to rules state
+dispatcher
+ - receives updates from physics, rules, handler
+ - writes to networking lib/client sockets
+handler
+ - receives updates from networking lib
+ - writes to server state
+console
+ - reads everything
+ - writes to everything
+
+States:
+physics state
+ - read by physics
+ - written to by physics
+match state
+ - read by rules
+ - written to by physics
+ - updates sent to rules, dispatcher
+rules state
+ - read by rules
+ - written to by rules
+ - updates sent to dispatcher
+server state
+ - read by listener, handler
+ - written to by handler
+
+
+
+Output:
+dispatcher
+
+int main()
+{
+    boost::shared_ptr<ServerState> ss;
+
+    Physics p(input_file);
+    Rules r();
+    Dispatcher d(ss);
+    Listener l(ss);
+    Handler h(ss);
+    Console c(p, r, d, l, h);
+
+    p.attachPhysicsObserver(r, 0.1f);      // max. update frequency
+    p.attachPhysicsObserver(d, 0.1f);
+    l.attachListenerObserver(p, 0.0f);
+
+    c.run();
+    return 0;
+}
+
+console::run()
+{
+    cmd = getcommand();
+    switch(cmd)
+    {
+        "startall":
+            new_threads(p.run(), r.run(), d.run(), l.run(), h.run());
+        default:
+            break;
+    }
+}
+
+physics::run()
+{
+    while(running)
+    {
+        update_world(freq);
+    }
+}

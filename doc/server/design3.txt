@@ -1,0 +1,155 @@
+
+
+
+          /--> dispatcher ----------->
+          |     ^    ^   ^
+ c        |     |    |   |
+ o        |     |    |   |
+ n        |     |    |   |
+ s -------+-----+> rules |
+ o        |     |   ^    |
+ l        |     |   |    |
+ e -------+--> physics   |
+ |        |      ^       |
+ |        |    clienteventlistener --<
+ |        |          ^
+ |        \- connectionlistener -----<
+ |                ^
+ \----------------/
+
+
+int main()
+{
+    parse_input_file(start_rules, start_physics_world, allowed_clients);
+    io_service iosv(portnumber);
+
+    Dispatcher d(iosv);
+    Rules r(start_rules, d);
+    Physics p(start_physics_world, d, r);
+    ClientEventListener cel(iosv, d, p);
+    ConnectionListener c(iosv, allowed_clients, d, cel);
+    Console cc(p, r, c);
+    new_thread(iosv.run());
+    new_thread(p.run());
+    cc.run();
+    return 0;
+}
+
+Console::run()
+{
+    while(mContinue)
+    {
+        getInput();
+        p.reset();
+        p.getStatus();
+        p.setPause(true);
+        p.setPause(false);
+        r.getStatus();
+        r.reset();
+        c.listClients();
+        c.kickClient(clnum);
+    }
+}
+
+ConnectionListener::newClient(client c)
+{
+    if(allowed(c)) mClientEventListener.attach(c);
+}
+
+ClientEventListener::newData(buffer b)
+{
+    ClientEvent c& = FKCPToClientEvent(b);
+    mPhysics->newClientEvent(c);
+}
+
+/*
+ClientEventListener::newClient(client c)
+{
+    mClientlist->add(c);
+}
+*/
+
+Dispatcher::dispatchRulesState(const RulesState& s)
+{
+    buffer b& = RulesStateToFKCPMsg(s);
+    buffer b2& = PhysicsStateToFKCPMsg(mPhysicsState);
+    broadcast(b1);
+}
+
+Dispatcher::dispatchPhysicsState(const PhysicsState& s)
+{
+    buffer b& = PhysicsStateToFKCPMsg(s);
+    broadcast(b);
+}
+
+Dispatcher::dispatchClientInformation()
+{
+    buffer b& = ClientStateToFKCPMsg(s);
+    broadcast(b);
+}
+
+Dispatcher::dispatchPhysicsEvent(const PhysicsEvent& e)
+{
+    buffer b& = physicsEventToFKCPMsg(e);
+    broadcast(b);
+}
+
+Dispatcher::dispatchRulesEvent(const RulesEvent& e)
+{
+    buffer b& = rulesEventToFKCPMsg(e);
+    broadcast(b);
+}
+
+Dispatcher::dispatchConnectionEvent(const ConnectionEvent& e)
+{
+    buffer b& = connectionEventToFKCPMsg(e);
+    broadcast(b);
+}
+
+Physics::newClientEvent(const ClientEvent& e)
+{
+    if(valid(e))
+        applyForceToClient(e);
+}
+
+Physics::run()
+{
+    while(!mPause)
+    {
+        mNewphysicsevents.clear();  // filled via transform states
+        stepPhysics();
+        if(newphysicsevents.length())
+        {
+            mRules->update(newphysicsevents);
+            mDispatcher->dispatchPhysicsEvents(newphysicsevents);
+        }
+    }
+}
+
+void Physics::stepPhysics()
+{
+    btStep();
+}
+
+Rules::update(const vector<PhysicsEvent>& newphysicsevents)
+{
+    vector<RulesEvent> newrulesevents;
+    Time t = getTime();
+    simulateRules(t, newphysicsevents, newrulesevents);
+    mDispatcher->dispatchRulesEvents(newrulesevents);
+}
+
+void Rules::simulateRules(const Time& t, const vector<PhysicsEvent>& pes, vector<RulesEvent>& res)
+{
+    if(hasSignificantlyAdvanced(t))
+    {
+        res.push_back(RulesEvent(t));
+    }
+    BOOST_FOREACH(p, pes)
+    {
+        if(p.istackle())
+            res.push_back(RulesEvent(Tackle, p));
+        if(p.isball() && p.isoveraline())
+            res.push_back(newBallState(p));
+    }
+}

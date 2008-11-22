@@ -1,0 +1,49 @@
+generic network activities:
+callback receive(vector<char> buf)
+send(vector<char> buf)
+
+server network activities:
+startlisten(int port)
+stoplisten()
+callback new_client(int socket_id)
+callback client_disconnected(int socket_id)
+callback receive(vector<char> buf, int socket_id)
+send(vector<char> buf, int socket_id)
+disconnect(int socket_id)
+broadcast(vector<char> buf)
+multicast(vector<char> buf, vector<int> socket_ids)
+
+client network activities:
+connect(ip_address, port)
+disconnect()
+send(vector<char> buf)
+callback receive(vector<char> buf)
+
+freekick server activities:
+bool listen()
+stoplisten
+cb new_client(id)
+cb client_disconnected(id)
+multicast([id])
+broadcast
+cb new_data(buf)
+
+
+freekick client activities:
+bool connect(ip, port)
+void disconnect()
+bool write(buf)
+cb new_data(buf)
+
+
+freekick client flow:
+init -> connect
+thread -> new_data -> update state (needs state as member)
+thread -> write (20/s) (receives input)
+exit -> disconnect
+
+freekick server flow:
+init -> thread listen
+thread listen -> accept -> new client
+thread broadcast -> write (20/s) (needs state as member)
+thread -> new_data -> update state (needs state as member)

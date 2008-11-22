@@ -49,11 +49,52 @@ Parts (i.e. threads):
 - console
 - rules simulation
 - dispatcher
+- listener
 
 States:
 - match state (player, ball etc. positions etc., match time etc.)
 - server state (client stati, pause etc.)
 - rules state (ball in/out of play, throwin, controlling club etc.)
+
+match state:
+ -read by:
+  physics
+   -physics simulation
+  console  indirect - query physics
+   -pause
+  rules
+   -rules simulation
+  listener indirect - query physics
+   -check for pause
+ -written to by:
+  physics
+   -physics simulation
+  console  indirect - delegate to physics
+   -reset, pause
+  rules
+   -reset ball position
+  listener indirect - delegate to physics
+   -accelerate player
+server state:
+ -read by:
+  console
+   -clients' status
+  dispatcher
+   -targets for broadcast
+  listener
+   -verifies source clients
+ -written to by:
+  console
+   -disconnecting clients
+rules state:
+ -read by:
+  console  indirect - delegate to rules
+   -get time
+  rules
+   -rules simulation
+ -written to by:
+  rules
+   -rules simulation
 
 Tasks:
 1. Physics simulation
@@ -72,8 +113,29 @@ Tasks:
 4. Dispatcher
  - Receives messages from physics, console, rules
  - constantly sends status updates (events) to clients
+5. Listener
+ - Receives messages from clients
+ - checks client messages for validity
+ - updates physics simulation respectively
 
 Server + Bullet:
 - Each entity has a motionstate
 - motionstate::setworldtransform is called whenever the object is moved
   -> this function broadcasts its new position to the clients in regular intervals
+
+Code:
+
+/*
+int main()
+{
+    match_state ms(parsed_argv);
+    server_state ss;
+    rules_state rs;
+    physics p(&r,&d, &ms);
+    rules r(;
+    console c;
+    dispatcher d;
+    listener r;
+    
+}
+*/
