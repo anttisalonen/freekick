@@ -66,8 +66,6 @@ namespace addutil
         setVelocity(xdiff / scale, ydiff / scale, zdiff / scale);
 
         last_move = this_move;
-        if(zdiff)
-            std::cout << this_move << " us_diff: " << us_diff << " vel.z: " << velocity.z << std::endl;
 
         if(autoorientation)
         {

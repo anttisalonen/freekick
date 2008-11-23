@@ -33,16 +33,13 @@
 #include <boost/asio.hpp>
 #include <boost/exception.hpp>
 #include <boost/bind.hpp>
-#include <boost/lexical_cast.hpp>
-#include <boost/algorithm/string/find.hpp>
-#include <boost/algorithm/string/split.hpp>
-#include <boost/algorithm/string/find_iterator.hpp>
-#include <boost/algorithm/string/classification.hpp>
 #include <boost/foreach.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
 
 #include "MatchStatus.h"
-#include "IP_Connection.h"
+#include "addutil/Parsing.h"
+#include "addutil/network/Client.h"
+#include "addutil/network/IP_Connection.h"
 #include "Event.h"
 
 namespace freekick
@@ -68,7 +65,7 @@ namespace freekick
     {
         namespace network
         {
-            class Network
+            class Network : public addutil::network::Client
             {
             public:
 
@@ -79,42 +76,18 @@ namespace freekick
                 Network (addutil::network::IP_Connection conn, MatchStatus* stat );
                 virtual ~Network();
 
-                /**
-                 * @return bool
-                 * @param  data
-                 */
-                bool sendData (const std::string* data );
-
-                /**
-                 */
                 bool run ( );
 
             protected:
-
-                /**
-                 * @return string*
-                 */
-                std::string* readData ( );
+                void read(std::string buf);
 
             private:
-                void connect();
-                void handle_resolve(const boost::system::error_code& err, 
-                                    boost::asio::ip::tcp::resolver::iterator endpoint_iterator);
-                void handle_connect(const boost::system::error_code& err, 
-                                    boost::asio::ip::tcp::resolver::iterator endpoint_iterator);
-                void handle_write_data(const boost::system::error_code& err);
-                void handle_read_handshake(const boost::system::error_code& err);
-                void handle_read_events(const boost::system::error_code& err, std::size_t bytes);
                 // Private attributes
                 //  
 
                 freekick::match::MatchStatus* status;
-                addutil::network::IP_Connection ip_conn;
-                boost::asio::io_service io_service;
-                boost::asio::ip::tcp::resolver resolver;
-                boost::asio::streambuf serverdata;
-                boost::asio::streambuf senddata;
-                boost::asio::ip::tcp::socket serversocket;
+                std::string buffer;
+                bool handshake;
             };
         }
     }

@@ -15,57 +15,63 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on So Okt 26 2008 at 12:09:20
+  This file was generated on Sa Nov 22 2008 at 11:40:55
 **************************************************************************/
 
 
-#ifndef CONFIGURATION_H
-#define CONFIGURATION_H
-
-#include <string>
-#include <vector>
-#include "addutil/network/IP_Connection.h"
-#include "InputConfiguration.h"
-
-/**
- * class Configuration
- */
+#ifndef CONSOLECOMMAND_H
+#define CONSOLECOMMAND_H
 
 namespace freekick
 {
     namespace match
     {
-        namespace client
+        namespace server
         {
-            class Configuration
+            class ConsoleCommand
             {
             public:
 
-                /**
-                 * @param  argc
-                 * @param  argv
-                 */
-                Configuration (int argc, char** argv );
+                // Constructors/Destructors
+                //  
+
 
                 /**
-                 * @return const IP_Connection*
+                 * Empty Constructor
                  */
-                addutil::network::IP_Connection getServerConnection ( ) const;
+                ConsoleCommand ( );
 
                 /**
-                 * @return const InputConfiguration*
+                 * Empty Destructor
                  */
-                cl_ogre::InputConfiguration* getInputConfiguration ( ) const;
+                virtual ~ConsoleCommand ( );
+
+
+            protected:
+
+            public:
+
+            protected:
+
+            public:
+
+            protected:
+
 
             private:
 
-                addutil::network::IP_Connection server_connection;
-                std::vector <int> player_ids;
-                cl_ogre::InputConfiguration* inputconfiguration; // TODO: make independent of cl_ogre
+            public:
+
+            private:
+
+            public:
+
+            private:
+
+
 
             };
         }
     }
 }
-
-#endif // CONFIGURATION_H
+#endif // CONSOLECOMMAND_H
