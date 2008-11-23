@@ -49,35 +49,35 @@ namespace freekick
 
 
 /**
- * Set the value of m_mIoService
- * @param new_var the new value of m_mIoService
+ * Set the value of mIoService
+ * @param new_var the new value of mIoService
  */
             void Dispatcher::setMIoService ( io_service new_var ) {
-                m_mIoService = new_var;
+                mIoService = new_var;
             }
 
 /**
- * Get the value of m_mIoService
- * @return the value of m_mIoService
+ * Get the value of mIoService
+ * @return the value of mIoService
  */
             io_service Dispatcher::getMIoService ( ) {
-                return m_mIoService;
+                return mIoService;
             }
 
 /**
- * Set the value of m_mClientList
- * @param new_var the new value of m_mClientList
+ * Set the value of mClientList
+ * @param new_var the new value of mClientList
  */
             void Dispatcher::setMClientList ( freekick::match::ClientList new_var ) {
-                m_mClientList = new_var;
+                mClientList = new_var;
             }
 
 /**
- * Get the value of m_mClientList
- * @return the value of m_mClientList
+ * Get the value of mClientList
+ * @return the value of mClientList
  */
             freekick::match::ClientList Dispatcher::getMClientList ( ) {
-                return m_mClientList;
+                return mClientList;
             }
 
 // Other methods

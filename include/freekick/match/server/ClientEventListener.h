@@ -72,8 +72,8 @@ namespace freekick
                 // Private attributes
                 //  
 
-                io_service m_mIoService;
-                freekick::match::ClientList m_mClientList;
+                io_service mIoService;
+                freekick::match::ClientList mClientList;
             public:
 
             private:
@@ -86,27 +86,27 @@ namespace freekick
 
 
                 /**
-                 * Set the value of m_mIoService
-                 * @param new_var the new value of m_mIoService
+                 * Set the value of mIoService
+                 * @param new_var the new value of mIoService
                  */
                 void setMIoService ( io_service new_var );
 
                 /**
-                 * Get the value of m_mIoService
-                 * @return the value of m_mIoService
+                 * Get the value of mIoService
+                 * @return the value of mIoService
                  */
                 io_service getMIoService ( );
 
 
                 /**
-                 * Set the value of m_mClientList
-                 * @param new_var the new value of m_mClientList
+                 * Set the value of mClientList
+                 * @param new_var the new value of mClientList
                  */
                 void setMClientList ( freekick::match::ClientList new_var );
 
                 /**
-                 * Get the value of m_mClientList
-                 * @return the value of m_mClientList
+                 * Get the value of mClientList
+                 * @return the value of mClientList
                  */
                 freekick::match::ClientList getMClientList ( );
 

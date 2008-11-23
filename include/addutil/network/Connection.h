@@ -22,6 +22,11 @@
 #define ADDUTIL_NETWORK_CONNECTION_H
 
 #include <vector>
+
+#include <boost/asio.hpp>
+#include <boost/shared_ptr.hpp>
+
+
 #include "IP_Connection.h"
 
 /**
@@ -32,21 +37,26 @@ namespace addutil
 {
     namespace network
     {
-        typedef std::vector<char> msgbuffer;
+        typedef std::string msgbuffer;
         typedef long conn_id;
         class Connection
         {
         public:
-            Connection(conn_id _id);
-            virtual ~Connection() { if(connected()) disconnect(); }
-            void read(msgbuffer& buf);
+            Connection(boost::asio::io_service& ios, conn_id _id);
+            virtual ~Connection();
+            void read(boost::shared_ptr<msgbuffer>& b);
             void write(const msgbuffer& buf);
-            bool connect(const IP_Connection& tgt);
+            void connect(const IP_Connection& tgt);
             void disconnect();
             bool connected();
+            conn_id getID();
+            IP_Connection& getConnection();
         private:
+            boost::asio::io_service& ioserv;
+            boost::asio::ip::tcp::socket socket;
             conn_id id;
             IP_Connection conn;
+            bool mConnected;
         };
     }
 }

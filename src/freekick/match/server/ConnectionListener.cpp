@@ -49,51 +49,51 @@ namespace freekick
 
 
 /**
- * Set the value of m_mIoService
- * @param new_var the new value of m_mIoService
+ * Set the value of mIoService
+ * @param new_var the new value of mIoService
  */
             void ConnectionListener::setMIoService ( io_service new_var ) {
-                m_mIoService = new_var;
+                mIoService = new_var;
             }
 
 /**
- * Get the value of m_mIoService
- * @return the value of m_mIoService
+ * Get the value of mIoService
+ * @return the value of mIoService
  */
             io_service ConnectionListener::getMIoService ( ) {
-                return m_mIoService;
+                return mIoService;
             }
 
 /**
- * Set the value of m_mClientList
- * @param new_var the new value of m_mClientList
+ * Set the value of mClientList
+ * @param new_var the new value of mClientList
  */
             void ConnectionListener::setMClientList ( freekick::match::ClientList new_var ) {
-                m_mClientList = new_var;
+                mClientList = new_var;
             }
 
 /**
- * Get the value of m_mClientList
- * @return the value of m_mClientList
+ * Get the value of mClientList
+ * @return the value of mClientList
  */
             freekick::match::ClientList ConnectionListener::getMClientList ( ) {
-                return m_mClientList;
+                return mClientList;
             }
 
 /**
- * Set the value of m_mDispatcher
- * @param new_var the new value of m_mDispatcher
+ * Set the value of mDispatcher
+ * @param new_var the new value of mDispatcher
  */
             void ConnectionListener::setMDispatcher ( freekick::match::server::Dispatcher new_var ) {
-                m_mDispatcher = new_var;
+                mDispatcher = new_var;
             }
 
 /**
- * Get the value of m_mDispatcher
- * @return the value of m_mDispatcher
+ * Get the value of mDispatcher
+ * @return the value of mDispatcher
  */
             freekick::match::server::Dispatcher ConnectionListener::getMDispatcher ( ) {
-                return m_mDispatcher;
+                return mDispatcher;
             }
 
 // Other methods

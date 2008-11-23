@@ -84,10 +84,10 @@ namespace freekick
                 // Private attributes
                 //  
 
-                bool m_mContinue;
-                boost::shared_ptr<Physics> m_mPhysics;
-                boost::shared_ptr<Rules> m_mRules;
-                boost::shared_ptr<ConnectionListener> m_mConnectionListener;
+                bool mContinue;
+                boost::shared_ptr<Physics> mPhysics;
+                boost::shared_ptr<Rules> mRules;
+                boost::shared_ptr<ConnectionListener> mConnectionListener;
             public:
 
             private:
@@ -100,53 +100,53 @@ namespace freekick
 
 
                 /**
-                 * Set the value of m_mContinue
-                 * @param new_var the new value of m_mContinue
+                 * Set the value of mContinue
+                 * @param new_var the new value of mContinue
                  */
                 void setMContinue ( bool new_var );
 
                 /**
-                 * Get the value of m_mContinue
-                 * @return the value of m_mContinue
+                 * Get the value of mContinue
+                 * @return the value of mContinue
                  */
                 bool getMContinue ( );
 
 
                 /**
-                 * Set the value of m_mPhysics
-                 * @param new_var the new value of m_mPhysics
+                 * Set the value of mPhysics
+                 * @param new_var the new value of mPhysics
                  */
                 void setMPhysics ( boost::shared_ptr<Physics> new_var );
 
                 /**
-                 * Get the value of m_mPhysics
-                 * @return the value of m_mPhysics
+                 * Get the value of mPhysics
+                 * @return the value of mPhysics
                  */
                 boost::shared_ptr<Physics> getMPhysics ( );
 
 
                 /**
-                 * Set the value of m_mRules
-                 * @param new_var the new value of m_mRules
+                 * Set the value of mRules
+                 * @param new_var the new value of mRules
                  */
                 void setMRules ( boost::shared_ptr<Rules> new_var );
 
                 /**
-                 * Get the value of m_mRules
-                 * @return the value of m_mRules
+                 * Get the value of mRules
+                 * @return the value of mRules
                  */
                 boost::shared_ptr<Rules> getMRules ( );
 
 
                 /**
-                 * Set the value of m_mConnectionListener
-                 * @param new_var the new value of m_mConnectionListener
+                 * Set the value of mConnectionListener
+                 * @param new_var the new value of mConnectionListener
                  */
                 void setMConnectionListener ( boost::shared_ptr<ConnectionListener> new_var );
 
                 /**
-                 * Get the value of m_mConnectionListener
-                 * @return the value of m_mConnectionListener
+                 * Get the value of mConnectionListener
+                 * @return the value of mConnectionListener
                  */
                 boost::shared_ptr<ConnectionListener> getMConnectionListener ( );
 

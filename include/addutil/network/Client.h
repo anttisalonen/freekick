@@ -28,6 +28,7 @@
 #include <boost/shared_ptr.hpp>
 
 #include "IP_Connection.h"
+#include "Connection.h"
 
 namespace addutil
 {
@@ -41,16 +42,15 @@ namespace addutil
         protected:
             void connect();
             void disconnect();
-            virtual void read(std::string buf) = 0;
-            void write(const std::string& buf);
             void setTarget(const IP_Connection& conn);
             void getTarget(IP_Connection& conn) const;
+            virtual void read(std::string buf) = 0;
+            void write(const std::string& buf);
         private:
             void read_loop();
             addutil::network::IP_Connection ip_conn;
-            boost::shared_ptr<boost::asio::io_service> ioserv;
-            boost::asio::ip::tcp::resolver resolver;
-            boost::asio::ip::tcp::socket serversocket;
+            boost::asio::io_service ioserv;
+            Connection c;
         };
     }
 }

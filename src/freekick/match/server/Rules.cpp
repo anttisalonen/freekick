@@ -49,35 +49,35 @@ namespace freekick
 
 
 /**
- * Set the value of m_mRulesState
- * @param new_var the new value of m_mRulesState
+ * Set the value of mRulesState
+ * @param new_var the new value of mRulesState
  */
             void Rules::setMRulesState ( boost::shared_ptr<RulesState> new_var ) {
-                m_mRulesState = new_var;
+                mRulesState = new_var;
             }
 
 /**
- * Get the value of m_mRulesState
- * @return the value of m_mRulesState
+ * Get the value of mRulesState
+ * @return the value of mRulesState
  */
             boost::shared_ptr<RulesState> Rules::getMRulesState ( ) {
-                return m_mRulesState;
+                return mRulesState;
             }
 
 /**
- * Set the value of m_mDispatcher
- * @param new_var the new value of m_mDispatcher
+ * Set the value of mDispatcher
+ * @param new_var the new value of mDispatcher
  */
             void Rules::setMDispatcher ( boost::shared_ptr<Dispatcher> new_var ) {
-                m_mDispatcher = new_var;
+                mDispatcher = new_var;
             }
 
 /**
- * Get the value of m_mDispatcher
- * @return the value of m_mDispatcher
+ * Get the value of mDispatcher
+ * @return the value of mDispatcher
  */
             boost::shared_ptr<Dispatcher> Rules::getMDispatcher ( ) {
-                return m_mDispatcher;
+                return mDispatcher;
             }
 
 // Other methods

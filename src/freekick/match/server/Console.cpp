@@ -49,67 +49,67 @@ namespace freekick
 
 
 /**
- * Set the value of m_mContinue
- * @param new_var the new value of m_mContinue
+ * Set the value of mContinue
+ * @param new_var the new value of mContinue
  */
             void Console::setMContinue ( bool new_var ) {
-                m_mContinue = new_var;
+                mContinue = new_var;
             }
 
 /**
- * Get the value of m_mContinue
- * @return the value of m_mContinue
+ * Get the value of mContinue
+ * @return the value of mContinue
  */
             bool Console::getMContinue ( ) {
-                return m_mContinue;
+                return mContinue;
             }
 
 /**
- * Set the value of m_mPhysics
- * @param new_var the new value of m_mPhysics
+ * Set the value of mPhysics
+ * @param new_var the new value of mPhysics
  */
             void Console::setMPhysics ( boost::shared_ptr<Physics> new_var ) {
-                m_mPhysics = new_var;
+                mPhysics = new_var;
             }
 
 /**
- * Get the value of m_mPhysics
- * @return the value of m_mPhysics
+ * Get the value of mPhysics
+ * @return the value of mPhysics
  */
             boost::shared_ptr<Physics> Console::getMPhysics ( ) {
-                return m_mPhysics;
+                return mPhysics;
             }
 
 /**
- * Set the value of m_mRules
- * @param new_var the new value of m_mRules
+ * Set the value of mRules
+ * @param new_var the new value of mRules
  */
             void Console::setMRules ( boost::shared_ptr<Rules> new_var ) {
-                m_mRules = new_var;
+                mRules = new_var;
             }
 
 /**
- * Get the value of m_mRules
- * @return the value of m_mRules
+ * Get the value of mRules
+ * @return the value of mRules
  */
             boost::shared_ptr<Rules> Console::getMRules ( ) {
-                return m_mRules;
+                return mRules;
             }
 
 /**
- * Set the value of m_mConnectionListener
- * @param new_var the new value of m_mConnectionListener
+ * Set the value of mConnectionListener
+ * @param new_var the new value of mConnectionListener
  */
             void Console::setMConnectionListener ( boost::shared_ptr<ConnectionListener> new_var ) {
-                m_mConnectionListener = new_var;
+                mConnectionListener = new_var;
             }
 
 /**
- * Get the value of m_mConnectionListener
- * @return the value of m_mConnectionListener
+ * Get the value of mConnectionListener
+ * @return the value of mConnectionListener
  */
             boost::shared_ptr<ConnectionListener> Console::getMConnectionListener ( ) {
-                return m_mConnectionListener;
+                return mConnectionListener;
             }
 
 // Other methods
@@ -141,7 +141,7 @@ namespace freekick
             }
 
             void Console::initAttributes ( ) {
-                m_mContinue = true;
+                mContinue = true;
             }
         }
     }

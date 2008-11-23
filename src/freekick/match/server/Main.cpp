@@ -32,6 +32,11 @@ void run_status(MatchStatus* s)
     s->run();
 }
 
+void run_network(Network* n)
+{
+    n->run();
+}
+
 int main(int argc, char** argv)
 {
     try

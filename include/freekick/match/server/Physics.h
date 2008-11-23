@@ -90,11 +90,11 @@ namespace freekick
                 // Private attributes
                 //  
 
-                bool m_mPause;
-                freekick::match::PhysicsEventList m_mNewPhysicsEvents;
-                freekick::match::PhysicsEngine m_mPhysicsEngine;
-                freekick::match::PhysicsState m_mPhysicsState;
-                freekick::match::server::Dispatcher m_mDispatcher;
+                bool mPause;
+                freekick::match::PhysicsEventList mNewPhysicsEvents;
+                freekick::match::PhysicsEngine mPhysicsEngine;
+                freekick::match::PhysicsState mPhysicsState;
+                freekick::match::server::Dispatcher mDispatcher;
             public:
 
             private:
@@ -107,66 +107,66 @@ namespace freekick
 
 
                 /**
-                 * Set the value of m_mPause
-                 * @param new_var the new value of m_mPause
+                 * Set the value of mPause
+                 * @param new_var the new value of mPause
                  */
                 void setMPause ( bool new_var );
 
                 /**
-                 * Get the value of m_mPause
-                 * @return the value of m_mPause
+                 * Get the value of mPause
+                 * @return the value of mPause
                  */
                 bool getMPause ( );
 
 
                 /**
-                 * Set the value of m_mNewPhysicsEvents
-                 * @param new_var the new value of m_mNewPhysicsEvents
+                 * Set the value of mNewPhysicsEvents
+                 * @param new_var the new value of mNewPhysicsEvents
                  */
                 void setMNewPhysicsEvents ( freekick::match::PhysicsEventList new_var );
 
                 /**
-                 * Get the value of m_mNewPhysicsEvents
-                 * @return the value of m_mNewPhysicsEvents
+                 * Get the value of mNewPhysicsEvents
+                 * @return the value of mNewPhysicsEvents
                  */
                 freekick::match::PhysicsEventList getMNewPhysicsEvents ( );
 
 
                 /**
-                 * Set the value of m_mPhysicsEngine
-                 * @param new_var the new value of m_mPhysicsEngine
+                 * Set the value of mPhysicsEngine
+                 * @param new_var the new value of mPhysicsEngine
                  */
                 void setMPhysicsEngine ( freekick::match::PhysicsEngine new_var );
 
                 /**
-                 * Get the value of m_mPhysicsEngine
-                 * @return the value of m_mPhysicsEngine
+                 * Get the value of mPhysicsEngine
+                 * @return the value of mPhysicsEngine
                  */
                 freekick::match::PhysicsEngine getMPhysicsEngine ( );
 
 
                 /**
-                 * Set the value of m_mPhysicsState
-                 * @param new_var the new value of m_mPhysicsState
+                 * Set the value of mPhysicsState
+                 * @param new_var the new value of mPhysicsState
                  */
                 void setMPhysicsState ( freekick::match::PhysicsState new_var );
 
                 /**
-                 * Get the value of m_mPhysicsState
-                 * @return the value of m_mPhysicsState
+                 * Get the value of mPhysicsState
+                 * @return the value of mPhysicsState
                  */
                 freekick::match::PhysicsState getMPhysicsState ( );
 
 
                 /**
-                 * Set the value of m_mDispatcher
-                 * @param new_var the new value of m_mDispatcher
+                 * Set the value of mDispatcher
+                 * @param new_var the new value of mDispatcher
                  */
                 void setMDispatcher ( freekick::match::server::Dispatcher new_var );
 
                 /**
-                 * Get the value of m_mDispatcher
-                 * @return the value of m_mDispatcher
+                 * Get the value of mDispatcher
+                 * @return the value of mDispatcher
                  */
                 freekick::match::server::Dispatcher getMDispatcher ( );
 

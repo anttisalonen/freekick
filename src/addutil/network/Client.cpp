@@ -25,15 +25,13 @@ namespace addutil
     {
         Client::Client (IP_Connection conn)
             : ip_conn(conn), 
-              ioserv(new boost::asio::io_service()),
-              resolver(*ioserv),
-              serversocket(*ioserv)
+              c(ioserv, 1)
         {
         }
             
         Client::~Client()
         {
-            serversocket.close();
+            disconnect();
         }
 
         void Client::setTarget(const IP_Connection& conn)
@@ -48,55 +46,32 @@ namespace addutil
 
         void Client::connect()
         {
-            std::cerr << "Connecting...\n";
-            using boost::asio::ip::tcp;
-            // Get a list of endpoints corresponding to the server name.
-            tcp::resolver::query query(ip_conn.ip_address, ip_conn.port);
-            tcp::resolver::iterator endpoint_iterator = resolver.resolve(query);
-            tcp::resolver::iterator end;
-
-            // Try each endpoint until we successfully establish a connection.
-            boost::system::error_code error = boost::asio::error::host_not_found;
-            while (error && endpoint_iterator != end)
-            {
-                serversocket.close();
-                serversocket.connect(*endpoint_iterator++, error);
-            }
-            if (error)
-                throw boost::system::system_error(error);
-
-            std::cerr << "Connected!\n";
+            disconnect();
+            c.connect(ip_conn);
             read_loop();
         }
 
         void Client::disconnect()
         {
-            serversocket.close();
+            if(c.connected())
+                c.disconnect();
         }
 
         void Client::read_loop()
         {
-            boost::asio::streambuf indata;
-            boost::system::error_code error;
-            while (boost::asio::read(serversocket, indata,
-                                     boost::asio::transfer_at_least(1), error))
+            while(c.connected())
             {
-                std::istream datastream(&indata);
-                boost::asio::streambuf::const_buffers_type bufs = indata.data();
-                size_t bytes = indata.size();
-                std::string line(boost::asio::buffers_begin(bufs),
-                                 boost::asio::buffers_begin(bufs) + bytes);
-                indata.consume(bytes);
-                read(line);
+                boost::shared_ptr<std::string> n;
+                c.read(n);
+                read(*n);
             }
         }
 
         void Client::write(const std::string& buf)
         {
-            boost::asio::streambuf resp_stream;
-            std::ostream wr_stream(&resp_stream);
-            wr_stream << buf;
-            boost::asio::write(serversocket, resp_stream);
+            if(c.connected())
+                c.write(buf);
+            else throw "Client::write: not connected";
         }
     }
 }

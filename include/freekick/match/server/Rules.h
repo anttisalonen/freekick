@@ -89,8 +89,8 @@ namespace freekick
                 // Private attributes
                 //  
 
-                boost::shared_ptr<RulesState> m_mRulesState;
-                boost::shared_ptr<Dispatcher> m_mDispatcher;
+                boost::shared_ptr<RulesState> mRulesState;
+                boost::shared_ptr<Dispatcher> mDispatcher;
             public:
 
             private:
@@ -103,27 +103,27 @@ namespace freekick
 
 
                 /**
-                 * Set the value of m_mRulesState
-                 * @param new_var the new value of m_mRulesState
+                 * Set the value of mRulesState
+                 * @param new_var the new value of mRulesState
                  */
                 void setMRulesState ( boost::shared_ptr<RulesState> new_var );
 
                 /**
-                 * Get the value of m_mRulesState
-                 * @return the value of m_mRulesState
+                 * Get the value of mRulesState
+                 * @return the value of mRulesState
                  */
                 boost::shared_ptr<RulesState> getMRulesState ( );
 
 
                 /**
-                 * Set the value of m_mDispatcher
-                 * @param new_var the new value of m_mDispatcher
+                 * Set the value of mDispatcher
+                 * @param new_var the new value of mDispatcher
                  */
                 void setMDispatcher ( boost::shared_ptr<Dispatcher> new_var );
 
                 /**
-                 * Get the value of m_mDispatcher
-                 * @return the value of m_mDispatcher
+                 * Get the value of mDispatcher
+                 * @return the value of mDispatcher
                  */
                 boost::shared_ptr<Dispatcher> getMDispatcher ( );
 

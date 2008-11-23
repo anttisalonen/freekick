@@ -24,9 +24,8 @@ bool listen()
 stoplisten
 cb new_client(id)
 cb client_disconnected(id)
-multicast([id])
-broadcast
-cb new_data(buf)
+multicast(buf, [id]) / broadcast(buf)
+cb new_data(buf, id)
 
 
 freekick client activities:
@@ -47,3 +46,10 @@ init -> thread listen
 thread listen -> accept -> new client
 thread broadcast -> write (20/s) (needs state as member)
 thread -> new_data -> update state (needs state as member)
+
+
+classes:
+client - handles client-server-connection
+server - handles x connections
+connection - provides read/write
+unit - has code mutual to client+server

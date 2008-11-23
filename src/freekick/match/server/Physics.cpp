@@ -49,83 +49,83 @@ namespace freekick
 
 
 /**
- * Set the value of m_mPause
- * @param new_var the new value of m_mPause
+ * Set the value of mPause
+ * @param new_var the new value of mPause
  */
             void Physics::setMPause ( bool new_var ) {
-                m_mPause = new_var;
+                mPause = new_var;
             }
 
 /**
- * Get the value of m_mPause
- * @return the value of m_mPause
+ * Get the value of mPause
+ * @return the value of mPause
  */
             bool Physics::getMPause ( ) {
-                return m_mPause;
+                return mPause;
             }
 
 /**
- * Set the value of m_mNewPhysicsEvents
- * @param new_var the new value of m_mNewPhysicsEvents
+ * Set the value of mNewPhysicsEvents
+ * @param new_var the new value of mNewPhysicsEvents
  */
             void Physics::setMNewPhysicsEvents ( freekick::match::PhysicsEventList new_var ) {
-                m_mNewPhysicsEvents = new_var;
+                mNewPhysicsEvents = new_var;
             }
 
 /**
- * Get the value of m_mNewPhysicsEvents
- * @return the value of m_mNewPhysicsEvents
+ * Get the value of mNewPhysicsEvents
+ * @return the value of mNewPhysicsEvents
  */
             freekick::match::PhysicsEventList Physics::getMNewPhysicsEvents ( ) {
-                return m_mNewPhysicsEvents;
+                return mNewPhysicsEvents;
             }
 
 /**
- * Set the value of m_mPhysicsEngine
- * @param new_var the new value of m_mPhysicsEngine
+ * Set the value of mPhysicsEngine
+ * @param new_var the new value of mPhysicsEngine
  */
             void Physics::setMPhysicsEngine ( freekick::match::PhysicsEngine new_var ) {
-                m_mPhysicsEngine = new_var;
+                mPhysicsEngine = new_var;
             }
 
 /**
- * Get the value of m_mPhysicsEngine
- * @return the value of m_mPhysicsEngine
+ * Get the value of mPhysicsEngine
+ * @return the value of mPhysicsEngine
  */
             freekick::match::PhysicsEngine Physics::getMPhysicsEngine ( ) {
-                return m_mPhysicsEngine;
+                return mPhysicsEngine;
             }
 
 /**
- * Set the value of m_mPhysicsState
- * @param new_var the new value of m_mPhysicsState
+ * Set the value of mPhysicsState
+ * @param new_var the new value of mPhysicsState
  */
             void Physics::setMPhysicsState ( freekick::match::PhysicsState new_var ) {
-                m_mPhysicsState = new_var;
+                mPhysicsState = new_var;
             }
 
 /**
- * Get the value of m_mPhysicsState
- * @return the value of m_mPhysicsState
+ * Get the value of mPhysicsState
+ * @return the value of mPhysicsState
  */
             freekick::match::PhysicsState Physics::getMPhysicsState ( ) {
-                return m_mPhysicsState;
+                return mPhysicsState;
             }
 
 /**
- * Set the value of m_mDispatcher
- * @param new_var the new value of m_mDispatcher
+ * Set the value of mDispatcher
+ * @param new_var the new value of mDispatcher
  */
             void Physics::setMDispatcher ( freekick::match::server::Dispatcher new_var ) {
-                m_mDispatcher = new_var;
+                mDispatcher = new_var;
             }
 
 /**
- * Get the value of m_mDispatcher
- * @return the value of m_mDispatcher
+ * Get the value of mDispatcher
+ * @return the value of mDispatcher
  */
             freekick::match::server::Dispatcher Physics::getMDispatcher ( ) {
-                return m_mDispatcher;
+                return mDispatcher;
             }
 
 // Other methods
@@ -163,7 +163,7 @@ namespace freekick
             }
 
             void Physics::initAttributes ( ) {
-                m_mPause = true;
+                mPause = true;
             }
         }
     }
