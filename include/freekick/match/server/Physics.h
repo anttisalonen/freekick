@@ -22,8 +22,13 @@
 #ifndef PHYSICS_H
 #define PHYSICS_H
 
+#include <boost/shared_ptr.hpp>
 
 
+#include "ClientEvent.h"
+#include "Dispatcher.h"
+#include "PhysicsState.h"
+#include "PhysicsEngine.h"
 
 
 namespace freekick
@@ -35,55 +40,12 @@ namespace freekick
             class Physics
             {
             public:
-
-                // Constructors/Destructors
-                //  
-
-
-                /**
-                 * Empty Constructor
-                 */
                 Physics ( );
-
-                /**
-                 * Empty Destructor
-                 */
                 virtual ~Physics ( );
-
-
-
-                /**
-                 * @param  p
-                 */
                 void setPause (bool p );
-
-
-                /**
-                 */
                 void run ( );
-
-
-                /**
-                 * @param  e
-                 */
                 void newClientEvent (freekick::match::ClientEvent e );
-
-
-                /**
-                 * @return bool
-                 */
                 bool stepPhysics ( );
-
-            protected:
-
-            public:
-
-            protected:
-
-            public:
-
-            protected:
-
 
             private:
 
@@ -91,89 +53,23 @@ namespace freekick
                 //  
 
                 bool mPause;
-                freekick::match::PhysicsEventList mNewPhysicsEvents;
-                freekick::match::PhysicsEngine mPhysicsEngine;
-                freekick::match::PhysicsState mPhysicsState;
-                freekick::match::server::Dispatcher mDispatcher;
-            public:
-
-            private:
+                PhysicsEventList mNewPhysicsEvents;
+                PhysicsEngine mPhysicsEngine;
+                PhysicsState mPhysicsState;
+                boost::shared_ptr<Dispatcher> mDispatcher;
 
             public:
-
 
                 // Private attribute accessor methods
                 //  
 
-
-                /**
-                 * Set the value of mPause
-                 * @param new_var the new value of mPause
-                 */
-                void setMPause ( bool new_var );
-
-                /**
-                 * Get the value of mPause
-                 * @return the value of mPause
-                 */
-                bool getMPause ( );
-
-
-                /**
-                 * Set the value of mNewPhysicsEvents
-                 * @param new_var the new value of mNewPhysicsEvents
-                 */
-                void setMNewPhysicsEvents ( freekick::match::PhysicsEventList new_var );
-
-                /**
-                 * Get the value of mNewPhysicsEvents
-                 * @return the value of mNewPhysicsEvents
-                 */
-                freekick::match::PhysicsEventList getMNewPhysicsEvents ( );
-
-
-                /**
-                 * Set the value of mPhysicsEngine
-                 * @param new_var the new value of mPhysicsEngine
-                 */
-                void setMPhysicsEngine ( freekick::match::PhysicsEngine new_var );
-
-                /**
-                 * Get the value of mPhysicsEngine
-                 * @return the value of mPhysicsEngine
-                 */
-                freekick::match::PhysicsEngine getMPhysicsEngine ( );
-
-
-                /**
-                 * Set the value of mPhysicsState
-                 * @param new_var the new value of mPhysicsState
-                 */
-                void setMPhysicsState ( freekick::match::PhysicsState new_var );
-
-                /**
-                 * Get the value of mPhysicsState
-                 * @return the value of mPhysicsState
-                 */
-                freekick::match::PhysicsState getMPhysicsState ( );
-
-
-                /**
-                 * Set the value of mDispatcher
-                 * @param new_var the new value of mDispatcher
-                 */
-                void setMDispatcher ( freekick::match::server::Dispatcher new_var );
-
-                /**
-                 * Get the value of mDispatcher
-                 * @return the value of mDispatcher
-                 */
-                freekick::match::server::Dispatcher getMDispatcher ( );
-
-            private:
-
-
-                void initAttributes ( ) ;
+                bool getPause ( );
+                void setNewPhysicsEvents ( PhysicsEventList new_var );
+                PhysicsEventList getNewPhysicsEvents ( );
+                void setPhysicsEngine ( PhysicsEngine new_var );
+                PhysicsEngine getPhysicsEngine ( );
+                void setPhysicsState ( PhysicsState new_var );
+                PhysicsState getPhysicsState ( );
 
             };
         }

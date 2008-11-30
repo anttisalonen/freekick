@@ -29,69 +29,19 @@ namespace freekick
     {
         namespace server
         {
-            ClientEventListener::ClientEventListener ( ) {
-                initAttributes();
+            ClientEventListener::ClientEventListener (ClientListPtr clp)
+                : mClientList(clp)
+            {
             }
 
-            ClientEventListener::~ClientEventListener ( ) { }
-
-//  
-// Methods
-//  
-
-
-// Accessor methods
-//  
-
-
-// Private attribute accessor methods
-//  
-
-
-/**
- * Set the value of mIoService
- * @param new_var the new value of mIoService
- */
-            void ClientEventListener::setMIoService ( io_service new_var ) {
-                mIoService = new_var;
+            ClientEventListener::~ClientEventListener ( ) 
+            { 
             }
 
-/**
- * Get the value of mIoService
- * @return the value of mIoService
- */
-            io_service ClientEventListener::getMIoService ( ) {
-                return mIoService;
-            }
-
-/**
- * Set the value of mClientList
- * @param new_var the new value of mClientList
- */
-            void ClientEventListener::setMClientList ( freekick::match::ClientList new_var ) {
-                mClientList = new_var;
-            }
-
-/**
- * Get the value of mClientList
- * @return the value of mClientList
- */
-            freekick::match::ClientList ClientEventListener::getMClientList ( ) {
-                return mClientList;
-            }
-
-// Other methods
-//  
-
-
-/**
- * @param  b
- */
-            void ClientEventListener::newData (Buffer b ) {
-
-            }
-
-            void ClientEventListener::initAttributes ( ) {
+            void ClientEventListener::newData (unsigned int id, buffer b ) 
+            {
+                std::cerr << "ClientEventListener: New data received\n";
+                // TODO: validate, process, pass on to physics
             }
         }
     }

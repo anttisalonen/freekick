@@ -22,7 +22,17 @@
 #ifndef DISPATCHER_H
 #define DISPATCHER_H
 
+#include <boost/thread.hpp>
+#include <boost/bind.hpp>
 
+#include "addutil/network/Server.h"
+
+#include "freekick/match/Client.h"
+#include "RulesState.h"
+#include "RulesEvent.h"
+#include "PhysicsState.h"
+#include "PhysicsEvent.h"
+#include "ConnectionEvent.h"
 
 namespace freekick
 {
@@ -30,142 +40,30 @@ namespace freekick
     {
         namespace server
         {
+            typedef std::vector<PhysicsEvent> PhysicsEventList;
+            typedef std::vector<RulesEvent> RulesEventList;
+            typedef std::vector<ConnectionEvent> ConnectionEventList;
             class Dispatcher
             {
             public:
 
-                // Constructors/Destructors
-                //  
-
-
-                /**
-                 * Empty Constructor
-                 */
-                Dispatcher ( );
-
-                /**
-                 * Empty Destructor
-                 */
+                Dispatcher (ClientListPtr clp, addutil::network::Server* s);
                 virtual ~Dispatcher ( );
 
-
-
-                /**
-                 * @param  ioservice
-                 */
-                Dispatcher (io_service ioservice );
-
-
-                /**
-                 * @param  e
-                 */
                 void dispatchPhysicsEvent (freekick::match::PhysicsEvent e );
-
-
-                /**
-                 * @param  e
-                 */
                 void dispatchRulesEvent (freekick::match::RulesEvent e );
-
-
-                /**
-                 * @param  s
-                 */
                 void dispatchPhysicsState (freekick::match::PhysicsState s );
-
-
-                /**
-                 * @param  s
-                 */
                 void dispatchRulesState (freekick::match::RulesState s );
-
-
-                /**
-                 */
                 void dispatchClientInformation ( );
-
-
-                /**
-                 * @param  e
-                 */
                 void dispatchConnectionEvent (freekick::match::ConnectionEvent e );
-
-
-                /**
-                 * @param  es
-                 */
-                void dispatchPhysicsEvents (freekick::match::PhysicsEventList es );
-
-
-                /**
-                 * @param  es
-                 */
-                void dispatchRulesEvents (freekick::match::RulesEventList es );
-
-
-                /**
-                 * @param  es
-                 */
-                void dispatchConnectionEvents (freekick::match::ConnectionEventList es );
-
-            protected:
-
-            public:
-
-            protected:
-
-            public:
-
-            protected:
-
+                void dispatchPhysicsEvents (PhysicsEventList es );
+                void dispatchRulesEvents (RulesEventList es );
+                void dispatchConnectionEvents (ConnectionEventList es );
 
             private:
-
-                // Private attributes
-                //  
-
-                io_service mIoService;
-                freekick::match::ClientList mClientList;
-            public:
-
-            private:
-
-            public:
-
-
-                // Private attribute accessor methods
-                //  
-
-
-                /**
-                 * Set the value of mIoService
-                 * @param new_var the new value of mIoService
-                 */
-                void setMIoService ( io_service new_var );
-
-                /**
-                 * Get the value of mIoService
-                 * @return the value of mIoService
-                 */
-                io_service getMIoService ( );
-
-
-                /**
-                 * Set the value of mClientList
-                 * @param new_var the new value of mClientList
-                 */
-                void setMClientList ( freekick::match::ClientList new_var );
-
-                /**
-                 * Get the value of mClientList
-                 * @return the value of mClientList
-                 */
-                freekick::match::ClientList getMClientList ( );
-
-            private:
-
-
-                void initAttributes ( ) ;
+                ClientListPtr mClientList;
+                addutil::network::Server& srv;
+                void run();
 
             };
         }

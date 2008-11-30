@@ -30,85 +30,11 @@ namespace freekick
         namespace server
         {
             ConnectionListener::ConnectionListener ( ) {
-                initAttributes();
             }
 
             ConnectionListener::~ConnectionListener ( ) { }
+            // void ConnectionListener::newClient (freekick::match::Client c )   {      }
 
-//  
-// Methods
-//  
-
-
-// Accessor methods
-//  
-
-
-// Private attribute accessor methods
-//  
-
-
-/**
- * Set the value of mIoService
- * @param new_var the new value of mIoService
- */
-            void ConnectionListener::setMIoService ( io_service new_var ) {
-                mIoService = new_var;
-            }
-
-/**
- * Get the value of mIoService
- * @return the value of mIoService
- */
-            io_service ConnectionListener::getMIoService ( ) {
-                return mIoService;
-            }
-
-/**
- * Set the value of mClientList
- * @param new_var the new value of mClientList
- */
-            void ConnectionListener::setMClientList ( freekick::match::ClientList new_var ) {
-                mClientList = new_var;
-            }
-
-/**
- * Get the value of mClientList
- * @return the value of mClientList
- */
-            freekick::match::ClientList ConnectionListener::getMClientList ( ) {
-                return mClientList;
-            }
-
-/**
- * Set the value of mDispatcher
- * @param new_var the new value of mDispatcher
- */
-            void ConnectionListener::setMDispatcher ( freekick::match::server::Dispatcher new_var ) {
-                mDispatcher = new_var;
-            }
-
-/**
- * Get the value of mDispatcher
- * @return the value of mDispatcher
- */
-            freekick::match::server::Dispatcher ConnectionListener::getMDispatcher ( ) {
-                return mDispatcher;
-            }
-
-// Other methods
-//  
-
-
-/**
- * @param  c
- */
-            void ConnectionListener::newClient (freekick::match::Client c ) {
-
-            }
-
-            void ConnectionListener::initAttributes ( ) {
-            }
         }
     }
 }

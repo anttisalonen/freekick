@@ -22,7 +22,12 @@
 #ifndef CONSOLE_H
 #define CONSOLE_H
 
+#include <boost/shared_ptr.hpp>
 
+#include "Physics.h"
+#include "Rules.h"
+#include "ConnectionListener.h"
+#include "ConsoleCommand.h"
 
 namespace freekick
 {
@@ -33,128 +38,29 @@ namespace freekick
             class Console
             {
             public:
-
-                // Constructors/Destructors
-                //  
-
-
-                /**
-                 * Empty Constructor
-                 */
                 Console ( );
-
-                /**
-                 * Empty Destructor
-                 */
                 virtual ~Console ( );
-
-
-
-                /**
-                 * @param  physics
-                 * @param  rules
-                 * @param  connectionlistener
-                 */
-                Console (freekick::match::server::Physics physics, freekick::match::server::Rules rules, freekick::match::server::ConnectionListener connectionlistener );
-
-
-                /**
-                 */
+                Console (Physics physics, Rules rules, ConnectionListener connectionlistener );
                 void run ( );
 
             protected:
-
-            public:
-
-            protected:
-
-            public:
-
-            protected:
-
-
-
-                /**
-                 * @param  cc
-                 */
-                void getInput (freekick::match::server::ConsoleCommand cc ) const;
+                void getInput (ConsoleCommand cc ) const;
 
             private:
-
-                // Private attributes
-                //  
-
                 bool mContinue;
                 boost::shared_ptr<Physics> mPhysics;
                 boost::shared_ptr<Rules> mRules;
                 boost::shared_ptr<ConnectionListener> mConnectionListener;
-            public:
-
-            private:
 
             public:
-
-
-                // Private attribute accessor methods
-                //  
-
-
-                /**
-                 * Set the value of mContinue
-                 * @param new_var the new value of mContinue
-                 */
-                void setMContinue ( bool new_var );
-
-                /**
-                 * Get the value of mContinue
-                 * @return the value of mContinue
-                 */
-                bool getMContinue ( );
-
-
-                /**
-                 * Set the value of mPhysics
-                 * @param new_var the new value of mPhysics
-                 */
-                void setMPhysics ( boost::shared_ptr<Physics> new_var );
-
-                /**
-                 * Get the value of mPhysics
-                 * @return the value of mPhysics
-                 */
-                boost::shared_ptr<Physics> getMPhysics ( );
-
-
-                /**
-                 * Set the value of mRules
-                 * @param new_var the new value of mRules
-                 */
-                void setMRules ( boost::shared_ptr<Rules> new_var );
-
-                /**
-                 * Get the value of mRules
-                 * @return the value of mRules
-                 */
-                boost::shared_ptr<Rules> getMRules ( );
-
-
-                /**
-                 * Set the value of mConnectionListener
-                 * @param new_var the new value of mConnectionListener
-                 */
-                void setMConnectionListener ( boost::shared_ptr<ConnectionListener> new_var );
-
-                /**
-                 * Get the value of mConnectionListener
-                 * @return the value of mConnectionListener
-                 */
-                boost::shared_ptr<ConnectionListener> getMConnectionListener ( );
-
-            private:
-
-
-                void initAttributes ( ) ;
-
+                void setContinue ( bool new_var );
+                bool getContinue ( );
+                void setPhysics ( boost::shared_ptr<Physics> new_var );
+                boost::shared_ptr<Physics> getPhysics ( );
+                void setRules ( boost::shared_ptr<Rules> new_var );
+                boost::shared_ptr<Rules> getRules ( );
+                void setConnectionListener ( boost::shared_ptr<ConnectionListener> new_var );
+                boost::shared_ptr<ConnectionListener> getConnectionListener ( );
             };
         }
     }

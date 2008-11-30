@@ -30,7 +30,6 @@ namespace freekick
         namespace server
         {
             Rules::Rules ( ) {
-                initAttributes();
             }
 
             Rules::~Rules ( ) { }
@@ -52,7 +51,7 @@ namespace freekick
  * Set the value of mRulesState
  * @param new_var the new value of mRulesState
  */
-            void Rules::setMRulesState ( boost::shared_ptr<RulesState> new_var ) {
+            void Rules::setRulesState ( boost::shared_ptr<RulesState> new_var ) {
                 mRulesState = new_var;
             }
 
@@ -60,7 +59,7 @@ namespace freekick
  * Get the value of mRulesState
  * @return the value of mRulesState
  */
-            boost::shared_ptr<RulesState> Rules::getMRulesState ( ) {
+            boost::shared_ptr<RulesState> Rules::getRulesState ( ) {
                 return mRulesState;
             }
 
@@ -68,7 +67,7 @@ namespace freekick
  * Set the value of mDispatcher
  * @param new_var the new value of mDispatcher
  */
-            void Rules::setMDispatcher ( boost::shared_ptr<Dispatcher> new_var ) {
+            void Rules::setDispatcher ( boost::shared_ptr<Dispatcher> new_var ) {
                 mDispatcher = new_var;
             }
 
@@ -76,19 +75,14 @@ namespace freekick
  * Get the value of mDispatcher
  * @return the value of mDispatcher
  */
-            boost::shared_ptr<Dispatcher> Rules::getMDispatcher ( ) {
+            boost::shared_ptr<Dispatcher> Rules::getDispatcher ( ) {
                 return mDispatcher;
             }
 
 // Other methods
 //  
 
-
-/**
- * @param  rulesstatus
- * @param  ioservice
- */
-            Rules::Rules (freekick::match::RulesState rulesstatus, io_service ioservice ) {
+            Rules::Rules (RulesState rulesstatus) {
 
             }
 
@@ -96,7 +90,7 @@ namespace freekick
 /**
  * @param  pes
  */
-            void Rules::update (freekick::match::PhysicsEventList pes ) {
+            void Rules::update (PhysicsEventList pes ) {
 
             }
 
@@ -106,11 +100,8 @@ namespace freekick
  * @param  pes
  * @param  res
  */
-            void Rules::createRulesEvents (Time t, freekick::match::PhysicsEventList pes, freekick::match::RulesEventList res ) {
+            void Rules::createRulesEvents (/*Time t, */ PhysicsEventList pes, RulesEventList res ) {
 
-            }
-
-            void Rules::initAttributes ( ) {
             }
         }
     }

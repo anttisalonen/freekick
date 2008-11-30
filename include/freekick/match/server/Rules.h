@@ -22,7 +22,12 @@
 #ifndef RULES_H
 #define RULES_H
 
+#include <boost/shared_ptr.hpp>
 
+#include "RulesState.h"
+#include "PhysicsEvent.h"
+#include "Dispatcher.h"
+#include "RulesEvent.h"
 
 
 
@@ -35,54 +40,11 @@ namespace freekick
             class Rules
             {
             public:
-
-                // Constructors/Destructors
-                //  
-
-
-                /**
-                 * Empty Constructor
-                 */
                 Rules ( );
-
-                /**
-                 * Empty Destructor
-                 */
-
                 virtual ~Rules ( );
-
-
-
-                /**
-                 * @param  rulesstatus
-                 * @param  ioservice
-                 */
-                Rules (freekick::match::RulesState rulesstatus, io_service ioservice );
-
-
-                /**
-                 * @param  pes
-                 */
-                void update (freekick::match::PhysicsEventList pes );
-
-
-                /**
-                 * @param  t
-                 * @param  pes
-                 * @param  res
-                 */
-                void createRulesEvents (Time t, freekick::match::PhysicsEventList pes, freekick::match::RulesEventList res );
-
-            protected:
-
-            public:
-
-            protected:
-
-            public:
-
-            protected:
-
+                Rules (RulesState rulesstatus);
+                void update (PhysicsEventList pes );
+                void createRulesEvents (/*Time t, */ PhysicsEventList pes, RulesEventList res );
 
             private:
 
@@ -92,46 +54,10 @@ namespace freekick
                 boost::shared_ptr<RulesState> mRulesState;
                 boost::shared_ptr<Dispatcher> mDispatcher;
             public:
-
-            private:
-
-            public:
-
-
-                // Private attribute accessor methods
-                //  
-
-
-                /**
-                 * Set the value of mRulesState
-                 * @param new_var the new value of mRulesState
-                 */
-                void setMRulesState ( boost::shared_ptr<RulesState> new_var );
-
-                /**
-                 * Get the value of mRulesState
-                 * @return the value of mRulesState
-                 */
-                boost::shared_ptr<RulesState> getMRulesState ( );
-
-
-                /**
-                 * Set the value of mDispatcher
-                 * @param new_var the new value of mDispatcher
-                 */
-                void setMDispatcher ( boost::shared_ptr<Dispatcher> new_var );
-
-                /**
-                 * Get the value of mDispatcher
-                 * @return the value of mDispatcher
-                 */
-                boost::shared_ptr<Dispatcher> getMDispatcher ( );
-
-            private:
-
-
-                void initAttributes ( ) ;
-
+                void setRulesState ( boost::shared_ptr<RulesState> new_var );
+                boost::shared_ptr<RulesState> getRulesState ( );
+                void setDispatcher ( boost::shared_ptr<Dispatcher> new_var );
+                boost::shared_ptr<Dispatcher> getDispatcher ( );
             };
         }
     }

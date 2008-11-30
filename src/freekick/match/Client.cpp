@@ -27,21 +27,67 @@ namespace freekick
 {
     namespace match
     {
-        Client::Client ( ) {
+        Client::Client (unsigned int clid, std::string n, bool ai) 
+            : clientid(clid),
+              callsign(n),
+              ai_controlled(ai)
+        {
         }
 
-        Client::~Client ( ) { }
+        Client::Client(unsigned int clid, unsigned int pl, std::string n, bool ai)
+            : clientid(clid),
+              callsign(n),
+              ai_controlled(ai)
+        {
+            addPlayer(pl);
+        }
 
-//  
-// Methods
-//  
+        Client::Client(unsigned int clid, std::set<unsigned int> cpl, std::string n, bool ai)
+            : clientid(clid),
+              callsign(n),
+              ai_controlled(ai),
+              controlled_players(cpl)
+        {
+        }
 
+        Client::~Client ( ) 
+        { 
+        }
 
-// Accessor methods
-//  
+        unsigned int Client::getID() const
+        {
+            return clientid;
+        }
 
+        void Client::setAI(bool a)
+        {
+            ai_controlled = a;
+        }
 
+        void Client::setCallsign(const std::string& s)
+        {
+            callsign = s;
+        }
+            
+        bool Client::getAI() const
+        {
+            return ai_controlled;
+        }
 
+        const std::string& Client::getCallsign() const
+        {
+            return callsign;
+        }
+
+        void Client::addPlayer(unsigned int pl)
+        {
+            controlled_players.insert(pl);
+        }
+
+        bool Client::controlsPlayer(unsigned int pl) const
+        {
+            return (controlled_players.find(pl) != controlled_players.end());
+        }
     }
 }
 

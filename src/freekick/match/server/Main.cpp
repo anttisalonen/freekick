@@ -25,16 +25,18 @@
 #include <boost/thread/thread.hpp>
 #include <boost/bind.hpp>
 
-#include "Network.h"
+#include "freekick/match/server/ServerManager.h"
+#include "MatchStatus.h"
+
+using namespace addutil;
+using namespace freekick;
+
+using freekick::match::MatchStatus;
+using freekick::match::server::ServerManager;
 
 void run_status(MatchStatus* s)
 {
     s->run();
-}
-
-void run_network(Network* n)
-{
-    n->run();
 }
 
 int main(int argc, char** argv)
@@ -42,14 +44,9 @@ int main(int argc, char** argv)
     try
     {
         MatchStatus* status = new MatchStatus();
-        Network* network = new Network(conn, status);
+        std::cerr << "Starting Freekick server" << std::endl;
+        ServerManager sm(32105);
 
-        std::cerr << "Freekick server starting" << std::endl;
-
-        boost::thread network_thread(boost::bind(&run_network, network));
-        network_thread.join();
-
-        delete network;
         delete status;
     }
     catch (boost::exception& e)
@@ -59,6 +56,10 @@ int main(int argc, char** argv)
     catch (std::exception& e)
     {
         std::cerr << "A std::exception has occurred: " << e.what() << std::endl;
+    }
+    catch (std::string& e)
+    {
+        std::cerr << "An exception has occurred: " << e << std::endl;
     }
     catch (...)
     {

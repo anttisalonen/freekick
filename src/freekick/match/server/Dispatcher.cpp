@@ -29,140 +29,69 @@ namespace freekick
     {
         namespace server
         {
-            Dispatcher::Dispatcher ( ) {
-                initAttributes();
+            Dispatcher::Dispatcher (ClientListPtr clp, addutil::network::Server* s)
+                : mClientList(clp),
+                  srv(*s)
+            {
+                boost::thread t(boost::bind(&Dispatcher::run, this));
             }
 
-            Dispatcher::~Dispatcher ( ) { }
-
-//  
-// Methods
-//  
-
-
-// Accessor methods
-//  
-
-
-// Private attribute accessor methods
-//  
-
-
-/**
- * Set the value of mIoService
- * @param new_var the new value of mIoService
- */
-            void Dispatcher::setMIoService ( io_service new_var ) {
-                mIoService = new_var;
+            Dispatcher::~Dispatcher ( ) 
+            { 
             }
 
-/**
- * Get the value of mIoService
- * @return the value of mIoService
- */
-            io_service Dispatcher::getMIoService ( ) {
-                return mIoService;
+            void Dispatcher::run()
+            {
+                while(1)
+                {
+                    sleep(1);
+                    srv.broadcast("kpa\n");
+                }
             }
 
-/**
- * Set the value of mClientList
- * @param new_var the new value of mClientList
- */
-            void Dispatcher::setMClientList ( freekick::match::ClientList new_var ) {
-                mClientList = new_var;
-            }
-
-/**
- * Get the value of mClientList
- * @return the value of mClientList
- */
-            freekick::match::ClientList Dispatcher::getMClientList ( ) {
-                return mClientList;
-            }
-
-// Other methods
-//  
-
-
-/**
- * @param  ioservice
- */
-            Dispatcher::Dispatcher (io_service ioservice ) {
+            void Dispatcher::dispatchPhysicsEvent (PhysicsEvent e ) 
+            {
 
             }
 
-
-/**
- * @param  e
- */
-            void Dispatcher::dispatchPhysicsEvent (freekick::match::PhysicsEvent e ) {
+            void Dispatcher::dispatchRulesEvent (RulesEvent e ) 
+            {
 
             }
 
-
-/**
- * @param  e
- */
-            void Dispatcher::dispatchRulesEvent (freekick::match::RulesEvent e ) {
+            void Dispatcher::dispatchPhysicsState (PhysicsState s ) 
+            {
 
             }
 
-
-/**
- * @param  s
- */
-            void Dispatcher::dispatchPhysicsState (freekick::match::PhysicsState s ) {
+            void Dispatcher::dispatchRulesState (RulesState s ) 
+            {
 
             }
 
-
-/**
- * @param  s
- */
-            void Dispatcher::dispatchRulesState (freekick::match::RulesState s ) {
+            void Dispatcher::dispatchClientInformation ( ) 
+            {
 
             }
 
-
-/**
- */
-            void Dispatcher::dispatchClientInformation ( ) {
+            void Dispatcher::dispatchConnectionEvent (ConnectionEvent e ) 
+            {
 
             }
 
-
-/**
- * @param  e
- */
-            void Dispatcher::dispatchConnectionEvent (freekick::match::ConnectionEvent e ) {
+            void Dispatcher::dispatchPhysicsEvents (PhysicsEventList es ) 
+            {
 
             }
 
-
-/**
- * @param  es
- */
-            void Dispatcher::dispatchPhysicsEvents (freekick::match::PhysicsEventList es ) {
+            void Dispatcher::dispatchRulesEvents (RulesEventList es ) 
+            {
 
             }
 
+            void Dispatcher::dispatchConnectionEvents (ConnectionEventList es ) 
+            {
 
-/**
- * @param  es
- */
-            void Dispatcher::dispatchRulesEvents (freekick::match::RulesEventList es ) {
-
-            }
-
-
-/**
- * @param  es
- */
-            void Dispatcher::dispatchConnectionEvents (freekick::match::ConnectionEventList es ) {
-
-            }
-
-            void Dispatcher::initAttributes ( ) {
             }
         }
     }

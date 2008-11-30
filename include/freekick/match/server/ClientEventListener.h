@@ -22,7 +22,14 @@
 #ifndef CLIENTEVENTLISTENER_H
 #define CLIENTEVENTLISTENER_H
 
+#include <map>
+#include <string>
+#include <iostream>
 
+#include <boost/shared_ptr.hpp>
+
+#include "addutil/network/Server.h"
+#include "freekick/match/Client.h"
 
 
 namespace freekick
@@ -31,89 +38,21 @@ namespace freekick
     {
         namespace server
         {
+            typedef std::map<unsigned int, freekick::match::Client> ClientList;
+            typedef boost::shared_ptr<ClientList> ClientListPtr;
+            typedef std::string buffer;
+
             class ClientEventListener
             {
             public:
-
-                // Constructors/Destructors
-                //  
-
-
-                /**
-                 * Empty Constructor
-                 */
-                ClientEventListener ( );
-
-                /**
-                 * Empty Destructor
-                 */
+                ClientEventListener (ClientListPtr clp);
                 virtual ~ClientEventListener ( );
 
-
-
-                /**
-                 * @param  b
-                 */
-                void newData (Buffer b );
-
-            protected:
-
-            public:
-
-            protected:
-
-            public:
-
-            protected:
-
+                void newData (unsigned int id, buffer b );
 
             private:
 
-                // Private attributes
-                //  
-
-                io_service mIoService;
-                freekick::match::ClientList mClientList;
-            public:
-
-            private:
-
-            public:
-
-
-                // Private attribute accessor methods
-                //  
-
-
-                /**
-                 * Set the value of mIoService
-                 * @param new_var the new value of mIoService
-                 */
-                void setMIoService ( io_service new_var );
-
-                /**
-                 * Get the value of mIoService
-                 * @return the value of mIoService
-                 */
-                io_service getMIoService ( );
-
-
-                /**
-                 * Set the value of mClientList
-                 * @param new_var the new value of mClientList
-                 */
-                void setMClientList ( freekick::match::ClientList new_var );
-
-                /**
-                 * Get the value of mClientList
-                 * @return the value of mClientList
-                 */
-                freekick::match::ClientList getMClientList ( );
-
-            private:
-
-
-                void initAttributes ( ) ;
+                ClientListPtr mClientList;
 
             };
         }

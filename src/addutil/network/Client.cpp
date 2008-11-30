@@ -25,7 +25,7 @@ namespace addutil
     {
         Client::Client (IP_Connection conn)
             : ip_conn(conn), 
-              c(ioserv, 1)
+              c(1, ioserv)
         {
         }
             

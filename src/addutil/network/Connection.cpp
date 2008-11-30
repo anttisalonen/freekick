@@ -23,17 +23,26 @@ namespace addutil
 {
     namespace network
     {
-        Connection::Connection (boost::asio::io_service& ios, conn_id _id)
-            : ioserv(ios),
-              socket(ioserv),
+        Connection::Connection (conn_id _id, boost::asio::io_service& ios)
+            : id(_id),
+              ioserv(ios),
+              socket(new boost::asio::ip::tcp::socket(ioserv)),
               mConnected(false)
         {
-            id = _id;
+        }
+
+        Connection::Connection(conn_id _id, boost::shared_ptr<boost::asio::ip::tcp::socket> s)
+            : id(_id),
+              ioserv(s->get_io_service()),
+              socket(s),
+              mConnected(true)
+        {
+            if(!connected()) throw "Connection::Connection: socket connection failed\n";
         }
 
         Connection::~Connection()
         {
-            if(mConnected) 
+            if(connected()) 
                 disconnect();
         }
 
@@ -41,7 +50,7 @@ namespace addutil
         {
             boost::asio::streambuf indata;
             boost::system::error_code error;
-            boost::asio::read(socket, indata,
+            boost::asio::read(*socket, indata,
                               boost::asio::transfer_at_least(1), error);
             if(error) throw error;
             std::istream datastream(&indata);
@@ -55,10 +64,11 @@ namespace addutil
 
         void Connection::write(const msgbuffer& buf)
         {
+            if(!connected()) throw "Connection::write: not connected\n";
             boost::asio::streambuf resp_stream;
             std::ostream wr_stream(&resp_stream);
             wr_stream << buf;
-            boost::asio::write(socket, resp_stream);
+            boost::asio::write(*socket, resp_stream);
         }
 
         void Connection::connect(const IP_Connection& tgt)
@@ -76,24 +86,26 @@ namespace addutil
             boost::system::error_code error = boost::asio::error::host_not_found;
             while (error && endpoint_iterator != end)
             {
-                socket.close();
-                socket.connect(*endpoint_iterator++, error);
+                socket->close();
+                socket->connect(*endpoint_iterator++, error);
             }
             if (error)
                 throw boost::system::system_error(error);
 
-            mConnected = true;
+            if(!connected()) throw "Connection::connect: Error while connecting";
             std::cerr << "Connected!\n";
         }
 
         void Connection::disconnect()
         {
-            mConnected = false;
-            socket.close();
+            std::cerr << "Connection::disconnect: disconnecting.\n";
+            socket->close();
+            if(connected()) throw "Connection::disconnect: disconnection failed\n";
         }
 
         bool Connection::connected()
         {
+            mConnected = socket->is_open();
             return mConnected;
         }
 

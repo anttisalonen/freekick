@@ -19,10 +19,14 @@
 **************************************************************************/
 
 
-#ifndef CLIENT_H
-#define CLIENT_H
+#ifndef FREEKICK_MATCH_CLIENT_H
+#define FREEKICK_MATCH_CLIENT_H
 
+#include <map>
+#include <set>
+#include <string>
 
+#include <boost/shared_ptr.hpp>
 
 namespace freekick 
 {
@@ -32,47 +36,28 @@ namespace freekick
         class Client
         {
         public:
-
-            // Constructors/Destructors
-            //  
-
-
-            /**
-             * Empty Constructor
-             */
-            Client ( );
-
-            /**
-             * Empty Destructor
-             */
+            Client(unsigned int clid = 0, std::string n = "", bool ai = false);
+            Client(unsigned int clid, unsigned int pl, std::string n = "", bool ai = false);
+            Client(unsigned int clid, std::set<unsigned int> cpl, std::string n = "", bool ai = false);
             virtual ~Client ( );
 
-
-        protected:
-
-        public:
-
-        protected:
-
-        public:
-
-        protected:
-
+            unsigned int getID() const;
+            void addPlayer(unsigned int pl);
+            void setAI(bool a);
+            bool getAI() const;
+            const std::string& getCallsign() const;
+            void setCallsign(const std::string& s);
+            bool controlsPlayer(unsigned int pl) const;
 
         private:
-
-        public:
-
-        private:
-
-        public:
-
-        private:
-
-
-
+            unsigned int clientid;
+            std::string callsign;
+            bool ai_controlled;
+            std::set<unsigned int> controlled_players;
         };
+        typedef std::map<unsigned int, freekick::match::Client> ClientList;
+        typedef boost::shared_ptr<ClientList> ClientListPtr;
     }
 }
 
-#endif // CLIENT_H
+#endif // FREEKICK_MATCH_CLIENT_H

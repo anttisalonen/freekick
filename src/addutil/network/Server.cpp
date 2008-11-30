@@ -24,7 +24,123 @@ namespace addutil
     namespace network
     {
         Server::Server ()
+            : ioserv(new boost::asio::io_service()),
+              next_id(2)
         {
         }
+
+        Server::~Server()
+        {
+            stopListening();
+        }
+
+        void Server::startListening(int port)
+        {
+            using boost::asio::ip::tcp;
+
+            tcp::acceptor a(*ioserv, tcp::endpoint(tcp::v4(), port));
+            try
+            {
+                while(1)
+                {
+                    boost::shared_ptr<tcp::socket> sock(new tcp::socket(*ioserv));
+                    a.accept(*sock);
+                    ConnectionPtr c(new Connection(next_id, sock));
+                    connections[next_id] = c;
+                    boost::thread t1(boost::bind(&Server::client_connected, this, next_id));
+                    boost::thread t2(boost::bind(&Server::read_loop, this, c));
+                    next_id++;
+                }
+            }
+            catch (boost::exception& e)
+            {
+                std::cerr << "Server::startListening: A boost::exception has occurred: " << e.diagnostic_information() << std::endl;
+            }
+            catch (std::exception& e)
+            {
+                std::cerr << "Server::startListening: A std::exception has occurred: " << e.what() << std::endl;
+            }
+            catch (std::string& e)
+            {
+                std::cerr << "Server::startListening: An exception has occurred: " << e << std::endl;
+            }
+            catch (...)
+            {
+                std::cerr << "Server::startListening: Unknown exception has occurred." << std::endl;
+            }
+        }
+
+        void Server::stopListening()
+        {
+            std::map<client_id, ConnectionPtr>::iterator it;
+            for (it = connections.begin(); it != connections.end(); it++)
+            {
+                (*it).second->disconnect();
+            }
+            connections.clear();
+        }
+
+        void Server::write(const std::string& msg, client_id id)
+        {
+            std::map<client_id, ConnectionPtr>::iterator it;
+            it = connections.find(id);
+            if(it == connections.end()) 
+                throw "Server::write: Client ID not found\n";
+            try
+            {
+                (*it).second->write(msg);
+            }
+            catch (boost::exception& e)
+            {
+                std::cerr << "Server::write: A boost::exception has occurred: " << e.diagnostic_information() << std::endl;
+                cleanup_client(id);
+            }
+        }
+
+        void Server::cleanup_client(client_id id)
+        {
+            std::cerr << "Server::cleanup_client: cleaning up.\n";
+            std::map<client_id, ConnectionPtr>::iterator it;
+            it = connections.find(id);
+            (*it).second->disconnect();
+            connections.erase(it);
+            client_disconnected(id);
+        }
+
+        void Server::multicast(const std::string& msg, const std::vector<client_id>& ids)
+        {
+            BOOST_FOREACH(client_id i, ids)
+            {
+                write(msg, i);
+            }
+        }
+
+        void Server::broadcast(const std::string& msg)
+        {
+            typedef std::pair<client_id, ConnectionPtr> pair_cn;
+            BOOST_FOREACH(pair_cn p, connections)
+            {
+                p.second->write(msg);
+            }
+        }
+
+        void Server::read_loop(ConnectionPtr c)
+        {
+            while(c->connected())
+            {
+                boost::shared_ptr<std::string> n;
+                try
+                {
+                    c->read(n);
+                    client_input(c->getID(), *n);
+                }
+                catch (...)
+                {
+                    std::cerr << "Server::read_loop: An exception has occurred." << std::endl;
+                    cleanup_client(c->getID());
+                }
+            }
+        }
+
     }
 }

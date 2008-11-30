@@ -30,7 +30,6 @@ namespace freekick
         namespace server
         {
             Console::Console ( ) {
-                initAttributes();
             }
 
             Console::~Console ( ) { }
@@ -52,7 +51,7 @@ namespace freekick
  * Set the value of mContinue
  * @param new_var the new value of mContinue
  */
-            void Console::setMContinue ( bool new_var ) {
+            void Console::setContinue ( bool new_var ) {
                 mContinue = new_var;
             }
 
@@ -60,7 +59,7 @@ namespace freekick
  * Get the value of mContinue
  * @return the value of mContinue
  */
-            bool Console::getMContinue ( ) {
+            bool Console::getContinue ( ) {
                 return mContinue;
             }
 
@@ -68,7 +67,7 @@ namespace freekick
  * Set the value of mPhysics
  * @param new_var the new value of mPhysics
  */
-            void Console::setMPhysics ( boost::shared_ptr<Physics> new_var ) {
+            void Console::setPhysics ( boost::shared_ptr<Physics> new_var ) {
                 mPhysics = new_var;
             }
 
@@ -76,7 +75,7 @@ namespace freekick
  * Get the value of mPhysics
  * @return the value of mPhysics
  */
-            boost::shared_ptr<Physics> Console::getMPhysics ( ) {
+            boost::shared_ptr<Physics> Console::getPhysics ( ) {
                 return mPhysics;
             }
 
@@ -84,7 +83,7 @@ namespace freekick
  * Set the value of mRules
  * @param new_var the new value of mRules
  */
-            void Console::setMRules ( boost::shared_ptr<Rules> new_var ) {
+            void Console::setRules ( boost::shared_ptr<Rules> new_var ) {
                 mRules = new_var;
             }
 
@@ -92,7 +91,7 @@ namespace freekick
  * Get the value of mRules
  * @return the value of mRules
  */
-            boost::shared_ptr<Rules> Console::getMRules ( ) {
+            boost::shared_ptr<Rules> Console::getRules ( ) {
                 return mRules;
             }
 
@@ -100,7 +99,7 @@ namespace freekick
  * Set the value of mConnectionListener
  * @param new_var the new value of mConnectionListener
  */
-            void Console::setMConnectionListener ( boost::shared_ptr<ConnectionListener> new_var ) {
+            void Console::setConnectionListener ( boost::shared_ptr<ConnectionListener> new_var ) {
                 mConnectionListener = new_var;
             }
 
@@ -108,7 +107,7 @@ namespace freekick
  * Get the value of mConnectionListener
  * @return the value of mConnectionListener
  */
-            boost::shared_ptr<ConnectionListener> Console::getMConnectionListener ( ) {
+            boost::shared_ptr<ConnectionListener> Console::getConnectionListener ( ) {
                 return mConnectionListener;
             }
 
@@ -121,7 +120,7 @@ namespace freekick
  * @param  rules
  * @param  connectionlistener
  */
-            Console::Console (freekick::match::server::Physics physics, freekick::match::server::Rules rules, freekick::match::server::ConnectionListener connectionlistener ) {
+            Console::Console (Physics physics, Rules rules, ConnectionListener connectionlistener ) {
 
             }
 
@@ -136,14 +135,11 @@ namespace freekick
 /**
  * @param  cc
  */
-            void Console::getInput (freekick::match::server::ConsoleCommand cc ) const {
+            void Console::getInput (ConsoleCommand cc ) const {
 
-            }
-
-            void Console::initAttributes ( ) {
-                mContinue = true;
             }
         }
     }
 }
+
 

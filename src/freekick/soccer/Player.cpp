@@ -28,7 +28,7 @@ namespace freekick
         {
         }
 
-        const int Player::getID()
+        const unsigned int Player::getID()
         {
             return idnumber;
         }
