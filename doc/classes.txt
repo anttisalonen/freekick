@@ -3,6 +3,9 @@ freekick
 freekick::soccer
 freekick::match
 freekick::match::network
+freekick::match::messages
+freekick::match::messages::server
+freekick::match::messages::client
 freekick::match::client
 freekick::match::client::cl_ogre
 freekick::match::client::cl_2d

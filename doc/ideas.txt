@@ -1,0 +1,6 @@
+-possibility to choose to see/play a match or only see the result (swos-style)
+-possibility to see a generated summary of a match (hattrick-style), also of 
+ a match that was played in/seen, in which case the summary would correspond 
+ to the actual events in the match.
+-possibility to see a summary of all matches of a round (sportschau-style),
+ either written or in "video"

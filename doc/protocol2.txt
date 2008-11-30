@@ -1,0 +1,283 @@
+------------------------------------------------------------------------------
+Summary:
+
+1s.  S->C - Init: Server Greeting: ident + greeting
+2s.  S->C - Reply to 4c: Initial Data - serialized data
+3s.  S->C - Reply to 1c, 2c: List Of Players - (Z)
+4s.  S->C - Reply to 3c: Username Ack - (Y)
+5s.  S->C - Reply to 7c: Set Correcting Update Interval Ack - (T)
+6s.  S->C - Reply to 8c: Set Constant Update Interval Ack - (S)
+7s.  S->C - Interval + Reply to 5c: General Update - (B 23 3 1 0)
+8s.  S->C - Interval: Constant Update - (n v x y z a b c d)
+9s.  S->C - On error: General Error - (H)
+10s. S->C - In-game: Server Info - (I)
+11s. S->C - Reply to 9c: Give Correcting Update Interval (V)
+12s. S->C - Reply to 10c: Give Constant Update Interval (U)
+
+1c.  C->S - Init: Client Information: ident, username, type, players
+2c.  C->S - When setting players: Player Control Request - (z)
+3c.  C->S - When setting username: Username Request - (y)
+4c.  C->S - In-game: Initial Data Request - (x)
+5c.  C->S - In-game: Correcting Update Request - (w)
+6c.  C->S - When controlling: Player Control Message - (a 12843 0 10.29 0)
+7c.  C->S - In-game: Set Correcting Update Interval - (t)
+8c.  C->S - In-game: Set Constant Update Interval - (s)
+9c.  C->S - In-game: Get Correcting Update Interval - (v)
+10c. C->S - In-game: Get Constant Update Interval - (u)
+
+------------------------------------------------------------------------------
+Classification:
+Server Messages
+-Initialization Message
+ Reply Messages
+- Initial Data Message
+- List Of Players Message
+- General Ack Message
+  Interval Reply Messages
+-  Give Correcting Update Interval Message
+-  Give Constant Update Interval Message
+ Update Message
+- General Update Message
+- Constant Update Message
+-Error Message
+-Info Message
+
+Client Messages
+-Initialization Message
+ Request Messages
+- Player Control Request Message
+- Username Request Message
+- Initial Data Request Message
+- Correcting Update Request Message
+ Interval Messages
+  Set Interval Messages
+-  Set Correcting Update Interval Message
+-  Set Constant Update Interval Message
+  Get Interval Messages
+-  Get Correcting Update Interval Message
+-  Get Constant Update Interval Message
+-Player Control Message
+
+------------------------------------------------------------------------------
+Connection:
+
+1. Client connects to the Server
+2. Server sends Server Greeting
+3. Client replies with callsign, password when necessary, mode (human/ai) and
+   players the Client wishes to control (Client Information)
+4. If the Client Information is invalid, the Server sends
+   an error message with code and disconnects the Client
+4. If the Client Information is valid, the Server sends the List Of 
+   Players the Client is allowed to control.
+5. The server starts sending the Client Match Data (Snapshots + Delta) 
+   and listening to the client for any Player Control Messages
+6. Client may send Player Control Messages to the Server as well as 
+   a new callsign or other players to control.
+7. If the Client requests for (loss of) control of other players,
+   (Player Control Request), the Server responds by sending the 
+   List Of Players the Client will be able to control.
+8. If the Client changes its username (Username Request),
+   the Server responds by sending the new username (New Username).
+9. The Server can at any time send messages as Server Info.
+
+------------------------------------------------------------------------------
+Server Greeting:
+First line: freekick server identification,
+server name and version declaration in quotes,
+the protocol version to be used.
+Following lines: optional greeting, terminated by one empty line.
+e.g.
+FREEKICK_SERVER "The first Freekick Server - Version 0.3" "0.2"
+Welcome to the Freekick server!
+We hope you enjoy your stay.
+
+
+------------------------------------------------------------------------------
+Client Information:
+Freekick client identification, client name and version, protocol version,
+quoted user name/password, either H or A for Human/AI and a list of players 
+to control in square brackets separated by commas or an empty list for spectators.
+e.g.
+FREEKICK_CLIENT "Ogre Client v0.2" "0.2" "username" H [2045,9874]
+FREEKICK_CLIENT "Client with ncurses 0.15b" "0.2" "username/password" H [2045]
+
+
+------------------------------------------------------------------------------
+Acks:
+Used for "new username" + setting intervals.
+(Y)
+(T)
+(S)
+
+------------------------------------------------------------------------------
+General Error:
+(H)
+
+------------------------------------------------------------------------------
+Player Control Request:
+e.g.
+(z [98584,102])
+
+------------------------------------------------------------------------------
+Username Request:
+e.g.
+(y "new username")
+
+------------------------------------------------------------------------------
+List Of Players:
+e.g.
+(Z [2045,9874])
+
+------------------------------------------------------------------------------
+Server Info:
+e.g.
+(I text)
+
+------------------------------------------------------------------------------
+Initial Data Request:
+(x)
+
+------------------------------------------------------------------------------
+Correcting Update Request:
+(w)
+
+------------------------------------------------------------------------------
+Set Correcting Update Interval:
+Unit: milliseconds.
+e.g.
+(t 1000)
+
+------------------------------------------------------------------------------
+Set Constant Update Interval:
+Unit: milliseconds.
+e.g.
+(s 50)
+
+------------------------------------------------------------------------------
+Get Correcting Update Interval
+(v)
+
+------------------------------------------------------------------------------
+Get Constant Update Interval
+(u)
+
+------------------------------------------------------------------------------
+Give Correcting Update Interval
+e.g.
+(V 1500)
+
+------------------------------------------------------------------------------
+Give Constant Update Interval
+e.g.
+(U 100)
+
+------------------------------------------------------------------------------
+Match Data:
+1. Initialization (beginning)
+    - Clubs
+    - Stadium
+    - General player data (names, colors, etc.)
+2. Occasional (correcting) update (~ 1/Second)
+    - Player locations
+    - Time
+    - Score
+3. Constant update (~ 30..60/Second)
+    - Player locations
+    - Player velocities
+    - Player accelerations
+
+1. Initialization:
+Serialized data padded by (+++1 and 1+++).
+(+++1data1+++)
+
+2. Correcting update 
+  Player locations
+  Interrupts (at special events)
+    - Pause, time, score, etc.
+Protocol:
+For updates on player locations:
+as in (3.)
+For updates on match state:
+TYPE VALUE
+types: pause(A), time(B), score(C), status(D)
+pause parameters: boolean
+time parameters: minutes seconds halftime (0/1/2/3/4/5) (0 -> no update, 3+4 -> extra time, 5 -> penalties)
+score parameters: homegoals awaygoals homepenalties awaypenalties
+status parameters: ballstatus owner pointx pointy refstatus
+  ball status: 
+       0        in play
+       1        pre kick off
+       2        kick off
+       3        throw in
+       4        goal kick
+       5        corner kick
+       6        indirect free kick
+       7        direct free kick
+       8        penalty kick
+       9        dropped ball
+       10       half time / full time
+  owner:
+       0        "up" team
+       1        "down" team
+  pointx/y:
+       x y z    the point where play will be restarted
+  ref status:
+       0        free for play (not blocked)
+       1        preparation for the status (blocked)
+                (e.g. corner kick not given free yet)
+e.g.
+(A 1)                 # pause on
+(B 30 40 0)           # set time to 30:40 of the current half
+(B 20 33 2)           # set time to 20:33 of the second half
+(B 23 3 1)            # set time to 23:03 of the first half
+(B 2 3 4)             # set time to 02:03 of the second half of the extra time
+(C 1 1 0 0)           # set score to 1-1
+(C 2 2 3 2)           # set score to 2-2, 3-2 after penalties
+(D 0 1 0 0 0)         # playing, down club has control
+(D 5 0 6500 11000 1)  # preparing for corner kick for up club
+
+3. 
+Constant update (~ 30..60/Second)
+    - Player velocity
+    - Player acceleration
+    - Player status (caused) (read-only)
+    0x00 Normal
+    0x01 Injured/Lying on the ground
+    - Player status (controlled)
+    0x00 Normal
+    0x01 Celebrating
+    0x02 Asking for support/the ball
+    0x04 Disappointed
+
+Procotol: 
+(n v x y z a b c d s t)
+ n = player id (ball: -2)
+ v = location (0)/velocity (1)/acceleration (2)
+ x, y, z = coordinates
+ a, b, c, d = w, x, y, z components of a quaternion
+ s = caused status
+ t = controlled status
+
+------------------------------------------------------------------------------
+Player Control Message:
+
+Actions sent by client:
+(ACTION ["PARAMETERS"])
+actions: move(a) kick(b) tackle(c) hold(d) head(e) statusbits(f)
+move parameters: player_id desired_velocity_vector 
+kick parameters: player_id desired_ball_velocity_vector
+tackle parameters: player_id desired_tackle_vector
+hold_ball parameters: player_id desired_velocity_vector
+heading parameters: player_id desired_player_velocity_vector desired_ball_velocity_vector
+statusbits parameters: player_id controlled_status_bits
+e.g.
+(a 156 3.295 0 0)   # run along the x-axis with 3m/s
+(a 12843 0 10.29 0)  # jump
+(b 7583 30 5 40) # kick the ball with the velocity of 50m/s along x/z, 5m/s along y
+(c 375 2.5 0.0 9.7)                 # tackle
+(d 9573 2.59 0 2.0)                # run holding the ball in your hands
+(e 4886 4.6 10.49 2.2 43.2 -3.2 4.4) # head (jump and try to score north)
+(f 4865 2)                        # ask for support
+Note: player_id should always be sent by the AI and by the human clients
+
+------------------------------------------------------------------------------
