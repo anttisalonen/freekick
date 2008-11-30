@@ -28,6 +28,8 @@
 
 #include <boost/shared_ptr.hpp>
 #include <boost/foreach.hpp>
+#include <boost/serialization/base_object.hpp>
+#include <boost/serialization/map.hpp>
 
 #include "Club.h"
 #include "Kit.h"
@@ -57,6 +59,15 @@ namespace freekick
                The map of Players should be removed. */
             std::map <int, boost::shared_ptr<MatchPlayer> > matchplayers;
             Kit* currkit;
+
+            friend class boost::serialization::access;
+            template<class Archive>
+                void serialize(Archive & ar, const unsigned int version)
+            {
+                ar & boost::serialization::base_object<Club>(*this);
+                ar & matchplayers;
+                ar & currkit;
+            }
         };
     }
 }

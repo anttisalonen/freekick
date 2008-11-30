@@ -23,6 +23,7 @@
 #define MATCHBALL_H
 
 #include <boost/shared_ptr.hpp>
+#include <boost/serialization/base_object.hpp>
 
 #include "DynamicEntity.h"
 #include "Ball.h"
@@ -48,6 +49,14 @@ namespace freekick
             const int getID() { return BallID; }
 
         private:
+
+            friend class boost::serialization::access;
+            template<class Archive>
+                void serialize(Archive & ar, const unsigned int version)
+            {
+                ar & boost::serialization::base_object<addutil::DynamicEntity>(*this);
+                ar & boost::serialization::base_object<freekick::soccer::Ball>(*this);
+            }
         };
     }
 }

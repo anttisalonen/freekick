@@ -22,6 +22,8 @@
 #ifndef COLOR_H
 #define COLOR_H
 
+#include <boost/serialization/serialization.hpp>
+
 /**
   * class Color
   */
@@ -37,6 +39,14 @@ namespace addutil
         float green;
         float blue;
 
+        friend class boost::serialization::access;
+        template<class Archive>
+            void serialize(Archive & ar, const unsigned int version)
+        {
+            ar & red;
+            ar & green;
+            ar & blue;
+        }
     };
 }
 #endif // COLOR_H

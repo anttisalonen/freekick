@@ -23,6 +23,9 @@
 
 #include <string>
 
+#include <boost/serialization/serialization.hpp>
+#include <boost/serialization/string.hpp>
+
 /**
  * class Ball
  */
@@ -39,8 +42,16 @@ namespace freekick
         private:
             std::string texture;
             float mass;
+
+            friend class boost::serialization::access;
+            template<class Archive>
+                void serialize(Archive & ar, const unsigned int version)
+            {
+                ar & texture;
+                ar & mass;
+            }
         };
     }
 }
-
+    
 #endif // BALL_H

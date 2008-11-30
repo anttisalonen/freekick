@@ -21,7 +21,10 @@
 
 #ifndef REFEREE_H
 #define REFEREE_H
+
 #include <string>
+
+#include <boost/serialization/base_object.hpp>
 
 #include "addutil/Human.h"
 
@@ -43,6 +46,12 @@ namespace freekick
 
         private:
 
+            friend class boost::serialization::access;
+            template<class Archive>
+                void serialize(Archive & ar, const unsigned int version)
+            {
+                ar & boost::serialization::base_object<Human>(*this);
+            }
         };
     }
 }

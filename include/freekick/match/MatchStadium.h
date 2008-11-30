@@ -22,6 +22,9 @@
 #define MATCHSTADIUM_H
 
 #include <string>
+
+#include <boost/serialization/base_object.hpp>
+
 #include "StaticEntity.h"
 #include "Stadium.h"
 #include "MatchIDs.h"
@@ -45,6 +48,14 @@ namespace freekick
 
         private:
 
+            friend class boost::serialization::access;
+            template<class Archive>
+                void serialize(Archive & ar, const unsigned int version)
+            {
+                ar & boost::serialization::base_object<freekick::soccer::Stadium>(*this);
+                ar & boost::serialization::base_object<addutil::StaticEntity>(*this);
+                ar & StadiumID;
+            }
         };
     }
 }

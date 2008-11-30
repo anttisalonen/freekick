@@ -23,6 +23,9 @@
 #define MATCHREFEREE_H
 
 #include <string>
+
+#include <boost/serialization/base_object.hpp>
+
 #include "DynamicEntity.h"
 #include "Kit.h"
 #include "Referee.h"
@@ -49,6 +52,13 @@ namespace freekick
 
             freekick::soccer::Kit* kit;
 
+            friend class boost::serialization::access;
+            template<class Archive>
+                void serialize(Archive & ar, const unsigned int version)
+            {
+                ar & boost::serialization::base_object<freekick::soccer::Referee>(*this);
+                ar & kit;
+            }
         };
     }
 }

@@ -23,19 +23,44 @@
 
 #include <vector>
 
+#include <boost/asio.hpp>
+#include <boost/exception.hpp>
+#include <boost/bind.hpp>
+#include <boost/foreach.hpp>
+#include <boost/shared_ptr.hpp>
+#include <boost/thread.hpp>
+
+#include "IP_Connection.h"
 #include "Connection.h"
 
 namespace addutil
 {
     namespace network
     {
+        typedef unsigned int client_id;
+        typedef boost::shared_ptr<Connection> ConnectionPtr;
         class Server
         {
         public:
             Server();
-            virtual ~Server() { }
+            virtual ~Server();
+            void startListening(int port);
+            void stopListening();
+            virtual void client_connected(client_id id) = 0;
+            virtual void client_disconnected(client_id id) = 0;
+            void write(const std::string& msg, client_id id);
+            void multicast(const std::string& msg, const std::vector<client_id>& ids);
+            void broadcast(const std::string& msg);
+            virtual void client_input(client_id id, const std::string& msg) = 0;
+
         private:
-            std::vector<Connection> connections;
+            void read_loop(ConnectionPtr c);
+            void cleanup_client(client_id id);
+            std::map<client_id, ConnectionPtr> connections;
+            boost::shared_ptr<boost::asio::io_service> ioserv;
+            client_id next_id;
+            int portnumber;
+            bool listening;
         };
     }
 }

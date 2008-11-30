@@ -31,8 +31,9 @@
 
 #include <boost/foreach.hpp>
 #include <boost/shared_ptr.hpp>
-#include <boost/date_time/posix_time/posix_time.hpp>
 #include <boost/thread.hpp>
+#include <boost/serialization/map.hpp>
+#include <boost/serialization/set.hpp>
 
 #include "Entity.h"
 #include "Time.h"
@@ -101,7 +102,6 @@ namespace freekick
             std::set <boost::shared_ptr<Entity> > entities;
             boost::shared_ptr<MatchClub> homeclub;
             boost::shared_ptr<MatchClub> awayclub;
-            boost::posix_time::ptime update_time;
 
             Time currtime;
             unsigned int score_home;
@@ -111,6 +111,22 @@ namespace freekick
 
             template <typename ContT> void getClubPlayerIDs(const boost::shared_ptr<MatchClub> c, ContT& ids);
 
+            friend class boost::serialization::access;
+            template<class Archive>
+                void serialize(Archive & ar, const unsigned int version)
+            {
+                ar & stadium;
+                ar & ball;
+                ar & clubs;
+                ar & referee;
+                ar & entities;
+                ar & homeclub;
+                ar & awayclub;
+                ar & currtime;
+                ar & score_home;
+                ar & score_away;
+                ar & secondhalf;
+            }
         };
     }
 }

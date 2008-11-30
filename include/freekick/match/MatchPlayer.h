@@ -24,6 +24,8 @@
 
 #include <string>
 
+#include <boost/serialization/base_object.hpp>
+
 #include "DynamicEntity.h"
 #include "Player.h"
 #include "Color.h"
@@ -47,6 +49,13 @@ namespace freekick
 
         private:
 
+            friend class boost::serialization::access;
+            template<class Archive>
+                void serialize(Archive & ar, const unsigned int version)
+            {
+                ar & boost::serialization::base_object<freekick::soccer::Player>(*this);
+                ar & boost::serialization::base_object<addutil::DynamicEntity>(*this);
+            }
         };
     }
 }

@@ -23,6 +23,8 @@
 
 #include <string>
 
+#include <boost/serialization/base_object.hpp>
+
 #include "Human.h"
 #include "Color.h"
 
@@ -46,13 +48,21 @@ namespace freekick
              * @param  num
              */
             Player (const std::string& _name, unsigned int num, unsigned int _idnumber);
-            const int getID();
+            const unsigned int getID();
 
         private:
 
             const unsigned int number;
             const unsigned int idnumber;
 
+            friend class boost::serialization::access;
+            template<class Archive>
+                void serialize(Archive & ar, const unsigned int version)
+            {
+                ar & boost::serialization::base_object<Human>(*this);
+                ar & number;
+                ar & idnumber;
+            }
         };
     }
 }

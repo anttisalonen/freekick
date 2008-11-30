@@ -22,6 +22,8 @@
 #ifndef TIME_H
 #define TIME_H
 
+#include <boost/serialization/serialization.hpp>
+
 /**
  * class Time
  */
@@ -50,6 +52,15 @@ namespace addutil
 
     private:
 
+        friend class boost::serialization::access;
+        template<class Archive>
+            void serialize(Archive & ar, const unsigned int version)
+        {
+            ar & h;
+            ar & m;
+            ar & s;
+            ar & ms;
+        }
     };
 }
 

@@ -24,6 +24,10 @@
 
 #include <string>
 #include <vector>
+
+#include <boost/serialization/vector.hpp>
+#include <boost/serialization/string.hpp>
+
 #include "Color.h"
 
 /**
@@ -60,6 +64,16 @@ namespace freekick
             Color shortscolor;
             Color sockscolor;
 
+            friend class boost::serialization::access;
+            template<class Archive>
+                void serialize(Archive & ar, const unsigned int version)
+            {
+                ar & jerseytype;
+                ar & jerseycolors;
+                ar & jerseypic;
+                ar & shortscolor;
+                ar & sockscolor;
+            }
         };
     }
 }

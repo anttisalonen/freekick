@@ -24,6 +24,9 @@
 
 #include "Entity.h"
 
+#include <boost/serialization/base_object.hpp>
+
+
 #include <string>
 
 namespace addutil
@@ -32,6 +35,12 @@ namespace addutil
     {
     protected:
         DynamicEntity(float _mass = 0.0f, std::string _model = "");
+        friend class boost::serialization::access;
+        template<class Archive>
+            void serialize(Archive & ar, const unsigned int version)
+        {
+            ar & boost::serialization::base_object<Entity>(*this);
+        }
     };
 }
 

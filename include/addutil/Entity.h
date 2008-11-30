@@ -26,6 +26,7 @@
 #include <string>
 #include <exception>
 #include <boost/date_time/posix_time/posix_time.hpp>
+#include <boost/serialization/string.hpp>
 
 #include "Vector3.h"
 #include "Color.h"
@@ -86,6 +87,19 @@ namespace addutil
         Color color;
         bool autoorientation;
         boost::posix_time::ptime last_move;
+
+        friend class boost::serialization::access;
+        template<class Archive>
+            void serialize(Archive & ar, const unsigned int version)
+        {
+            ar & position;
+            ar & velocity;
+            ar & acceleration;
+            ar & direction;
+            ar & model;
+            ar & mass;
+            ar & color;
+        }
     };
 }
 

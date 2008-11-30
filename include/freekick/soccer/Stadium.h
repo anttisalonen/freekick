@@ -23,6 +23,9 @@
 #define STADIUM_H
 
 #include <string>
+
+#include <boost/serialization/serialization.hpp>
+
 #include "Color.h"
 
 /**
@@ -43,6 +46,11 @@ namespace freekick
 
         private:
 
+            friend class boost::serialization::access;
+            template<class Archive>
+                void serialize(Archive & ar, const unsigned int version)
+            {
+            }
         };
     }
 }

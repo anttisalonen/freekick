@@ -42,7 +42,8 @@ namespace addutil
         class Connection
         {
         public:
-            Connection(boost::asio::io_service& ios, conn_id _id);
+            Connection(conn_id _id, boost::asio::io_service& ios);
+            Connection(conn_id _id, boost::shared_ptr<boost::asio::ip::tcp::socket> s);
             virtual ~Connection();
             void read(boost::shared_ptr<msgbuffer>& b);
             void write(const msgbuffer& buf);
@@ -52,11 +53,11 @@ namespace addutil
             conn_id getID();
             IP_Connection& getConnection();
         private:
-            boost::asio::io_service& ioserv;
-            boost::asio::ip::tcp::socket socket;
             conn_id id;
-            IP_Connection conn;
+            boost::asio::io_service& ioserv;
+            boost::shared_ptr<boost::asio::ip::tcp::socket> socket;
             bool mConnected;
+            IP_Connection conn;
         };
     }
 }

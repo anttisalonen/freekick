@@ -23,6 +23,9 @@
 #define HUMAN_H
 
 #include <string>
+
+#include <boost/serialization/string.hpp>
+
 #include "Color.h"
 
 /**
@@ -44,6 +47,14 @@ namespace addutil
         Color skincolor;
         Color haircolor;
 
+        friend class boost::serialization::access;
+        template<class Archive>
+            void serialize(Archive & ar, const unsigned int version)
+        {
+            ar & name;
+            ar & skincolor;
+            ar & haircolor;
+        }
     };
 }
 

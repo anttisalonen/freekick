@@ -27,6 +27,9 @@
 
 #include <boost/shared_ptr.hpp>
 #include <boost/foreach.hpp>
+#include <boost/serialization/string.hpp>
+#include <boost/serialization/map.hpp>
+#include <boost/serialization/vector.hpp>
 
 #include "freekick/soccer/Player.h"
 #include "freekick/soccer/Kit.h"
@@ -58,6 +61,15 @@ namespace freekick
             std::string name;
             std::map <int, boost::shared_ptr<Player> > players;
             std::vector <Kit> kits;
+
+            friend class boost::serialization::access;
+            template<class Archive>
+                void serialize(Archive & ar, const unsigned int version)
+            {
+                ar & name;
+                ar & players;
+                ar & kits;
+            }
         };
     }
 }
