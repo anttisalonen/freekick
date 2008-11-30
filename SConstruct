@@ -14,7 +14,7 @@ soccer_env.Append(CPPPATH = ['./include/freekick/soccer'])
 soccer_env['LIBPATH'] = ['./lib']
 soccer_env['LIBS'] = ['addutil']
 soccer_name = 'lib/soccer'
-soccer_obj = Glob('src/freekick/soccer/*.cpp') + addutil_obj
+soccer_obj = soccer_env.Object(Glob('src/freekick/soccer/*.cpp')) + addutil_obj
 soccer_env.Library(soccer_name, soccer_obj)
 
 match_env = addutil_env.Clone()
@@ -23,10 +23,13 @@ match_env.Append(CPPPATH = ['./include/freekick'])
 match_env.Append(CPPPATH = ['./include/freekick/soccer'])
 match_env.Append(CPPPATH = ['./include/freekick/match'])
 match_env.Append(CPPPATH = ['./include/freekick/match/network'])
+match_env.Append(CPPPATH = ['./include/freekick/match/messages'])
 match_name = 'lib/match'
-match_obj = Glob('src/freekick/match/*.cpp') + Glob('src/freekick/match/network/*.cpp') + soccer_obj
+match_obj = match_env.Object(Glob('src/freekick/match/*.cpp') + Glob('src/freekick/match/network/*.cpp')) + soccer_obj
 match_env.Library(match_name, match_obj)
 
+
+# Client
 
 ogreclient_env = def_env.Clone()
 ogreclient_env.Append(CPPPATH = ['./include'])
@@ -53,3 +56,27 @@ ogreclient_env['LIBS'] = ['boost_thread',
 ogreclient_name = 'bin/client_ogre'
 ogreclient_files = Glob('src/freekick/match/client/*.cpp') + Glob('src/freekick/match/client/cl_ogre/*.cpp')
 ogre_client = ogreclient_env.Program(ogreclient_name, ogreclient_files)
+
+
+# Server
+
+fkserver_env = def_env.Clone()
+fkserver_env.Append(CPPPATH = ['./include'])
+fkserver_env.Append(CPPPATH = ['./include/addutil'])
+fkserver_env.Append(CPPPATH = ['./include/freekick/soccer'])
+fkserver_env.Append(CPPPATH = ['./include/freekick/match'])
+fkserver_env.Append(CPPPATH = ['./include/freekick/match/network'])
+fkserver_env.Append(CPPPATH = ['./include/freekick/match/server'])
+fkserver_env.Append(LIBPATH = ['./lib'])
+
+fkserver_env['LIBS'] = ['boost_thread', 
+                      'boost_system', 
+                      'match']
+
+fkserver_name = 'bin/fkserver'
+fkserver_files = Glob('src/freekick/match/server/*.cpp')
+fkserver = fkserver_env.Program(fkserver_name, fkserver_files)
+
+Default(ogre_client, fkserver)
+
+print "Building", map(str, BUILD_TARGETS)

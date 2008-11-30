@@ -18,8 +18,8 @@
 **************************************************************************/
 
 
-#ifndef BALL_H
-#define BALL_H
+#ifndef FREEKICK_BALL_H
+#define FREEKICK_BALL_H
 
 /**
  * class Ball
@@ -34,4 +34,4 @@ namespace freekick
     };
 }
 
-#endif // BALL_H
+#endif // FREEKICK_BALL_H
