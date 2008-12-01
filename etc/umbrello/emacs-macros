@@ -1,0 +1,2 @@
+(fset 'set-message-namespace
+   "\C-sclass \C-m\C-[[1~\C-y\C-c\C-q\C-[>\C-[OA\C-[OA}\C-m}\C-m}\C-m}\C-m")
