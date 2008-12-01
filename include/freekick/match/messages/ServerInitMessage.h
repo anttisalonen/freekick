@@ -38,7 +38,7 @@ namespace freekick
                 {
                 }
                 virtual ~ServerInitMessage() { }
-                virtual const std::string toString() const
+                const std::string toString() const
                 {
                     std::ostringstream oss(std::ostringstream::out);
                     oss << helperString() << "\n" << m_greeting << "\n\n";

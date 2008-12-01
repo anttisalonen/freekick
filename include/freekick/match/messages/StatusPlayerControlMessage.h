@@ -18,10 +18,10 @@
 **************************************************************************/
 
 
-#ifndef FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
-#define FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
+#ifndef FREEKICK_MATCH_MESSAGES_STATUSPLAYERCONTROLMESSAGE_H
+#define FREEKICK_MATCH_MESSAGES_STATUSPLAYERCONTROLMESSAGE_H
 
-#include "StandardMessage.h"
+#include "PlayerControlMessage.h"
 
 namespace freekick
 {
@@ -29,23 +29,24 @@ namespace freekick
     {
         namespace messages
         {
-            class SerializationDataMessage : public StandardMessage
+            class StatusPlayerControlMessage : public PlayerControlMessage
             {
             public:
-                SerializationDataMessage(unsigned int id)
-                    : m_serializationid(id)
-                virtual ~SerializationDataMessage() { }
-
-            protected:
-                const std::string serString(const std::string& msg) const
+                StatusPlayerControlMessage(PlayerID plid, ControlledStatus cs)
+                    : PlayerControlMessage(plid)
+                    , m_cs(cs)
+                {
+                }
+                virtual ~StatusPlayerControlMessage() { }
+                const std::string toString() const
                 {
                     std::ostringstream oss(std::ostringstream::out);
-                    oss << serialization_delim << m_serializationid << msg << m_serializationid << serialization_delim;
-                    return stdString(oss.str());
+                    oss << m_cs.getBytes();
+                    return contString(c_pl_ctl_hold, false, oss.str());
                 }
 
             private:
-                unsigned int m_serializationid;
+                ControlledStatus m_cs;
             };
         }
     }

@@ -34,6 +34,8 @@ namespace freekick
         {
             const static std::string freekick_server_id 	= "FREEKICK_SERVER";
             const static std::string freekick_client_id 	= "FREEKICK_CLIENT";
+            const static std::string serialization_delim	= "+++";
+            const static unsigned int initial_data_id		= 1;
             const static std::string msg_start                  = "(";
             const static std::string msg_end                    = ")";
             const static std::string list_start                 = "[";
@@ -41,7 +43,7 @@ namespace freekick
             const static std::string list_end                   = "]";
             const static std::string s_list_of_players          = "Z";
             const static std::string s_username_ack             = "Y";
-            const static std::string s_set_corr_upd_ack         = "T";
+            const static std::string s_set_gen_upd_ack          = "T";
             const static std::string s_set_const_upd_ack        = "S";
             const static std::string s_gen_pause_upd            = "A";
             const static std::string s_gen_time_upd             = "B";
@@ -50,21 +52,21 @@ namespace freekick
             const static std::string s_const_upd                = "";
             const static std::string s_gen_err                  = "H";
             const static std::string s_srv_info                 = "I";
-            const static std::string s_give_corr_upd_int        = "V";
+            const static std::string s_give_gen_upd_int         = "V";
             const static std::string s_give_const_upd_int       = "U";
             const static std::string c_pl_cont_req              = "z";
             const static std::string c_username_req             = "y";
             const static std::string c_initial_data_req         = "w";
-            const static std::string c_corr_upd_req             = "x";
+            const static std::string c_gen_upd_req              = "x";
             const static std::string c_pl_ctl_move              = "a";
             const static std::string c_pl_ctl_kick              = "b";
             const static std::string c_pl_ctl_tackle            = "c";
             const static std::string c_pl_ctl_hold              = "d";
             const static std::string c_pl_ctl_head              = "e";
             const static std::string c_pl_ctl_status            = "f";
-            const static std::string c_set_corr_upd_int         = "t";
+            const static std::string c_set_gen_upd_int          = "t";
             const static std::string c_set_const_upd_int        = "s";
-            const static std::string c_get_corr_upd_int         = "v";
+            const static std::string c_get_gen_upd_int          = "v";
             const static std::string c_get_const_upd_int        = "u";
             typedef unsigned int PlayerID;
             class Message

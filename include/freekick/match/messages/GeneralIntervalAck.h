@@ -18,10 +18,10 @@
 **************************************************************************/
 
 
-#ifndef FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
-#define FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
+#ifndef FREEKICK_MATCH_MESSAGES_GENERALINTERVALACK_H
+#define FREEKICK_MATCH_MESSAGES_GENERALINTERVALACK_H
 
-#include "StandardMessage.h"
+#include "SingularMessage.h"
 
 namespace freekick
 {
@@ -29,23 +29,14 @@ namespace freekick
     {
         namespace messages
         {
-            class SerializationDataMessage : public StandardMessage
+            class GeneralIntervalAck : public SingularMessage
             {
             public:
-                SerializationDataMessage(unsigned int id)
-                    : m_serializationid(id)
-                virtual ~SerializationDataMessage() { }
-
-            protected:
-                const std::string serString(const std::string& msg) const
+                virtual ~GeneralIntervalAck() { }
+                const std::string toString() const
                 {
-                    std::ostringstream oss(std::ostringstream::out);
-                    oss << serialization_delim << m_serializationid << msg << m_serializationid << serialization_delim;
-                    return stdString(oss.str());
+                    return singString(s_set_gen_upd_ack);
                 }
-
-            private:
-                unsigned int m_serializationid;
             };
         }
     }

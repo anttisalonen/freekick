@@ -18,10 +18,14 @@
 **************************************************************************/
 
 
-#ifndef FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
-#define FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
+#ifndef FREEKICK_MATCH_MESSAGES_INITIALDATAMESSAGE_H
+#define FREEKICK_MATCH_MESSAGES_INITIALDATAMESSAGE_H
 
-#include "StandardMessage.h"
+#include <boost/archive/text_oarchive.hpp>
+
+#include "MatchStatus.h"
+
+#include "SerializationDataMessage.h"
 
 namespace freekick
 {
@@ -29,23 +33,26 @@ namespace freekick
     {
         namespace messages
         {
-            class SerializationDataMessage : public StandardMessage
+            class InitialDataMessage : public SerializationDataMessage.h
             {
             public:
-                SerializationDataMessage(unsigned int id)
-                    : m_serializationid(id)
-                virtual ~SerializationDataMessage() { }
+                InitialDataMessage(const MatchStatus& ms)
+                    : SerializationDataMessage(initial_data_id)
+                    , m_ms(ms)
+                {
+                }
+                virtual ~InitialDataMessage() { }
 
-            protected:
-                const std::string serString(const std::string& msg) const
+                const std::string toString () const
                 {
                     std::ostringstream oss(std::ostringstream::out);
-                    oss << serialization_delim << m_serializationid << msg << m_serializationid << serialization_delim;
-                    return stdString(oss.str());
+                    boost::archive::text_oarchive oa(oss);
+                    oa << m_ms;
+                    return serString(oss.str());
                 }
 
             private:
-                unsigned int m_serializationid;
+                MatchStatus& m_ms;
             };
         }
     }

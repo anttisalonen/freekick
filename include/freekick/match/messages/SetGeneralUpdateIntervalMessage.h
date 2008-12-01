@@ -18,10 +18,10 @@
 **************************************************************************/
 
 
-#ifndef FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
-#define FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
+#ifndef FREEKICK_MATCH_MESSAGES_SETGENERALUPDATEINTERVALMESSAGE_H
+#define FREEKICK_MATCH_MESSAGES_SETGENERALUPDATEINTERVALMESSAGE_H
 
-#include "StandardMessage.h"
+#include "IntegerParameterMessage.h"
 
 namespace freekick
 {
@@ -29,23 +29,21 @@ namespace freekick
     {
         namespace messages
         {
-            class SerializationDataMessage : public StandardMessage
+            class SetGeneralUpdateIntervalMessage : public IntegerParameterMessage
             {
             public:
-                SerializationDataMessage(unsigned int id)
-                    : m_serializationid(id)
-                virtual ~SerializationDataMessage() { }
-
-            protected:
-                const std::string serString(const std::string& msg) const
+                SetGeneralUpdateIntervalMessage(int interval)
+                    : m_interval(interval)
                 {
-                    std::ostringstream oss(std::ostringstream::out);
-                    oss << serialization_delim << m_serializationid << msg << m_serializationid << serialization_delim;
-                    return stdString(oss.str());
+                }
+                virtual ~SetGeneralUpdateIntervalMessage() { }
+                const std::string toString() const
+                {
+                    return intParamString(c_set_gen_upd_int, m_interval);
                 }
 
             private:
-                unsigned int m_serializationid;
+                int m_interval;
             };
         }
     }

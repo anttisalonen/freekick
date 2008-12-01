@@ -18,10 +18,10 @@
 **************************************************************************/
 
 
-#ifndef FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
-#define FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
+#ifndef FREEKICK_MATCH_MESSAGES_HEADPLAYERCONTROLMESSAGE_H
+#define FREEKICK_MATCH_MESSAGES_HEADPLAYERCONTROLMESSAGE_H
 
-#include "StandardMessage.h"
+#include "PlayerControlMessage.h"
 
 namespace freekick
 {
@@ -29,23 +29,24 @@ namespace freekick
     {
         namespace messages
         {
-            class SerializationDataMessage : public StandardMessage
+            class HeadPlayerControlMessage : public PlayerControlMessage
             {
             public:
-                SerializationDataMessage(unsigned int id)
-                    : m_serializationid(id)
-                virtual ~SerializationDataMessage() { }
-
-            protected:
-                const std::string serString(const std::string& msg) const
+                HeadPlayerControlMessage(PlayerID plid, addutil::Vector3 tgtvec, addutil::Vector3 jumpvec)
+                    : PlayerControlMessage(plid, tgtvec)
+                    , m_jumpvec(jumpvec)
+                {
+                }
+                virtual ~HeadPlayerControlMessage() { }
+                const std::string toString() const
                 {
                     std::ostringstream oss(std::ostringstream::out);
-                    oss << serialization_delim << m_serializationid << msg << m_serializationid << serialization_delim;
-                    return stdString(oss.str());
+                    oss << m_jumpvec.x << " " << m_jumpvec.y << " " << m_jumpvec.z;
+                    return contString(c_pl_ctl_hold, true, oss.str());
                 }
 
             private:
-                unsigned int m_serializationid;
+                addutil::Vector3 m_jumpvec;
             };
         }
     }

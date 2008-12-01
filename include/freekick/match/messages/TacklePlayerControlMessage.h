@@ -18,10 +18,10 @@
 **************************************************************************/
 
 
-#ifndef FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
-#define FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
+#ifndef FREEKICK_MATCH_MESSAGES_TACKLEPLAYERCONTROLMESSAGE_H
+#define FREEKICK_MATCH_MESSAGES_TACKLEPLAYERCONTROLMESSAGE_H
 
-#include "StandardMessage.h"
+#include "PlayerControlMessage.h"
 
 namespace freekick
 {
@@ -29,23 +29,20 @@ namespace freekick
     {
         namespace messages
         {
-            class SerializationDataMessage : public StandardMessage
+            class TacklePlayerControlMessage : public PlayerControlMessage
             {
             public:
-                SerializationDataMessage(unsigned int id)
-                    : m_serializationid(id)
-                virtual ~SerializationDataMessage() { }
-
-            protected:
-                const std::string serString(const std::string& msg) const
+                TacklePlayerControlMessage(PlayerID plid, addutil::Vector3 tgtvec)
+                    : PlayerControlMessage(plid, tgtvec)
                 {
-                    std::ostringstream oss(std::ostringstream::out);
-                    oss << serialization_delim << m_serializationid << msg << m_serializationid << serialization_delim;
-                    return stdString(oss.str());
+                }
+                virtual ~TacklePlayerControlMessage() { }
+                const std::string toString() const
+                {
+                    return contString(c_pl_ctl_tackle);
                 }
 
             private:
-                unsigned int m_serializationid;
             };
         }
     }

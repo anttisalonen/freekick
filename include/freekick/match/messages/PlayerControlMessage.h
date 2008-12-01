@@ -18,10 +18,12 @@
 **************************************************************************/
 
 
-#ifndef FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
-#define FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
+#ifndef FREEKICK_MATCH_MESSAGES_PLAYERCONTROLMESSAGE_H
+#define FREEKICK_MATCH_MESSAGES_PLAYERCONTROLMESSAGE_H
 
-#include "StandardMessage.h"
+#include "Vector3.h"
+
+#include "ParameterMessage.h"
 
 namespace freekick
 {
@@ -29,23 +31,31 @@ namespace freekick
     {
         namespace messages
         {
-            class SerializationDataMessage : public StandardMessage
+            class PlayerControlMessage : public ParameterMessage
             {
             public:
-                SerializationDataMessage(unsigned int id)
-                    : m_serializationid(id)
-                virtual ~SerializationDataMessage() { }
+                PlayerControlMessage(PlayerID plid, addutil::Vector3 tgtvec)
+                    : m_plid(plid)
+                    , m_tgtvec(tgtvec)
+                {
+                }
+                virtual ~PlayerControlMessage() { }
 
             protected:
-                const std::string serString(const std::string& msg) const
+                const std::string contString(const std::string& type, bool incl_tgtvec = true, const std::string& extra_info = "") const
                 {
                     std::ostringstream oss(std::ostringstream::out);
-                    oss << serialization_delim << m_serializationid << msg << m_serializationid << serialization_delim;
-                    return stdString(oss.str());
+                    oss << m_plid;
+                    if(incl_tgtvec)
+                        oss << " " << m_tgtvec.x << " " << m_tgtvec.y << " " << m_tgtvec.z;
+                    if(!extra_info.empty()) 
+                        oss << " " << extra_info;
+                    return paramString(type, oss.str());
                 }
 
             private:
-                unsigned int m_serializationid;
+                PlayerID m_plid;
+                addutil::Vector3 m_tgtvec;
             };
         }
     }

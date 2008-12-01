@@ -18,10 +18,10 @@
 **************************************************************************/
 
 
-#ifndef FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
-#define FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
+#ifndef FREEKICK_MATCH_MESSAGES_GENERALUPDATESCOREMESSAGE_H
+#define FREEKICK_MATCH_MESSAGES_GENERALUPDATESCOREMESSAGE_H
 
-#include "StandardMessage.h"
+#include "GeneralUpdateMessage.h"
 
 namespace freekick
 {
@@ -29,23 +29,26 @@ namespace freekick
     {
         namespace messages
         {
-            class SerializationDataMessage : public StandardMessage
+            class GeneralUpdateScoreMessage : public GeneralUpdateMessage
             {
             public:
-                SerializationDataMessage(unsigned int id)
-                    : m_serializationid(id)
-                virtual ~SerializationDataMessage() { }
-
-            protected:
-                const std::string serString(const std::string& msg) const
+                GeneralUpdateScoreMessage(unsigned int hg, unsigned int ag, unsigned int hp = 0, unsigned int ap = 0)
+                    : m_hg(hg)
+                    , m_ag(ag)
+                    , m_hp(hp)
+                    , m_ap(ap)
+                {
+                }
+                virtual ~GeneralUpdateScoreMessage() { }
+                const std::string toString() const
                 {
                     std::ostringstream oss(std::ostringstream::out);
-                    oss << serialization_delim << m_serializationid << msg << m_serializationid << serialization_delim;
+                    oss << s_gen_score_upd << " " << m_hg << " " << m_ag << " " << m_hp << " " << m_ap;
                     return stdString(oss.str());
                 }
 
             private:
-                unsigned int m_serializationid;
+                unsigned int m_hg, m_ag, m_hp, m_ap;
             };
         }
     }

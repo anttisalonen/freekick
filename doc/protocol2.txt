@@ -5,24 +5,24 @@ Summary:
 2s.  S->C - Reply to 4c: Initial Data - serialized data
 3s.  S->C - Reply to 1c, 2c: List Of Players - (Z)
 4s.  S->C - Reply to 3c: Username Ack - (Y)
-5s.  S->C - Reply to 7c: Set Correcting Update Interval Ack - (T)
+5s.  S->C - Reply to 7c: Set General Update Interval Ack - (T)
 6s.  S->C - Reply to 8c: Set Constant Update Interval Ack - (S)
 7s.  S->C - Interval + Reply to 5c: General Update - (B 23 3 1 0)
 8s.  S->C - Interval: Constant Update - (n v x y z a b c d)
 9s.  S->C - On error: General Error - (H)
 10s. S->C - In-game: Server Info - (I)
-11s. S->C - Reply to 9c: Give Correcting Update Interval (V)
+11s. S->C - Reply to 9c: Give General Update Interval (V)
 12s. S->C - Reply to 10c: Give Constant Update Interval (U)
 
 1c.  C->S - Init: Client Information: ident, username, type, players
 2c.  C->S - When setting players: Player Control Request - (z)
 3c.  C->S - When setting username: Username Request - (y)
 4c.  C->S - In-game: Initial Data Request - (x)
-5c.  C->S - In-game: Correcting Update Request - (w)
+5c.  C->S - In-game: General Update Request - (w)
 6c.  C->S - When controlling: Player Control Message - (a 12843 0 10.29 0)
-7c.  C->S - In-game: Set Correcting Update Interval - (t)
+7c.  C->S - In-game: Set General Update Interval - (t)
 8c.  C->S - In-game: Set Constant Update Interval - (s)
-9c.  C->S - In-game: Get Correcting Update Interval - (v)
+9c.  C->S - In-game: Get General Update Interval - (v)
 10c. C->S - In-game: Get Constant Update Interval - (u)
 
 ------------------------------------------------------------------------------
@@ -34,7 +34,7 @@ Server Messages
 - List Of Players Message
 - General Ack Message
   Interval Reply Messages
--  Give Correcting Update Interval Message
+-  Give General Update Interval Message
 -  Give Constant Update Interval Message
  Update Message
 - General Update Message
@@ -48,13 +48,13 @@ Client Messages
 - Player Control Request Message
 - Username Request Message
 - Initial Data Request Message
-- Correcting Update Request Message
+- General Update Request Message
  Interval Messages
   Set Interval Messages
--  Set Correcting Update Interval Message
+-  Set General Update Interval Message
 -  Set Constant Update Interval Message
   Get Interval Messages
--  Get Correcting Update Interval Message
+-  Get General Update Interval Message
 -  Get Constant Update Interval Message
 -Player Control Message
 
@@ -131,18 +131,18 @@ e.g.
 ------------------------------------------------------------------------------
 Server Info:
 e.g.
-(I text)
+(I "text")
 
 ------------------------------------------------------------------------------
 Initial Data Request:
 (x)
 
 ------------------------------------------------------------------------------
-Correcting Update Request:
+General Update Request:
 (w)
 
 ------------------------------------------------------------------------------
-Set Correcting Update Interval:
+Set General Update Interval:
 Unit: milliseconds.
 e.g.
 (t 1000)
@@ -154,7 +154,7 @@ e.g.
 (s 50)
 
 ------------------------------------------------------------------------------
-Get Correcting Update Interval
+Get General Update Interval
 (v)
 
 ------------------------------------------------------------------------------
@@ -162,7 +162,7 @@ Get Constant Update Interval
 (u)
 
 ------------------------------------------------------------------------------
-Give Correcting Update Interval
+Give General Update Interval
 e.g.
 (V 1500)
 
@@ -190,7 +190,7 @@ Match Data:
 Serialized data padded by (+++1 and 1+++).
 (+++1data1+++)
 
-2. Correcting update 
+2. General update 
   Player locations
   Interrupts (at special events)
     - Pause, time, score, etc.

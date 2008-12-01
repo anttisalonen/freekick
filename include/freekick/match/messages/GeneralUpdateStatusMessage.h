@@ -18,10 +18,14 @@
 **************************************************************************/
 
 
-#ifndef FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
-#define FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
+#ifndef FREEKICK_MATCH_MESSAGES_GENERALUPDATESTATUSMESSAGE_H
+#define FREEKICK_MATCH_MESSAGES_GENERALUPDATESTATUSMESSAGE_H
 
-#include "StandardMessage.h"
+#include "Vector3.h"
+
+#include "BallStatus.h"
+
+#include "GeneralUpdateStatusMessage.h"
 
 namespace freekick
 {
@@ -29,23 +33,30 @@ namespace freekick
     {
         namespace messages
         {
-            class SerializationDataMessage : public StandardMessage
+            class GeneralUpdateStatusMessage : public GeneralUpdateMessage
             {
             public:
-                SerializationDataMessage(unsigned int id)
-                    : m_serializationid(id)
-                virtual ~SerializationDataMessage() { }
-
-            protected:
-                const std::string serString(const std::string& msg) const
+                GeneralUpdateStatusMessage(BallStatus bs, unsigned int owner, Vector3 resp, bool ref_cont)
+                    : m_bs(bs)
+                    , m_owner(owner)
+                    , m_resp(resp)
+                    , m_ref_cont(ref_cont)
+                {
+                }
+                virtual ~GeneralUpdateStatusMessage() { }
+                const std::string toString() const
                 {
                     std::ostringstream oss(std::ostringstream::out);
-                    oss << serialization_delim << m_serializationid << msg << m_serializationid << serialization_delim;
+                    oss << s_gen_pause_upd << " " << m_pause;
+                    oss << s_gen_status_upd << " " << m_bs << " " << m_owner << " " << m_resp.x << " " << m_resp.z << " " << m_ref_conf;
                     return stdString(oss.str());
                 }
 
             private:
-                unsigned int m_serializationid;
+                BallStatus m_bs;
+                unsigned int m_owner;
+                Vector3 m_resp;
+                bool m_ref_cont;
             };
         }
     }

@@ -44,7 +44,7 @@ namespace freekick
                 {
                 }
                 virtual ~ClientInitMessage() { }
-                virtual const std::string toString() const
+                const std::string toString() const
                 {
                     std::ostringstream oss(std::ostringstream::out);
                     oss << helperString() << " \"" << m_username << "\" " << m_type << " " << setToMessageList(m_players) << "\n";

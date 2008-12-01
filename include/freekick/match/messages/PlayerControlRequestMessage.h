@@ -18,10 +18,10 @@
 **************************************************************************/
 
 
-#ifndef FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
-#define FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
+#ifndef FREEKICK_MATCH_MESSAGES_PLAYERCONTROLREQUESTMESSAGE_H
+#define FREEKICK_MATCH_MESSAGES_PLAYERCONTROLREQUESTMESSAGE_H
 
-#include "StandardMessage.h"
+#include "ListParameterMessage.h"
 
 namespace freekick
 {
@@ -29,23 +29,21 @@ namespace freekick
     {
         namespace messages
         {
-            class SerializationDataMessage : public StandardMessage
+            class PlayerControlRequestMessage : public ListParameterMessage
             {
             public:
-                SerializationDataMessage(unsigned int id)
-                    : m_serializationid(id)
-                virtual ~SerializationDataMessage() { }
-
-            protected:
-                const std::string serString(const std::string& msg) const
+                PlayerControlRequestMessage(const std::set<PlayerID>& plids)
+                    : m_plids(plids)
                 {
-                    std::ostringstream oss(std::ostringstream::out);
-                    oss << serialization_delim << m_serializationid << msg << m_serializationid << serialization_delim;
-                    return stdString(oss.str());
+                }
+                virtual ~PlayerControlRequestMessage() { }
+                const std::string toString() const
+                {
+                    return listParamString(c_pl_cont_req, m_plids);
                 }
 
             private:
-                unsigned int m_serializationid;
+                std::set<PlayerID> m_plids;
             };
         }
     }
