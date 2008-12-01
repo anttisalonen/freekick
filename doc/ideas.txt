@@ -4,3 +4,5 @@
  to the actual events in the match.
 -possibility to see a summary of all matches of a round (sportschau-style),
  either written or in "video"
+-arcade mode: double the velocity of entities, reduce total match time,
+ weaken goalkeepers to allow more goals
