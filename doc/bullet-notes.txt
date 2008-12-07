@@ -1,0 +1,10 @@
+- To get notified of an update on an object, use MotionStates: http://www.bulletphysics.com/mediawiki-1.5.8/index.php?title=MotionStates
+- Kinematic bodies don't follow the rules of the physics, but need to be controlled explicitly: http://www.bulletphysics.com/Bullet/phpBB3/viewtopic.php?f=9&t=2901
+- In case of linking errors, check order of libraries that are linked
+- There's procedural animation, but moving a character can also be made simpler: http://www.bulletphysics.com/Bullet/phpBB3/viewtopic.php?f=9&t=1267
+- Controllers can be made kinematically or dynamically; kinematic controllers provide full control: http://www.bulletphysics.com/Bullet/phpBB3/viewtopic.php?f=9&t=2665
+- Kinematic controller is moved by setting its velocity instead of applying a force (as with a dynamic controller): http://www.bulletphysics.com/Bullet/phpBB3/viewtopic.php?f=9&t=2642
+- There are collision callbacks: http://www.bulletphysics.com/mediawiki-1.5.8/index.php?title=Collision_Callbacks_and_Triggers
+- A dynamic controller can be made more stable using hinges: http://www.bulletphysics.com/Bullet/phpBB3/viewtopic.php?f=9&t=1864
+- Bullet =2.67 had a dynamic controller demo, later should have a kinetic controller demo, but the source code says the contrary: http://www.bulletphysics.com/Bullet/phpBB3/viewtopic.php?f=9&t=1864
+. Interaction between btKinematicCharacterController and dynamic rigid bodies needs to be explicity implemented by the user

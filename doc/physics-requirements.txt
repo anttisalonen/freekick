@@ -1,0 +1,39 @@
+Requirements for the physics engine:
+
+1. World simulation
+  - Moving people and ball based on velocity, acceleration, mass, friction
+  - Applying gravity
+  - Applying wind
+  - Setting air viscosity
+  - Ability to change pitch qualities (friction etc.) in runtime
+  - Ability to output positions of entities 
+2. Collision detection
+  - Collisions between people
+  - Collisions between people and the ball
+  - Remembering each collision (e.g. via a callback), including the collision force (strength) and angle (for tackles, heading checking)
+3. Entity handling
+  - Ability to 'tie' an entity to another (player carrying/goalkeeper catching a ball)
+  - Ability to accelerate (apply force) on people and ball based on input
+  - Ability to set positions of entities
+  - Ability to lock a rotation of an entity on an axis (for having upright people)
+  - Ability to unlock an upright stance of an entity (having upright people that fall down after impact) 
+    OR Ability to rotate an entity (rotating a cylinder 90 degrees forward to simulate falling down)
+  - Ability to tilt an entity on the X/Y plane (jumping goalkeepers)
+  - A person should be able to not kick the ball but run over it
+    -> Collision detection should be disabled for person entities or the entities should float in the air 
+
+Interface:
+Reading data:
+ ! Reading collisions since last step
+ ! Reading positions+orientations of entities that _moved_ since last step
+Writing data:
+ - Setting gravity, wind, friction, air viscosity, pitch size
+ ! Adding people, a ball, and static entities
+ ! Stepping the simulation
+ ! Applying force to/Setting velocity of an entity (ball and player)
+ - Marking a person tackled/fallen down/tackling/trying to catch the ball
+
+Collision object:
+ - Colliding entities
+ - Angle of collision
+ - Strength of collision
