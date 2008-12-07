@@ -32,7 +32,10 @@
 #include "RulesEvent.h"
 #include "PhysicsState.h"
 #include "PhysicsEvent.h"
+#include "PhysicsReader.h"
+
 #include "ConnectionEvent.h"
+#include "messages/ConstantUpdateMessage.h"
 
 namespace freekick
 {
@@ -43,22 +46,25 @@ namespace freekick
             typedef std::vector<PhysicsEvent> PhysicsEventList;
             typedef std::vector<RulesEvent> RulesEventList;
             typedef std::vector<ConnectionEvent> ConnectionEventList;
-            class Dispatcher
+            class Dispatcher : public PhysicsReader
             {
             public:
 
                 Dispatcher (ClientListPtr clp, addutil::network::Server* s);
                 virtual ~Dispatcher ( );
 
+                void dispatchClientInformation ( );
+                void dispatchConnectionEvent (freekick::match::ConnectionEvent e );
+                /*
                 void dispatchPhysicsEvent (freekick::match::PhysicsEvent e );
                 void dispatchRulesEvent (freekick::match::RulesEvent e );
                 void dispatchPhysicsState (freekick::match::PhysicsState s );
                 void dispatchRulesState (freekick::match::RulesState s );
-                void dispatchClientInformation ( );
-                void dispatchConnectionEvent (freekick::match::ConnectionEvent e );
                 void dispatchPhysicsEvents (PhysicsEventList es );
                 void dispatchRulesEvents (RulesEventList es );
                 void dispatchConnectionEvents (ConnectionEventList es );
+                */
+                void updatePhysics(EntityPtrMap m);
 
             private:
                 ClientListPtr mClientList;

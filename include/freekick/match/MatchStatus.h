@@ -34,6 +34,7 @@
 #include <boost/thread.hpp>
 #include <boost/serialization/map.hpp>
 #include <boost/serialization/set.hpp>
+#include <boost/serialization/shared_ptr.hpp>
 
 #include "Entity.h"
 #include "Time.h"

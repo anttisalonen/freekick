@@ -43,11 +43,10 @@ int main(int argc, char** argv)
 {
     try
     {
-        MatchStatus* status = new MatchStatus();
+        boost::shared_ptr<MatchStatus> status(new MatchStatus());
         std::cerr << "Starting Freekick server" << std::endl;
-        ServerManager sm(32105);
-
-        delete status;
+        ServerManager sm(32105, status);
+        sm.run();
     }
     catch (boost::exception& e)
     {

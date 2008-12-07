@@ -45,28 +45,8 @@ namespace freekick
                 while(1)
                 {
                     sleep(1);
-                    srv.broadcast("kpa\n");
+                    // srv.broadcast("kpa\n");
                 }
-            }
-
-            void Dispatcher::dispatchPhysicsEvent (PhysicsEvent e ) 
-            {
-
-            }
-
-            void Dispatcher::dispatchRulesEvent (RulesEvent e ) 
-            {
-
-            }
-
-            void Dispatcher::dispatchPhysicsState (PhysicsState s ) 
-            {
-
-            }
-
-            void Dispatcher::dispatchRulesState (RulesState s ) 
-            {
-
             }
 
             void Dispatcher::dispatchClientInformation ( ) 
@@ -79,20 +59,63 @@ namespace freekick
 
             }
 
-            void Dispatcher::dispatchPhysicsEvents (PhysicsEventList es ) 
+            void Dispatcher::updatePhysics(EntityPtrMap m)
             {
+                // TODO: save and/or dispatch
+                // default should be dispatch,
+                // for efficiency only every x ms should a dispatch
+                // occur, otherwise save updated entities internally
+                // (in dispatcher) and dispatch everything later
 
+                std::ostringstream oss(std::ostringstream::out);
+                typedef std::pair<ObjectID, EntityPtr> pair_en;
+                BOOST_FOREACH(pair_en p, m)
+                {
+                    const addutil::Vector3 pos = p.second->getPosition();
+                    const addutil::Quaternion orien = p.second->getOrientation();
+                    messages::ConstantUpdateMessage c(p.first, 0, pos, orien);
+                    oss << c.toString();
+                }
+                oss << "\n";
+                srv.broadcast(oss.str());
             }
 
-            void Dispatcher::dispatchRulesEvents (RulesEventList es ) 
-            {
+            /*
+              void Dispatcher::dispatchPhysicsEvent (PhysicsEvent e ) 
+              {
 
-            }
+              }
 
-            void Dispatcher::dispatchConnectionEvents (ConnectionEventList es ) 
-            {
+              void Dispatcher::dispatchRulesEvent (RulesEvent e ) 
+              {
 
-            }
+              }
+
+              void Dispatcher::dispatchPhysicsState (PhysicsState s ) 
+              {
+
+              }
+
+              void Dispatcher::dispatchRulesState (RulesState s ) 
+              {
+
+              }
+
+              void Dispatcher::dispatchPhysicsEvents (PhysicsEventList es ) 
+              {
+
+              }
+
+              void Dispatcher::dispatchRulesEvents (RulesEventList es ) 
+              {
+
+              }
+
+              void Dispatcher::dispatchConnectionEvents (ConnectionEventList es ) 
+              {
+
+              }
+            */
         }
     }
 }

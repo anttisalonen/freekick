@@ -26,7 +26,6 @@
 
 #include "Physics.h"
 #include "Rules.h"
-#include "ConnectionListener.h"
 #include "ConsoleCommand.h"
 
 namespace freekick
@@ -40,7 +39,7 @@ namespace freekick
             public:
                 Console ( );
                 virtual ~Console ( );
-                Console (Physics physics, Rules rules, ConnectionListener connectionlistener );
+                Console (Physics physics, Rules rules);
                 void run ( );
 
             protected:
@@ -50,7 +49,6 @@ namespace freekick
                 bool mContinue;
                 boost::shared_ptr<Physics> mPhysics;
                 boost::shared_ptr<Rules> mRules;
-                boost::shared_ptr<ConnectionListener> mConnectionListener;
 
             public:
                 void setContinue ( bool new_var );
@@ -59,8 +57,6 @@ namespace freekick
                 boost::shared_ptr<Physics> getPhysics ( );
                 void setRules ( boost::shared_ptr<Rules> new_var );
                 boost::shared_ptr<Rules> getRules ( );
-                void setConnectionListener ( boost::shared_ptr<ConnectionListener> new_var );
-                boost::shared_ptr<ConnectionListener> getConnectionListener ( );
             };
         }
     }

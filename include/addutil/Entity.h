@@ -29,6 +29,7 @@
 #include <boost/serialization/string.hpp>
 
 #include "Vector3.h"
+#include "Quaternion.h"
 #include "Color.h"
 
 /**
@@ -41,29 +42,19 @@ namespace addutil
     {
     public:
         virtual ~Entity() { }
-        /**
-         * @return Vector3*
-         */
         virtual const Vector3& getPosition ( ) const;
-        /**
-         * @return Color*
-         */
         virtual const Color& getColor ( ) const;
-        /**
-         * @return string*
-         */
         virtual const std::string& getModel ( ) const;
-        /**
-         * @return Vector3*
-         */
-        virtual const Vector3& getDirection ( ) const;
+        // virtual const Vector3& getDirection ( ) const;
+        virtual const Quaternion& getOrientation ( ) const;
         virtual const Vector3& getVelocity() const;
         virtual const Vector3& getAcceleration() const;
-        void setMass(float m);
-        void setPosition(float x, float y, float z);
-        void setVelocity(float x, float y, float z);
-        void setAcceleration(float x, float y, float z);
-        void setDirection(float x, float y, float z);
+        virtual void setMass(float m);
+        virtual void setPosition(float x, float y, float z, boost::posix_time::ptime pt = boost::posix_time::ptime(boost::posix_time::not_a_date_time));
+        virtual void setVelocity(float x, float y, float z);
+        virtual void setAcceleration(float x, float y, float z);
+        // virtual void setDirection(float x, float y, float z);
+        virtual void setOrientation(float w, float x, float y, float z);
         void setModel(std::string m);
         void setColor(float r, float g, float b);
         void setColor(const Color& col);
@@ -81,7 +72,7 @@ namespace addutil
         Vector3 old_position;
         Vector3 velocity;
         Vector3 acceleration;
-        Vector3 direction;
+        Quaternion orientation;
         std::string model;
         float mass;
         Color color;
@@ -95,7 +86,7 @@ namespace addutil
             ar & position;
             ar & velocity;
             ar & acceleration;
-            ar & direction;
+            ar & orientation;
             ar & model;
             ar & mass;
             ar & color;

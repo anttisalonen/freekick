@@ -86,8 +86,8 @@ namespace freekick
                         if(node)
                         {
                             node->setPosition(Ogre::Vector3(-pos.x, pos.y, pos.z));
-                            const Vector3& dir = (*d)->getDirection();
-                            node->setDirection(Ogre::Vector3(dir.x, 0.0f, -dir.z), Ogre::Node::TS_WORLD, Ogre::Vector3::NEGATIVE_UNIT_X);
+                            const Quaternion& dir = (*d)->getOrientation();
+                            node->setOrientation(Ogre::Quaternion(dir.w, dir.x, dir.y, dir.z));
                         }
                     }
                     return true;

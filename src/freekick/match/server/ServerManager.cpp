@@ -25,13 +25,14 @@ namespace freekick
     {
         namespace server
         {
-            ServerManager::ServerManager(int port)
-                : clients(new ClientList()),
-                  cel(clients),
-                  d(clients, this)
+            ServerManager::ServerManager(unsigned int port, boost::shared_ptr<freekick::match::MatchStatus> ms)
+                : mPort(port), 
+                  clients(new ClientList()),
+                  d(new Dispatcher(clients, this)),
+                  r(new Rules(d, ms)),
+                  p(new Physics(d, r, ms)),
+                  cel(new ClientEventListener(clients))
             {
-                std::cerr << "Starting listening on port " << port << std::endl;
-                startListening(port);
             }
 
             ServerManager::~ServerManager()
@@ -39,6 +40,16 @@ namespace freekick
                 clients->clear();
                 std::cerr << "Stopping listening.\n";
                 stopListening();
+            }
+
+            bool ServerManager::run()
+            {
+                std::cerr << "Starting physics\n";
+                boost::thread physics_thread(boost::bind(&freekick::match::server::Physics::run, p));
+                std::cerr << "Starting listening on port " << mPort << std::endl;
+                startListening(mPort);
+                physics_thread.join();
+                return true;
             }
 
             void ServerManager::client_connected(client_id id)
@@ -56,7 +67,7 @@ namespace freekick
 
             void ServerManager::client_input(client_id id, const std::string& msg)
             {
-                cel.newData(id, msg);
+                cel->newData(id, msg);
             }
         }
     }

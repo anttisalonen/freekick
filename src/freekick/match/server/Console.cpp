@@ -34,23 +34,6 @@ namespace freekick
 
             Console::~Console ( ) { }
 
-//  
-// Methods
-//  
-
-
-// Accessor methods
-//  
-
-
-// Private attribute accessor methods
-//  
-
-
-/**
- * Set the value of mContinue
- * @param new_var the new value of mContinue
- */
             void Console::setContinue ( bool new_var ) {
                 mContinue = new_var;
             }
@@ -96,31 +79,12 @@ namespace freekick
             }
 
 /**
- * Set the value of mConnectionListener
- * @param new_var the new value of mConnectionListener
- */
-            void Console::setConnectionListener ( boost::shared_ptr<ConnectionListener> new_var ) {
-                mConnectionListener = new_var;
-            }
-
-/**
- * Get the value of mConnectionListener
- * @return the value of mConnectionListener
- */
-            boost::shared_ptr<ConnectionListener> Console::getConnectionListener ( ) {
-                return mConnectionListener;
-            }
-
-// Other methods
-//  
-
-
-/**
  * @param  physics
  * @param  rules
  * @param  connectionlistener
  */
-            Console::Console (Physics physics, Rules rules, ConnectionListener connectionlistener ) {
+            Console::Console (Physics physics, Rules rules)
+            {
 
             }
 

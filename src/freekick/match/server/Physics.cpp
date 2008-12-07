@@ -29,97 +29,66 @@ namespace freekick
     {
         namespace server
         {
-            Physics::Physics ( ) {
+            Physics::Physics (boost::shared_ptr<Dispatcher> d, boost::shared_ptr<Rules> r, boost::shared_ptr<MatchStatus> ms)
+                : mDispatcher(d)
+                , mRules(r)
+                , mMatchStatus(ms)
+                , mPhysicsEngine(new BulletPhysicsEngine(Vector3(-50,-20,-50), 
+                                                         Vector3(200, 100, 200), 
+                                                         500, Vector3(0, -9.8, 0)))
+            {
+                mPhysicsEngine->subscribePhysics(mDispatcher);
+                mPhysicsEngine->addStaticBoxObject(Vector3(50, 50, 50), Vector3(0, -50, 0));
+                mPhysicsEngine->addDynamicSphereObject(1.0f, 5.0f, Vector3(10, 50, 10));
             }
 
-            Physics::~Physics ( ) { }
-/**
- * Set the value of mPause
- * @param new_var the new value of mPause
- */
-            void Physics::setPause ( bool new_var ) {
+            Physics::~Physics ( ) 
+            {
+                mPhysicsEngine->unsubscribePhysics(mDispatcher);
+            }
+
+            void Physics::setPause ( bool new_var ) 
+            {
                 mPause = new_var;
             }
 
-/**
- * Get the value of mPause
- * @return the value of mPause
- */
-            bool Physics::getPause ( ) {
+            bool Physics::getPause ( ) 
+            {
                 return mPause;
             }
 
-/**
- * Set the value of mNewPhysicsEvents
- * @param new_var the new value of mNewPhysicsEvents
- */
-            void Physics::setNewPhysicsEvents ( PhysicsEventList new_var ) {
+            void Physics::setNewPhysicsEvents ( PhysicsEventList new_var ) 
+            {
                 mNewPhysicsEvents = new_var;
             }
 
-/**
- * Get the value of mNewPhysicsEvents
- * @return the value of mNewPhysicsEvents
- */
-            PhysicsEventList Physics::getNewPhysicsEvents ( ) {
+            PhysicsEventList Physics::getNewPhysicsEvents ( ) 
+            {
                 return mNewPhysicsEvents;
             }
 
-/**
- * Set the value of mPhysicsEngine
- * @param new_var the new value of mPhysicsEngine
- */
-            void Physics::setPhysicsEngine ( PhysicsEngine new_var ) {
-                mPhysicsEngine = new_var;
-            }
-
-/**
- * Get the value of mPhysicsEngine
- * @return the value of mPhysicsEngine
- */
-            PhysicsEngine Physics::getPhysicsEngine ( ) {
-                return mPhysicsEngine;
-            }
-
-/**
- * Set the value of mPhysicsState
- * @param new_var the new value of mPhysicsState
- */
-            void Physics::setPhysicsState ( PhysicsState new_var ) {
-                mPhysicsState = new_var;
-            }
-
-/**
- * Get the value of mPhysicsState
- * @return the value of mPhysicsState
- */
-            PhysicsState Physics::getPhysicsState ( ) {
-                return mPhysicsState;
-            }
-
-// Other methods
-//  
-
-/**
- */
-            void Physics::run ( ) {
-
-            }
-
-
-/**
- * @param  e
- */
-            void Physics::newClientEvent (ClientEvent e ) {
-
-            }
-
-
-/**
- * @return bool
- */
-            bool Physics::stepPhysics ( ) {
+            bool Physics::run ( ) 
+            {
+                using namespace boost::posix_time;
+                unsigned long sleep_time = 1000000/60;
+                while(1)
+                {
+                    ptime before_time(microsec_clock::local_time());
+                    mPhysicsEngine->stepWorld(1.0f/60.0f);
+                    ptime after_time(microsec_clock::local_time());
+                    time_period diff_time(before_time, after_time);
+                    time_duration diff_dur = diff_time.length();
+                    long us_diff = diff_dur.total_microseconds();
+                    long time_left = sleep_time - us_diff;
+                    if(time_left > 0)
+                        boost::this_thread::sleep(microseconds(time_left));
+                }
                 return true;
+            }
+
+            void Physics::newClientEvent (ClientEvent e ) 
+            {
+
             }
         }
     }

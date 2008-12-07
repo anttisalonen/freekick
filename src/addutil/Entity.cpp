@@ -42,9 +42,16 @@ namespace addutil
         return model;
     }
 
-    const Vector3& Entity::getDirection ( ) const
+    /*
+    const Vector3 Entity::getDirection ( ) const
     {
-        return direction;
+        return orientation.toVector();
+    }
+    */
+
+    const Quaternion& Entity::getOrientation() const
+    {
+        return orientation;
     }
 
     void Entity::setMass(float m)
@@ -52,26 +59,32 @@ namespace addutil
         mass = m;
     }
 
-    void Entity::setPosition(float x, float y, float z)
+    void Entity::setPosition(float x, float y, float z, boost::posix_time::ptime pt)
     {
-        boost::posix_time::ptime this_move = boost::posix_time::microsec_clock::universal_time();
-        boost::posix_time::time_period diff_time(last_move, this_move);
-        boost::posix_time::time_duration diff_dur = diff_time.length();
-        long us_diff = diff_dur.total_microseconds();
-
         float xdiff = x - old_position.x;
         float ydiff = y - old_position.y;
         float zdiff = z - old_position.z;
-        float scale = us_diff / 1000000.0f;
-        setVelocity(xdiff / scale, ydiff / scale, zdiff / scale);
 
-        last_move = this_move;
+        if(pt != boost::posix_time::not_a_date_time)
+        {
+            boost::posix_time::time_period diff_time(last_move, pt);
+            boost::posix_time::time_duration diff_dur = diff_time.length();
+            long us_diff = diff_dur.total_microseconds();
+
+            float scale = us_diff / 1000000.0f;
+            setVelocity(xdiff / scale, ydiff / scale, zdiff / scale);
+
+            last_move = pt;
+        }
 
         if(autoorientation)
         {
-            // float xdiff = x - position.x;
-            // float ydiff = y - position.y;
-            // float zdiff = z - position.z;
+            // TODO
+            /*
+            Vector3 v(xdiff, ydiff, zdiff);
+            v.normalize();
+            float yaw   = atan2f(v.y, v.x);
+            float pitch = asinf(v.z);
             if(xdiff)
                 direction.x = xdiff;
             if(ydiff)
@@ -80,19 +93,25 @@ namespace addutil
                 direction.z = zdiff;
             if(xdiff || ydiff || zdiff)
                 direction.normalize();
+            */
         }
+
         position.x = x;
         position.y = y;
         position.z = z;
         old_position = position;
     }
 
+    /*
     void Entity::setDirection(float x, float y, float z)
     {
-        direction.x = x;
-        direction.y = y;
-        direction.z = z;
-        direction.normalize();
+        orientation.fromVector(x, y, z);
+    }
+    */
+
+    void Entity::setOrientation(float w, float x, float y, float z)
+    {
+        orientation.set(w, x, y, z);
     }
 
     void Entity::setModel(std::string m)

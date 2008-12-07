@@ -30,6 +30,7 @@
 #include <boost/foreach.hpp>
 #include <boost/serialization/base_object.hpp>
 #include <boost/serialization/map.hpp>
+#include <boost/serialization/shared_ptr.hpp>
 
 #include "Club.h"
 #include "Kit.h"

@@ -23,6 +23,7 @@
 
 #include "Vector3.h"
 #include "Quaternion.h"
+
 #include "CausedStatus.h"
 #include "ControlledStatus.h"
 
@@ -37,7 +38,9 @@ namespace freekick
             class ConstantUpdateMessage : public StandardMessage
             {
             public:
-                ConstantUpdateMessage(PlayerID plid, int der, Vector3 vec, Quaternion quat, CausedStatus causs, ControlledStatus contrs)
+                ConstantUpdateMessage(PlayerID plid, int der, 
+                                      addutil::Vector3 vec, addutil::Quaternion quat, 
+                                      CausedStatus causs = CausedStatus(), ControlledStatus contrs = ControlledStatus())
                     : m_plid(plid)
                     , m_der(der)
                     , m_vec(vec)
@@ -51,8 +54,8 @@ namespace freekick
                 {
                     std::ostringstream oss(std::ostringstream::out);
                     oss << m_plid << " " << m_der << " " 
-                        << m_vec.x << " " m_vec.y << " " << m_vec.z << " " 
-                        << m_quat.w << " " m_quat.x << " " << m_quat.y << " " << m_quat.z << " "
+                        << m_vec.x << " " << m_vec.y << " " << m_vec.z << " " 
+                        << m_quat.w << " " << m_quat.x << " " << m_quat.y << " " << m_quat.z << " "
                         << m_causs << " " << m_contrs;
                     return stdString(oss.str());
                 }
@@ -60,8 +63,8 @@ namespace freekick
             private:
                 PlayerID m_plid;
                 int m_der;
-                Vector3 m_vec;
-                Quaternion m_quat;
+                addutil::Vector3 m_vec;
+                addutil::Quaternion m_quat;
                 CausedStatus m_causs;
                 ControlledStatus m_contrs;
             };

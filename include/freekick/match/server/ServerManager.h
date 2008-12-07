@@ -23,12 +23,18 @@
 
 #include <string>
 
+#include <boost/shared_ptr.hpp>
+#include <boost/thread.hpp>
+#include <boost/bind.hpp>
+
 #include "addutil/network/Server.h"
 
 #include "freekick/match/Client.h"
-#include "ConnectionListener.h"
+#include "freekick/match/MatchStatus.h"
 #include "ClientEventListener.h"
 #include "Dispatcher.h"
+#include "Rules.h"
+#include "Physics.h"
 
 /**
  * class ServerManager
@@ -47,15 +53,19 @@ namespace freekick
             class ServerManager : public addutil::network::Server
             {
             public:
-                ServerManager(int port);
+                ServerManager(unsigned int port, boost::shared_ptr<freekick::match::MatchStatus> ms);
                 virtual ~ServerManager();
                 void client_connected(client_id id);
                 void client_disconnected(client_id id);
                 void client_input(client_id id, const std::string& msg);
+                bool run();
             private:
+                unsigned int mPort;
                 ClientListPtr clients;
-                ClientEventListener cel;
-                Dispatcher d;
+                boost::shared_ptr<Dispatcher> d;
+                boost::shared_ptr<Rules> r;
+                boost::shared_ptr<Physics> p;
+                boost::shared_ptr<ClientEventListener> cel;
             };
         }
     }

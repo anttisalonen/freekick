@@ -23,13 +23,15 @@
 #define PHYSICS_H
 
 #include <boost/shared_ptr.hpp>
-
+#include <boost/date_time/posix_time/posix_time.hpp>
 
 #include "ClientEvent.h"
 #include "Dispatcher.h"
 #include "PhysicsState.h"
 #include "PhysicsEngine.h"
-
+#include "BulletPhysicsEngine.h"
+#include "Rules.h"
+#include "MatchStatus.h"
 
 namespace freekick
 {
@@ -40,36 +42,27 @@ namespace freekick
             class Physics
             {
             public:
-                Physics ( );
+                Physics (boost::shared_ptr<Dispatcher> d, boost::shared_ptr<Rules> r, boost::shared_ptr<MatchStatus> ms);
                 virtual ~Physics ( );
-                void setPause (bool p );
-                void run ( );
+
+                bool run ( );
                 void newClientEvent (freekick::match::ClientEvent e );
-                bool stepPhysics ( );
 
-            private:
-
-                // Private attributes
-                //  
-
-                bool mPause;
-                PhysicsEventList mNewPhysicsEvents;
-                PhysicsEngine mPhysicsEngine;
-                PhysicsState mPhysicsState;
-                boost::shared_ptr<Dispatcher> mDispatcher;
-
-            public:
-
-                // Private attribute accessor methods
-                //  
-
+                PhysicsState getPhysicsState ( );
+                void setPause (bool p );
                 bool getPause ( );
                 void setNewPhysicsEvents ( PhysicsEventList new_var );
                 PhysicsEventList getNewPhysicsEvents ( );
-                void setPhysicsEngine ( PhysicsEngine new_var );
-                PhysicsEngine getPhysicsEngine ( );
-                void setPhysicsState ( PhysicsState new_var );
-                PhysicsState getPhysicsState ( );
+
+            private:
+
+                bool mPause;
+                PhysicsEventList mNewPhysicsEvents;
+                PhysicsState mPhysicsState;
+                boost::shared_ptr<Dispatcher> mDispatcher;
+                boost::shared_ptr<Rules> mRules;
+                boost::shared_ptr<MatchStatus> mMatchStatus;
+                boost::shared_ptr<PhysicsEngine> mPhysicsEngine;
 
             };
         }

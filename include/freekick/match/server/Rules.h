@@ -24,12 +24,11 @@
 
 #include <boost/shared_ptr.hpp>
 
+#include "MatchStatus.h"
 #include "RulesState.h"
 #include "PhysicsEvent.h"
 #include "Dispatcher.h"
 #include "RulesEvent.h"
-
-
 
 namespace freekick
 {
@@ -40,11 +39,10 @@ namespace freekick
             class Rules
             {
             public:
-                Rules ( );
+                Rules (boost::shared_ptr<Dispatcher> d, boost::shared_ptr<MatchStatus> ms);
                 virtual ~Rules ( );
-                Rules (RulesState rulesstatus);
                 void update (PhysicsEventList pes );
-                void createRulesEvents (/*Time t, */ PhysicsEventList pes, RulesEventList res );
+                void createRulesEvents (Time t, PhysicsEventList pes, RulesEventList res);
 
             private:
 
@@ -53,13 +51,13 @@ namespace freekick
 
                 boost::shared_ptr<RulesState> mRulesState;
                 boost::shared_ptr<Dispatcher> mDispatcher;
+                boost::shared_ptr<MatchStatus> mMatchStatus;
             public:
                 void setRulesState ( boost::shared_ptr<RulesState> new_var );
                 boost::shared_ptr<RulesState> getRulesState ( );
-                void setDispatcher ( boost::shared_ptr<Dispatcher> new_var );
-                boost::shared_ptr<Dispatcher> getDispatcher ( );
             };
         }
     }
 }
+
 #endif // RULES_H

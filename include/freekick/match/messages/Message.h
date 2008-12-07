@@ -76,32 +76,7 @@ namespace freekick
                 virtual const std::string toString() const = 0;
             };
 
-            std::string setToMessageList(const std::set<PlayerID>& c)
-            {
-                std::ostringstream oss(std::ostringstream::out);
-                oss << list_start;
-                std::set<PlayerID>::iterator it;
-                it = c.begin();
-
-                if(it != c.end())
-                {
-                    while(1)
-                    {
-                        oss << *it;
-                        it++;
-                        if(it != c.end())
-                        {
-                            oss << list_delim;
-                        }
-                        else
-                        {
-                            break;
-                        }
-                    }
-                }
-                oss << list_end;
-                return oss.str();
-            }
+            std::string setToMessageList(const std::set<PlayerID>& c);
         }
     }
 }

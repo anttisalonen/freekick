@@ -21,9 +21,11 @@
 
 #include <iostream>
 #include <exception>
+#include <fstream>
 
 #include <boost/thread/thread.hpp>
 #include <boost/bind.hpp>
+#include <boost/archive/text_oarchive.hpp>
 
 #include <Ogre.h>
 
@@ -84,6 +86,12 @@ int main(int argc, char** argv)
         {
             boost::thread network_thread(boost::bind(&run_network, network));
             network_thread.join();
+        }
+
+        {
+            std::ofstream ofs("matchstatus.dump");
+            boost::archive::text_oarchive oa(ofs);
+            oa << status;
         }
 
         delete graphics;

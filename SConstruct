@@ -24,8 +24,12 @@ match_env.Append(CPPPATH = ['./include/freekick/soccer'])
 match_env.Append(CPPPATH = ['./include/freekick/match'])
 match_env.Append(CPPPATH = ['./include/freekick/match/network'])
 match_env.Append(CPPPATH = ['./include/freekick/match/messages'])
+match_env.Append(CPPPATH = ['/usr/local/include/bullet'])
+
 match_name = 'lib/match'
-match_obj = match_env.Object(Glob('src/freekick/match/*.cpp') + Glob('src/freekick/match/network/*.cpp')) + soccer_obj
+match_obj = match_env.Object(Glob('src/freekick/match/*.cpp') + 
+                             Glob('src/freekick/match/network/*.cpp') +
+                             Glob('src/freekick/match/messages/*.cpp')) + soccer_obj
 match_env.Library(match_name, match_obj)
 
 
@@ -46,12 +50,13 @@ ogreclient_env.ParseConfig("pkg-config CEGUI-OGRE --cflags --libs")
 ogreclient_env.ParseConfig("pkg-config OIS --cflags --libs")
 ogreclient_env.ParseConfig("pkg-config CEGUI --cflags --libs")
 ogreclient_env['LIBS'] = ['boost_thread', 
-                      'boost_system', 
-                      'OgreMain', 
-                      'CEGUIBase', 
-                      'OIS', 
-                      'CEGUIOgreRenderer', 
-                      'match']
+                          'boost_system', 
+                          'boost_serialization',
+                          'OgreMain', 
+                          'CEGUIBase', 
+                          'OIS', 
+                          'CEGUIOgreRenderer', 
+                          'match']
 
 ogreclient_name = 'bin/client_ogre'
 ogreclient_files = Glob('src/freekick/match/client/*.cpp') + Glob('src/freekick/match/client/cl_ogre/*.cpp')
@@ -67,11 +72,16 @@ fkserver_env.Append(CPPPATH = ['./include/freekick/soccer'])
 fkserver_env.Append(CPPPATH = ['./include/freekick/match'])
 fkserver_env.Append(CPPPATH = ['./include/freekick/match/network'])
 fkserver_env.Append(CPPPATH = ['./include/freekick/match/server'])
+fkserver_env.Append(CPPPATH = ['/usr/local/include/bullet'])
 fkserver_env.Append(LIBPATH = ['./lib'])
 
 fkserver_env['LIBS'] = ['boost_thread', 
-                      'boost_system', 
-                      'match']
+                        'boost_system', 
+                        'boost_serialization',
+                        'match',
+                        'LibBulletDynamics',
+                        'LibBulletCollision',
+                        'LibLinearMath']
 
 fkserver_name = 'bin/fkserver'
 fkserver_files = Glob('src/freekick/match/server/*.cpp')

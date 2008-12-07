@@ -28,10 +28,11 @@ namespace freekick
         {
             namespace cl_ogre
             {
-// Constructors/Destructors
-//  
-
-                InputHandler::InputHandler (InputConfiguration* inputconf, const std::string& windowhnd, unsigned int width, unsigned int height, Ogre::SceneNode* c) 
+                InputHandler::InputHandler (InputConfiguration* inputconf, 
+                                            const std::string& windowhnd, 
+                                            unsigned int width, 
+                                            unsigned int height, 
+                                            Ogre::SceneNode* c) 
                     : inputconfiguration(inputconf)
                 {
                     mRotate = 0.13;

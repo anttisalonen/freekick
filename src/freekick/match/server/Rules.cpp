@@ -29,78 +29,31 @@ namespace freekick
     {
         namespace server
         {
-            Rules::Rules ( ) {
+            Rules::Rules (boost::shared_ptr<Dispatcher> d, boost::shared_ptr<MatchStatus> ms)
+                : mDispatcher(d)
+                , mMatchStatus(ms)
+            {
             }
 
             Rules::~Rules ( ) { }
 
-//  
-// Methods
-//  
-
-
-// Accessor methods
-//  
-
-
-// Private attribute accessor methods
-//  
-
-
-/**
- * Set the value of mRulesState
- * @param new_var the new value of mRulesState
- */
-            void Rules::setRulesState ( boost::shared_ptr<RulesState> new_var ) {
+            void Rules::setRulesState ( boost::shared_ptr<RulesState> new_var ) 
+            {
                 mRulesState = new_var;
             }
 
-/**
- * Get the value of mRulesState
- * @return the value of mRulesState
- */
-            boost::shared_ptr<RulesState> Rules::getRulesState ( ) {
+            boost::shared_ptr<RulesState> Rules::getRulesState ( ) 
+            {
                 return mRulesState;
             }
 
-/**
- * Set the value of mDispatcher
- * @param new_var the new value of mDispatcher
- */
-            void Rules::setDispatcher ( boost::shared_ptr<Dispatcher> new_var ) {
-                mDispatcher = new_var;
-            }
-
-/**
- * Get the value of mDispatcher
- * @return the value of mDispatcher
- */
-            boost::shared_ptr<Dispatcher> Rules::getDispatcher ( ) {
-                return mDispatcher;
-            }
-
-// Other methods
-//  
-
-            Rules::Rules (RulesState rulesstatus) {
+            void Rules::update (PhysicsEventList pes ) 
+            {
 
             }
 
-
-/**
- * @param  pes
- */
-            void Rules::update (PhysicsEventList pes ) {
-
-            }
-
-
-/**
- * @param  t
- * @param  pes
- * @param  res
- */
-            void Rules::createRulesEvents (/*Time t, */ PhysicsEventList pes, RulesEventList res ) {
+            void Rules::createRulesEvents (Time t, PhysicsEventList pes, RulesEventList res ) 
+            {
 
             }
         }
