@@ -25,6 +25,7 @@
 #include <iostream>
 
 #include <boost/exception.hpp>
+#include <boost/version.hpp>
 
 /**
  * class Exception
