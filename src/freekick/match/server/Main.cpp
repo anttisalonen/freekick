@@ -25,6 +25,8 @@
 #include <boost/thread/thread.hpp>
 #include <boost/bind.hpp>
 
+#include "addutil/Exception.h"
+
 #include "freekick/match/server/ServerManager.h"
 #include "MatchStatus.h"
 
@@ -52,7 +54,7 @@ int main(int argc, char** argv)
     }
     catch (boost::exception& e)
     {
-        std::cerr << "A boost::exception has occurred: " << e.diagnostic_information() << std::endl;
+        addutil::output_boost_exception(e);
     }
     catch (std::exception& e)
     {

@@ -54,7 +54,7 @@ namespace addutil
             }
             catch (boost::exception& e)
             {
-                std::cerr << "Server::startListening: A boost::exception has occurred: " << e.diagnostic_information() << std::endl;
+                output_boost_exception(e, "Server::startListening: A boost::exception has occurred");
             }
             catch (std::exception& e)
             {
@@ -92,7 +92,7 @@ namespace addutil
             }
             catch (boost::exception& e)
             {
-                std::cerr << "Server::write: A boost::exception has occurred: " << e.diagnostic_information() << std::endl;
+                output_boost_exception(e, "Server::write: A boost::exception has occurred");
                 cleanup_client(id);
             }
         }

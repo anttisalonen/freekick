@@ -75,13 +75,29 @@ fkserver_env.Append(CPPPATH = ['./include/freekick/match/server'])
 fkserver_env.Append(CPPPATH = ['/usr/local/include/bullet'])
 fkserver_env.Append(LIBPATH = ['./lib'])
 
+fkserver_conf = Configure(fkserver_env)
+bullet273libs = ['LibBulletDynamics',
+                 'LibBulletCollision',
+                 'LibLinearMath']
+bullet274libs = ['bulletdynamics',
+                 'bulletcollision',
+                 'bulletmath']
+
+
+if not fkserver_conf.CheckLib(bullet273libs):
+    if not fkserver_conf.CheckLib(bullet274libs):
+        print "Bullet libs not found, exiting."
+        Exit(1)
+    else:
+        bulletlib = bullet274libs
+else:
+    bulletlib = bullet273libs
+
 fkserver_env['LIBS'] = ['boost_thread', 
                         'boost_system', 
                         'boost_serialization',
                         'match',
-                        'LibBulletDynamics',
-                        'LibBulletCollision',
-                        'LibLinearMath']
+                         bulletlib]
 
 fkserver_name = 'bin/fkserver'
 fkserver_files = Glob('src/freekick/match/server/*.cpp')

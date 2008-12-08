@@ -26,8 +26,11 @@
 #include <boost/thread/thread.hpp>
 #include <boost/bind.hpp>
 #include <boost/archive/text_oarchive.hpp>
+#include <boost/exception.hpp>
 
 #include <Ogre.h>
+
+#include "addutil/Exception.h"
 
 #include "Input.h"
 #include "InputHandler.h"
@@ -102,7 +105,7 @@ int main(int argc, char** argv)
     }
     catch (boost::exception& e)
     {
-        std::cerr << "A boost::exception has occurred: " << e.diagnostic_information() << std::endl;
+	addutil::output_boost_exception(e);
     }
     catch(Ogre::Exception& e)
     {
