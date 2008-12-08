@@ -25,13 +25,19 @@ namespace freekick
     {
         namespace server
         {
-            ServerManager::ServerManager(unsigned int port, boost::shared_ptr<freekick::match::MatchStatus> ms)
+            ServerManager::ServerManager(unsigned int port, 
+                                         boost::shared_ptr<freekick::match::MatchStatus> ms,
+                                         const std::string& servername,
+                                         const std::string& greeting)
                 : mPort(port), 
                   clients(new ClientList()),
                   d(new Dispatcher(clients, this)),
                   r(new Rules(d, ms)),
                   p(new Physics(d, r, ms)),
-                  cel(new ClientEventListener(clients))
+                  cel(new ClientEventListener(clients)),
+                  name(servername),
+                  greet(greeting),
+                  protocol_version("0.2")
             {
             }
 
@@ -55,7 +61,8 @@ namespace freekick
             void ServerManager::client_connected(client_id id)
             {
                 std::cerr << "Client " << id << " connected.\n";
-                write("Welcome to the Freekick server\n", id);
+                messages::ServerInitMessage sim(name, protocol_version, greet);
+                write(sim.toString(), id);
                 (*clients)[id] = Client(id);
             }
 

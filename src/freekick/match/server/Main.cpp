@@ -45,7 +45,9 @@ int main(int argc, char** argv)
     {
         boost::shared_ptr<MatchStatus> status(new MatchStatus());
         std::cerr << "Starting Freekick server" << std::endl;
-        ServerManager sm(32105, status);
+        ServerManager sm(32105, status, 
+                         "Freekick C++ Server", 
+                         "Welcome to the world's second Freekick server!\nHopefully you enjoy your stay.");
         sm.run();
     }
     catch (boost::exception& e)

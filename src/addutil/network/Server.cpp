@@ -137,10 +137,10 @@ namespace addutil
                 catch (...)
                 {
                     std::cerr << "Server::read_loop: An exception has occurred." << std::endl;
-                    cleanup_client(c->getID());
+                    break;
                 }
             }
+            cleanup_client(c->getID());
         }
-
     }
 }

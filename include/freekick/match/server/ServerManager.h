@@ -35,6 +35,7 @@
 #include "Dispatcher.h"
 #include "Rules.h"
 #include "Physics.h"
+#include "messages/ServerInitMessage.h"
 
 /**
  * class ServerManager
@@ -53,7 +54,10 @@ namespace freekick
             class ServerManager : public addutil::network::Server
             {
             public:
-                ServerManager(unsigned int port, boost::shared_ptr<freekick::match::MatchStatus> ms);
+                ServerManager(unsigned int port, 
+                              boost::shared_ptr<freekick::match::MatchStatus> ms,
+                              const std::string& servername,
+                              const std::string& greeting);
                 virtual ~ServerManager();
                 void client_connected(client_id id);
                 void client_disconnected(client_id id);
@@ -66,6 +70,9 @@ namespace freekick
                 boost::shared_ptr<Rules> r;
                 boost::shared_ptr<Physics> p;
                 boost::shared_ptr<ClientEventListener> cel;
+                std::string name;
+                std::string greet;
+                std::string protocol_version;
             };
         }
     }
