@@ -1,5 +1,7 @@
 .sconsign.dblite
+.sconf_temp/
 *.o
+*~
 bin/
 lib/
 tmp/

@@ -22,6 +22,7 @@
 #define ADDUTIL_NETWORK_CONNECTION_H
 
 #include <vector>
+#include <iostream>
 
 #include <boost/asio.hpp>
 #include <boost/shared_ptr.hpp>
