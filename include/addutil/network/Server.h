@@ -64,7 +64,7 @@ namespace addutil
 
         private:
             void read_loop(ConnectionPtr c);
-            void cleanup_client(client_id id);
+            void cleanup_client(client_id id, bool already_notified = false);
             std::map<client_id, ConnectionPtr> connections;
             boost::shared_ptr<boost::asio::io_service> ioserv;
             client_id next_id;

@@ -26,6 +26,7 @@
 #include <sstream>
 #include <set>
 #include <cctype>
+#include <cstdlib>
 
 namespace freekick
 {

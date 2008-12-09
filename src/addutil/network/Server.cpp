@@ -100,10 +100,10 @@ namespace addutil
         void Server::disconnect(client_id id)
         {
             std::cerr << "Server::disconnect: disconnecting client " << id << std::endl;
-            cleanup_client(id);
+            cleanup_client(id, true);
         }
 
-        void Server::cleanup_client(client_id id)
+        void Server::cleanup_client(client_id id, bool already_notified)
         {
             std::cerr << "Server::cleanup_client: cleaning up.\n";
             std::map<client_id, ConnectionPtr>::iterator it;
@@ -113,7 +113,8 @@ namespace addutil
                 (*it).second->disconnect();
                 connections.erase(it);
             }
-            client_disconnected(id);
+            if(!already_notified)
+                client_disconnected(id);
         }
 
         void Server::multicast(const std::string& msg, const std::set<client_id>& ids)

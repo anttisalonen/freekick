@@ -58,17 +58,20 @@ namespace freekick
                 int state = 0;
                 PlayerID n;
                 std::string num("");
-                std::stringstream nums;
                 s.clear();
                 for (it = m.begin(); it < m.end(); it++)
                 {
                     if(isspace(*it)) continue;
+                    if(*it == ']' && state == 1)
+                    {
+                        state = 3; 
+                        continue;
+                    }
                     switch(state)
                     {
                         case -1:
                             return false;
                         case 0:
-                            std::cout << "State 0: " << *it << std::endl;
                             if (*it == '[')
                             {
                                 state = 1;
@@ -76,7 +79,6 @@ namespace freekick
                             }
                             return false;
                         case 1:
-                            std::cout << "State 1: " << *it << std::endl;
                             num = "";
                             while(isdigit(*it))
                             {
@@ -84,8 +86,7 @@ namespace freekick
                                 it++;
                             }
                             it--;
-                            nums.str(num);
-                            nums >> n;
+                            n = atoi(num.c_str());
                             std::cout << "n: " << n << std::endl;
                             if (n == 0)
                                 return false;
@@ -93,7 +94,6 @@ namespace freekick
                             state = 2;
                             break;
                         case 2:
-                            std::cout << "State 2: " << *it << std::endl;
                             if(*it == ']')
                             {
                                 state = 3;
@@ -106,12 +106,13 @@ namespace freekick
                             }
                             return false;
                         case 3:
-                            std::cout << "State 3: " << *it << std::endl;
                         default:
                             return false;
                     }
                 }
-                return true;
+                if(state == 3)
+                    return true;
+                return false;
             }
         }
     }

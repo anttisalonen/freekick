@@ -67,8 +67,13 @@ namespace freekick
 
             void ServerManager::client_disconnected(client_id id)
             {
-                clients->erase(clients->find(id));
+                ClientList::iterator it;
+                it = clients->find(id);
                 std::cerr << "Client " << id << " disconnected.\n";
+                if (it != clients->end())
+                {
+                    clients->erase(it);
+                }
                 remove_from_group(id, 1);
             }
 
@@ -89,7 +94,7 @@ namespace freekick
                     {
                         messages::ClientInitMessage cim(msg);
                     }
-                    catch (std::string& s)
+                    catch (const char* s)
                     {
                         std::cerr << "Could not parse ClientInitMessage: " << s << std::endl;
                         disconnect(id);

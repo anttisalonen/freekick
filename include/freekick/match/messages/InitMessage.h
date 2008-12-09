@@ -43,7 +43,7 @@ namespace freekick
                 InitMessage(std::string& msg)
                 {
                     using namespace boost;
-                    regex expr("(.+?) \"(.+?)\" \"(.+?)\"(.*)");
+                    regex expr("([[:print:]]+?) \"([[:print:]]+?)\" \"([[:print:]]+?)\"(.*)");
                     cmatch what;
                     std::cout << "Parsing Init message\n";
                     if(regex_match(msg.c_str(), what, expr))
