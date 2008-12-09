@@ -25,6 +25,7 @@
 #include <iostream>
 #include <sstream>
 #include <set>
+#include <cctype>
 
 namespace freekick
 {
@@ -77,6 +78,7 @@ namespace freekick
             };
 
             std::string setToMessageList(const std::set<PlayerID>& c);
+            bool messageListToSet(const std::string m, std::set<PlayerID>& s);
         }
     }
 }

@@ -43,6 +43,28 @@ namespace freekick
                     , m_players(players)
                 {
                 }
+                ClientInitMessage(std::string& msg)
+                    : InitMessage(msg)
+                {
+                    using namespace boost;
+                    std::cout << "Message: " << msg << std::endl;
+                    regex expr(" *\"(.+?)\" +(.) +(.*)");
+                    cmatch what;
+                    std::cout << "Parsing Client Init message\n";
+                    if(regex_match(msg.c_str(), what, expr))
+                    {
+                        std::cout << "Parsing Client Init message successful\n";
+                        m_username.assign(what[1].first, what[1].second);
+                        m_type.assign(what[2].first, what[2].second);
+                        std::string mlist;
+                        mlist.assign(what[3].first, what[3].second);
+                        bool successful = messageListToSet(mlist, m_players);
+                        if(!successful) throw "ClientInitMessage: failed parse";
+                    }
+                    else
+                        throw "ClientInitMessage: failed parse";
+                }
+
                 virtual ~ClientInitMessage() { }
                 const std::string toString() const
                 {

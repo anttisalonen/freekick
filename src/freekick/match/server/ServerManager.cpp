@@ -63,18 +63,47 @@ namespace freekick
                 std::cerr << "Client " << id << " connected.\n";
                 messages::ServerInitMessage sim(name, protocol_version, greet);
                 write(sim.toString(), id);
-                (*clients)[id] = Client(id);
             }
 
             void ServerManager::client_disconnected(client_id id)
             {
                 clients->erase(clients->find(id));
                 std::cerr << "Client " << id << " disconnected.\n";
+                remove_from_group(id, 1);
             }
 
-            void ServerManager::client_input(client_id id, const std::string& msg)
+            void ServerManager::client_input(client_id id, std::string& msg)
             {
-                cel->newData(id, msg);
+                ClientList::iterator it;
+                std::cout << "Client Input: " << msg << std::endl;
+                it = clients->find(id);
+                if (it != clients->end())
+                {
+                    cel->newData(id, msg);
+                    return;
+                }
+                else    // handshake
+                {
+                    std::cout << "Handshake\n";
+                    try
+                    {
+                        messages::ClientInitMessage cim(msg);
+                    }
+                    catch (std::string& s)
+                    {
+                        std::cerr << "Could not parse ClientInitMessage: " << s << std::endl;
+                        disconnect(id);
+                        return;
+                    }
+                    catch (...)
+                    {
+                        std::cerr << "Could not parse ClientInitMessage" << std::endl;
+                        disconnect(id);
+                        return;
+                    }
+                }
+                add_to_group(id, 1);    // TODO: enum instead of 1 (gid)
+                (*clients)[id] = Client(id);
             }
         }
     }

@@ -21,6 +21,8 @@
 #ifndef FREEKICK_MATCH_MESSAGES_INITMESSAGE_H
 #define FREEKICK_MATCH_MESSAGES_INITMESSAGE_H
 
+#include <boost/regex.hpp>
+
 #include "Message.h"
 
 namespace freekick
@@ -32,11 +34,28 @@ namespace freekick
             class InitMessage : public Message
             {
             public:
-                InitMessage(const std::string& identification, const std::string& name, const std::string& protocol)
+                InitMessage(const std::string& identification = "", const std::string& name = "", const std::string& protocol = "")
                     : m_identification(identification)
                     , m_name(name)
                     , m_protocol(protocol)
                 {
+                }
+                InitMessage(std::string& msg)
+                {
+                    using namespace boost;
+                    regex expr("(.+?) \"(.+?)\" \"(.+?)\"(.*)");
+                    cmatch what;
+                    std::cout << "Parsing Init message\n";
+                    if(regex_match(msg.c_str(), what, expr))
+                    {
+                        std::cout << "Parsing Init message successful\n";
+                        m_identification.assign(what[1].first, what[1].second);
+                        m_name.assign(what[2].first, what[2].second);
+                        m_protocol.assign(what[3].first, what[3].second);
+                        msg.assign(what[4].first, what[4].second);
+                    }
+                    else
+                        throw "InitMessage: failed parse";
                 }
                 virtual ~InitMessage() { }
 

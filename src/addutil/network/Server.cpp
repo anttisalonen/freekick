@@ -75,7 +75,7 @@ namespace addutil
             std::map<client_id, ConnectionPtr>::iterator it;
             for (it = connections.begin(); it != connections.end(); it++)
             {
-                (*it).second->disconnect();
+                cleanup_client((*it).first);
             }
             connections.clear();
         }
@@ -97,22 +97,64 @@ namespace addutil
             }
         }
 
+        void Server::disconnect(client_id id)
+        {
+            std::cerr << "Server::disconnect: disconnecting client " << id << std::endl;
+            cleanup_client(id);
+        }
+
         void Server::cleanup_client(client_id id)
         {
             std::cerr << "Server::cleanup_client: cleaning up.\n";
             std::map<client_id, ConnectionPtr>::iterator it;
             it = connections.find(id);
-            (*it).second->disconnect();
-            connections.erase(it);
+            if(it != connections.end())   // already gone?
+            {
+                (*it).second->disconnect();
+                connections.erase(it);
+            }
             client_disconnected(id);
         }
 
-        void Server::multicast(const std::string& msg, const std::vector<client_id>& ids)
+        void Server::multicast(const std::string& msg, const std::set<client_id>& ids)
         {
             BOOST_FOREACH(client_id i, ids)
             {
                 write(msg, i);
             }
+        }
+
+        void Server::multicast(const std::string& msg, group_id gid)
+        {
+            GroupMap::iterator it;
+            it = groups.find(gid);
+            if (it == groups.end()) return;
+            clientset* cs = &groups[gid];
+            BOOST_FOREACH(client_id i, *cs)
+            {
+                write(msg, i);
+            }
+        }
+
+        void Server::add_to_group(client_id cid, group_id gid)
+        {
+            GroupMap::iterator it;
+            it = groups.find(gid);
+            if (it == groups.end()) groups[gid] = clientset();
+            clientset::iterator it2;
+            groups[gid].insert(cid);
+        }
+
+        void Server::remove_from_group(client_id cid, group_id gid)
+        {
+            GroupMap::iterator it;
+            it = groups.find(gid);
+            if (it == groups.end()) return;
+            clientset::iterator it2;
+            clientset* cs = &groups[gid];
+            it2 = cs->find(cid);
+            if (it2 != cs->end())
+                cs->erase(it2);
         }
 
         void Server::broadcast(const std::string& msg)

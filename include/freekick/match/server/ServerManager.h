@@ -35,6 +35,7 @@
 #include "Dispatcher.h"
 #include "Rules.h"
 #include "Physics.h"
+#include "messages/ClientInitMessage.h"
 #include "messages/ServerInitMessage.h"
 
 /**
@@ -61,7 +62,7 @@ namespace freekick
                 virtual ~ServerManager();
                 void client_connected(client_id id);
                 void client_disconnected(client_id id);
-                void client_input(client_id id, const std::string& msg);
+                void client_input(client_id id, std::string& msg);
                 bool run();
             private:
                 unsigned int mPort;

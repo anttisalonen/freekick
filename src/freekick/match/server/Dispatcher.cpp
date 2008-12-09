@@ -77,7 +77,7 @@ namespace freekick
                     oss << c.toString();
                 }
                 oss << "\n";
-                srv.broadcast(oss.str());
+                srv.multicast(oss.str(), 1);  // TODO: enum instead of 1 (gid)
             }
 
             /*

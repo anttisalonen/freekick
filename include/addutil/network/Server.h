@@ -22,6 +22,7 @@
 #define ADDUTIL_NETWORK_SERVER_H
 
 #include <vector>
+#include <set>
 
 #include <boost/asio.hpp>
 #include <boost/exception.hpp>
@@ -39,6 +40,9 @@ namespace addutil
     namespace network
     {
         typedef unsigned int client_id;
+        typedef unsigned int group_id;
+        typedef std::multiset<client_id> clientset;
+        typedef std::map<group_id, clientset> GroupMap;
         typedef boost::shared_ptr<Connection> ConnectionPtr;
         class Server
         {
@@ -50,9 +54,13 @@ namespace addutil
             virtual void client_connected(client_id id) = 0;
             virtual void client_disconnected(client_id id) = 0;
             void write(const std::string& msg, client_id id);
-            void multicast(const std::string& msg, const std::vector<client_id>& ids);
+            void disconnect(client_id id);
+            void multicast(const std::string& msg, const std::set<client_id>& ids);
+            void multicast(const std::string& msg, group_id gid);
+            void add_to_group(client_id cid, group_id gid);
+            void remove_from_group(client_id cid, group_id gid);
             void broadcast(const std::string& msg);
-            virtual void client_input(client_id id, const std::string& msg) = 0;
+            virtual void client_input(client_id id, std::string& msg) = 0;
 
         private:
             void read_loop(ConnectionPtr c);
@@ -62,6 +70,7 @@ namespace addutil
             client_id next_id;
             int portnumber;
             bool listening;
+            GroupMap groups;
         };
     }
 }
