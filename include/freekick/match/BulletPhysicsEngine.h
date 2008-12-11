@@ -22,6 +22,8 @@
 #ifndef BULLETPHYSICSENGINE_H
 #define BULLETPHYSICSENGINE_H
 
+#include <map>
+
 #include <boost/shared_ptr.hpp>
 
 #include "btBulletDynamicsCommon.h"
@@ -33,6 +35,7 @@ namespace freekick
 {
     namespace match
     {
+        typedef std::map<ObjectID, btRigidBody*> ObjectMap;
         class BulletPhysicsEngine : public PhysicsEngine
         {
         public:
@@ -41,6 +44,8 @@ namespace freekick
             ObjectID addStaticBoxObject(addutil::Vector3 shape, addutil::Vector3 loc);
             ObjectID addDynamicBoxObject(addutil::Vector3 size, float mass, addutil::Vector3 loc);
             ObjectID addDynamicSphereObject(float radius, float mass, addutil::Vector3 loc);
+            ObjectID addControllableObject(addutil::Vector3 size, float mass, addutil::Vector3 loc);
+            bool setObjectVelocity(ObjectID oid, const addutil::Vector3& vel);
             bool removeObject(ObjectID oid);
             bool stepWorld(float steptime);
 
@@ -72,6 +77,7 @@ namespace freekick
             btAlignedObjectArray<btCollisionShape*> collisionShapes;
 
             ObjectID mNextObjectID;
+            ObjectMap mObjectMap;
         };
     }
 }

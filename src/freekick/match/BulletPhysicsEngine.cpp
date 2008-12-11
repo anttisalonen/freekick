@@ -123,6 +123,26 @@ namespace freekick
             return addDynamicObject(colShape, mass, loc);
         }
 
+        ObjectID BulletPhysicsEngine::addControllableObject(addutil::Vector3 size, float mass, addutil::Vector3 loc)
+        {
+            return addDynamicBoxObject(size, mass, loc);
+        }
+
+        bool BulletPhysicsEngine::setObjectVelocity(ObjectID oid, const addutil::Vector3& vel)
+        {
+            ObjectMap::iterator it;
+            it = mObjectMap.find(oid);
+            if (it == mObjectMap.end())
+                return false;
+            const btVector3 bv(vel.x, vel.y, vel.z);
+
+            it->second->activate(true);
+            it->second->setLinearVelocity(bv);
+            const btVector3& bv2 = it->second->getLinearVelocity();
+            std::cout << "setObjectVelocity: " << bv2.x() << "\t" << bv2.y() << "\t" << bv2.z() << std::endl;
+            return true;
+        }
+
         ObjectID BulletPhysicsEngine::addDynamicObject(btCollisionShape* colShape, float mass, Vector3 loc)
         {
             if(mass <= 0.0f) throw "BulletPhysicsEngine::addDynamicObject: invalid mass";
@@ -144,6 +164,7 @@ namespace freekick
             btRigidBody::btRigidBodyConstructionInfo rbInfo(ms, myMotionState, colShape, localInertia);
             btRigidBody* body = new btRigidBody(rbInfo);
 
+            mObjectMap[mNextObjectID] = body;
             return addObject(body);
         }
 

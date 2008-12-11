@@ -34,7 +34,7 @@ namespace freekick
                   d(new Dispatcher(clients, this)),
                   r(new Rules(d, ms)),
                   p(new Physics(d, r, ms)),
-                  cel(new ClientEventListener(clients)),
+                  cel(new ClientEventListener(clients, p)),
                   name(servername),
                   greet(greeting),
                   protocol_version("0.2")

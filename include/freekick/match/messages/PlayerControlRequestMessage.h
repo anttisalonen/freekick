@@ -37,6 +37,7 @@ namespace freekick
                 {
                 }
                 virtual ~PlayerControlRequestMessage() { }
+
                 const std::string toString() const
                 {
                     return listParamString(c_pl_cont_req, m_plids);

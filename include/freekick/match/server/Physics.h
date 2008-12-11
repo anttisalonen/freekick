@@ -32,6 +32,7 @@
 #include "BulletPhysicsEngine.h"
 #include "Rules.h"
 #include "MatchStatus.h"
+#include "messages/MovePlayerControlMessage.h"
 
 namespace freekick
 {
@@ -46,7 +47,7 @@ namespace freekick
                 virtual ~Physics ( );
 
                 bool run ( );
-                void newClientEvent (freekick::match::ClientEvent e );
+                void newClientEvent (const messages::MovePlayerControlMessage& e );
 
                 PhysicsState getPhysicsState ( );
                 void setPause (bool p );

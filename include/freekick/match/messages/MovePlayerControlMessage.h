@@ -29,7 +29,7 @@ namespace freekick
     {
         namespace messages
         {
-            class MovePlayerControlMessage : public PlayerControlMessage
+            class MovePlayerControlMessage : public PlayerControlMessage // , public ClientMessage
             {
             public:
                 MovePlayerControlMessage(PlayerID plid, addutil::Vector3 tgtvec)
@@ -37,11 +37,21 @@ namespace freekick
                 {
                 }
                 virtual ~MovePlayerControlMessage() { }
+                MovePlayerControlMessage(std::string& msg)
+                    : PlayerControlMessage(msg)
+                {
+                }
+
                 const std::string toString() const
                 {
                     return contString(c_pl_ctl_move);
                 }
-
+/*
+                void accept(const ClientMessageVisitor& cmv)
+                {
+                    cmv.visit(*this);
+                }
+*/
             private:
             };
         }

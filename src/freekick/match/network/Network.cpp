@@ -67,69 +67,29 @@ namespace freekick
                     return;
                 }
 
-                std::vector<std::string> read_strings;
-                splitstr_and_fill(read_strings, buffer, "\n");
-                buffer = read_strings.back();
-                read_strings.pop_back();
-                BOOST_FOREACH(std::string b, read_strings)
+                if(handshake)
                 {
-                    if(handshake)
-                    {
-                        using namespace std;
-                        std::cerr << "Handling handshake\n";
-                        handshake = false;
-                        std::deque<std::string> split_strings;
-                        std::string curr_string;
-
-                        splitstr_and_fill(split_strings, b, "homecl = Club {name = \"");
-                        curr_string = split_strings.back();
-                        split_strings.pop_back();
-                        splitstr_and_fill(split_strings, curr_string, "awaycl = Club {name = \"");
-                        curr_string = split_strings.back();
-                        split_strings.pop_back();
-
-                        splitstr_and_fill(split_strings, curr_string, "idnum = ");
-                        std::cerr << "Split strings\n";
-
-                        string c1name("c1"), c2name("c2");
-                        vector<int> c1pls, c2pls;
-
-                        split_strings.pop_front();
-                        cut_from_string(split_strings[0], "\"", "\"", c1name);
-                        split_strings.pop_front();
-                        cut_from_string(split_strings[0], "\"", "\"", c2name);
-                        split_strings.pop_front();
-                        std::cout << "Club 1 name: " << c1name << std::endl;
-                        std::cout << "Club 2 name: " << c2name << std::endl;
-
-                        status->addClub(c1name);
-                        status->addClub(c2name);
-                        std::cerr << "Added clubs\n";
-
-                        get_int(c1pls, split_strings, string("awaypl = [Player {"));
-                        BOOST_FOREACH(int p, c1pls)
-                        {
-                            Color c(1.0f, 0.0f, 0.0f);
-                            status->addPlayer(c1name, p, c);
-                            cout << "Club 1 player ID: " << p << endl;
-                        }
-
-                        get_int(c2pls, split_strings, string("homepl = [Player {"));
-
-                        BOOST_FOREACH(int p, c2pls)
-                        {
-                            Color c(0.0f, 0.0f, 1.0f);
-                            status->addPlayer(c2name, p, c);
-                            cout << "Club 2 player ID: " << p << endl;
-                        }
-                        std::cerr << "Added players\n";
-                        write("\nOK []\n");
-                        std::cerr << "Wrote OK\n";
-                    }
-                    else
+                    std::cout << "Received: " << buf << std::endl;
+                    write("FREEKICK_CLIENT \"Client with ncurses 0.15b\" \"0.2\" \"username/password\" H [2045,49]");
+                    
+                    Color c(1.0f, 0.0f, 0.0f);
+                    status->addClub("club1");
+                    status->addPlayer("club1", 2, c);
+                    status->addPlayer("club1", 3, c);
+                    std::cout << "Club 1 player ID: " << 2 << std::endl;
+                    handshake = false;
+                }
+                else
+                {
+                    std::vector<std::string> read_strings;
+                    splitstr_and_fill(read_strings, buffer, "\n");
+                    buffer = read_strings.back();
+                    read_strings.pop_back();
+                    BOOST_FOREACH(std::string b, read_strings)
                     {
                         std::deque<std::string> events;
                         parse_events(b, events);
+                        std::cout << "Number of events: " << events.size() << std::endl;
 
                         while(events.size() > 0)
                         {

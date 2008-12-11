@@ -40,6 +40,36 @@ namespace freekick
                 {
                 }
                 virtual ~PlayerControlMessage() { }
+                PlayerControlMessage(std::string& msg)
+                {
+                    using namespace boost;
+                    std::cout << "Message: " << msg << std::endl;
+                    // TODO: read action types from Message.h
+                    regex expr(".*?\\((a|b|c|d|e|f) +([0-9]+) +([[:print:]]+?) +([[:print:]]+?) +([[:print:]]+?)( |\\))(.*)");
+                    cmatch what;
+                    std::cout << "Parsing Player Control message\n";
+                    if(regex_match(msg.c_str(), what, expr))
+                    {
+                        std::string s1, s2, s3, s4;
+                        s1.assign(what[2].first, what[2].second);
+                        s2.assign(what[3].first, what[3].second);
+                        s3.assign(what[4].first, what[4].second);
+                        s4.assign(what[5].first, what[5].second);
+                        m_plid = atoi(s1.c_str());
+                        m_tgtvec.x = atof(s2.c_str());
+                        m_tgtvec.y = atof(s3.c_str());
+                        m_tgtvec.z = atof(s4.c_str());
+                        msg.assign(what[7].first, what[7].second);
+                        std::cout << "Parsing Player Control Message successful: " 
+                                  << m_plid << "\t" << m_tgtvec.x << "\t" << m_tgtvec.y << "\t"
+                                  << m_tgtvec.z << std::endl;
+                    }
+                    else
+                        throw "PlayerControlMessage: failed parse";                    
+                }
+
+                PlayerID getPlayerID() const { return m_plid; }
+                void getTargetVector(addutil::Vector3& t) const { t = m_tgtvec; }
 
             protected:
                 const std::string contString(const std::string& type, bool incl_tgtvec = true, const std::string& extra_info = "") const

@@ -35,6 +35,7 @@ namespace freekick
                 ParameterMessage()
                 {
                 }
+
                 virtual ~ParameterMessage() { }
 
             protected:

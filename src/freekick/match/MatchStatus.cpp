@@ -45,9 +45,9 @@ namespace freekick
         void MatchStatus::newEvent (const std::string& evt ) 
         {
             int n, v;
-            float x, y, z, a, b, g;
+            float x, y, z, qw, qx, qy, qz;
             std::istringstream ist(evt);
-            ist >> n >> v >> x >> y >> z >> a >> b >> g;
+            ist >> n >> v >> x >> y >> z >> qw >> qx >> qy >> qz;
             if(n == -2)
             {
                 ball->update(v, x, y, z);
@@ -56,7 +56,7 @@ namespace freekick
             typedef std::pair<std::string, boost::shared_ptr<MatchClub> > pair_cl;
             BOOST_FOREACH(pair_cl cl, clubs)
             {
-                if (cl.second->updatePlayer(n, v, x, y, z))
+                if (cl.second->updatePlayer(n, v, x, y, z, qw, qx, qy, qz))
                     return;
             }
         }

@@ -61,6 +61,7 @@ namespace addutil
         void setAutomaticOrientation(bool a);
         void update(float interval);
         void update(int v, float x, float y, float z);
+        void updateOrientation(int v, float w, float x, float y, float z);
         void interpolate(boost::posix_time::ptime pt);
         virtual const int getID() = 0;
 

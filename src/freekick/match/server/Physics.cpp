@@ -39,7 +39,8 @@ namespace freekick
             {
                 mPhysicsEngine->subscribePhysics(mDispatcher);
                 mPhysicsEngine->addStaticBoxObject(Vector3(50, 50, 50), Vector3(0, -50, 0));
-                mPhysicsEngine->addDynamicSphereObject(1.0f, 5.0f, Vector3(10, 50, 10));
+                mPhysicsEngine->addDynamicSphereObject(1.0f, 5.0f, Vector3(10, 500, 10));
+                mPhysicsEngine->addControllableObject(Vector3(1.0f, 2.0f, 1.0f), 80.0f, Vector3(20, 2, 20));
             }
 
             Physics::~Physics ( ) 
@@ -86,9 +87,15 @@ namespace freekick
                 return true;
             }
 
-            void Physics::newClientEvent (ClientEvent e ) 
+            void Physics::newClientEvent (const messages::MovePlayerControlMessage& e ) 
             {
-
+                using namespace messages;
+                addutil::Vector3 v;
+                e.getTargetVector(v);
+                if (!mPhysicsEngine->setObjectVelocity(e.getPlayerID(), v))
+                {
+                    std::cerr << "Physics::newClientEvent: Invalid player ID\n";
+                }
             }
         }
     }

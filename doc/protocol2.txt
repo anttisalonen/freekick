@@ -269,7 +269,7 @@ kick parameters: player_id desired_ball_velocity_vector
 tackle parameters: player_id desired_tackle_vector
 hold_ball parameters: player_id desired_velocity_vector
 heading parameters: player_id desired_player_velocity_vector desired_ball_velocity_vector
-statusbits parameters: player_id controlled_status_bits
+statusbits parameters: player_id desired_dummy_vector controlled_status_bits
 e.g.
 (a 156 3.295 0 0)   # run along the x-axis with 3m/s
 (a 12843 0 10.29 0)  # jump
@@ -277,7 +277,7 @@ e.g.
 (c 375 2.5 0.0 9.7)                 # tackle
 (d 9573 2.59 0 2.0)                # run holding the ball in your hands
 (e 4886 4.6 10.49 2.2 43.2 -3.2 4.4) # head (jump and try to score north)
-(f 4865 2)                        # ask for support
+(f 4865 0.0 0.0 0.0 2)                        # ask for support
 Note: player_id should always be sent by the AI and by the human clients
 
 ------------------------------------------------------------------------------

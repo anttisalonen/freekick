@@ -29,8 +29,9 @@ namespace freekick
     {
         namespace server
         {
-            ClientEventListener::ClientEventListener (ClientListPtr clp)
-                : mClientList(clp)
+            ClientEventListener::ClientEventListener (ClientListPtr clp, boost::shared_ptr<Physics> p)
+                : mClientList(clp),
+                  mPhysics(p)
             {
             }
 
@@ -40,9 +41,40 @@ namespace freekick
 
             void ClientEventListener::newData (unsigned int id, buffer b ) 
             {
+                using namespace messages;
+
                 std::cerr << "ClientEventListener: New data received\n";
                 // TODO: validate, process, pass on to physics
+                std::string t;
+                try
+                {
+                    t = getMessageType(b);
+                }
+                catch(...)
+                {
+                    std::cerr << "ClientEventListener: received invalid message.\n";
+                    return;
+                }
+                if(t == c_pl_ctl_move)
+                {
+                    try
+                    {
+                        const messages::MovePlayerControlMessage m(b);
+                        mPhysics->newClientEvent(m);
+                    }
+                    catch(...)
+                    {
+                        std::cerr << "ClientEventListener: failed to parse MovePlayerControlMessage.\n";
+                        return;
+                    }
+                }
             }
+/*
+            void visit(const messages::MovePlayerControlMessage& mpcm)
+            {
+                mPhysics->newClientEvent(m);
+            }
+*/
         }
     }
 }

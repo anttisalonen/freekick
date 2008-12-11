@@ -30,6 +30,8 @@
 
 #include "addutil/network/Server.h"
 #include "freekick/match/Client.h"
+#include "Physics.h"
+#include "messages/MovePlayerControlMessage.h"
 
 
 namespace freekick
@@ -45,15 +47,16 @@ namespace freekick
             class ClientEventListener
             {
             public:
-                ClientEventListener (ClientListPtr clp);
+                ClientEventListener (ClientListPtr clp, boost::shared_ptr<Physics> p);
                 virtual ~ClientEventListener ( );
+                // void visit(const messages::MovePlayerControlMessage& mpcm);
 
                 void newData (unsigned int id, buffer b );
 
             private:
 
                 ClientListPtr mClientList;
-
+                boost::shared_ptr<Physics> mPhysics;
             };
         }
     }

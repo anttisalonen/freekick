@@ -194,4 +194,22 @@ namespace addutil
                 break;
         }
     }
+
+    void Entity::updateOrientation(int v, float w, float x, float y, float z)
+    {
+        switch(v)
+        {
+            case 0:
+                setOrientation(w, x, y, z);
+                break;
+            case 1:
+                // setAngularVelocity(w, x, y, z);        // TODO
+                break;
+            case 2:
+                // setAngularAcceleration(w, x, y, z);    // TODO
+                break;
+            default:
+                break;
+        }
+    }
 }

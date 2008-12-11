@@ -52,6 +52,24 @@ namespace freekick
                 return oss.str();
             }
 
+            bool isValidMessage(const std::string& s)
+            {
+                int ssiz = s.size();
+                std::cout << "ssiz: " << ssiz << std::endl;
+                if(ssiz < 2) return false;
+                if(s[0] != '(') return false;
+                // if(s[ssiz - 1] != ')') return false;
+                return true;
+            }
+
+            const std::string getMessageType(const std::string& s)
+            {
+                if(!isValidMessage(s)) throw "Message::getMessageType: Invalid event\n";
+                const char& c = s[1];
+                if(isdigit(c)) return s_const_upd;
+                return std::string(1, c);
+            }
+
             bool messageListToSet(std::string m, std::set<PlayerID>& s)
             {
                 std::string::iterator it;

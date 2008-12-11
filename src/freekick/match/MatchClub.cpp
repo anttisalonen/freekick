@@ -38,12 +38,14 @@ namespace freekick
             matchplayers[id] = p;
         }
 
-        bool MatchClub::updatePlayer(int i, int v, float x, float y, float z)
+        bool MatchClub::updatePlayer(int i, int v, float x, float y, float z, float qw, float qx, float qy, float qz)
         {
             std::map <int, boost::shared_ptr<MatchPlayer> >::iterator it = matchplayers.find(i);
             if(it != matchplayers.end())
             {
                 it->second->update(v, x, y, z);
+                if(qw != 0.0f && qx != 0.0f && qy != 0.0f && qz != 0.0f)
+                    it->second->updateOrientation(v, qw, qx, qy, qz);
                 return true;
             }
             return false;

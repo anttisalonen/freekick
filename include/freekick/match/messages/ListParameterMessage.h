@@ -35,6 +35,7 @@ namespace freekick
                 ListParameterMessage()
                 {
                 }
+
                 virtual ~ListParameterMessage() { }
 
             protected:

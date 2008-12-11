@@ -80,6 +80,8 @@ namespace freekick
 
             std::string setToMessageList(const std::set<PlayerID>& c);
             bool messageListToSet(const std::string m, std::set<PlayerID>& s);
+            bool isValidMessage(const std::string& s);
+            const std::string getMessageType(const std::string& s);
         }
     }
 }
