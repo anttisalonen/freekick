@@ -83,15 +83,23 @@ bullet274libs = ['bulletdynamics',
                  'bulletcollision',
                  'bulletmath']
 
+bullet274found = True
+for lib in bullet274libs:
+    if not fkserver_conf.CheckLib(lib):
+        bullet274found = False
 
-if not fkserver_conf.CheckLib(bullet274libs):
-    if not fkserver_conf.CheckLib(bullet273libs):
+if bullet274found:
+    bulletlib = bullet274libs
+else:
+    bullet273found = True
+    for lib in bullet273libs:
+        if not fkserver_conf.CheckLib(lib):
+            bullet273found = False
+    if bullet273found:
+        bulletlib = bullet273libs
+    else:
         print "Bullet libs not found, exiting."
         Exit(1)
-    else:
-        bulletlib = bullet273libs
-else:
-    bulletlib = bullet274libs
 
 fkserver_env['LIBS'] = ['boost_thread', 
                         'boost_system', 
