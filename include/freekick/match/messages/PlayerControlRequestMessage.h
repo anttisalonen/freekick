@@ -21,6 +21,8 @@
 #ifndef FREEKICK_MATCH_MESSAGES_PLAYERCONTROLREQUESTMESSAGE_H
 #define FREEKICK_MATCH_MESSAGES_PLAYERCONTROLREQUESTMESSAGE_H
 
+#include <boost/regex.hpp>
+
 #include "ListParameterMessage.h"
 
 namespace freekick
@@ -36,7 +38,34 @@ namespace freekick
                     : m_plids(plids)
                 {
                 }
+                PlayerControlRequestMessage(std::string& msg)
+                {
+                    using namespace boost;
+                    std::cout << "Message: " << msg << std::endl;
+                    // TODO: read action types from Message.h
+                    regex expr(".*?\\(z +([[:print:]]+?)\\).*");
+                    cmatch what;
+                    std::cout << "Parsing Player Control Request message\n";
+                    if(regex_match(msg.c_str(), what, expr))
+                    {
+                        std::string s1;
+                        s1.assign(what[1].first, what[1].second);
+                        if(!messageListToSet(s1, m_plids))
+                        {
+                            throw "PlayerControlRequestMessage: failed parsing list";
+                        }
+                        std::cout << "Parsing Player Control Request Message successful: " 
+                                  << setToMessageList(m_plids) << std::endl;
+                    }
+                    else
+                        throw "PlayerControlMessage: failed parse";                    
+                }
+
                 virtual ~PlayerControlRequestMessage() { }
+                void getPlayers(std::set<PlayerID>& n) const
+                {
+                    n = m_plids;
+                }
 
                 const std::string toString() const
                 {

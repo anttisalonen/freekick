@@ -29,10 +29,15 @@
 #include <boost/shared_ptr.hpp>
 
 #include "addutil/network/Server.h"
+
 #include "freekick/match/Client.h"
 #include "Physics.h"
 #include "Rules.h"
+#include "Dispatcher.h"
+
 #include "messages/MovePlayerControlMessage.h"
+#include "messages/InitialDataRequest.h"
+#include "messages/PlayerControlRequestMessage.h"
 
 namespace freekick
 {
@@ -40,23 +45,20 @@ namespace freekick
     {
         namespace server
         {
-            typedef std::map<unsigned int, freekick::match::Client> ClientList;
-            typedef boost::shared_ptr<ClientList> ClientListPtr;
             typedef std::string buffer;
-
             class ClientEventListener
             {
             public:
-                ClientEventListener (ClientListPtr clp, boost::shared_ptr<Physics> p);
+                ClientEventListener (ClientListPtr clp, boost::shared_ptr<Physics> p, boost::shared_ptr<Dispatcher> d);
                 virtual ~ClientEventListener ( );
-                // void visit(const messages::MovePlayerControlMessage& mpcm);
 
-                void newData (unsigned int id, buffer b );
+                void newData (unsigned int clientid, buffer b );
 
             private:
 
                 ClientListPtr mClientList;
                 boost::shared_ptr<Physics> mPhysics;
+                boost::shared_ptr<Dispatcher> mDispatcher;
             };
         }
     }

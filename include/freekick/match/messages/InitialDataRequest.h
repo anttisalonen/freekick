@@ -32,7 +32,8 @@ namespace freekick
             class InitialDataRequest : public SingularMessage
             {
             public:
-                virtual ~InitialDataRequestck() { }
+                InitialDataRequest() { }
+                virtual ~InitialDataRequest() { }
                 const std::string toString() const
                 {
                     return singString(c_initial_data_req);

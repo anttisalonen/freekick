@@ -33,7 +33,7 @@ namespace freekick
     {
         namespace messages
         {
-            class InitialDataMessage : public SerializationDataMessage.h
+            class InitialDataMessage : public SerializationDataMessage
             {
             public:
                 InitialDataMessage(const MatchStatus& ms)
@@ -52,7 +52,7 @@ namespace freekick
                 }
 
             private:
-                MatchStatus& m_ms;
+                const MatchStatus& m_ms;
             };
         }
     }

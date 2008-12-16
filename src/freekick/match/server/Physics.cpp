@@ -37,8 +37,25 @@ namespace freekick
             {
                 mPhysicsEngine->subscribe(*this);
                 mPhysicsEngine->addStaticBoxObject(PitchID, Vector3(50, 50, 50), Vector3(0, -50, 0));
-                mPhysicsEngine->addDynamicSphereObject(BallID, 1.0f, 5.0f, Vector3(10, 500, 10));
-                mPhysicsEngine->addControllableObject(1, Vector3(1.0f, 2.0f, 1.0f), 80.0f, Vector3(20, 2, 20));
+                mPhysicsEngine->addDynamicSphereObject(BallID, 1.0f, 5.0f, Vector3(10, 50, 10));
+                std::string c1("Club 1");
+                std::string c2("Club 2");
+                addutil::Color col(1.0f, 1.0f, 1.0f);
+                ms->addClub(c1);
+                ms->addClub(c2);
+                int idnum;
+                for(idnum = 100; idnum < 120; idnum++)
+                {
+                    Vector3 loc(idnum % 90 + 1, idnum % 20 + 1, idnum % 50 + 1);
+                    mPhysicsEngine->addControllableObject(idnum, Vector3(1.0f, 2.0f, 1.0f), 80.0f, loc);
+                    ms->addPlayer(c1, idnum, col);
+                }
+                for(idnum = 200; idnum < 220; idnum++)
+                {
+                    Vector3 loc(idnum % 90 + 1, idnum % 20 + 1, idnum % 50 + 1);
+                    mPhysicsEngine->addControllableObject(idnum, Vector3(1.0f, 2.0f, 1.0f), 80.0f, loc);
+                    ms->addPlayer(c2, idnum, col);
+                }
             }
 
             Physics::~Physics ( ) 

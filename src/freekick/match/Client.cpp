@@ -27,14 +27,14 @@ namespace freekick
 {
     namespace match
     {
-        Client::Client (unsigned int clid, std::string n, bool ai) 
+        Client::Client (ClientID clid, std::string n, bool ai) 
             : clientid(clid),
               callsign(n),
               ai_controlled(ai)
         {
         }
 
-        Client::Client(unsigned int clid, unsigned int pl, std::string n, bool ai)
+        Client::Client(ClientID clid, PlayerID pl, std::string n, bool ai)
             : clientid(clid),
               callsign(n),
               ai_controlled(ai)
@@ -42,7 +42,7 @@ namespace freekick
             addPlayer(pl);
         }
 
-        Client::Client(unsigned int clid, std::set<unsigned int> cpl, std::string n, bool ai)
+        Client::Client(ClientID clid, std::set<PlayerID> cpl, std::string n, bool ai)
             : clientid(clid),
               callsign(n),
               ai_controlled(ai),
@@ -54,7 +54,7 @@ namespace freekick
         { 
         }
 
-        unsigned int Client::getID() const
+        ClientID Client::getID() const
         {
             return clientid;
         }
@@ -79,12 +79,25 @@ namespace freekick
             return callsign;
         }
 
-        void Client::addPlayer(unsigned int pl)
+        void Client::addPlayer(PlayerID pl)
         {
             controlled_players.insert(pl);
         }
 
-        bool Client::controlsPlayer(unsigned int pl) const
+        void Client::addPlayers(const std::set<PlayerID>& pls)
+        {
+            BOOST_FOREACH(PlayerID pl, pls)
+            {
+                controlled_players.insert(pl);
+            }
+        }
+
+        void Client::clearPlayers()
+        {
+            controlled_players.clear();
+        }
+
+        bool Client::controlsPlayer(PlayerID pl) const
         {
             return (controlled_players.find(pl) != controlled_players.end());
         }

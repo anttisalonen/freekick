@@ -72,6 +72,18 @@ namespace freekick
                     oss << helperString() << " \"" << m_username << "\" " << m_type << " " << setToMessageList(m_players) << "\n";
                     return oss.str();
                 }
+                void getUsername(std::string& n) const
+                {
+                    n = m_username;
+                }
+                void getType(std::string& n) const
+                {
+                    n = m_type;
+                }
+                void getPlayers(std::set<PlayerID>& n) const
+                {
+                    n = m_players;
+                }
 
             private:
                 std::string m_username;

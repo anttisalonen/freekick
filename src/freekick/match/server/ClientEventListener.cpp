@@ -29,9 +29,10 @@ namespace freekick
     {
         namespace server
         {
-            ClientEventListener::ClientEventListener (ClientListPtr clp, boost::shared_ptr<Physics> p)
+            ClientEventListener::ClientEventListener (ClientListPtr clp, boost::shared_ptr<Physics> p, boost::shared_ptr<Dispatcher> d)
                 : mClientList(clp),
-                  mPhysics(p)
+                  mPhysics(p),
+                  mDispatcher(d)
             {
             }
 
@@ -39,7 +40,7 @@ namespace freekick
             { 
             }
 
-            void ClientEventListener::newData (unsigned int id, buffer b ) 
+            void ClientEventListener::newData (unsigned int clientid, buffer b ) 
             {
                 using namespace messages;
 
@@ -55,26 +56,69 @@ namespace freekick
                     std::cerr << "ClientEventListener: received invalid message.\n";
                     return;
                 }
-                if(t == c_pl_ctl_move)
+
+                ClientList::iterator it = mClientList->find(clientid);
+                if(it == mClientList->end())
+                {
+                    std::cerr << "ClientEventListener: client not in the client list? (Should never happen.) Adding.\n";
+                    (*mClientList)[clientid] = Client(clientid);
+                    return;
+                }
+
+                // MovePlayerControlMessage: handled by Physics.
+                if (t == c_pl_ctl_move)
                 {
                     try
                     {
                         const messages::MovePlayerControlMessage m(b);
+                        unsigned int playerid = m.getPlayerID();
+                        if(!(*it).second.controlsPlayer(playerid))
+                        {
+                            std::cerr << "ClientEventListener: client " << clientid << " trying to control another player (" << playerid << ").\n";
+                            return;
+                        }
                         mPhysics->newClientMessage(m);
                     }
                     catch(...)
                     {
                         std::cerr << "ClientEventListener: failed to parse MovePlayerControlMessage.\n";
-                        return;
+                    }
+                    return;
+                }
+
+                // Initial Data Request: handled by Dispatcher.
+                else if (t == c_initial_data_req)
+                {
+                    const messages::InitialDataRequest m;
+                    mDispatcher->newClientMessage(clientid, m);
+                    return;
+                }
+
+                // Player Control Request: handled by Client Event Listener.
+                else if (t == c_pl_cont_req)
+                {
+                    try
+                    {
+                        const messages::PlayerControlRequestMessage m(b);
+                        // TODO: check if players already reserved
+                        // Be sure the ServerManager thread doesn't change the client at the same time...
+                        std::set<int> pls;
+                        m.getPlayers(pls);
+                        (*it).second.clearPlayers();
+                        (*it).second.addPlayers(pls);
+                    }
+                    catch(const char* c)
+                    {
+                        std::cerr << "ClientEventListener: failed to parse PlayerControlRequestMessage: " << c << "\n";
+                    }
+                    catch(...)
+                    {
+                        std::cerr << "ClientEventListener: failed to parse PlayerControlRequestMessage.\n";
                     }
                 }
+
+                // TODO: add handling for all messages
             }
-/*
-            void visit(const messages::MovePlayerControlMessage& mpcm)
-            {
-                mPhysics->newClientEvent(m);
-            }
-*/
         }
     }
 }

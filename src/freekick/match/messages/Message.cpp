@@ -70,9 +70,9 @@ namespace freekick
                 return std::string(1, c);
             }
 
-            bool messageListToSet(std::string m, std::set<PlayerID>& s)
+            bool messageListToSet(const std::string& m, std::set<PlayerID>& s)
             {
-                std::string::iterator it;
+                std::string::const_iterator it;
                 int state = 0;
                 PlayerID n;
                 std::string num("");

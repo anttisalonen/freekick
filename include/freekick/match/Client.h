@@ -26,36 +26,41 @@
 #include <set>
 #include <string>
 
+#include <boost/foreach.hpp>
 #include <boost/shared_ptr.hpp>
 
 namespace freekick 
 {
     namespace match 
     {
-
+        typedef unsigned int ClientID;
+        typedef int PlayerID;
         class Client
         {
         public:
-            Client(unsigned int clid = 0, std::string n = "", bool ai = false);
-            Client(unsigned int clid, unsigned int pl, std::string n = "", bool ai = false);
-            Client(unsigned int clid, std::set<unsigned int> cpl, std::string n = "", bool ai = false);
+            Client(ClientID clid = 0, std::string n = "", bool ai = false);
+            Client(ClientID clid, PlayerID pl, std::string n = "", bool ai = false);
+            Client(ClientID clid, std::set<PlayerID> cpl, std::string n = "", bool ai = false);
             virtual ~Client ( );
 
-            unsigned int getID() const;
-            void addPlayer(unsigned int pl);
+            ClientID getID() const;
+            void addPlayer(PlayerID pl);
+            void addPlayers(const std::set<PlayerID>& pls);
+            void clearPlayers();
             void setAI(bool a);
             bool getAI() const;
             const std::string& getCallsign() const;
             void setCallsign(const std::string& s);
-            bool controlsPlayer(unsigned int pl) const;
+            bool controlsPlayer(PlayerID pl) const;
 
         private:
-            unsigned int clientid;
+            ClientID clientid;
             std::string callsign;
             bool ai_controlled;
-            std::set<unsigned int> controlled_players;
+            std::set<PlayerID> controlled_players;
         };
-        typedef std::map<unsigned int, freekick::match::Client> ClientList;
+
+        typedef std::map<ClientID, freekick::match::Client> ClientList;
         typedef boost::shared_ptr<ClientList> ClientListPtr;
     }
 }

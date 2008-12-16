@@ -70,7 +70,7 @@ namespace freekick
             const static std::string c_set_const_upd_int        = "s";
             const static std::string c_get_gen_upd_int          = "v";
             const static std::string c_get_const_upd_int        = "u";
-            typedef unsigned int PlayerID;
+            typedef int PlayerID;    // also used for e.g. ball -> signed int
             class Message
             {
             public:
@@ -79,7 +79,7 @@ namespace freekick
             };
 
             std::string setToMessageList(const std::set<PlayerID>& c);
-            bool messageListToSet(const std::string m, std::set<PlayerID>& s);
+            bool messageListToSet(const std::string& m, std::set<PlayerID>& s);
             bool isValidMessage(const std::string& s);
             const std::string getMessageType(const std::string& s);
         }

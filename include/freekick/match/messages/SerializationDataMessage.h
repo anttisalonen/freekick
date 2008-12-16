@@ -34,6 +34,9 @@ namespace freekick
             public:
                 SerializationDataMessage(unsigned int id)
                     : m_serializationid(id)
+                {
+                }
+
                 virtual ~SerializationDataMessage() { }
 
             protected:

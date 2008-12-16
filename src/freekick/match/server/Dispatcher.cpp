@@ -29,11 +29,16 @@ namespace freekick
     {
         namespace server
         {
-            Dispatcher::Dispatcher (ClientListPtr clp, addutil::network::Server* s, boost::shared_ptr<Physics> p, boost::shared_ptr<Rules> r)
+            Dispatcher::Dispatcher (ClientListPtr clp, 
+                                    addutil::network::Server* s, 
+                                    boost::shared_ptr<Physics> p, 
+                                    boost::shared_ptr<Rules> r,
+                                    boost::shared_ptr<MatchStatus> ms)
                 : mClientList(clp),
                   srv(*s),
                   mPhysics(p),
-                  mRules(r)
+                  mRules(r),
+                  mMatchStatus(ms)
             {
                 mPhysics->subscribe(*this);
                 mRules->subscribe(*this);
@@ -121,6 +126,19 @@ namespace freekick
             void Dispatcher::dispatchConnectionMessages (const ConnectionMessageList& es ) 
             {
 
+            }
+
+            void Dispatcher::newClientMessage(unsigned int clid, const messages::InitialDataRequest& m)
+            {
+                messages::InitialDataMessage idm(*mMatchStatus);
+                try
+                {
+                    srv.write(idm.toString(), clid);
+                }
+                catch (...)
+                {
+                    std::cerr << "Dispatcher::newClientMessage: Trying to write to a non-existing Client ID\n";
+                }
             }
         }
     }

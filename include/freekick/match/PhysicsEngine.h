@@ -35,7 +35,7 @@ namespace freekick
 {
     namespace match
     {
-        typedef unsigned int ObjectID;
+        typedef long int ObjectID;
         typedef addutil::DynamicEntity* EntityPtr;
         typedef std::map<ObjectID, EntityPtr> EntityPtrMap;
 

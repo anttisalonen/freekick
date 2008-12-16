@@ -27,6 +27,7 @@
 
 #include "Reader.h"
 #include "Publisher.h"
+#include "Color.h"
 
 #include "PhysicsState.h"
 #include "PhysicsEngine.h"

@@ -35,8 +35,10 @@
 #include "Physics.h"
 #include "Rules.h"
 
-#include "messages/ConstantUpdateMessage.h"
 #include "messages/Message.h"
+#include "messages/ConstantUpdateMessage.h"
+#include "messages/InitialDataRequest.h"
+#include "messages/InitialDataMessage.h"
 
 namespace freekick
 {
@@ -50,7 +52,11 @@ namespace freekick
             {
             public:
 
-                Dispatcher (ClientListPtr clp, addutil::network::Server* s, boost::shared_ptr<Physics> p, boost::shared_ptr<Rules> r);
+                Dispatcher (ClientListPtr clp, 
+                            addutil::network::Server* s, 
+                            boost::shared_ptr<Physics> p, 
+                            boost::shared_ptr<Rules> r,
+                            boost::shared_ptr<MatchStatus> ms);
                 virtual ~Dispatcher ( );
 
                 void update(Physics* p);
@@ -66,6 +72,7 @@ namespace freekick
                 void dispatchPhysicsMessages (const PhysicsMessageList& es );
                 void dispatchRulesMessages (const RulesMessageList& es );
                 void dispatchConnectionMessages (const ConnectionMessageList& es );
+                void newClientMessage(unsigned int clid, const messages::InitialDataRequest& m);   // TODO: add handlers for all receivable messages
 
             private:
                 ClientListPtr mClientList;
@@ -73,7 +80,7 @@ namespace freekick
                 void run();
                 boost::shared_ptr<Physics> mPhysics;
                 boost::shared_ptr<Rules> mRules;
-
+                boost::shared_ptr<MatchStatus> mMatchStatus;
             };
         }
     }

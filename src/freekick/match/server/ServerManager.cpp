@@ -33,8 +33,8 @@ namespace freekick
                   clients(new ClientList()),
                   p(new Physics(ms)),
                   r(new Rules(ms)),
-                  d(new Dispatcher(clients, this, p, r)),
-                  cel(new ClientEventListener(clients, p)),
+                  d(new Dispatcher(clients, this, p, r, ms)),
+                  cel(new ClientEventListener(clients, p, d)),
                   name(servername),
                   greet(greeting),
                   protocol_version("0.2")
@@ -93,6 +93,13 @@ namespace freekick
                     try
                     {
                         messages::ClientInitMessage cim(msg);
+                        std::set<int> ps;
+                        // TODO: check if players already reserved
+                        cim.getPlayers(ps);
+                        Client c(id);
+                        (*clients)[id] = c;
+                        c.addPlayers(ps);
+                        add_to_group(id, 1);    // TODO: enum instead of 1 (gid)
                     }
                     catch (const char* s)
                     {
@@ -107,8 +114,6 @@ namespace freekick
                         return;
                     }
                 }
-                add_to_group(id, 1);    // TODO: enum instead of 1 (gid)
-                (*clients)[id] = Client(id);
             }
         }
     }
