@@ -3,6 +3,7 @@
 config.log
 *.o
 *~
+TAGS
 bin/
 lib/
 tmp/
