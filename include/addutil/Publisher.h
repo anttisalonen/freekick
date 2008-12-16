@@ -18,36 +18,47 @@
 **************************************************************************/
 
 
-#ifndef FREEKICK_PHYSICSREADER_H
-#define FREEKICK_PHYSICSREADER_H
+#ifndef ADDUTIL_PUBLISHER_H
+#define ADDUTIL_PUBLISHER_H
 
-#include <map>
+#include <set>
 
-#include <boost/shared_ptr.hpp>
+#include <boost/foreach.hpp>
 
-#include "DynamicEntity.h"
+#include "Reader.h"
 
 /**
- * class PhysicsReader
+ * class Publisher
  */
 
-namespace freekick
+namespace addutil
 {
-    namespace match
+    template <class T>
+        class Publisher
     {
-        typedef unsigned int ObjectID;
-        typedef addutil::DynamicEntity* EntityPtr;
-        typedef std::map<ObjectID, EntityPtr> EntityPtrMap;
-
-        class PhysicsReader
+    public:
+        Publisher() { }
+        virtual ~Publisher() { }
+        void publish()
         {
-        public:
-            virtual ~PhysicsReader() { }
-            virtual void updatePhysics(EntityPtrMap m) = 0;
-        };
+            BOOST_FOREACH(Reader<T>* r, mReaders)
+            {
+                r->update(static_cast<T *>(this));
+            }
+        }
 
-        typedef boost::shared_ptr<PhysicsReader> PhysicsReaderPtr;
-    }
+        void subscribe(Reader<T>& reader)
+        {
+            mReaders.insert(&reader);
+        }
+
+        void unsubscribe(Reader<T>& reader)
+        {
+            mReaders.erase(&reader);
+        }
+    private:
+        std::set<Reader<T>*> mReaders;
+    };
 }
 
-#endif // FREEKICK_PHYSICSREADER_H
+#endif // ADDUTIL_PUBLISHER_H

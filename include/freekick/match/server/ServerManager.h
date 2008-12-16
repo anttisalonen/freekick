@@ -67,9 +67,9 @@ namespace freekick
             private:
                 unsigned int mPort;
                 ClientListPtr clients;
-                boost::shared_ptr<Dispatcher> d;
-                boost::shared_ptr<Rules> r;
                 boost::shared_ptr<Physics> p;
+                boost::shared_ptr<Rules> r;
+                boost::shared_ptr<Dispatcher> d;
                 boost::shared_ptr<ClientEventListener> cel;
                 std::string name;
                 std::string greet;

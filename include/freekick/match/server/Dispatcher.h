@@ -24,18 +24,19 @@
 
 #include <boost/thread.hpp>
 #include <boost/bind.hpp>
+#include <boost/shared_ptr.hpp>
 
 #include "addutil/network/Server.h"
+#include "Reader.h"
 
 #include "freekick/match/Client.h"
 #include "RulesState.h"
-#include "RulesEvent.h"
 #include "PhysicsState.h"
-#include "PhysicsEvent.h"
-#include "PhysicsReader.h"
+#include "Physics.h"
+#include "Rules.h"
 
-#include "ConnectionEvent.h"
 #include "messages/ConstantUpdateMessage.h"
+#include "messages/Message.h"
 
 namespace freekick
 {
@@ -43,33 +44,35 @@ namespace freekick
     {
         namespace server
         {
-            typedef std::vector<PhysicsEvent> PhysicsEventList;
-            typedef std::vector<RulesEvent> RulesEventList;
-            typedef std::vector<ConnectionEvent> ConnectionEventList;
-            class Dispatcher : public PhysicsReader
+            typedef messages::Message ConnectionMessage;
+            typedef std::vector<ConnectionMessage> ConnectionMessageList;
+            class Dispatcher : public addutil::Reader<Physics>, public addutil::Reader<Rules>
             {
             public:
 
-                Dispatcher (ClientListPtr clp, addutil::network::Server* s);
+                Dispatcher (ClientListPtr clp, addutil::network::Server* s, boost::shared_ptr<Physics> p, boost::shared_ptr<Rules> r);
                 virtual ~Dispatcher ( );
 
+                void update(Physics* p);
+                void update(Rules* r);
+
                 void dispatchClientInformation ( );
-                void dispatchConnectionEvent (freekick::match::ConnectionEvent e );
-                /*
-                void dispatchPhysicsEvent (freekick::match::PhysicsEvent e );
-                void dispatchRulesEvent (freekick::match::RulesEvent e );
-                void dispatchPhysicsState (freekick::match::PhysicsState s );
-                void dispatchRulesState (freekick::match::RulesState s );
-                void dispatchPhysicsEvents (PhysicsEventList es );
-                void dispatchRulesEvents (RulesEventList es );
-                void dispatchConnectionEvents (ConnectionEventList es );
-                */
-                void updatePhysics(EntityPtrMap m);
+                void dispatchConnectionMessage (const ConnectionMessage& e );
+                
+                void dispatchPhysicsMessage (const PhysicsMessage& e );
+                void dispatchRulesMessage (const RulesMessage& e );
+                void dispatchPhysicsState (const freekick::match::PhysicsState& s );
+                void dispatchRulesState (const freekick::match::RulesState& s );
+                void dispatchPhysicsMessages (const PhysicsMessageList& es );
+                void dispatchRulesMessages (const RulesMessageList& es );
+                void dispatchConnectionMessages (const ConnectionMessageList& es );
 
             private:
                 ClientListPtr mClientList;
                 addutil::network::Server& srv;
                 void run();
+                boost::shared_ptr<Physics> mPhysics;
+                boost::shared_ptr<Rules> mRules;
 
             };
         }

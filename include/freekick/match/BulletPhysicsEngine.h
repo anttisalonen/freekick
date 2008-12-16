@@ -41,17 +41,17 @@ namespace freekick
         public:
             BulletPhysicsEngine (addutil::Vector3 bottom_left, addutil::Vector3 top_right, int maxObjects, addutil::Vector3 gravity);
             ~BulletPhysicsEngine ();
-            ObjectID addStaticBoxObject(addutil::Vector3 shape, addutil::Vector3 loc);
-            ObjectID addDynamicBoxObject(addutil::Vector3 size, float mass, addutil::Vector3 loc);
-            ObjectID addDynamicSphereObject(float radius, float mass, addutil::Vector3 loc);
-            ObjectID addControllableObject(addutil::Vector3 size, float mass, addutil::Vector3 loc);
+            bool addStaticBoxObject(ObjectID oid, addutil::Vector3 shape, addutil::Vector3 loc);
+            bool addDynamicBoxObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc);
+            bool addDynamicSphereObject(ObjectID oid, float radius, float mass, addutil::Vector3 loc);
+            bool addControllableObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc);
             bool setObjectVelocity(ObjectID oid, const addutil::Vector3& vel);
             bool removeObject(ObjectID oid);
             bool stepWorld(float steptime);
 
         protected:
-            ObjectID addDynamicObject(btCollisionShape* colShape, float mass, addutil::Vector3 loc);
-            ObjectID addObject(btRigidBody* b);
+            bool addDynamicObject(ObjectID oid, btCollisionShape* colShape, float mass, addutil::Vector3 loc);
+            bool addObject(btRigidBody* b);
 
         private:
             // General Bullet World stuff
@@ -76,7 +76,6 @@ namespace freekick
             //make sure to re-use collision shapes among rigid bodies whenever possible!
             btAlignedObjectArray<btCollisionShape*> collisionShapes;
 
-            ObjectID mNextObjectID;
             ObjectMap mObjectMap;
         };
     }

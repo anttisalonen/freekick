@@ -57,7 +57,7 @@ namespace freekick
 
         private:
             /* TODO: MatchClub has a map of MatchPlayers as well as a map of Players.
-               The map of Players should be removed. */
+               The map of Players should be removed (polymorphism?). */
             std::map <int, boost::shared_ptr<MatchPlayer> > matchplayers;
             Kit* currkit;
 

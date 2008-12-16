@@ -31,8 +31,8 @@
 #include "addutil/network/Server.h"
 #include "freekick/match/Client.h"
 #include "Physics.h"
+#include "Rules.h"
 #include "messages/MovePlayerControlMessage.h"
-
 
 namespace freekick
 {

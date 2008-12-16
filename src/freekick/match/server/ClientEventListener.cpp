@@ -60,7 +60,7 @@ namespace freekick
                     try
                     {
                         const messages::MovePlayerControlMessage m(b);
-                        mPhysics->newClientEvent(m);
+                        mPhysics->newClientMessage(m);
                     }
                     catch(...)
                     {

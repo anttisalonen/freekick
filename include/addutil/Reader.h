@@ -15,38 +15,25 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on Sa Nov 22 2008 at 11:40:55
 **************************************************************************/
 
 
-#ifndef FREEKICKMOTIONSTATE_H
-#define FREEKICKMOTIONSTATE_H
+#ifndef ADDUTIL_READER_H
+#define ADDUTIL_READER_H
 
-#include "btBulletDynamicsCommon.h"
+/**
+ * class Reader
+ */
 
-#include "DynamicEntity.h"
-
-#include "PhysicsEngine.h"
-
-namespace freekick
+namespace addutil
 {
-    namespace match
+    template <class T>
+    class Reader
     {
-        class FreekickMotionState : public btMotionState, public addutil::DynamicEntity
-        {
-        public:
-            FreekickMotionState(const btTransform& initialpos, PhysicsEngine* pe, const ObjectID id);
-            virtual ~FreekickMotionState();
-            virtual void getWorldTransform(btTransform &worldTrans) const;
-            virtual void setWorldTransform(const btTransform &worldTrans);
-            const int getID();
-
-        private:
-            PhysicsEngine* mPhysicsEngine;
-            btTransform mPos1;
-            ObjectID mId; 
-        };
-    }
+    public:
+        virtual ~Reader() { }
+        virtual void update(T* publisher) = 0;
+    };
 }
 
-#endif
+#endif // ADDUTIL_READER_H

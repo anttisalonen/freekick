@@ -29,15 +29,21 @@ namespace freekick
     {
         namespace server
         {
-            Dispatcher::Dispatcher (ClientListPtr clp, addutil::network::Server* s)
+            Dispatcher::Dispatcher (ClientListPtr clp, addutil::network::Server* s, boost::shared_ptr<Physics> p, boost::shared_ptr<Rules> r)
                 : mClientList(clp),
-                  srv(*s)
+                  srv(*s),
+                  mPhysics(p),
+                  mRules(r)
             {
-                boost::thread t(boost::bind(&Dispatcher::run, this));
+                mPhysics->subscribe(*this);
+                mRules->subscribe(*this);
+                // boost::thread t(boost::bind(&Dispatcher::run, this));
             }
 
             Dispatcher::~Dispatcher ( ) 
             { 
+                mPhysics->unsubscribe(*this);
+                mRules->unsubscribe(*this);
             }
 
             void Dispatcher::run()
@@ -49,17 +55,48 @@ namespace freekick
                 }
             }
 
+            void Dispatcher::update(Physics* p)
+            {
+                PhysicsMessageList l;
+                p->getUpdates(l);
+                dispatchPhysicsMessages(l);
+            }
+
+            void Dispatcher::update(Rules* r)
+            {
+            }
+
             void Dispatcher::dispatchClientInformation ( ) 
             {
 
             }
 
-            void Dispatcher::dispatchConnectionEvent (ConnectionEvent e ) 
+            void Dispatcher::dispatchConnectionMessage (const ConnectionMessage& e ) 
             {
 
             }
 
-            void Dispatcher::updatePhysics(EntityPtrMap m)
+            void Dispatcher::dispatchPhysicsMessage (const PhysicsMessage& e ) 
+            {
+
+            }
+
+            void Dispatcher::dispatchRulesMessage (const RulesMessage& e ) 
+            {
+
+            }
+
+            void Dispatcher::dispatchPhysicsState (const PhysicsState& s ) 
+            {
+
+            }
+
+            void Dispatcher::dispatchRulesState (const RulesState& s ) 
+            {
+
+            }
+
+            void Dispatcher::dispatchPhysicsMessages (const PhysicsMessageList& es ) 
             {
                 // TODO: save and/or dispatch
                 // default should be dispatch,
@@ -68,54 +105,23 @@ namespace freekick
                 // (in dispatcher) and dispatch everything later
 
                 std::ostringstream oss(std::ostringstream::out);
-                typedef std::pair<ObjectID, EntityPtr> pair_en;
-                BOOST_FOREACH(pair_en p, m)
+                BOOST_FOREACH(PhysicsMessage m, es)
                 {
-                    const addutil::Vector3 pos = p.second->getPosition();
-                    const addutil::Quaternion orien = p.second->getOrientation();
-                    messages::ConstantUpdateMessage c(p.first, 0, pos, orien);
-                    oss << c.toString();
+                    oss << m.toString();
                 }
                 oss << "\n";
                 srv.multicast(oss.str(), 1);  // TODO: enum instead of 1 (gid)
             }
 
-            /*
-              void Dispatcher::dispatchPhysicsEvent (PhysicsEvent e ) 
-              {
+            void Dispatcher::dispatchRulesMessages (const RulesMessageList& es ) 
+            {
 
-              }
+            }
 
-              void Dispatcher::dispatchRulesEvent (RulesEvent e ) 
-              {
+            void Dispatcher::dispatchConnectionMessages (const ConnectionMessageList& es ) 
+            {
 
-              }
-
-              void Dispatcher::dispatchPhysicsState (PhysicsState s ) 
-              {
-
-              }
-
-              void Dispatcher::dispatchRulesState (RulesState s ) 
-              {
-
-              }
-
-              void Dispatcher::dispatchPhysicsEvents (PhysicsEventList es ) 
-              {
-
-              }
-
-              void Dispatcher::dispatchRulesEvents (RulesEventList es ) 
-              {
-
-              }
-
-              void Dispatcher::dispatchConnectionEvents (ConnectionEventList es ) 
-              {
-
-              }
-            */
+            }
         }
     }
 }

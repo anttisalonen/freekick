@@ -23,62 +23,52 @@
 #define PHYSICSENGINE_H
 
 #include <set>
+#include <map>
 
 #include <boost/foreach.hpp>
 
 #include "Vector3.h"
-
-#include "PhysicsReader.h"
+#include "DynamicEntity.h"
+#include "Publisher.h"
 
 namespace freekick
 {
     namespace match
     {
-        class PhysicsEngine
+        typedef unsigned int ObjectID;
+        typedef addutil::DynamicEntity* EntityPtr;
+        typedef std::map<ObjectID, EntityPtr> EntityPtrMap;
+
+        class PhysicsEngine : public addutil::Publisher<PhysicsEngine>
         {
         public:
             virtual ~PhysicsEngine ( ) { }
-            virtual ObjectID addStaticBoxObject(addutil::Vector3 shape, addutil::Vector3 loc) = 0;
-            virtual ObjectID addDynamicBoxObject(addutil::Vector3 size, float mass, addutil::Vector3 loc) = 0;
-            virtual ObjectID addDynamicSphereObject(float radius, float mass, addutil::Vector3 loc) = 0;
-            virtual ObjectID addControllableObject(addutil::Vector3 size, float mass, addutil::Vector3 loc) = 0;
+            virtual bool addStaticBoxObject(ObjectID oid, addutil::Vector3 shape, addutil::Vector3 loc) = 0;
+            virtual bool addDynamicBoxObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc) = 0;
+            virtual bool addDynamicSphereObject(ObjectID oid, float radius, float mass, addutil::Vector3 loc) = 0;
+            virtual bool addControllableObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc) = 0;
             virtual bool setObjectVelocity(ObjectID oid, const addutil::Vector3& vel) = 0;
             virtual bool removeObject(ObjectID oid) = 0;
             virtual bool stepWorld(float steptime) = 0;
 
             // TODO: split to a .cpp?
-            void subscribePhysics(PhysicsReaderPtr r)
-            {
-                readers.insert(r);
-            }
-
-            void unsubscribePhysics(PhysicsReaderPtr r)
-            {
-                readers.erase(r);
-            }
-
             void publishPhysics()
             {
-                BOOST_FOREACH(PhysicsReaderPtr r, readers)
-                {
-                    r->updatePhysics(updated_objects);
-                }
+                publish();
                 updated_objects.clear();
             }
 
-            void addUpdatedObject(ObjectID i, EntityPtr e)
-            {
-                updated_objects[i] = e;
-            }
-
-        protected:
-            void getUpdatedObjects(EntityPtrMap& e)
+            void getUpdatedObjects(EntityPtrMap& e) const
             {
                 e = updated_objects;
             }
 
+            void addUpdatedObject(ObjectID i, EntityPtr e)   // used by motion states
+            {
+                updated_objects[i] = e;
+            }
+
         private:
-            std::set<PhysicsReaderPtr> readers;
             EntityPtrMap curr_objects;
             EntityPtrMap updated_objects;
 

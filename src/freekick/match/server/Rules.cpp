@@ -29,9 +29,8 @@ namespace freekick
     {
         namespace server
         {
-            Rules::Rules (boost::shared_ptr<Dispatcher> d, boost::shared_ptr<MatchStatus> ms)
-                : mDispatcher(d)
-                , mMatchStatus(ms)
+            Rules::Rules (boost::shared_ptr<MatchStatus> ms)
+                : mMatchStatus(ms)
             {
             }
 
@@ -47,12 +46,12 @@ namespace freekick
                 return mRulesState;
             }
 
-            void Rules::update (PhysicsEventList pes ) 
+            void Rules::update (PhysicsMessageList pes ) 
             {
 
             }
 
-            void Rules::createRulesEvents (Time t, PhysicsEventList pes, RulesEventList res ) 
+            void Rules::createRulesMessages (Time t, PhysicsMessageList pes, RulesMessageList res ) 
             {
 
             }

@@ -21,6 +21,8 @@
 #ifndef FREEKICK_MATCH_MESSAGES_PLAYERCONTROLMESSAGE_H
 #define FREEKICK_MATCH_MESSAGES_PLAYERCONTROLMESSAGE_H
 
+#include <boost/regex.hpp>
+
 #include "Vector3.h"
 
 #include "ParameterMessage.h"

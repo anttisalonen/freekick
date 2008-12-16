@@ -29,23 +29,21 @@ namespace freekick
     {
         namespace server
         {
-            Physics::Physics (boost::shared_ptr<Dispatcher> d, boost::shared_ptr<Rules> r, boost::shared_ptr<MatchStatus> ms)
-                : mDispatcher(d)
-                , mRules(r)
-                , mMatchStatus(ms)
+            Physics::Physics (boost::shared_ptr<MatchStatus> ms)
+                : mMatchStatus(ms)
                 , mPhysicsEngine(new BulletPhysicsEngine(Vector3(-50,-20,-50), 
                                                          Vector3(200, 100, 200), 
                                                          500, Vector3(0, -9.8, 0)))
             {
-                mPhysicsEngine->subscribePhysics(mDispatcher);
-                mPhysicsEngine->addStaticBoxObject(Vector3(50, 50, 50), Vector3(0, -50, 0));
-                mPhysicsEngine->addDynamicSphereObject(1.0f, 5.0f, Vector3(10, 500, 10));
-                mPhysicsEngine->addControllableObject(Vector3(1.0f, 2.0f, 1.0f), 80.0f, Vector3(20, 2, 20));
+                mPhysicsEngine->subscribe(*this);
+                mPhysicsEngine->addStaticBoxObject(PitchID, Vector3(50, 50, 50), Vector3(0, -50, 0));
+                mPhysicsEngine->addDynamicSphereObject(BallID, 1.0f, 5.0f, Vector3(10, 500, 10));
+                mPhysicsEngine->addControllableObject(1, Vector3(1.0f, 2.0f, 1.0f), 80.0f, Vector3(20, 2, 20));
             }
 
             Physics::~Physics ( ) 
             {
-                mPhysicsEngine->unsubscribePhysics(mDispatcher);
+                mPhysicsEngine->unsubscribe(*this);
             }
 
             void Physics::setPause ( bool new_var ) 
@@ -56,16 +54,6 @@ namespace freekick
             bool Physics::getPause ( ) 
             {
                 return mPause;
-            }
-
-            void Physics::setNewPhysicsEvents ( PhysicsEventList new_var ) 
-            {
-                mNewPhysicsEvents = new_var;
-            }
-
-            PhysicsEventList Physics::getNewPhysicsEvents ( ) 
-            {
-                return mNewPhysicsEvents;
             }
 
             bool Physics::run ( ) 
@@ -87,15 +75,41 @@ namespace freekick
                 return true;
             }
 
-            void Physics::newClientEvent (const messages::MovePlayerControlMessage& e ) 
+            void Physics::newClientMessage (const messages::MovePlayerControlMessage& e ) 
             {
                 using namespace messages;
                 addutil::Vector3 v;
                 e.getTargetVector(v);
                 if (!mPhysicsEngine->setObjectVelocity(e.getPlayerID(), v))
                 {
-                    std::cerr << "Physics::newClientEvent: Invalid player ID\n";
+                    std::cerr << "Physics::newClientMessage: Invalid player ID\n";
                 }
+            }
+
+            void Physics::update(PhysicsEngine* e)
+            {
+                EntityPtrMap m;
+                e->getUpdatedObjects(m);
+                typedef std::pair<ObjectID, EntityPtr> pair_en;
+                BOOST_FOREACH(pair_en p, m)
+                {
+                    const addutil::Vector3 pos = p.second->getPosition();
+                    const addutil::Quaternion orien = p.second->getOrientation();
+                    messages::ConstantUpdateMessage c(p.first, 0, pos, orien);
+                    newmessages.push_back(c);
+                }
+                publish();
+                clearMessages();
+            }
+
+            void Physics::clearMessages()
+            {
+                newmessages.clear();
+            }
+
+            void Physics::getUpdates(PhysicsMessageList& l)
+            {
+                l = newmessages;
             }
         }
     }

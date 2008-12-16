@@ -25,14 +25,17 @@
 #include <boost/shared_ptr.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
 
-#include "ClientEvent.h"
-#include "Dispatcher.h"
+#include "Reader.h"
+#include "Publisher.h"
+
 #include "PhysicsState.h"
 #include "PhysicsEngine.h"
 #include "BulletPhysicsEngine.h"
-#include "Rules.h"
 #include "MatchStatus.h"
+#include "MatchIDs.h"
+
 #include "messages/MovePlayerControlMessage.h"
+#include "messages/ConstantUpdateMessage.h"
 
 namespace freekick
 {
@@ -40,30 +43,35 @@ namespace freekick
     {
         namespace server
         {
-            class Physics
+            typedef messages::ConstantUpdateMessage PhysicsMessage;
+            typedef std::vector<PhysicsMessage> PhysicsMessageList;
+
+            class Physics : public Reader<PhysicsEngine>, public Publisher<Physics>
             {
             public:
-                Physics (boost::shared_ptr<Dispatcher> d, boost::shared_ptr<Rules> r, boost::shared_ptr<MatchStatus> ms);
+                Physics (boost::shared_ptr<MatchStatus> ms);
                 virtual ~Physics ( );
 
                 bool run ( );
-                void newClientEvent (const messages::MovePlayerControlMessage& e );
+                void newClientMessage (const messages::MovePlayerControlMessage& e );
 
                 PhysicsState getPhysicsState ( );
                 void setPause (bool p );
                 bool getPause ( );
-                void setNewPhysicsEvents ( PhysicsEventList new_var );
-                PhysicsEventList getNewPhysicsEvents ( );
+                void update(PhysicsEngine* e);
+                void getUpdates(PhysicsMessageList& l);
+
+            protected:
+                void clearMessages();
 
             private:
 
                 bool mPause;
-                PhysicsEventList mNewPhysicsEvents;
+                PhysicsMessageList mNewPhysicsMessages;
                 PhysicsState mPhysicsState;
-                boost::shared_ptr<Dispatcher> mDispatcher;
-                boost::shared_ptr<Rules> mRules;
                 boost::shared_ptr<MatchStatus> mMatchStatus;
                 boost::shared_ptr<PhysicsEngine> mPhysicsEngine;
+                std::vector<messages::ConstantUpdateMessage> newmessages;
 
             };
         }

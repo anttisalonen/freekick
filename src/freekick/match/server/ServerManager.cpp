@@ -31,9 +31,9 @@ namespace freekick
                                          const std::string& greeting)
                 : mPort(port), 
                   clients(new ClientList()),
-                  d(new Dispatcher(clients, this)),
-                  r(new Rules(d, ms)),
-                  p(new Physics(d, r, ms)),
+                  p(new Physics(ms)),
+                  r(new Rules(ms)),
+                  d(new Dispatcher(clients, this, p, r)),
                   cel(new ClientEventListener(clients, p)),
                   name(servername),
                   greet(greeting),

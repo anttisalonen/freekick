@@ -22,13 +22,17 @@
 #ifndef RULES_H
 #define RULES_H
 
+#include <vector>
+
 #include <boost/shared_ptr.hpp>
+
+#include "Publisher.h"
 
 #include "MatchStatus.h"
 #include "RulesState.h"
-#include "PhysicsEvent.h"
-#include "Dispatcher.h"
-#include "RulesEvent.h"
+#include "Physics.h"
+
+#include "messages/Message.h"
 
 namespace freekick
 {
@@ -36,21 +40,19 @@ namespace freekick
     {
         namespace server
         {
-            class Rules
+            typedef messages::Message RulesMessage;
+            typedef std::vector<RulesMessage> RulesMessageList;
+
+            class Rules : public addutil::Publisher<Rules>
             {
             public:
-                Rules (boost::shared_ptr<Dispatcher> d, boost::shared_ptr<MatchStatus> ms);
+                Rules (boost::shared_ptr<MatchStatus> ms);
                 virtual ~Rules ( );
-                void update (PhysicsEventList pes );
-                void createRulesEvents (Time t, PhysicsEventList pes, RulesEventList res);
+                void update (PhysicsMessageList pes );
+                void createRulesMessages (Time t, PhysicsMessageList pes, RulesMessageList res);
 
             private:
-
-                // Private attributes
-                //  
-
                 boost::shared_ptr<RulesState> mRulesState;
-                boost::shared_ptr<Dispatcher> mDispatcher;
                 boost::shared_ptr<MatchStatus> mMatchStatus;
             public:
                 void setRulesState ( boost::shared_ptr<RulesState> new_var );
