@@ -84,8 +84,8 @@ bullet274libs = ['bulletdynamics',
                  'bulletmath']
 
 
-if not fkserver_conf.CheckLib(bullet273libs):
-    if not fkserver_conf.CheckLib(bullet274libs):
+if not fkserver_conf.CheckLib(bullet274libs):
+    if not fkserver_conf.CheckLib(bullet273libs):
         print "Bullet libs not found, exiting."
         Exit(1)
     else:
