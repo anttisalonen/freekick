@@ -89,9 +89,9 @@ if not fkserver_conf.CheckLib(bullet274libs):
         print "Bullet libs not found, exiting."
         Exit(1)
     else:
-        bulletlib = bullet274libs
+        bulletlib = bullet273libs
 else:
-    bulletlib = bullet273libs
+    bulletlib = bullet274libs
 
 fkserver_env['LIBS'] = ['boost_thread', 
                         'boost_system', 
