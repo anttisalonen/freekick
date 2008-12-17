@@ -187,8 +187,44 @@ Match Data:
     - Player accelerations
 
 1. Initialization:
-Serialized data padded by (+++1 and 1+++).
-(+++1data1+++)
+Data padded by (+++ and +++) and a number, e.g. (+++ 100 data 100 +++).
+The initialization data is the data necessary for clients to correctly
+display the match:
+ID   Data
+100  Club information (names)
+110  Player + referee kits
+120  Player names, numbers and the clubs they belong to
+130  Pitch dimensions and description (pattern and state in keywords)
+140  Tournament and round name
+160  Type, name and capacity of the stadium, number of spectators
+180  Date and time of match start
+190  Weather (in keywords)
+200  Ball texture description (keywords)
+
+Exact form of messages:
+100: (+++ 100 "home club name" "away club name" 100 +++)
+110: (+++ 110 <home club jersey type> <home colors> <away club jersey type> <away colors> <home goalkeeper jersey type> <home goalkeeper colors> <away goalkeper jersey type> <away goalkeeper colors> <referee jersey type> <referee colors> 110 +++)
+     where jersey type: 0: plain - 1: striped - 2: striped horizontal - 3: colored sleeves - 4: diagonal line
+           colors: jersey color 1 - jersey color 2 - shorts color - socks color
+           color: three numbers, red - green - blue, 0..255
+     e.g. (+++ 110 1 255 0 0 0 0 0 255 255 255 255 0 0 255 0 0 0 0 0 255 0 0 255 0 0 ... 110 +++)
+          for home: striped with red, black, white shorts, red socks - away: plain with blue top to bottom
+120: (+++ 120 "player name" <player number> <club: 0 for home, 1 for away> <position: 0-gk, 1-df, 2-mf, 3-fw> <substitute: 0 for no, 1 for yes> <repeat> 120 +++)
+     e.g. (+++ 120 "player name 1" 2 0 1 0 "player name 2" 5 0 3 1 "player name 3" 8 0 2 0 "away player" 3 1 0 1 120 +++)
+130: (+++ 130 <length in m> <width in m> "pattern description words, separated by commas" "state description words, separated by commas" 130 +++)
+     pattern description words: plain, squared with 5 m, horizontally striped with 5 m, vertically striped with 5 m
+     state description words: normal, wet, artificial
+     e.g. (+++ 130 100 70 "squared with 4 m" "wet, artificial" 130 +++)
+140: (+++ 140 "tournament name" "round name" 140 +++)
+160: (+++ 160 <third party host: 0 for no, 1 for yes> "stadium name" <number of spectators> <maximum capacity> 160 +++)
+     e.g. (+++ 160 0 "stadium" 23758 30000 160 +++)
+180: (+++ 180 date time 180 +++)
+     date: e.g. yyyy-mm-dd e.g. 2008-12-17
+     time: e.g. hh-mm-ss   e.g. 18-00-00
+190: (+++ 190 "weather description words, separated by commas" 190 +++)
+     weather description words: normal, rain, fog
+200: (+++ 200 "ball description words, separated by commas" 200 +++)
+     ball description words: normal
 
 2. General update 
   Player locations
@@ -241,13 +277,13 @@ Constant update (~ 30..60/Second)
     - Player velocity
     - Player acceleration
     - Player status (caused) (read-only)
-    0x00 Normal
-    0x01 Injured/Lying on the ground
+    0 Normal
+    1 Injured/Lying on the ground
     - Player status (controlled)
-    0x00 Normal
-    0x01 Celebrating
-    0x02 Asking for support/the ball
-    0x04 Disappointed
+    0 Normal
+    1 Celebrating
+    2 Asking for support/the ball
+    4 Disappointed
 
 Procotol: 
 (n v x y z a b c d s t)
