@@ -25,6 +25,7 @@
 #include <string>
 #include <vector>
 
+#include <boost/array.hpp>
 #include <boost/serialization/vector.hpp>
 #include <boost/serialization/string.hpp>
 
@@ -42,24 +43,16 @@ namespace freekick
         class Kit
         {
         public:
-
-            // Constructors/Destructors
-            //  
-            /**
-             * @param  jtype
-             * @param  jcolors
-             * @param  shortscol
-             * @param  sockscol
-             */
-            Kit (int jtype, const std::vector <Color>& jcolors, const Color& shortscol, const Color& sockscol );
+            Kit (int jtype, const Color& jcolor1, const Color& jcolor2, const Color& shortscol, const Color& sockscol );
+            int getJerseyType() const;
+            void getFirstJerseyColor(Color& c) const;
+            void getSecondJerseyColor(Color& c) const;
+            void getShortsColor(Color& c) const;
+            void getSocksColor(Color& c) const;
 
         private:
-
-            // Private attributes
-            //  
-
             int jerseytype;
-            std::vector <Color> jerseycolors;
+            boost::array<Color, 2> jerseycolors;
             std::string jerseypic;
             Color shortscolor;
             Color sockscolor;

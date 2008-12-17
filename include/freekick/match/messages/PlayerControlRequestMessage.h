@@ -41,7 +41,6 @@ namespace freekick
                 PlayerControlRequestMessage(std::string& msg)
                 {
                     using namespace boost;
-                    std::cout << "Message: " << msg << std::endl;
                     // TODO: read action types from Message.h
                     regex expr(".*?\\(z +([[:print:]]+?)\\).*");
                     cmatch what;

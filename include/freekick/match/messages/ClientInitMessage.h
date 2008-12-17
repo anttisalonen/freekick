@@ -47,7 +47,6 @@ namespace freekick
                     : InitMessage(msg)
                 {
                     using namespace boost;
-                    std::cout << "Message: " << msg << std::endl;
                     regex expr(" *\"([[:print:]]+?)\" +([[:print:]]) +(.*)");
                     cmatch what;
                     std::cout << "Parsing Client Init message\n";

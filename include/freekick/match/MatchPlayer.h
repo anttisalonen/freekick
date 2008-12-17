@@ -44,7 +44,7 @@ namespace freekick
 
             // Constructors/Destructors
             //  
-            MatchPlayer (const freekick::soccer::Player& p, const addutil::Color& c);
+            MatchPlayer (const freekick::soccer::Player& p);
             const int getID();
 
         private:

@@ -28,17 +28,20 @@
 
 #include "addutil/network/Server.h"
 #include "Reader.h"
+#include "Color.h"
 
 #include "freekick/match/Client.h"
 #include "RulesState.h"
 #include "PhysicsState.h"
 #include "Physics.h"
 #include "Rules.h"
+#include "MatchData.h"
 
 #include "messages/Message.h"
 #include "messages/ConstantUpdateMessage.h"
 #include "messages/InitialDataRequest.h"
-#include "messages/InitialDataMessage.h"
+#include "messages/InitialDataClubMessage.h"
+#include "messages/InitialDataKitMessage.h"
 
 namespace freekick
 {

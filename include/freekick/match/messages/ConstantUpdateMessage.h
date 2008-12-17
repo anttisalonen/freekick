@@ -21,6 +21,12 @@
 #ifndef FREEKICK_MATCH_MESSAGES_CONSTANTUPDATEMESSAGE_H
 #define FREEKICK_MATCH_MESSAGES_CONSTANTUPDATEMESSAGE_H
 
+#include <string>
+#include <cstdlib>
+
+#include <boost/regex.hpp>
+#include <boost/array.hpp>
+
 #include "Vector3.h"
 #include "Quaternion.h"
 
@@ -49,6 +55,33 @@ namespace freekick
                     , m_contrs(contrs)
                 {
                 }
+                ConstantUpdateMessage(std::string& msg)
+                {
+                    using namespace boost;
+                    regex expr(".*?\\(([-0-9]+) +([012]) +([[:print:]]+?) +([[:print:]]+?) +([[:print:]]+?) +([[:print:]]+?) +([[:print:]]+?) +([[:print:]]+?) +([[:print:]]+?) +([0-9]+) +([0-9]+)\\).*");
+                    cmatch what;
+                    if(regex_match(msg.c_str(), what, expr))
+                    {
+                        boost::array<std::string, 11> ss;
+                        for(int i = 0; i < 11; i++)
+                        {
+                            ss[i].assign(what[i + 1].first, what[i + 1].second);
+                        }
+                        m_plid   = atoi(ss[0].c_str());
+                        m_der    = atoi(ss[1].c_str());
+                        m_vec.x  = atof(ss[2].c_str());
+                        m_vec.y  = atof(ss[3].c_str());
+                        m_vec.z  = atof(ss[4].c_str());
+                        m_quat.w = atof(ss[5].c_str());
+                        m_quat.x = atof(ss[6].c_str());
+                        m_quat.y = atof(ss[7].c_str());
+                        m_quat.z = atof(ss[8].c_str());
+                        m_causs  = atoi(ss[9].c_str());
+                        m_contrs = atoi(ss[10].c_str());
+                    }
+                    else
+                        throw "Constant Update Message: failed parse";                    
+                }
                 virtual ~ConstantUpdateMessage() { }
                 const std::string toString() const
                 {
@@ -59,6 +92,12 @@ namespace freekick
                         << m_causs << " " << m_contrs;
                     return stdString(oss.str());
                 }
+                void getVector(addutil::Vector3& t) const { t = m_vec; }
+                void getQuaternion(addutil::Quaternion& t) const { t = m_quat; }
+                PlayerID getPlayerID() const { return m_plid; }
+                int getDerivative() const { return m_der; }
+                void getCausedStatus(CausedStatus& t) const { t = m_causs; }
+                void getControlledStatus(ControlledStatus& t) const { t = m_contrs; }
 
             private:
                 PlayerID m_plid;

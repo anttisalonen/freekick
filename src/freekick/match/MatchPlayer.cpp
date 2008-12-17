@@ -24,11 +24,10 @@ namespace freekick
 {
     namespace match
     {
-        MatchPlayer::MatchPlayer (const freekick::soccer::Player& p, const addutil::Color& c)
+        MatchPlayer::MatchPlayer (const freekick::soccer::Player& p)
             : Player(p), 
               DynamicEntity(70.0f, "robot.mesh")
         {
-            setColor(c);
         }
 
         const int MatchPlayer::getID()

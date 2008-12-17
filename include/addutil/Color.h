@@ -22,6 +22,8 @@
 #ifndef COLOR_H
 #define COLOR_H
 
+#include <string>
+
 #include <boost/serialization/serialization.hpp>
 
 /**
@@ -35,9 +37,11 @@ namespace addutil
     public:
 
         Color(float r = 0.0f, float g = 0.0f, float b = 0.0f);
+        Color(int r, int g, int b);
         float red;
         float green;
         float blue;
+        void  toIntStream(std::ostream& s) const;
 
         friend class boost::serialization::access;
         template<class Archive>
@@ -48,5 +52,9 @@ namespace addutil
             ar & blue;
         }
     };
+    int colorValueToInt(float v);
+    float intToColorValue(int v);
+    std::ostream& operator <<(std::ostream& os, const Color& c);
 }
+
 #endif // COLOR_H

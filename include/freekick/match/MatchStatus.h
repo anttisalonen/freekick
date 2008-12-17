@@ -15,121 +15,66 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
 
-#ifndef MATCHSTATUS_H
-#define MATCHSTATUS_H
+#ifndef FREEKICK_MATCHSTATUS_H
+#define FREEKICK_MATCHSTATUS_H
 
+#include <map>
 #include <vector>
-#include <set>
-#include <string>
-#include <iostream>
-#include <sstream>
-#include <exception>
 
-#include <boost/foreach.hpp>
 #include <boost/shared_ptr.hpp>
-#include <boost/thread.hpp>
-#include <boost/serialization/map.hpp>
-#include <boost/serialization/set.hpp>
-#include <boost/serialization/shared_ptr.hpp>
+#include <boost/foreach.hpp>
 
-#include "Entity.h"
-#include "Time.h"
-#include "MatchStadium.h"
+#include "DynamicEntity.h"
+
+#include "Player.h"
+#include "MatchPlayer.h"
 #include "MatchBall.h"
-#include "MatchReferee.h"
 #include "MatchClub.h"
+#include "MatchData.h"
+#include "MatchIDs.h"
 
-/**
- * class Status
- */
+#include "messages/ConstantUpdateMessage.h"
 
 namespace freekick
 {
     namespace match
     {
-        using namespace addutil;
-        using namespace freekick::soccer;
-        using namespace freekick::match;
+        using namespace soccer;
         class MatchStatus
         {
         public:
-            
-            // Constructors/Destructors
-            //  
-
-            /**
-             */
-            MatchStatus ( );
-            virtual ~MatchStatus();
-
-            // Public member functions
-
-            /**
-             * @param  evt
-             */
+            MatchStatus(boost::shared_ptr<MatchData> md);
+            virtual ~MatchStatus() { }
+/*
             void newEvent (const std::string& evt );
-
-            /**
-             * @param  events
-             */
             void newEvents (std::vector <std::string>& events );
+*/
+            void update(const messages::ConstantUpdateMessage& m);
+            void update(const std::vector<messages::ConstantUpdateMessage>& ms);
+            boost::shared_ptr<MatchData> getMatchData() const;
 
-            std::set <boost::shared_ptr<addutil::Entity> >* getEntities ( );
+            // std::set <boost::shared_ptr<addutil::Entity> >* getEntities ( );
 
-            void addClub(const std::string& name);
-            void addPlayer(const std::string& clubname, int idnum, const Color& col);
-            void addBall();
-            void updateAll(float interval);
-            void interpolateAll(boost::posix_time::ptime pt);
-
-            bool run();
-//     const std::string& getHomeClubName() const;
-            template <typename ContT> void getHomePlayerIDs(ContT& ids);
-            template <typename ContT> void getAwayPlayerIDs(ContT& ids);
+            // void addPlayer(const std::string& clubname, int idnum, const Color& col);
+            // void addBall();
+            // void updateAll(float interval);
+            // void interpolateAll(boost::posix_time::ptime pt);
 
         private:
-
-            // Private attributes
-            //  
-
-            MatchStadium* stadium;
-            boost::shared_ptr<MatchBall> ball;
-            std::map <std::string, boost::shared_ptr<MatchClub> > clubs;
-            MatchReferee* referee;
-            std::set <boost::shared_ptr<Entity> > entities;
-            boost::shared_ptr<MatchClub> homeclub;
-            boost::shared_ptr<MatchClub> awayclub;
+            boost::shared_ptr<MatchData> mMatchData;
+            std::map <int, boost::shared_ptr<DynamicEntity> > mEntities;
+            // TODO: add status of yellow cards etc.
 
             Time currtime;
             unsigned int score_home;
             unsigned int score_away;
             unsigned int injurytime;
             bool secondhalf;
-
-            template <typename ContT> void getClubPlayerIDs(const boost::shared_ptr<MatchClub> c, ContT& ids);
-
-            friend class boost::serialization::access;
-            template<class Archive>
-                void serialize(Archive & ar, const unsigned int version)
-            {
-                ar & stadium;
-                ar & ball;
-                ar & clubs;
-                ar & referee;
-                ar & entities;
-                ar & homeclub;
-                ar & awayclub;
-                ar & currtime;
-                ar & score_home;
-                ar & score_away;
-                ar & secondhalf;
-            }
         };
     }
 }
 
-#endif // MATCHSTATUS_H
+#endif

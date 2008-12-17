@@ -130,14 +130,41 @@ namespace freekick
 
             void Dispatcher::newClientMessage(unsigned int clid, const messages::InitialDataRequest& m)
             {
-                messages::InitialDataMessage idm(*mMatchStatus);
+                boost::shared_ptr<MatchData> md = mMatchStatus->getMatchData();
+                if(!srv.is_connected(clid))
+                {
+                    std::cerr << "Dispatcher::newClientMessage: Trying to write to a non-existing Client ID\n";
+                    return;
+                }
+                std::string c1, c2;
                 try
                 {
-                    srv.write(idm.toString(), clid);
+                    md->getHomeClubName(c1);
+                    md->getAwayClubName(c2);
                 }
                 catch (...)
                 {
-                    std::cerr << "Dispatcher::newClientMessage: Trying to write to a non-existing Client ID\n";
+                    std::cerr << "Dispatcher::newClientMessage: no clubs in MatchStatus\n";
+                    return;
+                }
+
+                // TODO: get actual colors of the clubs, goalkeepers and referee
+                boost::shared_ptr<Club> club1 = md->getHomeClub();
+                boost::shared_ptr<Club> club2 = md->getAwayClub();
+                using addutil::Color;
+                Kit temporarykit(0, Color(), Color(), Color(), Color());
+
+                messages::InitialDataClubMessage idm1(c1, c2);
+                messages::InitialDataKitMessage  idm2(temporarykit, temporarykit, temporarykit, temporarykit, temporarykit);
+
+                try
+                {
+                    srv.write(idm1.toString(), clid);
+                    srv.write(idm2.toString(), clid);
+                }
+                catch (...)
+                {
+                    std::cerr << "Dispatcher::newClientMessage: Client disconnected\n";
                 }
             }
         }

@@ -103,6 +103,14 @@ namespace addutil
             cleanup_client(id, true);
         }
 
+        bool Server::is_connected(client_id id)
+        {
+            std::map<client_id, ConnectionPtr>::iterator it;
+            it = connections.find(id);
+            if(it == connections.end()) return false;
+            return true;
+        }
+
         void Server::cleanup_client(client_id id, bool already_notified)
         {
             std::cerr << "Server::cleanup_client: cleaning up.\n";

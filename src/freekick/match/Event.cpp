@@ -33,9 +33,9 @@ namespace freekick
                 if(sws) str.setf(std::ios_base::skipws);
             }
 
-            void parse_events(std::string& st, std::deque<std::string>& evts)
+            void parse_events(std::string& st, std::deque<std::string>& evts, bool keep_parens)
             {
-                static std::string data = "";
+                static std::string data = "(";
                 static bool in = false;
                 char c = 0;
                 std::string::iterator it = st.begin();
@@ -50,9 +50,13 @@ namespace freekick
                             if (c == ')')
                             {
                                 in = false;
-                                if (data.length() > 0)
+                                if ((data.length() > 0 && !keep_parens) || (data.length() > 1 && keep_parens))
+                                {
+                                    if(keep_parens) data += ")";
                                     evts.push_back(data);
-                                data = "";
+                                }
+                                if (keep_parens) data = "(";
+                                else data = "";
                                 break;
                             }
                             if (isprint(c))

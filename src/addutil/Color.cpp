@@ -35,4 +35,32 @@ namespace addutil
         red(r), green(g), blue(b)
     {
     }
+
+    Color::Color(int r, int g, int b)
+    {
+        red = intToColorValue(r);
+        green = intToColorValue(g);
+        blue = intToColorValue(b);
+    }
+
+    void Color::toIntStream(std::ostream& s) const
+    {
+        s << colorValueToInt(red) << " " << colorValueToInt(green) << " " << colorValueToInt(blue);
+    }
+
+    int colorValueToInt(float v)
+    {
+        return v * 255;
+    }
+
+    float intToColorValue(int v)
+    {
+        return v / 255.0f;
+    }
+
+    std::ostream& operator <<(std::ostream& os, const Color& c)
+    {
+        c.toIntStream(os);
+        return os;
+    }
 }

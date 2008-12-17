@@ -45,7 +45,6 @@ namespace freekick
                 using namespace messages;
 
                 std::cerr << "ClientEventListener: New data received\n";
-                // TODO: validate, process, pass on to physics
                 std::string t;
                 try
                 {

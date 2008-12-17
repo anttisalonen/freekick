@@ -54,8 +54,8 @@ namespace freekick
             void addPlayer(boost::shared_ptr<Player> p);
             bool hasPlayer(int i);
             const Player& getPlayer(int i);
-            template <typename ContT> void getPlayers(ContT& pls);
-            template <typename ContT> void getPlayerIDs(ContT& ids);
+            void getPlayers(std::vector<boost::shared_ptr<Player> >& pls);
+            void getPlayerIDs(std::vector<int>& ids);
 
         private:
             std::string name;

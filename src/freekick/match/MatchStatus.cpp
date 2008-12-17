@@ -15,7 +15,6 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
 #include "MatchStatus.h"
@@ -24,158 +23,90 @@ namespace freekick
 {
     namespace match
     {
-// Constructors/Destructors
-//  
-
-/**
- */
-        MatchStatus::MatchStatus ( ) 
-            : ball(new MatchBall(0.4f))
+        MatchStatus::MatchStatus(boost::shared_ptr<MatchData> md)
+            : mMatchData(md)
         {
-            entities.insert(ball);
+            mEntities[BallID] = boost::shared_ptr<MatchBall>(new MatchBall(*mMatchData->getBall()));
+
+            boost::shared_ptr<Club> c1 = mMatchData->getHomeClub();
+            boost::shared_ptr<Club> c2 = mMatchData->getHomeClub();
+            std::vector<boost::shared_ptr<Player> > c1pls;
+            std::vector<boost::shared_ptr<Player> > c2pls;
+            c1->getPlayers(c1pls);
+            c2->getPlayers(c2pls);
+            BOOST_FOREACH(boost::shared_ptr<Player> p, c1pls)
+            {
+                int i = p->getID();
+                mEntities[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p));
+            }
+            BOOST_FOREACH(boost::shared_ptr<Player> p, c2pls)
+            {
+                int i = p->getID();
+                mEntities[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p));
+            }
+            // TODO: add referee + others (if any)
         }
 
-        MatchStatus::~MatchStatus()
+        boost::shared_ptr<MatchData> MatchStatus::getMatchData() const
         {
+            return mMatchData;
         }
 
-/**
- * @param  evt
- */
+/*
         void MatchStatus::newEvent (const std::string& evt ) 
         {
             int n, v;
             float x, y, z, qw, qx, qy, qz;
             std::istringstream ist(evt);
             ist >> n >> v >> x >> y >> z >> qw >> qx >> qy >> qz;
-            if(n == -2)
+            if(n == BallID)
             {
                 ball->update(v, x, y, z);
                 return;
             }
-            typedef std::pair<std::string, boost::shared_ptr<MatchClub> > pair_cl;
-            BOOST_FOREACH(pair_cl cl, clubs)
+            BOOST_FOREACH(boost::shared_ptr<Club> c, clubs)
             {
-                if (cl.second->updatePlayer(n, v, x, y, z, qw, qx, qy, qz))
+                if (c->updatePlayer(n, v, x, y, z, qw, qx, qy, qz))
                     return;
             }
         }
 
-
-/**
- * @param  events
- */
         void MatchStatus::newEvents (std::vector <std::string>& events ) 
         {
             BOOST_FOREACH(std::string s, events)
                 newEvent(s);
         }
-
-        void MatchStatus::addClub(const std::string& name)
-        {
-            boost::shared_ptr<MatchClub> cl (new MatchClub(name));
-            clubs[name] = cl;
-            int numclubs = clubs.size();
-            if(numclubs == 1) 
-                homeclub = cl;
-            else
-                awayclub = cl;
-        }
-
-        void MatchStatus::addPlayer(const std::string& clubname, int idnum, const Color& col)
-        {
-            if(idnum < 1) 
-            {
-                throw "MatchStatus::addPlayer: invalid parameter (idnum)";
-            }
-            typedef std::pair<std::string, boost::shared_ptr<MatchClub> > pair_cl;
-            BOOST_FOREACH(pair_cl pcl, clubs)
-            {
-                if(pcl.second->getName() == clubname)
-                {
-                    int n = pcl.second->getNumberOfPlayers();
-                    boost::shared_ptr<MatchPlayer> pl (new MatchPlayer(Player("", n, idnum), col));
-                    pcl.second->addMatchPlayer(pl);
-                    entities.insert(pl);
-                    return;
-                }
-            }
-        }
-
-        std::set <boost::shared_ptr<Entity> >* MatchStatus::getEntities ()
-        {
-            return &entities;
-        }
-
-        void MatchStatus::updateAll(float interval)
-        {
-            BOOST_FOREACH(boost::shared_ptr<Entity> d, entities)
-            {
-                d->update(interval);
-            }
-        }
-
-        void MatchStatus::interpolateAll(boost::posix_time::ptime pt)
-        {
-            BOOST_FOREACH(boost::shared_ptr<Entity> d, entities)
-            {
-                d->interpolate(pt);
-            }
-        }
-
-        bool MatchStatus::run()
-        {
-            /*
-              long milliseconds = 25;
-              while(1)
-              {
-              boost::posix_time::ptime start_time = boost::posix_time::microsec_clock::universal_time();
-              updateAll(milliseconds / 1000.0f);
-              boost::posix_time::ptime end_time = boost::posix_time::microsec_clock::universal_time();
-              boost::posix_time::time_period diff_time(start_time, end_time);
-              boost::posix_time::time_duration diff_dur = diff_time.length();
-              long ms_diff = diff_dur.total_milliseconds();
-
-              if(ms_diff > milliseconds)
-              {
-              milliseconds++;
-              }
-              else
-              {
-              boost::this_thread::sleep(boost::posix_time::milliseconds(milliseconds - ms_diff));
-              }
-              }
-            */
-            return true;
-        }
-
-/*
-  const std::string& MatchStatus::getHomeClubName() const
-  {
-  if(clubs.size() == 0) throw "MatchStatus::getHomeClubName: No clubs in status";
-  std::map<std::string, boost::shared_ptr<Club> >::iterator it = clubs.begin();
-  return (*it).first;
-  }
 */
 
-        template <typename ContT>
-        void MatchStatus::getHomePlayerIDs(ContT& ids)
+
+        void MatchStatus::update(const messages::ConstantUpdateMessage& m)
         {
-            if(homeclub.use_count() == 0) throw "MatchStatus::getHomePlayerIDs: No home club";
-            getClubPlayerIDs(homeclub, ids);
+            int n, v;
+            addutil::Vector3 vec;
+            addutil::Quaternion q;
+            n = m.getPlayerID();
+            v = m.getDerivative();
+            m.getVector(vec);
+            m.getQuaternion(q);
+            std::map<int, boost::shared_ptr<DynamicEntity> >::iterator it;
+            it = mEntities.find(n);
+            if (it == mEntities.end())
+            {
+                return;
+            }
+
+            (*it).second->update(v, vec.x, vec.y, vec.z);
+            (*it).second->updateOrientation(v, q.w, q.x, q.y, q.z);
+            return;
         }
 
-        template <typename ContT>
-        void MatchStatus::getAwayPlayerIDs(ContT& ids)
+        void MatchStatus::update(const std::vector<messages::ConstantUpdateMessage>& ms)
         {
-            if(awayclub.use_count() == 0) throw "MatchStatus::getAwayPlayerIDs: No away club";
-            getClubPlayerIDs(awayclub, ids);
-        }
-
-        template <typename ContT>
-        void MatchStatus::getClubPlayerIDs(const boost::shared_ptr<MatchClub> c, ContT& ids)
-        {
-            c->getPlayerIDs(ids);
+            typedef std::pair<std::string, boost::shared_ptr<MatchClub> > pair_cl;
+            BOOST_FOREACH(messages::ConstantUpdateMessage m, ms)
+            {
+                update(m);
+            }
         }
     }
 }

@@ -37,7 +37,7 @@ namespace freekick
             {
             public:
                 InitialDataMessage(const MatchStatus& ms)
-                    : SerializationDataMessage(initial_data_id)
+                    : SerializationDataMessage(initialdata_id)
                     , m_ms(ms)
                 {
                 }

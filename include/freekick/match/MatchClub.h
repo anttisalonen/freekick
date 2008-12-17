@@ -54,6 +54,7 @@ namespace freekick
             MatchClub (const Club& c);
             void addMatchPlayer(boost::shared_ptr<MatchPlayer> p);
             bool updatePlayer(int i, int v, float x, float y, float z, float qw = 0.0f, float qx = 0.0f, float qy = 0.0f, float qz = 0.0f);
+            bool updatePlayer(int i, int v, const addutil::Vector3& vec, const addutil::Quaternion& q);
 
         private:
             /* TODO: MatchClub has a map of MatchPlayers as well as a map of Players.

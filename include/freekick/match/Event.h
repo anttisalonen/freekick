@@ -29,7 +29,8 @@ namespace freekick
     {
         namespace network
         {
-            void parse_events(std::string& st, std::deque<std::string>& evts);
+            //! turns "(evt1)(evt2)" into "(evt1)", "(evt2)"
+            void parse_events(std::string& st, std::deque<std::string>& evts, bool keep_parens = false);
         }
     }
 }

@@ -28,24 +28,39 @@
 #include "addutil/Exception.h"
 
 #include "freekick/match/server/ServerManager.h"
+#include "Club.h"
+#include "Player.h"
 #include "MatchStatus.h"
 
 using namespace addutil;
 using namespace freekick;
 
+using namespace freekick::soccer;
 using freekick::match::MatchStatus;
 using freekick::match::server::ServerManager;
-
-void run_status(MatchStatus* s)
-{
-    s->run();
-}
 
 int main(int argc, char** argv)
 {
     try
     {
-        boost::shared_ptr<MatchStatus> status(new MatchStatus());
+        boost::shared_ptr<Club> club1(new Club("home club name"));
+        boost::shared_ptr<Club> club2(new Club("away club name"));
+
+        int idnum;
+        for(idnum = 100; idnum < 120; idnum++)
+        {
+            boost::shared_ptr<Player> p(new Player("home player name", idnum % 20 + 1, idnum));
+            club1->addPlayer(p);
+        }
+        for(idnum = 200; idnum < 220; idnum++)
+        {
+            boost::shared_ptr<Player> p(new Player("away player name", idnum % 20 + 1, idnum));
+            club2->addPlayer(p);
+        }
+
+        boost::shared_ptr<MatchData> data(new MatchData(club1, club2));
+        boost::shared_ptr<MatchStatus> status(new MatchStatus(data));
+
         std::cerr << "Starting Freekick server" << std::endl;
         ServerManager sm(32105, status, 
                          "Freekick C++ Server", 

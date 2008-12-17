@@ -50,5 +50,10 @@ namespace freekick
             }
             return false;
         }
+
+        bool MatchClub::updatePlayer(int i, int v, const addutil::Vector3& vec, const addutil::Quaternion& q)
+        {
+            return updatePlayer(i, v, vec.x, vec.y, vec.z, q.w, q.x, q.y, q.z);
+        }
     }
 }

@@ -36,7 +36,9 @@ namespace freekick
                     : PlayerControlMessage(plid, tgtvec)
                 {
                 }
+
                 virtual ~MovePlayerControlMessage() { }
+
                 MovePlayerControlMessage(std::string& msg)
                     : PlayerControlMessage(msg)
                 {

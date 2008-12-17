@@ -55,7 +55,6 @@ namespace freekick
             bool isValidMessage(const std::string& s)
             {
                 int ssiz = s.size();
-                std::cout << "ssiz: " << ssiz << std::endl;
                 if(ssiz < 2) return false;
                 if(s[0] != '(') return false;
                 // if(s[ssiz - 1] != ')') return false;

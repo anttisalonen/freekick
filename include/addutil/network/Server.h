@@ -55,6 +55,7 @@ namespace addutil
             virtual void client_disconnected(client_id id) = 0;
             void write(const std::string& msg, client_id id);
             void disconnect(client_id id);
+            bool is_connected(client_id id);
             void multicast(const std::string& msg, const std::set<client_id>& ids);
             void multicast(const std::string& msg, group_id gid);
             void add_to_group(client_id cid, group_id gid);

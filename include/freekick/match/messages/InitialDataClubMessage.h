@@ -18,10 +18,12 @@
 **************************************************************************/
 
 
-#ifndef FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
-#define FREEKICK_MATCH_MESSAGES_SERIALIZATIONDATAMESSAGE_H
+#ifndef FREEKICK_MATCH_MESSAGES_INITIALDATACLUBMESSAGE_H
+#define FREEKICK_MATCH_MESSAGES_INITIALDATACLUBMESSAGE_H
 
-#include "StandardMessage.h"
+#include <string>
+
+#include "SerializationDataMessage.h"
 
 namespace freekick
 {
@@ -29,26 +31,27 @@ namespace freekick
     {
         namespace messages
         {
-            class SerializationDataMessage : public StandardMessage
+            class InitialDataClubMessage : public SerializationDataMessage
             {
             public:
-                SerializationDataMessage(unsigned int id)
-                    : m_serializationid(id)
+                InitialDataClubMessage(const std::string& c1, const std::string& c2)
+                    : SerializationDataMessage(initialdata_club_id),
+                      club1name(c1),
+                      club2name(c2)
                 {
                 }
+                virtual ~InitialDataClubMessage() { }
 
-                virtual ~SerializationDataMessage() { }
-
-            protected:
-                const std::string serString(const std::string& msg) const
+                const std::string toString () const
                 {
                     std::ostringstream oss(std::ostringstream::out);
-                    oss << serialization_delim << " " << m_serializationid << " " << msg << " " << m_serializationid << " " << serialization_delim;
-                    return stdString(oss.str());
+                    oss << "\"" << club1name << "\" \"" << club2name << "\"";
+                    return serString(oss.str());
                 }
 
             private:
-                unsigned int m_serializationid;
+                std::string club1name;
+                std::string club2name;
             };
         }
     }

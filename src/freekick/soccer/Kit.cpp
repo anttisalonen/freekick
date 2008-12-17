@@ -20,23 +20,40 @@
 
 #include "Kit.h"
 
-// Constructors/Destructors
-//  
-
-/**
- * @param  jtype
- * @param  jcolors
- * @param  shortscol
- * @param  sockscol
- */
 namespace freekick
 {
     namespace soccer
     {
-        Kit::Kit (int jtype, const std::vector <Color>& jcolors, const Color& shortscol, const Color& sockscol ) 
-            : jerseytype(jtype), jerseycolors(jcolors), jerseypic(""), shortscolor(shortscol), sockscolor(sockscol)
+        Kit::Kit (int jtype, const Color& jcolor1, const Color& jcolor2, const Color& shortscol, const Color& sockscol ) 
+            : jerseytype(jtype), jerseypic(""), shortscolor(shortscol), sockscolor(sockscol)
         {
+            jerseycolors[0] = jcolor1;
+            jerseycolors[1] = jcolor2;
+        }
 
+        int Kit::getJerseyType() const
+        {
+            return jerseytype;
+        }
+
+        void Kit::getFirstJerseyColor(Color& c) const
+        {
+            c = jerseycolors[0];
+        }
+
+        void Kit::getSecondJerseyColor(Color& c) const
+        {
+            c = jerseycolors[1];
+        }
+
+        void Kit::getShortsColor(Color& c) const
+        {
+            c = shortscolor;
+        }
+
+        void Kit::getSocksColor(Color& c) const
+        {
+            c = sockscolor;
         }
     }
 }

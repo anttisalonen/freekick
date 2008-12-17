@@ -61,8 +61,7 @@ namespace freekick
             return *(it->second);
         }
 
-        template <typename ContT>
-        void Club::getPlayers(ContT& pls)
+        void Club::getPlayers(std::vector<boost::shared_ptr<Player> >& pls)
         {
             pls.clear();
             typedef std::pair<int, boost::shared_ptr<Player> > pair_pl;
@@ -73,8 +72,7 @@ namespace freekick
             }
         }
 
-        template <typename ContT>
-        void Club::getPlayerIDs(ContT& ids)
+        void Club::getPlayerIDs(std::vector<int>& ids)
         {
             ids.clear();
             typedef std::pair<int, boost::shared_ptr<Player> > pair_pl;

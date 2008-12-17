@@ -36,25 +36,23 @@ namespace freekick
                                                          500, Vector3(0, -9.8, 0)))
             {
                 mPhysicsEngine->subscribe(*this);
-                mPhysicsEngine->addStaticBoxObject(PitchID, Vector3(50, 50, 50), Vector3(0, -50, 0));
+                mPhysicsEngine->addStaticBoxObject(PitchID, Vector3(200, 50, 140), Vector3(100, -50, 70));
                 mPhysicsEngine->addDynamicSphereObject(BallID, 1.0f, 5.0f, Vector3(10, 50, 10));
-                std::string c1("Club 1");
-                std::string c2("Club 2");
-                addutil::Color col(1.0f, 1.0f, 1.0f);
-                ms->addClub(c1);
-                ms->addClub(c2);
-                int idnum;
-                for(idnum = 100; idnum < 120; idnum++)
+                std::vector<int> hplayers;
+                std::vector<int> aplayers;
+                boost::shared_ptr<Club> club1 = mMatchStatus->getMatchData()->getHomeClub();
+                boost::shared_ptr<Club> club2 = mMatchStatus->getMatchData()->getAwayClub();
+                club1->getPlayerIDs(hplayers);
+                club2->getPlayerIDs(aplayers);
+                BOOST_FOREACH(int idnum, hplayers)
                 {
                     Vector3 loc(idnum % 90 + 1, idnum % 20 + 1, idnum % 50 + 1);
                     mPhysicsEngine->addControllableObject(idnum, Vector3(1.0f, 2.0f, 1.0f), 80.0f, loc);
-                    ms->addPlayer(c1, idnum, col);
                 }
-                for(idnum = 200; idnum < 220; idnum++)
+                BOOST_FOREACH(int idnum, aplayers)
                 {
                     Vector3 loc(idnum % 90 + 1, idnum % 20 + 1, idnum % 50 + 1);
                     mPhysicsEngine->addControllableObject(idnum, Vector3(1.0f, 2.0f, 1.0f), 80.0f, loc);
-                    ms->addPlayer(c2, idnum, col);
                 }
             }
 
@@ -116,6 +114,7 @@ namespace freekick
                     newmessages.push_back(c);
                 }
                 publish();
+                mMatchStatus->update(newmessages);
                 clearMessages();
             }
 
