@@ -36,7 +36,7 @@ namespace freekick
         {
             const static std::string freekick_server_id 	= "FREEKICK_SERVER";
             const static std::string freekick_client_id 	= "FREEKICK_CLIENT";
-            const static std::string serialization_delim	= "+++";
+            const static std::string serialization_delim	= "+";
             const static unsigned int initialdata_id		= 1;
             const static unsigned int initialdata_club_id	= 100;
             const static unsigned int initialdata_kit_id	= 110;
