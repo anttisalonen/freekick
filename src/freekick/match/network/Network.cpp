@@ -37,14 +37,19 @@ namespace freekick
             using namespace addutil::network;
             using namespace freekick;
 
-            Network::Network (IP_Connection conn, MatchStatus* stat )
+            Network::Network (IP_Connection conn)
                 : Client(conn),
-                  status(stat)
+                  status(0)
             {
             }
 
             Network::~Network()
             {
+            }
+
+            freekick::match::MatchStatus* Network::getMatchStatus()
+            {
+                return status;
             }
 
             void cut_from_string(const std::string& in, const std::string& start_token, const std::string& end_token, std::string& out)
@@ -116,57 +121,33 @@ namespace freekick
                             continue;
                         }
 
-                        if (t == s_const_upd)
+                        if (t == serialization_delim)
                         {
-                            try
+                            boost::shared_ptr<Club> c1(new Club("club1"));
+                            boost::shared_ptr<Club> c2(new Club("club2"));
+                            boost::shared_ptr<MatchData> md(new MatchData(c1, c2));
+                            status = new MatchStatus(md);
+                            // TODO: read data
+                        }
+
+                        if(status != 0)
+                        {
+                            if (t == s_const_upd)
                             {
-                                const messages::ConstantUpdateMessage m(this_event);
-                                status->update(m);
+                                try
+                                {
+                                    const messages::ConstantUpdateMessage m(this_event);
+                                    status->update(m);
+                                }
+                                catch(...)
+                                {
+                                    std::cerr << "Network: failed to parse ConstantUpdateMessage.\n";
+                                }
+                                continue;
                             }
-                            catch(...)
-                            {
-                                std::cerr << "Network: failed to parse ConstantUpdateMessage.\n";
-                            }
-                            continue;
                         }
                     }
                 }
-
-/*
-  std::string::size_type lf = buf.find('\n');
-  buffer += buf;
-  if(lf == std::string::npos)
-  {
-  return;
-  }
-
-  if(handshake)
-  {
-  std::cout << "Received: " << buf << std::endl;
-  write("FREEKICK_CLIENT \"Client with ncurses 0.15b\" \"0.2\" \"username/password\" H [101]");
-  handshake = false;
-  }
-  else
-  {
-  std::vector<std::string> read_strings;
-  splitstr_and_fill(read_strings, buffer, "\n");
-  buffer = read_strings.back();
-  read_strings.pop_back();
-  BOOST_FOREACH(std::string b, read_strings)
-  {
-  std::deque<std::string> events;
-  parse_events(b, events);
-  std::cout << "Number of events: " << events.size() << std::endl;
-
-  while(events.size() > 0)
-  {
-  // std::cout << events.front() << std::endl;
-  status->newEvent(events.front());
-  events.pop_front();
-  }
-  }
-  }
-*/
             }
 
             bool Network::run ( ) 

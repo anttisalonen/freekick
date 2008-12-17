@@ -27,6 +27,7 @@
 #include <boost/bind.hpp>
 #include <boost/archive/text_oarchive.hpp>
 #include <boost/exception.hpp>
+#include <boost/date_time/posix_time/posix_time.hpp>
 
 #include <Ogre.h>
 
@@ -37,6 +38,8 @@
 #include "Configuration.h"
 #include "Network.h"
 #include "Graphics.h"
+
+#include "messages/InitialDataRequest.h"
 
 using namespace freekick::match;
 using namespace freekick::match::client;
@@ -53,11 +56,6 @@ void run_network(Network* n)
     n->run();
 }
 
-void run_status(MatchStatus* s)
-{
-    s->run();
-}
-
 int main(int argc, char** argv)
 {
     bool start_graphics = true;
@@ -72,29 +70,48 @@ int main(int argc, char** argv)
     {
         Configuration* configuration = new Configuration (argc, argv);
         addutil::network::IP_Connection conn = configuration->getServerConnection();
-        MatchStatus* status = new MatchStatus();
-        Network* network = new Network(conn, status);
+        Network* network;
+        MatchStatus* status;
+        std::cerr << "Freekick client starting" << std::endl;
+        try
+        {
+            network = new Network(conn);
+            boost::thread network_thread(boost::bind(&run_network, network));
+            boost::this_thread::sleep(boost::posix_time::milliseconds(2000));  // TODO: make timeouts configurable?
+            if(!network->is_connected())
+            {
+                std::cerr << "Network::Network: timeout while connecting";
+                return 1;
+            }
+            network->sendMessage(messages::InitialDataRequest());
+            boost::this_thread::sleep(boost::posix_time::milliseconds(2000));
+            status = network->getMatchStatus();
+            if(status == 0)
+            {
+                std::string err("Network::Network: no match status created.\n");
+                std::cerr << err;
+                return 1;
+            }
+            else std::cerr << "Network::Network: Success.\n";
+        }
+        catch(...)
+        {
+            std::cerr << "Network connection failed; exiting.\n";
+            return 1;
+        }
+        if(status == 0) { std::cerr << "Received invalid match status?\n"; return 1; }
         Input* input = new Input(configuration, status, network);
         Graphics* graphics = new Graphics(configuration, status, input);
 
-        std::cerr << "Freekick client starting" << std::endl;
         // boost::thread status_thread(boost::bind(&run_status, status));
         if(start_graphics)
         {
-            boost::thread network_thread(boost::bind(&run_network, network));
             boost::thread graphics_thread(boost::bind(&run_graphics, graphics));
             graphics_thread.join();
         }
         else
         {
-            boost::thread network_thread(boost::bind(&run_network, network));
-            network_thread.join();
-        }
-
-        {
-            std::ofstream ofs("matchstatus.dump");
-            boost::archive::text_oarchive oa(ofs);
-            oa << status;
+            // network_thread.join();
         }
 
         delete graphics;

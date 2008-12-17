@@ -45,6 +45,7 @@
 
 #include "messages/Message.h"
 #include "messages/ConstantUpdateMessage.h"
+#include "messages/InitialDataRequest.h"
 
 namespace freekick
 {
@@ -77,8 +78,9 @@ namespace freekick
                  * @param  conf
                  * @param  stat
                  */
-                Network (addutil::network::IP_Connection conn, MatchStatus* stat );
+                Network (addutil::network::IP_Connection conn);
                 virtual ~Network();
+                freekick::match::MatchStatus* getMatchStatus();
 
                 bool run ( );
                 void sendMessage(const messages::Message& m);

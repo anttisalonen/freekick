@@ -57,6 +57,11 @@ namespace addutil
                 c.disconnect();
         }
 
+        bool Client::is_connected()
+        {
+            return c.connected();
+        }
+
         void Client::read_loop()
         {
             while(c.connected())

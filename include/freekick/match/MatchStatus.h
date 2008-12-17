@@ -56,7 +56,7 @@ namespace freekick
             void update(const std::vector<messages::ConstantUpdateMessage>& ms);
             boost::shared_ptr<MatchData> getMatchData() const;
 
-            // std::set <boost::shared_ptr<addutil::Entity> >* getEntities ( );
+            void getEntities (std::vector <boost::shared_ptr<DynamicEntity> >& v);
 
             // void addPlayer(const std::string& clubname, int idnum, const Color& col);
             // void addBall();
@@ -66,6 +66,7 @@ namespace freekick
         private:
             boost::shared_ptr<MatchData> mMatchData;
             std::map <int, boost::shared_ptr<DynamicEntity> > mEntities;
+            std::vector <boost::shared_ptr<DynamicEntity> > mEntityVector;
             // TODO: add status of yellow cards etc.
 
             Time currtime;

@@ -44,11 +44,12 @@ namespace freekick
   status->interpolateAll(end_time);
 */
 
-                    typedef boost::shared_ptr<Entity> PtrEntity;
-                    std::set <PtrEntity>* drs = status->getEntities();
-                    std::set <PtrEntity>::iterator d;
+                    typedef boost::shared_ptr<DynamicEntity> PtrEntity;
+                    std::vector <PtrEntity> drs;
+                    status->getEntities(drs);
+                    std::vector <PtrEntity>::iterator d;
 
-                    for (d = drs->begin(); d != drs->end(); d++)
+                    for (d = drs.begin(); d != drs.end(); d++)
                     {
                         Ogre::SceneNode* node = 0;
                         int dr_id = (*d)->getID();

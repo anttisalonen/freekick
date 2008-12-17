@@ -39,6 +39,7 @@ namespace addutil
         public:
             Client(IP_Connection conn);
             virtual ~Client();
+            virtual bool is_connected();
         protected:
             void connect();
             void disconnect();

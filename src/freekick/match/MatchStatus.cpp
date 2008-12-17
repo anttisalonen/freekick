@@ -45,6 +45,12 @@ namespace freekick
                 mEntities[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p));
             }
             // TODO: add referee + others (if any)
+
+            typedef std::pair<int, boost::shared_ptr<DynamicEntity> > pair_de;
+            BOOST_FOREACH(pair_de p, mEntities)
+            {
+                mEntityVector.push_back(p.second);
+            }
         }
 
         boost::shared_ptr<MatchData> MatchStatus::getMatchData() const
@@ -78,6 +84,10 @@ namespace freekick
         }
 */
 
+        void MatchStatus::getEntities (std::vector <boost::shared_ptr<DynamicEntity> >& v)
+        {
+            v = mEntityVector;
+        }
 
         void MatchStatus::update(const messages::ConstantUpdateMessage& m)
         {
