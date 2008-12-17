@@ -32,8 +32,10 @@ namespace freekick
                                             const std::string& windowhnd, 
                                             unsigned int width, 
                                             unsigned int height, 
-                                            Ogre::SceneNode* c) 
-                    : inputconfiguration(inputconf)
+                                            Ogre::SceneNode* c,
+                                            Network* netw) 
+                    : inputconfiguration(inputconf),
+                      network(netw)
                 {
                     mRotate = 0.13;
                     mMove = 250;
@@ -125,22 +127,18 @@ namespace freekick
                             break;
 
                         case OIS::KC_UP:
-                        case OIS::KC_W:
                             mDirection.z -= mMove;
                             break;
 
                         case OIS::KC_DOWN:
-                        case OIS::KC_S:
                             mDirection.z += mMove;
                             break;
 
                         case OIS::KC_LEFT:
-                        case OIS::KC_A:
                             mDirection.x -= mMove;
                             break;
 
                         case OIS::KC_RIGHT:
-                        case OIS::KC_D:
                             mDirection.x += mMove;
                             break;
 
@@ -152,6 +150,22 @@ namespace freekick
                         case OIS::KC_PGUP:
                         case OIS::KC_Q:
                             mDirection.y += mMove;
+                            break;
+
+                        case OIS::KC_W:
+                            break;
+
+                        case OIS::KC_S:
+                            break;
+
+                        case OIS::KC_A:
+                            break;
+
+                        case OIS::KC_D:
+                            break;
+
+                        case OIS::KC_X:
+                            network->sendMessage(messages::InitialDataRequest());
                             break;
 
                         default:

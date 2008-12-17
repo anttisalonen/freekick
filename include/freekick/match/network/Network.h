@@ -36,11 +36,15 @@
 #include <boost/foreach.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
 
-#include "MatchStatus.h"
 #include "addutil/Parsing.h"
 #include "addutil/network/Client.h"
 #include "addutil/network/IP_Connection.h"
+
+#include "MatchStatus.h"
 #include "Event.h"
+
+#include "messages/Message.h"
+#include "messages/ConstantUpdateMessage.h"
 
 namespace freekick
 {
@@ -77,6 +81,7 @@ namespace freekick
                 virtual ~Network();
 
                 bool run ( );
+                void sendMessage(const messages::Message& m);
 
             protected:
                 void read(std::string buf);

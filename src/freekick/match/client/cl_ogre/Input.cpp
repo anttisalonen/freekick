@@ -28,11 +28,6 @@ namespace freekick
         {
             namespace cl_ogre
             {
-/**
- * @param  conf
- * @param  stat
- * @param  netw
- */
                 Input::Input (Configuration* conf, MatchStatus* stat, Network* netw ) 
                     : configuration(conf), 
                       status(stat), 
@@ -45,17 +40,17 @@ namespace freekick
                     if (inputhandler) delete inputhandler;
                 }
 
-/**
- * @return const InputConfiguration*
- */
                 InputConfiguration* Input::getInputConfiguration ( ) const 
                 {
                     return configuration->getInputConfiguration();
                 }
 
-                void Input::setupInputSystem(const std::string& windowhnd, unsigned int width, unsigned int height, Ogre::SceneNode* n)
+                void Input::setupInputSystem(const std::string& windowhnd, 
+                                             unsigned int width, 
+                                             unsigned int height, 
+                                             Ogre::SceneNode* n)
                 {
-                    inputhandler = new InputHandler(configuration->getInputConfiguration(), windowhnd, width, height, n);
+                    inputhandler = new InputHandler(configuration->getInputConfiguration(), windowhnd, width, height, n, network);
                 }
 
                 void Input::setCamera(Ogre::SceneNode* n)

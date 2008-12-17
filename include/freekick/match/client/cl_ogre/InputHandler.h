@@ -30,7 +30,10 @@
 
 #include <OIS/OIS.h>
 
+#include "Network.h"
 #include "InputConfiguration.h"
+
+#include "messages/InitialDataRequest.h"
 
 /**
  * class InputHandler
@@ -44,14 +47,16 @@ namespace freekick
         {
             namespace cl_ogre
             {
+                using namespace freekick::match::network;
                 class InputHandler : public Ogre::FrameListener, public OIS::MouseListener, public OIS::KeyListener
                 {
                 public:
-
-                    /**
-                     * @param  inputconf
-                     */
-                    InputHandler (InputConfiguration* inputconf, const std::string& windowhnd, unsigned int width, unsigned int height, Ogre::SceneNode* c);
+                    InputHandler (InputConfiguration* inputconf, 
+                                  const std::string& windowhnd, 
+                                  unsigned int width, 
+                                  unsigned int height, 
+                                  Ogre::SceneNode* c,
+                                  Network* netw);
                     virtual ~InputHandler();
 
                     bool frameStarted(const Ogre::FrameEvent& evt);
@@ -63,9 +68,6 @@ namespace freekick
                     void setCamera(Ogre::SceneNode* c);
 
                 private:
-
-                    // Private attributes
-                    //  
 
                     int scrollState;
                     InputConfiguration* inputconfiguration;
@@ -83,6 +85,7 @@ namespace freekick
                     OIS::Mouse *mMouse;
                     OIS::InputManager *mInputManager;
 
+                    Network* network;
                 };
             }
         }

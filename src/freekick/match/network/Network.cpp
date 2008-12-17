@@ -58,8 +58,18 @@ namespace freekick
                 out = in.substr(st + start_token.length(), en - st - start_token.length());
             }
 
+            void Network::sendMessage(const messages::Message& m)
+            {
+                write(m.toString());
+            }
+
             void Network::read(std::string buf)
             {
+                using namespace messages;
+
+                std::cerr << "Network::read: New data received\n";
+
+                // summing up one entire line - TODO: handle serialization
                 std::string::size_type lf = buf.find('\n');
                 buffer += buf;
                 if(lf == std::string::npos)
@@ -67,38 +77,96 @@ namespace freekick
                     return;
                 }
 
+                // buf is the entire line
+                std::cout << "Received: " << buf << std::endl;
+
                 if(handshake)
                 {
-                    std::cout << "Received: " << buf << std::endl;
-                    write("FREEKICK_CLIENT \"Client with ncurses 0.15b\" \"0.2\" \"username/password\" H [2045,49]");
-                    
-                    Color c(1.0f, 0.0f, 0.0f);
-                    status->addClub("club1");
-                    status->addPlayer("club1", 2, c);
-                    status->addPlayer("club1", 3, c);
-                    std::cout << "Club 1 player ID: " << 2 << std::endl;
+                    write("FREEKICK_CLIENT \"OgreClient 0.0.??\" \"0.2\" \"username/password\" H [101]");
                     handshake = false;
+                    return;
                 }
-                else
-                {
-                    std::vector<std::string> read_strings;
-                    splitstr_and_fill(read_strings, buffer, "\n");
-                    buffer = read_strings.back();
-                    read_strings.pop_back();
-                    BOOST_FOREACH(std::string b, read_strings)
-                    {
-                        std::deque<std::string> events;
-                        parse_events(b, events);
-                        std::cout << "Number of events: " << events.size() << std::endl;
 
-                        while(events.size() > 0)
+                std::vector<std::string> read_strings;
+                splitstr_and_fill(read_strings, buffer, "\n");
+
+                // buffer is the internal buffer that holds unfinished lines
+                buffer = read_strings.back();
+
+                // read_strings holds complete lines
+                read_strings.pop_back();
+                BOOST_FOREACH(std::string b, read_strings)
+                {
+                    std::deque<std::string> events;
+                    parse_events(b, events, true);
+                    std::cout << "Number of events: " << events.size() << std::endl;
+                    while(events.size() > 0)
+                    {
+                        std::string t;
+                        std::string this_event = events.front();
+                        events.pop_front();
+                        // std::cout << "Message: " << this_event << std::endl;
+                        try
                         {
-                            // std::cout << events.front() << std::endl;
-                            status->newEvent(events.front());
-                            events.pop_front();
+                            t = getMessageType(this_event);
+                        }
+                        catch(...)
+                        {
+                            std::cerr << "Network::read: received invalid message.\n";
+                            continue;
+                        }
+
+                        if (t == s_const_upd)
+                        {
+                            try
+                            {
+                                const messages::ConstantUpdateMessage m(this_event);
+                                status->update(m);
+                            }
+                            catch(...)
+                            {
+                                std::cerr << "Network: failed to parse ConstantUpdateMessage.\n";
+                            }
+                            continue;
                         }
                     }
                 }
+
+/*
+  std::string::size_type lf = buf.find('\n');
+  buffer += buf;
+  if(lf == std::string::npos)
+  {
+  return;
+  }
+
+  if(handshake)
+  {
+  std::cout << "Received: " << buf << std::endl;
+  write("FREEKICK_CLIENT \"Client with ncurses 0.15b\" \"0.2\" \"username/password\" H [101]");
+  handshake = false;
+  }
+  else
+  {
+  std::vector<std::string> read_strings;
+  splitstr_and_fill(read_strings, buffer, "\n");
+  buffer = read_strings.back();
+  read_strings.pop_back();
+  BOOST_FOREACH(std::string b, read_strings)
+  {
+  std::deque<std::string> events;
+  parse_events(b, events);
+  std::cout << "Number of events: " << events.size() << std::endl;
+
+  while(events.size() > 0)
+  {
+  // std::cout << events.front() << std::endl;
+  status->newEvent(events.front());
+  events.pop_front();
+  }
+  }
+  }
+*/
             }
 
             bool Network::run ( ) 

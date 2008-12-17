@@ -52,6 +52,7 @@ ogreclient_env.ParseConfig("pkg-config CEGUI --cflags --libs")
 ogreclient_env['LIBS'] = ['boost_thread', 
                           'boost_system', 
                           'boost_serialization',
+                          'boost_regex',
                           'OgreMain', 
                           'CEGUIBase', 
                           'OIS', 
