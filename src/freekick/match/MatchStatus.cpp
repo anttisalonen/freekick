@@ -29,7 +29,7 @@ namespace freekick
             mEntities[BallID] = boost::shared_ptr<MatchBall>(new MatchBall(*mMatchData->getBall()));
 
             boost::shared_ptr<Club> c1 = mMatchData->getHomeClub();
-            boost::shared_ptr<Club> c2 = mMatchData->getHomeClub();
+            boost::shared_ptr<Club> c2 = mMatchData->getAwayClub();
             std::vector<boost::shared_ptr<Player> > c1pls;
             std::vector<boost::shared_ptr<Player> > c2pls;
             c1->getPlayers(c1pls);
@@ -52,6 +52,37 @@ namespace freekick
                 mEntityVector.push_back(p.second);
             }
         }
+
+/*
+        void MatchStatus::updatePlayers()
+        {
+            boost::array<PlayerList, 6> pllist;
+            boost::array<Lineup, 2> lineups;
+            mMatchData->getHomeClub()->getPlayers(pllist[0]);
+            mMatchData->getAwayClub()->getPlayers(pllist[1]);
+            mMatchData->getHomeLineup(lineups[0]);
+            mMatchData->getAwayLineup(lineups[1]);
+            pllist[2] = lineups[0]->getPitchPlayers();
+            pllist[3] = lineups[0]->getSubstitutes();
+            pllist[4] = lineups[1]->getPitchPlayers();
+            pllist[5] = lineups[1]->getSubstitutes();
+            BOOST_FOREACH(PlayerList l, pllist)
+            {
+                BOOST_FOREACH(boost::shared_ptr<Player> p, l)
+                {
+                    int i = p->getID();
+                    mEntities[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p));
+                }
+            }
+            // TODO: add referee + others (if any)
+            // TODO: make the whole thing with lineups + clubs cleaner and remove duplicate code
+            typedef std::pair<int, boost::shared_ptr<DynamicEntity> > pair_de;
+            BOOST_FOREACH(pair_de p, mEntities)
+            {
+                mEntityVector.push_back(p.second);
+            }
+        }
+*/
 
         boost::shared_ptr<MatchData> MatchStatus::getMatchData() const
         {

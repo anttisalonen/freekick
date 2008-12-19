@@ -72,7 +72,7 @@ namespace freekick
             {
                 using namespace messages;
 
-                std::cerr << "Network::read: New data received\n";
+                // std::cerr << "Network::read: New data received\n";
 
                 // summing up one entire line - TODO: handle serialization
                 std::string::size_type lf = buf.find('\n');
@@ -83,7 +83,7 @@ namespace freekick
                 }
 
                 // buf is the entire line
-                std::cout << "Received: " << buf << std::endl;
+                // std::cout << "Received: " << buf << std::endl;
 
                 if(handshake)
                 {
@@ -104,7 +104,7 @@ namespace freekick
                 {
                     std::deque<std::string> events;
                     parse_events(b, events, true);
-                    std::cout << "Number of events: " << events.size() << std::endl;
+                    // std::cout << "Number of events: " << events.size() << std::endl;
                     while(events.size() > 0)
                     {
                         std::string t;
@@ -123,11 +123,32 @@ namespace freekick
 
                         if (t == serialization_delim)
                         {
-                            boost::shared_ptr<Club> c1(new Club("club1"));
-                            boost::shared_ptr<Club> c2(new Club("club2"));
-                            boost::shared_ptr<MatchData> md(new MatchData(c1, c2));
-                            status = new MatchStatus(md);
-                            // TODO: read data
+                            int st = getSerializationMessageType(this_event);
+                            if(st == initialdata_club_id)
+                            {
+                                std::cout << "Received initial data club message\n";
+                                const messages::InitialDataClubMessage idm(this_event);
+                                std::cout << "Parsed initial data club message\n";
+                                boost::shared_ptr<Club> c1, c2;
+                                idm.getClub(true, c1);
+                                idm.getClub(false, c2);
+
+                                boost::shared_ptr<MatchData> md(new MatchData(c1, c2));
+                                std::cout << "Created matchdata\n";
+                                status = new MatchStatus(md);
+                                std::cout << "\n--------------------------\nParsed initial data club message.\n----------------------------------\n";
+                                continue;
+                            }
+                            if(status != 0)
+                            {
+                                boost::shared_ptr<MatchData> md = status->getMatchData();
+
+                                if(st == initialdata_kit_id)
+                                {
+                                    continue;
+                                }
+                            }
+                            // TODO: parse all possible serialization messages
                         }
 
                         if(status != 0)

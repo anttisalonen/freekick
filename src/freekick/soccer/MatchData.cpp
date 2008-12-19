@@ -24,11 +24,12 @@ namespace freekick
 {
     namespace soccer
     {
-        MatchData::MatchData (boost::shared_ptr <Club> cl1, boost::shared_ptr<Club> cl2) 
-            : ball(new Ball(0.4))     // don't forget the ball
+        MatchData::MatchData (boost::shared_ptr<Club> cl1, 
+                              boost::shared_ptr<Club> cl2)
+            : homeclub(cl1),
+              awayclub(cl2),
+              ball(new Ball(0.4))     // don't forget the ball
         {
-            clubs[0] = cl1;
-            clubs[1] = cl2;
         }
 
         MatchData::~MatchData()
@@ -80,41 +81,64 @@ namespace freekick
         }
 */
 
+/*
+        void MatchData::setHomeLineup(const boost::shared_ptr<Lineup> l)
+        {
+            homelineup = l;
+        }
+
+        void MatchData::setAwayLineup(const boost::shared_ptr<Lineup> l)
+        {
+            awaylineup = l;
+        }
+*/
+
         boost::shared_ptr<Club> MatchData::getHomeClub() const
         {
-            return clubs[0];
+            return homeclub;
         }
 
         boost::shared_ptr<Club> MatchData::getAwayClub() const
         {
-            return clubs[1];
+            return awayclub;
         }
 
         void MatchData::getHomeClubName(std::string& s) const
         {
-            s = clubs[0]->getName();
+            s = homeclub->getName();
         }
 
         void MatchData::getAwayClubName(std::string& s) const
         {
-            s = clubs[1]->getName();
+            s = awayclub->getName();
         }
 
         template <typename ContT>
         void MatchData::getHomePlayerIDs(ContT& ids) const
         {
-            clubs[0]->getPlayerIDs(ids);
+            homeclub->getPlayerIDs(ids);
         }
 
         template <typename ContT>
         void MatchData::getAwayPlayerIDs(ContT& ids) const
         {
-            clubs[0]->getPlayerIDs(ids);
+            awayclub->getPlayerIDs(ids);
         }
 
         boost::shared_ptr<Ball> MatchData::getBall() const
         {
             return ball;
         }
+/*
+        void MatchData::getHomeLineup(boost::shared_ptr<Lineup>& s) const
+        {
+            s = homelineup;
+        }
+
+        void MatchData::getAwayLineup(boost::shared_ptr<Lineup>& s) const
+        {
+            s = awaylineup;
+        }
+*/
     }
 }

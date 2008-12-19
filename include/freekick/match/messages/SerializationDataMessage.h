@@ -36,10 +36,26 @@ namespace freekick
                     : m_serializationid(id)
                 {
                 }
-
                 virtual ~SerializationDataMessage() { }
 
             protected:
+                SerializationDataMessage(std::string& msg, int corr_id)
+                {
+                    using namespace boost;
+                    regex expr(".*?\\(\\+ ([0-9]{3}) ([[:print:]]+?) \\+\\).*");
+                    cmatch what;
+                    if(regex_match(msg.c_str(), what, expr))
+                    {
+                        std::string s1;
+                        s1.assign(what[1].first, what[1].second);
+                        msg.assign(what[2].first, what[2].second);
+                        int this_id = atoi(s1.c_str());
+                        if(corr_id != this_id) throw "SerializationDataMessage: incorrect ID";
+                    }
+                    else
+                        throw "SerializationDataMessage: failed parse";                    
+                }
+
                 const std::string serString(const std::string& msg) const
                 {
                     std::ostringstream oss(std::ostringstream::out);

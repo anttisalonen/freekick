@@ -41,6 +41,7 @@
 #include "Ball.h"
 #include "Referee.h"
 #include "Club.h"
+#include "Lineup.h"
 
 namespace freekick
 {
@@ -50,7 +51,8 @@ namespace freekick
         class MatchData
         {
         public:
-            MatchData (boost::shared_ptr <Club> cl1, boost::shared_ptr<Club> cl2);
+            MatchData (boost::shared_ptr<Club> cl1, 
+                       boost::shared_ptr<Club> cl2);
             virtual ~MatchData();
 
             boost::shared_ptr<Club> getHomeClub() const;
@@ -60,14 +62,19 @@ namespace freekick
             template <typename ContT> void getHomePlayerIDs(ContT& ids) const;
             template <typename ContT> void getAwayPlayerIDs(ContT& ids) const;
             boost::shared_ptr<Ball> getBall() const;
+            // void getHomeLineup(boost::shared_ptr<Lineup>& s) const;
+            // void getAwayLineup(boost::shared_ptr<Lineup>& s) const;
+            // void setHomeLineup(const boost::shared_ptr<Lineup> l);
+            // void setAwayLineup(const boost::shared_ptr<Lineup> l);
 
         private:
             Stadium* stadium;
-            boost::shared_ptr<Ball> ball;
-            boost::array<boost::shared_ptr<Club>, 2> clubs;
             Referee* referee;
             boost::shared_ptr<Club> homeclub;
             boost::shared_ptr<Club> awayclub;
+            boost::shared_ptr<Ball> ball;
+            // boost::shared_ptr<Lineup> homelineup;
+            // boost::shared_ptr<Lineup> awaylineup;
             Time starttime;
 
 /*

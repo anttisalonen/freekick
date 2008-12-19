@@ -38,8 +38,9 @@ namespace addutil
     {
     public:
         virtual ~Human() { }
-    protected:
         virtual const std::string& getName();
+    protected:
+        Human(const std::string& n);
 
     private:
 

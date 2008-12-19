@@ -22,6 +22,11 @@
 
 namespace addutil
 {
+    Human::Human(const std::string& n)
+        : name(n)
+    {
+    }
+
     const std::string& Human::getName()
     {
         return name;

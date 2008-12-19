@@ -25,6 +25,7 @@
 #include <boost/thread.hpp>
 #include <boost/bind.hpp>
 #include <boost/shared_ptr.hpp>
+#include <boost/date_time/posix_time/posix_time.hpp>
 
 #include "addutil/network/Server.h"
 #include "Reader.h"
@@ -84,6 +85,7 @@ namespace freekick
                 boost::shared_ptr<Physics> mPhysics;
                 boost::shared_ptr<Rules> mRules;
                 boost::shared_ptr<MatchStatus> mMatchStatus;
+                boost::posix_time::ptime last_physics_dispatch_time;
             };
         }
     }

@@ -40,7 +40,7 @@ namespace freekick
                 virtual ~MovePlayerControlMessage() { }
 
                 MovePlayerControlMessage(std::string& msg)
-                    : PlayerControlMessage(msg)
+                    : PlayerControlMessage(msg, c_pl_ctl_move)
                 {
                 }
 

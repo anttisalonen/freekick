@@ -31,8 +31,9 @@
 #include <boost/serialization/map.hpp>
 #include <boost/serialization/vector.hpp>
 
-#include "freekick/soccer/Player.h"
-#include "freekick/soccer/Kit.h"
+#include "Player.h"
+#include "Kit.h"
+#include "Lineup.h"
 
 /**
  * class Club
@@ -42,6 +43,8 @@ namespace freekick
 {
     namespace soccer
     {
+        typedef boost::shared_ptr<Player> PlayerPtr;
+
         class Club
         {
         public:
@@ -51,16 +54,19 @@ namespace freekick
             Club (const std::string& _name);
             const std::string& getName();
             int getNumberOfPlayers();
-            void addPlayer(boost::shared_ptr<Player> p);
+            void addPlayer(boost::shared_ptr<Player>& p, PlayerInLineup st = NotPlaying);
             bool hasPlayer(int i);
             const Player& getPlayer(int i);
             void getPlayers(std::vector<boost::shared_ptr<Player> >& pls);
             void getPlayerIDs(std::vector<int>& ids);
+            const Lineup& getLineup() const;
+            void setupStandardLineup();
 
         private:
             std::string name;
             std::map <int, boost::shared_ptr<Player> > players;
             std::vector <Kit> kits;
+            Lineup lineup;
 
             friend class boost::serialization::access;
             template<class Archive>

@@ -36,6 +36,14 @@ namespace freekick
 {
     namespace soccer
     {
+        enum PlayerPosition
+        {
+            Goalkeeper,
+            Defender,
+            Midfielder,
+            Forward
+        };
+
         class Player : public addutil::Human
         {
         public:
@@ -47,13 +55,16 @@ namespace freekick
              * @param  name
              * @param  num
              */
-            Player (const std::string& _name, unsigned int num, unsigned int _idnumber);
-            const unsigned int getID();
+            Player (const std::string& _name, int num, unsigned int _idnumber, PlayerPosition pos);
+            unsigned int getID() const;
+            int getNumber() const;
+            PlayerPosition getPosition() const;
 
         private:
 
-            const unsigned int number;
+            int number;
             const unsigned int idnumber;
+            PlayerPosition position;
 
             friend class boost::serialization::access;
             template<class Archive>
@@ -64,6 +75,8 @@ namespace freekick
                 ar & idnumber;
             }
         };
+
+        PlayerPosition IntToPlayerPosition(int i);
     }
 }
 

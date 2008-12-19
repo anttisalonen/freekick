@@ -28,7 +28,8 @@ namespace freekick
 
 /**
  */
-        Referee::Referee ( ) 
+        Referee::Referee (const std::string& n)
+            : Human(n)
         {
         }
     }

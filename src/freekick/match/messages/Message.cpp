@@ -63,10 +63,18 @@ namespace freekick
 
             const std::string getMessageType(const std::string& s)
             {
-                if(!isValidMessage(s)) throw "Message::getMessageType: Invalid event\n";
+                if(!isValidMessage(s)) throw "getMessageType: Invalid event\n";
                 const char& c = s[1];
                 if(isdigit(c)) return s_const_upd;
                 return std::string(1, c);
+            }
+
+            int getSerializationMessageType(const std::string& s)
+            {
+                if(getMessageType(s) != serialization_delim) throw "getSerializationMessageType: not a serialization message\n";
+                std::string n(s, 3, 3);
+                int i = atoi(n.c_str());
+                return i;
             }
 
             bool messageListToSet(const std::string& m, std::set<PlayerID>& s)

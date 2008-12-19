@@ -17,44 +17,47 @@
   Copyright Antti Salonen, 2008
 **************************************************************************/
 
+
+#ifndef FREEKICK_LINEUP_H
+#define FREEKICK_LINEUP_H
+
+#include <vector>
+#include <map>
+
+#include <boost/shared_ptr.hpp>
+#include <boost/foreach.hpp>
+
 #include "Player.h"
 
 namespace freekick
 {
     namespace soccer
     {
-        Player::Player (const std::string& _name, int num, unsigned int _idnumber, PlayerPosition pos)
-            : Human(_name),
-              number(num), 
-              idnumber(_idnumber),
-              position(pos)
-        {
-        }
+        typedef std::multimap<PlayerPosition, int> PlayerMap;
 
-        unsigned int Player::getID() const
+        enum PlayerInLineup
         {
-            return idnumber;
-        }
+            NotPlaying,
+            Playing,
+            Substitute
+        };
 
-        int Player::getNumber() const
+        class Lineup
         {
-            return number;
-        }
-
-        PlayerPosition Player::getPosition() const
-        {
-            return position;
-        }
-
-        PlayerPosition IntToPlayerPosition(int i)
-        {
-            if(i == 0)
-                return Goalkeeper;
-            else if (i == 1)
-                return Defender;
-            else if (i == 2)
-                return Midfielder;
-            return Forward;
-        }
+        public:
+            Lineup();
+            virtual ~Lineup() { }
+            bool doSubstitution(int out, int in);
+            PlayerInLineup playerInLineup(int plid) const;
+            void addPlayer(int id, PlayerPosition pos, bool substitute);
+            void clear();
+            const PlayerMap& getPitchPlayers() const;
+            const PlayerMap& getSubstitutes() const;
+        private:
+            PlayerMap pitchplayers;
+            PlayerMap substitutes;
+        };
     }
 }
+
+#endif

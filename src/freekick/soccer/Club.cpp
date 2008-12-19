@@ -42,10 +42,16 @@ namespace freekick
             return players.size();
         }
 
-        void Club::addPlayer(boost::shared_ptr<Player> p)
+        void Club::addPlayer(boost::shared_ptr<Player>& p, PlayerInLineup st)
         {
             int id = p->getID();
             players[id] = p;
+            if(st != NotPlaying)
+            {
+                bool sub = (st == Substitute);
+                PlayerPosition pp = p->getPosition();
+                lineup.addPlayer(id, pp, sub);
+            }
         }
 
         bool Club::hasPlayer(int i)
@@ -80,6 +86,55 @@ namespace freekick
             BOOST_FOREACH(pair_pl p, players)
             {
                 ids.push_back(p.first);
+            }
+        }
+
+        const Lineup& Club::getLineup() const
+        {
+            return lineup;
+        }
+
+        void Club::setupStandardLineup()
+        {
+            lineup.clear();
+            typedef std::pair<int, boost::shared_ptr<Player> > pair_pl;
+            int gk = 0, df = 0, mf = 0, fw = 0;
+            int substitutes = 0;
+
+            BOOST_FOREACH(pair_pl p, players)
+            {
+                bool substitute = false;
+                PlayerPosition pp = p.second->getPosition();
+                if(pp == Goalkeeper)
+                {
+                    if(gk >= 1)
+                        substitute = true;
+                    gk++;
+                }
+                else if (pp == Defender)
+                {
+                    if (df >= 4)
+                        substitute = true;
+                    df++;
+                }
+                else if (pp == Midfielder)
+                {
+                    if (mf >= 4)
+                        substitute = true;
+                    mf++;
+                }
+                else
+                {
+                    if (fw >= 2)
+                        substitute = true;
+                    fw++;
+                }
+                if (substitute)
+                {
+                    substitutes++;
+                    if(substitutes >= 6) continue;
+                }
+                lineup.addPlayer(p.second->getID(), pp, substitute);
             }
         }
     }

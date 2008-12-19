@@ -42,7 +42,7 @@ namespace freekick
 
             /**
              */
-            Referee ();
+            Referee (const std::string& n);
 
         private:
 

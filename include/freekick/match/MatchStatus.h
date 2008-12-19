@@ -26,9 +26,11 @@
 
 #include <boost/shared_ptr.hpp>
 #include <boost/foreach.hpp>
+#include <boost/array.hpp>
 
 #include "DynamicEntity.h"
 
+#include "Lineup.h"
 #include "Player.h"
 #include "MatchPlayer.h"
 #include "MatchBall.h"
@@ -56,6 +58,7 @@ namespace freekick
             void update(const std::vector<messages::ConstantUpdateMessage>& ms);
             boost::shared_ptr<MatchData> getMatchData() const;
 
+            // void updatePlayers();
             void getEntities (std::vector <boost::shared_ptr<DynamicEntity> >& v);
 
             // void addPlayer(const std::string& clubname, int idnum, const Color& col);
@@ -64,7 +67,7 @@ namespace freekick
             // void interpolateAll(boost::posix_time::ptime pt);
 
         private:
-            boost::shared_ptr<MatchData> mMatchData;
+            const boost::shared_ptr<MatchData> mMatchData;
             std::map <int, boost::shared_ptr<DynamicEntity> > mEntities;
             std::vector <boost::shared_ptr<DynamicEntity> > mEntityVector;
             // TODO: add status of yellow cards etc.

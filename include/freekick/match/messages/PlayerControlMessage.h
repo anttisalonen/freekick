@@ -42,7 +42,12 @@ namespace freekick
                 {
                 }
                 virtual ~PlayerControlMessage() { }
-                PlayerControlMessage(std::string& msg)
+
+                PlayerID getPlayerID() const { return m_plid; }
+                void getTargetVector(addutil::Vector3& t) const { t = m_tgtvec; }
+
+            protected:
+                PlayerControlMessage(std::string& msg, const std::string& corr_id)
                 {
                     using namespace boost;
                     // TODO: read action types from Message.h
@@ -51,7 +56,9 @@ namespace freekick
                     std::cout << "Parsing Player Control message\n";
                     if(regex_match(msg.c_str(), what, expr))
                     {
-                        std::string s1, s2, s3, s4;
+                        std::string s1, s2, s3, s4, this_id;
+                        this_id.assign(what[1].first, what[1].second);
+                        if (this_id != corr_id) throw "PlayerControlMessage: incorrect ID\n";
                         s1.assign(what[2].first, what[2].second);
                         s2.assign(what[3].first, what[3].second);
                         s3.assign(what[4].first, what[4].second);
@@ -69,10 +76,6 @@ namespace freekick
                         throw "PlayerControlMessage: failed parse";                    
                 }
 
-                PlayerID getPlayerID() const { return m_plid; }
-                void getTargetVector(addutil::Vector3& t) const { t = m_tgtvec; }
-
-            protected:
                 const std::string contString(const std::string& type, bool incl_tgtvec = true, const std::string& extra_info = "") const
                 {
                     std::ostringstream oss(std::ostringstream::out);

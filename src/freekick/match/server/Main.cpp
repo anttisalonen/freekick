@@ -30,6 +30,7 @@
 #include "freekick/match/server/ServerManager.h"
 #include "Club.h"
 #include "Player.h"
+#include "Lineup.h"
 #include "MatchStatus.h"
 
 using namespace addutil;
@@ -49,14 +50,21 @@ int main(int argc, char** argv)
         int idnum;
         for(idnum = 100; idnum < 120; idnum++)
         {
-            boost::shared_ptr<Player> p(new Player("home player name", idnum % 20 + 1, idnum));
+            int pos = idnum % 4;
+            PlayerPosition ppos = IntToPlayerPosition(pos);
+            boost::shared_ptr<Player> p(new Player("home player name", idnum % 20 + 1, idnum, ppos));
             club1->addPlayer(p);
         }
+        club1->setupStandardLineup();
+
         for(idnum = 200; idnum < 220; idnum++)
         {
-            boost::shared_ptr<Player> p(new Player("away player name", idnum % 20 + 1, idnum));
+            int pos = idnum % 4;
+            PlayerPosition ppos = IntToPlayerPosition(pos);
+            boost::shared_ptr<Player> p(new Player("away player name", idnum % 20 + 1, idnum, ppos));
             club2->addPlayer(p);
         }
+        club2->setupStandardLineup();
 
         boost::shared_ptr<MatchData> data(new MatchData(club1, club2));
         boost::shared_ptr<MatchStatus> status(new MatchStatus(data));

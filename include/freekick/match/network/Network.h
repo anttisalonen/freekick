@@ -35,6 +35,7 @@
 #include <boost/bind.hpp>
 #include <boost/foreach.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
+#include <boost/shared_ptr.hpp>
 
 #include "addutil/Parsing.h"
 #include "addutil/network/Client.h"
@@ -42,10 +43,13 @@
 
 #include "MatchStatus.h"
 #include "Event.h"
+#include "Lineup.h"
+#include "MatchData.h"
 
 #include "messages/Message.h"
 #include "messages/ConstantUpdateMessage.h"
 #include "messages/InitialDataRequest.h"
+#include "messages/InitialDataClubMessage.h"
 
 namespace freekick
 {

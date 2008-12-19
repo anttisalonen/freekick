@@ -44,10 +44,11 @@ namespace freekick
 
             // Constructors/Destructors
             //  
-            MatchPlayer (const freekick::soccer::Player& p);
+            MatchPlayer (const freekick::soccer::Player& p, bool sub = false);
             const int getID();
 
         private:
+            bool substitute;
 
             friend class boost::serialization::access;
             template<class Archive>

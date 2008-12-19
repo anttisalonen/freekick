@@ -43,6 +43,7 @@ namespace freekick
                 mPhysics->subscribe(*this);
                 mRules->subscribe(*this);
                 // boost::thread t(boost::bind(&Dispatcher::run, this));
+                last_physics_dispatch_time = boost::posix_time::microsec_clock::local_time();
             }
 
             Dispatcher::~Dispatcher ( ) 
@@ -103,7 +104,14 @@ namespace freekick
 
             void Dispatcher::dispatchPhysicsMessages (const PhysicsMessageList& es ) 
             {
-                // TODO: save and/or dispatch
+                boost::posix_time::ptime this_time(boost::posix_time::microsec_clock::local_time());
+                boost::posix_time::time_period diff_time(last_physics_dispatch_time, this_time);
+                boost::posix_time::time_duration diff_dur = diff_time.length();
+                unsigned long us_diff = diff_dur.total_microseconds();
+                if(us_diff < 50000) return;
+                last_physics_dispatch_time = this_time;
+
+                // TODO: save and/or dispatch messages
                 // default should be dispatch,
                 // for efficiency only every x ms should a dispatch
                 // occur, otherwise save updated entities internally
@@ -136,31 +144,23 @@ namespace freekick
                     std::cerr << "Dispatcher::newClientMessage: Trying to write to a non-existing Client ID\n";
                     return;
                 }
-                std::string c1, c2;
-                try
-                {
-                    md->getHomeClubName(c1);
-                    md->getAwayClubName(c2);
-                }
-                catch (...)
-                {
-                    std::cerr << "Dispatcher::newClientMessage: no clubs in MatchStatus\n";
-                    return;
-                }
 
                 // TODO: get actual colors of the clubs, goalkeepers and referee
                 boost::shared_ptr<Club> club1 = md->getHomeClub();
                 boost::shared_ptr<Club> club2 = md->getAwayClub();
                 using addutil::Color;
-                Kit temporarykit(0, Color(), Color(), Color(), Color());
+                Kit temporarykit(0, Color(1.0f, 1.0f, 0.0f), Color(0.5f, 0.5f, 1.0f), Color(0.0f, 0.1f, 0.2f), Color(1.0f, 0.0f, 1.0f));
 
-                messages::InitialDataClubMessage idm1(c1, c2);
-                messages::InitialDataKitMessage  idm2(temporarykit, temporarykit, temporarykit, temporarykit, temporarykit);
+                std::vector<boost::shared_ptr<messages::Message> > ms;
+                boost::shared_ptr<messages::InitialDataClubMessage> icm1(new messages::InitialDataClubMessage(club1, club2));
+                boost::shared_ptr<messages::InitialDataKitMessage>  icm2(new messages::InitialDataKitMessage (temporarykit, temporarykit, temporarykit, temporarykit, temporarykit));
+                ms.push_back(icm1);
+                ms.push_back(icm2);
 
                 try
                 {
-                    srv.write(idm1.toString(), clid);
-                    srv.write(idm2.toString(), clid);
+                    BOOST_FOREACH(boost::shared_ptr<messages::Message> m, ms)
+                        srv.write(m->toString(), clid);
                 }
                 catch (...)
                 {

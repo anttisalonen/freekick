@@ -37,16 +37,15 @@ namespace freekick
             const static std::string freekick_server_id 	= "FREEKICK_SERVER";
             const static std::string freekick_client_id 	= "FREEKICK_CLIENT";
             const static std::string serialization_delim	= "+";
-            const static unsigned int initialdata_id		= 1;
-            const static unsigned int initialdata_club_id	= 100;
-            const static unsigned int initialdata_kit_id	= 110;
-            const static unsigned int initialdata_player_id	= 120;
-            const static unsigned int initialdata_pitch_id	= 130;
-            const static unsigned int initialdata_tournament_id	= 140;
-            const static unsigned int initialdata_stadium_id	= 160;
-            const static unsigned int initialdata_time_id	= 180;
-            const static unsigned int initialdata_weather_id	= 190;
-            const static unsigned int initial_ball_id		= 200;
+            const static int initialdata_id			= 1;
+            const static int initialdata_club_id		= 100;
+            const static int initialdata_kit_id			= 110;
+            const static int initialdata_pitch_id		= 130;
+            const static int initialdata_tournament_id		= 140;
+            const static int initialdata_stadium_id		= 160;
+            const static int initialdata_time_id		= 180;
+            const static int initialdata_weather_id		= 190;
+            const static int initial_ball_id			= 200;
             const static std::string msg_start                  = "(";
             const static std::string msg_end                    = ")";
             const static std::string list_start                 = "[";
@@ -91,6 +90,7 @@ namespace freekick
             bool messageListToSet(const std::string& m, std::set<PlayerID>& s);
             bool isValidMessage(const std::string& s);
             const std::string getMessageType(const std::string& s);
+            int getSerializationMessageType(const std::string& s);
         }
     }
 }
