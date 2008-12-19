@@ -34,6 +34,11 @@ namespace freekick
             class PlayerControlRequestMessage : public ListParameterMessage
             {
             public:
+                PlayerControlRequestMessage(PlayerID plid)
+                {
+                    m_plids.insert(plid);
+                }
+
                 PlayerControlRequestMessage(const std::set<PlayerID>& plids)
                     : m_plids(plids)
                 {

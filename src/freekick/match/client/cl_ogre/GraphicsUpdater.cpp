@@ -45,15 +45,14 @@ namespace freekick
 */
 
                     typedef boost::shared_ptr<DynamicEntity> PtrEntity;
-                    std::vector <PtrEntity> drs;
+                    std::map <int, PtrEntity> drs;
                     status->getEntities(drs);
-                    std::vector <PtrEntity>::iterator d;
+                    std::map <int, PtrEntity>::iterator d;
 
                     for (d = drs.begin(); d != drs.end(); d++)
                     {
                         Ogre::SceneNode* node = 0;
-                        int dr_id = (*d)->getID();
-                        const Vector3& pos = (*d)->getPosition();
+                        int dr_id = (*d).second->getID();
                         std::map <int, Ogre::Entity* >::iterator it = entitymap.find(dr_id);
                         if(it != entitymap.end())
                         {
@@ -67,10 +66,10 @@ namespace freekick
                                 ename << "Entity" << dr_id;
                                 std::stringstream nname;
                                 nname << "Node" << dr_id;
-                                const std::string modelfile = (*d)->getModel();
+                                const std::string modelfile = (*d).second->getModel();
                                 Ogre::Entity* ent = smgr->createEntity (ename.str(), modelfile);
                                 ent->setCastShadows(true);
-                                const Color& col = (*d)->getColor();
+                                const Color& col = (*d).second->getColor();
                                 if(col.red > 0.5f)
                                     ent->setMaterialName("Examples/EnvMappedRustySteel");
                                 node = smgr->getRootSceneNode()->createChildSceneNode(nname.str());
@@ -78,7 +77,7 @@ namespace freekick
                                 if(modelfile == "robot.mesh")
                                     node->setScale(0.05f, 0.05f, 0.05f);
                                 entitymap[dr_id] = ent;
-                                (*d)->setAutomaticOrientation(true);
+                                // (*d).second->setAutomaticOrientation(true);
                             }
                             else
                                 return false;
@@ -86,8 +85,9 @@ namespace freekick
 
                         if(node)
                         {
+                            const Vector3& pos = (*d).second->getPosition();
                             node->setPosition(Ogre::Vector3(-pos.x, pos.y, pos.z));
-                            const Quaternion& dir = (*d)->getOrientation();
+                            const Quaternion& dir = (*d).second->getOrientation();
                             node->setOrientation(Ogre::Quaternion(dir.w, dir.x, dir.y, dir.z));
                         }
                     }

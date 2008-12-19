@@ -35,7 +35,8 @@ namespace freekick
                                             Ogre::SceneNode* c,
                                             Network* netw) 
                     : inputconfiguration(inputconf),
-                      network(netw)
+                      network(netw),
+                      mControlledPlayer(110)
                 {
                     mRotate = 0.13;
                     mMove = 250;
@@ -143,29 +144,39 @@ namespace freekick
                             break;
 
                         case OIS::KC_PGDOWN:
-                        case OIS::KC_E:
                             mDirection.y -= mMove;
                             break;
 
                         case OIS::KC_PGUP:
-                        case OIS::KC_Q:
                             mDirection.y += mMove;
                             break;
 
                         case OIS::KC_W:
+                            sendMoveMessage(X_UP, 15.0f);
                             break;
 
                         case OIS::KC_S:
+                            sendMoveMessage(X_DOWN, 15.0f);
                             break;
 
                         case OIS::KC_A:
+                            sendMoveMessage(Z_DOWN, 15.0f);
                             break;
 
                         case OIS::KC_D:
+                            sendMoveMessage(Z_UP, 15.0f);
+                            break;
+
+                        case OIS::KC_Q:
+                            sendMoveMessage(Y_UP, 15.0f);
+                            break;
+
+                        case OIS::KC_E:
+                            sendMoveMessage(Y_DOWN, 15.0f);
                             break;
 
                         case OIS::KC_X:
-                            network->sendMessage(messages::InitialDataRequest());
+                            network->sendMessage(messages::PlayerControlRequestMessage(mControlledPlayer));
                             break;
 
                         default:
@@ -179,39 +190,59 @@ namespace freekick
                     switch (e.key)
                     {
                         case OIS::KC_UP:
-                        case OIS::KC_W:
                             mDirection.z += mMove;
                             break;
 
                         case OIS::KC_DOWN:
-                        case OIS::KC_S:
                             mDirection.z -= mMove;
                             break;
 
                         case OIS::KC_LEFT:
-                        case OIS::KC_A:
                             mDirection.x += mMove;
                             break;
 
                         case OIS::KC_RIGHT:
-                        case OIS::KC_D:
                             mDirection.x -= mMove;
                             break;
 
                         case OIS::KC_PGDOWN:
-                        case OIS::KC_E:
                             mDirection.y += mMove;
                             break;
 
                         case OIS::KC_PGUP:
-                        case OIS::KC_Q:
                             mDirection.y -= mMove;
                             break;
 
+                        case OIS::KC_W:
+                        case OIS::KC_S:
+                        case OIS::KC_A:
+                        case OIS::KC_D:
+                        case OIS::KC_E:
+                        case OIS::KC_Q:
                         default:
                             break;
                     } // switch
                     return true;
+                }
+
+                void InputHandler::sendMoveMessage(const addutil::Vector3& to)
+                {
+                    network->sendMessage(messages::MovePlayerControlMessage(mControlledPlayer, to));
+                }
+
+                void InputHandler::sendMoveMessage(Direction d, float mag)
+                {
+                    addutil::Vector3 v(0.0f, 0.0f, 0.0f);
+                    switch(d)
+                    {
+                        case X_UP: v = addutil::Vector3(mag, 0.0f, 0.0f); break;
+                        case Y_UP: v = addutil::Vector3(0.0f, mag, 0.0f); break;
+                        case Z_UP: v = addutil::Vector3(0.0f, 0.0f, mag); break;
+                        case X_DOWN: v = addutil::Vector3(-mag, 0.0f, 0.0f); break;
+                        case Y_DOWN: v = addutil::Vector3(0.0f, -mag, 0.0f); break;
+                        case Z_DOWN: v = addutil::Vector3(0.0f, 0.0f, -mag); break;
+                    }
+                    sendMoveMessage(v);
                 }
 
                 void InputHandler::setCamera(Ogre::SceneNode* c)

@@ -30,10 +30,14 @@
 
 #include <OIS/OIS.h>
 
+#include "Vector3.h"
+
 #include "Network.h"
 #include "InputConfiguration.h"
 
 #include "messages/InitialDataRequest.h"
+#include "messages/MovePlayerControlMessage.h"
+#include "messages/PlayerControlRequestMessage.h"
 
 /**
  * class InputHandler
@@ -47,6 +51,16 @@ namespace freekick
         {
             namespace cl_ogre
             {
+                enum Direction
+                {
+                    X_UP,
+                    X_DOWN,
+                    Y_UP,
+                    Y_DOWN,
+                    Z_UP,
+                    Z_DOWN
+                };
+
                 using namespace freekick::match::network;
                 class InputHandler : public Ogre::FrameListener, public OIS::MouseListener, public OIS::KeyListener
                 {
@@ -68,7 +82,8 @@ namespace freekick
                     void setCamera(Ogre::SceneNode* c);
 
                 private:
-
+                    void sendMoveMessage(const addutil::Vector3& to);
+                    void sendMoveMessage(Direction d, float mag);
                     int scrollState;
                     InputConfiguration* inputconfiguration;
                     OIS::MouseState mousePositionState;
@@ -86,6 +101,8 @@ namespace freekick
                     OIS::InputManager *mInputManager;
 
                     Network* network;
+
+                    int mControlledPlayer;
                 };
             }
         }
