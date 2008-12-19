@@ -18,20 +18,19 @@
 **************************************************************************/
 
 
-#ifndef FREEKICK_BALL_H
-#define FREEKICK_BALL_H
+#ifndef _H
+#define _H
 
-/**
- * class Ball
- */
-
-namespace freekick
+namespace a
 {
-    class Ball
+    namespace b
     {
-    public:
-        virtual ~Ball() { }
-    };
+        class C
+        {
+        public:
+            virtual ~C() { }
+        };
+    }
 }
 
-#endif // FREEKICK_BALL_H
+#endif
