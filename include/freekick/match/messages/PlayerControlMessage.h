@@ -53,7 +53,6 @@ namespace freekick
                     // TODO: read action types from Message.h
                     regex expr(".*?\\((a|b|c|d|e|f) +([-0-9]+) +([[:print:]]+?) +([[:print:]]+?) +([[:print:]]+?)( |\\))(.*)");
                     cmatch what;
-                    std::cout << "Parsing Player Control message\n";
                     if(regex_match(msg.c_str(), what, expr))
                     {
                         std::string s1, s2, s3, s4, this_id;
@@ -68,9 +67,6 @@ namespace freekick
                         m_tgtvec.y = atof(s3.c_str());
                         m_tgtvec.z = atof(s4.c_str());
                         msg.assign(what[7].first, what[7].second);
-                        std::cout << "Parsing Player Control Message successful: " 
-                                  << m_plid << "\t" << m_tgtvec.x << "\t" << m_tgtvec.y << "\t"
-                                  << m_tgtvec.z << std::endl;
                     }
                     else
                         throw "PlayerControlMessage: failed parse";                    

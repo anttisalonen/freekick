@@ -134,7 +134,16 @@ namespace freekick
 
         bool BulletPhysicsEngine::addControllableObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc)
         {
-            return addDynamicBoxObject(oid, size, mass, loc);
+            btCollisionShape* colShape = new btBoxShape(btVector3(size.x,size.y,size.z));
+            try
+            {
+                return addDynamicObject(oid, colShape, mass, loc, true);
+            }
+            catch (...)
+            {
+                delete colShape;
+            }
+            return false;
         }
 
         bool BulletPhysicsEngine::addObject(btRigidBody* b)
@@ -154,11 +163,10 @@ namespace freekick
             it->second->activate(true);
             it->second->setLinearVelocity(bv);
             const btVector3& bv2 = it->second->getLinearVelocity();
-            std::cout << "setObjectVelocity: " << bv2.x() << "\t" << bv2.y() << "\t" << bv2.z() << std::endl;
             return true;
         }
 
-        bool BulletPhysicsEngine::addDynamicObject(ObjectID oid, btCollisionShape* colShape, float mass, Vector3 loc)
+        bool BulletPhysicsEngine::addDynamicObject(ObjectID oid, btCollisionShape* colShape, float mass, Vector3 loc, bool upright)
         {
             ObjectMap::iterator it = mObjectMap.find(oid);
             if (it != mObjectMap.end()) throw "BulletPhysicsEngine::addDynamicObject: Object ID already used";
@@ -182,6 +190,19 @@ namespace freekick
             btRigidBody::btRigidBodyConstructionInfo rbInfo(ms, myMotionState, colShape, localInertia);
             btRigidBody* body = new btRigidBody(rbInfo);
 
+            if(upright)
+            {
+                body->setActivationState(DISABLE_DEACTIVATION);
+                const btVector3 pivot(0.0f, 0.0f, 0.0f); // middle?
+                btVector3 axis(0.0f, 1.0f, 0.0f);        // pointing upwards, aka Y-axis
+
+                btHingeConstraint* hinge = new btHingeConstraint(*body, pivot, axis);
+                hinge->setAngularOnly(true);
+
+                // hinge->setLimit(0.0f, M_PI_2);
+                dynamicsWorld->addConstraint(hinge);
+            }
+
             mObjectMap[oid] = body;
             return addObject(body);
         }
@@ -189,7 +210,7 @@ namespace freekick
         bool BulletPhysicsEngine::removeObject(ObjectID oid)
         {
             // TODO
-            return true;
+            return false;
         }
 
         bool BulletPhysicsEngine::stepWorld(float steptime)

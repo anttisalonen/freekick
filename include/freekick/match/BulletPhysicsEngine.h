@@ -50,7 +50,7 @@ namespace freekick
             bool stepWorld(float steptime);
 
         protected:
-            bool addDynamicObject(ObjectID oid, btCollisionShape* colShape, float mass, addutil::Vector3 loc);
+            bool addDynamicObject(ObjectID oid, btCollisionShape* colShape, float mass, addutil::Vector3 loc, bool upright = false);
             bool addObject(btRigidBody* b);
 
         private:

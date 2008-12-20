@@ -44,7 +44,6 @@ namespace freekick
             {
                 using namespace messages;
 
-                std::cerr << "ClientEventListener: New data received\n";
                 std::string t;
                 try
                 {
