@@ -81,7 +81,6 @@ namespace freekick
             void ServerManager::client_input(client_id id, std::string& msg)
             {
                 ClientList::iterator it;
-                std::cout << "Client Input: " << msg << std::endl;
                 it = clients->find(id);
                 if (it != clients->end())
                 {

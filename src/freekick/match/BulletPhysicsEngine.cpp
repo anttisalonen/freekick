@@ -201,7 +201,7 @@ namespace freekick
 
             if(upright)
             {
-                body->setActivationState(DISABLE_DEACTIVATION);
+                // body->setActivationState(DISABLE_DEACTIVATION);
                 const btVector3 pivot(0.0f, 0.0f, 0.0f); // middle?
                 btVector3 axis(0.0f, 1.0f, 0.0f);        // pointing upwards, aka Y-axis
 

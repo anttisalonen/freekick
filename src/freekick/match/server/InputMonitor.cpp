@@ -37,6 +37,8 @@ namespace freekick
                 int plid = e.getPlayerID();
 
                 v.capY(maxJumpVelocity);
+                // if(player_on_ground)   // TODO: define
+                    mVelocities[plid].y = v.y;
 
                 mSetpoints[plid] = v;
 
@@ -55,9 +57,8 @@ namespace freekick
                     if(itv == mVelocities.end()) continue;
                     addutil::Vector3& should = its->second;
                     addutil::Vector3& is = itv->second;
-                    std::cerr << "Is-x: " << itv->second.x << " Should-x: " << its->second.x << std::endl;
                     interpolate(microseconds, should.x, is.x);
-                    interpolate(microseconds, should.y, is.y);
+                    // interpolate(microseconds, should.y, is.y);
                     interpolate(microseconds, should.z, is.z);
                     its++;
                 }
@@ -74,7 +75,7 @@ namespace freekick
                     return;
                 }
 
-                float add = std::min(diff * (microseconds / 500000.0f), diff);
+                float add = std::min(diff * (microseconds / 50000.0f), diff);
                 if(is < should)
                     is += add;
                 else

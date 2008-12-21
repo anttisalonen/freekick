@@ -95,6 +95,7 @@ namespace freekick
 
                     bool mContinue;        // Whether to continue rendering or not
                     Ogre::Vector3 mDirection;     // Value to move in the correct direction
+                    addutil::Vector3 mRunDirection;
 
                     OIS::Keyboard *mKeyboard;
                     OIS::Mouse *mMouse;

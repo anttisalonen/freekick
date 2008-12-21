@@ -38,7 +38,7 @@ namespace freekick
                   mInputMonitor(im)
             {
                 mPhysicsEngine->subscribe(*this);
-                mPhysicsEngine->addStaticBoxObject(PitchID, Vector3(200, 50, 140), Vector3(100, -50, 70));
+                mPhysicsEngine->addStaticBoxObject(PitchID, Vector3(200, 50, 140), Vector3(0, -50, 0));
                 mPhysicsEngine->addDynamicSphereObject(BallID, 1.0f, 5.0f, Vector3(10, 50, 10), 0.5f);
                 std::vector<int> hplayers;
                 std::vector<int> aplayers;
@@ -48,13 +48,13 @@ namespace freekick
                 club2->getPlayerIDs(aplayers);
                 BOOST_FOREACH(int idnum, hplayers)
                 {
-                    Vector3 loc(idnum % 90 + 1, idnum % 20 + 1, idnum % 50 + 1);
-                    mPhysicsEngine->addControllableObject(idnum, Vector3(1.0f, 2.0f, 1.0f), 80.0f, loc);
+                    Vector3 loc(idnum % 57 + 50, idnum % 2 + 4, idnum % 43 + 50);
+                    mPhysicsEngine->addControllableObject(idnum, Vector3(1.0f, 1.75f, 1.0f), 80.0f, loc);
                 }
                 BOOST_FOREACH(int idnum, aplayers)
                 {
-                    Vector3 loc(idnum % 90 + 1, idnum % 20 + 1, idnum % 50 + 1);
-                    mPhysicsEngine->addControllableObject(idnum, Vector3(1.0f, 2.0f, 1.0f), 80.0f, loc);
+                    Vector3 loc(idnum % 78 + 1, idnum % 2 + 4, idnum % 29 + 1);
+                    mPhysicsEngine->addControllableObject(idnum, Vector3(1.0f, 1.75f, 1.0f), 80.0f, loc);
                 }
             }
 

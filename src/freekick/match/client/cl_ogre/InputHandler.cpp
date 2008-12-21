@@ -50,12 +50,12 @@ namespace freekick
                     pl.insert(std::make_pair(std::string("w32_mouse"), std::string("DISCL_FOREGROUND" )));
                     pl.insert(std::make_pair(std::string("w32_mouse"), std::string("DISCL_NONEXCLUSIVE")));
                     pl.insert(std::make_pair(std::string("w32_keyboard"), std::string("DISCL_FOREGROUND")));
-                    pl.insert(std::make_pair(std::string("w32_keyboard"), std::string("DISCL_NONEXCLUSIVE")));
+                    // pl.insert(std::make_pair(std::string("w32_keyboard"), std::string("DISCL_NONEXCLUSIVE")));
 #elif defined OIS_LINUX_PLATFORM
                     pl.insert(std::make_pair(std::string("x11_mouse_grab"), std::string("false")));
                     pl.insert(std::make_pair(std::string("x11_mouse_hide"), std::string("false")));
                     pl.insert(std::make_pair(std::string("x11_keyboard_grab"), std::string("false")));
-                    pl.insert(std::make_pair(std::string("XAutoRepeatOn"), std::string("true")));
+                    // pl.insert(std::make_pair(std::string("XAutoRepeatOn"), std::string("true")));
 #endif
 
                     mInputManager = OIS::InputManager::createInputSystem(pl);
@@ -121,6 +121,7 @@ namespace freekick
 
                 bool InputHandler::keyPressed (const OIS::KeyEvent& e )
                 {
+                    bool sendmove = false;
                     switch (e.key)
                     {
                         case OIS::KC_ESCAPE: 
@@ -152,27 +153,33 @@ namespace freekick
                             break;
 
                         case OIS::KC_W:
-                            sendMoveMessage(X_UP, 15.0f);
+                            sendmove = true;
+                            mRunDirection.x = 15.0f;
                             break;
 
                         case OIS::KC_S:
-                            sendMoveMessage(X_DOWN, 15.0f);
+                            sendmove = true;
+                            mRunDirection.x = -15.0f;
                             break;
 
                         case OIS::KC_A:
-                            sendMoveMessage(Z_DOWN, 15.0f);
+                            sendmove = true;
+                            mRunDirection.z = 15.0f;
                             break;
 
                         case OIS::KC_D:
-                            sendMoveMessage(Z_UP, 15.0f);
+                            sendmove = true;
+                            mRunDirection.z = -15.0f;
                             break;
 
                         case OIS::KC_Q:
-                            sendMoveMessage(Y_UP, 15.0f);
+                            sendmove = true;
+                            mRunDirection.y = 15.0f;
                             break;
 
                         case OIS::KC_E:
-                            sendMoveMessage(Y_DOWN, 15.0f);
+                            sendmove = true;
+                            mRunDirection.y = -15.0f;
                             break;
 
                         case OIS::KC_X:
@@ -182,11 +189,16 @@ namespace freekick
                         default:
                             break;
                     }
+                    if(sendmove) 
+                    {
+                        sendMoveMessage(mRunDirection);
+                    }
                     return true;
                 }
 
                 bool InputHandler::keyReleased (const OIS::KeyEvent& e )
                 {
+                    bool sendmove = false;
                     switch (e.key)
                     {
                         case OIS::KC_UP:
@@ -214,14 +226,36 @@ namespace freekick
                             break;
 
                         case OIS::KC_W:
+                            sendmove = true;
+                            mRunDirection.x = 0.0f;
+                            break;
                         case OIS::KC_S:
+                            sendmove = true;
+                            mRunDirection.x = 0.0f;
+                            break;
                         case OIS::KC_A:
+                            sendmove = true;
+                            mRunDirection.z = 0.0f;
+                            break;
                         case OIS::KC_D:
+                            sendmove = true;
+                            mRunDirection.z = 0.0f;
+                            break;
                         case OIS::KC_E:
+                            sendmove = true;
+                            mRunDirection.y = 0.0f;
+                            break;
                         case OIS::KC_Q:
+                            sendmove = true;
+                            mRunDirection.y = 0.0f;
+                            break;
                         default:
                             break;
                     } // switch
+                    if(sendmove) 
+                    {
+                        sendMoveMessage(mRunDirection);
+                    }
                     return true;
                 }
 
