@@ -1,0 +1,38 @@
+Restrictions:
+- general match status
+  - pitch type
+  - player status
+    - fatique
+    - injury status
+  - player skills
+    - stamina (all physical activities)
+    - dexterity (acceleration, jumping, fast ball actions)
+    - speed (running)
+    - tackling
+    - passing (passing power & accuracy)
+    - shooting (shooting power)
+    - control (?)
+    - accuracy (shooting accuracy)
+    - goalkeeping
+    - heading
+- physics engine
+  - gravity
+  - weather
+    - air attributes
+    - pitch
+
+Restrictable things:
+- run velocity
+  - affected by gravity, player skills (stamina, speed), fatigue, weather, pitch
+- jump velocity
+  - affected by gravity, player skills (stamina, heading), fatigue, weather, pitch
+- kick velocity
+  - affected by player skills, fatigue, weather, pitch
+- kick accuracy
+- tackle velocity
+- goalkeeper actions
+- setting controlled status bits
+
+Finding 1: physics engine has settings that affect gravity and weather (air, pitch)
+Finding 2: a class after Listener, before Physics (Monitor) corrects and drops client input before passing it to physics
+Finding 3: Monitor also handles acceleration by saving the velocity setpoint and regularly sending Physics velocities that near the setpoint

@@ -29,9 +29,11 @@ namespace freekick
     {
         namespace server
         {
-            ClientEventListener::ClientEventListener (ClientListPtr clp, boost::shared_ptr<Physics> p, boost::shared_ptr<Dispatcher> d)
+            ClientEventListener::ClientEventListener (ClientListPtr clp, 
+                                                      boost::shared_ptr<InputMonitor> im, 
+                                                      boost::shared_ptr<Dispatcher> d)
                 : mClientList(clp),
-                  mPhysics(p),
+                  mInputMonitor(im),
                   mDispatcher(d)
             {
             }
@@ -63,7 +65,7 @@ namespace freekick
                     return;
                 }
 
-                // MovePlayerControlMessage: handled by Physics.
+                // MovePlayerControlMessage: handled by InputMonitor.
                 if (t == c_pl_ctl_move)
                 {
                     try
@@ -75,7 +77,7 @@ namespace freekick
                             std::cerr << "ClientEventListener: client " << clientid << " trying to control another player (" << playerid << ").\n";
                             return;
                         }
-                        mPhysics->newClientMessage(m);
+                        mInputMonitor->newClientMessage(m);
                     }
                     catch(...)
                     {

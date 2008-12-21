@@ -35,6 +35,7 @@
 #include "Dispatcher.h"
 #include "Rules.h"
 #include "Physics.h"
+#include "InputMonitor.h"
 #include "messages/ClientInitMessage.h"
 #include "messages/ServerInitMessage.h"
 
@@ -67,6 +68,7 @@ namespace freekick
             private:
                 unsigned int mPort;
                 ClientListPtr clients;
+                boost::shared_ptr<InputMonitor> im;
                 boost::shared_ptr<Physics> p;
                 boost::shared_ptr<Rules> r;
                 boost::shared_ptr<Dispatcher> d;

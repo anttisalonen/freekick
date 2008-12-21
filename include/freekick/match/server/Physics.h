@@ -23,6 +23,7 @@
 #define PHYSICS_H
 
 #include <list>
+#include <vector>
 
 #include <boost/shared_ptr.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
@@ -36,6 +37,7 @@
 #include "BulletPhysicsEngine.h"
 #include "MatchStatus.h"
 #include "MatchIDs.h"
+#include "InputMonitor.h"
 
 #include "messages/MovePlayerControlMessage.h"
 #include "messages/ConstantUpdateMessage.h"
@@ -52,12 +54,10 @@ namespace freekick
             class Physics : public Reader<PhysicsEngine>, public Publisher<Physics>
             {
             public:
-                Physics (boost::shared_ptr<MatchStatus> ms);
+                Physics (boost::shared_ptr<MatchStatus> ms, boost::shared_ptr<InputMonitor> im);
                 virtual ~Physics ( );
 
                 bool run ( );
-                void newClientMessage (const messages::MovePlayerControlMessage& e );
-
                 PhysicsState getPhysicsState ( );
                 void setPause (bool p );
                 bool getPause ( );
@@ -68,14 +68,13 @@ namespace freekick
                 void clearMessages();
 
             private:
-
                 bool mPause;
                 PhysicsMessageList mNewPhysicsMessages;
                 PhysicsState mPhysicsState;
                 boost::shared_ptr<MatchStatus> mMatchStatus;
                 boost::shared_ptr<PhysicsEngine> mPhysicsEngine;
+                boost::shared_ptr<InputMonitor> mInputMonitor;
                 std::vector<messages::ConstantUpdateMessage> newmessages;
-
             };
         }
     }

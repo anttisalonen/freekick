@@ -29,15 +29,17 @@ namespace freekick
     {
         namespace server
         {
-            Physics::Physics (boost::shared_ptr<MatchStatus> ms)
-                : mMatchStatus(ms)
-                , mPhysicsEngine(new BulletPhysicsEngine(Vector3(-50,-20,-50), 
-                                                         Vector3(200, 100, 200), 
-                                                         500, Vector3(0, -9.8, 0)))
+            Physics::Physics (boost::shared_ptr<MatchStatus> ms, boost::shared_ptr<InputMonitor> im)
+                : mMatchStatus(ms),
+                  mPhysicsEngine(new BulletPhysicsEngine(Vector3(-200,-100,-200), 
+                                                         Vector3( 200, 100, 200), 
+                                                         500,
+                                                         boost::shared_ptr<PhysicsEngineSettings>(new PhysicsEngineSettings(Vector3(0, -9.8, 0))))),
+                  mInputMonitor(im)
             {
                 mPhysicsEngine->subscribe(*this);
                 mPhysicsEngine->addStaticBoxObject(PitchID, Vector3(200, 50, 140), Vector3(100, -50, 70));
-                mPhysicsEngine->addDynamicSphereObject(BallID, 1.0f, 5.0f, Vector3(10, 50, 10));
+                mPhysicsEngine->addDynamicSphereObject(BallID, 1.0f, 5.0f, Vector3(10, 50, 10), 0.5f);
                 std::vector<int> hplayers;
                 std::vector<int> aplayers;
                 boost::shared_ptr<Club> club1 = mMatchStatus->getMatchData()->getHomeClub();
@@ -75,11 +77,29 @@ namespace freekick
             {
                 using namespace boost::posix_time;
                 unsigned long sleep_time = 1000000/60;
-                while(1)
+                bool successful = true;
+
+                std::map<int, addutil::Vector3>::iterator it;
+                std::map<int, addutil::Vector3> velocityMap;
+                while(successful)
                 {
                     ptime before_time(microsec_clock::local_time());
-                    mPhysicsEngine->stepWorld(1.0f/60.0f);
+
+                    successful = mPhysicsEngine->stepWorld(1.0f/60.0f);
+                    velocityMap = mInputMonitor->getVelocities();
+                    for(it = velocityMap.begin(); it != velocityMap.end(); it++)
+                    {
+                        if (!mPhysicsEngine->setObjectVelocity((*it).first, (*it).second))
+                        {
+                            std::cerr << "Physics::run: Invalid player ID\n";
+                            velocityMap.erase(it);
+                            it = velocityMap.begin();
+                        }
+                    }
+                    mInputMonitor->interpolate(sleep_time);
+
                     ptime after_time(microsec_clock::local_time());
+
                     time_period diff_time(before_time, after_time);
                     time_duration diff_dur = diff_time.length();
                     long us_diff = diff_dur.total_microseconds();
@@ -88,17 +108,6 @@ namespace freekick
                         boost::this_thread::sleep(microseconds(time_left));
                 }
                 return true;
-            }
-
-            void Physics::newClientMessage (const messages::MovePlayerControlMessage& e ) 
-            {
-                using namespace messages;
-                addutil::Vector3 v;
-                e.getTargetVector(v);
-                if (!mPhysicsEngine->setObjectVelocity(e.getPlayerID(), v))
-                {
-                    std::cerr << "Physics::newClientMessage: Invalid player ID\n";
-                }
             }
 
             void Physics::update(PhysicsEngine* e)

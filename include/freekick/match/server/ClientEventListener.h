@@ -31,9 +31,9 @@
 #include "addutil/network/Server.h"
 
 #include "freekick/match/Client.h"
-#include "Physics.h"
 #include "Rules.h"
 #include "Dispatcher.h"
+#include "InputMonitor.h"
 
 #include "messages/MovePlayerControlMessage.h"
 #include "messages/InitialDataRequest.h"
@@ -49,15 +49,14 @@ namespace freekick
             class ClientEventListener
             {
             public:
-                ClientEventListener (ClientListPtr clp, boost::shared_ptr<Physics> p, boost::shared_ptr<Dispatcher> d);
+                ClientEventListener (ClientListPtr clp, boost::shared_ptr<InputMonitor> im, boost::shared_ptr<Dispatcher> d);
                 virtual ~ClientEventListener ( );
-
                 void newData (unsigned int clientid, buffer b );
 
             private:
 
                 ClientListPtr mClientList;
-                boost::shared_ptr<Physics> mPhysics;
+                boost::shared_ptr<InputMonitor> mInputMonitor;
                 boost::shared_ptr<Dispatcher> mDispatcher;
             };
         }

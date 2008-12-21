@@ -50,9 +50,24 @@ namespace addutil
         z = z / len;
     }
 
-    float Vector3::length()
+    float Vector3::length() const
     {
         return sqrt(x * x + y * y + z * z);
+    }
+
+    void Vector3::capX(float n)
+    {
+        if(x > n) x = n;
+    }
+
+    void Vector3::capY(float n)
+    {
+        if(y > n) y = n;
+    }
+
+    void Vector3::capZ(float n)
+    {
+        if(z > n) z = n;
     }
 
     Vector3& Vector3::operator+=(Vector3 a)

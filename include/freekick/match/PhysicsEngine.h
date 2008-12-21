@@ -25,11 +25,12 @@
 #include <set>
 #include <map>
 
-#include <boost/foreach.hpp>
+#include <boost/shared_ptr.hpp>
 
 #include "Vector3.h"
 #include "DynamicEntity.h"
 #include "Publisher.h"
+#include "PhysicsEngineSettings.h"
 
 namespace freekick
 {
@@ -44,12 +45,17 @@ namespace freekick
         public:
             virtual ~PhysicsEngine ( ) { }
             virtual bool addStaticBoxObject(ObjectID oid, addutil::Vector3 shape, addutil::Vector3 loc) = 0;
-            virtual bool addDynamicBoxObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc) = 0;
-            virtual bool addDynamicSphereObject(ObjectID oid, float radius, float mass, addutil::Vector3 loc) = 0;
+            virtual bool addDynamicBoxObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc, float restitution) = 0;
+            virtual bool addDynamicSphereObject(ObjectID oid, float radius, float mass, addutil::Vector3 loc, float restitution) = 0;
             virtual bool addControllableObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc) = 0;
             virtual bool setObjectVelocity(ObjectID oid, const addutil::Vector3& vel) = 0;
             virtual bool removeObject(ObjectID oid) = 0;
             virtual bool stepWorld(float steptime) = 0;
+
+            const boost::shared_ptr<PhysicsEngineSettings>& getSettings() const
+            {
+                return settings;
+            }
 
             // TODO: split to a .cpp?
             void publishPhysics()
@@ -68,10 +74,14 @@ namespace freekick
                 updated_objects[i] = e;
             }
 
+        protected:
+            PhysicsEngine(boost::shared_ptr<PhysicsEngineSettings> s)
+                : settings(s) { }
+
         private:
             EntityPtrMap curr_objects;
             EntityPtrMap updated_objects;
-
+            boost::shared_ptr<PhysicsEngineSettings> settings;
         };
     }
 }

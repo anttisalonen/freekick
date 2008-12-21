@@ -39,18 +39,21 @@ namespace freekick
         class BulletPhysicsEngine : public PhysicsEngine
         {
         public:
-            BulletPhysicsEngine (addutil::Vector3 bottom_left, addutil::Vector3 top_right, int maxObjects, addutil::Vector3 gravity);
+            BulletPhysicsEngine (addutil::Vector3 bottom_left,
+                                 addutil::Vector3 top_right,
+                                 int maxObjects,
+                                 boost::shared_ptr<PhysicsEngineSettings> settings);
             ~BulletPhysicsEngine ();
             bool addStaticBoxObject(ObjectID oid, addutil::Vector3 shape, addutil::Vector3 loc);
-            bool addDynamicBoxObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc);
-            bool addDynamicSphereObject(ObjectID oid, float radius, float mass, addutil::Vector3 loc);
+            bool addDynamicBoxObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc, float restitution);
+            bool addDynamicSphereObject(ObjectID oid, float radius, float mass, addutil::Vector3 loc, float restitution);
             bool addControllableObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc);
             bool setObjectVelocity(ObjectID oid, const addutil::Vector3& vel);
             bool removeObject(ObjectID oid);
             bool stepWorld(float steptime);
 
         protected:
-            bool addDynamicObject(ObjectID oid, btCollisionShape* colShape, float mass, addutil::Vector3 loc, bool upright = false);
+            bool addDynamicObject(ObjectID oid, btCollisionShape* colShape, float mass, addutil::Vector3 loc, float restitution, bool upright = false);
             bool addObject(btRigidBody* b);
 
         private:

@@ -31,10 +31,11 @@ namespace freekick
                                          const std::string& greeting)
                 : mPort(port), 
                   clients(new ClientList()),
-                  p(new Physics(ms)),
+                  im(new InputMonitor(ms)),
+                  p(new Physics(ms, im)),
                   r(new Rules(ms)),
                   d(new Dispatcher(clients, this, p, r, ms)),
-                  cel(new ClientEventListener(clients, p, d)),
+                  cel(new ClientEventListener(clients, im, d)),
                   name(servername),
                   greet(greeting),
                   protocol_version("0.2")

@@ -26,8 +26,12 @@ namespace freekick
     {
         using addutil::Vector3;
 
-        BulletPhysicsEngine::BulletPhysicsEngine (Vector3 bottom_left, Vector3 top_right, int maxObjects, Vector3 gravity)
-            : collisionConfiguration(new btDefaultCollisionConfiguration())
+        BulletPhysicsEngine::BulletPhysicsEngine (Vector3 bottom_left, 
+                                                  Vector3 top_right, 
+                                                  int maxObjects, 
+                                                  boost::shared_ptr<PhysicsEngineSettings> settings)
+            : PhysicsEngine(settings)
+            , collisionConfiguration(new btDefaultCollisionConfiguration())
             , dispatcher(new btCollisionDispatcher(collisionConfiguration.get()))
             , solver(new btSequentialImpulseConstraintSolver())
         {
@@ -41,7 +45,7 @@ namespace freekick
             ///the default constraint solver. For parallel processing you can use a different solver (see Extras/BulletMultiThreaded)
             dynamicsWorld.reset(new btDiscreteDynamicsWorld(dispatcher.get(), overlappingPairCache.get(), solver.get(), collisionConfiguration.get()));
 
-            dynamicsWorld->setGravity(btVector3(gravity.x,gravity.y,gravity.z));
+            dynamicsWorld->setGravity(btVector3(settings->gravity.x, settings->gravity.y, settings->gravity.z));
         }
 
         BulletPhysicsEngine::~BulletPhysicsEngine ()
@@ -104,12 +108,12 @@ namespace freekick
             return addObject(body);
         }
 
-        bool BulletPhysicsEngine::addDynamicBoxObject(ObjectID oid, Vector3 size, float mass, Vector3 loc)
+        bool BulletPhysicsEngine::addDynamicBoxObject(ObjectID oid, Vector3 size, float mass, Vector3 loc, float restitution)
         {
             btCollisionShape* colShape = new btBoxShape(btVector3(size.x,size.y,size.z));
             try
             {
-                return addDynamicObject(oid, colShape, mass, loc);
+                return addDynamicObject(oid, colShape, mass, loc, restitution);
             }
             catch (...)
             {
@@ -118,12 +122,12 @@ namespace freekick
             return false;
         }
 
-        bool BulletPhysicsEngine::addDynamicSphereObject(ObjectID oid, float radius, float mass, Vector3 loc)
+        bool BulletPhysicsEngine::addDynamicSphereObject(ObjectID oid, float radius, float mass, Vector3 loc, float restitution)
         {
             btCollisionShape* colShape = new btSphereShape(btScalar(radius));
             try
             {
-                return addDynamicObject(oid, colShape, mass, loc);
+                return addDynamicObject(oid, colShape, mass, loc, restitution);
             }
             catch (...)
             {
@@ -137,7 +141,7 @@ namespace freekick
             btCollisionShape* colShape = new btBoxShape(btVector3(size.x,size.y,size.z));
             try
             {
-                return addDynamicObject(oid, colShape, mass, loc, true);
+                return addDynamicObject(oid, colShape, mass, loc, 0.0f, true);
             }
             catch (...)
             {
@@ -162,11 +166,15 @@ namespace freekick
 
             it->second->activate(true);
             it->second->setLinearVelocity(bv);
-            const btVector3& bv2 = it->second->getLinearVelocity();
             return true;
         }
 
-        bool BulletPhysicsEngine::addDynamicObject(ObjectID oid, btCollisionShape* colShape, float mass, Vector3 loc, bool upright)
+        bool BulletPhysicsEngine::addDynamicObject(ObjectID oid, 
+                                                   btCollisionShape* colShape, 
+                                                   float mass, 
+                                                   Vector3 loc, 
+                                                   float restitution,
+                                                   bool upright)
         {
             ObjectMap::iterator it = mObjectMap.find(oid);
             if (it != mObjectMap.end()) throw "BulletPhysicsEngine::addDynamicObject: Object ID already used";
@@ -188,6 +196,7 @@ namespace freekick
             //using motionstate is recommended, it provides interpolation capabilities, and only synchronizes 'active' objects
             FreekickMotionState* myMotionState = new FreekickMotionState(startTransform, this, oid);
             btRigidBody::btRigidBodyConstructionInfo rbInfo(ms, myMotionState, colShape, localInertia);
+            rbInfo.m_restitution = restitution;
             btRigidBody* body = new btRigidBody(rbInfo);
 
             if(upright)

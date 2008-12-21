@@ -54,7 +54,11 @@ namespace addutil
         Vector3 operator*(float s);
 
         void normalize();
-        float length();
+        float length() const;
+        void capX(float n);
+        void capY(float n);
+        void capZ(float n);
+
         // Public attributes
         //  
 
