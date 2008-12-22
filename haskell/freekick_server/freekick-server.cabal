@@ -1,0 +1,36 @@
+Name:           freekick-server
+Version:        0.0.2
+Cabal-Version:  >= 1.2
+License:        GPL
+License-File:   LICENSE
+Author:         Antti Salonen<ajsalonen at gmail dot com>
+Copyright:      Antti Salonen 2008
+Stability:      Unstable
+Homepage:       http://finder.homelinux.org/freekick
+Category:       Games
+Synopsis:       A soccer game
+
+Data-files:
+  README, TODO, matchdata.md
+
+Executable physics
+  Build-Depends:  base, haskell98, 
+                  mtl>=1.1.0.0, stm>=2.1.1.0, 
+                  containers>=0.1.0.1, old-time>=1.0.0.0,
+                  libaddutil>=0.0.1, libfreekick>=0.0.1
+  Main-is:        Main.hs
+  Hs-Source-Dirs: physics/src
+  Other-Modules:  Console
+  Include-dirs:   .
+  Ghc-options:    -Wall -O
+
+Executable ai
+  Build-Depends:  base, haskell98, 
+                  mtl>=1.1.0.0,
+                  stm>=2.1.1.0, containers>=0.1.0.1,
+                  libaddutil>=0.0.1, libfreekick>=0.0.1
+  Main-is:        Main.hs
+  Hs-Source-Dirs: ai/src
+  Include-dirs:   .
+  Ghc-options:    -Wall -O
+
