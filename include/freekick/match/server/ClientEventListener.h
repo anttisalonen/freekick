@@ -51,7 +51,7 @@ namespace freekick
             public:
                 ClientEventListener (ClientListPtr clp, boost::shared_ptr<InputMonitor> im, boost::shared_ptr<Dispatcher> d);
                 virtual ~ClientEventListener ( );
-                void newData (unsigned int clientid, buffer b );
+                void newData (int clientid, buffer b );
 
             private:
 

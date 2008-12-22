@@ -42,7 +42,7 @@ namespace freekick
             { 
             }
 
-            void ClientEventListener::newData (unsigned int clientid, buffer b ) 
+            void ClientEventListener::newData (int clientid, buffer b ) 
             {
                 using namespace messages;
 
@@ -71,7 +71,7 @@ namespace freekick
                     try
                     {
                         const messages::MovePlayerControlMessage m(b);
-                        unsigned int playerid = m.getPlayerID();
+                        int playerid = m.getPlayerID();
                         if(!(*it).second.controlsPlayer(playerid))
                         {
                             std::cerr << "ClientEventListener: client " << clientid << " trying to control another player (" << playerid << ").\n";

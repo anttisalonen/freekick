@@ -166,6 +166,10 @@ namespace freekick
                                 }
                                 continue;
                             }
+                            else
+                            {
+                                std::cerr << "Network::read: received an unknown message.\n";
+                            }
                         }
                     }
                 }

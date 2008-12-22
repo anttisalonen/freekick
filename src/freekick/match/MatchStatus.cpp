@@ -27,7 +27,7 @@ namespace freekick
             : mMatchData(md)
         {
             mEntities[BallID] = boost::shared_ptr<MatchBall>(new MatchBall(*mMatchData->getBall()));
-
+            std::cout << "Adding ball to matchstatus\n";
             boost::shared_ptr<Club> c1 = mMatchData->getHomeClub();
             boost::shared_ptr<Club> c2 = mMatchData->getAwayClub();
             std::vector<boost::shared_ptr<Player> > c1pls;
@@ -47,67 +47,10 @@ namespace freekick
             // TODO: add referee + others (if any)
         }
 
-/*
-        void MatchStatus::updatePlayers()
-        {
-            boost::array<PlayerList, 6> pllist;
-            boost::array<Lineup, 2> lineups;
-            mMatchData->getHomeClub()->getPlayers(pllist[0]);
-            mMatchData->getAwayClub()->getPlayers(pllist[1]);
-            mMatchData->getHomeLineup(lineups[0]);
-            mMatchData->getAwayLineup(lineups[1]);
-            pllist[2] = lineups[0]->getPitchPlayers();
-            pllist[3] = lineups[0]->getSubstitutes();
-            pllist[4] = lineups[1]->getPitchPlayers();
-            pllist[5] = lineups[1]->getSubstitutes();
-            BOOST_FOREACH(PlayerList l, pllist)
-            {
-                BOOST_FOREACH(boost::shared_ptr<Player> p, l)
-                {
-                    int i = p->getID();
-                    mEntities[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p));
-                }
-            }
-            // TODO: add referee + others (if any)
-            // TODO: make the whole thing with lineups + clubs cleaner and remove duplicate code
-            typedef std::pair<int, boost::shared_ptr<DynamicEntity> > pair_de;
-            BOOST_FOREACH(pair_de p, mEntities)
-            {
-                mEntityVector.push_back(p.second);
-            }
-        }
-*/
-
         boost::shared_ptr<MatchData> MatchStatus::getMatchData() const
         {
             return mMatchData;
         }
-
-/*
-        void MatchStatus::newEvent (const std::string& evt ) 
-        {
-            int n, v;
-            float x, y, z, qw, qx, qy, qz;
-            std::istringstream ist(evt);
-            ist >> n >> v >> x >> y >> z >> qw >> qx >> qy >> qz;
-            if(n == BallID)
-            {
-                ball->update(v, x, y, z);
-                return;
-            }
-            BOOST_FOREACH(boost::shared_ptr<Club> c, clubs)
-            {
-                if (c->updatePlayer(n, v, x, y, z, qw, qx, qy, qz))
-                    return;
-            }
-        }
-
-        void MatchStatus::newEvents (std::vector <std::string>& events ) 
-        {
-            BOOST_FOREACH(std::string s, events)
-                newEvent(s);
-        }
-*/
 
         void MatchStatus::getEntities (std::map<int, boost::shared_ptr<DynamicEntity> >& v)
         {

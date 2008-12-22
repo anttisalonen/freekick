@@ -65,7 +65,7 @@ namespace freekick
             {
                 if(!isValidMessage(s)) throw "getMessageType: Invalid event\n";
                 const char& c = s[1];
-                if(isdigit(c)) return s_const_upd;
+                if(isdigit(c) || c == '-') return s_const_upd;
                 return std::string(1, c);
             }
 
