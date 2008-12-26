@@ -32,8 +32,6 @@
 #include "Color.h"
 
 #include "freekick/match/Client.h"
-#include "RulesState.h"
-#include "PhysicsState.h"
 #include "Physics.h"
 #include "Rules.h"
 #include "MatchData.h"
@@ -71,8 +69,6 @@ namespace freekick
                 
                 void dispatchPhysicsMessage (const PhysicsMessage& e );
                 void dispatchRulesMessage (const RulesMessage& e );
-                void dispatchPhysicsState (const freekick::match::PhysicsState& s );
-                void dispatchRulesState (const freekick::match::RulesState& s );
                 void dispatchPhysicsMessages (const PhysicsMessageList& es );
                 void dispatchRulesMessages (const RulesMessageList& es );
                 void dispatchConnectionMessages (const ConnectionMessageList& es );

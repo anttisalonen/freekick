@@ -41,9 +41,7 @@ namespace freekick
         {
         public:
 
-            /**
-             */
-            MatchStadium ( );
+            MatchStadium (const Stadium& s);
             const int getID() const { return StadiumID; }
 
         private:

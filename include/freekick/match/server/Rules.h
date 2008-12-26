@@ -27,10 +27,11 @@
 #include <boost/shared_ptr.hpp>
 
 #include "Publisher.h"
+#include "Reader.h"
 
 #include "MatchStatus.h"
-#include "RulesState.h"
 #include "Physics.h"
+#include "MatchIDs.h"
 
 #include "messages/Message.h"
 
@@ -40,23 +41,35 @@ namespace freekick
     {
         namespace server
         {
-            typedef messages::Message RulesMessage;
+            typedef messages::GeneralUpdateStatusMessage RulesMessage;
             typedef std::vector<RulesMessage> RulesMessageList;
 
-            class Rules : public addutil::Publisher<Rules>
+            class Rules : public addutil::Publisher<Rules>, public addutil::Reader<Physics>
             {
             public:
-                Rules (boost::shared_ptr<MatchStatus> ms);
-                virtual ~Rules ( );
-                void update (PhysicsMessageList pes );
-                void createRulesMessages (Time t, PhysicsMessageList pes, RulesMessageList res);
+                Rules (boost::shared_ptr<MatchStatus> ms, boost::shared_ptr<Physics> p);
+                virtual ~Rules ();
+
+                // Reader<Physics>
+                void update(Physics* p);
+
+                // Publisher<Rules>
+                void getUpdates (RulesMessageList& pes) const;
+
+            protected:
+                // Publisher<Rules>
+                void clearMessages();
 
             private:
-                boost::shared_ptr<RulesState> mRulesState;
                 boost::shared_ptr<MatchStatus> mMatchStatus;
-            public:
-                void setRulesState ( boost::shared_ptr<RulesState> new_var );
-                boost::shared_ptr<RulesState> getRulesState ( );
+                boost::shared_ptr<Physics> mPhysics;
+
+                // Messages that will be published are stored here
+                RulesMessageList newmessages;
+
+                BallState mBallState;
+                const float pitch_width;
+                const float pitch_length;
             };
         }
     }

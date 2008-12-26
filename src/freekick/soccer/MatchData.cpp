@@ -25,9 +25,11 @@ namespace freekick
     namespace soccer
     {
         MatchData::MatchData (boost::shared_ptr<Club> cl1, 
-                              boost::shared_ptr<Club> cl2)
+                              boost::shared_ptr<Club> cl2,
+                              boost::shared_ptr<Stadium> s)
             : homeclub(cl1),
               awayclub(cl2),
+              stadium(s),
               ball(new Ball(0.4))     // don't forget the ball
         {
         }
@@ -35,63 +37,6 @@ namespace freekick
         MatchData::~MatchData()
         {
         }
-
-/*
-        void MatchData::addPlayer(const std::string& clubname, int idnum, const Color& col)
-        {
-            if(idnum < 1) 
-            {
-                throw "MatchData::addPlayer: invalid parameter (idnum)";
-            }
-            typedef std::pair<std::string, boost::shared_ptr<MatchClub> > pair_cl;
-            BOOST_FOREACH(pair_cl pcl, clubs)
-            {
-                if(pcl.second->getName() == clubname)
-                {
-                    int n = pcl.second->getNumberOfPlayers();
-                    boost::shared_ptr<MatchPlayer> pl (new MatchPlayer(Player("", n, idnum), col));
-                    pcl.second->addMatchPlayer(pl);
-                    entities.insert(pl);
-                    return;
-                }
-            }
-        }
-*/
-/*
-        std::set <boost::shared_ptr<Entity> >* MatchData::getEntities ()
-        {
-            return &entities;
-        }
-*/
-/*
-        void MatchData::updateAll(float interval)
-        {
-            BOOST_FOREACH(boost::shared_ptr<Entity> d, entities)
-            {
-                d->update(interval);
-            }
-        }
-
-        void MatchData::interpolateAll(boost::posix_time::ptime pt)
-        {
-            BOOST_FOREACH(boost::shared_ptr<Entity> d, entities)
-            {
-                d->interpolate(pt);
-            }
-        }
-*/
-
-/*
-        void MatchData::setHomeLineup(const boost::shared_ptr<Lineup> l)
-        {
-            homelineup = l;
-        }
-
-        void MatchData::setAwayLineup(const boost::shared_ptr<Lineup> l)
-        {
-            awaylineup = l;
-        }
-*/
 
         boost::shared_ptr<Club> MatchData::getHomeClub() const
         {
@@ -129,16 +74,15 @@ namespace freekick
         {
             return ball;
         }
-/*
-        void MatchData::getHomeLineup(boost::shared_ptr<Lineup>& s) const
+
+        void MatchData::setStadium(boost::shared_ptr<Stadium>& stad)
         {
-            s = homelineup;
+            stadium = stad;
         }
 
-        void MatchData::getAwayLineup(boost::shared_ptr<Lineup>& s) const
+        boost::shared_ptr<Stadium> MatchData::getStadium() const
         {
-            s = awaylineup;
+            return stadium;
         }
-*/
     }
 }

@@ -47,7 +47,7 @@ namespace freekick
             // TODO: add referee + others (if any)
         }
 
-        boost::shared_ptr<MatchData> MatchStatus::getMatchData() const
+        const boost::shared_ptr<MatchData>& MatchStatus::getMatchData() const
         {
             return mMatchData;
         }
@@ -82,6 +82,20 @@ namespace freekick
         {
             typedef std::pair<std::string, boost::shared_ptr<MatchClub> > pair_cl;
             BOOST_FOREACH(messages::ConstantUpdateMessage m, ms)
+            {
+                update(m);
+            }
+        }
+
+        void MatchStatus::update(const messages::GeneralUpdateStatusMessage& m)
+        {
+            mBallState = m.getBallState();
+        }
+
+        void MatchStatus::update(const std::vector<messages::GeneralUpdateStatusMessage>& ms)
+        {
+            typedef std::pair<std::string, boost::shared_ptr<MatchClub> > pair_cl;
+            BOOST_FOREACH(messages::GeneralUpdateStatusMessage m, ms)
             {
                 update(m);
             }

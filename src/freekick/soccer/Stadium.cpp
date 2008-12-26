@@ -24,11 +24,14 @@ namespace freekick
 {
     namespace soccer
     {
-/**
- */
-        Stadium::Stadium ( ) 
+        Stadium::Stadium (float pitchwidth, float pitchlength)
+            : mPitch(pitchwidth, pitchlength)
         {
+        }
 
+        const Pitch& Stadium::getPitch() const
+        {
+            return mPitch;
         }
     }
 }

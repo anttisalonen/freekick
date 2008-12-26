@@ -24,13 +24,19 @@ namespace freekick
 {
     namespace soccer
     {
-/**
- * @param  w
- * @param  l
- */
         Pitch::Pitch (float w, float l ) 
             : width(w), length(l) 
         {
+        }
+
+        float Pitch::getWidth() const
+        {
+            return width;
+        }
+
+        float Pitch::getLength() const
+        {
+            return length;
         }
     }
 }

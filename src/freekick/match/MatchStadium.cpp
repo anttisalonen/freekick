@@ -18,17 +18,15 @@
   This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
-#include "Stadium.h"
+#include "MatchStadium.h"
 
 namespace freekick
 {
-    namespace soccer
+    namespace match
     {
-/**
- */
-        Stadium::Stadium ( ) 
+        MatchStadium::MatchStadium (const Stadium& s) 
+            : Stadium(s)
         {
-
         }
     }
 }

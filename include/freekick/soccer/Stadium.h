@@ -28,6 +28,8 @@
 
 #include "Color.h"
 
+#include "Pitch.h"
+
 /**
  * class Stadium
  */
@@ -39,17 +41,17 @@ namespace freekick
         class Stadium
         {
         public:
-
-            /**
-             */
-            Stadium ( );
+            Stadium (float pitchwidth = 70.0f, float pitchlength = 100.0f);
+            const Pitch& getPitch() const;
 
         private:
+            Pitch mPitch;
 
             friend class boost::serialization::access;
             template<class Archive>
                 void serialize(Archive & ar, const unsigned int version)
             {
+                ar & mPitch;
             }
         };
     }

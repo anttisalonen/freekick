@@ -24,6 +24,8 @@
 
 #include <string>
 
+#include <boost/serialization/serialization.hpp>
+
 /**
  * class Pitch
  */
@@ -35,21 +37,21 @@ namespace freekick
         class Pitch
         {
         public:
-
-            /**
-             * @param  w
-             * @param  l
-             */
             Pitch (float w, float l );
+            float getWidth() const;
+            float getLength() const;
 
         private:
-
-            // Private attributes
-            //  
-
             const float width;
             const float length;
 
+            friend class boost::serialization::access;
+            template<class Archive>
+                void serialize(Archive & ar, const unsigned int version)
+            {
+                ar & width;
+                ar & length;
+            }
         };
     }
 }

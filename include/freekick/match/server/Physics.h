@@ -25,6 +25,7 @@
 #include <list>
 #include <vector>
 
+#include <boost/tuple/tuple.hpp>
 #include <boost/shared_ptr.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
 
@@ -32,7 +33,6 @@
 #include "Publisher.h"
 #include "Color.h"
 
-#include "PhysicsState.h"
 #include "PhysicsEngine.h"
 #include "BulletPhysicsEngine.h"
 #include "MatchStatus.h"
@@ -51,6 +51,10 @@ namespace freekick
             typedef messages::ConstantUpdateMessage PhysicsMessage;
             typedef std::vector<PhysicsMessage> PhysicsMessageList;
 
+            // TODO: fill collision list from collision callbacks for rules
+            typedef boost::tuple<int, int, float> Collision;   // Player IDs of the collided objects + collision power
+            typedef std::vector<Collision> CollisionList;
+
             class Physics : public Reader<PhysicsEngine>, public Publisher<Physics>
             {
             public:
@@ -58,23 +62,34 @@ namespace freekick
                 virtual ~Physics ( );
 
                 bool run ( );
-                PhysicsState getPhysicsState ( );
                 void setPause (bool p );
                 bool getPause ( );
+
+                // Reader<PhysicsEngine>
                 void update(PhysicsEngine* e);
-                void getUpdates(PhysicsMessageList& l);
+
+                // Publisher<Physics>
+                void getUpdates(PhysicsMessageList& l) const;
+                void getUpdates(PhysicsMessageList& l, CollisionList& c) const;
 
             protected:
+                // Publisher<Physics>
                 void clearMessages();
 
             private:
                 bool mPause;
-                PhysicsMessageList mNewPhysicsMessages;
-                PhysicsState mPhysicsState;
+
                 boost::shared_ptr<MatchStatus> mMatchStatus;
                 boost::shared_ptr<PhysicsEngine> mPhysicsEngine;
+
+                // InputMonitor delivers the messages to Physics
                 boost::shared_ptr<InputMonitor> mInputMonitor;
-                std::vector<messages::ConstantUpdateMessage> newmessages;
+
+                // Messages that will be published are stored here
+                PhysicsMessageList newmessages;
+                CollisionList newcollisions;
+
+                const static float collision_box_height = 1.75f;
             };
         }
     }

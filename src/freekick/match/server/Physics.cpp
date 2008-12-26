@@ -38,8 +38,13 @@ namespace freekick
                   mInputMonitor(im)
             {
                 mPhysicsEngine->subscribe(*this);
-                mPhysicsEngine->addStaticBoxObject(PitchID, Vector3(200, 50, 140), Vector3(0, -50, 0));
-                mPhysicsEngine->addDynamicSphereObject(BallID, 1.0f, 5.0f, Vector3(10, 50, 10), 0.5f);
+
+                float pwidth = mMatchStatus->getMatchData()->getStadium()->getPitch().getWidth();
+                float plength = mMatchStatus->getMatchData()->getStadium()->getPitch().getLength();
+                float middle_x = pwidth / 2.0f;
+                float middle_z = plength / 2.0f;
+                mPhysicsEngine->addStaticBoxObject(PitchID, Vector3(pwidth * 2.0f, 50, plength * 2.0f), Vector3(0, -50, 0));
+                mPhysicsEngine->addDynamicSphereObject(BallID, 1.0f, 5.0f, Vector3(middle_x, 10, middle_z), 0.7f);
                 std::vector<int> hplayers;
                 std::vector<int> aplayers;
                 boost::shared_ptr<Club> club1 = mMatchStatus->getMatchData()->getHomeClub();
@@ -48,13 +53,13 @@ namespace freekick
                 club2->getPlayerIDs(aplayers);
                 BOOST_FOREACH(int idnum, hplayers)
                 {
-                    Vector3 loc(idnum % 57 + 50, idnum % 2 + 4, idnum % 43 + 50);
-                    mPhysicsEngine->addControllableObject(idnum, Vector3(1.0f, 1.75f, 1.0f), 80.0f, loc);
+                    Vector3 loc(idnum % (int)pwidth + 1, idnum % 2 + 2, (idnum * 2) % (int)plength + 1);
+                    mPhysicsEngine->addControllableObject(idnum, Vector3(1.0f, collision_box_height, 1.0f), 80.0f, loc);
                 }
                 BOOST_FOREACH(int idnum, aplayers)
                 {
-                    Vector3 loc(idnum % 78 + 1, idnum % 2 + 4, idnum % 29 + 1);
-                    mPhysicsEngine->addControllableObject(idnum, Vector3(1.0f, 1.75f, 1.0f), 80.0f, loc);
+                    Vector3 loc(idnum % (int)pwidth + 1, idnum % 2 + 4, (idnum * 2) % (int)plength + 1);
+                    mPhysicsEngine->addControllableObject(idnum, Vector3(1.0f, collision_box_height, 1.0f), 80.0f, loc);
                 }
             }
 
@@ -118,8 +123,11 @@ namespace freekick
                 BOOST_FOREACH(pair_en p, m)
                 {
                     const addutil::Vector3 pos = p.second->getPosition();
+                    addutil::Vector3 pos_corrected = pos;
+                    if(p.first > 0)
+                        pos_corrected.y -= collision_box_height;
                     const addutil::Quaternion orien = p.second->getOrientation();
-                    messages::ConstantUpdateMessage c(p.first, 0, pos, orien);
+                    messages::ConstantUpdateMessage c(p.first, 0, pos_corrected, orien);
                     newmessages.push_back(c);
                 }
                 publish();
@@ -130,11 +138,18 @@ namespace freekick
             void Physics::clearMessages()
             {
                 newmessages.clear();
+                newcollisions.clear();
             }
 
-            void Physics::getUpdates(PhysicsMessageList& l)
+            void Physics::getUpdates(PhysicsMessageList& l) const
             {
                 l = newmessages;
+            }
+
+            void Physics::getUpdates(PhysicsMessageList& l, CollisionList& c) const
+            {
+                getUpdates(l);
+                c = newcollisions;
             }
         }
     }

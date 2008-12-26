@@ -33,7 +33,7 @@ namespace freekick
                   clients(new ClientList()),
                   im(new InputMonitor(ms)),
                   p(new Physics(ms, im)),
-                  r(new Rules(ms)),
+                  r(new Rules(ms, p)),
                   d(new Dispatcher(clients, this, p, r, ms)),
                   cel(new ClientEventListener(clients, im, d)),
                   name(servername),

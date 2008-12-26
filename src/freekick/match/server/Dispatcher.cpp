@@ -92,16 +92,6 @@ namespace freekick
 
             }
 
-            void Dispatcher::dispatchPhysicsState (const PhysicsState& s ) 
-            {
-
-            }
-
-            void Dispatcher::dispatchRulesState (const RulesState& s ) 
-            {
-
-            }
-
             void Dispatcher::dispatchPhysicsMessages (const PhysicsMessageList& es ) 
             {
                 boost::posix_time::ptime this_time(boost::posix_time::microsec_clock::local_time());

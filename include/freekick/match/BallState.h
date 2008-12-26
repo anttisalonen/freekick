@@ -15,61 +15,56 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on Sa Nov 22 2008 at 11:40:55
 **************************************************************************/
 
 
-#ifndef PHYSICSSTATE_H
-#define PHYSICSSTATE_H
+#ifndef BALLSTATE_H
+#define BALLSTATE_H
+
+#include "addutil/Vector3.h"
 
 namespace freekick
 {
     namespace match
     {
-        class PhysicsState
+        enum BallOwner
         {
-        public:
-
-            // Constructors/Destructors
-            //  
-
-
-            /**
-             * Empty Constructor
-             */
-            PhysicsState ( );
-
-            /**
-             * Empty Destructor
-             */
-            virtual ~PhysicsState ( );
-
-
-        protected:
-
-        public:
-
-        protected:
-
-        public:
-
-        protected:
-
-
-        private:
-
-        public:
-
-        private:
-
-        public:
-
-        private:
-
-
-
+            Home,
+            Away
         };
+
+        enum BallInOut
+        {
+            BallIn = 0,
+            PreKickoff,
+            Kickoff,
+            Throwin,
+            Goalkick,
+            Cornerkick,
+            IndirectFreekick,
+            DirectFreekick,
+            PenaltyKick,
+            DroppedBall,
+            HalfFullTime
+        };
+
+        class BallState
+        {
+            // TODO: more controlled access
+        public:
+            BallState();
+            void flipOwner();
+
+            BallInOut bio_type;
+            BallOwner owner;
+            addutil::Vector3 restart_point;
+            bool blocked_play;
+        };
+
+        BallInOut intToBallInOut(int n);
+        BallOwner other(BallOwner b);
+        BallOwner intToBallOwner(int n);
     }
 }
 
-#endif // PHYSICSSTATE_H
+#endif

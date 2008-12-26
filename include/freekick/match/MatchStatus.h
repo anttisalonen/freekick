@@ -37,8 +37,10 @@
 #include "MatchClub.h"
 #include "MatchData.h"
 #include "MatchIDs.h"
+#include "BallState.h"
 
 #include "messages/ConstantUpdateMessage.h"
+#include "messages/GeneralUpdateStatusMessage.h"
 
 namespace freekick
 {
@@ -50,32 +52,25 @@ namespace freekick
         public:
             MatchStatus(boost::shared_ptr<MatchData> md);
             virtual ~MatchStatus() { }
-/*
-            void newEvent (const std::string& evt );
-            void newEvents (std::vector <std::string>& events );
-*/
             void update(const messages::ConstantUpdateMessage& m);
             void update(const std::vector<messages::ConstantUpdateMessage>& ms);
-            boost::shared_ptr<MatchData> getMatchData() const;
-
-            // void updatePlayers();
+            void update(const messages::GeneralUpdateStatusMessage& m);
+            void update(const std::vector<messages::GeneralUpdateStatusMessage>& ms);
+            const boost::shared_ptr<MatchData>& getMatchData() const;
             void getEntities (std::map <int, boost::shared_ptr<DynamicEntity> >& v);
-
-            // void addPlayer(const std::string& clubname, int idnum, const Color& col);
-            // void addBall();
-            // void updateAll(float interval);
-            // void interpolateAll(boost::posix_time::ptime pt);
 
         private:
             const boost::shared_ptr<MatchData> mMatchData;
-            std::map <int, boost::shared_ptr<DynamicEntity> > mEntities;
-            // TODO: add status of yellow cards etc.
 
-            Time currtime;
+            std::map <int, boost::shared_ptr<DynamicEntity> > mEntities;
+
             unsigned int score_home;
             unsigned int score_away;
-            unsigned int injurytime;
+            Time currtime;
             bool secondhalf;
+            unsigned int injurytime;
+            BallState mBallState;
+            // TODO: add status of yellow cards etc.
         };
     }
 }

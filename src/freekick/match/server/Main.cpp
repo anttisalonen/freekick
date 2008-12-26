@@ -66,7 +66,9 @@ int main(int argc, char** argv)
         }
         club2->setupStandardLineup();
 
-        boost::shared_ptr<MatchData> data(new MatchData(club1, club2));
+        boost::shared_ptr<Stadium> stadium(new Stadium(70.0f, 100.0f));
+
+        boost::shared_ptr<MatchData> data(new MatchData(club1, club2, stadium));
         boost::shared_ptr<MatchStatus> status(new MatchStatus(data));
 
         std::cerr << "Starting Freekick server" << std::endl;
