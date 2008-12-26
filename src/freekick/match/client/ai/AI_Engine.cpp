@@ -17,7 +17,7 @@
   Copyright Antti Salonen, 2008
 **************************************************************************/
 
-#include "InputType.h"
+#include "AI_Engine.h"
 
 namespace freekick
 {
@@ -25,15 +25,15 @@ namespace freekick
     {
         namespace client
         {
-            namespace cl_ogre
+            namespace ai_client
             {
-                InputType::InputType(OIS::KeyCode _kc)
-                    : kc(_kc)
+                AI_Engine::AI_Engine(MatchStatus* st, Network* netw)
+                    : mMatchStatus(st),
+                      mNetwork(netw)
                 {
                 }
 
-                InputType::InputType(OIS::MouseButtonID _id)
-                    : id(_id)
+                void AI_Engine::run()
                 {
                 }
             }

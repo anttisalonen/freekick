@@ -21,29 +21,17 @@
 #ifndef INPUTTYPE_H
 #define INPUTTYPE_H
 
-#include <OIS/OIS.h>
-
 namespace freekick
 {
     namespace match
     {
         namespace client
         {
-            namespace cl_ogre
+            class InputType
             {
-                class InputType
-                {
-                public:
-                    InputType(OIS::KeyCode _kc);
-                    InputType(OIS::MouseButtonID _id);
-                    InputType getInputType();
-
-                private:
-                    OIS::KeyCode kc;
-                    OIS::MouseButtonID id;
-
-                };
-            }
+            public:
+                // virtual InputType getInputType() = 0;
+            };
         }
     }
 }

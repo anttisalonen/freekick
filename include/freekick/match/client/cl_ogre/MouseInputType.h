@@ -18,8 +18,8 @@
 **************************************************************************/
 
 
-#ifndef INPUTTYPE_H
-#define INPUTTYPE_H
+#ifndef MOUSEINPUTTYPE_H
+#define MOUSEINPUTTYPE_H
 
 #include <OIS/OIS.h>
 
@@ -31,15 +31,13 @@ namespace freekick
         {
             namespace cl_ogre
             {
-                class InputType
+                class MouseInputType : public InputType
                 {
                 public:
-                    InputType(OIS::KeyCode _kc);
-                    InputType(OIS::MouseButtonID _id);
+                    MouseInputType(OIS::MouseButtonID _id);
                     InputType getInputType();
 
                 private:
-                    OIS::KeyCode kc;
                     OIS::MouseButtonID id;
 
                 };

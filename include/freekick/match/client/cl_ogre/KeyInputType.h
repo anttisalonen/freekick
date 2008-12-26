@@ -39,7 +39,6 @@ namespace freekick
 
                 private:
                     OIS::KeyCode kc;
-                    OIS::MouseButtonID id;
 
                 };
             }

@@ -26,21 +26,13 @@ namespace freekick
     {
         namespace client
         {
-            namespace cl_ogre
+            InputConfiguration::InputConfiguration()
             {
-                InputConfiguration::InputConfiguration()
-                {
-                }
+            }
 
-
-/**
- * @return const InputAction*
- * @param  inputevent
- */
-                const std::string* InputConfiguration::getInputAction (const InputType& inputevent ) 
-                {
-                    return 0;
-                }
+            const std::string* InputConfiguration::getInputAction (const InputType& inputevent ) 
+            {
+                return 0;
             }
         }
     }

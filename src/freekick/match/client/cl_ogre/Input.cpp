@@ -40,7 +40,7 @@ namespace freekick
                     if (inputhandler) delete inputhandler;
                 }
 
-                InputConfiguration* Input::getInputConfiguration ( ) const 
+                boost::shared_ptr<InputConfiguration>& Input::getInputConfiguration ( ) const 
                 {
                     return configuration->getInputConfiguration();
                 }

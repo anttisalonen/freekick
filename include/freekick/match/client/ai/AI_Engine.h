@@ -15,37 +15,36 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
-#include "Configuration.h"
+#ifndef AIENGINE_H
+#define AIENGINE_H
 
-/**
- * @param  argc
- * @param  argv
- */
+#include "MatchStatus.h"
+#include "Network.h"
+
 namespace freekick
 {
     namespace match
     {
         namespace client
         {
-            Configuration::Configuration (int argc, char** argv ) 
+            namespace ai_client
             {
-                server_connection.ip_address = "localhost";   // TODO: read the parameters/configuration file
-                server_connection.port = "32105";
-            }
+                class AI_Engine
+                {
+                public:
+                    AI_Engine(MatchStatus* st, Network* netw);
+                    virtual ~AI_Engine() { }
+                    void run();
 
-            addutil::network::IP_Connection Configuration::getServerConnection ( ) const 
-            {
-                return server_connection;
-            }
-
-            boost::shared_ptr<InputConfiguration>& Configuration::getInputConfiguration ( ) 
-            {
-                return inputconfiguration;
+                private:
+                    MatchStatus* mMatchStatus;
+                    Network* mNetwork;
+                };
             }
         }
     }
 }
 
+#endif

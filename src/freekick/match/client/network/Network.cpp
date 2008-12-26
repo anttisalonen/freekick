@@ -132,8 +132,9 @@ namespace freekick
                                 boost::shared_ptr<Club> c1, c2;
                                 idm.getClub(true, c1);
                                 idm.getClub(false, c2);
+                                boost::shared_ptr<Stadium> stad(new Stadium());
 
-                                boost::shared_ptr<MatchData> md(new MatchData(c1, c2));
+                                boost::shared_ptr<MatchData> md(new MatchData(c1, c2, stad));
                                 std::cout << "Created matchdata\n";
                                 status = new MatchStatus(md);
                                 std::cout << "\n--------------------------\nParsed initial data club message.\n----------------------------------\n";

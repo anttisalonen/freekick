@@ -24,6 +24,9 @@
 
 #include <string>
 #include <vector>
+
+#include <boost/shared_ptr.hpp>
+
 #include "addutil/network/IP_Connection.h"
 #include "InputConfiguration.h"
 
@@ -46,22 +49,14 @@ namespace freekick
                  * @param  argv
                  */
                 Configuration (int argc, char** argv );
-
-                /**
-                 * @return const IP_Connection*
-                 */
                 addutil::network::IP_Connection getServerConnection ( ) const;
-
-                /**
-                 * @return const InputConfiguration*
-                 */
-                cl_ogre::InputConfiguration* getInputConfiguration ( ) const;
+                boost::shared_ptr<InputConfiguration>& getInputConfiguration ( );
 
             private:
 
                 addutil::network::IP_Connection server_connection;
                 std::vector <int> player_ids;
-                cl_ogre::InputConfiguration* inputconfiguration; // TODO: make independent of cl_ogre
+                boost::shared_ptr<InputConfiguration> inputconfiguration; // TODO: make independent of cl_ogre
 
             };
         }

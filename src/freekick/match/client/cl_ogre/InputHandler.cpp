@@ -28,7 +28,7 @@ namespace freekick
         {
             namespace cl_ogre
             {
-                InputHandler::InputHandler (InputConfiguration* inputconf, 
+                InputHandler::InputHandler (boost::shared_ptr<InputConfiguration>& inputconf, 
                                             const std::string& windowhnd, 
                                             unsigned int width, 
                                             unsigned int height, 

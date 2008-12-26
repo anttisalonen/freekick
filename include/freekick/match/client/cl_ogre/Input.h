@@ -55,7 +55,7 @@ namespace freekick
 
                     Input (Configuration* conf, MatchStatus* stat, Network* netw );
                     ~Input();
-                    InputConfiguration* getInputConfiguration ( ) const;
+                    boost::shared_ptr<InputConfiguration>& getInputConfiguration ( ) const;
                     void setCameraPos(float x, float y, float z);
                     void setupInputSystem(const std::string& windowhnd, unsigned int width, unsigned int height, Ogre::SceneNode* n);
                     void setCamera(Ogre::SceneNode* n);

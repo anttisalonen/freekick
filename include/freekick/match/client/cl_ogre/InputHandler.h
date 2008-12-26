@@ -65,7 +65,7 @@ namespace freekick
                 class InputHandler : public Ogre::FrameListener, public OIS::MouseListener, public OIS::KeyListener
                 {
                 public:
-                    InputHandler (InputConfiguration* inputconf, 
+                    InputHandler (boost::shared_ptr<InputConfiguration>& inputconf, 
                                   const std::string& windowhnd, 
                                   unsigned int width, 
                                   unsigned int height, 
@@ -85,7 +85,7 @@ namespace freekick
                     void sendMoveMessage(const addutil::Vector3& to);
                     void sendMoveMessage(Direction d, float mag);
                     int scrollState;
-                    InputConfiguration* inputconfiguration;
+                    boost::shared_ptr<InputConfiguration> inputconfiguration;
                     OIS::MouseState mousePositionState;
                     Ogre::SceneNode* camtarget;
                     Ogre::SceneNode* mCamNode;
