@@ -61,7 +61,6 @@ namespace freekick
                     Z_DOWN
                 };
 
-                using namespace freekick::match::network;
                 class InputHandler : public Ogre::FrameListener, public OIS::MouseListener, public OIS::KeyListener
                 {
                 public:

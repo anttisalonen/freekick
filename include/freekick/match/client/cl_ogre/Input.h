@@ -48,7 +48,6 @@ namespace freekick
         {
             namespace cl_ogre
             {
-                using namespace freekick::match::network;
                 class Input
                 {
                 public:

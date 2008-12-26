@@ -30,19 +30,15 @@
 
 #include "addutil/Exception.h"
 
-#include "Configuration.h"
-#include "Network.h"
+#include "client/Configuration.h"
+#include "client/Network.h"
+#include "client/ai/AI_Engine.h"
 
 #include "messages/InitialDataRequest.h"
 
 using namespace freekick::match;
 using namespace freekick::match::client;
-
-// TODO: make this less ugly
-void run_network(Network* n)
-{
-    n->run();
-}
+using namespace freekick::match::client::ai_client;
 
 int main(int argc, char** argv)
 {
@@ -52,11 +48,12 @@ int main(int argc, char** argv)
         addutil::network::IP_Connection conn = configuration->getServerConnection();
         Network* network;
         MatchStatus* status;
+        AI_Engine* ai;
         std::cerr << "Freekick AI starting" << std::endl;
         try
         {
             network = new Network(conn);
-            boost::thread network_thread(boost::bind(&run_network, network));
+            boost::thread network_thread(boost::bind(&Network::run, network));
             boost::this_thread::sleep(boost::posix_time::milliseconds(2000));  // TODO: make timeouts configurable?
             if(!network->is_connected())
             {
@@ -79,13 +76,13 @@ int main(int argc, char** argv)
             std::cerr << "Network connection failed; exiting.\n";
             return 1;
         }
-        if(status == 0) { std::cerr << "Received invalid match status?\n"; return 1; }
-        ai_client::AI_Engine* ai = new ai_client::AI_Engine(status, network);
-        boost::thread ai_thread(boost::bind(&ai_client::AI_Engine::run, &ai));
+
+        ai = new ai_client::AI_Engine(status, network);
+        boost::thread ai_thread(boost::bind(&ai_client::AI_Engine::run, ai));
 
         // boost::thread status_thread(boost::bind(&run_status, status));
         ai_thread.join();
-        network_thread.join();
+        network->disconnect();
 
         delete ai;
         delete network;

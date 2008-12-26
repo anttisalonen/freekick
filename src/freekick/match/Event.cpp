@@ -23,117 +23,52 @@ namespace freekick
 {
     namespace match
     {
-        namespace network
+        void istream_to_string(std::istream& str, std::string& s)
         {
-            void istream_to_string(std::istream& str, std::string& s)
-            {
-                bool sws = str.flags() | std::ios::skipws;
-                str.unsetf(std::ios_base::skipws);
-                str >> std::noskipws >> s;
-                if(sws) str.setf(std::ios_base::skipws);
-            }
+            bool sws = str.flags() | std::ios::skipws;
+            str.unsetf(std::ios_base::skipws);
+            str >> std::noskipws >> s;
+            if(sws) str.setf(std::ios_base::skipws);
+        }
 
-            void parse_events(std::string& st, std::deque<std::string>& evts, bool keep_parens)
+        void parse_events(std::string& st, std::deque<std::string>& evts, bool keep_parens)
+        {
+            static std::string data = "(";
+            static bool in = false;
+            char c = 0;
+            std::string::iterator it = st.begin();
+            while(it != st.end())
             {
-                static std::string data = "(";
-                static bool in = false;
-                char c = 0;
-                std::string::iterator it = st.begin();
-                while(it != st.end())
+                if(in)
                 {
-                    if(in)
-                    {
-                        while(it != st.end() && c != '\n')
-                        {
-                            c = *it;
-                            it++;
-                            if (c == ')')
-                            {
-                                in = false;
-                                if ((data.length() > 0 && !keep_parens) || (data.length() > 1 && keep_parens))
-                                {
-                                    if(keep_parens) data += ")";
-                                    evts.push_back(data);
-                                }
-                                if (keep_parens) data = "(";
-                                else data = "";
-                                break;
-                            }
-                            if (isprint(c))
-                                data += c;
-                        }
-                    }
-                    else
+                    while(it != st.end() && c != '\n')
                     {
                         c = *it;
                         it++;
-                        if (c == '(')
-                            in = true;
+                        if (c == ')')
+                        {
+                            in = false;
+                            if ((data.length() > 0 && !keep_parens) || (data.length() > 1 && keep_parens))
+                            {
+                                if(keep_parens) data += ")";
+                                evts.push_back(data);
+                            }
+                            if (keep_parens) data = "(";
+                            else data = "";
+                            break;
+                        }
+                        if (isprint(c))
+                            data += c;
                     }
                 }
+                else
+                {
+                    c = *it;
+                    it++;
+                    if (c == '(')
+                        in = true;
+                }
             }
-
-/*
-  void parse_events(std::istringstream& str, std::deque<std::string>& evts)
-  {
-  static std::string data = "";
-  static bool in = false;
-  char c = 0;
-  while(str.good())
-  {
-  if(in)
-  {
-  while(str.good() && c != '\n')
-  {
-  c = str.get();
-  if (c == ')')
-  {
-  in = false;
-  if (data.length() > 0)
-  evts.push_back(data);
-  data = "";
-  break;
-  }
-  if (isprint(c))
-  data += c;
-  }
-  }
-  else
-  {
-  c = str.get();
-  if (c == '(')
-  in = true;
-  }
-  }
-*/
-/*
-  char c = 0;
-  std::string data;
-  while (str.good())
-  {
-  c = str.get();
-  data += c;
-  }
-  evts.push_back(data);
-*/
-/*
-  char c;
-  std::string data;
-  str >> std::noskipws;
-  while(str >> c)
-  {
-  if (c == '(') data = "";
-  else if (c == ')')
-  {
-  evts.push_back(data);
-  data = "";
-  }
-  else data += c;
-  }
-*/
-/*
-  }
-*/
         }
     }
 }
