@@ -40,6 +40,8 @@ namespace freekick
             Pitch (float w, float l );
             float getWidth() const;
             float getLength() const;
+            bool onPitch(float x, float y) const;
+            bool onSide(bool top, float x, float y) const;
 
         private:
             const float width;

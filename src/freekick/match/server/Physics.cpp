@@ -39,8 +39,8 @@ namespace freekick
             {
                 mPhysicsEngine->subscribe(*this);
 
-                float pwidth = mMatchStatus->getMatchData()->getStadium()->getPitch().getWidth();
-                float plength = mMatchStatus->getMatchData()->getStadium()->getPitch().getLength();
+                float pwidth = mMatchStatus->getMatchData()->getStadium()->getPitch()->getWidth();
+                float plength = mMatchStatus->getMatchData()->getStadium()->getPitch()->getLength();
                 float middle_x = pwidth / 2.0f;
                 float middle_z = plength / 2.0f;
                 mPhysicsEngine->addStaticBoxObject(PitchID, Vector3(pwidth * 2.0f, 50, plength * 2.0f), Vector3(0, -50, 0));

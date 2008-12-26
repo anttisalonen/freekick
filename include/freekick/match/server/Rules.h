@@ -25,13 +25,17 @@
 #include <vector>
 
 #include <boost/shared_ptr.hpp>
+#include <boost/array.hpp>
+#include <boost/date_time/posix_time/posix_time.hpp>
 
 #include "Publisher.h"
 #include "Reader.h"
+#include "Vector3.h"
 
 #include "MatchStatus.h"
 #include "Physics.h"
 #include "MatchIDs.h"
+#include "Pitch.h"
 
 #include "messages/Message.h"
 
@@ -63,14 +67,19 @@ namespace freekick
             private:
                 boost::shared_ptr<MatchStatus> mMatchStatus;
                 boost::shared_ptr<Physics> mPhysics;
+                boost::array<std::vector<int>, 2> players;
+                boost::array<std::vector<int>, 2> substitutes;
 
                 // Messages that will be published are stored here
                 RulesMessageList newmessages;
 
                 BallState mBallState;
-                const float pitch_width;
-                const float pitch_length;
+                boost::shared_ptr<Pitch> mPitch;
+
+                boost::posix_time::ptime last_update_time;
+                static const unsigned long update_time_interval_ms = 1000000;
             };
+
         }
     }
 }

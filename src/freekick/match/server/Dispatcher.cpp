@@ -70,6 +70,9 @@ namespace freekick
 
             void Dispatcher::update(Rules* r)
             {
+                RulesMessageList l;
+                r->getUpdates(l);
+                dispatchRulesMessages(l);
             }
 
             void Dispatcher::dispatchClientInformation ( ) 
@@ -83,11 +86,6 @@ namespace freekick
             }
 
             void Dispatcher::dispatchPhysicsMessage (const PhysicsMessage& e ) 
-            {
-
-            }
-
-            void Dispatcher::dispatchRulesMessage (const RulesMessage& e ) 
             {
 
             }
@@ -118,7 +116,13 @@ namespace freekick
 
             void Dispatcher::dispatchRulesMessages (const RulesMessageList& es ) 
             {
-
+                std::ostringstream oss(std::ostringstream::out);
+                BOOST_FOREACH(RulesMessage m, es)
+                {
+                    oss << m.toString();
+                }
+                oss << "\n";
+                srv.multicast(oss.str(), 1);  // TODO: enum instead of 1 (gid)
             }
 
             void Dispatcher::dispatchConnectionMessages (const ConnectionMessageList& es ) 

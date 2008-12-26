@@ -51,6 +51,8 @@ namespace freekick
             PlayerInLineup playerInLineup(int plid) const;
             void addPlayer(int id, PlayerPosition pos, bool substitute);
             void clear();
+            std::vector<int> getPitchPlayerIDs() const;
+            std::vector<int> getSubstituteIDs() const;
             const PlayerMap& getPitchPlayers() const;
             const PlayerMap& getSubstitutes() const;
         private:

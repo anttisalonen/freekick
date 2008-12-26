@@ -38,6 +38,20 @@ namespace freekick
         {
             return length;
         }
+
+        bool Pitch::onPitch(float x, float y) const
+        {
+            if(x < 0.0f || y < 0.0f || x > width || y > length) return false;
+            return true;
+        }
+
+        bool Pitch::onSide(bool top, float x, float y) const
+        {
+            if(!onPitch(x, y)) return false;
+            bool ontopside = (y < (length / 2.0f));
+            if(top) return ontopside;
+            return !ontopside;
+        }
     }
 }
 

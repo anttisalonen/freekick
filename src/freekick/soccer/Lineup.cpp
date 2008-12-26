@@ -47,6 +47,27 @@ namespace freekick
             return NotPlaying;
         }
 
+        std::vector<int> Lineup::getPitchPlayerIDs() const
+        {
+            std::vector<int> ids;
+            PlayerMap::const_iterator it;
+            for(it = pitchplayers.begin(); it != pitchplayers.end(); it++)
+            {
+                ids.push_back(it->second);
+            }
+            return ids;
+        }
+
+        std::vector<int> Lineup::getSubstituteIDs() const
+        {
+            std::vector<int> ids;
+            PlayerMap::const_iterator it;
+            for(it = substitutes.begin(); it != substitutes.end(); it++)
+            {
+                ids.push_back(it->second);
+            }
+            return ids;
+        }
 
         void Lineup::addPlayer(int id, PlayerPosition pos, bool substitute)
         {

@@ -25,6 +25,7 @@
 #include <string>
 
 #include <boost/serialization/serialization.hpp>
+#include <boost/shared_ptr.hpp>
 
 #include "Color.h"
 
@@ -42,10 +43,10 @@ namespace freekick
         {
         public:
             Stadium (float pitchwidth = 70.0f, float pitchlength = 100.0f);
-            const Pitch& getPitch() const;
+            const boost::shared_ptr<Pitch> getPitch() const;
 
         private:
-            Pitch mPitch;
+            boost::shared_ptr<Pitch> mPitch;
 
             friend class boost::serialization::access;
             template<class Archive>

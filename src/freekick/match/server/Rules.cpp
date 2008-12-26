@@ -32,10 +32,16 @@ namespace freekick
             Rules::Rules (boost::shared_ptr<MatchStatus> ms, boost::shared_ptr<Physics> p)
                 : mMatchStatus(ms),
                   mPhysics(p),
-                  pitch_width(mMatchStatus->getMatchData()->getStadium()->getPitch().getWidth()),
-                  pitch_length(mMatchStatus->getMatchData()->getStadium()->getPitch().getLength())
+                  mPitch(mMatchStatus->getMatchData()->getStadium()->getPitch())
             {
                 mPhysics->subscribe(*this);
+
+                players[0]     = mMatchStatus->getMatchData()->getHomeClub()->getLineup().getPitchPlayerIDs();
+                substitutes[0] = mMatchStatus->getMatchData()->getHomeClub()->getLineup().getSubstituteIDs();
+                players[1]     = mMatchStatus->getMatchData()->getAwayClub()->getLineup().getPitchPlayerIDs();
+                substitutes[1] = mMatchStatus->getMatchData()->getAwayClub()->getLineup().getSubstituteIDs();
+
+                last_update_time = boost::posix_time::microsec_clock::local_time();
             }
 
             Rules::~Rules ( ) 
@@ -63,6 +69,9 @@ namespace freekick
                     int der = it->getDerivative();
                     if(der != 0)
                         continue;
+
+                    float pitch_width = mPitch->getWidth();
+                    float pitch_length = mPitch->getLength();
 
                     // Ball: location: checking for ball in/out
                     if(mBallState.bio_type == BallIn)
@@ -117,27 +126,80 @@ namespace freekick
                         }
                     }
 
-                    if(mBallState.bio_type == PreKickoff)
+                    if(mBallState.bio_type == PreKickoff || mBallState.bio_type == Kickoff)
                     {
-                        new_ball_status = true;
-                        mBallState.bio_type = Kickoff;
-                        // TODO: check if substitutes not on pitch
-                    }
+                        typedef std::map<int, boost::shared_ptr<DynamicEntity> > EntityMap;
+                        EntityMap entitymap;
+                        mMatchStatus->getEntities(entitymap);
+                        std::vector<int>::const_iterator it;
 
-                    if(mBallState.bio_type == Kickoff)
-                    {
-                        // TODO: check if players on their sides, ball in the middle
+                        if(mBallState.bio_type == PreKickoff)
+                        {
+                            bool substitute_on_pitch = false;
+
+                            for(int i = 0; i < 2 && substitute_on_pitch == false; i++)
+                            {
+                                for(it = substitutes[i].begin(); it != substitutes[i].end() && substitute_on_pitch == false; it++)
+                                {
+                                    EntityMap::const_iterator eit = entitymap.find(*it);
+                                    if(eit != entitymap.end())
+                                    {
+                                        addutil::Vector3 v = eit->second->getPosition();
+                                        if(mPitch->onPitch(v.x, v.z))
+                                            substitute_on_pitch = true;
+                                    }
+                                }
+                            }
+                            if(!substitute_on_pitch)
+                            {
+                                new_ball_status = true;
+                                mBallState.bio_type = Kickoff;
+                                mBallState.blocked_play = true;
+                            }
+                        }
+                        else if(mBallState.bio_type == Kickoff)
+                        {
+                            bool player_not_on_his_side = false;
+                            for(int i = 0; i < 2 && player_not_on_his_side == false; i++)
+                            {
+                                for(it = players[i].begin(); it != players[i].end() && player_not_on_his_side == false; it++)
+                                {
+                                    EntityMap::const_iterator eit = entitymap.find(*it);
+                                    if(eit != entitymap.end())
+                                    {
+                                        addutil::Vector3 v = eit->second->getPosition();
+                                        // TODO: check for half time/coin toss
+                                        if(!mPitch->onSide((i == 0), v.x, v.z))
+                                            player_not_on_his_side = true;
+                                    }
+                                }
+                            }
+                            if(!player_not_on_his_side)
+                            {
+                                new_ball_status = true;
+                                mBallState.blocked_play = false;
+                            }
+                            // TODO: check for ball in centre
+                        }
                     }
                 }
+
+                boost::posix_time::ptime this_time(boost::posix_time::microsec_clock::local_time());
+                boost::posix_time::time_period diff_time(last_update_time, this_time);
+                boost::posix_time::time_duration diff_dur = diff_time.length();
+                unsigned long us_diff = diff_dur.total_microseconds();
+                if(us_diff > update_time_interval_ms) new_ball_status = true;
 
                 if(new_ball_status)
                 {
                     RulesMessage rm(mBallState);
                     newmessages.push_back(rm);
+                    std::cerr << "Rules: sending message\n";
                 }
 
                 if(newmessages.size() > 0)
                 {
+                    last_update_time = this_time;
                     publish();
                     mMatchStatus->update(newmessages);
                     clearMessages();

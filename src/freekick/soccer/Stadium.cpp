@@ -25,11 +25,11 @@ namespace freekick
     namespace soccer
     {
         Stadium::Stadium (float pitchwidth, float pitchlength)
-            : mPitch(pitchwidth, pitchlength)
+            : mPitch(new Pitch(pitchwidth, pitchlength))
         {
         }
 
-        const Pitch& Stadium::getPitch() const
+        const boost::shared_ptr<Pitch> Stadium::getPitch() const
         {
             return mPitch;
         }
