@@ -1,3 +1,17 @@
+State machines:
+Ball Status:
+Ball in/out of play
+
+
+                      BallIn _                     -> duringMatchAction m p
+                      BallOut PreKickoff d _ _     -> runToKickoffFormationAction p (pitch m) myf myl d
+                      BallOut Kickoff    d _ True  -> runToKickoffFormationAction p (pitch m) myf myl d
+                      BallOut Kickoff    d _ False -> handleSpecialSituationAction m p d ""
+                      BallOut Throwin d _ True     -> throwinSupportAction m p d
+                      BallOut Throwin d _ False    -> handleSpecialSituationAction m p d (throwinSupportAction m p d)
+                      BallOut _ d _ False          -> handleSpecialSituationAction m p d ""    -- TODO: expand
+
+
 Idle -> Not on the ball -> Near to ball  -> Opponents nearby -> Ball in the air    -> !Estimate landing point and do heading
                                                              -> Ball on the ground -> Ball, opponent not too fast -> !Run to ball
                                                                                       Ball/opponent too fast      -> !Tackle
@@ -22,31 +36,6 @@ Start -> Kickoff -> Play -> Goal -> Kickoff
                          -> Out (end, other side) -> Goal kick -> Play
                          -> Foul -> Free kick -> Play
 
-Physics:
-
-Decision -> Player data -> Player injured? -> Yes -> !Lie down
-                                              no -> Player in the air? (Tackled/jumping) -> Yes -> !Calculate default
-                                                                                            No  -> Player just kicked?
-  Player just kicked? -> Yes -> Lower the kick timer
-                         No  -> Player just tackled/was tackled? -> No -> ...
-  ... Decision to Move/run/jump -> !Calculate as decided
-                  Kick/pass/dribble -> Ball near enough -> Yes -> !Calculate ball as decided
-                                                           no  -> !calculate default
-                  tackle -> !get down -> another player there -> no -> !calculate
-                                                                yes -> !knock player down -> injured? -> yes -> !injure player
-                                                                                                         no -> !calculate
-                                Player just tackled/was tackled? -> Yes -> !lower tackle timer -> tackle timer down? -> no -> !stay down
-                                                                                                                        yes -> get up
-
-Player data
-injury level/counter
-location
-angle
-velocity
-acceleration
-down counter (tackled)
-kick counter
-fatigue level
 
 http://en.wikipedia.org/wiki/Tree_(data_structure)
 http://en.wikipedia.org/wiki/Decision_tree

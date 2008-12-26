@@ -251,10 +251,10 @@ status parameters: ballstatus owner pointx pointy refstatus
        9        dropped ball
        10       half time / full time
   owner:
-       0        "up" team
-       1        "down" team
+       0        home team
+       1        away team
   pointx/y:
-       x y z    the point where play will be restarted
+       x y      the point where play will be restarted
   ref status:
        0        free for play (not blocked)
        1        preparation for the status (blocked)
@@ -267,8 +267,8 @@ e.g.
 (B 2 3 4)             # set time to 02:03 of the second half of the extra time
 (C 1 1 0 0)           # set score to 1-1
 (C 2 2 3 2)           # set score to 2-2, 3-2 after penalties
-(D 0 1 0 0 0)         # playing, down club has control
-(D 5 0 6500 11000 1)  # preparing for corner kick for up club
+(D 0 1 0 0 0)         # playing, away club has control
+(D 5 0 65.0 110.0 1)  # preparing for corner kick for home club
 
 3. 
 Constant update (~ 30..60/Second)

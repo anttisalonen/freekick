@@ -1,0 +1,4 @@
+1. Connect
+2. Initialization Request
+3. Player Control Request
+4. Control Messages

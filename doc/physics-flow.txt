@@ -1,0 +1,25 @@
+Physics:
+
+Decision -> Player data -> Player injured? -> Yes -> !Lie down
+                                              no -> Player in the air? (Tackled/jumping) -> Yes -> !Calculate default
+                                                                                            No  -> Player just kicked?
+  Player just kicked? -> Yes -> Lower the kick timer
+                         No  -> Player just tackled/was tackled? -> No -> ...
+  ... Decision to Move/run/jump -> !Calculate as decided
+                  Kick/pass/dribble -> Ball near enough -> Yes -> !Calculate ball as decided
+                                                           no  -> !calculate default
+                  tackle -> !get down -> another player there -> no -> !calculate
+                                                                yes -> !knock player down -> injured? -> yes -> !injure player
+                                                                                                         no -> !calculate
+                                Player just tackled/was tackled? -> Yes -> !lower tackle timer -> tackle timer down? -> no -> !stay down
+                                                                                                                        yes -> get up
+
+Player data
+injury level/counter
+location
+angle
+velocity
+acceleration
+down counter (tackled)
+kick counter
+fatigue level
