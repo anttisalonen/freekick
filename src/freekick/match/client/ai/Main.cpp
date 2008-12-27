@@ -47,22 +47,22 @@ int main(int argc, char** argv)
         Configuration* configuration = new Configuration (argc, argv);
         addutil::network::IP_Connection conn = configuration->getServerConnection();
         Network* network;
-        MatchStatus* status;
+        boost::shared_ptr<MatchStatus> status;
         AI_Engine* ai;
         std::cerr << "Freekick AI starting" << std::endl;
         try
         {
             network = new Network(conn);
             boost::thread network_thread(boost::bind(&Network::run, network));
-            boost::this_thread::sleep(boost::posix_time::milliseconds(2000));  // TODO: make timeouts configurable?
+            boost::this_thread::sleep(boost::posix_time::milliseconds(1000));  // TODO: make timeouts configurable?
             if(!network->is_connected())
             {
                 std::cerr << "Network::Network: timeout while connecting";
                 return 1;
             }
             network->sendMessage(messages::InitialDataRequest());
-            boost::this_thread::sleep(boost::posix_time::milliseconds(2000));
-            status = network->getMatchStatus();
+            boost::this_thread::sleep(boost::posix_time::milliseconds(1000));
+            status.reset(network->getMatchStatus());
             if(status == 0)
             {
                 std::string err("Network::Network: no match status created.\n");
@@ -80,13 +80,11 @@ int main(int argc, char** argv)
         ai = new ai_client::AI_Engine(status, network);
         boost::thread ai_thread(boost::bind(&ai_client::AI_Engine::run, ai));
 
-        // boost::thread status_thread(boost::bind(&run_status, status));
         ai_thread.join();
         network->disconnect();
 
         delete ai;
         delete network;
-        delete status;
         delete configuration;
     }
     catch (boost::exception& e)

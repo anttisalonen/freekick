@@ -113,7 +113,7 @@ namespace addutil
 
         void Server::cleanup_client(client_id id, bool already_notified)
         {
-            std::cerr << "Server::cleanup_client: cleaning up.\n";
+            // std::cerr << "Server::cleanup_client: cleaning up.\n";
             std::map<client_id, ConnectionPtr>::iterator it;
             it = connections.find(id);
             if(it != connections.end())   // already gone?
@@ -187,7 +187,7 @@ namespace addutil
                 }
                 catch (...)
                 {
-                    std::cerr << "Server::read_loop: An exception has occurred." << std::endl;
+                    // std::cerr << "Server::read_loop: An exception has occurred." << std::endl;
                     break;
                 }
             }

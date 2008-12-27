@@ -48,12 +48,7 @@ namespace freekick
                 {
                     return contString(c_pl_ctl_move);
                 }
-/*
-                void accept(const ClientMessageVisitor& cmv)
-                {
-                    cmv.visit(*this);
-                }
-*/
+
             private:
             };
         }

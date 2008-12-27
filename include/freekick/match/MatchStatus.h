@@ -57,12 +57,16 @@ namespace freekick
             void update(const messages::GeneralUpdateStatusMessage& m);
             void update(const std::vector<messages::GeneralUpdateStatusMessage>& ms);
             const boost::shared_ptr<MatchData>& getMatchData() const;
-            void getEntities (std::map <int, boost::shared_ptr<DynamicEntity> >& v);
+            void getPlayers (std::map <int, boost::shared_ptr<MatchPlayer> >& v);
+            boost::shared_ptr<MatchPlayer> getPlayer(int id) const;
+            boost::shared_ptr<MatchBall> getBall() const;
+            const BallState& getBallState() const;
 
         private:
             const boost::shared_ptr<MatchData> mMatchData;
 
-            std::map <int, boost::shared_ptr<DynamicEntity> > mEntities;
+            boost::shared_ptr<MatchBall> mBall;
+            std::map <int, boost::shared_ptr<MatchPlayer> > mPlayers;
 
             unsigned int score_home;
             unsigned int score_away;

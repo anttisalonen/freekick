@@ -60,26 +60,19 @@ namespace freekick
             class Network : public addutil::network::Client
             {
             public:
-
-                /**
-                 * @param  conf
-                 * @param  stat
-                 */
                 Network (addutil::network::IP_Connection conn);
                 virtual ~Network();
                 freekick::match::MatchStatus* getMatchStatus();
 
                 bool run ( );
                 void sendMessage(const messages::Message& m);
+                void sendMessages(const std::vector<boost::shared_ptr<messages::Message> >& ms);
                 void disconnect();
 
             protected:
                 void read(std::string buf);
 
             private:
-                // Private attributes
-                //  
-
                 freekick::match::MatchStatus* status;
                 std::string buffer;
                 bool handshake;

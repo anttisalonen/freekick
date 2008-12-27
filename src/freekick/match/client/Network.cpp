@@ -65,7 +65,21 @@ namespace freekick
 
             void Network::sendMessage(const messages::Message& m)
             {
-                write(m.toString());
+                std::ostringstream oss(std::ostringstream::out);
+                oss << m.toString() << "\n";
+                write(oss.str());
+            }
+
+            void Network::sendMessages(const std::vector<boost::shared_ptr<messages::Message> >& ms)
+            {
+                if(ms.size() < 1) return;
+                std::ostringstream oss(std::ostringstream::out);
+                BOOST_FOREACH(boost::shared_ptr<messages::Message> m, ms)
+                {
+                    oss << m->toString() << "\n";
+                }
+                oss << "\n";
+                write(oss.str());
             }
 
             void Network::disconnect()
@@ -79,7 +93,7 @@ namespace freekick
 
                 // std::cerr << "Network::read: New data received\n";
 
-                // summing up one entire line - TODO: handle serialization
+                // summing up one entire line
                 std::string::size_type lf = buf.find('\n');
                 buffer += buf;
                 if(lf == std::string::npos)
@@ -169,6 +183,19 @@ namespace freekick
                                 catch(...)
                                 {
                                     std::cerr << "Network: failed to parse ConstantUpdateMessage.\n";
+                                }
+                                continue;
+                            }
+                            else if (t == s_gen_status_upd)
+                            {
+                                try
+                                {
+                                    const messages::GeneralUpdateStatusMessage m(this_event);
+                                    status->update(m);
+                                }
+                                catch(...)
+                                {
+                                    std::cerr << "Network: failed to parse GeneralUpdateStatusMessage.\n";
                                 }
                                 continue;
                             }

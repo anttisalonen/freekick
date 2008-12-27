@@ -45,7 +45,6 @@ namespace freekick
                     using namespace boost;
                     regex expr("([[:print:]]+?) \"([[:print:]]+?)\" \"([[:print:]]+?)\"(.*)");
                     cmatch what;
-                    std::cout << "Parsing Init message\n";
                     if(regex_match(msg.c_str(), what, expr))
                     {
                         std::cout << "Parsing Init message successful\n";

@@ -24,6 +24,7 @@
 #include <string>
 #include <vector>
 #include <map>
+#include <set>
 
 #include <boost/shared_ptr.hpp>
 #include <boost/foreach.hpp>
@@ -58,7 +59,9 @@ namespace freekick
             bool hasPlayer(int i);
             const Player& getPlayer(int i);
             void getPlayers(std::vector<boost::shared_ptr<Player> >& pls);
+            void getPlayers(std::set<boost::shared_ptr<Player> >& pls);
             void getPlayerIDs(std::vector<int>& ids);
+            void getPlayerIDs(std::set<int>& ids);
             const Lineup& getLineup() const;
             void setupStandardLineup();
 

@@ -41,7 +41,7 @@ namespace freekick
             return number;
         }
 
-        PlayerPosition Player::getPosition() const
+        PlayerPosition Player::getPlayerPosition() const
         {
             return position;
         }

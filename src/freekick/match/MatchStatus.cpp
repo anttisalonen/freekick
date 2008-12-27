@@ -24,10 +24,9 @@ namespace freekick
     namespace match
     {
         MatchStatus::MatchStatus(boost::shared_ptr<MatchData> md)
-            : mMatchData(md)
+            : mMatchData(md),
+              mBall(new MatchBall(*mMatchData->getBall()))
         {
-            mEntities[BallID] = boost::shared_ptr<MatchBall>(new MatchBall(*mMatchData->getBall()));
-            std::cout << "Adding ball to matchstatus\n";
             boost::shared_ptr<Club> c1 = mMatchData->getHomeClub();
             boost::shared_ptr<Club> c2 = mMatchData->getAwayClub();
             std::vector<boost::shared_ptr<Player> > c1pls;
@@ -37,12 +36,12 @@ namespace freekick
             BOOST_FOREACH(boost::shared_ptr<Player> p, c1pls)
             {
                 int i = p->getID();
-                mEntities[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p));
+                mPlayers[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p));
             }
             BOOST_FOREACH(boost::shared_ptr<Player> p, c2pls)
             {
                 int i = p->getID();
-                mEntities[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p));
+                mPlayers[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p));
             }
             // TODO: add referee + others (if any)
         }
@@ -52,9 +51,9 @@ namespace freekick
             return mMatchData;
         }
 
-        void MatchStatus::getEntities (std::map<int, boost::shared_ptr<DynamicEntity> >& v)
+        void MatchStatus::getPlayers (std::map<int, boost::shared_ptr<MatchPlayer> >& v)
         {
-            v = mEntities;
+            v = mPlayers;
         }
 
         void MatchStatus::update(const messages::ConstantUpdateMessage& m)
@@ -66,9 +65,9 @@ namespace freekick
             v = m.getDerivative();
             m.getVector(vec);
             m.getQuaternion(q);
-            std::map<int, boost::shared_ptr<DynamicEntity> >::iterator it;
-            it = mEntities.find(n);
-            if (it == mEntities.end())
+            std::map<int, boost::shared_ptr<MatchPlayer> >::iterator it;
+            it = mPlayers.find(n);
+            if (it == mPlayers.end())
             {
                 return;
             }
@@ -99,6 +98,28 @@ namespace freekick
             {
                 update(m);
             }
+        }
+
+        boost::shared_ptr<MatchPlayer> MatchStatus::getPlayer(int id) const
+        {
+            std::map<int, boost::shared_ptr<MatchPlayer> >::const_iterator it;
+            it = mPlayers.find(id);
+            if (it == mPlayers.end())
+            {
+                throw "MatchStatus::getPlayer: player not found";
+            }
+
+            return it->second;            
+        }
+
+        boost::shared_ptr<MatchBall> MatchStatus::getBall() const
+        {
+            return mBall;
+        }
+
+        const BallState& MatchStatus::getBallState() const
+        {
+            return mBallState;
         }
     }
 }

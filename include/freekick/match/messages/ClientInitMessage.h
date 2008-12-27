@@ -49,7 +49,6 @@ namespace freekick
                     using namespace boost;
                     regex expr(" *\"([[:print:]]+?)\" +([[:print:]]) +(.*)");
                     cmatch what;
-                    std::cout << "Parsing Client Init message\n";
                     if(regex_match(msg.c_str(), what, expr))
                     {
                         std::cout << "Parsing Client Init message successful\n";

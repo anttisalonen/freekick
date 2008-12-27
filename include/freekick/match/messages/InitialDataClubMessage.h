@@ -136,7 +136,7 @@ namespace freekick
                             if(st == NotPlaying)
                                 continue;
 
-                            oss << "\"" << pp->getName() << "\" " << pp->getID() << " " << pp->getNumber() << " " << i << " " << pp->getPosition();
+                            oss << "\"" << pp->getName() << "\" " << pp->getID() << " " << pp->getNumber() << " " << i << " " << pp->getPlayerPosition();
                             if(st == Playing)
                                 oss << " 0 ";
                             else

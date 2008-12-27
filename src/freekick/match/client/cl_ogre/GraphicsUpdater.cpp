@@ -39,59 +39,69 @@ namespace freekick
 
                 bool GraphicsUpdater::frameStarted(const Ogre::FrameEvent& evt)
                 {
-/*
-  boost::posix_time::ptime end_time = boost::posix_time::microsec_clock::universal_time();
-  status->interpolateAll(end_time);
-*/
+                    typedef boost::shared_ptr<MatchPlayer> PtrPlayer;
+                    std::map <int, PtrPlayer> drs;
+                    status->getPlayers(drs);
+                    std::map <int, PtrPlayer>::iterator d;
 
-                    typedef boost::shared_ptr<DynamicEntity> PtrEntity;
-                    std::map <int, PtrEntity> drs;
-                    status->getEntities(drs);
-                    std::map <int, PtrEntity>::iterator d;
-
+                    bool success;
                     for (d = drs.begin(); d != drs.end(); d++)
                     {
-                        Ogre::SceneNode* node = 0;
-                        int dr_id = (*d).second->getID();
-                        std::map <int, Ogre::Entity* >::iterator it = entitymap.find(dr_id);
-                        if(it != entitymap.end())
+                        success = updateOgreNode(*d);
+                        if(!success) return false;
+                    }
+
+                    boost::shared_ptr<MatchBall> b = status->getBall();
+                    success = updateOgreNode(b);
+
+                    return success;
+                }
+
+                bool GraphicsUpdater::updateOgreNode(boost::shared_ptr<DynamicEntity> d)
+                {
+                    Ogre::SceneNode* node = 0;
+                    int dr_id = d->getID();
+                    std::map <int, Ogre::Entity* >::iterator it = entitymap.find(dr_id);
+                    if(it != entitymap.end())
+                    {
+                        node = it->second->getParentSceneNode();
+                    }
+                    else
+                    {
+                        if(smgr)
                         {
-                            node = it->second->getParentSceneNode();
+                            std::stringstream ename;
+                            ename << "Entity" << dr_id;
+                            std::stringstream nname;
+                            nname << "Node" << dr_id;
+                            const std::string modelfile = d->getModel();
+                            Ogre::Entity* ent = smgr->createEntity (ename.str(), modelfile);
+                            ent->setCastShadows(true);
+                            if(dr_id >= 200)        // TODO: get actual kits
+                                ent->setMaterialName("Examples/EnvMappedRustySteel");
+                            node = smgr->getRootSceneNode()->createChildSceneNode(nname.str());
+                            node->attachObject(ent);
+                            if(modelfile == "robot.mesh")
+                                node->setScale(0.05f, 0.05f, 0.05f);
+                            entitymap[dr_id] = ent;
                         }
                         else
-                        {
-                            if(smgr)
-                            {
-                                std::stringstream ename;
-                                ename << "Entity" << dr_id;
-                                std::stringstream nname;
-                                nname << "Node" << dr_id;
-                                const std::string modelfile = (*d).second->getModel();
-                                Ogre::Entity* ent = smgr->createEntity (ename.str(), modelfile);
-                                ent->setCastShadows(true);
-                                const Color& col = (*d).second->getColor();
-                                if(col.red > 0.5f)
-                                    ent->setMaterialName("Examples/EnvMappedRustySteel");
-                                node = smgr->getRootSceneNode()->createChildSceneNode(nname.str());
-                                node->attachObject(ent);
-                                if(modelfile == "robot.mesh")
-                                    node->setScale(0.05f, 0.05f, 0.05f);
-                                entitymap[dr_id] = ent;
-                                // (*d).second->setAutomaticOrientation(true);
-                            }
-                            else
-                                return false;
-                        }
+                            return false;
+                    }
 
-                        if(node)
-                        {
-                            const Vector3& pos = (*d).second->getPosition();
-                            node->setPosition(Ogre::Vector3(-pos.x, pos.y, pos.z));
-                            const Quaternion& dir = (*d).second->getOrientation();
-                            node->setOrientation(Ogre::Quaternion(dir.w, dir.x, dir.y, dir.z));
-                        }
+                    if(node)
+                    {
+                        const Vector3& pos = d->getPosition();
+                        node->setPosition(Ogre::Vector3(-pos.x, pos.y, pos.z));
+                        const Quaternion& dir = d->getOrientation();
+                        node->setOrientation(Ogre::Quaternion(dir.w, dir.x, dir.y, dir.z));
                     }
                     return true;
+                }
+
+                bool GraphicsUpdater::updateOgreNode(std::pair<const int, boost::shared_ptr<MatchPlayer> > d)
+                {
+                    return updateOgreNode(d.second);
                 }
 
                 void GraphicsUpdater::setSceneManager(Ogre::SceneManager* s)

@@ -15,30 +15,25 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
 
-#ifndef GRAPHICSUPDATER_H
-#define GRAPHICSUPDATER_H
+#ifndef AIPLAYER_H
+#define AIPLAYER_H
 
-#include <iostream>
 #include <vector>
-#include <map>
+#include <set>
 
-#include <boost/foreach.hpp>
 #include <boost/shared_ptr.hpp>
+#include <boost/foreach.hpp>
 
-#include <Ogre.h>
+#include "addutil/DynamicEntity.h"
 
 #include "MatchStatus.h"
-#include "Color.h"
-#include "DynamicEntity.h"
-#include "MatchPlayer.h"
-
-/**
- * class GraphicsUpdater
- */
+#include "Club.h"
+#include "BallState.h"
+#include "messages/PlayerControlMessage.h"
+#include "messages/MovePlayerControlMessage.h"
 
 namespace freekick
 {
@@ -46,27 +41,30 @@ namespace freekick
     {
         namespace client
         {
-            namespace cl_ogre
+            namespace ai_client
             {
-                class GraphicsUpdater : public Ogre::FrameListener
+                class AIPlayer
                 {
                 public:
-                    GraphicsUpdater(MatchStatus* s);
-                    virtual ~GraphicsUpdater();
-                    bool frameStarted(const Ogre::FrameEvent& evt);
-                    void setSceneManager(Ogre::SceneManager* s);
+                    AIPlayer(boost::shared_ptr<MatchStatus> ms, int id, bool active = true);
+                    virtual ~AIPlayer();
+                    boost::shared_ptr<messages::PlayerControlMessage> act();
 
                 private:
-                    MatchStatus* status;
-                    Ogre::SceneManager* smgr;
-                    std::map <int, Ogre::Entity* > entitymap;
+                    boost::shared_ptr<MatchStatus> mMatchStatus;
+                    int mPlayerID;
+                    boost::shared_ptr<MatchPlayer> mPlayer;
+                    boost::shared_ptr<Club> mClub;
+                    boost::shared_ptr<Club> mOpponentClub;
+                    std::vector<boost::shared_ptr<MatchPlayer> > mTeammates;
+                    std::vector<boost::shared_ptr<MatchPlayer> > mOpponents;
+                    bool mActive;
 
-                    bool updateOgreNode(boost::shared_ptr<DynamicEntity> d);
-                    bool updateOgreNode(std::pair<const int, boost::shared_ptr<MatchPlayer> > d);
+                    void fillPlayers(std::vector<boost::shared_ptr<MatchPlayer> >& pl, const std::set<int>& plids);
                 };
             }
         }
     }
 }
 
-#endif // GRAPHICSUPDATER_H
+#endif

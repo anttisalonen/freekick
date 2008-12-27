@@ -44,7 +44,29 @@ namespace freekick
 
             void ClientEventListener::newData (int clientid, buffer b ) 
             {
+                // TODO: parse & split messages (from "(n)(m)" to "(n)", "(m)")
+                std::string::size_type lf = b.find('\n');
+                unfinished_buffer[clientid] += b;
+                if(lf == std::string::npos)
+                {
+                    std::cerr << "ClientEventListener::newData: Line not finished; buffering\n";
+                    return;
+                }
+
+                std::vector<std::string> read_strings;
+                splitstr_and_fill(read_strings, unfinished_buffer[clientid], "\n");
+                unfinished_buffer[clientid] = read_strings.back();
+                read_strings.pop_back();
+                BOOST_FOREACH(std::string s, read_strings)
+                {
+                    handleMessage(clientid, s);
+                }
+            }
+
+            void ClientEventListener::handleMessage(int clientid, buffer b)
+            {
                 using namespace messages;
+                if(b.length() == 0) return;
 
                 std::string t;
                 try
@@ -53,7 +75,7 @@ namespace freekick
                 }
                 catch(...)
                 {
-                    std::cerr << "ClientEventListener: received invalid message.\n";
+                    std::cerr << "ClientEventListener: received invalid message: " << b << std::endl;
                     return;
                 }
 

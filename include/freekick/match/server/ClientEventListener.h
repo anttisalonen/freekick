@@ -29,12 +29,14 @@
 #include <boost/shared_ptr.hpp>
 
 #include "addutil/network/Server.h"
+#include "addutil/Parsing.h"
 
 #include "freekick/match/Client.h"
 #include "Rules.h"
 #include "Dispatcher.h"
 #include "InputMonitor.h"
 
+#include "messages/Message.h"
 #include "messages/MovePlayerControlMessage.h"
 #include "messages/InitialDataRequest.h"
 #include "messages/PlayerControlRequestMessage.h"
@@ -54,10 +56,12 @@ namespace freekick
                 void newData (int clientid, buffer b );
 
             private:
-
                 ClientListPtr mClientList;
                 boost::shared_ptr<InputMonitor> mInputMonitor;
                 boost::shared_ptr<Dispatcher> mDispatcher;
+                std::map<int, std::string> unfinished_buffer;
+
+                void handleMessage(int clientid, buffer b);
             };
         }
     }

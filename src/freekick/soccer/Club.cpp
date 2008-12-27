@@ -49,7 +49,7 @@ namespace freekick
             if(st != NotPlaying)
             {
                 bool sub = (st == Substitute);
-                PlayerPosition pp = p->getPosition();
+                PlayerPosition pp = p->getPlayerPosition();
                 lineup.addPlayer(id, pp, sub);
             }
         }
@@ -78,6 +78,17 @@ namespace freekick
             }
         }
 
+        void Club::getPlayers(std::set<boost::shared_ptr<Player> >& pls)
+        {
+            pls.clear();
+            typedef std::pair<int, boost::shared_ptr<Player> > pair_pl;
+
+            BOOST_FOREACH(pair_pl p, players)
+            {
+                pls.insert(p.second);
+            }
+        }
+
         void Club::getPlayerIDs(std::vector<int>& ids)
         {
             ids.clear();
@@ -86,6 +97,17 @@ namespace freekick
             BOOST_FOREACH(pair_pl p, players)
             {
                 ids.push_back(p.first);
+            }
+        }
+
+        void Club::getPlayerIDs(std::set<int>& ids)
+        {
+            ids.clear();
+            typedef std::pair<int, boost::shared_ptr<Player> > pair_pl;
+
+            BOOST_FOREACH(pair_pl p, players)
+            {
+                ids.insert(p.first);
             }
         }
 
@@ -104,7 +126,7 @@ namespace freekick
             BOOST_FOREACH(pair_pl p, players)
             {
                 bool substitute = false;
-                PlayerPosition pp = p.second->getPosition();
+                PlayerPosition pp = p.second->getPlayerPosition();
                 if(pp == Goalkeeper)
                 {
                     if(gk >= 1)

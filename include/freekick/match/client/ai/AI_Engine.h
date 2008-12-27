@@ -20,8 +20,18 @@
 #ifndef AIENGINE_H
 #define AIENGINE_H
 
+#include <vector>
+
+#include <boost/shared_ptr.hpp>
+#include <boost/foreach.hpp>
+#include <boost/date_time/posix_time/posix_time.hpp>
+
 #include "MatchStatus.h"
 #include "Network.h"
+#include "messages/PlayerControlMessage.h"
+#include "messages/PlayerControlRequestMessage.h"
+
+#include "ai/AIPlayer.h"
 
 namespace freekick
 {
@@ -34,13 +44,14 @@ namespace freekick
                 class AI_Engine
                 {
                 public:
-                    AI_Engine(MatchStatus* st, Network* netw);
+                    AI_Engine(boost::shared_ptr<MatchStatus> st, Network* netw);
                     virtual ~AI_Engine() { }
                     void run();
 
                 private:
-                    MatchStatus* mMatchStatus;
+                    boost::shared_ptr<MatchStatus> mMatchStatus;
                     Network* mNetwork;
+                    std::vector<AIPlayer> aiplayers;
                 };
             }
         }

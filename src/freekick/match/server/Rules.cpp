@@ -128,9 +128,9 @@ namespace freekick
 
                     if(mBallState.bio_type == PreKickoff || mBallState.bio_type == Kickoff)
                     {
-                        typedef std::map<int, boost::shared_ptr<DynamicEntity> > EntityMap;
-                        EntityMap entitymap;
-                        mMatchStatus->getEntities(entitymap);
+                        typedef std::map<int, boost::shared_ptr<MatchPlayer> > EntityMap;
+                        std::map<int, boost::shared_ptr<MatchPlayer> > entitymap;
+                        mMatchStatus->getPlayers(entitymap);
                         std::vector<int>::const_iterator it;
 
                         if(mBallState.bio_type == PreKickoff)
@@ -194,7 +194,6 @@ namespace freekick
                 {
                     RulesMessage rm(mBallState);
                     newmessages.push_back(rm);
-                    std::cerr << "Rules: sending message\n";
                 }
 
                 if(newmessages.size() > 0)

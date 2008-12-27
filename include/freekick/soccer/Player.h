@@ -58,7 +58,7 @@ namespace freekick
             Player (const std::string& _name, int num, unsigned int _idnumber, PlayerPosition pos);
             unsigned int getID() const;
             int getNumber() const;
-            PlayerPosition getPosition() const;
+            PlayerPosition getPlayerPosition() const;
 
         private:
 

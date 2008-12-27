@@ -73,7 +73,7 @@ namespace addutil
 
         void Connection::connect(const IP_Connection& tgt)
         {
-            std::cerr << "Connecting...\n";
+            std::cerr << "Connection: Connecting...\n";
             conn = tgt;
             using boost::asio::ip::tcp;
             // Get a list of endpoints corresponding to the server name.
@@ -93,12 +93,12 @@ namespace addutil
                 throw boost::system::system_error(error);
 
             if(!connected()) throw "Connection::connect: Error while connecting";
-            std::cerr << "Connected!\n";
+            std::cerr << "Connection: Connected!\n";
         }
 
         void Connection::disconnect()
         {
-            std::cerr << "Connection::disconnect: disconnecting.\n";
+            // std::cerr << "Connection::disconnect: disconnecting.\n";
             socket->close();
             if(connected()) throw "Connection::disconnect: disconnection failed\n";
         }
