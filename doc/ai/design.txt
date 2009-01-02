@@ -1,0 +1,17 @@
+1. There are Tasks
+2. Tasks can be given in 3 ways:
+   1. external source
+   2. a Task is divided into a Partial Task by:
+   2.a. by pattern/definition (preprogrammed)
+   2.b. Partial Task(s) are created depending on the Environment
+        (Environment Dependencies)
+3. A Partial Task is a Task
+4. a Task can have logical conditions that define when the Task is accomplished
+   (Fulfillment Requirements)
+5. Tasks can be deleted in 4 ways:
+   1. external "delete message"
+   2. fulfilling the Fulfillment Requirements (if any)
+   3. when Environment Dependencies are not valid anymore
+   4. deletion of parent Task
+6. Tasks are saved in a List or a Priority Queue
+7. the Resource for fulfilling a Task is separated from the logic
