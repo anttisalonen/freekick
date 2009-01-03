@@ -3,7 +3,7 @@
    1. external source
    2. a Task is divided into a Partial Task by:
    2.a. by pattern/definition (preprogrammed)
-   2.b. Partial Task(s) are created depending on the Environment
+   2.b. Partial Task(s) are created depending on the Environment (Environment Dependent Tasks)
         (Environment Dependencies)
 3. A Partial Task is a Task
 4. a Task can have logical conditions that define when the Task is accomplished
@@ -15,3 +15,5 @@
    4. deletion of parent Task
 6. Tasks are saved in a List or a Priority Queue
 7. the Resource for fulfilling a Task is separated from the logic
+8. Atomic Tasks cannot be split anymore and are the smallest tasks
+9. Atomic Tasks are fulfilled by the Resource

@@ -1,0 +1,41 @@
+1. Soccer (Given Task)
+ 1. divided into 2. 3. 4. (Preprogrammed Partial Tasks)
+  2. Start soccer
+  3. Play soccer
+   3. has Environment Dependencies
+    - Position (Defender etc.)
+    - Position related to own goal
+    - Position related to opponent goal
+    - Position related to (nearest) teammate(s)
+    - Position related to (nearest) opponent(s)
+    - Player personality, skills, fatigue
+    - Club formation/tactics
+    - ...
+   3. has Environment Dependent Tasks (that inherit the Environment Dependencies)
+    Idle
+     Idle has Environment Dependent Tasks
+      Go to formation (idle) position (Atomic)
+      Stand still (Atomic)
+    Play defensively
+     "Play defensively" has Environment Dependent Tasks
+      Block a (possible) shot
+       ^- has a PPT
+        Go to point between goal and ball (Atomic)
+      Block a (possible) pass
+       ^- has a PPT
+        Go to point between pass target and ball (Atomic)
+      Take ball away from opponent
+       ^- has a PPT
+        Go to ball (Atomic)
+    Support
+     Support has Environment Dependent Tasks
+      Fetch ball
+       ^- has a PPT
+        Go to ball (Atomic)
+      Pass to a teammate (Atomic)
+    Attack
+     Attack has Environment Dependent Tasks
+      Go to support position (Atomic)
+      Shoot to goal (Atomic)
+  4. End soccer
+
