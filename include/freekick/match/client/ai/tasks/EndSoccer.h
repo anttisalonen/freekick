@@ -18,33 +18,31 @@
 **************************************************************************/
 
 
-#ifndef ADDUTIL_AI_TASKMANAGER_H
-#define ADDUTIL_AI_TASKMANAGER_H
+#ifndef FREEKICKTASKSENDSOCCER_H
+#define FREEKICKTASKSENDSOCCER_H
 
-#include <vector>
-#include <map>
+#include "tasks/CompositeTask.h"
 
-#include <boost/shared_ptr.hpp>
+#include "messages/PlayerControlMessage.h"
 
-#include "ai/Task.h"
-
-namespace addutil
-{
-    namespace ai
+namespace freekick 
+{ 
+    namespace match
     {
-        typedef std::map<int, boost::shared_ptr<Task> > TaskList;
-        class TaskManager
+        namespace client
         {
-        public:
-            virtual ~TaskManager() { }
-            int addTask(const boost::shared_ptr<Task>& t);
-            bool deleteTask(int id);
-        protected:
-            TaskManager();
-        private:
-            TaskList tasks;
-            int nextid;
-        };
+            namespace ai_client
+            {
+                namespace tasks
+                {
+                    class EndSoccer : public CompositeTask
+                    {
+                        EndSoccer();
+                        boost::shared_ptr<messages::PlayerControlMessage> process(bool& finished);
+                    };
+                }
+            }
+        }
     }
 }
 

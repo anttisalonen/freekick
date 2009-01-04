@@ -35,7 +35,6 @@ namespace addutil
         {
         public:
             virtual ~Task() { }
-            // virtual bool process(boost::shared_ptr<std::vector<Action> >& actions) = 0;
         };
     }
 }

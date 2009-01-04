@@ -17,27 +17,31 @@
   Copyright Antti Salonen, 2008
 **************************************************************************/
 
-#include "ai/TaskManager.h"
 
-namespace addutil
+#ifndef FREEKICKATOMICTASK_H
+#define FREEKICKATOMICTASK_H
+
+#include "tasks/Task.h"
+
+namespace freekick
 {
-    namespace ai
+    namespace match
     {
-        TaskManager::TaskManager ()
-            : nextid(1)
+        namespace client
         {
-        }
-
-        int TaskManager::addTask(const boost::shared_ptr<Task>& t)
-        {
-            tasks[nextid] = t;
-            nextid++;
-            return (nextid - 1);
-        }
-
-        bool TaskManager::deleteTask(int id)
-        {
-            return (tasks.erase(id) == 1);
+            namespace ai_client
+            {
+                namespace tasks
+                {
+                    class AtomicTask : public Task
+                    {
+                    public:
+                        virtual ~AtomicTask() { }
+                    };
+                }
+            }
         }
     }
 }
+
+#endif

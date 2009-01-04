@@ -18,34 +18,40 @@
 **************************************************************************/
 
 
-#ifndef FREEKICKACTIONTASK_H
-#define FREEKICKACTIONTASK_H
+#ifndef FREEKICKTASKSSOCCER_H
+#define FREEKICKTASKSSOCCER_H
 
-#include "addutil/ai/ActionTask.h"
+#include <iostream>
+
+#include "MatchStatus.h"
+
+#include "tasks/CompositeTask.h"
+#include "tasks/StartSoccer.h"
+#include "tasks/PlaySoccer.h"
+#include "tasks/EndSoccer.h"
 
 #include "messages/PlayerControlMessage.h"
 
-namespace freekick
-{
+namespace freekick 
+{ 
     namespace match
     {
         namespace client
         {
             namespace ai_client
             {
-                class FreekickActionTask : public addutil::ai::ActionTask
+                namespace tasks
                 {
-                public:
-                    FreekickActionTask(const messages::PlayerControlMessage& m)
-                        : mMessage(m)
+                    class Soccer : public CompositeTask
                     {
-                    }
-                    virtual ~FreekickActionTask() { }
-                    const messages::PlayerControlMessage& getMessage() const
-                    { return mMessage; }
-                private:
-                    messages::PlayerControlMessage mMessage;
-                };
+                    public:
+                        Soccer(boost::shared_ptr<MatchStatus> ms, int id);
+                        boost::shared_ptr<messages::PlayerControlMessage> process(bool& finished);
+                    private:
+                        boost::shared_ptr<MatchStatus> mMatchStatus;
+                        int mPlayerID;
+                    };
+                }
             }
         }
     }

@@ -28,13 +28,16 @@
 #include <boost/foreach.hpp>
 
 #include "addutil/DynamicEntity.h"
+#include "addutil/ai/Task.h"
+
+#include "messages/PlayerControlMessage.h"
+#include "messages/MovePlayerControlMessage.h"
 
 #include "MatchStatus.h"
 #include "Club.h"
 #include "BallState.h"
-#include "FreekickTaskManager.h"
-#include "messages/PlayerControlMessage.h"
-#include "messages/MovePlayerControlMessage.h"
+#include "TaskManager.h"
+#include "tasks/Soccer.h"
 
 namespace freekick
 {
@@ -60,7 +63,7 @@ namespace freekick
                     std::vector<boost::shared_ptr<MatchPlayer> > mTeammates;
                     std::vector<boost::shared_ptr<MatchPlayer> > mOpponents;
                     bool mActive;
-                    FreekickTaskManager mTaskManager;
+                    TaskManager mTaskManager;
 
                     void fillPlayers(std::vector<boost::shared_ptr<MatchPlayer> >& pl, const std::set<int>& plids);
                 };

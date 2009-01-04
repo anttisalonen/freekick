@@ -18,24 +18,38 @@
 **************************************************************************/
 
 
-#ifndef FREEKICKTASKMANAGER_H
-#define FREEKICKTASKMANAGEr_H
+#ifndef FREEKICKTASKSSTARTSOCCER_H
+#define FREEKICKTASKSSTARTSOCCER_H
 
-#include "addutil/ai/TaskManager.h"
+#include <iostream>
 
-namespace freekick
-{
+#include "MatchStatus.h"
+
+#include "tasks/CompositeTask.h"
+#include "tasks/GotoKickoffFormationPosition.h"
+
+#include "messages/PlayerControlMessage.h"
+
+namespace freekick 
+{ 
     namespace match
     {
         namespace client
         {
             namespace ai_client
             {
-                class FreekickTaskManager : public addutil::ai::TaskManager
+                namespace tasks
                 {
-                public:
-                    virtual ~FreekickTaskManager() { }
-                };
+                    class StartSoccer : public CompositeTask
+                    {
+                    public:
+                        StartSoccer(boost::shared_ptr<MatchStatus> ms, int id);
+                        boost::shared_ptr<messages::PlayerControlMessage> process(bool& finished);
+                    private:
+                        boost::shared_ptr<MatchStatus> mMatchStatus;
+                        int mPlayerID;
+                    };
+                }
             }
         }
     }

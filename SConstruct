@@ -95,7 +95,8 @@ aiclient_env['LIBS'] = ['boost_thread',
                         'client']
 
 aiclient_name = 'bin/aiclient'
-aiclient_files = (Glob('src/freekick/match/client/ai/*.cpp'))
+aiclient_files = (Glob('src/freekick/match/client/ai/*.cpp') +
+                  Glob('src/freekick/match/client/ai/tasks/*.cpp'))
 ai_client = aiclient_env.Program(aiclient_name, aiclient_files)
 
 # Server

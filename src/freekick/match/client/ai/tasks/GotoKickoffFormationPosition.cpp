@@ -17,27 +17,31 @@
   Copyright Antti Salonen, 2008
 **************************************************************************/
 
+#include "tasks/GotoKickoffFormationPosition.h"
 
-#ifndef ADDUTIL_AI_COMPOSITETASK_H
-#define ADDUTIL_AI_COMPOSITETASK_H
-
-#include <vector>
-
-#include <boost/shared_ptr.hpp>
-
-#include "ai/Task.h"
-#include "ai/Action.h"
-
-namespace addutil
-{
-    namespace ai
+namespace freekick 
+{ 
+    namespace match
     {
-        class CompositeTask : public Task
+        namespace client
         {
-        public:
-            virtual ~CompositeTask() { }
-        };
+            namespace ai_client
+            {
+                namespace tasks
+                {
+                    GotoKickoffFormationPosition::GotoKickoffFormationPosition (int id)
+                        : mPlayerID(id)
+                    {
+                    }
+
+                    boost::shared_ptr<messages::PlayerControlMessage> GotoKickoffFormationPosition::process(bool& finished)
+                    {
+                        finished = false;
+                        using namespace messages;
+                        return boost::shared_ptr<MovePlayerControlMessage>(new MovePlayerControlMessage(mPlayerID, addutil::Vector3(0, 0, 2)));
+                    }
+                }
+            }
+        }
     }
 }
-
-#endif

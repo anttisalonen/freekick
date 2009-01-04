@@ -18,25 +18,36 @@
 **************************************************************************/
 
 
-#ifndef ADDUTIL_AI_COMPOSITETASK_H
-#define ADDUTIL_AI_COMPOSITETASK_H
+#ifndef FREEKICKTASKSGOTOKICKOFFFORMATIONPOSITION_H
+#define FREEKICKTASKSGOTOKICKOFFFORMATIONPOSITION_H
 
-#include <vector>
+#include "addutil/Vector3.h"
 
-#include <boost/shared_ptr.hpp>
+#include "messages/MovePlayerControlMessage.h"
 
-#include "ai/Task.h"
-#include "ai/Action.h"
+#include "tasks/AtomicTask.h"
 
-namespace addutil
-{
-    namespace ai
+namespace freekick 
+{ 
+    namespace match
     {
-        class CompositeTask : public Task
+        namespace client
         {
-        public:
-            virtual ~CompositeTask() { }
-        };
+            namespace ai_client
+            {
+                namespace tasks
+                {
+                    class GotoKickoffFormationPosition : public AtomicTask
+                    {
+                    public:
+                        GotoKickoffFormationPosition(int id);
+                        boost::shared_ptr<messages::PlayerControlMessage> process(bool& finished);
+                    private:
+                        int mPlayerID;
+                    };
+                }
+            }
+        }
     }
 }
 

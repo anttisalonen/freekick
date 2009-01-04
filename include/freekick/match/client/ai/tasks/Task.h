@@ -18,25 +18,32 @@
 **************************************************************************/
 
 
-#ifndef ADDUTIL_AI_COMPOSITETASK_H
-#define ADDUTIL_AI_COMPOSITETASK_H
+#ifndef FREEKICKTASK_H
+#define FREEKICKTASK_H
 
-#include <vector>
+#include "addutil/ai/Task.h"
 
-#include <boost/shared_ptr.hpp>
+#include "messages/PlayerControlMessage.h"
 
-#include "ai/Task.h"
-#include "ai/Action.h"
-
-namespace addutil
+namespace freekick
 {
-    namespace ai
+    namespace match
     {
-        class CompositeTask : public Task
+        namespace client
         {
-        public:
-            virtual ~CompositeTask() { }
-        };
+            namespace ai_client
+            {
+                namespace tasks
+                {
+                    class Task : public addutil::ai::Task
+                    {
+                    public:
+                        virtual ~Task() { }
+                        virtual boost::shared_ptr<messages::PlayerControlMessage> process(bool& finished) = 0;
+                    };
+                }
+            }
+        }
     }
 }
 

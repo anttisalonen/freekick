@@ -82,6 +82,9 @@ namespace freekick
                         fillPlayers(mTeammates, ids2);
                         fillPlayers(mOpponents, ids1);
                     }
+
+                    boost::shared_ptr<tasks::Soccer> t(new tasks::Soccer(mMatchStatus, mPlayerID));
+                    mTaskManager.addTask(t);
                 }
 
                 void AIPlayer::fillPlayers(std::vector<boost::shared_ptr<MatchPlayer> >& pl, const std::set<int>& plids)
@@ -106,8 +109,7 @@ namespace freekick
 
                 boost::shared_ptr<messages::PlayerControlMessage> AIPlayer::act()
                 {
-                    const BallState bs = mMatchStatus->getBallState();
-                    return (boost::shared_ptr<messages::MovePlayerControlMessage>(new messages::MovePlayerControlMessage(mPlayerID, Vector3(2, 0, 0))));
+                    return mTaskManager.think();
                 }
             }
         }
