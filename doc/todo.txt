@@ -4,3 +4,4 @@ project: use of addutil::exception
 fkcp: support for yellow + red cards, substitutions (also in matchstatus)
 messages: improvements on regexes (floating point numbers, max. number of digits with integers)
 project: remove unused cpp, h files
+project: fix header paths and include search directories

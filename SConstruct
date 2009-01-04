@@ -6,7 +6,9 @@ def_env['CPPFLAGS'] = '-Wall -Wno-deprecated'
 addutil_env = def_env.Clone()
 addutil_env.Append(CPPPATH = ['./include/addutil', './include/addutil/network'])
 addutil_name = 'lib/addutil'
-addutil_obj = addutil_env.Object(Glob('src/addutil/*.cpp') + Glob('src/addutil/network/*.cpp'))
+addutil_obj = addutil_env.Object(Glob('src/addutil/*.cpp') + 
+                                 Glob('src/addutil/network/*.cpp') +
+                                 Glob('src/addutil/ai/*.cpp'))
 addutil_env.Library(addutil_name, addutil_obj)
 
 # Libsoccer

@@ -32,6 +32,7 @@
 #include "MatchStatus.h"
 #include "Club.h"
 #include "BallState.h"
+#include "FreekickTaskManager.h"
 #include "messages/PlayerControlMessage.h"
 #include "messages/MovePlayerControlMessage.h"
 
@@ -59,6 +60,7 @@ namespace freekick
                     std::vector<boost::shared_ptr<MatchPlayer> > mTeammates;
                     std::vector<boost::shared_ptr<MatchPlayer> > mOpponents;
                     bool mActive;
+                    FreekickTaskManager mTaskManager;
 
                     void fillPlayers(std::vector<boost::shared_ptr<MatchPlayer> >& pl, const std::set<int>& plids);
                 };

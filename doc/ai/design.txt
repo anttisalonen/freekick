@@ -1,10 +1,11 @@
 1. There are Tasks
-2. Tasks can be given in 3 ways:
+2. Tasks can be created in 3 ways:
    1. external source
    2. a Task is divided into a Partial Task by:
    2.a. by pattern/definition (preprogrammed)
-   2.b. Partial Task(s) are created depending on the Environment (Environment Dependent Tasks)
-        (Environment Dependencies)
+   2.b. Partial Task(s) are created depending on the Environment (Environment Dependent Tasks).
+        The Task has Environment Dependencies that, when evaluating to True,
+        result in creating the Environment Dependent Task.
 3. A Partial Task is a Task
 4. a Task can have logical conditions that define when the Task is accomplished
    (Fulfillment Requirements)
@@ -14,6 +15,28 @@
    3. when Environment Dependencies are not valid anymore
    4. deletion of parent Task
 6. Tasks are saved in a List or a Priority Queue
-7. the Resource for fulfilling a Task is separated from the logic
+7. the Action for fulfilling a Task is separated from the logic
 8. Atomic Tasks cannot be split anymore and are the smallest tasks
-9. Atomic Tasks are fulfilled by the Resource
+9. Atomic Tasks are fulfilled by the Action
+10. Atomic Task creates an Action
+
+Classes:
+1. Task
+ - has a list of Fulfillment Requirements (boolean values)
+ - has a list of Environment Dependencies (boolean values)
+ - checks for validity (completion) of Fulfillment Requirements and Environment Dependencies
+2. AtomicTask : public Task
+ - returns an Action
+3. CompositeTask : public Task
+ - can divide itself to (multiple) (Atomic/Composite) Tasks (function that returns a list of tasks)
+ - eventually divides itself into Atomic Tasks and returns Actions
+4. TaskList
+5. TaskManager
+ - pops the next Task from TaskList
+ - receives new Tasks from an external source and adds them to TaskList
+ - deletes given Tasks by an external source and removes them from TaskList
+ - lets Composite Tasks split themselves into Atomic Tasks and inserts them into TaskList
+ - starts Atomic Tasks
+ - reads Actions from Atomic Tasks and handles them
+6. Action
+ - contains information about the action

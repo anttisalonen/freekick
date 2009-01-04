@@ -1,9 +1,15 @@
 1. Soccer (Given Task)
- 1. divided into 2. 3. 4. (Preprogrammed Partial Tasks)
+ 1. divided into 2. 3. 4. (Preprogrammed Partial Tasks (PPT))
   2. Start soccer
+  2 has Fulfillment Requirement
+   - ball state to Ball in
+   Go to kickoff formation position (Atomic)
   3. Play soccer
-   3. has Environment Dependencies
+  3 has Fulfillment Requirement
+   - ball state to Half/Full time
+   3 has Environment Dependencies
     - Position (Defender etc.)
+    - Ball Position
     - Position related to own goal
     - Position related to opponent goal
     - Position related to (nearest) teammate(s)
@@ -11,7 +17,7 @@
     - Player personality, skills, fatigue
     - Club formation/tactics
     - ...
-   3. has Environment Dependent Tasks (that inherit the Environment Dependencies)
+   3 has Environment Dependent Tasks (that inherit the Environment Dependencies)
     Idle
      Idle has Environment Dependent Tasks
       Go to formation (idle) position (Atomic)
@@ -38,4 +44,30 @@
       Go to support position (Atomic)
       Shoot to goal (Atomic)
   4. End soccer
+  4 has Fulfillment Requirement
+   - ball state not Half/Full time
 
+Example:
+TaskManager has Task: Play soccer
+  Play soccer: fulfillment requirements not fulfilled -> keep task
+  Play soccer: composite: check environment dependencies for choosing next Task:
+    - player is near own goal
+    - player is a defender
+    - a nearby opponent has a ball
+  Play soccer: based on environment dependencies create followup task (composite): Play defensively
+  Play soccer: process Play defensively
+    Play defensively: no fulfillment requirements -> keep task
+    Play defensively: composite: check environment dependencies for choosing next Task:
+      - teammates are not nearby
+      - opponent is in a good position for shooting a goal
+    Play defensively: based on environment dependencies create an atomic task: Block a possible shot
+    Play defensively: atomic task Block a possible shot created based on an algorithm
+    Play defensively: return atomic task Block a possible shot
+TaskManager receives information from Play soccer: 1) not finished, 2) atomic task: Block a possible shot
+TaskManager keeps Play soccer as the first thing on the TaskList and adds Block a possible shot to the TaskList
+TaskManager checks next Task: atomic task (Block a possible shot)
+TaskManager creates a FreekickMessage (MovePlayerControlMessage) out of the Action Message (Move by x,z) of the atomic task
+TaskManager adds this FreekickMessage to a FreekickMessageList
+TaskManager removes Block a possible shot from TaskList
+TaskManager sees it has reached the end of the TaskList
+TaskManager sends its FreekickMessageList to the class that manages the TaskManager (AIPlayer)
