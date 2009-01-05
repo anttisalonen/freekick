@@ -34,34 +34,22 @@ namespace freekick
                 {
                     try
                     {
-                        mPlayer = mMatchStatus->getPlayer(id);
+                        mPlayer = mMatchStatus->getPlayer(mPlayerID);
                     }
                     catch (...)
                     {
                         throw "AIPlayer::AIPlayer: player not found in matchstatus!";
                     }
 
+                    BallOwner own = mMatchStatus->getPlayerClub(mPlayerID);
                     boost::shared_ptr<Club> c1 = mMatchStatus->getMatchData()->getHomeClub();
                     boost::shared_ptr<Club> c2 = mMatchStatus->getMatchData()->getAwayClub();
                     std::set<int> ids1;
                     c1->getPlayerIDs(ids1);
                     std::set<int> ids2;
                     c2->getPlayerIDs(ids2);
-                    bool in_home = false;
-                    bool in_away = false;
 
-                    std::set<int>::const_iterator idsit;
-                    idsit = ids1.find(id);
-                    if(idsit != ids1.end())
-                        in_home = true;
-                    else
-                    {
-                        idsit = ids2.find(id);
-                        if(idsit != ids2.end())
-                            in_away = true;
-                    }
-                    if(!in_home && !in_away) throw "AIPlayer::AIPlayer: player ID not found in matchstatus!";
-                    if(in_home)
+                    if(own == Home)
                     {
                         mClub = c1;
                         mOpponentClub = c2;
@@ -72,7 +60,7 @@ namespace freekick
                         mOpponentClub = c1;
                     }
 
-                    if(in_home)
+                    if(own == Home)
                     {
                         fillPlayers(mTeammates, ids1);
                         fillPlayers(mOpponents, ids2);

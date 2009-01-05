@@ -29,16 +29,62 @@ namespace freekick
             {
                 namespace tasks
                 {
-                    GotoKickoffFormationPosition::GotoKickoffFormationPosition (int id)
-                        : mPlayerID(id)
+                    GotoKickoffFormationPosition::GotoKickoffFormationPosition (boost::shared_ptr<MatchStatus> ms, int id)
+                        : mMatchStatus(ms),
+                          mPlayerID(id)
                     {
+                        boost::shared_ptr<MatchPlayer> pl = mMatchStatus->getPlayer(mPlayerID);
+                        BallOwner own = mMatchStatus->getPlayerClub(mPlayerID);
+                        PlayerPosition pp = pl->getPlayerPosition();
+                        bool issub = pl->isSubstitute();
+                        if(!issub)
+                        {
+                            switch(pp)
+                            {
+                                case Goalkeeper:
+                                    ownformationpos.x = 0.5f;
+                                    ownformationpos.z = 0.1f;
+                                    break;
+                                case Defender:
+                                    ownformationpos.x = 0.5f;
+                                    ownformationpos.z = 0.2f;
+                                    break;
+                                case Midfielder:
+                                    ownformationpos.x = 0.5f;
+                                    ownformationpos.z = 0.3f;
+                                    break;
+                                default:
+                                    ownformationpos.x = 0.5f;
+                                    ownformationpos.z = 0.4f;
+                                    break;
+                            }
+                        }
+                        else
+                        {
+                            ownformationpos.x = -0.1f;
+                            ownformationpos.z = 0.4f;
+                        }
+                        if(own == Away)
+                        {
+                            ownformationpos.z = 1.0f - ownformationpos.z;
+                        }
+                        float pitchw = mMatchStatus->getMatchData()->getStadium()->getPitch()->getWidth();
+                        float pitchl = mMatchStatus->getMatchData()->getStadium()->getPitch()->getLength();
+                        ownformationpos.x *= pitchw;
+                        ownformationpos.z *= pitchl;
                     }
 
                     boost::shared_ptr<messages::PlayerControlMessage> GotoKickoffFormationPosition::process(bool& finished)
                     {
                         finished = false;
+
+                        boost::shared_ptr<MatchPlayer> pl = mMatchStatus->getPlayer(mPlayerID);
+                        addutil::Vector3 ownpos = pl->getPosition();
+                        addutil::Vector3 gotovec = ownformationpos - ownpos;
+                        if(gotovec.length() < 1.0f) gotovec.reset();
+
                         using namespace messages;
-                        return boost::shared_ptr<MovePlayerControlMessage>(new MovePlayerControlMessage(mPlayerID, addutil::Vector3(0, 0, 2)));
+                        return boost::shared_ptr<MovePlayerControlMessage>(new MovePlayerControlMessage(mPlayerID, gotovec));
                     }
                 }
             }

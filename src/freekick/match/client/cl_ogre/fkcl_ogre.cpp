@@ -77,14 +77,14 @@ int main(int argc, char** argv)
         {
             network = new Network(conn);
             boost::thread network_thread(boost::bind(&run_network, network));
-            boost::this_thread::sleep(boost::posix_time::milliseconds(2000));  // TODO: make timeouts configurable?
+            boost::this_thread::sleep(boost::posix_time::milliseconds(1000));  // TODO: make timeouts configurable?
             if(!network->is_connected())
             {
                 std::cerr << "Network::Network: timeout while connecting";
                 return 1;
             }
             network->sendMessage(messages::InitialDataRequest());
-            boost::this_thread::sleep(boost::posix_time::milliseconds(2000));
+            boost::this_thread::sleep(boost::posix_time::milliseconds(1000));
             status = network->getMatchStatus();
             if(status == 0)
             {

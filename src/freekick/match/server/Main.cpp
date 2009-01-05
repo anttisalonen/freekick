@@ -53,7 +53,7 @@ int main(int argc, char** argv)
             int pos = idnum % 4;
             PlayerPosition ppos = IntToPlayerPosition(pos);
             boost::shared_ptr<Player> p(new Player("home player name", idnum % 20 + 1, idnum, ppos));
-            club1->addPlayer(p);
+            club1->addPlayer(p, NotPlaying);
         }
         club1->setupStandardLineup();
 
@@ -62,7 +62,7 @@ int main(int argc, char** argv)
             int pos = idnum % 4;
             PlayerPosition ppos = IntToPlayerPosition(pos);
             boost::shared_ptr<Player> p(new Player("away player name", idnum % 20 + 1, idnum, ppos));
-            club2->addPlayer(p);
+            club2->addPlayer(p, NotPlaying);
         }
         club2->setupStandardLineup();
 

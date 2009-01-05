@@ -70,6 +70,11 @@ namespace addutil
         if(z > n) z = n;
     }
 
+    void Vector3::reset()
+    {
+        x = y = z = 0.0f;
+    }
+
     Vector3& Vector3::operator+=(Vector3 a)
     {
         x += a.x;
@@ -98,7 +103,7 @@ namespace addutil
         return r;
     }
 
-    template <typename T> Vector3& Vector3::operator*=(T s)
+    Vector3& Vector3::operator*=(float s)
     {
         x *= s;
         y *= s;

@@ -17,13 +17,7 @@
   Copyright Antti Salonen, 2008
 **************************************************************************/
 
-
-#ifndef FREEKICKTASKSENDSOCCER_H
-#define FREEKICKTASKSENDSOCCER_H
-
-#include "tasks/CompositeTask.h"
-
-#include "messages/PlayerControlMessage.h"
+#include "tasks/PlaySoccer.h"
 
 namespace freekick 
 { 
@@ -35,19 +29,21 @@ namespace freekick
             {
                 namespace tasks
                 {
-                    class EndSoccer : public CompositeTask
+                    PlaySoccer::PlaySoccer (boost::shared_ptr<MatchStatus> ms, int id)
+                        : mMatchStatus(ms),
+                          mPlayerID(id)
                     {
-                    public:
-                        EndSoccer(boost::shared_ptr<MatchStatus> ms, int id);
-                        boost::shared_ptr<messages::PlayerControlMessage> process(bool& finished);
-                    private:
-                        boost::shared_ptr<MatchStatus> mMatchStatus;
-                        int mPlayerID;
-                    };
+                    }
+
+                    boost::shared_ptr<messages::PlayerControlMessage> PlaySoccer::process(bool& finished)
+                    {
+                        finished = false;
+                        tasks::GotoKickoffFormationPosition nexttask(mMatchStatus, mPlayerID);
+                        boost::shared_ptr<messages::PlayerControlMessage> msg = nexttask.process(finished);
+                        return msg;
+                    }
                 }
             }
         }
     }
 }
-
-#endif

@@ -27,6 +27,10 @@ namespace freekick
             : mMatchData(md),
               mBall(new MatchBall(*mMatchData->getBall()))
         {
+            float pwidth = mMatchStatus->getMatchData()->getStadium()->getPitch()->getWidth();
+            float plength = mMatchStatus->getMatchData()->getStadium()->getPitch()->getLength();
+            mBall->setPosition(pwidth / 2.0f, 1.0f, plength / 2.0f);
+
             boost::shared_ptr<Club> c1 = mMatchData->getHomeClub();
             boost::shared_ptr<Club> c2 = mMatchData->getAwayClub();
             std::vector<boost::shared_ptr<Player> > c1pls;
@@ -36,12 +40,16 @@ namespace freekick
             BOOST_FOREACH(boost::shared_ptr<Player> p, c1pls)
             {
                 int i = p->getID();
-                mPlayers[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p));
+                PlayerInLineup pil = c1->getLineup().playerInLineup(i);
+                bool subst = (pil == Substitute);
+                mPlayers[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p, subst));
             }
             BOOST_FOREACH(boost::shared_ptr<Player> p, c2pls)
             {
                 int i = p->getID();
-                mPlayers[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p));
+                PlayerInLineup pil = c2->getLineup().playerInLineup(i);
+                bool subst = (pil == Substitute);
+                mPlayers[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p, subst));
             }
             // TODO: add referee + others (if any)
         }
@@ -51,7 +59,7 @@ namespace freekick
             return mMatchData;
         }
 
-        void MatchStatus::getPlayers (std::map<int, boost::shared_ptr<MatchPlayer> >& v)
+        void MatchStatus::getPlayers (std::map<int, boost::shared_ptr<MatchPlayer> >& v) const
         {
             v = mPlayers;
         }
@@ -120,6 +128,28 @@ namespace freekick
         const BallState& MatchStatus::getBallState() const
         {
             return mBallState;
+        }
+
+        BallOwner MatchStatus::getPlayerClub(int id) const
+        {
+            boost::shared_ptr<Club> c1 = mMatchData->getHomeClub();
+            boost::shared_ptr<Club> c2 = mMatchData->getAwayClub();
+            std::set<int> ids1;
+            c1->getPlayerIDs(ids1);
+            std::set<int> ids2;
+            c2->getPlayerIDs(ids2);
+
+            std::set<int>::const_iterator idsit;
+            idsit = ids1.find(id);
+            if(idsit != ids1.end())
+                return Home;
+            else
+            {
+                idsit = ids2.find(id);
+                if(idsit != ids2.end())
+                    return Away;
+            }
+            throw "MatchStatus::getPlayerClub: player ID not found in matchstatus!";
         }
     }
 }

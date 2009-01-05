@@ -50,7 +50,7 @@ namespace addutil
         Vector3 operator+(Vector3 a);
         Vector3& operator-=(Vector3 a);
         Vector3 operator-(Vector3 a);
-        template <typename T> Vector3& operator*=(T s);
+        Vector3& operator*=(float s);
         Vector3 operator*(float s);
 
         void normalize();
@@ -58,6 +58,7 @@ namespace addutil
         void capX(float n);
         void capY(float n);
         void capZ(float n);
+        void reset();
 
         // Public attributes
         //  

@@ -32,12 +32,12 @@ namespace freekick
         {
         }
 
-        const std::string& Club::getName()
+        const std::string& Club::getName() const
         {
             return name;
         }
 
-        int Club::getNumberOfPlayers()
+        int Club::getNumberOfPlayers() const
         {
             return players.size();
         }
@@ -54,20 +54,20 @@ namespace freekick
             }
         }
 
-        bool Club::hasPlayer(int i)
+        bool Club::hasPlayer(int i) const
         {
             return (players.find(i) != players.end());
         }
 
-        const Player& Club::getPlayer(int i)
+        const Player& Club::getPlayer(int i) const
         {
-            std::map <int, boost::shared_ptr<Player> >::iterator it = players.find(i);
+            std::map <int, boost::shared_ptr<Player> >::const_iterator it = players.find(i);
             if(it == players.end())
                 throw "Club::getPlayer: No player found";
             return *(it->second);
         }
 
-        void Club::getPlayers(std::vector<boost::shared_ptr<Player> >& pls)
+        void Club::getPlayers(std::vector<boost::shared_ptr<Player> >& pls) const
         {
             pls.clear();
             typedef std::pair<int, boost::shared_ptr<Player> > pair_pl;
@@ -78,7 +78,7 @@ namespace freekick
             }
         }
 
-        void Club::getPlayers(std::set<boost::shared_ptr<Player> >& pls)
+        void Club::getPlayers(std::set<boost::shared_ptr<Player> >& pls) const
         {
             pls.clear();
             typedef std::pair<int, boost::shared_ptr<Player> > pair_pl;
@@ -89,7 +89,7 @@ namespace freekick
             }
         }
 
-        void Club::getPlayerIDs(std::vector<int>& ids)
+        void Club::getPlayerIDs(std::vector<int>& ids) const
         {
             ids.clear();
             typedef std::pair<int, boost::shared_ptr<Player> > pair_pl;
@@ -100,7 +100,7 @@ namespace freekick
             }
         }
 
-        void Club::getPlayerIDs(std::set<int>& ids)
+        void Club::getPlayerIDs(std::set<int>& ids) const
         {
             ids.clear();
             typedef std::pair<int, boost::shared_ptr<Player> > pair_pl;
@@ -158,6 +158,11 @@ namespace freekick
                 }
                 lineup.addPlayer(p.second->getID(), pp, substitute);
             }
+        }
+        
+        PlayerPosition Club::getPlayerPosition(int i) const
+        {
+            return lineup.getPlayerPosition(i);
         }
     }
 }

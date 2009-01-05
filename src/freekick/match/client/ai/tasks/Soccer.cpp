@@ -39,15 +39,23 @@ namespace freekick
                     {
                         finished = false;
                         const BallState bs = mMatchStatus->getBallState();
+
+                        // TODO: do not reconstruct tasks constantly
+                        boost::shared_ptr<tasks::Task> nexttask;
                         if(bs.bio_type == PreKickoff)
                         {
-                            tasks::StartSoccer nexttask(mMatchStatus, mPlayerID);
-                            boost::shared_ptr<messages::PlayerControlMessage> msg = nexttask.process(finished);
-                            return msg;
+                            nexttask.reset(new tasks::StartSoccer(mMatchStatus, mPlayerID));
                         }
-                        const char* err = "tasks::Soccer::process: no handler\n";
-                        std::cerr << err;
-                        throw err;
+                        else if (bs.bio_type != HalFullTime)
+                        {
+                            nexttask.reset(new tasks::PlaySoccer(mMatchStatus, mPlayerID));
+                        }
+                        else
+                        {
+                            nexttask.reset(new tasks::EndSoccer(mMatchStatus, mPlayerID));
+                        }
+                        boost::shared_ptr<messages::PlayerControlMessage> msg = nexttask->process(finished);
+                        return msg;
                     }
                 }
             }

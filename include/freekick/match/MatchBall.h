@@ -46,7 +46,7 @@ namespace freekick
              * @param  _mass
              */
             MatchBall (const Ball& b);
-            const int getID() { return BallID; }
+            const int getID() const { return BallID; }
 
         private:
 

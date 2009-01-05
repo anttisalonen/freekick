@@ -21,8 +21,11 @@
 #ifndef FREEKICKTASKSGOTOKICKOFFFORMATIONPOSITION_H
 #define FREEKICKTASKSGOTOKICKOFFFORMATIONPOSITION_H
 
+#include <boost/shared_ptr.hpp>
+
 #include "addutil/Vector3.h"
 
+#include "MatchStatus.h"
 #include "messages/MovePlayerControlMessage.h"
 
 #include "tasks/AtomicTask.h"
@@ -40,10 +43,12 @@ namespace freekick
                     class GotoKickoffFormationPosition : public AtomicTask
                     {
                     public:
-                        GotoKickoffFormationPosition(int id);
+                        GotoKickoffFormationPosition(boost::shared_ptr<MatchStatus> ms, int id);
                         boost::shared_ptr<messages::PlayerControlMessage> process(bool& finished);
                     private:
+                        boost::shared_ptr<MatchStatus> mMatchStatus;
                         int mPlayerID;
+                        addutil::Vector3 ownformationpos;
                     };
                 }
             }

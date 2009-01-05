@@ -44,8 +44,9 @@ namespace freekick
 
             // Constructors/Destructors
             //  
-            MatchPlayer (const freekick::soccer::Player& p, bool sub = false);
-            const int getID();
+            MatchPlayer (const freekick::soccer::Player& p, bool sub);
+            const int getID() const;
+            bool isSubstitute() const;
 
         private:
             bool substitute;

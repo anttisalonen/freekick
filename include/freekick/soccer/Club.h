@@ -53,17 +53,18 @@ namespace freekick
              * @param  name
              */
             Club (const std::string& _name);
-            const std::string& getName();
-            int getNumberOfPlayers();
-            void addPlayer(boost::shared_ptr<Player>& p, PlayerInLineup st = NotPlaying);
-            bool hasPlayer(int i);
-            const Player& getPlayer(int i);
-            void getPlayers(std::vector<boost::shared_ptr<Player> >& pls);
-            void getPlayers(std::set<boost::shared_ptr<Player> >& pls);
-            void getPlayerIDs(std::vector<int>& ids);
-            void getPlayerIDs(std::set<int>& ids);
+            const std::string& getName() const;
+            int getNumberOfPlayers() const;
+            void addPlayer(boost::shared_ptr<Player>& p, PlayerInLineup st);
+            bool hasPlayer(int i) const;
+            const Player& getPlayer(int i) const;
+            void getPlayers(std::vector<boost::shared_ptr<Player> >& pls) const;
+            void getPlayers(std::set<boost::shared_ptr<Player> >& pls) const;
+            void getPlayerIDs(std::vector<int>& ids) const;
+            void getPlayerIDs(std::set<int>& ids) const;
             const Lineup& getLineup() const;
             void setupStandardLineup();
+            PlayerPosition getPlayerPosition(int i) const;
 
         private:
             std::string name;

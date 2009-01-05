@@ -49,6 +49,7 @@ namespace freekick
             virtual ~Lineup() { }
             bool doSubstitution(int out, int in);
             PlayerInLineup playerInLineup(int plid) const;
+            PlayerPosition getPlayerPosition(int plid) const;
             void addPlayer(int id, PlayerPosition pos, bool substitute);
             void clear();
             std::vector<int> getPitchPlayerIDs() const;

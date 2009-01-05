@@ -23,6 +23,8 @@
 
 #include <iostream>
 
+#include <boost/shared_ptr.hpp>
+
 #include "MatchStatus.h"
 
 #include "tasks/CompositeTask.h"

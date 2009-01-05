@@ -39,7 +39,7 @@ namespace freekick
             virtual ~FreekickMotionState();
             virtual void getWorldTransform(btTransform &worldTrans) const;
             virtual void setWorldTransform(const btTransform &worldTrans);
-            const int getID();
+            const int getID() const;
 
         private:
             PhysicsEngine* mPhysicsEngine;

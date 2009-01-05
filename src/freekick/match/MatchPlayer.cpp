@@ -31,9 +31,14 @@ namespace freekick
         {
         }
 
-        const int MatchPlayer::getID()
+        const int MatchPlayer::getID() const
         {
             return Player::getID();
+        }
+
+        bool MatchPlayer::isSubstitute() const
+        {
+            return substitute;
         }
     }
 }

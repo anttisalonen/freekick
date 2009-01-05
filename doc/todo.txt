@@ -5,3 +5,8 @@ fkcp: support for yellow + red cards, substitutions (also in matchstatus)
 messages: improvements on regexes (floating point numbers, max. number of digits with integers)
 project: remove unused cpp, h files
 project: fix header paths and include search directories
+
+project: update license to agplv3
+server: switch for single player mode: accept only localhost (security)
+server: configurable/selectable file/directory for matchdata
+server: configurable listen-port (parameter) to allow multiple servers on one host

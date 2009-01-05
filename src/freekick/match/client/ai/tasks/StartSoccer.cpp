@@ -38,7 +38,7 @@ namespace freekick
                     boost::shared_ptr<messages::PlayerControlMessage> StartSoccer::process(bool& finished)
                     {
                         finished = false;
-                        tasks::GotoKickoffFormationPosition nexttask(mPlayerID);
+                        tasks::GotoKickoffFormationPosition nexttask(mMatchStatus, mPlayerID);
                         boost::shared_ptr<messages::PlayerControlMessage> msg = nexttask.process(finished);
                         return msg;
                     }

@@ -63,7 +63,7 @@ namespace addutil
         void update(int v, float x, float y, float z);
         void updateOrientation(int v, float w, float x, float y, float z);
         void interpolate(boost::posix_time::ptime pt);
-        virtual const int getID() = 0;
+        virtual const int getID() const = 0;
 
     protected:
         Entity(float _mass = 0.0f, std::string _model = "");

@@ -47,6 +47,19 @@ namespace freekick
             return NotPlaying;
         }
 
+        PlayerPosition Lineup::getPlayerPosition(int plid) const
+        {
+            PlayerMap::const_iterator it1;
+            for(it1 = pitchplayers.begin(); it1 != pitchplayers.end(); it1++)
+            {
+                if((*it1).second == plid)
+                {
+                    return it1->first;
+                }
+            }
+            throw "Lineup::getPlayerPosition: not playing\n";
+        }
+
         std::vector<int> Lineup::getPitchPlayerIDs() const
         {
             std::vector<int> ids;

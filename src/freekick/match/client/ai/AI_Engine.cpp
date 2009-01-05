@@ -34,8 +34,8 @@ namespace freekick
                     boost::array<std::vector<int>, 4> pls;
                     std::set<int> allplids;
                     pls[0] = mMatchStatus->getMatchData()->getHomeClub()->getLineup().getPitchPlayerIDs();
-                    pls[1] = mMatchStatus->getMatchData()->getAwayClub()->getLineup().getSubstituteIDs();
-                    pls[2] = mMatchStatus->getMatchData()->getHomeClub()->getLineup().getPitchPlayerIDs();
+                    pls[1] = mMatchStatus->getMatchData()->getHomeClub()->getLineup().getSubstituteIDs();
+                    pls[2] = mMatchStatus->getMatchData()->getAwayClub()->getLineup().getPitchPlayerIDs();
                     pls[3] = mMatchStatus->getMatchData()->getAwayClub()->getLineup().getSubstituteIDs();
                     BOOST_FOREACH(std::vector<int> v, pls)
                     {

@@ -40,6 +40,13 @@ namespace freekick
                 // if(player_on_ground)   // TODO: define
                     mVelocities[plid].y = v.y;
 
+                // TODO: define max. velocity somewhere else and take stamina etc. into account
+                if(v.length() > 10.0f)
+                {
+                    v.normalize();
+                    v *= 10.0f;
+                }
+
                 mSetpoints[plid] = v;
 
                 VelocityMap::iterator itv = mVelocities.find(plid);
