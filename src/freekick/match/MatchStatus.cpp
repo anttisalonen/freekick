@@ -27,8 +27,8 @@ namespace freekick
             : mMatchData(md),
               mBall(new MatchBall(*mMatchData->getBall()))
         {
-            float pwidth = mMatchStatus->getMatchData()->getStadium()->getPitch()->getWidth();
-            float plength = mMatchStatus->getMatchData()->getStadium()->getPitch()->getLength();
+            float pwidth = mMatchData->getStadium()->getPitch()->getWidth();
+            float plength = mMatchData->getStadium()->getPitch()->getLength();
             mBall->setPosition(pwidth / 2.0f, 1.0f, plength / 2.0f);
 
             boost::shared_ptr<Club> c1 = mMatchData->getHomeClub();

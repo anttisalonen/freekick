@@ -21,9 +21,13 @@
 #ifndef FREEKICKTASKSPLAYSOCCER_H
 #define FREEKICKTASKSPLAYSOCCER_H
 
-#include "tasks/CompositeTask.h"
+#include <boost/shared_ptr.hpp>
 
 #include "messages/PlayerControlMessage.h"
+#include "MatchStatus.h"
+
+#include "tasks/CompositeTask.h"
+#include "tasks/Idle.h"
 
 namespace freekick 
 { 
@@ -39,7 +43,6 @@ namespace freekick
                     {
                     public:
                         PlaySoccer(boost::shared_ptr<MatchStatus> ms, int id);
-                        boost::shared_ptr<messages::PlayerControlMessage> process(bool& finished);
                     private:
                         boost::shared_ptr<MatchStatus> mMatchStatus;
                         int mPlayerID;

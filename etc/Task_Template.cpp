@@ -17,7 +17,7 @@
   Copyright Antti Salonen, 2008
 **************************************************************************/
 
-#include "tasks/EndSoccer.h"
+#include "tasks/.h"
 
 namespace freekick 
 { 
@@ -29,17 +29,18 @@ namespace freekick
             {
                 namespace tasks
                 {
-                    EndSoccer::EndSoccer (boost::shared_ptr<MatchStatus> ms, int id)
+                    f::f (boost::shared_ptr<MatchStatus> ms, int id)
                         : mMatchStatus(ms),
                           mPlayerID(id)
                     {
                     }
 
-                    boost::shared_ptr<messages::PlayerControlMessage> EndSoccer::process()
+                    boost::shared_ptr<messages::PlayerControlMessage> f::process()
                     {
+                        addutil::Vector3 gotovec;
+
                         using namespace messages;
-                        boost::shared_ptr<PlayerControlMessage> msg(new MovePlayerControlMessage(mPlayerID, addutil::Vector3(2, 2, 0)));
-                        return msg;
+                        return boost::shared_ptr<MovePlayerControlMessage>(new MovePlayerControlMessage(mPlayerID, gotovec));
                     }
                 }
             }

@@ -74,10 +74,13 @@ namespace freekick
                         ownformationpos.z *= pitchl;
                     }
 
-                    boost::shared_ptr<messages::PlayerControlMessage> GotoKickoffFormationPosition::process(bool& finished)
+                    boost::shared_ptr<messages::PlayerControlMessage> GotoKickoffFormationPosition::process()
                     {
-                        finished = false;
-
+                        const BallState bs = mMatchStatus->getBallState();
+                        if(bs.bio_type != PreKickoff)
+                        {
+                            throw "GotoKickoffFormationPosition: finished\n";
+                        }
                         boost::shared_ptr<MatchPlayer> pl = mMatchStatus->getPlayer(mPlayerID);
                         addutil::Vector3 ownpos = pl->getPosition();
                         addutil::Vector3 gotovec = ownformationpos - ownpos;

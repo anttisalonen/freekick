@@ -21,9 +21,12 @@
 #ifndef FREEKICKTASKSENDSOCCER_H
 #define FREEKICKTASKSENDSOCCER_H
 
-#include "tasks/CompositeTask.h"
+#include <boost/shared_ptr.hpp>
 
-#include "messages/PlayerControlMessage.h"
+#include "messages/MovePlayerControlMessage.h"
+#include "MatchStatus.h"
+
+#include "tasks/AtomicTask.h"
 
 namespace freekick 
 { 
@@ -35,11 +38,11 @@ namespace freekick
             {
                 namespace tasks
                 {
-                    class EndSoccer : public CompositeTask
+                    class EndSoccer : public AtomicTask
                     {
                     public:
                         EndSoccer(boost::shared_ptr<MatchStatus> ms, int id);
-                        boost::shared_ptr<messages::PlayerControlMessage> process(bool& finished);
+                        boost::shared_ptr<messages::PlayerControlMessage> process();
                     private:
                         boost::shared_ptr<MatchStatus> mMatchStatus;
                         int mPlayerID;

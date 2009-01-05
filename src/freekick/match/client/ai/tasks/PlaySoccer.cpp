@@ -33,14 +33,8 @@ namespace freekick
                         : mMatchStatus(ms),
                           mPlayerID(id)
                     {
-                    }
-
-                    boost::shared_ptr<messages::PlayerControlMessage> PlaySoccer::process(bool& finished)
-                    {
-                        finished = false;
-                        tasks::GotoKickoffFormationPosition nexttask(mMatchStatus, mPlayerID);
-                        boost::shared_ptr<messages::PlayerControlMessage> msg = nexttask.process(finished);
-                        return msg;
+                        boost::shared_ptr<Idle> t(new Idle(mPlayerID));
+                        addTask(t);
                     }
                 }
             }

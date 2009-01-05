@@ -33,29 +33,18 @@ namespace freekick
                         : mMatchStatus(ms),
                           mPlayerID(id)
                     {
-                    }
-
-                    boost::shared_ptr<messages::PlayerControlMessage> Soccer::process(bool& finished)
-                    {
-                        finished = false;
-                        const BallState bs = mMatchStatus->getBallState();
-
-                        // TODO: do not reconstruct tasks constantly
-                        boost::shared_ptr<tasks::Task> nexttask;
-                        if(bs.bio_type == PreKickoff)
+                        boost::shared_ptr<tasks::StartSoccer> t1;
+                        boost::shared_ptr<tasks::PlaySoccer> t2;
+                        boost::shared_ptr<tasks::EndSoccer> t3;
+                        for(int i = 0; i < 2; i++)
                         {
-                            nexttask.reset(new tasks::StartSoccer(mMatchStatus, mPlayerID));
+                            t1.reset(new tasks::StartSoccer(mMatchStatus, mPlayerID));   // 1, 4
+                            addTask(t1);
+                            t2.reset(new tasks::PlaySoccer(mMatchStatus, mPlayerID));    // 2, 5
+                            addTask(t2);
+                            t3.reset(new tasks::EndSoccer(mMatchStatus, mPlayerID));     // 3, 6
+                            addTask(t3);
                         }
-                        else if (bs.bio_type != HalFullTime)
-                        {
-                            nexttask.reset(new tasks::PlaySoccer(mMatchStatus, mPlayerID));
-                        }
-                        else
-                        {
-                            nexttask.reset(new tasks::EndSoccer(mMatchStatus, mPlayerID));
-                        }
-                        boost::shared_ptr<messages::PlayerControlMessage> msg = nexttask->process(finished);
-                        return msg;
                     }
                 }
             }

@@ -21,6 +21,12 @@
 #ifndef FREEKICKCOMPOSITETASK_H
 #define FREEKICKCOMPOSITETASK_H
 
+#include <map>
+
+#include <boost/shared_ptr.hpp>
+
+#include "messages/PlayerControlMessage.h"
+
 #include "tasks/Task.h"
 
 namespace freekick
@@ -33,10 +39,22 @@ namespace freekick
             {
                 namespace tasks
                 {
+                    typedef std::map<int, boost::shared_ptr<Task> > TaskList;
                     class CompositeTask : public Task
                     {
                     public:
                         virtual ~CompositeTask() { }
+                        int addTask(const boost::shared_ptr<Task>& t);
+                        bool deleteTask(int id);
+                        bool deleteNextTask();
+                        boost::shared_ptr<Task> getNextTask() const;
+                        boost::shared_ptr<Task> getTask(int id) const;
+                        boost::shared_ptr<messages::PlayerControlMessage> process();
+                    protected:
+                        CompositeTask();
+                    private:
+                        int nextid;
+                        TaskList mTasks;
                     };
                 }
             }

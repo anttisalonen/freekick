@@ -18,40 +18,37 @@
 **************************************************************************/
 
 
-#ifndef FREEKICKTASKMANAGER_H
-#define FREEKICKTASKMANAGEr_H
-
-#include <map>
+#ifndef FREEKICKTASKSIDLE_H
+#define FREEKICKTASKSIDLE_H
 
 #include <boost/shared_ptr.hpp>
 
-#include "messages/PlayerControlMessage.h"
+#include "addutil/Vector3.h"
 
-#include "tasks/Task.h"
+#include "MatchStatus.h"
+#include "messages/MovePlayerControlMessage.h"
 
-namespace freekick
-{
+#include "tasks/AtomicTask.h"
+
+namespace freekick 
+{ 
     namespace match
     {
         namespace client
         {
             namespace ai_client
             {
-                typedef std::map<int, boost::shared_ptr<tasks::Task> > TaskList;
-                class TaskManager
+                namespace tasks
                 {
-                public:
-                    TaskManager();
-                    virtual ~TaskManager() { }
-                    int addTask(const boost::shared_ptr<tasks::Task>& t);
-                    bool deleteTask(int id);
-                    bool deleteNextTask();
-                    boost::shared_ptr<messages::PlayerControlMessage> think();
-                    boost::shared_ptr<tasks::Task> getNextTask();
-                private:
-                    int nextid; 
-                    TaskList mTasks;
-                };
+                    class Idle : public AtomicTask
+                    {
+                    public:
+                        Idle(int id);
+                        boost::shared_ptr<messages::PlayerControlMessage> process();
+                    private:
+                        int mPlayerID;
+                    };
+                }
             }
         }
     }

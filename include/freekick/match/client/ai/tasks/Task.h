@@ -21,10 +21,6 @@
 #ifndef FREEKICKTASK_H
 #define FREEKICKTASK_H
 
-#include "addutil/ai/Task.h"
-
-#include "messages/PlayerControlMessage.h"
-
 namespace freekick
 {
     namespace match
@@ -35,11 +31,11 @@ namespace freekick
             {
                 namespace tasks
                 {
-                    class Task : public addutil::ai::Task
+                    class Task
                     {
                     public:
                         virtual ~Task() { }
-                        virtual boost::shared_ptr<messages::PlayerControlMessage> process(bool& finished) = 0;
+                        virtual boost::shared_ptr<messages::PlayerControlMessage> process() = 0;
                     };
                 }
             }
