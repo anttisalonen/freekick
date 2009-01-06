@@ -212,4 +212,10 @@ namespace addutil
                 break;
         }
     }
+
+    std::ostream& operator<<(std::ostream& os, const Entity& e)
+    {
+        os << e.getPosition();
+        return os;
+    }
 }

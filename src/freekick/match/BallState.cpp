@@ -62,5 +62,11 @@ namespace freekick
         { 
             if(n) return Away; return Home; 
         }
+
+        std::ostream& operator<<(std::ostream& os, const BallState& e)
+        {
+            os << e.bio_type << " " << e.owner << " " << e.restart_point << " " << e.blocked_play;
+            return os;
+        }
     }
 }

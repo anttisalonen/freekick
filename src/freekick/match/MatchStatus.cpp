@@ -158,5 +158,14 @@ namespace freekick
             }
             throw "MatchStatus::getPlayerClub: player ID not found in matchstatus!";
         }
+
+        addutil::Vector3 MatchStatus::getCentreSpot() const
+        {
+            float pwidth = mMatchData->getStadium()->getPitch()->getWidth();
+            float plength = mMatchData->getStadium()->getPitch()->getLength();
+            float middle_x = pwidth / 2.0f;
+            float middle_z = plength / 2.0f;
+            return addutil::Vector3(middle_x, 0.0f, middle_z);
+        }
     }
 }

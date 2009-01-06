@@ -76,6 +76,8 @@ namespace addutil
             ar & z;
         }
     };
+
+    std::ostream& operator<<(std::ostream& os, const Vector3& e);
 }
 
 #endif // VECTOR3_H

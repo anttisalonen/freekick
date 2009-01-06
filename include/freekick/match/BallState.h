@@ -64,6 +64,7 @@ namespace freekick
         BallInOut intToBallInOut(int n);
         BallOwner other(BallOwner b);
         BallOwner intToBallOwner(int n);
+        std::ostream& operator<<(std::ostream& os, const BallState& e);
     }
 }
 

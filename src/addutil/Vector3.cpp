@@ -116,5 +116,11 @@ namespace addutil
         Vector3 r(x * s, y * s, z * s);
         return r;
     }
+
+    std::ostream& operator<<(std::ostream& os, const Vector3& v)
+    {
+        os << v.x << " " << v.y << " " << v.z;
+        return os;
+    }
 }
 

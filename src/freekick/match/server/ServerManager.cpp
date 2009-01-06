@@ -36,6 +36,7 @@ namespace freekick
                   r(new Rules(ms, p)),
                   d(new Dispatcher(clients, this, p, r, ms)),
                   cel(new ClientEventListener(clients, im, d)),
+                  console(new Console(ms)),
                   name(servername),
                   greet(greeting),
                   protocol_version("0.2")
@@ -51,11 +52,12 @@ namespace freekick
 
             bool ServerManager::run()
             {
+                boost::thread console_thread(boost::bind(&freekick::match::server::Console::run, console));
                 std::cerr << "Starting physics\n";
                 boost::thread physics_thread(boost::bind(&freekick::match::server::Physics::run, p));
                 std::cerr << "Starting listening on port " << mPort << std::endl;
                 startListening(mPort);
-                physics_thread.join();
+                console_thread.join();
                 return true;
             }
 

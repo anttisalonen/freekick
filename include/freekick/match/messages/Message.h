@@ -59,6 +59,7 @@ namespace freekick
             const static std::string s_gen_time_upd             = "B";
             const static std::string s_gen_score_upd            = "C";
             const static std::string s_gen_status_upd           = "D";
+            const static std::string s_gen_owner_upd            = "E";
             const static std::string s_const_upd                = "";
             const static std::string s_gen_err                  = "H";
             const static std::string s_srv_info                 = "I";

@@ -169,6 +169,21 @@ namespace freekick
             return true;
         }
 
+        bool BulletPhysicsEngine::setObjectPosition(ObjectID oid, const addutil::Vector3& pos)
+        {
+            ObjectMap::iterator it;
+            it = mObjectMap.find(oid);
+            if (it == mObjectMap.end())
+                return false;
+            const btVector3 bv(pos.x, pos.y, pos.z);
+            const btQuaternion bq(1.0f, 0.0f, 0.0f, 0.0f);
+
+            it->second->activate(true);
+            it->second->setWorldTransform(btTransform(bq, bv));
+            it->second->setLinearVelocity(btVector3(btScalar(0), btScalar(0), btScalar(0)));
+            return true;
+        }
+
         bool BulletPhysicsEngine::addDynamicObject(ObjectID oid, 
                                                    btCollisionShape* colShape, 
                                                    float mass, 
@@ -225,25 +240,40 @@ namespace freekick
         bool BulletPhysicsEngine::stepWorld(float steptime)
         {
             dynamicsWorld->stepSimulation(steptime, 10); // TODO: variable maxSubSteps
-            publishPhysics();
 
-            /*
-            //print positions of all objects
-            for (int j = dynamicsWorld->getNumCollisionObjects()-1; j>=0 ; j--)
+            // This piece of code checks for collisions between the ball and the players.
+            // TODO: add checks between (tackling etc.) players and the rest of players
+            ObjectMap::const_iterator it = mObjectMap.find(BallID);
+            if(it != mObjectMap.end())
             {
-                btCollisionObject* obj = dynamicsWorld->getCollisionObjectArray()[j];
-                btRigidBody* body = btRigidBody::upcast(obj);
-                if (body && body->getMotionState())
+                btCollisionObject* body0 = it->second;
+                ObjectMap::const_iterator it2;
+                for(it2 = mObjectMap.begin(); it2 != mObjectMap.end(); it2++)
                 {
-                    btTransform trans;
-                    body->getMotionState()->getWorldTransform(trans);
-                    printf("world pos = %f,%f,%f\n", 
-                           float(trans.getOrigin().getX()),
-                           float(trans.getOrigin().getY()),
-                           float(trans.getOrigin().getZ()));
+                    if(it2->first == it->first) continue;
+                    btCollisionObject* body1 = it2->second;
+                    btBroadphaseProxy* prox0 = body0->getBroadphaseHandle();
+                    btBroadphaseProxy* prox1 = body1->getBroadphaseHandle();
+                    btBroadphasePair* pair = dynamicsWorld->getBroadphase()->getOverlappingPairCache()->findPair(prox0, prox1);
+                    if (pair)
+                    {
+                        btManifoldArray manifoldArray;
+
+                        if (pair->m_algorithm) 
+                            pair->m_algorithm->getAllContactManifolds(manifoldArray);
+
+                        for (unsigned int i = 0, s = manifoldArray.size(); i < s; ++i)
+                        {
+                            if (manifoldArray[i]->getNumContacts() > 0)
+                                addCollidedObject(it->first, it2->first, 1.0f);
+                            // TODO: use actual power/collision depth
+                        } 
+                    }
                 }
+
             }
-            */
+
+            publishPhysics();
 
             return true;
         }

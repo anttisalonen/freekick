@@ -93,6 +93,7 @@ namespace addutil
             ar & color;
         }
     };
+    std::ostream& operator<<(std::ostream& os, const Entity& e);
 }
 
 #endif // ENTITY_H

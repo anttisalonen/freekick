@@ -36,6 +36,7 @@
 #include "Rules.h"
 #include "Physics.h"
 #include "InputMonitor.h"
+#include "Console.h"
 #include "messages/ClientInitMessage.h"
 #include "messages/ServerInitMessage.h"
 
@@ -73,6 +74,7 @@ namespace freekick
                 boost::shared_ptr<Rules> r;
                 boost::shared_ptr<Dispatcher> d;
                 boost::shared_ptr<ClientEventListener> cel;
+                boost::shared_ptr<Console> console;
                 std::string name;
                 std::string greet;
                 std::string protocol_version;

@@ -22,11 +22,11 @@
 #ifndef CONSOLE_H
 #define CONSOLE_H
 
+#include <iostream>
+
 #include <boost/shared_ptr.hpp>
 
-#include "Physics.h"
-#include "Rules.h"
-#include "ConsoleCommand.h"
+#include "MatchStatus.h"
 
 namespace freekick
 {
@@ -37,26 +37,12 @@ namespace freekick
             class Console
             {
             public:
-                Console ( );
                 virtual ~Console ( );
-                Console (Physics physics, Rules rules);
-                void run ( );
-
-            protected:
-                void getInput (ConsoleCommand cc ) const;
+                Console (boost::shared_ptr<MatchStatus> ms);
+                void run ();
 
             private:
-                bool mContinue;
-                boost::shared_ptr<Physics> mPhysics;
-                boost::shared_ptr<Rules> mRules;
-
-            public:
-                void setContinue ( bool new_var );
-                bool getContinue ( );
-                void setPhysics ( boost::shared_ptr<Physics> new_var );
-                boost::shared_ptr<Physics> getPhysics ( );
-                void setRules ( boost::shared_ptr<Rules> new_var );
-                boost::shared_ptr<Rules> getRules ( );
+                boost::shared_ptr<MatchStatus> mMatchStatus;
             };
         }
     }

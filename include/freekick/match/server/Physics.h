@@ -25,7 +25,6 @@
 #include <list>
 #include <vector>
 
-#include <boost/tuple/tuple.hpp>
 #include <boost/shared_ptr.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
 
@@ -41,6 +40,7 @@
 
 #include "messages/MovePlayerControlMessage.h"
 #include "messages/ConstantUpdateMessage.h"
+#include "messages/GeneralUpdateOwnerMessage.h"
 
 namespace freekick
 {
@@ -51,9 +51,8 @@ namespace freekick
             typedef messages::ConstantUpdateMessage PhysicsMessage;
             typedef std::vector<PhysicsMessage> PhysicsMessageList;
 
-            // TODO: fill collision list from collision callbacks for rules
-            typedef boost::tuple<int, int, float> Collision;   // Player IDs of the collided objects + collision power
-            typedef std::vector<Collision> CollisionList;
+            typedef messages::GeneralUpdateOwnerMessage OwnerMessage;
+            typedef std::vector<OwnerMessage> OwnerMessageList;
 
             class Physics : public Reader<PhysicsEngine>, public Publisher<Physics>
             {
@@ -69,8 +68,7 @@ namespace freekick
                 void update(PhysicsEngine* e);
 
                 // Publisher<Physics>
-                void getUpdates(PhysicsMessageList& l) const;
-                void getUpdates(PhysicsMessageList& l, CollisionList& c) const;
+                void getUpdates(PhysicsMessageList& l, OwnerMessageList& c) const;
 
             protected:
                 // Publisher<Physics>
@@ -87,9 +85,10 @@ namespace freekick
 
                 // Messages that will be published are stored here
                 PhysicsMessageList newmessages;
-                CollisionList newcollisions;
+                OwnerMessageList newowners;
 
                 const static float collision_box_height = 1.75f;
+                const static float ball_radius = 0.5f;   // TODO: make this more realistic
             };
         }
     }

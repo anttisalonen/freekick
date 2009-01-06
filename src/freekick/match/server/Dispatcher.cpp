@@ -64,8 +64,10 @@ namespace freekick
             void Dispatcher::update(Physics* p)
             {
                 PhysicsMessageList l;
-                p->getUpdates(l);
+                OwnerMessageList c;
+                p->getUpdates(l, c);
                 dispatchPhysicsMessages(l);
+                // TODO: owner messages are not dispatched
             }
 
             void Dispatcher::update(Rules* r)

@@ -52,10 +52,33 @@ namespace freekick
             void Rules::update(Physics* p)
             {
                 PhysicsMessageList l;
-                CollisionList c;
+                OwnerMessageList c;
                 p->getUpdates(l, c);
 
                 bool new_ball_status = false;
+                bool ball_touched = false;
+
+                OwnerMessageList::iterator oit;
+                for(oit = c.begin(); oit != c.end(); oit++)
+                {
+                    try
+                    {
+                        BallOwner b = mMatchStatus->getPlayerClub(oit->getOwnerID());
+                        if(mBallState.bio_type == BallIn)
+                        {
+                            if(b != mBallState.owner)
+                            {
+                                mBallState.owner = b;
+                                new_ball_status = true;
+                            }
+                        }
+                        ball_touched = true;
+                    }
+                    catch(...)
+                    {
+                        // invalid ID in owner message (referee, etc.) -> ignore.
+                    }
+                }
 
                 PhysicsMessageList::iterator it;
                 for(it = l.begin(); it != l.end(); it++)
@@ -85,11 +108,13 @@ namespace freekick
                             mBallState.flipOwner();
                             mBallState.restart_point.x = (vec.x < 0.0f) ? 0.0f : pitch_width;
                             mBallState.restart_point.z = vec.z;
+                            mBallState.blocked_play = true;
                         }
                         if(vec.z < 0.0f || vec.z > pitch_length)
                         {
                             new_ball_status = true;
                             mBallState.flipOwner();
+                            mBallState.blocked_play = true;
                             if((vec.z < 0.0f && mBallState.owner == Home) || (vec.z > pitch_length && mBallState.owner == Away))
                             {
                                 mBallState.bio_type = Goalkick;
@@ -159,27 +184,39 @@ namespace freekick
                         }
                         else if(mBallState.bio_type == Kickoff)
                         {
-                            bool player_not_on_his_side = false;
-                            for(int i = 0; i < 2 && player_not_on_his_side == false; i++)
+                            // TODO: check if a player moved from his side to the other after giving play free
+                            if(mBallState.blocked_play)
                             {
-                                for(it = players[i].begin(); it != players[i].end() && player_not_on_his_side == false; it++)
+                                bool player_not_on_his_side = false;
+                                for(int i = 0; i < 2 && player_not_on_his_side == false; i++)
                                 {
-                                    EntityMap::const_iterator eit = entitymap.find(*it);
-                                    if(eit != entitymap.end())
+                                    for(it = players[i].begin(); it != players[i].end() && player_not_on_his_side == false; it++)
                                     {
-                                        addutil::Vector3 v = eit->second->getPosition();
-                                        // TODO: check for half time/coin toss
-                                        if(!mPitch->onSide((i == 0), v.x, v.z))
-                                            player_not_on_his_side = true;
+                                        EntityMap::const_iterator eit = entitymap.find(*it);
+                                        if(eit != entitymap.end())
+                                        {
+                                            addutil::Vector3 v = eit->second->getPosition();
+                                            // TODO: check for half time/coin toss
+                                            if(!mPitch->onSide((i == 0), v.x, v.z))
+                                                player_not_on_his_side = true;
+                                        }
                                     }
                                 }
+                                if(!player_not_on_his_side)
+                                {
+                                    new_ball_status = true;
+                                    mBallState.blocked_play = false;
+                                }
+                                // TODO: check for ball in centre
                             }
-                            if(!player_not_on_his_side)
+                            else
                             {
-                                new_ball_status = true;
-                                mBallState.blocked_play = false;
+                                if(ball_touched)
+                                {
+                                    new_ball_status = true;
+                                    mBallState.bio_type = BallIn;
+                                }
                             }
-                            // TODO: check for ball in centre
                         }
                     }
                 }

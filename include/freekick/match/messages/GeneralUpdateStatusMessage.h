@@ -53,7 +53,7 @@ namespace freekick
                 {
                     using namespace boost;
                     // TODO: read s_gen_status_upd from Message.h
-                    regex expr(" *?\\(D +([0-9]{1,2}?) +([01]) +([[:print:]]{1,3}?) +([[:print:]]{1,3}?) +([01])\\).*");
+                    regex expr(" *?\\(D +([0-9]{1,2}?) +([01]) +([[:print:]]+?) +([[:print:]]+?) +([01])\\).*");
                     cmatch what;
                     if(regex_match(msg.c_str(), what, expr))
                     {

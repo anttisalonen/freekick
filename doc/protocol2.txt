@@ -233,11 +233,13 @@ For updates on player locations:
 as in (3.)
 For updates on match state:
 TYPE VALUE
-types: pause(A), time(B), score(C), status(D)
+types: pause(A), time(B), score(C), status(D), owner(E)
 pause parameters: boolean
 time parameters: minutes seconds halftime (0/1/2/3/4/5) (0 -> no update, 3+4 -> extra time, 5 -> penalties)
 score parameters: homegoals awaygoals homepenalties awaypenalties
 status parameters: ballstatus owner pointx pointy refstatus
+owner parameters: playerid
+
   ball status: 
        0        in play
        1        pre kick off
@@ -269,6 +271,7 @@ e.g.
 (C 2 2 3 2)           # set score to 2-2, 3-2 after penalties
 (D 0 1 0 0 0)         # playing, away club has control
 (D 5 0 65.0 110.0 1)  # preparing for corner kick for home club
+(E 304)               # player with id 304 touched the ball
 
 3. 
 Constant update (~ 30..60/Second)

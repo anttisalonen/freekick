@@ -23,9 +23,11 @@
 #define PHYSICSENGINE_H
 
 #include <set>
+#include <vector>
 #include <map>
 
 #include <boost/shared_ptr.hpp>
+#include <boost/tuple/tuple.hpp>
 
 #include "Vector3.h"
 #include "DynamicEntity.h"
@@ -39,6 +41,8 @@ namespace freekick
         typedef long int ObjectID;
         typedef addutil::DynamicEntity* EntityPtr;
         typedef std::map<ObjectID, EntityPtr> EntityPtrMap;
+        typedef boost::tuple<ObjectID, ObjectID, float> Collision;   // Object IDs of the collided objects + collision power
+        typedef std::vector<Collision> CollisionList;
 
         class PhysicsEngine : public addutil::Publisher<PhysicsEngine>
         {
@@ -49,6 +53,7 @@ namespace freekick
             virtual bool addDynamicSphereObject(ObjectID oid, float radius, float mass, addutil::Vector3 loc, float restitution) = 0;
             virtual bool addControllableObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc) = 0;
             virtual bool setObjectVelocity(ObjectID oid, const addutil::Vector3& vel) = 0;
+            virtual bool setObjectPosition(ObjectID oid, const addutil::Vector3& pos) = 0;
             virtual bool removeObject(ObjectID oid) = 0;
             virtual bool stepWorld(float steptime) = 0;
 
@@ -62,6 +67,7 @@ namespace freekick
             {
                 publish();
                 updated_objects.clear();
+                collided_objects.clear();
             }
 
             void getUpdatedObjects(EntityPtrMap& e) const
@@ -69,9 +75,24 @@ namespace freekick
                 e = updated_objects;
             }
 
+            void getCollidedObjects(CollisionList& l) const
+            {
+                l = collided_objects;
+            }
+
             void addUpdatedObject(ObjectID i, EntityPtr e)   // used by motion states
             {
                 updated_objects[i] = e;
+            }
+
+        protected:
+            void addCollidedObject(ObjectID i1, ObjectID i2, float p)   // used by derived classes
+            {
+                if(i1 == i2) return;
+                if(i1 < i2)
+                    collided_objects.push_back(Collision(i1, i2, p));
+                else
+                    collided_objects.push_back(Collision(i2, i1, p));
             }
 
         protected:
@@ -81,6 +102,8 @@ namespace freekick
         private:
             EntityPtrMap curr_objects;
             EntityPtrMap updated_objects;
+            CollisionList collided_objects;
+            
             boost::shared_ptr<PhysicsEngineSettings> settings;
         };
     }

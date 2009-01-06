@@ -28,6 +28,8 @@
 
 #include "btBulletDynamicsCommon.h"
 
+#include "MatchIDs.h"
+
 #include "PhysicsEngine.h"
 #include "FreekickMotionState.h"
 
@@ -49,6 +51,7 @@ namespace freekick
             bool addDynamicSphereObject(ObjectID oid, float radius, float mass, addutil::Vector3 loc, float restitution);
             bool addControllableObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc);
             bool setObjectVelocity(ObjectID oid, const addutil::Vector3& vel);
+            bool setObjectPosition(ObjectID oid, const addutil::Vector3& pos);
             bool removeObject(ObjectID oid);
             bool stepWorld(float steptime);
 
@@ -64,8 +67,6 @@ namespace freekick
             ///use the default collision dispatcher. For parallel processing you can use a diffent dispatcher (see Extras/BulletMultiThreaded)
             boost::shared_ptr<btCollisionDispatcher> dispatcher;
 
-            ///the maximum size of the collision world. Make sure objects stay within these boundaries
-            ///Don't make the world AABB size too large, it will harm simulation quality and performance
             boost::shared_ptr<btAxisSweep3> overlappingPairCache;
 
             ///the default constraint solver. For parallel processing you can use a different solver (see Extras/BulletMultiThreaded)

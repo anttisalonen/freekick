@@ -44,7 +44,7 @@ namespace freekick
                 float middle_x = pwidth / 2.0f;
                 float middle_z = plength / 2.0f;
                 mPhysicsEngine->addStaticBoxObject(PitchID, Vector3(pwidth * 2.0f, 50, plength * 2.0f), Vector3(0, -50, 0));
-                mPhysicsEngine->addDynamicSphereObject(BallID, 1.0f, 5.0f, Vector3(middle_x, 10, middle_z), 0.7f);
+                mPhysicsEngine->addDynamicSphereObject(BallID, ball_radius, 0.43f, Vector3(middle_x, 10, middle_z), 0.7f);
                 std::vector<int> hplayers;
                 std::vector<int> aplayers;
                 boost::shared_ptr<Club> club1 = mMatchStatus->getMatchData()->getHomeClub();
@@ -91,6 +91,23 @@ namespace freekick
                     ptime before_time(microsec_clock::local_time());
 
                     successful = mPhysicsEngine->stepWorld(1.0f/60.0f);
+                    const BallState bs = mMatchStatus->getBallState();
+                    if(bs.bio_type == PreKickoff)
+                    {
+                        addutil::Vector3 p = mMatchStatus->getCentreSpot();
+                        p.y = ball_radius;
+                        mPhysicsEngine->setObjectPosition(BallID, p);
+                    }
+                    else if((bs.bio_type != Kickoff &&
+                             bs.bio_type != BallIn &&
+                             bs.bio_type != HalfFullTime)
+                            && bs.blocked_play == true)
+                    {
+                        addutil::Vector3 p = bs.restart_point;
+                        p.y = ball_radius;
+                        mPhysicsEngine->setObjectPosition(BallID, p);
+                    }
+
                     velocityMap = mInputMonitor->getVelocities();
                     for(it = velocityMap.begin(); it != velocityMap.end(); it++)
                     {
@@ -130,26 +147,35 @@ namespace freekick
                     messages::ConstantUpdateMessage c(p.first, 0, pos_corrected, orien);
                     newmessages.push_back(c);
                 }
+
+                CollisionList l;
+                e->getCollidedObjects(l);
+                BOOST_FOREACH(Collision c, l)
+                {
+                    // Note: if c.get<1>() == BallID (collided object ID < BallID),
+                    // then the collision won't be published.
+                    if(c.get<0>() != BallID)
+                        continue;
+                    messages::GeneralUpdateOwnerMessage u(c.get<1>());
+                    newowners.push_back(u);
+                }
+
                 publish();
                 mMatchStatus->update(newmessages);
+                // TODO: save owner in matchstatus?
                 clearMessages();
             }
 
             void Physics::clearMessages()
             {
                 newmessages.clear();
-                newcollisions.clear();
+                newowners.clear();
             }
 
-            void Physics::getUpdates(PhysicsMessageList& l) const
+            void Physics::getUpdates(PhysicsMessageList& l, OwnerMessageList& c) const
             {
                 l = newmessages;
-            }
-
-            void Physics::getUpdates(PhysicsMessageList& l, CollisionList& c) const
-            {
-                getUpdates(l);
-                c = newcollisions;
+                c = newowners;
             }
         }
     }

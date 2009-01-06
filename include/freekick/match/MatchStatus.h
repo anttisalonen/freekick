@@ -62,6 +62,7 @@ namespace freekick
             boost::shared_ptr<MatchBall> getBall() const;
             const BallState& getBallState() const;
             BallOwner getPlayerClub(int id) const;
+            addutil::Vector3 getCentreSpot() const;
 
         private:
             const boost::shared_ptr<MatchData> mMatchData;
