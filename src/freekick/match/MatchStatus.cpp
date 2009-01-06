@@ -77,11 +77,18 @@ namespace freekick
             it = mPlayers.find(n);
             if (it == mPlayers.end())
             {
-                return;
+                if(n == BallID)
+                {
+                    mBall->update(v, vec.x, vec.y, vec.z);
+                    mBall->updateOrientation(v, q.w, q.x, q.y, q.z);
+                }
+                // add updateable entities HERE
             }
-
-            (*it).second->update(v, vec.x, vec.y, vec.z);
-            (*it).second->updateOrientation(v, q.w, q.x, q.y, q.z);
+            else
+            {
+                (*it).second->update(v, vec.x, vec.y, vec.z);
+                (*it).second->updateOrientation(v, q.w, q.x, q.y, q.z);
+            }
             return;
         }
 

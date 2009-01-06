@@ -35,6 +35,7 @@ namespace freekick
                     {
                     public:
                         virtual ~Task() { }
+                        virtual bool finished() const = 0;
                         virtual boost::shared_ptr<messages::PlayerControlMessage> process() = 0;
                     };
                 }

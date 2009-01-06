@@ -28,6 +28,8 @@
 
 #include "tasks/CompositeTask.h"
 #include "tasks/Idle.h"
+#include "tasks/FetchBall.h"
+#include "tasks/GotoCabins.h"
 
 namespace freekick 
 { 
@@ -43,9 +45,12 @@ namespace freekick
                     {
                     public:
                         PlaySoccer(boost::shared_ptr<MatchStatus> ms, int id);
+                        bool finished() const;
+                        virtual boost::shared_ptr<messages::PlayerControlMessage> process();
                     private:
                         boost::shared_ptr<MatchStatus> mMatchStatus;
                         int mPlayerID;
+                        boost::shared_ptr<MatchPlayer> mPlayer;
                     };
                 }
             }

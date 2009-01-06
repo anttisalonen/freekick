@@ -44,6 +44,7 @@ namespace freekick
                     {
                     public:
                         Idle(int id);
+                        bool finished() const;
                         boost::shared_ptr<messages::PlayerControlMessage> process();
                     private:
                         int mPlayerID;

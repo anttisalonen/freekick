@@ -33,8 +33,43 @@ namespace freekick
                         : mMatchStatus(ms),
                           mPlayerID(id)
                     {
-                        boost::shared_ptr<Idle> t(new Idle(mPlayerID));
-                        addTask(t);
+                        mPlayer = mMatchStatus->getPlayer(mPlayerID);
+                    }
+
+                    bool PlaySoccer::finished() const
+                    {
+                        const BallState bs = mMatchStatus->getBallState();
+                        if(bs.bio_type == HalfFullTime || bs.bio_type == PreKickoff)
+                        {
+                            return true;
+                        }
+                        return false;
+                    }
+
+                    boost::shared_ptr<messages::PlayerControlMessage> PlaySoccer::process()
+                    {
+                        if(emptyTasks())
+                        {
+                            bool issub = mPlayer->isSubstitute();
+                            if(issub)
+                            {
+                                boost::shared_ptr<Idle> t(new Idle(mPlayerID));
+                                addTask(t);
+                            }
+                            else
+                            {
+                                boost::shared_ptr<FetchBall> t(new FetchBall(mMatchStatus, mPlayerID));
+                                addTask(t);
+                            }
+                        }
+                        boost::shared_ptr<Task> nexttask = getNextTask();
+                        if(nexttask->finished())
+                        {
+                            deleteNextTask();
+                            return process();
+                        }
+                        boost::shared_ptr<messages::PlayerControlMessage> msg = nexttask->process();
+                        return msg;
                     }
                 }
             }

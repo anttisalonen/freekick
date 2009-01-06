@@ -71,20 +71,35 @@ namespace freekick
                         return it->second;
                     }
 
+                    bool CompositeTask::emptyTasks() const
+                    {
+                        return (mTasks.empty());
+                    }
+
+                    bool CompositeTask::finished() const
+                    {
+                        if(mTasks.empty()) return true;
+
+                        TaskList::const_iterator it;
+                        for(it = mTasks.begin(); it != mTasks.end(); it++)
+                        {
+                            if(!it->second->finished()) return false;
+                        }
+                        if(it == mTasks.end()) return true;
+
+                        return false;
+                    }
+
                     boost::shared_ptr<messages::PlayerControlMessage> CompositeTask::process()
                     {
-                        boost::shared_ptr<Task> thistask = getNextTask();
-                        try
+                        boost::shared_ptr<Task> nexttask = getNextTask();
+                        if(nexttask->finished())
                         {
-                            boost::shared_ptr<messages::PlayerControlMessage> msg = thistask->process();
-                            return msg;
-                        }
-                        catch(const char* c)
-                        {
-                            // std::cerr << "CompositeTask::process: " << c;
                             deleteNextTask();
                             return process();
                         }
+                        boost::shared_ptr<messages::PlayerControlMessage> msg = nexttask->process();
+                        return msg;
                     }
                 }
             }

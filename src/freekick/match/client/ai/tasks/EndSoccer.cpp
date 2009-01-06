@@ -33,13 +33,8 @@ namespace freekick
                         : mMatchStatus(ms),
                           mPlayerID(id)
                     {
-                    }
-
-                    boost::shared_ptr<messages::PlayerControlMessage> EndSoccer::process()
-                    {
-                        using namespace messages;
-                        boost::shared_ptr<PlayerControlMessage> msg(new MovePlayerControlMessage(mPlayerID, addutil::Vector3(2, 2, 0)));
-                        return msg;
+                        boost::shared_ptr<GotoCabins> t(new GotoCabins(mMatchStatus, mPlayerID));
+                        addTask(t);
                     }
                 }
             }

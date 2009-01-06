@@ -49,7 +49,9 @@ namespace freekick
                         bool deleteNextTask();
                         boost::shared_ptr<Task> getNextTask() const;
                         boost::shared_ptr<Task> getTask(int id) const;
-                        boost::shared_ptr<messages::PlayerControlMessage> process();
+                        bool emptyTasks() const;
+                        virtual bool finished() const;
+                        virtual boost::shared_ptr<messages::PlayerControlMessage> process();
                     protected:
                         CompositeTask();
                     private:

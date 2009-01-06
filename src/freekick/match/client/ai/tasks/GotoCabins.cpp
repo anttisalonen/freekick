@@ -17,7 +17,7 @@
   Copyright Antti Salonen, 2008
 **************************************************************************/
 
-#include "tasks/GotoKickoffFormationPosition.h"
+#include "tasks/GotoCabins.h"
 
 namespace freekick 
 { 
@@ -29,41 +29,13 @@ namespace freekick
             {
                 namespace tasks
                 {
-                    GotoKickoffFormationPosition::GotoKickoffFormationPosition (boost::shared_ptr<MatchStatus> ms, int id)
+                    GotoCabins::GotoCabins (boost::shared_ptr<MatchStatus> ms, int id)
                         : mMatchStatus(ms),
                           mPlayerID(id)
                     {
-                        boost::shared_ptr<MatchPlayer> pl = mMatchStatus->getPlayer(mPlayerID);
                         BallOwner own = mMatchStatus->getPlayerClub(mPlayerID);
-                        PlayerPosition pp = pl->getPlayerPosition();
-                        bool issub = pl->isSubstitute();
-                        if(!issub)
-                        {
-                            switch(pp)
-                            {
-                                case Goalkeeper:
-                                    ownformationpos.x = 0.5f;
-                                    ownformationpos.z = 0.1f;
-                                    break;
-                                case Defender:
-                                    ownformationpos.x = 0.5f;
-                                    ownformationpos.z = 0.2f;
-                                    break;
-                                case Midfielder:
-                                    ownformationpos.x = 0.5f;
-                                    ownformationpos.z = 0.3f;
-                                    break;
-                                default:
-                                    ownformationpos.x = 0.5f;
-                                    ownformationpos.z = 0.4f;
-                                    break;
-                            }
-                        }
-                        else
-                        {
-                            ownformationpos.x = -0.1f;
-                            ownformationpos.z = 0.4f;
-                        }
+                        ownformationpos.x = -0.1f;
+                        ownformationpos.z = 0.4f;
                         if(own == Away)
                         {
                             ownformationpos.z = 1.0f - ownformationpos.z;
@@ -74,17 +46,17 @@ namespace freekick
                         ownformationpos.z *= pitchl;
                     }
 
-                    bool GotoKickoffFormationPosition::finished() const
+                    bool GotoCabins::finished() const
                     {
                         const BallState bs = mMatchStatus->getBallState();
-                        if(bs.bio_type != PreKickoff)
+                        if(bs.bio_type != HalfFullTime)
                         {
                             return true;
                         }
                         return false;
                     }
 
-                    boost::shared_ptr<messages::PlayerControlMessage> GotoKickoffFormationPosition::process()
+                    boost::shared_ptr<messages::PlayerControlMessage> GotoCabins::process()
                     {
                         boost::shared_ptr<MatchPlayer> pl = mMatchStatus->getPlayer(mPlayerID);
                         addutil::Vector3 ownpos = pl->getPosition();

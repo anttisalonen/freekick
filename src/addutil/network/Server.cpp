@@ -118,7 +118,13 @@ namespace addutil
             it = connections.find(id);
             if(it != connections.end())   // already gone?
             {
-                (*it).second->disconnect();
+                try
+                {
+                    (*it).second->disconnect();
+                }
+                catch(...)           // already gone
+                {
+                }
                 connections.erase(it);
             }
             if(!already_notified)

@@ -44,6 +44,7 @@ namespace freekick
                     {
                     public:
                         GotoKickoffFormationPosition(boost::shared_ptr<MatchStatus> ms, int id);
+                        bool finished() const;
                         boost::shared_ptr<messages::PlayerControlMessage> process();
                     private:
                         boost::shared_ptr<MatchStatus> mMatchStatus;

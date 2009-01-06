@@ -17,7 +17,7 @@
   Copyright Antti Salonen, 2008
 **************************************************************************/
 
-#include "tasks/Idle.h"
+#include "tasks/FetchBall.h"
 
 namespace freekick 
 { 
@@ -29,20 +29,27 @@ namespace freekick
             {
                 namespace tasks
                 {
-                    Idle::Idle (int id)
-                        : mPlayerID(id)
+                    FetchBall::FetchBall (boost::shared_ptr<MatchStatus> ms, int id)
+                        : mMatchStatus(ms),
+                          mPlayerID(id)
                     {
+                        mPlayer = mMatchStatus->getPlayer(mPlayerID);
                     }
 
-                    bool Idle::finished() const
+                    bool FetchBall::finished() const
                     {
                         return false;
                     }
 
-                    boost::shared_ptr<messages::PlayerControlMessage> Idle::process()
+                    boost::shared_ptr<messages::PlayerControlMessage> FetchBall::process()
                     {
-                        addutil::Vector3 gotovec;
-                        // std::cout << "Idling\n";
+                        addutil::Vector3 ownpos = mPlayer->getPosition();
+                        addutil::Vector3 ballpos = mMatchStatus->getBall()->getPosition();
+                        addutil::Vector3 gotovec = ballpos - ownpos;
+                        gotovec.normalize();
+                        gotovec *= 10.0f;
+                        gotovec.y = 0.0f;
+
                         using namespace messages;
                         return boost::shared_ptr<MovePlayerControlMessage>(new MovePlayerControlMessage(mPlayerID, gotovec));
                     }

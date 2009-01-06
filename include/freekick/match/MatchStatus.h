@@ -68,6 +68,7 @@ namespace freekick
 
             boost::shared_ptr<MatchBall> mBall;
             std::map <int, boost::shared_ptr<MatchPlayer> > mPlayers;
+            // Note: if you add another container (for referee etc.) here, remember to update MatchStatus::update() function
 
             unsigned int score_home;
             unsigned int score_away;
