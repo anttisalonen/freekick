@@ -35,6 +35,7 @@
 #include "Player.h"
 #include "Kit.h"
 #include "Lineup.h"
+#include "Formation.h"
 
 /**
  * class Club
@@ -49,9 +50,6 @@ namespace freekick
         class Club
         {
         public:
-            /**
-             * @param  name
-             */
             Club (const std::string& _name);
             const std::string& getName() const;
             int getNumberOfPlayers() const;
@@ -62,7 +60,8 @@ namespace freekick
             void getPlayers(std::set<boost::shared_ptr<Player> >& pls) const;
             void getPlayerIDs(std::vector<int>& ids) const;
             void getPlayerIDs(std::set<int>& ids) const;
-            const Lineup& getLineup() const;
+            const boost::shared_ptr<Lineup>& getLineup() const;
+            const boost::shared_ptr<Formation>& getFormation() const;
             void setupStandardLineup();
             PlayerPosition getPlayerPosition(int i) const;
 
@@ -70,7 +69,8 @@ namespace freekick
             std::string name;
             std::map <int, boost::shared_ptr<Player> > players;
             std::vector <Kit> kits;
-            Lineup lineup;
+            boost::shared_ptr<Lineup> lineup;
+            boost::shared_ptr<Formation> mFormation;
 
             friend class boost::serialization::access;
             template<class Archive>

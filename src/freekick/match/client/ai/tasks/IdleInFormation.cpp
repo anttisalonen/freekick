@@ -17,7 +17,7 @@
   Copyright Antti Salonen, 2008
 **************************************************************************/
 
-#include "tasks/GotoCabins.h"
+#include "tasks/IdleInFormation.h"
 
 namespace freekick 
 { 
@@ -29,38 +29,25 @@ namespace freekick
             {
                 namespace tasks
                 {
-                    GotoCabins::GotoCabins (boost::shared_ptr<MatchStatus> ms, int id)
+                    IdleInFormation::IdleInFormation (const boost::shared_ptr<MatchStatus>& ms, int id, const addutil::Vector3& form)
                         : mMatchStatus(ms),
-                          mPlayerID(id)
+                          mPlayerID(id),
+                          mTarget(form)
                     {
-                        BallOwner own = mMatchStatus->getPlayerSide(mPlayerID);
-                        ownformationpos.x = -0.1f;
-                        ownformationpos.z = 0.4f;
-                        if(own == Away)
-                        {
-                            ownformationpos.z = 1.0f - ownformationpos.z;
-                        }
-                        float pitchw = mMatchStatus->getMatchData()->getStadium()->getPitch()->getWidth();
-                        float pitchl = mMatchStatus->getMatchData()->getStadium()->getPitch()->getLength();
-                        ownformationpos.x *= pitchw;
-                        ownformationpos.z *= pitchl;
+                        mPlayer = mMatchStatus->getPlayer(mPlayerID);
                     }
 
-                    bool GotoCabins::finished() const
+                    bool IdleInFormation::finished() const
                     {
-                        const BallState bs = mMatchStatus->getBallState();
-                        if(bs.bio_type != HalfFullTime)
-                        {
-                            return true;
-                        }
+                        // return true;
+                        // float len = (mPlayer->getPosition() - mTarget).length();
+                        // if(len < 5.0f) return true;
                         return false;
                     }
 
-                    boost::shared_ptr<messages::PlayerControlMessage> GotoCabins::process()
+                    boost::shared_ptr<messages::PlayerControlMessage> IdleInFormation::process()
                     {
-                        boost::shared_ptr<MatchPlayer> pl = mMatchStatus->getPlayer(mPlayerID);
-                        addutil::Vector3 ownpos = pl->getPosition();
-                        addutil::Vector3 gotovec = ownformationpos - ownpos;
+                        addutil::Vector3 gotovec = mTarget - mPlayer->getPosition();
                         if(gotovec.length() < 1.0f) gotovec.reset();
                         gotovec.y = 0.0f;
 

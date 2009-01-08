@@ -48,20 +48,45 @@ namespace freekick
 
                     boost::shared_ptr<messages::PlayerControlMessage> PlaySoccer::process()
                     {
-                        if(emptyTasks())
+                        BallOwner b = mMatchStatus->getPlayerSide(mPlayerID);
+                        int nearestown = mMatchStatus->nearestPlayerFromClubToBall(b);
+
+                        bool issub = mPlayer->isSubstitute();
+                        if(issub)
                         {
-                            bool issub = mPlayer->isSubstitute();
-                            if(issub)
+                            if(emptyTasks())
                             {
                                 boost::shared_ptr<Idle> t(new Idle(mPlayerID));
                                 addTask(t);
                             }
-                            else
+                        }
+                        else
+                        {
+                            if(!emptyTasks())
+                            {
+                                clearTasks();
+                            }
+
+                            if(nearestown == mPlayerID)
                             {
                                 boost::shared_ptr<FetchBall> t(new FetchBall(mMatchStatus, mPlayerID));
                                 addTask(t);
                             }
+                            else
+                            {
+                                const boost::shared_ptr<Formation> f = mMatchStatus->getPlayerClub(mPlayerID)->getFormation();
+                                addutil::Vector3 tgt = f->getPlayerArea(mPlayerID).getCenter();
+                                if(b == Away)
+                                {
+                                    tgt.z = 1.0f - tgt.z;
+                                }
+                                tgt.x *= mMatchStatus->getPitchWidth();
+                                tgt.z *= mMatchStatus->getPitchLength();
+                                boost::shared_ptr<IdleInFormation> t(new IdleInFormation(mMatchStatus, mPlayerID, tgt));
+                                addTask(t);
+                            }
                         }
+
                         boost::shared_ptr<Task> nexttask = getNextTask();
                         if(nexttask->finished())
                         {

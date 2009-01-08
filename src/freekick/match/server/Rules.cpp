@@ -36,10 +36,10 @@ namespace freekick
             {
                 mPhysics->subscribe(*this);
 
-                players[0]     = mMatchStatus->getMatchData()->getHomeClub()->getLineup().getPitchPlayerIDs();
-                substitutes[0] = mMatchStatus->getMatchData()->getHomeClub()->getLineup().getSubstituteIDs();
-                players[1]     = mMatchStatus->getMatchData()->getAwayClub()->getLineup().getPitchPlayerIDs();
-                substitutes[1] = mMatchStatus->getMatchData()->getAwayClub()->getLineup().getSubstituteIDs();
+                players[0]     = mMatchStatus->getMatchData()->getHomeClub()->getLineup()->getPitchPlayerIDs();
+                substitutes[0] = mMatchStatus->getMatchData()->getHomeClub()->getLineup()->getSubstituteIDs();
+                players[1]     = mMatchStatus->getMatchData()->getAwayClub()->getLineup()->getPitchPlayerIDs();
+                substitutes[1] = mMatchStatus->getMatchData()->getAwayClub()->getLineup()->getSubstituteIDs();
 
                 last_update_time = boost::posix_time::microsec_clock::local_time();
             }
@@ -63,7 +63,7 @@ namespace freekick
                 {
                     try
                     {
-                        BallOwner b = mMatchStatus->getPlayerClub(oit->getOwnerID());
+                        BallOwner b = mMatchStatus->getPlayerSide(oit->getOwnerID());
                         if(mBallState.bio_type == BallIn)
                         {
                             if(b != mBallState.owner)
@@ -217,6 +217,15 @@ namespace freekick
                                     mBallState.bio_type = BallIn;
                                 }
                             }
+                        }
+                    }
+                    else if (mBallState.bio_type == Throwin)
+                    {
+                        if(ball_touched)
+                        {
+                            new_ball_status = true;
+                            mBallState.blocked_play = false;
+                            mBallState.bio_type = BallIn;
                         }
                     }
                 }

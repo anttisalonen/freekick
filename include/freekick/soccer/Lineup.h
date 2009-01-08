@@ -60,6 +60,8 @@ namespace freekick
             PlayerMap pitchplayers;
             PlayerMap substitutes;
         };
+
+        void playersInPlayerMap(const PlayerMap& pm, int& gk, int& def, int& midf, int& forw);
     }
 }
 

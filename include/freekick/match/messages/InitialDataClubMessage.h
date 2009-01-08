@@ -129,10 +129,10 @@ namespace freekick
 
                     for(int i = 0; i < 2; i++)
                     {
-                        Lineup l = clubs[i]->getLineup();
+                        boost::shared_ptr<Lineup> l = clubs[i]->getLineup();
                         BOOST_FOREACH(boost::shared_ptr<Player> pp, pllists[i])
                         {
-                            PlayerInLineup st = l.playerInLineup(pp->getID());
+                            PlayerInLineup st = l->playerInLineup(pp->getID());
                             if(st == NotPlaying)
                                 continue;
 

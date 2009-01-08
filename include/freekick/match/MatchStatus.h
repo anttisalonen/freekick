@@ -47,6 +47,8 @@ namespace freekick
     namespace match
     {
         using namespace soccer;
+        typedef std::map <int, boost::shared_ptr<MatchPlayer> > MatchPlayerMap;
+
         class MatchStatus
         {
         public:
@@ -61,14 +63,19 @@ namespace freekick
             boost::shared_ptr<MatchPlayer> getPlayer(int id) const;
             boost::shared_ptr<MatchBall> getBall() const;
             const BallState& getBallState() const;
-            BallOwner getPlayerClub(int id) const;
+            BallOwner getPlayerSide(int id) const;
+            boost::shared_ptr<Club> getPlayerClub(int id) const;
             addutil::Vector3 getCentreSpot() const;
+            int nearestPlayerToBall() const;
+            int nearestPlayerFromClubToBall(BallOwner b) const;
+            float getPitchWidth() const;
+            float getPitchLength() const;
 
         private:
             const boost::shared_ptr<MatchData> mMatchData;
 
             boost::shared_ptr<MatchBall> mBall;
-            std::map <int, boost::shared_ptr<MatchPlayer> > mPlayers;
+            MatchPlayerMap mPlayers;
             // Note: if you add another container (for referee etc.) here, remember to update MatchStatus::update() function
 
             unsigned int score_home;

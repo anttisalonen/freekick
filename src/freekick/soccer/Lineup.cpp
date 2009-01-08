@@ -105,5 +105,22 @@ namespace freekick
             pitchplayers.clear();
             substitutes.clear();
         }
+
+        void playersInPlayerMap(const PlayerMap& pm, int& gk, int& def, int& midf, int& forw)
+        {
+            gk = def = midf = forw = 0;
+            PlayerMap::const_iterator it;
+            for(it = pm.begin(); it != pm.end(); it++)
+            {
+                switch(it->first)
+                {
+                    case Goalkeeper: gk++;   break;
+                    case Defender:   def++;  break;
+                    case Midfielder: midf++; break;
+                    case Forward:    forw++; break;
+                    default: break;
+                }
+            }
+        }
     }
 }

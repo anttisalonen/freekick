@@ -89,6 +89,10 @@ int main(int argc, char** argv)
     {
         std::cerr << "An exception has occurred: " << e << std::endl;
     }
+    catch (const char* e)
+    {
+        std::cerr << "An exception has occurred: " << e << std::endl;
+    }
     catch (...)
     {
         std::cerr << "Unknown exception has occurred." << std::endl;

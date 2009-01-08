@@ -18,19 +18,20 @@
 **************************************************************************/
 
 
-#ifndef FREEKICKCOMPOSITETASK_H
-#define FREEKICKCOMPOSITETASK_H
-
-#include <map>
+#ifndef FREEKICKTASKSIDLEINFORMATION_H
+#define FREEKICKTASKSIDLEINFORMATION_H
 
 #include <boost/shared_ptr.hpp>
 
-#include "messages/PlayerControlMessage.h"
+#include "addutil/Vector3.h"
 
-#include "tasks/Task.h"
+#include "MatchStatus.h"
+#include "messages/MovePlayerControlMessage.h"
 
-namespace freekick
-{
+#include "tasks/AtomicTask.h"
+
+namespace freekick 
+{ 
     namespace match
     {
         namespace client
@@ -39,25 +40,17 @@ namespace freekick
             {
                 namespace tasks
                 {
-                    typedef std::map<int, boost::shared_ptr<Task> > TaskList;
-                    class CompositeTask : public Task
+                    class IdleInFormation : public AtomicTask
                     {
                     public:
-                        virtual ~CompositeTask() { }
-                        int addTask(const boost::shared_ptr<Task>& t);
-                        bool deleteTask(int id);
-                        bool deleteNextTask();
-                        void clearTasks();
-                        boost::shared_ptr<Task> getNextTask() const;
-                        boost::shared_ptr<Task> getTask(int id) const;
-                        bool emptyTasks() const;
-                        virtual bool finished() const;
-                        virtual boost::shared_ptr<messages::PlayerControlMessage> process();
-                    protected:
-                        CompositeTask();
+                        IdleInFormation(const boost::shared_ptr<MatchStatus>& ms, int id, const addutil::Vector3& form);
+                        bool finished() const;
+                        boost::shared_ptr<messages::PlayerControlMessage> process();
                     private:
-                        int nextid;
-                        TaskList mTasks;
+                        boost::shared_ptr<MatchStatus> mMatchStatus;
+                        int mPlayerID;
+                        addutil::Vector3 mTarget;
+                        boost::shared_ptr<MatchPlayer> mPlayer;
                     };
                 }
             }

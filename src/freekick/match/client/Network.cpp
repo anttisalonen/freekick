@@ -151,6 +151,8 @@ namespace freekick
                                 boost::shared_ptr<Club> c1, c2;
                                 idm.getClub(true, c1);
                                 idm.getClub(false, c2);
+                                c1->setupStandardLineup();
+                                c2->setupStandardLineup();
                                 boost::shared_ptr<Stadium> stad(new Stadium());
 
                                 boost::shared_ptr<MatchData> md(new MatchData(c1, c2, stad));

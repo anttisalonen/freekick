@@ -28,7 +28,9 @@ namespace freekick
  * @param  name
  */
         Club::Club (const std::string& _name ) 
-            : name(_name)
+            : name(_name),
+              lineup(new Lineup()),
+              mFormation(new Formation())
         {
         }
 
@@ -50,7 +52,7 @@ namespace freekick
             {
                 bool sub = (st == Substitute);
                 PlayerPosition pp = p->getPlayerPosition();
-                lineup.addPlayer(id, pp, sub);
+                lineup->addPlayer(id, pp, sub);
             }
         }
 
@@ -111,14 +113,19 @@ namespace freekick
             }
         }
 
-        const Lineup& Club::getLineup() const
+        const boost::shared_ptr<Lineup>& Club::getLineup() const
         {
             return lineup;
         }
 
+        const boost::shared_ptr<Formation>& Club::getFormation() const
+        {
+            return mFormation;
+        }
+
         void Club::setupStandardLineup()
         {
-            lineup.clear();
+            lineup->clear();
             typedef std::pair<int, boost::shared_ptr<Player> > pair_pl;
             int gk = 0, df = 0, mf = 0, fw = 0;
             int substitutes = 0;
@@ -156,13 +163,15 @@ namespace freekick
                     substitutes++;
                     if(substitutes >= 6) continue;
                 }
-                lineup.addPlayer(p.second->getID(), pp, substitute);
+                lineup->addPlayer(p.second->getID(), pp, substitute);
             }
+
+            mFormation->updateLineup(lineup);
         }
-        
+
         PlayerPosition Club::getPlayerPosition(int i) const
         {
-            return lineup.getPlayerPosition(i);
+            return lineup->getPlayerPosition(i);
         }
     }
 }

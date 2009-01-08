@@ -40,14 +40,14 @@ namespace freekick
             BOOST_FOREACH(boost::shared_ptr<Player> p, c1pls)
             {
                 int i = p->getID();
-                PlayerInLineup pil = c1->getLineup().playerInLineup(i);
+                PlayerInLineup pil = c1->getLineup()->playerInLineup(i);
                 bool subst = (pil == Substitute);
                 mPlayers[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p, subst));
             }
             BOOST_FOREACH(boost::shared_ptr<Player> p, c2pls)
             {
                 int i = p->getID();
-                PlayerInLineup pil = c2->getLineup().playerInLineup(i);
+                PlayerInLineup pil = c2->getLineup()->playerInLineup(i);
                 bool subst = (pil == Substitute);
                 mPlayers[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p, subst));
             }
@@ -137,7 +137,7 @@ namespace freekick
             return mBallState;
         }
 
-        BallOwner MatchStatus::getPlayerClub(int id) const
+        BallOwner MatchStatus::getPlayerSide(int id) const
         {
             boost::shared_ptr<Club> c1 = mMatchData->getHomeClub();
             boost::shared_ptr<Club> c2 = mMatchData->getAwayClub();
@@ -156,7 +156,16 @@ namespace freekick
                 if(idsit != ids2.end())
                     return Away;
             }
-            throw "MatchStatus::getPlayerClub: player ID not found in matchstatus!";
+            throw "MatchStatus::getPlayerSide: player ID not found in matchstatus!";
+        }
+
+        boost::shared_ptr<Club> MatchStatus::getPlayerClub(int id) const
+        {
+            if(getPlayerSide(id) == Home)
+            {
+                return mMatchData->getHomeClub();
+            }
+            return mMatchData->getAwayClub();
         }
 
         addutil::Vector3 MatchStatus::getCentreSpot() const
@@ -166,6 +175,75 @@ namespace freekick
             float middle_x = pwidth / 2.0f;
             float middle_z = plength / 2.0f;
             return addutil::Vector3(middle_x, 0.0f, middle_z);
+        }
+
+        int MatchStatus::nearestPlayerToBall() const
+        {
+            MatchPlayerMap::const_iterator it;
+            float min_length = 100000.0f;
+            int plid = 0;
+            for(it = mPlayers.begin(); it != mPlayers.end(); it++)
+            {
+                if(it->second->isSubstitute()) continue;
+                Vector3 v = it->second->getPosition() - mBall->getPosition();
+                float this_length = v.length();
+                if(this_length < min_length)
+                {
+                    min_length = this_length;
+                    plid = it->first;
+                }
+            }
+            return plid;
+        }
+
+        int MatchStatus::nearestPlayerFromClubToBall(BallOwner b) const
+        {
+            boost::shared_ptr<Club> c1 = mMatchData->getHomeClub();
+            boost::shared_ptr<Club> c2 = mMatchData->getAwayClub();
+            std::set<int> ids1;
+            c1->getPlayerIDs(ids1);
+            std::set<int> ids2;
+            c2->getPlayerIDs(ids2);
+
+            MatchPlayerMap::const_iterator it;
+            float min_length = 100000.0f;
+            int plid = 0;
+            for(it = mPlayers.begin(); it != mPlayers.end(); it++)
+            {
+                if(it->second->isSubstitute()) continue;
+
+                std::set<int>::const_iterator idsit;
+                if(b == Home)
+                {
+                    idsit = ids1.find(it->first);
+                    if(idsit == ids1.end())
+                        continue;
+                }
+                else
+                {
+                    idsit = ids2.find(it->first);
+                    if(idsit == ids2.end())
+                        continue;
+                }
+
+                float this_length = (it->second->getPosition() - mBall->getPosition()).length();
+                if(this_length < min_length)
+                {
+                    min_length = this_length;
+                    plid = it->first;
+                }
+            }
+            return plid;
+        }
+
+        float MatchStatus::getPitchWidth() const
+        {
+            return mMatchData->getStadium()->getPitch()->getWidth();
+        }
+
+        float MatchStatus::getPitchLength() const
+        {
+            return mMatchData->getStadium()->getPitch()->getLength();
         }
     }
 }

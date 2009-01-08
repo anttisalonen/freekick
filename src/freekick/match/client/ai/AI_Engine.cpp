@@ -33,10 +33,10 @@ namespace freekick
                 {
                     boost::array<std::vector<int>, 4> pls;
                     std::set<int> allplids;
-                    pls[0] = mMatchStatus->getMatchData()->getHomeClub()->getLineup().getPitchPlayerIDs();
-                    pls[1] = mMatchStatus->getMatchData()->getHomeClub()->getLineup().getSubstituteIDs();
-                    pls[2] = mMatchStatus->getMatchData()->getAwayClub()->getLineup().getPitchPlayerIDs();
-                    pls[3] = mMatchStatus->getMatchData()->getAwayClub()->getLineup().getSubstituteIDs();
+                    pls[0] = mMatchStatus->getMatchData()->getHomeClub()->getLineup()->getPitchPlayerIDs();
+                    pls[1] = mMatchStatus->getMatchData()->getHomeClub()->getLineup()->getSubstituteIDs();
+                    pls[2] = mMatchStatus->getMatchData()->getAwayClub()->getLineup()->getPitchPlayerIDs();
+                    pls[3] = mMatchStatus->getMatchData()->getAwayClub()->getLineup()->getSubstituteIDs();
                     BOOST_FOREACH(std::vector<int> v, pls)
                     {
                         BOOST_FOREACH(int i, v)
@@ -66,8 +66,9 @@ namespace freekick
                                 boost::shared_ptr<messages::Message> m = it->act();
                                 msgs.push_back(m);
                             }
-                            catch(...)
+                            catch(const char* e)
                             {
+                                std::cerr << "AI_Engine::run: Error when acting: " << e << std::endl;
                                 // No action from AI -> ignore
                             }
                         }

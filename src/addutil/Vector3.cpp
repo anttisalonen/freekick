@@ -83,7 +83,7 @@ namespace addutil
         return *this;
     }
 
-    Vector3 Vector3::operator+(Vector3 a)
+    Vector3 Vector3::operator+(Vector3 a) const
     {
         Vector3 r(x + a.x, y + a.y, z + a.z);
         return r;
@@ -97,7 +97,7 @@ namespace addutil
         return *this;
     }
 
-    Vector3 Vector3::operator-(Vector3 a)
+    Vector3 Vector3::operator-(Vector3 a) const
     {
         Vector3 r(x - a.x, y - a.y, z - a.z);
         return r;
@@ -111,7 +111,7 @@ namespace addutil
         return *this;
     }
 
-    Vector3 Vector3::operator*(float s)
+    Vector3 Vector3::operator*(float s) const
     {
         Vector3 r(x * s, y * s, z * s);
         return r;

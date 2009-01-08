@@ -57,6 +57,11 @@ namespace freekick
                         return true;
                     }
 
+                    void CompositeTask::clearTasks()
+                    {
+                        mTasks.clear();
+                    }
+
                     boost::shared_ptr<Task> CompositeTask::getNextTask() const
                     {
                         if(mTasks.empty()) throw "CompositeTask::getNextTask: no mTasks\n";

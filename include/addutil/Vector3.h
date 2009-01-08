@@ -47,11 +47,11 @@ namespace addutil
         Vector3 (float _x, float _y, float _z );
 
         Vector3& operator+=(Vector3 a);
-        Vector3 operator+(Vector3 a);
+        Vector3 operator+(Vector3 a) const;
         Vector3& operator-=(Vector3 a);
-        Vector3 operator-(Vector3 a);
+        Vector3 operator-(Vector3 a) const;
         Vector3& operator*=(float s);
-        Vector3 operator*(float s);
+        Vector3 operator*(float s) const;
 
         void normalize();
         float length() const;
