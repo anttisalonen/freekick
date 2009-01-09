@@ -19,25 +19,26 @@
 **************************************************************************/
 
 
-#ifndef GRAPHICSUPDATER_H
-#define GRAPHICSUPDATER_H
+#ifndef INPUT_H
+#define INPUT_H
 
-#include <iostream>
-#include <vector>
-#include <map>
+#include <string>
 
-#include <boost/foreach.hpp>
 #include <boost/shared_ptr.hpp>
 
 #include <Ogre.h>
 
+#include <OIS/OIS.h>
+
+#include "addutil/Entity.h"
+
+#include "Configuration.h"
 #include "MatchStatus.h"
-#include "Color.h"
-#include "DynamicEntity.h"
-#include "MatchPlayer.h"
+#include "Network.h"
+#include "InputHandler.h"
 
 /**
- * class GraphicsUpdater
+ * class Input
  */
 
 namespace freekick
@@ -48,25 +49,29 @@ namespace freekick
         {
             namespace cl_ogre
             {
-                class GraphicsUpdater : public Ogre::FrameListener
+                class Input
                 {
                 public:
-                    GraphicsUpdater(MatchStatus* s);
-                    virtual ~GraphicsUpdater();
-                    bool frameStarted(const Ogre::FrameEvent& evt);
-                    void setSceneManager(Ogre::SceneManager* s);
+
+                    Input (Configuration* conf, MatchStatus* stat, Network* netw );
+                    ~Input();
+                    boost::shared_ptr<InputConfiguration>& getInputConfiguration ( ) const;
+                    void setCameraPos(float x, float y, float z);
+                    void setupInputSystem(const std::string& windowhnd, unsigned int width, unsigned int height, Ogre::SceneNode* n);
+                    void setCamera(Ogre::SceneNode* n);
+                    Ogre::FrameListener* getFrameListener();
 
                 private:
-                    MatchStatus* status;
-                    Ogre::SceneManager* smgr;
-                    std::map <int, Ogre::Entity* > entitymap;
 
-                    bool updateOgreNode(boost::shared_ptr<DynamicEntity> d);
-                    bool updateOgreNode(std::pair<const int, boost::shared_ptr<MatchPlayer> > d);
+                    Configuration* configuration;
+                    MatchStatus* status;
+                    Network* network;
+                    InputHandler* inputhandler;
+
                 };
             }
         }
     }
 }
 
-#endif // GRAPHICSUPDATER_H
+#endif // INPUT_H

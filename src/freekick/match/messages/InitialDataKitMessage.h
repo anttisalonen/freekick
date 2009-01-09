@@ -26,7 +26,7 @@
 
 #include <boost/foreach.hpp>
 
-#include "Color.h"
+#include "addutil/Color.h"
 
 #include "Kit.h"
 

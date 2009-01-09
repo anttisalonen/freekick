@@ -19,25 +19,26 @@
 **************************************************************************/
 
 
-#ifndef INPUT_H
-#define INPUT_H
+#ifndef GRAPHICSUPDATER_H
+#define GRAPHICSUPDATER_H
 
-#include <string>
+#include <iostream>
+#include <vector>
+#include <map>
 
+#include <boost/foreach.hpp>
 #include <boost/shared_ptr.hpp>
 
 #include <Ogre.h>
 
-#include <OIS/OIS.h>
+#include "addutil/Color.h"
+#include "addutil/DynamicEntity.h"
 
-#include "Configuration.h"
 #include "MatchStatus.h"
-#include "Network.h"
-#include "InputHandler.h"
-#include "Entity.h"
+#include "MatchPlayer.h"
 
 /**
- * class Input
+ * class GraphicsUpdater
  */
 
 namespace freekick
@@ -48,29 +49,25 @@ namespace freekick
         {
             namespace cl_ogre
             {
-                class Input
+                class GraphicsUpdater : public Ogre::FrameListener
                 {
                 public:
-
-                    Input (Configuration* conf, MatchStatus* stat, Network* netw );
-                    ~Input();
-                    boost::shared_ptr<InputConfiguration>& getInputConfiguration ( ) const;
-                    void setCameraPos(float x, float y, float z);
-                    void setupInputSystem(const std::string& windowhnd, unsigned int width, unsigned int height, Ogre::SceneNode* n);
-                    void setCamera(Ogre::SceneNode* n);
-                    Ogre::FrameListener* getFrameListener();
+                    GraphicsUpdater(MatchStatus* s);
+                    virtual ~GraphicsUpdater();
+                    bool frameStarted(const Ogre::FrameEvent& evt);
+                    void setSceneManager(Ogre::SceneManager* s);
 
                 private:
-
-                    Configuration* configuration;
                     MatchStatus* status;
-                    Network* network;
-                    InputHandler* inputhandler;
+                    Ogre::SceneManager* smgr;
+                    std::map <int, Ogre::Entity* > entitymap;
 
+                    bool updateOgreNode(boost::shared_ptr<DynamicEntity> d);
+                    bool updateOgreNode(std::pair<const int, boost::shared_ptr<MatchPlayer> > d);
                 };
             }
         }
     }
 }
 
-#endif // INPUT_H
+#endif // GRAPHICSUPDATER_H

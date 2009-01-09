@@ -15,38 +15,47 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on Sa Nov 22 2008 at 11:40:55
+  This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
 
-#ifndef FREEKICKMOTIONSTATE_H
-#define FREEKICKMOTIONSTATE_H
+#ifndef STADIUM_H
+#define STADIUM_H
 
-#include "btBulletDynamicsCommon.h"
+#include <string>
 
-#include "DynamicEntity.h"
+#include <boost/serialization/serialization.hpp>
+#include <boost/shared_ptr.hpp>
 
-#include "PhysicsEngine.h"
+#include "addutil/Color.h"
+
+#include "Pitch.h"
+
+/**
+ * class Stadium
+ */
 
 namespace freekick
 {
-    namespace match
+    namespace soccer
     {
-        class FreekickMotionState : public btMotionState, public addutil::DynamicEntity
+        class Stadium
         {
         public:
-            FreekickMotionState(const btTransform& initialpos, PhysicsEngine* pe, const ObjectID id);
-            virtual ~FreekickMotionState();
-            virtual void getWorldTransform(btTransform &worldTrans) const;
-            virtual void setWorldTransform(const btTransform &worldTrans);
-            const int getID() const;
+            Stadium (float pitchwidth = 70.0f, float pitchlength = 100.0f);
+            const boost::shared_ptr<Pitch> getPitch() const;
 
         private:
-            PhysicsEngine* mPhysicsEngine;
-            btTransform mPos1;
-            ObjectID mId; 
+            boost::shared_ptr<Pitch> mPitch;
+
+            friend class boost::serialization::access;
+            template<class Archive>
+                void serialize(Archive & ar, const unsigned int version)
+            {
+                ar & mPitch;
+            }
         };
     }
 }
 
-#endif
+#endif // STADIUM_H

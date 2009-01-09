@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "Vector3.h"
+#include "addutil/Vector3.h"
 
 #include "ClientInitMessage.h"
 #include "ServerInitMessage.h"

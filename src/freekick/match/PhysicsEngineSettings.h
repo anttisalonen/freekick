@@ -15,50 +15,30 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
 
-#ifndef MATCHBALL_H
-#define MATCHBALL_H
+#ifndef PHYSICSENGINESETTINGS_H
+#define PHYSICSENGINESETTINGS_H
 
-#include <boost/shared_ptr.hpp>
-#include <boost/serialization/base_object.hpp>
-
-#include "DynamicEntity.h"
-#include "Ball.h"
-
-#include "MatchIDs.h"
-
-/**
- * class Ball
- */
+#include "addutil/Vector3.h"
 
 namespace freekick
 {
     namespace match
     {
-        class MatchBall : public addutil::DynamicEntity, public freekick::soccer::Ball
+        class PhysicsEngineSettings
         {
         public:
+            PhysicsEngineSettings(addutil::Vector3 _gravity, addutil::Vector3 _wind = addutil::Vector3(), float _air_viscosity = 0.0f, float _restitution = 0.0f);
+            virtual ~PhysicsEngineSettings() { }
 
-            /**
-             * @param  _mass
-             */
-            MatchBall (const Ball& b);
-            const int getID() const { return BallID; }
-
-        private:
-
-            friend class boost::serialization::access;
-            template<class Archive>
-                void serialize(Archive & ar, const unsigned int version)
-            {
-                ar & boost::serialization::base_object<addutil::DynamicEntity>(*this);
-                ar & boost::serialization::base_object<freekick::soccer::Ball>(*this);
-            }
+            addutil::Vector3 gravity;
+            addutil::Vector3 wind;
+            float air_viscosity;
+            float restitution_coefficient;
         };
     }
 }
 
-#endif // MATCHBALL_H
+#endif

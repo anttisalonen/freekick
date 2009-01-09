@@ -27,7 +27,7 @@
 
 #include <boost/shared_ptr.hpp>
 
-#include "Vector3.h"
+#include "addutil/Vector3.h"
 
 #include "MatchStatus.h"
 #include "messages/MovePlayerControlMessage.h"

@@ -15,60 +15,48 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
 
-#ifndef KIT_H
-#define KIT_H
+#ifndef MATCHSTADIUM_H
+#define MATCHSTADIUM_H
 
 #include <string>
-#include <vector>
 
-#include <boost/array.hpp>
-#include <boost/serialization/vector.hpp>
-#include <boost/serialization/string.hpp>
+#include <boost/serialization/base_object.hpp>
 
-#include "Color.h"
+#include "addutil/StaticEntity.h"
+
+#include "Stadium.h"
+#include "MatchIDs.h"
 
 /**
- * class Kit
+ * class Stadium
  */
 
 namespace freekick
 {
-    namespace soccer
+    namespace match
     {
-        using addutil::Color;
-        class Kit
+        class MatchStadium : public freekick::soccer::Stadium, public addutil::StaticEntity
         {
         public:
-            Kit (int jtype, const Color& jcolor1, const Color& jcolor2, const Color& shortscol, const Color& sockscol );
-            int getJerseyType() const;
-            void getFirstJerseyColor(Color& c) const;
-            void getSecondJerseyColor(Color& c) const;
-            void getShortsColor(Color& c) const;
-            void getSocksColor(Color& c) const;
+
+            MatchStadium (const Stadium& s);
+            const int getID() const { return StadiumID; }
 
         private:
-            int jerseytype;
-            boost::array<Color, 2> jerseycolors;
-            std::string jerseypic;
-            Color shortscolor;
-            Color sockscolor;
 
             friend class boost::serialization::access;
             template<class Archive>
                 void serialize(Archive & ar, const unsigned int version)
             {
-                ar & jerseytype;
-                ar & jerseycolors;
-                ar & jerseypic;
-                ar & shortscolor;
-                ar & sockscolor;
+                ar & boost::serialization::base_object<freekick::soccer::Stadium>(*this);
+                ar & boost::serialization::base_object<addutil::StaticEntity>(*this);
+                ar & StadiumID;
             }
         };
     }
 }
 
-#endif // KIT_H
+#endif // MATCHSTADIUM_H

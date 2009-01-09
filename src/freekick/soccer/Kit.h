@@ -15,69 +15,60 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
+  This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
 
-#ifndef PLAYER_H
-#define PLAYER_H
+#ifndef KIT_H
+#define KIT_H
 
 #include <string>
+#include <vector>
 
-#include <boost/serialization/base_object.hpp>
+#include <boost/array.hpp>
+#include <boost/serialization/vector.hpp>
+#include <boost/serialization/string.hpp>
 
-#include "Human.h"
-#include "Color.h"
+#include "addutil/Color.h"
 
 /**
- * class Player
+ * class Kit
  */
 
 namespace freekick
 {
     namespace soccer
     {
-        enum PlayerPosition
-        {
-            Goalkeeper,
-            Defender,
-            Midfielder,
-            Forward
-        };
-
-        class Player : public addutil::Human
+        using addutil::Color;
+        class Kit
         {
         public:
-
-            // Constructors/Destructors
-            //  
-
-            /**
-             * @param  name
-             * @param  num
-             */
-            Player (const std::string& _name, int num, unsigned int _idnumber, PlayerPosition pos);
-            unsigned int getID() const;
-            int getNumber() const;
-            PlayerPosition getPlayerPosition() const;
+            Kit (int jtype, const Color& jcolor1, const Color& jcolor2, const Color& shortscol, const Color& sockscol );
+            int getJerseyType() const;
+            void getFirstJerseyColor(Color& c) const;
+            void getSecondJerseyColor(Color& c) const;
+            void getShortsColor(Color& c) const;
+            void getSocksColor(Color& c) const;
 
         private:
-
-            int number;
-            const unsigned int idnumber;
-            PlayerPosition position;
+            int jerseytype;
+            boost::array<Color, 2> jerseycolors;
+            std::string jerseypic;
+            Color shortscolor;
+            Color sockscolor;
 
             friend class boost::serialization::access;
             template<class Archive>
                 void serialize(Archive & ar, const unsigned int version)
             {
-                ar & boost::serialization::base_object<Human>(*this);
-                ar & number;
-                ar & idnumber;
+                ar & jerseytype;
+                ar & jerseycolors;
+                ar & jerseypic;
+                ar & shortscolor;
+                ar & sockscolor;
             }
         };
-
-        PlayerPosition IntToPlayerPosition(int i);
     }
 }
 
-#endif // PLAYER_H
+#endif // KIT_H

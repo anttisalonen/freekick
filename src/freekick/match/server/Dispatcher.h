@@ -28,8 +28,8 @@
 #include <boost/date_time/posix_time/posix_time.hpp>
 
 #include "addutil/network/Server.h"
-#include "Reader.h"
-#include "Color.h"
+#include "addutil/Reader.h"
+#include "addutil/Color.h"
 
 #include "freekick/match/Client.h"
 #include "Physics.h"

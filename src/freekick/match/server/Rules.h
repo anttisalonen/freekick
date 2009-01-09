@@ -28,9 +28,9 @@
 #include <boost/array.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
 
-#include "Publisher.h"
-#include "Reader.h"
-#include "Vector3.h"
+#include "addutil/Publisher.h"
+#include "addutil/Reader.h"
+#include "addutil/Vector3.h"
 
 #include "MatchStatus.h"
 #include "Physics.h"

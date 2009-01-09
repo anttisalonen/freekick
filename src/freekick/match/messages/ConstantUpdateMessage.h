@@ -27,8 +27,8 @@
 #include <boost/regex.hpp>
 #include <boost/array.hpp>
 
-#include "Vector3.h"
-#include "Quaternion.h"
+#include "addutil/Vector3.h"
+#include "addutil/Quaternion.h"
 
 #include "CausedStatus.h"
 #include "ControlledStatus.h"

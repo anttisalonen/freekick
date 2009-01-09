@@ -15,47 +15,52 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
+  This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
 
-#ifndef MATCHSTADIUM_H
-#define MATCHSTADIUM_H
+#ifndef MATCHPLAYER_H
+#define MATCHPLAYER_H
 
 #include <string>
 
 #include <boost/serialization/base_object.hpp>
 
-#include "StaticEntity.h"
-#include "Stadium.h"
-#include "MatchIDs.h"
+#include "addutil/DynamicEntity.h"
+#include "addutil/Color.h"
+
+#include "Player.h"
 
 /**
- * class Stadium
+ * class Player
  */
 
 namespace freekick
 {
     namespace match
     {
-        class MatchStadium : public freekick::soccer::Stadium, public addutil::StaticEntity
+        class MatchPlayer : public freekick::soccer::Player, public addutil::DynamicEntity
         {
         public:
 
-            MatchStadium (const Stadium& s);
-            const int getID() const { return StadiumID; }
+            // Constructors/Destructors
+            //  
+            MatchPlayer (const freekick::soccer::Player& p, bool sub);
+            const int getID() const;
+            bool isSubstitute() const;
 
         private:
+            bool substitute;
 
             friend class boost::serialization::access;
             template<class Archive>
                 void serialize(Archive & ar, const unsigned int version)
             {
-                ar & boost::serialization::base_object<freekick::soccer::Stadium>(*this);
-                ar & boost::serialization::base_object<addutil::StaticEntity>(*this);
-                ar & StadiumID;
+                ar & boost::serialization::base_object<freekick::soccer::Player>(*this);
+                ar & boost::serialization::base_object<addutil::DynamicEntity>(*this);
             }
         };
     }
 }
 
-#endif // MATCHSTADIUM_H
+#endif // MATCHPLAYER_H

@@ -28,9 +28,9 @@
 #include <boost/shared_ptr.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
 
-#include "Reader.h"
-#include "Publisher.h"
-#include "Color.h"
+#include "addutil/Reader.h"
+#include "addutil/Publisher.h"
+#include "addutil/Color.h"
 
 #include "PhysicsEngine.h"
 #include "BulletPhysicsEngine.h"

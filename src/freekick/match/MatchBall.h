@@ -19,36 +19,47 @@
 **************************************************************************/
 
 
-#ifndef GOAL_H
-#define GOAL_H
+#ifndef MATCHBALL_H
+#define MATCHBALL_H
 
-#include <string>
-#include "Vector3.h"
-#include "Color.h"
-#include "StaticEntity.h"
+#include <boost/shared_ptr.hpp>
+#include <boost/serialization/base_object.hpp>
+
+#include "addutil/DynamicEntity.h"
+
+#include "Ball.h"
+
 #include "MatchIDs.h"
 
 /**
- * class Goal
+ * class Ball
  */
 
 namespace freekick
 {
     namespace match
     {
-        class Goal : public addutil::StaticEntity
+        class MatchBall : public addutil::DynamicEntity, public freekick::soccer::Ball
         {
         public:
+
             /**
-             * @param  first
+             * @param  _mass
              */
-            Goal (bool _first );
-            const int getID() const { if (first) return FirstGoalID; return SecondGoalID; }
+            MatchBall (const Ball& b);
+            const int getID() const { return BallID; }
 
         private:
-            bool first;
+
+            friend class boost::serialization::access;
+            template<class Archive>
+                void serialize(Archive & ar, const unsigned int version)
+            {
+                ar & boost::serialization::base_object<addutil::DynamicEntity>(*this);
+                ar & boost::serialization::base_object<freekick::soccer::Ball>(*this);
+            }
         };
     }
 }
 
-#endif // GOAL_H
+#endif // MATCHBALL_H

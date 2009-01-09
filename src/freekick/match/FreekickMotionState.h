@@ -15,28 +15,36 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
+  This file was generated on Sa Nov 22 2008 at 11:40:55
 **************************************************************************/
 
 
-#ifndef PHYSICSENGINESETTINGS_H
-#define PHYSICSENGINESETTINGS_H
+#ifndef FREEKICKMOTIONSTATE_H
+#define FREEKICKMOTIONSTATE_H
 
-#include "Vector3.h"
+#include "btBulletDynamicsCommon.h"
+
+#include "addutil/DynamicEntity.h"
+
+#include "PhysicsEngine.h"
 
 namespace freekick
 {
     namespace match
     {
-        class PhysicsEngineSettings
+        class FreekickMotionState : public btMotionState, public addutil::DynamicEntity
         {
         public:
-            PhysicsEngineSettings(addutil::Vector3 _gravity, addutil::Vector3 _wind = addutil::Vector3(), float _air_viscosity = 0.0f, float _restitution = 0.0f);
-            virtual ~PhysicsEngineSettings() { }
+            FreekickMotionState(const btTransform& initialpos, PhysicsEngine* pe, const ObjectID id);
+            virtual ~FreekickMotionState();
+            virtual void getWorldTransform(btTransform &worldTrans) const;
+            virtual void setWorldTransform(const btTransform &worldTrans);
+            const int getID() const;
 
-            addutil::Vector3 gravity;
-            addutil::Vector3 wind;
-            float air_viscosity;
-            float restitution_coefficient;
+        private:
+            PhysicsEngine* mPhysicsEngine;
+            btTransform mPos1;
+            ObjectID mId; 
         };
     }
 }

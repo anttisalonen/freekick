@@ -23,7 +23,7 @@
 
 #include <boost/regex.hpp>
 
-#include "Vector3.h"
+#include "addutil/Vector3.h"
 
 #include "ParameterMessage.h"
 

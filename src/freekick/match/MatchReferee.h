@@ -19,47 +19,49 @@
 **************************************************************************/
 
 
-#ifndef MATCHPLAYER_H
-#define MATCHPLAYER_H
+#ifndef MATCHREFEREE_H
+#define MATCHREFEREE_H
 
 #include <string>
 
 #include <boost/serialization/base_object.hpp>
 
-#include "DynamicEntity.h"
-#include "Player.h"
-#include "Color.h"
+#include "addutil/DynamicEntity.h"
+
+#include "Kit.h"
+#include "Referee.h"
+#include "MatchIDs.h"
 
 /**
- * class Player
+ * class Referee
  */
 
 namespace freekick
 {
     namespace match
     {
-        class MatchPlayer : public freekick::soccer::Player, public addutil::DynamicEntity
+        class MatchReferee : public freekick::soccer::Referee
         {
         public:
 
-            // Constructors/Destructors
-            //  
-            MatchPlayer (const freekick::soccer::Player& p, bool sub);
-            const int getID() const;
-            bool isSubstitute() const;
+            /**
+             */
+            MatchReferee (const freekick::soccer::Referee& r);
+            const int getID() const { return RefereeID; }
 
         private:
-            bool substitute;
+
+            freekick::soccer::Kit* kit;
 
             friend class boost::serialization::access;
             template<class Archive>
                 void serialize(Archive & ar, const unsigned int version)
             {
-                ar & boost::serialization::base_object<freekick::soccer::Player>(*this);
-                ar & boost::serialization::base_object<addutil::DynamicEntity>(*this);
+                ar & boost::serialization::base_object<freekick::soccer::Referee>(*this);
+                ar & kit;
             }
         };
     }
 }
 
-#endif // MATCHPLAYER_H
+#endif // MATCHREFEREE_H

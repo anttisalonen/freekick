@@ -29,9 +29,10 @@
 #include <boost/shared_ptr.hpp>
 #include <boost/tuple/tuple.hpp>
 
-#include "Vector3.h"
-#include "DynamicEntity.h"
-#include "Publisher.h"
+#include "addutil/Vector3.h"
+#include "addutil/DynamicEntity.h"
+#include "addutil/Publisher.h"
+
 #include "PhysicsEngineSettings.h"
 
 namespace freekick

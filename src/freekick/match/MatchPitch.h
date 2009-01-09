@@ -19,43 +19,38 @@
 **************************************************************************/
 
 
-#ifndef STADIUM_H
-#define STADIUM_H
+#ifndef MATCHPITCH_H
+#define MATCHPITCH_H
 
 #include <string>
 
-#include <boost/serialization/serialization.hpp>
-#include <boost/shared_ptr.hpp>
-
-#include "Color.h"
+#include "addutil/StaticEntity.h"
 
 #include "Pitch.h"
+#include "MatchIDs.h"
 
 /**
- * class Stadium
+ * class MatchPitch
  */
 
 namespace freekick
 {
-    namespace soccer
+    namespace match
     {
-        class Stadium
+        class MatchPitch : public freekick::soccer::Pitch, public addutil::StaticEntity
         {
         public:
-            Stadium (float pitchwidth = 70.0f, float pitchlength = 100.0f);
-            const boost::shared_ptr<Pitch> getPitch() const;
+
+            MatchPitch (const Pitch& p);
+            const int getID() const { return PitchID; }
 
         private:
-            boost::shared_ptr<Pitch> mPitch;
 
-            friend class boost::serialization::access;
-            template<class Archive>
-                void serialize(Archive & ar, const unsigned int version)
-            {
-                ar & mPitch;
-            }
+            // Private attributes
+            //  
+
         };
     }
 }
 
-#endif // STADIUM_H
+#endif // MATCHPITCH_H

@@ -19,36 +19,38 @@
 **************************************************************************/
 
 
-#ifndef MATCHPITCH_H
-#define MATCHPITCH_H
+#ifndef GOAL_H
+#define GOAL_H
 
 #include <string>
-#include "Pitch.h"
-#include "StaticEntity.h"
+
+#include "addutil/Vector3.h"
+#include "addutil/Color.h"
+#include "addutil/StaticEntity.h"
+
 #include "MatchIDs.h"
 
 /**
- * class MatchPitch
+ * class Goal
  */
 
 namespace freekick
 {
     namespace match
     {
-        class MatchPitch : public freekick::soccer::Pitch, public addutil::StaticEntity
+        class Goal : public addutil::StaticEntity
         {
         public:
-
-            MatchPitch (const Pitch& p);
-            const int getID() const { return PitchID; }
+            /**
+             * @param  first
+             */
+            Goal (bool _first );
+            const int getID() const { if (first) return FirstGoalID; return SecondGoalID; }
 
         private:
-
-            // Private attributes
-            //  
-
+            bool first;
         };
     }
 }
 
-#endif // MATCHPITCH_H
+#endif // GOAL_H

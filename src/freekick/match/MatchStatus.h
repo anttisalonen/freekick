@@ -29,7 +29,7 @@
 #include <boost/array.hpp>
 #include <boost/tuple/tuple.hpp>
 
-#include "DynamicEntity.h"
+#include "addutil/DynamicEntity.h"
 
 #include "Lineup.h"
 #include "Player.h"

@@ -15,52 +15,69 @@
   along with Freekick.  If not, see <http://www.gnu.org/licenses/>.
 
   Copyright Antti Salonen, 2008
-  This file was generated on So Okt 26 2008 at 12:09:20
 **************************************************************************/
 
 
-#ifndef MATCHREFEREE_H
-#define MATCHREFEREE_H
+#ifndef PLAYER_H
+#define PLAYER_H
 
 #include <string>
 
 #include <boost/serialization/base_object.hpp>
 
-#include "DynamicEntity.h"
-#include "Kit.h"
-#include "Referee.h"
-#include "MatchIDs.h"
+#include "addutil/Human.h"
+#include "addutil/Color.h"
 
 /**
- * class Referee
+ * class Player
  */
 
 namespace freekick
 {
-    namespace match
+    namespace soccer
     {
-        class MatchReferee : public freekick::soccer::Referee
+        enum PlayerPosition
+        {
+            Goalkeeper,
+            Defender,
+            Midfielder,
+            Forward
+        };
+
+        class Player : public addutil::Human
         {
         public:
 
+            // Constructors/Destructors
+            //  
+
             /**
+             * @param  name
+             * @param  num
              */
-            MatchReferee (const freekick::soccer::Referee& r);
-            const int getID() const { return RefereeID; }
+            Player (const std::string& _name, int num, unsigned int _idnumber, PlayerPosition pos);
+            unsigned int getID() const;
+            int getNumber() const;
+            PlayerPosition getPlayerPosition() const;
 
         private:
 
-            freekick::soccer::Kit* kit;
+            int number;
+            const unsigned int idnumber;
+            PlayerPosition position;
 
             friend class boost::serialization::access;
             template<class Archive>
                 void serialize(Archive & ar, const unsigned int version)
             {
-                ar & boost::serialization::base_object<freekick::soccer::Referee>(*this);
-                ar & kit;
+                ar & boost::serialization::base_object<Human>(*this);
+                ar & number;
+                ar & idnumber;
             }
         };
+
+        PlayerPosition IntToPlayerPosition(int i);
     }
 }
 
-#endif // MATCHREFEREE_H
+#endif // PLAYER_H

@@ -30,7 +30,7 @@
 
 #include <OIS/OIS.h>
 
-#include "Vector3.h"
+#include "addutil/Vector3.h"
 
 #include "Network.h"
 #include "InputConfiguration.h"
