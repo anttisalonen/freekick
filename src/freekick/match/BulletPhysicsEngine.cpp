@@ -105,7 +105,7 @@ namespace freekick
             btRigidBody* body = new btRigidBody(rbInfo);
 
             //add the body to the dynamics world
-            return addObject(body);
+            return addObject(body, Collision_Static);
         }
 
         bool BulletPhysicsEngine::addDynamicBoxObject(ObjectID oid, Vector3 size, float mass, Vector3 loc, float restitution)
@@ -150,9 +150,23 @@ namespace freekick
             return false;
         }
 
-        bool BulletPhysicsEngine::addObject(btRigidBody* b)
+        bool BulletPhysicsEngine::addObject(btRigidBody* b, int collgroup)
         {
-            dynamicsWorld->addRigidBody(b);
+            // TODO: enable collisions between ball and torso of player 
+            int collmask = 0;
+            switch(collgroup)
+            {
+                case Collision_Ball:
+                case Collision_Player:
+                    collmask = Collision_Static;
+                    break;
+
+                case Collision_Static:
+                default:
+                    collmask = Collision_All;
+                    break;
+            }
+            dynamicsWorld->addRigidBody(b, collgroup, collmask);
             return true;
         }
 
@@ -214,8 +228,11 @@ namespace freekick
             rbInfo.m_restitution = restitution;
             btRigidBody* body = new btRigidBody(rbInfo);
 
+            int collgroup = Collision_Ball;
             if(upright)
             {
+                collgroup = Collision_Player;
+
                 // body->setActivationState(DISABLE_DEACTIVATION);
                 const btVector3 pivot(0.0f, 0.0f, 0.0f); // middle?
                 btVector3 axis(0.0f, 1.0f, 0.0f);        // pointing upwards, aka Y-axis
@@ -228,7 +245,7 @@ namespace freekick
             }
 
             mObjectMap[oid] = body;
-            return addObject(body);
+            return addObject(body, collgroup);
         }
 
         bool BulletPhysicsEngine::removeObject(ObjectID oid)

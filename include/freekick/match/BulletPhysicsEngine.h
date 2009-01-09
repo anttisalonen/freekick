@@ -38,6 +38,7 @@ namespace freekick
     namespace match
     {
         typedef std::map<ObjectID, btRigidBody*> ObjectMap;
+
         class BulletPhysicsEngine : public PhysicsEngine
         {
         public:
@@ -55,9 +56,15 @@ namespace freekick
             bool removeObject(ObjectID oid);
             bool stepWorld(float steptime);
 
+        private:
+            const static int Collision_Static = 0x01;
+            const static int Collision_Ball   = 0x02;
+            const static int Collision_Player = 0x04;
+            const static int Collision_All    = 0xFF;
+
         protected:
             bool addDynamicObject(ObjectID oid, btCollisionShape* colShape, float mass, addutil::Vector3 loc, float restitution, bool upright = false);
-            bool addObject(btRigidBody* b);
+            bool addObject(btRigidBody* b, int collgroup = Collision_Static);
 
         private:
             // General Bullet World stuff
