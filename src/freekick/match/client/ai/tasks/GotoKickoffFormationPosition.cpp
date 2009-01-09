@@ -34,7 +34,7 @@ namespace freekick
                           mPlayerID(id)
                     {
                         boost::shared_ptr<MatchPlayer> pl = mMatchStatus->getPlayer(mPlayerID);
-                        BallOwner own = mMatchStatus->getPlayerSide(mPlayerID);
+                        soccer::BallOwner own = mMatchStatus->getPlayerSide(mPlayerID);
                         PlayerPosition pp = pl->getPlayerPosition();
                         bool issub = pl->isSubstitute();
                         if(!issub)

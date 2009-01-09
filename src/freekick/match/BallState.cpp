@@ -52,17 +52,6 @@ namespace freekick
             return HalfFullTime;
         }
 
-        BallOwner other(BallOwner b)
-        {
-            if(b == Home) return Away;
-            return Home;
-        }
-
-        BallOwner intToBallOwner(int n)
-        { 
-            if(n) return Away; return Home; 
-        }
-
         std::ostream& operator<<(std::ostream& os, const BallState& e)
         {
             os << e.bio_type << " " << e.owner << " " << e.restart_point << " " << e.blocked_play;

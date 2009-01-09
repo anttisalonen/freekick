@@ -18,47 +18,21 @@
 **************************************************************************/
 
 
-#ifndef BALLSTATE_H
-#define BALLSTATE_H
-
-#include "addutil/Vector3.h"
-
-#include "Primitives.h"
+#ifndef FREEKICK_PRIMITIVES_H
+#define FREEKICK_PRIMITIVES_H
 
 namespace freekick
 {
-    namespace match
+    namespace soccer
     {
-        enum BallInOut
+        enum BallOwner
         {
-            BallIn = 0,
-            PreKickoff,
-            Kickoff,
-            Throwin,
-            Goalkick,
-            Cornerkick,
-            IndirectFreekick,
-            DirectFreekick,
-            PenaltyKick,
-            DroppedBall,
-            HalfFullTime
+            Home,
+            Away
         };
 
-        class BallState
-        {
-            // TODO: more controlled access
-        public:
-            BallState();
-            void flipOwner();
-
-            BallInOut bio_type;
-            soccer::BallOwner owner;
-            addutil::Vector3 restart_point;
-            bool blocked_play;
-        };
-
-        BallInOut intToBallInOut(int n);
-        std::ostream& operator<<(std::ostream& os, const BallState& e);
+        soccer::BallOwner other(soccer::BallOwner b);
+        soccer::BallOwner intToBallOwner(int n);
     }
 }
 

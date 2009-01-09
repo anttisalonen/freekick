@@ -26,7 +26,10 @@ namespace freekick
         namespace server
         {
             InputMonitor::InputMonitor (boost::shared_ptr<MatchStatus> ms)
-                : mMatchStatus(ms)
+                : mMatchStatus(ms),
+                  mSetpoints(new SetpointMap()),
+                  mVelocities(new VelocityMap()),
+                  mKicks(new KickMap())
             {
             }
 
@@ -38,7 +41,7 @@ namespace freekick
 
                 v.capY(maxJumpVelocity);
                 // if(player_on_ground)   // TODO: define
-                    mVelocities[plid].y = v.y;
+                    (*mVelocities)[plid].y = v.y;
 
                 // TODO: define max. velocity somewhere else and take stamina etc. into account
                 if(v.length() > 10.0f)
@@ -47,21 +50,58 @@ namespace freekick
                     v *= 10.0f;
                 }
 
-                mSetpoints[plid] = v;
+                (*mSetpoints)[plid] = v;
 
-                VelocityMap::iterator itv = mVelocities.find(plid);
-                if(itv == mVelocities.end())
-                    mVelocities.insert(std::pair<int, addutil::Vector3>(plid, Vector3(0.0f, 0.0f, 0.0f)));
+                VelocityMap::iterator itv = mVelocities->find(plid);
+                if(itv == mVelocities->end())
+                    mVelocities->insert(std::pair<int, addutil::Vector3>(plid, Vector3(0.0f, 0.0f, 0.0f)));
+            }
+
+            void InputMonitor::newClientMessage (const messages::KickPlayerControlMessage& e)
+            {
+                addutil::Vector3 v;
+                e.getTargetVector(v);
+                int plid = e.getPlayerID();
+                boost::shared_ptr<MatchPlayer> pl;
+
+                try
+                {
+                    pl = mMatchStatus->getPlayer(plid);
+                }
+                catch(const char* e)
+                {
+                    // player not in matchstatus
+                    std::cerr << "InputMonitor::newClientMessage: " << e << std::endl;
+                    return;
+                }
+                addutil::Vector3 dist = pl->getPosition() - mMatchStatus->getBall()->getPosition();
+
+                // TODO: define max. kicking distance somewhere else
+                // TODO: also check ball height vs. feet
+                if(dist.length() > 2.5f)
+                {
+                    std::cerr << "InputMonitor: Player tried to kick but was too far away\n";
+                    return;
+                }
+
+                // TODO: define max. kick velocity somewhere else and take stamina etc. into account
+                if(v.length() > 30.0f)
+                {
+                    v.normalize();
+                    v *= 30.0f;
+                }
+
+                (*mKicks)[plid] = v;
             }
 
             void InputMonitor::interpolate(unsigned long microseconds)
             {
-                SetpointMap::iterator itv = mVelocities.begin();
-                SetpointMap::iterator its = mSetpoints.begin();
-                while(its != mSetpoints.end())
+                SetpointMap::iterator itv = mVelocities->begin();
+                SetpointMap::iterator its = mSetpoints->begin();
+                while(its != mSetpoints->end())
                 {
-                    itv = mVelocities.find(its->first);
-                    if(itv == mVelocities.end()) continue;
+                    itv = mVelocities->find(its->first);
+                    if(itv == mVelocities->end()) continue;
                     addutil::Vector3& should = its->second;
                     addutil::Vector3& is = itv->second;
                     interpolate(microseconds, should.x, is.x);
@@ -89,9 +129,14 @@ namespace freekick
                     is -= add;
             }
 
-            VelocityMap& InputMonitor::getVelocities()
+            boost::shared_ptr<VelocityMap> InputMonitor::getVelocities()
             {
                 return mVelocities;
+            }
+
+            boost::shared_ptr<KickMap> InputMonitor::getKicks()
+            {
+                return mKicks;
             }
         }
     }

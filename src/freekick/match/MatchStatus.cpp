@@ -137,7 +137,7 @@ namespace freekick
             return mBallState;
         }
 
-        BallOwner MatchStatus::getPlayerSide(int id) const
+        soccer::BallOwner MatchStatus::getPlayerSide(int id) const
         {
             boost::shared_ptr<Club> c1 = mMatchData->getHomeClub();
             boost::shared_ptr<Club> c2 = mMatchData->getAwayClub();
@@ -177,7 +177,7 @@ namespace freekick
             return addutil::Vector3(middle_x, 0.0f, middle_z);
         }
 
-        int MatchStatus::nearestPlayerToBall() const
+        boost::tuple<int, float> MatchStatus::nearestPlayerToBall() const
         {
             MatchPlayerMap::const_iterator it;
             float min_length = 100000.0f;
@@ -193,10 +193,10 @@ namespace freekick
                     plid = it->first;
                 }
             }
-            return plid;
+            return boost::tuple<int, float>(plid, min_length);
         }
 
-        int MatchStatus::nearestPlayerFromClubToBall(BallOwner b) const
+        boost::tuple<int, float> MatchStatus::nearestPlayerFromClubToBall(soccer::BallOwner b) const
         {
             boost::shared_ptr<Club> c1 = mMatchData->getHomeClub();
             boost::shared_ptr<Club> c2 = mMatchData->getAwayClub();
@@ -233,7 +233,7 @@ namespace freekick
                     plid = it->first;
                 }
             }
-            return plid;
+            return boost::tuple<int, float>(plid, min_length);
         }
 
         float MatchStatus::getPitchWidth() const
@@ -244,6 +244,28 @@ namespace freekick
         float MatchStatus::getPitchLength() const
         {
             return mMatchData->getStadium()->getPitch()->getLength();
+        }
+
+        addutil::Vector3 MatchStatus::getGoal(soccer::BallOwner b) const
+        {
+            float x = getPitchWidth() / 2.0f;
+            float z = (b == Home) ? 0.0f : getPitchLength();
+            return addutil::Vector3(x, 0, z);
+        }
+
+        int MatchStatus::getPlayerPositions(std::vector<addutil::Vector3>& ret, soccer::BallOwner b) const
+        {
+            int num = 0;
+            ret.clear();
+
+            std::vector<int> ids1 = mMatchData->getClub(b)->getLineup()->getPitchPlayerIDs();
+
+            BOOST_FOREACH(int i, ids1)
+            {
+                ret.push_back(getPlayer(i)->getPosition());
+                num++;
+            }
+            return num;
         }
     }
 }

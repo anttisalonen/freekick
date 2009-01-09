@@ -38,6 +38,7 @@
 
 #include "messages/Message.h"
 #include "messages/MovePlayerControlMessage.h"
+#include "messages/KickPlayerControlMessage.h"
 #include "messages/InitialDataRequest.h"
 #include "messages/PlayerControlRequestMessage.h"
 

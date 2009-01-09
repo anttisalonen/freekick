@@ -63,7 +63,7 @@ namespace freekick
                 {
                     try
                     {
-                        BallOwner b = mMatchStatus->getPlayerSide(oit->getOwnerID());
+                        soccer::BallOwner b = mMatchStatus->getPlayerSide(oit->getOwnerID());
                         if(mBallState.bio_type == BallIn)
                         {
                             if(b != mBallState.owner)
@@ -219,7 +219,7 @@ namespace freekick
                             }
                         }
                     }
-                    else if (mBallState.bio_type == Throwin)
+                    else if (mBallState.bio_type != HalfFullTime)
                     {
                         if(ball_touched)
                         {
@@ -227,6 +227,9 @@ namespace freekick
                             mBallState.blocked_play = false;
                             mBallState.bio_type = BallIn;
                         }
+                    }
+                    else       // HalfFullTime
+                    {
                     }
                 }
 

@@ -82,7 +82,7 @@ namespace freekick
                 ClientList::iterator it = mClientList->find(clientid);
                 if(it == mClientList->end())
                 {
-                    std::cerr << "ClientEventListener: client not in the client list? (Should never happen.) Adding.\n";
+                    std::cerr << "ClientEventListener::handleMessage: client not in the client list? (Should never happen.) Adding.\n";
                     (*mClientList)[clientid] = Client(clientid);
                     return;
                 }
@@ -104,6 +104,28 @@ namespace freekick
                     catch(...)
                     {
                         std::cerr << "ClientEventListener: failed to parse MovePlayerControlMessage.\n";
+                    }
+                    return;
+                }
+
+                // TODO: merge this with MovePlayerControlMessage for nicer code?
+                // KickPlayerControlMessage: handled by InputMonitor.
+                else if (t == c_pl_ctl_kick)
+                {
+                    try
+                    {
+                        const messages::KickPlayerControlMessage m(b);
+                        int playerid = m.getPlayerID();
+                        if(!(*it).second.controlsPlayer(playerid))
+                        {
+                            std::cerr << "ClientEventListener: client " << clientid << " trying to control another player (" << playerid << ").\n";
+                            return;
+                        }
+                        mInputMonitor->newClientMessage(m);
+                    }
+                    catch(...)
+                    {
+                        std::cerr << "ClientEventListener: failed to parse KickPlayerControlMessage.\n";
                     }
                     return;
                 }

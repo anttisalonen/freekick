@@ -85,7 +85,9 @@ namespace freekick
                 bool successful = true;
 
                 std::map<int, addutil::Vector3>::iterator it;
-                std::map<int, addutil::Vector3> velocityMap;
+                boost::shared_ptr<std::map<int, addutil::Vector3> > velocityMap;
+                boost::shared_ptr<std::map<int, addutil::Vector3> > kickMap;
+                std::map<int, addutil::Vector3>::iterator kickit;
                 while(successful)
                 {
                     ptime before_time(microsec_clock::local_time());
@@ -108,14 +110,26 @@ namespace freekick
                         mPhysicsEngine->setObjectPosition(BallID, p);
                     }
 
+                    kickMap = mInputMonitor->getKicks();
+                    kickit = kickMap->begin();
+                    while(kickit != kickMap->end())
+                    {
+                        if (!mPhysicsEngine->setObjectVelocity(BallID, kickit->second, kickit->first))
+                        {
+                            std::cerr << "Physics::run: Invalid kick (no ball?)\n";
+                        }
+                        kickMap->erase(kickit);
+                        kickit = kickMap->begin();
+                    }
+
                     velocityMap = mInputMonitor->getVelocities();
-                    for(it = velocityMap.begin(); it != velocityMap.end(); it++)
+                    for(it = velocityMap->begin(); it != velocityMap->end(); it++)
                     {
                         if (!mPhysicsEngine->setObjectVelocity((*it).first, (*it).second))
                         {
                             std::cerr << "Physics::run: Invalid player ID\n";
-                            velocityMap.erase(it);
-                            it = velocityMap.begin();
+                            velocityMap->erase(it);
+                            it = velocityMap->begin();
                         }
                     }
                     mInputMonitor->interpolate(sleep_time);

@@ -31,6 +31,7 @@
 #include "tasks/FetchBall.h"
 #include "tasks/GotoCabins.h"
 #include "tasks/IdleInFormation.h"
+#include "tasks/KickBall.h"
 
 namespace freekick 
 { 

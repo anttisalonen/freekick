@@ -12,3 +12,7 @@ server: configurable/selectable file/directory for matchdata
 server: configurable listen-port (parameter) to allow multiple servers on one host
 
 project: implement networking in udp
+project: merge include/ with src/
+project: facades into singletons?
+
+ai: tasks/states into singletons?

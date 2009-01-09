@@ -2,6 +2,28 @@ State machines:
 Ball Status:
 Ball in/out of play
 
+closest to the ball? -> yes -> able to kick? -> yes -> #kick ball
+                                             -> no  -> opponent nearer to ball? -> yes -> #defensive play
+                                                                                -> no  -> !run to ball
+                     -> no  -> near own formation position? -> yes -> #supportive role
+                                                            -> no  -> !go to own formation position
+
+defensive play:
+1. block possible pass
+2. block possible shot
+3. take ball by skill
+4. take ball by tackle
+
+kick ball:
+1. short pass - parameters: to whom? defensively, offensively?
+2. long pass  - parameters? where to?
+3. shoot
+4. dribble    - parameters: where to? how far? on ground, or flipping?
+
+supportive role:
+1. position yourself for pass (defensive)
+2. position yourself for pass (offensive)
+
 
                       BallIn _                     -> duringMatchAction m p
                       BallOut PreKickoff d _ _     -> runToKickoffFormationAction p (pitch m) myf myl d

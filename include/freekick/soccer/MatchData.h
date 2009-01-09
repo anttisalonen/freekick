@@ -42,6 +42,7 @@
 #include "Referee.h"
 #include "Club.h"
 #include "Lineup.h"
+#include "Primitives.h"
 
 namespace freekick
 {
@@ -56,6 +57,7 @@ namespace freekick
                        boost::shared_ptr<Stadium> s);
             virtual ~MatchData();
 
+            boost::shared_ptr<Club> getClub(BallOwner b) const;
             boost::shared_ptr<Club> getHomeClub() const;
             boost::shared_ptr<Club> getAwayClub() const;
             void getHomeClubName(std::string& s) const;

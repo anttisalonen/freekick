@@ -33,7 +33,7 @@ namespace freekick
                         : mMatchStatus(ms),
                           mPlayerID(id)
                     {
-                        BallOwner own = mMatchStatus->getPlayerSide(mPlayerID);
+                        soccer::BallOwner own = mMatchStatus->getPlayerSide(mPlayerID);
                         ownformationpos.x = -0.1f;
                         ownformationpos.z = 0.4f;
                         if(own == Away)

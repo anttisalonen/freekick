@@ -42,7 +42,7 @@ namespace freekick
                         throw "AIPlayer::AIPlayer: player not found in matchstatus!";
                     }
 
-                    BallOwner own = mMatchStatus->getPlayerSide(mPlayerID);
+                    soccer::BallOwner own = mMatchStatus->getPlayerSide(mPlayerID);
                     boost::shared_ptr<Club> c1 = mMatchStatus->getMatchData()->getHomeClub();
                     boost::shared_ptr<Club> c2 = mMatchStatus->getMatchData()->getAwayClub();
                     std::set<int> ids1;

@@ -17,49 +17,21 @@
   Copyright Antti Salonen, 2008
 **************************************************************************/
 
-
-#ifndef BALLSTATE_H
-#define BALLSTATE_H
-
-#include "addutil/Vector3.h"
-
 #include "Primitives.h"
 
 namespace freekick
 {
-    namespace match
+    namespace soccer
     {
-        enum BallInOut
+        BallOwner other(BallOwner b)
         {
-            BallIn = 0,
-            PreKickoff,
-            Kickoff,
-            Throwin,
-            Goalkick,
-            Cornerkick,
-            IndirectFreekick,
-            DirectFreekick,
-            PenaltyKick,
-            DroppedBall,
-            HalfFullTime
-        };
+            if(b == Home) return Away;
+            return Home;
+        }
 
-        class BallState
-        {
-            // TODO: more controlled access
-        public:
-            BallState();
-            void flipOwner();
-
-            BallInOut bio_type;
-            soccer::BallOwner owner;
-            addutil::Vector3 restart_point;
-            bool blocked_play;
-        };
-
-        BallInOut intToBallInOut(int n);
-        std::ostream& operator<<(std::ostream& os, const BallState& e);
+        BallOwner intToBallOwner(int n)
+        { 
+            if(n) return Away; return Home; 
+        }
     }
 }
-
-#endif

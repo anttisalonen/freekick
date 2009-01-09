@@ -38,6 +38,13 @@ namespace freekick
         {
         }
 
+        boost::shared_ptr<Club> MatchData::getClub(BallOwner b) const
+        {
+            if(b == Home)
+                return homeclub;
+            return awayclub;
+        }
+
         boost::shared_ptr<Club> MatchData::getHomeClub() const
         {
             return homeclub;

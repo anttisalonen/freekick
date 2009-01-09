@@ -48,8 +48,8 @@ namespace freekick
 
                     boost::shared_ptr<messages::PlayerControlMessage> PlaySoccer::process()
                     {
-                        BallOwner b = mMatchStatus->getPlayerSide(mPlayerID);
-                        int nearestown = mMatchStatus->nearestPlayerFromClubToBall(b);
+                        soccer::BallOwner b = mMatchStatus->getPlayerSide(mPlayerID);
+                        boost::tuple<int, float> nearestown = mMatchStatus->nearestPlayerFromClubToBall(b);
 
                         bool issub = mPlayer->isSubstitute();
                         if(issub)
@@ -67,10 +67,29 @@ namespace freekick
                                 clearTasks();
                             }
 
-                            if(nearestown == mPlayerID)
+                            if(nearestown.get<0>() == mPlayerID)
                             {
-                                boost::shared_ptr<FetchBall> t(new FetchBall(mMatchStatus, mPlayerID));
-                                addTask(t);
+                                // TODO: read max. kicking distance from somewhere else
+                                if(nearestown.get<1>() < 1.5f)    // able to kick
+                                {
+                                    std::cerr << "Kicking\n";
+                                    boost::shared_ptr<KickBall> t(new KickBall(mMatchStatus, mPlayerID));
+                                    addTask(t);
+                                }
+                                else
+                                {
+                                    boost::tuple<int, float> nearestother = mMatchStatus->nearestPlayerFromClubToBall(other(b));
+                                    if(nearestown.get<1>() < nearestother.get<1>())         // run to ball
+                                    {
+                                        boost::shared_ptr<FetchBall> t(new FetchBall(mMatchStatus, mPlayerID));
+                                        addTask(t);
+                                    }
+                                    else                                                    // defensive
+                                    {
+                                        boost::shared_ptr<FetchBall> t(new FetchBall(mMatchStatus, mPlayerID));
+                                        addTask(t);
+                                    }
+                                }
                             }
                             else
                             {

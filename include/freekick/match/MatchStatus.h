@@ -27,6 +27,7 @@
 #include <boost/shared_ptr.hpp>
 #include <boost/foreach.hpp>
 #include <boost/array.hpp>
+#include <boost/tuple/tuple.hpp>
 
 #include "DynamicEntity.h"
 
@@ -63,13 +64,15 @@ namespace freekick
             boost::shared_ptr<MatchPlayer> getPlayer(int id) const;
             boost::shared_ptr<MatchBall> getBall() const;
             const BallState& getBallState() const;
-            BallOwner getPlayerSide(int id) const;
+            soccer::BallOwner getPlayerSide(int id) const;
             boost::shared_ptr<Club> getPlayerClub(int id) const;
             addutil::Vector3 getCentreSpot() const;
-            int nearestPlayerToBall() const;
-            int nearestPlayerFromClubToBall(BallOwner b) const;
+            boost::tuple<int, float> nearestPlayerToBall() const;
+            boost::tuple<int, float> nearestPlayerFromClubToBall(soccer::BallOwner b) const;
+            int getPlayerPositions(std::vector<addutil::Vector3>& ret, soccer::BallOwner b) const;
             float getPitchWidth() const;
             float getPitchLength() const;
+            addutil::Vector3 getGoal(soccer::BallOwner b) const;
 
         private:
             const boost::shared_ptr<MatchData> mMatchData;

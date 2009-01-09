@@ -31,6 +31,7 @@
 
 #include "MatchStatus.h"
 #include "messages/MovePlayerControlMessage.h"
+#include "messages/KickPlayerControlMessage.h"
 
 namespace freekick
 {
@@ -50,22 +51,27 @@ namespace freekick
             typedef std::map<int, addutil::Vector3> SetpointMap;
             typedef std::map<int, addutil::Vector3> VelocityMap;
 
+            typedef std::map<int, addutil::Vector3> KickMap;
+
             class InputMonitor
             {
             public:
                 InputMonitor(boost::shared_ptr<MatchStatus> ms);
                 virtual ~InputMonitor() { }
                 void newClientMessage (const messages::MovePlayerControlMessage& e);
+                void newClientMessage (const messages::KickPlayerControlMessage& e);
                 void interpolate(unsigned long microseconds);
-                VelocityMap& getVelocities();
+                boost::shared_ptr<VelocityMap> getVelocities();
+                boost::shared_ptr<KickMap> getKicks();
 
             protected:
                 void interpolate(unsigned long microseconds, const float& should, float& is);
 
             private:
                 boost::shared_ptr<MatchStatus> mMatchStatus;
-                SetpointMap mSetpoints;
-                VelocityMap mVelocities;
+                boost::shared_ptr<SetpointMap> mSetpoints;
+                boost::shared_ptr<VelocityMap> mVelocities;
+                boost::shared_ptr<KickMap> mKicks;
                 static const float maxJumpVelocity = 5.0f;
             };
         }

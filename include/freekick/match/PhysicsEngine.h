@@ -52,7 +52,7 @@ namespace freekick
             virtual bool addDynamicBoxObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc, float restitution) = 0;
             virtual bool addDynamicSphereObject(ObjectID oid, float radius, float mass, addutil::Vector3 loc, float restitution) = 0;
             virtual bool addControllableObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc) = 0;
-            virtual bool setObjectVelocity(ObjectID oid, const addutil::Vector3& vel) = 0;
+            virtual bool setObjectVelocity(ObjectID oid, const addutil::Vector3& vel, ObjectID oid2 = 0) = 0;
             virtual bool setObjectPosition(ObjectID oid, const addutil::Vector3& pos) = 0;
             virtual bool removeObject(ObjectID oid) = 0;
             virtual bool stepWorld(float steptime) = 0;

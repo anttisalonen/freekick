@@ -157,8 +157,11 @@ namespace freekick
             switch(collgroup)
             {
                 case Collision_Ball:
-                case Collision_Player:
                     collmask = Collision_Static;
+                    break;
+
+                case Collision_Player:
+                    collmask = Collision_Static | Collision_Player;
                     break;
 
                 case Collision_Static:
@@ -170,7 +173,7 @@ namespace freekick
             return true;
         }
 
-        bool BulletPhysicsEngine::setObjectVelocity(ObjectID oid, const addutil::Vector3& vel)
+        bool BulletPhysicsEngine::setObjectVelocity(ObjectID oid, const addutil::Vector3& vel, ObjectID oid2)
         {
             ObjectMap::iterator it;
             it = mObjectMap.find(oid);
@@ -180,6 +183,11 @@ namespace freekick
 
             it->second->activate(true);
             it->second->setLinearVelocity(bv);
+
+            if(oid2 != 0)
+            {
+                addCollidedObject(BallID, oid2, vel.length());
+            }
             return true;
         }
 
@@ -227,6 +235,9 @@ namespace freekick
             btRigidBody::btRigidBodyConstructionInfo rbInfo(ms, myMotionState, colShape, localInertia);
             rbInfo.m_restitution = restitution;
             btRigidBody* body = new btRigidBody(rbInfo);
+
+            // TODO: define damping somewhere else
+            body->setDamping(btScalar(0.3f), btScalar(0.5f));
 
             int collgroup = Collision_Ball;
             if(upright)
