@@ -72,6 +72,20 @@ namespace freekick
                                 new_ball_status = true;
                             }
                         }
+                        else
+                        {
+                            if(mBallState.owner == b)
+                            {
+                                // TODO: check if play can really be given free (no nearby opponents etc.)
+                                mBallState.blocked_play = false;
+                                mBallState.bio_type = BallIn;
+                                new_ball_status = true;
+                            }
+                            else
+                            {
+                                std::cerr << "Rules::update: Player kicks the ball but was not allowed (play blocked/ball out of play)\n";
+                            }
+                        }
                         ball_touched = true;
                     }
                     catch(...)

@@ -69,40 +69,45 @@ namespace freekick
 
                             if(nearestown.get<0>() == mPlayerID)
                             {
-                                // TODO: read max. kicking distance from somewhere else
-                                if(nearestown.get<1>() < 1.5f)    // able to kick
+                                bool allowed_to_kick = mMatchStatus->playerAllowedToKick(mPlayerID);
+                                if(!allowed_to_kick)
                                 {
-                                    std::cerr << "Kicking\n";
-                                    boost::shared_ptr<KickBall> t(new KickBall(mMatchStatus, mPlayerID));
-                                    addTask(t);
+                                    BallState bss = mMatchStatus->getBallState();
+                                    if(bss.blocked_play && bss.owner == b)
+                                        allowed_to_kick = true;
+                                }
+
+                                if(allowed_to_kick)
+                                {
+                                    // TODO: read max. kicking distance from somewhere else
+                                    if(nearestown.get<1>() < 1.5f)    // able to kick
+                                    {
+                                        boost::shared_ptr<KickBall> t(new KickBall(mMatchStatus, mPlayerID));
+                                        addTask(t);
+                                    }
+                                    else
+                                    {
+                                        boost::tuple<int, float> nearestother = mMatchStatus->nearestPlayerFromClubToBall(other(b));
+                                        if(nearestown.get<1>() < nearestother.get<1>())         // run to ball
+                                        {
+                                            boost::shared_ptr<FetchBall> t(new FetchBall(mMatchStatus, mPlayerID));
+                                            addTask(t);
+                                        }
+                                        else                                                    // defensive
+                                        {
+                                            boost::shared_ptr<FetchBall> t(new FetchBall(mMatchStatus, mPlayerID));
+                                            addTask(t);
+                                        }
+                                    }
                                 }
                                 else
                                 {
-                                    boost::tuple<int, float> nearestother = mMatchStatus->nearestPlayerFromClubToBall(other(b));
-                                    if(nearestown.get<1>() < nearestother.get<1>())         // run to ball
-                                    {
-                                        boost::shared_ptr<FetchBall> t(new FetchBall(mMatchStatus, mPlayerID));
-                                        addTask(t);
-                                    }
-                                    else                                                    // defensive
-                                    {
-                                        boost::shared_ptr<FetchBall> t(new FetchBall(mMatchStatus, mPlayerID));
-                                        addTask(t);
-                                    }
+                                    addTask(newIdleInFormation());
                                 }
                             }
                             else
                             {
-                                const boost::shared_ptr<Formation> f = mMatchStatus->getPlayerClub(mPlayerID)->getFormation();
-                                addutil::Vector3 tgt = f->getPlayerArea(mPlayerID).getCenter();
-                                if(b == Away)
-                                {
-                                    tgt.z = 1.0f - tgt.z;
-                                }
-                                tgt.x *= mMatchStatus->getPitchWidth();
-                                tgt.z *= mMatchStatus->getPitchLength();
-                                boost::shared_ptr<IdleInFormation> t(new IdleInFormation(mMatchStatus, mPlayerID, tgt));
-                                addTask(t);
+                                addTask(newIdleInFormation());
                             }
                         }
 
@@ -114,6 +119,20 @@ namespace freekick
                         }
                         boost::shared_ptr<messages::PlayerControlMessage> msg = nexttask->process();
                         return msg;
+                    }
+
+                    boost::shared_ptr<IdleInFormation> PlaySoccer::newIdleInFormation() const
+                    {
+                        soccer::BallOwner b = mMatchStatus->getPlayerSide(mPlayerID);
+                        const boost::shared_ptr<Formation> f = mMatchStatus->getPlayerClub(mPlayerID)->getFormation();
+                        addutil::Vector3 tgt = f->getPlayerArea(mPlayerID).getCenter();
+                        if(b == Away)
+                        {
+                            tgt.z = 1.0f - tgt.z;
+                        }
+                        tgt.x *= mMatchStatus->getPitchWidth();
+                        tgt.z *= mMatchStatus->getPitchLength();
+                        return (boost::shared_ptr<IdleInFormation>(new IdleInFormation(mMatchStatus, mPlayerID, tgt)));
                     }
                 }
             }

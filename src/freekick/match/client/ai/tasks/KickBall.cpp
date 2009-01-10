@@ -51,7 +51,7 @@ namespace freekick
                         addutil::Vector3 ownpos = mPlayer->getPosition();
                         addutil::Vector3 tgtgoal = mMatchStatus->getGoal(other(b));
                         addutil::Vector3 goalvec = tgtgoal - ownpos;
-                        if(goalvec.length() < 30.0f)
+                        if(goalvec.length() < 35.0f)
                         {
                             target = goalvec;
                             target.y = goalvec.length() * 0.3f;
@@ -72,7 +72,7 @@ namespace freekick
                                 float this_z = clubit->z;
                                 if(b == Away) this_z = 100.0f - this_z;
 
-                                if(diff < 5.0f || diff > 40.0f)
+                                if(diff < 5.0f || diff > 20.0f)
                                     continue;
                                 if (this_z < own_z - 10.0f)
                                     continue;
@@ -84,7 +84,15 @@ namespace freekick
                                 }
                             }
                             target = bestpass - ownpos;
-                            target.y = 1.0f;
+                            if (target.length() > 20.0f)
+                            {
+                                target *= 1.5f;
+                                target.y = target.length() * 0.3f;
+                            }
+                            else
+                            {
+                                target.y = 2.0f;
+                            }
                             target.x *= 1.1f;
                             target.z *= 1.1f;
                         }

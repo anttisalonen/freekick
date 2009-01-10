@@ -267,5 +267,16 @@ namespace freekick
             }
             return num;
         }
+
+        bool MatchStatus::playerAllowedToKick(int id) const
+        {
+            if(mBallState.blocked_play) return false;
+            soccer::BallOwner b = getPlayerSide(id);
+            if(mBallState.bio_type == BallIn || mBallState.owner == b)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

@@ -50,6 +50,7 @@ namespace freekick
                         bool finished() const;
                         virtual boost::shared_ptr<messages::PlayerControlMessage> process();
                     private:
+                        boost::shared_ptr<IdleInFormation> newIdleInFormation() const;
                         boost::shared_ptr<MatchStatus> mMatchStatus;
                         int mPlayerID;
                         boost::shared_ptr<MatchPlayer> mPlayer;
