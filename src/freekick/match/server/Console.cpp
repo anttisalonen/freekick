@@ -54,6 +54,7 @@ namespace freekick
                     }
                     else if(command == "quit")
                     {
+                        mMatchStatus->setContinue(false);
                         quit = true;
                     }
                 }

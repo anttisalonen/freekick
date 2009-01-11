@@ -36,7 +36,9 @@ namespace addutil
     class Quaternion
     {
     public:
-        Quaternion(float _w = 1.0f, float _x = 0.0f, float _y = 0.0f, float _z = 0.0f);
+        Quaternion();
+        Quaternion(float _w, float _x, float _y, float _z);
+        Quaternion(float xzangle);
         virtual ~Quaternion() { }
         void set(float _w, float _x, float _y, float _z);
         // void fromVector(const Vector3& n);

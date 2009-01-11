@@ -1,6 +1,19 @@
 def_env = Environment()
-def_env['CPPFLAGS'] = '-Wall -Wno-deprecated'
+def_env['CPPFLAGS'] = '-Wall -Wno-deprecated '
 def_env.Append(CPPPATH = ['src'])
+
+prof = ARGUMENTS.get('prof', 0)
+if int(prof):
+    def_env.Append(CPPFLAGS = '-pg ')
+    def_env.Append(LINKFLAGS = '-pg ')
+
+debug = ARGUMENTS.get('debug', 0)
+if int(debug):
+    def_env.Append(CPPFLAGS = '-g ')
+
+opt = ARGUMENTS.get('opt', 0)
+if int(opt):
+    def_env.Append(CPPFLAGS = '-O2 ')
 
 # Libaddutil
 

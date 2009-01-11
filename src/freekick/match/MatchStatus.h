@@ -74,9 +74,12 @@ namespace freekick
             float getPitchLength() const;
             addutil::Vector3 getGoal(soccer::BallOwner b) const;
             bool playerAllowedToKick(int id) const;
+            bool continuing() const;
+            void setContinue(bool c);
 
         private:
             const boost::shared_ptr<MatchData> mMatchData;
+            bool mContinue;
 
             boost::shared_ptr<MatchBall> mBall;
             MatchPlayerMap mPlayers;

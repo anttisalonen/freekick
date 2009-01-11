@@ -31,6 +31,7 @@ namespace freekick
                                          const std::string& greeting)
                 : mPort(port), 
                   clients(new ClientList()),
+                  mMatchStatus(ms),
                   im(new InputMonitor(ms)),
                   p(new Physics(ms, im)),
                   r(new Rules(ms, p)),
@@ -56,8 +57,9 @@ namespace freekick
                 std::cerr << "Starting physics\n";
                 boost::thread physics_thread(boost::bind(&freekick::match::server::Physics::run, p));
                 std::cerr << "Starting listening on port " << mPort << std::endl;
-                startListening(mPort);
+                boost::thread listen_thread(boost::bind(&freekick::match::server::ServerManager::startListening, this, mPort));
                 console_thread.join();
+                // listen_thread.interrupt();
                 return true;
             }
 

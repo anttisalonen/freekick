@@ -191,6 +191,23 @@ namespace freekick
             return true;
         }
 
+        bool BulletPhysicsEngine::setObjectVelocityAndOrientation(ObjectID oid, const addutil::Vector3& vel, float xzangle)
+        {
+            ObjectMap::iterator it;
+            it = mObjectMap.find(oid);
+            if (it == mObjectMap.end())
+                return false;
+
+            const btVector3 bv(vel.x, vel.y, vel.z);
+            const btQuaternion bq(btVector3(0.0f, 1.0f, 0.0f), xzangle);
+            const btVector3 bo = it->second->getWorldTransform().getOrigin();
+
+            it->second->activate(true);
+            it->second->setLinearVelocity(bv);
+            it->second->setWorldTransform(btTransform(bq, bo));
+            return true;
+        }
+
         bool BulletPhysicsEngine::setObjectPosition(ObjectID oid, const addutil::Vector3& pos)
         {
             ObjectMap::iterator it;
@@ -206,6 +223,31 @@ namespace freekick
             return true;
         }
 
+        bool BulletPhysicsEngine::setObjectOrientation(ObjectID oid, const addutil::Quaternion& q)
+        {
+            const btQuaternion bq(q.w, q.x, q.y, q.z);
+            return setObjectOrientation(oid, bq);
+        }
+
+        bool BulletPhysicsEngine::setObjectOrientation(ObjectID oid, float xz)
+        {
+            const btQuaternion bq(btVector3(0.0f, 1.0f, 0.0f), xz);
+            return setObjectOrientation(oid, bq);
+        }
+
+        bool BulletPhysicsEngine::setObjectOrientation(ObjectID oid, const btQuaternion& q)
+        {
+            ObjectMap::iterator it;
+            it = mObjectMap.find(oid);
+            if (it == mObjectMap.end())
+                return false;
+            const btVector3 bv = it->second->getWorldTransform().getOrigin();
+
+            it->second->activate(true);
+            it->second->setWorldTransform(btTransform(q, bv));
+            return true;
+        }
+
         bool BulletPhysicsEngine::addDynamicObject(ObjectID oid, 
                                                    btCollisionShape* colShape, 
                                                    float mass, 
@@ -215,13 +257,19 @@ namespace freekick
         {
             ObjectMap::iterator it = mObjectMap.find(oid);
             if (it != mObjectMap.end()) throw "BulletPhysicsEngine::addDynamicObject: Object ID already used";
-            if(mass <= 0.0f) throw "BulletPhysicsEngine::addDynamicObject: invalid mass";
+            if(mass < 0.0f) throw "BulletPhysicsEngine::addDynamicObject: invalid mass";
+            bool kinematic = false;
 
             collisionShapes.push_back(colShape);
 
             /// Create Dynamic Objects
             btTransform startTransform;
             startTransform.setIdentity();
+
+            if(kinematic)
+            {
+                if(upright) mass = 0.0f;
+            }
 
             btScalar        ms(mass);
 
@@ -243,8 +291,13 @@ namespace freekick
             if(upright)
             {
                 collgroup = Collision_Player;
-
+                if(kinematic)
+                {
+                    body->setCollisionFlags(body->getCollisionFlags() | btCollisionObject::CF_KINEMATIC_OBJECT);
+                }
                 // body->setActivationState(DISABLE_DEACTIVATION);
+
+                // constraint
                 const btVector3 pivot(0.0f, 0.0f, 0.0f); // middle?
                 btVector3 axis(0.0f, 1.0f, 0.0f);        // pointing upwards, aka Y-axis
 

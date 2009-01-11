@@ -81,18 +81,21 @@ namespace freekick
             bool Physics::run ( ) 
             {
                 using namespace boost::posix_time;
-                unsigned long sleep_time = 1000000/60;
+                float fps = 30.0f;
+                float frametime = 1.0f / fps;
+                unsigned long sleep_time = frametime * 1000000;
                 bool successful = true;
+                long time_left = 0;
 
                 std::map<int, addutil::Vector3>::iterator it;
                 boost::shared_ptr<std::map<int, addutil::Vector3> > velocityMap;
                 boost::shared_ptr<std::map<int, addutil::Vector3> > kickMap;
                 std::map<int, addutil::Vector3>::iterator kickit;
-                while(successful)
+                while(successful && mMatchStatus->continuing())
                 {
                     ptime before_time(microsec_clock::local_time());
 
-                    successful = mPhysicsEngine->stepWorld(1.0f/60.0f);
+                    successful = mPhysicsEngine->stepWorld(frametime);
                     const BallState bs = mMatchStatus->getBallState();
                     if(bs.bio_type == PreKickoff)
                     {
@@ -125,7 +128,8 @@ namespace freekick
                     velocityMap = mInputMonitor->getVelocities();
                     for(it = velocityMap->begin(); it != velocityMap->end(); it++)
                     {
-                        if (!mPhysicsEngine->setObjectVelocity((*it).first, (*it).second))
+                        float angle = it->second.XZAngle();
+                        if (!mPhysicsEngine->setObjectVelocityAndOrientation((*it).first, (*it).second, angle))
                         {
                             std::cerr << "Physics::run: Invalid player ID\n";
                             velocityMap->erase(it);
@@ -139,9 +143,21 @@ namespace freekick
                     time_period diff_time(before_time, after_time);
                     time_duration diff_dur = diff_time.length();
                     long us_diff = diff_dur.total_microseconds();
-                    long time_left = sleep_time - us_diff;
+                    time_left = sleep_time - us_diff;
                     if(time_left > 0)
                         boost::this_thread::sleep(microseconds(time_left));
+                    else
+                    {
+/*
+                        if(fps > 10)
+                        {
+                            fps--;
+                            frametime = 1.0f / fps;
+                            sleep_time = frametime * 1000000;
+                        }
+*/
+                        std::cerr << "Physics::run: overrun by " << -time_left << " microseconds; fps: " << fps << std::endl;
+                    }
                 }
                 return true;
             }

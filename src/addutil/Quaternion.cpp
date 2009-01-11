@@ -21,12 +21,22 @@
 
 namespace addutil
 {
+    Quaternion::Quaternion()
+    {
+    }
+
     Quaternion::Quaternion (float _w, float _x, float _y, float _z)
         : w(_w)
         , x(_x)
         , y(_y)
         , z(_z)
     {
+    }
+
+    Quaternion::Quaternion(float xzangle)
+    {
+        w = cos(xzangle);
+        y = sin(xzangle/2.0f);
     }
 
     void Quaternion::set(float _w, float _x, float _y, float _z)

@@ -25,6 +25,7 @@ namespace freekick
     {
         MatchStatus::MatchStatus(boost::shared_ptr<MatchData> md)
             : mMatchData(md),
+              mContinue(true),
               mBall(new MatchBall(*mMatchData->getBall()))
         {
             float pwidth = mMatchData->getStadium()->getPitch()->getWidth();
@@ -277,6 +278,16 @@ namespace freekick
                 return true;
             }
             return false;
+        }
+
+        bool MatchStatus::continuing() const
+        {
+            return mContinue;
+        }
+
+        void MatchStatus::setContinue(bool c)
+        {
+            mContinue = c;
         }
     }
 }

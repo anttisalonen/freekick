@@ -69,6 +69,7 @@ namespace freekick
             private:
                 unsigned int mPort;
                 ClientListPtr clients;
+                boost::shared_ptr<MatchStatus> mMatchStatus;
                 boost::shared_ptr<InputMonitor> im;
                 boost::shared_ptr<Physics> p;
                 boost::shared_ptr<Rules> r;

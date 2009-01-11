@@ -231,18 +231,32 @@ namespace freekick
 
                 void Graphics::startRenderLoop()
                 {
-                    mRoot->startRendering();
-                    // TODO: cap frame rate?
-                    /*
-                      bool cont = true;
-                      while (cont)
-                      {
-                      // Do some things here, like sleep for x milliseconds or perform other actions.
-                      cont = mRoot->renderOneFrame();
-                      boost::posix_time::ptime end_time = boost::posix_time::microsec_clock::universal_time();
-                      status->interpolateAll(end_time);
-                      }
-                    */
+                    // mRoot->startRendering();
+                    float fps = 30.0f;
+                    float frametime = 1.0f / fps;
+                    unsigned long sleep_time = frametime * 1000000;
+                    long time_left = 0;
+
+                    using namespace boost::posix_time;
+                    bool cont = true;
+                    while (cont)
+                    {
+                        // Do some things here, like sleep for x milliseconds or perform other actions.
+                        ptime before_time(microsec_clock::local_time());
+                        cont = mRoot->renderOneFrame();
+                        ptime after_time(microsec_clock::local_time());
+
+                        time_period diff_time(before_time, after_time);
+                        time_duration diff_dur = diff_time.length();
+                        long us_diff = diff_dur.total_microseconds();
+                        time_left = sleep_time - us_diff;
+                        if(time_left > 0)
+                            boost::this_thread::sleep(microseconds(time_left));
+                        else
+                        {
+                            std::cerr << "Graphics::startRendering: overrun by " << -time_left << " microseconds; fps: " << fps << std::endl;
+                        }
+                    }
                 }
             }
         }

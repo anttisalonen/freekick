@@ -75,6 +75,11 @@ namespace addutil
         x = y = z = 0.0f;
     }
 
+    float Vector3::XZAngle() const
+    {
+        return atan2(-z, -x);
+    }
+
     Vector3& Vector3::operator+=(Vector3 a)
     {
         x += a.x;

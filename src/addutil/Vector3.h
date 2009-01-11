@@ -60,6 +60,7 @@ namespace addutil
         void capZ(float n);
         void reset();
 
+        float XZAngle() const;
         // Public attributes
         //  
 

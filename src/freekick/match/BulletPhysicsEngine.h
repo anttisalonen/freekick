@@ -52,7 +52,10 @@ namespace freekick
             bool addDynamicSphereObject(ObjectID oid, float radius, float mass, addutil::Vector3 loc, float restitution);
             bool addControllableObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc);
             bool setObjectVelocity(ObjectID oid, const addutil::Vector3& vel, ObjectID oid2 = 0);
+            bool setObjectVelocityAndOrientation(ObjectID oid, const addutil::Vector3& vel, float xzangle);
             bool setObjectPosition(ObjectID oid, const addutil::Vector3& pos);
+            bool setObjectOrientation(ObjectID oid, const addutil::Quaternion& q);
+            bool setObjectOrientation(ObjectID oid, float xz);
             bool removeObject(ObjectID oid);
             bool stepWorld(float steptime);
 
@@ -65,6 +68,7 @@ namespace freekick
         protected:
             bool addDynamicObject(ObjectID oid, btCollisionShape* colShape, float mass, addutil::Vector3 loc, float restitution, bool upright = false);
             bool addObject(btRigidBody* b, int collgroup = Collision_Static);
+            bool setObjectOrientation(ObjectID oid, const btQuaternion& q);
 
         private:
             // General Bullet World stuff
