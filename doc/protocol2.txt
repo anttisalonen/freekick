@@ -5,14 +5,12 @@ Summary:
 2s.  S->C - Reply to 4c: Initial Data - serialized data
 3s.  S->C - Reply to 1c, 2c: List Of Players - (Z)
 4s.  S->C - Reply to 3c: Username Ack - (Y)
-5s.  S->C - Reply to 7c: Set General Update Interval Ack - (T)
-6s.  S->C - Reply to 8c: Set Constant Update Interval Ack - (S)
 7s.  S->C - Interval + Reply to 5c: General Update - (B 23 3 1 0)
 8s.  S->C - Interval: Constant Update - (n v x y z a b c d)
 9s.  S->C - On error: General Error - (H)
 10s. S->C - In-game: Server Info - (I)
-11s. S->C - Reply to 9c: Give General Update Interval (V)
-12s. S->C - Reply to 10c: Give Constant Update Interval (U)
+11s. S->C - Reply to 7c/9c: Give General Update Interval (V)
+12s. S->C - Reply to 8c/10c: Give Constant Update Interval (U)
 
 1c.  C->S - Init: Client Information: ident, username, type, players
 2c.  C->S - When setting players: Player Control Request - (z)
