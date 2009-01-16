@@ -21,6 +21,8 @@
 #ifndef BALLSTATE_H
 #define BALLSTATE_H
 
+#include <boost/serialization/serialization.hpp>
+
 #include "addutil/Vector3.h"
 
 #include "Primitives.h"
@@ -55,6 +57,17 @@ namespace freekick
             soccer::BallOwner owner;
             addutil::Vector3 restart_point;
             bool blocked_play;
+
+
+            friend class boost::serialization::access;
+            template<class Archive>
+                void serialize(Archive & ar, const unsigned int version)
+            {
+                ar & bio_type;
+                ar & owner;
+                ar & restart_point;
+                ar & blocked_play;
+            }
         };
 
         BallInOut intToBallInOut(int n);
