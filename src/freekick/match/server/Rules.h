@@ -47,6 +47,8 @@ namespace freekick
         {
             typedef messages::GeneralUpdateStatusMessage RulesMessage;
             typedef std::vector<RulesMessage> RulesMessageList;
+            typedef messages::GeneralUpdateScoreMessage ScoreMessage;
+            typedef std::vector<ScoreMessage> ScoreMessageList;
 
             class Rules : public addutil::Publisher<Rules>, public addutil::Reader<Physics>
             {
@@ -58,7 +60,7 @@ namespace freekick
                 void update(Physics* p);
 
                 // Publisher<Rules>
-                void getUpdates (RulesMessageList& pes) const;
+                void getUpdates (RulesMessageList& pes, ScoreMessageList& scs) const;
 
             protected:
                 // Publisher<Rules>
@@ -72,6 +74,7 @@ namespace freekick
 
                 // Messages that will be published are stored here
                 RulesMessageList newmessages;
+                ScoreMessageList newscores;
 
                 BallState mBallState;
                 boost::shared_ptr<Pitch> mPitch;

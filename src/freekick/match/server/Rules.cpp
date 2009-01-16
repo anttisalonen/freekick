@@ -57,6 +57,7 @@ namespace freekick
 
                 bool new_ball_status = false;
                 bool ball_touched = false;
+                GoalQuery goal_scored = NoGoal;
 
                 OwnerMessageList::iterator oit;
                 for(oit = c.begin(); oit != c.end(); oit++)
@@ -115,7 +116,7 @@ namespace freekick
                     {
                         addutil::Vector3 vec;
                         it->getVector(vec);
-                        if(vec.x < 0.0f || vec.x > pitch_width)
+                        if(vec.x < 0.0f || vec.x > pitch_width)        // Throwin
                         {
                             new_ball_status = true;
                             mBallState.bio_type = Throwin;
@@ -124,12 +125,34 @@ namespace freekick
                             mBallState.restart_point.z = vec.z;
                             mBallState.blocked_play = true;
                         }
-                        if(vec.z < 0.0f || vec.z > pitch_length)
+                        else if(vec.z < 0.0f || vec.z > pitch_length)
                         {
                             new_ball_status = true;
                             mBallState.flipOwner();
                             mBallState.blocked_play = true;
-                            if((vec.z < 0.0f && mBallState.owner == Home) || (vec.z > pitch_length && mBallState.owner == Away))
+                            bool fst_goal = mPitch->inFirstGoal(vec);
+                            bool snd_goal = mPitch->inSecondGoal(vec);
+
+                            if(fst_goal || snd_goal)
+                            {
+                                mBallState.bio_type = Kickoff;
+                                mBallState.restart_point.x = pitch_width / 2.0f;
+                                mBallState.restart_point.z = pitch_length / 2.0f;
+                                mBallState.blocked_play = true;
+                            }
+
+                            if(fst_goal)                // goal (1)
+                            {
+                                mMatchStatus->addAwayScore();
+                                goal_scored = AwayGoal;
+                            }
+                            else if(snd_goal)          // goal (2)
+                            {
+                                mBallState.bio_type = Kickoff;
+                                mMatchStatus->addHomeScore();
+                                goal_scored = HomeGoal;
+                            }
+                            else if((vec.z < 0.0f && mBallState.owner == Home) || (vec.z > pitch_length && mBallState.owner == Away))
                             {
                                 mBallState.bio_type = Goalkick;
                             }
@@ -137,6 +160,7 @@ namespace freekick
                             {
                                 mBallState.bio_type = Cornerkick;
                             }
+
                             if(mBallState.bio_type == Goalkick)
                             {
                                 // TODO: get rid of constants, split to functions
@@ -146,11 +170,11 @@ namespace freekick
                                     mBallState.restart_point.z = pitch_length - 5.5f;
 
                                 if(vec.x < pitch_width / 2)
-                                    mBallState.restart_point.x = pitch_width / 2 - 7.5f;
+                                    mBallState.restart_point.x = pitch_width / 2.0f - 7.5f;
                                 else
-                                    mBallState.restart_point.x = pitch_width / 2 + 7.5f;
+                                    mBallState.restart_point.x = pitch_width / 2.0f + 7.5f;
                             }
-                            else
+                            else if (mBallState.bio_type == Cornerkick)
                             {
                                 if(vec.z < 0.0f)
                                     mBallState.restart_point.z = 0.0f;
@@ -161,6 +185,11 @@ namespace freekick
                                     mBallState.restart_point.x = 0.0f;
                                 else
                                     mBallState.restart_point.x = pitch_width;
+                            }
+                            else    // Kickoff
+                            {
+                                mBallState.restart_point.x = pitch_width / 2.0f;
+                                mBallState.restart_point.z = pitch_length / 2.0f;
                             }
                         }
                     }
@@ -255,27 +284,37 @@ namespace freekick
 
                 if(new_ball_status)
                 {
-                    RulesMessage rm(mBallState);
+                    messages::GeneralUpdateStatusMessage rm(mBallState);
                     newmessages.push_back(rm);
                 }
 
-                if(newmessages.size() > 0)
+                if(goal_scored != NoGoal)
+                {
+                    messages::GeneralUpdateScoreMessage rm(mMatchStatus->getHomeScore(), mMatchStatus->getAwayScore(), 0, 0);
+                    // TODO: also use penalty kick score; also see matchstatus.update
+                    newscores.push_back(rm);
+                }
+
+                if(newmessages.size() > 0 || newscores.size() > 0)
                 {
                     last_update_time = this_time;
                     publish();
                     mMatchStatus->update(newmessages);
+                    mMatchStatus->update(newscores);
                     clearMessages();
                 }
             }
 
-            void Rules::getUpdates (RulesMessageList& pes) const
+            void Rules::getUpdates (RulesMessageList& pes, ScoreMessageList& scs) const
             {
                 pes = newmessages;
+                scs = newscores;
             }
 
             void Rules::clearMessages()
             {
                 newmessages.clear();
+                newscores.clear();
             }
         }
     }
