@@ -231,8 +231,13 @@ namespace freekick
 
                 void Graphics::startRenderLoop()
                 {
-                    // mRoot->startRendering();
-                    float fps = 30.0f;
+                    float fps = 0.0f;
+                    if(!fps)
+                    {
+                        mRoot->startRendering();
+                        return;
+                    }
+
                     float frametime = 1.0f / fps;
                     unsigned long sleep_time = frametime * 1000000;
                     long time_left = 0;
@@ -241,7 +246,6 @@ namespace freekick
                     bool cont = true;
                     while (cont)
                     {
-                        // Do some things here, like sleep for x milliseconds or perform other actions.
                         ptime before_time(microsec_clock::local_time());
                         cont = mRoot->renderOneFrame();
                         ptime after_time(microsec_clock::local_time());
