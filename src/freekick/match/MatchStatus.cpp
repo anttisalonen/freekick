@@ -30,7 +30,11 @@ namespace freekick
         {
             float pwidth = mMatchData->getStadium()->getPitch()->getWidth();
             float plength = mMatchData->getStadium()->getPitch()->getLength();
-            mBall->setPosition(pwidth / 2.0f, 1.0f, plength / 2.0f);
+            float start_x = pwidth / 2.0f;
+            float start_z = plength / 2.0f;
+            mBall->setPosition(start_x, 1.0f, start_z);
+            mBallState.restart_point.x = start_x;
+            mBallState.restart_point.z = start_z;
 
             boost::shared_ptr<Club> c1 = mMatchData->getHomeClub();
             boost::shared_ptr<Club> c2 = mMatchData->getAwayClub();
@@ -65,40 +69,59 @@ namespace freekick
             v = mPlayers;
         }
 
-        void MatchStatus::update(const messages::ConstantUpdateMessage& m)
+        void MatchStatus::update(const messages::ConstantUpdateMessage& m, float time_interval)
         {
-            int n, v;
-            addutil::Vector3 vec;
-            addutil::Quaternion q;
-            n = m.getPlayerID();
-            v = m.getDerivative();
-            m.getVector(vec);
-            m.getQuaternion(q);
+            int n = m.getPlayerID();
             std::map<int, boost::shared_ptr<MatchPlayer> >::iterator it;
             it = mPlayers.find(n);
             if (it == mPlayers.end())
             {
                 if(n == BallID)
                 {
-                    mBall->update(v, vec.x, vec.y, vec.z);
-                    mBall->updateOrientation(v, q.w, q.x, q.y, q.z);
+                    updateEntity(mBall.get(), m, time_interval);
                 }
                 // add updateable entities HERE
             }
             else
             {
-                (*it).second->update(v, vec.x, vec.y, vec.z);
-                (*it).second->updateOrientation(v, q.w, q.x, q.y, q.z);
+                updateEntity(it->second.get(), m, time_interval);
             }
-            return;
         }
 
-        void MatchStatus::update(const std::vector<messages::ConstantUpdateMessage>& ms)
+        void MatchStatus::updateEntity(addutil::DynamicEntity* e, const messages::ConstantUpdateMessage& m, float time_interval)
+        {
+            int v = m.getDerivative();
+            addutil::Vector3 vec;
+            addutil::Quaternion q;
+            m.getVector(vec);
+            m.getQuaternion(q);
+
+            if(time_interval > 0.0f)
+            {
+                if(v == 0)
+                {
+                    addutil::Vector3 oldpos = e->getPosition();
+                    addutil::Vector3 newvel = (vec - oldpos) * (1.0f / time_interval);
+                    e->update(1, newvel);
+                }
+                else if (v == 1)
+                {
+                    addutil::Vector3 oldvel = e->getVelocity();
+                    addutil::Vector3 newacc = (vec - oldvel) * (1.0f / time_interval);
+                    e->update(2, newacc);
+                }
+            }
+
+            e->update(v, vec.x, vec.y, vec.z);
+            e->updateOrientation(v, q.w, q.x, q.y, q.z);
+        }
+
+        void MatchStatus::update(const std::vector<messages::ConstantUpdateMessage>& ms, float time_interval)
         {
             typedef std::pair<std::string, boost::shared_ptr<MatchClub> > pair_cl;
             BOOST_FOREACH(messages::ConstantUpdateMessage m, ms)
             {
-                update(m);
+                update(m, time_interval);
             }
         }
 
@@ -114,6 +137,23 @@ namespace freekick
             {
                 update(m);
             }
+        }
+
+        void MatchStatus::update(const messages::GeneralUpdateScoreMessage& m)
+        {
+            score_home = m.goals(true, false);
+            score_away = m.goals(false, false);
+            // TODO: also use penalty kick score; also see rules.cpp
+            std::cout << "MatchStatus::update::GeneralUpdateScoreMessage: " << score_home << " : " << score_away << std::endl;
+        }
+
+        void MatchStatus::update(const std::vector<messages::GeneralUpdateScoreMessage>& ms)
+        {
+            typedef std::pair<std::string, boost::shared_ptr<MatchClub> > pair_cl;
+            BOOST_FOREACH(messages::GeneralUpdateScoreMessage m, ms)
+            {
+                update(m);
+            }            
         }
 
         boost::shared_ptr<MatchPlayer> MatchStatus::getPlayer(int id) const
@@ -271,6 +311,7 @@ namespace freekick
 
         bool MatchStatus::playerAllowedToKick(int id) const
         {
+            // TODO: add "player can't touch the ball after giving throwin/goal kick/etc."
             if(mBallState.blocked_play) return false;
             soccer::BallOwner b = getPlayerSide(id);
             if(mBallState.bio_type == BallIn || mBallState.owner == b)
@@ -288,6 +329,26 @@ namespace freekick
         void MatchStatus::setContinue(bool c)
         {
             mContinue = c;
+        }
+
+        void MatchStatus::addHomeScore()
+        {
+            score_home++;
+        }
+
+        void MatchStatus::addAwayScore()
+        {
+            score_away++;
+        }
+
+        int MatchStatus::getHomeScore() const
+        {
+            return score_home;
+        }
+
+        int MatchStatus::getAwayScore() const
+        {
+            return score_away;
         }
     }
 }

@@ -28,6 +28,7 @@
 #include <boost/foreach.hpp>
 #include <boost/array.hpp>
 #include <boost/tuple/tuple.hpp>
+#include <boost/serialization/serialization.hpp>
 
 #include "addutil/DynamicEntity.h"
 
@@ -41,6 +42,7 @@
 #include "BallState.h"
 
 #include "messages/ConstantUpdateMessage.h"
+#include "messages/GeneralUpdateScoreMessage.h"
 #include "messages/GeneralUpdateStatusMessage.h"
 
 namespace freekick
@@ -55,10 +57,12 @@ namespace freekick
         public:
             MatchStatus(boost::shared_ptr<MatchData> md);
             virtual ~MatchStatus() { }
-            void update(const messages::ConstantUpdateMessage& m);
-            void update(const std::vector<messages::ConstantUpdateMessage>& ms);
+            void update(const messages::ConstantUpdateMessage& m, float time_interval = 0.0f);
+            void update(const std::vector<messages::ConstantUpdateMessage>& ms, float time_interval = 0.0f);
             void update(const messages::GeneralUpdateStatusMessage& m);
             void update(const std::vector<messages::GeneralUpdateStatusMessage>& ms);
+            void update(const messages::GeneralUpdateScoreMessage& m);
+            void update(const std::vector<messages::GeneralUpdateScoreMessage>& ms);
             const boost::shared_ptr<MatchData>& getMatchData() const;
             void getPlayers (std::map <int, boost::shared_ptr<MatchPlayer> >& v) const;
             boost::shared_ptr<MatchPlayer> getPlayer(int id) const;
@@ -76,6 +80,13 @@ namespace freekick
             bool playerAllowedToKick(int id) const;
             bool continuing() const;
             void setContinue(bool c);
+            void addHomeScore();
+            void addAwayScore();
+            int getHomeScore() const;
+            int getAwayScore() const;
+
+        protected:
+            void updateEntity(addutil::DynamicEntity* e, const messages::ConstantUpdateMessage& m, float time_interval);
 
         private:
             const boost::shared_ptr<MatchData> mMatchData;
@@ -85,13 +96,29 @@ namespace freekick
             MatchPlayerMap mPlayers;
             // Note: if you add another container (for referee etc.) here, remember to update MatchStatus::update() function
 
-            unsigned int score_home;
-            unsigned int score_away;
+            int score_home;
+            int score_away;
             Time currtime;
             bool secondhalf;
-            unsigned int injurytime;
+            int injurytime;
             BallState mBallState;
             // TODO: add status of yellow cards etc.
+
+            friend class boost::serialization::access;
+            template<class Archive>
+                void serialize(Archive & ar, const unsigned int version)
+            {
+                ar & mMatchData;
+                ar & mContinue;
+                ar & mBall;
+                ar & mPlayers;
+                ar & score_home;
+                ar & score_away;
+                ar & currtime;
+                ar & secondhalf;
+                ar & injurytime;
+                ar & mBallState;
+            }
         };
     }
 }
