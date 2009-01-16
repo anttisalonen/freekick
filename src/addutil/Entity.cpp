@@ -195,6 +195,12 @@ namespace addutil
         }
     }
 
+    void Entity::update(int v, const Vector3& vec)
+    {
+        update(v, vec.x, vec.y, vec.z);
+    }
+
+
     void Entity::updateOrientation(int v, float w, float x, float y, float z)
     {
         switch(v)

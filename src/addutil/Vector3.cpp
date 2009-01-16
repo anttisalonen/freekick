@@ -42,12 +42,14 @@ namespace addutil
     {
     }
 
-    void Vector3::normalize()
+    Vector3& Vector3::normalize()
     {
         float len = length();
+        if(len == 0.0f) return *this;
         x = x / len;
         y = y / len;
         z = z / len;
+        return *this;
     }
 
     float Vector3::length() const

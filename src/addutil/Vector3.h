@@ -32,6 +32,13 @@
 
 namespace addutil
 {
+    enum Axis
+    {
+        X_Axis,
+        Y_Axis,
+        Z_Axis
+    };
+
     class Vector3
     {
     public:
@@ -53,7 +60,7 @@ namespace addutil
         Vector3& operator*=(float s);
         Vector3 operator*(float s) const;
 
-        void normalize();
+        Vector3& normalize();
         float length() const;
         void capX(float n);
         void capY(float n);
