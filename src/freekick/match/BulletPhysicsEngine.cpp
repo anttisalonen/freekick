@@ -88,20 +88,38 @@ namespace freekick
             */
         }
 
-        bool BulletPhysicsEngine::addStaticBoxObject(ObjectID oid, Vector3 shape, Vector3 loc)
+        bool BulletPhysicsEngine::addStaticBoxObject(ObjectID oid, Vector3 shape, Vector3 loc, float restitution)
         {
-            btCollisionShape* groundShape = new btBoxShape(btVector3(btScalar(shape.x),btScalar(shape.y),btScalar(shape.z)));
+            // TODO: use only one collision shape for all same kinds of boxes
+            btCollisionShape* boxshape = new btBoxShape(btVector3(btScalar(shape.x),btScalar(shape.y),btScalar(shape.z)));
+            return addStaticObject(oid, boxshape, loc, restitution);
+        }
 
-            btTransform groundTransform;
-            groundTransform.setIdentity();
-            groundTransform.setOrigin(btVector3(loc.x,loc.y,loc.z));
+        bool BulletPhysicsEngine::addStaticCylinderObject(ObjectID oid, addutil::Axis axis, float length, float radius, addutil::Vector3 loc, float restitution)
+        {
+            btCollisionShape* cylshape;
+            if(axis == addutil::Y_Axis)
+                cylshape = new btCylinderShape(btVector3(btScalar(radius),btScalar(length),btScalar(radius)));
+            else if (axis == addutil::X_Axis)
+                cylshape = new btCylinderShapeX(btVector3(btScalar(length),btScalar(radius),btScalar(radius)));
+            else
+                cylshape = new btCylinderShapeZ(btVector3(btScalar(radius),btScalar(radius),btScalar(length)));
+            return addStaticObject(oid, cylshape, loc, restitution);
+        }
+
+        bool BulletPhysicsEngine::addStaticObject(ObjectID oid, btCollisionShape* colShape, addutil::Vector3 loc, float restitution)
+        {
+            btTransform objtransform;
+            objtransform.setIdentity();
+            objtransform.setOrigin(btVector3(loc.x,loc.y,loc.z));
 
             btScalar mass(0.);
             btVector3 localInertia(0,0,0);
 
             //using motionstate is recommended, it provides interpolation capabilities, and only synchronizes 'active' objects
-            btDefaultMotionState* myMotionState = new btDefaultMotionState(groundTransform);
-            btRigidBody::btRigidBodyConstructionInfo rbInfo(mass, myMotionState, groundShape, localInertia);
+            btDefaultMotionState* myMotionState = new btDefaultMotionState(objtransform);
+            btRigidBody::btRigidBodyConstructionInfo rbInfo(mass, myMotionState, colShape, localInertia);
+            rbInfo.m_restitution = restitution;
             btRigidBody* body = new btRigidBody(rbInfo);
 
             //add the body to the dynamics world
@@ -125,6 +143,7 @@ namespace freekick
         bool BulletPhysicsEngine::addDynamicSphereObject(ObjectID oid, float radius, float mass, Vector3 loc, float restitution)
         {
             btCollisionShape* colShape = new btSphereShape(btScalar(radius));
+
             try
             {
                 return addDynamicObject(oid, colShape, mass, loc, restitution);

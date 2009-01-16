@@ -27,10 +27,10 @@ namespace freekick
     {
         const int BallID         = -2;
         const int RefereeID      = -3;
-        const int FirstGoalID    = -1000;
-        const int SecondGoalID   = -1001;
         const int PitchID        = -1002;
         const int StadiumID      = -1003;
+        const int FirstGoalID    = -1000;
+        const int SecondGoalID   = -1010;
     }
 }
 

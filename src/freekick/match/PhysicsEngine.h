@@ -49,7 +49,8 @@ namespace freekick
         {
         public:
             virtual ~PhysicsEngine ( ) { }
-            virtual bool addStaticBoxObject(ObjectID oid, addutil::Vector3 shape, addutil::Vector3 loc) = 0;
+            virtual bool addStaticBoxObject(ObjectID oid, addutil::Vector3 shape, addutil::Vector3 loc, float restitution) = 0;
+            virtual bool addStaticCylinderObject(ObjectID oid, addutil::Axis axis, float length, float radius, addutil::Vector3 loc, float restitution) = 0;
             virtual bool addDynamicBoxObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc, float restitution) = 0;
             virtual bool addDynamicSphereObject(ObjectID oid, float radius, float mass, addutil::Vector3 loc, float restitution) = 0;
             virtual bool addControllableObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc) = 0;

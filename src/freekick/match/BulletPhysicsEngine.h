@@ -28,6 +28,8 @@
 
 #include "btBulletDynamicsCommon.h"
 
+#include "addutil/Vector3.h"
+
 #include "MatchIDs.h"
 
 #include "PhysicsEngine.h"
@@ -47,7 +49,8 @@ namespace freekick
                                  int maxObjects,
                                  boost::shared_ptr<PhysicsEngineSettings> settings);
             ~BulletPhysicsEngine ();
-            bool addStaticBoxObject(ObjectID oid, addutil::Vector3 shape, addutil::Vector3 loc);
+            bool addStaticBoxObject(ObjectID oid, addutil::Vector3 shape, addutil::Vector3 loc, float restitution);
+            bool addStaticCylinderObject(ObjectID oid, addutil::Axis axis, float length, float radius, addutil::Vector3 loc, float restitution);
             bool addDynamicBoxObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc, float restitution);
             bool addDynamicSphereObject(ObjectID oid, float radius, float mass, addutil::Vector3 loc, float restitution);
             bool addControllableObject(ObjectID oid, addutil::Vector3 size, float mass, addutil::Vector3 loc);
@@ -67,6 +70,7 @@ namespace freekick
 
         protected:
             bool addDynamicObject(ObjectID oid, btCollisionShape* colShape, float mass, addutil::Vector3 loc, float restitution, bool upright = false);
+            bool addStaticObject(ObjectID oid, btCollisionShape* colShape, addutil::Vector3 loc, float restitution);
             bool addObject(btRigidBody* b, int collgroup = Collision_Static);
             bool setObjectOrientation(ObjectID oid, const btQuaternion& q);
 
