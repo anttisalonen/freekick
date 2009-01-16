@@ -39,7 +39,9 @@ namespace freekick
 
             Network::Network (IP_Connection conn)
                 : Client(conn),
-                  status(0)
+                  status(0),
+                  constant_update_interval_ms(50),
+                  general_update_interval_ms(1000)
             {
             }
 
@@ -180,7 +182,7 @@ namespace freekick
                                 try
                                 {
                                     const messages::ConstantUpdateMessage m(this_event);
-                                    status->update(m);
+                                    status->update(m, constant_update_interval_ms * 0.001f);
                                 }
                                 catch(...)
                                 {
@@ -201,6 +203,45 @@ namespace freekick
                                 }
                                 continue;
                             }
+                            else if (t == s_gen_score_upd)
+                            {
+                                try
+                                {
+                                    const messages::GeneralUpdateScoreMessage m(this_event);
+                                    status->update(m);
+                                }
+                                catch(...)
+                                {
+                                    std::cerr << "Network: failed to parse GeneralUpdateScoreMessage.\n";
+                                }
+                                continue;
+                            }
+                            else if (t == s_give_gen_upd_int)
+                            {
+                                try
+                                {
+                                    const messages::GiveGeneralUpdateIntervalMessage m(this_event);
+                                    general_update_interval_ms = m.getValue();
+                                }
+                                catch(...)
+                                {
+                                    std::cerr << "Network: failed to parse GiveGeneralUpdateIntervalMessage.\n";
+                                }
+                                continue;
+                            }
+                            else if (t == s_give_const_upd_int)
+                            {
+                                try
+                                {
+                                    const messages::GiveConstantUpdateIntervalMessage m(this_event);
+                                    constant_update_interval_ms = m.getValue();
+                                }
+                                catch(...)
+                                {
+                                    std::cerr << "Network: failed to parse GiveConstantUpdateIntervalMessage.\n";
+                                }
+                                continue;
+                            }
                             else
                             {
                                 std::cerr << "Network::read: received an unknown message.\n";
@@ -216,6 +257,16 @@ namespace freekick
                 handshake = true;
                 connect();
                 return true;
+            }
+
+            int Network::getConstantUpdateInterval() const
+            {
+                return constant_update_interval_ms;
+            }
+
+            int Network::getGeneralUpdateInterval() const
+            {
+                return general_update_interval_ms;
             }
         }
     }

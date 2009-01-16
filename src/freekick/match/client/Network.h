@@ -50,6 +50,8 @@
 #include "messages/ConstantUpdateMessage.h"
 #include "messages/InitialDataRequest.h"
 #include "messages/InitialDataClubMessage.h"
+#include "messages/GiveGeneralUpdateIntervalMessage.h"
+#include "messages/GiveConstantUpdateIntervalMessage.h"
 
 namespace freekick
 {
@@ -68,6 +70,8 @@ namespace freekick
                 void sendMessage(const messages::Message& m);
                 void sendMessages(const std::vector<boost::shared_ptr<messages::Message> >& ms);
                 void disconnect();
+                int getConstantUpdateInterval() const;
+                int getGeneralUpdateInterval() const;
 
             protected:
                 void read(std::string buf);
@@ -76,6 +80,8 @@ namespace freekick
                 freekick::match::MatchStatus* status;
                 std::string buffer;
                 bool handshake;
+                int constant_update_interval_ms;
+                int general_update_interval_ms;
             };
         } 
     }
