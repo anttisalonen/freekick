@@ -33,17 +33,19 @@ namespace freekick
             {
             public:
                 SetConstantUpdateIntervalMessage(int interval)
-                    : m_interval(interval)
+                    : IntegerParameterMessage(interval)
                 {
                 }
+                SetConstantUpdateIntervalMessage(std::string& msg)
+                    : IntegerParameterMessage(msg, c_set_const_upd_int)
+                {
+                }
+
                 virtual ~SetConstantUpdateIntervalMessage() { }
                 const std::string toString() const
                 {
-                    return intParamString(c_set_const_upd_int, m_interval);
+                    return intParamString(c_set_const_upd_int);
                 }
-
-            private:
-                int m_interval;
             };
         }
     }

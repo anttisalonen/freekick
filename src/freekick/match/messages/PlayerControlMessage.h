@@ -36,7 +36,7 @@ namespace freekick
             class PlayerControlMessage : public ParameterMessage
             {
             public:
-                PlayerControlMessage(PlayerID plid, addutil::Vector3 tgtvec)
+                PlayerControlMessage(PlayerID plid, addutil::Vector3 tgtvec = addutil::Vector3())
                     : m_plid(plid)
                     , m_tgtvec(tgtvec)
                 {

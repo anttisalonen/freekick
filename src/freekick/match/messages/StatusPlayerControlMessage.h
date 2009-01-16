@@ -32,7 +32,7 @@ namespace freekick
             class StatusPlayerControlMessage : public PlayerControlMessage
             {
             public:
-                StatusPlayerControlMessage(PlayerID plid, ControlledStatus cs)
+                StatusPlayerControlMessage(PlayerID plid, const ControlledStatus& cs)
                     : PlayerControlMessage(plid)
                     , m_cs(cs)
                 {
@@ -41,7 +41,7 @@ namespace freekick
                 const std::string toString() const
                 {
                     std::ostringstream oss(std::ostringstream::out);
-                    oss << m_cs.getBytes();
+                    oss << m_cs;
                     return contString(c_pl_ctl_hold, false, oss.str());
                 }
 

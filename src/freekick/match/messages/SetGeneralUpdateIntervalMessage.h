@@ -33,17 +33,19 @@ namespace freekick
             {
             public:
                 SetGeneralUpdateIntervalMessage(int interval)
-                    : m_interval(interval)
+                    : IntegerParameterMessage(interval)
                 {
                 }
+                SetGeneralUpdateIntervalMessage(std::string& msg)
+                    : IntegerParameterMessage(msg, c_set_gen_upd_int)
+                {
+                }
+
                 virtual ~SetGeneralUpdateIntervalMessage() { }
                 const std::string toString() const
                 {
-                    return intParamString(c_set_gen_upd_int, m_interval);
+                    return intParamString(c_set_gen_upd_int);
                 }
-
-            private:
-                int m_interval;
             };
         }
     }

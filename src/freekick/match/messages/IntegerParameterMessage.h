@@ -32,20 +32,38 @@ namespace freekick
             class IntegerParameterMessage : public ParameterMessage
             {
             public:
-                IntegerParameterMessage()
+                IntegerParameterMessage(std::string& msg, const std::string& corr_id)
                 {
+                    using namespace boost;
+                    // TODO: read action types from Message.h
+                    std::string exp(" *?\\(A +([0-9]+)\\).*");
+                    exp.replace(exp.find("A"), 1, corr_id);
+                    regex expr(exp.c_str());
+                    cmatch what;
+                    if(regex_match(msg.c_str(), what, expr))
+                    {
+                        std::string s1;
+                        s1.assign(what[1].first, what[1].second);
+                        m_value = atoi(s1.c_str());
+                    }
+                    else
+                        throw "IntegerParameterMessage: failed parse";
                 }
                 virtual ~IntegerParameterMessage() { }
+                int getValue() const { return m_value; }
 
             protected:
-                const std::string intParamString(const std::string& type, int param) const
+                IntegerParameterMessage(int v)
+                    : m_value(v) { }
+                const std::string intParamString(const std::string& type) const
                 {
                     std::ostringstream oss(std::ostringstream::out);
-                    oss << param;
+                    oss << m_value;
                     return paramString(type, oss.str());
                 }
 
             private:
+                int m_value;
             };
         }
     }

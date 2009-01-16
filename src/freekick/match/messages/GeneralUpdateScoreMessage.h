@@ -39,6 +39,28 @@ namespace freekick
                     , m_ap(ap)
                 {
                 }
+                GeneralUpdateScoreMessage(std::string& msg)
+                {
+                    using namespace boost;
+                    // TODO: read s_gen_score_upd from Message.h
+                    regex expr(" *?\\(C +([0-9]{1,2}?) +([0-9]{1,2}?) +([0-9]{1,2}?) +([0-9]{1,2}?) *\\).*");
+                    cmatch what;
+                    if(regex_match(msg.c_str(), what, expr))
+                    {
+                        std::string s1, s2, s3, s4;
+                        s1.assign(what[1].first, what[1].second);
+                        s2.assign(what[2].first, what[2].second);
+                        s3.assign(what[3].first, what[3].second);
+                        s4.assign(what[4].first, what[4].second);
+                        m_hg = atoi(s1.c_str());
+                        m_ag = atoi(s2.c_str());
+                        m_hp = atoi(s3.c_str());
+                        m_ap = atoi(s4.c_str());
+                    }
+                    else
+                        throw "GeneralUpdateScoreMessage: failed parse";
+                }
+
                 virtual ~GeneralUpdateScoreMessage() { }
                 const std::string toString() const
                 {
@@ -47,8 +69,25 @@ namespace freekick
                     return stdString(oss.str());
                 }
 
+                int goals(bool home, bool penalty) const
+                {
+                    if(home)
+                    {
+                        if(penalty)
+                            return m_hp;
+                        else
+                            return m_hg;
+                    }
+                    else
+                    {
+                        if(penalty)
+                            return m_ap;
+                        else
+                            return m_ag;
+                    }
+                }
             private:
-                unsigned int m_hg, m_ag, m_hp, m_ap;
+                int m_hg, m_ag, m_hp, m_ap;
             };
         }
     }
