@@ -31,6 +31,15 @@ namespace freekick
             Away
         };
 
+        enum GoalQuery
+        {
+            NoGoal,
+            HomeGoal,
+            AwayGoal
+        };
+
+        // TODO: add pitch measurements from pitch.h, rules.cpp here
+
         soccer::BallOwner other(soccer::BallOwner b);
         soccer::BallOwner intToBallOwner(int n);
     }

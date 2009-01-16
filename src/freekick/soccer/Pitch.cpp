@@ -52,6 +52,36 @@ namespace freekick
             if(top) return ontopside;
             return !ontopside;
         }
+
+        bool Pitch::inFirstGoal(const addutil::Vector3& v) const
+        {
+            if(!maybeInGoal(v.x, v.y, v.z)) return false;
+            return (v.z < 0.0f);
+        }
+
+        bool Pitch::inSecondGoal(const addutil::Vector3& v) const
+        {
+            if(!maybeInGoal(v.x, v.y, v.z)) return false;
+            return (v.z > length);
+        }
+
+        bool Pitch::inFirstGoal(float x, float y, float z) const
+        {
+            return inFirstGoal(addutil::Vector3(x, y, z));
+        }
+
+        bool Pitch::inSecondGoal(float x, float y, float z) const
+        {
+            return inSecondGoal(addutil::Vector3(x, y, z));
+        }
+
+        bool Pitch::maybeInGoal(float x, float y, float z) const
+        {
+            if(onPitch(x, z)) return false;
+            if(abs((width / 2.0f) - x) > goal_width) return false;
+            if(y < 0.0f || y > goal_height) return false;
+            return true;
+        }
     }
 }
 

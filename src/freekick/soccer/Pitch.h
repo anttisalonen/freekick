@@ -26,6 +26,8 @@
 
 #include <boost/serialization/serialization.hpp>
 
+#include "addutil/Vector3.h"
+
 /**
  * class Pitch
  */
@@ -34,6 +36,10 @@ namespace freekick
 {
     namespace soccer
     {
+        // TODO: move such magic constants to a separate .h
+        static const float goal_width = 7.32f;
+        static const float goal_height = 2.44f;
+
         class Pitch
         {
         public:
@@ -42,7 +48,13 @@ namespace freekick
             float getLength() const;
             bool onPitch(float x, float y) const;
             bool onSide(bool top, float x, float y) const;
+            bool inFirstGoal(const addutil::Vector3& v) const;
+            bool inSecondGoal(const addutil::Vector3& v) const;
+            bool inFirstGoal(float x, float y, float z) const;
+            bool inSecondGoal(float x, float y, float z) const;
 
+        protected:
+            bool maybeInGoal(float x, float y, float z) const;
         private:
             const float width;
             const float length;

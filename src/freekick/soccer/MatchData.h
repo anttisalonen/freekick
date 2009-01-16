@@ -77,24 +77,17 @@ namespace freekick
             boost::shared_ptr<Ball> ball;
             Time starttime;
 
-/*
             friend class boost::serialization::access;
             template<class Archive>
                 void serialize(Archive & ar, const unsigned int version)
             {
-                ar & stadium;
-                ar & ball;
-                ar & clubs;
-                ar & referee;
-                ar & entities;
                 ar & homeclub;
                 ar & awayclub;
-                ar & currtime;
-                ar & score_home;
-                ar & score_away;
-                ar & secondhalf;
+                ar & stadium;
+                ar & referee;
+                ar & ball;
+                ar & starttime;
             }
-*/
         };
     }
 }
