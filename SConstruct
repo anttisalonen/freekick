@@ -11,7 +11,7 @@ debug = ARGUMENTS.get('debug', 0)
 if int(debug):
     def_env.Append(CPPFLAGS = '-g ')
 
-opt = ARGUMENTS.get('opt', 0)
+opt = ARGUMENTS.get('opt', 1)
 if int(opt):
     def_env.Append(CPPFLAGS = '-O2 ')
 
@@ -40,7 +40,9 @@ soccer_env.Library(soccer_name, soccer_obj)
 match_env = addutil_env.Clone()
 match_env.Append(CPPPATH = ['./src/freekick/soccer'])
 match_env.Append(CPPPATH = ['./src/freekick/match'])
-match_env.Append(CPPPATH = ['/usr/local/include/bullet'])
+
+match_env.ParseConfig("pkg-config bullet --cflags --libs")
+
 match_name = 'lib/match'
 match_obj = match_env.Object(Glob('src/freekick/match/*.cpp') + 
                              Glob('src/freekick/match/messages/*.cpp')) + soccer_obj
@@ -108,44 +110,35 @@ ai_client = aiclient_env.Program(aiclient_name, aiclient_files)
 
 fkserver_env = def_env.Clone()
 fkserver_env.Append(CPPPATH = ['./src/addutil'])
+fkserver_env.Append(CPPPATH = ['./src/freekick'])
 fkserver_env.Append(CPPPATH = ['./src/freekick/soccer'])
 fkserver_env.Append(CPPPATH = ['./src/freekick/match'])
 fkserver_env.Append(CPPPATH = ['./src/freekick/match/server'])
-fkserver_env.Append(CPPPATH = ['/usr/local/include/bullet'])
 fkserver_env.Append(LIBPATH = ['./lib'])
 
+fkserver_env.ParseConfig("pkg-config bullet --cflags --libs")
+
 fkserver_conf = Configure(fkserver_env)
-bullet273libs = ['LibBulletDynamics',
-                 'LibBulletCollision',
-                 'LibLinearMath']
-bullet274libs = ['bulletdynamics',
-                 'bulletcollision',
-                 'bulletmath']
 
-bullet274found = True
-for lib in bullet274libs:
+bulletlibs = ['bulletdynamics',
+              'bulletcollision',
+              'bulletmath']
+
+bulletfound = True
+for lib in bulletlibs:
     if not fkserver_conf.CheckLib(lib):
-        bullet274found = False
+        bulletfound = False
 
-if bullet274found:
-    bulletlib = bullet274libs
-else:
-    bullet273found = True
-    for lib in bullet273libs:
-        if not fkserver_conf.CheckLib(lib):
-            bullet273found = False
-    if bullet273found:
-        bulletlib = bullet273libs
-    else:
-        print "Bullet libs not found, exiting."
-        Exit(1)
+if not bulletfound:
+    print "Bullet libs not found, exiting."
+    Exit(1)
 
 fkserver_env['LIBS'] = ['boost_thread', 
                         'boost_system', 
                         'boost_serialization',
                         'boost_regex',
                         'match',
-                         bulletlib]
+                         bulletlibs]
 
 fkserver_name = 'bin/fkserver'
 fkserver_files = Glob('src/freekick/match/server/*.cpp')
