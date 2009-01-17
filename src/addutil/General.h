@@ -21,6 +21,10 @@
 #ifndef ADDUTIL_GENERAL_H
 #define ADDUTIL_GENERAL_H
 
+#include <set>
+
+#include <boost/foreach.hpp>
+
 namespace addutil
 {
     namespace general
@@ -29,6 +33,30 @@ namespace addutil
         {
             if(val < min) val = min;
             if(val > max) val = max;
+        }
+
+        template <typename T> void set_union(const std::set<T>& a, const std::set<T>& b, std::set<T>& out)
+        {
+            out.clear();
+            BOOST_FOREACH(T n, a)
+            {
+                if(b.find(n) != b.end())
+                {
+                    out.insert(n);
+                }
+            }
+        }
+
+        template <typename T> void set_inverse_union(const std::set<T>& more, const std::set<T>& less, std::set<T>& diff)
+        {
+            diff.clear();
+            BOOST_FOREACH(T n, more)
+            {
+                if(less.find(n) == less.end())
+                {
+                    diff.insert(n);
+                }
+            }
         }
     }
 }
