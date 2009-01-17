@@ -30,17 +30,14 @@
 #include "addutil/network/Server.h"
 #include "addutil/Reader.h"
 #include "addutil/Color.h"
+#include "addutil/General.h"
 
 #include "freekick/match/Client.h"
 #include "Physics.h"
 #include "Rules.h"
 #include "MatchData.h"
 
-#include "messages/Message.h"
-#include "messages/ConstantUpdateMessage.h"
-#include "messages/InitialDataRequest.h"
-#include "messages/InitialDataClubMessage.h"
-#include "messages/InitialDataKitMessage.h"
+#include "messages/Messages.h"
 
 namespace freekick
 {
@@ -71,8 +68,14 @@ namespace freekick
                 void dispatchRulesMessage (const RulesMessage& e );
                 void dispatchPhysicsMessages (const PhysicsMessageList& es );
                 void dispatchRulesMessages (const RulesMessageList& es );
+                void dispatchScoreMessages (const ScoreMessageList& es );
                 void dispatchConnectionMessages (const ConnectionMessageList& es );
                 void newClientMessage(unsigned int clid, const messages::InitialDataRequest& m);   // TODO: add handlers for all receivable messages
+                void newClientMessage(unsigned int clid, const messages::SetGeneralUpdateIntervalMessage& m);
+                void newClientMessage(unsigned int clid, const messages::SetConstantUpdateIntervalMessage& m);
+                void newClientMessage(unsigned int clid, const messages::GetGeneralUpdateInterval& m);
+                void newClientMessage(unsigned int clid, const messages::GetConstantUpdateInterval& m);
+                void sendPlayerList(unsigned int clid);
 
             private:
                 ClientListPtr mClientList;
@@ -82,6 +85,10 @@ namespace freekick
                 boost::shared_ptr<Rules> mRules;
                 boost::shared_ptr<MatchStatus> mMatchStatus;
                 boost::posix_time::ptime last_physics_dispatch_time;
+
+                static const int min_dispatch_interval = 50;
+                static const int dispatch_interval_step = 50;
+                static const int max_dispatch_interval = 10000;
             };
         }
     }

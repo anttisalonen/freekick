@@ -50,8 +50,6 @@ namespace freekick
     {
         namespace server
         {
-            typedef std::map<unsigned int, freekick::match::Client> ClientList;
-            typedef boost::shared_ptr<ClientList> ClientListPtr;
             using addutil::network::client_id;
 
             class ServerManager : public addutil::network::Server

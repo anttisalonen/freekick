@@ -27,6 +27,7 @@
 #include <iostream>
 
 #include <boost/shared_ptr.hpp>
+#include <boost/tuple/tuple.hpp>
 
 #include "addutil/network/Server.h"
 #include "addutil/Parsing.h"
@@ -36,11 +37,7 @@
 #include "Dispatcher.h"
 #include "InputMonitor.h"
 
-#include "messages/Message.h"
-#include "messages/MovePlayerControlMessage.h"
-#include "messages/KickPlayerControlMessage.h"
-#include "messages/InitialDataRequest.h"
-#include "messages/PlayerControlRequestMessage.h"
+#include "messages/Messages.h"
 
 namespace freekick
 {

@@ -82,8 +82,7 @@ namespace freekick
                 ClientList::iterator it = mClientList->find(clientid);
                 if(it == mClientList->end())
                 {
-                    std::cerr << "ClientEventListener::handleMessage: client not in the client list? (Should never happen.) Adding.\n";
-                    (*mClientList)[clientid] = Client(clientid);
+                    std::cerr << "ClientEventListener::handleMessage: client not in the client list? (Should never happen.)\n";
                     return;
                 }
 
@@ -94,7 +93,7 @@ namespace freekick
                     {
                         const messages::MovePlayerControlMessage m(b);
                         int playerid = m.getPlayerID();
-                        if(!(*it).second.controlsPlayer(playerid))
+                        if(!(*it).second->controlsPlayer(playerid))
                         {
                             std::cerr << "ClientEventListener: client " << clientid << " trying to control another player (" << playerid << ").\n";
                             return;
@@ -116,7 +115,7 @@ namespace freekick
                     {
                         const messages::KickPlayerControlMessage m(b);
                         int playerid = m.getPlayerID();
-                        if(!(*it).second.controlsPlayer(playerid))
+                        if(!(*it).second->controlsPlayer(playerid))
                         {
                             std::cerr << "ClientEventListener: client " << clientid << " trying to control another player (" << playerid << ").\n";
                             return;
@@ -144,12 +143,50 @@ namespace freekick
                     try
                     {
                         const messages::PlayerControlRequestMessage m(b);
-                        // TODO: check if players already reserved
-                        // Be sure the ServerManager thread doesn't change the client at the same time...
-                        std::set<int> pls;
-                        m.getPlayers(pls);
-                        (*it).second.clearPlayers();
-                        (*it).second.addPlayers(pls);
+
+                        std::set<int> ps = m.getList();
+
+                        std::set<int> clients_that_need_player_list_update;
+
+                        ClientType this_controller = (it->second->getAI()) ? AIClient : HumanClient;
+
+                        std::set<int>::iterator plidit;
+                        for(plidit = ps.begin(); plidit != ps.end(); plidit++)
+                        {
+                            try
+                            {
+                                boost::tuple<ClientType, boost::shared_ptr<Client> > prev_controller = getControllerType(mClientList, *plidit);
+                                if(prev_controller.get<1>()->getID() == clientid)
+                                    continue;
+                                if(prev_controller.get<0>() == HumanClient || (prev_controller.get<0>() == AIClient && this_controller != HumanClient))
+                                {   // taking over not allowed
+                                    std::cout << "Client " << clientid << " wants to take over player " << *plidit << "; denied.\n";
+                                    ps.erase(plidit);
+                                    plidit = ps.begin();
+                                }
+                                else if(prev_controller.get<0>() == AIClient)
+                                {   // human takes over ai -> ai gets kicked out
+                                    std::cout << "Client " << clientid << " wants to take over player " << *plidit << "; approved.\n";
+                                    prev_controller.get<1>()->removePlayer(*plidit);
+                                    clients_that_need_player_list_update.insert(prev_controller.get<1>()->getID());
+                                }
+                            }
+                            catch(...)
+                            {
+                                continue;
+                            }
+                        }
+
+                        (*it).second->clearPlayers();
+                        (*it).second->addPlayers(ps);
+
+                        if(clients_that_need_player_list_update.size() > 0)
+                            clients_that_need_player_list_update.insert(clientid);
+
+                        BOOST_FOREACH(int updid, clients_that_need_player_list_update)
+                        {
+                            mDispatcher->sendPlayerList(updid);
+                        }
                     }
                     catch(const char* c)
                     {
@@ -159,6 +196,53 @@ namespace freekick
                     {
                         std::cerr << "ClientEventListener: failed to parse PlayerControlRequestMessage.\n";
                     }
+                    return;
+                }
+
+                // Set General Update Interval: Dispatcher
+                else if (t == c_set_gen_upd_int)
+                {
+                    try
+                    {
+                        const messages::SetGeneralUpdateIntervalMessage m(b);
+                        mDispatcher->newClientMessage(clientid, m);
+                    }
+                    catch(...)
+                    {
+                        std::cerr << "ClientEventListener: failed to parse SetGeneralUpdateIntervalMessage.\n";
+                    }
+                    return;
+                }
+
+                // Get General Update Interval: Dispatcher
+                else if (t == c_get_gen_upd_int)
+                {
+                    const messages::GetGeneralUpdateInterval m;
+                    mDispatcher->newClientMessage(clientid, m);
+                    return;
+                }
+
+                // Set Constant Update Interval: Dispatcher
+                else if (t == c_set_const_upd_int)
+                {
+                    try
+                    {
+                        const messages::SetConstantUpdateIntervalMessage m(b);
+                        mDispatcher->newClientMessage(clientid, m);
+                    }
+                    catch(...)
+                    {
+                        std::cerr << "ClientEventListener: failed to parse SetConstantUpdateIntervalMessage.\n";
+                    }
+                    return;
+                }
+
+                // Get Constant Update Interval: Dispatcher
+                else if (t == c_get_const_upd_int)
+                {
+                    const messages::GetConstantUpdateInterval m;
+                    mDispatcher->newClientMessage(clientid, m);
+                    return;
                 }
 
                 // TODO: add handling for all messages

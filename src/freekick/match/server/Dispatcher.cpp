@@ -73,8 +73,10 @@ namespace freekick
             void Dispatcher::update(Rules* r)
             {
                 RulesMessageList l;
-                r->getUpdates(l);
+                ScoreMessageList s;
+                r->getUpdates(l, s);
                 dispatchRulesMessages(l);
+                dispatchScoreMessages(s);
             }
 
             void Dispatcher::dispatchClientInformation ( ) 
@@ -118,6 +120,7 @@ namespace freekick
 
             void Dispatcher::dispatchRulesMessages (const RulesMessageList& es ) 
             {
+                if(es.size() < 1) return;
                 std::ostringstream oss(std::ostringstream::out);
                 BOOST_FOREACH(RulesMessage m, es)
                 {
@@ -127,9 +130,20 @@ namespace freekick
                 srv.multicast(oss.str(), 1);  // TODO: enum instead of 1 (gid)
             }
 
-            void Dispatcher::dispatchConnectionMessages (const ConnectionMessageList& es ) 
+            void Dispatcher::dispatchConnectionMessages (const ConnectionMessageList& es)
             {
+            }
 
+            void Dispatcher::dispatchScoreMessages (const ScoreMessageList& es ) 
+            {
+                if(es.size() < 1) return;
+                std::ostringstream oss(std::ostringstream::out);
+                BOOST_FOREACH(ScoreMessage m, es)
+                {
+                    oss << m.toString();
+                }
+                oss << "\n";
+                srv.multicast(oss.str(), 1);  // TODO: enum instead of 1 (gid)
             }
 
             void Dispatcher::newClientMessage(unsigned int clid, const messages::InitialDataRequest& m)
@@ -147,21 +161,121 @@ namespace freekick
                 using addutil::Color;
                 Kit temporarykit(0, Color(1.0f, 1.0f, 0.0f), Color(0.5f, 0.5f, 1.0f), Color(0.0f, 0.1f, 0.2f), Color(1.0f, 0.0f, 1.0f));
 
-                std::vector<boost::shared_ptr<messages::Message> > ms;
-                boost::shared_ptr<messages::InitialDataClubMessage> icm1(new messages::InitialDataClubMessage(club1, club2));
-                boost::shared_ptr<messages::InitialDataKitMessage>  icm2(new messages::InitialDataKitMessage (temporarykit, temporarykit, temporarykit, temporarykit, temporarykit));
+                using namespace messages;
+                std::vector<boost::shared_ptr<Message> > ms;
+                boost::shared_ptr<InitialDataClubMessage> icm1(new InitialDataClubMessage(club1, club2));
+                boost::shared_ptr<InitialDataKitMessage>  icm2(new InitialDataKitMessage (temporarykit, temporarykit, temporarykit, temporarykit, temporarykit));
                 ms.push_back(icm1);
                 ms.push_back(icm2);
 
                 try
                 {
-                    BOOST_FOREACH(boost::shared_ptr<messages::Message> m, ms)
+                    BOOST_FOREACH(boost::shared_ptr<Message> m, ms)
                         srv.write(m->toString(), clid);
                 }
                 catch (...)
                 {
                     std::cerr << "Dispatcher::newClientMessage: Client disconnected\n";
                 }
+            }
+
+            void Dispatcher::newClientMessage(unsigned int clid, const messages::SetGeneralUpdateIntervalMessage& m)
+            {
+                ClientList::iterator it = mClientList->find(clid);
+                if(it == mClientList->end() || !srv.is_connected(clid))
+                {
+                    std::cerr << "Dispatcher::newClientMessage: Trying to write to a non-existing Client ID\n";
+                    return;
+                }
+
+                int req_interval = m.getValue();
+                addutil::general::clamp(req_interval, min_dispatch_interval, max_dispatch_interval);
+                int rest = req_interval % dispatch_interval_step;
+                int corr_interval = req_interval + dispatch_interval_step - rest;
+                it->second->setGeneralUpdateMessageInterval(corr_interval);
+
+                const messages::GetGeneralUpdateInterval m2;
+                newClientMessage(clid, m2);
+            }
+
+            void Dispatcher::newClientMessage(unsigned int clid, const messages::SetConstantUpdateIntervalMessage& m)
+            {
+                ClientList::iterator it = mClientList->find(clid);
+                if(it == mClientList->end() || !srv.is_connected(clid))
+                {
+                    std::cerr << "Dispatcher::newClientMessage: Trying to write to a non-existing Client ID\n";
+                    return;
+                }
+
+                int req_interval = m.getValue();
+                addutil::general::clamp(req_interval, min_dispatch_interval, max_dispatch_interval);
+                int rest = req_interval % dispatch_interval_step;
+                int corr_interval = req_interval + dispatch_interval_step - rest;
+                it->second->setGeneralUpdateMessageInterval(corr_interval);
+
+                const messages::GetConstantUpdateInterval m2;
+                newClientMessage(clid, m2);
+            }
+
+            void Dispatcher::newClientMessage(unsigned int clid, const messages::GetGeneralUpdateInterval& m)
+            {
+                ClientList::iterator it = mClientList->find(clid);
+                if(it == mClientList->end() || !srv.is_connected(clid))
+                {
+                    std::cerr << "Dispatcher::newClientMessage: Trying to write to a non-existing Client ID\n";
+                    return;
+                }
+
+                int interval = it->second->getGeneralUpdateMessageInterval();
+                messages::GiveGeneralUpdateIntervalMessage m2(interval);
+                try
+                {
+                    srv.write(m2.toString(), clid);
+                }
+                catch (...)
+                {
+                    std::cerr << "Dispatcher::newClientMessage::GetGeneralUpdateInterval: Client disconnected\n";
+                }
+            }
+
+            void Dispatcher::newClientMessage(unsigned int clid, const messages::GetConstantUpdateInterval& m)
+            {
+                ClientList::iterator it = mClientList->find(clid);
+                if(it == mClientList->end() || !srv.is_connected(clid))
+                {
+                    std::cerr << "Dispatcher::newClientMessage: Trying to write to a non-existing Client ID\n";
+                    return;
+                }
+
+                int interval = it->second->getConstantUpdateMessageInterval();
+                messages::GiveConstantUpdateIntervalMessage m2(interval);
+                try
+                {
+                    srv.write(m2.toString(), clid);
+                }
+                catch (...)
+                {
+                    std::cerr << "Dispatcher::newClientMessage::GetConstantUpdateInterval: Client disconnected\n";
+                }
+            }
+
+            void Dispatcher::sendPlayerList(unsigned int clid)
+            {
+                ClientList::iterator it = mClientList->find(clid);
+                if(it == mClientList->end() || !srv.is_connected(clid))
+                {
+                    std::cerr << "Dispatcher::sendPlayerList: Trying to write to a non-existing Client ID\n";
+                    return;
+                }
+                messages::ListOfPlayersMessage m(*(it->second->getControlledPlayers()));
+                try
+                {
+                    srv.write(m.toString(), clid);
+                }
+                catch (...)
+                {
+                    std::cerr << "Dispatcher::sendPlayerList: Client disconnected\n";
+                }                
             }
         }
     }

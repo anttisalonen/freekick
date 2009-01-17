@@ -93,16 +93,27 @@ namespace freekick
                 }
                 else    // handshake
                 {
-                    std::cout << "Handshake\n";
                     try
                     {
                         messages::ClientInitMessage cim(msg);
-                        std::set<int> ps;
-                        // TODO: check if players already reserved
-                        cim.getPlayers(ps);
-                        Client c(id);
-                        (*clients)[id] = c;
-                        c.addPlayers(ps);
+                        std::string this_type;
+                        cim.getType(this_type);
+                        ClientType this_controller;
+                        if(this_type == "A")
+                            this_controller = AIClient;
+                        else if (this_type == "H")
+                            this_controller = HumanClient;
+                        else
+                        {
+                            std::string err_msg = "Invalid controller type: ";
+                            err_msg += this_type;
+                            throw err_msg.c_str();
+                        }
+
+                        std::pair<ClientList::iterator, bool> ins = 
+                            clients->insert(std::pair<int, boost::shared_ptr<Client> >
+                                            (id, boost::shared_ptr<Client>(new Client(id, (this_controller == AIClient)))));
+
                         add_to_group(id, 1);    // TODO: enum instead of 1 (gid)
                     }
                     catch (const char* s)
