@@ -31,7 +31,13 @@ namespace addutil
 
         Server::~Server()
         {
-            stopListening();
+            try
+            {
+                stopListening();
+            }
+            catch(...)
+            {
+            }
         }
 
         void Server::startListening(int port)
@@ -95,6 +101,16 @@ namespace addutil
                 output_boost_exception(e, "Server::write: A boost::exception has occurred");
                 cleanup_client(id);
             }
+            catch(const char* e)
+            {
+                std::cerr << "Server::write: error: " << e << "; disconnecting.\n";
+                cleanup_client(id);
+            }
+            catch(...)
+            {
+                std::cerr << "Server::write: unknown error; disconnecting." << std::endl;
+                cleanup_client(id);
+            }
         }
 
         void Server::disconnect(client_id id)
@@ -135,7 +151,14 @@ namespace addutil
         {
             BOOST_FOREACH(client_id i, ids)
             {
-                write(msg, i);
+                try
+                {
+                    write(msg, i);
+                }
+                catch(...)
+                {
+                    std::cerr << "Server::multicast: error while writing to client " << i << ".\n";
+                }
             }
         }
 
@@ -147,7 +170,14 @@ namespace addutil
             clientset* cs = &groups[gid];
             BOOST_FOREACH(client_id i, *cs)
             {
-                write(msg, i);
+                try
+                {
+                    write(msg, i);
+                }
+                catch(...)
+                {
+                    std::cerr << "Server::multicast: error while writing to client " << i << ".\n";
+                }
             }
         }
 
@@ -177,7 +207,14 @@ namespace addutil
             typedef std::pair<client_id, ConnectionPtr> pair_cn;
             BOOST_FOREACH(pair_cn p, connections)
             {
-                p.second->write(msg);
+                try
+                {
+                    p.second->write(msg);
+                }
+                catch(...)
+                {
+                    std::cerr << "Server::broadcast: error while writing to client " << p.first << ".\n";
+                }
             }
         }
 

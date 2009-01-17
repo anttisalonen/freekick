@@ -31,7 +31,14 @@ namespace addutil
             
         Client::~Client()
         {
-            disconnect();
+            try
+            {
+                disconnect();
+            }
+            catch(...)
+            {
+                // ignore?
+            }
         }
 
         void Client::setTarget(const IP_Connection& conn)

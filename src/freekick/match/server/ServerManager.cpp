@@ -67,7 +67,15 @@ namespace freekick
             {
                 std::cerr << "Client " << id << " connected.\n";
                 messages::ServerInitMessage sim(name, protocol_version, greet);
-                write(sim.toString(), id);
+                try
+                {
+                    write(sim.toString(), id);
+                }
+                catch(...)
+                {
+                    std::cerr << "Error while writing to client " << id << "; disconnecting.\n";
+                    disconnect(id);
+                }
             }
 
             void ServerManager::client_disconnected(client_id id)

@@ -42,8 +42,15 @@ namespace addutil
 
         Connection::~Connection()
         {
-            if(connected()) 
-                disconnect();
+            try
+            {
+                if(connected()) 
+                    disconnect();
+            }
+            catch(...)
+            {
+                // ignore...
+            }
         }
 
         void Connection::read(boost::shared_ptr<msgbuffer>& b)
