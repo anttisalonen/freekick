@@ -40,10 +40,12 @@ namespace freekick
 
                 Graphics::~Graphics()
                 {
-                    delete mRenderer;
-                    delete mSystem;
-                    delete mRoot;
                     delete updater;
+                    delete mSystem;
+/*
+                    delete mRenderer;
+                    delete mRoot;
+*/
                 }
 
                 bool Graphics::run ()
@@ -119,7 +121,9 @@ namespace freekick
                     Camera *cam = mgr->createCamera("Camera");
                     Viewport *vp = mRoot->getAutoCreatedWindow()->addViewport(cam);
 
-                    vp->setBackgroundColour(ColourValue(0,0,0.0));
+                    vp->setBackgroundColour(ColourValue(0.675, 0.84, 0.9));
+                    cam->setNearClipDistance(0.5);
+                    cam->setAspectRatio(Real(vp->getActualWidth()) / Real(vp->getActualHeight()));
 
                     mgr->setAmbientLight(ColourValue( 0.2, 0.2, 0.2 ) );
                     mgr->setShadowTechnique( SHADOWTYPE_STENCIL_ADDITIVE);
@@ -156,14 +160,6 @@ namespace freekick
                     light->setDirection(-1, -1, -1);
                     light->setPosition(Ogre::Vector3(70, 15, 100));
                     light->setSpotlightRange(Degree(0), Degree(80));
-
-                    // Camera
-                    SceneNode *camnode = mgr->getRootSceneNode()->createChildSceneNode("CamNode");
-                    camnode->attachObject(cam);
-                    camnode->setPosition (Ogre::Vector3(35.0f,7.0f,120.0f));
-                    // cam->lookAt (Ogre::Vector3(0,0,0));
-                    cam->setNearClipDistance(0.5);
-                    cam->setAspectRatio(Real(vp->getActualWidth()) / Real(vp->getActualHeight()));
 
                     // Robot
                     //Entity *ent1 = mgr->createEntity ("robot", "robot.mesh");
@@ -204,11 +200,10 @@ namespace freekick
 
                     Ogre::SceneManager *mgr = mRoot->getSceneManager("Default SceneManager");
                     Ogre::Camera* cam = mgr->getCamera("Camera");
-                    Ogre::SceneNode* cn = cam->getParentSceneNode();
 
                     try
                     {
-                        input->setupInputSystem(windowHndStr.str(), width, height, cn);
+                        input->setupInputSystem(windowHndStr.str(), width, height, mgr, cam);
                         mRoot->addFrameListener(input->getFrameListener());
                     }
                     catch (const OIS::Exception &e)

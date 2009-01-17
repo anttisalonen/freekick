@@ -108,6 +108,7 @@ int main(int argc, char** argv)
         {
             boost::thread graphics_thread(boost::bind(&run_graphics, graphics));
             graphics_thread.join();
+            std::cout << "Shutting down client.\n";
         }
         else
         {

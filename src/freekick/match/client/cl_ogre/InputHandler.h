@@ -61,6 +61,22 @@ namespace freekick
                     Z_DOWN
                 };
 
+                enum SubjectiveDirection
+                {
+                    DirUp,
+                    DirDown,
+                    DirLeft,
+                    DirRight,
+                    DirJump,
+                    DirCrouch
+                };
+
+                enum CameraMode
+                {
+                    CamSky,
+                    CamLengthFar
+                };
+
                 class InputHandler : public Ogre::FrameListener, public OIS::MouseListener, public OIS::KeyListener
                 {
                 public:
@@ -68,8 +84,9 @@ namespace freekick
                                   const std::string& windowhnd, 
                                   unsigned int width, 
                                   unsigned int height, 
-                                  Ogre::SceneNode* c,
-                                  Network* netw);
+                                  Network* netw,
+                                  Ogre::SceneManager* mgr,
+                                  Ogre::Camera* cam);
                     virtual ~InputHandler();
 
                     bool frameStarted(const Ogre::FrameEvent& evt);
@@ -78,16 +95,15 @@ namespace freekick
                     bool mouseMoved (const OIS::MouseEvent& e );
                     bool keyPressed (const OIS::KeyEvent& e );
                     bool keyReleased (const OIS::KeyEvent& e );
-                    void setCamera(Ogre::SceneNode* c);
 
                 private:
+                    void setMoveVector(SubjectiveDirection d, float mag);
                     void sendMoveMessage(const addutil::Vector3& to);
                     void sendMoveMessage(Direction d, float mag);
-                    int scrollState;
+                    void switchToCameraMode(CameraMode m);
                     boost::shared_ptr<InputConfiguration> inputconfiguration;
                     OIS::MouseState mousePositionState;
                     Ogre::SceneNode* camtarget;
-                    Ogre::SceneNode* mCamNode;
 
                     Ogre::Real mRotate;          // The rotate constant
                     Ogre::Real mMove;            // The movement constant
@@ -103,6 +119,10 @@ namespace freekick
                     Network* network;
 
                     int mControlledPlayer;
+                    Ogre::SceneManager* mSceneMgr;
+                    Ogre::Camera* mCamera;
+                    CameraMode mCamMode;
+                    boost::array<Ogre::SceneNode*, 2> mCamNodes;
                 };
             }
         }

@@ -32,11 +32,14 @@ namespace freekick
                                             const std::string& windowhnd, 
                                             unsigned int width, 
                                             unsigned int height, 
-                                            Ogre::SceneNode* c,
-                                            Network* netw) 
+                                            Network* netw,
+                                            Ogre::SceneManager* mgr,
+                                            Ogre::Camera* cam)
                     : inputconfiguration(inputconf),
                       network(netw),
-                      mControlledPlayer(110)
+                      mControlledPlayer(110),
+                      mSceneMgr(mgr),
+                      mCamera(cam)
                 {
                     mRotate = 0.13;
                     mMove = 250;
@@ -50,12 +53,12 @@ namespace freekick
                     pl.insert(std::make_pair(std::string("w32_mouse"), std::string("DISCL_FOREGROUND" )));
                     pl.insert(std::make_pair(std::string("w32_mouse"), std::string("DISCL_NONEXCLUSIVE")));
                     pl.insert(std::make_pair(std::string("w32_keyboard"), std::string("DISCL_FOREGROUND")));
-                    pl.insert(std::make_pair(std::string("w32_keyboard"), std::string("DISCL_NONEXCLUSIVE")));
+                    // pl.insert(std::make_pair(std::string("w32_keyboard"), std::string("DISCL_NONEXCLUSIVE")));
 #elif defined OIS_LINUX_PLATFORM
                     pl.insert(std::make_pair(std::string("x11_mouse_grab"), std::string("false")));
                     pl.insert(std::make_pair(std::string("x11_mouse_hide"), std::string("false")));
                     pl.insert(std::make_pair(std::string("x11_keyboard_grab"), std::string("false")));
-                    pl.insert(std::make_pair(std::string("XAutoRepeatOn"), std::string("true")));
+                    // pl.insert(std::make_pair(std::string("XAutoRepeatOn"), std::string("true")));
 #endif
 
                     mInputManager = OIS::InputManager::createInputSystem(pl);
@@ -77,7 +80,18 @@ namespace freekick
                         throw Ogre::Exception(42, e.eText, "InputHandler");
                     }
 
-                    mCamNode = c;
+                    // Camera
+                    // TODO: read pitch dimensions from matchstatus
+                    mCamNodes[0] = mSceneMgr->getRootSceneNode()->createChildSceneNode("CamNode0");
+                    mCamNodes[0]->setPosition (Ogre::Vector3(35.0f, 60.0f, 50.0f));
+
+                    mCamNodes[1] = mSceneMgr->getRootSceneNode()->createChildSceneNode("CamNode1");
+                    mCamNodes[1]->setPosition (Ogre::Vector3(35.0f, 45.0f, 150.0f));
+
+                    mCamNodes[0]->attachObject(mCamera);
+                    switchToCameraMode(CamLengthFar);
+
+                    network->sendMessage(messages::PlayerControlRequestMessage(mControlledPlayer));
                 }
 
                 InputHandler::~InputHandler()
@@ -93,9 +107,10 @@ namespace freekick
                         mKeyboard->capture();
                     if (mMouse)
                         mMouse->capture();
+/*
                     if (mCamNode)
                         mCamNode->translate(mDirection * evt.timeSinceLastFrame, Ogre::Node::TS_LOCAL);
-
+*/
                     return mContinue;
                 }
 
@@ -111,11 +126,13 @@ namespace freekick
 
                 bool InputHandler::mouseMoved (const OIS::MouseEvent& e )
                 {
+/*
                     if (e.state.buttonDown(OIS::MB_Right))
                     {
                         mCamNode->yaw(Ogre::Degree(-mRotate * e.state.X.rel), Ogre::Node::TS_WORLD);
                         mCamNode->pitch(Ogre::Degree(-mRotate * e.state.Y.rel), Ogre::Node::TS_LOCAL);
                     }
+*/
                     return true;
                 }
 
@@ -153,37 +170,45 @@ namespace freekick
                             break;
 
                         case OIS::KC_W:
+                            setMoveVector(DirUp, 15.0f);
                             sendmove = true;
-                            mRunDirection.x = 15.0f;
                             break;
 
                         case OIS::KC_S:
+                            setMoveVector(DirDown, 15.0f);
                             sendmove = true;
-                            mRunDirection.x = -15.0f;
                             break;
 
                         case OIS::KC_A:
+                            setMoveVector(DirLeft, 15.0f);
                             sendmove = true;
-                            mRunDirection.z = 15.0f;
                             break;
 
                         case OIS::KC_D:
+                            setMoveVector(DirRight, 15.0f);
                             sendmove = true;
-                            mRunDirection.z = -15.0f;
                             break;
 
                         case OIS::KC_Q:
+                            setMoveVector(DirJump, 15.0f);
                             sendmove = true;
-                            mRunDirection.y = 15.0f;
                             break;
 
                         case OIS::KC_E:
+                            setMoveVector(DirCrouch, 15.0f);
                             sendmove = true;
-                            mRunDirection.y = -15.0f;
                             break;
 
                         case OIS::KC_X:
                             network->sendMessage(messages::PlayerControlRequestMessage(mControlledPlayer));
+                            break;
+
+                        case OIS::KC_1:
+                            switchToCameraMode(CamSky);
+                            break;
+
+                        case OIS::KC_2:
+                            switchToCameraMode(CamLengthFar);
                             break;
 
                         default:
@@ -226,29 +251,35 @@ namespace freekick
                             break;
 
                         case OIS::KC_W:
+                            setMoveVector(DirUp, 0.0f);
                             sendmove = true;
-                            mRunDirection.x = 0.0f;
                             break;
+
                         case OIS::KC_S:
+                            setMoveVector(DirDown, 0.0f);
                             sendmove = true;
-                            mRunDirection.x = 0.0f;
                             break;
+
                         case OIS::KC_A:
+                            setMoveVector(DirLeft, 0.0f);
                             sendmove = true;
-                            mRunDirection.z = 0.0f;
                             break;
+
                         case OIS::KC_D:
+                            setMoveVector(DirRight, 0.0f);
                             sendmove = true;
-                            mRunDirection.z = 0.0f;
                             break;
-                        case OIS::KC_E:
-                            sendmove = true;
-                            mRunDirection.y = 0.0f;
-                            break;
+
                         case OIS::KC_Q:
+                            setMoveVector(DirUp, 0.0f);
                             sendmove = true;
-                            mRunDirection.y = 0.0f;
                             break;
+
+                        case OIS::KC_E:
+                            setMoveVector(DirCrouch, 0.0f);
+                            sendmove = true;
+                            break;
+
                         default:
                             break;
                     } // switch
@@ -257,6 +288,43 @@ namespace freekick
                         sendMoveMessage(mRunDirection);
                     }
                     return true;
+                }
+
+                void InputHandler::setMoveVector(SubjectiveDirection d, float mag)
+                {
+                    switch(d)
+                    {
+                        case DirUp:
+                            if(mCamMode == CamSky)
+                                mRunDirection.x = mag;
+                            else if (mCamMode == CamLengthFar)
+                                mRunDirection.z = -mag;
+                            break;
+                        case DirDown:
+                            if(mCamMode == CamSky)
+                                mRunDirection.x = -mag;
+                            else if (mCamMode == CamLengthFar)
+                                mRunDirection.z = mag;
+                            break;
+                        case DirLeft:
+                            if(mCamMode == CamSky)
+                                mRunDirection.z = mag;
+                            else if (mCamMode == CamLengthFar)
+                                mRunDirection.x = -mag;
+                            break;
+                        case DirRight:
+                            if(mCamMode == CamSky)
+                                mRunDirection.z = -mag;
+                            else if (mCamMode == CamLengthFar)
+                                mRunDirection.x = mag;
+                            break;
+                        case DirJump:
+                            mRunDirection.y = mag;
+                            break;
+                        case DirCrouch:
+                            mRunDirection.y = -mag;
+                            break;
+                    }
                 }
 
                 void InputHandler::sendMoveMessage(const addutil::Vector3& to)
@@ -279,9 +347,13 @@ namespace freekick
                     sendMoveMessage(v);
                 }
 
-                void InputHandler::setCamera(Ogre::SceneNode* c)
+                void InputHandler::switchToCameraMode(CameraMode m)
                 {
-                    mCamNode = c;
+                    mCamera->getParentSceneNode()->detachObject(mCamera);
+                    int i = (m == CamSky) ? 0 : 1;
+                    mCamNodes[i]->attachObject(mCamera);
+                    mCamera->lookAt (Ogre::Vector3(35.0f, 0, 50.0f));
+                    mCamMode = m;
                 }
             }
         }
