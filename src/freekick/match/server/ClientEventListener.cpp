@@ -96,6 +96,10 @@ namespace freekick
                         if(!(*it).second->controlsPlayer(playerid))
                         {
                             std::cerr << "ClientEventListener: client " << clientid << " trying to control another player (" << playerid << ").\n";
+                            if(it->second->getAI())
+                            {
+                                mDispatcher->sendPlayerList(clientid);
+                            }
                             return;
                         }
                         mInputMonitor->newClientMessage(m);
