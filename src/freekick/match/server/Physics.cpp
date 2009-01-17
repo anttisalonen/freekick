@@ -39,12 +39,38 @@ namespace freekick
             {
                 mPhysicsEngine->subscribe(*this);
 
+                // pitch
                 float pwidth = mMatchStatus->getMatchData()->getStadium()->getPitch()->getWidth();
                 float plength = mMatchStatus->getMatchData()->getStadium()->getPitch()->getLength();
+                float ptopz = 0.0f;
+                float pbottomz = plength + ptopz;
                 float middle_x = pwidth / 2.0f;
                 float middle_z = plength / 2.0f;
-                mPhysicsEngine->addStaticBoxObject(PitchID, Vector3(pwidth * 2.0f, 50, plength * 2.0f), Vector3(0, -50, 0));
-                mPhysicsEngine->addDynamicSphereObject(BallID, ball_radius, 0.43f, Vector3(middle_x, 10, middle_z), 0.7f);
+                mPhysicsEngine->addStaticBoxObject(PitchID, Vector3(pwidth * 2.0f, 50, plength * 2.0f), Vector3(0, -50, 0), 0.7f);
+
+                // goals
+                float gwidth = soccer::goal_width;
+                float gheight = soccer::goal_height;
+                float gpradius = 0.05f;
+                float gprestitution = 0.9f;
+                mPhysicsEngine->addStaticCylinderObject(FirstGoalID, addutil::X_Axis, gwidth + 2 * gpradius, 
+                                                        gpradius, Vector3(middle_x, gheight + gpradius, ptopz), gprestitution);
+                mPhysicsEngine->addStaticCylinderObject(FirstGoalID - 1, addutil::Y_Axis, gheight + 2 * gpradius, 
+                                                        gpradius, Vector3(middle_x - (gwidth + gpradius), gheight / 2.0f, ptopz), gprestitution);
+                mPhysicsEngine->addStaticCylinderObject(FirstGoalID - 2, addutil::Y_Axis, gheight + 2 * gpradius, 
+                                                        gpradius, Vector3(middle_x + (gwidth + gpradius), gheight / 2.0f, ptopz), gprestitution);
+
+                mPhysicsEngine->addStaticCylinderObject(SecondGoalID, addutil::X_Axis, gwidth + 2 * gpradius, 
+                                                        gpradius, Vector3(middle_x, gheight + gpradius, pbottomz), gprestitution);
+                mPhysicsEngine->addStaticCylinderObject(SecondGoalID - 1, addutil::Y_Axis, gheight + 2 * gpradius, 
+                                                        gpradius, Vector3(middle_x - (gwidth + gpradius), gheight / 2.0f, pbottomz), gprestitution);
+                mPhysicsEngine->addStaticCylinderObject(SecondGoalID - 2, addutil::Y_Axis, gheight + 2 * gpradius, 
+                                                        gpradius, Vector3(middle_x + (gwidth + gpradius), gheight / 2.0f, pbottomz), gprestitution);
+
+                // ball
+                mPhysicsEngine->addDynamicSphereObject(BallID, ball_radius, 0.43f, Vector3(middle_x, 10, middle_z), 0.95f);
+
+                // players
                 std::vector<int> hplayers;
                 std::vector<int> aplayers;
                 boost::shared_ptr<Club> club1 = mMatchStatus->getMatchData()->getHomeClub();
@@ -97,16 +123,15 @@ namespace freekick
 
                     successful = mPhysicsEngine->stepWorld(frametime);
                     const BallState bs = mMatchStatus->getBallState();
-                    if(bs.bio_type == PreKickoff)
+                    if(bs.bio_type == PreKickoff || (bs.bio_type == Kickoff && bs.blocked_play))
                     {
                         addutil::Vector3 p = mMatchStatus->getCentreSpot();
                         p.y = ball_radius;
                         mPhysicsEngine->setObjectPosition(BallID, p);
                     }
-                    else if((bs.bio_type != Kickoff &&
-                             bs.bio_type != BallIn &&
-                             bs.bio_type != HalfFullTime)
-                            && bs.blocked_play == true)
+                    else if(bs.blocked_play && 
+                            (bs.bio_type != BallIn &&
+                             bs.bio_type != HalfFullTime))
                     {
                         addutil::Vector3 p = bs.restart_point;
                         p.y = ball_radius;

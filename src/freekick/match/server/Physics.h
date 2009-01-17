@@ -31,6 +31,9 @@
 #include "addutil/Reader.h"
 #include "addutil/Publisher.h"
 #include "addutil/Color.h"
+#include "addutil/Vector3.h"
+
+#include "soccer/Pitch.h"
 
 #include "PhysicsEngine.h"
 #include "BulletPhysicsEngine.h"
