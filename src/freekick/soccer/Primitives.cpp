@@ -29,9 +29,42 @@ namespace freekick
             return Home;
         }
 
+        soccer::PlayerTarget other(soccer::PlayerTarget b)
+        {
+            if(b == DownTarget) return UpTarget;
+            return DownTarget;
+        }
+
         BallOwner intToBallOwner(int n)
         { 
             if(n) return Away; return Home; 
+        }
+
+        void setPositionSide(PlayerTarget t, addutil::Vector3& pos, float pitch_width, float pitch_length)
+        {
+            if(t == DownTarget) return;
+            pos.x = pitch_width - pos.x;
+            pos.z = pitch_length - pos.z;
+        }
+
+        void setPositionSide(BallOwner b, bool secondhalf, addutil::Vector3& pos, float pitch_width, float pitch_length)
+        {
+            PlayerTarget t = ballOwnerToPlayerTarget(b, secondhalf);
+            return setPositionSide(t, pos, pitch_width, pitch_length);
+        }
+
+        PlayerTarget ballOwnerToPlayerTarget(BallOwner b, bool secondhalf)
+        {
+            if((b == Home && !secondhalf) || (b == Away && secondhalf)) 
+                return DownTarget;
+            return UpTarget;
+        }
+
+        BallOwner playerTargetToBallOwner(PlayerTarget t, bool secondhalf)
+        {
+            if((t == DownTarget && !secondhalf) || (t == UpTarget && secondhalf))
+                return Home;
+            return Away;
         }
     }
 }

@@ -21,6 +21,8 @@
 #ifndef FREEKICK_PRIMITIVES_H
 #define FREEKICK_PRIMITIVES_H
 
+#include "addutil/Vector3.h"
+
 namespace freekick
 {
     namespace soccer
@@ -38,10 +40,22 @@ namespace freekick
             AwayGoal
         };
 
+        enum PlayerTarget
+        {
+            NoTarget,
+            DownTarget,
+            UpTarget
+        };
+
         // TODO: add pitch measurements from pitch.h, rules.cpp here
 
-        soccer::BallOwner other(soccer::BallOwner b);
-        soccer::BallOwner intToBallOwner(int n);
+        BallOwner other(BallOwner b);
+        PlayerTarget other(PlayerTarget b);
+        BallOwner intToBallOwner(int n);
+        void setPositionSide(PlayerTarget t, addutil::Vector3& pos, float pitch_width, float pitch_length);
+        void setPositionSide(BallOwner b, bool secondhalf, addutil::Vector3& pos, float pitch_width, float pitch_length);
+        PlayerTarget ballOwnerToPlayerTarget(BallOwner b, bool secondhalf);
+        BallOwner playerTargetToBallOwner(PlayerTarget t, bool secondhalf);
     }
 }
 

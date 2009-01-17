@@ -64,7 +64,7 @@ namespace freekick
                 switch(it->first)
                 {
                     case Goalkeeper:
-                        mFormationMap.insert(pair<int, Circle>(it->second, Circle(0.5f, 0.1f, 0.1f)));
+                        mFormationMap.insert(pair<int, Circle>(it->second, Circle(0.5f, 0.05f, 0.1f)));
                         break;
                     case Defender:
                         mFormationMap.insert(pair<int, Circle>(it->second, Circle(defdiff * defs + defdiff / 2.0f, defhei, defdiff)));
