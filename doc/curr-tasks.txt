@@ -1,0 +1,55 @@
+-10.01.2009--------------
++physics: make players look in the direction they're moving
++physics: add restitution to ball
++ai: improve idle formations (dynamic according to ball location)
++ai: pursuit instead of seek ball
++server: detect and count goals
++server: send goal messages to clients
++server: allow only one client to control a player
++server: allow humans to take over ai players
++protocol: drop control requests from the initialization message
+-client: make keyboard controls fully functional
+-client: add mouse controls
+-client: add kick control
+-client: add preset cameras
+-client: display goals
++physics: add goal posts
+-client: add display of score
+-physics: make player torsos block ball
+-physics: improve goalkeepers
+-ai: improve goalkeepers
+-06.01.2009--------------
++physics: collision callbacks for seeing which player/club touched the ball last
+-26.12.2008--------------
++physics: set ball to middle point on start
++physics: set player y-coordinate to 0 when on ground
+-physics: player bounding box height dependent of player height
++server: initial positions of players on the pitch
++rules: detection of prekickoff, kickoff
+-physics: higher inertia/friction of the ball/lighter players
++ai: setting and reading formation for the players
++ai: reacting on free kickoff
+-19.12.2008--------------
++client: upright robots
+-client: ogre objects' bounding boxes corresponding to bullet's
++add ball in physics+ogre
++server: control+limit client input
+-bullet: add walls to prevent falling down
+-improve start positions
+-client: configurable player control request + other input
++server: interpolating player input (smooth start + save wished velocity/plan input processing)
+-server: parse control requests also in the initialization message(or drop it from the protocol?)
+-15.12.2008--------------
++client: sending idr and requesting player control
+-09.12.2008--------------
++parsing of clients' messages saying who they want to control
++reading client input
++checking client input and passing it to the physics
++client: controlling a player
+-haskell ai: update to protocol v0.2
+-06.12.2008--------------
++freekick motion state
++entity in fms
++use of fms in bullet physics engine
++quaternion
++use of q in entity
