@@ -35,7 +35,6 @@ namespace freekick
                 IntegerParameterMessage(std::string& msg, const std::string& corr_id)
                 {
                     using namespace boost;
-                    // TODO: read action types from Message.h
                     std::string exp(" *?\\(A +([0-9]+)\\).*");
                     exp.replace(exp.find("A"), 1, corr_id);
                     regex expr(exp.c_str());

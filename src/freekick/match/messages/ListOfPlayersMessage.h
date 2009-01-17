@@ -33,17 +33,18 @@ namespace freekick
             {
             public:
                 ListOfPlayersMessage(const std::set<PlayerID>& plids)
-                    : m_plids(plids)
+                    : ListParameterMessage(plids)
+                {
+                }
+                ListOfPlayersMessage(std::string& msg)
+                    : ListParameterMessage(msg, s_list_of_players)
                 {
                 }
                 virtual ~ListOfPlayersMessage() { }
                 const std::string toString() const
                 {
-                    return listParamString(s_list_of_players, m_plids);
+                    return listParamString(s_list_of_players);
                 }
-
-            private:
-                std::set<PlayerID> m_plids;
             };
         }
     }

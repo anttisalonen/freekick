@@ -47,7 +47,6 @@ namespace freekick
                     cmatch what;
                     if(regex_match(msg.c_str(), what, expr))
                     {
-                        std::cout << "Parsing Init message successful\n";
                         m_identification.assign(what[1].first, what[1].second);
                         m_name.assign(what[2].first, what[2].second);
                         m_protocol.assign(what[3].first, what[3].second);

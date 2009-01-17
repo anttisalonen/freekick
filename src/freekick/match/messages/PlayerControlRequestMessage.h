@@ -35,49 +35,25 @@ namespace freekick
             {
             public:
                 PlayerControlRequestMessage(PlayerID plid)
+                    : ListParameterMessage(plid)
                 {
-                    m_plids.insert(plid);
                 }
 
                 PlayerControlRequestMessage(const std::set<PlayerID>& plids)
-                    : m_plids(plids)
+                    : ListParameterMessage(plids)
                 {
                 }
                 PlayerControlRequestMessage(std::string& msg)
+                    : ListParameterMessage(msg, c_pl_cont_req)
                 {
-                    using namespace boost;
-                    // TODO: read action types from Message.h
-                    regex expr(".*?\\(z +([[:print:]]+?)\\).*");
-                    cmatch what;
-                    std::cout << "Parsing Player Control Request message\n";
-                    if(regex_match(msg.c_str(), what, expr))
-                    {
-                        std::string s1;
-                        s1.assign(what[1].first, what[1].second);
-                        if(!messageListToSet(s1, m_plids))
-                        {
-                            throw "PlayerControlRequestMessage: failed parsing list";
-                        }
-                        std::cout << "Parsing Player Control Request Message successful: " 
-                                  << setToMessageList(m_plids) << std::endl;
-                    }
-                    else
-                        throw "PlayerControlMessage: failed parse";                    
                 }
 
                 virtual ~PlayerControlRequestMessage() { }
-                void getPlayers(std::set<PlayerID>& n) const
-                {
-                    n = m_plids;
-                }
 
                 const std::string toString() const
                 {
-                    return listParamString(c_pl_cont_req, m_plids);
+                    return listParamString(c_pl_cont_req);
                 }
-
-            private:
-                std::set<PlayerID> m_plids;
             };
         }
     }

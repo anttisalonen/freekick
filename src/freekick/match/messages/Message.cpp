@@ -112,7 +112,6 @@ namespace freekick
                             }
                             it--;
                             n = atoi(num.c_str());
-                            std::cout << "n: " << n << std::endl;
                             if (n == 0)
                                 return false;
                             s.insert(n);

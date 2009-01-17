@@ -17,10 +17,7 @@ using addutil::Vector3;
 
 int main()
 {
-    std::set<PlayerID> pls1;
-    pls1.insert(29756);
-    pls1.insert(5058);
-    ClientInitMessage cim("client name", "0.2", "user", "H", pls1);
+    ClientInitMessage cim("client name", "0.2", "user", "H");
     ServerInitMessage sim("server name", "0.2", "welcome!");
     std::cout << "Client:\n" << cim.toString();
     std::cout << "Server:\n" << sim.toString();

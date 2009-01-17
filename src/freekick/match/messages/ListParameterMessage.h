@@ -32,19 +32,45 @@ namespace freekick
             class ListParameterMessage : public ParameterMessage
             {
             public:
+                ListParameterMessage(std::string& msg, const std::string& corr_id)
+                {
+                    using namespace boost;
+                    std::string exp(" *?\\(A +([[:print:]]+?)\\).*");
+                    exp.replace(exp.find("A"), 1, corr_id);
+                    regex expr(exp.c_str());
+                    cmatch what;
+                    if(regex_match(msg.c_str(), what, expr))
+                    {
+                        std::string s1;
+                        s1.assign(what[1].first, what[1].second);
+                        bool successful = messageListToSet(s1, m_values);
+                        if(!successful) throw "ListParameterMessage: failed parse";
+                    }
+                    else
+                        throw "ListParameterMessage: failed parse";
+                }
+                virtual ~ListParameterMessage() { }
+                const std::set<PlayerID>& getList() const { return m_values; }
+
+            protected:
                 ListParameterMessage()
                 {
                 }
-
-                virtual ~ListParameterMessage() { }
-
-            protected:
-                const std::string listParamString(const std::string& type, const std::set<PlayerID>& s) const
+                ListParameterMessage(PlayerID pl)
                 {
-                    return paramString(type, setToMessageList(s));
+                    m_values.insert(pl);
+                }
+                ListParameterMessage(const std::set<PlayerID>& vals)
+                    : m_values(vals)
+                {
+                }
+                const std::string listParamString(const std::string& type) const
+                {
+                    return paramString(type, setToMessageList(m_values));
                 }
 
             private:
+                std::set<PlayerID> m_values;
             };
         }
     }
