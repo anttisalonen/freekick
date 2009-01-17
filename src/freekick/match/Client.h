@@ -28,40 +28,62 @@
 
 #include <boost/foreach.hpp>
 #include <boost/shared_ptr.hpp>
+#include <boost/tuple/tuple.hpp>
 
 namespace freekick 
 {
     namespace match 
     {
-        typedef unsigned int ClientID;
+        typedef int ClientID;
         typedef int PlayerID;
+
+        enum ClientType
+        {
+            NoClient,
+            HumanClient,
+            AIClient
+        };
+
         class Client
         {
         public:
-            Client(ClientID clid = 0, std::string n = "", bool ai = false);
-            Client(ClientID clid, PlayerID pl, std::string n = "", bool ai = false);
-            Client(ClientID clid, std::set<PlayerID> cpl, std::string n = "", bool ai = false);
+            Client(ClientID clid, 
+                   bool ai, 
+                   const std::set<PlayerID>& cpl = std::set<PlayerID>(), 
+                   const std::string& n = "", 
+                   int const_upd_msg_int = 50, 
+                   int gen_upd_msg_int = 1000);
             virtual ~Client ( );
 
             ClientID getID() const;
             void addPlayer(PlayerID pl);
             void addPlayers(const std::set<PlayerID>& pls);
+            void removePlayer(PlayerID pl);
             void clearPlayers();
+            const boost::shared_ptr<std::set<PlayerID> > getControlledPlayers() const;
             void setAI(bool a);
             bool getAI() const;
             const std::string& getCallsign() const;
             void setCallsign(const std::string& s);
             bool controlsPlayer(PlayerID pl) const;
+            int getConstantUpdateMessageInterval() const;
+            int getGeneralUpdateMessageInterval() const;
+            int setConstantUpdateMessageInterval(int i);
+            int setGeneralUpdateMessageInterval(int i);
 
         private:
             ClientID clientid;
-            std::string callsign;
             bool ai_controlled;
-            std::set<PlayerID> controlled_players;
+            std::string callsign;
+            boost::shared_ptr<std::set<PlayerID> > controlled_players;
+            int constant_update_message_interval;
+            int general_update_message_interval;
         };
 
-        typedef std::map<ClientID, freekick::match::Client> ClientList;
+        typedef std::map<ClientID, boost::shared_ptr<freekick::match::Client> > ClientList;
         typedef boost::shared_ptr<ClientList> ClientListPtr;
+
+        boost::tuple<ClientType, boost::shared_ptr<freekick::match::Client> > getControllerType(const ClientListPtr& list, PlayerID pl);
     }
 }
 
