@@ -35,29 +35,22 @@ namespace freekick
                 ClientInitMessage(const std::string& name, 
                                   const std::string& protocol, 
                                   const std::string& username = "", 
-                                  const std::string& type = "H", 
-                                  std::set<PlayerID> players = std::set<PlayerID>())
+                                  const std::string& type = "H")
                     : InitMessage(freekick_client_id, name, protocol)
                     , m_username(username)
                     , m_type(type)
-                    , m_players(players)
                 {
                 }
                 ClientInitMessage(std::string& msg)
                     : InitMessage(msg)
                 {
                     using namespace boost;
-                    regex expr(" *\"([[:print:]]+?)\" +([[:print:]]) +(.*)");
+                    regex expr(" *\"([[:print:]]+?)\" +([[:print:]]).*");
                     cmatch what;
                     if(regex_match(msg.c_str(), what, expr))
                     {
-                        std::cout << "Parsing Client Init message successful\n";
                         m_username.assign(what[1].first, what[1].second);
                         m_type.assign(what[2].first, what[2].second);
-                        std::string mlist;
-                        mlist.assign(what[3].first, what[3].second);
-                        bool successful = messageListToSet(mlist, m_players);
-                        if(!successful) throw "ClientInitMessage: failed parse";
                     }
                     else
                         throw "ClientInitMessage: failed parse";
@@ -67,7 +60,7 @@ namespace freekick
                 const std::string toString() const
                 {
                     std::ostringstream oss(std::ostringstream::out);
-                    oss << helperString() << " \"" << m_username << "\" " << m_type << " " << setToMessageList(m_players) << "\n";
+                    oss << helperString() << " \"" << m_username << "\" " << m_type << "\n";
                     return oss.str();
                 }
                 void getUsername(std::string& n) const
@@ -78,15 +71,10 @@ namespace freekick
                 {
                     n = m_type;
                 }
-                void getPlayers(std::set<PlayerID>& n) const
-                {
-                    n = m_players;
-                }
 
             private:
                 std::string m_username;
                 std::string m_type;
-                std::set<PlayerID> m_players;
             };
         }
     }

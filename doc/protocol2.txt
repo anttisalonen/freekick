@@ -93,11 +93,10 @@ We hope you enjoy your stay.
 ------------------------------------------------------------------------------
 Client Information:
 Freekick client identification, client name and version, protocol version,
-quoted user name/password, either H or A for Human/AI and a list of players 
-to control in square brackets separated by commas or an empty list for spectators.
+quoted user name/password, either H or A for Human/AI.
 e.g.
-FREEKICK_CLIENT "Ogre Client v0.2" "0.2" "username" H [2045,9874]
-FREEKICK_CLIENT "Client with ncurses 0.15b" "0.2" "username/password" H [2045]
+FREEKICK_CLIENT "Ogre Client v0.2" "0.2" "username" H
+FREEKICK_CLIENT "Client with ncurses 0.15b" "0.2" "username/password" H
 
 
 ------------------------------------------------------------------------------
