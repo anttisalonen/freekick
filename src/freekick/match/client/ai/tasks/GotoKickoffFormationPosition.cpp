@@ -39,23 +39,29 @@ namespace freekick
                         bool issub = pl->isSubstitute();
                         if(!issub)
                         {
+                            addutil::Vector3 formationpoint;
+                            try
+                            {
+                                formationpoint = mMatchStatus->getPlayerClub(mPlayerID)->getFormation()->getPlayerArea(mPlayerID).getCenter();
+                                ownformationpos.x = formationpoint.x;
+                            }
+                            catch(...)
+                            {
+                                ownformationpos.x = 0.5f;
+                            }
                             switch(pp)
                             {
                                 case Goalkeeper:
-                                    ownformationpos.x = 0.5f;
-                                    ownformationpos.z = 0.1f;
+                                    ownformationpos.z = 0.05f;
                                     break;
                                 case Defender:
-                                    ownformationpos.x = 0.5f;
                                     ownformationpos.z = 0.2f;
                                     break;
                                 case Midfielder:
-                                    ownformationpos.x = 0.5f;
                                     ownformationpos.z = 0.3f;
                                     break;
                                 default:
-                                    ownformationpos.x = 0.5f;
-                                    ownformationpos.z = 0.4f;
+                                    ownformationpos.z = 0.45f;
                                     break;
                             }
                         }
@@ -66,6 +72,7 @@ namespace freekick
                         }
                         if(own == Away)
                         {
+                            ownformationpos.x = 1.0f - ownformationpos.x;
                             ownformationpos.z = 1.0f - ownformationpos.z;
                         }
                         float pitchw = mMatchStatus->getMatchData()->getStadium()->getPitch()->getWidth();
@@ -77,7 +84,7 @@ namespace freekick
                     bool GotoKickoffFormationPosition::finished() const
                     {
                         const BallState bs = mMatchStatus->getBallState();
-                        if(bs.bio_type != PreKickoff)
+                        if(bs.bio_type != PreKickoff && bs.blocked_play == false)
                         {
                             return true;
                         }

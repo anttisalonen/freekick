@@ -23,6 +23,8 @@
 
 #include <boost/shared_ptr.hpp>
 
+#include "addutil/General.h"
+
 #include "messages/PlayerControlMessage.h"
 #include "MatchStatus.h"
 
@@ -32,6 +34,7 @@
 #include "tasks/GotoCabins.h"
 #include "tasks/IdleInFormation.h"
 #include "tasks/KickBall.h"
+#include "tasks/GotoKickoffFormationPosition.h"
 
 namespace freekick 
 { 

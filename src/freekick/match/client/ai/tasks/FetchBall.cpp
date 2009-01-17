@@ -45,10 +45,14 @@ namespace freekick
                     {
                         addutil::Vector3 ownpos = mPlayer->getPosition();
                         addutil::Vector3 ballpos = mMatchStatus->getBall()->getPosition();
-                        addutil::Vector3 gotovec = ballpos - ownpos;
-                        gotovec.normalize();
-                        gotovec *= 10.0f;
-                        gotovec.y = 0.0f;
+                        addutil::Vector3 ballvel = mMatchStatus->getBall()->getVelocity();
+
+                        ballpos.y = 0.0f;
+                        ballvel.y = 0.0f;
+                        ownpos.y = 0.0f;
+
+                        float maxvelocity = 10.0f;         // of the player
+                        addutil::Vector3 gotovec = steering::pursuit(ownpos, ballpos, ballvel, maxvelocity);
 
                         using namespace messages;
                         return boost::shared_ptr<MovePlayerControlMessage>(new MovePlayerControlMessage(mPlayerID, gotovec));

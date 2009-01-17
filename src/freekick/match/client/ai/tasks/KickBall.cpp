@@ -43,18 +43,22 @@ namespace freekick
                         // if(len < 5.0f) return true;
                         return false;
                     }
+
                     boost::shared_ptr<messages::PlayerControlMessage> KickBall::process()
                     {
                         addutil::Vector3 target;
 
-                        soccer::BallOwner b = mMatchStatus->getPlayerSide(mPlayerID);
+                        soccer::PlayerTarget t = mMatchStatus->getPlayerTarget(mPlayerID);
                         addutil::Vector3 ownpos = mPlayer->getPosition();
-                        addutil::Vector3 tgtgoal = mMatchStatus->getGoal(other(b));
+                        addutil::Vector3 tgtgoal = mMatchStatus->getGoalPosition(t);
                         addutil::Vector3 goalvec = tgtgoal - ownpos;
+                        float plength = mMatchStatus->getPitchLength();
+
                         if(goalvec.length() < 35.0f)
                         {
                             target = goalvec;
                             target.y = goalvec.length() * 0.3f;
+                            std::cout << "Shooting; kick target: " << (target + ownpos) << std::endl;
                         }
                         else
                         {
@@ -62,15 +66,15 @@ namespace freekick
                             std::vector<addutil::Vector3>::const_iterator clubit;
 
                             float best_z    = 0.0f;
-                            float own_z     = (b == Away) ? 100.0f - ownpos.z : ownpos.z;
-                            addutil::Vector3 bestpass = goalvec;
+                            float own_z     = (t == UpTarget) ? plength - ownpos.z : ownpos.z;
+                            addutil::Vector3 bestpass = tgtgoal;
 
-                            mMatchStatus->getPlayerPositions(ownclub, b);
+                            mMatchStatus->getPlayerPositions(ownclub, t);
                             for(clubit = ownclub.begin(); clubit != ownclub.end(); clubit++)
                             {
                                 float diff = (*clubit - ownpos).length();
                                 float this_z = clubit->z;
-                                if(b == Away) this_z = 100.0f - this_z;
+                                if(t == UpTarget) this_z = plength - this_z;
 
                                 if(diff < 5.0f || diff > 20.0f)
                                     continue;
@@ -95,6 +99,7 @@ namespace freekick
                             }
                             target.x *= 1.1f;
                             target.z *= 1.1f;
+                            std::cout << "Pass: Kick target: " << (target + ownpos) << std::endl;
                         }
 
                         using namespace messages;
