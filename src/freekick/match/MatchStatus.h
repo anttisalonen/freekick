@@ -32,6 +32,7 @@
 
 #include "addutil/DynamicEntity.h"
 
+#include "Primitives.h"
 #include "Lineup.h"
 #include "Player.h"
 #include "MatchPlayer.h"
@@ -68,15 +69,17 @@ namespace freekick
             boost::shared_ptr<MatchPlayer> getPlayer(int id) const;
             boost::shared_ptr<MatchBall> getBall() const;
             const BallState& getBallState() const;
+            soccer::PlayerTarget getPlayerTarget(int id) const;
             soccer::BallOwner getPlayerSide(int id) const;
             boost::shared_ptr<Club> getPlayerClub(int id) const;
             addutil::Vector3 getCentreSpot() const;
             boost::tuple<int, float> nearestPlayerToBall() const;
             boost::tuple<int, float> nearestPlayerFromClubToBall(soccer::BallOwner b) const;
+            int getPlayerPositions(std::vector<addutil::Vector3>& ret, soccer::PlayerTarget t) const;
             int getPlayerPositions(std::vector<addutil::Vector3>& ret, soccer::BallOwner b) const;
             float getPitchWidth() const;
             float getPitchLength() const;
-            addutil::Vector3 getGoal(soccer::BallOwner b) const;
+            addutil::Vector3 getGoalPosition(soccer::PlayerTarget b) const;
             bool playerAllowedToKick(int id) const;
             bool continuing() const;
             void setContinue(bool c);

@@ -178,6 +178,20 @@ namespace freekick
             return mBallState;
         }
 
+        soccer::PlayerTarget MatchStatus::getPlayerTarget(int id) const
+        {
+            soccer::BallOwner own = getPlayerSide(id);
+            if(!secondhalf)
+            {
+                if(own == Home)
+                    return UpTarget;
+                return DownTarget;
+            }
+            if(own == Home)
+                return DownTarget;
+            return UpTarget;
+        }
+
         soccer::BallOwner MatchStatus::getPlayerSide(int id) const
         {
             boost::shared_ptr<Club> c1 = mMatchData->getHomeClub();
@@ -287,11 +301,17 @@ namespace freekick
             return mMatchData->getStadium()->getPitch()->getLength();
         }
 
-        addutil::Vector3 MatchStatus::getGoal(soccer::BallOwner b) const
+        addutil::Vector3 MatchStatus::getGoalPosition(soccer::PlayerTarget b) const
         {
             float x = getPitchWidth() / 2.0f;
-            float z = (b == Home) ? 0.0f : getPitchLength();
+            float z = (b == UpTarget) ? 0.0f : getPitchLength();
             return addutil::Vector3(x, 0, z);
+        }
+
+        int MatchStatus::getPlayerPositions(std::vector<addutil::Vector3>& ret, soccer::PlayerTarget t) const
+        {
+            soccer::BallOwner b = playerTargetToBallOwner(t, secondhalf);
+            return getPlayerPositions(ret, b);
         }
 
         int MatchStatus::getPlayerPositions(std::vector<addutil::Vector3>& ret, soccer::BallOwner b) const
@@ -300,9 +320,13 @@ namespace freekick
             ret.clear();
 
             std::vector<int> ids1 = mMatchData->getClub(b)->getLineup()->getPitchPlayerIDs();
+            float pwidth = getPitchWidth();
+            float plength = getPitchLength();
 
             BOOST_FOREACH(int i, ids1)
             {
+                addutil::Vector3 pos = getPlayer(i)->getPosition();
+                setPositionSide(b, secondhalf, pos, pwidth, plength);
                 ret.push_back(getPlayer(i)->getPosition());
                 num++;
             }
