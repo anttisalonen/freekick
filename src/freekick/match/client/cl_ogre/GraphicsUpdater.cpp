@@ -92,7 +92,7 @@ namespace freekick
                     if(node)
                     {
                         const Vector3& pos = d->getPosition();
-                        node->setPosition(Ogre::Vector3(-pos.x, pos.y, pos.z));
+                        node->setPosition(Ogre::Vector3(pos.x, pos.y, pos.z));
                         const Quaternion& dir = d->getOrientation();
                         node->setOrientation(Ogre::Quaternion(dir.w, dir.x, dir.y, dir.z));
                     }

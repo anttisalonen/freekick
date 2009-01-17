@@ -129,7 +129,7 @@ namespace freekick
                     light->setType(Light::LT_SPOTLIGHT);
                     light->setDiffuseColour(0.9, 0.9, 0.9);
                     light->setSpecularColour(0.8, 0.8, 0.8);
-                    light->setDirection(-1, -1, 1);
+                    light->setDirection(1, -1, 1);
                     light->setPosition(Ogre::Vector3(0, 15, 0));
                     light->setSpotlightRange(Degree(0), Degree(80));
 
@@ -137,15 +137,15 @@ namespace freekick
                     light->setType(Light::LT_SPOTLIGHT);
                     light->setDiffuseColour(0.9, 0.9, 0.9);
                     light->setSpecularColour(0.8, 0.8, 0.8);
-                    light->setDirection(1, -1, 1);
-                    light->setPosition(Ogre::Vector3(-70, 15, 0));
+                    light->setDirection(-1, -1, 1);
+                    light->setPosition(Ogre::Vector3(70, 15, 0));
                     light->setSpotlightRange(Degree(0), Degree(80));
 
                     light = mgr->createLight("Light3");
                     light->setType(Light::LT_SPOTLIGHT);
                     light->setDiffuseColour(0.9, 0.9, 0.9);
                     light->setSpecularColour(0.8, 0.8, 0.8);
-                    light->setDirection(-1, -1, -1);
+                    light->setDirection(1, -1, -1);
                     light->setPosition(Ogre::Vector3(0, 15, 100));
                     light->setSpotlightRange(Degree(0), Degree(80));
 
@@ -153,14 +153,14 @@ namespace freekick
                     light->setType(Light::LT_SPOTLIGHT);
                     light->setDiffuseColour(0.9, 0.9, 0.9);
                     light->setSpecularColour(0.8, 0.8, 0.8);
-                    light->setDirection(1, -1, -1);
-                    light->setPosition(Ogre::Vector3(-70, 15, 100));
+                    light->setDirection(-1, -1, -1);
+                    light->setPosition(Ogre::Vector3(70, 15, 100));
                     light->setSpotlightRange(Degree(0), Degree(80));
 
                     // Camera
                     SceneNode *camnode = mgr->getRootSceneNode()->createChildSceneNode("CamNode");
                     camnode->attachObject(cam);
-                    camnode->setPosition (Ogre::Vector3(-35.0f,7.0f,120.0f));
+                    camnode->setPosition (Ogre::Vector3(35.0f,7.0f,120.0f));
                     // cam->lookAt (Ogre::Vector3(0,0,0));
                     cam->setNearClipDistance(0.5);
                     cam->setAspectRatio(Real(vp->getActualWidth()) / Real(vp->getActualHeight()));
@@ -181,7 +181,7 @@ namespace freekick
                     Ogre::Entity *plent = mgr->createEntity("groundEntity", "ground");
                     Ogre::SceneNode* plnode = mgr->getRootSceneNode()->createChildSceneNode();
                     plnode->attachObject(plent);
-                    plnode->setPosition(Ogre::Vector3(-35.0f, 0.0f, 50.0f));
+                    plnode->setPosition(Ogre::Vector3(35.0f, 0.0f, 50.0f));
                     plent->setMaterialName("Examples/GrassFloor");
                     plent->setCastShadows(false);
 
