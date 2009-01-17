@@ -138,19 +138,19 @@ namespace freekick
                                 mBallState.bio_type = Kickoff;
                                 mBallState.restart_point.x = pitch_width / 2.0f;
                                 mBallState.restart_point.z = pitch_length / 2.0f;
-                                mBallState.blocked_play = true;
                             }
 
                             if(fst_goal)                // goal (1)
                             {
                                 mMatchStatus->addAwayScore();
                                 goal_scored = AwayGoal;
+                                mBallState.owner = Home;
                             }
-                            else if(snd_goal)          // goal (2)
+                            else if(snd_goal)           // goal (2)
                             {
-                                mBallState.bio_type = Kickoff;
                                 mMatchStatus->addHomeScore();
                                 goal_scored = HomeGoal;
+                                mBallState.owner = Away;
                             }
                             else if((vec.z < 0.0f && mBallState.owner == Home) || (vec.z > pitch_length && mBallState.owner == Away))
                             {
