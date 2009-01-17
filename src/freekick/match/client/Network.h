@@ -45,13 +45,9 @@
 #include "Event.h"
 #include "Lineup.h"
 #include "MatchData.h"
+#include "PlayerListHandler.h"
 
-#include "messages/Message.h"
-#include "messages/ConstantUpdateMessage.h"
-#include "messages/InitialDataRequest.h"
-#include "messages/InitialDataClubMessage.h"
-#include "messages/GiveGeneralUpdateIntervalMessage.h"
-#include "messages/GiveConstantUpdateIntervalMessage.h"
+#include "messages/Messages.h"
 
 namespace freekick
 {
@@ -62,7 +58,7 @@ namespace freekick
             class Network : public addutil::network::Client
             {
             public:
-                Network (addutil::network::IP_Connection conn);
+                Network (addutil::network::IP_Connection conn, bool ai);
                 virtual ~Network();
                 freekick::match::MatchStatus* getMatchStatus();
 
@@ -72,6 +68,7 @@ namespace freekick
                 void disconnect();
                 int getConstantUpdateInterval() const;
                 int getGeneralUpdateInterval() const;
+                void setPlayerListHandler(const boost::shared_ptr<PlayerListHandler>& p);
 
             protected:
                 void read(std::string buf);
@@ -82,6 +79,8 @@ namespace freekick
                 bool handshake;
                 int constant_update_interval_ms;
                 int general_update_interval_ms;
+                bool aicontroller;
+                boost::shared_ptr<PlayerListHandler> plh;
             };
         } 
     }

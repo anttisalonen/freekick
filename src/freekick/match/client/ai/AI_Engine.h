@@ -26,8 +26,11 @@
 #include <boost/foreach.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
 
+#include "addutil/General.h"
+
 #include "MatchStatus.h"
 #include "Network.h"
+#include "PlayerListHandler.h"
 #include "messages/PlayerControlMessage.h"
 #include "messages/PlayerControlRequestMessage.h"
 
@@ -41,17 +44,19 @@ namespace freekick
         {
             namespace ai_client
             {
-                class AI_Engine
+                class AI_Engine : public PlayerListHandler
                 {
                 public:
                     AI_Engine(boost::shared_ptr<MatchStatus> st, Network* netw);
                     virtual ~AI_Engine() { }
                     void run();
+                    void newListOfPlayers(const std::set<int>& ids);
 
                 private:
                     boost::shared_ptr<MatchStatus> mMatchStatus;
                     Network* mNetwork;
                     std::vector<AIPlayer> aiplayers;
+                    bool aiplayers_locked;
                 };
             }
         }

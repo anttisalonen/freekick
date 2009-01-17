@@ -75,7 +75,7 @@ int main(int argc, char** argv)
         std::cerr << "Freekick client starting" << std::endl;
         try
         {
-            network = new Network(conn);
+            network = new Network(conn, false);
             boost::thread network_thread(boost::bind(&run_network, network));
             boost::this_thread::sleep(boost::posix_time::milliseconds(1000));  // TODO: make timeouts configurable?
             if(!network->is_connected())

@@ -53,6 +53,7 @@ namespace freekick
                     AIPlayer(boost::shared_ptr<MatchStatus> ms, int id, bool active = true);
                     virtual ~AIPlayer();
                     boost::shared_ptr<messages::PlayerControlMessage> act();
+                    int getID() const;
 
                 private:
                     boost::shared_ptr<MatchStatus> mMatchStatus;

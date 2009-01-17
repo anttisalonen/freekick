@@ -48,11 +48,11 @@ int main(int argc, char** argv)
         addutil::network::IP_Connection conn = configuration->getServerConnection();
         Network* network;
         boost::shared_ptr<MatchStatus> status;
-        AI_Engine* ai;
+        boost::shared_ptr<AI_Engine> ai;
         std::cerr << "Freekick AI starting" << std::endl;
         try
         {
-            network = new Network(conn);
+            network = new Network(conn, true);
             boost::thread network_thread(boost::bind(&Network::run, network));
             boost::this_thread::sleep(boost::posix_time::milliseconds(1000));  // TODO: make timeouts configurable?
             if(!network->is_connected())
@@ -77,13 +77,13 @@ int main(int argc, char** argv)
             return 1;
         }
 
-        ai = new ai_client::AI_Engine(status, network);
+        ai.reset(new ai_client::AI_Engine(status, network));
+        network->setPlayerListHandler(ai);
         boost::thread ai_thread(boost::bind(&ai_client::AI_Engine::run, ai));
 
         ai_thread.join();
         network->disconnect();
 
-        delete ai;
         delete network;
         delete configuration;
     }
@@ -94,6 +94,10 @@ int main(int argc, char** argv)
     catch (std::exception& e)
     {
         std::cerr << "A std::exception has occurred: " << e.what() << std::endl;
+    }
+    catch (const char* e)
+    {
+        std::cerr << "An exception has occurred:" << e << std::endl;
     }
     catch (...)
     {

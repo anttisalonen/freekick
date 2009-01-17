@@ -29,7 +29,8 @@ namespace freekick
             {
                 AI_Engine::AI_Engine(boost::shared_ptr<MatchStatus> st, Network* netw)
                     : mMatchStatus(st),
-                      mNetwork(netw)
+                      mNetwork(netw),
+                      aiplayers_locked(false)
                 {
                     boost::array<std::vector<int>, 4> pls;
                     std::set<int> allplids;
@@ -61,6 +62,11 @@ namespace freekick
                         ptime before_time(microsec_clock::local_time());
                         for(it = aiplayers.begin(); it != aiplayers.end(); it++)
                         {
+                            if(aiplayers_locked)
+                            {
+                                std::cout << "AI_Engine::run: pause in acting due to locked player list\n";
+                                break;
+                            }
                             try
                             {
                                 boost::shared_ptr<messages::Message> m = it->act();
@@ -83,6 +89,33 @@ namespace freekick
                         if(time_left > 0)
                             boost::this_thread::sleep(microseconds(time_left));
                     }
+                }
+
+                void AI_Engine::newListOfPlayers(const std::set<int>& ids)
+                {
+                    std::set<int> lost;
+                    std::set<int> aiids;
+                    BOOST_FOREACH(AIPlayer p, aiplayers)
+                    {
+                        aiids.insert(p.getID());
+                    }
+                    addutil::general::set_inverse_union(aiids, ids, lost);
+                    aiplayers_locked = true;
+                    std::cout << "AI_Engine::newListOfPlayers: lost " << lost.size() << " players.\n";
+                    BOOST_FOREACH(int i, lost)
+                    {
+                        std::vector<AIPlayer>::iterator it = aiplayers.begin();
+                        while(it != aiplayers.end())
+                        {
+                            if(it->getID() == i)
+                            {
+                                aiplayers.erase(it);
+                                break;
+                            }
+                            it++;
+                        }
+                    }
+                    aiplayers_locked = false;
                 }
             }
         }

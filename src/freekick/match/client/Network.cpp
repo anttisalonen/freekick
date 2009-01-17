@@ -37,11 +37,12 @@ namespace freekick
             using namespace addutil::network;
             using namespace freekick;
 
-            Network::Network (IP_Connection conn)
+            Network::Network (IP_Connection conn, bool ai)
                 : Client(conn),
                   status(0),
                   constant_update_interval_ms(50),
-                  general_update_interval_ms(1000)
+                  general_update_interval_ms(1000),
+                  aicontroller(ai)
             {
             }
 
@@ -108,7 +109,9 @@ namespace freekick
 
                 if(handshake)
                 {
-                    write("FREEKICK_CLIENT \"OgreClient 0.0.??\" \"0.2\" \"username/password\" H [101]");
+                    std::string init("FREEKICK_CLIENT \"OgreClient 0.0.2\" \"0.2\" \"username/password\" ");
+                    init += (aicontroller ? "A" : "H");
+                    write(init);
                     handshake = false;
                     return;
                 }
@@ -242,6 +245,19 @@ namespace freekick
                                 }
                                 continue;
                             }
+                            else if (t == s_list_of_players)
+                            {
+                                try
+                                {
+                                    const messages::ListOfPlayersMessage m(this_event);
+                                    if(plh)
+                                        plh->newListOfPlayers(m.getList());
+                                }
+                                catch(...)
+                                {
+                                    std::cerr << "Network: failed to parse ListOfPlayersMessage.\n";
+                                }
+                            }
                             else
                             {
                                 std::cerr << "Network::read: received an unknown message.\n";
@@ -267,6 +283,11 @@ namespace freekick
             int Network::getGeneralUpdateInterval() const
             {
                 return general_update_interval_ms;
+            }
+
+            void Network::setPlayerListHandler(const boost::shared_ptr<PlayerListHandler>& p)
+            {
+                plh = p;
             }
         }
     }

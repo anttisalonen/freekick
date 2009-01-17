@@ -97,6 +97,11 @@ namespace freekick
                 {
                     return mTask->process();
                 }
+
+                int AIPlayer::getID() const
+                {
+                    return mPlayerID;
+                }
             }
         }
     }
