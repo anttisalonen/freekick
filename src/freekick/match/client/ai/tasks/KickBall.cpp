@@ -57,7 +57,9 @@ namespace freekick
                         if(goalvec.length() < 35.0f)
                         {
                             target = goalvec;
-                            target.y = goalvec.length() * 0.3f;
+                            target.y = goalvec.length() * 0.1f;
+                            target.normalize();
+                            target *= 30.0f;
                             std::cout << "Shooting; kick target: " << (target + ownpos) << std::endl;
                         }
                         else
