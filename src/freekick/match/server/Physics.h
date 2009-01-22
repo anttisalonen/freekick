@@ -91,7 +91,7 @@ namespace freekick
                 OwnerMessageList newowners;
 
                 const static float collision_box_height = 1.75f;
-                const static float ball_radius = 0.5f;   // TODO: make this more realistic
+                const static float ball_radius = 0.11f;
             };
         }
     }

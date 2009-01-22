@@ -53,19 +53,19 @@ namespace freekick
                 float gheight = soccer::goal_height;
                 float gpradius = 0.05f;
                 float gprestitution = 0.9f;
-                mPhysicsEngine->addStaticCylinderObject(FirstGoalID, addutil::X_Axis, gwidth + 2 * gpradius, 
-                                                        gpradius, Vector3(middle_x, gheight + gpradius, ptopz), gprestitution);
-                mPhysicsEngine->addStaticCylinderObject(FirstGoalID - 1, addutil::Y_Axis, gheight + 2 * gpradius, 
-                                                        gpradius, Vector3(middle_x - (gwidth + gpradius), gheight / 2.0f, ptopz), gprestitution);
-                mPhysicsEngine->addStaticCylinderObject(FirstGoalID - 2, addutil::Y_Axis, gheight + 2 * gpradius, 
-                                                        gpradius, Vector3(middle_x + (gwidth + gpradius), gheight / 2.0f, ptopz), gprestitution);
+                mPhysicsEngine->addStaticCylinderObject(FirstGoalID, addutil::X_Axis, gwidth, 
+                                                        gpradius, Vector3(middle_x, gheight, ptopz), gprestitution);
+                mPhysicsEngine->addStaticCylinderObject(FirstGoalID - 1, addutil::Y_Axis, gheight, 
+                                                        gpradius, Vector3(middle_x - (gwidth * 0.5f), gheight / 2.0f, ptopz), gprestitution);
+                mPhysicsEngine->addStaticCylinderObject(FirstGoalID - 2, addutil::Y_Axis, gheight , 
+                                                        gpradius, Vector3(middle_x + (gwidth * 0.5f), gheight / 2.0f, ptopz), gprestitution);
 
-                mPhysicsEngine->addStaticCylinderObject(SecondGoalID, addutil::X_Axis, gwidth + 2 * gpradius, 
-                                                        gpradius, Vector3(middle_x, gheight + gpradius, pbottomz), gprestitution);
-                mPhysicsEngine->addStaticCylinderObject(SecondGoalID - 1, addutil::Y_Axis, gheight + 2 * gpradius, 
-                                                        gpradius, Vector3(middle_x - (gwidth + gpradius), gheight / 2.0f, pbottomz), gprestitution);
-                mPhysicsEngine->addStaticCylinderObject(SecondGoalID - 2, addutil::Y_Axis, gheight + 2 * gpradius, 
-                                                        gpradius, Vector3(middle_x + (gwidth + gpradius), gheight / 2.0f, pbottomz), gprestitution);
+                mPhysicsEngine->addStaticCylinderObject(SecondGoalID, addutil::X_Axis, gwidth, 
+                                                        gpradius, Vector3(middle_x, gheight, pbottomz), gprestitution);
+                mPhysicsEngine->addStaticCylinderObject(SecondGoalID - 1, addutil::Y_Axis, gheight, 
+                                                        gpradius, Vector3(middle_x - (gwidth * 0.5f), gheight / 2.0f, pbottomz), gprestitution);
+                mPhysicsEngine->addStaticCylinderObject(SecondGoalID - 2, addutil::Y_Axis, gheight, 
+                                                        gpradius, Vector3(middle_x + (gwidth * 0.5f), gheight / 2.0f, pbottomz), gprestitution);
 
                 // ball
                 mPhysicsEngine->addDynamicSphereObject(BallID, ball_radius, 0.43f, Vector3(middle_x, 10, middle_z), 0.95f);
@@ -80,12 +80,12 @@ namespace freekick
                 BOOST_FOREACH(int idnum, hplayers)
                 {
                     Vector3 loc(idnum % (int)pwidth + 1, idnum % 2 + 2, (idnum * 2) % (int)plength + 1);
-                    mPhysicsEngine->addControllableObject(idnum, Vector3(1.0f, collision_box_height, 1.0f), 80.0f, loc);
+                    mPhysicsEngine->addControllableObject(idnum, Vector3(0.6f, collision_box_height, 0.4f), 80.0f, loc);
                 }
                 BOOST_FOREACH(int idnum, aplayers)
                 {
                     Vector3 loc(idnum % (int)pwidth + 1, idnum % 2 + 4, (idnum * 2) % (int)plength + 1);
-                    mPhysicsEngine->addControllableObject(idnum, Vector3(1.0f, collision_box_height, 1.0f), 80.0f, loc);
+                    mPhysicsEngine->addControllableObject(idnum, Vector3(0.6f, collision_box_height, 0.4f), 80.0f, loc);
                 }
             }
 
