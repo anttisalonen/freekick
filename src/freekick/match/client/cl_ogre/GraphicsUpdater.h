@@ -62,8 +62,8 @@ namespace freekick
                     Ogre::SceneManager* smgr;
                     std::map <int, Ogre::Entity* > entitymap;
 
-                    bool updateOgreNode(boost::shared_ptr<DynamicEntity> d);
-                    bool updateOgreNode(std::pair<const int, boost::shared_ptr<MatchPlayer> > d);
+                    bool updateOgreNode(boost::shared_ptr<DynamicEntity> d, const Ogre::FrameEvent& evt);
+                    bool updateOgreNode(std::pair<const int, boost::shared_ptr<MatchPlayer> > d, const Ogre::FrameEvent& evt);
                 };
             }
         }

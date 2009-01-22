@@ -123,6 +123,7 @@ namespace freekick
                     Ogre::Camera* mCamera;
                     CameraMode mCamMode;
                     boost::array<Ogre::SceneNode*, 2> mCamNodes;
+                    Ogre::SceneNode* mCamNode;
                 };
             }
         }

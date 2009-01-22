@@ -47,17 +47,17 @@ namespace freekick
                     bool success;
                     for (d = drs.begin(); d != drs.end(); d++)
                     {
-                        success = updateOgreNode(*d);
+                        success = updateOgreNode(*d, evt);
                         if(!success) return false;
                     }
 
                     boost::shared_ptr<MatchBall> b = status->getBall();
-                    success = updateOgreNode(b);
+                    success = updateOgreNode(b, evt);
 
                     return success;
                 }
 
-                bool GraphicsUpdater::updateOgreNode(boost::shared_ptr<DynamicEntity> d)
+                bool GraphicsUpdater::updateOgreNode(boost::shared_ptr<DynamicEntity> d, const Ogre::FrameEvent& evt)
                 {
                     Ogre::SceneNode* node = 0;
                     int dr_id = d->getID();
@@ -82,7 +82,9 @@ namespace freekick
                             node = smgr->getRootSceneNode()->createChildSceneNode(nname.str());
                             node->attachObject(ent);
                             if(modelfile == "robot.mesh")
-                                node->setScale(0.05f, 0.05f, 0.05f);
+                                node->setScale(0.03f, 0.03f, 0.03f);
+                            if(modelfile == "ball.mesh")
+                                node->setScale(0.3f, 0.3f, 0.3f);
                             entitymap[dr_id] = ent;
                         }
                         else
@@ -95,13 +97,39 @@ namespace freekick
                         node->setPosition(Ogre::Vector3(pos.x, pos.y, pos.z));
                         const Quaternion& dir = d->getOrientation();
                         node->setOrientation(Ogre::Quaternion(dir.w, dir.x, dir.y, dir.z));
+                        if(it != entitymap.end())
+                        {
+                            if(d->getModel() == "robot.mesh")
+                            {
+                                const Vector3& vel = d->getVelocity();
+                                Ogre::AnimationState* as;
+                                if(vel.length() > 0.3f)
+                                {
+                                    as = it->second->getAnimationState("Walk");
+                                }
+                                else
+                                {
+                                    as = it->second->getAnimationState("Idle");
+                                }
+                                if(as)
+                                {
+                                    as->setLoop(true);
+                                    as->setEnabled(true);
+                                    as->addTime(evt.timeSinceLastFrame * vel.length() * 0.35f);
+                                }
+                                else
+                                {
+                                    std::cerr << "Error setting animation.\n";
+                                }
+                            }
+                        }
                     }
                     return true;
                 }
 
-                bool GraphicsUpdater::updateOgreNode(std::pair<const int, boost::shared_ptr<MatchPlayer> > d)
+                bool GraphicsUpdater::updateOgreNode(std::pair<const int, boost::shared_ptr<MatchPlayer> > d, const Ogre::FrameEvent& evt)
                 {
-                    return updateOgreNode(d.second);
+                    return updateOgreNode(d.second, evt);
                 }
 
                 void GraphicsUpdater::setSceneManager(Ogre::SceneManager* s)

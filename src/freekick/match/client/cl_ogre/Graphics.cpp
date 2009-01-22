@@ -181,6 +181,21 @@ namespace freekick
                     plent->setMaterialName("Examples/GrassFloor");
                     plent->setCastShadows(false);
 
+                    Ogre::Entity *ent1 = mgr->createEntity ("goal1", "Goal.mesh");
+                    Ogre::SceneNode *node1 = mgr->getRootSceneNode()->createChildSceneNode("goal1Node");
+                    node1->setPosition(Ogre::Vector3(35.0f, 1.0f, -4.2f));
+                    node1->setScale(3.66f, 2.44f, 1.0f);
+                    node1->pitch(Ogre::Radian(Math::HALF_PI));
+                    node1->attachObject(ent1);
+
+                    ent1 = mgr->createEntity ("goal2", "Goal.mesh");
+                    node1 = mgr->getRootSceneNode()->createChildSceneNode("goal2Node");
+                    node1->setPosition(Ogre::Vector3(35.0f, 1.0f, 104.5f));
+                    node1->setScale(3.66f, 2.44f, 1.0f);
+                    node1->pitch(-Ogre::Radian(Math::HALF_PI));
+                    node1->yaw(Ogre::Radian(Math::PI));
+                    node1->attachObject(ent1);
+
                     updater->setSceneManager(mgr);
                     mRoot->addFrameListener(updater);
                 }

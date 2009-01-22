@@ -89,6 +89,7 @@ namespace freekick
                     mCamNodes[1]->setPosition (Ogre::Vector3(35.0f, 45.0f, 150.0f));
 
                     mCamNodes[0]->attachObject(mCamera);
+                    mCamNode = mCamNodes[0];
                     switchToCameraMode(CamLengthFar);
 
                     network->sendMessage(messages::PlayerControlRequestMessage(mControlledPlayer));
@@ -107,10 +108,9 @@ namespace freekick
                         mKeyboard->capture();
                     if (mMouse)
                         mMouse->capture();
-/*
                     if (mCamNode)
                         mCamNode->translate(mDirection * evt.timeSinceLastFrame, Ogre::Node::TS_LOCAL);
-*/
+
                     return mContinue;
                 }
 
@@ -126,13 +126,15 @@ namespace freekick
 
                 bool InputHandler::mouseMoved (const OIS::MouseEvent& e )
                 {
-/*
                     if (e.state.buttonDown(OIS::MB_Right))
                     {
-                        mCamNode->yaw(Ogre::Degree(-mRotate * e.state.X.rel), Ogre::Node::TS_WORLD);
-                        mCamNode->pitch(Ogre::Degree(-mRotate * e.state.Y.rel), Ogre::Node::TS_LOCAL);
+                        if(mCamNode)
+                        {
+                            mCamNode->yaw(Ogre::Degree(-mRotate * e.state.X.rel), Ogre::Node::TS_WORLD);
+                            mCamNode->pitch(Ogre::Degree(-mRotate * e.state.Y.rel), Ogre::Node::TS_LOCAL);
+                        }
                     }
-*/
+
                     return true;
                 }
 
@@ -352,6 +354,7 @@ namespace freekick
                     mCamera->getParentSceneNode()->detachObject(mCamera);
                     int i = (m == CamSky) ? 0 : 1;
                     mCamNodes[i]->attachObject(mCamera);
+                    mCamNode = mCamNodes[i];
                     mCamera->lookAt (Ogre::Vector3(35.0f, 0, 50.0f));
                     mCamMode = m;
                 }
