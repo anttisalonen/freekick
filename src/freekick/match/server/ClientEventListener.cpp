@@ -89,47 +89,21 @@ namespace freekick
                 // MovePlayerControlMessage: handled by InputMonitor.
                 if (t == c_pl_ctl_move)
                 {
-                    try
-                    {
-                        const messages::MovePlayerControlMessage m(b);
-                        int playerid = m.getPlayerID();
-                        if(!(*it).second->controlsPlayer(playerid))
-                        {
-                            std::cerr << "ClientEventListener: client " << clientid << " trying to control another player (" << playerid << ").\n";
-                            if(it->second->getAI())
-                            {
-                                mDispatcher->sendPlayerList(clientid);
-                            }
-                            return;
-                        }
-                        mInputMonitor->newClientMessage(m);
-                    }
-                    catch(...)
-                    {
-                        std::cerr << "ClientEventListener: failed to parse MovePlayerControlMessage.\n";
-                    }
+                    handleMoveMessage(clientid, b, it->second);
                     return;
                 }
 
-                // TODO: merge this with MovePlayerControlMessage for nicer code?
                 // KickPlayerControlMessage: handled by InputMonitor.
                 else if (t == c_pl_ctl_kick)
                 {
-                    try
-                    {
-                        const messages::KickPlayerControlMessage m(b);
-                        int playerid = m.getPlayerID();
-                        if(!(*it).second->controlsPlayer(playerid))
-                        {
-                            std::cerr << "ClientEventListener: client " << clientid << " trying to control another player (" << playerid << ").\n";
-                            return;
-                        }
-                        mInputMonitor->newClientMessage(m);
-                    }
-                    catch(...)
-                    {
-                        std::cerr << "ClientEventListener: failed to parse KickPlayerControlMessage.\n";
-                    }
+                    handleKickMessage(clientid, b, it->second);
+                    return;
+                }
+
+                // HoldPlayerControlMessage: handled by InputMonitor.
+                else if (t == c_pl_ctl_hold)
+                {
+                    handleHoldMessage(clientid, b, it->second);
                     return;
                 }
 
@@ -250,6 +224,69 @@ namespace freekick
                 }
 
                 // TODO: add handling for all messages
+            }
+
+            void ClientEventListener::handleMoveMessage(int clientid, buffer& b, boost::shared_ptr<Client> c)
+            {
+                try
+                {
+                    const messages::MovePlayerControlMessage m(b);
+                    int playerid = m.getPlayerID();
+                    if(checkController(clientid, playerid, c))
+                        mInputMonitor->newClientMessage(m);
+                }
+                catch(...)
+                {
+                    std::cerr << "ClientEventListener: failed to parse PlayerControlMessage.\n";
+                }
+                return;
+            }
+
+            // TODO: merge this with MovePlayerControlMessage for nicer code?
+            void ClientEventListener::handleKickMessage(int clientid, buffer& b, boost::shared_ptr<Client> c)
+            {
+                try
+                {
+                    const messages::KickPlayerControlMessage m(b);
+                    int playerid = m.getPlayerID();
+                    if(checkController(clientid, playerid, c))
+                        mInputMonitor->newClientMessage(m);
+                }
+                catch(...)
+                {
+                    std::cerr << "ClientEventListener: failed to parse PlayerControlMessage.\n";
+                }
+                return;
+            }
+
+            void ClientEventListener::handleHoldMessage(int clientid, buffer& b, boost::shared_ptr<Client> c)
+            {
+                try
+                {
+                    const messages::HoldPlayerControlMessage m(b);
+                    int playerid = m.getPlayerID();
+                    if(checkController(clientid, playerid, c))
+                        mInputMonitor->newClientMessage(m);
+                }
+                catch(...)
+                {
+                    std::cerr << "ClientEventListener: failed to parse PlayerControlMessage.\n";
+                }
+                return;
+            }
+
+            bool ClientEventListener::checkController(int clientid, int playerid, boost::shared_ptr<Client> c)
+            {
+                if(!c->controlsPlayer(playerid))
+                {
+                    std::cerr << "ClientEventListener: client " << clientid << " trying to control another player (" << playerid << ").\n";
+                    if(c->getAI())
+                    {
+                        mDispatcher->sendPlayerList(clientid);
+                    }
+                    return false;
+                }
+                return true;
             }
         }
     }

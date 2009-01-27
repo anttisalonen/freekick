@@ -29,10 +29,9 @@ namespace freekick
             {
                 namespace tasks
                 {
-                    IdleInFormation::IdleInFormation (const boost::shared_ptr<MatchStatus>& ms, int id, const addutil::Vector3& form)
+                    IdleInFormation::IdleInFormation (const boost::shared_ptr<MatchStatus>& ms, int id)
                         : mMatchStatus(ms),
-                          mPlayerID(id),
-                          mTarget(form)
+                          mPlayerID(id)
                     {
                         mPlayer = mMatchStatus->getPlayer(mPlayerID);
                     }
@@ -47,6 +46,53 @@ namespace freekick
 
                     boost::shared_ptr<messages::PlayerControlMessage> IdleInFormation::process()
                     {
+                        soccer::PlayerTarget b = mMatchStatus->getPlayerTarget(mPlayerID);
+                        const boost::shared_ptr<Formation> f = mMatchStatus->getPlayerClub(mPlayerID)->getFormation();
+                        PlayerPosition pp = mPlayer->getPlayerPosition();
+                        addutil::Vector3 formationpoint = f->getPlayerArea(mPlayerID).getCenter();
+                        addutil::Vector3 movedFormationpoint(formationpoint);
+                        float plength = mMatchStatus->getPitchLength();
+                        float pwidth = mMatchStatus->getPitchWidth();
+                        float bheight = mMatchStatus->getBall()->getPosition().z / plength;
+                        float bwidth = mMatchStatus->getBall()->getPosition().x / pwidth;
+                        if(b == UpTarget)
+                        {
+                            bheight = 1.0f - bheight;
+                        }
+                        // 0.0f: own goal; 1.0f: opponent's goal
+
+                        float target_z_modifier = (1.0f - formationpoint.z) * (bheight - formationpoint.z) * (pp == Goalkeeper ? 0.04f : 0.2f);
+                        movedFormationpoint.z += target_z_modifier;
+
+                        float target_x_modifier = (bwidth - 0.5f) * 0.2f;
+                        if(b == UpTarget)
+                        {
+                            movedFormationpoint.x -= target_x_modifier;
+                        }
+                        else
+                        {
+                            movedFormationpoint.x += target_x_modifier;
+                        }
+                        addutil::general::clamp(movedFormationpoint.x, 0.0f, 1.0f);
+
+                        if((movedFormationpoint - mPlayer->getPosition()).length() > 5.0f)
+                        {
+                            mTarget = movedFormationpoint;
+                        }
+                        else
+                        {
+                            mTarget = formationpoint;
+                        }
+
+                        if(b == UpTarget)
+                        {
+                            mTarget.z = 1.0f - mTarget.z;
+                            mTarget.x = 1.0f - mTarget.x;
+                        }
+
+                        mTarget.x *= pwidth;
+                        mTarget.z *= plength;
+
                         addutil::Vector3 gotovec = mTarget - mPlayer->getPosition();
                         if(gotovec.length() < 1.0f) gotovec.reset();
                         gotovec.y = 0.0f;

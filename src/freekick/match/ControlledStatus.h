@@ -34,10 +34,16 @@ namespace freekick
         class ControlledStatus
         {
         public:
-            ControlledStatus(int c = 0);
+            ControlledStatus(bool c = false, bool hold = false);
             virtual ~ControlledStatus() { }
 
-            int celebrates;
+            void setValue(int v);
+
+            bool celebrates;
+            bool holding_ball;
+
+            static const int celeb_val = 1;
+            static const int holdi_val = 8;
         };
 
         std::ostream& operator << (std::ostream& os, const ControlledStatus& a);

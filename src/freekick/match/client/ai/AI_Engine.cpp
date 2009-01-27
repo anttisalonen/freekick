@@ -52,7 +52,7 @@ namespace freekick
                 void AI_Engine::run()
                 {
                     using namespace boost::posix_time;
-                    unsigned long sleep_time = 1000000/5;
+                    unsigned long sleep_time = 1000000/20;
 
                     std::vector<AIPlayer>::iterator it;
                     std::vector<boost::shared_ptr<messages::Message> > msgs;

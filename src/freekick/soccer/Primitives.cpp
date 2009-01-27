@@ -35,6 +35,13 @@ namespace freekick
             return DownTarget;
         }
 
+        GoalQuery other(GoalQuery q)
+        {
+            if(q == HomeGoal) return AwayGoal;
+            if(q == AwayGoal) return HomeGoal;
+            return q;
+        }
+
         BallOwner intToBallOwner(int n)
         { 
             if(n) return Away; return Home; 
@@ -65,6 +72,14 @@ namespace freekick
             if((t == DownTarget && !secondhalf) || (t == UpTarget && secondhalf))
                 return Home;
             return Away;
+        }
+
+        bool ownersGoal(BallOwner b, GoalQuery g)
+        {
+            if(g == NoGoal) return false;
+            if(b == Home && g == HomeGoal) return true;
+            if(b == Away && g == AwayGoal) return true;
+            return false;
         }
     }
 }

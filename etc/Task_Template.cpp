@@ -33,6 +33,12 @@ namespace freekick
                         : mMatchStatus(ms),
                           mPlayerID(id)
                     {
+                        mPlayer = mMatchStatus->getPlayer(mPlayerID);
+                    }
+
+                    bool f::finished() const
+                    {
+                        return true;
                     }
 
                     boost::shared_ptr<messages::PlayerControlMessage> f::process()

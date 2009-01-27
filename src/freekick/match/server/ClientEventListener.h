@@ -60,6 +60,10 @@ namespace freekick
                 std::map<int, std::string> unfinished_buffer;
 
                 void handleMessage(int clientid, buffer b);
+                void handleMoveMessage(int clientid, buffer& b, boost::shared_ptr<Client> c);
+                void handleKickMessage(int clientid, buffer& b, boost::shared_ptr<Client> c);
+                void handleHoldMessage(int clientid, buffer& b, boost::shared_ptr<Client> c);
+                bool checkController(int clientid, int playerid, boost::shared_ptr<Client> c);
             };
         }
     }

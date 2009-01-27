@@ -58,8 +58,7 @@ namespace freekick
                     boost::shared_ptr<InputConfiguration>& getInputConfiguration ( ) const;
                     void setCameraPos(float x, float y, float z);
                     void setupInputSystem(const std::string& windowhnd, 
-                                          unsigned int width, 
-                                          unsigned int height, 
+                                          Ogre::RenderWindow* win,
                                           Ogre::SceneManager* mgr, 
                                           Ogre::Camera* cam);
                     Ogre::FrameListener* getFrameListener();

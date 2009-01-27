@@ -87,6 +87,9 @@ namespace freekick
             void addAwayScore();
             int getHomeScore() const;
             int getAwayScore() const;
+            GoalQuery ballInGoalArea() const;
+            int holdingBall() const;
+            void setBallHolder(int h);
 
         protected:
             void updateEntity(addutil::DynamicEntity* e, const messages::ConstantUpdateMessage& m, float time_interval);

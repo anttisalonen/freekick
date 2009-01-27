@@ -195,11 +195,9 @@ namespace addutil
             GroupMap::iterator it;
             it = groups.find(gid);
             if (it == groups.end()) return;
-            clientset::iterator it2;
-            clientset* cs = &groups[gid];
-            it2 = cs->find(cid);
-            if (it2 != cs->end())
-                cs->erase(it2);
+            clientset::iterator it2 = it->second.find(cid);
+            if (it2 != it->second.end())
+                it->second.erase(it2);
         }
 
         void Server::broadcast(const std::string& msg)

@@ -121,9 +121,10 @@ namespace freekick
                     Camera *cam = mgr->createCamera("Camera");
                     Viewport *vp = mRoot->getAutoCreatedWindow()->addViewport(cam);
 
-                    vp->setBackgroundColour(ColourValue(0.675, 0.84, 0.9));
+                    // vp->setBackgroundColour(ColourValue(0.675, 0.84, 0.9));          // light blue
+                    vp->setBackgroundColour(ColourValue(0.5, 0.0, 0.0));                // maroon
                     cam->setNearClipDistance(0.5);
-                    cam->setAspectRatio(Real(vp->getActualWidth()) / Real(vp->getActualHeight()));
+                    cam->setAutoAspectRatio(true);
 
                     mgr->setAmbientLight(ColourValue( 0.2, 0.2, 0.2 ) );
                     mgr->setShadowTechnique( SHADOWTYPE_STENCIL_ADDITIVE);
@@ -209,16 +210,12 @@ namespace freekick
                     win->getCustomAttribute("WINDOW", &windowHnd);
                     windowHndStr << windowHnd;
 
-                    unsigned int width, height, depth;
-                    int top, left;
-                    win->getMetrics(width, height, depth, left, top);
-
                     Ogre::SceneManager *mgr = mRoot->getSceneManager("Default SceneManager");
                     Ogre::Camera* cam = mgr->getCamera("Camera");
 
                     try
                     {
-                        input->setupInputSystem(windowHndStr.str(), width, height, mgr, cam);
+                        input->setupInputSystem(windowHndStr.str(), win, mgr, cam);
                         mRoot->addFrameListener(input->getFrameListener());
                     }
                     catch (const OIS::Exception &e)
@@ -237,6 +234,8 @@ namespace freekick
                     mSystem = new CEGUI::System(mRenderer);
 
                     // Other CEGUI setup here.
+                    // CEGUI::SchemeManager::getSingleton().loadScheme((CEGUI::utf8*)"TaharezLookSkin.scheme");
+                    // CEGUI::MouseCursor::getSingleton().setImage("TaharezLook", "MouseArrow");
                 }
 
                 void Graphics::startRenderLoop()

@@ -18,15 +18,17 @@
 **************************************************************************/
 
 
-#ifndef FREEKICKTASKS _H
-#define FREEKICKTASKS _H
+#ifndef FREEKICKTASKSGOALKEEPERGETBALL_H
+#define FREEKICKTASKSGOALKEEPERGETBALL_H
 
 #include <boost/shared_ptr.hpp>
 
 #include "addutil/Vector3.h"
+#include "addutil/Steering.h"
 
 #include "MatchStatus.h"
 #include "messages/MovePlayerControlMessage.h"
+#include "messages/HoldPlayerControlMessage.h"
 
 #include "tasks/AtomicTask.h"
 
@@ -40,10 +42,10 @@ namespace freekick
             {
                 namespace tasks
                 {
-                    class fff : public CompositeTask
+                    class GoalkeeperGetBall : public AtomicTask
                     {
                     public:
-                        fff(boost::shared_ptr<MatchStatus> ms, int id);
+                        GoalkeeperGetBall(boost::shared_ptr<MatchStatus> ms, int id);
                         bool finished() const;
                         boost::shared_ptr<messages::PlayerControlMessage> process();
                     private:

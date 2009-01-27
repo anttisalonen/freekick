@@ -51,11 +51,13 @@ namespace freekick
 
         BallOwner other(BallOwner b);
         PlayerTarget other(PlayerTarget b);
+        GoalQuery other(GoalQuery q);
         BallOwner intToBallOwner(int n);
         void setPositionSide(PlayerTarget t, addutil::Vector3& pos, float pitch_width, float pitch_length);
         void setPositionSide(BallOwner b, bool secondhalf, addutil::Vector3& pos, float pitch_width, float pitch_length);
         PlayerTarget ballOwnerToPlayerTarget(BallOwner b, bool secondhalf);
         BallOwner playerTargetToBallOwner(PlayerTarget t, bool secondhalf);
+        bool ownersGoal(BallOwner b, GoalQuery g);
     }
 }
 

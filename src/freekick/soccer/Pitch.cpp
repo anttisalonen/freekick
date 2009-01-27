@@ -24,9 +24,17 @@ namespace freekick
 {
     namespace soccer
     {
-        Pitch::Pitch (float w, float l ) 
+        Pitch::Pitch (float w, float l)
             : width(w), length(l) 
         {
+            float goal_area_left = width / 2.0f - (goal_width / 2.0f) - goal_area_width;
+            float goal_area_right = width / 2.0f + (goal_width / 2.0f) + goal_area_width;
+            float goal_area_up = goal_area_length;
+            float goal_area_down = length - goal_area_length;
+            goal_area_points[0] = addutil::Vector3(goal_area_left,  0.0f, 0.0f);
+            goal_area_points[1] = addutil::Vector3(goal_area_right, 0.0f, goal_area_up);
+            goal_area_points[2] = addutil::Vector3(goal_area_left,  0.0f, goal_area_down);
+            goal_area_points[3] = addutil::Vector3(goal_area_right, 0.0f, length);
         }
 
         float Pitch::getWidth() const
@@ -82,7 +90,12 @@ namespace freekick
             if(y < 0.0f || y > goal_height) return false;
             return true;
         }
+
+        GoalQuery Pitch::inGoalArea(const addutil::Vector3& v) const
+        {
+            if(addutil::inArea(goal_area_points[0], goal_area_points[1], v)) return HomeGoal;
+            if(addutil::inArea(goal_area_points[2], goal_area_points[3], v)) return AwayGoal;
+            return NoGoal;
+        }
     }
 }
-
-

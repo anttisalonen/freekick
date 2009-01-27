@@ -21,7 +21,9 @@
 #ifndef ADDUTIL_GENERAL_H
 #define ADDUTIL_GENERAL_H
 
+#include <cmath>
 #include <set>
+#include <iostream>
 
 #include <boost/foreach.hpp>
 
@@ -29,12 +31,35 @@ namespace addutil
 {
     namespace general
     {
+/**
+ * clamp: sets val between min and max
+ */
         template <typename T> void clamp(T& val, T min, T max)
         {
             if(val < min) val = min;
             if(val > max) val = max;
         }
 
+/**
+ * intervalize: sets val to be divisible by interval.
+ */
+        template <typename T> void intervalize(T& val, T interval)
+        {
+            T dif = fmod(val, interval);
+            if(dif < interval / 2.0f)
+            {
+                val -= dif;
+            }
+            else
+                val += (interval - dif);
+        }
+
+/**
+ * set_union: sets out to the union of a and b.
+ * e.g.: a:   1   3 4
+ *       b:     2 3   5
+ *       out:     3
+ */
         template <typename T> void set_union(const std::set<T>& a, const std::set<T>& b, std::set<T>& out)
         {
             out.clear();
@@ -47,6 +72,12 @@ namespace addutil
             }
         }
 
+/**
+ * set_inverse_union: sets diff to what more has that less doesn't.
+ * e.g.: more: 1 2 3 4
+ *       less:   2 3 4
+ *       diff: 1
+ */
         template <typename T> void set_inverse_union(const std::set<T>& more, const std::set<T>& less, std::set<T>& diff)
         {
             diff.clear();

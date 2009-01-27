@@ -32,6 +32,7 @@
 #include "MatchStatus.h"
 #include "messages/MovePlayerControlMessage.h"
 #include "messages/KickPlayerControlMessage.h"
+#include "messages/HoldPlayerControlMessage.h"
 
 namespace freekick
 {
@@ -60,6 +61,7 @@ namespace freekick
                 virtual ~InputMonitor() { }
                 void newClientMessage (const messages::MovePlayerControlMessage& e);
                 void newClientMessage (const messages::KickPlayerControlMessage& e);
+                void newClientMessage (const messages::HoldPlayerControlMessage& e);
                 void interpolate(unsigned long microseconds);
                 boost::shared_ptr<VelocityMap> getVelocities();
                 boost::shared_ptr<KickMap> getKicks();

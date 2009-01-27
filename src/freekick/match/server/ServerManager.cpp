@@ -82,12 +82,12 @@ namespace freekick
             {
                 ClientList::iterator it;
                 it = clients->find(id);
-                std::cerr << "Client " << id << " disconnected.\n";
                 if (it != clients->end())
                 {
                     clients->erase(it);
                 }
                 remove_from_group(id, 1);
+                std::cerr << "Client " << id << " disconnected.\n";
             }
 
             void ServerManager::client_input(client_id id, std::string& msg)

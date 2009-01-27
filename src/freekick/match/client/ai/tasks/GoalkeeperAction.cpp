@@ -17,7 +17,7 @@
   Copyright Antti Salonen, 2008
 **************************************************************************/
 
-#include "tasks/KickBall.h"
+#include "tasks/GoalkeeperAction.h"
 
 namespace freekick 
 { 
@@ -29,42 +29,52 @@ namespace freekick
             {
                 namespace tasks
                 {
-                    KickBall::KickBall (const boost::shared_ptr<MatchStatus>& ms, int id)
+                    GoalkeeperAction::GoalkeeperAction (boost::shared_ptr<MatchStatus> ms, int id)
                         : mMatchStatus(ms),
                           mPlayerID(id)
                     {
-                        mPlayer = mMatchStatus->getPlayer(mPlayerID);
                     }
 
-                    bool KickBall::finished() const
+                    bool GoalkeeperAction::finished() const
                     {
-                        // return true;
-                        // float len = (mPlayer->getPosition() - mTarget).length();
-                        // if(len < 5.0f) return true;
-                        return false;
+                        // TODO: define
+                        return true;
                     }
 
-                    boost::shared_ptr<messages::PlayerControlMessage> KickBall::process()
+                    boost::shared_ptr<messages::PlayerControlMessage> GoalkeeperAction::process()
                     {
+                        Helpers h(mMatchStatus, mPlayerID);
+                        addutil::Vector3 gotovec;
+
                         clearTasks();
 
-                        // TODO: have shootball, passball share these
-                        addutil::Vector3 ownpos = mPlayer->getPosition();
-                        soccer::PlayerTarget t = mMatchStatus->getPlayerTarget(mPlayerID);
-                        addutil::Vector3 tgtgoal = mMatchStatus->getGoalPosition(t);
-                        addutil::Vector3 goalvec = tgtgoal - ownpos;
-
-                        if(goalvec.length() < 35.0f)
+                        if(h.own != h.b && (h.isnearestplayer || h.ballinourgoalarea))
+                        {
+                            // std::cerr << "GoalkeeperAction: Ball holder: " << mMatchStatus->holdingBall() << std::endl;
+                            if(!h.holdingtheball)
+                            {
+                                // std::cerr << "GoalkeeperAction: wanting to hold the ball.\n";
+                                boost::shared_ptr<GoalkeeperGetBall> t(new GoalkeeperGetBall(mMatchStatus, mPlayerID));
+                                addTask(t);
+                            }
+                            else
+                            {
+                                // TODO: implement timer to wait for a while before kicking ball away
+                                // std::cerr << "GoalkeeperAction: kicking the ball.\n";
+                                boost::shared_ptr<ShootBall> t(new ShootBall(mMatchStatus, mPlayerID));
+                                addTask(t);
+                            }
+                        }
+                        else if (h.isnearestplayer)
                         {
                             boost::shared_ptr<ShootBall> t(new ShootBall(mMatchStatus, mPlayerID));
                             addTask(t);
                         }
                         else
                         {
-                            boost::shared_ptr<PassBall> t(new PassBall(mMatchStatus, mPlayerID));
+                            boost::shared_ptr<IdleInFormation> t(new IdleInFormation(mMatchStatus, mPlayerID));
                             addTask(t);
                         }
-
 
                         boost::shared_ptr<Task> nexttask = getNextTask();
                         boost::shared_ptr<messages::PlayerControlMessage> msg = nexttask->process();

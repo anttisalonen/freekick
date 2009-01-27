@@ -77,6 +77,13 @@ namespace addutil
         x = y = z = 0.0f;
     }
 
+    void Vector3::set(float _x, float _y, float _z)
+    {
+        x = _x;
+        y = _y;
+        z = _z;
+    }
+
     float Vector3::XZAngle() const
     {
         return atan2(-z, x);
@@ -129,5 +136,13 @@ namespace addutil
         os << v.x << " " << v.y << " " << v.z;
         return os;
     }
-}
 
+    bool inArea(const Vector3& tl, const Vector3& br, const Vector3& p)
+    {
+        if(p.x < tl.x) return false;
+        if(p.z < tl.z) return false;
+        if(p.x > br.x) return false;
+        if(p.z > br.z) return false;
+        return true;
+    }
+}

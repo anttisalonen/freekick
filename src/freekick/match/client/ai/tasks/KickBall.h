@@ -26,9 +26,10 @@
 #include "addutil/Vector3.h"
 
 #include "MatchStatus.h"
-#include "messages/KickPlayerControlMessage.h"
 
-#include "tasks/AtomicTask.h"
+#include "tasks/CompositeTask.h"
+#include "tasks/PassBall.h"
+#include "tasks/ShootBall.h"
 
 namespace freekick 
 { 
@@ -40,7 +41,7 @@ namespace freekick
             {
                 namespace tasks
                 {
-                    class KickBall : public AtomicTask
+                    class KickBall : public CompositeTask
                     {
                     public:
                         KickBall(const boost::shared_ptr<MatchStatus>& ms, int id);

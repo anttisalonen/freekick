@@ -123,7 +123,7 @@ namespace freekick
 
                     successful = mPhysicsEngine->stepWorld(frametime);
                     const BallState bs = mMatchStatus->getBallState();
-                    if(bs.bio_type == PreKickoff || (bs.bio_type == Kickoff && bs.blocked_play))
+                    if(bs.bio_type == Kickoff && bs.blocked_play)
                     {
                         addutil::Vector3 p = mMatchStatus->getCentreSpot();
                         p.y = ball_radius;
@@ -131,7 +131,8 @@ namespace freekick
                     }
                     else if(bs.blocked_play && 
                             (bs.bio_type != BallIn &&
-                             bs.bio_type != HalfFullTime))
+                             bs.bio_type != HalfFullTime &&
+                             bs.bio_type != PreKickoff))
                     {
                         addutil::Vector3 p = bs.restart_point;
                         p.y = ball_radius;
@@ -142,9 +143,13 @@ namespace freekick
                     kickit = kickMap->begin();
                     while(kickit != kickMap->end())
                     {
-                        if (!mPhysicsEngine->setObjectVelocity(BallID, kickit->second, kickit->first))
+                        bool allowed_to_kick = mMatchStatus->playerAllowedToKick(kickit->first);
+                        if(allowed_to_kick)
                         {
-                            std::cerr << "Physics::run: Invalid kick (no ball?)\n";
+                            if (!mPhysicsEngine->setObjectVelocity(BallID, kickit->second, kickit->first))
+                            {
+                                std::cerr << "Physics::run: Invalid kick (no ball?)\n";
+                            }
                         }
                         kickMap->erase(kickit);
                         kickit = kickMap->begin();
@@ -163,6 +168,25 @@ namespace freekick
                     }
                     mInputMonitor->interpolate(sleep_time);
 
+                    int holder = mMatchStatus->holdingBall();
+                    if(holder)
+                    {
+                        addutil::Vector3 plpos;
+                        addutil::Quaternion orien;
+                        if(mPhysicsEngine->getObjectPositionAndOrientation(holder, plpos, orien))
+                        {
+                            addutil::Vector3 ballpos;
+/*
+  addutil::Vector3 pldir;
+  float ang = 0.0f;
+  orien.toAxisAngle(pldir, ang);
+  ballpos = plpos + pldir * 0.7f;
+*/
+                            ballpos = plpos;
+                            mPhysicsEngine->setObjectPosition(BallID, ballpos);
+                        }
+                    }
+
                     ptime after_time(microsec_clock::local_time());
 
                     time_period diff_time(before_time, after_time);
@@ -174,12 +198,12 @@ namespace freekick
                     else
                     {
 /*
-                        if(fps > 10)
-                        {
-                            fps--;
-                            frametime = 1.0f / fps;
-                            sleep_time = frametime * 1000000;
-                        }
+  if(fps > 10)
+  {
+  fps--;
+  frametime = 1.0f / fps;
+  sleep_time = frametime * 1000000;
+  }
 */
                         std::cerr << "Physics::run: overrun by " << -time_left << " microseconds; fps: " << fps << std::endl;
                     }
@@ -199,7 +223,10 @@ namespace freekick
                     if(p.first > 0)
                         pos_corrected.y -= collision_box_height;
                     const addutil::Quaternion orien = p.second->getOrientation();
-                    messages::ConstantUpdateMessage c(p.first, 0, pos_corrected, orien);
+
+                    // TODO: add other elements of Caused+ControlledStatus here
+                    bool isholder = (mMatchStatus->holdingBall() == p.second->getID());
+                    messages::ConstantUpdateMessage c(p.first, 0, pos_corrected, orien, CausedStatus(), ControlledStatus(false, isholder));
                     newmessages.push_back(c);
                 }
 

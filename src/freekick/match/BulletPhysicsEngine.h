@@ -59,6 +59,9 @@ namespace freekick
             bool setObjectPosition(ObjectID oid, const addutil::Vector3& pos);
             bool setObjectOrientation(ObjectID oid, const addutil::Quaternion& q);
             bool setObjectOrientation(ObjectID oid, float xz);
+            bool getObjectPosition(ObjectID oid, addutil::Vector3& pos) const;
+            bool getObjectOrientation(ObjectID oid, addutil::Quaternion& ori) const;
+            bool getObjectPositionAndOrientation(ObjectID oid, addutil::Vector3& pos, addutil::Quaternion& ori) const;
             bool removeObject(ObjectID oid);
             bool stepWorld(float steptime);
 

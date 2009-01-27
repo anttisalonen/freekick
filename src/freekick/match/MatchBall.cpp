@@ -26,8 +26,19 @@ namespace freekick
     {
         MatchBall::MatchBall (const Ball& b)
             : DynamicEntity(b.getMass(), "ball.mesh"),
-              Ball(b)
+              Ball(b),
+              holder(0)
         {
+        }
+
+        int MatchBall::getHolder() const
+        {
+            return holder;
+        }
+
+        void MatchBall::setHolder(int h)
+        {
+            holder = h;
         }
     }
 }

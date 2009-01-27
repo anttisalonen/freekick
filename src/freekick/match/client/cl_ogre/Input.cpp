@@ -46,12 +46,11 @@ namespace freekick
                 }
 
                 void Input::setupInputSystem(const std::string& windowhnd, 
-                                             unsigned int width, 
-                                             unsigned int height, 
+                                             Ogre::RenderWindow* win,
                                              Ogre::SceneManager* mgr,
                                              Ogre::Camera* cam)
                 {
-                    inputhandler = new InputHandler(configuration->getInputConfiguration(), windowhnd, width, height, network, mgr, cam);
+                    inputhandler = new InputHandler(configuration->getInputConfiguration(), status, windowhnd, win, network, mgr, cam);
                 }
 
                 Ogre::FrameListener* Input::getFrameListener()

@@ -76,8 +76,8 @@ namespace freekick
                         m_quat.x = atof(ss[6].c_str());
                         m_quat.y = atof(ss[7].c_str());
                         m_quat.z = atof(ss[8].c_str());
-                        m_causs  = atoi(ss[9].c_str());
-                        m_contrs = atoi(ss[10].c_str());
+                        m_causs.setValue(atoi(ss[9].c_str()));
+                        m_contrs.setValue(atoi(ss[10].c_str()));
                     }
                     else
                         throw "Constant Update Message: failed parse";                    

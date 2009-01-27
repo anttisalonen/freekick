@@ -24,6 +24,7 @@
 #include <boost/shared_ptr.hpp>
 
 #include "addutil/Vector3.h"
+#include "addutil/General.h"
 
 #include "MatchStatus.h"
 #include "messages/MovePlayerControlMessage.h"
@@ -43,7 +44,7 @@ namespace freekick
                     class IdleInFormation : public AtomicTask
                     {
                     public:
-                        IdleInFormation(const boost::shared_ptr<MatchStatus>& ms, int id, const addutil::Vector3& form);
+                        IdleInFormation(const boost::shared_ptr<MatchStatus>& ms, int id);
                         bool finished() const;
                         boost::shared_ptr<messages::PlayerControlMessage> process();
                     private:

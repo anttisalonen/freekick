@@ -59,6 +59,9 @@ namespace freekick
             virtual bool setObjectPosition(ObjectID oid, const addutil::Vector3& pos) = 0;
             virtual bool setObjectOrientation(ObjectID oid, const addutil::Quaternion& q) = 0;
             virtual bool setObjectOrientation(ObjectID oid, float xz) = 0;
+            virtual bool getObjectPosition(ObjectID oid, addutil::Vector3& pos) const = 0;
+            virtual bool getObjectOrientation(ObjectID oid, addutil::Quaternion& ori) const = 0;
+            virtual bool getObjectPositionAndOrientation(ObjectID oid, addutil::Vector3& pos, addutil::Quaternion& ori) const = 0;
             virtual bool removeObject(ObjectID oid) = 0;
             virtual bool stepWorld(float steptime) = 0;
 

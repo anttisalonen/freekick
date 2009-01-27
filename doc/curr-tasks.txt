@@ -1,3 +1,17 @@
+-27.01.2009--------------
+-client: third camera (tv style)
+bugs:
+-physics: goal too wide -> goalkeeper may get stuck behind
+-rules: when a goalkeeper gets stuck behind a goal and a goal is made, the
+  ball position is reset but the velocity is not zero
+-ai: goalkeepers always kick long ball after holding it, because after a pass
+  they would try to hold the ball again
+-rules: according to matchstatus players are allowed to kick even when the 
+  play is blocked, because kicking the ball changes the ball state to ball in
+  according to rules, and physics doesn't move the ball if the player is not
+  allowed to kick it. this should be fixed so that the ball is blocked until
+  it is free (no opponents nearby etc.), after that it should be not blocked
+  and kickable according to all parties (matchstatus, rules, physics).
 -10.01.2009--------------
 +physics: make players look in the direction they're moving
 +physics: add restitution to ball
@@ -8,16 +22,16 @@
 +server: allow only one client to control a player
 +server: allow humans to take over ai players
 +protocol: drop control requests from the initialization message
--client: make keyboard controls fully functional
--client: add mouse controls
--client: add kick control
--client: add preset cameras
--client: display goals
++client: make keyboard controls fully functional
++client: add mouse controls
++client: add kick control
++client: add preset cameras
++client: display goals
 +physics: add goal posts
 -client: add display of score
 -physics: make player torsos block ball
--physics: improve goalkeepers
--ai: improve goalkeepers
++physics: improve goalkeepers
++ai: improve goalkeepers
 -06.01.2009--------------
 +physics: collision callbacks for seeing which player/club touched the ball last
 -26.12.2008--------------

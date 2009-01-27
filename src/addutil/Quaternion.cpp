@@ -47,6 +47,20 @@ namespace addutil
         z = _z;
     }
 
+    void Quaternion::toAxisAngle(addutil::Vector3& axis, float angle) const
+    {
+        angle = 2 * acos(w);
+        float l = sqrt(x * x + y * y + z * z);
+        if(l > 0.0f)
+        {
+            axis.set(x / l, y / l, z / l);
+        }
+        else
+        {
+            axis.reset();
+        }
+    }
+
 /*
     Vector3 Quaternion::toVector()
     {

@@ -18,39 +18,43 @@
 **************************************************************************/
 
 
-#ifndef FREEKICK_MATCH_MESSAGES_HOLDPLAYERCONTROLMESSAGE_H
-#define FREEKICK_MATCH_MESSAGES_HOLDPLAYERCONTROLMESSAGE_H
+#ifndef FREEKICKTASKSSHOOTBALL_H
+#define FREEKICKTASKSSHOOTBALL_H
 
-#include "PlayerControlMessage.h"
+#include <boost/shared_ptr.hpp>
 
-namespace freekick
-{
+#include "addutil/Vector3.h"
+
+#include "MatchStatus.h"
+#include "messages/KickPlayerControlMessage.h"
+
+#include "Helpers.h"
+
+#include "tasks/AtomicTask.h"
+
+namespace freekick 
+{ 
     namespace match
     {
-        namespace messages
+        namespace client
         {
-            class HoldPlayerControlMessage : public PlayerControlMessage
+            namespace ai_client
             {
-            public:
-                HoldPlayerControlMessage(PlayerID plid, addutil::Vector3 tgtvec)
-                    : PlayerControlMessage(plid, tgtvec)
+                namespace tasks
                 {
+                    class ShootBall : public AtomicTask
+                    {
+                    public:
+                        ShootBall(boost::shared_ptr<MatchStatus> ms, int id);
+                        bool finished() const;
+                        boost::shared_ptr<messages::PlayerControlMessage> process();
+                    private:
+                        boost::shared_ptr<MatchStatus> mMatchStatus;
+                        int mPlayerID;
+                        boost::shared_ptr<MatchPlayer> mPlayer;
+                    };
                 }
-
-                virtual ~HoldPlayerControlMessage() { }
-
-                HoldPlayerControlMessage(std::string& msg)
-                    : PlayerControlMessage(msg, c_pl_ctl_hold)
-                {
-                }
-
-                const std::string toString() const
-                {
-                    return contString(c_pl_ctl_hold);
-                }
-
-            private:
-            };
+            }
         }
     }
 }

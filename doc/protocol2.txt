@@ -282,6 +282,7 @@ Constant update (~ 30..60/Second)
     1 Celebrating
     2 Asking for support/the ball
     4 Disappointed
+    8 Holding ball
 
 Procotol: 
 (n v x y z a b c d s t)
@@ -313,5 +314,6 @@ e.g.
 (e 4886 4.6 10.49 2.2 43.2 -3.2 4.4) # head (jump and try to score north)
 (f 4865 0.0 0.0 0.0 2)                        # ask for support
 Note: player_id should always be sent by the AI and by the human clients
+Note: heading for goalkeepers includes boxing the ball
 
 ------------------------------------------------------------------------------

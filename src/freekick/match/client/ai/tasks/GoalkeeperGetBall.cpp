@@ -17,7 +17,7 @@
   Copyright Antti Salonen, 2008
 **************************************************************************/
 
-#include "tasks/KickBall.h"
+#include "tasks/GoalkeeperGetBall.h"
 
 namespace freekick 
 { 
@@ -29,46 +29,41 @@ namespace freekick
             {
                 namespace tasks
                 {
-                    KickBall::KickBall (const boost::shared_ptr<MatchStatus>& ms, int id)
+                    GoalkeeperGetBall::GoalkeeperGetBall (boost::shared_ptr<MatchStatus> ms, int id)
                         : mMatchStatus(ms),
                           mPlayerID(id)
                     {
                         mPlayer = mMatchStatus->getPlayer(mPlayerID);
                     }
 
-                    bool KickBall::finished() const
+                    bool GoalkeeperGetBall::finished() const
                     {
-                        // return true;
-                        // float len = (mPlayer->getPosition() - mTarget).length();
-                        // if(len < 5.0f) return true;
-                        return false;
+                        return true;
                     }
 
-                    boost::shared_ptr<messages::PlayerControlMessage> KickBall::process()
+                    boost::shared_ptr<messages::PlayerControlMessage> GoalkeeperGetBall::process()
                     {
-                        clearTasks();
-
-                        // TODO: have shootball, passball share these
                         addutil::Vector3 ownpos = mPlayer->getPosition();
-                        soccer::PlayerTarget t = mMatchStatus->getPlayerTarget(mPlayerID);
-                        addutil::Vector3 tgtgoal = mMatchStatus->getGoalPosition(t);
-                        addutil::Vector3 goalvec = tgtgoal - ownpos;
+                        addutil::Vector3 ballpos = mMatchStatus->getBall()->getPosition();
+                        addutil::Vector3 ballvel = mMatchStatus->getBall()->getVelocity();
+                        float balldist = (ownpos - ballpos).length();
 
-                        if(goalvec.length() < 35.0f)
+                        ballpos.y = 0.0f;
+                        ballvel.y = 0.0f;
+                        ownpos.y = 0.0f;
+
+                        float maxvelocity = 10.0f;         // of the player
+                        addutil::Vector3 gotovec = steering::pursuit(ownpos, ballpos, ballvel, maxvelocity);
+
+                        using namespace messages;
+                        if(balldist < 2.5f)      // TODO: get length from somewhere else
                         {
-                            boost::shared_ptr<ShootBall> t(new ShootBall(mMatchStatus, mPlayerID));
-                            addTask(t);
+                            return boost::shared_ptr<HoldPlayerControlMessage>(new HoldPlayerControlMessage(mPlayerID, gotovec));
                         }
                         else
                         {
-                            boost::shared_ptr<PassBall> t(new PassBall(mMatchStatus, mPlayerID));
-                            addTask(t);
+                            return boost::shared_ptr<MovePlayerControlMessage>(new MovePlayerControlMessage(mPlayerID, gotovec));
                         }
-
-
-                        boost::shared_ptr<Task> nexttask = getNextTask();
-                        boost::shared_ptr<messages::PlayerControlMessage> msg = nexttask->process();
-                        return msg;
                     }
                 }
             }

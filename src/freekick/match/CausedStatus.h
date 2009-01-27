@@ -34,10 +34,11 @@ namespace freekick
         class CausedStatus
         {
         public:
-            CausedStatus(int i = 0);
+            CausedStatus(bool i = 0);
             virtual ~CausedStatus() { }
+            void setValue(int v);
 
-            int injured;
+            bool injured;
         };
 
         std::ostream& operator << (std::ostream& os, const CausedStatus& a);

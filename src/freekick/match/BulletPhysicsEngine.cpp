@@ -331,6 +331,35 @@ namespace freekick
             return addObject(body, collgroup);
         }
 
+        bool BulletPhysicsEngine::getObjectPosition(ObjectID oid, addutil::Vector3& pos) const
+        {
+            ObjectMap::const_iterator it = mObjectMap.find(oid);
+            if(it == mObjectMap.end()) return false;
+            const btVector3 p(it->second->getWorldTransform().getOrigin());
+            pos.set(p.x(), p.y(), p.z());
+            return true;
+        }
+
+        bool BulletPhysicsEngine::getObjectOrientation(ObjectID oid, addutil::Quaternion& ori) const
+        {
+            ObjectMap::const_iterator it = mObjectMap.find(oid);
+            if(it == mObjectMap.end()) return false;
+            const btQuaternion p(it->second->getWorldTransform().getRotation());
+            ori.set(p.w(), p.x(), p.y(), p.z());
+            return true;
+        }
+
+        bool BulletPhysicsEngine::getObjectPositionAndOrientation(ObjectID oid, addutil::Vector3& pos, addutil::Quaternion& ori) const
+        {
+            ObjectMap::const_iterator it = mObjectMap.find(oid);
+            if(it == mObjectMap.end()) return false;
+            const btVector3 p(it->second->getWorldTransform().getOrigin());
+            pos.set(p.x(), p.y(), p.z());
+            const btQuaternion q(it->second->getWorldTransform().getRotation());
+            ori.set(q.w(), q.x(), q.y(), q.z());
+            return true;
+        }
+
         bool BulletPhysicsEngine::removeObject(ObjectID oid)
         {
             // TODO
@@ -342,7 +371,7 @@ namespace freekick
             dynamicsWorld->stepSimulation(steptime, 10); // TODO: variable maxSubSteps
 
             // This piece of code checks for collisions between the ball and the players.
-            // TODO: add checks between (tackling etc.) players and the rest of players
+            // TODO: add checks between (tackling) players and the rest of players
             ObjectMap::const_iterator it = mObjectMap.find(BallID);
             if(it != mObjectMap.end())
             {

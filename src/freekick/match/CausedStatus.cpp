@@ -23,9 +23,14 @@ namespace freekick
 {
     namespace match
     {
-        CausedStatus::CausedStatus (int i)
+        CausedStatus::CausedStatus (bool i)
             : injured(i)
         {
+        }
+
+        void CausedStatus::setValue(int v)
+        {
+            injured = (v % 2 == 1);
         }
 
         std::ostream& operator << (std::ostream& os, const CausedStatus& a)

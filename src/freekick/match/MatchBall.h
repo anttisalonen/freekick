@@ -48,8 +48,11 @@ namespace freekick
              */
             MatchBall (const Ball& b);
             const int getID() const { return BallID; }
+            int getHolder() const;
+            void setHolder(int h);
 
         private:
+            int holder;
 
             friend class boost::serialization::access;
             template<class Archive>

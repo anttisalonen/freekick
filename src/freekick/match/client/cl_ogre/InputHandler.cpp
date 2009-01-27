@@ -28,18 +28,20 @@ namespace freekick
         {
             namespace cl_ogre
             {
-                InputHandler::InputHandler (boost::shared_ptr<InputConfiguration>& inputconf, 
+                InputHandler::InputHandler (const boost::shared_ptr<InputConfiguration>& inputconf, 
+                                            MatchStatus* ms,
                                             const std::string& windowhnd, 
-                                            unsigned int width, 
-                                            unsigned int height, 
+                                            Ogre::RenderWindow* win,
                                             Network* netw,
                                             Ogre::SceneManager* mgr,
                                             Ogre::Camera* cam)
                     : inputconfiguration(inputconf),
+                      mMatchStatus(ms),
                       network(netw),
                       mControlledPlayer(110),
                       mSceneMgr(mgr),
-                      mCamera(cam)
+                      mCamera(cam),
+                      mRenderWindow(win)
                 {
                     mRotate = 0.13;
                     mMove = 250;
@@ -69,10 +71,16 @@ namespace freekick
                         mMouse = static_cast<OIS::Mouse*>(mInputManager->createInputObject(OIS::OISMouse, true));
                         //mJoy = static_cast<OIS::JoyStick*>(mInputManager->createInputObject(OIS::OISJoyStick, true));
                         const OIS::MouseState &ms = mMouse->getMouseState();
+
+                        unsigned int width, height, depth;
+                        int top, left;
+                        mRenderWindow->getMetrics(width, height, depth, left, top);
+
                         ms.width = width;
                         ms.height = height;
                         mMouse->setEventCallback(this);
                         mKeyboard->setEventCallback(this);
+                        Ogre::WindowEventUtilities::addWindowEventListener(mRenderWindow, this);
                     }
                     catch (const OIS::Exception& e)
                     {
@@ -83,20 +91,28 @@ namespace freekick
                     // Camera
                     // TODO: read pitch dimensions from matchstatus
                     mCamNodes[0] = mSceneMgr->getRootSceneNode()->createChildSceneNode("CamNode0");
-                    mCamNodes[0]->setPosition (Ogre::Vector3(35.0f, 60.0f, 50.0f));
+                    mCamNodes[0]->setPosition (Ogre::Vector3(35.0f, 100.0f, 50.0f));
+                    mCamNodes[0]->lookAt (Ogre::Vector3(35.0f, 0, 50.0f), Ogre::Node::TS_WORLD);
+                    mCamNodes[0]->roll(Ogre::Radian(-Ogre::Math::HALF_PI));
 
                     mCamNodes[1] = mSceneMgr->getRootSceneNode()->createChildSceneNode("CamNode1");
-                    mCamNodes[1]->setPosition (Ogre::Vector3(35.0f, 45.0f, 150.0f));
+                    mCamNodes[1]->setPosition (Ogre::Vector3(35.0f, 75.0f, 120.0f));
+                    mCamNodes[1]->lookAt (Ogre::Vector3(35.0f, 0, 65.0f), Ogre::Node::TS_WORLD);
 
-                    mCamNodes[0]->attachObject(mCamera);
-                    mCamNode = mCamNodes[0];
-                    switchToCameraMode(CamLengthFar);
+                    mCamNodes[1]->attachObject(mCamera);
+                    mCamNode = mCamNodes[1];
+                    mCamMode = CamLengthFar;
+
+                    mRaySceneQuery = mSceneMgr->createRayQuery(Ogre::Ray());
+                    // mRaySceneQuery->setWorldFragmentType(Ogre::SceneQuery::WFT_SINGLE_INTERSECTION);
 
                     network->sendMessage(messages::PlayerControlRequestMessage(mControlledPlayer));
                 }
 
                 InputHandler::~InputHandler()
                 {
+                    mSceneMgr->destroyQuery(mRaySceneQuery);
+
                     if(mKeyboard) mInputManager->destroyInputObject(mKeyboard);
                     if(mMouse) mInputManager->destroyInputObject(mMouse);
                     OIS::InputManager::destroyInputSystem(mInputManager);
@@ -116,6 +132,46 @@ namespace freekick
 
                 bool InputHandler::mousePressed (const OIS::MouseEvent& e, OIS::MouseButtonID id )
                 {
+                    // CEGUI::Point mousePos = CEGUI::MouseCursor::getSingleton().getPosition();
+                    Ogre::Ray mouseRay = mCamera->getCameraToViewportRay(
+                        e.state.X.abs / float(e.state.width), 
+                        e.state.Y.abs / float(e.state.height));
+                    mRaySceneQuery->setRay(mouseRay);
+                    mRaySceneQuery->setSortByDistance(false);
+                    // std::cerr << "X: " << e.state.X.abs << "; Y: " << e.state.Y.abs << "; width: " << e.state.width << "; height: " << e.state.height << std::endl;
+
+                    using namespace Ogre;
+                    RaySceneQueryResult& result = mRaySceneQuery->execute();
+                    RaySceneQueryResult::iterator itr = result.begin();
+
+                    for(itr = result.begin(); itr != result.end(); itr++)
+                    {
+                        if(itr->distance == 0.0f)
+                            continue;
+                        Ogre::Vector3 clickpos = mouseRay.getPoint(itr->distance);
+                        // std::cerr << "Clicked; dist: " << itr->distance << "; pos: " << clickpos.x << ";" << clickpos.y << ";" << clickpos.z << std::endl;
+                        try
+                        {
+                            boost::shared_ptr<MatchPlayer> pl = mMatchStatus->getPlayer(mControlledPlayer);
+                            addutil::Vector3 plpos = pl->getPosition();
+                            addutil::Vector3 target(clickpos.x - plpos.x, clickpos.y - plpos.y, clickpos.z - plpos.z);
+                            if(id == OIS::MB_Left)
+                            {
+                                Helpers::correctPassVector(target);
+                            }
+                            else
+                            {
+                                Helpers::correctShootVector(target);
+                            }
+                            network->sendMessage(messages::KickPlayerControlMessage(mControlledPlayer, target));
+                        }
+                        catch(...)
+                        {
+                            std::cerr << "Tried to kick, but the player is not in the match status.\n";
+                        }
+                        break;
+                    }
+
                     return true;
                 }
 
@@ -126,6 +182,8 @@ namespace freekick
 
                 bool InputHandler::mouseMoved (const OIS::MouseEvent& e )
                 {
+                    // CEGUI::System::getSingleton().injectMouseMove(e.state.X.rel, e.state.Y.rel);
+/*
                     if (e.state.buttonDown(OIS::MB_Right))
                     {
                         if(mCamNode)
@@ -134,7 +192,7 @@ namespace freekick
                             mCamNode->pitch(Ogre::Degree(-mRotate * e.state.Y.rel), Ogre::Node::TS_LOCAL);
                         }
                     }
-
+*/
                     return true;
                 }
 
@@ -170,6 +228,13 @@ namespace freekick
                         case OIS::KC_PGUP:
                             mDirection.y += mMove;
                             break;
+
+                        case OIS::KC_O:
+                        {
+                            const Ogre::Vector3& vec = mCamNode->getPosition();
+                            std::cerr << "Camera position: " << vec.x << "; " << vec.y << "; " << vec.z << std::endl;
+                            break;
+                        }
 
                         case OIS::KC_W:
                             setMoveVector(DirUp, 15.0f);
@@ -253,32 +318,32 @@ namespace freekick
                             break;
 
                         case OIS::KC_W:
-                            setMoveVector(DirUp, 0.0f);
+                            setMoveVector(DirUp, -15.0f);
                             sendmove = true;
                             break;
 
                         case OIS::KC_S:
-                            setMoveVector(DirDown, 0.0f);
+                            setMoveVector(DirDown, -15.0f);
                             sendmove = true;
                             break;
 
                         case OIS::KC_A:
-                            setMoveVector(DirLeft, 0.0f);
+                            setMoveVector(DirLeft, -15.0f);
                             sendmove = true;
                             break;
 
                         case OIS::KC_D:
-                            setMoveVector(DirRight, 0.0f);
+                            setMoveVector(DirRight, -15.0f);
                             sendmove = true;
                             break;
 
                         case OIS::KC_Q:
-                            setMoveVector(DirUp, 0.0f);
+                            setMoveVector(DirUp, -15.0f);
                             sendmove = true;
                             break;
 
                         case OIS::KC_E:
-                            setMoveVector(DirCrouch, 0.0f);
+                            setMoveVector(DirCrouch, -15.0f);
                             sendmove = true;
                             break;
 
@@ -292,39 +357,46 @@ namespace freekick
                     return true;
                 }
 
+                void InputHandler::windowResized(Ogre::RenderWindow* rw)
+                {
+                    const OIS::MouseState &ms = mMouse->getMouseState();
+                    ms.width = rw->getWidth();
+                    ms.height = rw->getHeight();
+                }
+
                 void InputHandler::setMoveVector(SubjectiveDirection d, float mag)
                 {
                     switch(d)
                     {
                         case DirUp:
                             if(mCamMode == CamSky)
-                                mRunDirection.x = mag;
+                                mRunDirection.x += mag;
                             else if (mCamMode == CamLengthFar)
-                                mRunDirection.z = -mag;
+                                mRunDirection.z -= mag;
                             break;
                         case DirDown:
                             if(mCamMode == CamSky)
-                                mRunDirection.x = -mag;
+                                mRunDirection.x -= mag;
                             else if (mCamMode == CamLengthFar)
-                                mRunDirection.z = mag;
+                                mRunDirection.z += mag;
                             break;
                         case DirLeft:
                             if(mCamMode == CamSky)
-                                mRunDirection.z = mag;
+                                mRunDirection.z -= mag;
                             else if (mCamMode == CamLengthFar)
-                                mRunDirection.x = -mag;
+                                mRunDirection.x -= mag;
                             break;
                         case DirRight:
                             if(mCamMode == CamSky)
-                                mRunDirection.z = -mag;
+                                mRunDirection.z += mag;
                             else if (mCamMode == CamLengthFar)
-                                mRunDirection.x = mag;
+                                mRunDirection.x += mag;
                             break;
                         case DirJump:
-                            mRunDirection.y = mag;
+                            mRunDirection.y += mag;
                             break;
                         case DirCrouch:
-                            mRunDirection.y = -mag;
+                            mRunDirection.y -= mag;
                             break;
                     }
                 }
@@ -355,7 +427,6 @@ namespace freekick
                     int i = (m == CamSky) ? 0 : 1;
                     mCamNodes[i]->attachObject(mCamera);
                     mCamNode = mCamNodes[i];
-                    mCamera->lookAt (Ogre::Vector3(35.0f, 0, 50.0f));
                     mCamMode = m;
                 }
             }

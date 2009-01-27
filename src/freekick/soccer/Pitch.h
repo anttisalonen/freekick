@@ -25,8 +25,11 @@
 #include <string>
 
 #include <boost/serialization/serialization.hpp>
+#include <boost/array.hpp>
 
 #include "addutil/Vector3.h"
+
+#include "Primitives.h"
 
 /**
  * class Pitch
@@ -39,6 +42,8 @@ namespace freekick
         // TODO: move such magic constants to a separate .h
         static const float goal_width = 7.32f;
         static const float goal_height = 2.44f;
+        static const float goal_area_width = 5.5f;
+        static const float goal_area_length = 5.5f;
 
         class Pitch
         {
@@ -52,12 +57,14 @@ namespace freekick
             bool inSecondGoal(const addutil::Vector3& v) const;
             bool inFirstGoal(float x, float y, float z) const;
             bool inSecondGoal(float x, float y, float z) const;
+            GoalQuery inGoalArea(const addutil::Vector3& v) const;
 
         protected:
             bool maybeInGoal(float x, float y, float z) const;
         private:
             const float width;
             const float length;
+            boost::array<addutil::Vector3, 4> goal_area_points;
 
             friend class boost::serialization::access;
             template<class Archive>

@@ -66,6 +66,7 @@ namespace addutil
         void capY(float n);
         void capZ(float n);
         void reset();
+        void set(float _x, float _y, float _z);
 
         float XZAngle() const;
         // Public attributes
@@ -86,6 +87,7 @@ namespace addutil
     };
 
     std::ostream& operator<<(std::ostream& os, const Vector3& e);
+    bool inArea(const Vector3& tl, const Vector3& br, const Vector3& p);
 }
 
 #endif // VECTOR3_H

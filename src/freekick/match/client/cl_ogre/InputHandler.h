@@ -30,14 +30,22 @@
 
 #include <OIS/OIS.h>
 
-#include "addutil/Vector3.h"
+#include <CEGUI/CEGUISystem.h>
+#include <CEGUI/CEGUISchemeManager.h>
+#include <OgreCEGUIRenderer.h>
 
-#include "Network.h"
-#include "InputConfiguration.h"
+#include "addutil/Vector3.h"
 
 #include "messages/InitialDataRequest.h"
 #include "messages/MovePlayerControlMessage.h"
+#include "messages/KickPlayerControlMessage.h"
 #include "messages/PlayerControlRequestMessage.h"
+#include "MatchPlayer.h"
+#include "MatchStatus.h"
+#include "Helpers.h"
+
+#include "Network.h"
+#include "InputConfiguration.h"
 
 /**
  * class InputHandler
@@ -77,13 +85,13 @@ namespace freekick
                     CamLengthFar
                 };
 
-                class InputHandler : public Ogre::FrameListener, public OIS::MouseListener, public OIS::KeyListener
+                class InputHandler : public Ogre::FrameListener, public OIS::MouseListener, public OIS::KeyListener, public Ogre::WindowEventListener
                 {
                 public:
-                    InputHandler (boost::shared_ptr<InputConfiguration>& inputconf, 
+                    InputHandler (const boost::shared_ptr<InputConfiguration>& inputconf,
+                                  MatchStatus* ms,
                                   const std::string& windowhnd, 
-                                  unsigned int width, 
-                                  unsigned int height, 
+                                  Ogre::RenderWindow* win,
                                   Network* netw,
                                   Ogre::SceneManager* mgr,
                                   Ogre::Camera* cam);
@@ -95,14 +103,17 @@ namespace freekick
                     bool mouseMoved (const OIS::MouseEvent& e );
                     bool keyPressed (const OIS::KeyEvent& e );
                     bool keyReleased (const OIS::KeyEvent& e );
+                    void windowResized(Ogre::RenderWindow* rw);
 
                 private:
                     void setMoveVector(SubjectiveDirection d, float mag);
                     void sendMoveMessage(const addutil::Vector3& to);
                     void sendMoveMessage(Direction d, float mag);
                     void switchToCameraMode(CameraMode m);
+
                     boost::shared_ptr<InputConfiguration> inputconfiguration;
-                    OIS::MouseState mousePositionState;
+                    MatchStatus* mMatchStatus;
+                    // OIS::MouseState mousePositionState;
                     Ogre::SceneNode* camtarget;
 
                     Ogre::Real mRotate;          // The rotate constant
@@ -124,6 +135,10 @@ namespace freekick
                     CameraMode mCamMode;
                     boost::array<Ogre::SceneNode*, 2> mCamNodes;
                     Ogre::SceneNode* mCamNode;
+
+                    Ogre::RaySceneQuery* mRaySceneQuery;
+                    CEGUI::Renderer *mGUIRenderer;
+                    Ogre::RenderWindow* mRenderWindow;
                 };
             }
         }

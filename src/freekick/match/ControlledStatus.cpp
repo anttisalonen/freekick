@@ -23,14 +23,22 @@ namespace freekick
 {
     namespace match
     {
-        ControlledStatus::ControlledStatus (int c)
-            : celebrates(c)
+        ControlledStatus::ControlledStatus (bool c, bool hold)
+            : celebrates(c),
+              holding_ball(hold)
         {
+        }
+
+        void ControlledStatus::setValue(int v)
+        {
+            celebrates = (v % 2 == celeb_val);
+            holding_ball = (v >= holdi_val);
         }
 
         std::ostream& operator << (std::ostream& os, const ControlledStatus& a)
         {
-            os << a.celebrates;
+            int val = (a.celebrates ? ControlledStatus::celeb_val : 0) + (a.holding_ball ? ControlledStatus::holdi_val : 0);
+            os << val;
             return os;
         }
     }

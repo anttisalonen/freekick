@@ -27,6 +27,7 @@
 
 #include "messages/PlayerControlMessage.h"
 #include "MatchStatus.h"
+#include "Helpers.h"
 
 #include "tasks/CompositeTask.h"
 #include "tasks/Idle.h"
@@ -35,6 +36,7 @@
 #include "tasks/IdleInFormation.h"
 #include "tasks/KickBall.h"
 #include "tasks/GotoKickoffFormationPosition.h"
+#include "tasks/GoalkeeperAction.h"
 
 namespace freekick 
 { 
@@ -53,7 +55,6 @@ namespace freekick
                         bool finished() const;
                         virtual boost::shared_ptr<messages::PlayerControlMessage> process();
                     private:
-                        boost::shared_ptr<IdleInFormation> newIdleInFormation() const;
                         boost::shared_ptr<MatchStatus> mMatchStatus;
                         int mPlayerID;
                         boost::shared_ptr<MatchPlayer> mPlayer;

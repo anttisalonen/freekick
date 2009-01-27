@@ -81,6 +81,10 @@ namespace freekick
 
                 boost::posix_time::ptime last_update_time;
                 static const unsigned long update_time_interval_ms = 1000000;
+
+                void check_for_touched_ball(const OwnerMessageList& c, bool& new_ball_status, bool& ball_touched);
+                void check_for_over_pitch(const PhysicsMessageList& l, bool& new_ball_status, GoalQuery& goal_scored);
+                void check_for_bio_change(bool& new_ball_status, bool& ball_touched);
             };
 
         }

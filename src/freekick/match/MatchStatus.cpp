@@ -114,6 +114,20 @@ namespace freekick
 
             e->update(v, vec.x, vec.y, vec.z);
             e->updateOrientation(v, q.w, q.x, q.y, q.z);
+
+            int holder = holdingBall();
+            int thisid = m.getPlayerID();
+            ControlledStatus cons;
+            m.getControlledStatus(cons);
+            if(holder == thisid)
+            {
+                if(!cons.holding_ball)
+                    setBallHolder(0);
+            }
+            if(cons.holding_ball)
+            {
+                setBallHolder(thisid);
+            }
         }
 
         void MatchStatus::update(const std::vector<messages::ConstantUpdateMessage>& ms, float time_interval)
@@ -336,7 +350,18 @@ namespace freekick
         bool MatchStatus::playerAllowedToKick(int id) const
         {
             // TODO: add "player can't touch the ball after giving throwin/goal kick/etc."
-            if(mBallState.blocked_play) return false;
+
+            // 1. before/after the match kick as much as you want
+            if(mBallState.bio_type == PreKickoff || mBallState.bio_type == HalfFullTime) return true;
+
+            // 2. blocked -> deny
+            // if(mBallState.blocked_play) return false;
+
+            // 3. ball held in someone's hands -> deny
+            int h = mBall->getHolder();
+            if(h != 0 && h != id) return false;
+
+            // 4. ball in play or we're supposed to get it in -> accept
             soccer::BallOwner b = getPlayerSide(id);
             if(mBallState.bio_type == BallIn || mBallState.owner == b)
             {
@@ -373,6 +398,23 @@ namespace freekick
         int MatchStatus::getAwayScore() const
         {
             return score_away;
+        }
+
+        GoalQuery MatchStatus::ballInGoalArea() const
+        {
+            GoalQuery q = mMatchData->getStadium()->getPitch()->inGoalArea(mBall->getPosition());
+            if(!secondhalf) return other(q);
+            return q;
+        }
+
+        int MatchStatus::holdingBall() const
+        {
+            return mBall->getHolder();
+        }
+
+        void MatchStatus::setBallHolder(int h)
+        {
+            mBall->setHolder(h);
         }
     }
 }
