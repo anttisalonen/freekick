@@ -1,0 +1,98 @@
+- career
+ - consists of:
+ - date
+ - season(s)
+  - participants
+  - schedule
+  - consists of:
+  - tournament(s)
+   - consists of:
+    - participants
+    - schedule
+    - stages:
+     - stages are either:
+      - league stage(s)
+     - or:
+      - cup stage(s)
+     - stage consists of:
+      - participants
+      - schedule
+      - matches; consist of:
+       - tournament + stage names, weather, time, date, place, participant clubs, referee, ball, number of spectators
+
+an Event is one of:
+- career
+- season
+- tournament
+- league
+- cup
+- match
+
+an Event may be created by:
+- match: by a stage or main menu (friendly)
+- league/cup: by a tournament or main menu (predefined/diy)
+- tournament: by a season or main menu (predefined/diy)
+- season: by a career or main menu (predefined/diy)
+- career: by main menu
+
+An Event can be saved + loaded
+
+An Event has a DB file + optional delta(s) (players, clubs, tournament templates)
+An Event has an Instance file
+
+Processing an Event:
+- playing matches as in the schedule
+- changes to DB (player transfers, league positions)
+
+
+1. The org reads+writes the DB
+2. The org starts the server+ai (in single player: also the client)
+3. The server+ai must have the same DB as the org
+4. The server+ai should therefore be on the same computer as org
+5. The org saves a file for server that includes the most basic match info
+6. The most basic match info is the info that server will send to the clients
+7. The most basic match info is defined in protocol2.txt
+8. The org will pass the file paths to the DB to server+ai
+9. The server+ai have read access to the DB
+10. The server+ai read more detailed information from the DB as necessary
+11. The server+ai need to read e.g. the player skills from the DB
+12. The (human) clients do not have nor need access to the DB
+13. After the match, server leaves a summary file for the org
+14. Org polls if server is running
+15. After the match, server may send a signal to org signaling end of match
+16. After the match, org parses the summary file and updates DB accordingly
+
+ +-----+ starts processes, saves info file   +-----------+
+ | org | ----------------------------------> | server+ai |
+ +-----+                                     +-----------+
+    ^                                              ^  ^
+    | reads and writes                       reads |  |
+    ,                                              |  |
+ +-----+                                           |  |
+ | db  | ------------------------------------------/  |
+ +-----+                                              |
+                                                      |
+ +--------+   receives basic info from server         |
+ | client | <-----------------------------------------/
+ +--------+
+
+
+Requirements:
+1. org must be able to parse DB (XML)
+2. server + ai must be able to parse DB (XML)
+3. org will save a relatively simple info file for server
+4. server must be able to parse info file
+5. client is completely independent from org
+6. DB is saved in XML format
+7. org and server communicate only via info+summary file
+8. org and ai communicate directly only when org starts ai
+
+Implementation:
+1. the data structures in server are filled by
+  1) reading the info file (includes ids)
+  2) reading the db based on the info file
+2. the data structures in ai are filled by
+  1) receiving the information from the info file from server
+  2) reading the db based on the info file
+3. the data structures in org are filled by
+  1) reading the db file

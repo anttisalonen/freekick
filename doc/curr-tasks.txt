@@ -1,5 +1,25 @@
+-28.01.2009--------------
+-server: add recognition of master client (localhost)
+-server: add password recognition of master client
+-protocol: add password recognition of master client
+-protocol: add ability to restart match+shut down server by master client
+-server: add ability to restart match+shut down server by master client
+-server: add ability to tie to a client so that shutting down client shuts 
+  down server
+-server: read matchdata from file (given as parameter)
+-server: write match result+injuries+statistics to file (given as parameter)
+-server: half+full time
+-general: define aftermatch file
+ -result
+ -injuries
+ -goal scorers
+-general: define options file:
+ -match length
+-server: read options file (given as parameter)
+-organization: create organization
 -27.01.2009--------------
 -client: third camera (tv style)
+-client: reading player id from parameters
 bugs:
 -physics: goal too wide -> goalkeeper may get stuck behind
 -rules: when a goalkeeper gets stuck behind a goal and a goal is made, the
