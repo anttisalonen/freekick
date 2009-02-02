@@ -53,7 +53,7 @@ nextPowerOfTwo n = if n > head sq then nextPowerOfTwo' n (tail sq) else (head sq
 
 findList :: Ord k => [k] -> Data.Map.Map k a -> [a]
 findList [] _     = []
-findList (k:ks) m = Data.Map.lookup k m ++ findList ks m
+findList (k:ks) m = (maybeToList (Data.Map.lookup k m)) ++ findList ks m
 
 insertMany :: Ord k => [k] -> a -> Data.Map.Map k a -> Data.Map.Map k a
 insertMany []     _ m = m

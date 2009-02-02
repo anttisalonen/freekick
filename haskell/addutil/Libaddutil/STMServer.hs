@@ -4,7 +4,7 @@ where
 import Prelude hiding (catch)
 import Network (listenOn, accept, sClose, Socket, withSocketsDo, PortID(..)) 
 import System.IO 
-import Control.Exception (finally, catch)
+import Control.Exception (finally, catch, IOException)
 import Control.Concurrent 
 import Control.Concurrent.STM 
 import Control.Monad.State.Lazy
@@ -46,7 +46,7 @@ acceptLoop servSock chan = do
 clientLoop :: Handle -> TChan String -> IO () 
 clientLoop handle chan = 
     listenLoop (hGetLine handle) chan 
-                   `catch` (\e -> putStrLn ("Error during listen: " ++ show e)) 
+                   `catch` (\e -> putStrLn ("Error during listen: " ++ show (e :: IOException))) 
                    `finally` hClose handle 
 
 listenLoop :: IO a -> TChan a -> IO () 
@@ -62,7 +62,7 @@ mainLoop servSock acceptChan newClient newData ctvar = do
   case r of 
     Left (ch,h) -> do 
            putStrLn "New client"
-           (newClient h) `catch` (\e -> putStrLn ("Error while initializing connection: " ++ show e) >> mainLoop servSock acceptChan newClient newData ctvar)
+           (newClient h) `catch` (\e -> putStrLn ("Error while initializing connection: " ++ show (e :: IOException)) >> mainLoop servSock acceptChan newClient newData ctvar)
            atomically $ writeTVar ctvar ((ch,h):clientlist)
            mainLoop servSock acceptChan newClient newData ctvar
     Right (line,h) -> do 
@@ -84,7 +84,7 @@ broadcast cvar line = do
 
 broadcast' :: String -> Client -> IO (Either Client Handle)
 broadcast' l (ch,h) = do
-    (hPutStrLn h l >> return (Left (ch,h))) `catch` (\e -> putStrLn ("Lost a client: " ++ show e) >> hClose h >> return (Right h))
+    (hPutStrLn h l >> return (Left (ch,h))) `catch` (\e -> putStrLn ("Lost a client: " ++ show (e :: IOException)) >> hClose h >> return (Right h))
 
 tselect :: [(TChan a, t)] -> STM (a, t) 
 tselect = foldl orElse retry 

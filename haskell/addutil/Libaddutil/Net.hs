@@ -20,7 +20,7 @@ serve p f = bracket (listenOn (PortNumber (fromIntegral p)))
     where loop g st          = accept st >>= handle' g >> loop g st
           handle' g (h, _, _) = forkIO $ catch (g h) connectionError
 
-connectionError :: Exception -> IO ()
+connectionError :: IOException -> IO ()
 connectionError e = hPutStrLn stderr ("Error during connection: " ++ show e)
 
 disconnect :: String -> Handle -> IO ()

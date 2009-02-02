@@ -30,7 +30,7 @@ doInterpreter c mb s = do
                               "on"  -> doInterpreter c mb s{status = True}
                               _     -> doInterpreter c mb s{status = False}
            "ball"    -> if (length (tail (words n)) > 0) then do
-                            nbp <- evaluate (read (unwords (tail (words n)))) `catch` \_ -> putStrLn "Invalid parameters" >> return (ballplay m)
+                            nbp <- evaluate (read (unwords (tail (words n)))) `catch` \e -> putStrLn ("Invalid parameters: " ++ (show (e :: IOException))) >> return (ballplay m)
                             let newm = m{ballplay=nbp}
                             atomically $ writeTVar mb newm
                         else do

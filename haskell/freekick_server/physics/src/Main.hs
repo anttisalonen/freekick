@@ -282,7 +282,7 @@ getClientType h = do
     putStrLn "Waiting for OK"
     s <- hGetLine h
     putStrLn ("Received: " ++ s)
-    idl <- evaluate (read (drop 2 s)) `catch` \_ -> return []
+    idl <- evaluate (read (drop 2 s)) `catch` \e -> (print (show (e :: IOException))) >> return []
     case take 2 s of
       "OK"  -> return (Human idl)
       "AI"  -> return (AI    idl)
