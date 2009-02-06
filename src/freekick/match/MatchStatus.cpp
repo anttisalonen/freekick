@@ -26,7 +26,8 @@ namespace freekick
         MatchStatus::MatchStatus(boost::shared_ptr<MatchData> md)
             : mMatchData(md),
               mContinue(true),
-              mBall(new MatchBall(*mMatchData->getBall()))
+              mBall(new MatchBall(*mMatchData->getBall())),
+              secondhalf(false)
         {
             float pwidth = mMatchData->getStadium()->getPitch()->getWidth();
             float plength = mMatchData->getStadium()->getPitch()->getLength();
@@ -197,11 +198,11 @@ namespace freekick
             soccer::BallOwner own = getPlayerSide(id);
             if(!secondhalf)
             {
-                if(own == Home)
+                if(own == Away)
                     return UpTarget;
                 return DownTarget;
             }
-            if(own == Home)
+            if(own == Away)
                 return DownTarget;
             return UpTarget;
         }
@@ -334,14 +335,14 @@ namespace freekick
             ret.clear();
 
             std::vector<int> ids1 = mMatchData->getClub(b)->getLineup()->getPitchPlayerIDs();
-            float pwidth = getPitchWidth();
-            float plength = getPitchLength();
+            // float pwidth = getPitchWidth();
+            // float plength = getPitchLength();
 
             BOOST_FOREACH(int i, ids1)
             {
                 addutil::Vector3 pos = getPlayer(i)->getPosition();
-                setPositionSide(b, secondhalf, pos, pwidth, plength);
-                ret.push_back(getPlayer(i)->getPosition());
+                // setPositionSide(b, secondhalf, pos, pwidth, plength);
+                ret.push_back(pos);
                 num++;
             }
             return num;
@@ -403,7 +404,7 @@ namespace freekick
         GoalQuery MatchStatus::ballInGoalArea() const
         {
             GoalQuery q = mMatchData->getStadium()->getPitch()->inGoalArea(mBall->getPosition());
-            if(!secondhalf) return other(q);
+            if(secondhalf) return other(q);
             return q;
         }
 
