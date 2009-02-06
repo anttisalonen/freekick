@@ -53,20 +53,23 @@ namespace freekick
                         std::vector<addutil::Vector3> ownclub;
                         std::vector<addutil::Vector3>::const_iterator clubit;
 
-                        float best_z    = 0.0f;
+                        float best_z    = -500.0f;
                         float own_z     = (t == UpTarget) ? plength - ownpos.z : ownpos.z;
                         addutil::Vector3 bestpass = tgtgoal;
 
                         mMatchStatus->getPlayerPositions(ownclub, t);
                         for(clubit = ownclub.begin(); clubit != ownclub.end(); clubit++)
                         {
+                            // TODO: passing ahead of the player
                             float diff = (*clubit - ownpos).length();
                             float this_z = clubit->z;
+                            if(this_z == ownpos.z)
+                                continue;
                             if(t == UpTarget) this_z = plength - this_z;
 
-                            if(diff < 5.0f || diff > 20.0f)
+                            if(diff < 5.0f || diff > 40.0f)
                                 continue;
-                            if (this_z < own_z - 10.0f)
+                            if (this_z < own_z - 25.0f)
                                 continue;
 
                             if(this_z > best_z)
