@@ -122,7 +122,8 @@ namespace freekick
                     Viewport *vp = mRoot->getAutoCreatedWindow()->addViewport(cam);
 
                     // vp->setBackgroundColour(ColourValue(0.675, 0.84, 0.9));          // light blue
-                    vp->setBackgroundColour(ColourValue(0.5, 0.0, 0.0));                // maroon
+                    // vp->setBackgroundColour(ColourValue(0.5, 0.0, 0.0));             // maroon
+                    vp->setBackgroundColour(ColourValue(0.0, 0.0, 0.0));
                     cam->setNearClipDistance(0.5);
                     cam->setAutoAspectRatio(true);
 
