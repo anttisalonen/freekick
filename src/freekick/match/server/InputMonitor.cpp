@@ -87,7 +87,7 @@ namespace freekick
                     return;
                 }
 
-                // TODO: define max. kick velocity somewhere else and take stamina etc. into account
+                // TODO: define max. kick velocity somewhere else and take stamina, current player velocity, etc. into account
                 if(v.length() > 30.0f)
                 {
                     v.normalize();
@@ -155,7 +155,8 @@ namespace freekick
                     return;
                 }
 
-                float add = std::min(diff * (microseconds / 50000.0f), diff);
+                // TODO: define acceleration constant (below) elsewhere
+                float add = std::min(diff * (microseconds / 200000.0f), diff);
                 if(is < should)
                     is += add;
                 else
