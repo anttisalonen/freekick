@@ -44,18 +44,231 @@ Processing an Event:
 - playing matches as in the schedule
 - changes to DB (player transfers, league positions)
 
+Data:
+1. Immutable DB
+2. Save file of a DB
+3. Info from Org to server+ai
+4. Info from server to client
+
+1. contains complete immutable information about the players, clubs, 
+   tournaments etc. This is the main DB and is split to multiple files.
+2. contains a subset from 1 - all the data that is required by a game run.
+   This includes all the changes to clubs, players, tournaments etc. in the 
+   current event. Changes that are created by played matches, e.g. 
+   injuries, player form, age (as set by the options), changed 
+   player skills are saved here. All the data is saved in one file.
+   Note: As a lot of data would be redundant with the DB file, only the deltas
+   of this data are saved. In this case, the original DB file must not
+   change and the changed data should be saved or cached immediately when
+   a change happens in order to know what data was changed.
+   Also all the results of the played matches and current event stati as well
+   as the results of the past events (career history) are saved here.
+3. contains all match relevant info, i.e. player names and ids, club names,
+   player lists, lineups, stadium, player forms and injuries, player skills,
+   formations, tournament name, etc.
+4. contains all match information required by the clients, i.e. player names
+   and ids, club names, etc., i.e. the info that server will send to the 
+   clients as defined in protocol2.txt. The difference between 3 & 4 is that
+   3 includes all the player skills and personalities (needed for the ai
+   and for the server), while 4 doesn't (as of now).
+
+1. is saved in multiple XML files.
+2. is saved in an XML file.
+3. is saved in an XML file - therefore the server and the ai must be able to
+   parse them. Another option would be saving only the IDs of the data and
+   let the server+ai read the actual Save file (2), but in this case the server
+   must have access to 2 and would have to parse XML anyway.
+4. is sent by the server to the clients via network
+
+Data in 1:
+Database:
+1. Clubs
+ - name
+ - kits
+  - jersey type
+  - jersey color
+   - r, g, b
+  - image
+  - shorts color
+  - socks color
+ - organization (region name/id)
+ - stadium (name/id)
+ - contracts
+  - player id
+2. Players
+ - id
+ - personals
+  - first name
+  - last name
+  - birth date
+  - skin color
+  - hair color
+  - eyes color
+  - height
+  - nationality
+ - personality
+  - activity
+  - risk taking
+  - offensiveness
+  - aggressiveness
+  - consistency
+  - creativity
+  - experienec
+ - skills
+  - stamina
+  - dexterity
+  - speed
+  - tackling
+  - passing (power)
+  - control (passing accuracy)
+  - shooting (power)
+  - accuracy (shooting)
+  - goalkeeping
+  - heading
+ - position
+  - gk/df/md/fw
+  - l/r/b
+  - middle/wing
+  - club name (optional: clubs' contracts are more significant)
+3. Organizations (organizations, countries, regions)
+ - name
+ - suborganizations
+ - level(0: international org, 1: country, 2: region)
+ - tournaments
+  - id
+  - name
+  - stages
+   - id
+   - name
+   - schedule
+    - start week
+    - end week
+    - repeat rate (in weeks)
+   - type (1: knockout, 0: league)
+   - seeded
+   - participantnum
+   - rounds
+   - exchange targets
+    - exchange (promotion/relegation/attendance)
+     - tournament (name/id?)
+     - stage
+     - counting pos (e.g. 1->winner)
+     - number of clubs
+   - extra time (none/yes/in replay) (knockout only)
+   - penalties (none/yes/in replay) (knockout only)
+   - replays (implicit only) (knockout only)
+   - away goals (no/after 90/aet) (knockout only)
+   - groups (league only)
+   - points per win (league only)
+   - trophy
+    - id
+    - name
+    - image file
+    - value
+     - points
+     - bonus
+ - league system
+  - schedule
+  - levels
+   - branches
+    - stages
+    - region id
+ - stadiums
+  - name
+  - capacity
+4. Pitches
+ - id
+ - name
+ - friction
+ - pitch size (x + y)
+ - pitch area (size + surroundings)
+ - image
+
+Data in 2:
+- All data in 1 (either by:
+                  copying, or
+                  reading original DB files and constructing deltas), 
+  plus:
+1. Player deltas (all fields optional)
+ - injury state (in weeks)
+ - form
+  - cards
+   - tournament name
+   - number of cards
+   - yellow/red
+ - player skills (if changed)
+2. Club deltas
+ - player contracts
+3. Tournament stati
+ - for each relevant tournament:
+  - list of participant club ids
+  - for each played leg (ko)/round(league) in current stage:
+   - result
+4. Results History (only in career mode)
+5. General
+ - current week
+ - controlled player
+ - controlled club
+
+Data in 3:
+Data regarding clubs, kits, pitch, tournament, stadium and time is
+created from 2 (retrieving only the data of the relevant clubs and players).
+Data regarding weather, pitch state, spectator number, player substitute
+stati, third party stadium name, gk+ref kits, ball description is
+created by org before launching server.
+
+3 consists of all data in 4, plus:
+1. Clubs:
+ - Players:
+  - Skills
+  - Personality
+  - Form
+  - Yellow cards
+
+Data in 4: (only relevant clubs and players; also see protocol2.txt)
+1. Clubs:
+ - names
+ - player names
+ - player ids
+ - player numbers
+ - player club (0/1:home/away)
+ - player positions
+ - player substitute stati
+2. Kits:
+ - for all in home club, away club, home gk, away gk, referee:
+  - jersey type
+  - colors
+3. Pitch:
+ - Dimensions
+ - Pattern description keywords
+ - State description keywords
+4. Tournament:
+ - Tournament name
+ - Round name
+5. Stadium:
+ - third party host?
+ - stadium name
+ - spectator number
+ - capacity
+6. Time:
+ - Date
+ - Time
+7. Weather:
+ - description keywords
+8. Ball:
+ - description keywords
 
 1. The org reads+writes the DB
 2. The org starts the server+ai (in single player: also the client)
-3. The server+ai must have the same DB as the org
-4. The server+ai should therefore be on the same computer as org
+-- 3. The server+ai must have the same DB as the org
+-- 4. The server+ai should therefore be on the same computer as org
 5. The org saves a file for server that includes the most basic match info
 6. The most basic match info is the info that server will send to the clients
 7. The most basic match info is defined in protocol2.txt
-8. The org will pass the file paths to the DB to server+ai
-9. The server+ai have read access to the DB
-10. The server+ai read more detailed information from the DB as necessary
-11. The server+ai need to read e.g. the player skills from the DB
+-- 8. The org will pass the file paths to the DB to server+ai
+-- 9. The server+ai have read access to the DB
+-- 10. The server+ai read more detailed information from the DB as necessary
+-- 11. The server+ai need to read e.g. the player skills from the DB
 12. The (human) clients do not have nor need access to the DB
 13. After the match, server leaves a summary file for the org
 14. Org polls if server is running
@@ -65,11 +278,11 @@ Processing an Event:
  +-----+ starts processes, saves info file   +-----------+
  | org | ----------------------------------> | server+ai |
  +-----+                                     +-----------+
-    ^                                              ^  ^
-    | reads and writes                       reads |  |
-    ,                                              |  |
- +-----+                                           |  |
- | db  | ------------------------------------------/  |
+    ^                                                 ^
+    | reads and writes                                |
+    ,                                                 |
+ +-----+                                              |
+ | DB  |                                              |
  +-----+                                              |
                                                       |
  +--------+   receives basic info from server         |
@@ -85,14 +298,10 @@ Requirements:
 5. client is completely independent from org
 6. DB is saved in XML format
 7. org and server communicate only via info+summary file
-8. org and ai communicate directly only when org starts ai
+8. org and ai communicate only when org starts ai via info file
 
 Implementation:
-1. the data structures in server are filled by
-  1) reading the info file (includes ids)
-  2) reading the db based on the info file
-2. the data structures in ai are filled by
-  1) receiving the information from the info file from server
-  2) reading the db based on the info file
-3. the data structures in org are filled by
-  1) reading the db file
+1. the data structures in server and ai are filled by
+  1) reading the info file
+2. the data structures in org are filled by
+  1) reading the DB file
