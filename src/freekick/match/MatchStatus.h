@@ -75,6 +75,7 @@ namespace freekick
             addutil::Vector3 getCentreSpot() const;
             boost::tuple<int, float> nearestPlayerToBall() const;
             boost::tuple<int, float> nearestPlayerFromClubToBall(soccer::BallOwner b) const;
+            int getPlayerPositions(std::vector<addutil::Vector3>& ret, int pid) const;
             int getPlayerPositions(std::vector<addutil::Vector3>& ret, soccer::PlayerTarget t) const;
             int getPlayerPositions(std::vector<addutil::Vector3>& ret, soccer::BallOwner b) const;
             float getPitchWidth() const;

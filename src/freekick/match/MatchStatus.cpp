@@ -323,6 +323,11 @@ namespace freekick
             return addutil::Vector3(x, 0, z);
         }
 
+        int MatchStatus::getPlayerPositions(std::vector<addutil::Vector3>& ret, int pid) const
+        {
+            return getPlayerPositions(ret, getPlayerSide(pid));
+        }
+
         int MatchStatus::getPlayerPositions(std::vector<addutil::Vector3>& ret, soccer::PlayerTarget t) const
         {
             soccer::BallOwner b = playerTargetToBallOwner(t, secondhalf);
@@ -335,14 +340,10 @@ namespace freekick
             ret.clear();
 
             std::vector<int> ids1 = mMatchData->getClub(b)->getLineup()->getPitchPlayerIDs();
-            // float pwidth = getPitchWidth();
-            // float plength = getPitchLength();
 
             BOOST_FOREACH(int i, ids1)
             {
-                addutil::Vector3 pos = getPlayer(i)->getPosition();
-                // setPositionSide(b, secondhalf, pos, pwidth, plength);
-                ret.push_back(pos);
+                ret.push_back(getPlayer(i)->getPosition());
                 num++;
             }
             return num;

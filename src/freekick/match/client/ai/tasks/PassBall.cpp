@@ -57,7 +57,7 @@ namespace freekick
                         float own_z     = (t == UpTarget) ? plength - ownpos.z : ownpos.z;
                         addutil::Vector3 bestpass = tgtgoal;
 
-                        mMatchStatus->getPlayerPositions(ownclub, t);
+                        mMatchStatus->getPlayerPositions(ownclub, mPlayerID);
                         for(clubit = ownclub.begin(); clubit != ownclub.end(); clubit++)
                         {
                             // TODO: passing ahead of the player
