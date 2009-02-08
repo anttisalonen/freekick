@@ -48,11 +48,12 @@ class Lineups(QtGui.QWidget):
         self.connect(self.back, QtCore.SIGNAL('clicked()'), self, QtCore.SLOT('close()'))
 
     def start(self):
-        srv = subprocess.Popen("./fkserver")
+        cwd = os.getcwd()
+        srv = subprocess.Popen(os.path.join(cwd, "fkserver"))
         time.sleep(1)
+        cli = subprocess.Popen(os.path.join(cwd, "launch_client.sh"))
         time.sleep(0.1)
-        cli = subprocess.Popen("./launch_client.sh")
-        aic = subprocess.Popen("./aiclient")
+        aic = subprocess.Popen(os.path.join(cwd, "aiclient"))
         cli.communicate()
         os.kill(aic.pid, signal.SIGTERM)
         os.kill(srv.pid, signal.SIGTERM)
@@ -107,6 +108,100 @@ class Friendly(QtGui.QWidget):
         ln.show()
         self.wins = [ln]
 
+class DIY(QtGui.QWidget):
+    def __init__(self, parent=None):
+        QtGui.QWidget.__init__(self, parent)
+
+        self.setWindowTitle('DIY')
+
+        self.forward = QtGui.QPushButton("Choose clubs", self)
+        self.forward.setEnabled(False)
+        self.back = QtGui.QPushButton("Back", self)
+        self.bottom_hbox = QtGui.QHBoxLayout()
+        self.bottom_hbox.addWidget(self.back)
+        self.bottom_hbox.addWidget(self.forward)
+
+        self.stageboxes = []
+        self.num_clubs_boxes = []
+        self.stage_type_boxes = []
+        for stage in range(8):
+            self.stageboxes.append(QtGui.QHBoxLayout())
+            self.num_clubs_boxes.append(QtGui.QSpinBox())
+            self.stage_type_boxes.append(QtGui.QComboBox())
+            self.stageboxes[stage].addWidget(self.num_clubs_boxes[stage])
+            self.stageboxes[stage].addWidget(self.stage_type_boxes[stage])
+
+        # defaults
+        self.max_clubs = 128
+        self.num_clubs_boxes[0].setValue(32)
+        self.num_clubs_boxes[1].setValue(16)
+        self.num_clubs_boxes[2].setValue(8)
+        self.num_clubs_boxes[3].setValue(4)
+        self.num_clubs_boxes[4].setValue(2)
+        self.num_clubs_boxes[5].setValue(1)
+        self.num_clubs_boxes[6].setValue(1)
+        self.num_clubs_boxes[7].setValue(1)
+
+        self.num_clubs_boxes[0].setRange(self.num_clubs_boxes[1].value() + 1, self.max_clubs)
+
+        vbox = QtGui.QVBoxLayout()
+        for n in range(8):
+            vbox.addLayout(self.stageboxes[n])
+        vbox.addLayout(self.bottom_hbox)
+
+        self.setLayout(vbox)
+        self.resize(300, 150)
+
+        for stage in range(8):
+            self.connect(self.num_clubs_boxes[stage], QtCore.SIGNAL('valueChanged(int)'), self.update_stages)
+        self.connect(self.back, QtCore.SIGNAL('clicked()'), self, QtCore.SLOT('close()'))
+
+        self.update_stages()
+
+    def update_stages(self):
+        for stage in range(0, 8):
+            if stage == 0:
+                max_num = self.max_clubs
+            else:
+                max_num = self.num_clubs_boxes[stage - 1].value() - 1
+            if stage == 7:
+                min_num = 1
+            else:
+                min_num = self.num_clubs_boxes[stage + 1].value() + 1
+                if min_num == 2:
+                    min_num = 1
+            if max_num - min_num < 0:
+                self.num_clubs_boxes[stage].setRange(1, 1)
+                self.num_clubs_boxes[stage].setEnabled(False)
+            else:
+                self.num_clubs_boxes[stage].setRange(min_num, max_num)
+                self.num_clubs_boxes[stage].setEnabled(True)
+
+            if stage == 7:
+                self.set_correct_stage_types(self.stage_type_boxes[stage], self.num_clubs_boxes[stage].value(), 1)
+            else:
+                self.set_correct_stage_types(self.stage_type_boxes[stage], self.num_clubs_boxes[stage].value(), self.num_clubs_boxes[stage + 1].value())
+            everything_ok = all([b.count() > 0 or (not b.isEnabled()) for b in self.stage_type_boxes])
+            self.forward.setEnabled(everything_ok)
+
+    def set_correct_stage_types(self, combo, num_clubs, num_clubs_next):
+        combo.clear()
+        if num_clubs <= 1:
+            combo.setEnabled(False)
+            return
+        else:
+            combo.setEnabled(True)
+        if num_clubs_next * 2 == num_clubs:
+            combo.addItem("Knockout")
+        for n in range(24, 2, -1):
+            if num_clubs % n == 0:
+                num_clubs_per_group = n
+                num_groups = num_clubs // n
+                if num_groups > 1:
+                    combo.addItem("%d groups of %d" % (num_groups, num_clubs_per_group))
+                else:
+                    combo.addItem("%d group of %d" % (num_groups, num_clubs_per_group))
+
 class MainMenu(QtGui.QWidget):
     def __init__(self, parent=None):
         QtGui.QWidget.__init__(self, parent)
@@ -150,12 +245,18 @@ class MainMenu(QtGui.QWidget):
         self.resize(300, 150)
 
         self.connect(friendly, QtCore.SIGNAL('clicked()'), self.doFriendly)
+        self.connect(diy, QtCore.SIGNAL('clicked()'), self.doDIY)
         self.connect(quit, QtCore.SIGNAL('clicked()'), QtGui.qApp, QtCore.SLOT('quit()'))
 
     def doFriendly(self):
         fr = Friendly()
         fr.show()
         self.wins = [fr]
+
+    def doDIY(self):
+        wn = DIY()
+        wn.show()
+        self.wins = [wn]
 
 database_path = "../share/DB/"
 db = Database.get_db(database_path)

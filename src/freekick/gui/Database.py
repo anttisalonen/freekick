@@ -23,7 +23,7 @@ def get_db(path):
             print "Parsing players in %s" % fn
             db.players.update(get_players(root))
         else:
-            print "Doesn't know how to parse %s" % fn
+            print "Don't know how to parse %s" % fn
     print "%d clubs parsed" % len(db.clubs)
     print "%d players parsed" % len(db.players)
     return db
