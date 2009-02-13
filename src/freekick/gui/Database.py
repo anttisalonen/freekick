@@ -40,8 +40,7 @@ def parse_player(plnode):
     pl = SoccerData.Player(pid)
     for node in plnode.iter():
         if node.tag == "personal":
-            pl.first_name = node.get("first")
-            pl.last_name = node.get("last")
+            pl.name = node.get("name")
             for prnode in node.iter():
                 if prnode.tag == "birth":
                     pl.birthdate = Primitives.Date(int(prnode.get("year")), int(prnode.get("month")), int(prnode.get("day")))
@@ -55,6 +54,8 @@ def parse_player(plnode):
                     pl.height = prnode.get("value")
                 elif prnode.tag == "nationality":
                     pl.nationality = prnode.get("value")
+                elif prnode.tag == "appearance":
+                    pl.appearance = int(prnode.get("value"))
         elif node.tag == "personality":
             pl.personality = parse_player_personality(node)
         elif node.tag == "skills":
@@ -68,7 +69,7 @@ def parse_player(plnode):
     return pid, pl
 
 def parse_player_position(node):
-    return SoccerData.player_position(SoccerData.num_to_pos(int(node.get("pos"))), node.get("foot") != "0", node.get("wing") != "0")
+    return SoccerData.player_position(SoccerData.num_to_pos(int(node.get("pos"))), node.get("left") != "0", node.get("wing") != "0")
 
 def parse_player_personality(node):
     p = SoccerData.player_personality()
@@ -93,6 +94,8 @@ def parse_club(clubnode):
     name = clubnode.get("name")
     club = SoccerData.Club(name)
     for node in clubnode.iter():
+        if node.tag == "coach":
+            club.coach = SoccerData.Coach(node.get("name"))
         if node.tag == "kits":
             club.kits = parse_kits(node)
         elif node.tag == "country":

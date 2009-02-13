@@ -31,22 +31,21 @@ class player_personality:
     pass
 
 class Player(Primitives.Human):
-    def __init__(self, pid, first_name = "", last_name = ""):
-        Primitives.Human.__init__(self, first_name, last_name)
+    def __init__(self, pid, name = ""):
+        Primitives.Human.__init__(self, name)
         self.id = pid
         self.club_name = ""
     def __str__(self):
-        # return '{0}: {1} {2}'.format(self.id, self.first_name, self.last_name)
-        if len(self.first_name) == 0:
-            return '%s' % (self.last_name)
-        else:
-            return '%s %s' % (self.first_name, self.last_name)
+        return self.name
+
+class Coach(Primitives.Human):
+    pass
 
 class player_factory:
     def __init__(self):
         self.pidcounter = 1
-    def new_player(self, first_name, last_name):
-        p = Player(self.pidcounter, first_name, last_name)
+    def new_player(self, name):
+        p = Player(self.pidcounter, name)
         self.pidcounter += 1
         return p
 
