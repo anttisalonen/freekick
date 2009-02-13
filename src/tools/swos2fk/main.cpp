@@ -988,7 +988,6 @@ void create_freekick_country_xml(const team_list& teams, const char* country_nam
     xmlDocPtr doc = NULL;       /* document pointer */
     xmlNodePtr root_node = NULL;
     xmlNodePtr country_node = NULL;
-    xmlNodePtr sub_node = NULL;
     xmlNodePtr regions_node, region_node, stadium_node = NULL;
     xmlNodePtr league_system_node, levels_node = NULL;
     int num_divisions = 4;
