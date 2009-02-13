@@ -20,7 +20,6 @@
 /**
   TODO:
   1. SWOS mode not finished, needs e.g. player skills
-  2. FK mode needs to add boolean flag for blonde hair and black skin
 */
 
 #include <iostream>
@@ -447,6 +446,22 @@ void swos_position_to_freekick_num(int n, int& pos, int& left, int& wing)
     }
 }
 
+int head_type_to_appearance(int h)
+{
+    switch(h)
+    {
+        case 1: // white skin, blonde hair
+            return 8;
+        case 2: // black skin, black hair
+            return 1;
+        case 0: // white skin, black hair
+            return 0;
+        default:
+            cerr << "Unknown head type: " << h << endl;
+            return 0;
+    }
+}
+
 xmlNodePtr add_child(xmlNodePtr parent, const char* name)
 {
     return xmlNewChild(parent, NULL, BAD_CAST name, NULL);
@@ -566,19 +581,19 @@ int parse_player(const unsigned char* player_block, int pid, s_player* player)
     // cerr << player->player_name << endl;
     unsigned char multi_purpose = *iter++;
     player->field_position = multi_purpose >> 5;
-    player->head_type      = (multi_purpose >> 3) & 0x02;
+    player->head_type      = (multi_purpose >> 3) & 0x03;
 
     unsigned char skill_byte = *iter++;
-    player->passing      = skill_byte & 0x08;
+    player->passing      = skill_byte & 0x07;
     skill_byte = *iter++;
     player->shooting     = skill_byte >> 4;
-    player->heading      = skill_byte & 0x08;
+    player->heading      = skill_byte & 0x07;
     skill_byte = *iter++;
     player->tackling     = skill_byte >> 4;
-    player->ball_control = skill_byte & 0x08;
+    player->ball_control = skill_byte & 0x07;
     skill_byte = *iter++;
     player->speed        = skill_byte >> 4;
-    player->finishing    = skill_byte & 0x08;
+    player->finishing    = skill_byte & 0x07;
     iter++;
     player->value = *iter++;
     // cout << player->value << endl;
@@ -746,6 +761,8 @@ void create_freekick_player_xml(const team_list& teams, const char* player_out_f
             sub_node = add_child(personal_node, "height");
             add_attribute(sub_node, "value", "178");
 */
+            sub_node = add_child(personal_node, "appearance");
+            add_attribute(sub_node, "value", head_type_to_appearance(teams[i].players[j].head_type));
             sub_node = add_child(personal_node, "nationality");
             add_attribute(sub_node, "value", nationality_to_string(teams[i].players[j].nationality));
 
