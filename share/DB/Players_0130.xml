@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="130000">
+    <personal name="Edward Ansah">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="506" risktaking="342" offensive="563" aggressive="520" consistent="562" creative="663" experienced="505"/>
+    <skills stamina="669" dexterity="517" speed="202" tackling="263" passing="440" shooting="517" control="401" accuracy="177" goalkeeping="475" heading="205"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="130001">
+    <personal name="Anthony Mensah">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="790" risktaking="347" offensive="515" aggressive="825" consistent="221" creative="524" experienced="666"/>
+    <skills stamina="567" dexterity="405" speed="325" tackling="241" passing="346" shooting="324" control="383" accuracy="249" goalkeeping="541" heading="160"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="130002">
+    <personal name="Frank Amankwah">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="587" risktaking="370" offensive="546" aggressive="466" consistent="381" creative="408" experienced="470"/>
+    <skills stamina="646" dexterity="363" speed="596" tackling="381" passing="549" shooting="489" control="528" accuracy="505" goalkeeping="77" heading="483"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="130003">
+    <personal name="Frimpong Manso">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="443" risktaking="422" offensive="311" aggressive="417" consistent="70" creative="372" experienced="439"/>
+    <skills stamina="255" dexterity="707" speed="637" tackling="345" passing="363" shooting="491" control="509" accuracy="483" goalkeeping="64" heading="395"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="130004">
+    <personal name="Emmanuel Ampeah">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="567" risktaking="495" offensive="578" aggressive="217" consistent="200" creative="339" experienced="827"/>
+    <skills stamina="546" dexterity="676" speed="260" tackling="453" passing="335" shooting="387" control="507" accuracy="310" goalkeeping="57" heading="461"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="130005">
+    <personal name="Ageyman Duah">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="554" risktaking="451" offensive="683" aggressive="520" consistent="528" creative="421" experienced="573"/>
+    <skills stamina="609" dexterity="684" speed="629" tackling="442" passing="517" shooting="416" control="505" accuracy="442" goalkeeping="66" heading="398"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130006">
+    <personal name="D. Owusu">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="563" risktaking="701" offensive="626" aggressive="472" consistent="869" creative="579" experienced="502"/>
+    <skills stamina="502" dexterity="621" speed="530" tackling="479" passing="407" shooting="369" control="494" accuracy="476" goalkeeping="55" heading="442"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130007">
+    <personal name="Mahmoud Ahmed">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="794" risktaking="444" offensive="632" aggressive="652" consistent="501" creative="575" experienced="390"/>
+    <skills stamina="266" dexterity="364" speed="701" tackling="353" passing="469" shooting="482" control="398" accuracy="389" goalkeeping="74" heading="392"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="130008">
+    <personal name="Akokpo Patron">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="600" risktaking="647" offensive="563" aggressive="611" consistent="672" creative="565" experienced="394"/>
+    <skills stamina="236" dexterity="239" speed="690" tackling="458" passing="404" shooting="499" control="525" accuracy="466" goalkeeping="53" heading="496"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="130009">
+    <personal name="Alex Nyarko">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="514" risktaking="527" offensive="664" aggressive="499" consistent="546" creative="379" experienced="572"/>
+    <skills stamina="180" dexterity="343" speed="620" tackling="421" passing="361" shooting="379" control="479" accuracy="454" goalkeeping="62" heading="514"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="130010">
+    <personal name="Papa Arko">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="676" risktaking="378" offensive="459" aggressive="521" consistent="406" creative="568" experienced="225"/>
+    <skills stamina="536" dexterity="637" speed="551" tackling="545" passing="510" shooting="530" control="514" accuracy="343" goalkeeping="70" heading="496"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130011">
+    <personal name="P. Okyve">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="514" risktaking="476" offensive="578" aggressive="661" consistent="483" creative="568" experienced="456"/>
+    <skills stamina="422" dexterity="466" speed="552" tackling="356" passing="338" shooting="407" control="508" accuracy="380" goalkeeping="52" heading="398"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="130012">
+    <personal name="Y. Owusu">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="447" risktaking="668" offensive="499" aggressive="500" consistent="791" creative="479" experienced="421"/>
+    <skills stamina="673" dexterity="250" speed="334" tackling="491" passing="418" shooting="340" control="365" accuracy="421" goalkeeping="66" heading="324"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130013">
+    <personal name="George Arthur">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="376" risktaking="484" offensive="486" aggressive="125" consistent="425" creative="697" experienced="352"/>
+    <skills stamina="496" dexterity="189" speed="701" tackling="472" passing="480" shooting="507" control="497" accuracy="448" goalkeeping="59" heading="485"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130014">
+    <personal name="Kojo Sumaila">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="483" risktaking="578" offensive="339" aggressive="533" consistent="533" creative="574" experienced="570"/>
+    <skills stamina="377" dexterity="624" speed="202" tackling="356" passing="494" shooting="416" control="520" accuracy="476" goalkeeping="74" heading="488"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130015">
+    <personal name="K. Gyamei">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="595" risktaking="615" offensive="443" aggressive="507" consistent="496" creative="465" experienced="443"/>
+    <skills stamina="669" dexterity="260" speed="647" tackling="332" passing="438" shooting="407" control="384" accuracy="345" goalkeeping="53" heading="405"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130016">
+    <personal name="K. Adu">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="58" risktaking="613" offensive="614" aggressive="549" consistent="501" creative="266" experienced="646"/>
+    <skills stamina="200" dexterity="626" speed="628" tackling="220" passing="457" shooting="437" control="264" accuracy="171" goalkeeping="502" heading="152"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="130017">
+    <personal name="P. Carr">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="412" risktaking="271" offensive="681" aggressive="637" consistent="575" creative="218" experienced="155"/>
+    <skills stamina="157" dexterity="609" speed="621" tackling="128" passing="292" shooting="310" control="332" accuracy="135" goalkeeping="359" heading="209"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="130018">
+    <personal name="J. Ainoo">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="640" risktaking="422" offensive="346" aggressive="489" consistent="498" creative="584" experienced="323"/>
+    <skills stamina="228" dexterity="690" speed="505" tackling="382" passing="414" shooting="344" control="423" accuracy="327" goalkeeping="58" heading="440"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="130019">
+    <personal name="Y. Baba">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="613" risktaking="578" offensive="333" aggressive="437" consistent="440" creative="278" experienced="313"/>
+    <skills stamina="500" dexterity="549" speed="286" tackling="371" passing="447" shooting="313" control="516" accuracy="302" goalkeeping="52" heading="360"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="130020">
+    <personal name="D. Berko">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="444" risktaking="658" offensive="452" aggressive="578" consistent="369" creative="678" experienced="180"/>
+    <skills stamina="207" dexterity="360" speed="636" tackling="475" passing="447" shooting="432" control="461" accuracy="404" goalkeeping="61" heading="305"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130021">
+    <personal name="M. Kusi">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="325" risktaking="341" offensive="490" aggressive="572" consistent="339" creative="310" experienced="592"/>
+    <skills stamina="245" dexterity="657" speed="289" tackling="398" passing="463" shooting="364" control="461" accuracy="404" goalkeeping="51" heading="317"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130022">
+    <personal name="A. Nanakofi">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="230" risktaking="564" offensive="335" aggressive="630" consistent="634" creative="615" experienced="391"/>
+    <skills stamina="590" dexterity="264" speed="135" tackling="377" passing="445" shooting="405" control="371" accuracy="420" goalkeeping="60" heading="324"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130023">
+    <personal name="F. Bastion">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="257" risktaking="495" offensive="522" aggressive="405" consistent="471" creative="406" experienced="236"/>
+    <skills stamina="711" dexterity="324" speed="213" tackling="330" passing="470" shooting="437" control="450" accuracy="445" goalkeeping="80" heading="499"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="130024">
+    <personal name="J. Boison">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="292" risktaking="428" offensive="675" aggressive="478" consistent="647" creative="445" experienced="547"/>
+    <skills stamina="504" dexterity="654" speed="583" tackling="450" passing="377" shooting="419" control="440" accuracy="429" goalkeeping="73" heading="367"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="130025">
+    <personal name="P. Stephens">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="393" risktaking="726" offensive="289" aggressive="520" consistent="550" creative="522" experienced="643"/>
+    <skills stamina="684" dexterity="620" speed="315" tackling="534" passing="501" shooting="353" control="399" accuracy="441" goalkeeping="71" heading="427"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130026">
+    <personal name="K. Stephens">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="466" risktaking="415" offensive="472" aggressive="408" consistent="602" creative="437" experienced="432"/>
+    <skills stamina="396" dexterity="379" speed="468" tackling="513" passing="398" shooting="457" control="439" accuracy="377" goalkeeping="52" heading="315"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130027">
+    <personal name="M. Naawu">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="547" risktaking="522" offensive="578" aggressive="407" consistent="615" creative="413" experienced="612"/>
+    <skills stamina="247" dexterity="218" speed="487" tackling="447" passing="352" shooting="406" control="313" accuracy="354" goalkeeping="71" heading="399"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130028">
+    <personal name="O. Kennedy">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="496" risktaking="282" offensive="570" aggressive="519" consistent="376" creative="347" experienced="509"/>
+    <skills stamina="238" dexterity="157" speed="315" tackling="468" passing="494" shooting="419" control="401" accuracy="543" goalkeeping="57" heading="394"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130029">
+    <personal name="J. Sammy">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="881" risktaking="391" offensive="391" aggressive="342" consistent="429" creative="488" experienced="582"/>
+    <skills stamina="422" dexterity="263" speed="562" tackling="338" passing="419" shooting="500" control="476" accuracy="447" goalkeeping="57" heading="457"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130030">
+    <personal name="E. Paha">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="649" risktaking="549" offensive="483" aggressive="591" consistent="539" creative="737" experienced="481"/>
+    <skills stamina="568" dexterity="213" speed="356" tackling="377" passing="345" shooting="434" control="292" accuracy="412" goalkeeping="56" heading="440"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130031">
+    <personal name="M. Odartey">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="546" risktaking="393" offensive="658" aggressive="441" consistent="445" creative="608" experienced="641"/>
+    <skills stamina="642" dexterity="510" speed="218" tackling="450" passing="297" shooting="515" control="315" accuracy="356" goalkeeping="63" heading="461"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130032">
+    <personal name="P. Debrah">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="482" risktaking="499" offensive="87" aggressive="472" consistent="363" creative="346" experienced="651"/>
+    <skills stamina="628" dexterity="240" speed="172" tackling="236" passing="370" shooting="351" control="312" accuracy="178" goalkeeping="395" heading="222"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="130033">
+    <personal name="V. Tettah">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="624" risktaking="271" offensive="805" aggressive="491" consistent="685" creative="366" experienced="415"/>
+    <skills stamina="397" dexterity="318" speed="492" tackling="152" passing="387" shooting="266" control="297" accuracy="215" goalkeeping="505" heading="178"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="130034">
+    <personal name="M. Kankam">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="578" risktaking="582" offensive="658" aggressive="521" consistent="304" creative="759" experienced="373"/>
+    <skills stamina="481" dexterity="607" speed="362" tackling="478" passing="369" shooting="466" control="490" accuracy="487" goalkeeping="78" heading="315"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="130035">
+    <personal name="S. Aborah">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="295" risktaking="453" offensive="790" aggressive="378" consistent="701" creative="659" experienced="338"/>
+    <skills stamina="432" dexterity="661" speed="169" tackling="524" passing="517" shooting="455" control="488" accuracy="469" goalkeeping="63" heading="332"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="130036">
+    <personal name="A. Damshi">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="746" risktaking="549" offensive="741" aggressive="362" consistent="513" creative="471" experienced="476"/>
+    <skills stamina="552" dexterity="650" speed="558" tackling="412" passing="350" shooting="371" control="356" accuracy="396" goalkeeping="67" heading="327"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130037">
+    <personal name="Y. Kuffour">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="769" risktaking="659" offensive="350" aggressive="595" consistent="760" creative="355" experienced="507"/>
+    <skills stamina="390" dexterity="189" speed="648" tackling="377" passing="509" shooting="388" control="421" accuracy="319" goalkeeping="69" heading="434"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="130038">
+    <personal name="K. Menaf">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="448" risktaking="549" offensive="522" aggressive="728" consistent="518" creative="601" experienced="660"/>
+    <skills stamina="535" dexterity="329" speed="457" tackling="389" passing="359" shooting="462" control="440" accuracy="417" goalkeeping="51" heading="315"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130039">
+    <personal name="F. Ollenu">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="541" risktaking="424" offensive="474" aggressive="424" consistent="665" creative="486" experienced="427"/>
+    <skills stamina="733" dexterity="540" speed="687" tackling="378" passing="431" shooting="427" control="419" accuracy="339" goalkeeping="59" heading="527"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="130040">
+    <personal name="J. Fameyoh">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="559" risktaking="607" offensive="593" aggressive="574" consistent="569" creative="196" experienced="782"/>
+    <skills stamina="182" dexterity="357" speed="347" tackling="482" passing="414" shooting="421" control="478" accuracy="416" goalkeeping="74" heading="432"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="130041">
+    <personal name="O. Laud">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="631" risktaking="369" offensive="534" aggressive="526" consistent="690" creative="675" experienced="598"/>
+    <skills stamina="633" dexterity="417" speed="428" tackling="395" passing="430" shooting="512" control="409" accuracy="348" goalkeeping="85" heading="370"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130042">
+    <personal name="F. Aboagye">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="196" risktaking="569" offensive="319" aggressive="428" consistent="519" creative="232" experienced="462"/>
+    <skills stamina="532" dexterity="387" speed="475" tackling="471" passing="440" shooting="373" control="433" accuracy="326" goalkeeping="77" heading="349"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130043">
+    <personal name="B. Moses">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="674" risktaking="573" offensive="371" aggressive="423" consistent="619" creative="311" experienced="663"/>
+    <skills stamina="277" dexterity="691" speed="284" tackling="303" passing="353" shooting="350" control="381" accuracy="305" goalkeeping="44" heading="262"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130044">
+    <personal name="L. Oscar">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="492" risktaking="654" offensive="370" aggressive="360" consistent="527" creative="282" experienced="532"/>
+    <skills stamina="523" dexterity="487" speed="540" tackling="284" passing="428" shooting="349" control="333" accuracy="334" goalkeeping="59" heading="437"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130045">
+    <personal name="E. Dadzie">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="334" risktaking="640" offensive="555" aggressive="496" consistent="601" creative="510" experienced="465"/>
+    <skills stamina="391" dexterity="529" speed="447" tackling="447" passing="305" shooting="351" control="301" accuracy="363" goalkeeping="69" heading="322"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130046">
+    <personal name="R. Naawu">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="384" risktaking="468" offensive="597" aggressive="374" consistent="393" creative="461" experienced="498"/>
+    <skills stamina="689" dexterity="431" speed="159" tackling="395" passing="325" shooting="512" control="352" accuracy="553" goalkeeping="57" heading="441"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130047">
+    <personal name="A. Ebo">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="588" risktaking="434" offensive="588" aggressive="489" consistent="326" creative="527" experienced="254"/>
+    <skills stamina="613" dexterity="663" speed="477" tackling="335" passing="339" shooting="323" control="464" accuracy="340" goalkeeping="78" heading="306"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130048">
+    <personal name="Ben Owu">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="615" risktaking="655" offensive="581" aggressive="570" consistent="733" creative="612" experienced="671"/>
+    <skills stamina="361" dexterity="355" speed="387" tackling="189" passing="462" shooting="530" control="312" accuracy="204" goalkeeping="630" heading="181"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="130049">
+    <personal name="Abubakari Damba">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="592" risktaking="701" offensive="567" aggressive="370" consistent="424" creative="457" experienced="536"/>
+    <skills stamina="300" dexterity="154" speed="525" tackling="223" passing="471" shooting="387" control="265" accuracy="194" goalkeeping="468" heading="220"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="130050">
+    <personal name="S. Lamptey">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="412" risktaking="449" offensive="498" aggressive="461" consistent="356" creative="557" experienced="692"/>
+    <skills stamina="574" dexterity="381" speed="511" tackling="502" passing="394" shooting="516" control="416" accuracy="356" goalkeeping="60" heading="424"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="130051">
+    <personal name="B. Gambo">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="596" risktaking="303" offensive="82" aggressive="170" consistent="670" creative="822" experienced="398"/>
+    <skills stamina="338" dexterity="276" speed="298" tackling="512" passing="457" shooting="456" control="360" accuracy="456" goalkeeping="89" heading="489"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="130052">
+    <personal name="D. Addo">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="521" risktaking="783" offensive="425" aggressive="621" consistent="367" creative="526" experienced="510"/>
+    <skills stamina="632" dexterity="364" speed="380" tackling="541" passing="414" shooting="462" control="367" accuracy="467" goalkeeping="55" heading="365"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130053">
+    <personal name="N. Ankrah">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="381" risktaking="489" offensive="485" aggressive="580" consistent="286" creative="410" experienced="701"/>
+    <skills stamina="321" dexterity="619" speed="576" tackling="454" passing="436" shooting="443" control="499" accuracy="509" goalkeeping="77" heading="514"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130054">
+    <personal name="A. Tanah">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="549" risktaking="666" offensive="283" aggressive="240" consistent="587" creative="470" experienced="219"/>
+    <skills stamina="331" dexterity="668" speed="481" tackling="516" passing="419" shooting="426" control="383" accuracy="320" goalkeeping="72" heading="402"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130055">
+    <personal name="A. Queger">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="485" risktaking="619" offensive="312" aggressive="603" consistent="388" creative="273" experienced="619"/>
+    <skills stamina="614" dexterity="324" speed="264" tackling="490" passing="550" shooting="424" control="533" accuracy="337" goalkeeping="85" heading="405"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="130056">
+    <personal name="N. Beryan">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="754" risktaking="635" offensive="569" aggressive="476" consistent="546" creative="367" experienced="503"/>
+    <skills stamina="474" dexterity="379" speed="274" tackling="397" passing="567" shooting="523" control="378" accuracy="502" goalkeeping="66" heading="397"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="130057">
+    <personal name="A. Tanko">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="158" risktaking="534" offensive="372" aggressive="781" consistent="469" creative="490" experienced="138"/>
+    <skills stamina="446" dexterity="682" speed="506" tackling="406" passing="371" shooting="436" control="380" accuracy="425" goalkeeping="65" heading="322"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130058">
+    <personal name="A. Dodo">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="466" risktaking="423" offensive="510" aggressive="371" consistent="189" creative="505" experienced="633"/>
+    <skills stamina="206" dexterity="360" speed="357" tackling="456" passing="521" shooting="348" control="519" accuracy="368" goalkeeping="77" heading="355"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130059">
+    <personal name="M. Quershile">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="505" risktaking="505" offensive="506" aggressive="685" consistent="321" creative="509" experienced="484"/>
+    <skills stamina="577" dexterity="539" speed="539" tackling="357" passing="482" shooting="415" control="376" accuracy="475" goalkeeping="55" heading="413"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130060">
+    <personal name="Ben Kayede">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="466" risktaking="252" offensive="833" aggressive="461" consistent="481" creative="495" experienced="472"/>
+    <skills stamina="451" dexterity="631" speed="649" tackling="369" passing="476" shooting="403" control="544" accuracy="531" goalkeeping="77" heading="399"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130061">
+    <personal name="G. Alhassan">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="530" risktaking="646" offensive="690" aggressive="491" consistent="534" creative="653" experienced="571"/>
+    <skills stamina="235" dexterity="325" speed="426" tackling="387" passing="317" shooting="472" control="500" accuracy="419" goalkeeping="75" heading="410"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130062">
+    <personal name="K. Abbrey">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="486" risktaking="363" offensive="629" aggressive="315" consistent="492" creative="498" experienced="601"/>
+    <skills stamina="211" dexterity="199" speed="343" tackling="381" passing="343" shooting="452" control="315" accuracy="378" goalkeeping="66" heading="481"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130063">
+    <personal name="F. Polo">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="469" risktaking="599" offensive="575" aggressive="604" consistent="667" creative="148" experienced="373"/>
+    <skills stamina="691" dexterity="524" speed="259" tackling="395" passing="495" shooting="473" control="414" accuracy="440" goalkeeping="56" heading="496"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130064">
+    <personal name="I. Dosseh">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="543" risktaking="695" offensive="663" aggressive="223" consistent="397" creative="616" experienced="586"/>
+    <skills stamina="636" dexterity="326" speed="637" tackling="280" passing="394" shooting="370" control="319" accuracy="265" goalkeeping="572" heading="227"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="130065">
+    <personal name="F. Freeman">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="233" risktaking="472" offensive="477" aggressive="598" consistent="520" creative="587" experienced="324"/>
+    <skills stamina="563" dexterity="519" speed="216" tackling="185" passing="362" shooting="519" control="418" accuracy="171" goalkeeping="484" heading="219"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="130066">
+    <personal name="B. Whyte">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="429" risktaking="351" offensive="462" aggressive="479" consistent="432" creative="515" experienced="473"/>
+    <skills stamina="698" dexterity="746" speed="727" tackling="548" passing="516" shooting="555" control="446" accuracy="363" goalkeeping="68" heading="391"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="130067">
+    <personal name="E. Armah">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="444" risktaking="634" offensive="416" aggressive="611" consistent="522" creative="614" experienced="534"/>
+    <skills stamina="267" dexterity="551" speed="211" tackling="438" passing="558" shooting="465" control="495" accuracy="379" goalkeeping="67" heading="416"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="130068">
+    <personal name="K. Nimo">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="436" risktaking="600" offensive="511" aggressive="175" consistent="489" creative="532" experienced="358"/>
+    <skills stamina="729" dexterity="385" speed="700" tackling="420" passing="423" shooting="371" control="406" accuracy="473" goalkeeping="73" heading="531"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130069">
+    <personal name="A. Odamatey">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="698" risktaking="576" offensive="578" aggressive="645" consistent="367" creative="638" experienced="530"/>
+    <skills stamina="453" dexterity="235" speed="724" tackling="520" passing="581" shooting="476" control="548" accuracy="555" goalkeeping="75" heading="405"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130070">
+    <personal name="S. Barnes">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="426" risktaking="422" offensive="624" aggressive="531" consistent="267" creative="246" experienced="595"/>
+    <skills stamina="376" dexterity="274" speed="579" tackling="409" passing="511" shooting="366" control="498" accuracy="490" goalkeeping="65" heading="351"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130071">
+    <personal name="S. Quaye">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="451" risktaking="629" offensive="915" aggressive="560" consistent="424" creative="642" experienced="439"/>
+    <skills stamina="497" dexterity="535" speed="198" tackling="485" passing="466" shooting="494" control="377" accuracy="411" goalkeeping="77" heading="457"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="130072">
+    <personal name="S. Johnson">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="446" risktaking="357" offensive="733" aggressive="731" consistent="387" creative="368" experienced="280"/>
+    <skills stamina="341" dexterity="318" speed="369" tackling="541" passing="551" shooting="456" control="587" accuracy="448" goalkeeping="93" heading="486"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="130073">
+    <personal name="J. Odoi">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="593" risktaking="511" offensive="554" aggressive="470" consistent="568" creative="490" experienced="430"/>
+    <skills stamina="501" dexterity="631" speed="476" tackling="586" passing="558" shooting="532" control="455" accuracy="467" goalkeeping="66" heading="479"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130074">
+    <personal name="A. Kumah">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="290" risktaking="667" offensive="554" aggressive="709" consistent="496" creative="736" experienced="388"/>
+    <skills stamina="321" dexterity="717" speed="405" tackling="480" passing="451" shooting="415" control="373" accuracy="459" goalkeeping="73" heading="434"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130075">
+    <personal name="K. Dade">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="238" risktaking="676" offensive="339" aggressive="435" consistent="402" creative="550" experienced="728"/>
+    <skills stamina="594" dexterity="290" speed="453" tackling="542" passing="537" shooting="485" control="397" accuracy="418" goalkeeping="72" heading="419"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130076">
+    <personal name="I. Ali">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="499" risktaking="188" offensive="878" aggressive="624" consistent="661" creative="387" experienced="533"/>
+    <skills stamina="298" dexterity="213" speed="311" tackling="421" passing="453" shooting="386" control="465" accuracy="468" goalkeeping="69" heading="414"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130077">
+    <personal name="A. Seide">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="695" risktaking="354" offensive="653" aggressive="462" consistent="666" creative="449" experienced="464"/>
+    <skills stamina="199" dexterity="190" speed="659" tackling="469" passing="472" shooting="534" control="559" accuracy="619" goalkeeping="87" heading="488"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130078">
+    <personal name="A. Tieru">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="607" risktaking="490" offensive="423" aggressive="639" consistent="495" creative="351" experienced="510"/>
+    <skills stamina="625" dexterity="315" speed="186" tackling="459" passing="405" shooting="469" control="358" accuracy="553" goalkeeping="71" heading="586"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130079">
+    <personal name="E. Sackay">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="599" risktaking="310" offensive="550" aggressive="564" consistent="602" creative="468" experienced="303"/>
+    <skills stamina="455" dexterity="344" speed="518" tackling="518" passing="509" shooting="561" control="428" accuracy="531" goalkeeping="88" heading="398"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="130080">
+    <personal name="B. Simons">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="512" risktaking="500" offensive="428" aggressive="216" consistent="358" creative="610" experienced="547"/>
+    <skills stamina="308" dexterity="301" speed="633" tackling="233" passing="309" shooting="327" control="322" accuracy="174" goalkeeping="521" heading="173"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="130081">
+    <personal name="G. Amusa">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="358" risktaking="541" offensive="486" aggressive="368" consistent="443" creative="264" experienced="579"/>
+    <skills stamina="415" dexterity="654" speed="469" tackling="145" passing="446" shooting="440" control="243" accuracy="145" goalkeeping="365" heading="151"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="130082">
+    <personal name="K. Boateng">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="341" risktaking="475" offensive="388" aggressive="448" consistent="176" creative="196" experienced="605"/>
+    <skills stamina="640" dexterity="222" speed="164" tackling="368" passing="457" shooting="479" control="547" accuracy="349" goalkeeping="74" heading="489"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="130083">
+    <personal name="M. Muftau">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="367" risktaking="701" offensive="573" aggressive="297" consistent="492" creative="302" experienced="284"/>
+    <skills stamina="323" dexterity="230" speed="551" tackling="422" passing="542" shooting="344" control="369" accuracy="500" goalkeeping="69" heading="321"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="130084">
+    <personal name="R. Oduro">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="566" risktaking="689" offensive="283" aggressive="777" consistent="522" creative="427" experienced="455"/>
+    <skills stamina="710" dexterity="620" speed="176" tackling="408" passing="431" shooting="421" control="488" accuracy="471" goalkeeping="58" heading="352"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130085">
+    <personal name="K. Bukabi">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="353" risktaking="335" offensive="545" aggressive="467" consistent="691" creative="225" experienced="543"/>
+    <skills stamina="509" dexterity="522" speed="574" tackling="492" passing="388" shooting="396" control="519" accuracy="467" goalkeeping="69" heading="468"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130086">
+    <personal name="A. Jones">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="423" risktaking="371" offensive="475" aggressive="244" consistent="440" creative="466" experienced="500"/>
+    <skills stamina="621" dexterity="580" speed="492" tackling="329" passing="411" shooting="445" control="388" accuracy="327" goalkeeping="49" heading="340"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130087">
+    <personal name="D. Dickson">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="597" risktaking="856" offensive="386" aggressive="585" consistent="276" creative="467" experienced="570"/>
+    <skills stamina="408" dexterity="562" speed="584" tackling="326" passing="376" shooting="450" control="336" accuracy="431" goalkeeping="57" heading="421"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="130088">
+    <personal name="F. Foley">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="310" risktaking="248" offensive="664" aggressive="515" consistent="394" creative="642" experienced="432"/>
+    <skills stamina="639" dexterity="283" speed="405" tackling="338" passing="499" shooting="411" control="426" accuracy="439" goalkeeping="80" heading="426"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="130089">
+    <personal name="O. Jaffer">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="572" risktaking="288" offensive="500" aggressive="471" consistent="760" creative="401" experienced="382"/>
+    <skills stamina="278" dexterity="346" speed="414" tackling="424" passing="491" shooting="463" control="367" accuracy="333" goalkeeping="60" heading="469"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130090">
+    <personal name="A. Ola">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="569" risktaking="491" offensive="520" aggressive="558" consistent="472" creative="172" experienced="477"/>
+    <skills stamina="450" dexterity="694" speed="677" tackling="410" passing="352" shooting="281" control="336" accuracy="458" goalkeeping="68" heading="447"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130091">
+    <personal name="S. Sunday">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="461" risktaking="764" offensive="606" aggressive="423" consistent="499" creative="335" experienced="434"/>
+    <skills stamina="597" dexterity="404" speed="293" tackling="443" passing="426" shooting="432" control="464" accuracy="366" goalkeeping="49" heading="326"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130092">
+    <personal name="D. Gyamfi">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="462" risktaking="631" offensive="521" aggressive="506" consistent="712" creative="299" experienced="604"/>
+    <skills stamina="355" dexterity="180" speed="149" tackling="291" passing="329" shooting="553" control="377" accuracy="310" goalkeeping="52" heading="445"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130093">
+    <personal name="W. Ayitey">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="613" risktaking="574" offensive="511" aggressive="441" consistent="430" creative="268" experienced="895"/>
+    <skills stamina="181" dexterity="267" speed="557" tackling="444" passing="359" shooting="335" control="407" accuracy="422" goalkeeping="53" heading="327"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="130094">
+    <personal name="D. Osman">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="255" risktaking="434" offensive="442" aggressive="324" consistent="686" creative="343" experienced="497"/>
+    <skills stamina="343" dexterity="617" speed="358" tackling="427" passing="265" shooting="397" control="297" accuracy="510" goalkeeping="47" heading="401"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130095">
+    <personal name="N. Nanarofi">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="278" risktaking="610" offensive="392" aggressive="549" consistent="336" creative="365" experienced="286"/>
+    <skills stamina="558" dexterity="395" speed="243" tackling="406" passing="379" shooting="376" control="464" accuracy="457" goalkeeping="52" heading="309"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130096">
+    <personal name="W. Evans">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="331" risktaking="207" offensive="535" aggressive="515" consistent="506" creative="388" experienced="366"/>
+    <skills stamina="629" dexterity="347" speed="288" tackling="211" passing="480" shooting="427" control="256" accuracy="238" goalkeeping="459" heading="248"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="130097">
+    <personal name="A. Ayoma">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="488" risktaking="726" offensive="401" aggressive="762" consistent="261" creative="467" experienced="491"/>
+    <skills stamina="644" dexterity="388" speed="309" tackling="241" passing="424" shooting="331" control="272" accuracy="168" goalkeeping="458" heading="226"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="130098">
+    <personal name="Y. Acheampong">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="263" risktaking="510" offensive="505" aggressive="335" consistent="201" creative="566" experienced="665"/>
+    <skills stamina="641" dexterity="407" speed="317" tackling="416" passing="529" shooting="428" control="400" accuracy="422" goalkeeping="76" heading="390"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="130099">
+    <personal name="A. Dodo">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="234" risktaking="547" offensive="636" aggressive="511" consistent="381" creative="238" experienced="152"/>
+    <skills stamina="390" dexterity="699" speed="221" tackling="490" passing="482" shooting="485" control="535" accuracy="518" goalkeeping="72" heading="483"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="130100">
+    <personal name="S. Adjei">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="601" risktaking="660" offensive="634" aggressive="587" consistent="525" creative="485" experienced="467"/>
+    <skills stamina="172" dexterity="583" speed="466" tackling="557" passing="413" shooting="338" control="439" accuracy="327" goalkeeping="54" heading="484"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130101">
+    <personal name="M. Odoum">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="591" risktaking="502" offensive="479" aggressive="582" consistent="550" creative="400" experienced="438"/>
+    <skills stamina="624" dexterity="444" speed="498" tackling="509" passing="505" shooting="456" control="383" accuracy="471" goalkeeping="69" heading="452"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130102">
+    <personal name="V. Oppong">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="365" risktaking="598" offensive="425" aggressive="436" consistent="432" creative="656" experienced="452"/>
+    <skills stamina="493" dexterity="380" speed="332" tackling="412" passing="468" shooting="410" control="483" accuracy="458" goalkeeping="83" heading="333"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130103">
+    <personal name="A. Arhintul">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="557" risktaking="819" offensive="416" aggressive="330" consistent="911" creative="523" experienced="601"/>
+    <skills stamina="622" dexterity="644" speed="737" tackling="516" passing="587" shooting="482" control="421" accuracy="469" goalkeeping="72" heading="399"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="130104">
+    <personal name="R. Banini">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="416" risktaking="611" offensive="446" aggressive="554" consistent="220" creative="415" experienced="617"/>
+    <skills stamina="541" dexterity="677" speed="542" tackling="367" passing="416" shooting="497" control="507" accuracy="394" goalkeeping="56" heading="431"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="130105">
+    <personal name="A. Adjei">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="598" risktaking="347" offensive="665" aggressive="305" consistent="739" creative="261" experienced="728"/>
+    <skills stamina="207" dexterity="252" speed="651" tackling="392" passing="486" shooting="510" control="399" accuracy="436" goalkeeping="70" heading="370"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="130106">
+    <personal name="J. Atkins">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="640" risktaking="480" offensive="481" aggressive="791" consistent="334" creative="385" experienced="538"/>
+    <skills stamina="554" dexterity="489" speed="499" tackling="388" passing="347" shooting="418" control="382" accuracy="352" goalkeeping="81" heading="407"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130107">
+    <personal name="M. Awah">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="695" risktaking="577" offensive="304" aggressive="632" consistent="472" creative="496" experienced="687"/>
+    <skills stamina="346" dexterity="152" speed="207" tackling="373" passing="400" shooting="355" control="422" accuracy="338" goalkeeping="72" heading="423"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130108">
+    <personal name="C. Akunnor">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="355" risktaking="227" offensive="793" aggressive="429" consistent="515" creative="724" experienced="536"/>
+    <skills stamina="416" dexterity="692" speed="422" tackling="395" passing="544" shooting="416" control="395" accuracy="531" goalkeeping="75" heading="516"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="130109">
+    <personal name="A. Kofi">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="511" risktaking="20" offensive="455" aggressive="716" consistent="687" creative="572" experienced="726"/>
+    <skills stamina="243" dexterity="457" speed="588" tackling="428" passing="539" shooting="395" control="517" accuracy="500" goalkeeping="79" heading="523"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130110">
+    <personal name="N. Frimpong">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="608" risktaking="532" offensive="397" aggressive="731" consistent="384" creative="524" experienced="382"/>
+    <skills stamina="499" dexterity="204" speed="498" tackling="398" passing="421" shooting="423" control="454" accuracy="381" goalkeeping="81" heading="398"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130111">
+    <personal name="A. Aziz">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="579" risktaking="536" offensive="431" aggressive="473" consistent="445" creative="701" experienced="700"/>
+    <skills stamina="341" dexterity="279" speed="263" tackling="478" passing="410" shooting="568" control="328" accuracy="366" goalkeeping="57" heading="447"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="130112">
+    <personal name="P. Oykere">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="414" risktaking="522" offensive="468" aggressive="369" consistent="515" creative="550" experienced="651"/>
+    <skills stamina="364" dexterity="160" speed="298" tackling="245" passing="500" shooting="371" control="380" accuracy="171" goalkeeping="594" heading="183"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="130113">
+    <personal name="O. Mensah">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="466" risktaking="553" offensive="436" aggressive="573" consistent="508" creative="347" experienced="398"/>
+    <skills stamina="313" dexterity="558" speed="346" tackling="194" passing="395" shooting="364" control="314" accuracy="175" goalkeeping="407" heading="165"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="130114">
+    <personal name="D. Togoe">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="628" risktaking="294" offensive="187" aggressive="362" consistent="409" creative="260" experienced="357"/>
+    <skills stamina="530" dexterity="578" speed="602" tackling="428" passing="335" shooting="299" control="422" accuracy="443" goalkeeping="69" heading="312"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="130115">
+    <personal name="A. Kwabena">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="715" risktaking="476" offensive="453" aggressive="390" consistent="538" creative="477" experienced="564"/>
+    <skills stamina="713" dexterity="488" speed="447" tackling="392" passing="501" shooting="331" control="482" accuracy="388" goalkeeping="52" heading="421"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="130116">
+    <personal name="N. Mends">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="624" risktaking="406" offensive="487" aggressive="647" consistent="285" creative="583" experienced="407"/>
+    <skills stamina="547" dexterity="580" speed="394" tackling="389" passing="491" shooting="349" control="359" accuracy="376" goalkeeping="71" heading="364"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="130117">
+    <personal name="S. Ofori">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="189" risktaking="612" offensive="589" aggressive="502" consistent="556" creative="574" experienced="299"/>
+    <skills stamina="607" dexterity="460" speed="197" tackling="360" passing="428" shooting="346" control="342" accuracy="389" goalkeeping="75" heading="385"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130118">
+    <personal name="M. Kumi">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="635" risktaking="557" offensive="646" aggressive="383" consistent="758" creative="624" experienced="487"/>
+    <skills stamina="614" dexterity="583" speed="326" tackling="490" passing="378" shooting="276" control="292" accuracy="369" goalkeeping="46" heading="339"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="130119">
+    <personal name="N. Argee">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="392" risktaking="382" offensive="527" aggressive="419" consistent="526" creative="664" experienced="221"/>
+    <skills stamina="229" dexterity="237" speed="608" tackling="427" passing="450" shooting="363" control="459" accuracy="516" goalkeeping="66" heading="327"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="130120">
+    <personal name="S. Kissi">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="560" risktaking="478" offensive="534" aggressive="523" consistent="709" creative="413" experienced="358"/>
+    <skills stamina="355" dexterity="300" speed="471" tackling="432" passing="466" shooting="479" control="507" accuracy="357" goalkeeping="79" heading="352"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="130121">
+    <personal name="J. Boye">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="885" risktaking="658" offensive="483" aggressive="126" consistent="223" creative="649" experienced="347"/>
+    <skills stamina="663" dexterity="646" speed="170" tackling="492" passing="341" shooting="438" control="359" accuracy="467" goalkeeping="65" heading="384"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130122">
+    <personal name="D. Nortan">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="695" risktaking="363" offensive="888" aggressive="466" consistent="453" creative="395" experienced="556"/>
+    <skills stamina="618" dexterity="602" speed="559" tackling="388" passing="413" shooting="337" control="345" accuracy="293" goalkeeping="77" heading="336"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="130123">
+    <personal name="D. Foster">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="420" risktaking="595" offensive="718" aggressive="688" consistent="596" creative="539" experienced="528"/>
+    <skills stamina="450" dexterity="593" speed="266" tackling="444" passing="401" shooting="381" control="341" accuracy="412" goalkeeping="57" heading="430"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130124">
+    <personal name="B. Ansuade">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="487" risktaking="571" offensive="562" aggressive="611" consistent="607" creative="674" experienced="585"/>
+    <skills stamina="569" dexterity="535" speed="192" tackling="385" passing="361" shooting="290" control="313" accuracy="348" goalkeeping="69" heading="389"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="130125">
+    <personal name="B. Owasu">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="275" risktaking="500" offensive="294" aggressive="474" consistent="465" creative="552" experienced="463"/>
+    <skills stamina="399" dexterity="404" speed="564" tackling="344" passing="425" shooting="551" control="422" accuracy="374" goalkeeping="56" heading="484"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130126">
+    <personal name="A. Nigima">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="649" risktaking="616" offensive="479" aggressive="478" consistent="413" creative="725" experienced="642"/>
+    <skills stamina="277" dexterity="344" speed="194" tackling="455" passing="362" shooting="442" control="309" accuracy="552" goalkeeping="56" heading="457"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="130127">
+    <personal name="B. Rabiui">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="192" risktaking="516" offensive="525" aggressive="860" consistent="318" creative="126" experienced="389"/>
+    <skills stamina="498" dexterity="249" speed="283" tackling="295" passing="359" shooting="457" control="340" accuracy="407" goalkeeping="43" heading="312"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+</Players>

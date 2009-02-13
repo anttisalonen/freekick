@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Chile">
+    <Regions>
+      <Region name="Chile">
+        <stadium name="Audax Italiano Stadium" capacity="7400"/>
+        <stadium name="Cd Antofagasta Stadium" capacity="6000"/>
+        <stadium name="Cd Cobreloa Stadium" capacity="16800"/>
+        <stadium name="Cd Concepcion Stadium" capacity="9000"/>
+        <stadium name="Cd Huachipato Stadium" capacity="8600"/>
+        <stadium name="Cd Palestino Stadium" capacity="12300"/>
+        <stadium name="Cd Temuco Stadium" capacity="8800"/>
+        <stadium name="Colo Colo Stadium" capacity="12300"/>
+        <stadium name="Coquimbo Unido Stadium" capacity="6100"/>
+        <stadium name="O'higgins Stadium" capacity="8700"/>
+        <stadium name="Provincial Stadium" capacity="8200"/>
+        <stadium name="Regional Atacama Stadium" capacity="4200"/>
+        <stadium name="Santiago Wdrs. Stadium" capacity="7700"/>
+        <stadium name="Union Espanola Stadium" capacity="11800"/>
+        <stadium name="Univ. Catolica Stadium" capacity="16100"/>
+        <stadium name="Univ. De Chile Stadium" capacity="8500"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Chilean league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="16" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Chilean Premier league champion"/>
+              <attendances>
+                <attendance tournament="Chilean Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Audax Italiano"/>
+                <club name="Cd Antofagasta"/>
+                <club name="Cd Cobreloa"/>
+                <club name="Cd Concepcion"/>
+                <club name="Cd Huachipato"/>
+                <club name="Cd Palestino"/>
+                <club name="Cd Temuco"/>
+                <club name="Colo Colo"/>
+                <club name="Coquimbo Unido"/>
+                <club name="O'higgins"/>
+                <club name="Provincial"/>
+                <club name="Regional Atacama"/>
+                <club name="Santiago Wdrs."/>
+                <club name="Union Espanola"/>
+                <club name="Univ. Catolica"/>
+                <club name="Univ. De Chile"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Chilean Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Chilean Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+        </stage>
+        <stage name="First round" type="1">
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Quarterfinals"/>
+          <preset>
+            <club name="Audax Italiano"/>
+            <club name="Cd Antofagasta"/>
+            <club name="Cd Cobreloa"/>
+            <club name="Cd Concepcion"/>
+            <club name="Cd Huachipato"/>
+            <club name="Cd Palestino"/>
+            <club name="Cd Temuco"/>
+            <club name="Colo Colo"/>
+            <club name="Coquimbo Unido"/>
+            <club name="O'higgins"/>
+            <club name="Provincial"/>
+            <club name="Regional Atacama"/>
+            <club name="Santiago Wdrs."/>
+            <club name="Union Espanola"/>
+            <club name="Univ. Catolica"/>
+            <club name="Univ. De Chile"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Luxembourg">
+    <Regions>
+      <Region name="Luxembourg">
+        <stadium name="Aris Bonnevoie Stadium" capacity="700"/>
+        <stadium name="Avenir Beggen Stadium" capacity="7500"/>
+        <stadium name="Cs Grevenmacher Stadium" capacity="8800"/>
+        <stadium name="Cs Petange Stadium" capacity="3800"/>
+        <stadium name="Etzella Stadium" capacity="900"/>
+        <stadium name="F91 Dudelange Stadium" capacity="4000"/>
+        <stadium name="Fola Esch Stadium" capacity="2500"/>
+        <stadium name="Jeunesse Esch Stadium" capacity="6600"/>
+        <stadium name="Red Boys D'dange Stadium" capacity="2900"/>
+        <stadium name="Rodange 91 Stadium" capacity="2700"/>
+        <stadium name="Spora Luxembourg Stadium" capacity="2600"/>
+        <stadium name="Sporting Mertzig Stadium" capacity="2400"/>
+        <stadium name="Swift Hesperange Stadium" capacity="800"/>
+        <stadium name="Union Luxembourg Stadium" capacity="5400"/>
+        <stadium name="Wiltz 71 Stadium" capacity="3300"/>
+        <stadium name="Wormeldange Stadium" capacity="900"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Luxembourger league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="12" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Luxembourger Premier league champion"/>
+              <attendances>
+                <attendance tournament="Luxembourger Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Aris Bonnevoie"/>
+                <club name="Avenir Beggen"/>
+                <club name="Cs Grevenmacher"/>
+                <club name="Cs Petange"/>
+                <club name="F91 Dudelange"/>
+                <club name="Jeunesse Esch"/>
+                <club name="Red Boys D'dange"/>
+                <club name="Rodange 91"/>
+                <club name="Spora Luxembourg"/>
+                <club name="Sporting Mertzig"/>
+                <club name="Union Luxembourg"/>
+                <club name="Wiltz 71"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Luxembourger Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Luxembourger Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+        </stage>
+        <stage name="First round" type="1">
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Quarterfinals"/>
+          <preset>
+            <club name="Aris Bonnevoie"/>
+            <club name="Avenir Beggen"/>
+            <club name="Cs Grevenmacher"/>
+            <club name="Cs Petange"/>
+            <club name="F91 Dudelange"/>
+            <club name="Jeunesse Esch"/>
+            <club name="Red Boys D'dange"/>
+            <club name="Rodange 91"/>
+            <club name="Spora Luxembourg"/>
+            <club name="Sporting Mertzig"/>
+            <club name="Union Luxembourg"/>
+            <club name="Wiltz 71"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

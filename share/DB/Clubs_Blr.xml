@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Dinamo 93 Minsk">
+    <coach name="Ivan Shchekin"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Dinamo 93 Minsk Stadium"/>
+    <contracts>
+      <contract player="124000"/>
+      <contract player="124001"/>
+      <contract player="124002"/>
+      <contract player="124003"/>
+      <contract player="124004"/>
+      <contract player="124005"/>
+      <contract player="124006"/>
+      <contract player="124007"/>
+      <contract player="124008"/>
+      <contract player="124009"/>
+      <contract player="124010"/>
+      <contract player="124011"/>
+      <contract player="124012"/>
+      <contract player="124013"/>
+      <contract player="124014"/>
+      <contract player="124015"/>
+    </contracts>
+  </club>
+  <club name="Dinamo Brest">
+    <coach name="Vasily Kurilov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Dinamo Brest Stadium"/>
+    <contracts>
+      <contract player="124016"/>
+      <contract player="124017"/>
+      <contract player="124018"/>
+      <contract player="124019"/>
+      <contract player="124020"/>
+      <contract player="124021"/>
+      <contract player="124022"/>
+      <contract player="124023"/>
+      <contract player="124024"/>
+      <contract player="124025"/>
+      <contract player="124026"/>
+      <contract player="124027"/>
+      <contract player="124028"/>
+      <contract player="124029"/>
+      <contract player="124030"/>
+      <contract player="124031"/>
+    </contracts>
+  </club>
+  <club name="Dinamo Minsk">
+    <coach name="Mikhail Vergeyenko"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Dinamo Minsk Stadium"/>
+    <contracts>
+      <contract player="124032"/>
+      <contract player="124033"/>
+      <contract player="124034"/>
+      <contract player="124035"/>
+      <contract player="124036"/>
+      <contract player="124037"/>
+      <contract player="124038"/>
+      <contract player="124039"/>
+      <contract player="124040"/>
+      <contract player="124041"/>
+      <contract player="124042"/>
+      <contract player="124043"/>
+      <contract player="124044"/>
+      <contract player="124045"/>
+      <contract player="124046"/>
+      <contract player="124047"/>
+    </contracts>
+  </club>
+  <club name="Dnepr Mogilev">
+    <coach name="Alexander Bashmakov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Dnepr Mogilev Stadium"/>
+    <contracts>
+      <contract player="124048"/>
+      <contract player="124049"/>
+      <contract player="124050"/>
+      <contract player="124051"/>
+      <contract player="124052"/>
+      <contract player="124053"/>
+      <contract player="124054"/>
+      <contract player="124055"/>
+      <contract player="124056"/>
+      <contract player="124057"/>
+      <contract player="124058"/>
+      <contract player="124059"/>
+      <contract player="124060"/>
+      <contract player="124061"/>
+      <contract player="124062"/>
+      <contract player="124063"/>
+    </contracts>
+  </club>
+  <club name="Fandok Bobruisk">
+    <coach name="Viktor Popov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Fandok Bobruisk Stadium"/>
+    <contracts>
+      <contract player="124064"/>
+      <contract player="124065"/>
+      <contract player="124066"/>
+      <contract player="124067"/>
+      <contract player="124068"/>
+      <contract player="124069"/>
+      <contract player="124070"/>
+      <contract player="124071"/>
+      <contract player="124072"/>
+      <contract player="124073"/>
+      <contract player="124074"/>
+      <contract player="124075"/>
+      <contract player="124076"/>
+      <contract player="124077"/>
+      <contract player="124078"/>
+      <contract player="124079"/>
+    </contracts>
+  </club>
+  <club name="Gomselmash Gomel">
+    <coach name="Viktor Korotkevich"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Gomselmash Gomel Stadium"/>
+    <contracts>
+      <contract player="124080"/>
+      <contract player="124081"/>
+      <contract player="124082"/>
+      <contract player="124083"/>
+      <contract player="124084"/>
+      <contract player="124085"/>
+      <contract player="124086"/>
+      <contract player="124087"/>
+      <contract player="124088"/>
+      <contract player="124089"/>
+      <contract player="124090"/>
+      <contract player="124091"/>
+      <contract player="124092"/>
+      <contract player="124093"/>
+      <contract player="124094"/>
+      <contract player="124095"/>
+    </contracts>
+  </club>
+  <club name="Kim Vitebsk">
+    <coach name="Viktor Trubitsyn"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Kim Vitebsk Stadium"/>
+    <contracts>
+      <contract player="124096"/>
+      <contract player="124097"/>
+      <contract player="124098"/>
+      <contract player="124099"/>
+      <contract player="124100"/>
+      <contract player="124101"/>
+      <contract player="124102"/>
+      <contract player="124103"/>
+      <contract player="124104"/>
+      <contract player="124105"/>
+      <contract player="124106"/>
+      <contract player="124107"/>
+      <contract player="124108"/>
+      <contract player="124109"/>
+      <contract player="124110"/>
+      <contract player="124111"/>
+    </contracts>
+  </club>
+  <club name="Lok Vitebsk">
+    <coach name="Viktor Ravkov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Lok Vitebsk Stadium"/>
+    <contracts>
+      <contract player="124112"/>
+      <contract player="124113"/>
+      <contract player="124114"/>
+      <contract player="124115"/>
+      <contract player="124116"/>
+      <contract player="124117"/>
+      <contract player="124118"/>
+      <contract player="124119"/>
+      <contract player="124120"/>
+      <contract player="124121"/>
+      <contract player="124122"/>
+      <contract player="124123"/>
+      <contract player="124124"/>
+      <contract player="124125"/>
+      <contract player="124126"/>
+      <contract player="124127"/>
+    </contracts>
+  </club>
+  <club name="Moldechno">
+    <coach name="Sergey Borovsky"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Moldechno Stadium"/>
+    <contracts>
+      <contract player="124128"/>
+      <contract player="124129"/>
+      <contract player="124130"/>
+      <contract player="124131"/>
+      <contract player="124132"/>
+      <contract player="124133"/>
+      <contract player="124134"/>
+      <contract player="124135"/>
+      <contract player="124136"/>
+      <contract player="124137"/>
+      <contract player="124138"/>
+      <contract player="124139"/>
+      <contract player="124140"/>
+      <contract player="124141"/>
+      <contract player="124142"/>
+      <contract player="124143"/>
+    </contracts>
+  </club>
+  <club name="Neman Grodno">
+    <coach name="Stanislav Ulasevich"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Neman Grodno Stadium"/>
+    <contracts>
+      <contract player="124144"/>
+      <contract player="124145"/>
+      <contract player="124146"/>
+      <contract player="124147"/>
+      <contract player="124148"/>
+      <contract player="124149"/>
+      <contract player="124150"/>
+      <contract player="124151"/>
+      <contract player="124152"/>
+      <contract player="124153"/>
+      <contract player="124154"/>
+      <contract player="124155"/>
+      <contract player="124156"/>
+      <contract player="124157"/>
+      <contract player="124158"/>
+      <contract player="124159"/>
+    </contracts>
+  </club>
+  <club name="Obuvshchik Lida">
+    <coach name="Ivan Prokhorov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Obuvshchik Lida Stadium"/>
+    <contracts>
+      <contract player="124160"/>
+      <contract player="124161"/>
+      <contract player="124162"/>
+      <contract player="124163"/>
+      <contract player="124164"/>
+      <contract player="124165"/>
+      <contract player="124166"/>
+      <contract player="124167"/>
+      <contract player="124168"/>
+      <contract player="124169"/>
+      <contract player="124170"/>
+      <contract player="124171"/>
+      <contract player="124172"/>
+      <contract player="124173"/>
+      <contract player="124174"/>
+      <contract player="124175"/>
+    </contracts>
+  </club>
+  <club name="Shakhter Soligok">
+    <coach name="Nikolay Kostyukevich"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="127" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="127" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Shakhter Soligok Stadium"/>
+    <contracts>
+      <contract player="124176"/>
+      <contract player="124177"/>
+      <contract player="124178"/>
+      <contract player="124179"/>
+      <contract player="124180"/>
+      <contract player="124181"/>
+      <contract player="124182"/>
+      <contract player="124183"/>
+      <contract player="124184"/>
+      <contract player="124185"/>
+      <contract player="124186"/>
+      <contract player="124187"/>
+      <contract player="124188"/>
+      <contract player="124189"/>
+      <contract player="124190"/>
+      <contract player="124191"/>
+    </contracts>
+  </club>
+  <club name="Shinnik Bobruisk">
+    <coach name="Alexander Priazhnikov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Shinnik Bobruisk Stadium"/>
+    <contracts>
+      <contract player="124192"/>
+      <contract player="124193"/>
+      <contract player="124194"/>
+      <contract player="124195"/>
+      <contract player="124196"/>
+      <contract player="124197"/>
+      <contract player="124198"/>
+      <contract player="124199"/>
+      <contract player="124200"/>
+      <contract player="124201"/>
+      <contract player="124202"/>
+      <contract player="124203"/>
+      <contract player="124204"/>
+      <contract player="124205"/>
+      <contract player="124206"/>
+      <contract player="124207"/>
+    </contracts>
+  </club>
+  <club name="Stroitel Dorogi">
+    <coach name="Alexander Zhukovets"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="150" g="75" b="0"/>
+        </shorts>
+        <socks>
+          <color r="150" g="75" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Stroitel Dorogi Stadium"/>
+    <contracts>
+      <contract player="124208"/>
+      <contract player="124209"/>
+      <contract player="124210"/>
+      <contract player="124211"/>
+      <contract player="124212"/>
+      <contract player="124213"/>
+      <contract player="124214"/>
+      <contract player="124215"/>
+      <contract player="124216"/>
+      <contract player="124217"/>
+      <contract player="124218"/>
+      <contract player="124219"/>
+      <contract player="124220"/>
+      <contract player="124221"/>
+      <contract player="124222"/>
+      <contract player="124223"/>
+    </contracts>
+  </club>
+  <club name="Torpedo Minsk">
+    <coach name="Vladimir Kosakovsky"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Torpedo Minsk Stadium"/>
+    <contracts>
+      <contract player="124224"/>
+      <contract player="124225"/>
+      <contract player="124226"/>
+      <contract player="124227"/>
+      <contract player="124228"/>
+      <contract player="124229"/>
+      <contract player="124230"/>
+      <contract player="124231"/>
+      <contract player="124232"/>
+      <contract player="124233"/>
+      <contract player="124234"/>
+      <contract player="124235"/>
+      <contract player="124236"/>
+      <contract player="124237"/>
+      <contract player="124238"/>
+      <contract player="124239"/>
+    </contracts>
+  </club>
+  <club name="Torpedo Mogilev">
+    <coach name="Mikhail Bass"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Torpedo Mogilev Stadium"/>
+    <contracts>
+      <contract player="124240"/>
+      <contract player="124241"/>
+      <contract player="124242"/>
+      <contract player="124243"/>
+      <contract player="124244"/>
+      <contract player="124245"/>
+      <contract player="124246"/>
+      <contract player="124247"/>
+      <contract player="124248"/>
+      <contract player="124249"/>
+      <contract player="124250"/>
+      <contract player="124251"/>
+      <contract player="124252"/>
+      <contract player="124253"/>
+      <contract player="124254"/>
+      <contract player="124255"/>
+    </contracts>
+  </club>
+  <club name="Torpedo Zhodino">
+    <coach name="Alexander Pozniak"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Torpedo Zhodino Stadium"/>
+    <contracts>
+      <contract player="124256"/>
+      <contract player="124257"/>
+      <contract player="124258"/>
+      <contract player="124259"/>
+      <contract player="124260"/>
+      <contract player="124261"/>
+      <contract player="124262"/>
+      <contract player="124263"/>
+      <contract player="124264"/>
+      <contract player="124265"/>
+      <contract player="124266"/>
+      <contract player="124267"/>
+      <contract player="124268"/>
+      <contract player="124269"/>
+      <contract player="124270"/>
+      <contract player="124271"/>
+    </contracts>
+  </club>
+  <club name="Vedrich Rechitsa">
+    <coach name="Anatoly Chantsev"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belarus"/>
+    <stadium name="Vedrich Rechitsa Stadium"/>
+    <contracts>
+      <contract player="124272"/>
+      <contract player="124273"/>
+      <contract player="124274"/>
+      <contract player="124275"/>
+      <contract player="124276"/>
+      <contract player="124277"/>
+      <contract player="124278"/>
+      <contract player="124279"/>
+      <contract player="124280"/>
+      <contract player="124281"/>
+      <contract player="124282"/>
+      <contract player="124283"/>
+      <contract player="124284"/>
+      <contract player="124285"/>
+      <contract player="124286"/>
+      <contract player="124287"/>
+    </contracts>
+  </club>
+</Clubs>

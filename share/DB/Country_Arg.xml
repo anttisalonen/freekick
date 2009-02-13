@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Argentina">
+    <Regions>
+      <Region name="Argentina">
+        <stadium name="Aldosivi Stadium" capacity="5000"/>
+        <stadium name="Almirante Brown Stadium" capacity="9900"/>
+        <stadium name="Argentinos Jnrs Stadium" capacity="19500"/>
+        <stadium name="Arsenal Stadium" capacity="16700"/>
+        <stadium name="Atletico Rafaela Stadium" capacity="6100"/>
+        <stadium name="Almagro Stadium" capacity="8600"/>
+        <stadium name="Banfield Stadium" capacity="16000"/>
+        <stadium name="Belgrano Stadium" capacity="9900"/>
+        <stadium name="Boca Juniors Stadium" capacity="33600"/>
+        <stadium name="Def Y Justicia Stadium" capacity="6800"/>
+        <stadium name="Chacarita Jnrs Stadium" capacity="4700"/>
+        <stadium name="Colon Stadium" capacity="16500"/>
+        <stadium name="Rivadavia Stadium" capacity="3900"/>
+        <stadium name="San Martin T Stadium" capacity="8600"/>
+        <stadium name="Tiro Federal Stadium" capacity="8100"/>
+        <stadium name="Ben Hur Stadium" capacity="3800"/>
+        <stadium name="Estudiantes Stadium" capacity="22100"/>
+        <stadium name="Ferro Stadium" capacity="7900"/>
+        <stadium name="Gimnasia Jujuy Stadium" capacity="14700"/>
+        <stadium name="Cai Stadium" capacity="2900"/>
+        <stadium name="Gimnasia Lp Stadium" capacity="17300"/>
+        <stadium name="Godoy Cruz Stadium" capacity="4600"/>
+        <stadium name="Tigre Stadium" capacity="14800"/>
+        <stadium name="Huracan Stadium" capacity="17600"/>
+        <stadium name="Independiente Stadium" capacity="19400"/>
+        <stadium name="Instituto Stadium" capacity="7000"/>
+        <stadium name="Lanus Stadium" capacity="15300"/>
+        <stadium name="Olimpo Stadium" capacity="16200"/>
+        <stadium name="Newell's Ob Stadium" capacity="17500"/>
+        <stadium name="Nueva Chicago Stadium" capacity="9700"/>
+        <stadium name="Platense Stadium" capacity="8500"/>
+        <stadium name="Quilmes Stadium" capacity="10000"/>
+        <stadium name="Racing Club Stadium" capacity="19700"/>
+        <stadium name="River Plate Stadium" capacity="25100"/>
+        <stadium name="Rosario Central Stadium" capacity="18400"/>
+        <stadium name="San Martin Sj Stadium" capacity="12500"/>
+        <stadium name="San Lorenzo Stadium" capacity="25700"/>
+        <stadium name="Talleres Stadium" capacity="9000"/>
+        <stadium name="Union Stadium" capacity="9000"/>
+        <stadium name="Velez Sarsfield Stadium" capacity="17300"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Argentinian league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="20" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Argentinian Premier league champion"/>
+              <attendances>
+                <attendance tournament="Argentinian Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Argentinos Jnrs"/>
+                <club name="Arsenal"/>
+                <club name="Banfield"/>
+                <club name="Boca Juniors"/>
+                <club name="Colon"/>
+                <club name="Estudiantes"/>
+                <club name="Gimnasia Jujuy"/>
+                <club name="Gimnasia Lp"/>
+                <club name="Tigre"/>
+                <club name="Huracan"/>
+                <club name="Independiente"/>
+                <club name="Lanus"/>
+                <club name="Olimpo"/>
+                <club name="Newell's Ob"/>
+                <club name="Racing Club"/>
+                <club name="River Plate"/>
+                <club name="Rosario Central"/>
+                <club name="San Martin Sj"/>
+                <club name="San Lorenzo"/>
+                <club name="Velez Sarsfield"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls>
+            <leaguerl num="3"/>
+          </leaguerls>
+        </level>
+        <level>
+          <branch>
+            <stage name="First league" type="0">
+              <setup seeded="0" participantnum="20" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Argentinian First league champion"/>
+              <attendances>
+                <attendance tournament="Argentinian Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Aldosivi"/>
+                <club name="Almirante Brown"/>
+                <club name="Atletico Rafaela"/>
+                <club name="Almagro"/>
+                <club name="Belgrano"/>
+                <club name="Def Y Justicia"/>
+                <club name="Chacarita Jnrs"/>
+                <club name="Rivadavia"/>
+                <club name="San Martin T"/>
+                <club name="Tiro Federal"/>
+                <club name="Ben Hur"/>
+                <club name="Ferro"/>
+                <club name="Cai"/>
+                <club name="Godoy Cruz"/>
+                <club name="Instituto"/>
+                <club name="Nueva Chicago"/>
+                <club name="Platense"/>
+                <club name="Quilmes"/>
+                <club name="Talleres"/>
+                <club name="Union"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs>
+            <leaguepr num="3"/>
+          </leagueprs>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Argentinian Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Argentinian Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+        </stage>
+        <stage name="Second round" type="1">
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Quarterfinals"/>
+        </stage>
+        <stage name="First round" type="1">
+          <setup seeded="0" participantnum="32" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Second round"/>
+          <preset>
+            <club name="Argentinos Jnrs"/>
+            <club name="Arsenal"/>
+            <club name="Banfield"/>
+            <club name="Boca Juniors"/>
+            <club name="Colon"/>
+            <club name="Estudiantes"/>
+            <club name="Gimnasia Jujuy"/>
+            <club name="Gimnasia Lp"/>
+            <club name="Tigre"/>
+            <club name="Huracan"/>
+            <club name="Independiente"/>
+            <club name="Lanus"/>
+            <club name="Olimpo"/>
+            <club name="Newell's Ob"/>
+            <club name="Racing Club"/>
+            <club name="River Plate"/>
+            <club name="Rosario Central"/>
+            <club name="San Martin Sj"/>
+            <club name="San Lorenzo"/>
+            <club name="Velez Sarsfield"/>
+            <club name="Aldosivi"/>
+            <club name="Almirante Brown"/>
+            <club name="Atletico Rafaela"/>
+            <club name="Almagro"/>
+            <club name="Belgrano"/>
+            <club name="Def Y Justicia"/>
+            <club name="Chacarita Jnrs"/>
+            <club name="Rivadavia"/>
+            <club name="San Martin T"/>
+            <club name="Tiro Federal"/>
+            <club name="Ben Hur"/>
+            <club name="Ferro"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

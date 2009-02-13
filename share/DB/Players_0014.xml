@@ -1,0 +1,2307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="14000">
+    <personal name="Antonin Bucek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="497" risktaking="431" offensive="67" aggressive="679" consistent="458" creative="180" experienced="436"/>
+    <skills stamina="520" dexterity="470" speed="658" tackling="221" passing="410" shooting="398" control="236" accuracy="200" goalkeeping="396" heading="135"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="14001">
+    <personal name="Petr Vasek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="472" risktaking="463" offensive="354" aggressive="711" consistent="359" creative="264" experienced="661"/>
+    <skills stamina="492" dexterity="492" speed="335" tackling="167" passing="417" shooting="292" control="207" accuracy="185" goalkeeping="329" heading="180"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14002">
+    <personal name="Petr Ciganek">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="434" risktaking="627" offensive="459" aggressive="354" consistent="451" creative="388" experienced="336"/>
+    <skills stamina="386" dexterity="185" speed="675" tackling="392" passing="373" shooting="391" control="427" accuracy="298" goalkeeping="73" heading="378"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14003">
+    <personal name="Daniel Tchur">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="515" risktaking="666" offensive="512" aggressive="593" consistent="533" creative="465" experienced="619"/>
+    <skills stamina="690" dexterity="524" speed="315" tackling="331" passing="478" shooting="421" control="371" accuracy="454" goalkeeping="72" heading="322"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14004">
+    <personal name="Ales Neuwirth">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="527" risktaking="304" offensive="503" aggressive="651" consistent="670" creative="537" experienced="779"/>
+    <skills stamina="621" dexterity="683" speed="230" tackling="374" passing="442" shooting="332" control="255" accuracy="443" goalkeeping="52" heading="417"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="14005">
+    <personal name="David Bystron">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="615" risktaking="557" offensive="530" aggressive="341" consistent="527" creative="363" experienced="557"/>
+    <skills stamina="314" dexterity="503" speed="445" tackling="428" passing="440" shooting="377" control="323" accuracy="291" goalkeeping="63" heading="292"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14006">
+    <personal name="Rene Bolf">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="791" risktaking="475" offensive="516" aggressive="444" consistent="665" creative="340" experienced="658"/>
+    <skills stamina="711" dexterity="306" speed="647" tackling="446" passing="568" shooting="515" control="441" accuracy="534" goalkeeping="78" heading="460"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14007">
+    <personal name="Frantisek Rajtoral">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="445" risktaking="391" offensive="576" aggressive="372" consistent="227" creative="476" experienced="323"/>
+    <skills stamina="377" dexterity="584" speed="722" tackling="368" passing="508" shooting="413" control="367" accuracy="462" goalkeeping="78" heading="423"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14008">
+    <personal name="Dusan Tesarik">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="217" risktaking="503" offensive="647" aggressive="276" consistent="821" creative="365" experienced="437"/>
+    <skills stamina="451" dexterity="440" speed="493" tackling="400" passing="363" shooting="424" control="355" accuracy="369" goalkeeping="57" heading="352"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14009">
+    <personal name="Zdenek Stanek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="462" risktaking="638" offensive="671" aggressive="521" consistent="121" creative="671" experienced="627"/>
+    <skills stamina="457" dexterity="419" speed="358" tackling="339" passing="427" shooting="352" control="337" accuracy="270" goalkeeping="50" heading="278"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="14010">
+    <personal name="Martin Lukes">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="375" risktaking="514" offensive="513" aggressive="407" consistent="507" creative="599" experienced="605"/>
+    <skills stamina="412" dexterity="613" speed="287" tackling="465" passing="476" shooting="509" control="428" accuracy="432" goalkeeping="71" heading="462"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14011">
+    <personal name="Petr Coupek">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="574" risktaking="627" offensive="649" aggressive="492" consistent="616" creative="679" experienced="480"/>
+    <skills stamina="251" dexterity="347" speed="522" tackling="328" passing="405" shooting="288" control="475" accuracy="438" goalkeeping="65" heading="439"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14012">
+    <personal name="Frantisek Metelka">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="434" risktaking="377" offensive="627" aggressive="567" consistent="475" creative="606" experienced="406"/>
+    <skills stamina="488" dexterity="305" speed="373" tackling="448" passing="403" shooting="314" control="412" accuracy="328" goalkeeping="76" heading="376"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14013">
+    <personal name="Vaclav Sverkos">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="777" risktaking="555" offensive="624" aggressive="595" consistent="439" creative="436" experienced="820"/>
+    <skills stamina="307" dexterity="262" speed="462" tackling="458" passing="436" shooting="515" control="507" accuracy="419" goalkeeping="79" heading="453"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14014">
+    <personal name="Adam Varadi">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="472" risktaking="469" offensive="379" aggressive="726" consistent="623" creative="800" experienced="442"/>
+    <skills stamina="687" dexterity="375" speed="263" tackling="294" passing="489" shooting="565" control="359" accuracy="462" goalkeeping="48" heading="452"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14015">
+    <personal name="Robert Zeher">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="412" risktaking="464" offensive="708" aggressive="260" consistent="533" creative="594" experienced="709"/>
+    <skills stamina="393" dexterity="257" speed="505" tackling="425" passing="448" shooting="418" control="323" accuracy="496" goalkeeping="71" heading="461"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14016">
+    <personal name="Martin Lejsal">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="402" risktaking="435" offensive="301" aggressive="340" consistent="504" creative="693" experienced="470"/>
+    <skills stamina="312" dexterity="400" speed="280" tackling="260" passing="499" shooting="496" control="427" accuracy="247" goalkeeping="526" heading="241"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="14017">
+    <personal name="Tomas Bures">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="309" risktaking="664" offensive="326" aggressive="421" consistent="325" creative="388" experienced="445"/>
+    <skills stamina="599" dexterity="663" speed="614" tackling="182" passing="282" shooting="282" control="257" accuracy="138" goalkeeping="479" heading="200"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14018">
+    <personal name="Martin Kuncl">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="514" risktaking="537" offensive="495" aggressive="602" consistent="451" creative="322" experienced="837"/>
+    <skills stamina="691" dexterity="363" speed="555" tackling="381" passing="493" shooting="427" control="487" accuracy="454" goalkeeping="70" heading="332"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14019">
+    <personal name="Patrik Siegl">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="542" risktaking="463" offensive="600" aggressive="753" consistent="384" creative="433" experienced="238"/>
+    <skills stamina="205" dexterity="434" speed="523" tackling="377" passing="463" shooting="443" control="412" accuracy="402" goalkeeping="64" heading="416"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14020">
+    <personal name="Ales Schuster">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="509" risktaking="384" offensive="377" aggressive="723" consistent="409" creative="363" experienced="610"/>
+    <skills stamina="509" dexterity="647" speed="527" tackling="426" passing="375" shooting="411" control="287" accuracy="432" goalkeeping="53" heading="391"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="14021">
+    <personal name="Jan Trousil">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="520" risktaking="469" offensive="525" aggressive="383" consistent="461" creative="579" experienced="390"/>
+    <skills stamina="263" dexterity="457" speed="534" tackling="548" passing="462" shooting="306" control="366" accuracy="339" goalkeeping="72" heading="462"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14022">
+    <personal name="Martin Zivny">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="567" risktaking="410" offensive="674" aggressive="479" consistent="623" creative="591" experienced="399"/>
+    <skills stamina="559" dexterity="669" speed="202" tackling="377" passing="400" shooting="296" control="278" accuracy="392" goalkeeping="56" heading="350"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14023">
+    <personal name="Pavel Kalouda">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="531" risktaking="601" offensive="653" aggressive="763" consistent="367" creative="507" experienced="530"/>
+    <skills stamina="634" dexterity="560" speed="378" tackling="381" passing="365" shooting="501" control="411" accuracy="336" goalkeeping="73" heading="469"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14024">
+    <personal name="Marek Strestik">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="338" risktaking="448" offensive="516" aggressive="645" consistent="468" creative="450" experienced="548"/>
+    <skills stamina="600" dexterity="376" speed="685" tackling="379" passing="413" shooting="456" control="363" accuracy="479" goalkeeping="61" heading="483"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14025">
+    <personal name="Mario Holek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="621" risktaking="628" offensive="314" aggressive="731" consistent="784" creative="492" experienced="440"/>
+    <skills stamina="698" dexterity="266" speed="564" tackling="512" passing="359" shooting="351" control="510" accuracy="378" goalkeeping="80" heading="484"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="14026">
+    <personal name="Tomas Polach">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="584" risktaking="352" offensive="707" aggressive="387" consistent="371" creative="635" experienced="629"/>
+    <skills stamina="368" dexterity="254" speed="348" tackling="466" passing="395" shooting="367" control="451" accuracy="487" goalkeeping="72" heading="365"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14027">
+    <personal name="Petr Pavlik">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="644" risktaking="394" offensive="719" aggressive="536" consistent="297" creative="334" experienced="323"/>
+    <skills stamina="310" dexterity="170" speed="404" tackling="447" passing="404" shooting="326" control="382" accuracy="312" goalkeeping="64" heading="332"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14028">
+    <personal name="Tomas Oklestek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="476" risktaking="746" offensive="349" aggressive="616" consistent="590" creative="469" experienced="293"/>
+    <skills stamina="490" dexterity="464" speed="586" tackling="479" passing="315" shooting="315" control="469" accuracy="376" goalkeeping="53" heading="366"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14029">
+    <personal name="Milan Pacanda">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="408" risktaking="482" offensive="468" aggressive="588" consistent="504" creative="225" experienced="494"/>
+    <skills stamina="486" dexterity="571" speed="627" tackling="425" passing="470" shooting="583" control="511" accuracy="535" goalkeeping="72" heading="479"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14030">
+    <personal name="Tomas Dosek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="485" risktaking="543" offensive="641" aggressive="375" consistent="355" creative="295" experienced="584"/>
+    <skills stamina="709" dexterity="433" speed="566" tackling="512" passing="426" shooting="557" control="424" accuracy="348" goalkeeping="81" heading="490"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14031">
+    <personal name="Rene Wagner">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="146" risktaking="561" offensive="828" aggressive="712" consistent="551" creative="577" experienced="503"/>
+    <skills stamina="570" dexterity="603" speed="592" tackling="471" passing="337" shooting="425" control="393" accuracy="408" goalkeeping="80" heading="394"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14032">
+    <personal name="Pavel Kucera">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="301" risktaking="563" offensive="722" aggressive="310" consistent="628" creative="545" experienced="624"/>
+    <skills stamina="254" dexterity="628" speed="527" tackling="149" passing="303" shooting="443" control="224" accuracy="133" goalkeeping="399" heading="131"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14033">
+    <personal name="Zdenek Krizek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="457" risktaking="746" offensive="600" aggressive="321" consistent="488" creative="532" experienced="566"/>
+    <skills stamina="516" dexterity="146" speed="647" tackling="177" passing="411" shooting="336" control="232" accuracy="191" goalkeeping="437" heading="159"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14034">
+    <personal name="David Homolac">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="521" risktaking="428" offensive="821" aggressive="999" consistent="523" creative="503" experienced="632"/>
+    <skills stamina="344" dexterity="449" speed="448" tackling="279" passing="344" shooting="290" control="407" accuracy="435" goalkeeping="64" heading="389"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14035">
+    <personal name="Martin Lestina">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="347" risktaking="282" offensive="517" aggressive="198" consistent="458" creative="514" experienced="357"/>
+    <skills stamina="191" dexterity="454" speed="223" tackling="457" passing="394" shooting="363" control="457" accuracy="275" goalkeeping="52" heading="366"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14036">
+    <personal name="David Horejs">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="399" risktaking="412" offensive="613" aggressive="426" consistent="616" creative="455" experienced="455"/>
+    <skills stamina="151" dexterity="202" speed="428" tackling="390" passing="419" shooting="273" control="400" accuracy="348" goalkeeping="66" heading="326"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14037">
+    <personal name="Tomas Hunal">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="498" risktaking="383" offensive="400" aggressive="408" consistent="771" creative="682" experienced="607"/>
+    <skills stamina="217" dexterity="559" speed="570" tackling="352" passing="482" shooting="324" control="387" accuracy="456" goalkeeping="49" heading="382"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14038">
+    <personal name="Michal Smid">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="594" risktaking="367" offensive="186" aggressive="606" consistent="602" creative="282" experienced="421"/>
+    <skills stamina="329" dexterity="206" speed="454" tackling="432" passing="430" shooting="395" control="400" accuracy="364" goalkeeping="46" heading="363"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14039">
+    <personal name="Daniel Rehak">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="404" risktaking="437" offensive="548" aggressive="408" consistent="276" creative="290" experienced="535"/>
+    <skills stamina="620" dexterity="335" speed="548" tackling="394" passing="351" shooting="430" control="401" accuracy="330" goalkeeping="76" heading="382"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14040">
+    <personal name="Marek Jungr">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="407" risktaking="615" offensive="371" aggressive="496" consistent="710" creative="504" experienced="701"/>
+    <skills stamina="591" dexterity="378" speed="481" tackling="438" passing="325" shooting="293" control="453" accuracy="312" goalkeeping="57" heading="393"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14041">
+    <personal name="Jaroslav Cerny">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="643" risktaking="508" offensive="536" aggressive="672" consistent="397" creative="391" experienced="344"/>
+    <skills stamina="500" dexterity="614" speed="232" tackling="427" passing="405" shooting="384" control="348" accuracy="384" goalkeeping="72" heading="315"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14042">
+    <personal name="Jiri Adamec">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="182" risktaking="327" offensive="676" aggressive="549" consistent="680" creative="307" experienced="564"/>
+    <skills stamina="403" dexterity="679" speed="459" tackling="296" passing="406" shooting="373" control="429" accuracy="255" goalkeeping="65" heading="417"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14043">
+    <personal name="Martin Vozabal">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="637" risktaking="605" offensive="325" aggressive="532" consistent="684" creative="376" experienced="458"/>
+    <skills stamina="189" dexterity="292" speed="180" tackling="432" passing="296" shooting="399" control="310" accuracy="436" goalkeeping="67" heading="442"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14044">
+    <personal name="Tomas Radzinevicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="533" risktaking="620" offensive="455" aggressive="311" consistent="379" creative="633" experienced="404"/>
+    <skills stamina="657" dexterity="447" speed="572" tackling="364" passing="418" shooting="471" control="316" accuracy="391" goalkeeping="58" heading="354"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14045">
+    <personal name="Marek Plichta">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="443" risktaking="761" offensive="620" aggressive="400" consistent="482" creative="706" experienced="637"/>
+    <skills stamina="548" dexterity="488" speed="554" tackling="385" passing="292" shooting="354" control="428" accuracy="385" goalkeeping="75" heading="306"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14046">
+    <personal name="Jaroslav Hilek">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="534" risktaking="298" offensive="452" aggressive="24" consistent="440" creative="464" experienced="484"/>
+    <skills stamina="343" dexterity="614" speed="428" tackling="364" passing="467" shooting="435" control="436" accuracy="424" goalkeeping="70" heading="381"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14047">
+    <personal name="Lubomir Mysak">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="444" risktaking="130" offensive="468" aggressive="643" consistent="364" creative="237" experienced="574"/>
+    <skills stamina="632" dexterity="201" speed="611" tackling="399" passing="358" shooting="344" control="419" accuracy="416" goalkeeping="53" heading="339"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14048">
+    <personal name="Radek Snozik">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="287" risktaking="370" offensive="500" aggressive="576" consistent="610" creative="250" experienced="538"/>
+    <skills stamina="314" dexterity="560" speed="535" tackling="207" passing="408" shooting="449" control="352" accuracy="148" goalkeeping="372" heading="163"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14049">
+    <personal name="Martin Charvat">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="733" risktaking="593" offensive="378" aggressive="503" consistent="503" creative="442" experienced="529"/>
+    <skills stamina="525" dexterity="433" speed="349" tackling="185" passing="420" shooting="363" control="256" accuracy="205" goalkeeping="481" heading="188"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14050">
+    <personal name="Lukas Marek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="281" risktaking="425" offensive="382" aggressive="312" consistent="746" creative="536" experienced="310"/>
+    <skills stamina="130" dexterity="651" speed="176" tackling="407" passing="298" shooting="282" control="318" accuracy="257" goalkeeping="69" heading="348"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14051">
+    <personal name="Michal Smarda">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="561" risktaking="422" offensive="513" aggressive="218" consistent="418" creative="622" experienced="633"/>
+    <skills stamina="684" dexterity="277" speed="181" tackling="298" passing="287" shooting="350" control="370" accuracy="263" goalkeeping="43" heading="338"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14052">
+    <personal name="Karel Rada">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="657" risktaking="785" offensive="429" aggressive="554" consistent="216" creative="637" experienced="321"/>
+    <skills stamina="409" dexterity="363" speed="595" tackling="364" passing="509" shooting="451" control="541" accuracy="379" goalkeeping="82" heading="501"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14053">
+    <personal name="Jiri Vagner">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="351" risktaking="702" offensive="542" aggressive="315" consistent="603" creative="439" experienced="583"/>
+    <skills stamina="317" dexterity="261" speed="525" tackling="392" passing="388" shooting="264" control="331" accuracy="343" goalkeeping="64" heading="263"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14054">
+    <personal name="Pavel Lukas">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="320" risktaking="620" offensive="445" aggressive="741" consistent="459" creative="405" experienced="410"/>
+    <skills stamina="521" dexterity="403" speed="229" tackling="292" passing="428" shooting="281" control="272" accuracy="321" goalkeeping="72" heading="407"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14055">
+    <personal name="Tomas Kulvajt">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="429" risktaking="383" offensive="265" aggressive="430" consistent="567" creative="657" experienced="752"/>
+    <skills stamina="191" dexterity="256" speed="489" tackling="371" passing="389" shooting="423" control="424" accuracy="253" goalkeeping="62" heading="312"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14056">
+    <personal name="Petr Kunasek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="420" risktaking="699" offensive="312" aggressive="408" consistent="524" creative="406" experienced="242"/>
+    <skills stamina="401" dexterity="515" speed="183" tackling="308" passing="297" shooting="319" control="357" accuracy="405" goalkeeping="57" heading="288"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14057">
+    <personal name="Jiri Rychlik">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="645" risktaking="236" offensive="721" aggressive="232" consistent="391" creative="662" experienced="638"/>
+    <skills stamina="515" dexterity="583" speed="306" tackling="367" passing="357" shooting="261" control="303" accuracy="412" goalkeeping="41" heading="259"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14058">
+    <personal name="Lukas Adam">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="484" risktaking="388" offensive="560" aggressive="483" consistent="751" creative="571" experienced="667"/>
+    <skills stamina="608" dexterity="587" speed="187" tackling="374" passing="377" shooting="402" control="361" accuracy="353" goalkeeping="52" heading="314"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14059">
+    <personal name="Michal Ordos">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="668" risktaking="483" offensive="514" aggressive="330" consistent="643" creative="268" experienced="482"/>
+    <skills stamina="233" dexterity="492" speed="467" tackling="347" passing="504" shooting="297" control="448" accuracy="348" goalkeeping="60" heading="293"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14060">
+    <personal name="Vladimir Balek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="625" risktaking="414" offensive="612" aggressive="556" consistent="541" creative="360" experienced="327"/>
+    <skills stamina="302" dexterity="407" speed="510" tackling="340" passing="321" shooting="494" control="350" accuracy="347" goalkeeping="60" heading="369"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14061">
+    <personal name="Tomas Buldra">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="321" risktaking="415" offensive="407" aggressive="547" consistent="586" creative="579" experienced="853"/>
+    <skills stamina="272" dexterity="485" speed="522" tackling="303" passing="343" shooting="407" control="381" accuracy="410" goalkeeping="52" heading="307"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14062">
+    <personal name="David Bartek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="381" risktaking="496" offensive="528" aggressive="237" consistent="637" creative="623" experienced="676"/>
+    <skills stamina="443" dexterity="234" speed="227" tackling="370" passing="331" shooting="468" control="340" accuracy="431" goalkeeping="41" heading="287"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14063">
+    <personal name="Stanley Ibe">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="671" risktaking="449" offensive="382" aggressive="398" consistent="370" creative="369" experienced="506"/>
+    <skills stamina="234" dexterity="457" speed="521" tackling="272" passing="436" shooting="504" control="341" accuracy="473" goalkeeping="71" heading="391"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14064">
+    <personal name="Michal Spit">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="553" risktaking="503" offensive="543" aggressive="484" consistent="604" creative="573" experienced="668"/>
+    <skills stamina="165" dexterity="220" speed="403" tackling="201" passing="342" shooting="442" control="294" accuracy="211" goalkeeping="471" heading="244"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14065">
+    <personal name="Jiri Bobok">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="425" risktaking="509" offensive="404" aggressive="355" consistent="533" creative="749" experienced="312"/>
+    <skills stamina="646" dexterity="299" speed="599" tackling="196" passing="366" shooting="332" control="228" accuracy="184" goalkeeping="342" heading="193"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="14066">
+    <personal name="Jan Flachbart">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="652" risktaking="503" offensive="352" aggressive="425" consistent="349" creative="611" experienced="536"/>
+    <skills stamina="264" dexterity="697" speed="198" tackling="606" passing="485" shooting="548" control="442" accuracy="447" goalkeeping="76" heading="462"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14067">
+    <personal name="Josef Hamouz">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="263" risktaking="238" offensive="383" aggressive="469" consistent="376" creative="555" experienced="339"/>
+    <skills stamina="570" dexterity="183" speed="665" tackling="334" passing="373" shooting="284" control="374" accuracy="404" goalkeeping="54" heading="324"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14068">
+    <personal name="Milan Fukal">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="666" risktaking="447" offensive="780" aggressive="646" consistent="456" creative="434" experienced="423"/>
+    <skills stamina="374" dexterity="438" speed="239" tackling="558" passing="405" shooting="475" control="598" accuracy="560" goalkeeping="66" heading="379"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14069">
+    <personal name="Jiri Homola">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="522" risktaking="216" offensive="634" aggressive="232" consistent="356" creative="307" experienced="539"/>
+    <skills stamina="176" dexterity="621" speed="635" tackling="527" passing="566" shooting="488" control="397" accuracy="436" goalkeeping="82" heading="460"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14070">
+    <personal name="Petr Zabojnik">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="486" risktaking="393" offensive="446" aggressive="277" consistent="503" creative="360" experienced="682"/>
+    <skills stamina="421" dexterity="355" speed="572" tackling="386" passing="392" shooting="451" control="326" accuracy="398" goalkeeping="65" heading="390"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="14071">
+    <personal name="Jaroslav Laciga">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="470" risktaking="394" offensive="498" aggressive="665" consistent="590" creative="662" experienced="531"/>
+    <skills stamina="239" dexterity="536" speed="163" tackling="408" passing="324" shooting="387" control="350" accuracy="404" goalkeeping="63" heading="322"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14072">
+    <personal name="Miroslav Baranek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="570" risktaking="391" offensive="378" aggressive="337" consistent="554" creative="442" experienced="433"/>
+    <skills stamina="469" dexterity="654" speed="604" tackling="387" passing="511" shooting="562" control="526" accuracy="467" goalkeeping="72" heading="548"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14073">
+    <personal name="Josef Weber">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="527" risktaking="708" offensive="474" aggressive="524" consistent="400" creative="643" experienced="623"/>
+    <skills stamina="661" dexterity="278" speed="415" tackling="367" passing="373" shooting="447" control="496" accuracy="393" goalkeeping="71" heading="450"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14074">
+    <personal name="Anes Haurdic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="762" risktaking="276" offensive="448" aggressive="597" consistent="687" creative="256" experienced="698"/>
+    <skills stamina="708" dexterity="233" speed="163" tackling="388" passing="426" shooting="286" control="330" accuracy="369" goalkeeping="76" heading="443"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14075">
+    <personal name="Lukas Vacha">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="634" risktaking="433" offensive="500" aggressive="401" consistent="76" creative="439" experienced="397"/>
+    <skills stamina="425" dexterity="625" speed="475" tackling="312" passing="473" shooting="449" control="429" accuracy="427" goalkeeping="55" heading="348"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="14076">
+    <personal name="Rostislav Kisa">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="672" risktaking="465" offensive="709" aggressive="207" consistent="605" creative="378" experienced="395"/>
+    <skills stamina="372" dexterity="354" speed="257" tackling="390" passing="355" shooting="392" control="297" accuracy="332" goalkeeping="70" heading="342"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="14077">
+    <personal name="Emil Rilke">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="643" risktaking="267" offensive="682" aggressive="749" consistent="413" creative="419" experienced="572"/>
+    <skills stamina="408" dexterity="444" speed="350" tackling="469" passing="298" shooting="464" control="351" accuracy="440" goalkeeping="60" heading="446"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14078">
+    <personal name="Jan Svatek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="367" risktaking="438" offensive="610" aggressive="466" consistent="314" creative="405" experienced="529"/>
+    <skills stamina="152" dexterity="661" speed="609" tackling="439" passing="399" shooting="332" control="301" accuracy="457" goalkeeping="63" heading="412"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14079">
+    <personal name="Ladislav Grubhoffer">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="521" risktaking="347" offensive="216" aggressive="734" consistent="527" creative="309" experienced="364"/>
+    <skills stamina="421" dexterity="545" speed="319" tackling="385" passing="409" shooting="379" control="313" accuracy="467" goalkeeping="43" heading="373"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="14080">
+    <personal name="Roman Pavlik">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="604" risktaking="643" offensive="690" aggressive="555" consistent="215" creative="595" experienced="628"/>
+    <skills stamina="547" dexterity="456" speed="591" tackling="167" passing="348" shooting="396" control="329" accuracy="148" goalkeeping="441" heading="208"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14081">
+    <personal name="Zoltan Miski">
+      <appearance value="0"/>
+      <nationality value="Hungary"/>
+    </personal>
+    <personality active="673" risktaking="381" offensive="494" aggressive="822" consistent="417" creative="401" experienced="488"/>
+    <skills stamina="619" dexterity="498" speed="642" tackling="149" passing="253" shooting="392" control="318" accuracy="183" goalkeeping="463" heading="163"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14082">
+    <personal name="Chris Williams">
+      <appearance value="1"/>
+      <nationality value="Canada"/>
+    </personal>
+    <personality active="670" risktaking="586" offensive="580" aggressive="556" consistent="284" creative="674" experienced="323"/>
+    <skills stamina="701" dexterity="207" speed="445" tackling="335" passing="286" shooting="449" control="365" accuracy="448" goalkeeping="60" heading="324"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14083">
+    <personal name="Lukas Killar">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="474" risktaking="483" offensive="627" aggressive="482" consistent="635" creative="604" experienced="552"/>
+    <skills stamina="538" dexterity="572" speed="495" tackling="370" passing="291" shooting="448" control="443" accuracy="422" goalkeeping="45" heading="328"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14084">
+    <personal name="Patrik Gross">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="511" risktaking="584" offensive="474" aggressive="254" consistent="478" creative="414" experienced="629"/>
+    <skills stamina="295" dexterity="270" speed="273" tackling="376" passing="256" shooting="423" control="475" accuracy="250" goalkeeping="46" heading="334"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14085">
+    <personal name="Marian Farbak">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="778" risktaking="467" offensive="444" aggressive="306" consistent="497" creative="624" experienced="758"/>
+    <skills stamina="574" dexterity="276" speed="199" tackling="431" passing="447" shooting="365" control="416" accuracy="427" goalkeeping="59" heading="276"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14086">
+    <personal name="Josef Hoffmann">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="677" risktaking="698" offensive="614" aggressive="748" consistent="354" creative="354" experienced="559"/>
+    <skills stamina="228" dexterity="481" speed="491" tackling="283" passing="407" shooting="434" control="349" accuracy="408" goalkeeping="63" heading="280"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14087">
+    <personal name="Borek Dockal">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="569" risktaking="650" offensive="423" aggressive="607" consistent="481" creative="361" experienced="565"/>
+    <skills stamina="496" dexterity="451" speed="494" tackling="379" passing="344" shooting="371" control="357" accuracy="449" goalkeeping="67" heading="399"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14088">
+    <personal name="Tomas Ciganek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="361" risktaking="481" offensive="682" aggressive="602" consistent="584" creative="784" experienced="622"/>
+    <skills stamina="318" dexterity="271" speed="532" tackling="384" passing="395" shooting="425" control="489" accuracy="441" goalkeeping="69" heading="345"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14089">
+    <personal name="David Hlava">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="590" risktaking="508" offensive="781" aggressive="492" consistent="687" creative="377" experienced="538"/>
+    <skills stamina="634" dexterity="555" speed="326" tackling="413" passing="481" shooting="279" control="353" accuracy="351" goalkeeping="60" heading="381"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14090">
+    <personal name="Ondrej Szabo">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="442" risktaking="351" offensive="567" aggressive="696" consistent="631" creative="660" experienced="389"/>
+    <skills stamina="298" dexterity="692" speed="256" tackling="326" passing="437" shooting="388" control="328" accuracy="427" goalkeeping="48" heading="384"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14091">
+    <personal name="Tomas Cap">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="570" risktaking="547" offensive="653" aggressive="570" consistent="570" creative="288" experienced="334"/>
+    <skills stamina="507" dexterity="481" speed="450" tackling="400" passing="473" shooting="386" control="324" accuracy="427" goalkeeping="55" heading="270"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14092">
+    <personal name="Radek Selicha">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="401" risktaking="533" offensive="658" aggressive="418" consistent="801" creative="569" experienced="518"/>
+    <skills stamina="241" dexterity="675" speed="533" tackling="493" passing="332" shooting="415" control="376" accuracy="346" goalkeeping="64" heading="409"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14093">
+    <personal name="Avdija Vrsajevic">
+      <appearance value="8"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="500" risktaking="268" offensive="515" aggressive="339" consistent="563" creative="350" experienced="538"/>
+    <skills stamina="355" dexterity="449" speed="705" tackling="433" passing="340" shooting="502" control="350" accuracy="500" goalkeeping="84" heading="536"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="14094">
+    <personal name="Miloslav Kousal">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="618" risktaking="467" offensive="633" aggressive="543" consistent="392" creative="512" experienced="481"/>
+    <skills stamina="213" dexterity="590" speed="337" tackling="399" passing="284" shooting="475" control="270" accuracy="347" goalkeeping="55" heading="482"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="14095">
+    <personal name="Jiri Jeslinek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="560" risktaking="644" offensive="734" aggressive="431" consistent="677" creative="703" experienced="552"/>
+    <skills stamina="332" dexterity="241" speed="242" tackling="427" passing="372" shooting="338" control="413" accuracy="459" goalkeeping="67" heading="384"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14096">
+    <personal name="Martin Svoboda">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="605" risktaking="583" offensive="403" aggressive="468" consistent="285" creative="552" experienced="417"/>
+    <skills stamina="170" dexterity="625" speed="312" tackling="214" passing="431" shooting="441" control="300" accuracy="169" goalkeeping="387" heading="216"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14097">
+    <personal name="Lupce Acevski">
+      <appearance value="0"/>
+      <nationality value="Australia"/>
+    </personal>
+    <personality active="479" risktaking="482" offensive="365" aggressive="677" consistent="563" creative="606" experienced="454"/>
+    <skills stamina="411" dexterity="121" speed="665" tackling="201" passing="248" shooting="247" control="251" accuracy="180" goalkeeping="448" heading="210"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14098">
+    <personal name="Jan Prochazka">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="688" risktaking="391" offensive="363" aggressive="231" consistent="453" creative="634" experienced="321"/>
+    <skills stamina="223" dexterity="601" speed="540" tackling="411" passing="351" shooting="369" control="466" accuracy="447" goalkeeping="50" heading="450"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14099">
+    <personal name="Vitali Trubilo">
+      <appearance value="0"/>
+      <nationality value="Belarus"/>
+    </personal>
+    <personality active="384" risktaking="214" offensive="426" aggressive="605" consistent="281" creative="461" experienced="576"/>
+    <skills stamina="465" dexterity="316" speed="626" tackling="432" passing="456" shooting="385" control="319" accuracy="253" goalkeeping="51" heading="337"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14100">
+    <personal name="Petr Johana">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="845" risktaking="414" offensive="346" aggressive="562" consistent="159" creative="333" experienced="618"/>
+    <skills stamina="493" dexterity="535" speed="595" tackling="460" passing="376" shooting="463" control="529" accuracy="393" goalkeeping="86" heading="428"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14101">
+    <personal name="Andre Hainault">
+      <appearance value="8"/>
+      <nationality value="Canada"/>
+    </personal>
+    <personality active="435" risktaking="819" offensive="330" aggressive="397" consistent="603" creative="360" experienced="511"/>
+    <skills stamina="416" dexterity="257" speed="628" tackling="480" passing="428" shooting="471" control="433" accuracy="433" goalkeeping="75" heading="291"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14102">
+    <personal name="Ladislav Jamrich">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="446" risktaking="393" offensive="359" aggressive="532" consistent="591" creative="418" experienced="397"/>
+    <skills stamina="208" dexterity="561" speed="504" tackling="307" passing="439" shooting="279" control="309" accuracy="316" goalkeeping="69" heading="346"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14103">
+    <personal name="Ondrej Prasil">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="360" risktaking="570" offensive="289" aggressive="433" consistent="622" creative="524" experienced="407"/>
+    <skills stamina="514" dexterity="418" speed="639" tackling="418" passing="408" shooting="364" control="421" accuracy="417" goalkeeping="64" heading="412"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14104">
+    <personal name="Patrick Oboya">
+      <appearance value="1"/>
+      <nationality value="Kenia"/>
+    </personal>
+    <personality active="379" risktaking="403" offensive="693" aggressive="449" consistent="390" creative="445" experienced="610"/>
+    <skills stamina="649" dexterity="595" speed="222" tackling="362" passing="292" shooting="322" control="282" accuracy="405" goalkeeping="47" heading="368"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14105">
+    <personal name="Vincent Mendy">
+      <appearance value="1"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="511" risktaking="628" offensive="555" aggressive="461" consistent="412" creative="340" experienced="579"/>
+    <skills stamina="630" dexterity="402" speed="131" tackling="364" passing="258" shooting="274" control="459" accuracy="433" goalkeeping="55" heading="315"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14106">
+    <personal name="Byron Webster">
+      <appearance value="8"/>
+      <nationality value="England"/>
+    </personal>
+    <personality active="675" risktaking="768" offensive="745" aggressive="669" consistent="508" creative="297" experienced="384"/>
+    <skills stamina="272" dexterity="320" speed="497" tackling="385" passing="338" shooting="255" control="407" accuracy="241" goalkeeping="67" heading="437"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14107">
+    <personal name="Andrei">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="323" risktaking="549" offensive="344" aggressive="606" consistent="532" creative="374" experienced="669"/>
+    <skills stamina="568" dexterity="577" speed="558" tackling="446" passing="414" shooting="435" control="274" accuracy="411" goalkeeping="51" heading="364"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14108">
+    <personal name="Tomas Pilar">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="444" risktaking="499" offensive="288" aggressive="747" consistent="495" creative="590" experienced="523"/>
+    <skills stamina="211" dexterity="240" speed="202" tackling="310" passing="341" shooting="356" control="472" accuracy="359" goalkeeping="70" heading="292"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14109">
+    <personal name="Vaclav Stipek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="607" risktaking="590" offensive="277" aggressive="231" consistent="441" creative="544" experienced="634"/>
+    <skills stamina="648" dexterity="130" speed="632" tackling="369" passing="271" shooting="501" control="439" accuracy="382" goalkeeping="74" heading="381"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14110">
+    <personal name="Petros Philippakos">
+      <appearance value="0"/>
+      <nationality value="Greece"/>
+    </personal>
+    <personality active="376" risktaking="742" offensive="655" aggressive="723" consistent="613" creative="736" experienced="486"/>
+    <skills stamina="446" dexterity="213" speed="572" tackling="311" passing="315" shooting="345" control="417" accuracy="352" goalkeeping="54" heading="364"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="14111">
+    <personal name="Jan Holenda">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="550" risktaking="630" offensive="524" aggressive="620" consistent="606" creative="306" experienced="556"/>
+    <skills stamina="463" dexterity="149" speed="528" tackling="313" passing="489" shooting="509" control="437" accuracy="517" goalkeeping="63" heading="454"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14112">
+    <personal name="Petr Drobisz">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="576" risktaking="662" offensive="554" aggressive="382" consistent="640" creative="617" experienced="346"/>
+    <skills stamina="323" dexterity="512" speed="425" tackling="142" passing="386" shooting="441" control="231" accuracy="160" goalkeeping="393" heading="213"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="14113">
+    <personal name="Tomas Lovasik">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="553" risktaking="739" offensive="401" aggressive="537" consistent="646" creative="332" experienced="436"/>
+    <skills stamina="414" dexterity="411" speed="377" tackling="150" passing="329" shooting="444" control="268" accuracy="209" goalkeeping="523" heading="163"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14114">
+    <personal name="Tomas Randa">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="623" risktaking="596" offensive="551" aggressive="354" consistent="441" creative="724" experienced="533"/>
+    <skills stamina="352" dexterity="667" speed="410" tackling="450" passing="420" shooting="293" control="383" accuracy="394" goalkeeping="55" heading="332"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14115">
+    <personal name="Dejan Jurkic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="471" risktaking="475" offensive="703" aggressive="405" consistent="592" creative="540" experienced="517"/>
+    <skills stamina="222" dexterity="409" speed="201" tackling="338" passing="387" shooting="447" control="463" accuracy="330" goalkeeping="71" heading="314"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14116">
+    <personal name="Ales Skerle">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="623" risktaking="552" offensive="441" aggressive="456" consistent="547" creative="708" experienced="190"/>
+    <skills stamina="589" dexterity="497" speed="274" tackling="285" passing="285" shooting="305" control="331" accuracy="330" goalkeeping="69" heading="464"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14117">
+    <personal name="Martin Hudec">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="582" risktaking="489" offensive="528" aggressive="659" consistent="729" creative="310" experienced="374"/>
+    <skills stamina="276" dexterity="535" speed="595" tackling="435" passing="284" shooting="455" control="324" accuracy="469" goalkeeping="79" heading="379"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="14118">
+    <personal name="Radek Spilacek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="335" risktaking="448" offensive="598" aggressive="563" consistent="419" creative="592" experienced="834"/>
+    <skills stamina="653" dexterity="633" speed="279" tackling="418" passing="408" shooting="285" control="356" accuracy="422" goalkeeping="54" heading="274"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14119">
+    <personal name="Martin Pulkert">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="514" risktaking="705" offensive="959" aggressive="508" consistent="682" creative="656" experienced="358"/>
+    <skills stamina="513" dexterity="524" speed="516" tackling="415" passing="485" shooting="369" control="326" accuracy="263" goalkeeping="49" heading="317"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14120">
+    <personal name="Ladislav Onofrej">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="668" risktaking="285" offensive="596" aggressive="229" consistent="550" creative="724" experienced="483"/>
+    <skills stamina="575" dexterity="225" speed="636" tackling="422" passing="427" shooting="395" control="323" accuracy="469" goalkeeping="69" heading="312"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14121">
+    <personal name="Filip Rydel">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="384" risktaking="484" offensive="588" aggressive="545" consistent="336" creative="460" experienced="554"/>
+    <skills stamina="488" dexterity="419" speed="339" tackling="382" passing="474" shooting="346" control="416" accuracy="271" goalkeeping="67" heading="443"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14122">
+    <personal name="Melinho">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="506" risktaking="550" offensive="746" aggressive="518" consistent="547" creative="112" experienced="405"/>
+    <skills stamina="313" dexterity="260" speed="381" tackling="537" passing="448" shooting="418" control="464" accuracy="416" goalkeeping="65" heading="457"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14123">
+    <personal name="Josef Jindrisek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="363" risktaking="278" offensive="307" aggressive="451" consistent="641" creative="571" experienced="927"/>
+    <skills stamina="225" dexterity="575" speed="664" tackling="419" passing="456" shooting="388" control="495" accuracy="427" goalkeeping="50" heading="361"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="14124">
+    <personal name="Michal Hubnik">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="857" risktaking="505" offensive="578" aggressive="362" consistent="496" creative="322" experienced="898"/>
+    <skills stamina="590" dexterity="622" speed="640" tackling="366" passing="373" shooting="413" control="285" accuracy="451" goalkeeping="71" heading="405"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14125">
+    <personal name="Lukas Hartig">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="443" risktaking="691" offensive="468" aggressive="220" consistent="634" creative="536" experienced="637"/>
+    <skills stamina="500" dexterity="585" speed="435" tackling="449" passing="363" shooting="443" control="336" accuracy="426" goalkeeping="81" heading="378"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="14126">
+    <personal name="David Rojka">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="361" risktaking="369" offensive="355" aggressive="587" consistent="545" creative="231" experienced="345"/>
+    <skills stamina="402" dexterity="598" speed="598" tackling="413" passing="450" shooting="328" control="354" accuracy="460" goalkeeping="71" heading="328"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14127">
+    <personal name="Vojtech Schulmeister">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="552" risktaking="417" offensive="430" aggressive="494" consistent="528" creative="583" experienced="618"/>
+    <skills stamina="680" dexterity="513" speed="403" tackling="426" passing="327" shooting="316" control="357" accuracy="513" goalkeeping="55" heading="345"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14128">
+    <personal name="Martin Vaniak">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="632" risktaking="511" offensive="466" aggressive="500" consistent="663" creative="593" experienced="588"/>
+    <skills stamina="612" dexterity="631" speed="259" tackling="260" passing="544" shooting="386" control="438" accuracy="215" goalkeeping="413" heading="204"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14129">
+    <personal name="Michal Vorel">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="462" risktaking="601" offensive="671" aggressive="367" consistent="355" creative="500" experienced="561"/>
+    <skills stamina="627" dexterity="458" speed="303" tackling="275" passing="517" shooting="432" control="423" accuracy="228" goalkeeping="532" heading="266"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="14130">
+    <personal name="Erich Brabec">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="299" risktaking="341" offensive="480" aggressive="352" consistent="276" creative="556" experienced="311"/>
+    <skills stamina="547" dexterity="465" speed="492" tackling="468" passing="489" shooting="525" control="505" accuracy="416" goalkeeping="70" heading="399"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14131">
+    <personal name="David Hubacek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="598" risktaking="396" offensive="479" aggressive="387" consistent="396" creative="455" experienced="441"/>
+    <skills stamina="669" dexterity="455" speed="397" tackling="403" passing="387" shooting="447" control="417" accuracy="395" goalkeeping="91" heading="541"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14132">
+    <personal name="Martin Latka">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="506" risktaking="513" offensive="459" aggressive="606" consistent="738" creative="584" experienced="491"/>
+    <skills stamina="540" dexterity="328" speed="458" tackling="649" passing="663" shooting="532" control="603" accuracy="440" goalkeeping="73" heading="571"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14133">
+    <personal name="Marek Suchy">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="695" risktaking="852" offensive="306" aggressive="423" consistent="605" creative="914" experienced="721"/>
+    <skills stamina="345" dexterity="545" speed="374" tackling="576" passing="527" shooting="410" control="468" accuracy="465" goalkeeping="70" heading="525"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="14134">
+    <personal name="Mickael Tavares">
+      <appearance value="1"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="343" risktaking="397" offensive="493" aggressive="496" consistent="567" creative="524" experienced="339"/>
+    <skills stamina="693" dexterity="330" speed="502" tackling="518" passing="500" shooting="412" control="467" accuracy="519" goalkeeping="81" heading="499"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14135">
+    <personal name="Daniel Pudil">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="453" risktaking="478" offensive="354" aggressive="599" consistent="677" creative="493" experienced="545"/>
+    <skills stamina="394" dexterity="527" speed="437" tackling="423" passing="635" shooting="462" control="489" accuracy="426" goalkeeping="93" heading="538"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14136">
+    <personal name="Matej Krajcik">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="230" risktaking="306" offensive="345" aggressive="262" consistent="446" creative="411" experienced="241"/>
+    <skills stamina="385" dexterity="475" speed="469" tackling="494" passing="600" shooting="514" control="564" accuracy="548" goalkeeping="102" heading="448"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14137">
+    <personal name="Dusan Svento">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="560" risktaking="507" offensive="355" aggressive="632" consistent="463" creative="595" experienced="495"/>
+    <skills stamina="387" dexterity="604" speed="395" tackling="661" passing="550" shooting="497" control="561" accuracy="688" goalkeeping="85" heading="549"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14138">
+    <personal name="Vladimir Smicer">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="663" risktaking="344" offensive="759" aggressive="459" consistent="347" creative="472" experienced="539"/>
+    <skills stamina="712" dexterity="354" speed="450" tackling="476" passing="560" shooting="463" control="570" accuracy="560" goalkeeping="82" heading="548"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14139">
+    <personal name="Michal Svec">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="689" risktaking="406" offensive="638" aggressive="459" consistent="395" creative="304" experienced="467"/>
+    <skills stamina="273" dexterity="443" speed="185" tackling="533" passing="432" shooting="528" control="529" accuracy="498" goalkeeping="70" heading="562"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14140">
+    <personal name="David Kalivoda">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="451" risktaking="440" offensive="569" aggressive="445" consistent="585" creative="406" experienced="253"/>
+    <skills stamina="434" dexterity="521" speed="529" tackling="522" passing="451" shooting="575" control="453" accuracy="482" goalkeeping="84" heading="434"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14141">
+    <personal name="Tijani Belaid">
+      <appearance value="0"/>
+      <nationality value="Tunisia"/>
+    </personal>
+    <personality active="470" risktaking="643" offensive="307" aggressive="682" consistent="476" creative="533" experienced="604"/>
+    <skills stamina="716" dexterity="707" speed="435" tackling="543" passing="462" shooting="480" control="529" accuracy="539" goalkeeping="83" heading="460"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14142">
+    <personal name="Zdenek Senkerik">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="313" risktaking="609" offensive="518" aggressive="437" consistent="617" creative="561" experienced="409"/>
+    <skills stamina="711" dexterity="687" speed="234" tackling="504" passing="431" shooting="506" control="541" accuracy="583" goalkeeping="88" heading="494"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14143">
+    <personal name="Stanislav Vlcek">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="608" risktaking="288" offensive="633" aggressive="573" consistent="391" creative="490" experienced="669"/>
+    <skills stamina="315" dexterity="545" speed="703" tackling="570" passing="551" shooting="629" control="530" accuracy="548" goalkeeping="83" heading="572"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="14144">
+    <personal name="Zdenek Zlamal">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="389" risktaking="431" offensive="684" aggressive="629" consistent="164" creative="426" experienced="447"/>
+    <skills stamina="289" dexterity="592" speed="307" tackling="134" passing="358" shooting="294" control="211" accuracy="192" goalkeeping="518" heading="132"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="14145">
+    <personal name="Zbynek Hauzr">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="692" risktaking="682" offensive="696" aggressive="803" consistent="665" creative="737" experienced="614"/>
+    <skills stamina="579" dexterity="562" speed="276" tackling="167" passing="287" shooting="254" control="320" accuracy="134" goalkeeping="364" heading="189"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14146">
+    <personal name="Miroslav Holenak">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="505" risktaking="238" offensive="584" aggressive="335" consistent="462" creative="523" experienced="243"/>
+    <skills stamina="451" dexterity="599" speed="383" tackling="470" passing="470" shooting="495" control="554" accuracy="432" goalkeeping="85" heading="369"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14147">
+    <personal name="Tomas Janu">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="230" risktaking="648" offensive="418" aggressive="508" consistent="440" creative="626" experienced="402"/>
+    <skills stamina="355" dexterity="184" speed="530" tackling="377" passing="401" shooting="291" control="418" accuracy="478" goalkeeping="78" heading="396"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14148">
+    <personal name="Adam Petrous">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="477" risktaking="517" offensive="479" aggressive="638" consistent="626" creative="535" experienced="383"/>
+    <skills stamina="624" dexterity="567" speed="241" tackling="683" passing="566" shooting="527" control="619" accuracy="482" goalkeeping="73" heading="627"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="14149">
+    <personal name="Radek Bejbl">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="959" risktaking="254" offensive="536" aggressive="571" consistent="243" creative="522" experienced="238"/>
+    <skills stamina="256" dexterity="281" speed="680" tackling="475" passing="545" shooting="405" control="423" accuracy="514" goalkeeping="94" heading="471"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14150">
+    <personal name="Diego Lattmann">
+      <appearance value="0"/>
+      <nationality value="Switzerland"/>
+    </personal>
+    <personality active="448" risktaking="615" offensive="277" aggressive="634" consistent="581" creative="513" experienced="608"/>
+    <skills stamina="638" dexterity="599" speed="440" tackling="384" passing="316" shooting="385" control="321" accuracy="310" goalkeeping="55" heading="458"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14151">
+    <personal name="Petr Papousek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="692" risktaking="443" offensive="343" aggressive="291" consistent="366" creative="486" experienced="330"/>
+    <skills stamina="433" dexterity="489" speed="400" tackling="432" passing="467" shooting="428" control="493" accuracy="472" goalkeeping="71" heading="310"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14152">
+    <personal name="Tomas Frejlach">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="647" risktaking="441" offensive="626" aggressive="518" consistent="630" creative="457" experienced="850"/>
+    <skills stamina="395" dexterity="653" speed="620" tackling="471" passing="378" shooting="334" control="484" accuracy="365" goalkeeping="81" heading="452"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14153">
+    <personal name="Ivan Hodur">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="601" risktaking="223" offensive="342" aggressive="718" consistent="372" creative="724" experienced="377"/>
+    <skills stamina="585" dexterity="345" speed="236" tackling="414" passing="399" shooting="496" control="493" accuracy="303" goalkeeping="68" heading="314"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14154">
+    <personal name="Michal Jonas">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="784" risktaking="507" offensive="732" aggressive="488" consistent="629" creative="420" experienced="620"/>
+    <skills stamina="218" dexterity="497" speed="379" tackling="515" passing="302" shooting="389" control="306" accuracy="411" goalkeeping="50" heading="323"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14155">
+    <personal name="Jan Broschinsky">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="442" risktaking="544" offensive="630" aggressive="561" consistent="503" creative="640" experienced="707"/>
+    <skills stamina="290" dexterity="675" speed="147" tackling="403" passing="363" shooting="393" control="389" accuracy="435" goalkeeping="40" heading="260"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14156">
+    <personal name="Jan Nezmar">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="364" risktaking="113" offensive="665" aggressive="662" consistent="208" creative="531" experienced="515"/>
+    <skills stamina="395" dexterity="385" speed="598" tackling="428" passing="317" shooting="515" control="400" accuracy="402" goalkeeping="69" heading="464"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14157">
+    <personal name="Jan Blazek">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="751" risktaking="517" offensive="413" aggressive="482" consistent="610" creative="369" experienced="604"/>
+    <skills stamina="556" dexterity="664" speed="627" tackling="364" passing="281" shooting="416" control="302" accuracy="289" goalkeeping="44" heading="418"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14158">
+    <personal name="Peter Singlar">
+      <appearance value="8"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="224" risktaking="327" offensive="438" aggressive="698" consistent="379" creative="207" experienced="610"/>
+    <skills stamina="395" dexterity="671" speed="593" tackling="375" passing="455" shooting="281" control="450" accuracy="261" goalkeeping="48" heading="373"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14159">
+    <personal name="Jakub Dohnalek">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="404" risktaking="261" offensive="320" aggressive="480" consistent="377" creative="506" experienced="262"/>
+    <skills stamina="408" dexterity="370" speed="414" tackling="307" passing="293" shooting="339" control="262" accuracy="370" goalkeeping="70" heading="265"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14160">
+    <personal name="Matus Kozacik">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="633" risktaking="378" offensive="416" aggressive="261" consistent="861" creative="484" experienced="705"/>
+    <skills stamina="515" dexterity="197" speed="722" tackling="215" passing="553" shooting="474" control="364" accuracy="188" goalkeeping="625" heading="244"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14161">
+    <personal name="Tomas Postulka">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="556" risktaking="722" offensive="581" aggressive="368" consistent="434" creative="288" experienced="383"/>
+    <skills stamina="330" dexterity="711" speed="500" tackling="243" passing="491" shooting="465" control="393" accuracy="215" goalkeeping="461" heading="272"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="14162">
+    <personal name="Zdenek Pospech">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="595" risktaking="558" offensive="619" aggressive="475" consistent="209" creative="261" experienced="493"/>
+    <skills stamina="580" dexterity="677" speed="287" tackling="488" passing="474" shooting="538" control="552" accuracy="541" goalkeeping="69" heading="400"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14163">
+    <personal name="Michal Kadlec">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="241" risktaking="654" offensive="401" aggressive="360" consistent="559" creative="749" experienced="380"/>
+    <skills stamina="753" dexterity="320" speed="685" tackling="528" passing="575" shooting="587" control="534" accuracy="477" goalkeeping="82" heading="572"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14164">
+    <personal name="Tomas Repka">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="491" risktaking="607" offensive="559" aggressive="272" consistent="518" creative="538" experienced="497"/>
+    <skills stamina="262" dexterity="402" speed="544" tackling="639" passing="537" shooting="571" control="615" accuracy="550" goalkeeping="104" heading="544"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="14165">
+    <personal name="Jiri Kladrubsky">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="511" risktaking="593" offensive="475" aggressive="337" consistent="422" creative="254" experienced="467"/>
+    <skills stamina="446" dexterity="638" speed="435" tackling="565" passing="397" shooting="549" control="524" accuracy="369" goalkeeping="71" heading="409"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14166">
+    <personal name="Pavel Mares">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="376" risktaking="499" offensive="326" aggressive="571" consistent="630" creative="482" experienced="436"/>
+    <skills stamina="632" dexterity="410" speed="541" tackling="512" passing="568" shooting="463" control="537" accuracy="539" goalkeeping="64" heading="495"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14167">
+    <personal name="Martin Abraham">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="650" risktaking="583" offensive="673" aggressive="551" consistent="629" creative="624" experienced="747"/>
+    <skills stamina="505" dexterity="200" speed="377" tackling="528" passing="503" shooting="482" control="416" accuracy="454" goalkeeping="59" heading="384"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14168">
+    <personal name="Karol Kisel">
+      <appearance value="8"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="508" risktaking="426" offensive="468" aggressive="398" consistent="630" creative="773" experienced="524"/>
+    <skills stamina="672" dexterity="576" speed="619" tackling="497" passing="453" shooting="522" control="419" accuracy="505" goalkeeping="63" heading="343"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14169">
+    <personal name="Miroslav Slepicka">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="364" risktaking="913" offensive="524" aggressive="511" consistent="365" creative="393" experienced="619"/>
+    <skills stamina="584" dexterity="278" speed="550" tackling="519" passing="468" shooting="467" control="454" accuracy="463" goalkeeping="92" heading="534"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="14170">
+    <personal name="Pavel Horvath">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="357" risktaking="510" offensive="731" aggressive="679" consistent="456" creative="700" experienced="745"/>
+    <skills stamina="379" dexterity="532" speed="307" tackling="523" passing="579" shooting="550" control="573" accuracy="398" goalkeeping="75" heading="505"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14171">
+    <personal name="Ludovic Sylvestre">
+      <appearance value="1"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="511" risktaking="198" offensive="620" aggressive="429" consistent="455" creative="648" experienced="451"/>
+    <skills stamina="441" dexterity="415" speed="196" tackling="375" passing="533" shooting="516" control="500" accuracy="417" goalkeeping="75" heading="538"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14172">
+    <personal name="Lubos Husek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="756" risktaking="521" offensive="792" aggressive="774" consistent="263" creative="472" experienced="476"/>
+    <skills stamina="675" dexterity="682" speed="514" tackling="483" passing="497" shooting="415" control="504" accuracy="367" goalkeeping="60" heading="479"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14173">
+    <personal name="Libor Dosek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="750" risktaking="459" offensive="569" aggressive="515" consistent="387" creative="694" experienced="691"/>
+    <skills stamina="679" dexterity="350" speed="621" tackling="568" passing="606" shooting="690" control="569" accuracy="537" goalkeeping="92" heading="635"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="14174">
+    <personal name="Marek Kulic">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="451" risktaking="412" offensive="539" aggressive="338" consistent="560" creative="825" experienced="620"/>
+    <skills stamina="726" dexterity="480" speed="575" tackling="562" passing="487" shooting="587" control="560" accuracy="677" goalkeeping="85" heading="465"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14175">
+    <personal name="Jan Rezek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="460" risktaking="750" offensive="373" aggressive="658" consistent="778" creative="309" experienced="563"/>
+    <skills stamina="248" dexterity="697" speed="312" tackling="433" passing="419" shooting="567" control="421" accuracy="538" goalkeeping="90" heading="437"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14176">
+    <personal name="Vit Baranek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="733" risktaking="364" offensive="658" aggressive="543" consistent="323" creative="575" experienced="393"/>
+    <skills stamina="577" dexterity="617" speed="648" tackling="180" passing="314" shooting="327" control="323" accuracy="141" goalkeeping="520" heading="219"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14177">
+    <personal name="Ales Korinek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="496" risktaking="497" offensive="555" aggressive="597" consistent="294" creative="588" experienced="562"/>
+    <skills stamina="663" dexterity="233" speed="383" tackling="146" passing="381" shooting="324" control="323" accuracy="122" goalkeeping="405" heading="155"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14178">
+    <personal name="Vlastimil Vidlicka">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="717" risktaking="545" offensive="280" aggressive="526" consistent="435" creative="422" experienced="435"/>
+    <skills stamina="212" dexterity="548" speed="365" tackling="373" passing="500" shooting="379" control="410" accuracy="464" goalkeeping="74" heading="420"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14179">
+    <personal name="Jan Jelinek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="273" risktaking="423" offensive="533" aggressive="621" consistent="505" creative="721" experienced="485"/>
+    <skills stamina="656" dexterity="228" speed="132" tackling="305" passing="361" shooting="313" control="330" accuracy="404" goalkeeping="71" heading="437"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14180">
+    <personal name="Ivo Zbozinek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="552" risktaking="705" offensive="437" aggressive="404" consistent="597" creative="434" experienced="624"/>
+    <skills stamina="656" dexterity="532" speed="558" tackling="336" passing="441" shooting="365" control="325" accuracy="284" goalkeeping="53" heading="288"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="14181">
+    <personal name="Jaroslav Svach">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="334" risktaking="508" offensive="489" aggressive="328" consistent="250" creative="480" experienced="555"/>
+    <skills stamina="331" dexterity="663" speed="342" tackling="367" passing="442" shooting="420" control="297" accuracy="342" goalkeeping="72" heading="439"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14182">
+    <personal name="Zdenek Kroca">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="741" risktaking="577" offensive="464" aggressive="512" consistent="647" creative="544" experienced="592"/>
+    <skills stamina="581" dexterity="674" speed="361" tackling="460" passing="470" shooting="403" control="394" accuracy="389" goalkeeping="43" heading="389"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14183">
+    <personal name="David Smahaj">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="416" risktaking="497" offensive="761" aggressive="538" consistent="507" creative="618" experienced="726"/>
+    <skills stamina="583" dexterity="675" speed="656" tackling="331" passing="426" shooting="257" control="281" accuracy="331" goalkeeping="44" heading="340"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14184">
+    <personal name="Martin Vyskocil">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="536" risktaking="374" offensive="432" aggressive="510" consistent="431" creative="294" experienced="377"/>
+    <skills stamina="546" dexterity="252" speed="493" tackling="270" passing="324" shooting="413" control="424" accuracy="282" goalkeeping="54" heading="318"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14185">
+    <personal name="Vaclav Zapletal">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="818" risktaking="565" offensive="637" aggressive="690" consistent="409" creative="682" experienced="509"/>
+    <skills stamina="543" dexterity="358" speed="419" tackling="444" passing="422" shooting="409" control="488" accuracy="310" goalkeeping="74" heading="456"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14186">
+    <personal name="Vit Vrtelka">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="266" risktaking="525" offensive="578" aggressive="460" consistent="514" creative="562" experienced="385"/>
+    <skills stamina="502" dexterity="412" speed="634" tackling="441" passing="397" shooting="382" control="439" accuracy="423" goalkeeping="75" heading="375"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14187">
+    <personal name="Lukas Opiela">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="680" risktaking="786" offensive="359" aggressive="625" consistent="418" creative="684" experienced="587"/>
+    <skills stamina="566" dexterity="497" speed="312" tackling="457" passing="334" shooting="332" control="322" accuracy="367" goalkeeping="66" heading="384"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14188">
+    <personal name="Martin Bielik">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="106" risktaking="563" offensive="563" aggressive="666" consistent="344" creative="682" experienced="604"/>
+    <skills stamina="503" dexterity="320" speed="651" tackling="263" passing="335" shooting="489" control="277" accuracy="380" goalkeeping="47" heading="426"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14189">
+    <personal name="Jan Kraus">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="616" risktaking="574" offensive="589" aggressive="658" consistent="461" creative="331" experienced="513"/>
+    <skills stamina="342" dexterity="613" speed="144" tackling="329" passing="294" shooting="503" control="437" accuracy="480" goalkeeping="47" heading="364"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14190">
+    <personal name="Libor Zurek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="460" risktaking="380" offensive="332" aggressive="341" consistent="683" creative="611" experienced="263"/>
+    <skills stamina="134" dexterity="655" speed="566" tackling="405" passing="396" shooting="343" control="288" accuracy="453" goalkeeping="54" heading="412"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14191">
+    <personal name="Martin Baca">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="768" risktaking="520" offensive="608" aggressive="484" consistent="346" creative="298" experienced="629"/>
+    <skills stamina="479" dexterity="421" speed="301" tackling="292" passing="355" shooting="435" control="280" accuracy="443" goalkeeping="43" heading="357"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14192">
+    <personal name="Miroslav Miller">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="548" risktaking="542" offensive="320" aggressive="287" consistent="515" creative="400" experienced="544"/>
+    <skills stamina="655" dexterity="544" speed="369" tackling="277" passing="389" shooting="554" control="362" accuracy="232" goalkeeping="610" heading="209"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14193">
+    <personal name="Petr Pizanowski">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="502" risktaking="699" offensive="335" aggressive="198" consistent="592" creative="781" experienced="414"/>
+    <skills stamina="572" dexterity="681" speed="639" tackling="256" passing="510" shooting="354" control="368" accuracy="245" goalkeeping="572" heading="176"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14194">
+    <personal name="Frantisek Sevinsky">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="324" risktaking="530" offensive="641" aggressive="551" consistent="681" creative="262" experienced="358"/>
+    <skills stamina="442" dexterity="521" speed="545" tackling="550" passing="565" shooting="561" control="499" accuracy="411" goalkeeping="83" heading="424"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14195">
+    <personal name="Tomas Hrdlicka">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="452" risktaking="506" offensive="231" aggressive="316" consistent="406" creative="357" experienced="334"/>
+    <skills stamina="539" dexterity="633" speed="295" tackling="615" passing="607" shooting="580" control="508" accuracy="514" goalkeeping="85" heading="573"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14196">
+    <personal name="Adrian Rolko">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="384" risktaking="366" offensive="201" aggressive="587" consistent="524" creative="247" experienced="655"/>
+    <skills stamina="438" dexterity="430" speed="244" tackling="509" passing="445" shooting="386" control="511" accuracy="526" goalkeeping="72" heading="370"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14197">
+    <personal name="Jan Rajnoch">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="520" risktaking="686" offensive="413" aggressive="421" consistent="541" creative="470" experienced="363"/>
+    <skills stamina="588" dexterity="474" speed="500" tackling="465" passing="489" shooting="350" control="478" accuracy="473" goalkeeping="78" heading="405"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14198">
+    <personal name="Jan Riegel">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="365" risktaking="193" offensive="431" aggressive="804" consistent="587" creative="481" experienced="455"/>
+    <skills stamina="432" dexterity="511" speed="662" tackling="445" passing="309" shooting="382" control="306" accuracy="439" goalkeeping="43" heading="312"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="14199">
+    <personal name="Tomas Sedlacek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="316" risktaking="196" offensive="500" aggressive="547" consistent="690" creative="531" experienced="351"/>
+    <skills stamina="590" dexterity="528" speed="300" tackling="499" passing="567" shooting="370" control="463" accuracy="537" goalkeeping="62" heading="532"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14200">
+    <personal name="Tomas Polacek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="713" risktaking="462" offensive="465" aggressive="429" consistent="509" creative="943" experienced="430"/>
+    <skills stamina="685" dexterity="331" speed="721" tackling="493" passing="551" shooting="448" control="477" accuracy="537" goalkeeping="64" heading="453"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14201">
+    <personal name="Milan Kopic">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="536" risktaking="374" offensive="594" aggressive="759" consistent="502" creative="408" experienced="556"/>
+    <skills stamina="451" dexterity="454" speed="318" tackling="423" passing="403" shooting="392" control="495" accuracy="363" goalkeeping="73" heading="418"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14202">
+    <personal name="Petr Vorisek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="629" risktaking="391" offensive="599" aggressive="570" consistent="316" creative="404" experienced="768"/>
+    <skills stamina="471" dexterity="332" speed="260" tackling="463" passing="579" shooting="393" control="482" accuracy="411" goalkeeping="83" heading="419"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="14203">
+    <personal name="Marek Matejovsky">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="492" risktaking="688" offensive="571" aggressive="540" consistent="540" creative="601" experienced="716"/>
+    <skills stamina="321" dexterity="335" speed="724" tackling="545" passing="438" shooting="548" control="473" accuracy="440" goalkeeping="76" heading="544"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14204">
+    <personal name="Ivo Taborsky">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="446" risktaking="614" offensive="342" aggressive="471" consistent="464" creative="565" experienced="488"/>
+    <skills stamina="294" dexterity="469" speed="236" tackling="351" passing="347" shooting="344" control="421" accuracy="457" goalkeeping="53" heading="298"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14205">
+    <personal name="Jan Kysela">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="424" risktaking="633" offensive="492" aggressive="571" consistent="362" creative="361" experienced="645"/>
+    <skills stamina="398" dexterity="225" speed="394" tackling="388" passing="527" shooting="456" control="432" accuracy="452" goalkeeping="90" heading="415"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="14206">
+    <personal name="Radim Holub">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="473" risktaking="613" offensive="100" aggressive="323" consistent="216" creative="343" experienced="673"/>
+    <skills stamina="650" dexterity="278" speed="253" tackling="425" passing="442" shooting="474" control="421" accuracy="431" goalkeeping="92" heading="459"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14207">
+    <personal name="David Brunclik">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="555" risktaking="600" offensive="421" aggressive="543" consistent="579" creative="572" experienced="587"/>
+    <skills stamina="487" dexterity="398" speed="615" tackling="385" passing="442" shooting="338" control="409" accuracy="304" goalkeeping="66" heading="416"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14208">
+    <personal name="Patrik Kolar">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="362" risktaking="552" offensive="394" aggressive="521" consistent="572" creative="723" experienced="360"/>
+    <skills stamina="551" dexterity="662" speed="282" tackling="157" passing="416" shooting="388" control="248" accuracy="177" goalkeeping="438" heading="177"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14209">
+    <personal name="Martin Slavik">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="379" risktaking="636" offensive="633" aggressive="259" consistent="661" creative="249" experienced="410"/>
+    <skills stamina="554" dexterity="383" speed="422" tackling="212" passing="355" shooting="288" control="348" accuracy="184" goalkeeping="369" heading="185"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14210">
+    <personal name="Josef Kaufman">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="326" risktaking="480" offensive="425" aggressive="636" consistent="573" creative="329" experienced="333"/>
+    <skills stamina="651" dexterity="692" speed="395" tackling="415" passing="451" shooting="503" control="505" accuracy="432" goalkeeping="70" heading="456"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14211">
+    <personal name="Vlastimil Ryska">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="329" risktaking="672" offensive="611" aggressive="507" consistent="445" creative="539" experienced="589"/>
+    <skills stamina="176" dexterity="561" speed="449" tackling="316" passing="435" shooting="288" control="292" accuracy="351" goalkeeping="67" heading="344"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14212">
+    <personal name="Petr Lukas">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="477" risktaking="593" offensive="214" aggressive="551" consistent="172" creative="620" experienced="664"/>
+    <skills stamina="187" dexterity="644" speed="349" tackling="470" passing="439" shooting="398" control="484" accuracy="349" goalkeeping="66" heading="490"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14213">
+    <personal name="Martin Klein">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="565" risktaking="757" offensive="408" aggressive="724" consistent="462" creative="615" experienced="521"/>
+    <skills stamina="675" dexterity="430" speed="334" tackling="491" passing="337" shooting="313" control="365" accuracy="486" goalkeeping="59" heading="485"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14214">
+    <personal name="Antonin Rosa">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="463" risktaking="462" offensive="490" aggressive="514" consistent="242" creative="363" experienced="425"/>
+    <skills stamina="218" dexterity="164" speed="634" tackling="399" passing="267" shooting="282" control="320" accuracy="408" goalkeeping="58" heading="263"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14215">
+    <personal name="Pavel Verbir">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="435" risktaking="414" offensive="381" aggressive="625" consistent="805" creative="497" experienced="690"/>
+    <skills stamina="421" dexterity="360" speed="493" tackling="453" passing="363" shooting="488" control="497" accuracy="394" goalkeeping="52" heading="393"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14216">
+    <personal name="Michal Gasparik">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="553" risktaking="458" offensive="557" aggressive="493" consistent="575" creative="562" experienced="423"/>
+    <skills stamina="209" dexterity="541" speed="291" tackling="308" passing="390" shooting="482" control="372" accuracy="374" goalkeeping="55" heading="367"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14217">
+    <personal name="Arben Avdija">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="663" risktaking="254" offensive="630" aggressive="915" consistent="426" creative="471" experienced="542"/>
+    <skills stamina="683" dexterity="500" speed="178" tackling="404" passing="331" shooting="439" control="517" accuracy="429" goalkeeping="75" heading="347"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14218">
+    <personal name="Jiri Sabou">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="363" risktaking="516" offensive="481" aggressive="298" consistent="345" creative="557" experienced="518"/>
+    <skills stamina="209" dexterity="625" speed="371" tackling="390" passing="332" shooting="433" control="473" accuracy="312" goalkeeping="62" heading="427"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="14219">
+    <personal name="Michal Dolezal">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="607" risktaking="655" offensive="340" aggressive="577" consistent="541" creative="475" experienced="575"/>
+    <skills stamina="448" dexterity="186" speed="410" tackling="369" passing="394" shooting="450" control="496" accuracy="314" goalkeeping="75" heading="487"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="14220">
+    <personal name="Karel Kroupa">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="746" risktaking="787" offensive="600" aggressive="693" consistent="591" creative="556" experienced="511"/>
+    <skills stamina="316" dexterity="686" speed="257" tackling="372" passing="471" shooting="453" control="396" accuracy="446" goalkeeping="52" heading="339"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14221">
+    <personal name="Zdenek Koukal">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="341" risktaking="423" offensive="436" aggressive="612" consistent="867" creative="644" experienced="759"/>
+    <skills stamina="266" dexterity="401" speed="537" tackling="276" passing="336" shooting="363" control="302" accuracy="457" goalkeeping="60" heading="346"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14222">
+    <personal name="Petr Benat">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="435" risktaking="716" offensive="510" aggressive="659" consistent="572" creative="586" experienced="436"/>
+    <skills stamina="290" dexterity="391" speed="601" tackling="333" passing="309" shooting="454" control="306" accuracy="318" goalkeeping="76" heading="318"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14223">
+    <personal name="Aidin Mahmutovic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="723" risktaking="646" offensive="484" aggressive="329" consistent="696" creative="423" experienced="727"/>
+    <skills stamina="299" dexterity="162" speed="217" tackling="400" passing="369" shooting="474" control="400" accuracy="320" goalkeeping="70" heading="307"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14224">
+    <personal name="Michal Danek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="328" risktaking="711" offensive="461" aggressive="509" consistent="357" creative="650" experienced="660"/>
+    <skills stamina="390" dexterity="363" speed="451" tackling="145" passing="361" shooting="302" control="367" accuracy="193" goalkeeping="403" heading="177"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14225">
+    <personal name="Martin Tichacek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="657" risktaking="529" offensive="786" aggressive="561" consistent="286" creative="613" experienced="586"/>
+    <skills stamina="338" dexterity="581" speed="395" tackling="138" passing="254" shooting="277" control="274" accuracy="123" goalkeeping="498" heading="183"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14226">
+    <personal name="Martin Muller">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="310" risktaking="673" offensive="631" aggressive="475" consistent="320" creative="417" experienced="503"/>
+    <skills stamina="532" dexterity="500" speed="449" tackling="308" passing="454" shooting="355" control="399" accuracy="388" goalkeeping="69" heading="353"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14227">
+    <personal name="Marek Smola">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="503" risktaking="377" offensive="595" aggressive="227" consistent="378" creative="671" experienced="706"/>
+    <skills stamina="564" dexterity="612" speed="262" tackling="311" passing="475" shooting="315" control="353" accuracy="383" goalkeeping="48" heading="307"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14228">
+    <personal name="Petr Knakal">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="243" risktaking="428" offensive="402" aggressive="483" consistent="495" creative="518" experienced="652"/>
+    <skills stamina="240" dexterity="528" speed="148" tackling="485" passing="419" shooting="430" control="380" accuracy="418" goalkeeping="47" heading="383"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14229">
+    <personal name="Michal Kubice">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="589" risktaking="378" offensive="555" aggressive="561" consistent="737" creative="450" experienced="562"/>
+    <skills stamina="502" dexterity="649" speed="645" tackling="421" passing="422" shooting="263" control="396" accuracy="242" goalkeeping="54" heading="325"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14230">
+    <personal name="Jan Zakopal">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="515" risktaking="601" offensive="618" aggressive="336" consistent="490" creative="462" experienced="408"/>
+    <skills stamina="364" dexterity="488" speed="251" tackling="512" passing="452" shooting="407" control="399" accuracy="401" goalkeeping="51" heading="342"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14231">
+    <personal name="Lukas Vaculik">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="245" risktaking="811" offensive="424" aggressive="486" consistent="478" creative="418" experienced="420"/>
+    <skills stamina="542" dexterity="597" speed="633" tackling="369" passing="394" shooting="313" control="485" accuracy="297" goalkeeping="53" heading="303"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14232">
+    <personal name="Petr Sima">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="496" risktaking="342" offensive="766" aggressive="612" consistent="723" creative="468" experienced="767"/>
+    <skills stamina="581" dexterity="227" speed="472" tackling="297" passing="344" shooting="383" control="341" accuracy="458" goalkeeping="45" heading="362"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14233">
+    <personal name="Tomas Rada">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="270" risktaking="490" offensive="448" aggressive="317" consistent="739" creative="723" experienced="509"/>
+    <skills stamina="266" dexterity="551" speed="320" tackling="313" passing="377" shooting="400" control="457" accuracy="336" goalkeeping="66" heading="381"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="14234">
+    <personal name="Ferenc Roth">
+      <appearance value="0"/>
+      <nationality value="Hungary"/>
+    </personal>
+    <personality active="565" risktaking="258" offensive="419" aggressive="462" consistent="651" creative="460" experienced="588"/>
+    <skills stamina="265" dexterity="456" speed="360" tackling="430" passing="358" shooting="430" control="322" accuracy="280" goalkeeping="59" heading="443"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14235">
+    <personal name="Marek Jarolim">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="477" risktaking="160" offensive="529" aggressive="516" consistent="749" creative="284" experienced="617"/>
+    <skills stamina="605" dexterity="505" speed="274" tackling="327" passing="476" shooting="381" control="461" accuracy="345" goalkeeping="56" heading="438"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14236">
+    <personal name="Petr Trapp">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="571" risktaking="740" offensive="546" aggressive="353" consistent="745" creative="612" experienced="634"/>
+    <skills stamina="190" dexterity="158" speed="583" tackling="302" passing="434" shooting="303" control="451" accuracy="320" goalkeeping="63" heading="430"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14237">
+    <personal name="Tomas Krbecek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="341" risktaking="594" offensive="394" aggressive="723" consistent="806" creative="426" experienced="397"/>
+    <skills stamina="506" dexterity="491" speed="639" tackling="385" passing="431" shooting="462" control="365" accuracy="512" goalkeeping="79" heading="439"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14238">
+    <personal name="Vladimir Malar">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="633" risktaking="415" offensive="671" aggressive="424" consistent="400" creative="215" experienced="675"/>
+    <skills stamina="332" dexterity="169" speed="534" tackling="449" passing="384" shooting="394" control="416" accuracy="369" goalkeeping="47" heading="460"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14239">
+    <personal name="Pavel Malcharek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="537" risktaking="349" offensive="714" aggressive="500" consistent="548" creative="309" experienced="403"/>
+    <skills stamina="352" dexterity="493" speed="330" tackling="412" passing="430" shooting="450" control="364" accuracy="405" goalkeeping="45" heading="427"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14240">
+    <personal name="Oldrich Parizek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="657" risktaking="622" offensive="618" aggressive="380" consistent="644" creative="422" experienced="450"/>
+    <skills stamina="482" dexterity="394" speed="188" tackling="175" passing="296" shooting="286" control="204" accuracy="209" goalkeeping="484" heading="179"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14241">
+    <personal name="Peter Bartalsky">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="614" risktaking="188" offensive="629" aggressive="553" consistent="498" creative="692" experienced="623"/>
+    <skills stamina="177" dexterity="288" speed="583" tackling="218" passing="435" shooting="273" control="232" accuracy="140" goalkeeping="369" heading="148"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="14242">
+    <personal name="Tomas Kucera">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="522" risktaking="281" offensive="208" aggressive="515" consistent="695" creative="519" experienced="589"/>
+    <skills stamina="366" dexterity="244" speed="130" tackling="291" passing="339" shooting="301" control="444" accuracy="293" goalkeeping="54" heading="262"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="14243">
+    <personal name="Marcel Stasny">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="401" risktaking="690" offensive="558" aggressive="517" consistent="317" creative="597" experienced="410"/>
+    <skills stamina="171" dexterity="686" speed="421" tackling="445" passing="366" shooting="397" control="328" accuracy="324" goalkeeping="53" heading="278"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="14244">
+    <personal name="Pavel Besta">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="568" risktaking="559" offensive="566" aggressive="141" consistent="680" creative="313" experienced="591"/>
+    <skills stamina="450" dexterity="371" speed="611" tackling="590" passing="432" shooting="435" control="387" accuracy="455" goalkeeping="75" heading="396"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14245">
+    <personal name="Branislav Labant">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="398" risktaking="469" offensive="409" aggressive="624" consistent="408" creative="525" experienced="707"/>
+    <skills stamina="631" dexterity="659" speed="539" tackling="302" passing="342" shooting="286" control="308" accuracy="386" goalkeeping="56" heading="330"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="14246">
+    <personal name="Jiri Bisko">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="512" risktaking="600" offensive="564" aggressive="491" consistent="611" creative="527" experienced="676"/>
+    <skills stamina="537" dexterity="610" speed="588" tackling="394" passing="440" shooting="325" control="288" accuracy="298" goalkeeping="54" heading="252"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="14247">
+    <personal name="Ludek Straceny">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="294" risktaking="494" offensive="541" aggressive="388" consistent="792" creative="228" experienced="61"/>
+    <skills stamina="544" dexterity="324" speed="199" tackling="318" passing="454" shooting="335" control="342" accuracy="306" goalkeeping="56" heading="363"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14248">
+    <personal name="Youssef Moughfire">
+      <appearance value="0"/>
+      <nationality value="Algeria"/>
+    </personal>
+    <personality active="657" risktaking="397" offensive="390" aggressive="378" consistent="457" creative="662" experienced="449"/>
+    <skills stamina="663" dexterity="553" speed="564" tackling="387" passing="339" shooting="320" control="472" accuracy="344" goalkeeping="54" heading="412"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14249">
+    <personal name="Radek Pilar">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="634" risktaking="554" offensive="754" aggressive="435" consistent="683" creative="635" experienced="535"/>
+    <skills stamina="346" dexterity="628" speed="170" tackling="477" passing="391" shooting="307" control="459" accuracy="287" goalkeeping="62" heading="444"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14250">
+    <personal name="Jan Novotny">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="621" risktaking="334" offensive="602" aggressive="245" consistent="680" creative="462" experienced="386"/>
+    <skills stamina="200" dexterity="708" speed="633" tackling="343" passing="467" shooting="287" control="378" accuracy="423" goalkeeping="64" heading="411"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="14251">
+    <personal name="Ondrej Kusnir">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="687" risktaking="329" offensive="574" aggressive="546" consistent="556" creative="434" experienced="302"/>
+    <skills stamina="490" dexterity="250" speed="523" tackling="277" passing="413" shooting="292" control="284" accuracy="396" goalkeeping="46" heading="457"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="14252">
+    <personal name="Marek Bazik">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="627" risktaking="513" offensive="840" aggressive="217" consistent="470" creative="582" experienced="400"/>
+    <skills stamina="617" dexterity="255" speed="233" tackling="317" passing="268" shooting="318" control="297" accuracy="430" goalkeeping="52" heading="426"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="14253">
+    <personal name="Petr Svancara">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="451" risktaking="662" offensive="691" aggressive="373" consistent="597" creative="419" experienced="314"/>
+    <skills stamina="132" dexterity="391" speed="454" tackling="409" passing="373" shooting="389" control="341" accuracy="394" goalkeeping="50" heading="465"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14254">
+    <personal name="Radek Bucak">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="651" risktaking="900" offensive="661" aggressive="650" consistent="499" creative="343" experienced="487"/>
+    <skills stamina="395" dexterity="418" speed="343" tackling="330" passing="374" shooting="320" control="461" accuracy="437" goalkeeping="71" heading="477"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="14255">
+    <personal name="Robert Demjan">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="555" risktaking="338" offensive="520" aggressive="456" consistent="533" creative="660" experienced="549"/>
+    <skills stamina="208" dexterity="260" speed="164" tackling="366" passing="291" shooting="483" control="264" accuracy="500" goalkeeping="62" heading="360"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+</Players>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Sweden">
+    <Regions>
+      <Region name="Sweden">
+        <stadium name="Aik Stadium" capacity="11000"/>
+        <stadium name="Hacken Stadium" capacity="2400"/>
+        <stadium name="Elfsborg Stadium" capacity="8700"/>
+        <stadium name="Djurgarden Stadium" capacity="11900"/>
+        <stadium name="Gais Stadium" capacity="3100"/>
+        <stadium name="Halmstad Stadium" capacity="9400"/>
+        <stadium name="Hammarby Stadium" capacity="5600"/>
+        <stadium name="Helsingborg Stadium" capacity="11800"/>
+        <stadium name="Ifk Goteborg Stadium" capacity="9400"/>
+        <stadium name="Ifk Norrkoping Stadium" capacity="2700"/>
+        <stadium name="Kalmar Stadium" capacity="3500"/>
+        <stadium name="Landskrona Stadium" capacity="2000"/>
+        <stadium name="Malmo Stadium" capacity="13200"/>
+        <stadium name="Orebro Stadium" capacity="5400"/>
+        <stadium name="Gefle Stadium" capacity="4100"/>
+        <stadium name="Oster Stadium" capacity="2000"/>
+        <stadium name="Trelleborg Stadium" capacity="2700"/>
+        <stadium name="Brommapojkarna Stadium" capacity="1800"/>
+        <stadium name="Ljungskile Stadium" capacity="1900"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Swedish league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="14" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Swedish Premier league champion"/>
+              <attendances>
+                <attendance tournament="Swedish Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Aik"/>
+                <club name="Elfsborg"/>
+                <club name="Djurgarden"/>
+                <club name="Gais"/>
+                <club name="Halmstad"/>
+                <club name="Hammarby"/>
+                <club name="Helsingborg"/>
+                <club name="Ifk Goteborg"/>
+                <club name="Kalmar"/>
+                <club name="Malmo"/>
+                <club name="Orebro"/>
+                <club name="Gefle"/>
+                <club name="Trelleborg"/>
+                <club name="Brommapojkarna"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Swedish Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Swedish Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+        </stage>
+        <stage name="First round" type="1">
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Quarterfinals"/>
+          <preset>
+            <club name="Aik"/>
+            <club name="Elfsborg"/>
+            <club name="Djurgarden"/>
+            <club name="Gais"/>
+            <club name="Halmstad"/>
+            <club name="Hammarby"/>
+            <club name="Helsingborg"/>
+            <club name="Ifk Goteborg"/>
+            <club name="Kalmar"/>
+            <club name="Malmo"/>
+            <club name="Orebro"/>
+            <club name="Gefle"/>
+            <club name="Trelleborg"/>
+            <club name="Brommapojkarna"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

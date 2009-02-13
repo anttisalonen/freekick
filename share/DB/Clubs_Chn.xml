@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Bei Lang">
+    <coach name="Jiang Xia"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="China"/>
+    <stadium name="Bei Lang Stadium"/>
+    <contracts>
+      <contract player="114000"/>
+      <contract player="114001"/>
+      <contract player="114002"/>
+      <contract player="114003"/>
+      <contract player="114004"/>
+      <contract player="114005"/>
+      <contract player="114006"/>
+      <contract player="114007"/>
+      <contract player="114008"/>
+      <contract player="114009"/>
+      <contract player="114010"/>
+      <contract player="114011"/>
+      <contract player="114012"/>
+      <contract player="114013"/>
+      <contract player="114014"/>
+      <contract player="114015"/>
+    </contracts>
+  </club>
+  <club name="Chi-hai">
+    <coach name="Peng Wu-sung"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="China"/>
+    <stadium name="Chi-hai Stadium"/>
+    <contracts>
+      <contract player="114016"/>
+      <contract player="114017"/>
+      <contract player="114018"/>
+      <contract player="114019"/>
+      <contract player="114020"/>
+      <contract player="114021"/>
+      <contract player="114022"/>
+      <contract player="114023"/>
+      <contract player="114024"/>
+      <contract player="114025"/>
+      <contract player="114026"/>
+      <contract player="114027"/>
+      <contract player="114028"/>
+      <contract player="114029"/>
+      <contract player="114030"/>
+      <contract player="114031"/>
+    </contracts>
+  </club>
+  <club name="Da Tong">
+    <coach name="Yang Hong Li"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="China"/>
+    <stadium name="Da Tong Stadium"/>
+    <contracts>
+      <contract player="114032"/>
+      <contract player="114033"/>
+      <contract player="114034"/>
+      <contract player="114035"/>
+      <contract player="114036"/>
+      <contract player="114037"/>
+      <contract player="114038"/>
+      <contract player="114039"/>
+      <contract player="114040"/>
+      <contract player="114041"/>
+      <contract player="114042"/>
+      <contract player="114043"/>
+      <contract player="114044"/>
+      <contract player="114045"/>
+      <contract player="114046"/>
+      <contract player="114047"/>
+    </contracts>
+  </club>
+  <club name="Dapeng">
+    <coach name="Wang Min Xian"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="China"/>
+    <stadium name="Dapeng Stadium"/>
+    <contracts>
+      <contract player="114048"/>
+      <contract player="114049"/>
+      <contract player="114050"/>
+      <contract player="114051"/>
+      <contract player="114052"/>
+      <contract player="114053"/>
+      <contract player="114054"/>
+      <contract player="114055"/>
+      <contract player="114056"/>
+      <contract player="114057"/>
+      <contract player="114058"/>
+      <contract player="114059"/>
+      <contract player="114060"/>
+      <contract player="114061"/>
+      <contract player="114062"/>
+      <contract player="114063"/>
+    </contracts>
+  </club>
+  <club name="Fei-to">
+    <coach name="Chen Hsin-an"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="China"/>
+    <stadium name="Fei-to Stadium"/>
+    <contracts>
+      <contract player="114064"/>
+      <contract player="114065"/>
+      <contract player="114066"/>
+      <contract player="114067"/>
+      <contract player="114068"/>
+      <contract player="114069"/>
+      <contract player="114070"/>
+      <contract player="114071"/>
+      <contract player="114072"/>
+      <contract player="114073"/>
+      <contract player="114074"/>
+      <contract player="114075"/>
+      <contract player="114076"/>
+      <contract player="114077"/>
+      <contract player="114078"/>
+      <contract player="114079"/>
+    </contracts>
+  </club>
+  <club name="Jun Lijian">
+    <coach name="Peng Wu Song"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="China"/>
+    <stadium name="Jun Lijian Stadium"/>
+    <contracts>
+      <contract player="114080"/>
+      <contract player="114081"/>
+      <contract player="114082"/>
+      <contract player="114083"/>
+      <contract player="114084"/>
+      <contract player="114085"/>
+      <contract player="114086"/>
+      <contract player="114087"/>
+      <contract player="114088"/>
+      <contract player="114089"/>
+      <contract player="114090"/>
+      <contract player="114091"/>
+      <contract player="114092"/>
+      <contract player="114093"/>
+      <contract player="114094"/>
+      <contract player="114095"/>
+    </contracts>
+  </club>
+  <club name="Lu Kuang">
+    <coach name="Chung Chien-wu"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="China"/>
+    <stadium name="Lu Kuang Stadium"/>
+    <contracts>
+      <contract player="114096"/>
+      <contract player="114097"/>
+      <contract player="114098"/>
+      <contract player="114099"/>
+      <contract player="114100"/>
+      <contract player="114101"/>
+      <contract player="114102"/>
+      <contract player="114103"/>
+      <contract player="114104"/>
+      <contract player="114105"/>
+      <contract player="114106"/>
+      <contract player="114107"/>
+      <contract player="114108"/>
+      <contract player="114109"/>
+      <contract player="114110"/>
+      <contract player="114111"/>
+    </contracts>
+  </club>
+  <club name="Ming-chuan">
+    <coach name="Kuo Yung"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="China"/>
+    <stadium name="Ming-chuan Stadium"/>
+    <contracts>
+      <contract player="114112"/>
+      <contract player="114113"/>
+      <contract player="114114"/>
+      <contract player="114115"/>
+      <contract player="114116"/>
+      <contract player="114117"/>
+      <contract player="114118"/>
+      <contract player="114119"/>
+      <contract player="114120"/>
+      <contract player="114121"/>
+      <contract player="114122"/>
+      <contract player="114123"/>
+      <contract player="114124"/>
+      <contract player="114125"/>
+      <contract player="114126"/>
+      <contract player="114127"/>
+    </contracts>
+  </club>
+  <club name="Pei-yin">
+    <coach name="Chiang Chiai"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="China"/>
+    <stadium name="Pei-yin Stadium"/>
+    <contracts>
+      <contract player="114128"/>
+      <contract player="114129"/>
+      <contract player="114130"/>
+      <contract player="114131"/>
+      <contract player="114132"/>
+      <contract player="114133"/>
+      <contract player="114134"/>
+      <contract player="114135"/>
+      <contract player="114136"/>
+      <contract player="114137"/>
+      <contract player="114138"/>
+      <contract player="114139"/>
+      <contract player="114140"/>
+      <contract player="114141"/>
+      <contract player="114142"/>
+      <contract player="114143"/>
+    </contracts>
+  </club>
+  <club name="Ta-peng">
+    <coach name="Wang Ming-hsien"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="China"/>
+    <stadium name="Ta-peng Stadium"/>
+    <contracts>
+      <contract player="114144"/>
+      <contract player="114145"/>
+      <contract player="114146"/>
+      <contract player="114147"/>
+      <contract player="114148"/>
+      <contract player="114149"/>
+      <contract player="114150"/>
+      <contract player="114151"/>
+      <contract player="114152"/>
+      <contract player="114153"/>
+      <contract player="114154"/>
+      <contract player="114155"/>
+      <contract player="114156"/>
+      <contract player="114157"/>
+      <contract player="114158"/>
+      <contract player="114159"/>
+    </contracts>
+  </club>
+  <club name="Ta-tung">
+    <coach name="Chiang Mu-tsai"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="China"/>
+    <stadium name="Ta-tung Stadium"/>
+    <contracts>
+      <contract player="114160"/>
+      <contract player="114161"/>
+      <contract player="114162"/>
+      <contract player="114163"/>
+      <contract player="114164"/>
+      <contract player="114165"/>
+      <contract player="114166"/>
+      <contract player="114167"/>
+      <contract player="114168"/>
+      <contract player="114169"/>
+      <contract player="114170"/>
+      <contract player="114171"/>
+      <contract player="114172"/>
+      <contract player="114173"/>
+      <contract player="114174"/>
+      <contract player="114175"/>
+    </contracts>
+  </club>
+  <club name="Tai Dian">
+    <coach name="Huang Rencheng"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="China"/>
+    <stadium name="Tai Dian Stadium"/>
+    <contracts>
+      <contract player="114176"/>
+      <contract player="114177"/>
+      <contract player="114178"/>
+      <contract player="114179"/>
+      <contract player="114180"/>
+      <contract player="114181"/>
+      <contract player="114182"/>
+      <contract player="114183"/>
+      <contract player="114184"/>
+      <contract player="114185"/>
+      <contract player="114186"/>
+      <contract player="114187"/>
+      <contract player="114188"/>
+      <contract player="114189"/>
+      <contract player="114190"/>
+      <contract player="114191"/>
+    </contracts>
+  </club>
+</Clubs>

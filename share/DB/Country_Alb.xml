@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Albania">
+    <Regions>
+      <Region name="Albania">
+        <stadium name="Albpetrol Patos Stadium" capacity="700"/>
+        <stadium name="Apolonia Fier Stadium" capacity="2300"/>
+        <stadium name="Besa Kavaje Stadium" capacity="1800"/>
+        <stadium name="Beselidhja Lezhe Stadium" capacity="600"/>
+        <stadium name="Dinamo Tirana Stadium" capacity="6800"/>
+        <stadium name="Elbasani Stadium" capacity="2900"/>
+        <stadium name="Flamurtari Vlore Stadium" capacity="5700"/>
+        <stadium name="Iliria F-kruje Stadium" capacity="2300"/>
+        <stadium name="Laci Stadium" capacity="700"/>
+        <stadium name="Partizani Tirana Stadium" capacity="7700"/>
+        <stadium name="Shkumbini Peqin Stadium" capacity="3000"/>
+        <stadium name="Shqiponja Stadium" capacity="2900"/>
+        <stadium name="Sk Tirana Stadium" capacity="8300"/>
+        <stadium name="Teuta Durres Stadium" capacity="2500"/>
+        <stadium name="Tomori Berat Stadium" capacity="2300"/>
+        <stadium name="Vllaznia Shkoder Stadium" capacity="4800"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Albanian league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="16" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Albanian Premier league champion"/>
+              <attendances>
+                <attendance tournament="Albanian Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Albpetrol Patos"/>
+                <club name="Apolonia Fier"/>
+                <club name="Besa Kavaje"/>
+                <club name="Beselidhja Lezhe"/>
+                <club name="Dinamo Tirana"/>
+                <club name="Elbasani"/>
+                <club name="Flamurtari Vlore"/>
+                <club name="Iliria F-kruje"/>
+                <club name="Laci"/>
+                <club name="Partizani Tirana"/>
+                <club name="Shkumbini Peqin"/>
+                <club name="Shqiponja"/>
+                <club name="Sk Tirana"/>
+                <club name="Teuta Durres"/>
+                <club name="Tomori Berat"/>
+                <club name="Vllaznia Shkoder"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Albanian Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Albanian Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+        </stage>
+        <stage name="First round" type="1">
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Quarterfinals"/>
+          <preset>
+            <club name="Albpetrol Patos"/>
+            <club name="Apolonia Fier"/>
+            <club name="Besa Kavaje"/>
+            <club name="Beselidhja Lezhe"/>
+            <club name="Dinamo Tirana"/>
+            <club name="Elbasani"/>
+            <club name="Flamurtari Vlore"/>
+            <club name="Iliria F-kruje"/>
+            <club name="Laci"/>
+            <club name="Partizani Tirana"/>
+            <club name="Shkumbini Peqin"/>
+            <club name="Shqiponja"/>
+            <club name="Sk Tirana"/>
+            <club name="Teuta Durres"/>
+            <club name="Tomori Berat"/>
+            <club name="Vllaznia Shkoder"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

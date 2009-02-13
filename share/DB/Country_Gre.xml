@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Greece">
+    <Regions>
+      <Region name="Greece">
+        <stadium name="Aek Athens Stadium" capacity="26800"/>
+        <stadium name="Apollon K Stadium" capacity="7400"/>
+        <stadium name="Aris Stadium" capacity="14700"/>
+        <stadium name="Asteras Tripolis Stadium" capacity="9600"/>
+        <stadium name="Kerkyra Stadium" capacity="6800"/>
+        <stadium name="Atromitos Stadium" capacity="11700"/>
+        <stadium name="Ergotelis Stadium" capacity="8500"/>
+        <stadium name="Levadiakos Stadium" capacity="6500"/>
+        <stadium name="Iraklis Stadium" capacity="11300"/>
+        <stadium name="Pas Giannina Stadium" capacity="5600"/>
+        <stadium name="Ionikos Stadium" capacity="6200"/>
+        <stadium name="Panserraikos Stadium" capacity="5300"/>
+        <stadium name="Kallithea Stadium" capacity="4900"/>
+        <stadium name="Larissa Stadium" capacity="13000"/>
+        <stadium name="Ethnikos A Stadium" capacity="2800"/>
+        <stadium name="Ethnikos P Stadium" capacity="3700"/>
+        <stadium name="Ofi Crete Stadium" capacity="8900"/>
+        <stadium name="Olympiakos Stadium" capacity="39200"/>
+        <stadium name="Egaleo Stadium" capacity="4500"/>
+        <stadium name="Panathinaikos Stadium" capacity="29200"/>
+        <stadium name="Veria Stadium" capacity="8600"/>
+        <stadium name="Panionios Stadium" capacity="14200"/>
+        <stadium name="Paok Stadium" capacity="13400"/>
+        <stadium name="Agrotikos Stadium" capacity="2900"/>
+        <stadium name="Xanthi Stadium" capacity="15100"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Greek league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="18" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Greek Premier league champion"/>
+              <attendances>
+                <attendance tournament="Greek Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Aek Athens"/>
+                <club name="Apollon K"/>
+                <club name="Aris"/>
+                <club name="Asteras Tripolis"/>
+                <club name="Atromitos"/>
+                <club name="Ergotelis"/>
+                <club name="Levadiakos"/>
+                <club name="Iraklis"/>
+                <club name="Ionikos"/>
+                <club name="Larissa"/>
+                <club name="Ofi Crete"/>
+                <club name="Olympiakos"/>
+                <club name="Egaleo"/>
+                <club name="Panathinaikos"/>
+                <club name="Veria"/>
+                <club name="Panionios"/>
+                <club name="Paok"/>
+                <club name="Xanthi"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Greek Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Greek Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+        </stage>
+        <stage name="First round" type="1">
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Quarterfinals"/>
+          <preset>
+            <club name="Aek Athens"/>
+            <club name="Apollon K"/>
+            <club name="Aris"/>
+            <club name="Asteras Tripolis"/>
+            <club name="Atromitos"/>
+            <club name="Ergotelis"/>
+            <club name="Levadiakos"/>
+            <club name="Iraklis"/>
+            <club name="Ionikos"/>
+            <club name="Larissa"/>
+            <club name="Ofi Crete"/>
+            <club name="Olympiakos"/>
+            <club name="Egaleo"/>
+            <club name="Panathinaikos"/>
+            <club name="Veria"/>
+            <club name="Panionios"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

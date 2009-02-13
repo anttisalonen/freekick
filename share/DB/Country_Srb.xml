@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Serbia">
+    <Regions>
+      <Region name="Serbia">
+        <stadium name="Banat Stadium" capacity="2700"/>
+        <stadium name="Hajduk Kula Stadium" capacity="4100"/>
+        <stadium name="Napredak Stadium" capacity="2300"/>
+        <stadium name="Partizan Stadium" capacity="13800"/>
+        <stadium name="Mladost Lucani Stadium" capacity="2800"/>
+        <stadium name="Ofk Beograd Stadium" capacity="6300"/>
+        <stadium name="Smederevo Stadium" capacity="4300"/>
+        <stadium name="Crvena Zvezda Stadium" capacity="14500"/>
+        <stadium name="Vojvodina Stadium" capacity="11300"/>
+        <stadium name="Borac Cacak Stadium" capacity="3200"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Serbian league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="10" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Serbian Premier league champion"/>
+              <attendances>
+                <attendance tournament="Serbian Cup" stage="Quarterfinals"/>
+              </attendances>
+              <preset>
+                <club name="Banat"/>
+                <club name="Hajduk Kula"/>
+                <club name="Napredak"/>
+                <club name="Partizan"/>
+                <club name="Mladost Lucani"/>
+                <club name="Ofk Beograd"/>
+                <club name="Smederevo"/>
+                <club name="Crvena Zvezda"/>
+                <club name="Vojvodina"/>
+                <club name="Borac Cacak"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Serbian Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Serbian Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+          <preset>
+            <club name="Banat"/>
+            <club name="Hajduk Kula"/>
+            <club name="Napredak"/>
+            <club name="Partizan"/>
+            <club name="Mladost Lucani"/>
+            <club name="Ofk Beograd"/>
+            <club name="Smederevo"/>
+            <club name="Crvena Zvezda"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Uruguay">
+    <Regions>
+      <Region name="Uruguay">
+        <stadium name="Basanez Stadium" capacity="100"/>
+        <stadium name="Bella Vista Stadium" capacity="12300"/>
+        <stadium name="Central Esp Stadium" capacity="300"/>
+        <stadium name="Central Espanol Stadium" capacity="11000"/>
+        <stadium name="Cerrito Stadium" capacity="200"/>
+        <stadium name="Cerro Stadium" capacity="8500"/>
+        <stadium name="Colon Stadium" capacity="200"/>
+        <stadium name="Danubio Stadium" capacity="15600"/>
+        <stadium name="Defensor Sport Stadium" capacity="13200"/>
+        <stadium name="El Tanque Stadium" capacity="200"/>
+        <stadium name="Fenix Stadium" capacity="200"/>
+        <stadium name="Huracan Buceo Stadium" capacity="8500"/>
+        <stadium name="Huracan Fc Stadium" capacity="100"/>
+        <stadium name="La Luz Stadium" capacity="100"/>
+        <stadium name="Liverpool Stadium" capacity="6000"/>
+        <stadium name="Miramar Misiones Stadium" capacity="100"/>
+        <stadium name="Nacional Stadium" capacity="18400"/>
+        <stadium name="Penarol Stadium" capacity="14000"/>
+        <stadium name="Progreso Stadium" capacity="11500"/>
+        <stadium name="Racing Stadium" capacity="7100"/>
+        <stadium name="Rampla Juniors Stadium" capacity="7700"/>
+        <stadium name="Rentistas Stadium" capacity="200"/>
+        <stadium name="River Plate Stadium" capacity="12700"/>
+        <stadium name="Sp Italiano Stadium" capacity="100"/>
+        <stadium name="Sud America Stadium" capacity="200"/>
+        <stadium name="Wanderers Stadium" capacity="5500"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Uruguayan league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="12" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Uruguayan Premier league champion"/>
+              <attendances>
+                <attendance tournament="Uruguayan Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Basanez"/>
+                <club name="Central Espanol"/>
+                <club name="Cerro"/>
+                <club name="Danubio"/>
+                <club name="Defensor Sport"/>
+                <club name="Liverpool"/>
+                <club name="Nacional"/>
+                <club name="Penarol"/>
+                <club name="Progreso"/>
+                <club name="Rampla Juniors"/>
+                <club name="River Plate"/>
+                <club name="Wanderers"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls>
+            <leaguerl num="3"/>
+          </leaguerls>
+        </level>
+        <level>
+          <branch>
+            <stage name="First league" type="0">
+              <setup seeded="0" participantnum="14" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Uruguayan First league champion"/>
+              <attendances>
+                <attendance tournament="Uruguayan Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Bella Vista"/>
+                <club name="Central Esp"/>
+                <club name="Cerrito"/>
+                <club name="Colon"/>
+                <club name="El Tanque"/>
+                <club name="Fenix"/>
+                <club name="Huracan Buceo"/>
+                <club name="Huracan Fc"/>
+                <club name="La Luz"/>
+                <club name="Miramar Misiones"/>
+                <club name="Racing"/>
+                <club name="Rentistas"/>
+                <club name="Sp Italiano"/>
+                <club name="Sud America"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs>
+            <leaguepr num="3"/>
+          </leagueprs>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Uruguayan Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Uruguayan Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+        </stage>
+        <stage name="First round" type="1">
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Quarterfinals"/>
+          <preset>
+            <club name="Basanez"/>
+            <club name="Central Espanol"/>
+            <club name="Cerro"/>
+            <club name="Danubio"/>
+            <club name="Defensor Sport"/>
+            <club name="Liverpool"/>
+            <club name="Nacional"/>
+            <club name="Penarol"/>
+            <club name="Progreso"/>
+            <club name="Rampla Juniors"/>
+            <club name="River Plate"/>
+            <club name="Wanderers"/>
+            <club name="Bella Vista"/>
+            <club name="Central Esp"/>
+            <club name="Cerrito"/>
+            <club name="Colon"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

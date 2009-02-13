@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="South Africa">
+    <Regions>
+      <Region name="South Africa">
+        <stadium name="Amazulu Stadium" capacity="2900"/>
+        <stadium name="Bloemfontein C Stadium" capacity="4900"/>
+        <stadium name="Ajax Cape Town Stadium" capacity="2500"/>
+        <stadium name="Royal Zulu Stadium" capacity="2100"/>
+        <stadium name="Jomo Cosmos Stadium" capacity="4700"/>
+        <stadium name="Kaizer Chiefs Stadium" capacity="11300"/>
+        <stadium name="Sundowns Stadium" capacity="10100"/>
+        <stadium name="Supersport Utd Stadium" capacity="6100"/>
+        <stadium name="Moroka Swallows Stadium" capacity="4400"/>
+        <stadium name="Orlando Pirates Stadium" capacity="7700"/>
+        <stadium name="Free State Stars Stadium" capacity="2100"/>
+        <stadium name="Black Leopards Stadium" capacity="3400"/>
+        <stadium name="Golden Arrows Stadium" capacity="1200"/>
+        <stadium name="Platinum Stars Stadium" capacity="3900"/>
+        <stadium name="Santos Stadium" capacity="2200"/>
+        <stadium name="Bidvest Wits Stadium" capacity="5600"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="South African league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="16" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="South African Premier league champion"/>
+              <attendances>
+                <attendance tournament="South African Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Amazulu"/>
+                <club name="Bloemfontein C"/>
+                <club name="Ajax Cape Town"/>
+                <club name="Royal Zulu"/>
+                <club name="Jomo Cosmos"/>
+                <club name="Kaizer Chiefs"/>
+                <club name="Sundowns"/>
+                <club name="Supersport Utd"/>
+                <club name="Moroka Swallows"/>
+                <club name="Orlando Pirates"/>
+                <club name="Free State Stars"/>
+                <club name="Black Leopards"/>
+                <club name="Golden Arrows"/>
+                <club name="Platinum Stars"/>
+                <club name="Santos"/>
+                <club name="Bidvest Wits"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="South African Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="South African Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+        </stage>
+        <stage name="First round" type="1">
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Quarterfinals"/>
+          <preset>
+            <club name="Amazulu"/>
+            <club name="Bloemfontein C"/>
+            <club name="Ajax Cape Town"/>
+            <club name="Royal Zulu"/>
+            <club name="Jomo Cosmos"/>
+            <club name="Kaizer Chiefs"/>
+            <club name="Sundowns"/>
+            <club name="Supersport Utd"/>
+            <club name="Moroka Swallows"/>
+            <club name="Orlando Pirates"/>
+            <club name="Free State Stars"/>
+            <club name="Black Leopards"/>
+            <club name="Golden Arrows"/>
+            <club name="Platinum Stars"/>
+            <club name="Santos"/>
+            <club name="Bidvest Wits"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

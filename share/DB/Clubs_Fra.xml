@@ -1,0 +1,2061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Amiens">
+    <coach name="Ludovic Batelli"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Amiens Stadium"/>
+    <contracts>
+      <contract player="26000"/>
+      <contract player="26001"/>
+      <contract player="26002"/>
+      <contract player="26003"/>
+      <contract player="26004"/>
+      <contract player="26005"/>
+      <contract player="26006"/>
+      <contract player="26007"/>
+      <contract player="26008"/>
+      <contract player="26009"/>
+      <contract player="26010"/>
+      <contract player="26011"/>
+      <contract player="26012"/>
+      <contract player="26013"/>
+      <contract player="26014"/>
+      <contract player="26015"/>
+    </contracts>
+  </club>
+  <club name="Auxerre">
+    <coach name="Jean Fernandez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Auxerre Stadium"/>
+    <contracts>
+      <contract player="26016"/>
+      <contract player="26017"/>
+      <contract player="26018"/>
+      <contract player="26019"/>
+      <contract player="26020"/>
+      <contract player="26021"/>
+      <contract player="26022"/>
+      <contract player="26023"/>
+      <contract player="26024"/>
+      <contract player="26025"/>
+      <contract player="26026"/>
+      <contract player="26027"/>
+      <contract player="26028"/>
+      <contract player="26029"/>
+      <contract player="26030"/>
+      <contract player="26031"/>
+    </contracts>
+  </club>
+  <club name="Bastia">
+    <coach name="Bernard Casoni"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Bastia Stadium"/>
+    <contracts>
+      <contract player="26032"/>
+      <contract player="26033"/>
+      <contract player="26034"/>
+      <contract player="26035"/>
+      <contract player="26036"/>
+      <contract player="26037"/>
+      <contract player="26038"/>
+      <contract player="26039"/>
+      <contract player="26040"/>
+      <contract player="26041"/>
+      <contract player="26042"/>
+      <contract player="26043"/>
+      <contract player="26044"/>
+      <contract player="26045"/>
+      <contract player="26046"/>
+      <contract player="26047"/>
+    </contracts>
+  </club>
+  <club name="Ac Ajaccio">
+    <coach name="Gernot Rohr"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Ac Ajaccio Stadium"/>
+    <contracts>
+      <contract player="26048"/>
+      <contract player="26049"/>
+      <contract player="26050"/>
+      <contract player="26051"/>
+      <contract player="26052"/>
+      <contract player="26053"/>
+      <contract player="26054"/>
+      <contract player="26055"/>
+      <contract player="26056"/>
+      <contract player="26057"/>
+      <contract player="26058"/>
+      <contract player="26059"/>
+      <contract player="26060"/>
+      <contract player="26061"/>
+      <contract player="26062"/>
+      <contract player="26063"/>
+    </contracts>
+  </club>
+  <club name="Bordeaux">
+    <coach name="Laurent Blanc"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Bordeaux Stadium"/>
+    <contracts>
+      <contract player="26064"/>
+      <contract player="26065"/>
+      <contract player="26066"/>
+      <contract player="26067"/>
+      <contract player="26068"/>
+      <contract player="26069"/>
+      <contract player="26070"/>
+      <contract player="26071"/>
+      <contract player="26072"/>
+      <contract player="26073"/>
+      <contract player="26074"/>
+      <contract player="26075"/>
+      <contract player="26076"/>
+      <contract player="26077"/>
+      <contract player="26078"/>
+      <contract player="26079"/>
+    </contracts>
+  </club>
+  <club name="Caen">
+    <coach name="Franck Dumas"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Caen Stadium"/>
+    <contracts>
+      <contract player="26080"/>
+      <contract player="26081"/>
+      <contract player="26082"/>
+      <contract player="26083"/>
+      <contract player="26084"/>
+      <contract player="26085"/>
+      <contract player="26086"/>
+      <contract player="26087"/>
+      <contract player="26088"/>
+      <contract player="26089"/>
+      <contract player="26090"/>
+      <contract player="26091"/>
+      <contract player="26092"/>
+      <contract player="26093"/>
+      <contract player="26094"/>
+      <contract player="26095"/>
+    </contracts>
+  </club>
+  <club name="Angers">
+    <coach name="Jean-louis Garcia"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Angers Stadium"/>
+    <contracts>
+      <contract player="26096"/>
+      <contract player="26097"/>
+      <contract player="26098"/>
+      <contract player="26099"/>
+      <contract player="26100"/>
+      <contract player="26101"/>
+      <contract player="26102"/>
+      <contract player="26103"/>
+      <contract player="26104"/>
+      <contract player="26105"/>
+      <contract player="26106"/>
+      <contract player="26107"/>
+      <contract player="26108"/>
+      <contract player="26109"/>
+      <contract player="26110"/>
+      <contract player="26111"/>
+    </contracts>
+  </club>
+  <club name="Boulogne">
+    <coach name="Philippe Montanier"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Boulogne Stadium"/>
+    <contracts>
+      <contract player="26112"/>
+      <contract player="26113"/>
+      <contract player="26114"/>
+      <contract player="26115"/>
+      <contract player="26116"/>
+      <contract player="26117"/>
+      <contract player="26118"/>
+      <contract player="26119"/>
+      <contract player="26120"/>
+      <contract player="26121"/>
+      <contract player="26122"/>
+      <contract player="26123"/>
+      <contract player="26124"/>
+      <contract player="26125"/>
+      <contract player="26126"/>
+      <contract player="26127"/>
+    </contracts>
+  </club>
+  <club name="Chateauroux">
+    <coach name="Cedric Daury"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Chateauroux Stadium"/>
+    <contracts>
+      <contract player="26128"/>
+      <contract player="26129"/>
+      <contract player="26130"/>
+      <contract player="26131"/>
+      <contract player="26132"/>
+      <contract player="26133"/>
+      <contract player="26134"/>
+      <contract player="26135"/>
+      <contract player="26136"/>
+      <contract player="26137"/>
+      <contract player="26138"/>
+      <contract player="26139"/>
+      <contract player="26140"/>
+      <contract player="26141"/>
+      <contract player="26142"/>
+      <contract player="26143"/>
+    </contracts>
+  </club>
+  <club name="Brest">
+    <coach name="Miguel D'agostino"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Brest Stadium"/>
+    <contracts>
+      <contract player="26144"/>
+      <contract player="26145"/>
+      <contract player="26146"/>
+      <contract player="26147"/>
+      <contract player="26148"/>
+      <contract player="26149"/>
+      <contract player="26150"/>
+      <contract player="26151"/>
+      <contract player="26152"/>
+      <contract player="26153"/>
+      <contract player="26154"/>
+      <contract player="26155"/>
+      <contract player="26156"/>
+      <contract player="26157"/>
+      <contract player="26158"/>
+      <contract player="26159"/>
+    </contracts>
+  </club>
+  <club name="Gueugnon">
+    <coach name="Victor Zvunka"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Gueugnon Stadium"/>
+    <contracts>
+      <contract player="26160"/>
+      <contract player="26161"/>
+      <contract player="26162"/>
+      <contract player="26163"/>
+      <contract player="26164"/>
+      <contract player="26165"/>
+      <contract player="26166"/>
+      <contract player="26167"/>
+      <contract player="26168"/>
+      <contract player="26169"/>
+      <contract player="26170"/>
+      <contract player="26171"/>
+      <contract player="26172"/>
+      <contract player="26173"/>
+      <contract player="26174"/>
+      <contract player="26175"/>
+    </contracts>
+  </club>
+  <club name="Guingamp">
+    <coach name="Patrick Remy"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Guingamp Stadium"/>
+    <contracts>
+      <contract player="26176"/>
+      <contract player="26177"/>
+      <contract player="26178"/>
+      <contract player="26179"/>
+      <contract player="26180"/>
+      <contract player="26181"/>
+      <contract player="26182"/>
+      <contract player="26183"/>
+      <contract player="26184"/>
+      <contract player="26185"/>
+      <contract player="26186"/>
+      <contract player="26187"/>
+      <contract player="26188"/>
+      <contract player="26189"/>
+      <contract player="26190"/>
+      <contract player="26191"/>
+    </contracts>
+  </club>
+  <club name="Clermont">
+    <coach name="Didier Olle-nicolle"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Clermont Stadium"/>
+    <contracts>
+      <contract player="26192"/>
+      <contract player="26193"/>
+      <contract player="26194"/>
+      <contract player="26195"/>
+      <contract player="26196"/>
+      <contract player="26197"/>
+      <contract player="26198"/>
+      <contract player="26199"/>
+      <contract player="26200"/>
+      <contract player="26201"/>
+      <contract player="26202"/>
+      <contract player="26203"/>
+      <contract player="26204"/>
+      <contract player="26205"/>
+      <contract player="26206"/>
+      <contract player="26207"/>
+    </contracts>
+  </club>
+  <club name="Le Havre">
+    <coach name="Jean-marc Nobilo"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Le Havre Stadium"/>
+    <contracts>
+      <contract player="26208"/>
+      <contract player="26209"/>
+      <contract player="26210"/>
+      <contract player="26211"/>
+      <contract player="26212"/>
+      <contract player="26213"/>
+      <contract player="26214"/>
+      <contract player="26215"/>
+      <contract player="26216"/>
+      <contract player="26217"/>
+      <contract player="26218"/>
+      <contract player="26219"/>
+      <contract player="26220"/>
+      <contract player="26221"/>
+      <contract player="26222"/>
+      <contract player="26223"/>
+    </contracts>
+  </club>
+  <club name="Le Mans">
+    <coach name="Rudi Garcia"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Le Mans Stadium"/>
+    <contracts>
+      <contract player="26224"/>
+      <contract player="26225"/>
+      <contract player="26226"/>
+      <contract player="26227"/>
+      <contract player="26228"/>
+      <contract player="26229"/>
+      <contract player="26230"/>
+      <contract player="26231"/>
+      <contract player="26232"/>
+      <contract player="26233"/>
+      <contract player="26234"/>
+      <contract player="26235"/>
+      <contract player="26236"/>
+      <contract player="26237"/>
+      <contract player="26238"/>
+      <contract player="26239"/>
+    </contracts>
+  </club>
+  <club name="Lens">
+    <coach name="Jean-pierre Papin"/>
+    <kits>
+      <kit>
+        <jersey type="3">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Lens Stadium"/>
+    <contracts>
+      <contract player="26240"/>
+      <contract player="26241"/>
+      <contract player="26242"/>
+      <contract player="26243"/>
+      <contract player="26244"/>
+      <contract player="26245"/>
+      <contract player="26246"/>
+      <contract player="26247"/>
+      <contract player="26248"/>
+      <contract player="26249"/>
+      <contract player="26250"/>
+      <contract player="26251"/>
+      <contract player="26252"/>
+      <contract player="26253"/>
+      <contract player="26254"/>
+      <contract player="26255"/>
+    </contracts>
+  </club>
+  <club name="Lille">
+    <coach name="Claude Puel"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Lille Stadium"/>
+    <contracts>
+      <contract player="26256"/>
+      <contract player="26257"/>
+      <contract player="26258"/>
+      <contract player="26259"/>
+      <contract player="26260"/>
+      <contract player="26261"/>
+      <contract player="26262"/>
+      <contract player="26263"/>
+      <contract player="26264"/>
+      <contract player="26265"/>
+      <contract player="26266"/>
+      <contract player="26267"/>
+      <contract player="26268"/>
+      <contract player="26269"/>
+      <contract player="26270"/>
+      <contract player="26271"/>
+    </contracts>
+  </club>
+  <club name="Lorient">
+    <coach name="Christian Gourcuff"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Lorient Stadium"/>
+    <contracts>
+      <contract player="26272"/>
+      <contract player="26273"/>
+      <contract player="26274"/>
+      <contract player="26275"/>
+      <contract player="26276"/>
+      <contract player="26277"/>
+      <contract player="26278"/>
+      <contract player="26279"/>
+      <contract player="26280"/>
+      <contract player="26281"/>
+      <contract player="26282"/>
+      <contract player="26283"/>
+      <contract player="26284"/>
+      <contract player="26285"/>
+      <contract player="26286"/>
+      <contract player="26287"/>
+    </contracts>
+  </club>
+  <club name="Dijon">
+    <coach name="Faruk Hadzibegic"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Dijon Stadium"/>
+    <contracts>
+      <contract player="26288"/>
+      <contract player="26289"/>
+      <contract player="26290"/>
+      <contract player="26291"/>
+      <contract player="26292"/>
+      <contract player="26293"/>
+      <contract player="26294"/>
+      <contract player="26295"/>
+      <contract player="26296"/>
+      <contract player="26297"/>
+      <contract player="26298"/>
+      <contract player="26299"/>
+      <contract player="26300"/>
+      <contract player="26301"/>
+      <contract player="26302"/>
+      <contract player="26303"/>
+    </contracts>
+  </club>
+  <club name="Lyon">
+    <coach name="Alain Perrin"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Lyon Stadium"/>
+    <contracts>
+      <contract player="26304"/>
+      <contract player="26305"/>
+      <contract player="26306"/>
+      <contract player="26307"/>
+      <contract player="26308"/>
+      <contract player="26309"/>
+      <contract player="26310"/>
+      <contract player="26311"/>
+      <contract player="26312"/>
+      <contract player="26313"/>
+      <contract player="26314"/>
+      <contract player="26315"/>
+      <contract player="26316"/>
+      <contract player="26317"/>
+      <contract player="26318"/>
+      <contract player="26319"/>
+    </contracts>
+  </club>
+  <club name="Marseille">
+    <coach name="Eric Gerets"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="173" g="216" b="230"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Marseille Stadium"/>
+    <contracts>
+      <contract player="26320"/>
+      <contract player="26321"/>
+      <contract player="26322"/>
+      <contract player="26323"/>
+      <contract player="26324"/>
+      <contract player="26325"/>
+      <contract player="26326"/>
+      <contract player="26327"/>
+      <contract player="26328"/>
+      <contract player="26329"/>
+      <contract player="26330"/>
+      <contract player="26331"/>
+      <contract player="26332"/>
+      <contract player="26333"/>
+      <contract player="26334"/>
+      <contract player="26335"/>
+    </contracts>
+  </club>
+  <club name="Grenoble">
+    <coach name="Mehmed Bazdarevic"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Grenoble Stadium"/>
+    <contracts>
+      <contract player="26336"/>
+      <contract player="26337"/>
+      <contract player="26338"/>
+      <contract player="26339"/>
+      <contract player="26340"/>
+      <contract player="26341"/>
+      <contract player="26342"/>
+      <contract player="26343"/>
+      <contract player="26344"/>
+      <contract player="26345"/>
+      <contract player="26346"/>
+      <contract player="26347"/>
+      <contract player="26348"/>
+      <contract player="26349"/>
+      <contract player="26350"/>
+      <contract player="26351"/>
+    </contracts>
+  </club>
+  <club name="Metz">
+    <coach name="Yvon Pouliquen"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="150" g="75" b="0"/>
+        </shorts>
+        <socks>
+          <color r="150" g="75" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Metz Stadium"/>
+    <contracts>
+      <contract player="26352"/>
+      <contract player="26353"/>
+      <contract player="26354"/>
+      <contract player="26355"/>
+      <contract player="26356"/>
+      <contract player="26357"/>
+      <contract player="26358"/>
+      <contract player="26359"/>
+      <contract player="26360"/>
+      <contract player="26361"/>
+      <contract player="26362"/>
+      <contract player="26363"/>
+      <contract player="26364"/>
+      <contract player="26365"/>
+      <contract player="26366"/>
+      <contract player="26367"/>
+    </contracts>
+  </club>
+  <club name="Monaco">
+    <coach name="Ricardo Gomes"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Monaco Stadium"/>
+    <contracts>
+      <contract player="26368"/>
+      <contract player="26369"/>
+      <contract player="26370"/>
+      <contract player="26371"/>
+      <contract player="26372"/>
+      <contract player="26373"/>
+      <contract player="26374"/>
+      <contract player="26375"/>
+      <contract player="26376"/>
+      <contract player="26377"/>
+      <contract player="26378"/>
+      <contract player="26379"/>
+      <contract player="26380"/>
+      <contract player="26381"/>
+      <contract player="26382"/>
+      <contract player="26383"/>
+    </contracts>
+  </club>
+  <club name="Montpellier">
+    <coach name="Rolland Courbis"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Montpellier Stadium"/>
+    <contracts>
+      <contract player="26384"/>
+      <contract player="26385"/>
+      <contract player="26386"/>
+      <contract player="26387"/>
+      <contract player="26388"/>
+      <contract player="26389"/>
+      <contract player="26390"/>
+      <contract player="26391"/>
+      <contract player="26392"/>
+      <contract player="26393"/>
+      <contract player="26394"/>
+      <contract player="26395"/>
+      <contract player="26396"/>
+      <contract player="26397"/>
+      <contract player="26398"/>
+      <contract player="26399"/>
+    </contracts>
+  </club>
+  <club name="Libourne">
+    <coach name="Didier Tholot"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Libourne Stadium"/>
+    <contracts>
+      <contract player="26400"/>
+      <contract player="26401"/>
+      <contract player="26402"/>
+      <contract player="26403"/>
+      <contract player="26404"/>
+      <contract player="26405"/>
+      <contract player="26406"/>
+      <contract player="26407"/>
+      <contract player="26408"/>
+      <contract player="26409"/>
+      <contract player="26410"/>
+      <contract player="26411"/>
+      <contract player="26412"/>
+      <contract player="26413"/>
+      <contract player="26414"/>
+      <contract player="26415"/>
+    </contracts>
+  </club>
+  <club name="Nancy">
+    <coach name="Pablo Correa"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="150" g="75" b="0"/>
+        </shorts>
+        <socks>
+          <color r="150" g="75" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Nancy Stadium"/>
+    <contracts>
+      <contract player="26416"/>
+      <contract player="26417"/>
+      <contract player="26418"/>
+      <contract player="26419"/>
+      <contract player="26420"/>
+      <contract player="26421"/>
+      <contract player="26422"/>
+      <contract player="26423"/>
+      <contract player="26424"/>
+      <contract player="26425"/>
+      <contract player="26426"/>
+      <contract player="26427"/>
+      <contract player="26428"/>
+      <contract player="26429"/>
+      <contract player="26430"/>
+      <contract player="26431"/>
+    </contracts>
+  </club>
+  <club name="Nantes">
+    <coach name="Michel Der Zakarian"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Nantes Stadium"/>
+    <contracts>
+      <contract player="26432"/>
+      <contract player="26433"/>
+      <contract player="26434"/>
+      <contract player="26435"/>
+      <contract player="26436"/>
+      <contract player="26437"/>
+      <contract player="26438"/>
+      <contract player="26439"/>
+      <contract player="26440"/>
+      <contract player="26441"/>
+      <contract player="26442"/>
+      <contract player="26443"/>
+      <contract player="26444"/>
+      <contract player="26445"/>
+      <contract player="26446"/>
+      <contract player="26447"/>
+    </contracts>
+  </club>
+  <club name="Nice">
+    <coach name="Frederic Antonetti"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Nice Stadium"/>
+    <contracts>
+      <contract player="26448"/>
+      <contract player="26449"/>
+      <contract player="26450"/>
+      <contract player="26451"/>
+      <contract player="26452"/>
+      <contract player="26453"/>
+      <contract player="26454"/>
+      <contract player="26455"/>
+      <contract player="26456"/>
+      <contract player="26457"/>
+      <contract player="26458"/>
+      <contract player="26459"/>
+      <contract player="26460"/>
+      <contract player="26461"/>
+      <contract player="26462"/>
+      <contract player="26463"/>
+    </contracts>
+  </club>
+  <club name="Niort">
+    <coach name="Jacky Bonnevay"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Niort Stadium"/>
+    <contracts>
+      <contract player="26464"/>
+      <contract player="26465"/>
+      <contract player="26466"/>
+      <contract player="26467"/>
+      <contract player="26468"/>
+      <contract player="26469"/>
+      <contract player="26470"/>
+      <contract player="26471"/>
+      <contract player="26472"/>
+      <contract player="26473"/>
+      <contract player="26474"/>
+      <contract player="26475"/>
+      <contract player="26476"/>
+      <contract player="26477"/>
+      <contract player="26478"/>
+      <contract player="26479"/>
+    </contracts>
+  </club>
+  <club name="Psg">
+    <coach name="Paul Le Guen"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Psg Stadium"/>
+    <contracts>
+      <contract player="26480"/>
+      <contract player="26481"/>
+      <contract player="26482"/>
+      <contract player="26483"/>
+      <contract player="26484"/>
+      <contract player="26485"/>
+      <contract player="26486"/>
+      <contract player="26487"/>
+      <contract player="26488"/>
+      <contract player="26489"/>
+      <contract player="26490"/>
+      <contract player="26491"/>
+      <contract player="26492"/>
+      <contract player="26493"/>
+      <contract player="26494"/>
+      <contract player="26495"/>
+    </contracts>
+  </club>
+  <club name="Reims">
+    <coach name="Thierry Froger"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Reims Stadium"/>
+    <contracts>
+      <contract player="26496"/>
+      <contract player="26497"/>
+      <contract player="26498"/>
+      <contract player="26499"/>
+      <contract player="26500"/>
+      <contract player="26501"/>
+      <contract player="26502"/>
+      <contract player="26503"/>
+      <contract player="26504"/>
+      <contract player="26505"/>
+      <contract player="26506"/>
+      <contract player="26507"/>
+      <contract player="26508"/>
+      <contract player="26509"/>
+      <contract player="26510"/>
+      <contract player="26511"/>
+    </contracts>
+  </club>
+  <club name="Sedan">
+    <coach name="Jose Pasqualetti"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Sedan Stadium"/>
+    <contracts>
+      <contract player="26512"/>
+      <contract player="26513"/>
+      <contract player="26514"/>
+      <contract player="26515"/>
+      <contract player="26516"/>
+      <contract player="26517"/>
+      <contract player="26518"/>
+      <contract player="26519"/>
+      <contract player="26520"/>
+      <contract player="26521"/>
+      <contract player="26522"/>
+      <contract player="26523"/>
+      <contract player="26524"/>
+      <contract player="26525"/>
+      <contract player="26526"/>
+      <contract player="26527"/>
+    </contracts>
+  </club>
+  <club name="Rennes">
+    <coach name="Guy Lacombe"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Rennes Stadium"/>
+    <contracts>
+      <contract player="26528"/>
+      <contract player="26529"/>
+      <contract player="26530"/>
+      <contract player="26531"/>
+      <contract player="26532"/>
+      <contract player="26533"/>
+      <contract player="26534"/>
+      <contract player="26535"/>
+      <contract player="26536"/>
+      <contract player="26537"/>
+      <contract player="26538"/>
+      <contract player="26539"/>
+      <contract player="26540"/>
+      <contract player="26541"/>
+      <contract player="26542"/>
+      <contract player="26543"/>
+    </contracts>
+  </club>
+  <club name="Creteil">
+    <coach name="Thierry Goudet"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Creteil Stadium"/>
+    <contracts>
+      <contract player="26544"/>
+      <contract player="26545"/>
+      <contract player="26546"/>
+      <contract player="26547"/>
+      <contract player="26548"/>
+      <contract player="26549"/>
+      <contract player="26550"/>
+      <contract player="26551"/>
+      <contract player="26552"/>
+      <contract player="26553"/>
+      <contract player="26554"/>
+      <contract player="26555"/>
+      <contract player="26556"/>
+      <contract player="26557"/>
+      <contract player="26558"/>
+      <contract player="26559"/>
+    </contracts>
+  </club>
+  <club name="Saint-etienne">
+    <coach name="Laurent Roussey"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Saint-etienne Stadium"/>
+    <contracts>
+      <contract player="26560"/>
+      <contract player="26561"/>
+      <contract player="26562"/>
+      <contract player="26563"/>
+      <contract player="26564"/>
+      <contract player="26565"/>
+      <contract player="26566"/>
+      <contract player="26567"/>
+      <contract player="26568"/>
+      <contract player="26569"/>
+      <contract player="26570"/>
+      <contract player="26571"/>
+      <contract player="26572"/>
+      <contract player="26573"/>
+      <contract player="26574"/>
+      <contract player="26575"/>
+    </contracts>
+  </club>
+  <club name="Sochaux">
+    <coach name="Francis Gillot"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Sochaux Stadium"/>
+    <contracts>
+      <contract player="26576"/>
+      <contract player="26577"/>
+      <contract player="26578"/>
+      <contract player="26579"/>
+      <contract player="26580"/>
+      <contract player="26581"/>
+      <contract player="26582"/>
+      <contract player="26583"/>
+      <contract player="26584"/>
+      <contract player="26585"/>
+      <contract player="26586"/>
+      <contract player="26587"/>
+      <contract player="26588"/>
+      <contract player="26589"/>
+      <contract player="26590"/>
+      <contract player="26591"/>
+    </contracts>
+  </club>
+  <club name="Strasbourg">
+    <coach name="Jean-marc Furlan"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Strasbourg Stadium"/>
+    <contracts>
+      <contract player="26592"/>
+      <contract player="26593"/>
+      <contract player="26594"/>
+      <contract player="26595"/>
+      <contract player="26596"/>
+      <contract player="26597"/>
+      <contract player="26598"/>
+      <contract player="26599"/>
+      <contract player="26600"/>
+      <contract player="26601"/>
+      <contract player="26602"/>
+      <contract player="26603"/>
+      <contract player="26604"/>
+      <contract player="26605"/>
+      <contract player="26606"/>
+      <contract player="26607"/>
+    </contracts>
+  </club>
+  <club name="Istres">
+    <coach name="Rene Le Lamer"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Istres Stadium"/>
+    <contracts>
+      <contract player="26608"/>
+      <contract player="26609"/>
+      <contract player="26610"/>
+      <contract player="26611"/>
+      <contract player="26612"/>
+      <contract player="26613"/>
+      <contract player="26614"/>
+      <contract player="26615"/>
+      <contract player="26616"/>
+      <contract player="26617"/>
+      <contract player="26618"/>
+      <contract player="26619"/>
+      <contract player="26620"/>
+      <contract player="26621"/>
+      <contract player="26622"/>
+      <contract player="26623"/>
+    </contracts>
+  </club>
+  <club name="Toulouse">
+    <coach name="Elie Baup"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="150" g="75" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Toulouse Stadium"/>
+    <contracts>
+      <contract player="26624"/>
+      <contract player="26625"/>
+      <contract player="26626"/>
+      <contract player="26627"/>
+      <contract player="26628"/>
+      <contract player="26629"/>
+      <contract player="26630"/>
+      <contract player="26631"/>
+      <contract player="26632"/>
+      <contract player="26633"/>
+      <contract player="26634"/>
+      <contract player="26635"/>
+      <contract player="26636"/>
+      <contract player="26637"/>
+      <contract player="26638"/>
+      <contract player="26639"/>
+    </contracts>
+  </club>
+  <club name="Troyes">
+    <coach name="Denis Troch"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Troyes Stadium"/>
+    <contracts>
+      <contract player="26640"/>
+      <contract player="26641"/>
+      <contract player="26642"/>
+      <contract player="26643"/>
+      <contract player="26644"/>
+      <contract player="26645"/>
+      <contract player="26646"/>
+      <contract player="26647"/>
+      <contract player="26648"/>
+      <contract player="26649"/>
+      <contract player="26650"/>
+      <contract player="26651"/>
+      <contract player="26652"/>
+      <contract player="26653"/>
+      <contract player="26654"/>
+      <contract player="26655"/>
+    </contracts>
+  </club>
+  <club name="Valenciennes">
+    <coach name="Antoine Kombouare"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="France"/>
+    <stadium name="Valenciennes Stadium"/>
+    <contracts>
+      <contract player="26656"/>
+      <contract player="26657"/>
+      <contract player="26658"/>
+      <contract player="26659"/>
+      <contract player="26660"/>
+      <contract player="26661"/>
+      <contract player="26662"/>
+      <contract player="26663"/>
+      <contract player="26664"/>
+      <contract player="26665"/>
+      <contract player="26666"/>
+      <contract player="26667"/>
+      <contract player="26668"/>
+      <contract player="26669"/>
+      <contract player="26670"/>
+      <contract player="26671"/>
+    </contracts>
+  </club>
+</Clubs>

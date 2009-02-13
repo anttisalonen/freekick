@@ -1,0 +1,2595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="6000">
+    <personal name="Daniel Zitka">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="497" risktaking="431" offensive="67" aggressive="679" consistent="458" creative="180" experienced="436"/>
+    <skills stamina="620" dexterity="570" speed="758" tackling="321" passing="610" shooting="598" control="396" accuracy="300" goalkeeping="596" heading="235"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="6001">
+    <personal name="Silvio Proto">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="472" risktaking="463" offensive="354" aggressive="711" consistent="359" creative="264" experienced="661"/>
+    <skills stamina="587" dexterity="587" speed="430" tackling="262" passing="607" shooting="482" control="359" accuracy="280" goalkeeping="519" heading="275"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6002">
+    <personal name="Marcin Wasilewski">
+      <appearance value="0"/>
+      <nationality value="Poland"/>
+    </personal>
+    <personality active="434" risktaking="627" offensive="459" aggressive="354" consistent="451" creative="388" experienced="336"/>
+    <skills stamina="491" dexterity="290" speed="780" tackling="602" passing="583" shooting="601" control="637" accuracy="508" goalkeeping="108" heading="588"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6003">
+    <personal name="Olivier Deschacht">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="515" risktaking="666" offensive="512" aggressive="593" consistent="533" creative="465" experienced="619"/>
+    <skills stamina="785" dexterity="619" speed="410" tackling="521" passing="668" shooting="611" control="561" accuracy="644" goalkeeping="104" heading="512"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6004">
+    <personal name="Nicolas Pareja">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="527" risktaking="304" offensive="503" aggressive="651" consistent="670" creative="537" experienced="779"/>
+    <skills stamina="741" dexterity="803" speed="350" tackling="614" passing="682" shooting="572" control="495" accuracy="683" goalkeeping="92" heading="657"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="6005">
+    <personal name="Mark De Man">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="615" risktaking="557" offensive="530" aggressive="341" consistent="527" creative="363" experienced="557"/>
+    <skills stamina="374" dexterity="563" speed="505" tackling="548" passing="560" shooting="497" control="443" accuracy="411" goalkeeping="83" heading="412"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6006">
+    <personal name="Serhat Akin">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="791" risktaking="475" offensive="516" aggressive="444" consistent="665" creative="340" experienced="658"/>
+    <skills stamina="736" dexterity="284" speed="672" tackling="441" passing="575" shooting="612" control="461" accuracy="639" goalkeeping="86" heading="553"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="6007">
+    <personal name="Roland Juhasz">
+      <appearance value="0"/>
+      <nationality value="Hungary"/>
+    </personal>
+    <personality active="526" risktaking="391" offensive="591" aggressive="454" consistent="454" creative="657" experienced="522"/>
+    <skills stamina="482" dexterity="570" speed="543" tackling="554" passing="579" shooting="492" control="558" accuracy="613" goalkeeping="93" heading="477"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6008">
+    <personal name="Ahmed Hassan">
+      <appearance value="0"/>
+      <nationality value="Egypt"/>
+    </personal>
+    <personality active="656" risktaking="675" offensive="217" aggressive="503" consistent="647" creative="276" experienced="821"/>
+    <skills stamina="435" dexterity="349" speed="345" tackling="562" passing="717" shooting="601" control="619" accuracy="574" goalkeeping="109" heading="590"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6009">
+    <personal name="Bart Goor">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="701" risktaking="384" offensive="462" aggressive="638" consistent="671" creative="521" experienced="121"/>
+    <skills stamina="259" dexterity="522" speed="701" tackling="613" passing="578" shooting="600" control="476" accuracy="558" goalkeeping="77" heading="459"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6010">
+    <personal name="Jan Polak">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="343" risktaking="320" offensive="558" aggressive="375" consistent="514" creative="513" experienced="407"/>
+    <skills stamina="565" dexterity="746" speed="325" tackling="607" passing="655" shooting="545" control="677" accuracy="682" goalkeeping="97" heading="624"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="6011">
+    <personal name="Lucas Biglia">
+      <appearance value="8"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="833" risktaking="653" offensive="547" aggressive="574" consistent="627" creative="649" experienced="492"/>
+    <skills stamina="533" dexterity="760" speed="617" tackling="710" passing="734" shooting="649" control="772" accuracy="676" goalkeeping="119" heading="625"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6012">
+    <personal name="Mbark Boussoufa">
+      <appearance value="0"/>
+      <nationality value="Morocco"/>
+    </personal>
+    <personality active="618" risktaking="277" offensive="535" aggressive="721" consistent="424" creative="591" experienced="668"/>
+    <skills stamina="770" dexterity="313" speed="458" tackling="620" passing="652" shooting="623" control="757" accuracy="564" goalkeeping="114" heading="628"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="6013">
+    <personal name="Cyril Thereau">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="285" risktaking="449" offensive="515" aggressive="539" consistent="764" creative="388" experienced="632"/>
+    <skills stamina="467" dexterity="680" speed="409" tackling="469" passing="458" shooting="644" control="528" accuracy="588" goalkeeping="90" heading="609"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6014">
+    <personal name="Nicolas Frutos">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="483" risktaking="671" offensive="277" aggressive="835" consistent="342" creative="541" experienced="452"/>
+    <skills stamina="301" dexterity="807" speed="495" tackling="700" passing="534" shooting="747" control="728" accuracy="676" goalkeeping="104" heading="557"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6015">
+    <personal name="Mbo Mpenza">
+      <appearance value="1"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="602" risktaking="714" offensive="656" aggressive="376" consistent="576" creative="482" experienced="651"/>
+    <skills stamina="337" dexterity="585" speed="397" tackling="608" passing="501" shooting="528" control="611" accuracy="682" goalkeeping="96" heading="468"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="6016">
+    <personal name="Geert De Vlieger">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="689" risktaking="656" offensive="437" aggressive="531" consistent="664" creative="473" experienced="514"/>
+    <skills stamina="420" dexterity="300" speed="299" tackling="269" passing="536" shooting="574" control="427" accuracy="253" goalkeeping="582" heading="236"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="6017">
+    <personal name="Sammy Bossut">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="464" risktaking="408" offensive="820" aggressive="410" consistent="430" creative="711" experienced="633"/>
+    <skills stamina="673" dexterity="624" speed="321" tackling="151" passing="302" shooting="342" control="236" accuracy="204" goalkeeping="473" heading="219"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6018">
+    <personal name="Stijn Minne">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="518" risktaking="447" offensive="384" aggressive="674" consistent="577" creative="786" experienced="652"/>
+    <skills stamina="239" dexterity="385" speed="524" tackling="515" passing="536" shooting="471" control="427" accuracy="340" goalkeeping="70" heading="495"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6019">
+    <personal name="Loris Reina">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="651" risktaking="602" offensive="608" aggressive="265" consistent="721" creative="508" experienced="495"/>
+    <skills stamina="322" dexterity="700" speed="463" tackling="486" passing="498" shooting="475" control="508" accuracy="454" goalkeeping="85" heading="493"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6020">
+    <personal name="Karel D'haene">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="374" risktaking="466" offensive="475" aggressive="382" consistent="633" creative="429" experienced="605"/>
+    <skills stamina="504" dexterity="568" speed="555" tackling="387" passing="560" shooting="419" control="493" accuracy="444" goalkeeping="93" heading="512"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6021">
+    <personal name="Frederic Dindeleux">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="477" risktaking="696" offensive="620" aggressive="559" consistent="546" creative="622" experienced="463"/>
+    <skills stamina="278" dexterity="416" speed="683" tackling="506" passing="518" shooting="397" control="451" accuracy="338" goalkeeping="53" heading="469"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6022">
+    <personal name="Bart Van Zundert">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="570" risktaking="562" offensive="523" aggressive="558" consistent="570" creative="692" experienced="437"/>
+    <skills stamina="198" dexterity="263" speed="659" tackling="425" passing="351" shooting="320" control="494" accuracy="363" goalkeeping="80" heading="424"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6023">
+    <personal name="Mathieu Verschuere">
+      <appearance value="8"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="414" risktaking="599" offensive="648" aggressive="635" consistent="449" creative="454" experienced="332"/>
+    <skills stamina="659" dexterity="477" speed="388" tackling="526" passing="461" shooting="441" control="514" accuracy="368" goalkeeping="77" heading="409"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6024">
+    <personal name="Stijn Meert">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="270" risktaking="666" offensive="482" aggressive="489" consistent="718" creative="276" experienced="310"/>
+    <skills stamina="512" dexterity="384" speed="476" tackling="440" passing="401" shooting="453" control="553" accuracy="486" goalkeeping="88" heading="530"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6025">
+    <personal name="Nathan D'haemers">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="460" risktaking="367" offensive="308" aggressive="484" consistent="488" creative="459" experienced="595"/>
+    <skills stamina="439" dexterity="704" speed="665" tackling="424" passing="578" shooting="468" control="479" accuracy="431" goalkeeping="65" heading="439"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6026">
+    <personal name="L. Van Nieuwenhuyze">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="517" risktaking="612" offensive="601" aggressive="488" consistent="445" creative="637" experienced="592"/>
+    <skills stamina="457" dexterity="223" speed="508" tackling="426" passing="368" shooting="505" control="462" accuracy="392" goalkeeping="75" heading="530"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6027">
+    <personal name="Kevin Roelandts">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="528" risktaking="376" offensive="251" aggressive="610" consistent="457" creative="324" experienced="601"/>
+    <skills stamina="725" dexterity="313" speed="245" tackling="423" passing="468" shooting="478" control="424" accuracy="380" goalkeeping="70" heading="504"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="6028">
+    <personal name="Nikica Jelavic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="350" risktaking="964" offensive="445" aggressive="324" consistent="554" creative="274" experienced="490"/>
+    <skills stamina="625" dexterity="234" speed="414" tackling="383" passing="503" shooting="578" control="479" accuracy="621" goalkeeping="79" heading="480"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6029">
+    <personal name="Leandro Barrios">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="392" risktaking="315" offensive="240" aggressive="293" consistent="651" creative="711" experienced="272"/>
+    <skills stamina="400" dexterity="395" speed="505" tackling="470" passing="362" shooting="348" control="375" accuracy="435" goalkeeping="49" heading="426"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6030">
+    <personal name="Mbaye Leye">
+      <appearance value="1"/>
+      <nationality value="Senegal"/>
+    </personal>
+    <personality active="607" risktaking="455" offensive="691" aggressive="483" consistent="712" creative="437" experienced="519"/>
+    <skills stamina="569" dexterity="664" speed="512" tackling="442" passing="494" shooting="466" control="374" accuracy="413" goalkeeping="71" heading="464"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6031">
+    <personal name="Tim Matthys">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="414" risktaking="479" offensive="661" aggressive="399" consistent="517" creative="531" experienced="662"/>
+    <skills stamina="455" dexterity="420" speed="697" tackling="483" passing="516" shooting="564" control="585" accuracy="490" goalkeeping="79" heading="618"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6032">
+    <personal name="Bram Verbist">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="399" risktaking="509" offensive="500" aggressive="607" consistent="613" creative="416" experienced="458"/>
+    <skills stamina="513" dexterity="418" speed="208" tackling="180" passing="411" shooting="405" control="383" accuracy="257" goalkeeping="444" heading="184"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6033">
+    <personal name="Rubin Dantschotter">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="642" risktaking="353" offensive="566" aggressive="761" consistent="600" creative="317" experienced="600"/>
+    <skills stamina="604" dexterity="376" speed="363" tackling="200" passing="339" shooting="311" control="332" accuracy="164" goalkeeping="324" heading="214"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6034">
+    <personal name="Tom Van Mol">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="498" risktaking="571" offensive="558" aggressive="934" consistent="580" creative="641" experienced="598"/>
+    <skills stamina="339" dexterity="383" speed="551" tackling="521" passing="503" shooting="496" control="487" accuracy="335" goalkeeping="83" heading="347"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6035">
+    <personal name="Armand Mondakan">
+      <appearance value="1"/>
+      <nationality value="Ivory Coast"/>
+    </personal>
+    <personality active="670" risktaking="564" offensive="401" aggressive="428" consistent="418" creative="372" experienced="425"/>
+    <skills stamina="609" dexterity="602" speed="223" tackling="379" passing="507" shooting="504" control="528" accuracy="440" goalkeeping="67" heading="344"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6036">
+    <personal name="Denis Viane">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="331" risktaking="809" offensive="467" aggressive="569" consistent="454" creative="353" experienced="335"/>
+    <skills stamina="595" dexterity="418" speed="536" tackling="381" passing="502" shooting="397" control="471" accuracy="351" goalkeeping="66" heading="393"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6037">
+    <personal name="Igor Gjuzelov">
+      <appearance value="0"/>
+      <nationality value="FYR Macedonia"/>
+    </personal>
+    <personality active="384" risktaking="269" offensive="434" aggressive="427" consistent="158" creative="282" experienced="460"/>
+    <skills stamina="413" dexterity="399" speed="212" tackling="408" passing="357" shooting="419" control="521" accuracy="456" goalkeeping="71" heading="315"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="6038">
+    <personal name="Jimmy De Wulf">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="486" risktaking="372" offensive="614" aggressive="481" consistent="354" creative="392" experienced="254"/>
+    <skills stamina="571" dexterity="303" speed="265" tackling="482" passing="565" shooting="487" control="379" accuracy="527" goalkeeping="57" heading="526"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6039">
+    <personal name="Frederik Boi">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="733" risktaking="505" offensive="308" aggressive="579" consistent="507" creative="618" experienced="404"/>
+    <skills stamina="478" dexterity="449" speed="213" tackling="536" passing="547" shooting="506" control="361" accuracy="446" goalkeeping="85" heading="425"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6040">
+    <personal name="Honour Gombani">
+      <appearance value="1"/>
+      <nationality value="Zimbabwe"/>
+    </personal>
+    <personality active="290" risktaking="535" offensive="640" aggressive="277" consistent="549" creative="762" experienced="609"/>
+    <skills stamina="670" dexterity="381" speed="482" tackling="507" passing="398" shooting="496" control="418" accuracy="388" goalkeeping="91" heading="437"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6041">
+    <personal name="Besnik Hasi">
+      <appearance value="0"/>
+      <nationality value="Albania"/>
+    </personal>
+    <personality active="504" risktaking="701" offensive="539" aggressive="558" consistent="402" creative="596" experienced="777"/>
+    <skills stamina="247" dexterity="614" speed="281" tackling="514" passing="417" shooting="435" control="451" accuracy="436" goalkeeping="69" heading="417"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6042">
+    <personal name="Vuza Nyoni">
+      <appearance value="1"/>
+      <nationality value="Zimbabwe"/>
+    </personal>
+    <personality active="397" risktaking="391" offensive="344" aggressive="657" consistent="747" creative="380" experienced="440"/>
+    <skills stamina="235" dexterity="262" speed="259" tackling="477" passing="465" shooting="378" control="344" accuracy="486" goalkeeping="66" heading="406"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6043">
+    <personal name="Sergei Serebrennikov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="327" risktaking="676" offensive="549" aggressive="680" consistent="307" creative="564" experienced="522"/>
+    <skills stamina="257" dexterity="272" speed="280" tackling="550" passing="510" shooting="400" control="410" accuracy="415" goalkeeping="74" heading="489"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6044">
+    <personal name="Tom De Sutter">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="532" risktaking="684" offensive="376" aggressive="458" consistent="434" creative="381" experienced="599"/>
+    <skills stamina="302" dexterity="441" speed="683" tackling="546" passing="372" shooting="430" control="361" accuracy="494" goalkeeping="70" heading="460"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6045">
+    <personal name="Kristof Snelders">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="633" risktaking="404" offensive="445" aggressive="376" consistent="428" creative="523" experienced="422"/>
+    <skills stamina="378" dexterity="452" speed="186" tackling="345" passing="529" shooting="403" control="457" accuracy="529" goalkeeping="86" heading="392"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6046">
+    <personal name="Stijn De Smet">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="637" risktaking="511" offensive="624" aggressive="637" consistent="187" creative="331" experienced="534"/>
+    <skills stamina="661" dexterity="505" speed="340" tackling="465" passing="473" shooting="556" control="480" accuracy="413" goalkeeping="82" heading="486"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6047">
+    <personal name="Oleg Iashchuk">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="573" risktaking="303" offensive="634" aggressive="644" consistent="387" creative="402" experienced="444"/>
+    <skills stamina="311" dexterity="288" speed="370" tackling="441" passing="418" shooting="585" control="449" accuracy="555" goalkeeping="67" heading="463"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="6048">
+    <personal name="Bertrand Lacquait">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="237" risktaking="574" offensive="657" aggressive="568" consistent="400" creative="585" experienced="569"/>
+    <skills stamina="729" dexterity="665" speed="728" tackling="252" passing="533" shooting="492" control="422" accuracy="266" goalkeeping="482" heading="280"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="6049">
+    <personal name="Damien Lahaye">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="576" risktaking="610" offensive="250" aggressive="538" consistent="304" creative="529" experienced="362"/>
+    <skills stamina="226" dexterity="370" speed="241" tackling="183" passing="429" shooting="475" control="240" accuracy="228" goalkeeping="486" heading="189"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6050">
+    <personal name="Laurent Ciman">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="378" risktaking="503" offensive="503" aggressive="442" consistent="529" creative="461" experienced="395"/>
+    <skills stamina="285" dexterity="669" speed="441" tackling="550" passing="562" shooting="507" control="371" accuracy="478" goalkeeping="74" heading="532"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6051">
+    <personal name="Salaheddine Sbai">
+      <appearance value="0"/>
+      <nationality value="Morocco"/>
+    </personal>
+    <personality active="312" risktaking="746" offensive="536" aggressive="310" consistent="455" creative="453" experienced="310"/>
+    <skills stamina="477" dexterity="696" speed="676" tackling="444" passing="454" shooting="406" control="362" accuracy="460" goalkeeping="54" heading="392"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6052">
+    <personal name="Mahamodou Kere">
+      <appearance value="1"/>
+      <nationality value="Burkina Faso"/>
+    </personal>
+    <personality active="513" risktaking="218" offensive="418" aggressive="622" consistent="633" creative="350" experienced="480"/>
+    <skills stamina="647" dexterity="548" speed="727" tackling="463" passing="432" shooting="488" control="467" accuracy="545" goalkeeping="83" heading="436"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6053">
+    <personal name="Frank Defays">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="518" risktaking="260" offensive="371" aggressive="521" consistent="525" creative="370" experienced="322"/>
+    <skills stamina="332" dexterity="632" speed="276" tackling="539" passing="525" shooting="527" control="424" accuracy="527" goalkeeping="88" heading="504"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6054">
+    <personal name="Ibrahima Diallo">
+      <appearance value="1"/>
+      <nationality value="Guinea"/>
+    </personal>
+    <personality active="564" risktaking="218" offensive="650" aggressive="394" consistent="551" creative="298" experienced="326"/>
+    <skills stamina="523" dexterity="387" speed="241" tackling="461" passing="469" shooting="391" control="354" accuracy="341" goalkeeping="65" heading="434"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6055">
+    <personal name="Damien Miceli">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="320" risktaking="620" offensive="445" aggressive="741" consistent="459" creative="405" experienced="410"/>
+    <skills stamina="585" dexterity="419" speed="259" tackling="312" passing="484" shooting="331" control="331" accuracy="371" goalkeeping="81" heading="457"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6056">
+    <personal name="Gregory Christ">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="373" risktaking="590" offensive="266" aggressive="799" consistent="245" creative="262" experienced="269"/>
+    <skills stamina="433" dexterity="251" speed="316" tackling="501" passing="529" shooting="492" control="560" accuracy="513" goalkeeping="62" heading="492"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6057">
+    <personal name="Abdelmajid Oulmers">
+      <appearance value="0"/>
+      <nationality value="Morocco"/>
+    </personal>
+    <personality active="610" risktaking="697" offensive="533" aggressive="315" consistent="672" creative="309" experienced="138"/>
+    <skills stamina="575" dexterity="243" speed="452" tackling="393" passing="475" shooting="441" control="542" accuracy="463" goalkeeping="68" heading="403"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6058">
+    <personal name="Fabien Camus">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="670" risktaking="558" offensive="513" aggressive="377" consistent="519" creative="487" experienced="466"/>
+    <skills stamina="691" dexterity="620" speed="676" tackling="659" passing="606" shooting="529" control="509" accuracy="484" goalkeeping="103" heading="461"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6059">
+    <personal name="Cristian Leiva">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="836" risktaking="440" offensive="342" aggressive="360" consistent="90" creative="538" experienced="484"/>
+    <skills stamina="657" dexterity="281" speed="414" tackling="517" passing="590" shooting="453" control="499" accuracy="456" goalkeeping="75" heading="454"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6060">
+    <personal name="Tim Smolders">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="820" risktaking="399" offensive="659" aggressive="613" consistent="511" creative="729" experienced="585"/>
+    <skills stamina="367" dexterity="596" speed="527" tackling="529" passing="569" shooting="381" control="431" accuracy="492" goalkeeping="81" heading="448"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6061">
+    <personal name="Orlando">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="702" risktaking="398" offensive="664" aggressive="199" consistent="582" creative="330" experienced="317"/>
+    <skills stamina="269" dexterity="648" speed="341" tackling="362" passing="363" shooting="479" control="392" accuracy="508" goalkeeping="85" heading="412"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="6062">
+    <personal name="Mahamodou Habibou">
+      <appearance value="1"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="470" risktaking="307" offensive="500" aggressive="540" consistent="513" creative="847" experienced="568"/>
+    <skills stamina="398" dexterity="446" speed="296" tackling="440" passing="478" shooting="520" control="455" accuracy="580" goalkeeping="76" heading="502"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6063">
+    <personal name="Joseph Akpala">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="528" risktaking="638" offensive="522" aggressive="576" consistent="624" creative="796" experienced="374"/>
+    <skills stamina="338" dexterity="279" speed="506" tackling="405" passing="502" shooting="431" control="545" accuracy="526" goalkeeping="76" heading="517"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6064">
+    <personal name="Stijn Stijnen">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="827" risktaking="426" offensive="409" aggressive="289" consistent="219" creative="351" experienced="376"/>
+    <skills stamina="562" dexterity="294" speed="506" tackling="282" passing="586" shooting="585" control="396" accuracy="319" goalkeeping="708" heading="283"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6065">
+    <personal name="Glenn Verbauwhede">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="565" risktaking="452" offensive="390" aggressive="617" consistent="698" creative="370" experienced="386"/>
+    <skills stamina="435" dexterity="274" speed="700" tackling="190" passing="508" shooting="360" control="388" accuracy="193" goalkeeping="574" heading="236"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6066">
+    <personal name="Brian Priske">
+      <appearance value="8"/>
+      <nationality value="Denmark"/>
+    </personal>
+    <personality active="659" risktaking="679" offensive="411" aggressive="272" consistent="508" creative="597" experienced="430"/>
+    <skills stamina="779" dexterity="279" speed="443" tackling="498" passing="556" shooting="464" control="485" accuracy="432" goalkeeping="77" heading="594"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6067">
+    <personal name="Michal Klukowski">
+      <appearance value="0"/>
+      <nationality value="Canada"/>
+    </personal>
+    <personality active="459" risktaking="582" offensive="401" aggressive="365" consistent="426" creative="585" experienced="536"/>
+    <skills stamina="660" dexterity="742" speed="639" tackling="482" passing="572" shooting="643" control="634" accuracy="599" goalkeeping="100" heading="620"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6068">
+    <personal name="Philippe Clement">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="325" risktaking="735" offensive="629" aggressive="307" consistent="166" creative="403" experienced="578"/>
+    <skills stamina="530" dexterity="629" speed="726" tackling="494" passing="552" shooting="466" control="619" accuracy="441" goalkeeping="86" heading="604"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6069">
+    <personal name="Birger Maertens">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="423" risktaking="592" offensive="225" aggressive="413" consistent="689" creative="427" experienced="510"/>
+    <skills stamina="703" dexterity="673" speed="505" tackling="544" passing="516" shooting="456" control="489" accuracy="457" goalkeeping="81" heading="561"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6070">
+    <personal name="Stepan Kucera">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="356" risktaking="307" offensive="539" aggressive="356" consistent="561" creative="680" experienced="568"/>
+    <skills stamina="485" dexterity="231" speed="470" tackling="614" passing="501" shooting="548" control="574" accuracy="524" goalkeeping="81" heading="516"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6071">
+    <personal name="Gaetan Englebert">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="682" risktaking="730" offensive="445" aggressive="601" consistent="715" creative="429" experienced="449"/>
+    <skills stamina="488" dexterity="368" speed="379" tackling="544" passing="589" shooting="506" control="549" accuracy="516" goalkeeping="102" heading="453"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6072">
+    <personal name="Koen Daerden">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="197" risktaking="310" offensive="828" aggressive="925" consistent="638" creative="610" experienced="713"/>
+    <skills stamina="728" dexterity="602" speed="511" tackling="533" passing="629" shooting="494" control="591" accuracy="551" goalkeeping="109" heading="586"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6073">
+    <personal name="Karel Geraerts">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="705" risktaking="606" offensive="348" aggressive="552" consistent="553" creative="625" experienced="300"/>
+    <skills stamina="710" dexterity="343" speed="399" tackling="570" passing="638" shooting="564" control="529" accuracy="641" goalkeeping="105" heading="669"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="6074">
+    <personal name="Ivan Leko">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="79" risktaking="643" offensive="604" aggressive="761" consistent="753" creative="391" experienced="687"/>
+    <skills stamina="750" dexterity="590" speed="722" tackling="644" passing="657" shooting="664" control="536" accuracy="603" goalkeeping="94" heading="598"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6075">
+    <personal name="Jonathan Blondel">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="370" risktaking="342" offensive="411" aggressive="524" consistent="302" creative="519" experienced="411"/>
+    <skills stamina="511" dexterity="406" speed="443" tackling="599" passing="587" shooting="488" control="560" accuracy="601" goalkeeping="99" heading="651"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6076">
+    <personal name="Sven Vermant">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="588" risktaking="710" offensive="495" aggressive="467" consistent="609" creative="595" experienced="433"/>
+    <skills stamina="561" dexterity="681" speed="223" tackling="554" passing="582" shooting="624" control="644" accuracy="616" goalkeeping="77" heading="524"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6077">
+    <personal name="Ibrahim Salou">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="379" risktaking="615" offensive="545" aggressive="307" consistent="489" creative="176" experienced="738"/>
+    <skills stamina="468" dexterity="316" speed="345" tackling="508" passing="435" shooting="614" control="444" accuracy="648" goalkeeping="80" heading="619"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6078">
+    <personal name="Francois Sterchele">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="378" risktaking="353" offensive="470" aggressive="374" consistent="637" creative="433" experienced="608"/>
+    <skills stamina="571" dexterity="499" speed="676" tackling="600" passing="670" shooting="598" control="519" accuracy="570" goalkeeping="95" heading="679"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6079">
+    <personal name="Dusan Djokic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="537" risktaking="464" offensive="236" aggressive="402" consistent="374" creative="418" experienced="305"/>
+    <skills stamina="741" dexterity="689" speed="737" tackling="559" passing="470" shooting="555" control="523" accuracy="553" goalkeeping="92" heading="607"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6080">
+    <personal name="Erwin Lemmens">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="739" risktaking="562" offensive="545" aggressive="659" consistent="480" creative="408" experienced="464"/>
+    <skills stamina="585" dexterity="359" speed="460" tackling="244" passing="369" shooting="393" control="410" accuracy="171" goalkeeping="523" heading="190"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6081">
+    <personal name="Jan Van Steenberghe">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="343" risktaking="826" offensive="261" aggressive="687" consistent="756" creative="537" experienced="503"/>
+    <skills stamina="476" dexterity="611" speed="308" tackling="194" passing="436" shooting="452" control="269" accuracy="209" goalkeeping="554" heading="231"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6082">
+    <personal name="Sven Vandeput">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="470" risktaking="555" offensive="546" aggressive="592" consistent="329" creative="586" experienced="634"/>
+    <skills stamina="353" dexterity="656" speed="513" tackling="373" passing="355" shooting="283" control="451" accuracy="428" goalkeeping="66" heading="421"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6083">
+    <personal name="Younous Oumouri">
+      <appearance value="1"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="577" risktaking="370" offensive="324" aggressive="566" consistent="369" creative="577" experienced="450"/>
+    <skills stamina="721" dexterity="578" speed="320" tackling="473" passing="486" shooting="268" control="443" accuracy="373" goalkeeping="53" heading="288"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6084">
+    <personal name="Timothy Derijck">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="446" risktaking="253" offensive="460" aggressive="692" consistent="835" creative="330" experienced="299"/>
+    <skills stamina="360" dexterity="438" speed="694" tackling="401" passing="574" shooting="374" control="451" accuracy="499" goalkeeping="87" heading="494"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="6085">
+    <personal name="Samuel Neva">
+      <appearance value="1"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="414" risktaking="629" offensive="718" aggressive="376" consistent="567" creative="441" experienced="531"/>
+    <skills stamina="351" dexterity="316" speed="525" tackling="561" passing="483" shooting="360" control="496" accuracy="324" goalkeeping="52" heading="363"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6086">
+    <personal name="Johan Gerets">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="497" risktaking="624" offensive="758" aggressive="665" consistent="748" creative="325" experienced="513"/>
+    <skills stamina="505" dexterity="468" speed="452" tackling="365" passing="421" shooting="391" control="445" accuracy="432" goalkeeping="67" heading="307"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6087">
+    <personal name="Alex Da Silva">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="748" risktaking="354" offensive="354" aggressive="559" consistent="629" creative="365" experienced="194"/>
+    <skills stamina="687" dexterity="240" speed="230" tackling="380" passing="517" shooting="405" control="505" accuracy="491" goalkeeping="63" heading="526"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6088">
+    <personal name="Predrag Filipovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="607" risktaking="481" offensive="361" aggressive="565" consistent="539" creative="782" experienced="526"/>
+    <skills stamina="731" dexterity="632" speed="565" tackling="479" passing="464" shooting="449" control="485" accuracy="396" goalkeeping="58" heading="358"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6089">
+    <personal name="Tom Peeters">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="602" risktaking="584" offensive="784" aggressive="622" consistent="591" creative="359" experienced="742"/>
+    <skills stamina="533" dexterity="190" speed="630" tackling="458" passing="324" shooting="297" control="485" accuracy="382" goalkeeping="69" heading="471"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="6090">
+    <personal name="David De Storme">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="687" risktaking="377" offensive="538" aggressive="541" consistent="176" creative="393" experienced="440"/>
+    <skills stamina="673" dexterity="545" speed="364" tackling="393" passing="348" shooting="432" control="394" accuracy="328" goalkeeping="79" heading="485"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6091">
+    <personal name="Frederic Vanderbiest">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="631" risktaking="660" offensive="389" aggressive="463" consistent="554" creative="369" experienced="492"/>
+    <skills stamina="698" dexterity="356" speed="201" tackling="422" passing="541" shooting="460" control="511" accuracy="517" goalkeeping="75" heading="490"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6092">
+    <personal name="Norman Sylla">
+      <appearance value="1"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="570" risktaking="288" offensive="334" aggressive="348" consistent="495" creative="524" experienced="503"/>
+    <skills stamina="316" dexterity="650" speed="388" tackling="422" passing="311" shooting="482" control="304" accuracy="305" goalkeeping="74" heading="384"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6093">
+    <personal name="Henri Munyaneza">
+      <appearance value="1"/>
+      <nationality value="Unknown"/>
+    </personal>
+    <personality active="418" risktaking="801" offensive="569" aggressive="518" consistent="502" creative="388" experienced="252"/>
+    <skills stamina="699" dexterity="316" speed="567" tackling="405" passing="362" shooting="461" control="522" accuracy="461" goalkeeping="61" heading="495"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6094">
+    <personal name="Sebastian Dufoor">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="563" risktaking="350" offensive="538" aggressive="402" consistent="360" creative="320" experienced="482"/>
+    <skills stamina="212" dexterity="533" speed="668" tackling="498" passing="340" shooting="547" control="382" accuracy="461" goalkeeping="73" heading="567"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="6095">
+    <personal name="Olivier Schuddinck">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="481" risktaking="549" offensive="561" aggressive="562" consistent="527" creative="504" experienced="560"/>
+    <skills stamina="654" dexterity="212" speed="520" tackling="380" passing="368" shooting="426" control="409" accuracy="497" goalkeeping="49" heading="373"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="6096">
+    <personal name="Logan Bailly">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="552" risktaking="664" offensive="483" aggressive="369" consistent="611" creative="313" experienced="610"/>
+    <skills stamina="294" dexterity="445" speed="673" tackling="248" passing="590" shooting="548" control="436" accuracy="245" goalkeeping="604" heading="289"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6097">
+    <personal name="Sinan Bolat">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="552" risktaking="417" offensive="449" aggressive="505" consistent="352" creative="577" experienced="411"/>
+    <skills stamina="546" dexterity="520" speed="210" tackling="184" passing="444" shooting="519" control="310" accuracy="230" goalkeeping="394" heading="209"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6098">
+    <personal name="Hans Cornelis">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="454" risktaking="667" offensive="541" aggressive="532" consistent="664" creative="611" experienced="427"/>
+    <skills stamina="659" dexterity="261" speed="641" tackling="640" passing="657" shooting="580" control="644" accuracy="502" goalkeeping="95" heading="481"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6099">
+    <personal name="Tiago Silva">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="321" risktaking="581" offensive="654" aggressive="533" consistent="323" creative="384" experienced="214"/>
+    <skills stamina="360" dexterity="349" speed="653" tackling="475" passing="521" shooting="568" control="472" accuracy="463" goalkeeping="65" heading="468"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6100">
+    <personal name="Jean-philippe Caillet">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="740" risktaking="519" offensive="435" aggressive="525" consistent="559" creative="845" experienced="414"/>
+    <skills stamina="236" dexterity="347" speed="275" tackling="600" passing="511" shooting="563" control="492" accuracy="589" goalkeeping="68" heading="573"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="6101">
+    <personal name="Alexandre Igor Lolo">
+      <appearance value="1"/>
+      <nationality value="Ivory Coast"/>
+    </personal>
+    <personality active="656" risktaking="886" offensive="447" aggressive="493" consistent="302" creative="635" experienced="435"/>
+    <skills stamina="206" dexterity="642" speed="229" tackling="483" passing="462" shooting="568" control="436" accuracy="568" goalkeeping="73" heading="373"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6102">
+    <personal name="Thomas Chatelle">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="412" risktaking="516" offensive="537" aggressive="439" consistent="467" creative="546" experienced="446"/>
+    <skills stamina="377" dexterity="659" speed="392" tackling="495" passing="664" shooting="563" control="588" accuracy="650" goalkeeping="98" heading="550"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6103">
+    <personal name="Tom Soetaers">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="397" risktaking="634" offensive="357" aggressive="627" consistent="543" creative="724" experienced="525"/>
+    <skills stamina="298" dexterity="721" speed="708" tackling="679" passing="611" shooting="596" control="621" accuracy="498" goalkeeping="103" heading="545"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6104">
+    <personal name="Eric Matoukou">
+      <appearance value="1"/>
+      <nationality value="Cameroon"/>
+    </personal>
+    <personality active="319" risktaking="684" offensive="717" aggressive="409" consistent="502" creative="714" experienced="299"/>
+    <skills stamina="670" dexterity="681" speed="580" tackling="529" passing="564" shooting="457" control="543" accuracy="452" goalkeeping="77" heading="424"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="6105">
+    <personal name="Wim De Decker">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="610" risktaking="679" offensive="501" aggressive="408" consistent="523" creative="541" experienced="511"/>
+    <skills stamina="583" dexterity="751" speed="424" tackling="552" passing="478" shooting="503" control="576" accuracy="436" goalkeeping="82" heading="571"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6106">
+    <personal name="Faris Haroun">
+      <appearance value="1"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="641" risktaking="446" offensive="594" aggressive="642" consistent="675" creative="768" experienced="745"/>
+    <skills stamina="476" dexterity="646" speed="554" tackling="545" passing="597" shooting="576" control="466" accuracy="484" goalkeeping="79" heading="479"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6107">
+    <personal name="Wouter Vrancken">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="682" risktaking="380" offensive="492" aggressive="509" consistent="241" creative="508" experienced="621"/>
+    <skills stamina="432" dexterity="607" speed="597" tackling="471" passing="541" shooting="520" control="511" accuracy="516" goalkeeping="94" heading="581"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6108">
+    <personal name="Balazs Toth">
+      <appearance value="0"/>
+      <nationality value="Hungary"/>
+    </personal>
+    <personality active="463" risktaking="205" offensive="848" aggressive="466" consistent="438" creative="342" experienced="340"/>
+    <skills stamina="682" dexterity="350" speed="513" tackling="558" passing="475" shooting="426" control="586" accuracy="577" goalkeeping="73" heading="467"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6109">
+    <personal name="Ivan Bosnjak">
+      <appearance value="8"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="680" risktaking="494" offensive="488" aggressive="563" consistent="489" creative="713" experienced="637"/>
+    <skills stamina="659" dexterity="277" speed="460" tackling="648" passing="596" shooting="548" control="597" accuracy="657" goalkeeping="97" heading="575"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6110">
+    <personal name="Goran Ljubojevic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="629" risktaking="550" offensive="367" aggressive="405" consistent="596" creative="360" experienced="498"/>
+    <skills stamina="246" dexterity="486" speed="603" tackling="440" passing="516" shooting="507" control="580" accuracy="485" goalkeeping="77" heading="553"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6111">
+    <personal name="Elyaniv Barda">
+      <appearance value="0"/>
+      <nationality value="Israel"/>
+    </personal>
+    <personality active="745" risktaking="571" offensive="546" aggressive="524" consistent="677" creative="738" experienced="392"/>
+    <skills stamina="316" dexterity="676" speed="559" tackling="420" passing="553" shooting="553" control="424" accuracy="591" goalkeeping="93" heading="426"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6112">
+    <personal name="Bojan Jorgacevic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="397" risktaking="469" offensive="462" aggressive="540" consistent="224" creative="678" experienced="634"/>
+    <skills stamina="665" dexterity="216" speed="355" tackling="257" passing="355" shooting="516" control="283" accuracy="213" goalkeeping="438" heading="237"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="6113">
+    <personal name="Alexandre Martinovic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="575" risktaking="572" offensive="223" aggressive="550" consistent="500" creative="606" experienced="749"/>
+    <skills stamina="263" dexterity="562" speed="704" tackling="189" passing="506" shooting="378" control="413" accuracy="165" goalkeeping="562" heading="259"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="6114">
+    <personal name="Guillaume Gillet">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="723" risktaking="513" offensive="737" aggressive="662" consistent="508" creative="447" experienced="519"/>
+    <skills stamina="268" dexterity="653" speed="436" tackling="491" passing="606" shooting="462" control="533" accuracy="583" goalkeeping="69" heading="594"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6115">
+    <personal name="Aleksandar Mutavdzic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="452" risktaking="535" offensive="305" aggressive="347" consistent="512" creative="298" experienced="358"/>
+    <skills stamina="406" dexterity="258" speed="179" tackling="526" passing="495" shooting="523" control="523" accuracy="470" goalkeeping="60" heading="530"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6116">
+    <personal name="Dario Smoje">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="501" risktaking="408" offensive="635" aggressive="524" consistent="366" creative="569" experienced="151"/>
+    <skills stamina="233" dexterity="427" speed="443" tackling="444" passing="435" shooting="550" control="539" accuracy="470" goalkeeping="93" heading="544"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6117">
+    <personal name="Djordje Svetlicic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="456" risktaking="547" offensive="708" aggressive="190" consistent="471" creative="492" experienced="493"/>
+    <skills stamina="560" dexterity="551" speed="376" tackling="610" passing="461" shooting="407" control="446" accuracy="535" goalkeeping="56" heading="393"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="6118">
+    <personal name="Milos Maric">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="659" risktaking="729" offensive="310" aggressive="374" consistent="475" creative="509" experienced="444"/>
+    <skills stamina="531" dexterity="289" speed="645" tackling="648" passing="588" shooting="562" control="644" accuracy="593" goalkeeping="100" heading="496"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6119">
+    <personal name="Bernd Thijs">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="491" risktaking="593" offensive="687" aggressive="526" consistent="596" creative="350" experienced="296"/>
+    <skills stamina="303" dexterity="476" speed="348" tackling="576" passing="433" shooting="475" control="538" accuracy="378" goalkeeping="61" heading="538"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="6120">
+    <personal name="Christophe Grondin">
+      <appearance value="1"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="682" risktaking="656" offensive="358" aggressive="504" consistent="402" creative="443" experienced="602"/>
+    <skills stamina="230" dexterity="581" speed="220" tackling="585" passing="522" shooting="497" control="570" accuracy="395" goalkeeping="72" heading="507"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6121">
+    <personal name="Davy De Beule">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="483" risktaking="746" offensive="542" aggressive="192" consistent="469" creative="469" experienced="384"/>
+    <skills stamina="708" dexterity="694" speed="572" tackling="493" passing="643" shooting="630" control="557" accuracy="656" goalkeeping="87" heading="484"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6122">
+    <personal name="Christophe Gregoire">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="345" risktaking="560" offensive="558" aggressive="451" consistent="249" creative="506" experienced="550"/>
+    <skills stamina="413" dexterity="752" speed="452" tackling="469" passing="592" shooting="576" control="499" accuracy="476" goalkeeping="103" heading="535"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6123">
+    <personal name="Alin Stoica">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="577" risktaking="419" offensive="228" aggressive="581" consistent="433" creative="312" experienced="524"/>
+    <skills stamina="492" dexterity="662" speed="269" tackling="594" passing="520" shooting="419" control="459" accuracy="480" goalkeeping="67" heading="590"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="6124">
+    <personal name="Randall Azofeifa">
+      <appearance value="0"/>
+      <nationality value="Costa Rica"/>
+    </personal>
+    <personality active="927" risktaking="372" offensive="581" aggressive="256" consistent="346" creative="470" experienced="547"/>
+    <skills stamina="400" dexterity="504" speed="545" tackling="529" passing="410" shooting="541" control="420" accuracy="376" goalkeeping="88" heading="505"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6125">
+    <personal name="Adekanmi Olufade">
+      <appearance value="1"/>
+      <nationality value="Togo"/>
+    </personal>
+    <personality active="898" risktaking="530" offensive="459" aggressive="470" consistent="593" creative="524" experienced="443"/>
+    <skills stamina="633" dexterity="371" speed="557" tackling="475" passing="536" shooting="616" control="582" accuracy="607" goalkeeping="95" heading="651"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6126">
+    <personal name="Dominic Foley">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="429" risktaking="313" offensive="573" aggressive="464" consistent="444" creative="571" experienced="361"/>
+    <skills stamina="237" dexterity="520" speed="607" tackling="420" passing="390" shooting="485" control="435" accuracy="482" goalkeeping="91" heading="598"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6127">
+    <personal name="Marcin Zewlakow">
+      <appearance value="0"/>
+      <nationality value="Poland"/>
+    </personal>
+    <personality active="636" risktaking="441" offensive="438" aggressive="314" consistent="436" creative="608" experienced="552"/>
+    <skills stamina="406" dexterity="252" speed="552" tackling="410" passing="584" shooting="600" control="460" accuracy="584" goalkeeping="67" heading="598"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="6128">
+    <personal name="Jan Moons">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="618" risktaking="598" offensive="387" aggressive="632" consistent="511" creative="466" experienced="500"/>
+    <skills stamina="499" dexterity="391" speed="353" tackling="240" passing="440" shooting="396" control="407" accuracy="203" goalkeeping="417" heading="245"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6129">
+    <personal name="Kenny Steppe">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="317" risktaking="546" offensive="462" aggressive="601" consistent="671" creative="367" experienced="355"/>
+    <skills stamina="537" dexterity="202" speed="599" tackling="208" passing="325" shooting="320" control="225" accuracy="152" goalkeeping="445" heading="225"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="6130">
+    <personal name="Martijn Monteyne">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="497" risktaking="509" offensive="299" aggressive="341" consistent="480" creative="352" experienced="276"/>
+    <skills stamina="392" dexterity="294" speed="382" tackling="364" passing="387" shooting="494" control="602" accuracy="420" goalkeeping="72" heading="515"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6131">
+    <personal name="Pieter-jan Monteyne">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="561" risktaking="508" offensive="598" aggressive="396" consistent="479" creative="387" experienced="396"/>
+    <skills stamina="578" dexterity="491" speed="224" tackling="563" passing="500" shooting="550" control="476" accuracy="421" goalkeeping="66" heading="467"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6132">
+    <personal name="Kurt Van Dooren">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="333" risktaking="622" offensive="506" aggressive="513" consistent="459" creative="606" experienced="738"/>
+    <skills stamina="619" dexterity="392" speed="409" tackling="534" passing="407" shooting="405" control="578" accuracy="372" goalkeeping="80" heading="517"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6133">
+    <personal name="Nzelo Lembi">
+      <appearance value="1"/>
+      <nationality value="Congo"/>
+    </personal>
+    <personality active="397" risktaking="601" offensive="545" aggressive="695" consistent="852" creative="306" experienced="423"/>
+    <skills stamina="627" dexterity="260" speed="657" tackling="472" passing="623" shooting="520" control="586" accuracy="601" goalkeeping="99" heading="543"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6134">
+    <personal name="Didier Dheedene">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="495" risktaking="423" offensive="343" aggressive="397" consistent="493" creative="496" experienced="567"/>
+    <skills stamina="351" dexterity="558" speed="206" tackling="530" passing="447" shooting="476" control="510" accuracy="505" goalkeeping="76" heading="412"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6135">
+    <personal name="Hernan Losada">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="206" risktaking="373" offensive="453" aggressive="478" consistent="354" creative="599" experienced="677"/>
+    <skills stamina="718" dexterity="296" speed="616" tackling="465" passing="562" shooting="500" control="605" accuracy="423" goalkeeping="97" heading="462"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6136">
+    <personal name="Kris De Wree">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="486" risktaking="230" offensive="306" aggressive="345" consistent="262" creative="446" experienced="411"/>
+    <skills stamina="636" dexterity="340" speed="340" tackling="460" passing="425" shooting="404" control="486" accuracy="424" goalkeeping="73" heading="458"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6137">
+    <personal name="Justice Wamfor">
+      <appearance value="1"/>
+      <nationality value="Cameroon"/>
+    </personal>
+    <personality active="515" risktaking="560" offensive="507" aggressive="355" consistent="632" creative="463" experienced="595"/>
+    <skills stamina="277" dexterity="645" speed="306" tackling="539" passing="536" shooting="521" control="403" accuracy="357" goalkeeping="65" heading="548"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6138">
+    <personal name="Gustavo Colman">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="565" risktaking="663" offensive="344" aggressive="759" consistent="459" creative="347" experienced="472"/>
+    <skills stamina="663" dexterity="233" speed="687" tackling="479" passing="426" shooting="426" control="497" accuracy="413" goalkeeping="80" heading="510"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6139">
+    <personal name="Daniel Cruz">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="436" risktaking="689" offensive="406" aggressive="638" consistent="459" creative="395" experienced="304"/>
+    <skills stamina="354" dexterity="492" speed="259" tackling="433" passing="502" shooting="524" control="500" accuracy="558" goalkeeping="86" heading="528"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6140">
+    <personal name="Vincenzo Verhoeven">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="420" risktaking="451" offensive="440" aggressive="569" consistent="445" creative="585" experienced="406"/>
+    <skills stamina="351" dexterity="579" speed="366" tackling="368" passing="446" shooting="371" control="312" accuracy="539" goalkeeping="51" heading="370"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6141">
+    <personal name="Tosin Dosunmu">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="406" risktaking="478" offensive="470" aggressive="643" consistent="307" creative="682" experienced="476"/>
+    <skills stamina="319" dexterity="292" speed="343" tackling="559" passing="455" shooting="503" control="457" accuracy="619" goalkeeping="83" heading="526"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6142">
+    <personal name="Sanharib Malki">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="546" risktaking="313" offensive="609" aggressive="518" consistent="437" creative="617" experienced="561"/>
+    <skills stamina="350" dexterity="569" speed="711" tackling="539" passing="557" shooting="561" control="431" accuracy="507" goalkeeping="90" heading="523"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6143">
+    <personal name="Aristide Bance">
+      <appearance value="1"/>
+      <nationality value="Burkina Faso"/>
+    </personal>
+    <personality active="727" risktaking="608" offensive="288" aggressive="633" consistent="573" creative="391" experienced="490"/>
+    <skills stamina="190" dexterity="333" speed="313" tackling="535" passing="496" shooting="441" control="431" accuracy="520" goalkeeping="83" heading="594"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6144">
+    <personal name="Michael Cordier">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="538" risktaking="580" offensive="389" aggressive="431" consistent="684" creative="629" experienced="164"/>
+    <skills stamina="319" dexterity="539" speed="532" tackling="181" passing="407" shooting="434" control="401" accuracy="164" goalkeeping="482" heading="177"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6145">
+    <personal name="Patrick Nys">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="303" risktaking="692" offensive="682" aggressive="696" consistent="803" creative="665" experienced="737"/>
+    <skills stamina="601" dexterity="669" speed="595" tackling="197" passing="445" shooting="361" control="224" accuracy="187" goalkeeping="416" heading="147"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6146">
+    <personal name="Eric Deflandre">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="474" risktaking="505" offensive="238" aggressive="584" consistent="335" creative="462" experienced="523"/>
+    <skills stamina="397" dexterity="577" speed="444" tackling="538" passing="455" shooting="470" control="485" accuracy="525" goalkeeping="94" heading="462"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6147">
+    <personal name="Zanzan Atte-oudeyi">
+      <appearance value="1"/>
+      <nationality value="Togo"/>
+    </personal>
+    <personality active="568" risktaking="230" offensive="648" aggressive="418" consistent="508" creative="440" experienced="626"/>
+    <skills stamina="374" dexterity="531" speed="361" tackling="496" passing="403" shooting="411" control="458" accuracy="361" goalkeeping="75" heading="548"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6148">
+    <personal name="Steve Colpaert">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="477" risktaking="517" offensive="479" aggressive="638" consistent="626" creative="535" experienced="383"/>
+    <skills stamina="584" dexterity="527" speed="201" tackling="603" passing="486" shooting="447" control="539" accuracy="402" goalkeeping="60" heading="547"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="6149">
+    <personal name="Christ Bruno">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="959" risktaking="254" offensive="536" aggressive="571" consistent="243" creative="522" experienced="238"/>
+    <skills stamina="242" dexterity="290" speed="665" tackling="448" passing="495" shooting="375" control="387" accuracy="484" goalkeeping="89" heading="441"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6150">
+    <personal name="Mickael Citony">
+      <appearance value="1"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="654" risktaking="97" offensive="501" aggressive="548" consistent="605" creative="697" experienced="290"/>
+    <skills stamina="619" dexterity="460" speed="182" tackling="355" passing="439" shooting="347" control="359" accuracy="371" goalkeeping="83" heading="327"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6151">
+    <personal name="Zola Matumona">
+      <appearance value="1"/>
+      <nationality value="Congo"/>
+    </personal>
+    <personality active="775" risktaking="670" offensive="260" aggressive="661" consistent="292" creative="562" experienced="430"/>
+    <skills stamina="398" dexterity="594" speed="407" tackling="446" passing="377" shooting="444" control="397" accuracy="362" goalkeeping="77" heading="359"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6152">
+    <personal name="Sven Verdonck">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="624" risktaking="429" offensive="288" aggressive="628" consistent="515" creative="542" experienced="689"/>
+    <skills stamina="297" dexterity="499" speed="363" tackling="577" passing="555" shooting="390" control="499" accuracy="385" goalkeeping="71" heading="551"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6153">
+    <personal name="Alan Haydock">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="342" risktaking="718" offensive="372" aggressive="724" consistent="377" creative="510" experienced="365"/>
+    <skills stamina="754" dexterity="467" speed="249" tackling="393" passing="514" shooting="438" control="424" accuracy="414" goalkeeping="67" heading="405"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6154">
+    <personal name="Richard Culek">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="732" risktaking="488" offensive="629" aggressive="420" consistent="620" creative="591" experienced="675"/>
+    <skills stamina="295" dexterity="504" speed="636" tackling="427" passing="491" shooting="424" control="411" accuracy="528" goalkeeping="85" heading="378"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6155">
+    <personal name="Zoltan Peto">
+      <appearance value="8"/>
+      <nationality value="Hungary"/>
+    </personal>
+    <personality active="527" risktaking="210" offensive="400" aggressive="135" consistent="645" creative="335" experienced="502"/>
+    <skills stamina="639" dexterity="433" speed="513" tackling="406" passing="438" shooting="496" control="404" accuracy="421" goalkeeping="80" heading="462"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6156">
+    <personal name="Julien Gorius">
+      <appearance value="8"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="338" risktaking="508" offensive="319" aggressive="592" consistent="378" creative="408" experienced="836"/>
+    <skills stamina="608" dexterity="508" speed="369" tackling="484" passing="461" shooting="489" control="364" accuracy="459" goalkeeping="70" heading="341"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6157">
+    <personal name="Jean-louis Akpa Akpro">
+      <appearance value="1"/>
+      <nationality value="Togo"/>
+    </personal>
+    <personality active="510" risktaking="355" offensive="442" aggressive="522" consistent="476" creative="408" experienced="523"/>
+    <skills stamina="216" dexterity="441" speed="546" tackling="528" passing="457" shooting="427" control="452" accuracy="441" goalkeeping="80" heading="555"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6158">
+    <personal name="Pavel Fort">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="472" risktaking="537" offensive="313" aggressive="614" consistent="512" creative="383" experienced="706"/>
+    <skills stamina="542" dexterity="266" speed="374" tackling="545" passing="368" shooting="449" control="404" accuracy="529" goalkeeping="69" heading="479"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6159">
+    <personal name="Jean-paul Eale Lutula">
+      <appearance value="1"/>
+      <nationality value="Congo"/>
+    </personal>
+    <personality active="337" risktaking="494" offensive="201" aggressive="463" consistent="586" creative="465" experienced="575"/>
+    <skills stamina="406" dexterity="526" speed="435" tackling="443" passing="442" shooting="430" control="439" accuracy="523" goalkeeping="77" heading="523"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6160">
+    <personal name="Wouter Goris">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="517" risktaking="534" offensive="432" aggressive="280" consistent="484" creative="359" experienced="417"/>
+    <skills stamina="579" dexterity="645" speed="601" tackling="150" passing="445" shooting="422" control="283" accuracy="187" goalkeeping="452" heading="154"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="6161">
+    <personal name="Milos Adamovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="378" risktaking="463" offensive="643" aggressive="453" consistent="711" creative="476" experienced="357"/>
+    <skills stamina="445" dexterity="606" speed="461" tackling="170" passing="271" shooting="410" control="241" accuracy="158" goalkeeping="423" heading="183"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="6162">
+    <personal name="Xavier Chen">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="623" risktaking="558" offensive="68" aggressive="341" consistent="529" creative="373" experienced="355"/>
+    <skills stamina="362" dexterity="358" speed="624" tackling="347" passing="331" shooting="423" control="390" accuracy="358" goalkeeping="57" heading="426"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6163">
+    <personal name="Akwasi Nana Asare">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="515" risktaking="539" offensive="516" aggressive="339" consistent="787" creative="449" experienced="576"/>
+    <skills stamina="538" dexterity="207" speed="245" tackling="461" passing="428" shooting="402" control="510" accuracy="473" goalkeeping="86" heading="410"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6164">
+    <personal name="Jonas Ivens">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="462" risktaking="393" offensive="501" aggressive="369" consistent="526" creative="729" experienced="501"/>
+    <skills stamina="481" dexterity="384" speed="357" tackling="410" passing="304" shooting="389" control="394" accuracy="412" goalkeeping="69" heading="308"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6165">
+    <personal name="Pieter Mbemba">
+      <appearance value="1"/>
+      <nationality value="Congo"/>
+    </personal>
+    <personality active="412" risktaking="313" offensive="596" aggressive="560" consistent="473" creative="509" experienced="560"/>
+    <skills stamina="229" dexterity="186" speed="415" tackling="386" passing="312" shooting="289" control="405" accuracy="451" goalkeeping="57" heading="333"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="6166">
+    <personal name="Wesley Vanbelle">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="549" risktaking="477" offensive="233" aggressive="594" consistent="413" creative="500" experienced="137"/>
+    <skills stamina="425" dexterity="499" speed="214" tackling="308" passing="405" shooting="289" control="460" accuracy="366" goalkeeping="71" heading="394"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6167">
+    <personal name="Kristof Imschoot">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="560" risktaking="513" offensive="554" aggressive="296" consistent="246" creative="446" experienced="526"/>
+    <skills stamina="475" dexterity="647" speed="345" tackling="403" passing="454" shooting="359" control="419" accuracy="398" goalkeeping="77" heading="352"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6168">
+    <personal name="Antun Dunkovic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="642" risktaking="397" offensive="391" aggressive="288" consistent="149" creative="455" experienced="358"/>
+    <skills stamina="454" dexterity="307" speed="675" tackling="341" passing="493" shooting="339" control="343" accuracy="499" goalkeeping="64" heading="419"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6169">
+    <personal name="Jerome Colinet">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="384" risktaking="648" offensive="401" aggressive="621" consistent="524" creative="636" experienced="601"/>
+    <skills stamina="228" dexterity="492" speed="420" tackling="384" passing="475" shooting="300" control="460" accuracy="382" goalkeeping="53" heading="385"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6170">
+    <personal name="Kenneth Van Goethem">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="224" risktaking="657" offensive="772" aggressive="258" consistent="502" creative="487" experienced="447"/>
+    <skills stamina="186" dexterity="320" speed="308" tackling="493" passing="486" shooting="384" control="459" accuracy="461" goalkeeping="73" heading="427"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6171">
+    <personal name="Paulo Kielo Lezi">
+      <appearance value="1"/>
+      <nationality value="Congo"/>
+    </personal>
+    <personality active="866" risktaking="269" offensive="579" aggressive="116" consistent="520" creative="574" experienced="440"/>
+    <skills stamina="376" dexterity="516" speed="592" tackling="402" passing="268" shooting="474" control="329" accuracy="349" goalkeeping="44" heading="341"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6172">
+    <personal name="Abdul-yakinu Iddi">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="467" risktaking="378" offensive="368" aggressive="587" consistent="433" creative="404" experienced="726"/>
+    <skills stamina="568" dexterity="660" speed="665" tackling="360" passing="453" shooting="457" control="395" accuracy="461" goalkeeping="56" heading="332"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6173">
+    <personal name="Aloys Nong">
+      <appearance value="1"/>
+      <nationality value="Cameroon"/>
+    </personal>
+    <personality active="339" risktaking="178" offensive="392" aggressive="311" consistent="513" creative="524" experienced="638"/>
+    <skills stamina="578" dexterity="599" speed="270" tackling="445" passing="408" shooting="452" control="468" accuracy="471" goalkeeping="46" heading="440"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6174">
+    <personal name="Bjorn Vleminckx">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="509" risktaking="573" offensive="432" aggressive="683" consistent="638" creative="523" experienced="434"/>
+    <skills stamina="445" dexterity="540" speed="547" tackling="417" passing="430" shooting="589" control="508" accuracy="470" goalkeeping="60" heading="503"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6175">
+    <personal name="Aleksandar Bajevski">
+      <appearance value="0"/>
+      <nationality value="FYR Macedonia"/>
+    </personal>
+    <personality active="333" risktaking="562" offensive="646" aggressive="477" consistent="587" creative="471" experienced="375"/>
+    <skills stamina="293" dexterity="218" speed="667" tackling="469" passing="373" shooting="441" control="439" accuracy="429" goalkeeping="71" heading="532"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6176">
+    <personal name="Yves De Winter">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="418" risktaking="501" offensive="427" aggressive="689" consistent="591" creative="521" experienced="159"/>
+    <skills stamina="553" dexterity="617" speed="657" tackling="235" passing="441" shooting="394" control="325" accuracy="242" goalkeeping="435" heading="262"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6177">
+    <personal name="Ronald Gaspercic">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="998" risktaking="778" offensive="498" aggressive="590" consistent="510" creative="379" experienced="308"/>
+    <skills stamina="258" dexterity="408" speed="192" tackling="215" passing="374" shooting="454" control="236" accuracy="201" goalkeeping="423" heading="164"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6178">
+    <personal name="Mark Wagemakers">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="582" risktaking="213" offensive="399" aggressive="514" consistent="483" creative="558" experienced="575"/>
+    <skills stamina="405" dexterity="232" speed="532" tackling="531" passing="413" shooting="504" control="455" accuracy="439" goalkeeping="84" heading="489"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6179">
+    <personal name="Bernt Evens">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="419" risktaking="517" offensive="764" aggressive="581" consistent="767" creative="885" experienced="341"/>
+    <skills stamina="278" dexterity="230" speed="522" tackling="461" passing="455" shooting="388" control="515" accuracy="529" goalkeeping="89" heading="424"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6180">
+    <personal name="Michael Modubi">
+      <appearance value="1"/>
+      <nationality value="South Africa"/>
+    </personal>
+    <personality active="573" risktaking="427" offensive="646" aggressive="213" consistent="340" creative="413" experienced="686"/>
+    <skills stamina="339" dexterity="503" speed="293" tackling="364" passing="381" shooting="446" control="432" accuracy="469" goalkeeping="72" heading="346"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6181">
+    <personal name="Nico Van Kerckhoven">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="410" risktaking="411" offensive="685" aggressive="564" consistent="445" creative="683" experienced="826"/>
+    <skills stamina="477" dexterity="577" speed="274" tackling="434" passing="506" shooting="521" control="467" accuracy="557" goalkeeping="90" heading="383"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6182">
+    <personal name="Gunther Vanaudenaerde">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="355" risktaking="464" offensive="660" aggressive="872" consistent="503" creative="506" experienced="550"/>
+    <skills stamina="332" dexterity="757" speed="173" tackling="403" passing="445" shooting="347" control="468" accuracy="357" goalkeeping="62" heading="449"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6183">
+    <personal name="Nabil Dirar">
+      <appearance value="0"/>
+      <nationality value="Morocco"/>
+    </personal>
+    <personality active="405" risktaking="333" offensive="416" aggressive="497" consistent="761" creative="538" experienced="507"/>
+    <skills stamina="233" dexterity="615" speed="720" tackling="400" passing="529" shooting="352" control="476" accuracy="433" goalkeeping="83" heading="367"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6184">
+    <personal name="Jef Delen">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="690" risktaking="558" offensive="536" aggressive="374" consistent="432" creative="510" experienced="431"/>
+    <skills stamina="423" dexterity="551" speed="325" tackling="466" passing="514" shooting="356" control="561" accuracy="405" goalkeeping="62" heading="357"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6185">
+    <personal name="Tom Van Imschoot">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="347" risktaking="687" offensive="818" aggressive="565" consistent="637" creative="690" experienced="409"/>
+    <skills stamina="360" dexterity="495" speed="719" tackling="577" passing="522" shooting="499" control="503" accuracy="544" goalkeeping="85" heading="509"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6186">
+    <personal name="Wim Mennes">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="441" risktaking="524" offensive="266" aggressive="525" consistent="578" creative="460" experienced="514"/>
+    <skills stamina="611" dexterity="612" speed="228" tackling="386" passing="477" shooting="362" control="405" accuracy="377" goalkeeping="85" heading="501"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="6187">
+    <personal name="Stef Wils">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="700" risktaking="680" offensive="786" aggressive="359" consistent="625" creative="418" experienced="684"/>
+    <skills stamina="621" dexterity="237" speed="308" tackling="382" passing="439" shooting="503" control="490" accuracy="544" goalkeeping="68" heading="422"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6188">
+    <personal name="Joris Van Hout">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="494" risktaking="677" offensive="106" aggressive="563" consistent="563" creative="666" experienced="344"/>
+    <skills stamina="642" dexterity="579" speed="348" tackling="369" passing="434" shooting="487" control="465" accuracy="421" goalkeeping="69" heading="558"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="6189">
+    <personal name="Dieter Dekelver">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="629" risktaking="253" offensive="616" aggressive="574" consistent="589" creative="658" experienced="461"/>
+    <skills stamina="239" dexterity="384" speed="482" tackling="406" passing="462" shooting="585" control="420" accuracy="503" goalkeeping="87" heading="432"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="6190">
+    <personal name="Patrick Ogunsoto">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="434" risktaking="538" offensive="680" aggressive="460" consistent="380" creative="332" experienced="341"/>
+    <skills stamina="605" dexterity="660" speed="617" tackling="567" passing="472" shooting="564" control="624" accuracy="626" goalkeeping="77" heading="691"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6191">
+    <personal name="Jaja Coelho">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="402" risktaking="541" offensive="635" aggressive="535" consistent="768" creative="520" experienced="608"/>
+    <skills stamina="639" dexterity="420" speed="374" tackling="549" passing="522" shooting="523" control="625" accuracy="573" goalkeeping="100" heading="644"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6192">
+    <personal name="Boubacar Barry">
+      <appearance value="1"/>
+      <nationality value="Ivory Coast"/>
+    </personal>
+    <personality active="530" risktaking="353" offensive="478" aggressive="430" consistent="548" creative="542" experienced="320"/>
+    <skills stamina="252" dexterity="405" speed="754" tackling="262" passing="446" shooting="595" control="428" accuracy="270" goalkeeping="532" heading="296"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="6193">
+    <personal name="Jugoslav Lazic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="464" risktaking="366" offensive="584" aggressive="502" consistent="699" creative="335" experienced="198"/>
+    <skills stamina="615" dexterity="459" speed="465" tackling="211" passing="321" shooting="462" control="388" accuracy="240" goalkeeping="515" heading="236"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="6194">
+    <personal name="Madi Panandetiguiri">
+      <appearance value="1"/>
+      <nationality value="Burkina Faso"/>
+    </personal>
+    <personality active="691" risktaking="366" offensive="807" aggressive="324" consistent="530" creative="641" experienced="551"/>
+    <skills stamina="350" dexterity="432" speed="408" tackling="422" passing="490" shooting="537" control="450" accuracy="468" goalkeeping="73" heading="375"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6195">
+    <personal name="Hassan El Mouataz">
+      <appearance value="1"/>
+      <nationality value="Morocco"/>
+    </personal>
+    <personality active="437" risktaking="641" offensive="408" aggressive="347" consistent="452" creative="506" experienced="231"/>
+    <skills stamina="595" dexterity="376" speed="600" tackling="504" passing="445" shooting="509" control="447" accuracy="485" goalkeeping="87" heading="434"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6196">
+    <personal name="Joao Carlos">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="521" risktaking="421" offensive="780" aggressive="431" consistent="384" creative="366" experienced="201"/>
+    <skills stamina="314" dexterity="561" speed="308" tackling="675" passing="493" shooting="531" control="533" accuracy="516" goalkeeping="106" heading="537"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6197">
+    <personal name="Olivier Doll">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="472" risktaking="523" offensive="306" aggressive="337" consistent="513" creative="480" experienced="453"/>
+    <skills stamina="718" dexterity="725" speed="187" tackling="473" passing="463" shooting="520" control="498" accuracy="439" goalkeeping="83" heading="441"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6198">
+    <personal name="Marko Andic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="248" risktaking="635" offensive="765" aggressive="503" consistent="525" creative="365" experienced="193"/>
+    <skills stamina="638" dexterity="493" speed="459" tackling="447" passing="385" shooting="390" control="511" accuracy="345" goalkeeping="52" heading="309"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6199">
+    <personal name="Marcel Mbayo">
+      <appearance value="1"/>
+      <nationality value="Congo"/>
+    </personal>
+    <personality active="435" risktaking="417" offensive="316" aggressive="196" consistent="500" creative="547" experienced="690"/>
+    <skills stamina="247" dexterity="666" speed="516" tackling="456" passing="509" shooting="431" control="575" accuracy="519" goalkeeping="92" heading="390"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6200">
+    <personal name="Mario Carevic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="475" risktaking="713" offensive="462" aggressive="465" consistent="429" creative="509" experienced="943"/>
+    <skills stamina="728" dexterity="278" speed="685" tackling="384" passing="401" shooting="493" control="587" accuracy="448" goalkeeping="77" heading="537"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6201">
+    <personal name="Ivan Vukomanovic">
+      <appearance value="8"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="602" risktaking="536" offensive="374" aggressive="594" consistent="759" creative="502" experienced="408"/>
+    <skills stamina="598" dexterity="396" speed="461" tackling="480" passing="565" shooting="438" control="423" accuracy="412" goalkeeping="79" heading="383"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6202">
+    <personal name="Killian Overmeire">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="477" risktaking="520" offensive="488" aggressive="277" consistent="600" creative="341" experienced="365"/>
+    <skills stamina="559" dexterity="471" speed="286" tackling="571" passing="463" shooting="568" control="404" accuracy="453" goalkeeping="68" heading="501"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="6203">
+    <personal name="Nebojsa Pavlovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="431" risktaking="444" offensive="206" aggressive="250" consistent="712" creative="664" experienced="322"/>
+    <skills stamina="320" dexterity="710" speed="631" tackling="408" passing="543" shooting="418" control="412" accuracy="426" goalkeeping="85" heading="445"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6204">
+    <personal name="Aboubacar Mbaye Camara">
+      <appearance value="1"/>
+      <nationality value="Guinea"/>
+    </personal>
+    <personality active="347" risktaking="470" offensive="551" aggressive="399" consistent="775" creative="333" experienced="744"/>
+    <skills stamina="409" dexterity="357" speed="514" tackling="527" passing="451" shooting="437" control="385" accuracy="511" goalkeeping="85" heading="412"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6205">
+    <personal name="Boban Jancevski">
+      <appearance value="8"/>
+      <nationality value="FYR Macedonia"/>
+    </personal>
+    <personality active="525" risktaking="246" offensive="481" aggressive="485" consistent="578" creative="639" experienced="447"/>
+    <skills stamina="617" dexterity="598" speed="518" tackling="471" passing="323" shooting="540" control="485" accuracy="376" goalkeeping="78" heading="351"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6206">
+    <personal name="Patiyo Tambwe">
+      <appearance value="1"/>
+      <nationality value="Congo"/>
+    </personal>
+    <personality active="503" risktaking="627" offensive="797" aggressive="468" consistent="485" creative="373" experienced="230"/>
+    <skills stamina="278" dexterity="253" speed="334" tackling="442" passing="420" shooting="444" control="408" accuracy="604" goalkeeping="68" heading="398"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6207">
+    <personal name="Mohamed Armoumen">
+      <appearance value="1"/>
+      <nationality value="Morocco"/>
+    </personal>
+    <personality active="443" risktaking="608" offensive="340" aggressive="664" consistent="433" creative="500" experienced="759"/>
+    <skills stamina="261" dexterity="383" speed="496" tackling="402" passing="395" shooting="410" control="375" accuracy="549" goalkeeping="73" heading="424"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6208">
+    <personal name="Cedric Berthelin">
+      <appearance value="8"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="418" risktaking="634" offensive="394" aggressive="544" consistent="580" creative="426" experienced="500"/>
+    <skills stamina="484" dexterity="623" speed="502" tackling="202" passing="415" shooting="451" control="289" accuracy="216" goalkeeping="489" heading="245"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6209">
+    <personal name="Frederic Herpoel">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="630" risktaking="525" offensive="486" aggressive="782" consistent="492" creative="765" experienced="223"/>
+    <skills stamina="578" dexterity="524" speed="717" tackling="211" passing="398" shooting="406" control="412" accuracy="246" goalkeeping="567" heading="240"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6210">
+    <personal name="Danijel Krivic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="258" risktaking="527" offensive="592" aggressive="400" consistent="188" creative="363" experienced="412"/>
+    <skills stamina="318" dexterity="210" speed="208" tackling="411" passing="441" shooting="390" control="307" accuracy="450" goalkeeping="71" heading="333"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6211">
+    <personal name="Frederic Jay">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="550" risktaking="749" offensive="762" aggressive="548" consistent="557" creative="273" experienced="437"/>
+    <skills stamina="569" dexterity="331" speed="571" tackling="461" passing="436" shooting="410" control="361" accuracy="324" goalkeeping="56" heading="336"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6212">
+    <personal name="Adriano">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="520" risktaking="352" offensive="334" aggressive="540" consistent="428" creative="290" experienced="426"/>
+    <skills stamina="506" dexterity="513" speed="596" tackling="501" passing="373" shooting="380" control="501" accuracy="322" goalkeeping="61" heading="334"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6213">
+    <personal name="Dare Nibombe">
+      <appearance value="1"/>
+      <nationality value="Togo"/>
+    </personal>
+    <personality active="472" risktaking="621" offensive="649" aggressive="595" consistent="372" creative="397" experienced="623"/>
+    <skills stamina="521" dexterity="236" speed="422" tackling="424" passing="594" shooting="425" control="598" accuracy="540" goalkeeping="84" heading="399"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6214">
+    <personal name="Roberto Mirri">
+      <appearance value="0"/>
+      <nationality value="Italy"/>
+    </personal>
+    <personality active="628" risktaking="424" offensive="422" aggressive="510" consistent="368" creative="486" experienced="450"/>
+    <skills stamina="152" dexterity="712" speed="192" tackling="327" passing="346" shooting="376" control="517" accuracy="408" goalkeeping="53" heading="448"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6215">
+    <personal name="Alessandro Cordaro">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="541" risktaking="343" offensive="454" aggressive="322" consistent="393" creative="521" experienced="385"/>
+    <skills stamina="461" dexterity="374" speed="531" tackling="553" passing="487" shooting="397" control="494" accuracy="382" goalkeeping="70" heading="373"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6216">
+    <personal name="Wilfried Dalmat">
+      <appearance value="1"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="445" risktaking="544" offensive="707" aggressive="334" consistent="600" creative="398" experienced="219"/>
+    <skills stamina="317" dexterity="670" speed="624" tackling="423" passing="450" shooting="393" control="462" accuracy="450" goalkeeping="68" heading="472"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6217">
+    <personal name="Benjamin Nicaise">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="588" risktaking="612" offensive="740" aggressive="496" consistent="347" creative="341" experienced="386"/>
+    <skills stamina="205" dexterity="703" speed="512" tackling="492" passing="444" shooting="369" control="481" accuracy="513" goalkeeping="78" heading="491"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6218">
+    <personal name="Fadhil Mohamed Brahami">
+      <appearance value="1"/>
+      <nationality value="Algeria"/>
+    </personal>
+    <personality active="770" risktaking="640" offensive="368" aggressive="350" consistent="777" creative="604" experienced="367"/>
+    <skills stamina="640" dexterity="411" speed="365" tackling="362" passing="470" shooting="496" control="363" accuracy="402" goalkeeping="76" heading="399"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6219">
+    <personal name="Romeo Affessi Seka">
+      <appearance value="1"/>
+      <nationality value="Ivory Coast"/>
+    </personal>
+    <personality active="495" risktaking="455" offensive="248" aggressive="653" consistent="634" creative="282" experienced="329"/>
+    <skills stamina="211" dexterity="455" speed="680" tackling="444" passing="524" shooting="522" control="393" accuracy="502" goalkeeping="89" heading="433"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6220">
+    <personal name="Ilija Stolica">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="663" risktaking="519" offensive="591" aggressive="757" consistent="420" creative="307" experienced="422"/>
+    <skills stamina="711" dexterity="282" speed="559" tackling="521" passing="414" shooting="507" control="435" accuracy="462" goalkeeping="56" heading="376"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="6221">
+    <personal name="Cedric Roussel">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="524" risktaking="540" offensive="416" aggressive="730" consistent="500" creative="402" experienced="261"/>
+    <skills stamina="451" dexterity="587" speed="428" tackling="436" passing="365" shooting="465" control="494" accuracy="480" goalkeeping="71" heading="495"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6222">
+    <personal name="Hocine Ragued">
+      <appearance value="0"/>
+      <nationality value="Tunisia"/>
+    </personal>
+    <personality active="612" risktaking="876" offensive="509" aggressive="459" consistent="512" creative="567" experienced="535"/>
+    <skills stamina="675" dexterity="693" speed="685" tackling="509" passing="367" shooting="444" control="380" accuracy="376" goalkeeping="55" heading="425"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="6223">
+    <personal name="Aliyu Datti">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="410" risktaking="610" offensive="299" aggressive="444" consistent="548" creative="594" experienced="409"/>
+    <skills stamina="207" dexterity="262" speed="466" tackling="459" passing="518" shooting="507" control="393" accuracy="552" goalkeeping="59" heading="431"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6224">
+    <personal name="Marc Volders">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="455" risktaking="455" offensive="682" aggressive="954" consistent="330" creative="319" experienced="565"/>
+    <skills stamina="494" dexterity="425" speed="398" tackling="200" passing="360" shooting="431" control="297" accuracy="264" goalkeeping="513" heading="205"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6225">
+    <personal name="Christophe Martin">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="508" risktaking="229" offensive="625" aggressive="855" consistent="403" creative="525" experienced="621"/>
+    <skills stamina="461" dexterity="353" speed="596" tackling="228" passing="307" shooting="284" control="245" accuracy="186" goalkeeping="351" heading="229"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6226">
+    <personal name="Geoffrey Toyes">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="402" risktaking="390" offensive="556" aggressive="456" consistent="336" creative="591" experienced="523"/>
+    <skills stamina="249" dexterity="267" speed="424" tackling="463" passing="472" shooting="498" control="448" accuracy="489" goalkeeping="70" heading="404"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6227">
+    <personal name="Alexandre Teklak">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="386" risktaking="672" offensive="662" aggressive="478" consistent="544" creative="497" experienced="548"/>
+    <skills stamina="642" dexterity="311" speed="205" tackling="535" passing="377" shooting="411" control="483" accuracy="350" goalkeeping="61" heading="399"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6228">
+    <personal name="Jeremy Sapina">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="501" risktaking="353" offensive="585" aggressive="474" consistent="382" creative="523" experienced="570"/>
+    <skills stamina="521" dexterity="205" speed="302" tackling="479" passing="529" shooting="401" control="496" accuracy="347" goalkeeping="73" heading="385"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6229">
+    <personal name="Daan Van Gijseghem">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="628" risktaking="505" offensive="623" aggressive="619" consistent="661" creative="493" experienced="213"/>
+    <skills stamina="720" dexterity="592" speed="714" tackling="480" passing="501" shooting="516" control="429" accuracy="518" goalkeeping="62" heading="458"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6230">
+    <personal name="Jean-philippe Charlet">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="778" risktaking="410" offensive="410" aggressive="589" consistent="808" creative="798" experienced="633"/>
+    <skills stamina="368" dexterity="676" speed="211" tackling="375" passing="408" shooting="349" control="458" accuracy="486" goalkeeping="71" heading="480"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6231">
+    <personal name="David Grondin">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="486" risktaking="478" offensive="418" aggressive="420" consistent="521" creative="743" experienced="526"/>
+    <skills stamina="342" dexterity="390" speed="488" tackling="393" passing="396" shooting="555" control="382" accuracy="499" goalkeeping="79" heading="398"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6232">
+    <personal name="Mustapha Oussalah">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="612" risktaking="723" offensive="468" aggressive="767" consistent="486" creative="442" experienced="616"/>
+    <skills stamina="217" dexterity="331" speed="541" tackling="384" passing="433" shooting="484" control="617" accuracy="569" goalkeeping="66" heading="559"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6233">
+    <personal name="Matthieu Assou-ekotto">
+      <appearance value="1"/>
+      <nationality value="Cameroon"/>
+    </personal>
+    <personality active="723" risktaking="509" offensive="401" aggressive="645" consistent="527" creative="503" experienced="544"/>
+    <skills stamina="190" dexterity="636" speed="640" tackling="580" passing="499" shooting="462" control="504" accuracy="524" goalkeeping="67" heading="455"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="6234">
+    <personal name="Paco Sanchez">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="651" risktaking="460" offensive="588" aggressive="720" consistent="432" creative="168" experienced="510"/>
+    <skills stamina="715" dexterity="211" speed="411" tackling="574" passing="524" shooting="515" control="418" accuracy="436" goalkeeping="78" heading="429"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="6235">
+    <personal name="Steve Dugardein">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="529" risktaking="516" offensive="749" aggressive="284" consistent="617" creative="716" experienced="84"/>
+    <skills stamina="543" dexterity="603" speed="628" tackling="504" passing="480" shooting="548" control="513" accuracy="508" goalkeeping="94" heading="397"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6236">
+    <personal name="Mickael Nicoise">
+      <appearance value="1"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="546" risktaking="353" offensive="745" aggressive="612" consistent="634" creative="321" experienced="300"/>
+    <skills stamina="241" dexterity="592" speed="737" tackling="450" passing="508" shooting="650" control="418" accuracy="477" goalkeeping="81" heading="450"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6237">
+    <personal name="Adnan Custovic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="594" risktaking="394" offensive="723" aggressive="806" consistent="426" creative="397" experienced="481"/>
+    <skills stamina="739" dexterity="755" speed="683" tackling="647" passing="565" shooting="733" control="679" accuracy="683" goalkeeping="82" heading="515"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6238">
+    <personal name="Karim Fellahi">
+      <appearance value="1"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="415" risktaking="671" offensive="424" aggressive="400" consistent="215" creative="675" experienced="485"/>
+    <skills stamina="722" dexterity="637" speed="605" tackling="330" passing="388" shooting="476" control="433" accuracy="514" goalkeeping="71" heading="527"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6239">
+    <personal name="Bertin Tomou">
+      <appearance value="1"/>
+      <nationality value="Cameroon"/>
+    </personal>
+    <personality active="349" risktaking="714" offensive="500" aggressive="548" consistent="309" creative="403" experienced="727"/>
+    <skills stamina="380" dexterity="554" speed="437" tackling="476" passing="464" shooting="562" control="374" accuracy="545" goalkeeping="80" heading="510"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6240">
+    <personal name="Jurgen Sierens">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="622" risktaking="618" offensive="380" aggressive="644" consistent="422" creative="450" experienced="694"/>
+    <skills stamina="233" dexterity="352" speed="252" tackling="188" passing="345" shooting="509" control="393" accuracy="224" goalkeeping="512" heading="229"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6241">
+    <personal name="Wouter Biebauw">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="188" risktaking="629" offensive="553" aggressive="498" consistent="692" creative="623" experienced="615"/>
+    <skills stamina="588" dexterity="540" speed="562" tackling="141" passing="301" shooting="291" control="255" accuracy="153" goalkeeping="485" heading="211"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6242">
+    <personal name="Jon Joseph-augustin">
+      <appearance value="1"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="281" risktaking="208" offensive="515" aggressive="695" consistent="519" creative="589" experienced="778"/>
+    <skills stamina="190" dexterity="480" speed="419" tackling="424" passing="556" shooting="393" control="449" accuracy="362" goalkeeping="62" heading="435"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6243">
+    <personal name="Kenny Thompson">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="690" risktaking="558" offensive="517" aggressive="317" consistent="597" creative="410" experienced="634"/>
+    <skills stamina="662" dexterity="474" speed="197" tackling="416" passing="378" shooting="328" control="418" accuracy="350" goalkeeping="66" heading="474"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6244">
+    <personal name="Damir Mirvic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="566" risktaking="141" offensive="680" aggressive="313" consistent="591" creative="292" experienced="613"/>
+    <skills stamina="617" dexterity="542" speed="313" tackling="458" passing="414" shooting="508" control="439" accuracy="448" goalkeeping="70" heading="384"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6245">
+    <personal name="Daan Vaesen">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="624" risktaking="408" offensive="525" aggressive="707" consistent="645" creative="604" experienced="453"/>
+    <skills stamina="329" dexterity="364" speed="268" tackling="407" passing="333" shooting="320" control="456" accuracy="429" goalkeeping="69" heading="473"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6246">
+    <personal name="Bjorn Smits">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="564" risktaking="491" offensive="611" aggressive="527" consistent="676" creative="427" experienced="575"/>
+    <skills stamina="659" dexterity="276" speed="533" tackling="302" passing="495" shooting="448" control="408" accuracy="372" goalkeeping="70" heading="453"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6247">
+    <personal name="Chemcedine El Araichi">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="666" risktaking="464" offensive="768" aggressive="500" consistent="376" creative="409" experienced="590"/>
+    <skills stamina="422" dexterity="476" speed="503" tackling="544" passing="364" shooting="412" control="361" accuracy="474" goalkeeping="87" heading="403"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6248">
+    <personal name="Koen De Vleeschauwer">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="584" risktaking="758" offensive="422" aggressive="637" consistent="495" creative="729" experienced="357"/>
+    <skills stamina="485" dexterity="638" speed="702" tackling="453" passing="545" shooting="391" control="554" accuracy="505" goalkeeping="75" heading="374"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6249">
+    <personal name="Davy Oyen">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="610" risktaking="487" offensive="379" aggressive="513" consistent="297" creative="621" experienced="606"/>
+    <skills stamina="275" dexterity="655" speed="235" tackling="423" passing="540" shooting="431" control="446" accuracy="500" goalkeeping="75" heading="346"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6250">
+    <personal name="Gabriel Ngalula Mbuyi">
+      <appearance value="1"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="485" risktaking="628" offensive="541" aggressive="194" consistent="434" creative="677" experienced="595"/>
+    <skills stamina="290" dexterity="702" speed="402" tackling="475" passing="509" shooting="464" control="528" accuracy="424" goalkeeping="64" heading="343"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6251">
+    <personal name="Stefaan Tanghe">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="676" risktaking="284" offensive="353" aggressive="667" consistent="672" creative="259" experienced="324"/>
+    <skills stamina="435" dexterity="545" speed="291" tackling="532" passing="427" shooting="503" control="422" accuracy="388" goalkeeping="84" heading="390"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6252">
+    <personal name="David Von Hoyweghen">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="358" risktaking="373" offensive="395" aggressive="486" consistent="355" creative="107" experienced="673"/>
+    <skills stamina="385" dexterity="509" speed="281" tackling="511" passing="505" shooting="360" control="381" accuracy="318" goalkeeping="63" heading="314"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="6253">
+    <personal name="Paul Kpaka">
+      <appearance value="1"/>
+      <nationality value="Sierra Leone"/>
+    </personal>
+    <personality active="480" risktaking="451" offensive="662" aggressive="691" consistent="373" creative="597" experienced="419"/>
+    <skills stamina="357" dexterity="584" speed="167" tackling="374" passing="440" shooting="540" control="443" accuracy="420" goalkeeping="68" heading="474"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6254">
+    <personal name="Mahamadou Dissa">
+      <appearance value="1"/>
+      <nationality value="Mali"/>
+    </personal>
+    <personality active="592" risktaking="651" offensive="900" aggressive="661" consistent="650" creative="499" experienced="343"/>
+    <skills stamina="547" dexterity="683" speed="450" tackling="418" passing="382" shooting="473" control="484" accuracy="423" goalkeeping="95" heading="493"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6255">
+    <personal name="Izzet Akgul">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="581" risktaking="555" offensive="338" aggressive="520" consistent="456" creative="533" experienced="660"/>
+    <skills stamina="632" dexterity="579" speed="238" tackling="315" passing="348" shooting="461" control="351" accuracy="580" goalkeeping="54" heading="510"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6256">
+    <personal name="Frank Boeckx">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="557" risktaking="266" offensive="606" aggressive="554" consistent="412" creative="323" experienced="443"/>
+    <skills stamina="557" dexterity="614" speed="323" tackling="196" passing="381" shooting="396" control="420" accuracy="198" goalkeeping="428" heading="226"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6257">
+    <personal name="Simon Mignolet">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="604" risktaking="512" offensive="570" aggressive="533" consistent="494" creative="840" experienced="362"/>
+    <skills stamina="251" dexterity="537" speed="455" tackling="196" passing="308" shooting="351" control="328" accuracy="151" goalkeeping="455" heading="189"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6258">
+    <personal name="Marc Hendrikx">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="594" risktaking="869" offensive="547" aggressive="470" consistent="674" creative="469" experienced="496"/>
+    <skills stamina="253" dexterity="623" speed="655" tackling="479" passing="493" shooting="485" control="514" accuracy="533" goalkeeping="63" heading="482"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6259">
+    <personal name="Ninoslav Milenkovic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="407" risktaking="362" offensive="604" aggressive="713" consistent="522" creative="504" experienced="511"/>
+    <skills stamina="738" dexterity="580" speed="389" tackling="513" passing="439" shooting="404" control="407" accuracy="371" goalkeeping="89" heading="504"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6260">
+    <personal name="Timothy Dreesen">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="559" risktaking="530" offensive="325" aggressive="465" consistent="488" creative="610" experienced="435"/>
+    <skills stamina="664" dexterity="613" speed="522" tackling="552" passing="487" shooting="429" control="407" accuracy="430" goalkeeping="68" heading="543"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="6261">
+    <personal name="Egon Wisniowski">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="385" risktaking="405" offensive="782" aggressive="396" consistent="532" creative="440" experienced="484"/>
+    <skills stamina="663" dexterity="530" speed="605" tackling="433" passing="413" shooting="362" control="503" accuracy="365" goalkeeping="59" heading="330"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6262">
+    <personal name="Sander Debroux">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="386" risktaking="550" offensive="611" aggressive="574" consistent="562" creative="573" experienced="340"/>
+    <skills stamina="246" dexterity="503" speed="367" tackling="468" passing="547" shooting="442" control="355" accuracy="512" goalkeeping="69" heading="340"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="6263">
+    <personal name="Mirsad Beslija">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="576" risktaking="550" offensive="369" aggressive="523" consistent="302" creative="640" experienced="329"/>
+    <skills stamina="483" dexterity="673" speed="637" tackling="506" passing="442" shooting="557" control="501" accuracy="499" goalkeeping="61" heading="436"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6264">
+    <personal name="Asanda Sishuba">
+      <appearance value="1"/>
+      <nationality value="South Africa"/>
+    </personal>
+    <personality active="554" risktaking="513" offensive="513" aggressive="321" consistent="396" creative="466" experienced="556"/>
+    <skills stamina="702" dexterity="659" speed="633" tackling="413" passing="472" shooting="457" control="573" accuracy="388" goalkeeping="72" heading="360"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6265">
+    <personal name="Peter Delorge">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="554" risktaking="572" offensive="356" aggressive="528" consistent="655" creative="551" experienced="575"/>
+    <skills stamina="402" dexterity="539" speed="330" tackling="542" passing="566" shooting="463" control="515" accuracy="404" goalkeeping="74" heading="405"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6266">
+    <personal name="Cephas Chimedza">
+      <appearance value="1"/>
+      <nationality value="Zimbabwe"/>
+    </personal>
+    <personality active="553" risktaking="376" offensive="616" aggressive="441" consistent="446" creative="637" experienced="335"/>
+    <skills stamina="633" dexterity="475" speed="513" tackling="479" passing="406" shooting="397" control="392" accuracy="482" goalkeeping="73" heading="422"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6267">
+    <personal name="Rocky Peeters">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="680" risktaking="420" offensive="403" aggressive="656" consistent="552" creative="311" experienced="384"/>
+    <skills stamina="293" dexterity="587" speed="336" tackling="519" passing="389" shooting="496" control="554" accuracy="351" goalkeeping="71" heading="424"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="6268">
+    <personal name="Adama Coulibaly">
+      <appearance value="1"/>
+      <nationality value="Senegal"/>
+    </personal>
+    <personality active="508" risktaking="421" offensive="345" aggressive="641" consistent="334" creative="404" experienced="537"/>
+    <skills stamina="474" dexterity="266" speed="463" tackling="500" passing="474" shooting="443" control="536" accuracy="370" goalkeeping="73" heading="489"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6269">
+    <personal name="Peter Van Houdt">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="552" risktaking="385" offensive="405" aggressive="596" consistent="579" creative="359" experienced="461"/>
+    <skills stamina="613" dexterity="217" speed="505" tackling="429" passing="452" shooting="513" control="452" accuracy="500" goalkeeping="82" heading="580"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6270">
+    <personal name="Kevin Van Dessel">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="379" risktaking="363" offensive="174" aggressive="556" consistent="538" creative="639" experienced="635"/>
+    <skills stamina="319" dexterity="612" speed="723" tackling="365" passing="408" shooting="412" control="483" accuracy="470" goalkeeping="81" heading="366"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6271">
+    <personal name="Dieudonne Kalulika">
+      <appearance value="1"/>
+      <nationality value="Congo"/>
+    </personal>
+    <personality active="549" risktaking="580" offensive="277" aggressive="317" consistent="477" creative="372" experienced="683"/>
+    <skills stamina="242" dexterity="487" speed="314" tackling="455" passing="390" shooting="523" control="386" accuracy="440" goalkeeping="86" heading="535"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6272">
+    <personal name="Olivier Renard">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="705" risktaking="281" offensive="631" aggressive="597" consistent="545" creative="639" experienced="333"/>
+    <skills stamina="390" dexterity="525" speed="284" tackling="276" passing="457" shooting="540" control="330" accuracy="257" goalkeeping="538" heading="256"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6273">
+    <personal name="Rorys Espinoza">
+      <appearance value="1"/>
+      <nationality value="Ecuador"/>
+    </personal>
+    <personality active="635" risktaking="586" offensive="627" aggressive="358" consistent="637" creative="757" experienced="626"/>
+    <skills stamina="352" dexterity="256" speed="287" tackling="207" passing="466" shooting="444" control="374" accuracy="238" goalkeeping="496" heading="243"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="6274">
+    <personal name="Frederic Dupre">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="240" risktaking="515" offensive="628" aggressive="448" consistent="254" creative="491" experienced="446"/>
+    <skills stamina="496" dexterity="502" speed="535" tackling="412" passing="577" shooting="532" control="468" accuracy="458" goalkeeping="71" heading="533"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="6275">
+    <personal name="Landry Mulemo">
+      <appearance value="1"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="679" risktaking="589" offensive="787" aggressive="474" consistent="346" creative="371" experienced="748"/>
+    <skills stamina="226" dexterity="368" speed="651" tackling="462" passing="480" shooting="520" control="590" accuracy="492" goalkeeping="93" heading="579"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6276">
+    <personal name="Oguchi Onyewu">
+      <appearance value="1"/>
+      <nationality value="U.S.A."/>
+    </personal>
+    <personality active="680" risktaking="369" offensive="659" aggressive="562" consistent="493" creative="501" experienced="457"/>
+    <skills stamina="459" dexterity="778" speed="523" tackling="618" passing="664" shooting="552" control="508" accuracy="686" goalkeeping="81" heading="559"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6277">
+    <personal name="Dante">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="746" risktaking="363" offensive="431" aggressive="332" consistent="501" creative="625" experienced="369"/>
+    <skills stamina="480" dexterity="229" speed="644" tackling="521" passing="518" shooting="412" control="495" accuracy="419" goalkeeping="94" heading="509"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="6278">
+    <personal name="Axel Witsel">
+      <appearance value="1"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="242" risktaking="717" offensive="786" aggressive="656" consistent="412" creative="527" experienced="464"/>
+    <skills stamina="611" dexterity="478" speed="750" tackling="478" passing="503" shooting="575" control="558" accuracy="544" goalkeeping="69" heading="512"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6279">
+    <personal name="Salim Toama">
+      <appearance value="0"/>
+      <nationality value="Israel"/>
+    </personal>
+    <personality active="687" risktaking="298" offensive="495" aggressive="301" consistent="504" creative="777" experienced="638"/>
+    <skills stamina="682" dexterity="443" speed="239" tackling="541" passing="500" shooting="481" control="420" accuracy="447" goalkeeping="91" heading="527"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="6280">
+    <personal name="Gregory Dufer">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="599" risktaking="363" offensive="483" aggressive="415" consistent="438" creative="528" experienced="746"/>
+    <skills stamina="603" dexterity="666" speed="355" tackling="453" passing="598" shooting="442" control="414" accuracy="510" goalkeeping="85" heading="549"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="6281">
+    <personal name="Adama Sarr">
+      <appearance value="1"/>
+      <nationality value="Senegal"/>
+    </personal>
+    <personality active="389" risktaking="771" offensive="443" aggressive="727" consistent="540" creative="471" experienced="610"/>
+    <skills stamina="250" dexterity="770" speed="401" tackling="661" passing="532" shooting="515" control="578" accuracy="585" goalkeeping="106" heading="669"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="6282">
+    <personal name="Marouane Fellaini">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="318" risktaking="577" offensive="622" aggressive="552" consistent="452" creative="804" experienced="656"/>
+    <skills stamina="797" dexterity="564" speed="666" tackling="682" passing="650" shooting="707" control="729" accuracy="538" goalkeeping="108" heading="613"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="6283">
+    <personal name="Steven Defour">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="542" risktaking="412" offensive="619" aggressive="512" consistent="537" creative="575" experienced="500"/>
+    <skills stamina="411" dexterity="617" speed="366" tackling="716" passing="628" shooting="710" control="707" accuracy="717" goalkeeping="94" heading="617"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="6284">
+    <personal name="Maboula Ali Lukunku">
+      <appearance value="1"/>
+      <nationality value="Congo"/>
+    </personal>
+    <personality active="418" risktaking="331" offensive="508" aggressive="358" consistent="459" creative="610" experienced="444"/>
+    <skills stamina="677" dexterity="590" speed="549" tackling="531" passing="456" shooting="512" control="528" accuracy="473" goalkeeping="94" heading="395"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6285">
+    <personal name="Igor De Camargo">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="458" risktaking="741" offensive="385" aggressive="619" consistent="420" creative="583" experienced="597"/>
+    <skills stamina="448" dexterity="678" speed="771" tackling="484" passing="664" shooting="669" control="645" accuracy="547" goalkeeping="94" heading="601"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6286">
+    <personal name="Milan Jovanovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="494" risktaking="466" offensive="503" aggressive="449" consistent="290" creative="347" experienced="593"/>
+    <skills stamina="469" dexterity="469" speed="541" tackling="561" passing="645" shooting="726" control="535" accuracy="595" goalkeeping="90" heading="624"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="6287">
+    <personal name="Dieumerci Mbokani">
+      <appearance value="1"/>
+      <nationality value="Congo"/>
+    </personal>
+    <personality active="355" risktaking="451" offensive="661" aggressive="500" consistent="501" creative="360" experienced="583"/>
+    <skills stamina="404" dexterity="380" speed="670" tackling="554" passing="505" shooting="389" control="465" accuracy="620" goalkeeping="94" heading="430"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+</Players>

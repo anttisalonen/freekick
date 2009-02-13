@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="New Zealand">
+    <Regions>
+      <Region name="New Zealand">
+        <stadium name="Burnside Stadium" capacity="2800"/>
+        <stadium name="Central United Stadium" capacity="2900"/>
+        <stadium name="Christchurch Tec Stadium" capacity="2800"/>
+        <stadium name="Christchurch Utd Stadium" capacity="4200"/>
+        <stadium name="Dunedin Tec Stadium" capacity="2400"/>
+        <stadium name="Green Island Stadium" capacity="3000"/>
+        <stadium name="Halswell United Stadium" capacity="2600"/>
+        <stadium name="Lower Hutt City Stadium" capacity="2900"/>
+        <stadium name="Manurewa Stadium" capacity="5000"/>
+        <stadium name="Miramar Rangers Stadium" capacity="9200"/>
+        <stadium name="Mount Albert Stadium" capacity="1900"/>
+        <stadium name="Mount Manganui Stadium" capacity="1800"/>
+        <stadium name="Mount Wellington Stadium" capacity="7000"/>
+        <stadium name="Napier City Stadium" capacity="3700"/>
+        <stadium name="Nelson Suburbs Stadium" capacity="1800"/>
+        <stadium name="New Plymouth Stadium" capacity="4400"/>
+        <stadium name="North Shore Utd Stadium" capacity="5100"/>
+        <stadium name="Oratia United Stadium" capacity="2600"/>
+        <stadium name="Papatoetoe Stadium" capacity="8500"/>
+        <stadium name="Petone Stadium" capacity="5100"/>
+        <stadium name="Rangers Stadium" capacity="1900"/>
+        <stadium name="Roslyn Wakari Stadium" capacity="4100"/>
+        <stadium name="Waikato United Stadium" capacity="4200"/>
+        <stadium name="Waitakere City Stadium" capacity="3600"/>
+        <stadium name="Wanganui East Stadium" capacity="2900"/>
+        <stadium name="Waterside Karori Stadium" capacity="2000"/>
+        <stadium name="Wellington Olym. Stadium" capacity="3700"/>
+        <stadium name="Wellington Utd Stadium" capacity="5100"/>
+        <stadium name="Western Stadium" capacity="5000"/>
+        <stadium name="Woolston Wmc Stadium" capacity="4700"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="New Zealander league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="10" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="New Zealander Premier league champion"/>
+              <attendances>
+                <attendance tournament="New Zealander Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Central United"/>
+                <club name="Manurewa"/>
+                <club name="Mount Albert"/>
+                <club name="Mount Manganui"/>
+                <club name="Mount Wellington"/>
+                <club name="North Shore Utd"/>
+                <club name="Oratia United"/>
+                <club name="Papatoetoe"/>
+                <club name="Waikato United"/>
+                <club name="Waitakere City"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls>
+            <leaguerl num="3"/>
+          </leaguerls>
+        </level>
+        <level>
+          <branch>
+            <stage name="First league" type="0">
+              <setup seeded="0" participantnum="10" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="New Zealander First league champion"/>
+              <attendances>
+                <attendance tournament="New Zealander Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Lower Hutt City"/>
+                <club name="Miramar Rangers"/>
+                <club name="Napier City"/>
+                <club name="Nelson Suburbs"/>
+                <club name="New Plymouth"/>
+                <club name="Petone"/>
+                <club name="Wanganui East"/>
+                <club name="Waterside Karori"/>
+                <club name="Wellington Olym."/>
+                <club name="Wellington Utd"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs>
+            <leaguepr num="3"/>
+          </leagueprs>
+          <leaguerls>
+            <leaguerl num="3"/>
+          </leaguerls>
+        </level>
+        <level>
+          <branch>
+            <stage name="Second league" type="0">
+              <setup seeded="0" participantnum="10" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="New Zealander Second league champion"/>
+              <attendances>
+                <attendance tournament="New Zealander Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Burnside"/>
+                <club name="Christchurch Tec"/>
+                <club name="Christchurch Utd"/>
+                <club name="Dunedin Tec"/>
+                <club name="Green Island"/>
+                <club name="Halswell United"/>
+                <club name="Rangers"/>
+                <club name="Roslyn Wakari"/>
+                <club name="Western"/>
+                <club name="Woolston Wmc"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs>
+            <leaguepr num="3"/>
+          </leagueprs>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="New Zealander Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="New Zealander Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+        </stage>
+        <stage name="First round" type="1">
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Quarterfinals"/>
+          <preset>
+            <club name="Central United"/>
+            <club name="Manurewa"/>
+            <club name="Mount Albert"/>
+            <club name="Mount Manganui"/>
+            <club name="Mount Wellington"/>
+            <club name="North Shore Utd"/>
+            <club name="Oratia United"/>
+            <club name="Papatoetoe"/>
+            <club name="Waikato United"/>
+            <club name="Waitakere City"/>
+            <club name="Lower Hutt City"/>
+            <club name="Miramar Rangers"/>
+            <club name="Napier City"/>
+            <club name="Nelson Suburbs"/>
+            <club name="New Plymouth"/>
+            <club name="Petone"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

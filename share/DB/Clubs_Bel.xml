@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Anderlecht">
+    <coach name="None"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Anderlecht Stadium"/>
+    <contracts>
+      <contract player="6000"/>
+      <contract player="6001"/>
+      <contract player="6002"/>
+      <contract player="6003"/>
+      <contract player="6004"/>
+      <contract player="6005"/>
+      <contract player="6006"/>
+      <contract player="6007"/>
+      <contract player="6008"/>
+      <contract player="6009"/>
+      <contract player="6010"/>
+      <contract player="6011"/>
+      <contract player="6012"/>
+      <contract player="6013"/>
+      <contract player="6014"/>
+      <contract player="6015"/>
+    </contracts>
+  </club>
+  <club name="Zulte-waregem">
+    <coach name="Francky Dury"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Zulte-waregem Stadium"/>
+    <contracts>
+      <contract player="6016"/>
+      <contract player="6017"/>
+      <contract player="6018"/>
+      <contract player="6019"/>
+      <contract player="6020"/>
+      <contract player="6021"/>
+      <contract player="6022"/>
+      <contract player="6023"/>
+      <contract player="6024"/>
+      <contract player="6025"/>
+      <contract player="6026"/>
+      <contract player="6027"/>
+      <contract player="6028"/>
+      <contract player="6029"/>
+      <contract player="6030"/>
+      <contract player="6031"/>
+    </contracts>
+  </club>
+  <club name="Cercle Brugge">
+    <coach name="Jerko Tipuric"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Cercle Brugge Stadium"/>
+    <contracts>
+      <contract player="6032"/>
+      <contract player="6033"/>
+      <contract player="6034"/>
+      <contract player="6035"/>
+      <contract player="6036"/>
+      <contract player="6037"/>
+      <contract player="6038"/>
+      <contract player="6039"/>
+      <contract player="6040"/>
+      <contract player="6041"/>
+      <contract player="6042"/>
+      <contract player="6043"/>
+      <contract player="6044"/>
+      <contract player="6045"/>
+      <contract player="6046"/>
+      <contract player="6047"/>
+    </contracts>
+  </club>
+  <club name="Charleroi">
+    <coach name="Philippe Van De Walle"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="127" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="127" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Charleroi Stadium"/>
+    <contracts>
+      <contract player="6048"/>
+      <contract player="6049"/>
+      <contract player="6050"/>
+      <contract player="6051"/>
+      <contract player="6052"/>
+      <contract player="6053"/>
+      <contract player="6054"/>
+      <contract player="6055"/>
+      <contract player="6056"/>
+      <contract player="6057"/>
+      <contract player="6058"/>
+      <contract player="6059"/>
+      <contract player="6060"/>
+      <contract player="6061"/>
+      <contract player="6062"/>
+      <contract player="6063"/>
+    </contracts>
+  </club>
+  <club name="Club Brugge">
+    <coach name="Jacky Mathijssen"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Club Brugge Stadium"/>
+    <contracts>
+      <contract player="6064"/>
+      <contract player="6065"/>
+      <contract player="6066"/>
+      <contract player="6067"/>
+      <contract player="6068"/>
+      <contract player="6069"/>
+      <contract player="6070"/>
+      <contract player="6071"/>
+      <contract player="6072"/>
+      <contract player="6073"/>
+      <contract player="6074"/>
+      <contract player="6075"/>
+      <contract player="6076"/>
+      <contract player="6077"/>
+      <contract player="6078"/>
+      <contract player="6079"/>
+    </contracts>
+  </club>
+  <club name="Dender Eh">
+    <coach name="J-p. Van De Welde"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="173" g="216" b="230"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Dender Eh Stadium"/>
+    <contracts>
+      <contract player="6080"/>
+      <contract player="6081"/>
+      <contract player="6082"/>
+      <contract player="6083"/>
+      <contract player="6084"/>
+      <contract player="6085"/>
+      <contract player="6086"/>
+      <contract player="6087"/>
+      <contract player="6088"/>
+      <contract player="6089"/>
+      <contract player="6090"/>
+      <contract player="6091"/>
+      <contract player="6092"/>
+      <contract player="6093"/>
+      <contract player="6094"/>
+      <contract player="6095"/>
+    </contracts>
+  </club>
+  <club name="Genk">
+    <coach name="Hugo Broos"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Genk Stadium"/>
+    <contracts>
+      <contract player="6096"/>
+      <contract player="6097"/>
+      <contract player="6098"/>
+      <contract player="6099"/>
+      <contract player="6100"/>
+      <contract player="6101"/>
+      <contract player="6102"/>
+      <contract player="6103"/>
+      <contract player="6104"/>
+      <contract player="6105"/>
+      <contract player="6106"/>
+      <contract player="6107"/>
+      <contract player="6108"/>
+      <contract player="6109"/>
+      <contract player="6110"/>
+      <contract player="6111"/>
+    </contracts>
+  </club>
+  <club name="Gent">
+    <coach name="Trond Sollied"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Gent Stadium"/>
+    <contracts>
+      <contract player="6112"/>
+      <contract player="6113"/>
+      <contract player="6114"/>
+      <contract player="6115"/>
+      <contract player="6116"/>
+      <contract player="6117"/>
+      <contract player="6118"/>
+      <contract player="6119"/>
+      <contract player="6120"/>
+      <contract player="6121"/>
+      <contract player="6122"/>
+      <contract player="6123"/>
+      <contract player="6124"/>
+      <contract player="6125"/>
+      <contract player="6126"/>
+      <contract player="6127"/>
+    </contracts>
+  </club>
+  <club name="Gba">
+    <coach name="Harm Van Veldhoven"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Gba Stadium"/>
+    <contracts>
+      <contract player="6128"/>
+      <contract player="6129"/>
+      <contract player="6130"/>
+      <contract player="6131"/>
+      <contract player="6132"/>
+      <contract player="6133"/>
+      <contract player="6134"/>
+      <contract player="6135"/>
+      <contract player="6136"/>
+      <contract player="6137"/>
+      <contract player="6138"/>
+      <contract player="6139"/>
+      <contract player="6140"/>
+      <contract player="6141"/>
+      <contract player="6142"/>
+      <contract player="6143"/>
+    </contracts>
+  </club>
+  <club name="Fc Brussels">
+    <coach name="Albert Cartier"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Fc Brussels Stadium"/>
+    <contracts>
+      <contract player="6144"/>
+      <contract player="6145"/>
+      <contract player="6146"/>
+      <contract player="6147"/>
+      <contract player="6148"/>
+      <contract player="6149"/>
+      <contract player="6150"/>
+      <contract player="6151"/>
+      <contract player="6152"/>
+      <contract player="6153"/>
+      <contract player="6154"/>
+      <contract player="6155"/>
+      <contract player="6156"/>
+      <contract player="6157"/>
+      <contract player="6158"/>
+      <contract player="6159"/>
+    </contracts>
+  </club>
+  <club name="Kv Mechelen">
+    <coach name="Peter Maes"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Kv Mechelen Stadium"/>
+    <contracts>
+      <contract player="6160"/>
+      <contract player="6161"/>
+      <contract player="6162"/>
+      <contract player="6163"/>
+      <contract player="6164"/>
+      <contract player="6165"/>
+      <contract player="6166"/>
+      <contract player="6167"/>
+      <contract player="6168"/>
+      <contract player="6169"/>
+      <contract player="6170"/>
+      <contract player="6171"/>
+      <contract player="6172"/>
+      <contract player="6173"/>
+      <contract player="6174"/>
+      <contract player="6175"/>
+    </contracts>
+  </club>
+  <club name="Westerlo">
+    <coach name="Jan Ceulemans"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="128" g="128" b="128"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="128" g="128" b="128"/>
+        </shorts>
+        <socks>
+          <color r="128" g="128" b="128"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Westerlo Stadium"/>
+    <contracts>
+      <contract player="6176"/>
+      <contract player="6177"/>
+      <contract player="6178"/>
+      <contract player="6179"/>
+      <contract player="6180"/>
+      <contract player="6181"/>
+      <contract player="6182"/>
+      <contract player="6183"/>
+      <contract player="6184"/>
+      <contract player="6185"/>
+      <contract player="6186"/>
+      <contract player="6187"/>
+      <contract player="6188"/>
+      <contract player="6189"/>
+      <contract player="6190"/>
+      <contract player="6191"/>
+    </contracts>
+  </club>
+  <club name="Lokeren">
+    <coach name="Georges Leekens"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Lokeren Stadium"/>
+    <contracts>
+      <contract player="6192"/>
+      <contract player="6193"/>
+      <contract player="6194"/>
+      <contract player="6195"/>
+      <contract player="6196"/>
+      <contract player="6197"/>
+      <contract player="6198"/>
+      <contract player="6199"/>
+      <contract player="6200"/>
+      <contract player="6201"/>
+      <contract player="6202"/>
+      <contract player="6203"/>
+      <contract player="6204"/>
+      <contract player="6205"/>
+      <contract player="6206"/>
+      <contract player="6207"/>
+    </contracts>
+  </club>
+  <club name="Mons">
+    <coach name="Jose Riga"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Mons Stadium"/>
+    <contracts>
+      <contract player="6208"/>
+      <contract player="6209"/>
+      <contract player="6210"/>
+      <contract player="6211"/>
+      <contract player="6212"/>
+      <contract player="6213"/>
+      <contract player="6214"/>
+      <contract player="6215"/>
+      <contract player="6216"/>
+      <contract player="6217"/>
+      <contract player="6218"/>
+      <contract player="6219"/>
+      <contract player="6220"/>
+      <contract player="6221"/>
+      <contract player="6222"/>
+      <contract player="6223"/>
+    </contracts>
+  </club>
+  <club name="Mouscron">
+    <coach name="Enzo Scifo"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="0" g="0" b="0"/>
+          <color r="128" g="128" b="128"/>
+        </jersey>
+        <shorts>
+          <color r="128" g="128" b="128"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Mouscron Stadium"/>
+    <contracts>
+      <contract player="6224"/>
+      <contract player="6225"/>
+      <contract player="6226"/>
+      <contract player="6227"/>
+      <contract player="6228"/>
+      <contract player="6229"/>
+      <contract player="6230"/>
+      <contract player="6231"/>
+      <contract player="6232"/>
+      <contract player="6233"/>
+      <contract player="6234"/>
+      <contract player="6235"/>
+      <contract player="6236"/>
+      <contract player="6237"/>
+      <contract player="6238"/>
+      <contract player="6239"/>
+    </contracts>
+  </club>
+  <club name="Roeselare">
+    <coach name="Dirk Geeraerd"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Roeselare Stadium"/>
+    <contracts>
+      <contract player="6240"/>
+      <contract player="6241"/>
+      <contract player="6242"/>
+      <contract player="6243"/>
+      <contract player="6244"/>
+      <contract player="6245"/>
+      <contract player="6246"/>
+      <contract player="6247"/>
+      <contract player="6248"/>
+      <contract player="6249"/>
+      <contract player="6250"/>
+      <contract player="6251"/>
+      <contract player="6252"/>
+      <contract player="6253"/>
+      <contract player="6254"/>
+      <contract player="6255"/>
+    </contracts>
+  </club>
+  <club name="Sint-truiden">
+    <coach name="Peter Voets"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Sint-truiden Stadium"/>
+    <contracts>
+      <contract player="6256"/>
+      <contract player="6257"/>
+      <contract player="6258"/>
+      <contract player="6259"/>
+      <contract player="6260"/>
+      <contract player="6261"/>
+      <contract player="6262"/>
+      <contract player="6263"/>
+      <contract player="6264"/>
+      <contract player="6265"/>
+      <contract player="6266"/>
+      <contract player="6267"/>
+      <contract player="6268"/>
+      <contract player="6269"/>
+      <contract player="6270"/>
+      <contract player="6271"/>
+    </contracts>
+  </club>
+  <club name="Standard Liege">
+    <coach name="Michel Preud'homme"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Belgium"/>
+    <stadium name="Standard Liege Stadium"/>
+    <contracts>
+      <contract player="6272"/>
+      <contract player="6273"/>
+      <contract player="6274"/>
+      <contract player="6275"/>
+      <contract player="6276"/>
+      <contract player="6277"/>
+      <contract player="6278"/>
+      <contract player="6279"/>
+      <contract player="6280"/>
+      <contract player="6281"/>
+      <contract player="6282"/>
+      <contract player="6283"/>
+      <contract player="6284"/>
+      <contract player="6285"/>
+      <contract player="6286"/>
+      <contract player="6287"/>
+    </contracts>
+  </club>
+</Clubs>

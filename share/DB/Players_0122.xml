@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="122000">
+    <personal name="Bibbas Saha">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="506" risktaking="342" offensive="563" aggressive="520" consistent="562" creative="663" experienced="505"/>
+    <skills stamina="619" dexterity="467" speed="152" tackling="213" passing="340" shooting="417" control="321" accuracy="127" goalkeeping="375" heading="155"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="122001">
+    <personal name="Vijay Peshtra">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="790" risktaking="347" offensive="515" aggressive="825" consistent="221" creative="524" experienced="666"/>
+    <skills stamina="517" dexterity="355" speed="275" tackling="191" passing="246" shooting="224" control="303" accuracy="199" goalkeeping="441" heading="110"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="122002">
+    <personal name="Suraj Bhan">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="587" risktaking="370" offensive="546" aggressive="466" consistent="381" creative="408" experienced="470"/>
+    <skills stamina="621" dexterity="338" speed="571" tackling="331" passing="499" shooting="439" control="478" accuracy="455" goalkeeping="69" heading="433"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="122003">
+    <personal name="Jagmohan Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="443" risktaking="422" offensive="311" aggressive="417" consistent="70" creative="372" experienced="439"/>
+    <skills stamina="210" dexterity="662" speed="592" tackling="255" passing="273" shooting="401" control="419" accuracy="393" goalkeeping="49" heading="305"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="122004">
+    <personal name="Mahinder Pal">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="567" risktaking="495" offensive="578" aggressive="217" consistent="200" creative="339" experienced="827"/>
+    <skills stamina="516" dexterity="646" speed="230" tackling="393" passing="275" shooting="327" control="447" accuracy="250" goalkeeping="47" heading="401"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="122005">
+    <personal name="Bor Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="554" risktaking="451" offensive="683" aggressive="520" consistent="528" creative="421" experienced="573"/>
+    <skills stamina="554" dexterity="629" speed="574" tackling="332" passing="407" shooting="306" control="395" accuracy="332" goalkeeping="48" heading="288"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122006">
+    <personal name="Radhe Shyam">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="563" risktaking="701" offensive="626" aggressive="472" consistent="869" creative="579" experienced="502"/>
+    <skills stamina="457" dexterity="576" speed="485" tackling="389" passing="317" shooting="279" control="404" accuracy="386" goalkeeping="40" heading="352"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122007">
+    <personal name="P Gurasinghe">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="794" risktaking="444" offensive="632" aggressive="652" consistent="501" creative="575" experienced="390"/>
+    <skills stamina="172" dexterity="321" speed="635" tackling="270" passing="324" shooting="372" control="320" accuracy="279" goalkeeping="56" heading="282"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122008">
+    <personal name="Jaswinder Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="370" risktaking="612" offensive="597" aggressive="436" consistent="511" creative="571" experienced="432"/>
+    <skills stamina="532" dexterity="216" speed="219" tackling="443" passing="432" shooting="345" control="478" accuracy="439" goalkeeping="71" heading="283"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="122009">
+    <personal name="Narinder Gurung">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="472" risktaking="477" offensive="639" aggressive="445" consistent="814" creative="714" experienced="715"/>
+    <skills stamina="313" dexterity="613" speed="371" tackling="273" passing="334" shooting="404" control="419" accuracy="317" goalkeeping="75" heading="317"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="122010">
+    <personal name="Devinder Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="464" risktaking="327" offensive="560" aggressive="623" consistent="319" creative="618" experienced="506"/>
+    <skills stamina="587" dexterity="507" speed="267" tackling="410" passing="459" shooting="385" control="257" accuracy="323" goalkeeping="66" heading="359"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="122011">
+    <personal name="Cheval Tambla">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="422" risktaking="524" offensive="288" aggressive="610" consistent="244" creative="552" experienced="412"/>
+    <skills stamina="211" dexterity="454" speed="242" tackling="427" passing="342" shooting="245" control="377" accuracy="237" goalkeeping="37" heading="377"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="122012">
+    <personal name="Darbar Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="187" risktaking="495" offensive="763" aggressive="453" consistent="381" creative="378" experienced="478"/>
+    <skills stamina="382" dexterity="467" speed="442" tackling="294" passing="376" shooting="331" control="302" accuracy="309" goalkeeping="48" heading="264"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="122013">
+    <personal name="Artar Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="815" risktaking="356" offensive="486" aggressive="500" consistent="680" creative="455" experienced="515"/>
+    <skills stamina="149" dexterity="661" speed="581" tackling="400" passing="416" shooting="506" control="279" accuracy="326" goalkeeping="67" heading="412"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="122014">
+    <personal name="Gouranga Pal">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="569" risktaking="482" offensive="209" aggressive="337" consistent="439" creative="597" experienced="618"/>
+    <skills stamina="574" dexterity="152" speed="563" tackling="394" passing="268" shooting="466" control="330" accuracy="372" goalkeeping="60" heading="252"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="122015">
+    <personal name="Ces Mahundrja">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="605" risktaking="223" offensive="425" aggressive="480" consistent="212" creative="489" experienced="563"/>
+    <skills stamina="196" dexterity="571" speed="353" tackling="329" passing="370" shooting="442" control="227" accuracy="339" goalkeeping="61" heading="387"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="122016">
+    <personal name="Atanu Bhattacharya">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="404" risktaking="427" offensive="548" aggressive="539" consistent="444" creative="453" experienced="559"/>
+    <skills stamina="457" dexterity="299" speed="209" tackling="212" passing="285" shooting="370" control="236" accuracy="199" goalkeeping="435" heading="156"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="122017">
+    <personal name="Ahmed Ali">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="544" risktaking="662" offensive="483" aggressive="410" consistent="504" creative="449" experienced="622"/>
+    <skills stamina="554" dexterity="372" speed="445" tackling="128" passing="409" shooting="322" control="299" accuracy="193" goalkeeping="494" heading="181"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="122018">
+    <personal name="Dibasis Konar">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="598" risktaking="416" offensive="458" aggressive="352" consistent="685" creative="554" experienced="419"/>
+    <skills stamina="333" dexterity="403" speed="399" tackling="399" passing="472" shooting="440" control="339" accuracy="417" goalkeeping="79" heading="422"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="122019">
+    <personal name="Aloke Saha">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="372" risktaking="798" offensive="662" aggressive="427" consistent="504" creative="335" experienced="349"/>
+    <skills stamina="196" dexterity="423" speed="484" tackling="476" passing="274" shooting="282" control="353" accuracy="456" goalkeeping="61" heading="356"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="122020">
+    <personal name="Swapan Pal">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="363" risktaking="396" offensive="391" aggressive="210" consistent="370" creative="562" experienced="245"/>
+    <skills stamina="549" dexterity="276" speed="450" tackling="380" passing="367" shooting="285" control="416" accuracy="411" goalkeeping="68" heading="416"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122021">
+    <personal name="Persanta Saha">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="709" risktaking="692" offensive="586" aggressive="761" consistent="458" creative="438" experienced="493"/>
+    <skills stamina="217" dexterity="284" speed="627" tackling="468" passing="378" shooting="441" control="346" accuracy="430" goalkeeping="64" heading="290"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122022">
+    <personal name="Tapan Das">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="657" risktaking="462" offensive="689" aggressive="832" consistent="547" creative="569" experienced="431"/>
+    <skills stamina="445" dexterity="345" speed="649" tackling="290" passing="276" shooting="339" control="368" accuracy="441" goalkeeping="69" heading="336"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122023">
+    <personal name="Sanjoy Chandra">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="516" risktaking="599" offensive="429" aggressive="842" consistent="277" creative="696" experienced="553"/>
+    <skills stamina="347" dexterity="362" speed="308" tackling="380" passing="467" shooting="441" control="309" accuracy="400" goalkeeping="67" heading="386"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="122024">
+    <personal name="Ashfaque Ahmed">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="443" risktaking="443" offensive="551" aggressive="346" consistent="212" creative="517" experienced="358"/>
+    <skills stamina="277" dexterity="637" speed="642" tackling="437" passing="391" shooting="256" control="356" accuracy="262" goalkeeping="61" heading="264"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="122025">
+    <personal name="S.k. Sikander">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="523" risktaking="752" offensive="390" aggressive="530" consistent="837" creative="352" experienced="476"/>
+    <skills stamina="637" dexterity="676" speed="176" tackling="389" passing="352" shooting="297" control="337" accuracy="383" goalkeeping="77" heading="400"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="122026">
+    <personal name="Haider Ali">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="403" risktaking="463" offensive="445" aggressive="658" consistent="674" creative="335" experienced="392"/>
+    <skills stamina="204" dexterity="699" speed="582" tackling="256" passing="454" shooting="417" control="298" accuracy="367" goalkeeping="64" heading="318"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="122027">
+    <personal name="Abid Hussain">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="617" risktaking="439" offensive="695" aggressive="547" consistent="712" creative="474" experienced="639"/>
+    <skills stamina="482" dexterity="157" speed="409" tackling="324" passing="381" shooting="347" control="386" accuracy="315" goalkeeping="66" heading="298"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="122028">
+    <personal name="Sanjoy Majihi">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="769" risktaking="693" offensive="210" aggressive="505" consistent="613" creative="442" experienced="623"/>
+    <skills stamina="266" dexterity="273" speed="557" tackling="442" passing="455" shooting="311" control="428" accuracy="511" goalkeeping="55" heading="376"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="122029">
+    <personal name="Abid Inman">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="163" risktaking="500" offensive="536" aggressive="409" consistent="420" creative="549" experienced="431"/>
+    <skills stamina="200" dexterity="206" speed="395" tackling="390" passing="457" shooting="399" control="355" accuracy="392" goalkeeping="49" heading="401"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="122030">
+    <personal name="Uttam Gosh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="638" risktaking="376" offensive="332" aggressive="558" consistent="512" creative="240" experienced="464"/>
+    <skills stamina="482" dexterity="350" speed="579" tackling="403" passing="400" shooting="459" control="447" accuracy="512" goalkeeping="60" heading="295"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="122031">
+    <personal name="Mohamed Farid">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="712" risktaking="455" offensive="490" aggressive="359" consistent="591" creative="272" experienced="516"/>
+    <skills stamina="549" dexterity="122" speed="635" tackling="345" passing="313" shooting="243" control="410" accuracy="277" goalkeeping="67" heading="303"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="122032">
+    <personal name="Tanumoy Bose">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="572" risktaking="328" offensive="579" aggressive="513" consistent="594" creative="396" experienced="395"/>
+    <skills stamina="195" dexterity="623" speed="235" tackling="186" passing="463" shooting="360" control="272" accuracy="190" goalkeeping="424" heading="161"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="122033">
+    <personal name="Debasish Mukherjee">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="579" risktaking="470" offensive="424" aggressive="613" consistent="200" creative="627" experienced="592"/>
+    <skills stamina="135" dexterity="276" speed="162" tackling="121" passing="344" shooting="383" control="219" accuracy="178" goalkeeping="303" heading="171"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="122034">
+    <personal name="P Saha">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="511" risktaking="513" offensive="476" aggressive="321" consistent="279" creative="473" experienced="362"/>
+    <skills stamina="424" dexterity="435" speed="295" tackling="462" passing="429" shooting="321" control="438" accuracy="319" goalkeeping="71" heading="411"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="122035">
+    <personal name="Swarup Das">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="512" risktaking="579" offensive="511" aggressive="691" consistent="466" creative="413" experienced="530"/>
+    <skills stamina="286" dexterity="402" speed="519" tackling="445" passing="376" shooting="337" control="429" accuracy="391" goalkeeping="82" heading="495"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="122036">
+    <personal name="Tarun Dey">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="526" risktaking="362" offensive="276" aggressive="625" consistent="531" creative="502" experienced="659"/>
+    <skills stamina="561" dexterity="470" speed="586" tackling="372" passing="431" shooting="369" control="413" accuracy="371" goalkeeping="52" heading="285"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="122037">
+    <personal name="Ilyas Pasha">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="269" risktaking="467" offensive="477" aggressive="191" consistent="732" creative="462" experienced="264"/>
+    <skills stamina="634" dexterity="388" speed="154" tackling="351" passing="367" shooting="476" control="401" accuracy="366" goalkeeping="51" heading="405"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122038">
+    <personal name="Krishnendu Roy">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="382" risktaking="690" offensive="647" aggressive="446" consistent="685" creative="479" experienced="563"/>
+    <skills stamina="560" dexterity="537" speed="285" tackling="416" passing="299" shooting="280" control="461" accuracy="361" goalkeeping="62" heading="269"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122039">
+    <personal name="Mastan Ahmed">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="627" risktaking="281" offensive="560" aggressive="296" consistent="376" creative="510" experienced="346"/>
+    <skills stamina="489" dexterity="264" speed="154" tackling="347" passing="452" shooting="278" control="297" accuracy="278" goalkeeping="50" heading="280"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122040">
+    <personal name="Tushar Rakshit">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="593" risktaking="574" offensive="569" aggressive="196" consistent="782" creative="308" experienced="564"/>
+    <skills stamina="367" dexterity="622" speed="273" tackling="422" passing="488" shooting="439" control="348" accuracy="365" goalkeeping="71" heading="361"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="122041">
+    <personal name="Sujit Datta">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="534" risktaking="526" offensive="690" aggressive="675" consistent="598" creative="584" experienced="566"/>
+    <skills stamina="311" dexterity="310" speed="579" tackling="320" passing="417" shooting="411" control="406" accuracy="367" goalkeeping="64" heading="449"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="122042">
+    <personal name="Carlton Chapman">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="569" risktaking="319" offensive="428" aggressive="519" consistent="232" creative="462" experienced="703"/>
+    <skills stamina="647" dexterity="493" speed="625" tackling="297" passing="446" shooting="309" control="393" accuracy="342" goalkeeping="73" heading="434"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="122043">
+    <personal name="Mustaq Ali">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="573" risktaking="371" offensive="423" aggressive="619" consistent="311" creative="663" experienced="450"/>
+    <skills stamina="310" dexterity="306" speed="392" tackling="382" passing="366" shooting="305" control="270" accuracy="262" goalkeeping="66" heading="309"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="122044">
+    <personal name="Bikash Panji">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="654" risktaking="370" offensive="360" aggressive="527" consistent="282" creative="532" experienced="404"/>
+    <skills stamina="560" dexterity="601" speed="220" tackling="316" passing="297" shooting="294" control="340" accuracy="357" goalkeeping="70" heading="337"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="122045">
+    <personal name="Kiron Khongsai">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="640" risktaking="555" offensive="496" aggressive="601" consistent="510" creative="465" experienced="717"/>
+    <skills stamina="209" dexterity="368" speed="440" tackling="314" passing="397" shooting="350" control="411" accuracy="462" goalkeeping="52" heading="315"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="122046">
+    <personal name="Sanjog Majhi">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="597" risktaking="374" offensive="393" aggressive="461" consistent="498" creative="558" experienced="418"/>
+    <skills stamina="273" dexterity="186" speed="306" tackling="471" passing="349" shooting="488" control="357" accuracy="498" goalkeeping="49" heading="505"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="122047">
+    <personal name="Kuljit Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="588" risktaking="489" offensive="326" aggressive="527" consistent="254" creative="554" experienced="504"/>
+    <skills stamina="166" dexterity="586" speed="152" tackling="289" passing="423" shooting="304" control="403" accuracy="322" goalkeeping="61" heading="395"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="122048">
+    <personal name="Henry Manrezes">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="581" risktaking="570" offensive="733" aggressive="612" consistent="671" creative="365" experienced="602"/>
+    <skills stamina="368" dexterity="364" speed="476" tackling="144" passing="416" shooting="243" control="248" accuracy="152" goalkeeping="415" heading="132"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="122049">
+    <personal name="Mohamed Kadeer">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="567" risktaking="370" offensive="424" aggressive="457" consistent="536" creative="289" experienced="653"/>
+    <skills stamina="401" dexterity="116" speed="644" tackling="154" passing="303" shooting="360" control="292" accuracy="184" goalkeeping="452" heading="197"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="122050">
+    <personal name="Lachman Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="498" risktaking="461" offensive="356" aggressive="557" consistent="692" creative="680" experienced="605"/>
+    <skills stamina="337" dexterity="484" speed="584" tackling="266" passing="311" shooting="324" control="314" accuracy="358" goalkeeping="71" heading="262"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="122051">
+    <personal name="Ramesh Kumar">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="303" risktaking="82" offensive="170" aggressive="670" consistent="822" creative="398" experienced="572"/>
+    <skills stamina="261" dexterity="365" speed="286" tackling="366" passing="258" shooting="346" control="457" accuracy="379" goalkeeping="63" heading="315"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="122052">
+    <personal name="Saby Antao">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="783" risktaking="425" offensive="621" aggressive="367" consistent="526" creative="510" experienced="565"/>
+    <skills stamina="350" dexterity="155" speed="162" tackling="478" passing="305" shooting="407" control="290" accuracy="305" goalkeeping="54" heading="404"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122053">
+    <personal name="Farooq Ahmed">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="489" risktaking="485" offensive="580" aggressive="286" consistent="410" creative="701" experienced="408"/>
+    <skills stamina="531" dexterity="470" speed="597" tackling="443" passing="372" shooting="419" control="379" accuracy="424" goalkeeping="49" heading="330"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122054">
+    <personal name="Manoj Bhatt">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="666" risktaking="283" offensive="240" aggressive="587" consistent="470" creative="219" experienced="421"/>
+    <skills stamina="436" dexterity="257" speed="198" tackling="359" passing="273" shooting="230" control="371" accuracy="312" goalkeeping="48" heading="211"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122055">
+    <personal name="Milton Fernando">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="619" risktaking="312" offensive="603" aggressive="388" consistent="273" creative="619" experienced="524"/>
+    <skills stamina="532" dexterity="287" speed="560" tackling="257" passing="449" shooting="325" control="335" accuracy="432" goalkeeping="67" heading="409"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="122056">
+    <personal name="Gunabir Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="569" risktaking="476" offensive="546" aggressive="367" consistent="503" creative="562" experienced="392"/>
+    <skills stamina="586" dexterity="651" speed="525" tackling="382" passing="295" shooting="277" control="353" accuracy="235" goalkeeping="64" heading="393"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="122057">
+    <personal name="Jowel Bey">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="158" risktaking="534" offensive="372" aggressive="781" consistent="469" creative="490" experienced="138"/>
+    <skills stamina="426" dexterity="662" speed="486" tackling="366" passing="331" shooting="396" control="340" accuracy="385" goalkeeping="59" heading="282"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="122058">
+    <personal name="P.j. Jose">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="466" risktaking="423" offensive="510" aggressive="371" consistent="189" creative="505" experienced="633"/>
+    <skills stamina="151" dexterity="305" speed="302" tackling="346" passing="411" shooting="238" control="409" accuracy="258" goalkeeping="59" heading="245"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="122059">
+    <personal name="Santosh Kashyap">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="505" risktaking="505" offensive="506" aggressive="685" consistent="321" creative="509" experienced="484"/>
+    <skills stamina="537" dexterity="499" speed="499" tackling="277" passing="402" shooting="335" control="296" accuracy="395" goalkeeping="42" heading="333"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="122060">
+    <personal name="Trilak Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="466" risktaking="252" offensive="833" aggressive="461" consistent="481" creative="495" experienced="472"/>
+    <skills stamina="406" dexterity="586" speed="604" tackling="279" passing="386" shooting="313" control="454" accuracy="441" goalkeeping="62" heading="309"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="122061">
+    <personal name="Godfrey Pereira">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="530" risktaking="646" offensive="690" aggressive="491" consistent="534" creative="653" experienced="571"/>
+    <skills stamina="205" dexterity="295" speed="396" tackling="327" passing="257" shooting="412" control="440" accuracy="359" goalkeeping="65" heading="350"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="122062">
+    <personal name="Nandu Kotija">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="486" risktaking="363" offensive="629" aggressive="315" consistent="492" creative="498" experienced="601"/>
+    <skills stamina="181" dexterity="169" speed="313" tackling="321" passing="283" shooting="392" control="255" accuracy="318" goalkeeping="56" heading="421"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="122063">
+    <personal name="Manoj Kumarbhot">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="469" risktaking="599" offensive="575" aggressive="604" consistent="667" creative="148" experienced="373"/>
+    <skills stamina="641" dexterity="474" speed="209" tackling="295" passing="395" shooting="373" control="314" accuracy="340" goalkeeping="39" heading="396"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="122064">
+    <personal name="Daljit Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="543" risktaking="695" offensive="663" aggressive="223" consistent="397" creative="616" experienced="586"/>
+    <skills stamina="571" dexterity="261" speed="572" tackling="215" passing="264" shooting="240" control="215" accuracy="200" goalkeeping="442" heading="162"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="122065">
+    <personal name="Pratap Dey">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="233" risktaking="472" offensive="477" aggressive="598" consistent="520" creative="587" experienced="324"/>
+    <skills stamina="508" dexterity="464" speed="161" tackling="130" passing="252" shooting="409" control="330" accuracy="116" goalkeeping="374" heading="164"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="122066">
+    <personal name="Parminder Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="429" risktaking="351" offensive="462" aggressive="479" consistent="432" creative="515" experienced="473"/>
+    <skills stamina="633" dexterity="681" speed="662" tackling="418" passing="386" shooting="425" control="316" accuracy="233" goalkeeping="46" heading="261"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="122067">
+    <personal name="Manjit Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="444" risktaking="634" offensive="416" aggressive="611" consistent="522" creative="614" experienced="534"/>
+    <skills stamina="207" dexterity="491" speed="151" tackling="318" passing="438" shooting="345" control="375" accuracy="259" goalkeeping="47" heading="296"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="122068">
+    <personal name="Amrik Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="436" risktaking="600" offensive="511" aggressive="175" consistent="489" creative="532" experienced="358"/>
+    <skills stamina="669" dexterity="325" speed="640" tackling="300" passing="303" shooting="251" control="286" accuracy="353" goalkeeping="53" heading="411"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122069">
+    <personal name="Kudip Singh(sr)">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="698" risktaking="576" offensive="578" aggressive="645" consistent="367" creative="638" experienced="530"/>
+    <skills stamina="408" dexterity="190" speed="679" tackling="430" passing="491" shooting="386" control="458" accuracy="465" goalkeeping="60" heading="315"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122070">
+    <personal name="Bikash Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="426" risktaking="422" offensive="624" aggressive="531" consistent="267" creative="246" experienced="595"/>
+    <skills stamina="316" dexterity="214" speed="519" tackling="289" passing="391" shooting="246" control="378" accuracy="370" goalkeeping="45" heading="231"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122071">
+    <personal name="Harjinder Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="451" risktaking="629" offensive="915" aggressive="560" consistent="424" creative="642" experienced="439"/>
+    <skills stamina="452" dexterity="490" speed="153" tackling="395" passing="376" shooting="404" control="287" accuracy="321" goalkeeping="62" heading="367"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="122072">
+    <personal name="Tajinder Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="446" risktaking="357" offensive="733" aggressive="731" consistent="387" creative="368" experienced="280"/>
+    <skills stamina="266" dexterity="243" speed="294" tackling="391" passing="401" shooting="306" control="437" accuracy="298" goalkeeping="68" heading="336"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="122073">
+    <personal name="Kuldip Singh(jr)">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="593" risktaking="511" offensive="554" aggressive="470" consistent="568" creative="490" experienced="430"/>
+    <skills stamina="436" dexterity="566" speed="411" tackling="456" passing="428" shooting="402" control="325" accuracy="337" goalkeeping="44" heading="349"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="122074">
+    <personal name="Satish Kumar">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="290" risktaking="667" offensive="554" aggressive="709" consistent="496" creative="736" experienced="388"/>
+    <skills stamina="276" dexterity="672" speed="360" tackling="390" passing="361" shooting="325" control="283" accuracy="369" goalkeeping="58" heading="344"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="122075">
+    <personal name="Jashir Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="238" risktaking="676" offensive="339" aggressive="435" consistent="402" creative="550" experienced="728"/>
+    <skills stamina="534" dexterity="230" speed="393" tackling="422" passing="417" shooting="365" control="277" accuracy="298" goalkeeping="52" heading="299"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="122076">
+    <personal name="Bahurdur Singh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="499" risktaking="188" offensive="878" aggressive="624" consistent="661" creative="387" experienced="533"/>
+    <skills stamina="233" dexterity="148" speed="246" tackling="291" passing="323" shooting="256" control="335" accuracy="338" goalkeeping="48" heading="284"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="122077">
+    <personal name="Narinder Kumar">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="695" risktaking="354" offensive="653" aggressive="462" consistent="666" creative="449" experienced="464"/>
+    <skills stamina="129" dexterity="120" speed="589" tackling="329" passing="332" shooting="394" control="419" accuracy="479" goalkeeping="64" heading="348"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="122078">
+    <personal name="Sirin Panji">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="607" risktaking="490" offensive="423" aggressive="639" consistent="495" creative="351" experienced="510"/>
+    <skills stamina="585" dexterity="275" speed="146" tackling="379" passing="325" shooting="389" control="278" accuracy="473" goalkeeping="58" heading="506"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="122079">
+    <personal name="Babu Thapa">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="599" risktaking="310" offensive="550" aggressive="564" consistent="602" creative="468" experienced="303"/>
+    <skills stamina="390" dexterity="279" speed="453" tackling="388" passing="379" shooting="431" control="298" accuracy="401" goalkeeping="66" heading="268"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="122080">
+    <personal name="Hemantra Dora">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="512" risktaking="500" offensive="428" aggressive="216" consistent="358" creative="610" experienced="547"/>
+    <skills stamina="318" dexterity="311" speed="643" tackling="243" passing="329" shooting="347" control="338" accuracy="184" goalkeeping="541" heading="183"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="122081">
+    <personal name="Debasis">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="358" risktaking="541" offensive="486" aggressive="368" consistent="443" creative="264" experienced="579"/>
+    <skills stamina="395" dexterity="634" speed="449" tackling="125" passing="406" shooting="400" control="211" accuracy="125" goalkeeping="325" heading="131"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="122082">
+    <personal name="Mastan Ahmed">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="341" risktaking="475" offensive="388" aggressive="448" consistent="176" creative="196" experienced="605"/>
+    <skills stamina="615" dexterity="197" speed="139" tackling="318" passing="407" shooting="429" control="497" accuracy="299" goalkeeping="66" heading="439"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="122083">
+    <personal name="Achintya Belel">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="367" risktaking="701" offensive="573" aggressive="297" consistent="492" creative="302" experienced="284"/>
+    <skills stamina="298" dexterity="205" speed="526" tackling="372" passing="492" shooting="294" control="319" accuracy="450" goalkeeping="61" heading="271"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="122084">
+    <personal name="Sukanta Laha">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="566" risktaking="689" offensive="283" aggressive="777" consistent="522" creative="427" experienced="455"/>
+    <skills stamina="675" dexterity="585" speed="141" tackling="338" passing="361" shooting="351" control="418" accuracy="401" goalkeeping="46" heading="282"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122085">
+    <personal name="Murshed Ali">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="353" risktaking="335" offensive="545" aggressive="467" consistent="691" creative="225" experienced="543"/>
+    <skills stamina="479" dexterity="492" speed="544" tackling="432" passing="328" shooting="336" control="459" accuracy="407" goalkeeping="59" heading="408"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122086">
+    <personal name="Debashis Hazra">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="423" risktaking="371" offensive="475" aggressive="244" consistent="440" creative="466" experienced="500"/>
+    <skills stamina="616" dexterity="575" speed="487" tackling="319" passing="401" shooting="435" control="378" accuracy="317" goalkeeping="48" heading="330"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="122087">
+    <personal name="Babu Mani">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="597" risktaking="856" offensive="386" aggressive="585" consistent="276" creative="467" experienced="570"/>
+    <skills stamina="408" dexterity="562" speed="584" tackling="326" passing="376" shooting="450" control="336" accuracy="431" goalkeeping="57" heading="421"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="122088">
+    <personal name="Bikash Panji">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="310" risktaking="248" offensive="664" aggressive="515" consistent="394" creative="642" experienced="432"/>
+    <skills stamina="629" dexterity="273" speed="395" tackling="318" passing="479" shooting="391" control="406" accuracy="419" goalkeeping="77" heading="406"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="122089">
+    <personal name="Satyajit Chatterjee">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="572" risktaking="288" offensive="500" aggressive="471" consistent="760" creative="401" experienced="382"/>
+    <skills stamina="278" dexterity="346" speed="414" tackling="424" passing="491" shooting="463" control="367" accuracy="333" goalkeeping="60" heading="469"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="122090">
+    <personal name="Arif Ansari">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="569" risktaking="491" offensive="520" aggressive="558" consistent="472" creative="172" experienced="477"/>
+    <skills stamina="425" dexterity="669" speed="652" tackling="360" passing="302" shooting="231" control="286" accuracy="408" goalkeeping="60" heading="397"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="122091">
+    <personal name="Debashis Mishra">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="461" risktaking="764" offensive="606" aggressive="423" consistent="499" creative="335" experienced="434"/>
+    <skills stamina="577" dexterity="384" speed="273" tackling="403" passing="386" shooting="392" control="424" accuracy="326" goalkeeping="42" heading="286"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="122092">
+    <personal name="Khumaresh Dhawal">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="462" risktaking="631" offensive="521" aggressive="506" consistent="712" creative="299" experienced="604"/>
+    <skills stamina="345" dexterity="170" speed="139" tackling="271" passing="309" shooting="533" control="357" accuracy="290" goalkeeping="49" heading="425"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="122093">
+    <personal name="Sakhen Sengupta">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="613" risktaking="574" offensive="511" aggressive="441" consistent="430" creative="268" experienced="895"/>
+    <skills stamina="161" dexterity="247" speed="537" tackling="404" passing="319" shooting="295" control="367" accuracy="382" goalkeeping="47" heading="287"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="122094">
+    <personal name="Bernard Oparanozie">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="255" risktaking="434" offensive="442" aggressive="324" consistent="686" creative="343" experienced="497"/>
+    <skills stamina="353" dexterity="627" speed="368" tackling="447" passing="285" shooting="417" control="317" accuracy="530" goalkeeping="50" heading="421"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="122095">
+    <personal name="Sishir Ghosh">
+      <appearance value="1"/>
+      <nationality value="India"/>
+    </personal>
+    <personality active="278" risktaking="610" offensive="392" aggressive="549" consistent="336" creative="365" experienced="286"/>
+    <skills stamina="548" dexterity="385" speed="233" tackling="386" passing="359" shooting="356" control="444" accuracy="437" goalkeeping="49" heading="289"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+</Players>

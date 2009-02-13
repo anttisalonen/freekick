@@ -1,0 +1,2163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="36000">
+    <personal name="Dave Henderson">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="409" risktaking="386" offensive="713" aggressive="353" consistent="400" creative="673" experienced="612"/>
+    <skills stamina="614" dexterity="585" speed="416" tackling="206" passing="389" shooting="475" control="246" accuracy="230" goalkeeping="461" heading="229"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36001">
+    <personal name="John Connolly">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="724" risktaking="317" offensive="751" aggressive="376" consistent="203" creative="286" experienced="546"/>
+    <skills stamina="377" dexterity="287" speed="549" tackling="149" passing="306" shooting="441" control="328" accuracy="173" goalkeeping="479" heading="185"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36002">
+    <personal name="Donal Broughan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="650" risktaking="545" offensive="622" aggressive="591" consistent="538" creative="235" experienced="570"/>
+    <skills stamina="624" dexterity="439" speed="582" tackling="361" passing="491" shooting="346" control="489" accuracy="381" goalkeeping="72" heading="418"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="36003">
+    <personal name="Tommy Byrne">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="457" risktaking="503" offensive="386" aggressive="332" consistent="482" creative="765" experienced="572"/>
+    <skills stamina="191" dexterity="322" speed="509" tackling="415" passing="425" shooting="410" control="526" accuracy="347" goalkeeping="58" heading="414"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="36004">
+    <personal name="Paul Whelan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="686" risktaking="401" offensive="877" aggressive="287" consistent="386" creative="556" experienced="354"/>
+    <skills stamina="680" dexterity="585" speed="368" tackling="509" passing="480" shooting="376" control="353" accuracy="465" goalkeeping="50" heading="443"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36005">
+    <personal name="Robbie Best">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="487" risktaking="160" offensive="525" aggressive="618" consistent="304" creative="704" experienced="151"/>
+    <skills stamina="168" dexterity="406" speed="463" tackling="471" passing="347" shooting="423" control="402" accuracy="403" goalkeeping="57" heading="441"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36006">
+    <personal name="Pat Kelch">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="516" risktaking="555" offensive="692" aggressive="584" consistent="160" creative="293" experienced="499"/>
+    <skills stamina="610" dexterity="285" speed="507" tackling="368" passing="371" shooting="369" control="338" accuracy="410" goalkeeping="50" heading="326"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36007">
+    <personal name="Wayne Cooney">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="314" risktaking="192" offensive="616" aggressive="500" consistent="736" creative="431" experienced="457"/>
+    <skills stamina="192" dexterity="326" speed="481" tackling="466" passing="439" shooting="356" control="442" accuracy="294" goalkeeping="47" heading="347"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36008">
+    <personal name="Ken De Mange">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="384" risktaking="475" offensive="541" aggressive="450" consistent="497" creative="466" experienced="259"/>
+    <skills stamina="712" dexterity="294" speed="308" tackling="375" passing="505" shooting="440" control="493" accuracy="528" goalkeeping="69" heading="375"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="36009">
+    <personal name="Tony O'connor">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="393" risktaking="564" offensive="529" aggressive="623" consistent="623" creative="481" experienced="550"/>
+    <skills stamina="236" dexterity="223" speed="282" tackling="414" passing="349" shooting="370" control="469" accuracy="322" goalkeeping="52" heading="290"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="36010">
+    <personal name="Jim Crawford">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="503" risktaking="548" offensive="400" aggressive="807" consistent="680" creative="565" experienced="576"/>
+    <skills stamina="334" dexterity="400" speed="438" tackling="452" passing="367" shooting="400" control="528" accuracy="369" goalkeeping="60" heading="477"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36011">
+    <personal name="Maurice O'driscoll">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="344" risktaking="435" offensive="427" aggressive="370" consistent="410" creative="569" experienced="488"/>
+    <skills stamina="656" dexterity="667" speed="409" tackling="377" passing="343" shooting="325" control="449" accuracy="386" goalkeeping="77" heading="398"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36012">
+    <personal name="Howard King">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="457" risktaking="733" offensive="318" aggressive="326" consistent="257" creative="604" experienced="451"/>
+    <skills stamina="265" dexterity="546" speed="262" tackling="292" passing="398" shooting="380" control="345" accuracy="321" goalkeeping="56" heading="289"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36013">
+    <personal name="David Tilson">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="676" risktaking="426" offensive="317" aggressive="435" consistent="425" creative="578" experienced="519"/>
+    <skills stamina="403" dexterity="564" speed="665" tackling="452" passing="449" shooting="566" control="459" accuracy="349" goalkeeping="60" heading="436"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="36014">
+    <personal name="Tony Cousins">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="332" risktaking="348" offensive="630" aggressive="527" consistent="451" creative="468" experienced="303"/>
+    <skills stamina="432" dexterity="210" speed="350" tackling="430" passing="300" shooting="387" control="352" accuracy="432" goalkeeping="79" heading="483"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36015">
+    <personal name="Tommy Fitzgerald">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="591" risktaking="560" offensive="394" aggressive="666" consistent="458" creative="494" experienced="265"/>
+    <skills stamina="643" dexterity="635" speed="271" tackling="425" passing="336" shooting="503" control="296" accuracy="372" goalkeeping="60" heading="420"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36016">
+    <personal name="Sean Ward">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="387" risktaking="448" offensive="478" aggressive="594" consistent="409" creative="485" experienced="479"/>
+    <skills stamina="579" dexterity="297" speed="624" tackling="158" passing="413" shooting="237" control="187" accuracy="144" goalkeeping="436" heading="135"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36017">
+    <personal name="Joseph Moran">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="283" risktaking="374" offensive="283" aggressive="423" consistent="538" creative="335" experienced="438"/>
+    <skills stamina="406" dexterity="131" speed="212" tackling="116" passing="222" shooting="340" control="209" accuracy="155" goalkeeping="296" heading="108"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="36018">
+    <personal name="Adrian Cairns">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="442" risktaking="585" offensive="613" aggressive="421" consistent="463" creative="629" experienced="234"/>
+    <skills stamina="620" dexterity="627" speed="366" tackling="242" passing="409" shooting="354" control="437" accuracy="409" goalkeeping="63" heading="230"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="36019">
+    <personal name="Michael Doohan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="581" risktaking="429" offensive="564" aggressive="389" consistent="609" creative="376" experienced="419"/>
+    <skills stamina="224" dexterity="192" speed="544" tackling="490" passing="428" shooting="430" control="477" accuracy="467" goalkeeping="55" heading="329"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="36020">
+    <personal name="Stephen O'reilly">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="573" risktaking="571" offensive="286" aggressive="545" consistent="356" creative="724" experienced="578"/>
+    <skills stamina="650" dexterity="472" speed="174" tackling="320" passing="426" shooting="418" control="428" accuracy="253" goalkeeping="70" heading="290"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36021">
+    <personal name="Trevor Coleman">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="244" risktaking="176" offensive="458" aggressive="303" consistent="255" creative="424" experienced="354"/>
+    <skills stamina="647" dexterity="384" speed="416" tackling="350" passing="423" shooting="308" control="301" accuracy="268" goalkeeping="48" heading="289"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="36022">
+    <personal name="Colin Phillips">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="405" risktaking="417" offensive="571" aggressive="426" consistent="323" creative="360" experienced="503"/>
+    <skills stamina="380" dexterity="442" speed="541" tackling="445" passing="285" shooting="370" control="341" accuracy="213" goalkeeping="60" heading="304"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36023">
+    <personal name="Alan Smith">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="575" risktaking="578" offensive="683" aggressive="631" consistent="501" creative="541" experienced="494"/>
+    <skills stamina="229" dexterity="412" speed="564" tackling="448" passing="486" shooting="333" control="436" accuracy="404" goalkeeping="64" heading="436"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="36024">
+    <personal name="Martin Nugent">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="627" risktaking="774" offensive="720" aggressive="671" consistent="612" creative="742" experienced="397"/>
+    <skills stamina="583" dexterity="364" speed="405" tackling="349" passing="338" shooting="317" control="394" accuracy="294" goalkeeping="68" heading="302"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="36025">
+    <personal name="Jason Byrne">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="547" risktaking="282" offensive="512" aggressive="658" consistent="628" creative="719" experienced="450"/>
+    <skills stamina="269" dexterity="310" speed="463" tackling="430" passing="449" shooting="418" control="450" accuracy="345" goalkeeping="70" heading="423"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36026">
+    <personal name="Dermot Judge">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="637" risktaking="652" offensive="281" aggressive="561" consistent="371" creative="343" experienced="423"/>
+    <skills stamina="693" dexterity="422" speed="549" tackling="307" passing="399" shooting="413" control="340" accuracy="336" goalkeeping="62" heading="380"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="36027">
+    <personal name="Anthony Mckeever">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="651" risktaking="429" offensive="754" aggressive="833" consistent="380" creative="628" experienced="500"/>
+    <skills stamina="237" dexterity="494" speed="570" tackling="348" passing="402" shooting="304" control="394" accuracy="271" goalkeeping="66" heading="351"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="36028">
+    <personal name="Greg Coleman">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="148" risktaking="492" offensive="968" aggressive="294" consistent="327" creative="577" experienced="220"/>
+    <skills stamina="638" dexterity="332" speed="240" tackling="269" passing="397" shooting="283" control="324" accuracy="329" goalkeeping="61" heading="390"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="36029">
+    <personal name="Maurice Ferrell">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="546" risktaking="410" offensive="583" aggressive="453" consistent="274" creative="507" experienced="475"/>
+    <skills stamina="477" dexterity="325" speed="359" tackling="431" passing="260" shooting="391" control="304" accuracy="328" goalkeeping="69" heading="260"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36030">
+    <personal name="Ian Dooglas">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="543" risktaking="680" offensive="686" aggressive="404" consistent="360" creative="443" experienced="640"/>
+    <skills stamina="121" dexterity="552" speed="644" tackling="315" passing="271" shooting="440" control="410" accuracy="376" goalkeeping="51" heading="403"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36031">
+    <personal name="David Kealy">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="313" risktaking="523" offensive="458" aggressive="287" consistent="467" creative="408" experienced="177"/>
+    <skills stamina="253" dexterity="196" speed="265" tackling="398" passing="307" shooting="344" control="245" accuracy="357" goalkeeping="38" heading="387"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36032">
+    <personal name="Stephen Henderson">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="484" risktaking="498" offensive="684" aggressive="446" consistent="680" creative="544" experienced="498"/>
+    <skills stamina="267" dexterity="171" speed="442" tackling="167" passing="442" shooting="394" control="212" accuracy="140" goalkeeping="521" heading="145"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36033">
+    <personal name="John Reynor">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="476" risktaking="673" offensive="477" aggressive="472" consistent="583" creative="412" experienced="525"/>
+    <skills stamina="374" dexterity="496" speed="651" tackling="181" passing="353" shooting="320" control="320" accuracy="148" goalkeeping="280" heading="107"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36034">
+    <personal name="Packie Kelly">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="486" risktaking="369" offensive="619" aggressive="615" consistent="417" creative="413" experienced="456"/>
+    <skills stamina="158" dexterity="556" speed="583" tackling="395" passing="404" shooting="382" control="312" accuracy="379" goalkeeping="64" heading="343"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="36035">
+    <personal name="Tommy Cregoe">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="311" risktaking="457" offensive="600" aggressive="381" consistent="402" creative="682" experienced="514"/>
+    <skills stamina="496" dexterity="549" speed="298" tackling="312" passing="390" shooting="303" control="397" accuracy="252" goalkeeping="58" heading="261"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="36036">
+    <personal name="Jason Lynch">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="649" risktaking="424" offensive="419" aggressive="483" consistent="804" creative="380" experienced="504"/>
+    <skills stamina="160" dexterity="574" speed="326" tackling="366" passing="306" shooting="239" control="387" accuracy="366" goalkeeping="67" heading="303"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36037">
+    <personal name="Ken O'rourke">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="337" risktaking="486" offensive="570" aggressive="409" consistent="413" creative="329" experienced="639"/>
+    <skills stamina="388" dexterity="216" speed="609" tackling="402" passing="329" shooting="415" control="364" accuracy="333" goalkeeping="58" heading="434"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36038">
+    <personal name="Philip Long">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="318" risktaking="407" offensive="365" aggressive="457" consistent="667" creative="247" experienced="465"/>
+    <skills stamina="306" dexterity="154" speed="459" tackling="345" passing="259" shooting="234" control="364" accuracy="288" goalkeeping="49" heading="318"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36039">
+    <personal name="Damien Martin">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="403" risktaking="557" offensive="394" aggressive="510" consistent="421" creative="429" experienced="472"/>
+    <skills stamina="483" dexterity="563" speed="362" tackling="401" passing="415" shooting="389" control="326" accuracy="231" goalkeeping="47" heading="356"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36040">
+    <personal name="Alan O'sullivan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="250" risktaking="499" offensive="391" aggressive="484" consistent="357" creative="250" experienced="497"/>
+    <skills stamina="469" dexterity="671" speed="618" tackling="354" passing="273" shooting="362" control="315" accuracy="383" goalkeeping="65" heading="309"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="36041">
+    <personal name="Paul Bannon">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="640" risktaking="904" offensive="496" aggressive="400" consistent="427" creative="530" experienced="245"/>
+    <skills stamina="477" dexterity="438" speed="654" tackling="240" passing="369" shooting="353" control="261" accuracy="326" goalkeeping="67" heading="410"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="36042">
+    <personal name="Kevin Kelly">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="456" risktaking="680" offensive="681" aggressive="536" consistent="491" creative="579" experienced="289"/>
+    <skills stamina="538" dexterity="289" speed="529" tackling="414" passing="304" shooting="337" control="301" accuracy="326" goalkeeping="42" heading="382"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36043">
+    <personal name="Anthony Kenneally">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="424" risktaking="548" offensive="389" aggressive="331" consistent="615" creative="330" experienced="882"/>
+    <skills stamina="535" dexterity="445" speed="225" tackling="366" passing="423" shooting="437" control="418" accuracy="423" goalkeeping="53" heading="398"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36044">
+    <personal name="Patsy Freyne">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="288" risktaking="469" offensive="623" aggressive="432" consistent="610" creative="431" experienced="528"/>
+    <skills stamina="468" dexterity="434" speed="329" tackling="382" passing="352" shooting="301" control="316" accuracy="374" goalkeeping="68" heading="302"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36045">
+    <personal name="Brendan O'callaghan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="602" risktaking="651" offensive="445" aggressive="511" consistent="375" creative="702" experienced="604"/>
+    <skills stamina="613" dexterity="343" speed="529" tackling="408" passing="325" shooting="437" control="454" accuracy="341" goalkeeping="67" heading="430"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36046">
+    <personal name="Liam Francis">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="558" risktaking="620" offensive="500" aggressive="523" consistent="395" creative="345" experienced="138"/>
+    <skills stamina="570" dexterity="147" speed="237" tackling="305" passing="332" shooting="316" control="252" accuracy="349" goalkeeping="53" heading="318"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36047">
+    <personal name="John O'rourke">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="564" risktaking="864" offensive="387" aggressive="557" consistent="508" creative="610" experienced="336"/>
+    <skills stamina="473" dexterity="209" speed="616" tackling="241" passing="394" shooting="450" control="269" accuracy="395" goalkeeping="43" heading="312"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36048">
+    <personal name="Phil Harrington">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="496" risktaking="518" offensive="502" aggressive="499" consistent="646" creative="558" experienced="618"/>
+    <skills stamina="554" dexterity="347" speed="467" tackling="231" passing="433" shooting="341" control="328" accuracy="223" goalkeeping="482" heading="167"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36049">
+    <personal name="Alex Ludzic">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="405" risktaking="409" offensive="538" aggressive="663" consistent="658" creative="455" experienced="364"/>
+    <skills stamina="643" dexterity="510" speed="591" tackling="231" passing="343" shooting="399" control="298" accuracy="152" goalkeeping="377" heading="224"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36050">
+    <personal name="Stephen Napier">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="500" risktaking="592" offensive="562" aggressive="868" consistent="698" creative="681" experienced="589"/>
+    <skills stamina="587" dexterity="617" speed="468" tackling="517" passing="503" shooting="374" control="468" accuracy="474" goalkeeping="80" heading="524"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="36051">
+    <personal name="Declan Daly">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="361" risktaking="503" offensive="521" aggressive="473" consistent="446" creative="547" experienced="491"/>
+    <skills stamina="325" dexterity="553" speed="634" tackling="437" passing="441" shooting="523" control="571" accuracy="497" goalkeeping="86" heading="438"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="36052">
+    <personal name="Fergus O'donoghue">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="309" risktaking="470" offensive="256" aggressive="685" consistent="390" creative="616" experienced="742"/>
+    <skills stamina="470" dexterity="607" speed="618" tackling="504" passing="401" shooting="381" control="415" accuracy="477" goalkeeping="67" heading="437"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36053">
+    <personal name="Colm Phillips">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="396" risktaking="501" offensive="362" aggressive="591" consistent="521" creative="450" experienced="579"/>
+    <skills stamina="441" dexterity="322" speed="464" tackling="424" passing="450" shooting="342" control="440" accuracy="350" goalkeeping="69" heading="476"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36054">
+    <personal name="Paul Hague">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="699" risktaking="454" offensive="622" aggressive="792" consistent="631" creative="700" experienced="525"/>
+    <skills stamina="321" dexterity="249" speed="488" tackling="370" passing="414" shooting="447" control="394" accuracy="315" goalkeeping="62" heading="462"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36055">
+    <personal name="Cormac Cotter">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="304" risktaking="358" offensive="241" aggressive="458" consistent="562" creative="565" experienced="552"/>
+    <skills stamina="371" dexterity="315" speed="544" tackling="439" passing="357" shooting="349" control="468" accuracy="343" goalkeeping="64" heading="399"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36056">
+    <personal name="Liam Murphy">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="588" risktaking="531" offensive="535" aggressive="651" consistent="657" creative="380" experienced="495"/>
+    <skills stamina="434" dexterity="372" speed="570" tackling="439" passing="573" shooting="439" control="545" accuracy="519" goalkeeping="87" heading="417"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="36057">
+    <personal name="Dave Barry">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="447" risktaking="286" offensive="521" aggressive="498" consistent="146" creative="616" experienced="508"/>
+    <skills stamina="370" dexterity="551" speed="248" tackling="428" passing="539" shooting="505" control="409" accuracy="436" goalkeeping="68" heading="388"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="36058">
+    <personal name="Anthony Buckley">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="541" risktaking="617" offensive="555" aggressive="44" consistent="494" creative="257" experienced="584"/>
+    <skills stamina="362" dexterity="367" speed="411" tackling="442" passing="427" shooting="419" control="516" accuracy="450" goalkeeping="79" heading="456"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36059">
+    <personal name="Declan Hyde">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="336" risktaking="319" offensive="442" aggressive="359" consistent="581" creative="584" experienced="409"/>
+    <skills stamina="443" dexterity="609" speed="391" tackling="438" passing="423" shooting="406" control="526" accuracy="485" goalkeeping="53" heading="491"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36060">
+    <personal name="Tommy Gaynor">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="335" risktaking="208" offensive="709" aggressive="318" consistent="692" creative="224" experienced="320"/>
+    <skills stamina="300" dexterity="395" speed="419" tackling="492" passing="428" shooting="389" control="398" accuracy="388" goalkeeping="84" heading="418"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36061">
+    <personal name="Pat Morley">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="315" risktaking="706" offensive="716" aggressive="369" consistent="223" creative="749" experienced="209"/>
+    <skills stamina="499" dexterity="370" speed="189" tackling="437" passing="528" shooting="457" control="422" accuracy="539" goalkeeping="73" heading="507"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36062">
+    <personal name="John Caulfield">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="395" risktaking="150" offensive="690" aggressive="490" consistent="704" creative="498" experienced="163"/>
+    <skills stamina="714" dexterity="409" speed="606" tackling="428" passing="375" shooting="588" control="492" accuracy="504" goalkeeping="93" heading="434"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="36063">
+    <personal name="John Glynn">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="131" risktaking="427" offensive="501" aggressive="497" consistent="233" creative="431" experienced="598"/>
+    <skills stamina="598" dexterity="615" speed="438" tackling="332" passing="308" shooting="453" control="469" accuracy="317" goalkeeping="63" heading="327"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36064">
+    <personal name="Dermot O'neill">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="489" risktaking="443" offensive="674" aggressive="448" consistent="545" creative="277" experienced="526"/>
+    <skills stamina="490" dexterity="555" speed="645" tackling="227" passing="463" shooting="357" control="287" accuracy="202" goalkeeping="434" heading="205"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36065">
+    <personal name="Joe Mcbrearty">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="238" risktaking="534" offensive="807" aggressive="639" consistent="627" creative="394" experienced="533"/>
+    <skills stamina="551" dexterity="166" speed="661" tackling="201" passing="460" shooting="346" control="228" accuracy="178" goalkeeping="393" heading="135"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36066">
+    <personal name="Pascal Vaudequin">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="537" risktaking="720" offensive="482" aggressive="527" consistent="440" creative="444" experienced="370"/>
+    <skills stamina="331" dexterity="429" speed="235" tackling="495" passing="415" shooting="444" control="475" accuracy="396" goalkeeping="54" heading="451"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="36067">
+    <personal name="Peter Hutton">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="674" risktaking="788" offensive="542" aggressive="704" consistent="407" creative="152" experienced="492"/>
+    <skills stamina="708" dexterity="435" speed="553" tackling="487" passing="508" shooting="456" control="332" accuracy="284" goalkeeping="66" heading="429"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="36068">
+    <personal name="Paul Curran">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="601" risktaking="477" offensive="551" aggressive="706" consistent="545" creative="493" experienced="628"/>
+    <skills stamina="611" dexterity="612" speed="259" tackling="518" passing="546" shooting="470" control="518" accuracy="378" goalkeeping="69" heading="346"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36069">
+    <personal name="Stuart Gauld">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="630" risktaking="579" offensive="300" aggressive="562" consistent="713" creative="353" experienced="385"/>
+    <skills stamina="613" dexterity="327" speed="677" tackling="422" passing="335" shooting="462" control="337" accuracy="312" goalkeeping="50" heading="326"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36070">
+    <personal name="Derek Murray">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="299" risktaking="785" offensive="540" aggressive="449" consistent="423" creative="386" experienced="472"/>
+    <skills stamina="136" dexterity="400" speed="212" tackling="491" passing="278" shooting="334" control="320" accuracy="300" goalkeeping="57" heading="463"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36071">
+    <personal name="Paul Mcloughlin">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="624" risktaking="622" offensive="382" aggressive="506" consistent="434" creative="511" experienced="183"/>
+    <skills stamina="524" dexterity="349" speed="608" tackling="504" passing="517" shooting="320" control="423" accuracy="432" goalkeeping="49" heading="457"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36072">
+    <personal name="John Sayers">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="498" risktaking="477" offensive="392" aggressive="236" consistent="601" creative="590" experienced="543"/>
+    <skills stamina="738" dexterity="550" speed="318" tackling="382" passing="349" shooting="472" control="473" accuracy="416" goalkeeping="80" heading="352"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="36073">
+    <personal name="Joe Lawless">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="521" risktaking="547" offensive="370" aggressive="677" consistent="543" creative="569" experienced="387"/>
+    <skills stamina="324" dexterity="363" speed="564" tackling="351" passing="500" shooting="341" control="513" accuracy="360" goalkeeping="72" heading="337"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="36074">
+    <personal name="Paul Lemon">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="268" risktaking="465" offensive="480" aggressive="784" consistent="414" creative="156" experienced="611"/>
+    <skills stamina="199" dexterity="224" speed="153" tackling="430" passing="484" shooting="301" control="453" accuracy="365" goalkeeping="45" heading="373"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="36075">
+    <personal name="Gary Lennox">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="289" risktaking="668" offensive="642" aggressive="407" consistent="622" creative="753" experienced="209"/>
+    <skills stamina="151" dexterity="590" speed="166" tackling="291" passing="378" shooting="447" control="334" accuracy="381" goalkeeping="52" heading="335"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36076">
+    <personal name="Donal O'brien ">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="772" risktaking="442" offensive="458" aggressive="953" consistent="430" creative="434" experienced="374"/>
+    <skills stamina="610" dexterity="460" speed="457" tackling="308" passing="324" shooting="440" control="381" accuracy="366" goalkeeping="69" heading="354"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36077">
+    <personal name="Liam Coyle">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="458" risktaking="382" offensive="385" aggressive="331" consistent="684" creative="382" experienced="276"/>
+    <skills stamina="630" dexterity="550" speed="344" tackling="355" passing="500" shooting="387" control="407" accuracy="487" goalkeeping="64" heading="363"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="36078">
+    <personal name="Barry Ryan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="500" risktaking="489" offensive="660" aggressive="244" consistent="295" creative="631" experienced="442"/>
+    <skills stamina="159" dexterity="446" speed="182" tackling="376" passing="323" shooting="437" control="409" accuracy="440" goalkeeping="65" heading="290"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36079">
+    <personal name="Mike Smith">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="471" risktaking="526" offensive="683" aggressive="430" consistent="522" creative="655" experienced="475"/>
+    <skills stamina="559" dexterity="561" speed="488" tackling="403" passing="403" shooting="317" control="446" accuracy="430" goalkeeping="53" heading="359"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="36080">
+    <personal name="Jim Grace">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="557" risktaking="522" offensive="741" aggressive="483" consistent="753" creative="730" experienced="545"/>
+    <skills stamina="211" dexterity="630" speed="133" tackling="217" passing="300" shooting="297" control="367" accuracy="180" goalkeeping="430" heading="144"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36081">
+    <personal name="Alan Kane">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="525" risktaking="535" offensive="731" aggressive="456" consistent="529" creative="438" experienced="654"/>
+    <skills stamina="580" dexterity="146" speed="225" tackling="160" passing="347" shooting="272" control="298" accuracy="194" goalkeeping="322" heading="202"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36082">
+    <personal name="John Carroll">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="700" risktaking="440" offensive="745" aggressive="523" consistent="446" creative="704" experienced="361"/>
+    <skills stamina="412" dexterity="188" speed="558" tackling="266" passing="266" shooting="273" control="316" accuracy="417" goalkeeping="65" heading="342"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="36083">
+    <personal name="Joe Reynolds">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="514" risktaking="427" offensive="440" aggressive="406" consistent="622" creative="513" experienced="445"/>
+    <skills stamina="652" dexterity="250" speed="567" tackling="316" passing="344" shooting="323" control="302" accuracy="275" goalkeeping="62" heading="353"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="36084">
+    <personal name="Paul Mclaughlin">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="339" risktaking="369" offensive="397" aggressive="494" consistent="398" creative="746" experienced="544"/>
+    <skills stamina="590" dexterity="433" speed="534" tackling="311" passing="298" shooting="355" control="369" accuracy="379" goalkeeping="70" heading="373"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="36085">
+    <personal name="Colm Tresson">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="404" risktaking="534" offensive="273" aggressive="318" consistent="452" creative="477" experienced="412"/>
+    <skills stamina="618" dexterity="539" speed="346" tackling="519" passing="433" shooting="264" control="387" accuracy="323" goalkeeping="67" heading="305"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36086">
+    <personal name="Mick Shelley">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="485" risktaking="764" offensive="426" aggressive="668" consistent="231" creative="495" experienced="608"/>
+    <skills stamina="241" dexterity="530" speed="116" tackling="410" passing="316" shooting="381" control="275" accuracy="350" goalkeeping="54" heading="250"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36087">
+    <personal name="Dave Connell">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="504" risktaking="420" offensive="696" aggressive="263" consistent="370" creative="801" experienced="527"/>
+    <skills stamina="371" dexterity="344" speed="481" tackling="382" passing="271" shooting="329" control="456" accuracy="352" goalkeeping="68" heading="437"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="36088">
+    <personal name="Trevor Crolly">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="637" risktaking="730" offensive="248" aggressive="880" consistent="383" creative="465" experienced="671"/>
+    <skills stamina="426" dexterity="366" speed="240" tackling="280" passing="292" shooting="333" control="437" accuracy="383" goalkeeping="55" heading="346"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="36089">
+    <personal name="Barry Kehoe">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="602" risktaking="533" offensive="576" aggressive="464" consistent="455" creative="688" experienced="914"/>
+    <skills stamina="235" dexterity="344" speed="289" tackling="404" passing="332" shooting="372" control="427" accuracy="426" goalkeeping="51" heading="260"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36090">
+    <personal name="Mick Kinsella">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="781" risktaking="600" offensive="216" aggressive="362" consistent="213" creative="485" experienced="541"/>
+    <skills stamina="414" dexterity="236" speed="485" tackling="382" passing="276" shooting="312" control="274" accuracy="210" goalkeeping="49" heading="283"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36091">
+    <personal name="Sean Byrne">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="435" risktaking="206" offensive="572" aggressive="565" consistent="682" creative="403" experienced="428"/>
+    <skills stamina="287" dexterity="131" speed="221" tackling="284" passing="243" shooting="439" control="309" accuracy="485" goalkeeping="40" heading="343"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="36092">
+    <personal name="Ian Douglas">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="474" risktaking="638" offensive="455" aggressive="452" consistent="405" creative="398" experienced="455"/>
+    <skills stamina="199" dexterity="497" speed="186" tackling="342" passing="273" shooting="354" control="394" accuracy="310" goalkeeping="48" heading="286"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36093">
+    <personal name="John Ryan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="762" risktaking="706" offensive="247" aggressive="170" consistent="434" creative="709" experienced="497"/>
+    <skills stamina="214" dexterity="579" speed="546" tackling="433" passing="388" shooting="317" control="345" accuracy="467" goalkeeping="49" heading="346"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36094">
+    <personal name="Mark Gormley">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="590" risktaking="663" offensive="740" aggressive="593" consistent="430" creative="369" experienced="469"/>
+    <skills stamina="650" dexterity="408" speed="201" tackling="299" passing="299" shooting="371" control="300" accuracy="444" goalkeeping="63" heading="343"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36095">
+    <personal name="Noel Reid">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="804" risktaking="270" offensive="424" aggressive="351" consistent="768" creative="480" experienced="483"/>
+    <skills stamina="348" dexterity="157" speed="447" tackling="380" passing="224" shooting="260" control="355" accuracy="479" goalkeeping="43" heading="245"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36096">
+    <personal name="Eddie Van Boxtel">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="483" risktaking="369" offensive="476" aggressive="428" consistent="936" creative="397" experienced="155"/>
+    <skills stamina="250" dexterity="157" speed="223" tackling="165" passing="432" shooting="392" control="272" accuracy="209" goalkeeping="435" heading="170"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36097">
+    <personal name="Paul Kavanagh">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="461" risktaking="441" offensive="748" aggressive="594" consistent="402" creative="335" experienced="551"/>
+    <skills stamina="349" dexterity="295" speed="421" tackling="160" passing="437" shooting="296" control="275" accuracy="141" goalkeeping="336" heading="214"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36098">
+    <personal name="Richard Purdy">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="466" risktaking="268" offensive="458" aggressive="665" consistent="424" creative="185" experienced="393"/>
+    <skills stamina="436" dexterity="414" speed="629" tackling="509" passing="425" shooting="471" control="335" accuracy="324" goalkeeping="52" heading="351"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="36099">
+    <personal name="Martin Lawlor">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="357" risktaking="326" offensive="538" aggressive="612" consistent="731" creative="688" experienced="824"/>
+    <skills stamina="236" dexterity="665" speed="386" tackling="511" passing="517" shooting="444" control="404" accuracy="451" goalkeeping="79" heading="516"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="36100">
+    <personal name="Mick Dooman">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="701" risktaking="557" offensive="661" aggressive="852" consistent="751" creative="706" experienced="287"/>
+    <skills stamina="299" dexterity="254" speed="481" tackling="417" passing="385" shooting="335" control="362" accuracy="310" goalkeeping="67" heading="480"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36101">
+    <personal name="James Coll">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="473" risktaking="601" offensive="360" aggressive="499" consistent="250" creative="552" experienced="327"/>
+    <skills stamina="310" dexterity="651" speed="476" tackling="373" passing="408" shooting="320" control="441" accuracy="399" goalkeeping="58" heading="418"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36102">
+    <personal name="Keith Long">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="701" risktaking="358" offensive="476" aggressive="687" consistent="385" creative="454" experienced="319"/>
+    <skills stamina="393" dexterity="619" speed="433" tackling="340" passing="384" shooting="304" control="417" accuracy="423" goalkeeping="58" heading="447"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36103">
+    <personal name="Tom Mcnulty">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="385" risktaking="626" offensive="435" aggressive="424" consistent="363" creative="649" experienced="516"/>
+    <skills stamina="668" dexterity="264" speed="204" tackling="435" passing="527" shooting="516" control="371" accuracy="515" goalkeeping="64" heading="500"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="36104">
+    <personal name="Mat Britton">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="601" risktaking="193" offensive="490" aggressive="472" consistent="467" creative="405" experienced="375"/>
+    <skills stamina="560" dexterity="644" speed="544" tackling="425" passing="365" shooting="343" control="481" accuracy="442" goalkeeping="60" heading="317"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="36105">
+    <personal name="Gino Lawless">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="616" risktaking="581" offensive="196" aggressive="602" consistent="501" creative="690" experienced="521"/>
+    <skills stamina="382" dexterity="247" speed="303" tackling="442" passing="386" shooting="342" control="398" accuracy="281" goalkeeping="53" heading="379"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36106">
+    <personal name="Greg O'dowd">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="390" risktaking="690" offensive="775" aggressive="570" consistent="528" creative="416" experienced="486"/>
+    <skills stamina="696" dexterity="242" speed="714" tackling="445" passing="358" shooting="454" control="539" accuracy="413" goalkeeping="75" heading="487"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="36107">
+    <personal name="Brian Irwin">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="487" risktaking="446" offensive="499" aggressive="371" consistent="365" creative="307" experienced="383"/>
+    <skills stamina="559" dexterity="626" speed="243" tackling="439" passing="496" shooting="283" control="306" accuracy="373" goalkeeping="73" heading="419"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36108">
+    <personal name="Trevor Donnelly">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="496" risktaking="521" offensive="429" aggressive="459" consistent="474" creative="382" experienced="556"/>
+    <skills stamina="229" dexterity="247" speed="246" tackling="344" passing="357" shooting="341" control="494" accuracy="450" goalkeeping="74" heading="313"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36109">
+    <personal name="Peter Hanrahan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="730" risktaking="616" offensive="527" aggressive="566" consistent="469" creative="621" experienced="684"/>
+    <skills stamina="409" dexterity="496" speed="206" tackling="449" passing="430" shooting="455" control="419" accuracy="423" goalkeeping="57" heading="359"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36110">
+    <personal name="Joe Hanrahan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="696" risktaking="378" offensive="476" aggressive="650" consistent="649" creative="271" experienced="763"/>
+    <skills stamina="682" dexterity="634" speed="509" tackling="311" passing="293" shooting="470" control="397" accuracy="352" goalkeeping="78" heading="461"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36111">
+    <personal name="Tom Sullivan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="568" risktaking="426" offensive="429" aggressive="376" consistent="211" creative="517" experienced="559"/>
+    <skills stamina="620" dexterity="425" speed="542" tackling="399" passing="370" shooting="362" control="343" accuracy="442" goalkeeping="55" heading="375"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="36112">
+    <personal name="Alan Gough">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="377" risktaking="351" offensive="614" aggressive="678" consistent="758" creative="530" experienced="707"/>
+    <skills stamina="174" dexterity="434" speed="156" tackling="227" passing="459" shooting="415" control="251" accuracy="175" goalkeeping="438" heading="163"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36113">
+    <personal name="Ollie Cunningham">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="455" risktaking="652" offensive="652" aggressive="253" consistent="502" creative="238" experienced="442"/>
+    <skills stamina="383" dexterity="265" speed="188" tackling="167" passing="376" shooting="264" control="320" accuracy="160" goalkeeping="354" heading="213"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36114">
+    <personal name="John Mannion">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="486" risktaking="463" offensive="529" aggressive="525" consistent="796" creative="541" experienced="479"/>
+    <skills stamina="549" dexterity="266" speed="557" tackling="488" passing="321" shooting="434" control="317" accuracy="449" goalkeeping="48" heading="400"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="36115">
+    <personal name="Peter Carpenter">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="471" risktaking="327" offensive="615" aggressive="772" consistent="342" creative="777" experienced="489"/>
+    <skills stamina="663" dexterity="577" speed="227" tackling="510" passing="448" shooting="417" control="414" accuracy="395" goalkeeping="57" heading="408"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="36116">
+    <personal name="Derek Rodgers">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="547" risktaking="601" offensive="404" aggressive="464" consistent="400" creative="813" experienced="634"/>
+    <skills stamina="669" dexterity="378" speed="168" tackling="536" passing="482" shooting="301" control="477" accuracy="361" goalkeeping="77" heading="337"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="36117">
+    <personal name="Keith Lambert">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="557" risktaking="663" offensive="405" aggressive="722" consistent="464" creative="407" experienced="606"/>
+    <skills stamina="635" dexterity="338" speed="391" tackling="446" passing="430" shooting="359" control="401" accuracy="295" goalkeeping="48" heading="402"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36118">
+    <personal name="Ricky O'flaherty">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="511" risktaking="522" offensive="507" aggressive="543" consistent="473" creative="523" experienced="424"/>
+    <skills stamina="486" dexterity="488" speed="352" tackling="386" passing="265" shooting="384" control="270" accuracy="281" goalkeeping="39" heading="409"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36119">
+    <personal name="Stephen Lally">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="487" risktaking="347" offensive="246" aggressive="533" consistent="724" creative="555" experienced="747"/>
+    <skills stamina="189" dexterity="188" speed="235" tackling="342" passing="334" shooting="315" control="371" accuracy="311" goalkeeping="72" heading="377"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="36120">
+    <personal name="Gerry Mullen">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="532" risktaking="432" offensive="489" aggressive="680" consistent="558" creative="216" experienced="475"/>
+    <skills stamina="467" dexterity="550" speed="408" tackling="317" passing="488" shooting="393" control="352" accuracy="296" goalkeeping="70" heading="460"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="36121">
+    <personal name="Mark John Merrick">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="794" risktaking="496" offensive="730" aggressive="489" consistent="414" creative="327" experienced="523"/>
+    <skills stamina="325" dexterity="175" speed="321" tackling="387" passing="406" shooting="448" control="359" accuracy="395" goalkeeping="69" heading="451"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36122">
+    <personal name="Noel Mernagh">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="315" risktaking="892" offensive="589" aggressive="333" consistent="362" creative="547" experienced="683"/>
+    <skills stamina="677" dexterity="479" speed="176" tackling="466" passing="469" shooting="321" control="401" accuracy="418" goalkeeping="73" heading="332"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36123">
+    <personal name="Ronan Killeen">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="595" risktaking="521" offensive="540" aggressive="523" consistent="645" creative="391" experienced="475"/>
+    <skills stamina="361" dexterity="518" speed="421" tackling="350" passing="446" shooting="275" control="338" accuracy="300" goalkeeping="55" heading="429"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36124">
+    <personal name="Ollie Neary">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="553" risktaking="398" offensive="451" aggressive="566" consistent="420" creative="495" experienced="521"/>
+    <skills stamina="661" dexterity="504" speed="392" tackling="405" passing="448" shooting="339" control="400" accuracy="301" goalkeeping="46" heading="408"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="36125">
+    <personal name="John Brennan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="501" risktaking="630" offensive="599" aggressive="568" consistent="409" creative="628" experienced="414"/>
+    <skills stamina="628" dexterity="210" speed="398" tackling="468" passing="312" shooting="469" control="323" accuracy="355" goalkeeping="55" heading="459"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36126">
+    <personal name="Donnie Farragher">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="250" risktaking="552" offensive="511" aggressive="575" consistent="503" creative="680" experienced="696"/>
+    <skills stamina="452" dexterity="641" speed="265" tackling="403" passing="416" shooting="487" control="476" accuracy="421" goalkeeping="68" heading="342"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36127">
+    <personal name="Billy Cleary">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="666" risktaking="566" offensive="270" aggressive="469" consistent="356" creative="599" experienced="397"/>
+    <skills stamina="560" dexterity="540" speed="611" tackling="385" passing="338" shooting="284" control="260" accuracy="351" goalkeeping="62" heading="277"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36128">
+    <personal name="Brian Mckenna">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="597" risktaking="580" offensive="620" aggressive="508" consistent="404" creative="604" experienced="405"/>
+    <skills stamina="491" dexterity="164" speed="423" tackling="173" passing="421" shooting="304" control="240" accuracy="164" goalkeeping="352" heading="165"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="36129">
+    <personal name="Joe Barriscale">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="682" risktaking="524" offensive="655" aggressive="565" consistent="391" creative="281" experienced="728"/>
+    <skills stamina="254" dexterity="274" speed="148" tackling="193" passing="288" shooting="367" control="292" accuracy="164" goalkeeping="372" heading="162"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36130">
+    <personal name="Niall Keogh">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="372" risktaking="373" offensive="592" aggressive="615" consistent="592" creative="628" experienced="760"/>
+    <skills stamina="459" dexterity="601" speed="446" tackling="354" passing="360" shooting="427" control="426" accuracy="400" goalkeeping="65" heading="418"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="36131">
+    <personal name="Albert Finnan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="735" risktaking="565" offensive="809" aggressive="390" consistent="350" creative="422" experienced="54"/>
+    <skills stamina="655" dexterity="235" speed="155" tackling="333" passing="451" shooting="422" control="314" accuracy="286" goalkeeping="60" heading="411"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="36132">
+    <personal name="Ray O'halloran">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="610" risktaking="329" offensive="518" aggressive="589" consistent="334" creative="383" experienced="301"/>
+    <skills stamina="176" dexterity="548" speed="675" tackling="433" passing="325" shooting="466" control="481" accuracy="474" goalkeeping="69" heading="419"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36133">
+    <personal name="Stephen Craig">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="722" risktaking="344" offensive="551" aggressive="440" consistent="492" creative="326" experienced="270"/>
+    <skills stamina="341" dexterity="445" speed="310" tackling="441" passing="390" shooting="424" control="313" accuracy="286" goalkeeping="52" heading="309"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36134">
+    <personal name="Raymond Duffy">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="190" risktaking="573" offensive="364" aggressive="527" consistent="326" creative="137" experienced="634"/>
+    <skills stamina="432" dexterity="440" speed="209" tackling="367" passing="315" shooting="311" control="436" accuracy="248" goalkeeping="53" heading="416"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36135">
+    <personal name="Sean Riordan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="656" risktaking="538" offensive="467" aggressive="543" consistent="286" creative="477" experienced="336"/>
+    <skills stamina="243" dexterity="512" speed="226" tackling="431" passing="325" shooting="321" control="453" accuracy="398" goalkeeping="60" heading="398"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="36136">
+    <personal name="David Minihan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="439" risktaking="476" offensive="666" aggressive="424" consistent="513" creative="788" experienced="364"/>
+    <skills stamina="487" dexterity="322" speed="674" tackling="319" passing="404" shooting="335" control="401" accuracy="425" goalkeeping="76" heading="304"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="36137">
+    <personal name="Johnny Walsh">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="258" risktaking="654" offensive="758" aggressive="262" consistent="378" creative="525" experienced="225"/>
+    <skills stamina="357" dexterity="346" speed="438" tackling="297" passing="291" shooting="387" control="319" accuracy="296" goalkeeping="45" heading="322"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="36138">
+    <personal name="Michael Kerley">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="442" risktaking="726" offensive="544" aggressive="260" consistent="377" creative="465" experienced="588"/>
+    <skills stamina="579" dexterity="201" speed="295" tackling="437" passing="446" shooting="347" control="385" accuracy="411" goalkeeping="69" heading="339"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="36139">
+    <personal name="Julian Lyons">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="393" risktaking="684" offensive="450" aggressive="632" consistent="706" creative="418" experienced="689"/>
+    <skills stamina="570" dexterity="235" speed="299" tackling="298" passing="462" shooting="432" control="339" accuracy="363" goalkeeping="48" heading="431"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36140">
+    <personal name="Kevin Mccarthy">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="575" risktaking="409" offensive="497" aggressive="468" consistent="361" creative="582" experienced="625"/>
+    <skills stamina="234" dexterity="689" speed="448" tackling="375" passing="381" shooting="376" control="441" accuracy="474" goalkeeping="75" heading="353"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36141">
+    <personal name="Daithi Mcmahon">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="796" risktaking="456" offensive="440" aggressive="435" consistent="366" creative="627" experienced="584"/>
+    <skills stamina="503" dexterity="145" speed="607" tackling="348" passing="287" shooting="474" control="395" accuracy="454" goalkeeping="66" heading="391"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36142">
+    <personal name="Barry Ryan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="801" risktaking="409" offensive="481" aggressive="845" consistent="524" creative="587" experienced="616"/>
+    <skills stamina="471" dexterity="663" speed="316" tackling="404" passing="332" shooting="459" control="304" accuracy="507" goalkeeping="80" heading="435"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36143">
+    <personal name="Gerry Kelly">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="490" risktaking="430" offensive="304" aggressive="688" consistent="325" creative="536" experienced="592"/>
+    <skills stamina="390" dexterity="207" speed="431" tackling="284" passing="234" shooting="401" control="276" accuracy="403" goalkeeping="69" heading="240"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36144">
+    <personal name="Brian O'shea">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="423" risktaking="371" offensive="544" aggressive="375" consistent="498" creative="647" experienced="642"/>
+    <skills stamina="392" dexterity="528" speed="120" tackling="145" passing="261" shooting="274" control="329" accuracy="153" goalkeeping="411" heading="174"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36145">
+    <personal name="Derek Smyth">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="528" risktaking="489" offensive="543" aggressive="286" consistent="620" creative="596" experienced="385"/>
+    <skills stamina="474" dexterity="104" speed="299" tackling="159" passing="280" shooting="293" control="269" accuracy="157" goalkeeping="439" heading="179"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36146">
+    <personal name="Alan Kinsella">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="380" risktaking="256" offensive="495" aggressive="406" consistent="353" creative="552" experienced="306"/>
+    <skills stamina="243" dexterity="346" speed="416" tackling="416" passing="398" shooting="261" control="279" accuracy="297" goalkeeping="63" heading="315"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="36147">
+    <personal name="Declan Geoghegan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="650" risktaking="477" offensive="553" aggressive="559" consistent="398" creative="459" experienced="871"/>
+    <skills stamina="589" dexterity="395" speed="594" tackling="312" passing="488" shooting="402" control="311" accuracy="370" goalkeeping="73" heading="368"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="36148">
+    <personal name="Ian Woods">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="672" risktaking="753" offensive="618" aggressive="429" consistent="404" creative="273" experienced="372"/>
+    <skills stamina="554" dexterity="545" speed="562" tackling="465" passing="379" shooting="360" control="249" accuracy="303" goalkeeping="69" heading="231"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36149">
+    <personal name="Ronnie Murphy">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="597" risktaking="645" offensive="404" aggressive="380" consistent="739" creative="849" experienced="602"/>
+    <skills stamina="607" dexterity="164" speed="220" tackling="323" passing="365" shooting="408" control="441" accuracy="324" goalkeeping="66" heading="331"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36150">
+    <personal name="John Coady">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="563" risktaking="582" offensive="417" aggressive="439" consistent="397" creative="132" experienced="586"/>
+    <skills stamina="205" dexterity="193" speed="223" tackling="453" passing="240" shooting="288" control="424" accuracy="272" goalkeeping="68" heading="350"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36151">
+    <personal name="Derek O'neill">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="411" risktaking="792" offensive="595" aggressive="495" consistent="561" creative="261" experienced="570"/>
+    <skills stamina="450" dexterity="417" speed="198" tackling="385" passing="374" shooting="229" control="375" accuracy="377" goalkeeping="59" heading="365"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36152">
+    <personal name="Joey Malone">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="494" risktaking="330" offensive="401" aggressive="255" consistent="700" creative="557" experienced="416"/>
+    <skills stamina="383" dexterity="224" speed="625" tackling="303" passing="268" shooting="264" control="380" accuracy="402" goalkeeping="67" heading="247"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36153">
+    <personal name="Derek Murray">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="686" risktaking="455" offensive="557" aggressive="334" consistent="660" creative="487" experienced="537"/>
+    <skills stamina="169" dexterity="503" speed="429" tackling="407" passing="262" shooting="429" control="292" accuracy="426" goalkeeping="68" heading="316"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="36154">
+    <personal name="Mick Byrne">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="412" risktaking="605" offensive="511" aggressive="603" consistent="400" creative="342" experienced="361"/>
+    <skills stamina="415" dexterity="671" speed="170" tackling="360" passing="331" shooting="378" control="339" accuracy="345" goalkeeping="52" heading="273"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="36155">
+    <personal name="Philip Power">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="617" risktaking="524" offensive="505" aggressive="599" consistent="423" creative="319" experienced="270"/>
+    <skills stamina="625" dexterity="517" speed="270" tackling="388" passing="289" shooting="428" control="418" accuracy="334" goalkeeping="67" heading="327"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36156">
+    <personal name="Noel Melvin">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="662" risktaking="582" offensive="526" aggressive="341" consistent="606" creative="646" experienced="371"/>
+    <skills stamina="584" dexterity="368" speed="301" tackling="278" passing="283" shooting="390" control="206" accuracy="366" goalkeeping="45" heading="358"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36157">
+    <personal name="Paul Newe">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="318" risktaking="467" offensive="530" aggressive="437" consistent="168" creative="450" experienced="458"/>
+    <skills stamina="279" dexterity="335" speed="517" tackling="290" passing="333" shooting="370" control="401" accuracy="427" goalkeeping="74" heading="451"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36158">
+    <personal name="Paul Byrne">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="273" risktaking="294" offensive="378" aggressive="238" consistent="441" creative="548" experienced="369"/>
+    <skills stamina="298" dexterity="206" speed="208" tackling="378" passing="307" shooting="449" control="427" accuracy="506" goalkeeping="58" heading="329"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36159">
+    <personal name="Mick Wilson">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="447" risktaking="393" offensive="543" aggressive="529" consistent="316" creative="717" experienced="440"/>
+    <skills stamina="588" dexterity="259" speed="113" tackling="241" passing="300" shooting="274" control="216" accuracy="376" goalkeeping="54" heading="275"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36160">
+    <personal name="Alan O'neill">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="504" risktaking="498" offensive="393" aggressive="490" consistent="337" creative="270" experienced="856"/>
+    <skills stamina="497" dexterity="419" speed="279" tackling="165" passing="427" shooting="427" control="388" accuracy="175" goalkeeping="473" heading="261"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36161">
+    <personal name="Phil Redmond">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="217" risktaking="256" offensive="540" aggressive="325" consistent="720" creative="309" experienced="650"/>
+    <skills stamina="693" dexterity="374" speed="408" tackling="209" passing="341" shooting="466" control="252" accuracy="224" goalkeeping="496" heading="202"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36162">
+    <personal name="Willie Burke">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="408" risktaking="391" offensive="455" aggressive="537" consistent="324" creative="720" experienced="468"/>
+    <skills stamina="580" dexterity="719" speed="348" tackling="564" passing="511" shooting="385" control="460" accuracy="467" goalkeeping="84" heading="409"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="36163">
+    <personal name="Eoin Mullen">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="507" risktaking="262" offensive="378" aggressive="501" consistent="541" creative="343" experienced="306"/>
+    <skills stamina="410" dexterity="513" speed="428" tackling="349" passing="520" shooting="481" control="403" accuracy="374" goalkeeping="69" heading="323"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="36164">
+    <personal name="Gino Brazil">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="522" risktaking="494" offensive="606" aggressive="402" consistent="582" creative="455" experienced="508"/>
+    <skills stamina="169" dexterity="633" speed="208" tackling="568" passing="399" shooting="446" control="399" accuracy="490" goalkeeping="74" heading="499"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36165">
+    <personal name="Peter Eccles">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="302" risktaking="377" offensive="402" aggressive="380" consistent="370" creative="133" experienced="618"/>
+    <skills stamina="526" dexterity="712" speed="360" tackling="486" passing="515" shooting="398" control="472" accuracy="402" goalkeeping="79" heading="447"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36166">
+    <personal name="John Nolan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="435" risktaking="739" offensive="384" aggressive="487" consistent="627" creative="789" experienced="809"/>
+    <skills stamina="656" dexterity="536" speed="503" tackling="473" passing="419" shooting="431" control="332" accuracy="359" goalkeeping="56" heading="371"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36167">
+    <personal name="John Toal">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="313" risktaking="490" offensive="625" aggressive="697" consistent="453" creative="470" experienced="588"/>
+    <skills stamina="185" dexterity="549" speed="642" tackling="391" passing="501" shooting="388" control="434" accuracy="328" goalkeeping="65" heading="429"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="36168">
+    <personal name="Alan Byrne">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="480" risktaking="595" offensive="553" aggressive="376" consistent="475" creative="553" experienced="688"/>
+    <skills stamina="587" dexterity="598" speed="714" tackling="420" passing="455" shooting="452" control="362" accuracy="330" goalkeeping="64" heading="501"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="36169">
+    <personal name="Derek Mcgrath">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="527" risktaking="651" offensive="600" aggressive="722" consistent="462" creative="379" experienced="233"/>
+    <skills stamina="435" dexterity="600" speed="211" tackling="337" passing="478" shooting="432" control="551" accuracy="347" goalkeeping="59" heading="363"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36170">
+    <personal name="Paul Cashin">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="503" risktaking="453" offensive="535" aggressive="674" consistent="604" creative="253" experienced="478"/>
+    <skills stamina="521" dexterity="552" speed="384" tackling="430" passing="301" shooting="327" control="394" accuracy="393" goalkeeping="77" heading="339"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36171">
+    <personal name="Derek Treacy">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="766" risktaking="594" offensive="376" aggressive="425" consistent="424" creative="365" experienced="490"/>
+    <skills stamina="409" dexterity="586" speed="419" tackling="362" passing="337" shooting="475" control="371" accuracy="375" goalkeeping="60" heading="328"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36172">
+    <personal name="Paul Osam">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="706" risktaking="492" offensive="603" aggressive="297" consistent="637" creative="562" experienced="410"/>
+    <skills stamina="591" dexterity="427" speed="571" tackling="382" passing="338" shooting="354" control="372" accuracy="441" goalkeeping="83" heading="518"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36173">
+    <personal name="Stephen Geoghegan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="672" risktaking="496" offensive="307" aggressive="519" consistent="508" creative="345" experienced="780"/>
+    <skills stamina="651" dexterity="426" speed="456" tackling="474" passing="459" shooting="542" control="445" accuracy="515" goalkeeping="86" heading="450"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36174">
+    <personal name="Terry Eviston">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="588" risktaking="627" offensive="463" aggressive="638" consistent="22" creative="491" experienced="299"/>
+    <skills stamina="266" dexterity="685" speed="345" tackling="339" passing="342" shooting="488" control="426" accuracy="543" goalkeeping="69" heading="354"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36175">
+    <personal name="Paul Cullen">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="518" risktaking="634" offensive="613" aggressive="412" consistent="539" creative="649" experienced="243"/>
+    <skills stamina="670" dexterity="189" speed="244" tackling="460" passing="452" shooting="442" control="354" accuracy="357" goalkeeping="84" heading="377"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36176">
+    <personal name="Jody Byrne">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="386" risktaking="319" offensive="652" aggressive="524" consistent="777" creative="674" experienced="476"/>
+    <skills stamina="653" dexterity="679" speed="509" tackling="223" passing="415" shooting="483" control="385" accuracy="205" goalkeeping="555" heading="216"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36177">
+    <personal name="Robbie Horgan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="477" risktaking="522" offensive="646" aggressive="686" consistent="427" creative="447" experienced="550"/>
+    <skills stamina="220" dexterity="372" speed="341" tackling="141" passing="322" shooting="417" control="319" accuracy="218" goalkeeping="400" heading="176"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36178">
+    <personal name="Brian Flood">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="613" risktaking="512" offensive="419" aggressive="574" consistent="410" creative="428" experienced="616"/>
+    <skills stamina="258" dexterity="236" speed="262" tackling="450" passing="509" shooting="334" control="359" accuracy="412" goalkeeping="77" heading="372"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="36179">
+    <personal name="Tommy Dunne">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="415" risktaking="596" offensive="513" aggressive="534" consistent="269" creative="708" experienced="658"/>
+    <skills stamina="659" dexterity="618" speed="304" tackling="458" passing="370" shooting="473" control="477" accuracy="485" goalkeeping="80" heading="415"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="36180">
+    <personal name="Mick Neville">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="526" risktaking="487" offensive="269" aggressive="499" consistent="478" creative="543" experienced="415"/>
+    <skills stamina="692" dexterity="416" speed="297" tackling="442" passing="483" shooting="342" control="376" accuracy="418" goalkeeping="68" heading="302"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36181">
+    <personal name="Anto Whelan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="495" risktaking="162" offensive="521" aggressive="491" consistent="126" creative="904" experienced="568"/>
+    <skills stamina="660" dexterity="508" speed="625" tackling="472" passing="504" shooting="415" control="413" accuracy="365" goalkeeping="81" heading="426"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36182">
+    <personal name="Kevin Brady">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="550" risktaking="495" offensive="492" aggressive="515" consistent="617" creative="476" experienced="552"/>
+    <skills stamina="652" dexterity="709" speed="621" tackling="528" passing="394" shooting="449" control="365" accuracy="425" goalkeeping="70" heading="294"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36183">
+    <personal name="Brian Mooney">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="551" risktaking="334" offensive="365" aggressive="438" consistent="342" creative="310" experienced="250"/>
+    <skills stamina="438" dexterity="531" speed="405" tackling="457" passing="360" shooting="305" control="539" accuracy="492" goalkeeping="71" heading="343"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="36184">
+    <personal name="Ken O'doherty">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="670" risktaking="390" offensive="311" aggressive="140" consistent="600" creative="584" experienced="429"/>
+    <skills stamina="236" dexterity="499" speed="464" tackling="402" passing="531" shooting="456" control="358" accuracy="418" goalkeeping="75" heading="468"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="36185">
+    <personal name="Greg Costello">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="333" risktaking="469" offensive="645" aggressive="453" consistent="803" creative="419" experienced="713"/>
+    <skills stamina="578" dexterity="385" speed="409" tackling="489" passing="525" shooting="309" control="456" accuracy="324" goalkeeping="59" heading="447"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36186">
+    <personal name="Paul Doolin">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="436" risktaking="592" offensive="768" aggressive="333" consistent="526" creative="410" experienced="504"/>
+    <skills stamina="566" dexterity="490" speed="417" tackling="367" passing="434" shooting="340" control="449" accuracy="331" goalkeeping="81" heading="478"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36187">
+    <personal name="Bobby Browne">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="559" risktaking="677" offensive="546" aggressive="730" consistent="625" creative="468" experienced="526"/>
+    <skills stamina="662" dexterity="176" speed="409" tackling="420" passing="493" shooting="342" control="339" accuracy="315" goalkeeping="60" heading="412"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36188">
+    <personal name="Stephen Cooney">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="528" risktaking="174" offensive="301" aggressive="610" consistent="606" creative="409" experienced="443"/>
+    <skills stamina="474" dexterity="470" speed="149" tackling="489" passing="381" shooting="352" control="426" accuracy="407" goalkeeping="74" heading="370"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36189">
+    <personal name="Mark Rutherford">
+      <appearance value="0"/>
+      <nationality value="England"/>
+    </personal>
+    <personality active="385" risktaking="508" offensive="300" aggressive="361" consistent="769" creative="656" experienced="391"/>
+    <skills stamina="362" dexterity="300" speed="594" tackling="303" passing="336" shooting="442" control="393" accuracy="313" goalkeeping="70" heading="352"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36190">
+    <personal name="Barry O'connor">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="517" risktaking="445" offensive="594" aggressive="751" consistent="378" creative="594" experienced="428"/>
+    <skills stamina="640" dexterity="405" speed="404" tackling="296" passing="311" shooting="393" control="341" accuracy="407" goalkeeping="79" heading="497"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36191">
+    <personal name="Vinnie Arkins">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="189" risktaking="309" offensive="533" aggressive="351" consistent="401" creative="858" experienced="121"/>
+    <skills stamina="646" dexterity="568" speed="131" tackling="450" passing="319" shooting="365" control="409" accuracy="340" goalkeeping="51" heading="424"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36192">
+    <personal name="Nick Brujos">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="564" risktaking="516" offensive="624" aggressive="426" consistent="641" creative="660" experienced="439"/>
+    <skills stamina="573" dexterity="318" speed="512" tackling="175" passing="366" shooting="357" control="235" accuracy="189" goalkeeping="460" heading="197"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="36193">
+    <personal name="Declan Mcintyre">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="246" risktaking="476" offensive="646" aggressive="718" consistent="666" creative="407" experienced="548"/>
+    <skills stamina="110" dexterity="260" speed="176" tackling="186" passing="314" shooting="316" control="169" accuracy="145" goalkeeping="309" heading="148"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36194">
+    <personal name="Robbie Keegan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="630" risktaking="435" offensive="433" aggressive="534" consistent="288" creative="470" experienced="667"/>
+    <skills stamina="256" dexterity="352" speed="327" tackling="321" passing="329" shooting="436" control="439" accuracy="382" goalkeeping="49" heading="365"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="36195">
+    <personal name="James O'callaghan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="397" risktaking="365" offensive="533" aggressive="392" consistent="351" creative="528" experienced="372"/>
+    <skills stamina="240" dexterity="446" speed="526" tackling="292" passing="435" shooting="296" control="436" accuracy="431" goalkeeping="68" heading="378"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="36196">
+    <personal name="Willie Mcstay">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="741" risktaking="412" offensive="588" aggressive="379" consistent="790" creative="397" experienced="269"/>
+    <skills stamina="663" dexterity="274" speed="491" tackling="294" passing="392" shooting="327" control="278" accuracy="310" goalkeeping="45" heading="401"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36197">
+    <personal name="Denis Bonner">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="412" risktaking="418" offensive="313" aggressive="580" consistent="231" creative="603" experienced="370"/>
+    <skills stamina="374" dexterity="258" speed="461" tackling="354" passing="443" shooting="432" control="408" accuracy="420" goalkeeping="40" heading="431"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="36198">
+    <personal name="Gavin Dykes">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="520" risktaking="490" offensive="568" aggressive="484" consistent="369" creative="408" experienced="877"/>
+    <skills stamina="407" dexterity="553" speed="421" tackling="516" passing="463" shooting="399" control="446" accuracy="386" goalkeeping="50" heading="347"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="36199">
+    <personal name="John Nolan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="763" risktaking="510" offensive="533" aggressive="456" consistent="404" creative="317" experienced="472"/>
+    <skills stamina="382" dexterity="508" speed="571" tackling="348" passing="381" shooting="285" control="402" accuracy="239" goalkeeping="60" heading="343"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36200">
+    <personal name="John Byrne">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="302" risktaking="403" offensive="467" aggressive="420" consistent="350" creative="653" experienced="675"/>
+    <skills stamina="520" dexterity="388" speed="629" tackling="340" passing="353" shooting="320" control="289" accuracy="261" goalkeeping="50" heading="260"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="36201">
+    <personal name="Pierce Walsh">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="541" risktaking="524" offensive="327" aggressive="113" consistent="427" creative="602" experienced="722"/>
+    <skills stamina="707" dexterity="416" speed="293" tackling="264" passing="292" shooting="341" control="277" accuracy="262" goalkeeping="50" heading="359"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="36202">
+    <personal name="Martin Mcdonnell">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="159" risktaking="300" offensive="353" aggressive="370" consistent="720" creative="478" experienced="325"/>
+    <skills stamina="195" dexterity="385" speed="245" tackling="388" passing="383" shooting="325" control="443" accuracy="343" goalkeeping="74" heading="337"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36203">
+    <personal name="Kieran Rooney">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="337" risktaking="592" offensive="421" aggressive="398" consistent="777" creative="655" experienced="497"/>
+    <skills stamina="311" dexterity="624" speed="239" tackling="356" passing="310" shooting="372" control="449" accuracy="327" goalkeeping="58" heading="298"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36204">
+    <personal name="Tom Conway">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="506" risktaking="311" offensive="629" aggressive="582" consistent="529" creative="399" experienced="596"/>
+    <skills stamina="397" dexterity="150" speed="515" tackling="363" passing="325" shooting="406" control="274" accuracy="226" goalkeeping="36" heading="283"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36205">
+    <personal name="Aaron Shearer">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="443" risktaking="472" offensive="436" aggressive="933" consistent="530" creative="662" experienced="479"/>
+    <skills stamina="355" dexterity="334" speed="555" tackling="391" passing="431" shooting="274" control="417" accuracy="327" goalkeeping="62" heading="327"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36206">
+    <personal name="Fran Hitchcock">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="448" risktaking="412" offensive="602" aggressive="599" consistent="509" creative="296" experienced="360"/>
+    <skills stamina="343" dexterity="508" speed="565" tackling="374" passing="252" shooting="270" control="390" accuracy="482" goalkeeping="49" heading="324"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36207">
+    <personal name="Pierce Devaney">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="773" risktaking="673" offensive="491" aggressive="578" consistent="567" creative="577" experienced="505"/>
+    <skills stamina="413" dexterity="410" speed="406" tackling="291" passing="388" shooting="289" control="317" accuracy="404" goalkeeping="34" heading="405"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36208">
+    <personal name="Tony O'dowd">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="423" risktaking="451" offensive="440" aggressive="625" consistent="492" creative="374" experienced="491"/>
+    <skills stamina="232" dexterity="668" speed="457" tackling="204" passing="311" shooting="367" control="260" accuracy="178" goalkeeping="555" heading="160"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36209">
+    <personal name="Gerry Byrne">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="768" risktaking="537" offensive="404" aggressive="871" consistent="911" creative="501" experienced="665"/>
+    <skills stamina="222" dexterity="484" speed="439" tackling="190" passing="414" shooting="409" control="239" accuracy="217" goalkeeping="517" heading="168"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36210">
+    <personal name="Ian Hill">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="743" risktaking="219" offensive="287" aggressive="549" consistent="463" creative="490" experienced="542"/>
+    <skills stamina="629" dexterity="678" speed="278" tackling="484" passing="434" shooting="351" control="380" accuracy="397" goalkeeping="55" heading="358"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="36211">
+    <personal name="Paul Campbell">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="675" risktaking="369" offensive="561" aggressive="416" consistent="482" creative="483" experienced="591"/>
+    <skills stamina="188" dexterity="286" speed="209" tackling="363" passing="462" shooting="434" control="378" accuracy="387" goalkeeping="53" heading="438"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="36212">
+    <personal name="John Mcdonnell">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="813" risktaking="450" offensive="541" aggressive="471" consistent="579" creative="632" experienced="628"/>
+    <skills stamina="476" dexterity="716" speed="198" tackling="440" passing="501" shooting="460" control="486" accuracy="404" goalkeeping="61" heading="323"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36213">
+    <personal name="Ray Carolan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="724" risktaking="348" offensive="499" aggressive="486" consistent="478" creative="215" experienced="475"/>
+    <skills stamina="514" dexterity="282" speed="658" tackling="359" passing="482" shooting="297" control="352" accuracy="446" goalkeeping="47" heading="476"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="36214">
+    <personal name="David Campbell">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="352" risktaking="383" offensive="690" aggressive="492" consistent="689" creative="356" experienced="362"/>
+    <skills stamina="174" dexterity="599" speed="463" tackling="423" passing="461" shooting="490" control="563" accuracy="421" goalkeeping="69" heading="406"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36215">
+    <personal name="Derek Dunne">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="488" risktaking="289" offensive="609" aggressive="653" consistent="416" creative="670" experienced="424"/>
+    <skills stamina="275" dexterity="633" speed="391" tackling="507" passing="446" shooting="432" control="429" accuracy="312" goalkeeping="61" heading="444"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="36216">
+    <personal name="John Treacy">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="492" risktaking="635" offensive="183" aggressive="560" consistent="568" creative="756" experienced="524"/>
+    <skills stamina="532" dexterity="345" speed="567" tackling="352" passing="436" shooting="368" control="477" accuracy="405" goalkeeping="50" heading="380"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="36217">
+    <personal name="John Byrne">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="491" risktaking="643" offensive="380" aggressive="443" consistent="578" creative="363" experienced="683"/>
+    <skills stamina="211" dexterity="282" speed="556" tackling="512" passing="456" shooting="382" control="473" accuracy="345" goalkeeping="70" heading="372"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36218">
+    <personal name="Mark O'neill">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="785" risktaking="408" offensive="668" aggressive="631" consistent="228" creative="637" experienced="646"/>
+    <skills stamina="257" dexterity="367" speed="674" tackling="436" passing="419" shooting="305" control="458" accuracy="473" goalkeeping="56" heading="361"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36219">
+    <personal name="Kieran O'brien">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="368" risktaking="704" offensive="230" aggressive="585" consistent="717" creative="652" experienced="570"/>
+    <skills stamina="308" dexterity="610" speed="396" tackling="354" passing="397" shooting="280" control="432" accuracy="386" goalkeeping="48" heading="376"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="36220">
+    <personal name="Jason Byrne">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="368" risktaking="509" offensive="792" aggressive="580" consistent="382" creative="829" experienced="489"/>
+    <skills stamina="399" dexterity="604" speed="682" tackling="470" passing="492" shooting="447" control="315" accuracy="417" goalkeeping="76" heading="373"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36221">
+    <personal name="Mark Ennis">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="409" risktaking="446" offensive="555" aggressive="308" consistent="348" creative="300" experienced="468"/>
+    <skills stamina="373" dexterity="709" speed="642" tackling="409" passing="435" shooting="389" control="456" accuracy="492" goalkeeping="70" heading="434"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="36222">
+    <personal name="Martin Nugent">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="709" risktaking="508" offensive="545" aggressive="662" consistent="485" creative="599" experienced="201"/>
+    <skills stamina="181" dexterity="139" speed="611" tackling="391" passing="325" shooting="345" control="456" accuracy="375" goalkeeping="51" heading="370"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36223">
+    <personal name="Pascal Keane">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="305" risktaking="497" offensive="765" aggressive="828" consistent="135" creative="686" experienced="558"/>
+    <skills stamina="496" dexterity="238" speed="311" tackling="454" passing="467" shooting="383" control="452" accuracy="443" goalkeeping="64" heading="346"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36224">
+    <personal name="Martin Quinlivan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="530" risktaking="636" offensive="308" aggressive="445" consistent="362" creative="484" experienced="603"/>
+    <skills stamina="361" dexterity="262" speed="489" tackling="176" passing="359" shooting="269" control="243" accuracy="178" goalkeeping="353" heading="134"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36225">
+    <personal name="Giles Cheevers">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="594" risktaking="869" offensive="446" aggressive="545" consistent="787" creative="357" experienced="553"/>
+    <skills stamina="437" dexterity="519" speed="299" tackling="175" passing="283" shooting="345" control="296" accuracy="144" goalkeeping="333" heading="165"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="36226">
+    <personal name="Kevin Kelly">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="216" risktaking="526" offensive="518" aggressive="760" consistent="335" creative="511" experienced="547"/>
+    <skills stamina="354" dexterity="487" speed="607" tackling="509" passing="484" shooting="361" control="370" accuracy="478" goalkeeping="69" heading="407"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="36227">
+    <personal name="Brian Barry">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="252" risktaking="565" offensive="573" aggressive="483" consistent="746" creative="612" experienced="660"/>
+    <skills stamina="469" dexterity="461" speed="639" tackling="456" passing="335" shooting="333" control="357" accuracy="357" goalkeeping="47" heading="428"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="36228">
+    <personal name="Alan Barry">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="237" risktaking="471" offensive="497" aggressive="368" consistent="408" creative="523" experienced="477"/>
+    <skills stamina="702" dexterity="424" speed="573" tackling="545" passing="338" shooting="386" control="448" accuracy="336" goalkeeping="81" heading="452"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36229">
+    <personal name="Darren Lonergan">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="501" risktaking="483" offensive="214" aggressive="638" consistent="590" creative="435" experienced="516"/>
+    <skills stamina="133" dexterity="205" speed="255" tackling="398" passing="303" shooting="392" control="358" accuracy="392" goalkeeping="56" heading="458"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36230">
+    <personal name="Matt Carr">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="345" risktaking="676" offensive="599" aggressive="405" consistent="458" creative="458" experienced="408"/>
+    <skills stamina="586" dexterity="631" speed="167" tackling="449" passing="426" shooting="271" control="404" accuracy="328" goalkeeping="74" heading="266"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="36231">
+    <personal name="Paul Cleary">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="192" risktaking="349" offensive="292" aggressive="411" consistent="550" creative="553" experienced="75"/>
+    <skills stamina="212" dexterity="552" speed="419" tackling="357" passing="463" shooting="318" control="318" accuracy="424" goalkeeping="72" heading="391"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="36232">
+    <personal name="John Power">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="356" risktaking="304" offensive="298" aggressive="580" consistent="637" creative="281" experienced="506"/>
+    <skills stamina="656" dexterity="361" speed="376" tackling="384" passing="441" shooting="328" control="435" accuracy="285" goalkeeping="48" heading="367"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="36233">
+    <personal name="Alan Reynolds">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="535" risktaking="287" offensive="409" aggressive="552" consistent="650" creative="630" experienced="594"/>
+    <skills stamina="515" dexterity="350" speed="338" tackling="355" passing="454" shooting="252" control="419" accuracy="277" goalkeeping="68" heading="420"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36234">
+    <personal name="Richard Hale">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="625" risktaking="519" offensive="405" aggressive="750" consistent="681" creative="615" experienced="484"/>
+    <skills stamina="268" dexterity="588" speed="510" tackling="432" passing="437" shooting="438" control="400" accuracy="455" goalkeeping="73" heading="434"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36235">
+    <personal name="Pascal Keane">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="452" risktaking="526" offensive="743" aggressive="612" consistent="314" creative="514" experienced="545"/>
+    <skills stamina="620" dexterity="440" speed="377" tackling="531" passing="429" shooting="474" control="481" accuracy="328" goalkeeping="65" heading="498"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="36236">
+    <personal name="Alan Kelly">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="874" risktaking="477" offensive="372" aggressive="660" consistent="412" creative="541" experienced="546"/>
+    <skills stamina="507" dexterity="177" speed="306" tackling="249" passing="372" shooting="313" control="434" accuracy="404" goalkeeping="42" heading="295"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="36237">
+    <personal name="Paul Deveraux">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="555" risktaking="500" offensive="747" aggressive="178" consistent="351" creative="441" experienced="597"/>
+    <skills stamina="406" dexterity="662" speed="572" tackling="399" passing="445" shooting="504" control="434" accuracy="466" goalkeeping="60" heading="469"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36238">
+    <personal name="Derek O'connor">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="574" risktaking="520" offensive="516" aggressive="549" consistent="702" creative="433" experienced="482"/>
+    <skills stamina="551" dexterity="149" speed="293" tackling="360" passing="440" shooting="453" control="271" accuracy="377" goalkeeping="63" heading="405"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="36239">
+    <personal name="Eamonn O'donoghue">
+      <appearance value="0"/>
+      <nationality value="Ireland"/>
+    </personal>
+    <personality active="451" risktaking="262" offensive="422" aggressive="364" consistent="576" creative="611" experienced="674"/>
+    <skills stamina="489" dexterity="559" speed="504" tackling="236" passing="384" shooting="316" control="359" accuracy="443" goalkeeping="58" heading="338"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+</Players>

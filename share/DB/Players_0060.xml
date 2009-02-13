@@ -1,0 +1,3171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="60000">
+    <personal name="Cornel Stancioiu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="409" risktaking="386" offensive="713" aggressive="353" consistent="400" creative="673" experienced="612"/>
+    <skills stamina="644" dexterity="615" speed="446" tackling="236" passing="449" shooting="535" control="294" accuracy="260" goalkeeping="521" heading="259"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60001">
+    <personal name="Nuno Claro">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="724" risktaking="317" offensive="751" aggressive="376" consistent="203" creative="286" experienced="546"/>
+    <skills stamina="382" dexterity="292" speed="554" tackling="154" passing="316" shooting="451" control="336" accuracy="178" goalkeeping="489" heading="190"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60002">
+    <personal name="Tony">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="650" risktaking="545" offensive="622" aggressive="591" consistent="538" creative="235" experienced="570"/>
+    <skills stamina="649" dexterity="464" speed="607" tackling="411" passing="541" shooting="396" control="539" accuracy="431" goalkeeping="80" heading="468"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60003">
+    <personal name="Amoreirinha">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="457" risktaking="503" offensive="386" aggressive="332" consistent="482" creative="765" experienced="572"/>
+    <skills stamina="221" dexterity="352" speed="539" tackling="475" passing="485" shooting="470" control="586" accuracy="407" goalkeeping="68" heading="474"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60004">
+    <personal name="Gabriel Muresan">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="686" risktaking="401" offensive="877" aggressive="287" consistent="386" creative="556" experienced="354"/>
+    <skills stamina="705" dexterity="610" speed="393" tackling="559" passing="530" shooting="426" control="403" accuracy="515" goalkeeping="59" heading="493"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60005">
+    <personal name="Cadu">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="487" risktaking="160" offensive="525" aggressive="618" consistent="304" creative="704" experienced="151"/>
+    <skills stamina="183" dexterity="421" speed="478" tackling="501" passing="377" shooting="453" control="432" accuracy="433" goalkeeping="62" heading="471"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60006">
+    <personal name="Niklas Sandberg">
+      <appearance value="8"/>
+      <nationality value="Sweden"/>
+    </personal>
+    <personality active="516" risktaking="555" offensive="692" aggressive="584" consistent="160" creative="293" experienced="499"/>
+    <skills stamina="650" dexterity="325" speed="547" tackling="448" passing="451" shooting="449" control="418" accuracy="490" goalkeeping="63" heading="406"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60007">
+    <personal name="Manuel Jose">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="314" risktaking="192" offensive="616" aggressive="500" consistent="736" creative="431" experienced="457"/>
+    <skills stamina="273" dexterity="376" speed="537" tackling="515" passing="539" shooting="446" control="531" accuracy="384" goalkeeping="62" heading="437"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60008">
+    <personal name="Emmanuel Culio">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="783" risktaking="358" offensive="353" aggressive="634" consistent="565" creative="504" experienced="460"/>
+    <skills stamina="326" dexterity="513" speed="235" tackling="498" passing="581" shooting="429" control="394" accuracy="402" goalkeeping="65" heading="538"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60009">
+    <personal name="Eugen Trica">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="710" risktaking="418" offensive="395" aggressive="452" consistent="785" creative="367" experienced="443"/>
+    <skills stamina="355" dexterity="388" speed="462" tackling="573" passing="417" shooting="402" control="395" accuracy="412" goalkeeping="94" heading="385"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60010">
+    <personal name="Obazito Ogbonna">
+      <appearance value="1"/>
+      <nationality value="Ivory Coast"/>
+    </personal>
+    <personality active="372" risktaking="663" offensive="511" aggressive="141" consistent="364" creative="245" experienced="429"/>
+    <skills stamina="570" dexterity="337" speed="236" tackling="559" passing="477" shooting="423" control="552" accuracy="375" goalkeeping="73" heading="543"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="60011">
+    <personal name="Semedo">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="537" risktaking="576" offensive="639" aggressive="416" consistent="692" creative="376" experienced="515"/>
+    <skills stamina="525" dexterity="470" speed="368" tackling="535" passing="468" shooting="531" control="480" accuracy="581" goalkeeping="94" heading="536"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60012">
+    <personal name="Andre Leao">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="420" risktaking="514" offensive="530" aggressive="451" consistent="598" creative="459" experienced="284"/>
+    <skills stamina="564" dexterity="336" speed="591" tackling="545" passing="414" shooting="488" control="484" accuracy="435" goalkeeping="65" heading="429"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60013">
+    <personal name="Christian Fabbiani">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="464" risktaking="634" offensive="485" aggressive="273" consistent="710" creative="490" experienced="606"/>
+    <skills stamina="478" dexterity="718" speed="508" tackling="411" passing="448" shooting="450" control="429" accuracy="433" goalkeeping="93" heading="496"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60014">
+    <personal name="Didi">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="755" risktaking="742" offensive="320" aggressive="412" consistent="466" creative="393" experienced="573"/>
+    <skills stamina="399" dexterity="220" speed="559" tackling="442" passing="520" shooting="497" control="480" accuracy="595" goalkeeping="60" heading="445"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="60015">
+    <personal name="Yssouf Kone">
+      <appearance value="1"/>
+      <nationality value="Burkina Faso"/>
+    </personal>
+    <personality active="618" risktaking="759" offensive="457" aggressive="645" consistent="549" creative="369" experienced="794"/>
+    <skills stamina="247" dexterity="718" speed="729" tackling="403" passing="495" shooting="657" control="564" accuracy="506" goalkeeping="72" heading="616"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60016">
+    <personal name="Cristian Haisan">
+      <appearance value="8"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="447" risktaking="263" offensive="284" aggressive="342" consistent="352" creative="535" experienced="618"/>
+    <skills stamina="490" dexterity="205" speed="584" tackling="146" passing="309" shooting="374" control="375" accuracy="183" goalkeeping="454" heading="231"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="60017">
+    <personal name="Mihai Luca">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="461" risktaking="562" offensive="494" aggressive="365" consistent="677" creative="370" experienced="576"/>
+    <skills stamina="125" dexterity="490" speed="141" tackling="198" passing="244" shooting="387" control="346" accuracy="211" goalkeeping="360" heading="125"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="60018">
+    <personal name="Stefan Apostol">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="282" risktaking="336" offensive="493" aggressive="520" consistent="473" creative="554" experienced="676"/>
+    <skills stamina="699" dexterity="529" speed="396" tackling="367" passing="331" shooting="270" control="290" accuracy="323" goalkeeping="75" heading="453"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60019">
+    <personal name="Petar Jovanovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="570" risktaking="605" offensive="381" aggressive="537" consistent="289" creative="508" experienced="504"/>
+    <skills stamina="323" dexterity="165" speed="597" tackling="346" passing="311" shooting="310" control="322" accuracy="326" goalkeeping="60" heading="335"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60020">
+    <personal name="Stefan Mardare">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="686" risktaking="539" offensive="77" aggressive="478" consistent="543" creative="464" experienced="688"/>
+    <skills stamina="190" dexterity="376" speed="446" tackling="348" passing="470" shooting="346" control="420" accuracy="327" goalkeeping="71" heading="368"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60021">
+    <personal name="Dorian Andronic">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="427" risktaking="697" offensive="415" aggressive="757" consistent="663" creative="268" experienced="487"/>
+    <skills stamina="516" dexterity="473" speed="591" tackling="471" passing="306" shooting="333" control="348" accuracy="343" goalkeeping="71" heading="287"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60022">
+    <personal name="Danut Sabau">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="219" risktaking="592" offensive="518" aggressive="450" consistent="946" creative="426" experienced="575"/>
+    <skills stamina="395" dexterity="209" speed="510" tackling="475" passing="416" shooting="427" control="354" accuracy="429" goalkeeping="74" heading="383"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="60023">
+    <personal name="Veljko Nikitovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="791" risktaking="380" offensive="509" aggressive="315" consistent="536" creative="627" experienced="774"/>
+    <skills stamina="268" dexterity="549" speed="618" tackling="411" passing="303" shooting="366" control="289" accuracy="435" goalkeeping="70" heading="310"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60024">
+    <personal name="Adrian Gheorghiu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="546" risktaking="317" offensive="408" aggressive="547" consistent="282" creative="512" experienced="658"/>
+    <skills stamina="621" dexterity="208" speed="288" tackling="325" passing="376" shooting="301" control="384" accuracy="312" goalkeeping="65" heading="431"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60025">
+    <personal name="Silviu Balace">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="491" risktaking="363" offensive="637" aggressive="652" consistent="281" creative="561" experienced="371"/>
+    <skills stamina="448" dexterity="461" speed="527" tackling="410" passing="468" shooting="512" control="399" accuracy="390" goalkeeping="78" heading="513"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60026">
+    <personal name="Marko Ljubinkovic">
+      <appearance value="8"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="593" risktaking="504" offensive="651" aggressive="429" consistent="754" creative="833" experienced="380"/>
+    <skills stamina="658" dexterity="455" speed="631" tackling="453" passing="417" shooting="431" control="554" accuracy="579" goalkeeping="72" heading="478"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60027">
+    <personal name="Denis Zmeu">
+      <appearance value="0"/>
+      <nationality value="Moldova"/>
+    </personal>
+    <personality active="502" risktaking="494" offensive="148" aggressive="492" consistent="968" creative="294" experienced="327"/>
+    <skills stamina="565" dexterity="326" speed="286" tackling="423" passing="435" shooting="367" control="451" accuracy="314" goalkeeping="67" heading="333"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60028">
+    <personal name="Marius Dobos">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="611" risktaking="580" offensive="546" aggressive="410" consistent="583" creative="453" experienced="274"/>
+    <skills stamina="564" dexterity="364" speed="206" tackling="318" passing="353" shooting="425" control="466" accuracy="451" goalkeeping="46" heading="316"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60029">
+    <personal name="Razvan Neagu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="452" risktaking="543" offensive="680" aggressive="686" consistent="404" creative="360" experienced="443"/>
+    <skills stamina="466" dexterity="306" speed="605" tackling="458" passing="368" shooting="472" control="335" accuracy="415" goalkeeping="58" heading="367"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60030">
+    <personal name="Mike Tamwanjera">
+      <appearance value="1"/>
+      <nationality value="Zimbabwe"/>
+    </personal>
+    <personality active="560" risktaking="351" offensive="457" aggressive="313" consistent="523" creative="458" experienced="287"/>
+    <skills stamina="317" dexterity="317" speed="505" tackling="480" passing="445" shooting="412" control="507" accuracy="535" goalkeeping="79" heading="564"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60031">
+    <personal name="Vasile Buhaescu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="373" risktaking="208" offensive="256" aggressive="484" consistent="498" creative="684" experienced="446"/>
+    <skills stamina="272" dexterity="324" speed="345" tackling="325" passing="402" shooting="323" control="398" accuracy="371" goalkeeping="55" heading="385"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60032">
+    <personal name="Catalin Multescu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="374" risktaking="628" offensive="476" aggressive="673" consistent="477" creative="472" experienced="583"/>
+    <skills stamina="480" dexterity="527" speed="597" tackling="165" passing="295" shooting="444" control="252" accuracy="216" goalkeeping="478" heading="195"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60033">
+    <personal name="Lucian Covrig">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="786" risktaking="499" offensive="486" aggressive="369" consistent="619" creative="615" experienced="417"/>
+    <skills stamina="547" dexterity="154" speed="512" tackling="143" passing="442" shooting="310" control="313" accuracy="192" goalkeeping="465" heading="191"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60034">
+    <personal name="Vasile Avadanei">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="377" risktaking="128" offensive="311" aggressive="457" consistent="600" creative="381" experienced="402"/>
+    <skills stamina="649" dexterity="236" speed="224" tackling="404" passing="343" shooting="413" control="412" accuracy="450" goalkeeping="58" heading="327"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60035">
+    <personal name="Marius Iordache">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="659" risktaking="486" offensive="649" aggressive="424" consistent="419" creative="483" experienced="804"/>
+    <skills stamina="603" dexterity="226" speed="417" tackling="347" passing="370" shooting="322" control="374" accuracy="423" goalkeeping="54" heading="299"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60036">
+    <personal name="Florin Nohai">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="407" risktaking="464" offensive="120" aggressive="711" consistent="546" creative="555" experienced="293"/>
+    <skills stamina="528" dexterity="413" speed="579" tackling="437" passing="371" shooting="311" control="351" accuracy="354" goalkeeping="74" heading="376"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60037">
+    <personal name="Alexandru Forminte">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="453" risktaking="428" offensive="846" aggressive="517" consistent="419" creative="718" experienced="512"/>
+    <skills stamina="639" dexterity="576" speed="643" tackling="472" passing="382" shooting="507" control="500" accuracy="417" goalkeeping="62" heading="353"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60038">
+    <personal name="Daniel Barna">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="474" risktaking="461" offensive="734" aggressive="567" consistent="417" creative="665" experienced="385"/>
+    <skills stamina="627" dexterity="411" speed="520" tackling="441" passing="443" shooting="336" control="301" accuracy="336" goalkeeping="67" heading="388"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60039">
+    <personal name="Alexandru Banuta">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="499" risktaking="391" offensive="484" aggressive="357" consistent="250" creative="497" experienced="717"/>
+    <skills stamina="628" dexterity="531" speed="412" tackling="382" passing="348" shooting="403" control="435" accuracy="329" goalkeeping="46" heading="357"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60040">
+    <personal name="Dejan Rusmir">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="904" risktaking="496" offensive="400" aggressive="427" consistent="530" creative="245" experienced="694"/>
+    <skills stamina="699" dexterity="469" speed="614" tackling="443" passing="384" shooting="416" control="508" accuracy="500" goalkeeping="74" heading="349"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60041">
+    <personal name="Hamza Mohammed">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="456" risktaking="680" offensive="681" aggressive="536" consistent="491" creative="579" experienced="289"/>
+    <skills stamina="573" dexterity="324" speed="564" tackling="484" passing="374" shooting="407" control="371" accuracy="396" goalkeeping="53" heading="452"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60042">
+    <personal name="Vojislav Vranjkovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="424" risktaking="548" offensive="389" aggressive="331" consistent="615" creative="330" experienced="882"/>
+    <skills stamina="590" dexterity="500" speed="280" tackling="476" passing="533" shooting="547" control="528" accuracy="533" goalkeeping="72" heading="508"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60043">
+    <personal name="Constantin Schumacher">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="288" risktaking="469" offensive="623" aggressive="432" consistent="610" creative="431" experienced="528"/>
+    <skills stamina="528" dexterity="494" speed="389" tackling="502" passing="472" shooting="421" control="436" accuracy="494" goalkeeping="88" heading="422"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60044">
+    <personal name="Mihai Nemtanu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="602" risktaking="651" offensive="445" aggressive="511" consistent="375" creative="702" experienced="604"/>
+    <skills stamina="613" dexterity="343" speed="529" tackling="408" passing="325" shooting="437" control="454" accuracy="341" goalkeeping="67" heading="430"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60045">
+    <personal name="Mircea Oprea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="558" risktaking="620" offensive="500" aggressive="523" consistent="395" creative="345" experienced="138"/>
+    <skills stamina="600" dexterity="177" speed="267" tackling="365" passing="392" shooting="376" control="312" accuracy="409" goalkeeping="63" heading="378"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60046">
+    <personal name="Viorel Frunza">
+      <appearance value="0"/>
+      <nationality value="Moldova"/>
+    </personal>
+    <personality active="564" risktaking="864" offensive="387" aggressive="557" consistent="508" creative="610" experienced="336"/>
+    <skills stamina="543" dexterity="279" speed="686" tackling="381" passing="534" shooting="590" control="409" accuracy="535" goalkeeping="67" heading="452"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60047">
+    <personal name="Roberto">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="496" risktaking="518" offensive="502" aggressive="499" consistent="646" creative="558" experienced="618"/>
+    <skills stamina="539" dexterity="332" speed="452" tackling="432" passing="403" shooting="357" control="380" accuracy="481" goalkeeping="59" heading="351"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60048">
+    <personal name="Dumitru Hobotoc">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="409" risktaking="538" offensive="663" aggressive="658" consistent="455" creative="364" experienced="505"/>
+    <skills stamina="591" dexterity="319" speed="186" tackling="199" passing="373" shooting="305" control="242" accuracy="224" goalkeeping="585" heading="177"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60049">
+    <personal name="Ionut Bosneag">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="500" risktaking="592" offensive="562" aggressive="868" consistent="698" creative="681" experienced="589"/>
+    <skills stamina="521" dexterity="528" speed="413" tackling="202" passing="358" shooting="264" control="264" accuracy="182" goalkeeping="434" heading="207"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60050">
+    <personal name="Ciprian Ionascu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="439" risktaking="255" offensive="361" aggressive="503" consistent="521" creative="473" experienced="446"/>
+    <skills stamina="225" dexterity="275" speed="557" tackling="427" passing="269" shooting="257" control="344" accuracy="341" goalkeeping="50" heading="433"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60051">
+    <personal name="Dan Lacusta">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="745" risktaking="309" offensive="470" aggressive="256" consistent="685" creative="390" experienced="616"/>
+    <skills stamina="167" dexterity="580" speed="425" tackling="424" passing="260" shooting="407" control="311" accuracy="291" goalkeeping="50" heading="387"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60052">
+    <personal name="Iulian Crivac">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="545" risktaking="267" offensive="524" aggressive="225" consistent="783" creative="378" experienced="581"/>
+    <skills stamina="231" dexterity="438" speed="216" tackling="410" passing="275" shooting="327" control="260" accuracy="325" goalkeeping="64" heading="416"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60053">
+    <personal name="Marius Radu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="467" risktaking="551" offensive="315" aggressive="529" consistent="524" creative="586" experienced="178"/>
+    <skills stamina="647" dexterity="344" speed="206" tackling="457" passing="280" shooting="329" control="452" accuracy="310" goalkeeping="45" heading="335"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60054">
+    <personal name="Zoran Milosevic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="447" risktaking="469" offensive="321" aggressive="518" consistent="648" creative="636" experienced="363"/>
+    <skills stamina="573" dexterity="187" speed="579" tackling="419" passing="491" shooting="352" control="421" accuracy="278" goalkeeping="51" heading="387"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60055">
+    <personal name="Ilie Poenaru">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="475" risktaking="334" offensive="344" aggressive="615" consistent="443" creative="382" experienced="544"/>
+    <skills stamina="569" dexterity="640" speed="154" tackling="278" passing="308" shooting="425" control="439" accuracy="337" goalkeeping="56" heading="424"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60056">
+    <personal name="Mircea Stan">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="424" risktaking="644" offensive="487" aggressive="287" consistent="850" creative="260" experienced="764"/>
+    <skills stamina="333" dexterity="348" speed="612" tackling="395" passing="358" shooting="352" control="418" accuracy="314" goalkeeping="58" heading="423"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60057">
+    <personal name="Sorin Bucuroaia">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="468" risktaking="485" offensive="663" aggressive="600" consistent="828" creative="500" experienced="485"/>
+    <skills stamina="474" dexterity="681" speed="677" tackling="342" passing="388" shooting="253" control="338" accuracy="315" goalkeeping="53" heading="373"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60058">
+    <personal name="Iulian Tames">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="264" risktaking="528" offensive="424" aggressive="566" consistent="448" creative="704" experienced="426"/>
+    <skills stamina="234" dexterity="443" speed="240" tackling="370" passing="520" shooting="418" control="368" accuracy="331" goalkeeping="74" heading="406"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60059">
+    <personal name="Catalin Doman">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="640" risktaking="606" offensive="671" aggressive="474" consistent="508" creative="438" experienced="315"/>
+    <skills stamina="287" dexterity="660" speed="503" tackling="468" passing="414" shooting="372" control="403" accuracy="328" goalkeeping="44" heading="298"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60060">
+    <personal name="Ionut Badea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="530" risktaking="317" offensive="585" aggressive="486" consistent="608" creative="345" experienced="445"/>
+    <skills stamina="647" dexterity="298" speed="492" tackling="287" passing="437" shooting="296" control="368" accuracy="428" goalkeeping="43" heading="322"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60061">
+    <personal name="Adrian Voiculet">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="531" risktaking="713" offensive="457" aggressive="323" consistent="438" creative="851" experienced="444"/>
+    <skills stamina="344" dexterity="541" speed="537" tackling="245" passing="386" shooting="370" control="366" accuracy="511" goalkeeping="45" heading="338"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60062">
+    <personal name="Adrian Dulcea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="424" risktaking="430" offensive="713" aggressive="537" consistent="487" creative="323" experienced="263"/>
+    <skills stamina="555" dexterity="588" speed="605" tackling="433" passing="312" shooting="386" control="365" accuracy="517" goalkeeping="47" heading="368"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60063">
+    <personal name="Adrian Iordache">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="152" risktaking="433" offensive="442" aggressive="420" consistent="347" creative="223" experienced="609"/>
+    <skills stamina="380" dexterity="315" speed="247" tackling="339" passing="384" shooting="388" control="390" accuracy="463" goalkeeping="70" heading="279"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60064">
+    <personal name="Cristi Marinescu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="516" risktaking="554" offensive="572" aggressive="394" consistent="353" creative="382" experienced="517"/>
+    <skills stamina="288" dexterity="450" speed="145" tackling="178" passing="321" shooting="316" control="330" accuracy="125" goalkeeping="506" heading="189"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60065">
+    <personal name="Catalin Samoila">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="390" risktaking="573" offensive="233" aggressive="174" consistent="264" creative="451" experienced="252"/>
+    <skills stamina="270" dexterity="489" speed="387" tackling="204" passing="317" shooting="417" control="227" accuracy="145" goalkeeping="314" heading="207"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60066">
+    <personal name="Robert Ghindeanu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="590" risktaking="594" offensive="312" aggressive="66" consistent="544" creative="468" experienced="400"/>
+    <skills stamina="266" dexterity="194" speed="609" tackling="297" passing="354" shooting="353" control="288" accuracy="387" goalkeeping="58" heading="284"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60067">
+    <personal name="Radek Oprsal">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="273" risktaking="518" offensive="725" aggressive="437" consistent="480" creative="745" experienced="653"/>
+    <skills stamina="253" dexterity="499" speed="663" tackling="397" passing="409" shooting="284" control="335" accuracy="256" goalkeeping="54" heading="302"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60068">
+    <personal name="Mihai Panc">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="713" risktaking="353" offensive="385" aggressive="656" consistent="599" creative="191" experienced="423"/>
+    <skills stamina="523" dexterity="276" speed="415" tackling="425" passing="374" shooting="352" control="310" accuracy="236" goalkeeping="44" heading="418"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60069">
+    <personal name="Gabriel Vochin">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="472" risktaking="519" offensive="612" aggressive="438" consistent="532" creative="583" experienced="536"/>
+    <skills stamina="298" dexterity="241" speed="223" tackling="266" passing="321" shooting="353" control="249" accuracy="418" goalkeeping="60" heading="426"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="60070">
+    <personal name="Bogdan Cistean">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="511" risktaking="183" offensive="464" aggressive="482" consistent="326" creative="341" experienced="547"/>
+    <skills stamina="379" dexterity="225" speed="663" tackling="349" passing="422" shooting="274" control="399" accuracy="319" goalkeeping="46" heading="352"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60071">
+    <personal name="George Negura">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="353" risktaking="699" offensive="723" aggressive="541" consistent="634" creative="648" experienced="557"/>
+    <skills stamina="438" dexterity="493" speed="239" tackling="317" passing="413" shooting="380" control="411" accuracy="333" goalkeeping="59" heading="276"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60072">
+    <personal name="Binaware Ajuwa">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="431" risktaking="365" offensive="665" aggressive="144" consistent="573" creative="241" experienced="782"/>
+    <skills stamina="424" dexterity="516" speed="326" tackling="308" passing="332" shooting="342" control="369" accuracy="373" goalkeeping="43" heading="361"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60073">
+    <personal name="Alin Marcu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="712" risktaking="300" offensive="495" aggressive="561" consistent="207" creative="369" experienced="363"/>
+    <skills stamina="224" dexterity="523" speed="510" tackling="368" passing="300" shooting="363" control="316" accuracy="303" goalkeeping="57" heading="252"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60074">
+    <personal name="Roberto Iancu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="649" risktaking="363" offensive="544" aggressive="723" consistent="470" creative="290" experienced="473"/>
+    <skills stamina="326" dexterity="402" speed="135" tackling="462" passing="252" shooting="414" control="334" accuracy="287" goalkeeping="47" heading="416"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="60075">
+    <personal name="Valeriu Andronic">
+      <appearance value="0"/>
+      <nationality value="Moldova"/>
+    </personal>
+    <personality active="730" risktaking="435" offensive="389" aggressive="578" consistent="168" creative="630" experienced="514"/>
+    <skills stamina="387" dexterity="592" speed="509" tackling="409" passing="342" shooting="238" control="320" accuracy="334" goalkeeping="43" heading="426"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60076">
+    <personal name="Daniel Marin">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="270" risktaking="901" offensive="815" aggressive="341" consistent="765" creative="295" experienced="612"/>
+    <skills stamina="122" dexterity="523" speed="503" tackling="436" passing="419" shooting="449" control="396" accuracy="287" goalkeeping="51" heading="440"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60077">
+    <personal name="Catalin Cursaru">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="397" risktaking="697" offensive="609" aggressive="347" consistent="706" creative="402" experienced="526"/>
+    <skills stamina="168" dexterity="447" speed="484" tackling="369" passing="406" shooting="488" control="317" accuracy="363" goalkeeping="51" heading="318"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60078">
+    <personal name="Raul Costin">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="678" risktaking="564" offensive="753" aggressive="462" consistent="595" creative="480" experienced="810"/>
+    <skills stamina="227" dexterity="280" speed="422" tackling="311" passing="432" shooting="266" control="321" accuracy="320" goalkeeping="50" heading="235"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60079">
+    <personal name="Claudiu Dragan">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="693" risktaking="582" offensive="466" aggressive="337" consistent="223" creative="462" experienced="336"/>
+    <skills stamina="217" dexterity="318" speed="483" tackling="365" passing="405" shooting="323" control="368" accuracy="415" goalkeeping="55" heading="377"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="60080">
+    <personal name="Bogdan Lobont">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="534" risktaking="293" offensive="787" aggressive="379" consistent="119" creative="622" experienced="459"/>
+    <skills stamina="622" dexterity="483" speed="244" tackling="273" passing="457" shooting="464" control="378" accuracy="254" goalkeeping="705" heading="297"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60081">
+    <personal name="Deniss Romanovs">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="629" risktaking="422" offensive="682" aggressive="361" consistent="361" creative="761" experienced="565"/>
+    <skills stamina="228" dexterity="676" speed="242" tackling="166" passing="390" shooting="401" control="322" accuracy="183" goalkeeping="407" heading="228"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60082">
+    <personal name="Flavius Stoican">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="357" risktaking="431" offensive="335" aggressive="551" consistent="560" creative="547" experienced="372"/>
+    <skills stamina="501" dexterity="246" speed="734" tackling="479" passing="513" shooting="476" control="395" accuracy="445" goalkeeping="71" heading="394"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60083">
+    <personal name="Ivan Gvozdenovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="431" risktaking="582" offensive="404" aggressive="534" consistent="273" creative="318" experienced="452"/>
+    <skills stamina="292" dexterity="246" speed="692" tackling="447" passing="577" shooting="528" control="473" accuracy="573" goalkeeping="92" heading="394"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60084">
+    <personal name="Stefan Radu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="589" risktaking="495" offensive="422" aggressive="474" consistent="514" creative="375" experienced="642"/>
+    <skills stamina="621" dexterity="221" speed="240" tackling="464" passing="518" shooting="395" control="587" accuracy="556" goalkeeping="96" heading="467"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60085">
+    <personal name="Cosmin Moti">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="381" risktaking="507" offensive="864" aggressive="545" consistent="521" creative="561" experienced="682"/>
+    <skills stamina="217" dexterity="528" speed="302" tackling="506" passing="497" shooting="418" control="500" accuracy="320" goalkeeping="66" heading="505"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="60086">
+    <personal name="Cristian Pulhac">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="586" risktaking="538" offensive="637" aggressive="730" consistent="248" creative="880" experienced="383"/>
+    <skills stamina="728" dexterity="714" speed="621" tackling="620" passing="494" shooting="550" control="526" accuracy="410" goalkeeping="65" heading="463"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60087">
+    <personal name="Adrian Cristea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="513" risktaking="602" offensive="533" aggressive="576" consistent="464" creative="455" experienced="688"/>
+    <skills stamina="648" dexterity="564" speed="290" tackling="412" passing="536" shooting="501" control="455" accuracy="482" goalkeeping="89" heading="536"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60088">
+    <personal name="Fabrice Fernandes">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="699" risktaking="781" offensive="600" aggressive="216" consistent="362" creative="213" experienced="485"/>
+    <skills stamina="659" dexterity="398" speed="504" tackling="548" passing="454" shooting="513" control="500" accuracy="492" goalkeeping="74" heading="390"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60089">
+    <personal name="Silviu Margaritescu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="286" risktaking="435" offensive="206" aggressive="572" consistent="565" creative="682" experienced="403"/>
+    <skills stamina="294" dexterity="181" speed="347" tackling="384" passing="466" shooting="404" control="366" accuracy="487" goalkeeping="71" heading="535"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="60090">
+    <personal name="George Blay">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="474" risktaking="638" offensive="455" aggressive="452" consistent="405" creative="398" experienced="455"/>
+    <skills stamina="285" dexterity="577" speed="246" tackling="503" passing="395" shooting="398" control="536" accuracy="360" goalkeeping="68" heading="365"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60091">
+    <personal name="Ianis Zicu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="706" risktaking="247" offensive="170" aggressive="434" consistent="709" creative="497" experienced="598"/>
+    <skills stamina="673" dexterity="586" speed="654" tackling="481" passing="556" shooting="563" control="526" accuracy="489" goalkeeping="95" heading="539"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60092">
+    <personal name="Catalin Munteanu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="740" risktaking="593" offensive="430" aggressive="369" consistent="469" creative="659" experienced="292"/>
+    <skills stamina="222" dexterity="696" speed="318" tackling="554" passing="551" shooting="456" control="461" accuracy="503" goalkeeping="74" heading="394"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60093">
+    <personal name="Ionel Danciulescu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="351" risktaking="768" offensive="480" aggressive="483" consistent="534" creative="476" experienced="290"/>
+    <skills stamina="561" dexterity="673" speed="289" tackling="537" passing="427" shooting="453" control="566" accuracy="668" goalkeeping="71" heading="549"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60094">
+    <personal name="Florin Bratu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="428" risktaking="936" offensive="397" aggressive="155" consistent="576" creative="388" experienced="709"/>
+    <skills stamina="224" dexterity="364" speed="689" tackling="410" passing="420" shooting="541" control="443" accuracy="373" goalkeeping="82" heading="551"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60095">
+    <personal name="Claudiu Niculescu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="402" risktaking="335" offensive="551" aggressive="684" consistent="384" creative="477" experienced="634"/>
+    <skills stamina="509" dexterity="397" speed="497" tackling="478" passing="447" shooting="538" control="432" accuracy="592" goalkeeping="80" heading="599"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60096">
+    <personal name="Ilie Anton">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="393" risktaking="658" offensive="318" aggressive="388" consistent="665" creative="416" experienced="465"/>
+    <skills stamina="198" dexterity="243" speed="352" tackling="140" passing="426" shooting="258" control="331" accuracy="215" goalkeeping="528" heading="134"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="60097">
+    <personal name="Florin Olteanu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="538" risktaking="612" offensive="731" aggressive="688" consistent="824" creative="496" experienced="353"/>
+    <skills stamina="602" dexterity="566" speed="222" tackling="180" passing="384" shooting="426" control="295" accuracy="174" goalkeeping="472" heading="183"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60098">
+    <personal name="Ciprian Radutoiu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="701" risktaking="557" offensive="661" aggressive="852" consistent="751" creative="706" experienced="287"/>
+    <skills stamina="283" dexterity="233" speed="456" tackling="368" passing="331" shooting="285" control="335" accuracy="260" goalkeeping="59" heading="430"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60099">
+    <personal name="Alexandru Stratulat">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="348" risktaking="580" offensive="715" aggressive="189" consistent="483" creative="566" experienced="236"/>
+    <skills stamina="598" dexterity="450" speed="413" tackling="376" passing="290" shooting="349" control="352" accuracy="293" goalkeeping="59" heading="405"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60100">
+    <personal name="Gabriel Florea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="701" risktaking="358" offensive="476" aggressive="687" consistent="385" creative="454" experienced="319"/>
+    <skills stamina="378" dexterity="604" speed="418" tackling="310" passing="354" shooting="274" control="387" accuracy="393" goalkeeping="53" heading="417"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60101">
+    <personal name="Mihai Pintilli">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="385" risktaking="626" offensive="435" aggressive="424" consistent="363" creative="649" experienced="516"/>
+    <skills stamina="575" dexterity="236" speed="138" tackling="406" passing="397" shooting="416" control="293" accuracy="415" goalkeeping="47" heading="400"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60102">
+    <personal name="Octavian Stuparu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="320" risktaking="501" offensive="561" aggressive="462" consistent="582" creative="369" experienced="413"/>
+    <skills stamina="338" dexterity="595" speed="437" tackling="305" passing="420" shooting="390" control="295" accuracy="293" goalkeeping="65" heading="289"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60103">
+    <personal name="Lucian Petrescu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="651" risktaking="341" offensive="491" aggressive="616" consistent="581" creative="196" experienced="602"/>
+    <skills stamina="650" dexterity="282" speed="642" tackling="232" passing="442" shooting="277" control="426" accuracy="238" goalkeeping="48" heading="318"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="60104">
+    <personal name="Alexandru Badoiu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="459" risktaking="454" offensive="390" aggressive="690" consistent="775" creative="570" experienced="528"/>
+    <skills stamina="194" dexterity="242" speed="509" tackling="257" passing="476" shooting="364" control="392" accuracy="350" goalkeeping="43" heading="374"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60105">
+    <personal name="Mircea Gheorghe">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="551" risktaking="501" offensive="487" aggressive="446" consistent="499" creative="371" experienced="365"/>
+    <skills stamina="629" dexterity="530" speed="508" tackling="269" passing="459" shooting="323" control="371" accuracy="402" goalkeeping="74" heading="283"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60106">
+    <personal name="Zlatomir Milenovici">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="679" risktaking="613" offensive="496" aggressive="521" consistent="429" creative="459" experienced="474"/>
+    <skills stamina="610" dexterity="274" speed="171" tackling="403" passing="412" shooting="293" control="368" accuracy="394" goalkeeping="46" heading="370"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60107">
+    <personal name="Andrei Abuzatoaiei">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="700" risktaking="614" offensive="331" aggressive="730" consistent="616" creative="527" experienced="566"/>
+    <skills stamina="135" dexterity="464" speed="274" tackling="235" passing="308" shooting="457" control="366" accuracy="372" goalkeeping="58" heading="390"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60108">
+    <personal name="Marius Misca">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="529" risktaking="529" offensive="675" aggressive="696" consistent="378" creative="476" experienced="650"/>
+    <skills stamina="259" dexterity="147" speed="430" tackling="338" passing="278" shooting="387" control="370" accuracy="339" goalkeeping="46" heading="410"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="60109">
+    <personal name="Adrian Cimpeanu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="374" risktaking="287" offensive="325" aggressive="568" consistent="426" creative="429" experienced="376"/>
+    <skills stamina="247" dexterity="637" speed="477" tackling="451" passing="338" shooting="325" control="373" accuracy="354" goalkeeping="67" heading="322"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60110">
+    <personal name="Andrei Antohi">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="260" risktaking="475" offensive="972" aggressive="377" consistent="351" creative="614" experienced="678"/>
+    <skills stamina="656" dexterity="419" speed="174" tackling="318" passing="319" shooting="324" control="407" accuracy="483" goalkeeping="60" heading="358"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60111">
+    <personal name="Eduard Tismanaru">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="375" risktaking="490" offensive="455" aggressive="652" consistent="652" creative="253" experienced="502"/>
+    <skills stamina="426" dexterity="264" speed="400" tackling="316" passing="363" shooting="375" control="310" accuracy="352" goalkeeping="73" heading="410"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60112">
+    <personal name="George Curca">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="486" risktaking="463" offensive="529" aggressive="525" consistent="796" creative="541" experienced="479"/>
+    <skills stamina="543" dexterity="221" speed="552" tackling="219" passing="307" shooting="424" control="233" accuracy="219" goalkeeping="332" heading="195"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60113">
+    <personal name="Adrian Vlas">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="472" risktaking="682" offensive="471" aggressive="327" consistent="615" creative="772" experienced="342"/>
+    <skills stamina="450" dexterity="400" speed="652" tackling="217" passing="445" shooting="438" control="291" accuracy="222" goalkeeping="490" heading="198"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="60114">
+    <personal name="Cosmin Bacila">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="569" risktaking="596" offensive="568" aggressive="612" consistent="547" creative="601" experienced="404"/>
+    <skills stamina="590" dexterity="379" speed="347" tackling="445" passing="423" shooting="467" control="443" accuracy="324" goalkeeping="76" heading="316"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60115">
+    <personal name="Florin Maxim">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="587" risktaking="274" offensive="504" aggressive="646" consistent="329" creative="437" experienced="169"/>
+    <skills stamina="245" dexterity="468" speed="279" tackling="349" passing="400" shooting="385" control="457" accuracy="445" goalkeeping="61" heading="415"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60116">
+    <personal name="Ion Barbu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="604" risktaking="207" offensive="514" aggressive="586" consistent="511" creative="522" experienced="507"/>
+    <skills stamina="609" dexterity="661" speed="174" tackling="514" passing="424" shooting="391" control="435" accuracy="462" goalkeeping="48" heading="358"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60117">
+    <personal name="Decebal Ghiara">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="471" risktaking="529" offensive="467" aggressive="571" consistent="511" creative="628" experienced="487"/>
+    <skills stamina="485" dexterity="505" speed="665" tackling="397" passing="364" shooting="399" control="286" accuracy="346" goalkeeping="68" heading="359"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60118">
+    <personal name="Razvan Farmache">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="172" risktaking="395" offensive="547" aggressive="730" consistent="415" creative="620" experienced="409"/>
+    <skills stamina="343" dexterity="567" speed="257" tackling="339" passing="375" shooting="265" control="373" accuracy="266" goalkeeping="42" heading="274"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60119">
+    <personal name="Ionel Boghitoi">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="548" risktaking="596" offensive="416" aggressive="299" consistent="497" creative="407" experienced="455"/>
+    <skills stamina="328" dexterity="300" speed="442" tackling="453" passing="477" shooting="369" control="445" accuracy="464" goalkeeping="57" heading="432"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60120">
+    <personal name="Gaston Mendy">
+      <appearance value="1"/>
+      <nationality value="Senegal"/>
+    </personal>
+    <personality active="561" risktaking="694" offensive="485" aggressive="343" consistent="319" creative="705" experienced="410"/>
+    <skills stamina="479" dexterity="738" speed="580" tackling="407" passing="356" shooting="356" control="462" accuracy="497" goalkeeping="83" heading="485"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60121">
+    <personal name="Ben Teekloh">
+      <appearance value="1"/>
+      <nationality value="Liberia"/>
+    </personal>
+    <personality active="676" risktaking="222" offensive="415" aggressive="459" consistent="459" creative="385" experienced="420"/>
+    <skills stamina="641" dexterity="451" speed="184" tackling="416" passing="405" shooting="368" control="397" accuracy="304" goalkeeping="57" heading="411"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60122">
+    <personal name="Marcel Otvos">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="677" risktaking="124" offensive="428" aggressive="300" consistent="431" creative="760" experienced="483"/>
+    <skills stamina="550" dexterity="724" speed="480" tackling="397" passing="398" shooting="370" control="434" accuracy="361" goalkeeping="46" heading="455"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60123">
+    <personal name="Marius Nae">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="965" risktaking="466" offensive="371" aggressive="312" consistent="426" creative="731" experienced="340"/>
+    <skills stamina="596" dexterity="430" speed="315" tackling="417" passing="489" shooting="273" control="376" accuracy="293" goalkeeping="61" heading="368"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60124">
+    <personal name="Dinu Todoran">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="452" risktaking="730" offensive="498" aggressive="887" consistent="366" creative="642" experienced="575"/>
+    <skills stamina="695" dexterity="311" speed="255" tackling="435" passing="538" shooting="428" control="493" accuracy="411" goalkeeping="74" heading="525"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60125">
+    <personal name="Gerlem">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="476" risktaking="419" offensive="625" aggressive="269" consistent="475" creative="398" experienced="494"/>
+    <skills stamina="325" dexterity="478" speed="415" tackling="450" passing="412" shooting="377" control="446" accuracy="430" goalkeeping="78" heading="435"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60126">
+    <personal name="Bogdan Apostu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="710" risktaking="346" offensive="613" aggressive="226" consistent="401" creative="332" experienced="760"/>
+    <skills stamina="281" dexterity="556" speed="489" tackling="327" passing="316" shooting="401" control="438" accuracy="447" goalkeeping="55" heading="527"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60127">
+    <personal name="Armel Disney">
+      <appearance value="1"/>
+      <nationality value="Congo"/>
+    </personal>
+    <personality active="474" risktaking="161" offensive="321" aggressive="224" consistent="436" creative="440" experienced="537"/>
+    <skills stamina="267" dexterity="666" speed="478" tackling="363" passing="372" shooting="525" control="394" accuracy="436" goalkeeping="84" heading="452"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60128">
+    <personal name="Calin Albut">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="664" risktaking="371" offensive="732" aggressive="411" consistent="745" creative="565" experienced="253"/>
+    <skills stamina="153" dexterity="434" speed="578" tackling="160" passing="374" shooting="386" control="365" accuracy="214" goalkeeping="496" heading="212"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60129">
+    <personal name="Ciprian Tararusanu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="137" risktaking="608" offensive="459" aggressive="372" consistent="555" creative="635" experienced="515"/>
+    <skills stamina="393" dexterity="224" speed="527" tackling="187" passing="367" shooting="350" control="337" accuracy="167" goalkeeping="494" heading="181"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60130">
+    <personal name="Dan Matei">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="643" risktaking="334" offensive="693" aggressive="480" consistent="771" creative="294" experienced="645"/>
+    <skills stamina="426" dexterity="437" speed="427" tackling="435" passing="383" shooting="326" control="390" accuracy="352" goalkeeping="67" heading="266"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60131">
+    <personal name="Laszlo Sepsi">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="441" risktaking="283" offensive="707" aggressive="358" consistent="685" creative="400" experienced="722"/>
+    <skills stamina="511" dexterity="723" speed="215" tackling="325" passing="535" shooting="370" control="441" accuracy="450" goalkeeping="56" heading="329"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60132">
+    <personal name="Cosmin Frasinescu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="646" risktaking="726" offensive="848" aggressive="604" consistent="601" creative="425" experienced="290"/>
+    <skills stamina="580" dexterity="439" speed="437" tackling="452" passing="364" shooting="309" control="325" accuracy="337" goalkeeping="53" heading="320"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="60133">
+    <personal name="Octavian Abrudan">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="307" risktaking="565" offensive="596" aggressive="412" consistent="640" creative="408" experienced="593"/>
+    <skills stamina="280" dexterity="555" speed="258" tackling="373" passing="303" shooting="375" control="425" accuracy="363" goalkeeping="72" heading="284"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="60134">
+    <personal name="George Soltuz">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="336" risktaking="816" offensive="703" aggressive="383" consistent="473" creative="319" experienced="384"/>
+    <skills stamina="285" dexterity="184" speed="364" tackling="310" passing="332" shooting="393" control="323" accuracy="256" goalkeeping="58" heading="448"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60135">
+    <personal name="Adrian Natali">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="488" risktaking="426" offensive="282" aggressive="491" consistent="215" creative="258" experienced="654"/>
+    <skills stamina="493" dexterity="413" speed="486" tackling="318" passing="386" shooting="404" control="365" accuracy="443" goalkeeping="72" heading="296"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60136">
+    <personal name="Lucian Pirvu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="561" risktaking="394" offensive="429" aggressive="239" consistent="360" creative="442" experienced="726"/>
+    <skills stamina="231" dexterity="271" speed="590" tackling="292" passing="363" shooting="332" control="365" accuracy="358" goalkeeping="75" heading="276"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60137">
+    <personal name="Simao">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="566" risktaking="600" offensive="188" aggressive="705" consistent="584" creative="389" experienced="561"/>
+    <skills stamina="157" dexterity="283" speed="569" tackling="390" passing="430" shooting="383" control="289" accuracy="468" goalkeeping="55" heading="457"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60138">
+    <personal name="Kenan Ragipovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="689" risktaking="625" offensive="474" aggressive="606" consistent="801" creative="370" experienced="845"/>
+    <skills stamina="250" dexterity="550" speed="632" tackling="457" passing="393" shooting="316" control="359" accuracy="326" goalkeeping="63" heading="340"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60139">
+    <personal name="Ciprian Danciu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="582" risktaking="625" offensive="642" aggressive="663" consistent="613" creative="685" experienced="539"/>
+    <skills stamina="612" dexterity="209" speed="695" tackling="446" passing="403" shooting="508" control="441" accuracy="458" goalkeeping="56" heading="378"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60140">
+    <personal name="Sead Hadzibulic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="667" risktaking="619" offensive="713" aggressive="590" consistent="604" creative="532" experienced="801"/>
+    <skills stamina="406" dexterity="244" speed="511" tackling="353" passing="402" shooting="457" control="303" accuracy="386" goalkeeping="52" heading="382"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60141">
+    <personal name="Cristian Coroian">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="723" risktaking="474" offensive="438" aggressive="446" consistent="490" creative="430" experienced="304"/>
+    <skills stamina="306" dexterity="559" speed="152" tackling="360" passing="340" shooting="378" control="315" accuracy="507" goalkeeping="71" heading="403"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60142">
+    <personal name="Cosmin Tilinca">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="612" risktaking="237" offensive="439" aggressive="670" consistent="527" creative="423" experienced="371"/>
+    <skills stamina="413" dexterity="412" speed="245" tackling="431" passing="306" shooting="347" control="339" accuracy="297" goalkeeping="62" heading="361"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60143">
+    <personal name="Razvan Dobre">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="815" risktaking="627" offensive="503" aggressive="677" consistent="692" creative="528" experienced="489"/>
+    <skills stamina="328" dexterity="303" speed="589" tackling="342" passing="321" shooting="307" control="367" accuracy="445" goalkeeping="49" heading="478"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60144">
+    <personal name="Mircea Oltean">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="410" risktaking="540" offensive="425" aggressive="457" consistent="469" creative="380" experienced="256"/>
+    <skills stamina="263" dexterity="445" speed="354" tackling="204" passing="332" shooting="409" control="196" accuracy="200" goalkeeping="371" heading="121"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60145">
+    <personal name="Iulian Ilie">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="885" risktaking="620" offensive="595" aggressive="650" consistent="477" creative="553" experienced="559"/>
+    <skills stamina="299" dexterity="482" speed="184" tackling="201" passing="244" shooting="377" control="222" accuracy="189" goalkeeping="427" heading="112"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60146">
+    <personal name="Liviu Hapaina">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="513" risktaking="656" offensive="525" aggressive="526" consistent="672" creative="753" experienced="618"/>
+    <skills stamina="680" dexterity="201" speed="606" tackling="409" passing="264" shooting="399" control="324" accuracy="428" goalkeeping="48" heading="413"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60147">
+    <personal name="Liviu Negoita">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="549" risktaking="617" offensive="456" aggressive="578" consistent="589" creative="521" experienced="506"/>
+    <skills stamina="316" dexterity="517" speed="308" tackling="348" passing="315" shooting="405" control="351" accuracy="353" goalkeeping="64" heading="413"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60148">
+    <personal name="Mariko Daouda">
+      <appearance value="1"/>
+      <nationality value="Ivory Coast"/>
+    </personal>
+    <personality active="476" risktaking="426" offensive="341" aggressive="563" consistent="582" creative="417" experienced="439"/>
+    <skills stamina="492" dexterity="274" speed="397" tackling="534" passing="480" shooting="444" control="334" accuracy="368" goalkeeping="67" heading="398"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="60149">
+    <personal name="Irinel Voicu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="652" risktaking="379" offensive="385" aggressive="411" consistent="792" creative="595" experienced="495"/>
+    <skills stamina="627" dexterity="346" speed="531" tackling="374" passing="376" shooting="429" control="389" accuracy="409" goalkeeping="57" heading="409"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="60150">
+    <personal name="Vasile Jula">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="462" risktaking="332" offensive="608" aggressive="494" consistent="330" creative="401" experienced="255"/>
+    <skills stamina="150" dexterity="501" speed="555" tackling="367" passing="301" shooting="294" control="350" accuracy="376" goalkeeping="55" heading="276"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="60151">
+    <personal name="Cristian Bratu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="335" risktaking="441" offensive="338" aggressive="686" consistent="455" creative="557" experienced="334"/>
+    <skills stamina="375" dexterity="595" speed="610" tackling="381" passing="382" shooting="381" control="422" accuracy="297" goalkeeping="69" heading="437"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60152">
+    <personal name="Robert Neagoe">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="890" risktaking="721" offensive="412" aggressive="605" consistent="511" creative="603" experienced="400"/>
+    <skills stamina="495" dexterity="489" speed="665" tackling="385" passing="442" shooting="367" control="380" accuracy="350" goalkeeping="47" heading="368"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60153">
+    <personal name="Madalin Murgan">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="205" risktaking="617" offensive="524" aggressive="505" consistent="599" creative="423" experienced="319"/>
+    <skills stamina="519" dexterity="697" speed="590" tackling="374" passing="377" shooting="356" control="299" accuracy="428" goalkeeping="67" heading="334"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60154">
+    <personal name="Dan Baluru">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="662" risktaking="582" offensive="526" aggressive="341" consistent="606" creative="646" experienced="371"/>
+    <skills stamina="604" dexterity="388" speed="324" tackling="315" passing="323" shooting="430" control="246" accuracy="406" goalkeeping="52" heading="398"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60155">
+    <personal name="Ilie Baicu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="318" risktaking="467" offensive="530" aggressive="437" consistent="168" creative="450" experienced="458"/>
+    <skills stamina="274" dexterity="364" speed="497" tackling="297" passing="320" shooting="265" control="408" accuracy="288" goalkeeping="67" heading="364"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60156">
+    <personal name="Sorin Trofin">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="273" risktaking="294" offensive="378" aggressive="238" consistent="441" creative="548" experienced="369"/>
+    <skills stamina="315" dexterity="232" speed="203" tackling="379" passing="318" shooting="417" control="439" accuracy="415" goalkeeping="57" heading="308"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="60157">
+    <personal name="Daniel Lupascu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="393" risktaking="543" offensive="529" aggressive="316" consistent="717" creative="440" experienced="389"/>
+    <skills stamina="143" dexterity="549" speed="502" tackling="315" passing="276" shooting="500" control="384" accuracy="390" goalkeeping="49" heading="389"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60158">
+    <personal name="Daniel Costescu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="498" risktaking="393" offensive="490" aggressive="337" consistent="270" creative="856" experienced="488"/>
+    <skills stamina="249" dexterity="290" speed="575" tackling="367" passing="425" shooting="346" control="358" accuracy="540" goalkeeping="58" heading="339"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60159">
+    <personal name="Ionut Chirciu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="256" risktaking="540" offensive="325" aggressive="720" consistent="309" creative="650" experienced="598"/>
+    <skills stamina="504" dexterity="425" speed="339" tackling="398" passing="389" shooting="362" control="343" accuracy="439" goalkeeping="68" heading="425"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60160">
+    <personal name="Mihai Minca">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="537" risktaking="324" offensive="720" aggressive="468" consistent="531" creative="421" experienced="403"/>
+    <skills stamina="563" dexterity="244" speed="607" tackling="200" passing="309" shooting="411" control="285" accuracy="144" goalkeeping="523" heading="186"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60161">
+    <personal name="Cristian Stoicescu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="501" risktaking="541" offensive="343" aggressive="306" consistent="473" creative="548" experienced="451"/>
+    <skills stamina="198" dexterity="374" speed="182" tackling="188" passing="308" shooting="357" control="245" accuracy="174" goalkeeping="307" heading="173"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60162">
+    <personal name="Marian Nejneru">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="606" risktaking="402" offensive="582" aggressive="455" consistent="508" creative="449" experienced="353"/>
+    <skills stamina="673" dexterity="653" speed="614" tackling="476" passing="432" shooting="439" control="350" accuracy="457" goalkeeping="51" heading="386"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60163">
+    <personal name="Alexandru Tudose">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="789" risktaking="299" offensive="326" aggressive="279" consistent="513" creative="594" experienced="382"/>
+    <skills stamina="405" dexterity="326" speed="622" tackling="396" passing="348" shooting="331" control="333" accuracy="365" goalkeeping="68" heading="356"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60164">
+    <personal name="Alexandru Filip">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="487" risktaking="627" offensive="789" aggressive="809" consistent="196" creative="241" experienced="471"/>
+    <skills stamina="308" dexterity="540" speed="466" tackling="399" passing="429" shooting="349" control="424" accuracy="322" goalkeeping="69" heading="334"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60165">
+    <personal name="Alexandru Iacob">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="697" risktaking="453" offensive="470" aggressive="588" consistent="260" creative="628" experienced="882"/>
+    <skills stamina="182" dexterity="414" speed="652" tackling="408" passing="441" shooting="411" control="312" accuracy="284" goalkeeping="64" heading="393"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60166">
+    <personal name="Nikola Jozic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="693" risktaking="393" offensive="527" aggressive="319" consistent="554" creative="429" experienced="674"/>
+    <skills stamina="638" dexterity="376" speed="163" tackling="334" passing="486" shooting="426" control="427" accuracy="306" goalkeeping="61" heading="274"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60167">
+    <personal name="Alin Paleacu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="651" risktaking="600" offensive="722" aggressive="462" consistent="379" creative="233" experienced="229"/>
+    <skills stamina="364" dexterity="647" speed="615" tackling="293" passing="404" shooting="252" control="380" accuracy="437" goalkeeping="73" heading="252"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60168">
+    <personal name="Razvan Ochirosii">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="535" risktaking="674" offensive="604" aggressive="253" consistent="478" creative="632" experienced="569"/>
+    <skills stamina="555" dexterity="282" speed="660" tackling="383" passing="498" shooting="329" control="360" accuracy="405" goalkeeping="77" heading="284"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60169">
+    <personal name="Claudiu Ionescu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="376" risktaking="425" offensive="424" aggressive="365" consistent="490" creative="330" experienced="509"/>
+    <skills stamina="556" dexterity="644" speed="437" tackling="295" passing="350" shooting="399" control="407" accuracy="312" goalkeeping="65" heading="339"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60170">
+    <personal name="Dino Eze">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="297" risktaking="637" offensive="562" aggressive="410" consistent="469" creative="357" experienced="343"/>
+    <skills stamina="390" dexterity="270" speed="349" tackling="407" passing="291" shooting="302" control="322" accuracy="345" goalkeeping="56" heading="311"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60171">
+    <personal name="Stere Guda">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="519" risktaking="508" offensive="345" aggressive="780" consistent="510" creative="482" experienced="438"/>
+    <skills stamina="380" dexterity="543" speed="341" tackling="313" passing="321" shooting="436" control="376" accuracy="412" goalkeeping="42" heading="467"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="60172">
+    <personal name="Marius Suleap">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="638" risktaking="22" offensive="491" aggressive="299" consistent="507" creative="458" experienced="545"/>
+    <skills stamina="683" dexterity="535" speed="280" tackling="284" passing="325" shooting="265" control="333" accuracy="377" goalkeeping="70" heading="413"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60173">
+    <personal name="Valentin Simion">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="539" risktaking="649" offensive="243" aggressive="622" consistent="560" creative="558" experienced="606"/>
+    <skills stamina="145" dexterity="476" speed="314" tackling="477" passing="289" shooting="325" control="424" accuracy="458" goalkeeping="72" heading="491"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60174">
+    <personal name="Kleyr">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="777" risktaking="674" offensive="476" aggressive="384" consistent="401" creative="546" experienced="477"/>
+    <skills stamina="174" dexterity="507" speed="155" tackling="372" passing="390" shooting="359" control="338" accuracy="586" goalkeeping="83" heading="379"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60175">
+    <personal name="Alin Lutu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="550" risktaking="474" offensive="638" aggressive="537" consistent="613" creative="512" experienced="419"/>
+    <skills stamina="164" dexterity="403" speed="172" tackling="330" passing="381" shooting="428" control="383" accuracy="360" goalkeeping="49" heading="437"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60176">
+    <personal name="Ismael Kouha">
+      <appearance value="0"/>
+      <nationality value="Morocco"/>
+    </personal>
+    <personality active="378" risktaking="531" offensive="539" aggressive="432" consistent="501" creative="535" experienced="415"/>
+    <skills stamina="189" dexterity="287" speed="201" tackling="164" passing="326" shooting="312" control="297" accuracy="180" goalkeeping="494" heading="179"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60177">
+    <personal name="Valentin Bors">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="708" risktaking="658" offensive="554" aggressive="331" consistent="395" creative="594" experienced="380"/>
+    <skills stamina="348" dexterity="623" speed="428" tackling="194" passing="449" shooting="324" control="275" accuracy="174" goalkeeping="389" heading="190"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60178">
+    <personal name="Ramses Gado">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="499" risktaking="478" offensive="543" aggressive="415" consistent="819" creative="767" experienced="522"/>
+    <skills stamina="633" dexterity="485" speed="234" tackling="493" passing="475" shooting="388" control="550" accuracy="537" goalkeeping="81" heading="404"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60179">
+    <personal name="Dorin Semeghin">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="659" risktaking="696" offensive="508" aggressive="583" consistent="180" creative="523" experienced="833"/>
+    <skills stamina="527" dexterity="624" speed="324" tackling="398" passing="379" shooting="489" control="401" accuracy="320" goalkeeping="79" heading="307"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60180">
+    <personal name="Bertrand Ngapanu">
+      <appearance value="1"/>
+      <nationality value="Cameroon"/>
+    </personal>
+    <personality active="617" risktaking="476" offensive="552" aggressive="457" consistent="430" creative="783" experienced="625"/>
+    <skills stamina="418" dexterity="339" speed="228" tackling="362" passing="365" shooting="303" control="483" accuracy="381" goalkeeping="47" heading="438"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60181">
+    <personal name="Cristian Sarghi">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="438" risktaking="342" offensive="310" aggressive="250" consistent="647" creative="472" experienced="617"/>
+    <skills stamina="683" dexterity="639" speed="420" tackling="576" passing="453" shooting="477" control="528" accuracy="373" goalkeeping="75" heading="500"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60182">
+    <personal name="Salif Nogo">
+      <appearance value="1"/>
+      <nationality value="Burkina Faso"/>
+    </personal>
+    <personality active="204" risktaking="511" offensive="537" aggressive="479" consistent="761" creative="499" experienced="970"/>
+    <skills stamina="679" dexterity="706" speed="662" tackling="532" passing="505" shooting="387" control="356" accuracy="385" goalkeeping="58" heading="356"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="60183">
+    <personal name="Sergiu Costin">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="333" risktaking="469" offensive="645" aggressive="453" consistent="803" creative="419" experienced="713"/>
+    <skills stamina="558" dexterity="365" speed="389" tackling="449" passing="485" shooting="269" control="416" accuracy="284" goalkeeping="53" heading="407"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60184">
+    <personal name="Janos Szekely">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="436" risktaking="592" offensive="768" aggressive="333" consistent="526" creative="410" experienced="504"/>
+    <skills stamina="541" dexterity="465" speed="439" tackling="270" passing="384" shooting="290" control="399" accuracy="281" goalkeeping="73" heading="428"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60185">
+    <personal name="Kim Gil-sik">
+      <appearance value="0"/>
+      <nationality value="South Korea"/>
+    </personal>
+    <personality active="559" risktaking="677" offensive="546" aggressive="730" consistent="625" creative="468" experienced="526"/>
+    <skills stamina="702" dexterity="216" speed="490" tackling="459" passing="573" shooting="422" control="419" accuracy="395" goalkeeping="74" heading="492"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60186">
+    <personal name="Tadas Labukas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="528" risktaking="174" offensive="301" aggressive="610" consistent="606" creative="409" experienced="443"/>
+    <skills stamina="464" dexterity="460" speed="178" tackling="430" passing="361" shooting="332" control="406" accuracy="387" goalkeeping="70" heading="350"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60187">
+    <personal name="Gabriel Paraschiv">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="385" risktaking="508" offensive="300" aggressive="361" consistent="769" creative="656" experienced="391"/>
+    <skills stamina="401" dexterity="321" speed="614" tackling="356" passing="388" shooting="413" control="454" accuracy="352" goalkeeping="77" heading="379"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60188">
+    <personal name="Gheorghe Boghiu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="445" risktaking="594" offensive="751" aggressive="378" consistent="594" creative="428" experienced="457"/>
+    <skills stamina="506" dexterity="335" speed="539" tackling="336" passing="438" shooting="493" control="395" accuracy="343" goalkeeping="59" heading="380"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60189">
+    <personal name="Daniel Stan">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="533" risktaking="351" offensive="401" aggressive="858" consistent="121" creative="735" experienced="635"/>
+    <skills stamina="440" dexterity="552" speed="602" tackling="360" passing="330" shooting="463" control="446" accuracy="342" goalkeeping="63" heading="418"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60190">
+    <personal name="Silviu Ilie">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="624" risktaking="426" offensive="641" aggressive="660" consistent="439" creative="735" experienced="756"/>
+    <skills stamina="343" dexterity="651" speed="588" tackling="348" passing="373" shooting="438" control="428" accuracy="516" goalkeeping="52" heading="380"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60191">
+    <personal name="George Carjan">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="646" risktaking="718" offensive="666" aggressive="407" consistent="548" creative="688" experienced="781"/>
+    <skills stamina="282" dexterity="414" speed="636" tackling="320" passing="254" shooting="359" control="245" accuracy="465" goalkeeping="51" heading="286"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60192">
+    <personal name="Adnan Guso">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="433" risktaking="534" offensive="288" aggressive="470" consistent="667" creative="680" experienced="804"/>
+    <skills stamina="546" dexterity="605" speed="283" tackling="246" passing="404" shooting="475" control="298" accuracy="185" goalkeeping="440" heading="189"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60193">
+    <personal name="Robert Balaet">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="397" risktaking="365" offensive="533" aggressive="392" consistent="351" creative="528" experienced="372"/>
+    <skills stamina="222" dexterity="445" speed="526" tackling="140" passing="387" shooting="296" control="330" accuracy="215" goalkeeping="479" heading="189"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60194">
+    <personal name="Florin Popete">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="857" risktaking="425" offensive="741" aggressive="412" consistent="588" creative="379" experienced="790"/>
+    <skills stamina="609" dexterity="388" speed="121" tackling="344" passing="351" shooting="314" control="386" accuracy="240" goalkeeping="59" heading="297"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60195">
+    <personal name="Constant Djakpa">
+      <appearance value="1"/>
+      <nationality value="Ivory Coast"/>
+    </personal>
+    <personality active="506" risktaking="582" offensive="381" aggressive="572" consistent="292" creative="276" experienced="297"/>
+    <skills stamina="697" dexterity="698" speed="235" tackling="480" passing="421" shooting="492" control="526" accuracy="371" goalkeeping="55" heading="486"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60196">
+    <personal name="Alin Chibulcutean">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="428" risktaking="520" offensive="490" aggressive="568" consistent="484" creative="369" experienced="408"/>
+    <skills stamina="423" dexterity="201" speed="407" tackling="472" passing="463" shooting="438" control="470" accuracy="399" goalkeeping="69" heading="386"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60197">
+    <personal name="Alin Rus">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="480" risktaking="763" offensive="510" aggressive="533" consistent="456" creative="404" experienced="317"/>
+    <skills stamina="534" dexterity="266" speed="402" tackling="458" passing="404" shooting="353" control="427" accuracy="325" goalkeeping="66" heading="279"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60198">
+    <personal name="Igor Radovanovic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="360" risktaking="302" offensive="403" aggressive="467" consistent="420" creative="350" experienced="653"/>
+    <skills stamina="387" dexterity="395" speed="517" tackling="428" passing="349" shooting="369" control="337" accuracy="437" goalkeeping="46" heading="294"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60199">
+    <personal name="Sergiu Mindean">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="620" risktaking="638" offensive="541" aggressive="524" consistent="327" creative="113" experienced="427"/>
+    <skills stamina="354" dexterity="306" speed="325" tackling="322" passing="471" shooting="418" control="412" accuracy="294" goalkeeping="48" heading="371"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60200">
+    <personal name="Alexandru Pacurar">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="421" risktaking="456" offensive="159" aggressive="300" consistent="353" creative="370" experienced="720"/>
+    <skills stamina="269" dexterity="625" speed="516" tackling="419" passing="414" shooting="395" control="310" accuracy="391" goalkeeping="63" heading="355"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60201">
+    <personal name="Florin Stinga">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="379" risktaking="337" offensive="592" aggressive="421" consistent="398" creative="777" experienced="655"/>
+    <skills stamina="671" dexterity="632" speed="311" tackling="312" passing="458" shooting="364" control="358" accuracy="402" goalkeeping="74" heading="357"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="60202">
+    <personal name="Ciprian Vasilache">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="646" risktaking="506" offensive="311" aggressive="629" consistent="582" creative="529" experienced="399"/>
+    <skills stamina="271" dexterity="528" speed="434" tackling="299" passing="478" shooting="397" control="421" accuracy="486" goalkeeping="52" heading="306"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60203">
+    <personal name="Edmilson">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="726" risktaking="443" offensive="472" aggressive="436" consistent="933" creative="530" experienced="662"/>
+    <skills stamina="383" dexterity="659" speed="370" tackling="463" passing="280" shooting="421" control="509" accuracy="286" goalkeeping="74" heading="302"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60204">
+    <personal name="Daniel Orac">
+      <appearance value="8"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="448" risktaking="412" offensive="602" aggressive="599" consistent="509" creative="296" experienced="360"/>
+    <skills stamina="348" dexterity="513" speed="570" tackling="384" passing="262" shooting="280" control="400" accuracy="492" goalkeeping="51" heading="334"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60205">
+    <personal name="Liviu Mihai">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="773" risktaking="673" offensive="491" aggressive="578" consistent="567" creative="577" experienced="505"/>
+    <skills stamina="443" dexterity="440" speed="436" tackling="351" passing="448" shooting="349" control="377" accuracy="464" goalkeeping="44" heading="465"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60206">
+    <personal name="Robert Vancea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="423" risktaking="451" offensive="440" aggressive="625" consistent="492" creative="374" experienced="491"/>
+    <skills stamina="246" dexterity="692" speed="432" tackling="395" passing="286" shooting="317" control="287" accuracy="307" goalkeeping="69" heading="271"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60207">
+    <personal name="Ilie Iordache">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="404" risktaking="871" offensive="911" aggressive="501" consistent="665" creative="459" experienced="787"/>
+    <skills stamina="452" dexterity="348" speed="295" tackling="425" passing="428" shooting="354" control="292" accuracy="467" goalkeeping="51" heading="325"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60208">
+    <personal name="Cristian Branet">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="287" risktaking="549" offensive="463" aggressive="490" consistent="542" creative="601" experienced="522"/>
+    <skills stamina="258" dexterity="485" speed="173" tackling="163" passing="263" shooting="288" control="322" accuracy="167" goalkeeping="418" heading="183"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="60209">
+    <personal name="Alexandru Marc">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="675" risktaking="369" offensive="561" aggressive="416" consistent="482" creative="483" experienced="591"/>
+    <skills stamina="145" dexterity="243" speed="189" tackling="145" passing="394" shooting="394" control="262" accuracy="173" goalkeeping="352" heading="199"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60210">
+    <personal name="Cornel Buta">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="597" risktaking="383" offensive="813" aggressive="450" consistent="541" creative="471" experienced="579"/>
+    <skills stamina="293" dexterity="645" speed="650" tackling="305" passing="479" shooting="430" control="465" accuracy="418" goalkeeping="42" heading="391"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60211">
+    <personal name="Adrian Ilie">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="301" risktaking="524" offensive="426" aggressive="453" consistent="101" creative="316" experienced="186"/>
+    <skills stamina="384" dexterity="497" speed="259" tackling="352" passing="281" shooting="410" control="278" accuracy="291" goalkeeping="67" heading="245"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60212">
+    <personal name="Bogdan Onut">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="352" risktaking="383" offensive="690" aggressive="492" consistent="689" creative="356" experienced="362"/>
+    <skills stamina="134" dexterity="559" speed="423" tackling="343" passing="381" shooting="410" control="483" accuracy="341" goalkeeping="56" heading="326"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60213">
+    <personal name="Iosif Kalai">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="488" risktaking="289" offensive="609" aggressive="653" consistent="416" creative="670" experienced="424"/>
+    <skills stamina="218" dexterity="601" speed="325" tackling="496" passing="391" shooting="382" control="397" accuracy="262" goalkeeping="53" heading="394"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="60214">
+    <personal name="Adrian Toma">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="366" risktaking="738" offensive="491" aggressive="652" consistent="601" creative="497" experienced="523"/>
+    <skills stamina="434" dexterity="303" speed="428" tackling="407" passing="356" shooting="240" control="363" accuracy="436" goalkeeping="64" heading="349"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60215">
+    <personal name="Romulus Miclea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="514" risktaking="699" offensive="447" aggressive="311" consistent="430" creative="507" experienced="584"/>
+    <skills stamina="528" dexterity="456" speed="411" tackling="360" passing="322" shooting="449" control="433" accuracy="251" goalkeeping="59" heading="274"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60216">
+    <personal name="Branko Bakovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="461" risktaking="458" offensive="611" aggressive="546" consistent="499" creative="351" experienced="207"/>
+    <skills stamina="388" dexterity="665" speed="170" tackling="267" passing="353" shooting="294" control="433" accuracy="427" goalkeeping="45" heading="294"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60217">
+    <personal name="Cristian Munteanu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="438" risktaking="549" offensive="539" aggressive="375" consistent="316" creative="233" experienced="391"/>
+    <skills stamina="649" dexterity="633" speed="225" tackling="365" passing="474" shooting="366" control="314" accuracy="400" goalkeeping="59" heading="428"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60218">
+    <personal name="Sebastian Sfirlea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="488" risktaking="724" offensive="529" aggressive="688" consistent="74" creative="552" experienced="469"/>
+    <skills stamina="309" dexterity="398" speed="299" tackling="397" passing="343" shooting="344" control="376" accuracy="427" goalkeeping="58" heading="447"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60219">
+    <personal name="Srecko Mitrovic">
+      <appearance value="0"/>
+      <nationality value="Australia"/>
+    </personal>
+    <personality active="438" risktaking="525" offensive="315" aggressive="595" consistent="329" creative="380" experienced="967"/>
+    <skills stamina="229" dexterity="305" speed="571" tackling="424" passing="416" shooting="340" control="396" accuracy="303" goalkeeping="48" heading="372"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60220">
+    <personal name="Ciprian Milea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="403" risktaking="480" offensive="630" aggressive="238" consistent="510" creative="326" experienced="505"/>
+    <skills stamina="169" dexterity="636" speed="514" tackling="319" passing="324" shooting="446" control="348" accuracy="298" goalkeeping="55" heading="351"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60221">
+    <personal name="Martin Cernoch">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="603" risktaking="333" offensive="454" aggressive="443" consistent="488" creative="441" experienced="583"/>
+    <skills stamina="413" dexterity="612" speed="431" tackling="422" passing="386" shooting="367" control="270" accuracy="550" goalkeeping="76" heading="305"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60222">
+    <personal name="Clement Palimaru">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="562" risktaking="570" offensive="490" aggressive="622" consistent="475" creative="464" experienced="304"/>
+    <skills stamina="481" dexterity="182" speed="193" tackling="447" passing="291" shooting="467" control="352" accuracy="446" goalkeeping="44" heading="318"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60223">
+    <personal name="Svetozar Mijin">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="626" risktaking="699" offensive="608" aggressive="541" consistent="499" creative="532" experienced="403"/>
+    <skills stamina="560" dexterity="437" speed="519" tackling="435" passing="351" shooting="312" control="345" accuracy="402" goalkeeping="48" heading="296"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60224">
+    <personal name="Marius Popa">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="367" risktaking="442" offensive="591" aggressive="217" consistent="850" creative="272" experienced="720"/>
+    <skills stamina="479" dexterity="647" speed="297" tackling="257" passing="441" shooting="405" control="446" accuracy="249" goalkeeping="585" heading="203"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60225">
+    <personal name="Costel Pantelimon">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="561" risktaking="617" offensive="405" aggressive="288" consistent="435" creative="391" experienced="557"/>
+    <skills stamina="417" dexterity="643" speed="188" tackling="209" passing="379" shooting="378" control="364" accuracy="156" goalkeeping="388" heading="168"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60226">
+    <personal name="Stelian Stancu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="381" risktaking="500" offensive="657" aggressive="549" consistent="724" creative="549" experienced="612"/>
+    <skills stamina="556" dexterity="481" speed="652" tackling="449" passing="419" shooting="376" control="511" accuracy="369" goalkeeping="68" heading="347"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60227">
+    <personal name="Ioan Dancia">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="792" risktaking="740" offensive="677" aggressive="594" consistent="501" creative="483" experienced="214"/>
+    <skills stamina="458" dexterity="548" speed="255" tackling="524" passing="417" shooting="431" control="497" accuracy="420" goalkeeping="83" heading="476"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60228">
+    <personal name="Jonathan Mckain">
+      <appearance value="0"/>
+      <nationality value="Australia"/>
+    </personal>
+    <personality active="459" risktaking="353" offensive="495" aggressive="468" consistent="340" creative="370" experienced="332"/>
+    <skills stamina="408" dexterity="657" speed="189" tackling="434" passing="511" shooting="502" control="529" accuracy="554" goalkeeping="92" heading="536"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="60229">
+    <personal name="Gabriel Canu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="288" risktaking="473" offensive="223" aggressive="339" consistent="679" creative="489" experienced="591"/>
+    <skills stamina="284" dexterity="703" speed="412" tackling="571" passing="361" shooting="457" control="465" accuracy="501" goalkeeping="66" heading="397"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60230">
+    <personal name="Wayne Srhoj">
+      <appearance value="0"/>
+      <nationality value="Australia"/>
+    </personal>
+    <personality active="756" risktaking="514" offensive="271" aggressive="379" consistent="356" creative="304" experienced="298"/>
+    <skills stamina="277" dexterity="443" speed="448" tackling="558" passing="566" shooting="447" control="413" accuracy="495" goalkeeping="77" heading="415"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60231">
+    <personal name="Dare Vrsic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="508" risktaking="794" offensive="498" aggressive="663" consistent="535" creative="287" experienced="409"/>
+    <skills stamina="462" dexterity="451" speed="585" tackling="476" passing="482" shooting="499" control="420" accuracy="410" goalkeeping="89" heading="528"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60232">
+    <personal name="Artavazd Karamyan">
+      <appearance value="0"/>
+      <nationality value="Armenia"/>
+    </personal>
+    <personality active="424" risktaking="477" offensive="625" aggressive="519" consistent="405" creative="750" experienced="681"/>
+    <skills stamina="429" dexterity="404" speed="490" tackling="517" passing="580" shooting="442" control="422" accuracy="468" goalkeeping="66" heading="520"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60233">
+    <personal name="Dejan Ilic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="918" risktaking="575" offensive="604" aggressive="408" consistent="452" creative="526" experienced="743"/>
+    <skills stamina="500" dexterity="445" speed="459" tackling="455" passing="571" shooting="548" control="484" accuracy="526" goalkeeping="74" heading="493"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="60234">
+    <personal name="Dan Alexa">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="507" risktaking="606" offensive="201" aggressive="442" consistent="718" creative="874" experienced="477"/>
+    <skills stamina="312" dexterity="381" speed="348" tackling="516" passing="557" shooting="521" control="545" accuracy="429" goalkeeping="82" heading="561"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60235">
+    <personal name="Marian Aliuta">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="645" risktaking="650" offensive="515" aggressive="749" consistent="934" creative="555" experienced="500"/>
+    <skills stamina="314" dexterity="749" speed="666" tackling="449" passing="570" shooting="510" control="436" accuracy="415" goalkeeping="81" heading="521"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60236">
+    <personal name="Ioan Ganea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="465" risktaking="558" offensive="476" aggressive="172" consistent="574" creative="520" experienced="516"/>
+    <skills stamina="221" dexterity="557" speed="313" tackling="557" passing="402" shooting="472" control="450" accuracy="515" goalkeeping="67" heading="533"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60237">
+    <personal name="Gheorghe Bucur">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="453" risktaking="758" offensive="732" aggressive="410" consistent="472" creative="451" experienced="262"/>
+    <skills stamina="500" dexterity="316" speed="728" tackling="548" passing="393" shooting="483" control="415" accuracy="548" goalkeeping="76" heading="554"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60238">
+    <personal name="Andrei Cristea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="573" risktaking="426" offensive="589" aggressive="728" consistent="484" creative="501" experienced="380"/>
+    <skills stamina="327" dexterity="217" speed="646" tackling="519" passing="383" shooting="468" control="437" accuracy="459" goalkeeping="84" heading="566"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60239">
+    <personal name="Mansour Gueye">
+      <appearance value="1"/>
+      <nationality value="Senegal"/>
+    </personal>
+    <personality active="397" risktaking="512" offensive="421" aggressive="609" consistent="583" creative="435" experienced="683"/>
+    <skills stamina="517" dexterity="515" speed="318" tackling="398" passing="396" shooting="536" control="479" accuracy="586" goalkeeping="88" heading="446"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60240">
+    <personal name="Danut Coman">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="436" risktaking="329" offensive="606" aggressive="439" consistent="517" creative="617" experienced="577"/>
+    <skills stamina="626" dexterity="193" speed="290" tackling="227" passing="422" shooting="380" control="364" accuracy="210" goalkeeping="577" heading="192"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60241">
+    <personal name="Andrade">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="599" risktaking="467" offensive="418" aggressive="577" consistent="569" creative="344" experienced="615"/>
+    <skills stamina="487" dexterity="578" speed="282" tackling="218" passing="335" shooting="344" control="353" accuracy="217" goalkeeping="414" heading="244"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60242">
+    <personal name="Cristian Sapunaru">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="377" risktaking="495" offensive="666" aggressive="407" consistent="376" creative="447" experienced="532"/>
+    <skills stamina="706" dexterity="692" speed="422" tackling="528" passing="453" shooting="330" control="389" accuracy="451" goalkeeping="64" heading="381"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60243">
+    <personal name="Vladimir Bozovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="551" risktaking="419" offensive="458" aggressive="635" consistent="511" creative="368" experienced="478"/>
+    <skills stamina="397" dexterity="249" speed="211" tackling="357" passing="470" shooting="437" control="390" accuracy="456" goalkeeping="64" heading="415"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60244">
+    <personal name="Vasile Maftei">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="335" risktaking="588" offensive="678" aggressive="461" consistent="381" creative="750" experienced="365"/>
+    <skills stamina="354" dexterity="313" speed="253" tackling="460" passing="521" shooting="413" control="576" accuracy="523" goalkeeping="71" heading="562"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60245">
+    <personal name="Marius Constantin">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="648" risktaking="547" offensive="500" aggressive="349" consistent="238" creative="840" experienced="442"/>
+    <skills stamina="715" dexterity="379" speed="291" tackling="548" passing="537" shooting="434" control="482" accuracy="474" goalkeeping="67" heading="519"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="60246">
+    <personal name="Nicola Herea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="472" risktaking="547" offensive="572" aggressive="440" consistent="400" creative="458" experienced="247"/>
+    <skills stamina="695" dexterity="589" speed="488" tackling="472" passing="464" shooting="417" control="535" accuracy="400" goalkeeping="84" heading="493"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60247">
+    <personal name="Mihai Buga">
+      <appearance value="8"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="365" risktaking="443" offensive="285" aggressive="686" consistent="370" creative="99" experienced="624"/>
+    <skills stamina="531" dexterity="375" speed="477" tackling="420" passing="416" shooting="434" control="494" accuracy="496" goalkeeping="77" heading="405"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60248">
+    <personal name="Emil Dica">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="711" risktaking="473" offensive="561" aggressive="497" consistent="365" creative="408" experienced="478"/>
+    <skills stamina="216" dexterity="197" speed="368" tackling="401" passing="450" shooting="392" control="492" accuracy="327" goalkeeping="76" heading="339"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60249">
+    <personal name="Marius Maldarasanu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="521" risktaking="727" offensive="569" aggressive="643" consistent="370" creative="472" experienced="200"/>
+    <skills stamina="431" dexterity="714" speed="280" tackling="463" passing="417" shooting="509" control="559" accuracy="518" goalkeeping="89" heading="376"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60250">
+    <personal name="Tamandare">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="598" risktaking="408" offensive="459" aggressive="701" consistent="783" creative="587" experienced="536"/>
+    <skills stamina="361" dexterity="278" speed="306" tackling="531" passing="470" shooting="385" control="481" accuracy="437" goalkeeping="54" heading="319"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60251">
+    <personal name="Constantin Lazar">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="664" risktaking="520" offensive="351" aggressive="557" consistent="662" creative="362" experienced="278"/>
+    <skills stamina="256" dexterity="183" speed="376" tackling="455" passing="552" shooting="497" control="392" accuracy="520" goalkeeping="76" heading="393"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60252">
+    <personal name="Stefan Grigorie">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="418" risktaking="428" offensive="528" aggressive="328" consistent="471" creative="332" experienced="411"/>
+    <skills stamina="466" dexterity="530" speed="628" tackling="416" passing="492" shooting="468" control="519" accuracy="505" goalkeeping="71" heading="341"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60253">
+    <personal name="Cesinha">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="653" risktaking="360" offensive="398" aggressive="368" consistent="204" creative="500" experienced="367"/>
+    <skills stamina="402" dexterity="285" speed="528" tackling="403" passing="424" shooting="457" control="544" accuracy="487" goalkeeping="64" heading="468"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60254">
+    <personal name="Pierre Boya">
+      <appearance value="1"/>
+      <nationality value="Cameroon"/>
+    </personal>
+    <personality active="889" risktaking="443" offensive="368" aggressive="271" consistent="549" creative="213" experienced="434"/>
+    <skills stamina="306" dexterity="570" speed="605" tackling="443" passing="364" shooting="513" control="486" accuracy="439" goalkeeping="84" heading="462"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60255">
+    <personal name="Ionut Mazilu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="561" risktaking="619" offensive="282" aggressive="645" consistent="416" creative="443" experienced="495"/>
+    <skills stamina="509" dexterity="447" speed="433" tackling="503" passing="546" shooting="543" control="548" accuracy="491" goalkeeping="71" heading="529"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60256">
+    <personal name="Bogdan Stelea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="406" risktaking="547" offensive="518" aggressive="653" consistent="522" creative="496" experienced="391"/>
+    <skills stamina="221" dexterity="365" speed="423" tackling="263" passing="417" shooting="370" control="424" accuracy="177" goalkeeping="532" heading="242"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="60257">
+    <personal name="Srdjan Zakula">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="464" risktaking="708" offensive="347" aggressive="723" consistent="380" creative="690" experienced="547"/>
+    <skills stamina="590" dexterity="637" speed="182" tackling="205" passing="281" shooting="375" control="294" accuracy="162" goalkeeping="321" heading="158"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60258">
+    <personal name="Laszlo Balint">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="366" risktaking="512" offensive="452" aggressive="550" consistent="366" creative="295" experienced="502"/>
+    <skills stamina="605" dexterity="402" speed="221" tackling="353" passing="356" shooting="456" control="442" accuracy="320" goalkeeping="63" heading="355"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60259">
+    <personal name="Ciprian Petre">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="367" risktaking="217" offensive="297" aggressive="721" consistent="360" creative="460" experienced="106"/>
+    <skills stamina="189" dexterity="376" speed="573" tackling="470" passing="273" shooting="321" control="471" accuracy="361" goalkeeping="61" heading="317"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60260">
+    <personal name="Ersin Mehmedovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="727" risktaking="400" offensive="530" aggressive="589" consistent="451" creative="581" experienced="723"/>
+    <skills stamina="418" dexterity="332" speed="214" tackling="426" passing="449" shooting="359" control="472" accuracy="363" goalkeeping="63" heading="539"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60261">
+    <personal name="George Galamaz">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="554" risktaking="712" offensive="481" aggressive="502" consistent="527" creative="548" experienced="365"/>
+    <skills stamina="299" dexterity="515" speed="459" tackling="492" passing="343" shooting="304" control="418" accuracy="313" goalkeeping="74" heading="288"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60262">
+    <personal name="Valentin Negru">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="736" risktaking="620" offensive="372" aggressive="527" consistent="538" creative="428" experienced="379"/>
+    <skills stamina="590" dexterity="429" speed="202" tackling="469" passing="407" shooting="310" control="443" accuracy="377" goalkeeping="79" heading="465"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="60263">
+    <personal name="Valeriu Bordeanu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="459" risktaking="322" offensive="422" aggressive="459" consistent="506" creative="452" experienced="568"/>
+    <skills stamina="329" dexterity="548" speed="304" tackling="425" passing="312" shooting="419" control="372" accuracy="319" goalkeeping="59" heading="413"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60264">
+    <personal name="Marius Onofras">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="653" risktaking="569" offensive="351" aggressive="304" consistent="508" creative="465" experienced="513"/>
+    <skills stamina="609" dexterity="448" speed="344" tackling="357" passing="557" shooting="454" control="367" accuracy="354" goalkeeping="84" heading="383"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60265">
+    <personal name="Iulian Apostol">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="565" risktaking="746" offensive="459" aggressive="500" consistent="485" creative="403" experienced="569"/>
+    <skills stamina="269" dexterity="334" speed="525" tackling="389" passing="545" shooting="377" control="431" accuracy="490" goalkeeping="77" heading="469"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60266">
+    <personal name="Iulian Arhire">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="488" risktaking="376" offensive="238" aggressive="474" consistent="545" creative="722" experienced="630"/>
+    <skills stamina="545" dexterity="337" speed="644" tackling="302" passing="382" shooting="373" control="369" accuracy="398" goalkeeping="55" heading="434"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60267">
+    <personal name="Razvan Paduretu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="443" risktaking="791" offensive="366" aggressive="621" consistent="638" creative="319" experienced="655"/>
+    <skills stamina="666" dexterity="623" speed="523" tackling="426" passing="498" shooting="389" control="414" accuracy="520" goalkeeping="62" heading="457"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="60268">
+    <personal name="Bogdan Aldea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="221" risktaking="844" offensive="590" aggressive="349" consistent="431" creative="515" experienced="484"/>
+    <skills stamina="127" dexterity="526" speed="213" tackling="306" passing="268" shooting="484" control="439" accuracy="309" goalkeeping="49" heading="293"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60269">
+    <personal name="Marius Bilasco">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="464" risktaking="492" offensive="489" aggressive="723" consistent="679" creative="413" experienced="697"/>
+    <skills stamina="323" dexterity="448" speed="228" tackling="384" passing="275" shooting="504" control="362" accuracy="483" goalkeeping="71" heading="411"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="60270">
+    <personal name="Bogdan Stancu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="224" risktaking="418" offensive="669" aggressive="544" consistent="304" creative="399" experienced="469"/>
+    <skills stamina="270" dexterity="552" speed="490" tackling="481" passing="458" shooting="489" control="395" accuracy="541" goalkeeping="63" heading="532"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60271">
+    <personal name="Bogdan Mara">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="510" risktaking="496" offensive="617" aggressive="616" consistent="235" creative="985" experienced="568"/>
+    <skills stamina="618" dexterity="390" speed="187" tackling="305" passing="397" shooting="394" control="406" accuracy="487" goalkeeping="80" heading="464"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60272">
+    <personal name="Sebastian Hutan">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="162" risktaking="681" offensive="619" aggressive="341" consistent="271" creative="564" experienced="595"/>
+    <skills stamina="224" dexterity="633" speed="332" tackling="236" passing="392" shooting="467" control="290" accuracy="168" goalkeeping="425" heading="168"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60273">
+    <personal name="Marius Mirne">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="663" risktaking="582" offensive="294" aggressive="428" consistent="207" creative="542" experienced="670"/>
+    <skills stamina="162" dexterity="173" speed="327" tackling="190" passing="353" shooting="346" control="243" accuracy="191" goalkeeping="373" heading="164"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="60274">
+    <personal name="Dorin Mihut">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="466" risktaking="400" offensive="627" aggressive="459" consistent="587" creative="667" experienced="837"/>
+    <skills stamina="700" dexterity="615" speed="428" tackling="305" passing="403" shooting="334" control="422" accuracy="457" goalkeeping="71" heading="408"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60275">
+    <personal name="Corneliu Codreanu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="597" risktaking="590" offensive="538" aggressive="411" consistent="401" creative="547" experienced="595"/>
+    <skills stamina="597" dexterity="479" speed="136" tackling="290" passing="326" shooting="397" control="338" accuracy="314" goalkeeping="69" heading="252"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60276">
+    <personal name="Daniel Chirita">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="587" risktaking="631" offensive="445" aggressive="159" consistent="852" creative="683" experienced="630"/>
+    <skills stamina="590" dexterity="270" speed="602" tackling="333" passing="324" shooting="300" control="401" accuracy="307" goalkeeping="52" heading="345"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60277">
+    <personal name="Iulian Miu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="387" risktaking="454" offensive="671" aggressive="488" consistent="370" creative="731" experienced="493"/>
+    <skills stamina="474" dexterity="476" speed="645" tackling="287" passing="324" shooting="291" control="369" accuracy="422" goalkeeping="52" heading="324"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60278">
+    <personal name="Cosmin Pascovici">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="597" risktaking="699" offensive="776" aggressive="398" consistent="573" creative="751" experienced="555"/>
+    <skills stamina="316" dexterity="519" speed="221" tackling="505" passing="507" shooting="444" control="579" accuracy="481" goalkeeping="89" heading="495"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60279">
+    <personal name="Cristian Todea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="713" risktaking="722" offensive="298" aggressive="410" consistent="602" creative="512" experienced="527"/>
+    <skills stamina="499" dexterity="501" speed="594" tackling="343" passing="447" shooting="358" control="333" accuracy="294" goalkeeping="51" heading="430"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60280">
+    <personal name="Florin Dan">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="363" risktaking="391" offensive="815" aggressive="842" consistent="575" creative="530" experienced="506"/>
+    <skills stamina="345" dexterity="161" speed="571" tackling="270" passing="463" shooting="463" control="394" accuracy="352" goalkeeping="59" heading="426"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60281">
+    <personal name="Cornel Frasineanu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="438" risktaking="755" offensive="325" aggressive="607" consistent="392" creative="515" experienced="392"/>
+    <skills stamina="538" dexterity="503" speed="593" tackling="400" passing="509" shooting="366" control="456" accuracy="531" goalkeeping="65" heading="428"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60282">
+    <personal name="Ivan Djokovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="311" risktaking="287" offensive="472" aggressive="497" consistent="317" creative="585" experienced="516"/>
+    <skills stamina="684" dexterity="197" speed="341" tackling="432" passing="418" shooting="262" control="329" accuracy="267" goalkeeping="55" heading="367"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60283">
+    <personal name="Robert Roszel">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="417" risktaking="432" offensive="575" aggressive="783" consistent="659" creative="592" experienced="310"/>
+    <skills stamina="157" dexterity="530" speed="604" tackling="330" passing="366" shooting="280" control="262" accuracy="350" goalkeeping="66" heading="395"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60284">
+    <personal name="Alexandru Baltoi">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="263" risktaking="410" offensive="669" aggressive="263" consistent="751" creative="521" experienced="521"/>
+    <skills stamina="168" dexterity="298" speed="301" tackling="397" passing="436" shooting="523" control="405" accuracy="385" goalkeeping="73" heading="492"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60285">
+    <personal name="Branko Radovanovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="635" risktaking="450" offensive="388" aggressive="383" consistent="554" creative="332" experienced="661"/>
+    <skills stamina="260" dexterity="451" speed="471" tackling="408" passing="490" shooting="472" control="525" accuracy="484" goalkeeping="69" heading="410"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60286">
+    <personal name="Edson">
+      <appearance value="1"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="428" risktaking="310" offensive="388" aggressive="349" consistent="485" creative="427" experienced="287"/>
+    <skills stamina="690" dexterity="262" speed="699" tackling="504" passing="367" shooting="466" control="324" accuracy="304" goalkeeping="54" heading="444"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60287">
+    <personal name="Adrian Hora">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="502" risktaking="373" offensive="470" aggressive="176" consistent="617" creative="541" experienced="371"/>
+    <skills stamina="570" dexterity="319" speed="208" tackling="437" passing="278" shooting="464" control="393" accuracy="340" goalkeeping="66" heading="429"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="60288">
+    <personal name="Robinson Zapata">
+      <appearance value="1"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="446" risktaking="445" offensive="384" aggressive="464" consistent="653" creative="731" experienced="410"/>
+    <skills stamina="195" dexterity="471" speed="436" tackling="179" passing="454" shooting="413" control="389" accuracy="212" goalkeeping="468" heading="210"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60289">
+    <personal name="Cosmin Vatca">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="607" risktaking="234" offensive="365" aggressive="415" consistent="140" creative="412" experienced="504"/>
+    <skills stamina="422" dexterity="212" speed="449" tackling="157" passing="468" shooting="416" control="255" accuracy="153" goalkeeping="502" heading="187"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60290">
+    <personal name="Pawel Golanski">
+      <appearance value="0"/>
+      <nationality value="Poland"/>
+    </personal>
+    <personality active="670" risktaking="399" offensive="442" aggressive="587" consistent="469" creative="445" experienced="632"/>
+    <skills stamina="759" dexterity="412" speed="567" tackling="552" passing="468" shooting="515" control="519" accuracy="572" goalkeeping="90" heading="537"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60291">
+    <personal name="Ifeanyi Emeghara">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="554" risktaking="573" offensive="498" aggressive="497" consistent="467" creative="751" experienced="614"/>
+    <skills stamina="356" dexterity="493" speed="716" tackling="545" passing="438" shooting="533" control="580" accuracy="540" goalkeeping="76" heading="512"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60292">
+    <personal name="Ionut Rada">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="952" risktaking="407" offensive="517" aggressive="127" consistent="514" creative="416" experienced="348"/>
+    <skills stamina="415" dexterity="638" speed="615" tackling="455" passing="448" shooting="532" control="562" accuracy="406" goalkeeping="74" heading="425"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60293">
+    <personal name="Dorin Goian">
+      <appearance value="8"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="576" risktaking="610" offensive="199" aggressive="471" consistent="387" creative="296" experienced="389"/>
+    <skills stamina="229" dexterity="576" speed="478" tackling="451" passing="439" shooting="429" control="423" accuracy="433" goalkeeping="87" heading="432"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60294">
+    <personal name="Sorin Ghionea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="639" risktaking="479" offensive="638" aggressive="569" consistent="694" creative="588" experienced="758"/>
+    <skills stamina="445" dexterity="245" speed="709" tackling="539" passing="540" shooting="551" control="453" accuracy="544" goalkeeping="80" heading="461"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60295">
+    <personal name="Victoras Iacob">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="578" risktaking="505" offensive="575" aggressive="562" consistent="495" creative="417" experienced="439"/>
+    <skills stamina="367" dexterity="694" speed="217" tackling="376" passing="354" shooting="363" control="425" accuracy="539" goalkeeping="70" heading="550"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="60296">
+    <personal name="Banel Nicolita">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="435" risktaking="298" offensive="395" aggressive="475" consistent="706" creative="500" experienced="604"/>
+    <skills stamina="744" dexterity="652" speed="700" tackling="545" passing="435" shooting="571" control="504" accuracy="482" goalkeeping="75" heading="576"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60297">
+    <personal name="Nicolae Dica">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="240" risktaking="651" offensive="515" aggressive="468" consistent="613" creative="62" experienced="650"/>
+    <skills stamina="810" dexterity="399" speed="472" tackling="543" passing="580" shooting="592" control="539" accuracy="695" goalkeeping="98" heading="515"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60298">
+    <personal name="Mirel Radoi">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="428" risktaking="377" offensive="218" aggressive="604" consistent="552" creative="412" experienced="714"/>
+    <skills stamina="534" dexterity="677" speed="560" tackling="652" passing="656" shooting="508" control="649" accuracy="527" goalkeeping="112" heading="480"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60299">
+    <personal name="Ovidiu Petre">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="675" risktaking="346" offensive="497" aggressive="440" consistent="293" creative="749" experienced="335"/>
+    <skills stamina="481" dexterity="310" speed="741" tackling="549" passing="552" shooting="579" control="543" accuracy="568" goalkeeping="81" heading="414"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60300">
+    <personal name="Mihaita Plesan">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="484" risktaking="329" offensive="517" aggressive="330" consistent="431" creative="521" experienced="718"/>
+    <skills stamina="604" dexterity="402" speed="619" tackling="475" passing="455" shooting="558" control="454" accuracy="510" goalkeeping="89" heading="513"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60301">
+    <personal name="Romeo Surdu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="584" risktaking="567" offensive="433" aggressive="272" consistent="614" creative="648" experienced="755"/>
+    <skills stamina="392" dexterity="599" speed="436" tackling="378" passing="446" shooting="523" control="508" accuracy="456" goalkeeping="85" heading="480"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60302">
+    <personal name="Adrian Neaga">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="439" risktaking="485" offensive="591" aggressive="763" consistent="769" creative="661" experienced="621"/>
+    <skills stamina="285" dexterity="524" speed="627" tackling="419" passing="564" shooting="624" control="489" accuracy="550" goalkeeping="74" heading="452"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60303">
+    <personal name="Valentin Badea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="609" risktaking="488" offensive="387" aggressive="511" consistent="267" creative="609" experienced="468"/>
+    <skills stamina="436" dexterity="715" speed="635" tackling="467" passing="555" shooting="521" control="562" accuracy="474" goalkeeping="84" heading="539"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60304">
+    <personal name="Martin Tudor">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="464" risktaking="827" offensive="735" aggressive="595" consistent="261" creative="553" experienced="558"/>
+    <skills stamina="411" dexterity="279" speed="578" tackling="228" passing="420" shooting="413" control="214" accuracy="179" goalkeeping="384" heading="160"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60305">
+    <personal name="Emil Szolomajer">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="631" risktaking="716" offensive="530" aggressive="172" consistent="337" creative="540" experienced="829"/>
+    <skills stamina="450" dexterity="488" speed="159" tackling="203" passing="354" shooting="252" control="323" accuracy="157" goalkeeping="473" heading="206"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60306">
+    <personal name="Adrian Olah">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="624" risktaking="363" offensive="377" aggressive="485" consistent="389" creative="560" experienced="630"/>
+    <skills stamina="476" dexterity="506" speed="591" tackling="470" passing="538" shooting="339" control="418" accuracy="494" goalkeeping="59" heading="390"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60307">
+    <personal name="Park Jae-hong">
+      <appearance value="0"/>
+      <nationality value="South Korea"/>
+    </personal>
+    <personality active="494" risktaking="411" offensive="578" aggressive="255" consistent="521" creative="469" experienced="563"/>
+    <skills stamina="658" dexterity="562" speed="219" tackling="555" passing="418" shooting="360" control="483" accuracy="428" goalkeeping="67" heading="502"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60308">
+    <personal name="Milan Jovanovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="410" risktaking="469" offensive="460" aggressive="578" consistent="319" creative="442" experienced="616"/>
+    <skills stamina="662" dexterity="563" speed="569" tackling="522" passing="428" shooting="404" control="302" accuracy="361" goalkeeping="75" heading="385"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60309">
+    <personal name="Cosmin Crusoveanu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="438" risktaking="467" offensive="526" aggressive="252" consistent="528" creative="611" experienced="418"/>
+    <skills stamina="447" dexterity="258" speed="424" tackling="265" passing="456" shooting="429" control="392" accuracy="303" goalkeeping="74" heading="425"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60310">
+    <personal name="Bogdan Ungurusan">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="921" risktaking="343" offensive="627" aggressive="503" consistent="340" creative="563" experienced="465"/>
+    <skills stamina="684" dexterity="299" speed="285" tackling="442" passing="366" shooting="441" control="470" accuracy="269" goalkeeping="61" heading="423"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60311">
+    <personal name="Gigel Coman">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="811" risktaking="772" offensive="444" aggressive="490" consistent="657" creative="164" experienced="329"/>
+    <skills stamina="482" dexterity="572" speed="299" tackling="394" passing="293" shooting="380" control="365" accuracy="303" goalkeeping="56" heading="271"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60312">
+    <personal name="Marius Baciu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="775" risktaking="571" offensive="637" aggressive="490" consistent="295" creative="583" experienced="573"/>
+    <skills stamina="720" dexterity="637" speed="222" tackling="488" passing="580" shooting="522" control="421" accuracy="507" goalkeeping="88" heading="423"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60313">
+    <personal name="Romik Khachatryan">
+      <appearance value="0"/>
+      <nationality value="Armenia"/>
+    </personal>
+    <personality active="568" risktaking="519" offensive="470" aggressive="253" consistent="562" creative="617" experienced="562"/>
+    <skills stamina="413" dexterity="366" speed="342" tackling="403" passing="257" shooting="396" control="389" accuracy="387" goalkeeping="73" heading="309"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60314">
+    <personal name="Mugur Bolohan">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="453" risktaking="545" offensive="497" aggressive="387" consistent="457" creative="495" experienced="320"/>
+    <skills stamina="561" dexterity="411" speed="440" tackling="338" passing="454" shooting="299" control="432" accuracy="306" goalkeeping="64" heading="348"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="60315">
+    <personal name="Sergiu Costea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="417" risktaking="369" offensive="426" aggressive="395" consistent="454" creative="453" experienced="474"/>
+    <skills stamina="461" dexterity="547" speed="283" tackling="354" passing="283" shooting="368" control="350" accuracy="398" goalkeeping="69" heading="444"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60316">
+    <personal name="Alin Savu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="615" risktaking="428" offensive="560" aggressive="500" consistent="194" creative="423" experienced="637"/>
+    <skills stamina="216" dexterity="618" speed="271" tackling="286" passing="292" shooting="336" control="380" accuracy="380" goalkeeping="55" heading="352"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60317">
+    <personal name="Sandu Negrean">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="414" risktaking="627" offensive="708" aggressive="473" consistent="421" creative="613" experienced="888"/>
+    <skills stamina="574" dexterity="173" speed="153" tackling="403" passing="457" shooting="475" control="279" accuracy="398" goalkeeping="51" heading="336"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60318">
+    <personal name="Laurentiu Bus">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="272" risktaking="281" offensive="265" aggressive="408" consistent="441" creative="298" experienced="216"/>
+    <skills stamina="184" dexterity="423" speed="147" tackling="331" passing="286" shooting="337" control="373" accuracy="437" goalkeeping="53" heading="411"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60319">
+    <personal name="Nemanja Jovanovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="328" risktaking="378" offensive="478" aggressive="630" consistent="618" creative="748" experienced="519"/>
+    <skills stamina="497" dexterity="144" speed="460" tackling="431" passing="309" shooting="368" control="359" accuracy="488" goalkeeping="68" heading="366"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="60320">
+    <personal name="Mircea Bornescu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="442" risktaking="451" offensive="349" aggressive="556" consistent="397" creative="450" experienced="490"/>
+    <skills stamina="640" dexterity="663" speed="368" tackling="207" passing="467" shooting="412" control="388" accuracy="220" goalkeeping="560" heading="212"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60321">
+    <personal name="Nicusor Banica">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="628" risktaking="454" offensive="550" aggressive="563" consistent="635" creative="584" experienced="358"/>
+    <skills stamina="511" dexterity="469" speed="335" tackling="190" passing="401" shooting="390" control="325" accuracy="221" goalkeeping="352" heading="213"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60322">
+    <personal name="Spase Dilevski">
+      <appearance value="0"/>
+      <nationality value="Australia"/>
+    </personal>
+    <personality active="489" risktaking="517" offensive="571" aggressive="645" consistent="433" creative="645" experienced="308"/>
+    <skills stamina="668" dexterity="502" speed="477" tackling="497" passing="458" shooting="342" control="389" accuracy="323" goalkeeping="80" heading="498"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60323">
+    <personal name="Gabriel Velcovici">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="489" risktaking="545" offensive="688" aggressive="648" consistent="498" creative="369" experienced="563"/>
+    <skills stamina="291" dexterity="556" speed="191" tackling="278" passing="481" shooting="341" control="322" accuracy="429" goalkeeping="48" heading="311"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60324">
+    <personal name="Valerica Gaman">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="560" risktaking="636" offensive="796" aggressive="824" consistent="289" creative="802" experienced="237"/>
+    <skills stamina="290" dexterity="279" speed="525" tackling="395" passing="493" shooting="273" control="362" accuracy="330" goalkeeping="65" heading="294"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60325">
+    <personal name="Josh Mitchell">
+      <appearance value="0"/>
+      <nationality value="Australia"/>
+    </personal>
+    <personality active="385" risktaking="493" offensive="315" aggressive="596" consistent="699" creative="435" experienced="610"/>
+    <skills stamina="253" dexterity="416" speed="218" tackling="340" passing="453" shooting="341" control="446" accuracy="345" goalkeeping="73" heading="307"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="60326">
+    <personal name="Joshua Rose">
+      <appearance value="0"/>
+      <nationality value="Australia"/>
+    </personal>
+    <personality active="687" risktaking="89" offensive="979" aggressive="423" consistent="382" creative="294" experienced="615"/>
+    <skills stamina="561" dexterity="660" speed="405" tackling="301" passing="355" shooting="408" control="322" accuracy="404" goalkeeping="52" heading="385"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60327">
+    <personal name="Robert Saceanu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="237" risktaking="368" offensive="538" aggressive="339" consistent="581" creative="766" experienced="693"/>
+    <skills stamina="620" dexterity="432" speed="554" tackling="400" passing="434" shooting="431" control="341" accuracy="445" goalkeeping="58" heading="318"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60328">
+    <personal name="Andrei Prepelita">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="472" risktaking="399" offensive="630" aggressive="517" consistent="510" creative="296" experienced="463"/>
+    <skills stamina="588" dexterity="295" speed="229" tackling="443" passing="558" shooting="475" control="461" accuracy="564" goalkeeping="88" heading="554"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60329">
+    <personal name="Julius Wobay">
+      <appearance value="1"/>
+      <nationality value="Sierra Leone"/>
+    </personal>
+    <personality active="494" risktaking="689" offensive="707" aggressive="394" consistent="408" creative="206" experienced="557"/>
+    <skills stamina="330" dexterity="298" speed="490" tackling="503" passing="398" shooting="478" control="437" accuracy="385" goalkeeping="70" heading="524"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60330">
+    <personal name="Mihai Dina">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="403" risktaking="617" offensive="440" aggressive="649" consistent="424" creative="567" experienced="476"/>
+    <skills stamina="505" dexterity="163" speed="403" tackling="314" passing="410" shooting="388" control="470" accuracy="415" goalkeeping="70" heading="359"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60331">
+    <personal name="Dorel Stoica">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="549" risktaking="649" offensive="722" aggressive="496" consistent="564" creative="535" experienced="861"/>
+    <skills stamina="400" dexterity="639" speed="149" tackling="449" passing="461" shooting="443" control="362" accuracy="325" goalkeeping="47" heading="407"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60332">
+    <personal name="Andrei Ionescu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="303" risktaking="616" offensive="660" aggressive="250" consistent="495" creative="210" experienced="376"/>
+    <skills stamina="484" dexterity="260" speed="395" tackling="324" passing="460" shooting="433" control="332" accuracy="471" goalkeeping="77" heading="350"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60333">
+    <personal name="Florin Costea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="487" risktaking="179" offensive="449" aggressive="264" consistent="148" creative="407" experienced="659"/>
+    <skills stamina="567" dexterity="387" speed="249" tackling="340" passing="261" shooting="405" control="381" accuracy="459" goalkeeping="70" heading="423"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60334">
+    <personal name="Ciprian Tanasa">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="534" risktaking="656" offensive="621" aggressive="398" consistent="596" creative="601" experienced="162"/>
+    <skills stamina="697" dexterity="593" speed="610" tackling="393" passing="467" shooting="545" control="497" accuracy="468" goalkeeping="62" heading="492"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="60335">
+    <personal name="Michael Baird">
+      <appearance value="8"/>
+      <nationality value="Australia"/>
+    </personal>
+    <personality active="725" risktaking="726" offensive="458" aggressive="535" consistent="516" creative="529" experienced="409"/>
+    <skills stamina="352" dexterity="457" speed="452" tackling="316" passing="392" shooting="371" control="317" accuracy="462" goalkeeping="59" heading="306"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60336">
+    <personal name="Vladimir Niculescu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="339" risktaking="292" offensive="288" aggressive="368" consistent="335" creative="444" experienced="645"/>
+    <skills stamina="181" dexterity="245" speed="313" tackling="131" passing="283" shooting="347" control="340" accuracy="165" goalkeeping="376" heading="155"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="60337">
+    <personal name="Sorin Popescu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="358" risktaking="705" offensive="527" aggressive="373" consistent="216" creative="273" experienced="490"/>
+    <skills stamina="520" dexterity="575" speed="540" tackling="204" passing="323" shooting="383" control="213" accuracy="154" goalkeeping="326" heading="161"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="60338">
+    <personal name="Florin Ciufulescu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="497" risktaking="316" offensive="609" aggressive="329" consistent="570" creative="556" experienced="374"/>
+    <skills stamina="474" dexterity="472" speed="651" tackling="448" passing="381" shooting="244" control="314" accuracy="298" goalkeeping="58" heading="368"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="60339">
+    <personal name="Razvan Patriche">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="295" risktaking="703" offensive="737" aggressive="445" consistent="676" creative="423" experienced="417"/>
+    <skills stamina="652" dexterity="706" speed="250" tackling="482" passing="432" shooting="260" control="320" accuracy="270" goalkeeping="66" heading="322"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="60340">
+    <personal name="Constantin Secareanu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="511" risktaking="585" offensive="560" aggressive="460" consistent="530" creative="499" experienced="433"/>
+    <skills stamina="640" dexterity="525" speed="609" tackling="446" passing="326" shooting="358" control="424" accuracy="409" goalkeeping="40" heading="386"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="60341">
+    <personal name="Alexandru Zolog">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="336" risktaking="361" offensive="326" aggressive="651" consistent="711" creative="271" experienced="514"/>
+    <skills stamina="245" dexterity="560" speed="278" tackling="485" passing="402" shooting="285" control="248" accuracy="297" goalkeeping="66" heading="416"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="60342">
+    <personal name="Marius Oae">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="490" risktaking="547" offensive="391" aggressive="537" consistent="608" creative="930" experienced="470"/>
+    <skills stamina="458" dexterity="638" speed="391" tackling="421" passing="342" shooting="397" control="399" accuracy="367" goalkeeping="60" heading="318"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60343">
+    <personal name="Florin Mladin">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="735" risktaking="305" offensive="461" aggressive="515" consistent="800" creative="553" experienced="478"/>
+    <skills stamina="527" dexterity="542" speed="356" tackling="434" passing="310" shooting="234" control="245" accuracy="343" goalkeeping="57" heading="277"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60344">
+    <personal name="Tibi Balan">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="454" risktaking="364" offensive="545" aggressive="507" consistent="610" creative="474" experienced="489"/>
+    <skills stamina="700" dexterity="457" speed="583" tackling="333" passing="327" shooting="387" control="350" accuracy="444" goalkeeping="42" heading="388"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="60345">
+    <personal name="Ionut Marinus">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="666" risktaking="496" offensive="371" aggressive="285" consistent="546" creative="445" experienced="705"/>
+    <skills stamina="450" dexterity="564" speed="287" tackling="442" passing="312" shooting="277" control="457" accuracy="247" goalkeeping="69" heading="415"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="60346">
+    <personal name="Sebastian Ghinga">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="500" risktaking="618" offensive="308" aggressive="411" consistent="313" creative="650" experienced="431"/>
+    <skills stamina="561" dexterity="473" speed="234" tackling="458" passing="425" shooting="450" control="385" accuracy="344" goalkeeping="47" heading="346"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="60347">
+    <personal name="Marius Postolache">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="481" risktaking="621" offensive="363" aggressive="377" consistent="285" creative="507" experienced="410"/>
+    <skills stamina="514" dexterity="277" speed="599" tackling="375" passing="364" shooting="302" control="268" accuracy="348" goalkeeping="56" heading="367"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="60348">
+    <personal name="Cristian Ciubotariu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="613" risktaking="497" offensive="287" aggressive="277" consistent="507" creative="525" experienced="622"/>
+    <skills stamina="461" dexterity="288" speed="605" tackling="398" passing="378" shooting="396" control="306" accuracy="397" goalkeeping="53" heading="247"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="60349">
+    <personal name="Costin Curelea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="308" risktaking="345" offensive="255" aggressive="383" consistent="451" creative="462" experienced="431"/>
+    <skills stamina="297" dexterity="311" speed="393" tackling="346" passing="321" shooting="390" control="314" accuracy="374" goalkeeping="51" heading="343"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60350">
+    <personal name="Silviu Pauna">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="625" risktaking="521" offensive="477" aggressive="517" consistent="626" creative="576" experienced="692"/>
+    <skills stamina="362" dexterity="337" speed="617" tackling="246" passing="322" shooting="372" control="299" accuracy="370" goalkeeping="39" heading="320"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="60351">
+    <personal name="Dacian Varga">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="492" risktaking="328" offensive="555" aggressive="348" consistent="491" creative="752" experienced="907"/>
+    <skills stamina="590" dexterity="240" speed="399" tackling="308" passing="366" shooting="320" control="277" accuracy="302" goalkeeping="50" heading="377"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+</Players>

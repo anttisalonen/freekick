@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Colombia">
+    <Regions>
+      <Region name="Colombia">
+        <stadium name="America Cali Stadium" capacity="16700"/>
+        <stadium name="Atl. Bucaramanga Stadium" capacity="9500"/>
+        <stadium name="Atl. Nacional Stadium" capacity="13200"/>
+        <stadium name="Atletico Huila Stadium" capacity="5600"/>
+        <stadium name="Atletico Junior Stadium" capacity="14700"/>
+        <stadium name="Cucuta Deportivo Stadium" capacity="5400"/>
+        <stadium name="Dep. Pereira Stadium" capacity="7000"/>
+        <stadium name="Dep. Quindio Stadium" capacity="7000"/>
+        <stadium name="Dep. Tolima Stadium" capacity="11200"/>
+        <stadium name="Dep. Tulia Stadium" capacity="6000"/>
+        <stadium name="Deportivo Cali Stadium" capacity="10800"/>
+        <stadium name="Envigado Fc Stadium" capacity="8000"/>
+        <stadium name="Ind. Medellin Stadium" capacity="7900"/>
+        <stadium name="Ind. Santa Fe Stadium" capacity="6600"/>
+        <stadium name="Millonarios Stadium" capacity="13200"/>
+        <stadium name="Once Caldas Stadium" capacity="8100"/>
+        <stadium name="Union Magdalena Stadium" capacity="6900"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Colombian league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="16" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Colombian Premier league champion"/>
+              <attendances>
+                <attendance tournament="Colombian Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="America Cali"/>
+                <club name="Atl. Nacional"/>
+                <club name="Atletico Huila"/>
+                <club name="Atletico Junior"/>
+                <club name="Cucuta Deportivo"/>
+                <club name="Dep. Pereira"/>
+                <club name="Dep. Quindio"/>
+                <club name="Dep. Tolima"/>
+                <club name="Dep. Tulia"/>
+                <club name="Deportivo Cali"/>
+                <club name="Envigado Fc"/>
+                <club name="Ind. Medellin"/>
+                <club name="Ind. Santa Fe"/>
+                <club name="Millonarios"/>
+                <club name="Once Caldas"/>
+                <club name="Union Magdalena"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Colombian Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Colombian Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+        </stage>
+        <stage name="First round" type="1">
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Quarterfinals"/>
+          <preset>
+            <club name="America Cali"/>
+            <club name="Atl. Nacional"/>
+            <club name="Atletico Huila"/>
+            <club name="Atletico Junior"/>
+            <club name="Cucuta Deportivo"/>
+            <club name="Dep. Pereira"/>
+            <club name="Dep. Quindio"/>
+            <club name="Dep. Tolima"/>
+            <club name="Dep. Tulia"/>
+            <club name="Deportivo Cali"/>
+            <club name="Envigado Fc"/>
+            <club name="Ind. Medellin"/>
+            <club name="Ind. Santa Fe"/>
+            <club name="Millonarios"/>
+            <club name="Once Caldas"/>
+            <club name="Union Magdalena"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

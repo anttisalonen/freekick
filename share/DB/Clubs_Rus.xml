@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Amkar">
+    <coach name="Rashid Rakhimov"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Amkar Stadium"/>
+    <contracts>
+      <contract player="62000"/>
+      <contract player="62001"/>
+      <contract player="62002"/>
+      <contract player="62003"/>
+      <contract player="62004"/>
+      <contract player="62005"/>
+      <contract player="62006"/>
+      <contract player="62007"/>
+      <contract player="62008"/>
+      <contract player="62009"/>
+      <contract player="62010"/>
+      <contract player="62011"/>
+      <contract player="62012"/>
+      <contract player="62013"/>
+      <contract player="62014"/>
+      <contract player="62015"/>
+    </contracts>
+  </club>
+  <club name="Cska Moskva">
+    <coach name="Valeri Gazzaev"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Cska Moskva Stadium"/>
+    <contracts>
+      <contract player="62016"/>
+      <contract player="62017"/>
+      <contract player="62018"/>
+      <contract player="62019"/>
+      <contract player="62020"/>
+      <contract player="62021"/>
+      <contract player="62022"/>
+      <contract player="62023"/>
+      <contract player="62024"/>
+      <contract player="62025"/>
+      <contract player="62026"/>
+      <contract player="62027"/>
+      <contract player="62028"/>
+      <contract player="62029"/>
+      <contract player="62030"/>
+      <contract player="62031"/>
+    </contracts>
+  </club>
+  <club name="Alania">
+    <coach name="Stanislav Tskhovrebov"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Alania Stadium"/>
+    <contracts>
+      <contract player="62032"/>
+      <contract player="62033"/>
+      <contract player="62034"/>
+      <contract player="62035"/>
+      <contract player="62036"/>
+      <contract player="62037"/>
+      <contract player="62038"/>
+      <contract player="62039"/>
+      <contract player="62040"/>
+      <contract player="62041"/>
+      <contract player="62042"/>
+      <contract player="62043"/>
+      <contract player="62044"/>
+      <contract player="62045"/>
+      <contract player="62046"/>
+      <contract player="62047"/>
+    </contracts>
+  </club>
+  <club name="Dinamo Moskva">
+    <coach name="Andrei Kobelev"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Dinamo Moskva Stadium"/>
+    <contracts>
+      <contract player="62048"/>
+      <contract player="62049"/>
+      <contract player="62050"/>
+      <contract player="62051"/>
+      <contract player="62052"/>
+      <contract player="62053"/>
+      <contract player="62054"/>
+      <contract player="62055"/>
+      <contract player="62056"/>
+      <contract player="62057"/>
+      <contract player="62058"/>
+      <contract player="62059"/>
+      <contract player="62060"/>
+      <contract player="62061"/>
+      <contract player="62062"/>
+      <contract player="62063"/>
+    </contracts>
+  </club>
+  <club name="Fk Moskva">
+    <coach name="Oleg Blokhin"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Fk Moskva Stadium"/>
+    <contracts>
+      <contract player="62064"/>
+      <contract player="62065"/>
+      <contract player="62066"/>
+      <contract player="62067"/>
+      <contract player="62068"/>
+      <contract player="62069"/>
+      <contract player="62070"/>
+      <contract player="62071"/>
+      <contract player="62072"/>
+      <contract player="62073"/>
+      <contract player="62074"/>
+      <contract player="62075"/>
+      <contract player="62076"/>
+      <contract player="62077"/>
+      <contract player="62078"/>
+      <contract player="62079"/>
+    </contracts>
+  </club>
+  <club name="Kamaz">
+    <coach name="Yuri Gazzaev"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Kamaz Stadium"/>
+    <contracts>
+      <contract player="62080"/>
+      <contract player="62081"/>
+      <contract player="62082"/>
+      <contract player="62083"/>
+      <contract player="62084"/>
+      <contract player="62085"/>
+      <contract player="62086"/>
+      <contract player="62087"/>
+      <contract player="62088"/>
+      <contract player="62089"/>
+      <contract player="62090"/>
+      <contract player="62091"/>
+      <contract player="62092"/>
+      <contract player="62093"/>
+      <contract player="62094"/>
+      <contract player="62095"/>
+    </contracts>
+  </club>
+  <club name="Khimki">
+    <coach name="Slavoljub Muslin"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Khimki Stadium"/>
+    <contracts>
+      <contract player="62096"/>
+      <contract player="62097"/>
+      <contract player="62098"/>
+      <contract player="62099"/>
+      <contract player="62100"/>
+      <contract player="62101"/>
+      <contract player="62102"/>
+      <contract player="62103"/>
+      <contract player="62104"/>
+      <contract player="62105"/>
+      <contract player="62106"/>
+      <contract player="62107"/>
+      <contract player="62108"/>
+      <contract player="62109"/>
+      <contract player="62110"/>
+      <contract player="62111"/>
+    </contracts>
+  </club>
+  <club name="Krylia Sovetov">
+    <coach name="Sergei Oborin"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Krylia Sovetov Stadium"/>
+    <contracts>
+      <contract player="62112"/>
+      <contract player="62113"/>
+      <contract player="62114"/>
+      <contract player="62115"/>
+      <contract player="62116"/>
+      <contract player="62117"/>
+      <contract player="62118"/>
+      <contract player="62119"/>
+      <contract player="62120"/>
+      <contract player="62121"/>
+      <contract player="62122"/>
+      <contract player="62123"/>
+      <contract player="62124"/>
+      <contract player="62125"/>
+      <contract player="62126"/>
+      <contract player="62127"/>
+    </contracts>
+  </club>
+  <club name="Ural">
+    <coach name="Aleksandr Pobegalov"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="127" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Ural Stadium"/>
+    <contracts>
+      <contract player="62128"/>
+      <contract player="62129"/>
+      <contract player="62130"/>
+      <contract player="62131"/>
+      <contract player="62132"/>
+      <contract player="62133"/>
+      <contract player="62134"/>
+      <contract player="62135"/>
+      <contract player="62136"/>
+      <contract player="62137"/>
+      <contract player="62138"/>
+      <contract player="62139"/>
+      <contract player="62140"/>
+      <contract player="62141"/>
+      <contract player="62142"/>
+      <contract player="62143"/>
+    </contracts>
+  </club>
+  <club name="Kuban">
+    <coach name="Soferbi Eshugov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Kuban Stadium"/>
+    <contracts>
+      <contract player="62144"/>
+      <contract player="62145"/>
+      <contract player="62146"/>
+      <contract player="62147"/>
+      <contract player="62148"/>
+      <contract player="62149"/>
+      <contract player="62150"/>
+      <contract player="62151"/>
+      <contract player="62152"/>
+      <contract player="62153"/>
+      <contract player="62154"/>
+      <contract player="62155"/>
+      <contract player="62156"/>
+      <contract player="62157"/>
+      <contract player="62158"/>
+      <contract player="62159"/>
+    </contracts>
+  </club>
+  <club name="Lokomotiv Moskva">
+    <coach name="Anatoli Byshovets"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Lokomotiv Moskva Stadium"/>
+    <contracts>
+      <contract player="62160"/>
+      <contract player="62161"/>
+      <contract player="62162"/>
+      <contract player="62163"/>
+      <contract player="62164"/>
+      <contract player="62165"/>
+      <contract player="62166"/>
+      <contract player="62167"/>
+      <contract player="62168"/>
+      <contract player="62169"/>
+      <contract player="62170"/>
+      <contract player="62171"/>
+      <contract player="62172"/>
+      <contract player="62173"/>
+      <contract player="62174"/>
+      <contract player="62175"/>
+    </contracts>
+  </club>
+  <club name="Luch-energia">
+    <coach name="Zoran Vulic"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Luch-energia Stadium"/>
+    <contracts>
+      <contract player="62176"/>
+      <contract player="62177"/>
+      <contract player="62178"/>
+      <contract player="62179"/>
+      <contract player="62180"/>
+      <contract player="62181"/>
+      <contract player="62182"/>
+      <contract player="62183"/>
+      <contract player="62184"/>
+      <contract player="62185"/>
+      <contract player="62186"/>
+      <contract player="62187"/>
+      <contract player="62188"/>
+      <contract player="62189"/>
+      <contract player="62190"/>
+      <contract player="62191"/>
+    </contracts>
+  </club>
+  <club name="Rostov">
+    <coach name="Oleg Dolmatov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Rostov Stadium"/>
+    <contracts>
+      <contract player="62192"/>
+      <contract player="62193"/>
+      <contract player="62194"/>
+      <contract player="62195"/>
+      <contract player="62196"/>
+      <contract player="62197"/>
+      <contract player="62198"/>
+      <contract player="62199"/>
+      <contract player="62200"/>
+      <contract player="62201"/>
+      <contract player="62202"/>
+      <contract player="62203"/>
+      <contract player="62204"/>
+      <contract player="62205"/>
+      <contract player="62206"/>
+      <contract player="62207"/>
+    </contracts>
+  </club>
+  <club name="Rubin">
+    <coach name="Kurban Berdiyev"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Rubin Stadium"/>
+    <contracts>
+      <contract player="62208"/>
+      <contract player="62209"/>
+      <contract player="62210"/>
+      <contract player="62211"/>
+      <contract player="62212"/>
+      <contract player="62213"/>
+      <contract player="62214"/>
+      <contract player="62215"/>
+      <contract player="62216"/>
+      <contract player="62217"/>
+      <contract player="62218"/>
+      <contract player="62219"/>
+      <contract player="62220"/>
+      <contract player="62221"/>
+      <contract player="62222"/>
+      <contract player="62223"/>
+    </contracts>
+  </club>
+  <club name="Saturn">
+    <coach name="Gadzhi Gadzhiev"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Saturn Stadium"/>
+    <contracts>
+      <contract player="62224"/>
+      <contract player="62225"/>
+      <contract player="62226"/>
+      <contract player="62227"/>
+      <contract player="62228"/>
+      <contract player="62229"/>
+      <contract player="62230"/>
+      <contract player="62231"/>
+      <contract player="62232"/>
+      <contract player="62233"/>
+      <contract player="62234"/>
+      <contract player="62235"/>
+      <contract player="62236"/>
+      <contract player="62237"/>
+      <contract player="62238"/>
+      <contract player="62239"/>
+    </contracts>
+  </club>
+  <club name="Sibir">
+    <coach name="Vladimir Fayzulin"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Sibir Stadium"/>
+    <contracts>
+      <contract player="62240"/>
+      <contract player="62241"/>
+      <contract player="62242"/>
+      <contract player="62243"/>
+      <contract player="62244"/>
+      <contract player="62245"/>
+      <contract player="62246"/>
+      <contract player="62247"/>
+      <contract player="62248"/>
+      <contract player="62249"/>
+      <contract player="62250"/>
+      <contract player="62251"/>
+      <contract player="62252"/>
+      <contract player="62253"/>
+      <contract player="62254"/>
+      <contract player="62255"/>
+    </contracts>
+  </club>
+  <club name="Spartak Moskva">
+    <coach name="Stanislav Cherchesov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Spartak Moskva Stadium"/>
+    <contracts>
+      <contract player="62256"/>
+      <contract player="62257"/>
+      <contract player="62258"/>
+      <contract player="62259"/>
+      <contract player="62260"/>
+      <contract player="62261"/>
+      <contract player="62262"/>
+      <contract player="62263"/>
+      <contract player="62264"/>
+      <contract player="62265"/>
+      <contract player="62266"/>
+      <contract player="62267"/>
+      <contract player="62268"/>
+      <contract player="62269"/>
+      <contract player="62270"/>
+      <contract player="62271"/>
+    </contracts>
+  </club>
+  <club name="Spartak Nalchik">
+    <coach name="Yuri Krasnozhan"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Spartak Nalchik Stadium"/>
+    <contracts>
+      <contract player="62272"/>
+      <contract player="62273"/>
+      <contract player="62274"/>
+      <contract player="62275"/>
+      <contract player="62276"/>
+      <contract player="62277"/>
+      <contract player="62278"/>
+      <contract player="62279"/>
+      <contract player="62280"/>
+      <contract player="62281"/>
+      <contract player="62282"/>
+      <contract player="62283"/>
+      <contract player="62284"/>
+      <contract player="62285"/>
+      <contract player="62286"/>
+      <contract player="62287"/>
+    </contracts>
+  </club>
+  <club name="Tom">
+    <coach name="Sergei Pavlov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Tom Stadium"/>
+    <contracts>
+      <contract player="62288"/>
+      <contract player="62289"/>
+      <contract player="62290"/>
+      <contract player="62291"/>
+      <contract player="62292"/>
+      <contract player="62293"/>
+      <contract player="62294"/>
+      <contract player="62295"/>
+      <contract player="62296"/>
+      <contract player="62297"/>
+      <contract player="62298"/>
+      <contract player="62299"/>
+      <contract player="62300"/>
+      <contract player="62301"/>
+      <contract player="62302"/>
+      <contract player="62303"/>
+    </contracts>
+  </club>
+  <club name="Zenit">
+    <coach name="Dick Advocaat"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Zenit Stadium"/>
+    <contracts>
+      <contract player="62304"/>
+      <contract player="62305"/>
+      <contract player="62306"/>
+      <contract player="62307"/>
+      <contract player="62308"/>
+      <contract player="62309"/>
+      <contract player="62310"/>
+      <contract player="62311"/>
+      <contract player="62312"/>
+      <contract player="62313"/>
+      <contract player="62314"/>
+      <contract player="62315"/>
+      <contract player="62316"/>
+      <contract player="62317"/>
+      <contract player="62318"/>
+      <contract player="62319"/>
+    </contracts>
+  </club>
+  <club name="Shinnik">
+    <coach name="Sergei Yuran"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="173" g="216" b="230"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Shinnik Stadium"/>
+    <contracts>
+      <contract player="62320"/>
+      <contract player="62321"/>
+      <contract player="62322"/>
+      <contract player="62323"/>
+      <contract player="62324"/>
+      <contract player="62325"/>
+      <contract player="62326"/>
+      <contract player="62327"/>
+      <contract player="62328"/>
+      <contract player="62329"/>
+      <contract player="62330"/>
+      <contract player="62331"/>
+      <contract player="62332"/>
+      <contract player="62333"/>
+      <contract player="62334"/>
+      <contract player="62335"/>
+    </contracts>
+  </club>
+  <club name="Torpedo Moskva">
+    <coach name="Ravil Sabitov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Torpedo Moskva Stadium"/>
+    <contracts>
+      <contract player="62336"/>
+      <contract player="62337"/>
+      <contract player="62338"/>
+      <contract player="62339"/>
+      <contract player="62340"/>
+      <contract player="62341"/>
+      <contract player="62342"/>
+      <contract player="62343"/>
+      <contract player="62344"/>
+      <contract player="62345"/>
+      <contract player="62346"/>
+      <contract player="62347"/>
+      <contract player="62348"/>
+      <contract player="62349"/>
+      <contract player="62350"/>
+      <contract player="62351"/>
+    </contracts>
+  </club>
+  <club name="Terek">
+    <coach name="Vladimir Fayzulin"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Russia"/>
+    <stadium name="Terek Stadium"/>
+    <contracts>
+      <contract player="62352"/>
+      <contract player="62353"/>
+      <contract player="62354"/>
+      <contract player="62355"/>
+      <contract player="62356"/>
+      <contract player="62357"/>
+      <contract player="62358"/>
+      <contract player="62359"/>
+      <contract player="62360"/>
+      <contract player="62361"/>
+      <contract player="62362"/>
+      <contract player="62363"/>
+      <contract player="62364"/>
+      <contract player="62365"/>
+      <contract player="62366"/>
+      <contract player="62367"/>
+    </contracts>
+  </club>
+</Clubs>

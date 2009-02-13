@@ -1,0 +1,2595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="78000">
+    <personal name="Vitali Reva">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="550" risktaking="395" offensive="678" aggressive="407" consistent="648" creative="693" experienced="615"/>
+    <skills stamina="606" dexterity="699" speed="555" tackling="267" passing="460" shooting="451" control="399" accuracy="269" goalkeeping="466" heading="178"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78001">
+    <personal name="Vadim Deonas">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="440" risktaking="590" offensive="673" aggressive="594" consistent="475" creative="955" experienced="463"/>
+    <skills stamina="546" dexterity="570" speed="651" tackling="134" passing="344" shooting="306" control="303" accuracy="151" goalkeeping="314" heading="198"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78002">
+    <personal name="Dmitri Parfenov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="780" risktaking="289" offensive="344" aggressive="572" consistent="488" creative="517" experienced="522"/>
+    <skills stamina="235" dexterity="154" speed="208" tackling="433" passing="352" shooting="478" control="447" accuracy="493" goalkeeping="70" heading="449"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78003">
+    <personal name="Andrei Khomin">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="883" risktaking="646" offensive="321" aggressive="510" consistent="467" creative="504" experienced="106"/>
+    <skills stamina="630" dexterity="218" speed="388" tackling="465" passing="325" shooting="446" control="362" accuracy="385" goalkeeping="49" heading="309"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78004">
+    <personal name="Andrei Raspopov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="437" risktaking="664" offensive="293" aggressive="458" consistent="563" creative="737" experienced="565"/>
+    <skills stamina="399" dexterity="428" speed="451" tackling="349" passing="383" shooting="456" control="357" accuracy="440" goalkeeping="61" heading="298"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78005">
+    <personal name="Aleksandr Romanchuk">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="557" risktaking="524" offensive="663" aggressive="537" consistent="460" creative="279" experienced="341"/>
+    <skills stamina="455" dexterity="723" speed="289" tackling="393" passing="383" shooting="369" control="369" accuracy="403" goalkeeping="76" heading="465"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78006">
+    <personal name="Paul Essola">
+      <appearance value="1"/>
+      <nationality value="Cameroon"/>
+    </personal>
+    <personality active="614" risktaking="684" offensive="590" aggressive="421" consistent="699" creative="272" experienced="513"/>
+    <skills stamina="360" dexterity="485" speed="361" tackling="471" passing="471" shooting="372" control="433" accuracy="513" goalkeeping="85" heading="424"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78007">
+    <personal name="Sergei Litovchenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="249" risktaking="505" offensive="371" aggressive="556" consistent="878" creative="440" experienced="557"/>
+    <skills stamina="355" dexterity="356" speed="564" tackling="275" passing="393" shooting="351" control="466" accuracy="401" goalkeeping="54" heading="427"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78008">
+    <personal name="Sergei Kuznetsov">
+      <appearance value="0"/>
+      <nationality value="Belarus"/>
+    </personal>
+    <personality active="604" risktaking="570" offensive="716" aggressive="708" consistent="578" creative="291" experienced="536"/>
+    <skills stamina="550" dexterity="148" speed="513" tackling="439" passing="418" shooting="317" control="477" accuracy="342" goalkeeping="49" heading="417"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78009">
+    <personal name="Ivica Piric">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="610" risktaking="384" offensive="521" aggressive="192" consistent="557" creative="347" experienced="534"/>
+    <skills stamina="356" dexterity="186" speed="611" tackling="306" passing="389" shooting="413" control="433" accuracy="320" goalkeeping="63" heading="304"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78010">
+    <personal name="Sergei Mizin">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="732" risktaking="397" offensive="350" aggressive="376" consistent="426" creative="405" experienced="491"/>
+    <skills stamina="476" dexterity="614" speed="151" tackling="401" passing="304" shooting="307" control="303" accuracy="375" goalkeeping="51" heading="364"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78011">
+    <personal name="Sergei Zakarlyuka">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="508" risktaking="448" offensive="598" aggressive="562" consistent="259" creative="795" experienced="411"/>
+    <skills stamina="316" dexterity="435" speed="318" tackling="405" passing="518" shooting="340" control="441" accuracy="341" goalkeeping="72" heading="321"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78012">
+    <personal name="Gil">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="512" risktaking="383" offensive="695" aggressive="522" consistent="293" creative="509" experienced="506"/>
+    <skills stamina="313" dexterity="629" speed="527" tackling="453" passing="407" shooting="527" control="435" accuracy="545" goalkeeping="84" heading="402"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78013">
+    <personal name="Ruslan Yarosh">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="315" risktaking="486" offensive="722" aggressive="304" consistent="460" creative="853" experienced="464"/>
+    <skills stamina="529" dexterity="395" speed="665" tackling="383" passing="431" shooting="393" control="480" accuracy="394" goalkeeping="52" heading="338"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78014">
+    <personal name="Georgi Demetradze">
+      <appearance value="0"/>
+      <nationality value="Georgia"/>
+    </personal>
+    <personality active="585" risktaking="485" offensive="608" aggressive="451" consistent="512" creative="552" experienced="505"/>
+    <skills stamina="722" dexterity="367" speed="330" tackling="589" passing="470" shooting="575" control="409" accuracy="576" goalkeeping="92" heading="453"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="78015">
+    <personal name="Vadim Ribalchenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="500" risktaking="726" offensive="659" aggressive="457" consistent="454" creative="610" experienced="543"/>
+    <skills stamina="334" dexterity="646" speed="510" tackling="297" passing="420" shooting="415" control="298" accuracy="326" goalkeeping="63" heading="357"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="78016">
+    <personal name="Vitali Rudenko">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="618" risktaking="792" offensive="482" aggressive="402" consistent="340" creative="295" experienced="438"/>
+    <skills stamina="673" dexterity="220" speed="189" tackling="215" passing="397" shooting="424" control="320" accuracy="244" goalkeeping="587" heading="209"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78017">
+    <personal name="Vladimir Gaev">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="627" risktaking="13" offensive="633" aggressive="580" consistent="358" creative="790" experienced="564"/>
+    <skills stamina="235" dexterity="139" speed="340" tackling="145" passing="429" shooting="404" control="276" accuracy="129" goalkeeping="387" heading="139"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="78018">
+    <personal name="Oleg Shandruk">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="677" risktaking="693" offensive="258" aggressive="667" consistent="819" creative="485" experienced="408"/>
+    <skills stamina="447" dexterity="361" speed="308" tackling="453" passing="408" shooting="429" control="423" accuracy="436" goalkeeping="68" heading="399"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78019">
+    <personal name="Dmitri Grishko">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="606" risktaking="643" offensive="584" aggressive="403" consistent="421" creative="417" experienced="272"/>
+    <skills stamina="264" dexterity="305" speed="630" tackling="530" passing="505" shooting="433" control="401" accuracy="356" goalkeeping="80" heading="450"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78020">
+    <personal name="Damian Gimenez">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="744" risktaking="539" offensive="625" aggressive="494" consistent="288" creative="370" experienced="436"/>
+    <skills stamina="383" dexterity="460" speed="241" tackling="410" passing="454" shooting="372" control="450" accuracy="431" goalkeeping="87" heading="419"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78021">
+    <personal name="Gennady Nizhegorodov">
+      <appearance value="8"/>
+      <nationality value="Russia"/>
+    </personal>
+    <personality active="542" risktaking="218" offensive="455" aggressive="544" consistent="481" creative="662" experienced="469"/>
+    <skills stamina="339" dexterity="618" speed="211" tackling="551" passing="521" shooting="449" control="549" accuracy="538" goalkeeping="78" heading="475"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78022">
+    <personal name="Vladimir Korytko">
+      <appearance value="8"/>
+      <nationality value="Belarus"/>
+    </personal>
+    <personality active="948" risktaking="639" offensive="478" aggressive="642" consistent="348" creative="542" experienced="376"/>
+    <skills stamina="438" dexterity="480" speed="363" tackling="505" passing="563" shooting="526" control="385" accuracy="507" goalkeeping="71" heading="395"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78023">
+    <personal name="Paolo De La Haza">
+      <appearance value="0"/>
+      <nationality value="Peru"/>
+    </personal>
+    <personality active="615" risktaking="414" offensive="192" aggressive="526" consistent="618" creative="308" experienced="623"/>
+    <skills stamina="555" dexterity="743" speed="202" tackling="331" passing="507" shooting="395" control="518" accuracy="484" goalkeeping="84" heading="336"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78024">
+    <personal name="Aleksandr Yatsenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="670" risktaking="540" offensive="619" aggressive="422" consistent="556" creative="602" experienced="563"/>
+    <skills stamina="507" dexterity="649" speed="480" tackling="432" passing="395" shooting="525" control="369" accuracy="537" goalkeeping="77" heading="486"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78025">
+    <personal name="Sebastian Vazquez">
+      <appearance value="0"/>
+      <nationality value="Uruguay"/>
+    </personal>
+    <personality active="531" risktaking="343" offensive="402" aggressive="535" consistent="213" creative="372" experienced="510"/>
+    <skills stamina="351" dexterity="352" speed="173" tackling="379" passing="434" shooting="458" control="344" accuracy="348" goalkeeping="56" heading="353"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78026">
+    <personal name="Sergei Shishchenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="155" risktaking="353" offensive="372" aggressive="871" consistent="363" creative="809" experienced="361"/>
+    <skills stamina="322" dexterity="405" speed="239" tackling="523" passing="585" shooting="380" control="542" accuracy="566" goalkeeping="67" heading="518"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="78027">
+    <personal name="Maksim Beletsky">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="464" risktaking="804" offensive="634" aggressive="458" consistent="400" creative="597" experienced="649"/>
+    <skills stamina="373" dexterity="693" speed="305" tackling="458" passing="372" shooting="492" control="431" accuracy="418" goalkeeping="57" heading="465"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78028">
+    <personal name="Alejandro Mello">
+      <appearance value="0"/>
+      <nationality value="Uruguay"/>
+    </personal>
+    <personality active="341" risktaking="622" offensive="449" aggressive="353" consistent="603" creative="847" experienced="379"/>
+    <skills stamina="430" dexterity="553" speed="566" tackling="432" passing="455" shooting="465" control="346" accuracy="511" goalkeeping="87" heading="518"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="78029">
+    <personal name="Oleg Venglinsky">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="631" risktaking="483" offensive="540" aggressive="617" consistent="270" creative="360" experienced="295"/>
+    <skills stamina="224" dexterity="450" speed="266" tackling="485" passing="432" shooting="495" control="459" accuracy="536" goalkeeping="90" heading="479"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="78030">
+    <personal name="Ruslan Valeev">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="153" risktaking="566" offensive="786" aggressive="750" consistent="407" creative="39" experienced="442"/>
+    <skills stamina="690" dexterity="386" speed="524" tackling="504" passing="376" shooting="425" control="483" accuracy="451" goalkeeping="82" heading="495"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78031">
+    <personal name="Igor Bugaev">
+      <appearance value="0"/>
+      <nationality value="Moldova"/>
+    </personal>
+    <personality active="807" risktaking="631" offensive="482" aggressive="628" consistent="404" creative="362" experienced="400"/>
+    <skills stamina="217" dexterity="371" speed="272" tackling="431" passing="414" shooting="454" control="487" accuracy="342" goalkeeping="67" heading="483"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78032">
+    <personal name="Aleksandr Shovkovsky">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="653" risktaking="757" offensive="491" aggressive="817" consistent="359" creative="354" experienced="458"/>
+    <skills stamina="413" dexterity="446" speed="457" tackling="268" passing="614" shooting="531" control="457" accuracy="285" goalkeeping="613" heading="322"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78033">
+    <personal name="Aleksandr Rybka">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="612" risktaking="220" offensive="405" aggressive="561" consistent="460" creative="392" experienced="574"/>
+    <skills stamina="578" dexterity="644" speed="448" tackling="221" passing="452" shooting="549" control="381" accuracy="249" goalkeeping="551" heading="198"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78034">
+    <personal name="Marjan Markovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="376" risktaking="324" offensive="294" aggressive="324" consistent="606" creative="591" experienced="279"/>
+    <skills stamina="662" dexterity="396" speed="290" tackling="599" passing="707" shooting="617" control="524" accuracy="520" goalkeeping="110" heading="629"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78035">
+    <personal name="Andrei Nesmachny">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="349" risktaking="401" offensive="598" aggressive="729" consistent="421" creative="658" experienced="635"/>
+    <skills stamina="566" dexterity="346" speed="283" tackling="672" passing="586" shooting="609" control="624" accuracy="674" goalkeeping="96" heading="506"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78036">
+    <personal name="Goran Gavrancic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="546" risktaking="704" offensive="285" aggressive="387" consistent="460" creative="553" experienced="277"/>
+    <skills stamina="458" dexterity="428" speed="722" tackling="542" passing="483" shooting="634" control="689" accuracy="613" goalkeeping="102" heading="482"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="78037">
+    <personal name="Vladislav Vashchuk">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="498" risktaking="539" offensive="562" aggressive="267" consistent="717" creative="507" experienced="556"/>
+    <skills stamina="364" dexterity="740" speed="512" tackling="538" passing="500" shooting="497" control="529" accuracy="558" goalkeeping="101" heading="464"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78038">
+    <personal name="Pape Diakhate">
+      <appearance value="1"/>
+      <nationality value="Senegal"/>
+    </personal>
+    <personality active="563" risktaking="477" offensive="864" aggressive="811" consistent="531" creative="515" experienced="421"/>
+    <skills stamina="567" dexterity="705" speed="497" tackling="559" passing="636" shooting="634" control="646" accuracy="523" goalkeeping="96" heading="655"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78039">
+    <personal name="Oleg Gusev">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="495" risktaking="759" offensive="424" aggressive="578" consistent="292" creative="514" experienced="386"/>
+    <skills stamina="786" dexterity="414" speed="551" tackling="501" passing="737" shooting="685" control="621" accuracy="610" goalkeeping="95" heading="616"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78040">
+    <personal name="Ruslan Rotan">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="329" risktaking="458" offensive="450" aggressive="571" consistent="768" creative="653" experienced="462"/>
+    <skills stamina="389" dexterity="803" speed="571" tackling="578" passing="580" shooting="549" control="695" accuracy="500" goalkeeping="110" heading="522"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78041">
+    <personal name="Michael">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="73" risktaking="586" offensive="445" aggressive="417" consistent="509" creative="661" experienced="192"/>
+    <skills stamina="659" dexterity="664" speed="424" tackling="639" passing="681" shooting="612" control="664" accuracy="602" goalkeeping="106" heading="498"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78042">
+    <personal name="Diogo Rincon">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="430" risktaking="349" offensive="604" aggressive="375" consistent="313" creative="704" experienced="718"/>
+    <skills stamina="316" dexterity="662" speed="280" tackling="638" passing="651" shooting="592" control="509" accuracy="572" goalkeeping="100" heading="641"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78043">
+    <personal name="Correa">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="801" risktaking="333" offensive="673" aggressive="537" consistent="177" creative="318" experienced="683"/>
+    <skills stamina="759" dexterity="663" speed="641" tackling="619" passing="632" shooting="614" control="570" accuracy="510" goalkeeping="101" heading="583"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78044">
+    <personal name="Artem Milevsky">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="451" risktaking="592" offensive="543" aggressive="363" consistent="557" creative="411" experienced="566"/>
+    <skills stamina="568" dexterity="468" speed="446" tackling="656" passing="548" shooting="648" control="570" accuracy="734" goalkeeping="117" heading="562"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78045">
+    <personal name="Ismael Bangoura">
+      <appearance value="1"/>
+      <nationality value="Guinea"/>
+    </personal>
+    <personality active="422" risktaking="499" offensive="436" aggressive="595" consistent="528" creative="522" experienced="445"/>
+    <skills stamina="676" dexterity="377" speed="427" tackling="654" passing="730" shooting="720" control="671" accuracy="828" goalkeeping="110" heading="620"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78046">
+    <personal name="Sergei Rebrov">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="559" risktaking="304" offensive="569" aggressive="559" consistent="631" creative="617" experienced="489"/>
+    <skills stamina="664" dexterity="598" speed="536" tackling="610" passing="538" shooting="571" control="562" accuracy="658" goalkeeping="96" heading="484"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="78047">
+    <personal name="Maksim Shatskikh">
+      <appearance value="0"/>
+      <nationality value="Uzbekistan"/>
+    </personal>
+    <personality active="516" risktaking="663" offensive="426" aggressive="436" consistent="534" creative="624" experienced="490"/>
+    <skills stamina="262" dexterity="662" speed="432" tackling="683" passing="573" shooting="579" control="663" accuracy="680" goalkeeping="94" heading="553"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78048">
+    <personal name="Vyacheslav Kernozenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="661" risktaking="578" offensive="562" aggressive="696" consistent="494" creative="513" experienced="364"/>
+    <skills stamina="549" dexterity="290" speed="582" tackling="207" passing="470" shooting="387" control="440" accuracy="247" goalkeeping="637" heading="256"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78049">
+    <personal name="Maksim Startsev">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="699" risktaking="327" offensive="727" aggressive="438" consistent="479" creative="226" experienced="462"/>
+    <skills stamina="604" dexterity="693" speed="257" tackling="222" passing="378" shooting="515" control="425" accuracy="262" goalkeeping="519" heading="276"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78050">
+    <personal name="Denis Andrienko">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="457" risktaking="444" offensive="433" aggressive="678" consistent="609" creative="512" experienced="279"/>
+    <skills stamina="614" dexterity="617" speed="637" tackling="405" passing="513" shooting="417" control="586" accuracy="536" goalkeeping="68" heading="518"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78051">
+    <personal name="Vyacheslav Svidersky">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="781" risktaking="350" offensive="479" aggressive="531" consistent="623" creative="601" experienced="352"/>
+    <skills stamina="316" dexterity="345" speed="453" tackling="531" passing="615" shooting="556" control="684" accuracy="466" goalkeeping="105" heading="605"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78052">
+    <personal name="Andrei Rusol">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="242" risktaking="399" offensive="613" aggressive="541" consistent="567" creative="464" experienced="583"/>
+    <skills stamina="682" dexterity="662" speed="785" tackling="591" passing="714" shooting="509" control="677" accuracy="588" goalkeeping="90" heading="587"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78053">
+    <personal name="Vitali Denisov">
+      <appearance value="0"/>
+      <nationality value="Uzbekistan"/>
+    </personal>
+    <personality active="488" risktaking="690" offensive="807" aggressive="97" consistent="331" creative="677" experienced="691"/>
+    <skills stamina="444" dexterity="566" speed="633" tackling="479" passing="452" shooting="496" control="386" accuracy="489" goalkeeping="91" heading="471"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78054">
+    <personal name="Dmitri Lepa">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="401" risktaking="423" offensive="618" aggressive="346" consistent="487" creative="611" experienced="727"/>
+    <skills stamina="244" dexterity="499" speed="442" tackling="531" passing="508" shooting="534" control="530" accuracy="501" goalkeeping="86" heading="545"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78055">
+    <personal name="Mladen Bartulovic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="608" risktaking="668" offensive="366" aggressive="471" consistent="530" creative="544" experienced="76"/>
+    <skills stamina="622" dexterity="519" speed="609" tackling="465" passing="492" shooting="420" control="395" accuracy="485" goalkeeping="95" heading="447"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78056">
+    <personal name="Konstantin Kravchenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="812" risktaking="555" offensive="663" aggressive="447" consistent="415" creative="581" experienced="554"/>
+    <skills stamina="682" dexterity="408" speed="400" tackling="463" passing="401" shooting="537" control="593" accuracy="387" goalkeeping="67" heading="458"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78057">
+    <personal name="Bogdan Shershun">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="799" risktaking="580" offensive="307" aggressive="138" consistent="420" creative="609" experienced="696"/>
+    <skills stamina="252" dexterity="478" speed="365" tackling="494" passing="511" shooting="462" control="443" accuracy="451" goalkeeping="70" heading="372"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78058">
+    <personal name="Sergei Nazarenko">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="266" risktaking="447" offensive="596" aggressive="423" consistent="626" creative="607" experienced="447"/>
+    <skills stamina="595" dexterity="628" speed="271" tackling="692" passing="680" shooting="662" control="643" accuracy="519" goalkeeping="108" heading="644"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78059">
+    <personal name="Oleg Shelaev">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="391" risktaking="715" offensive="715" aggressive="440" consistent="776" creative="520" experienced="559"/>
+    <skills stamina="458" dexterity="680" speed="342" tackling="524" passing="502" shooting="573" control="632" accuracy="487" goalkeeping="88" heading="612"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="78060">
+    <personal name="Rolan Gusev">
+      <appearance value="0"/>
+      <nationality value="Russia"/>
+    </personal>
+    <personality active="432" risktaking="481" offensive="425" aggressive="445" consistent="545" creative="423" experienced="354"/>
+    <skills stamina="707" dexterity="658" speed="340" tackling="533" passing="603" shooting="616" control="503" accuracy="471" goalkeeping="107" heading="490"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78061">
+    <personal name="Andrei Vorobei">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="724" risktaking="317" offensive="707" aggressive="507" consistent="799" creative="556" experienced="239"/>
+    <skills stamina="541" dexterity="448" speed="424" tackling="566" passing="660" shooting="644" control="529" accuracy="622" goalkeeping="103" heading="536"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78062">
+    <personal name="Sergei Samodin">
+      <appearance value="8"/>
+      <nationality value="Russia"/>
+    </personal>
+    <personality active="140" risktaking="453" offensive="336" aggressive="556" consistent="577" creative="628" experienced="569"/>
+    <skills stamina="280" dexterity="412" speed="626" tackling="433" passing="495" shooting="600" control="403" accuracy="627" goalkeeping="75" heading="517"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="78063">
+    <personal name="Sergei Kornilenko">
+      <appearance value="8"/>
+      <nationality value="Belarus"/>
+    </personal>
+    <personality active="584" risktaking="657" offensive="341" aggressive="428" consistent="627" creative="83" experienced="205"/>
+    <skills stamina="555" dexterity="593" speed="377" tackling="527" passing="406" shooting="521" control="444" accuracy="491" goalkeeping="90" heading="554"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78064">
+    <personal name="Maciej Nalepa">
+      <appearance value="0"/>
+      <nationality value="Poland"/>
+    </personal>
+    <personality active="470" risktaking="383" offensive="479" aggressive="381" consistent="559" creative="173" experienced="665"/>
+    <skills stamina="624" dexterity="620" speed="597" tackling="208" passing="334" shooting="404" control="380" accuracy="157" goalkeeping="468" heading="201"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78065">
+    <personal name="Georgi Lomaia">
+      <appearance value="0"/>
+      <nationality value="Georgia"/>
+    </personal>
+    <personality active="536" risktaking="220" offensive="805" aggressive="516" consistent="722" creative="632" experienced="547"/>
+    <skills stamina="223" dexterity="298" speed="475" tackling="192" passing="373" shooting="514" control="354" accuracy="198" goalkeeping="424" heading="204"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78066">
+    <personal name="Aleksandr Yurevich">
+      <appearance value="0"/>
+      <nationality value="Belarus"/>
+    </personal>
+    <personality active="408" risktaking="599" offensive="386" aggressive="560" consistent="644" creative="696" experienced="707"/>
+    <skills stamina="414" dexterity="410" speed="653" tackling="542" passing="375" shooting="389" control="367" accuracy="371" goalkeeping="82" heading="401"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78067">
+    <personal name="Serghei Lascencov">
+      <appearance value="0"/>
+      <nationality value="Moldova"/>
+    </personal>
+    <personality active="444" risktaking="339" offensive="567" aggressive="616" consistent="293" creative="452" experienced="638"/>
+    <skills stamina="191" dexterity="451" speed="425" tackling="359" passing="393" shooting="296" control="366" accuracy="373" goalkeeping="58" heading="399"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="78068">
+    <personal name="Vladimir Fedoriv">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="352" risktaking="398" offensive="327" aggressive="523" consistent="490" creative="608" experienced="503"/>
+    <skills stamina="263" dexterity="388" speed="387" tackling="326" passing="398" shooting="351" control="347" accuracy="289" goalkeeping="68" heading="269"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78069">
+    <personal name="Nikolai Lapko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="479" risktaking="590" offensive="506" aggressive="450" consistent="791" creative="472" experienced="468"/>
+    <skills stamina="349" dexterity="481" speed="242" tackling="399" passing="376" shooting="360" control="417" accuracy="415" goalkeeping="50" heading="375"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78070">
+    <personal name="Nikolai Ishchenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="425" risktaking="222" offensive="538" aggressive="558" consistent="612" creative="509" experienced="346"/>
+    <skills stamina="224" dexterity="702" speed="577" tackling="427" passing="494" shooting="370" control="323" accuracy="289" goalkeeping="72" heading="398"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78071">
+    <personal name="Mikhail Kopolovets">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="488" risktaking="484" offensive="960" aggressive="573" consistent="597" creative="773" experienced="627"/>
+    <skills stamina="587" dexterity="554" speed="682" tackling="271" passing="332" shooting="304" control="327" accuracy="277" goalkeeping="72" heading="436"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78072">
+    <personal name="Yaroslav Martinyuk">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="618" risktaking="661" offensive="730" aggressive="579" consistent="470" creative="413" experienced="523"/>
+    <skills stamina="435" dexterity="508" speed="304" tackling="375" passing="308" shooting="379" control="374" accuracy="267" goalkeeping="51" heading="305"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78073">
+    <personal name="Igor Khudobyak">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="377" risktaking="686" offensive="561" aggressive="336" consistent="279" creative="500" experienced="372"/>
+    <skills stamina="172" dexterity="317" speed="452" tackling="425" passing="428" shooting="355" control="461" accuracy="460" goalkeeping="80" heading="315"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78074">
+    <personal name="Vasili Kobin">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="483" risktaking="462" offensive="719" aggressive="363" consistent="429" creative="540" experienced="495"/>
+    <skills stamina="335" dexterity="220" speed="327" tackling="296" passing="260" shooting="388" control="380" accuracy="443" goalkeeping="68" heading="329"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78075">
+    <personal name="Samson Godwin">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="386" risktaking="730" offensive="271" aggressive="681" consistent="580" creative="585" experienced="532"/>
+    <skills stamina="519" dexterity="304" speed="401" tackling="500" passing="304" shooting="473" control="408" accuracy="370" goalkeeping="69" heading="323"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78076">
+    <personal name="Sergei Pshenichnikh">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="447" risktaking="375" offensive="483" aggressive="473" consistent="396" creative="528" experienced="610"/>
+    <skills stamina="214" dexterity="344" speed="419" tackling="450" passing="262" shooting="434" control="444" accuracy="448" goalkeeping="52" heading="432"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78077">
+    <personal name="Leonid Kovel">
+      <appearance value="0"/>
+      <nationality value="Belarus"/>
+    </personal>
+    <personality active="262" risktaking="492" offensive="482" aggressive="597" consistent="224" creative="600" experienced="428"/>
+    <skills stamina="357" dexterity="210" speed="452" tackling="505" passing="481" shooting="469" control="396" accuracy="589" goalkeeping="58" heading="408"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78078">
+    <personal name="Maksim Feshchuk">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="432" risktaking="415" offensive="426" aggressive="288" consistent="367" creative="282" experienced="468"/>
+    <skills stamina="371" dexterity="474" speed="189" tackling="430" passing="320" shooting="316" control="355" accuracy="350" goalkeeping="52" heading="338"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78079">
+    <personal name="William Batista">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="466" risktaking="359" offensive="617" aggressive="529" consistent="709" creative="369" experienced="634"/>
+    <skills stamina="329" dexterity="645" speed="644" tackling="469" passing="468" shooting="555" control="464" accuracy="417" goalkeeping="68" heading="546"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78080">
+    <personal name="Rustam Khudzamov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="396" risktaking="539" offensive="501" aggressive="618" consistent="255" creative="388" experienced="390"/>
+    <skills stamina="637" dexterity="208" speed="194" tackling="206" passing="429" shooting="287" control="268" accuracy="205" goalkeeping="450" heading="205"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78081">
+    <personal name="Dmitri Stoyko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="415" risktaking="532" offensive="733" aggressive="583" consistent="690" creative="347" experienced="558"/>
+    <skills stamina="561" dexterity="455" speed="463" tackling="183" passing="331" shooting="289" control="263" accuracy="131" goalkeeping="336" heading="208"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78082">
+    <personal name="Vitali Komaritsky">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="518" risktaking="523" offensive="793" aggressive="581" consistent="367" creative="416" experienced="562"/>
+    <skills stamina="585" dexterity="581" speed="418" tackling="495" passing="431" shooting="445" control="393" accuracy="273" goalkeeping="63" heading="338"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="78083">
+    <personal name="Andrei Sokolenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="530" risktaking="518" offensive="783" aggressive="543" consistent="365" creative="655" experienced="605"/>
+    <skills stamina="503" dexterity="223" speed="541" tackling="419" passing="322" shooting="337" control="321" accuracy="252" goalkeeping="62" heading="313"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78084">
+    <personal name="Vladimir Samborsky">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="625" risktaking="554" offensive="545" aggressive="510" consistent="22" creative="253" experienced="550"/>
+    <skills stamina="406" dexterity="421" speed="445" tackling="309" passing="337" shooting="368" control="382" accuracy="325" goalkeeping="61" heading="275"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78085">
+    <personal name="Oleg Karamushka">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="633" risktaking="385" offensive="246" aggressive="359" consistent="440" creative="280" experienced="569"/>
+    <skills stamina="333" dexterity="298" speed="412" tackling="410" passing="370" shooting="418" control="306" accuracy="390" goalkeeping="60" heading="400"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78086">
+    <personal name="Maksim Bely">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="324" risktaking="563" offensive="600" aggressive="565" consistent="462" creative="647" experienced="402"/>
+    <skills stamina="293" dexterity="172" speed="631" tackling="400" passing="274" shooting="402" control="281" accuracy="406" goalkeeping="51" heading="375"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78087">
+    <personal name="Andrei Smalko">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="359" risktaking="435" offensive="623" aggressive="470" consistent="531" creative="532" experienced="469"/>
+    <skills stamina="306" dexterity="709" speed="187" tackling="315" passing="472" shooting="462" control="437" accuracy="292" goalkeeping="64" heading="297"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78088">
+    <personal name="Andrei Berezovchuk">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="535" risktaking="527" offensive="656" aggressive="361" consistent="680" creative="347" experienced="265"/>
+    <skills stamina="682" dexterity="594" speed="222" tackling="499" passing="384" shooting="397" control="293" accuracy="294" goalkeeping="49" heading="379"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78089">
+    <personal name="Ruslan Gunchak">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="619" risktaking="509" offensive="349" aggressive="566" consistent="538" creative="546" experienced="536"/>
+    <skills stamina="520" dexterity="191" speed="125" tackling="318" passing="277" shooting="307" control="417" accuracy="278" goalkeeping="54" heading="399"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78090">
+    <personal name="Anderson Ribeiro">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="586" risktaking="370" offensive="259" aggressive="598" consistent="690" creative="788" experienced="237"/>
+    <skills stamina="459" dexterity="376" speed="268" tackling="418" passing="398" shooting="437" control="478" accuracy="495" goalkeeping="77" heading="502"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78091">
+    <personal name="Aleksei Gorodov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="478" risktaking="451" offensive="458" aggressive="467" consistent="603" creative="275" experienced="448"/>
+    <skills stamina="256" dexterity="145" speed="447" tackling="261" passing="440" shooting="250" control="391" accuracy="297" goalkeeping="41" heading="250"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78092">
+    <personal name="Artem Feditsky">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="566" risktaking="647" offensive="552" aggressive="592" consistent="574" creative="301" experienced="363"/>
+    <skills stamina="500" dexterity="495" speed="328" tackling="340" passing="349" shooting="300" control="377" accuracy="411" goalkeeping="60" heading="277"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78093">
+    <personal name="Ruslan Platon">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="712" risktaking="871" offensive="305" aggressive="531" consistent="351" creative="299" experienced="459"/>
+    <skills stamina="511" dexterity="434" speed="464" tackling="402" passing="449" shooting="485" control="394" accuracy="294" goalkeeping="52" heading="346"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78094">
+    <personal name="Aleksandr Pikhur">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="667" risktaking="425" offensive="682" aggressive="325" consistent="446" creative="519" experienced="644"/>
+    <skills stamina="306" dexterity="664" speed="184" tackling="346" passing="392" shooting="476" control="307" accuracy="466" goalkeeping="68" heading="305"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78095">
+    <personal name="Guvancmuhamed Ovekov">
+      <appearance value="0"/>
+      <nationality value="Turkmenistan"/>
+    </personal>
+    <personality active="529" risktaking="730" offensive="605" aggressive="478" consistent="500" creative="530" experienced="780"/>
+    <skills stamina="621" dexterity="468" speed="307" tackling="353" passing="424" shooting="357" control="342" accuracy="447" goalkeeping="50" heading="309"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78096">
+    <personal name="Isli Hidi">
+      <appearance value="0"/>
+      <nationality value="Albania"/>
+    </personal>
+    <personality active="642" risktaking="474" offensive="819" aggressive="852" consistent="652" creative="592" experienced="752"/>
+    <skills stamina="180" dexterity="455" speed="140" tackling="132" passing="314" shooting="440" control="259" accuracy="191" goalkeeping="476" heading="229"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78097">
+    <personal name="Evgeni Borovik">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="466" risktaking="360" offensive="678" aggressive="818" consistent="568" creative="715" experienced="771"/>
+    <skills stamina="499" dexterity="598" speed="252" tackling="153" passing="392" shooting="457" control="244" accuracy="171" goalkeeping="459" heading="183"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78098">
+    <personal name="Viktor Melnik">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="306" risktaking="339" offensive="416" aggressive="514" consistent="440" creative="566" experienced="215"/>
+    <skills stamina="355" dexterity="504" speed="675" tackling="370" passing="443" shooting="315" control="385" accuracy="327" goalkeeping="44" heading="396"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78099">
+    <personal name="Oleg Kotelyukh">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="495" risktaking="364" offensive="436" aggressive="587" consistent="445" creative="308" experienced="418"/>
+    <skills stamina="375" dexterity="547" speed="659" tackling="486" passing="451" shooting="352" control="438" accuracy="425" goalkeeping="73" heading="266"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78100">
+    <personal name="Aleksandr Granovsky">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="587" risktaking="389" offensive="192" aggressive="342" consistent="791" creative="327" experienced="351"/>
+    <skills stamina="507" dexterity="147" speed="292" tackling="297" passing="292" shooting="330" control="456" accuracy="346" goalkeeping="43" heading="262"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78101">
+    <personal name="Henri Ndreka">
+      <appearance value="0"/>
+      <nationality value="Albania"/>
+    </personal>
+    <personality active="424" risktaking="617" offensive="641" aggressive="339" consistent="469" creative="430" experienced="615"/>
+    <skills stamina="142" dexterity="647" speed="640" tackling="408" passing="482" shooting="319" control="308" accuracy="400" goalkeeping="64" heading="431"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78102">
+    <personal name="Anatoli Oprya">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="678" risktaking="351" offensive="516" aggressive="549" consistent="305" creative="190" experienced="691"/>
+    <skills stamina="693" dexterity="272" speed="306" tackling="341" passing="381" shooting="281" control="341" accuracy="346" goalkeeping="50" heading="429"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78103">
+    <personal name="Maksim Pashaev">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="338" risktaking="780" offensive="360" aggressive="483" consistent="530" creative="467" experienced="486"/>
+    <skills stamina="367" dexterity="302" speed="442" tackling="370" passing="431" shooting="455" control="356" accuracy="270" goalkeeping="56" heading="375"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78104">
+    <personal name="Ervin Bulku">
+      <appearance value="0"/>
+      <nationality value="Albania"/>
+    </personal>
+    <personality active="514" risktaking="520" offensive="324" aggressive="509" consistent="476" creative="598" experienced="611"/>
+    <skills stamina="429" dexterity="416" speed="340" tackling="391" passing="436" shooting="354" control="357" accuracy="298" goalkeeping="70" heading="425"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="78105">
+    <personal name="Sergei Motuz">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="692" risktaking="476" offensive="354" aggressive="613" consistent="741" creative="371" experienced="526"/>
+    <skills stamina="442" dexterity="281" speed="470" tackling="320" passing="327" shooting="296" control="366" accuracy="368" goalkeeping="44" heading="288"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78106">
+    <personal name="Ruslan Kostishin">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="538" risktaking="400" offensive="253" aggressive="478" consistent="484" creative="748" experienced="531"/>
+    <skills stamina="336" dexterity="367" speed="239" tackling="377" passing="311" shooting="467" control="453" accuracy="323" goalkeeping="54" heading="370"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78107">
+    <personal name="Vitali Lisitsky">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="683" risktaking="531" offensive="489" aggressive="327" consistent="392" creative="611" experienced="330"/>
+    <skills stamina="624" dexterity="472" speed="320" tackling="386" passing="456" shooting="388" control="429" accuracy="442" goalkeeping="48" heading="299"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78108">
+    <personal name="Dorian Bylykbashi">
+      <appearance value="0"/>
+      <nationality value="Albania"/>
+    </personal>
+    <personality active="207" risktaking="705" offensive="501" aggressive="217" consistent="875" creative="490" experienced="301"/>
+    <skills stamina="211" dexterity="239" speed="656" tackling="480" passing="536" shooting="585" control="418" accuracy="531" goalkeeping="82" heading="419"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78109">
+    <personal name="Aleksandr Ivashchenko">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="381" risktaking="500" offensive="365" aggressive="529" consistent="461" creative="879" experienced="435"/>
+    <skills stamina="378" dexterity="253" speed="380" tackling="399" passing="436" shooting="435" control="261" accuracy="439" goalkeeping="46" heading="490"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78110">
+    <personal name="Vasili Sachko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="542" risktaking="718" offensive="449" aggressive="709" consistent="474" creative="527" experienced="463"/>
+    <skills stamina="450" dexterity="668" speed="670" tackling="451" passing="432" shooting="326" control="400" accuracy="426" goalkeeping="63" heading="400"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78111">
+    <personal name="Aleksandr Melashchenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="400" risktaking="440" offensive="546" aggressive="569" consistent="376" creative="596" experienced="422"/>
+    <skills stamina="528" dexterity="342" speed="311" tackling="439" passing="446" shooting="516" control="577" accuracy="629" goalkeeping="84" heading="592"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78112">
+    <personal name="Aleksandr Goryainov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="700" risktaking="318" offensive="304" aggressive="553" consistent="148" creative="421" experienced="412"/>
+    <skills stamina="290" dexterity="395" speed="486" tackling="268" passing="406" shooting="563" control="393" accuracy="238" goalkeeping="606" heading="263"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78113">
+    <personal name="Andrei Tlumak">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="605" risktaking="494" offensive="592" aggressive="576" consistent="564" creative="407" experienced="612"/>
+    <skills stamina="411" dexterity="456" speed="344" tackling="169" passing="370" shooting="285" control="359" accuracy="211" goalkeeping="482" heading="157"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="78114">
+    <personal name="Milan Obradovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="276" risktaking="423" offensive="450" aggressive="406" consistent="514" creative="624" experienced="515"/>
+    <skills stamina="583" dexterity="609" speed="571" tackling="501" passing="532" shooting="567" control="429" accuracy="485" goalkeeping="93" heading="501"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78115">
+    <personal name="Seweryn Gancarczyk">
+      <appearance value="0"/>
+      <nationality value="Poland"/>
+    </personal>
+    <personality active="427" risktaking="461" offensive="512" aggressive="681" consistent="417" creative="579" experienced="645"/>
+    <skills stamina="453" dexterity="417" speed="259" tackling="495" passing="482" shooting="440" control="476" accuracy="501" goalkeeping="75" heading="401"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78116">
+    <personal name="Papa Gueye">
+      <appearance value="1"/>
+      <nationality value="Senegal"/>
+    </personal>
+    <personality active="509" risktaking="509" offensive="709" aggressive="318" consistent="342" creative="552" experienced="700"/>
+    <skills stamina="451" dexterity="614" speed="538" tackling="497" passing="520" shooting="494" control="562" accuracy="489" goalkeeping="91" heading="520"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78117">
+    <personal name="Aleksandr Babich">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="291" risktaking="686" offensive="363" aggressive="516" consistent="494" creative="622" experienced="749"/>
+    <skills stamina="590" dexterity="448" speed="587" tackling="536" passing="415" shooting="464" control="455" accuracy="452" goalkeeping="71" heading="362"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78118">
+    <personal name="Hicham Mahdoufi">
+      <appearance value="0"/>
+      <nationality value="Morocco"/>
+    </personal>
+    <personality active="475" risktaking="830" offensive="504" aggressive="439" consistent="481" creative="462" experienced="745"/>
+    <skills stamina="252" dexterity="544" speed="488" tackling="452" passing="421" shooting="488" control="547" accuracy="366" goalkeeping="67" heading="392"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78119">
+    <personal name="Aleksandr Rykun">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="537" risktaking="461" offensive="464" aggressive="325" consistent="494" creative="881" experienced="318"/>
+    <skills stamina="235" dexterity="673" speed="450" tackling="564" passing="524" shooting="565" control="413" accuracy="558" goalkeeping="81" heading="569"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78120">
+    <personal name="Edmar">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="387" risktaking="791" offensive="435" aggressive="529" consistent="462" creative="306" experienced="870"/>
+    <skills stamina="436" dexterity="685" speed="709" tackling="421" passing="624" shooting="418" control="432" accuracy="597" goalkeeping="90" heading="527"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78121">
+    <personal name="Valentin Slyusar">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="388" risktaking="425" offensive="602" aggressive="551" consistent="298" creative="328" experienced="602"/>
+    <skills stamina="529" dexterity="247" speed="547" tackling="499" passing="555" shooting="543" control="494" accuracy="454" goalkeeping="66" heading="415"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78122">
+    <personal name="Vitali Bordiyan">
+      <appearance value="0"/>
+      <nationality value="Moldova"/>
+    </personal>
+    <personality active="757" risktaking="639" offensive="574" aggressive="467" consistent="346" creative="772" experienced="672"/>
+    <skills stamina="334" dexterity="700" speed="331" tackling="509" passing="408" shooting="525" control="383" accuracy="455" goalkeeping="91" heading="403"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78123">
+    <personal name="Aleksandar Trisovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="248" risktaking="475" offensive="425" aggressive="451" consistent="397" creative="596" experienced="621"/>
+    <skills stamina="211" dexterity="757" speed="722" tackling="445" passing="541" shooting="558" control="584" accuracy="548" goalkeeping="74" heading="534"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78124">
+    <personal name="Marko Devic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="164" risktaking="436" offensive="743" aggressive="483" consistent="577" creative="196" experienced="487"/>
+    <skills stamina="268" dexterity="222" speed="576" tackling="504" passing="637" shooting="610" control="569" accuracy="620" goalkeeping="74" heading="627"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78125">
+    <personal name="Zezeto">
+      <appearance value="1"/>
+      <nationality value="Ivory Coast"/>
+    </personal>
+    <personality active="658" risktaking="557" offensive="546" aggressive="717" consistent="541" creative="531" experienced="672"/>
+    <skills stamina="523" dexterity="352" speed="665" tackling="391" passing="502" shooting="509" control="372" accuracy="550" goalkeeping="74" heading="577"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78126">
+    <personal name="Ruslan Fomin">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="457" risktaking="476" offensive="291" aggressive="340" consistent="470" creative="414" experienced="443"/>
+    <skills stamina="491" dexterity="690" speed="674" tackling="529" passing="465" shooting="632" control="356" accuracy="551" goalkeeping="71" heading="471"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78127">
+    <personal name="Onyekachi Nwoha">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="556" risktaking="350" offensive="324" aggressive="769" consistent="463" creative="336" experienced="412"/>
+    <skills stamina="413" dexterity="414" speed="418" tackling="424" passing="458" shooting="479" control="494" accuracy="554" goalkeeping="75" heading="598"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78128">
+    <personal name="Vladimir Disljenkovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="314" risktaking="73" offensive="770" aggressive="512" consistent="286" creative="671" experienced="371"/>
+    <skills stamina="399" dexterity="287" speed="547" tackling="217" passing="475" shooting="549" control="432" accuracy="175" goalkeeping="572" heading="207"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78129">
+    <personal name="Dimitri Vorobyov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="608" risktaking="157" offensive="603" aggressive="558" consistent="557" creative="382" experienced="520"/>
+    <skills stamina="431" dexterity="431" speed="299" tackling="175" passing="362" shooting="368" control="235" accuracy="232" goalkeeping="433" heading="207"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78130">
+    <personal name="Dani Fernandez">
+      <appearance value="0"/>
+      <nationality value="Spain"/>
+    </personal>
+    <personality active="325" risktaking="509" offensive="585" aggressive="335" consistent="477" creative="305" experienced="540"/>
+    <skills stamina="502" dexterity="267" speed="436" tackling="508" passing="368" shooting="352" control="463" accuracy="461" goalkeeping="73" heading="404"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78131">
+    <personal name="Erol Bulut">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="656" risktaking="484" offensive="705" aggressive="586" consistent="287" creative="469" experienced="712"/>
+    <skills stamina="678" dexterity="648" speed="318" tackling="531" passing="435" shooting="398" control="536" accuracy="441" goalkeeping="91" heading="446"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78132">
+    <personal name="Bojan Neziri">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="567" risktaking="498" offensive="491" aggressive="682" consistent="718" creative="229" experienced="595"/>
+    <skills stamina="630" dexterity="204" speed="226" tackling="520" passing="462" shooting="558" control="438" accuracy="490" goalkeeping="79" heading="437"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78133">
+    <personal name="Vyacheslav Checher">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="598" risktaking="411" offensive="416" aggressive="758" consistent="611" creative="417" experienced="441"/>
+    <skills stamina="479" dexterity="230" speed="571" tackling="529" passing="548" shooting="428" control="447" accuracy="426" goalkeeping="87" heading="501"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78134">
+    <personal name="Sergei Bilozor">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="398" risktaking="433" offensive="542" aggressive="603" consistent="529" creative="474" experienced="416"/>
+    <skills stamina="689" dexterity="579" speed="394" tackling="388" passing="504" shooting="397" control="543" accuracy="398" goalkeeping="71" heading="451"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="78135">
+    <personal name="Sergei Danilovsky">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="458" risktaking="578" offensive="371" aggressive="585" consistent="491" creative="575" experienced="171"/>
+    <skills stamina="709" dexterity="257" speed="283" tackling="522" passing="416" shooting="417" control="542" accuracy="511" goalkeeping="62" heading="439"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78136">
+    <personal name="Jordi Cruyff">
+      <appearance value="8"/>
+      <nationality value="The Netherlands"/>
+    </personal>
+    <personality active="473" risktaking="651" offensive="507" aggressive="671" consistent="464" creative="475" experienced="218"/>
+    <skills stamina="384" dexterity="362" speed="217" tackling="436" passing="516" shooting="397" control="535" accuracy="517" goalkeeping="72" heading="520"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78137">
+    <personal name="Ruben Gomez">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="419" risktaking="630" offensive="486" aggressive="515" consistent="515" creative="420" experienced="642"/>
+    <skills stamina="566" dexterity="211" speed="485" tackling="429" passing="519" shooting="513" control="457" accuracy="420" goalkeeping="80" heading="513"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78138">
+    <personal name="Anis Boussaidi">
+      <appearance value="0"/>
+      <nationality value="Tunisia"/>
+    </personal>
+    <personality active="476" risktaking="685" offensive="532" aggressive="407" consistent="563" creative="462" experienced="520"/>
+    <skills stamina="612" dexterity="364" speed="451" tackling="409" passing="531" shooting="409" control="549" accuracy="541" goalkeeping="76" heading="420"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78139">
+    <personal name="Pius Ikedia">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="362" risktaking="713" offensive="441" aggressive="338" consistent="544" creative="650" experienced="350"/>
+    <skills stamina="681" dexterity="351" speed="384" tackling="510" passing="536" shooting="371" control="374" accuracy="401" goalkeeping="76" heading="454"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78140">
+    <personal name="Leandro">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="586" risktaking="671" offensive="500" aggressive="276" consistent="286" creative="687" experienced="658"/>
+    <skills stamina="387" dexterity="365" speed="619" tackling="437" passing="567" shooting="441" control="510" accuracy="422" goalkeeping="70" heading="441"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78141">
+    <personal name="Aleksandr Kosyrin">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="801" risktaking="533" offensive="590" aggressive="227" consistent="545" creative="617" experienced="328"/>
+    <skills stamina="602" dexterity="687" speed="551" tackling="500" passing="597" shooting="540" control="591" accuracy="441" goalkeeping="80" heading="535"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78142">
+    <personal name="Andres Mendoza">
+      <appearance value="1"/>
+      <nationality value="Peru"/>
+    </personal>
+    <personality active="399" risktaking="603" offensive="339" aggressive="886" consistent="313" creative="580" experienced="310"/>
+    <skills stamina="329" dexterity="659" speed="285" tackling="560" passing="530" shooting="583" control="392" accuracy="501" goalkeeping="81" heading="595"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78143">
+    <personal name="Emmanuel Okoduwa">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="584" risktaking="458" offensive="499" aggressive="405" consistent="650" creative="398" experienced="691"/>
+    <skills stamina="422" dexterity="245" speed="559" tackling="410" passing="379" shooting="452" control="478" accuracy="470" goalkeeping="74" heading="393"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78144">
+    <personal name="Vitali Postransky">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="497" risktaking="632" offensive="307" aggressive="727" consistent="502" creative="428" experienced="681"/>
+    <skills stamina="674" dexterity="565" speed="544" tackling="169" passing="360" shooting="306" control="242" accuracy="193" goalkeeping="354" heading="220"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78145">
+    <personal name="Andrei Glushenko">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="751" risktaking="583" offensive="276" aggressive="532" consistent="613" creative="570" experienced="489"/>
+    <skills stamina="662" dexterity="422" speed="504" tackling="154" passing="386" shooting="353" control="292" accuracy="219" goalkeeping="305" heading="166"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78146">
+    <personal name="Artjom Cheliadinsky">
+      <appearance value="0"/>
+      <nationality value="Belarus"/>
+    </personal>
+    <personality active="704" risktaking="363" offensive="394" aggressive="576" consistent="384" creative="546" experienced="483"/>
+    <skills stamina="641" dexterity="373" speed="462" tackling="370" passing="390" shooting="417" control="445" accuracy="304" goalkeeping="69" heading="400"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78147">
+    <personal name="Taras Stepanenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="552" risktaking="498" offensive="592" aggressive="286" consistent="302" creative="582" experienced="632"/>
+    <skills stamina="663" dexterity="355" speed="615" tackling="305" passing="400" shooting="273" control="482" accuracy="352" goalkeeping="78" heading="397"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78148">
+    <personal name="David Kvirkvelia">
+      <appearance value="0"/>
+      <nationality value="Georgia"/>
+    </personal>
+    <personality active="235" risktaking="447" offensive="476" aggressive="440" consistent="361" creative="509" experienced="675"/>
+    <skills stamina="442" dexterity="252" speed="481" tackling="489" passing="520" shooting="444" control="551" accuracy="489" goalkeeping="53" heading="479"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="78149">
+    <personal name="Jan Tigorev">
+      <appearance value="0"/>
+      <nationality value="Belarus"/>
+    </personal>
+    <personality active="457" risktaking="443" offensive="614" aggressive="472" consistent="541" creative="727" experienced="325"/>
+    <skills stamina="375" dexterity="314" speed="335" tackling="425" passing="376" shooting="377" control="364" accuracy="313" goalkeeping="65" heading="334"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="78150">
+    <personal name="Dragan Perisic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="542" risktaking="186" offensive="619" aggressive="291" consistent="612" creative="613" experienced="345"/>
+    <skills stamina="555" dexterity="539" speed="284" tackling="272" passing="418" shooting="376" control="327" accuracy="304" goalkeeping="73" heading="357"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78151">
+    <personal name="Vitali Vernudub">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="567" risktaking="465" offensive="471" aggressive="287" consistent="432" creative="570" experienced="589"/>
+    <skills stamina="312" dexterity="193" speed="128" tackling="487" passing="325" shooting="259" control="291" accuracy="398" goalkeeping="47" heading="434"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="78152">
+    <personal name="Alexei Godin">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="593" risktaking="149" offensive="573" aggressive="521" consistent="447" creative="595" experienced="804"/>
+    <skills stamina="348" dexterity="605" speed="293" tackling="368" passing="381" shooting="349" control="444" accuracy="362" goalkeeping="74" heading="447"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78153">
+    <personal name="Dmitri Mikhailenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="474" risktaking="507" offensive="434" aggressive="502" consistent="543" creative="687" experienced="773"/>
+    <skills stamina="258" dexterity="614" speed="670" tackling="308" passing="325" shooting="373" control="323" accuracy="464" goalkeeping="67" heading="426"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78154">
+    <personal name="Ruslan Lyubarsky">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="508" risktaking="555" offensive="541" aggressive="635" consistent="367" creative="754" experienced="671"/>
+    <skills stamina="343" dexterity="599" speed="735" tackling="471" passing="539" shooting="471" control="474" accuracy="345" goalkeeping="58" heading="499"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78155">
+    <personal name="Nikolai Kashevski">
+      <appearance value="8"/>
+      <nationality value="Belarus"/>
+    </personal>
+    <personality active="643" risktaking="566" offensive="594" aggressive="625" consistent="716" creative="661" experienced="489"/>
+    <skills stamina="300" dexterity="357" speed="639" tackling="484" passing="484" shooting="264" control="446" accuracy="253" goalkeeping="71" heading="327"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="78156">
+    <personal name="Vladimir Polevoy">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="233" risktaking="413" offensive="475" aggressive="713" consistent="466" creative="493" experienced="675"/>
+    <skills stamina="455" dexterity="675" speed="446" tackling="412" passing="423" shooting="323" control="454" accuracy="271" goalkeeping="72" heading="289"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78157">
+    <personal name="Sergei Silyuk">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="534" risktaking="559" offensive="558" aggressive="471" consistent="359" creative="513" experienced="694"/>
+    <skills stamina="131" dexterity="428" speed="629" tackling="286" passing="279" shooting="367" control="324" accuracy="473" goalkeeping="69" heading="309"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78158">
+    <personal name="Taras Kabanov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="614" risktaking="546" offensive="345" aggressive="453" consistent="303" creative="610" experienced="690"/>
+    <skills stamina="300" dexterity="246" speed="525" tackling="356" passing="443" shooting="414" control="335" accuracy="512" goalkeeping="80" heading="381"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78159">
+    <personal name="Irakli Modebadze">
+      <appearance value="0"/>
+      <nationality value="Georgia"/>
+    </personal>
+    <personality active="726" risktaking="383" offensive="611" aggressive="500" consistent="446" creative="408" experienced="487"/>
+    <skills stamina="432" dexterity="513" speed="427" tackling="386" passing="301" shooting="347" control="255" accuracy="443" goalkeeping="63" heading="451"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="78160">
+    <personal name="Artem Kusly">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="299" risktaking="592" offensive="361" aggressive="405" consistent="787" creative="479" experienced="666"/>
+    <skills stamina="423" dexterity="479" speed="308" tackling="176" passing="442" shooting="296" control="288" accuracy="223" goalkeeping="396" heading="146"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78161">
+    <personal name="Andrei Melnichuk">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="578" risktaking="518" offensive="360" aggressive="665" consistent="519" creative="356" experienced="725"/>
+    <skills stamina="148" dexterity="157" speed="493" tackling="126" passing="326" shooting="434" control="284" accuracy="135" goalkeeping="358" heading="209"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78162">
+    <personal name="Oleg Davidov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="250" risktaking="424" offensive="487" aggressive="685" consistent="269" creative="387" experienced="466"/>
+    <skills stamina="174" dexterity="477" speed="402" tackling="433" passing="263" shooting="463" control="263" accuracy="335" goalkeeping="73" heading="304"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78163">
+    <personal name="Vyacheslav Serdyuk">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="344" risktaking="155" offensive="359" aggressive="492" consistent="337" creative="391" experienced="537"/>
+    <skills stamina="379" dexterity="378" speed="342" tackling="317" passing="459" shooting="258" control="461" accuracy="399" goalkeeping="43" heading="370"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78164">
+    <personal name="Anton Monakhov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="405" risktaking="553" offensive="351" aggressive="417" consistent="652" creative="468" experienced="302"/>
+    <skills stamina="319" dexterity="299" speed="171" tackling="410" passing="433" shooting="322" control="366" accuracy="350" goalkeeping="45" heading="344"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78165">
+    <personal name="Valentin Nefedov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="636" risktaking="725" offensive="359" aggressive="585" consistent="658" creative="389" experienced="490"/>
+    <skills stamina="459" dexterity="180" speed="549" tackling="391" passing="378" shooting="374" control="426" accuracy="305" goalkeeping="54" heading="437"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="78166">
+    <personal name="Andrei Kikot">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="403" risktaking="705" offensive="853" aggressive="705" consistent="417" creative="512" experienced="498"/>
+    <skills stamina="668" dexterity="578" speed="325" tackling="279" passing="335" shooting="325" control="433" accuracy="337" goalkeeping="66" heading="373"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="78167">
+    <personal name="Eduard Valutsa">
+      <appearance value="0"/>
+      <nationality value="Moldova"/>
+    </personal>
+    <personality active="518" risktaking="506" offensive="297" aggressive="399" consistent="481" creative="589" experienced="702"/>
+    <skills stamina="457" dexterity="193" speed="634" tackling="326" passing="390" shooting="292" control="450" accuracy="360" goalkeeping="61" heading="324"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78168">
+    <personal name="Vadim Kharchenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="270" risktaking="220" offensive="519" aggressive="689" consistent="491" creative="592" experienced="817"/>
+    <skills stamina="603" dexterity="404" speed="268" tackling="381" passing="369" shooting="415" control="356" accuracy="314" goalkeeping="63" heading="287"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="78169">
+    <personal name="Ruslan Zeynalov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="238" risktaking="455" offensive="402" aggressive="319" consistent="518" creative="796" experienced="439"/>
+    <skills stamina="340" dexterity="618" speed="181" tackling="287" passing="297" shooting="405" control="410" accuracy="291" goalkeeping="65" heading="419"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78170">
+    <personal name="Sergei Snitko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="535" risktaking="550" offensive="281" aggressive="668" consistent="449" creative="582" experienced="642"/>
+    <skills stamina="230" dexterity="476" speed="552" tackling="312" passing="365" shooting="261" control="290" accuracy="323" goalkeeping="54" heading="436"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78171">
+    <personal name="Andrei Pisny">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="355" risktaking="625" offensive="604" aggressive="912" consistent="508" creative="522" experienced="651"/>
+    <skills stamina="482" dexterity="393" speed="410" tackling="364" passing="400" shooting="387" control="465" accuracy="347" goalkeeping="49" heading="407"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78172">
+    <personal name="Vladislav Zaychuk">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="539" risktaking="406" offensive="538" aggressive="571" consistent="212" creative="490" experienced="267"/>
+    <skills stamina="274" dexterity="652" speed="360" tackling="307" passing="462" shooting="423" control="309" accuracy="348" goalkeeping="66" heading="400"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78173">
+    <personal name="Vasil Gigiadze">
+      <appearance value="0"/>
+      <nationality value="Georgia"/>
+    </personal>
+    <personality active="565" risktaking="471" offensive="757" aggressive="811" consistent="480" creative="378" experienced="258"/>
+    <skills stamina="586" dexterity="451" speed="498" tackling="274" passing="366" shooting="492" control="372" accuracy="301" goalkeeping="57" heading="468"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="78174">
+    <personal name="Bogdan Esip">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="439" risktaking="545" offensive="450" aggressive="339" consistent="395" creative="418" experienced="538"/>
+    <skills stamina="492" dexterity="675" speed="489" tackling="390" passing="324" shooting="304" control="309" accuracy="382" goalkeeping="53" heading="342"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78175">
+    <personal name="Vasyl Tovkatsky">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="422" risktaking="711" offensive="466" aggressive="274" consistent="431" creative="541" experienced="500"/>
+    <skills stamina="390" dexterity="187" speed="143" tackling="396" passing="301" shooting="317" control="273" accuracy="419" goalkeeping="65" heading="361"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78176">
+    <personal name="Andrei Pyatov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="560" risktaking="473" offensive="563" aggressive="764" consistent="247" creative="465" experienced="419"/>
+    <skills stamina="426" dexterity="286" speed="379" tackling="313" passing="533" shooting="574" control="427" accuracy="273" goalkeeping="631" heading="283"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78177">
+    <personal name="Bogdan Shust">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="714" risktaking="286" offensive="614" aggressive="715" consistent="377" creative="404" experienced="729"/>
+    <skills stamina="205" dexterity="642" speed="374" tackling="276" passing="392" shooting="455" control="352" accuracy="218" goalkeeping="638" heading="242"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78178">
+    <personal name="Ilsinho">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="464" risktaking="514" offensive="138" aggressive="528" consistent="398" creative="520" experienced="518"/>
+    <skills stamina="444" dexterity="361" speed="503" tackling="636" passing="629" shooting="764" control="654" accuracy="707" goalkeeping="111" heading="694"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78179">
+    <personal name="Razvan Rat">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="586" risktaking="351" offensive="431" aggressive="701" consistent="608" creative="405" experienced="313"/>
+    <skills stamina="755" dexterity="432" speed="739" tackling="528" passing="612" shooting="646" control="671" accuracy="646" goalkeeping="85" heading="506"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78180">
+    <personal name="Dmitri Chigrinski">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="415" risktaking="600" offensive="467" aggressive="509" consistent="327" creative="359" experienced="822"/>
+    <skills stamina="478" dexterity="517" speed="385" tackling="597" passing="611" shooting="514" control="679" accuracy="666" goalkeeping="103" heading="652"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78181">
+    <personal name="Tomas Hubschman">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="458" risktaking="521" offensive="519" aggressive="279" consistent="744" creative="706" experienced="655"/>
+    <skills stamina="469" dexterity="728" speed="631" tackling="536" passing="602" shooting="603" control="645" accuracy="529" goalkeeping="85" heading="536"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="78182">
+    <personal name="Willian">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="647" risktaking="446" offensive="459" aggressive="567" consistent="650" creative="693" experienced="474"/>
+    <skills stamina="742" dexterity="489" speed="647" tackling="613" passing="698" shooting="644" control="741" accuracy="725" goalkeeping="114" heading="603"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78183">
+    <personal name="Vladimir Yezersky">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="653" risktaking="450" offensive="536" aggressive="531" consistent="375" creative="416" experienced="588"/>
+    <skills stamina="238" dexterity="319" speed="726" tackling="455" passing="588" shooting="457" control="608" accuracy="565" goalkeeping="80" heading="589"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78184">
+    <personal name="Igor Duljaj">
+      <appearance value="8"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="141" risktaking="695" offensive="387" aggressive="463" consistent="625" creative="371" experienced="618"/>
+    <skills stamina="738" dexterity="306" speed="723" tackling="714" passing="587" shooting="680" control="596" accuracy="559" goalkeeping="95" heading="505"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="78185">
+    <personal name="Darijo Srna">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="332" risktaking="573" offensive="678" aggressive="626" consistent="447" creative="588" experienced="501"/>
+    <skills stamina="742" dexterity="305" speed="392" tackling="660" passing="649" shooting="758" control="754" accuracy="689" goalkeeping="127" heading="774"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78186">
+    <personal name="Mariusz Lewandowski">
+      <appearance value="0"/>
+      <nationality value="Poland"/>
+    </personal>
+    <personality active="702" risktaking="379" offensive="434" aggressive="435" consistent="696" creative="275" experienced="496"/>
+    <skills stamina="493" dexterity="409" speed="688" tackling="699" passing="644" shooting="605" control="603" accuracy="572" goalkeeping="92" heading="679"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78187">
+    <personal name="Jadson">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="393" risktaking="460" offensive="423" aggressive="580" consistent="528" creative="295" experienced="539"/>
+    <skills stamina="670" dexterity="614" speed="358" tackling="711" passing="689" shooting="637" control="637" accuracy="571" goalkeeping="124" heading="567"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78188">
+    <personal name="Brandao">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="470" risktaking="575" offensive="653" aggressive="510" consistent="554" creative="768" experienced="597"/>
+    <skills stamina="651" dexterity="545" speed="413" tackling="605" passing="634" shooting="687" control="622" accuracy="645" goalkeeping="104" heading="712"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78189">
+    <personal name="Cristiano Lucarelli">
+      <appearance value="0"/>
+      <nationality value="Italy"/>
+    </personal>
+    <personality active="471" risktaking="550" offensive="592" aggressive="317" consistent="463" creative="495" experienced="747"/>
+    <skills stamina="834" dexterity="512" speed="398" tackling="689" passing="735" shooting="774" control="734" accuracy="644" goalkeeping="106" heading="632"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78190">
+    <personal name="Fernandinho">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="653" risktaking="389" offensive="500" aggressive="291" consistent="187" creative="526" experienced="774"/>
+    <skills stamina="536" dexterity="812" speed="516" tackling="732" passing="716" shooting="650" control="639" accuracy="654" goalkeeping="95" heading="727"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78191">
+    <personal name="Aleksandr Gladky">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="317" risktaking="348" offensive="702" aggressive="551" consistent="534" creative="687" experienced="211"/>
+    <skills stamina="706" dexterity="462" speed="639" tackling="716" passing="611" shooting="621" control="552" accuracy="633" goalkeeping="93" heading="642"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="78192">
+    <personal name="Dmitri Kozachenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="512" risktaking="308" offensive="507" aggressive="471" consistent="605" creative="503" experienced="463"/>
+    <skills stamina="209" dexterity="422" speed="351" tackling="217" passing="358" shooting="297" control="217" accuracy="171" goalkeeping="472" heading="132"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="78193">
+    <personal name="Sasa Todic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="637" risktaking="576" offensive="608" aggressive="589" consistent="327" creative="582" experienced="455"/>
+    <skills stamina="214" dexterity="143" speed="386" tackling="127" passing="437" shooting="428" control="344" accuracy="126" goalkeeping="459" heading="164"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78194">
+    <personal name="Taras Ilnitsky">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="337" risktaking="512" offensive="890" aggressive="568" consistent="707" creative="465" experienced="613"/>
+    <skills stamina="152" dexterity="187" speed="244" tackling="282" passing="296" shooting="413" control="447" accuracy="267" goalkeeping="65" heading="388"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78195">
+    <personal name="Andrius Joksas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="456" risktaking="794" offensive="495" aggressive="448" consistent="611" creative="568" experienced="686"/>
+    <skills stamina="534" dexterity="652" speed="241" tackling="515" passing="521" shooting="466" control="447" accuracy="498" goalkeeping="77" heading="358"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78196">
+    <personal name="Oleksandr Pershin">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="510" risktaking="796" offensive="111" aggressive="748" consistent="592" creative="707" experienced="366"/>
+    <skills stamina="618" dexterity="256" speed="658" tackling="531" passing="471" shooting="416" control="424" accuracy="360" goalkeeping="45" heading="406"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78197">
+    <personal name="Harrison Omokoh">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="565" risktaking="410" offensive="655" aggressive="560" consistent="431" creative="654" experienced="255"/>
+    <skills stamina="626" dexterity="602" speed="298" tackling="407" passing="396" shooting="391" control="342" accuracy="267" goalkeeping="45" heading="446"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78198">
+    <personal name="Irmantas Zelmikas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="516" risktaking="608" offensive="362" aggressive="445" consistent="850" creative="326" experienced="727"/>
+    <skills stamina="397" dexterity="527" speed="604" tackling="428" passing="429" shooting="364" control="469" accuracy="440" goalkeeping="56" heading="425"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="78199">
+    <personal name="Audrius Veikutis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="596" risktaking="557" offensive="728" aggressive="600" consistent="613" creative="594" experienced="572"/>
+    <skills stamina="179" dexterity="691" speed="590" tackling="394" passing="472" shooting="276" control="293" accuracy="400" goalkeeping="46" heading="404"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78200">
+    <personal name="Evgeni Linev">
+      <appearance value="0"/>
+      <nationality value="Belarus"/>
+    </personal>
+    <personality active="344" risktaking="565" offensive="566" aggressive="435" consistent="730" creative="435" experienced="678"/>
+    <skills stamina="356" dexterity="218" speed="520" tackling="406" passing="391" shooting="318" control="445" accuracy="309" goalkeeping="78" heading="295"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78201">
+    <personal name="Ilya Galyuza">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="506" risktaking="739" offensive="510" aggressive="367" consistent="473" creative="466" experienced="350"/>
+    <skills stamina="449" dexterity="575" speed="553" tackling="422" passing="443" shooting="387" control="444" accuracy="359" goalkeeping="67" heading="399"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78202">
+    <personal name="Slobodan Markovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="466" risktaking="448" offensive="686" aggressive="552" consistent="435" creative="498" experienced="665"/>
+    <skills stamina="426" dexterity="578" speed="276" tackling="400" passing="401" shooting="426" control="322" accuracy="306" goalkeeping="62" heading="447"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78203">
+    <personal name="Zeljko Ljubenovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="644" risktaking="344" offensive="242" aggressive="413" consistent="681" creative="491" experienced="413"/>
+    <skills stamina="369" dexterity="418" speed="180" tackling="489" passing="386" shooting="375" control="351" accuracy="316" goalkeeping="72" heading="394"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78204">
+    <personal name="German Kutarba">
+      <appearance value="0"/>
+      <nationality value="Russia"/>
+    </personal>
+    <personality active="551" risktaking="383" offensive="602" aggressive="601" consistent="545" creative="494" experienced="243"/>
+    <skills stamina="529" dexterity="541" speed="214" tackling="356" passing="452" shooting="295" control="369" accuracy="303" goalkeeping="61" heading="376"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78205">
+    <personal name="Denis Golaydo">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="796" risktaking="288" offensive="497" aggressive="500" consistent="613" creative="438" experienced="605"/>
+    <skills stamina="535" dexterity="458" speed="627" tackling="379" passing="445" shooting="402" control="470" accuracy="414" goalkeeping="68" heading="412"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="78206">
+    <personal name="Lucky Idahor">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="563" risktaking="417" offensive="383" aggressive="356" consistent="511" creative="601" experienced="373"/>
+    <skills stamina="271" dexterity="351" speed="582" tackling="390" passing="466" shooting="429" control="496" accuracy="419" goalkeeping="62" heading="493"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="78207">
+    <personal name="Aleksandr Kovpak">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="536" risktaking="530" offensive="338" aggressive="712" consistent="479" creative="384" experienced="433"/>
+    <skills stamina="637" dexterity="344" speed="127" tackling="360" passing="340" shooting="260" control="387" accuracy="394" goalkeeping="50" heading="392"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78208">
+    <personal name="Sergei Dolganskiy">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="318" risktaking="503" offensive="570" aggressive="450" consistent="901" creative="318" experienced="297"/>
+    <skills stamina="584" dexterity="330" speed="629" tackling="190" passing="477" shooting="406" control="241" accuracy="224" goalkeeping="424" heading="236"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78209">
+    <personal name="Oleg Chuvaev">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="417" risktaking="758" offensive="548" aggressive="322" consistent="647" creative="498" experienced="500"/>
+    <skills stamina="254" dexterity="650" speed="623" tackling="154" passing="300" shooting="436" control="344" accuracy="190" goalkeeping="522" heading="213"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="78210">
+    <personal name="Grigory Yarmash">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="644" risktaking="655" offensive="441" aggressive="532" consistent="539" creative="572" experienced="500"/>
+    <skills stamina="368" dexterity="414" speed="559" tackling="416" passing="305" shooting="369" control="399" accuracy="435" goalkeeping="65" heading="398"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78211">
+    <personal name="Aleksandr Chizhov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="464" risktaking="535" offensive="519" aggressive="419" consistent="280" creative="581" experienced="670"/>
+    <skills stamina="205" dexterity="433" speed="618" tackling="359" passing="413" shooting="397" control="261" accuracy="256" goalkeeping="55" heading="378"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78212">
+    <personal name="Debatik Curri">
+      <appearance value="0"/>
+      <nationality value="Albania"/>
+    </personal>
+    <personality active="527" risktaking="424" offensive="663" aggressive="655" consistent="817" creative="243" experienced="316"/>
+    <skills stamina="383" dexterity="613" speed="378" tackling="432" passing="360" shooting="344" control="272" accuracy="417" goalkeeping="58" heading="276"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78213">
+    <personal name="Armend Dallku">
+      <appearance value="0"/>
+      <nationality value="Albania"/>
+    </personal>
+    <personality active="396" risktaking="428" offensive="535" aggressive="632" consistent="223" creative="572" experienced="426"/>
+    <skills stamina="378" dexterity="648" speed="220" tackling="434" passing="386" shooting="520" control="480" accuracy="387" goalkeeping="79" heading="476"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78214">
+    <personal name="Sergei Kravchenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="500" risktaking="627" offensive="537" aggressive="404" consistent="356" creative="385" experienced="661"/>
+    <skills stamina="330" dexterity="395" speed="176" tackling="503" passing="397" shooting="476" control="528" accuracy="431" goalkeeping="59" heading="445"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78215">
+    <personal name="Sasa Djuricic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="519" risktaking="628" offensive="394" aggressive="210" consistent="373" creative="378" experienced="414"/>
+    <skills stamina="490" dexterity="381" speed="365" tackling="323" passing="482" shooting="449" control="418" accuracy="463" goalkeeping="50" heading="407"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78216">
+    <personal name="Sergei Dyachenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="441" risktaking="766" offensive="462" aggressive="589" consistent="428" creative="474" experienced="388"/>
+    <skills stamina="678" dexterity="461" speed="528" tackling="420" passing="460" shooting="384" control="450" accuracy="371" goalkeeping="45" heading="451"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="78217">
+    <personal name="Denis Kulakov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="566" risktaking="333" offensive="396" aggressive="451" consistent="172" creative="446" experienced="405"/>
+    <skills stamina="267" dexterity="426" speed="677" tackling="433" passing="466" shooting="326" control="426" accuracy="411" goalkeeping="46" heading="374"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78218">
+    <personal name="Denis Glavina">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="495" risktaking="577" offensive="431" aggressive="751" consistent="568" creative="479" experienced="483"/>
+    <skills stamina="146" dexterity="144" speed="692" tackling="274" passing="327" shooting="284" control="332" accuracy="408" goalkeeping="72" heading="423"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78219">
+    <personal name="Jovan Markoski">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="311" risktaking="706" offensive="133" aggressive="615" consistent="394" creative="242" experienced="663"/>
+    <skills stamina="538" dexterity="190" speed="456" tackling="393" passing="377" shooting="396" control="361" accuracy="429" goalkeeping="59" heading="498"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="78220">
+    <personal name="Miroslav Grumic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="400" risktaking="429" offensive="516" aggressive="470" consistent="623" creative="336" experienced="446"/>
+    <skills stamina="468" dexterity="486" speed="518" tackling="378" passing="378" shooting="477" control="459" accuracy="409" goalkeeping="68" heading="328"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78221">
+    <personal name="Catalin Lichioiu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="551" risktaking="438" offensive="612" aggressive="482" consistent="418" creative="27" experienced="605"/>
+    <skills stamina="309" dexterity="170" speed="542" tackling="411" passing="507" shooting="561" control="488" accuracy="438" goalkeeping="55" heading="484"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78222">
+    <personal name="Ahmed Januzi">
+      <appearance value="0"/>
+      <nationality value="Albania"/>
+    </personal>
+    <personality active="548" risktaking="382" offensive="584" aggressive="316" consistent="585" creative="475" experienced="538"/>
+    <skills stamina="182" dexterity="226" speed="324" tackling="343" passing="455" shooting="414" control="396" accuracy="428" goalkeeping="86" heading="416"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78223">
+    <personal name="Gennady Medvedev">
+      <appearance value="8"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="556" risktaking="578" offensive="398" aggressive="645" consistent="646" creative="519" experienced="607"/>
+    <skills stamina="300" dexterity="194" speed="359" tackling="384" passing="476" shooting="375" control="383" accuracy="395" goalkeeping="55" heading="291"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78224">
+    <personal name="Aleksandr Babak">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="521" risktaking="581" offensive="880" aggressive="553" consistent="740" creative="292" experienced="653"/>
+    <skills stamina="632" dexterity="371" speed="239" tackling="192" passing="312" shooting="364" control="225" accuracy="173" goalkeeping="434" heading="123"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="78225">
+    <personal name="Vadim Startsev">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="441" risktaking="640" offensive="571" aggressive="519" consistent="333" creative="461" experienced="389"/>
+    <skills stamina="439" dexterity="640" speed="400" tackling="207" passing="251" shooting="327" control="232" accuracy="146" goalkeeping="435" heading="203"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78226">
+    <personal name="Andrei Bashlei">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="399" risktaking="437" offensive="542" aggressive="552" consistent="653" creative="698" experienced="729"/>
+    <skills stamina="395" dexterity="248" speed="154" tackling="263" passing="456" shooting="367" control="450" accuracy="437" goalkeeping="65" heading="328"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78227">
+    <personal name="Aleksandr Maklakov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="445" risktaking="322" offensive="332" aggressive="589" consistent="551" creative="479" experienced="539"/>
+    <skills stamina="583" dexterity="680" speed="418" tackling="416" passing="418" shooting="332" control="302" accuracy="337" goalkeeping="41" heading="327"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78228">
+    <personal name="Ahmed Al-hassan">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="374" risktaking="657" offensive="586" aggressive="552" consistent="523" creative="614" experienced="232"/>
+    <skills stamina="167" dexterity="295" speed="648" tackling="333" passing="286" shooting="252" control="322" accuracy="255" goalkeeping="50" heading="271"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="78229">
+    <personal name="Sergei Nazaruk">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="739" risktaking="700" offensive="367" aggressive="290" consistent="492" creative="527" experienced="549"/>
+    <skills stamina="197" dexterity="410" speed="400" tackling="393" passing="437" shooting="303" control="394" accuracy="301" goalkeeping="62" heading="309"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="78230">
+    <personal name="Shaib Toure">
+      <appearance value="1"/>
+      <nationality value="Ivory Coast"/>
+    </personal>
+    <personality active="617" risktaking="672" offensive="715" aggressive="588" consistent="702" creative="655" experienced="526"/>
+    <skills stamina="533" dexterity="369" speed="366" tackling="462" passing="352" shooting="302" control="382" accuracy="314" goalkeeping="70" heading="343"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78231">
+    <personal name="Aleksandr Volovyk">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="409" risktaking="537" offensive="534" aggressive="750" consistent="605" creative="574" experienced="780"/>
+    <skills stamina="317" dexterity="246" speed="366" tackling="408" passing="406" shooting="377" control="321" accuracy="357" goalkeeping="61" heading="443"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78232">
+    <personal name="Bournel Okana-stasi">
+      <appearance value="1"/>
+      <nationality value="Congo"/>
+    </personal>
+    <personality active="568" risktaking="377" offensive="339" aggressive="597" consistent="515" creative="394" experienced="371"/>
+    <skills stamina="321" dexterity="493" speed="472" tackling="276" passing="312" shooting="442" control="387" accuracy="375" goalkeeping="72" heading="276"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78233">
+    <personal name="Timofei Lystopad">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="641" risktaking="526" offensive="679" aggressive="448" consistent="390" creative="360" experienced="360"/>
+    <skills stamina="331" dexterity="210" speed="482" tackling="258" passing="311" shooting="286" control="384" accuracy="429" goalkeeping="50" heading="428"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78234">
+    <personal name="Aleksandr Plunitsky">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="405" risktaking="557" offensive="342" aggressive="324" consistent="451" creative="237" experienced="534"/>
+    <skills stamina="488" dexterity="477" speed="318" tackling="456" passing="385" shooting="376" control="390" accuracy="347" goalkeeping="68" heading="357"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="78235">
+    <personal name="Dmitri Trukhin">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="326" risktaking="382" offensive="568" aggressive="656" consistent="456" creative="207" experienced="527"/>
+    <skills stamina="143" dexterity="150" speed="205" tackling="361" passing="466" shooting="402" control="391" accuracy="321" goalkeeping="69" heading="262"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78236">
+    <personal name="Marau Daudov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="581" risktaking="535" offensive="683" aggressive="708" consistent="518" creative="500" experienced="647"/>
+    <skills stamina="256" dexterity="160" speed="528" tackling="333" passing="250" shooting="472" control="308" accuracy="358" goalkeeping="44" heading="328"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78237">
+    <personal name="Leopold Toty">
+      <appearance value="1"/>
+      <nationality value="Ivory Coast"/>
+    </personal>
+    <personality active="525" risktaking="454" offensive="655" aggressive="368" consistent="694" creative="548" experienced="334"/>
+    <skills stamina="628" dexterity="541" speed="290" tackling="384" passing="330" shooting="325" control="342" accuracy="490" goalkeeping="46" heading="343"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78238">
+    <personal name="Yuri Chornobei">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="900" risktaking="537" offensive="572" aggressive="244" consistent="522" creative="698" experienced="435"/>
+    <skills stamina="639" dexterity="618" speed="380" tackling="339" passing="414" shooting="354" control="331" accuracy="244" goalkeeping="50" heading="332"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="78239">
+    <personal name="Maksim Nikytsky">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="432" risktaking="338" offensive="465" aggressive="577" consistent="503" creative="398" experienced="316"/>
+    <skills stamina="478" dexterity="410" speed="392" tackling="352" passing="325" shooting="453" control="396" accuracy="373" goalkeeping="58" heading="398"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78240">
+    <personal name="Igor Shuvkhovtsev">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="531" risktaking="374" offensive="804" aggressive="816" consistent="576" creative="502" experienced="435"/>
+    <skills stamina="457" dexterity="244" speed="239" tackling="161" passing="405" shooting="346" control="332" accuracy="156" goalkeeping="316" heading="162"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78241">
+    <personal name="Gennadi Altman">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="225" risktaking="479" offensive="500" aggressive="393" consistent="430" creative="472" experienced="391"/>
+    <skills stamina="381" dexterity="253" speed="600" tackling="152" passing="238" shooting="327" control="277" accuracy="125" goalkeeping="431" heading="151"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="78242">
+    <personal name="Oleg Krasnoporov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="416" risktaking="633" offensive="570" aggressive="290" consistent="743" creative="549" experienced="389"/>
+    <skills stamina="352" dexterity="376" speed="594" tackling="290" passing="408" shooting="422" control="344" accuracy="297" goalkeeping="73" heading="381"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78243">
+    <personal name="Igor Skoba">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="106" risktaking="646" offensive="483" aggressive="520" consistent="655" creative="645" experienced="585"/>
+    <skills stamina="696" dexterity="518" speed="586" tackling="384" passing="417" shooting="397" control="360" accuracy="395" goalkeeping="66" heading="348"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78244">
+    <personal name="Leonid Boyarintsev">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="195" risktaking="437" offensive="578" aggressive="707" consistent="748" creative="376" experienced="657"/>
+    <skills stamina="495" dexterity="269" speed="413" tackling="451" passing="302" shooting="407" control="431" accuracy="259" goalkeeping="68" heading="387"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78245">
+    <personal name="Aleksandr Maltsev">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="509" risktaking="576" offensive="771" aggressive="459" consistent="645" creative="305" experienced="111"/>
+    <skills stamina="660" dexterity="348" speed="336" tackling="500" passing="318" shooting="326" control="415" accuracy="263" goalkeeping="74" heading="272"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78246">
+    <personal name="Igor Buryak">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="587" risktaking="121" offensive="459" aggressive="324" consistent="458" creative="432" experienced="497"/>
+    <skills stamina="134" dexterity="676" speed="508" tackling="442" passing="364" shooting="293" control="376" accuracy="341" goalkeeping="62" heading="429"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78247">
+    <personal name="Denys Onyschenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="648" risktaking="372" offensive="557" aggressive="602" consistent="201" creative="611" experienced="662"/>
+    <skills stamina="640" dexterity="225" speed="534" tackling="281" passing="316" shooting="439" control="337" accuracy="287" goalkeeping="56" heading="394"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="78248">
+    <personal name="Andrei Demchenko">
+      <appearance value="0"/>
+      <nationality value="Russia"/>
+    </personal>
+    <personality active="509" risktaking="698" offensive="403" aggressive="677" consistent="136" creative="412" experienced="297"/>
+    <skills stamina="515" dexterity="401" speed="433" tackling="357" passing="292" shooting="313" control="406" accuracy="327" goalkeeping="41" heading="309"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78249">
+    <personal name="Dmitri Yesin">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="448" risktaking="800" offensive="764" aggressive="409" consistent="631" creative="311" experienced="804"/>
+    <skills stamina="394" dexterity="408" speed="344" tackling="315" passing="372" shooting="340" control="377" accuracy="441" goalkeeping="74" heading="441"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78250">
+    <personal name="Andrei Oberemko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="658" risktaking="452" offensive="645" aggressive="427" consistent="436" creative="468" experienced="613"/>
+    <skills stamina="398" dexterity="217" speed="289" tackling="333" passing="435" shooting="354" control="316" accuracy="381" goalkeeping="55" heading="320"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78251">
+    <personal name="Ruslan Solyanyk">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="655" risktaking="267" offensive="334" aggressive="360" consistent="750" creative="491" experienced="488"/>
+    <skills stamina="666" dexterity="673" speed="404" tackling="479" passing="286" shooting="297" control="398" accuracy="284" goalkeeping="63" heading="388"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78252">
+    <personal name="Konstantin Babych">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="466" risktaking="183" offensive="511" aggressive="632" consistent="344" creative="368" experienced="771"/>
+    <skills stamina="349" dexterity="383" speed="631" tackling="326" passing="429" shooting="426" control="326" accuracy="281" goalkeeping="66" heading="275"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78253">
+    <personal name="Petro Kondratyuk">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="579" risktaking="401" offensive="429" aggressive="585" consistent="572" creative="313" experienced="436"/>
+    <skills stamina="324" dexterity="254" speed="384" tackling="372" passing="414" shooting="411" control="324" accuracy="300" goalkeeping="42" heading="444"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78254">
+    <personal name="Ivan Kryvoshenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="604" risktaking="452" offensive="400" aggressive="741" consistent="245" creative="710" experienced="516"/>
+    <skills stamina="536" dexterity="609" speed="287" tackling="394" passing="409" shooting="365" control="340" accuracy="504" goalkeeping="73" heading="397"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78255">
+    <personal name="Igor Melnyk">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="313" risktaking="700" offensive="543" aggressive="476" consistent="379" creative="336" experienced="471"/>
+    <skills stamina="255" dexterity="560" speed="403" tackling="267" passing="318" shooting="334" control="352" accuracy="486" goalkeeping="50" heading="435"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78256">
+    <personal name="Vsevolod Romanenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="593" risktaking="311" offensive="693" aggressive="324" consistent="266" creative="623" experienced="497"/>
+    <skills stamina="195" dexterity="350" speed="178" tackling="154" passing="420" shooting="289" control="260" accuracy="220" goalkeeping="422" heading="190"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78257">
+    <personal name="Dmitri Babenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="534" risktaking="359" offensive="796" aggressive="512" consistent="640" creative="310" experienced="495"/>
+    <skills stamina="669" dexterity="664" speed="129" tackling="129" passing="302" shooting="419" control="312" accuracy="160" goalkeeping="391" heading="153"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="78258">
+    <personal name="Igor Chuchman">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="389" risktaking="694" offensive="791" aggressive="523" consistent="568" creative="484" experienced="281"/>
+    <skills stamina="140" dexterity="586" speed="278" tackling="446" passing="286" shooting="422" control="393" accuracy="408" goalkeeping="49" heading="414"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78259">
+    <personal name="Sergei Esin">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="384" risktaking="603" offensive="243" aggressive="414" consistent="463" creative="379" experienced="519"/>
+    <skills stamina="454" dexterity="699" speed="390" tackling="407" passing="409" shooting="303" control="353" accuracy="356" goalkeeping="63" heading="303"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78260">
+    <personal name="Yaroslav Vishnyak">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="526" risktaking="520" offensive="444" aggressive="593" consistent="266" creative="165" experienced="580"/>
+    <skills stamina="265" dexterity="712" speed="311" tackling="382" passing="468" shooting="317" control="282" accuracy="374" goalkeeping="58" heading="456"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78261">
+    <personal name="Aleksandr Chizhevsky">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="474" risktaking="604" offensive="437" aggressive="345" consistent="397" creative="446" experienced="543"/>
+    <skills stamina="567" dexterity="454" speed="615" tackling="320" passing="349" shooting="274" control="315" accuracy="299" goalkeeping="56" heading="351"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="78262">
+    <personal name="Ivan Kozoriz">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="457" risktaking="688" offensive="199" aggressive="613" consistent="295" creative="657" experienced="498"/>
+    <skills stamina="537" dexterity="216" speed="529" tackling="451" passing="460" shooting="408" control="338" accuracy="306" goalkeeping="66" heading="434"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78263">
+    <personal name="Kakhaber Aladashvili">
+      <appearance value="0"/>
+      <nationality value="Georgia"/>
+    </personal>
+    <personality active="337" risktaking="898" offensive="381" aggressive="448" consistent="199" creative="477" experienced="526"/>
+    <skills stamina="434" dexterity="285" speed="293" tackling="436" passing="458" shooting="454" control="317" accuracy="450" goalkeeping="51" heading="454"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78264">
+    <personal name="Andrei Vitoshinsky">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="533" risktaking="435" offensive="543" aggressive="576" consistent="239" creative="271" experienced="724"/>
+    <skills stamina="438" dexterity="213" speed="395" tackling="366" passing="451" shooting="337" control="350" accuracy="340" goalkeeping="72" heading="376"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78265">
+    <personal name="Vladislav Mikulyak">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="295" risktaking="524" offensive="475" aggressive="419" consistent="368" creative="721" experienced="638"/>
+    <skills stamina="377" dexterity="598" speed="623" tackling="287" passing="342" shooting="269" control="412" accuracy="355" goalkeeping="58" heading="337"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78266">
+    <personal name="Vladimir Braila">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="537" risktaking="320" offensive="347" aggressive="443" consistent="581" creative="665" experienced="453"/>
+    <skills stamina="536" dexterity="302" speed="603" tackling="362" passing="301" shooting="326" control="317" accuracy="300" goalkeeping="43" heading="280"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78267">
+    <personal name="Eddy Lord Dombraye">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="221" risktaking="632" offensive="593" aggressive="593" consistent="591" creative="705" experienced="276"/>
+    <skills stamina="608" dexterity="621" speed="571" tackling="410" passing="424" shooting="425" control="433" accuracy="420" goalkeeping="42" heading="354"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78268">
+    <personal name="Anatoly Didenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="741" risktaking="853" offensive="688" aggressive="330" consistent="569" creative="618" experienced="534"/>
+    <skills stamina="561" dexterity="336" speed="286" tackling="396" passing="363" shooting="315" control="458" accuracy="366" goalkeeping="68" heading="389"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78269">
+    <personal name="Minja Popovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="660" risktaking="472" offensive="485" aggressive="378" consistent="679" creative="681" experienced="610"/>
+    <skills stamina="507" dexterity="521" speed="535" tackling="341" passing="320" shooting="416" control="331" accuracy="312" goalkeeping="48" heading="240"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78270">
+    <personal name="Otar Martsvaladze">
+      <appearance value="0"/>
+      <nationality value="Georgia"/>
+    </personal>
+    <personality active="375" risktaking="661" offensive="542" aggressive="630" consistent="396" creative="531" experienced="585"/>
+    <skills stamina="624" dexterity="628" speed="313" tackling="296" passing="427" shooting="442" control="272" accuracy="543" goalkeeping="68" heading="298"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="78271">
+    <personal name="Miroslav Bundash">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="595" risktaking="490" offensive="512" aggressive="305" consistent="483" creative="368" experienced="638"/>
+    <skills stamina="505" dexterity="519" speed="345" tackling="399" passing="269" shooting="338" control="388" accuracy="432" goalkeeping="57" heading="405"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78272">
+    <personal name="Andrei Nikitin">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="623" risktaking="577" offensive="506" aggressive="565" consistent="667" creative="368" experienced="415"/>
+    <skills stamina="502" dexterity="678" speed="634" tackling="136" passing="398" shooting="290" control="290" accuracy="145" goalkeeping="454" heading="146"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="78273">
+    <personal name="Igor Bazhan">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="325" risktaking="389" offensive="255" aggressive="412" consistent="577" creative="562" experienced="597"/>
+    <skills stamina="149" dexterity="456" speed="418" tackling="161" passing="348" shooting="374" control="254" accuracy="199" goalkeeping="480" heading="159"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="78274">
+    <personal name="Sergei Dmitriev">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="482" risktaking="657" offensive="564" aggressive="162" consistent="636" creative="312" experienced="578"/>
+    <skills stamina="229" dexterity="320" speed="275" tackling="428" passing="425" shooting="364" control="344" accuracy="345" goalkeeping="62" heading="260"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78275">
+    <personal name="Jurica Puljiz">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="541" risktaking="711" offensive="502" aggressive="620" consistent="772" creative="584" experienced="505"/>
+    <skills stamina="359" dexterity="168" speed="259" tackling="313" passing="430" shooting="362" control="428" accuracy="348" goalkeeping="69" heading="255"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78276">
+    <personal name="Vladimir Yaksmanitsky">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="520" risktaking="497" offensive="521" aggressive="727" consistent="560" creative="398" experienced="728"/>
+    <skills stamina="510" dexterity="416" speed="542" tackling="434" passing="393" shooting="393" control="383" accuracy="291" goalkeeping="79" heading="412"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="78277">
+    <personal name="Aleksandr Polovkov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="364" risktaking="521" offensive="544" aggressive="534" consistent="593" creative="520" experienced="695"/>
+    <skills stamina="559" dexterity="365" speed="428" tackling="441" passing="298" shooting="311" control="382" accuracy="410" goalkeeping="72" heading="302"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="78278">
+    <personal name="Georgi Tsimakuridze">
+      <appearance value="0"/>
+      <nationality value="Georgia"/>
+    </personal>
+    <personality active="524" risktaking="611" offensive="543" aggressive="716" consistent="541" creative="720" experienced="744"/>
+    <skills stamina="327" dexterity="703" speed="475" tackling="368" passing="338" shooting="358" control="423" accuracy="429" goalkeeping="45" heading="340"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78279">
+    <personal name="Mirko Bunjevcevic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="536" risktaking="210" offensive="366" aggressive="557" consistent="345" creative="403" experienced="298"/>
+    <skills stamina="524" dexterity="703" speed="624" tackling="449" passing="335" shooting="411" control="452" accuracy="298" goalkeeping="48" heading="279"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="78280">
+    <personal name="Vladimir Burduli">
+      <appearance value="0"/>
+      <nationality value="Georgia"/>
+    </personal>
+    <personality active="461" risktaking="597" offensive="535" aggressive="357" consistent="610" creative="671" experienced="725"/>
+    <skills stamina="273" dexterity="288" speed="513" tackling="404" passing="365" shooting="384" control="389" accuracy="399" goalkeeping="60" heading="372"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78281">
+    <personal name="Valentin Platonov">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="497" risktaking="762" offensive="680" aggressive="408" consistent="505" creative="380" experienced="521"/>
+    <skills stamina="272" dexterity="364" speed="258" tackling="370" passing="339" shooting="426" control="423" accuracy="322" goalkeeping="41" heading="289"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78282">
+    <personal name="Evgeni Lutsenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="527" risktaking="386" offensive="458" aggressive="464" consistent="317" creative="677" experienced="572"/>
+    <skills stamina="498" dexterity="527" speed="513" tackling="416" passing="493" shooting="338" control="527" accuracy="477" goalkeeping="87" heading="501"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="78283">
+    <personal name="Darko Dunjic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="572" risktaking="558" offensive="559" aggressive="588" consistent="535" creative="241" experienced="535"/>
+    <skills stamina="225" dexterity="434" speed="331" tackling="309" passing="371" shooting="303" control="397" accuracy="419" goalkeeping="50" heading="323"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="78284">
+    <personal name="Dmitri Vorobei">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="415" risktaking="285" offensive="551" aggressive="569" consistent="491" creative="564" experienced="480"/>
+    <skills stamina="326" dexterity="454" speed="259" tackling="360" passing="265" shooting="370" control="281" accuracy="391" goalkeeping="60" heading="486"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78285">
+    <personal name="Aleksandr Popovich">
+      <appearance value="0"/>
+      <nationality value="Moldova"/>
+    </personal>
+    <personality active="389" risktaking="344" offensive="488" aggressive="267" consistent="341" creative="610" experienced="499"/>
+    <skills stamina="521" dexterity="286" speed="416" tackling="369" passing="262" shooting="335" control="320" accuracy="458" goalkeeping="64" heading="410"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="78286">
+    <personal name="Taoufik Salhi">
+      <appearance value="0"/>
+      <nationality value="Tunisia"/>
+    </personal>
+    <personality active="444" risktaking="248" offensive="293" aggressive="717" consistent="599" creative="377" experienced="466"/>
+    <skills stamina="314" dexterity="473" speed="478" tackling="365" passing="517" shooting="284" control="351" accuracy="319" goalkeeping="57" heading="361"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="78287">
+    <personal name="Dmitri Brovkin">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="528" risktaking="508" offensive="543" aggressive="359" consistent="559" creative="329" experienced="536"/>
+    <skills stamina="567" dexterity="270" speed="245" tackling="339" passing="360" shooting="447" control="372" accuracy="415" goalkeeping="52" heading="264"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+</Players>

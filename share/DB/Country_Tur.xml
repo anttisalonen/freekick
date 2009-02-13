@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Turkey">
+    <Regions>
+      <Region name="Turkey">
+        <stadium name="Ankaraspor Stadium" capacity="22500"/>
+        <stadium name="Ankaragucu Stadium" capacity="18400"/>
+        <stadium name="C Rizespor Stadium" capacity="18900"/>
+        <stadium name="Antalyaspor Stadium" capacity="14300"/>
+        <stadium name="K Erciyesspor Stadium" capacity="5000"/>
+        <stadium name="Besiktas Stadium" capacity="30300"/>
+        <stadium name="Bursaspor Stadium" capacity="14800"/>
+        <stadium name="Denizlispor Stadium" capacity="17600"/>
+        <stadium name="Oftas Stadium" capacity="10100"/>
+        <stadium name="Fenerbahce Stadium" capacity="32600"/>
+        <stadium name="Galatasaray Stadium" capacity="35200"/>
+        <stadium name="Gaziantepspor Stadium" capacity="13800"/>
+        <stadium name="Genclerbirligi Stadium" capacity="16500"/>
+        <stadium name="Belediyespor Stadium" capacity="14600"/>
+        <stadium name="Sakaryaspor Stadium" capacity="5900"/>
+        <stadium name="Kasimpasa Stadium" capacity="13000"/>
+        <stadium name="Kayserispor Stadium" capacity="14300"/>
+        <stadium name="Konyaspor Stadium" capacity="15200"/>
+        <stadium name="Samsunspor Stadium" capacity="9300"/>
+        <stadium name="Sivasspor Stadium" capacity="18100"/>
+        <stadium name="Altay Stadium" capacity="5400"/>
+        <stadium name="Trabzonspor Stadium" capacity="30900"/>
+        <stadium name="Manisaspor Stadium" capacity="14000"/>
+        <stadium name="Istanbulspor Stadium" capacity="7500"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Turkish league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="18" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Turkish Premier league champion"/>
+              <attendances>
+                <attendance tournament="Turkish Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Ankaraspor"/>
+                <club name="Ankaragucu"/>
+                <club name="C Rizespor"/>
+                <club name="Besiktas"/>
+                <club name="Bursaspor"/>
+                <club name="Denizlispor"/>
+                <club name="Oftas"/>
+                <club name="Fenerbahce"/>
+                <club name="Galatasaray"/>
+                <club name="Gaziantepspor"/>
+                <club name="Genclerbirligi"/>
+                <club name="Belediyespor"/>
+                <club name="Kasimpasa"/>
+                <club name="Kayserispor"/>
+                <club name="Konyaspor"/>
+                <club name="Sivasspor"/>
+                <club name="Trabzonspor"/>
+                <club name="Manisaspor"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Turkish Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Turkish Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+        </stage>
+        <stage name="First round" type="1">
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Quarterfinals"/>
+          <preset>
+            <club name="Ankaraspor"/>
+            <club name="Ankaragucu"/>
+            <club name="C Rizespor"/>
+            <club name="Besiktas"/>
+            <club name="Bursaspor"/>
+            <club name="Denizlispor"/>
+            <club name="Oftas"/>
+            <club name="Fenerbahce"/>
+            <club name="Galatasaray"/>
+            <club name="Gaziantepspor"/>
+            <club name="Genclerbirligi"/>
+            <club name="Belediyespor"/>
+            <club name="Kasimpasa"/>
+            <club name="Kayserispor"/>
+            <club name="Konyaspor"/>
+            <club name="Sivasspor"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

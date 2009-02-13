@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Breidablik">
+    <coach name="Bjarni Johansson"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Iceland"/>
+    <stadium name="Breidablik Stadium"/>
+    <contracts>
+      <contract player="34000"/>
+      <contract player="34001"/>
+      <contract player="34002"/>
+      <contract player="34003"/>
+      <contract player="34004"/>
+      <contract player="34005"/>
+      <contract player="34006"/>
+      <contract player="34007"/>
+      <contract player="34008"/>
+      <contract player="34009"/>
+      <contract player="34010"/>
+      <contract player="34011"/>
+      <contract player="34012"/>
+      <contract player="34013"/>
+      <contract player="34014"/>
+      <contract player="34015"/>
+    </contracts>
+  </club>
+  <club name="Fh">
+    <coach name="Olafur Johannesson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Iceland"/>
+    <stadium name="Fh Stadium"/>
+    <contracts>
+      <contract player="34016"/>
+      <contract player="34017"/>
+      <contract player="34018"/>
+      <contract player="34019"/>
+      <contract player="34020"/>
+      <contract player="34021"/>
+      <contract player="34022"/>
+      <contract player="34023"/>
+      <contract player="34024"/>
+      <contract player="34025"/>
+      <contract player="34026"/>
+      <contract player="34027"/>
+      <contract player="34028"/>
+      <contract player="34029"/>
+      <contract player="34030"/>
+      <contract player="34031"/>
+    </contracts>
+  </club>
+  <club name="Fram">
+    <coach name="Asgeir Eliasson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Iceland"/>
+    <stadium name="Fram Stadium"/>
+    <contracts>
+      <contract player="34032"/>
+      <contract player="34033"/>
+      <contract player="34034"/>
+      <contract player="34035"/>
+      <contract player="34036"/>
+      <contract player="34037"/>
+      <contract player="34038"/>
+      <contract player="34039"/>
+      <contract player="34040"/>
+      <contract player="34041"/>
+      <contract player="34042"/>
+      <contract player="34043"/>
+      <contract player="34044"/>
+      <contract player="34045"/>
+      <contract player="34046"/>
+      <contract player="34047"/>
+    </contracts>
+  </club>
+  <club name="Fylkir">
+    <coach name="Magnus Jonatansson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Iceland"/>
+    <stadium name="Fylkir Stadium"/>
+    <contracts>
+      <contract player="34048"/>
+      <contract player="34049"/>
+      <contract player="34050"/>
+      <contract player="34051"/>
+      <contract player="34052"/>
+      <contract player="34053"/>
+      <contract player="34054"/>
+      <contract player="34055"/>
+      <contract player="34056"/>
+      <contract player="34057"/>
+      <contract player="34058"/>
+      <contract player="34059"/>
+      <contract player="34060"/>
+      <contract player="34061"/>
+      <contract player="34062"/>
+      <contract player="34063"/>
+    </contracts>
+  </club>
+  <club name="Grindavik">
+    <coach name="Gretar Einarsson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Iceland"/>
+    <stadium name="Grindavik Stadium"/>
+    <contracts>
+      <contract player="34064"/>
+      <contract player="34065"/>
+      <contract player="34066"/>
+      <contract player="34067"/>
+      <contract player="34068"/>
+      <contract player="34069"/>
+      <contract player="34070"/>
+      <contract player="34071"/>
+      <contract player="34072"/>
+      <contract player="34073"/>
+      <contract player="34074"/>
+      <contract player="34075"/>
+      <contract player="34076"/>
+      <contract player="34077"/>
+      <contract player="34078"/>
+      <contract player="34079"/>
+    </contracts>
+  </club>
+  <club name="Ia">
+    <coach name="Gudjon Thordarson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Iceland"/>
+    <stadium name="Ia Stadium"/>
+    <contracts>
+      <contract player="34080"/>
+      <contract player="34081"/>
+      <contract player="34082"/>
+      <contract player="34083"/>
+      <contract player="34084"/>
+      <contract player="34085"/>
+      <contract player="34086"/>
+      <contract player="34087"/>
+      <contract player="34088"/>
+      <contract player="34089"/>
+      <contract player="34090"/>
+      <contract player="34091"/>
+      <contract player="34092"/>
+      <contract player="34093"/>
+      <contract player="34094"/>
+      <contract player="34095"/>
+    </contracts>
+  </club>
+  <club name="Ibv">
+    <coach name="Atli Edvaldsson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Iceland"/>
+    <stadium name="Ibv Stadium"/>
+    <contracts>
+      <contract player="34096"/>
+      <contract player="34097"/>
+      <contract player="34098"/>
+      <contract player="34099"/>
+      <contract player="34100"/>
+      <contract player="34101"/>
+      <contract player="34102"/>
+      <contract player="34103"/>
+      <contract player="34104"/>
+      <contract player="34105"/>
+      <contract player="34106"/>
+      <contract player="34107"/>
+      <contract player="34108"/>
+      <contract player="34109"/>
+      <contract player="34110"/>
+      <contract player="34111"/>
+    </contracts>
+  </club>
+  <club name="Keflavik">
+    <coach name="Thorir Sigfusson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Iceland"/>
+    <stadium name="Keflavik Stadium"/>
+    <contracts>
+      <contract player="34112"/>
+      <contract player="34113"/>
+      <contract player="34114"/>
+      <contract player="34115"/>
+      <contract player="34116"/>
+      <contract player="34117"/>
+      <contract player="34118"/>
+      <contract player="34119"/>
+      <contract player="34120"/>
+      <contract player="34121"/>
+      <contract player="34122"/>
+      <contract player="34123"/>
+      <contract player="34124"/>
+      <contract player="34125"/>
+      <contract player="34126"/>
+      <contract player="34127"/>
+    </contracts>
+  </club>
+  <club name="Kr">
+    <coach name="Lukas Kostic"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Iceland"/>
+    <stadium name="Kr Stadium"/>
+    <contracts>
+      <contract player="34128"/>
+      <contract player="34129"/>
+      <contract player="34130"/>
+      <contract player="34131"/>
+      <contract player="34132"/>
+      <contract player="34133"/>
+      <contract player="34134"/>
+      <contract player="34135"/>
+      <contract player="34136"/>
+      <contract player="34137"/>
+      <contract player="34138"/>
+      <contract player="34139"/>
+      <contract player="34140"/>
+      <contract player="34141"/>
+      <contract player="34142"/>
+      <contract player="34143"/>
+    </contracts>
+  </club>
+  <club name="Leiftur">
+    <coach name="Oskar Ingimundarson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Iceland"/>
+    <stadium name="Leiftur Stadium"/>
+    <contracts>
+      <contract player="34144"/>
+      <contract player="34145"/>
+      <contract player="34146"/>
+      <contract player="34147"/>
+      <contract player="34148"/>
+      <contract player="34149"/>
+      <contract player="34150"/>
+      <contract player="34151"/>
+      <contract player="34152"/>
+      <contract player="34153"/>
+      <contract player="34154"/>
+      <contract player="34155"/>
+      <contract player="34156"/>
+      <contract player="34157"/>
+      <contract player="34158"/>
+      <contract player="34159"/>
+    </contracts>
+  </club>
+  <club name="Thor">
+    <coach name="Sigurdur Larusson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Iceland"/>
+    <stadium name="Thor Stadium"/>
+    <contracts>
+      <contract player="34160"/>
+      <contract player="34161"/>
+      <contract player="34162"/>
+      <contract player="34163"/>
+      <contract player="34164"/>
+      <contract player="34165"/>
+      <contract player="34166"/>
+      <contract player="34167"/>
+      <contract player="34168"/>
+      <contract player="34169"/>
+      <contract player="34170"/>
+      <contract player="34171"/>
+      <contract player="34172"/>
+      <contract player="34173"/>
+      <contract player="34174"/>
+      <contract player="34175"/>
+    </contracts>
+  </club>
+  <club name="Valur">
+    <coach name="Hordur Hilmarsson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Iceland"/>
+    <stadium name="Valur Stadium"/>
+    <contracts>
+      <contract player="34176"/>
+      <contract player="34177"/>
+      <contract player="34178"/>
+      <contract player="34179"/>
+      <contract player="34180"/>
+      <contract player="34181"/>
+      <contract player="34182"/>
+      <contract player="34183"/>
+      <contract player="34184"/>
+      <contract player="34185"/>
+      <contract player="34186"/>
+      <contract player="34187"/>
+      <contract player="34188"/>
+      <contract player="34189"/>
+      <contract player="34190"/>
+      <contract player="34191"/>
+    </contracts>
+  </club>
+  <club name="Vikingur">
+    <coach name="Larus Gudmundsson"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Iceland"/>
+    <stadium name="Vikingur Stadium"/>
+    <contracts>
+      <contract player="34192"/>
+      <contract player="34193"/>
+      <contract player="34194"/>
+      <contract player="34195"/>
+      <contract player="34196"/>
+      <contract player="34197"/>
+      <contract player="34198"/>
+      <contract player="34199"/>
+      <contract player="34200"/>
+      <contract player="34201"/>
+      <contract player="34202"/>
+      <contract player="34203"/>
+      <contract player="34204"/>
+      <contract player="34205"/>
+      <contract player="34206"/>
+      <contract player="34207"/>
+    </contracts>
+  </club>
+</Clubs>

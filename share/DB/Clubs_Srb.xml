@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Banat">
+    <coach name="Zarko Soldo"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Serbia"/>
+    <stadium name="Banat Stadium"/>
+    <contracts>
+      <contract player="82000"/>
+      <contract player="82001"/>
+      <contract player="82002"/>
+      <contract player="82003"/>
+      <contract player="82004"/>
+      <contract player="82005"/>
+      <contract player="82006"/>
+      <contract player="82007"/>
+      <contract player="82008"/>
+      <contract player="82009"/>
+      <contract player="82010"/>
+      <contract player="82011"/>
+      <contract player="82012"/>
+      <contract player="82013"/>
+      <contract player="82014"/>
+      <contract player="82015"/>
+    </contracts>
+  </club>
+  <club name="Hajduk Kula">
+    <coach name="Boris Bunjak"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="128" g="128" b="128"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Serbia"/>
+    <stadium name="Hajduk Kula Stadium"/>
+    <contracts>
+      <contract player="82016"/>
+      <contract player="82017"/>
+      <contract player="82018"/>
+      <contract player="82019"/>
+      <contract player="82020"/>
+      <contract player="82021"/>
+      <contract player="82022"/>
+      <contract player="82023"/>
+      <contract player="82024"/>
+      <contract player="82025"/>
+      <contract player="82026"/>
+      <contract player="82027"/>
+      <contract player="82028"/>
+      <contract player="82029"/>
+      <contract player="82030"/>
+      <contract player="82031"/>
+    </contracts>
+  </club>
+  <club name="Napredak">
+    <coach name="Mladen Dodic"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Serbia"/>
+    <stadium name="Napredak Stadium"/>
+    <contracts>
+      <contract player="82032"/>
+      <contract player="82033"/>
+      <contract player="82034"/>
+      <contract player="82035"/>
+      <contract player="82036"/>
+      <contract player="82037"/>
+      <contract player="82038"/>
+      <contract player="82039"/>
+      <contract player="82040"/>
+      <contract player="82041"/>
+      <contract player="82042"/>
+      <contract player="82043"/>
+      <contract player="82044"/>
+      <contract player="82045"/>
+      <contract player="82046"/>
+      <contract player="82047"/>
+    </contracts>
+  </club>
+  <club name="Partizan">
+    <coach name="Slavisa Jokanovic"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Serbia"/>
+    <stadium name="Partizan Stadium"/>
+    <contracts>
+      <contract player="82048"/>
+      <contract player="82049"/>
+      <contract player="82050"/>
+      <contract player="82051"/>
+      <contract player="82052"/>
+      <contract player="82053"/>
+      <contract player="82054"/>
+      <contract player="82055"/>
+      <contract player="82056"/>
+      <contract player="82057"/>
+      <contract player="82058"/>
+      <contract player="82059"/>
+      <contract player="82060"/>
+      <contract player="82061"/>
+      <contract player="82062"/>
+      <contract player="82063"/>
+    </contracts>
+  </club>
+  <club name="Mladost Lucani">
+    <coach name="Nenad Milovanovic"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Serbia"/>
+    <stadium name="Mladost Lucani Stadium"/>
+    <contracts>
+      <contract player="82064"/>
+      <contract player="82065"/>
+      <contract player="82066"/>
+      <contract player="82067"/>
+      <contract player="82068"/>
+      <contract player="82069"/>
+      <contract player="82070"/>
+      <contract player="82071"/>
+      <contract player="82072"/>
+      <contract player="82073"/>
+      <contract player="82074"/>
+      <contract player="82075"/>
+      <contract player="82076"/>
+      <contract player="82077"/>
+      <contract player="82078"/>
+      <contract player="82079"/>
+    </contracts>
+  </club>
+  <club name="Ofk Beograd">
+    <coach name="Branko Vukasinovic"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Serbia"/>
+    <stadium name="Ofk Beograd Stadium"/>
+    <contracts>
+      <contract player="82080"/>
+      <contract player="82081"/>
+      <contract player="82082"/>
+      <contract player="82083"/>
+      <contract player="82084"/>
+      <contract player="82085"/>
+      <contract player="82086"/>
+      <contract player="82087"/>
+      <contract player="82088"/>
+      <contract player="82089"/>
+      <contract player="82090"/>
+      <contract player="82091"/>
+      <contract player="82092"/>
+      <contract player="82093"/>
+      <contract player="82094"/>
+      <contract player="82095"/>
+    </contracts>
+  </club>
+  <club name="Smederevo">
+    <coach name="Radmilo Ivancevic"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Serbia"/>
+    <stadium name="Smederevo Stadium"/>
+    <contracts>
+      <contract player="82096"/>
+      <contract player="82097"/>
+      <contract player="82098"/>
+      <contract player="82099"/>
+      <contract player="82100"/>
+      <contract player="82101"/>
+      <contract player="82102"/>
+      <contract player="82103"/>
+      <contract player="82104"/>
+      <contract player="82105"/>
+      <contract player="82106"/>
+      <contract player="82107"/>
+      <contract player="82108"/>
+      <contract player="82109"/>
+      <contract player="82110"/>
+      <contract player="82111"/>
+    </contracts>
+  </club>
+  <club name="Crvena Zvezda">
+    <coach name="Aleksandar Jankovic"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Serbia"/>
+    <stadium name="Crvena Zvezda Stadium"/>
+    <contracts>
+      <contract player="82112"/>
+      <contract player="82113"/>
+      <contract player="82114"/>
+      <contract player="82115"/>
+      <contract player="82116"/>
+      <contract player="82117"/>
+      <contract player="82118"/>
+      <contract player="82119"/>
+      <contract player="82120"/>
+      <contract player="82121"/>
+      <contract player="82122"/>
+      <contract player="82123"/>
+      <contract player="82124"/>
+      <contract player="82125"/>
+      <contract player="82126"/>
+      <contract player="82127"/>
+    </contracts>
+  </club>
+  <club name="Vojvodina">
+    <coach name="Ivan Brzic"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Serbia"/>
+    <stadium name="Vojvodina Stadium"/>
+    <contracts>
+      <contract player="82128"/>
+      <contract player="82129"/>
+      <contract player="82130"/>
+      <contract player="82131"/>
+      <contract player="82132"/>
+      <contract player="82133"/>
+      <contract player="82134"/>
+      <contract player="82135"/>
+      <contract player="82136"/>
+      <contract player="82137"/>
+      <contract player="82138"/>
+      <contract player="82139"/>
+      <contract player="82140"/>
+      <contract player="82141"/>
+      <contract player="82142"/>
+      <contract player="82143"/>
+    </contracts>
+  </club>
+  <club name="Borac Cacak">
+    <coach name="Miodrag Bozovic"/>
+    <kits>
+      <kit>
+        <jersey type="3">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="3">
+          <color r="0" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Serbia"/>
+    <stadium name="Borac Cacak Stadium"/>
+    <contracts>
+      <contract player="82144"/>
+      <contract player="82145"/>
+      <contract player="82146"/>
+      <contract player="82147"/>
+      <contract player="82148"/>
+      <contract player="82149"/>
+      <contract player="82150"/>
+      <contract player="82151"/>
+      <contract player="82152"/>
+      <contract player="82153"/>
+      <contract player="82154"/>
+      <contract player="82155"/>
+      <contract player="82156"/>
+      <contract player="82157"/>
+      <contract player="82158"/>
+      <contract player="82159"/>
+    </contracts>
+  </club>
+</Clubs>

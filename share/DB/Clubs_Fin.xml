@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Honka">
+    <coach name="Mika Lehkuoso"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Finland"/>
+    <stadium name="Honka Stadium"/>
+    <contracts>
+      <contract player="24000"/>
+      <contract player="24001"/>
+      <contract player="24002"/>
+      <contract player="24003"/>
+      <contract player="24004"/>
+      <contract player="24005"/>
+      <contract player="24006"/>
+      <contract player="24007"/>
+      <contract player="24008"/>
+      <contract player="24009"/>
+      <contract player="24010"/>
+      <contract player="24011"/>
+      <contract player="24012"/>
+      <contract player="24013"/>
+      <contract player="24014"/>
+      <contract player="24015"/>
+    </contracts>
+  </club>
+  <club name="Lahti">
+    <coach name="Luciano Martins"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="150" g="75" b="0"/>
+        </shorts>
+        <socks>
+          <color r="150" g="75" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Finland"/>
+    <stadium name="Lahti Stadium"/>
+    <contracts>
+      <contract player="24016"/>
+      <contract player="24017"/>
+      <contract player="24018"/>
+      <contract player="24019"/>
+      <contract player="24020"/>
+      <contract player="24021"/>
+      <contract player="24022"/>
+      <contract player="24023"/>
+      <contract player="24024"/>
+      <contract player="24025"/>
+      <contract player="24026"/>
+      <contract player="24027"/>
+      <contract player="24028"/>
+      <contract player="24029"/>
+      <contract player="24030"/>
+      <contract player="24031"/>
+    </contracts>
+  </club>
+  <club name="Haka">
+    <coach name="Jukka Vakkila"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Finland"/>
+    <stadium name="Haka Stadium"/>
+    <contracts>
+      <contract player="24032"/>
+      <contract player="24033"/>
+      <contract player="24034"/>
+      <contract player="24035"/>
+      <contract player="24036"/>
+      <contract player="24037"/>
+      <contract player="24038"/>
+      <contract player="24039"/>
+      <contract player="24040"/>
+      <contract player="24041"/>
+      <contract player="24042"/>
+      <contract player="24043"/>
+      <contract player="24044"/>
+      <contract player="24045"/>
+      <contract player="24046"/>
+      <contract player="24047"/>
+    </contracts>
+  </club>
+  <club name="Hjk">
+    <coach name="Antti Muurinen"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Finland"/>
+    <stadium name="Hjk Stadium"/>
+    <contracts>
+      <contract player="24048"/>
+      <contract player="24049"/>
+      <contract player="24050"/>
+      <contract player="24051"/>
+      <contract player="24052"/>
+      <contract player="24053"/>
+      <contract player="24054"/>
+      <contract player="24055"/>
+      <contract player="24056"/>
+      <contract player="24057"/>
+      <contract player="24058"/>
+      <contract player="24059"/>
+      <contract player="24060"/>
+      <contract player="24061"/>
+      <contract player="24062"/>
+      <contract player="24063"/>
+    </contracts>
+  </club>
+  <club name="Mariehamn">
+    <coach name="Pekka Lyyski"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Finland"/>
+    <stadium name="Mariehamn Stadium"/>
+    <contracts>
+      <contract player="24064"/>
+      <contract player="24065"/>
+      <contract player="24066"/>
+      <contract player="24067"/>
+      <contract player="24068"/>
+      <contract player="24069"/>
+      <contract player="24070"/>
+      <contract player="24071"/>
+      <contract player="24072"/>
+      <contract player="24073"/>
+      <contract player="24074"/>
+      <contract player="24075"/>
+      <contract player="24076"/>
+      <contract player="24077"/>
+      <contract player="24078"/>
+      <contract player="24079"/>
+    </contracts>
+  </club>
+  <club name="Inter Turku">
+    <coach name="Job Dragtsma"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Finland"/>
+    <stadium name="Inter Turku Stadium"/>
+    <contracts>
+      <contract player="24080"/>
+      <contract player="24081"/>
+      <contract player="24082"/>
+      <contract player="24083"/>
+      <contract player="24084"/>
+      <contract player="24085"/>
+      <contract player="24086"/>
+      <contract player="24087"/>
+      <contract player="24088"/>
+      <contract player="24089"/>
+      <contract player="24090"/>
+      <contract player="24091"/>
+      <contract player="24092"/>
+      <contract player="24093"/>
+      <contract player="24094"/>
+      <contract player="24095"/>
+    </contracts>
+  </club>
+  <club name="Jaro">
+    <coach name="Mika Laurikainen"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Finland"/>
+    <stadium name="Jaro Stadium"/>
+    <contracts>
+      <contract player="24096"/>
+      <contract player="24097"/>
+      <contract player="24098"/>
+      <contract player="24099"/>
+      <contract player="24100"/>
+      <contract player="24101"/>
+      <contract player="24102"/>
+      <contract player="24103"/>
+      <contract player="24104"/>
+      <contract player="24105"/>
+      <contract player="24106"/>
+      <contract player="24107"/>
+      <contract player="24108"/>
+      <contract player="24109"/>
+      <contract player="24110"/>
+      <contract player="24111"/>
+    </contracts>
+  </club>
+  <club name="Kooteepee">
+    <coach name="Vesa Tauriainen"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Finland"/>
+    <stadium name="Kooteepee Stadium"/>
+    <contracts>
+      <contract player="24112"/>
+      <contract player="24113"/>
+      <contract player="24114"/>
+      <contract player="24115"/>
+      <contract player="24116"/>
+      <contract player="24117"/>
+      <contract player="24118"/>
+      <contract player="24119"/>
+      <contract player="24120"/>
+      <contract player="24121"/>
+      <contract player="24122"/>
+      <contract player="24123"/>
+      <contract player="24124"/>
+      <contract player="24125"/>
+      <contract player="24126"/>
+      <contract player="24127"/>
+    </contracts>
+  </club>
+  <club name="Mypa">
+    <coach name="Janne Hypponen"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Finland"/>
+    <stadium name="Mypa Stadium"/>
+    <contracts>
+      <contract player="24128"/>
+      <contract player="24129"/>
+      <contract player="24130"/>
+      <contract player="24131"/>
+      <contract player="24132"/>
+      <contract player="24133"/>
+      <contract player="24134"/>
+      <contract player="24135"/>
+      <contract player="24136"/>
+      <contract player="24137"/>
+      <contract player="24138"/>
+      <contract player="24139"/>
+      <contract player="24140"/>
+      <contract player="24141"/>
+      <contract player="24142"/>
+      <contract player="24143"/>
+    </contracts>
+  </club>
+  <club name="Tampere Utd">
+    <coach name="Ari Hjelm"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Finland"/>
+    <stadium name="Tampere Utd Stadium"/>
+    <contracts>
+      <contract player="24144"/>
+      <contract player="24145"/>
+      <contract player="24146"/>
+      <contract player="24147"/>
+      <contract player="24148"/>
+      <contract player="24149"/>
+      <contract player="24150"/>
+      <contract player="24151"/>
+      <contract player="24152"/>
+      <contract player="24153"/>
+      <contract player="24154"/>
+      <contract player="24155"/>
+      <contract player="24156"/>
+      <contract player="24157"/>
+      <contract player="24158"/>
+      <contract player="24159"/>
+    </contracts>
+  </club>
+  <club name="Tps">
+    <coach name="Mixu Paatelainen"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Finland"/>
+    <stadium name="Tps Stadium"/>
+    <contracts>
+      <contract player="24160"/>
+      <contract player="24161"/>
+      <contract player="24162"/>
+      <contract player="24163"/>
+      <contract player="24164"/>
+      <contract player="24165"/>
+      <contract player="24166"/>
+      <contract player="24167"/>
+      <contract player="24168"/>
+      <contract player="24169"/>
+      <contract player="24170"/>
+      <contract player="24171"/>
+      <contract player="24172"/>
+      <contract player="24173"/>
+      <contract player="24174"/>
+      <contract player="24175"/>
+    </contracts>
+  </club>
+  <club name="Vps">
+    <coach name="Janne Lindberg"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Finland"/>
+    <stadium name="Vps Stadium"/>
+    <contracts>
+      <contract player="24176"/>
+      <contract player="24177"/>
+      <contract player="24178"/>
+      <contract player="24179"/>
+      <contract player="24180"/>
+      <contract player="24181"/>
+      <contract player="24182"/>
+      <contract player="24183"/>
+      <contract player="24184"/>
+      <contract player="24185"/>
+      <contract player="24186"/>
+      <contract player="24187"/>
+      <contract player="24188"/>
+      <contract player="24189"/>
+      <contract player="24190"/>
+      <contract player="24191"/>
+    </contracts>
+  </club>
+</Clubs>

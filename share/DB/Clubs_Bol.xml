@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Blooming S. Cruz">
+    <coach name="Carlos Biusotto"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bolivia"/>
+    <stadium name="Blooming S. Cruz Stadium"/>
+    <contracts>
+      <contract player="90000"/>
+      <contract player="90001"/>
+      <contract player="90002"/>
+      <contract player="90003"/>
+      <contract player="90004"/>
+      <contract player="90005"/>
+      <contract player="90006"/>
+      <contract player="90007"/>
+      <contract player="90008"/>
+      <contract player="90009"/>
+      <contract player="90010"/>
+      <contract player="90011"/>
+      <contract player="90012"/>
+      <contract player="90013"/>
+      <contract player="90014"/>
+      <contract player="90015"/>
+    </contracts>
+  </club>
+  <club name="Bolivar">
+    <coach name="Reynaldo Merlo"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bolivia"/>
+    <stadium name="Bolivar Stadium"/>
+    <contracts>
+      <contract player="90016"/>
+      <contract player="90017"/>
+      <contract player="90018"/>
+      <contract player="90019"/>
+      <contract player="90020"/>
+      <contract player="90021"/>
+      <contract player="90022"/>
+      <contract player="90023"/>
+      <contract player="90024"/>
+      <contract player="90025"/>
+      <contract player="90026"/>
+      <contract player="90027"/>
+      <contract player="90028"/>
+      <contract player="90029"/>
+      <contract player="90030"/>
+      <contract player="90031"/>
+    </contracts>
+  </club>
+  <club name="Ciclon Tarija">
+    <coach name="Ricardo Aniceto Roldan"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bolivia"/>
+    <stadium name="Ciclon Tarija Stadium"/>
+    <contracts>
+      <contract player="90032"/>
+      <contract player="90033"/>
+      <contract player="90034"/>
+      <contract player="90035"/>
+      <contract player="90036"/>
+      <contract player="90037"/>
+      <contract player="90038"/>
+      <contract player="90039"/>
+      <contract player="90040"/>
+      <contract player="90041"/>
+      <contract player="90042"/>
+      <contract player="90043"/>
+      <contract player="90044"/>
+      <contract player="90045"/>
+      <contract player="90046"/>
+      <contract player="90047"/>
+    </contracts>
+  </club>
+  <club name="Destroyers">
+    <coach name="Luis Luduena"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bolivia"/>
+    <stadium name="Destroyers Stadium"/>
+    <contracts>
+      <contract player="90048"/>
+      <contract player="90049"/>
+      <contract player="90050"/>
+      <contract player="90051"/>
+      <contract player="90052"/>
+      <contract player="90053"/>
+      <contract player="90054"/>
+      <contract player="90055"/>
+      <contract player="90056"/>
+      <contract player="90057"/>
+      <contract player="90058"/>
+      <contract player="90059"/>
+      <contract player="90060"/>
+      <contract player="90061"/>
+      <contract player="90062"/>
+      <contract player="90063"/>
+    </contracts>
+  </club>
+  <club name="Guabira">
+    <coach name="Juan Carlos Sanchez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bolivia"/>
+    <stadium name="Guabira Stadium"/>
+    <contracts>
+      <contract player="90064"/>
+      <contract player="90065"/>
+      <contract player="90066"/>
+      <contract player="90067"/>
+      <contract player="90068"/>
+      <contract player="90069"/>
+      <contract player="90070"/>
+      <contract player="90071"/>
+      <contract player="90072"/>
+      <contract player="90073"/>
+      <contract player="90074"/>
+      <contract player="90075"/>
+      <contract player="90076"/>
+      <contract player="90077"/>
+      <contract player="90078"/>
+      <contract player="90079"/>
+    </contracts>
+  </club>
+  <club name="Independiente Ps">
+    <coach name="Carlos Vargas"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bolivia"/>
+    <stadium name="Independiente Ps Stadium"/>
+    <contracts>
+      <contract player="90080"/>
+      <contract player="90081"/>
+      <contract player="90082"/>
+      <contract player="90083"/>
+      <contract player="90084"/>
+      <contract player="90085"/>
+      <contract player="90086"/>
+      <contract player="90087"/>
+      <contract player="90088"/>
+      <contract player="90089"/>
+      <contract player="90090"/>
+      <contract player="90091"/>
+      <contract player="90092"/>
+      <contract player="90093"/>
+      <contract player="90094"/>
+      <contract player="90095"/>
+    </contracts>
+  </club>
+  <club name="Jorge Wilsterman">
+    <coach name="Romulo Cortez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bolivia"/>
+    <stadium name="Jorge Wilsterman Stadium"/>
+    <contracts>
+      <contract player="90096"/>
+      <contract player="90097"/>
+      <contract player="90098"/>
+      <contract player="90099"/>
+      <contract player="90100"/>
+      <contract player="90101"/>
+      <contract player="90102"/>
+      <contract player="90103"/>
+      <contract player="90104"/>
+      <contract player="90105"/>
+      <contract player="90106"/>
+      <contract player="90107"/>
+      <contract player="90108"/>
+      <contract player="90109"/>
+      <contract player="90110"/>
+      <contract player="90111"/>
+    </contracts>
+  </club>
+  <club name="Metalsan">
+    <coach name="Victor Villalon"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bolivia"/>
+    <stadium name="Metalsan Stadium"/>
+    <contracts>
+      <contract player="90112"/>
+      <contract player="90113"/>
+      <contract player="90114"/>
+      <contract player="90115"/>
+      <contract player="90116"/>
+      <contract player="90117"/>
+      <contract player="90118"/>
+      <contract player="90119"/>
+      <contract player="90120"/>
+      <contract player="90121"/>
+      <contract player="90122"/>
+      <contract player="90123"/>
+      <contract player="90124"/>
+      <contract player="90125"/>
+      <contract player="90126"/>
+      <contract player="90127"/>
+    </contracts>
+  </club>
+  <club name="Oriente">
+    <coach name="Jose Requena Gutierrez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bolivia"/>
+    <stadium name="Oriente Stadium"/>
+    <contracts>
+      <contract player="90128"/>
+      <contract player="90129"/>
+      <contract player="90130"/>
+      <contract player="90131"/>
+      <contract player="90132"/>
+      <contract player="90133"/>
+      <contract player="90134"/>
+      <contract player="90135"/>
+      <contract player="90136"/>
+      <contract player="90137"/>
+      <contract player="90138"/>
+      <contract player="90139"/>
+      <contract player="90140"/>
+      <contract player="90141"/>
+      <contract player="90142"/>
+      <contract player="90143"/>
+    </contracts>
+  </club>
+  <club name="Petrolero">
+    <coach name="Ovidio Messa"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bolivia"/>
+    <stadium name="Petrolero Stadium"/>
+    <contracts>
+      <contract player="90144"/>
+      <contract player="90145"/>
+      <contract player="90146"/>
+      <contract player="90147"/>
+      <contract player="90148"/>
+      <contract player="90149"/>
+      <contract player="90150"/>
+      <contract player="90151"/>
+      <contract player="90152"/>
+      <contract player="90153"/>
+      <contract player="90154"/>
+      <contract player="90155"/>
+      <contract player="90156"/>
+      <contract player="90157"/>
+      <contract player="90158"/>
+      <contract player="90159"/>
+    </contracts>
+  </club>
+  <club name="Real Santa Cruz">
+    <coach name="Ovidio Messa"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bolivia"/>
+    <stadium name="Real Santa Cruz Stadium"/>
+    <contracts>
+      <contract player="90160"/>
+      <contract player="90161"/>
+      <contract player="90162"/>
+      <contract player="90163"/>
+      <contract player="90164"/>
+      <contract player="90165"/>
+      <contract player="90166"/>
+      <contract player="90167"/>
+      <contract player="90168"/>
+      <contract player="90169"/>
+      <contract player="90170"/>
+      <contract player="90171"/>
+      <contract player="90172"/>
+      <contract player="90173"/>
+      <contract player="90174"/>
+      <contract player="90175"/>
+    </contracts>
+  </club>
+  <club name="San Jose Oruro">
+    <coach name="Daniel Valencia"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bolivia"/>
+    <stadium name="San Jose Oruro Stadium"/>
+    <contracts>
+      <contract player="90176"/>
+      <contract player="90177"/>
+      <contract player="90178"/>
+      <contract player="90179"/>
+      <contract player="90180"/>
+      <contract player="90181"/>
+      <contract player="90182"/>
+      <contract player="90183"/>
+      <contract player="90184"/>
+      <contract player="90185"/>
+      <contract player="90186"/>
+      <contract player="90187"/>
+      <contract player="90188"/>
+      <contract player="90189"/>
+      <contract player="90190"/>
+      <contract player="90191"/>
+    </contracts>
+  </club>
+  <club name="The Strongest">
+    <coach name="Jorge Vichera"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bolivia"/>
+    <stadium name="The Strongest Stadium"/>
+    <contracts>
+      <contract player="90192"/>
+      <contract player="90193"/>
+      <contract player="90194"/>
+      <contract player="90195"/>
+      <contract player="90196"/>
+      <contract player="90197"/>
+      <contract player="90198"/>
+      <contract player="90199"/>
+      <contract player="90200"/>
+      <contract player="90201"/>
+      <contract player="90202"/>
+      <contract player="90203"/>
+      <contract player="90204"/>
+      <contract player="90205"/>
+      <contract player="90206"/>
+      <contract player="90207"/>
+    </contracts>
+  </club>
+  <club name="Universitario">
+    <coach name="Juan Farias"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bolivia"/>
+    <stadium name="Universitario Stadium"/>
+    <contracts>
+      <contract player="90208"/>
+      <contract player="90209"/>
+      <contract player="90210"/>
+      <contract player="90211"/>
+      <contract player="90212"/>
+      <contract player="90213"/>
+      <contract player="90214"/>
+      <contract player="90215"/>
+      <contract player="90216"/>
+      <contract player="90217"/>
+      <contract player="90218"/>
+      <contract player="90219"/>
+      <contract player="90220"/>
+      <contract player="90221"/>
+      <contract player="90222"/>
+      <contract player="90223"/>
+    </contracts>
+  </club>
+</Clubs>

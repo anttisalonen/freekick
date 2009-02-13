@@ -1,0 +1,2883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="68000">
+    <personal name="Ivan Tahirovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="550" risktaking="395" offensive="678" aggressive="407" consistent="648" creative="693" experienced="615"/>
+    <skills stamina="586" dexterity="679" speed="535" tackling="247" passing="420" shooting="411" control="367" accuracy="249" goalkeeping="426" heading="158"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68001">
+    <personal name="Anto Jakovljevic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="440" risktaking="590" offensive="673" aggressive="594" consistent="475" creative="955" experienced="463"/>
+    <skills stamina="551" dexterity="575" speed="656" tackling="139" passing="354" shooting="316" control="311" accuracy="156" goalkeeping="324" heading="203"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68002">
+    <personal name="Bostjan Avgustin">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="780" risktaking="289" offensive="344" aggressive="572" consistent="488" creative="517" experienced="522"/>
+    <skills stamina="230" dexterity="149" speed="203" tackling="423" passing="342" shooting="468" control="437" accuracy="483" goalkeeping="69" heading="439"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68003">
+    <personal name="Dragan Hasanagic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="883" risktaking="646" offensive="321" aggressive="510" consistent="467" creative="504" experienced="106"/>
+    <skills stamina="635" dexterity="223" speed="393" tackling="475" passing="335" shooting="456" control="372" accuracy="395" goalkeeping="51" heading="319"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68004">
+    <personal name="Kadrija Ibranovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="437" risktaking="664" offensive="293" aggressive="458" consistent="563" creative="737" experienced="565"/>
+    <skills stamina="429" dexterity="458" speed="481" tackling="409" passing="443" shooting="516" control="417" accuracy="500" goalkeeping="71" heading="358"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68005">
+    <personal name="Stojan Plesinac">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="557" risktaking="524" offensive="663" aggressive="537" consistent="460" creative="279" experienced="341"/>
+    <skills stamina="490" dexterity="758" speed="324" tackling="463" passing="453" shooting="439" control="439" accuracy="473" goalkeeping="88" heading="535"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68006">
+    <personal name="Mitja Judez">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="614" risktaking="684" offensive="590" aggressive="421" consistent="699" creative="272" experienced="513"/>
+    <skills stamina="290" dexterity="457" speed="336" tackling="424" passing="422" shooting="322" control="423" accuracy="463" goalkeeping="77" heading="374"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68007">
+    <personal name="Miha Sporar">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="333" risktaking="273" offensive="472" aggressive="419" consistent="673" creative="491" experienced="642"/>
+    <skills stamina="340" dexterity="571" speed="546" tackling="393" passing="365" shooting="452" control="402" accuracy="324" goalkeeping="71" heading="285"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68008">
+    <personal name="Gregor Orelj">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="497" risktaking="464" offensive="427" aggressive="502" consistent="385" creative="572" experienced="381"/>
+    <skills stamina="597" dexterity="573" speed="141" tackling="398" passing="476" shooting="395" control="355" accuracy="475" goalkeeping="60" heading="315"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68009">
+    <personal name="Peter Mesesnel">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="791" risktaking="610" offensive="384" aggressive="521" consistent="192" creative="557" experienced="347"/>
+    <skills stamina="223" dexterity="624" speed="384" tackling="417" passing="378" shooting="479" control="373" accuracy="336" goalkeeping="63" heading="443"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68010">
+    <personal name="Bojan Skufca">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="301" risktaking="607" offensive="732" aggressive="397" consistent="350" creative="376" experienced="426"/>
+    <skills stamina="364" dexterity="534" speed="295" tackling="304" passing="356" shooting="458" control="285" accuracy="366" goalkeeping="49" heading="317"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68011">
+    <personal name="Bojan Zadravec">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="462" risktaking="508" offensive="448" aggressive="598" consistent="562" creative="259" experienced="795"/>
+    <skills stamina="510" dexterity="260" speed="204" tackling="464" passing="320" shooting="262" control="272" accuracy="322" goalkeeping="75" heading="290"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68012">
+    <personal name="Robert Filak">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="691" risktaking="579" offensive="512" aggressive="383" consistent="695" creative="522" experienced="293"/>
+    <skills stamina="185" dexterity="555" speed="445" tackling="462" passing="384" shooting="323" control="463" accuracy="383" goalkeeping="56" heading="404"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68013">
+    <personal name="Miha Voncina">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="640" risktaking="315" offensive="486" aggressive="722" consistent="304" creative="460" experienced="853"/>
+    <skills stamina="657" dexterity="428" speed="513" tackling="391" passing="510" shooting="401" control="435" accuracy="473" goalkeeping="83" heading="485"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68014">
+    <personal name="Srdjan Djordjevic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="803" risktaking="745" offensive="585" aggressive="485" consistent="608" creative="451" experienced="512"/>
+    <skills stamina="230" dexterity="160" speed="219" tackling="333" passing="388" shooting="371" control="364" accuracy="517" goalkeeping="76" heading="548"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68015">
+    <personal name="Enver Adrovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="454" risktaking="500" offensive="726" aggressive="659" consistent="457" creative="454" experienced="610"/>
+    <skills stamina="298" dexterity="548" speed="339" tackling="344" passing="454" shooting="363" control="430" accuracy="438" goalkeeping="51" heading="316"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="68016">
+    <personal name="Franc Hace">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="557" risktaking="618" offensive="792" aggressive="482" consistent="402" creative="340" experienced="295"/>
+    <skills stamina="562" dexterity="678" speed="618" tackling="216" passing="398" shooting="321" control="229" accuracy="157" goalkeeping="375" heading="189"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="68017">
+    <personal name="Igor Trampus">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="627" risktaking="13" offensive="633" aggressive="580" consistent="358" creative="790" experienced="564"/>
+    <skills stamina="225" dexterity="129" speed="330" tackling="135" passing="409" shooting="384" control="260" accuracy="119" goalkeeping="367" heading="129"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="68018">
+    <personal name="Anton Kurez">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="677" risktaking="693" offensive="258" aggressive="667" consistent="819" creative="485" experienced="408"/>
+    <skills stamina="458" dexterity="316" speed="278" tackling="412" passing="337" shooting="369" control="339" accuracy="376" goalkeeping="58" heading="339"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68019">
+    <personal name="Anton Buovski">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="598" risktaking="407" offensive="558" aggressive="255" consistent="625" creative="388" experienced="472"/>
+    <skills stamina="270" dexterity="595" speed="230" tackling="435" passing="403" shooting="291" control="323" accuracy="415" goalkeeping="63" heading="329"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68020">
+    <personal name="Mojmir Brecko">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="448" risktaking="547" offensive="534" aggressive="204" consistent="343" creative="549" experienced="367"/>
+    <skills stamina="299" dexterity="314" speed="384" tackling="397" passing="318" shooting="350" control="340" accuracy="334" goalkeeping="58" heading="446"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="68021">
+    <personal name="Albin Borstner">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="255" risktaking="542" offensive="218" aggressive="455" consistent="544" creative="481" experienced="662"/>
+    <skills stamina="357" dexterity="326" speed="284" tackling="373" passing="359" shooting="435" control="380" accuracy="339" goalkeeping="66" heading="428"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68022">
+    <personal name="Behrija Hadzic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="948" risktaking="639" offensive="478" aggressive="642" consistent="348" creative="542" experienced="376"/>
+    <skills stamina="335" dexterity="434" speed="308" tackling="450" passing="465" shooting="416" control="265" accuracy="397" goalkeeping="52" heading="285"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68023">
+    <personal name="Bojan Zibret">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="529" risktaking="292" offensive="701" aggressive="353" consistent="726" creative="160" experienced="520"/>
+    <skills stamina="713" dexterity="172" speed="301" tackling="421" passing="346" shooting="447" control="472" accuracy="444" goalkeeping="46" heading="270"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68024">
+    <personal name="Tadej Grcar">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="584" risktaking="277" offensive="439" aggressive="508" consistent="487" creative="500" experienced="346"/>
+    <skills stamina="357" dexterity="372" speed="580" tackling="290" passing="497" shooting="397" control="465" accuracy="457" goalkeeping="64" heading="280"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68025">
+    <personal name="Joze Kern">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="531" risktaking="343" offensive="402" aggressive="535" consistent="213" creative="372" experienced="510"/>
+    <skills stamina="331" dexterity="332" speed="153" tackling="339" passing="394" shooting="418" control="304" accuracy="308" goalkeeping="50" heading="313"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68026">
+    <personal name="Andzelko Petrusic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="155" risktaking="353" offensive="372" aggressive="871" consistent="363" creative="809" experienced="361"/>
+    <skills stamina="287" dexterity="370" speed="204" tackling="453" passing="515" shooting="310" control="472" accuracy="496" goalkeeping="55" heading="448"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68027">
+    <personal name="Mitja Gresak">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="464" risktaking="804" offensive="634" aggressive="458" consistent="400" creative="597" experienced="649"/>
+    <skills stamina="338" dexterity="658" speed="246" tackling="412" passing="302" shooting="422" control="361" accuracy="348" goalkeeping="46" heading="395"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68028">
+    <personal name="Borivoj Grden">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="341" risktaking="622" offensive="449" aggressive="353" consistent="603" creative="847" experienced="379"/>
+    <skills stamina="406" dexterity="551" speed="516" tackling="336" passing="358" shooting="339" control="282" accuracy="363" goalkeeping="71" heading="414"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68029">
+    <personal name="Samir Balagic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="631" risktaking="483" offensive="540" aggressive="617" consistent="270" creative="360" experienced="295"/>
+    <skills stamina="164" dexterity="390" speed="206" tackling="365" passing="312" shooting="375" control="339" accuracy="416" goalkeeping="70" heading="359"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="68030">
+    <personal name="Bojan Sink">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="153" risktaking="566" offensive="786" aggressive="750" consistent="407" creative="39" experienced="442"/>
+    <skills stamina="611" dexterity="318" speed="484" tackling="378" passing="264" shooting="434" control="383" accuracy="449" goalkeeping="68" heading="461"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68031">
+    <personal name="Danilo Repovz">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="678" risktaking="807" offensive="631" aggressive="482" consistent="628" creative="404" experienced="362"/>
+    <skills stamina="547" dexterity="560" speed="177" tackling="349" passing="337" shooting="407" control="334" accuracy="390" goalkeeping="67" heading="297"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68032">
+    <personal name="Janez Strajnar">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="532" risktaking="653" offensive="757" aggressive="491" consistent="817" creative="359" experienced="354"/>
+    <skills stamina="692" dexterity="549" speed="313" tackling="156" passing="295" shooting="337" control="331" accuracy="165" goalkeeping="423" heading="185"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68033">
+    <personal name="Uros Podgornik">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="705" risktaking="612" offensive="220" aggressive="405" consistent="561" creative="460" experienced="392"/>
+    <skills stamina="240" dexterity="682" speed="538" tackling="189" passing="387" shooting="363" control="297" accuracy="234" goalkeeping="466" heading="209"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68034">
+    <personal name="Sergej Hlede">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="287" risktaking="376" offensive="324" aggressive="294" consistent="324" creative="606" experienced="591"/>
+    <skills stamina="404" dexterity="154" speed="559" tackling="330" passing="389" shooting="384" control="498" accuracy="427" goalkeeping="47" heading="330"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68035">
+    <personal name="Mehmet Hadzic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="612" risktaking="349" offensive="401" aggressive="598" consistent="729" creative="421" experienced="658"/>
+    <skills stamina="362" dexterity="564" speed="436" tackling="349" passing="479" shooting="313" control="456" accuracy="452" goalkeeping="60" heading="419"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68036">
+    <personal name="Miran Srebrnic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="299" risktaking="343" offensive="546" aggressive="704" consistent="285" creative="387" experienced="460"/>
+    <skills stamina="377" dexterity="378" speed="260" tackling="446" passing="440" shooting="421" control="496" accuracy="403" goalkeeping="80" heading="352"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68037">
+    <personal name="Uros Dovzak">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="358" risktaking="392" offensive="375" aggressive="500" consistent="498" creative="539" experienced="562"/>
+    <skills stamina="359" dexterity="534" speed="170" tackling="462" passing="530" shooting="488" control="442" accuracy="499" goalkeeping="52" heading="481"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68038">
+    <personal name="Robert Rus">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="353" risktaking="570" offensive="583" aggressive="619" consistent="563" creative="477" experienced="864"/>
+    <skills stamina="614" dexterity="160" speed="242" tackling="455" passing="286" shooting="354" control="451" accuracy="370" goalkeeping="46" heading="354"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68039">
+    <personal name="Florijan Debenjak">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="434" risktaking="555" offensive="634" aggressive="398" consistent="495" creative="759" experienced="424"/>
+    <skills stamina="257" dexterity="269" speed="411" tackling="385" passing="532" shooting="432" control="376" accuracy="353" goalkeeping="69" heading="422"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68040">
+    <personal name="Sandi Bratkic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="524" risktaking="219" offensive="432" aggressive="343" consistent="329" creative="458" experienced="450"/>
+    <skills stamina="601" dexterity="472" speed="305" tackling="379" passing="495" shooting="324" control="310" accuracy="457" goalkeeping="53" heading="359"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68041">
+    <personal name="Igor Zobec">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="468" risktaking="381" offensive="767" aggressive="560" consistent="437" creative="73" experienced="586"/>
+    <skills stamina="597" dexterity="637" speed="386" tackling="439" passing="485" shooting="338" control="399" accuracy="418" goalkeeping="67" heading="414"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68042">
+    <personal name="Blagoje Radovanovic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="543" risktaking="761" offensive="154" aggressive="262" consistent="612" creative="636" experienced="270"/>
+    <skills stamina="663" dexterity="631" speed="477" tackling="365" passing="360" shooting="314" control="368" accuracy="366" goalkeeping="70" heading="410"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68043">
+    <personal name="Robert Vrtovec">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="364" risktaking="446" offensive="606" aggressive="453" consistent="535" creative="491" experienced="446"/>
+    <skills stamina="672" dexterity="610" speed="620" tackling="294" passing="391" shooting="349" control="330" accuracy="298" goalkeeping="74" heading="414"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68044">
+    <personal name="Marko Vogric">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="683" risktaking="850" offensive="476" aggressive="397" consistent="695" creative="490" experienced="439"/>
+    <skills stamina="231" dexterity="597" speed="264" tackling="380" passing="330" shooting="334" control="354" accuracy="435" goalkeeping="78" heading="351"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68045">
+    <personal name="Ivica Vulic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="411" risktaking="566" offensive="465" aggressive="488" consistent="837" creative="413" experienced="837"/>
+    <skills stamina="655" dexterity="542" speed="589" tackling="343" passing="413" shooting="450" control="377" accuracy="500" goalkeeping="68" heading="517"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68046">
+    <personal name="Sandi Valentincic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="522" risktaking="445" offensive="342" aggressive="447" consistent="613" creative="634" experienced="397"/>
+    <skills stamina="541" dexterity="364" speed="695" tackling="452" passing="368" shooting="361" control="450" accuracy="382" goalkeeping="56" heading="488"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68047">
+    <personal name="Seval Zahirovic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="559" risktaking="631" offensive="617" aggressive="489" consistent="322" creative="435" experienced="256"/>
+    <skills stamina="396" dexterity="203" speed="313" tackling="315" passing="429" shooting="498" control="301" accuracy="394" goalkeeping="79" heading="472"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68048">
+    <personal name="Janko Germec">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="436" risktaking="534" offensive="624" aggressive="490" consistent="451" creative="625" experienced="499"/>
+    <skills stamina="637" dexterity="176" speed="155" tackling="153" passing="322" shooting="272" control="273" accuracy="212" goalkeeping="470" heading="158"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68049">
+    <personal name="Gorazd Kocjancic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="562" risktaking="696" offensive="494" aggressive="513" consistent="364" creative="828" experienced="492"/>
+    <skills stamina="647" dexterity="160" speed="324" tackling="192" passing="444" shooting="403" control="255" accuracy="155" goalkeeping="472" heading="166"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68050">
+    <personal name="Alen Sculac">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="327" risktaking="727" offensive="438" aggressive="479" consistent="226" creative="462" experienced="530"/>
+    <skills stamina="335" dexterity="453" speed="509" tackling="483" passing="355" shooting="473" control="314" accuracy="293" goalkeeping="59" heading="329"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68051">
+    <personal name="Dean Sculac">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="433" risktaking="678" offensive="609" aggressive="512" consistent="279" creative="558" experienced="553"/>
+    <skills stamina="483" dexterity="575" speed="318" tackling="439" passing="315" shooting="418" control="442" accuracy="339" goalkeeping="44" heading="353"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68052">
+    <personal name="Robert Prosen">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="350" risktaking="479" offensive="531" aggressive="623" consistent="601" creative="352" experienced="557"/>
+    <skills stamina="363" dexterity="420" speed="170" tackling="418" passing="504" shooting="286" control="489" accuracy="425" goalkeeping="63" heading="315"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68053">
+    <personal name="Marjan Sprager">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="508" risktaking="518" offensive="553" aggressive="611" consistent="611" creative="692" experienced="330"/>
+    <skills stamina="432" dexterity="612" speed="522" tackling="442" passing="321" shooting="468" control="315" accuracy="442" goalkeeping="61" heading="325"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="68054">
+    <personal name="Damir Ban">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="732" risktaking="611" offensive="317" aggressive="172" consistent="512" creative="442" experienced="415"/>
+    <skills stamina="431" dexterity="339" speed="500" tackling="502" passing="335" shooting="319" control="406" accuracy="253" goalkeeping="61" heading="431"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68055">
+    <personal name="Jurica Pavic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="401" risktaking="423" offensive="618" aggressive="346" consistent="487" creative="611" experienced="727"/>
+    <skills stamina="189" dexterity="444" speed="387" tackling="421" passing="398" shooting="424" control="420" accuracy="391" goalkeeping="67" heading="435"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68056">
+    <personal name="Bernard Mars">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="608" risktaking="668" offensive="366" aggressive="471" consistent="530" creative="544" experienced="76"/>
+    <skills stamina="577" dexterity="474" speed="564" tackling="375" passing="402" shooting="330" control="305" accuracy="395" goalkeeping="80" heading="357"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68057">
+    <personal name="Vlado Badzim">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="812" risktaking="555" offensive="663" aggressive="447" consistent="415" creative="581" experienced="554"/>
+    <skills stamina="637" dexterity="363" speed="355" tackling="373" passing="311" shooting="447" control="503" accuracy="297" goalkeeping="52" heading="368"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68058">
+    <personal name="Mario Bacic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="799" risktaking="580" offensive="307" aggressive="138" consistent="420" creative="609" experienced="696"/>
+    <skills stamina="234" dexterity="402" speed="315" tackling="371" passing="425" shooting="362" control="308" accuracy="351" goalkeeping="53" heading="272"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68059">
+    <personal name="Goran Stanic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="424" risktaking="500" offensive="497" aggressive="523" consistent="654" creative="443" experienced="605"/>
+    <skills stamina="344" dexterity="323" speed="580" tackling="357" passing="298" shooting="400" control="414" accuracy="331" goalkeeping="68" heading="316"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68060">
+    <personal name="Borut Knafeljc">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="366" risktaking="793" offensive="613" aggressive="606" consistent="611" creative="351" experienced="550"/>
+    <skills stamina="446" dexterity="646" speed="253" tackling="350" passing="339" shooting="277" control="380" accuracy="373" goalkeeping="43" heading="390"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68061">
+    <personal name="Nevio Fingst">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="399" risktaking="424" offensive="727" aggressive="89" consistent="207" creative="357" experienced="555"/>
+    <skills stamina="292" dexterity="686" speed="639" tackling="340" passing="399" shooting="471" control="393" accuracy="382" goalkeeping="73" heading="343"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68062">
+    <personal name="Robi Koradin">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="639" risktaking="502" offensive="603" aggressive="352" consistent="287" creative="462" experienced="343"/>
+    <skills stamina="295" dexterity="451" speed="325" tackling="349" passing="364" shooting="444" control="408" accuracy="419" goalkeeping="63" heading="264"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68063">
+    <personal name="Milos Breznikar">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="577" risktaking="571" offensive="477" aggressive="491" consistent="531" creative="484" experienced="605"/>
+    <skills stamina="325" dexterity="645" speed="487" tackling="412" passing="249" shooting="366" control="431" accuracy="351" goalkeeping="53" heading="351"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68064">
+    <personal name="Dragan Talajic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="690" risktaking="257" offensive="538" aggressive="506" consistent="882" creative="703" experienced="506"/>
+    <skills stamina="503" dexterity="196" speed="594" tackling="232" passing="353" shooting="437" control="311" accuracy="157" goalkeeping="377" heading="190"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68065">
+    <personal name="Milenko Bojanic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="343" risktaking="605" offensive="323" aggressive="477" consistent="446" creative="512" experienced="612"/>
+    <skills stamina="677" dexterity="469" speed="503" tackling="144" passing="435" shooting="462" control="250" accuracy="229" goalkeeping="375" heading="211"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68066">
+    <personal name="Davor Perkat">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="564" risktaking="431" offensive="741" aggressive="436" consistent="186" creative="318" experienced="407"/>
+    <skills stamina="536" dexterity="385" speed="462" tackling="523" passing="354" shooting="395" control="476" accuracy="483" goalkeeping="56" heading="308"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68067">
+    <personal name="Amir Ruznic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="428" risktaking="563" offensive="619" aggressive="404" consistent="451" creative="314" experienced="274"/>
+    <skills stamina="723" dexterity="716" speed="569" tackling="438" passing="386" shooting="324" control="534" accuracy="328" goalkeeping="76" heading="347"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68068">
+    <personal name="Peter Tosic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="420" risktaking="343" offensive="389" aggressive="430" consistent="422" creative="428" experienced="438"/>
+    <skills stamina="165" dexterity="402" speed="352" tackling="546" passing="369" shooting="473" control="463" accuracy="507" goalkeeping="77" heading="424"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68069">
+    <personal name="Andrzej Bizjak">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="698" risktaking="705" offensive="386" aggressive="445" consistent="525" creative="638" experienced="707"/>
+    <skills stamina="638" dexterity="511" speed="356" tackling="321" passing="501" shooting="434" control="410" accuracy="419" goalkeeping="50" heading="297"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="68070">
+    <personal name="Samo Zupanc">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="472" risktaking="468" offensive="391" aggressive="563" consistent="630" creative="566" experienced="602"/>
+    <skills stamina="569" dexterity="397" speed="640" tackling="505" passing="385" shooting="390" control="527" accuracy="341" goalkeeping="49" heading="325"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68071">
+    <personal name="Bozidar Cacic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="543" risktaking="754" offensive="333" aggressive="664" consistent="346" creative="301" experienced="589"/>
+    <skills stamina="245" dexterity="582" speed="338" tackling="383" passing="372" shooting="289" control="361" accuracy="335" goalkeeping="52" heading="360"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68072">
+    <personal name="Slaven Cucek">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="453" risktaking="545" offensive="521" aggressive="581" consistent="353" creative="421" experienced="587"/>
+    <skills stamina="519" dexterity="555" speed="212" tackling="410" passing="491" shooting="452" control="404" accuracy="491" goalkeeping="76" heading="507"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68073">
+    <personal name="Aljosa Cotar">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="359" risktaking="439" offensive="600" aggressive="382" consistent="727" creative="820" experienced="667"/>
+    <skills stamina="564" dexterity="585" speed="220" tackling="312" passing="522" shooting="365" control="484" accuracy="469" goalkeeping="54" heading="313"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68074">
+    <personal name="Andrzej Zelko">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="255" risktaking="449" offensive="285" aggressive="653" consistent="136" creative="407" experienced="812"/>
+    <skills stamina="179" dexterity="239" speed="558" tackling="467" passing="325" shooting="324" control="483" accuracy="390" goalkeeping="71" heading="347"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68075">
+    <personal name="Marjan Cendak">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="481" risktaking="601" offensive="490" aggressive="711" consistent="723" creative="577" experienced="730"/>
+    <skills stamina="608" dexterity="581" speed="232" tackling="442" passing="304" shooting="285" control="312" accuracy="339" goalkeeping="59" heading="409"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68076">
+    <personal name="Novica Nikcevic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="418" risktaking="603" offensive="349" aggressive="661" consistent="418" creative="724" experienced="433"/>
+    <skills stamina="227" dexterity="632" speed="318" tackling="363" passing="352" shooting="490" control="312" accuracy="395" goalkeeping="59" heading="360"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68077">
+    <personal name="Danijel Gregoric">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="437" risktaking="796" offensive="658" aggressive="479" consistent="699" creative="493" experienced="382"/>
+    <skills stamina="586" dexterity="610" speed="324" tackling="303" passing="450" shooting="410" control="309" accuracy="469" goalkeeping="60" heading="508"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68078">
+    <personal name="Mladen Rudonja">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="515" risktaking="633" offensive="486" aggressive="291" consistent="459" creative="570" experienced="635"/>
+    <skills stamina="374" dexterity="176" speed="628" tackling="422" passing="445" shooting="478" control="387" accuracy="433" goalkeeping="78" heading="400"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68079">
+    <personal name="Virginio Velkovski">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="679" risktaking="685" offensive="322" aggressive="813" consistent="464" creative="374" experienced="593"/>
+    <skills stamina="285" dexterity="652" speed="423" tackling="271" passing="406" shooting="482" control="452" accuracy="410" goalkeeping="59" heading="430"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68080">
+    <personal name="Zeljko Maksic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="420" risktaking="448" offensive="765" aggressive="546" consistent="537" creative="601" experienced="300"/>
+    <skills stamina="568" dexterity="288" speed="364" tackling="194" passing="355" shooting="404" control="376" accuracy="168" goalkeeping="592" heading="179"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68081">
+    <personal name="Robert Volk">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="748" risktaking="504" offensive="204" aggressive="505" consistent="460" creative="505" experienced="195"/>
+    <skills stamina="400" dexterity="652" speed="223" tackling="154" passing="443" shooting="459" control="253" accuracy="183" goalkeeping="510" heading="211"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68082">
+    <personal name="Andrej Poljsak">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="331" risktaking="486" offensive="206" aggressive="646" consistent="685" creative="783" experienced="478"/>
+    <skills stamina="545" dexterity="545" speed="588" tackling="479" passing="437" shooting="459" control="396" accuracy="408" goalkeeping="91" heading="506"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68083">
+    <personal name="Slavisa Mekic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="574" risktaking="336" offensive="506" aggressive="442" consistent="454" creative="701" experienced="373"/>
+    <skills stamina="619" dexterity="454" speed="640" tackling="486" passing="549" shooting="452" control="363" accuracy="443" goalkeeping="66" heading="475"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68084">
+    <personal name="Nedzad Okcic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="518" risktaking="783" offensive="543" aggressive="365" consistent="655" creative="605" experienced="651"/>
+    <skills stamina="530" dexterity="602" speed="608" tackling="431" passing="463" shooting="393" control="496" accuracy="413" goalkeeping="66" heading="466"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68085">
+    <personal name="Elvis Ribaric">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="569" risktaking="405" offensive="603" aggressive="498" consistent="454" creative="444" experienced="514"/>
+    <skills stamina="261" dexterity="446" speed="280" tackling="502" passing="401" shooting="440" control="387" accuracy="410" goalkeeping="63" heading="380"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68086">
+    <personal name="Marinko Galic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="385" risktaking="246" offensive="359" aggressive="440" consistent="280" creative="569" experienced="852"/>
+    <skills stamina="452" dexterity="209" speed="668" tackling="545" passing="386" shooting="470" control="488" accuracy="480" goalkeeping="73" heading="439"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68087">
+    <personal name="Andrej Santic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="563" risktaking="600" offensive="565" aggressive="462" consistent="647" creative="402" experienced="481"/>
+    <skills stamina="628" dexterity="303" speed="523" tackling="521" passing="331" shooting="456" control="367" accuracy="425" goalkeeping="73" heading="324"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="68088">
+    <personal name="Andrej Tripar">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="496" risktaking="656" offensive="504" aggressive="623" consistent="658" creative="469" experienced="311"/>
+    <skills stamina="337" dexterity="542" speed="209" tackling="438" passing="378" shooting="519" control="464" accuracy="422" goalkeeping="57" heading="396"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68089">
+    <personal name="Valter Sabadin">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="301" risktaking="597" offensive="400" aggressive="445" consistent="715" creative="435" experienced="480"/>
+    <skills stamina="691" dexterity="488" speed="646" tackling="356" passing="452" shooting="376" control="408" accuracy="362" goalkeeping="69" heading="420"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68090">
+    <personal name="Edmund Gunjac">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="558" risktaking="516" offensive="515" aggressive="347" consistent="574" creative="614" experienced="638"/>
+    <skills stamina="290" dexterity="269" speed="648" tackling="533" passing="389" shooting="404" control="498" accuracy="407" goalkeeping="84" heading="380"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68091">
+    <personal name="Vili Becaj">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="616" risktaking="435" offensive="599" aggressive="361" consistent="491" creative="549" experienced="710"/>
+    <skills stamina="465" dexterity="625" speed="380" tackling="530" passing="545" shooting="506" control="575" accuracy="484" goalkeeping="63" heading="468"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68092">
+    <personal name="Dejan Radic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="643" risktaking="325" offensive="333" aggressive="719" consistent="605" creative="525" experienced="646"/>
+    <skills stamina="215" dexterity="286" speed="172" tackling="405" passing="333" shooting="462" control="348" accuracy="448" goalkeeping="59" heading="310"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68093">
+    <personal name="Robert Voljc">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="345" risktaking="396" offensive="576" aggressive="435" consistent="482" creative="743" experienced="393"/>
+    <skills stamina="551" dexterity="504" speed="567" tackling="444" passing="431" shooting="532" control="343" accuracy="446" goalkeeping="56" heading="425"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68094">
+    <personal name="Jadranko Bajric">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="589" risktaking="204" offensive="626" aggressive="260" consistent="507" creative="526" experienced="327"/>
+    <skills stamina="679" dexterity="513" speed="549" tackling="494" passing="476" shooting="457" control="472" accuracy="568" goalkeeping="79" heading="493"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68095">
+    <personal name="Dragan Tomas">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="440" risktaking="532" offensive="472" aggressive="341" consistent="568" creative="557" experienced="482"/>
+    <skills stamina="369" dexterity="442" speed="420" tackling="439" passing="453" shooting="449" control="330" accuracy="362" goalkeeping="62" heading="448"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="68096">
+    <personal name="Ivica Pavic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="208" risktaking="532" offensive="425" aggressive="634" consistent="661" creative="412" experienced="556"/>
+    <skills stamina="439" dexterity="371" speed="350" tackling="222" passing="349" shooting="332" control="280" accuracy="195" goalkeeping="413" heading="194"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68097">
+    <personal name="Gordon Mohor">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="261" risktaking="804" offensive="428" aggressive="394" consistent="644" creative="691" experienced="584"/>
+    <skills stamina="549" dexterity="291" speed="347" tackling="141" passing="251" shooting="301" control="329" accuracy="175" goalkeeping="373" heading="146"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68098">
+    <personal name="Vinko Primc">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="488" risktaking="468" offensive="184" aggressive="497" consistent="374" creative="748" experienced="599"/>
+    <skills stamina="208" dexterity="536" speed="309" tackling="423" passing="425" shooting="370" control="337" accuracy="453" goalkeeping="62" heading="267"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68099">
+    <personal name="Simo Pirc">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="773" risktaking="493" offensive="497" aggressive="502" consistent="690" creative="374" experienced="525"/>
+    <skills stamina="679" dexterity="255" speed="378" tackling="421" passing="390" shooting="329" control="360" accuracy="282" goalkeeping="56" heading="344"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68100">
+    <personal name="Andrej Primc">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="358" risktaking="665" offensive="344" aggressive="505" consistent="497" creative="542" experienced="443"/>
+    <skills stamina="204" dexterity="303" speed="506" tackling="478" passing="334" shooting="469" control="503" accuracy="408" goalkeeping="62" heading="352"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="68101">
+    <personal name="Mithad Arnautovic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="445" risktaking="308" offensive="418" aggressive="428" consistent="543" creative="270" experienced="537"/>
+    <skills stamina="525" dexterity="481" speed="402" tackling="509" passing="461" shooting="320" control="464" accuracy="323" goalkeeping="71" heading="299"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="68102">
+    <personal name="Joze Jursic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="192" risktaking="342" offensive="791" aggressive="327" consistent="351" creative="540" experienced="697"/>
+    <skills stamina="365" dexterity="299" speed="436" tackling="292" passing="346" shooting="300" control="320" accuracy="478" goalkeeping="72" heading="396"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68103">
+    <personal name="Matjaz Kramar">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="617" risktaking="641" offensive="339" aggressive="469" consistent="430" creative="615" experienced="492"/>
+    <skills stamina="669" dexterity="671" speed="593" tackling="309" passing="341" shooting="390" control="386" accuracy="421" goalkeeping="53" heading="396"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68104">
+    <personal name="Franci Rozman">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="441" risktaking="395" offensive="330" aggressive="707" consistent="588" creative="365" experienced="445"/>
+    <skills stamina="626" dexterity="359" speed="435" tackling="319" passing="376" shooting="304" control="461" accuracy="453" goalkeeping="75" heading="281"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68105">
+    <personal name="Dragan Milanovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="465" risktaking="169" offensive="762" aggressive="657" consistent="611" creative="808" experienced="501"/>
+    <skills stamina="320" dexterity="566" speed="262" tackling="458" passing="367" shooting="342" control="388" accuracy="427" goalkeeping="73" heading="340"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68106">
+    <personal name="Janez Gruden">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="695" risktaking="407" offensive="333" aggressive="368" consistent="589" creative="318" experienced="615"/>
+    <skills stamina="592" dexterity="326" speed="158" tackling="348" passing="395" shooting="320" control="330" accuracy="369" goalkeeping="61" heading="387"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68107">
+    <personal name="Ingemar Bloudek">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="590" risktaking="746" offensive="289" aggressive="460" consistent="302" creative="553" experienced="439"/>
+    <skills stamina="648" dexterity="440" speed="556" tackling="346" passing="252" shooting="354" control="243" accuracy="379" goalkeeping="50" heading="321"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68108">
+    <personal name="Tomislav Crmarevic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="237" risktaking="623" offensive="470" aggressive="690" consistent="394" creative="712" experienced="303"/>
+    <skills stamina="410" dexterity="642" speed="213" tackling="384" passing="412" shooting="464" control="333" accuracy="570" goalkeeping="75" heading="485"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68109">
+    <personal name="Bogdan Mesojedec">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="407" risktaking="472" offensive="452" aggressive="565" consistent="551" creative="466" experienced="390"/>
+    <skills stamina="203" dexterity="226" speed="202" tackling="450" passing="416" shooting="441" control="265" accuracy="404" goalkeeping="56" heading="409"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="68110">
+    <personal name="Andrej Kostrevc">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="377" risktaking="461" offensive="602" aggressive="538" consistent="224" creative="314" experienced="644"/>
+    <skills stamina="409" dexterity="646" speed="375" tackling="295" passing="419" shooting="295" control="283" accuracy="371" goalkeeping="45" heading="266"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68111">
+    <personal name="Sandi Bracovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="598" risktaking="709" offensive="327" aggressive="702" consistent="402" creative="452" experienced="674"/>
+    <skills stamina="171" dexterity="452" speed="481" tackling="472" passing="391" shooting="356" control="499" accuracy="428" goalkeeping="66" heading="363"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68112">
+    <personal name="Mladen Dabanovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="641" risktaking="312" offensive="325" aggressive="633" consistent="376" creative="571" experienced="448"/>
+    <skills stamina="352" dexterity="607" speed="525" tackling="199" passing="378" shooting="485" control="329" accuracy="250" goalkeeping="456" heading="198"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68113">
+    <personal name="Darko Dubravica">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="567" risktaking="351" offensive="388" aggressive="579" consistent="542" creative="670" experienced="502"/>
+    <skills stamina="527" dexterity="196" speed="303" tackling="190" passing="406" shooting="361" control="381" accuracy="215" goalkeeping="546" heading="163"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68114">
+    <personal name="Emil Sterbal">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="335" risktaking="381" offensive="553" aggressive="509" consistent="204" creative="478" experienced="412"/>
+    <skills stamina="325" dexterity="228" speed="573" tackling="364" passing="424" shooting="378" control="348" accuracy="514" goalkeeping="81" heading="455"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68115">
+    <personal name="Ales Krizan">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="674" risktaking="643" offensive="215" aggressive="374" consistent="620" creative="586" experienced="514"/>
+    <skills stamina="396" dexterity="668" speed="542" tackling="505" passing="525" shooting="571" control="625" accuracy="437" goalkeeping="96" heading="408"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68116">
+    <personal name="Blagoje Milevski">
+      <appearance value="0"/>
+      <nationality value="FYR Macedonia"/>
+    </personal>
+    <personality active="731" risktaking="618" offensive="584" aggressive="567" consistent="380" creative="630" experienced="452"/>
+    <skills stamina="704" dexterity="520" speed="520" tackling="386" passing="493" shooting="439" control="544" accuracy="441" goalkeeping="82" heading="410"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="68117">
+    <personal name="Saso Lukic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="519" risktaking="285" offensive="682" aggressive="300" consistent="509" creative="509" experienced="709"/>
+    <skills stamina="524" dexterity="336" speed="205" tackling="430" passing="495" shooting="461" control="542" accuracy="365" goalkeeping="74" heading="406"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68118">
+    <personal name="Bostjan Ratkovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="570" risktaking="357" offensive="547" aggressive="291" consistent="686" creative="363" experienced="516"/>
+    <skills stamina="561" dexterity="386" speed="491" tackling="459" passing="454" shooting="536" control="440" accuracy="498" goalkeeping="64" heading="522"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68119">
+    <personal name="Grigor Zidan">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="615" risktaking="586" offensive="475" aggressive="830" consistent="504" creative="439" experienced="481"/>
+    <skills stamina="373" dexterity="648" speed="755" tackling="583" passing="522" shooting="462" control="455" accuracy="448" goalkeeping="75" heading="496"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68120">
+    <personal name="Peter Binkovski">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="440" risktaking="483" offensive="796" aggressive="537" consistent="461" creative="464" experienced="325"/>
+    <skills stamina="504" dexterity="662" speed="266" tackling="519" passing="512" shooting="430" control="569" accuracy="519" goalkeeping="89" heading="412"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68121">
+    <personal name="Renato Kotnik">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="592" risktaking="224" offensive="397" aggressive="679" consistent="387" creative="791" experienced="435"/>
+    <skills stamina="563" dexterity="618" speed="286" tackling="566" passing="497" shooting="375" control="527" accuracy="436" goalkeeping="74" heading="379"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68122">
+    <personal name="Amir Karic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="702" risktaking="866" offensive="391" aggressive="533" consistent="388" creative="425" experienced="602"/>
+    <skills stamina="638" dexterity="579" speed="163" tackling="419" passing="443" shooting="464" control="359" accuracy="407" goalkeeping="70" heading="454"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68123">
+    <personal name="Simon Dvorsak">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="502" risktaking="372" offensive="759" aggressive="626" consistent="757" creative="639" experienced="574"/>
+    <skills stamina="270" dexterity="418" speed="442" tackling="452" passing="474" shooting="346" control="385" accuracy="503" goalkeeping="63" heading="505"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68124">
+    <personal name="Kliton Bozgo">
+      <appearance value="0"/>
+      <nationality value="Albania"/>
+    </personal>
+    <personality active="435" risktaking="248" offensive="475" aggressive="425" consistent="451" creative="397" experienced="596"/>
+    <skills stamina="464" dexterity="204" speed="204" tackling="498" passing="384" shooting="501" control="546" accuracy="574" goalkeeping="93" heading="570"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="68125">
+    <personal name="Marko Stanic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="621" risktaking="410" offensive="164" aggressive="436" consistent="743" creative="483" experienced="577"/>
+    <skills stamina="211" dexterity="410" speed="384" tackling="498" passing="403" shooting="454" control="462" accuracy="439" goalkeeping="84" heading="521"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68126">
+    <personal name="Danijel Sirec">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="487" risktaking="620" offensive="658" aggressive="557" consistent="546" creative="717" experienced="541"/>
+    <skills stamina="362" dexterity="344" speed="376" tackling="422" passing="421" shooting="383" control="401" accuracy="417" goalkeeping="82" heading="516"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68127">
+    <personal name="Ante Simundza">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="520" risktaking="532" offensive="611" aggressive="622" consistent="330" creative="457" experienced="476"/>
+    <skills stamina="193" dexterity="319" speed="379" tackling="476" passing="480" shooting="518" control="508" accuracy="518" goalkeeping="82" heading="509"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="68128">
+    <personal name="Matjaz Horvat">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="593" risktaking="308" offensive="456" aggressive="623" consistent="557" creative="556" experienced="350"/>
+    <skills stamina="427" dexterity="397" speed="618" tackling="164" passing="283" shooting="364" control="334" accuracy="221" goalkeeping="409" heading="157"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68129">
+    <personal name="Mihael Obrez">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="610" risktaking="486" offensive="536" aggressive="315" consistent="517" creative="551" experienced="314"/>
+    <skills stamina="337" dexterity="499" speed="224" tackling="132" passing="284" shooting="288" control="251" accuracy="144" goalkeeping="383" heading="202"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68130">
+    <personal name="Safet Hadzic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="371" risktaking="439" offensive="290" aggressive="759" consistent="426" creative="798" experienced="608"/>
+    <skills stamina="473" dexterity="307" speed="558" tackling="479" passing="363" shooting="408" control="502" accuracy="440" goalkeeping="63" heading="389"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68131">
+    <personal name="Tomaz Lorger">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="557" risktaking="382" offensive="520" aggressive="626" consistent="100" creative="333" experienced="451"/>
+    <skills stamina="481" dexterity="268" speed="390" tackling="487" passing="409" shooting="356" control="345" accuracy="346" goalkeeping="78" heading="376"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68132">
+    <personal name="Mitja Judez">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="477" risktaking="305" offensive="540" aggressive="511" consistent="572" creative="509" experienced="478"/>
+    <skills stamina="456" dexterity="450" speed="318" tackling="413" passing="453" shooting="454" control="449" accuracy="262" goalkeeping="50" heading="388"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68133">
+    <personal name="Stanko Pepelnak">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="488" risktaking="624" offensive="547" aggressive="635" consistent="501" creative="183" experienced="280"/>
+    <skills stamina="196" dexterity="692" speed="318" tackling="549" passing="381" shooting="288" control="405" accuracy="348" goalkeeping="46" heading="308"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68134">
+    <personal name="Osman Begic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="498" risktaking="491" offensive="682" aggressive="718" consistent="229" creative="595" experienced="379"/>
+    <skills stamina="166" dexterity="529" speed="326" tackling="438" passing="318" shooting="370" control="395" accuracy="317" goalkeeping="65" heading="358"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68135">
+    <personal name="Arif Kendic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="490" risktaking="697" offensive="622" aggressive="542" consistent="453" creative="286" experienced="746"/>
+    <skills stamina="584" dexterity="430" speed="558" tackling="370" passing="410" shooting="272" control="263" accuracy="408" goalkeeping="62" heading="322"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="68136">
+    <personal name="Slavisa Stojanovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="475" risktaking="579" offensive="473" aggressive="540" consistent="520" creative="363" experienced="270"/>
+    <skills stamina="497" dexterity="356" speed="282" tackling="377" passing="310" shooting="409" control="292" accuracy="321" goalkeeping="56" heading="264"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68137">
+    <personal name="Erik Krzisnik">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="458" risktaking="578" offensive="371" aggressive="585" consistent="491" creative="575" experienced="171"/>
+    <skills stamina="659" dexterity="207" speed="250" tackling="405" passing="316" shooting="317" control="442" accuracy="411" goalkeeping="46" heading="339"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68138">
+    <personal name="Goran Miskic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="473" risktaking="651" offensive="507" aggressive="671" consistent="464" creative="475" experienced="218"/>
+    <skills stamina="339" dexterity="317" speed="167" tackling="351" passing="426" shooting="307" control="445" accuracy="427" goalkeeping="57" heading="430"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68139">
+    <personal name="Damjan Gajser">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="419" risktaking="630" offensive="486" aggressive="515" consistent="515" creative="420" experienced="642"/>
+    <skills stamina="526" dexterity="171" speed="415" tackling="379" passing="439" shooting="433" control="377" accuracy="340" goalkeeping="66" heading="433"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68140">
+    <personal name="Andrej Jerak">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="476" risktaking="685" offensive="532" aggressive="407" consistent="563" creative="462" experienced="520"/>
+    <skills stamina="564" dexterity="345" speed="396" tackling="304" passing="413" shooting="299" control="410" accuracy="431" goalkeeping="58" heading="310"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68141">
+    <personal name="Dejan Kecan">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="600" risktaking="592" offensive="358" aggressive="469" consistent="287" creative="593" experienced="552"/>
+    <skills stamina="588" dexterity="641" speed="303" tackling="356" passing="440" shooting="451" control="296" accuracy="291" goalkeeping="53" heading="378"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68142">
+    <personal name="Ermin Rakovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="622" risktaking="299" offensive="811" aggressive="438" consistent="578" creative="207" experienced="567"/>
+    <skills stamina="602" dexterity="400" speed="371" tackling="414" passing="377" shooting="406" control="323" accuracy="510" goalkeeping="58" heading="435"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="68143">
+    <personal name="Sebastjan Cimerotic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="612" risktaking="820" offensive="338" aggressive="532" consistent="381" creative="500" experienced="375"/>
+    <skills stamina="402" dexterity="341" speed="234" tackling="419" passing="359" shooting="499" control="345" accuracy="417" goalkeeping="53" heading="459"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="68144">
+    <personal name="Janko Irgolic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="468" risktaking="668" offensive="515" aggressive="367" consistent="404" creative="753" experienced="498"/>
+    <skills stamina="535" dexterity="322" speed="190" tackling="222" passing="422" shooting="513" control="300" accuracy="246" goalkeeping="560" heading="240"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68145">
+    <personal name="Stefan Cernjavic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="362" risktaking="297" offensive="513" aggressive="344" consistent="639" creative="630" experienced="599"/>
+    <skills stamina="464" dexterity="218" speed="422" tackling="240" passing="396" shooting="455" control="325" accuracy="216" goalkeeping="434" heading="164"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68146">
+    <personal name="Joze Kosi">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="338" risktaking="710" offensive="508" aggressive="494" consistent="589" creative="125" experienced="360"/>
+    <skills stamina="285" dexterity="762" speed="615" tackling="504" passing="470" shooting="460" control="453" accuracy="403" goalkeeping="81" heading="366"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68147">
+    <personal name="Srecko Ilic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="605" risktaking="487" offensive="388" aggressive="340" consistent="406" creative="379" experienced="444"/>
+    <skills stamina="234" dexterity="306" speed="665" tackling="489" passing="572" shooting="352" control="480" accuracy="492" goalkeeping="58" heading="534"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68148">
+    <personal name="Bojan Jancar">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="480" risktaking="632" offensive="192" aggressive="568" consistent="433" creative="299" experienced="738"/>
+    <skills stamina="704" dexterity="546" speed="650" tackling="497" passing="463" shooting="532" control="450" accuracy="492" goalkeeping="74" heading="479"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68149">
+    <personal name="Mirsad Granov">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="286" risktaking="302" offensive="582" aggressive="632" consistent="515" creative="455" experienced="572"/>
+    <skills stamina="225" dexterity="455" speed="591" tackling="495" passing="554" shooting="496" control="476" accuracy="414" goalkeeping="65" heading="534"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="68150">
+    <personal name="Anton Slavic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="719" risktaking="486" offensive="274" aggressive="641" consistent="520" creative="439" experienced="335"/>
+    <skills stamina="434" dexterity="473" speed="402" tackling="487" passing="450" shooting="349" control="559" accuracy="426" goalkeeping="76" heading="419"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68151">
+    <personal name="Franc Cifer">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="267" risktaking="618" offensive="439" aggressive="296" consistent="432" creative="794" experienced="745"/>
+    <skills stamina="265" dexterity="593" speed="637" tackling="480" passing="438" shooting="390" control="423" accuracy="436" goalkeeping="87" heading="430"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68152">
+    <personal name="Tomaz Emersic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="612" risktaking="613" offensive="345" aggressive="611" consistent="545" creative="555" experienced="624"/>
+    <skills stamina="680" dexterity="626" speed="283" tackling="436" passing="533" shooting="544" control="439" accuracy="474" goalkeeping="92" heading="493"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68153">
+    <personal name="Robert Belec">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="287" risktaking="432" offensive="570" aggressive="589" consistent="668" creative="621" experienced="398"/>
+    <skills stamina="427" dexterity="289" speed="188" tackling="573" passing="519" shooting="436" control="465" accuracy="437" goalkeeping="86" heading="375"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68154">
+    <personal name="Marijan Bakula">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="385" risktaking="351" offensive="562" aggressive="102" consistent="385" creative="634" experienced="420"/>
+    <skills stamina="459" dexterity="585" speed="305" tackling="512" passing="412" shooting="488" control="511" accuracy="519" goalkeeping="62" heading="483"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68155">
+    <personal name="Adamo Baranja">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="286" risktaking="484" offensive="529" aggressive="356" consistent="500" creative="484" experienced="530"/>
+    <skills stamina="663" dexterity="447" speed="428" tackling="465" passing="469" shooting="444" control="476" accuracy="464" goalkeeping="59" heading="423"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68156">
+    <personal name="Alfred Jermanis">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="656" risktaking="771" offensive="512" aggressive="519" consistent="522" creative="134" experienced="408"/>
+    <skills stamina="357" dexterity="742" speed="306" tackling="474" passing="591" shooting="443" control="574" accuracy="485" goalkeeping="79" heading="570"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68157">
+    <personal name="Kristijan Cener">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="636" risktaking="569" offensive="394" aggressive="536" consistent="177" creative="398" experienced="576"/>
+    <skills stamina="262" dexterity="497" speed="617" tackling="532" passing="353" shooting="565" control="427" accuracy="452" goalkeeping="76" heading="420"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68158">
+    <personal name="Primoz Gliha">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="501" risktaking="558" offensive="597" aggressive="393" consistent="448" creative="203" experienced="321"/>
+    <skills stamina="221" dexterity="233" speed="589" tackling="483" passing="498" shooting="552" control="465" accuracy="490" goalkeeping="65" heading="505"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68159">
+    <personal name="Goran Gutalj">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="725" risktaking="595" offensive="551" aggressive="784" consistent="448" creative="606" experienced="790"/>
+    <skills stamina="451" dexterity="489" speed="607" tackling="444" passing="430" shooting="517" control="398" accuracy="402" goalkeeping="62" heading="370"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68160">
+    <personal name="Nemis Limani">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="522" risktaking="399" offensive="531" aggressive="537" consistent="595" creative="390" experienced="440"/>
+    <skills stamina="347" dexterity="225" speed="403" tackling="159" passing="360" shooting="263" control="330" accuracy="196" goalkeeping="419" heading="206"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68161">
+    <personal name="Franc Kusek">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="661" risktaking="383" offensive="606" aggressive="550" consistent="528" creative="294" experienced="188"/>
+    <skills stamina="401" dexterity="316" speed="472" tackling="184" passing="382" shooting="307" control="303" accuracy="117" goalkeeping="318" heading="142"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68162">
+    <personal name="Joze Zalik">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="432" risktaking="475" offensive="567" aggressive="353" consistent="693" creative="670" experienced="481"/>
+    <skills stamina="721" dexterity="683" speed="227" tackling="408" passing="426" shooting="309" control="397" accuracy="455" goalkeeping="60" heading="452"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68163">
+    <personal name="Arpad Horvat">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="562" risktaking="702" offensive="556" aggressive="368" consistent="732" creative="234" experienced="283"/>
+    <skills stamina="214" dexterity="516" speed="613" tackling="387" passing="502" shooting="386" control="340" accuracy="310" goalkeeping="74" heading="298"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68164">
+    <personal name="Dean Novak">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="590" risktaking="553" offensive="371" aggressive="576" consistent="483" creative="557" experienced="557"/>
+    <skills stamina="347" dexterity="364" speed="611" tackling="401" passing="467" shooting="471" control="444" accuracy="399" goalkeeping="50" heading="449"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68165">
+    <personal name="Aleksander Basa">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="537" risktaking="500" offensive="356" aggressive="378" consistent="364" creative="484" experienced="291"/>
+    <skills stamina="282" dexterity="468" speed="295" tackling="375" passing="393" shooting="299" control="454" accuracy="255" goalkeeping="52" heading="354"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68166">
+    <personal name="Franc Pozgaj">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="443" risktaking="711" offensive="383" aggressive="571" consistent="527" creative="303" experienced="295"/>
+    <skills stamina="375" dexterity="601" speed="160" tackling="354" passing="393" shooting="409" control="443" accuracy="384" goalkeeping="59" heading="376"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="68167">
+    <personal name="Marjan Drvaric">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="658" risktaking="389" offensive="490" aggressive="603" consistent="504" creative="877" experienced="467"/>
+    <skills stamina="388" dexterity="347" speed="498" tackling="385" passing="397" shooting="300" control="477" accuracy="476" goalkeeping="70" heading="357"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68168">
+    <personal name="Mladen Bubek">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="765" risktaking="319" offensive="214" aggressive="617" consistent="599" creative="428" experienced="881"/>
+    <skills stamina="571" dexterity="626" speed="536" tackling="370" passing="314" shooting="345" control="395" accuracy="401" goalkeeping="63" heading="407"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68169">
+    <personal name="Dario Utrosa">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="315" risktaking="553" offensive="139" aggressive="525" consistent="562" creative="370" experienced="341"/>
+    <skills stamina="666" dexterity="671" speed="341" tackling="462" passing="308" shooting="282" control="327" accuracy="354" goalkeeping="53" heading="376"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68170">
+    <personal name="Miroslav Graj">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="692" risktaking="469" offensive="60" aggressive="437" consistent="376" creative="760" experienced="546"/>
+    <skills stamina="168" dexterity="516" speed="419" tackling="379" passing="411" shooting="334" control="333" accuracy="396" goalkeeping="45" heading="404"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68171">
+    <personal name="Robert Sabjan">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="796" risktaking="439" offensive="45" aggressive="649" consistent="452" creative="475" experienced="716"/>
+    <skills stamina="180" dexterity="658" speed="637" tackling="440" passing="369" shooting="382" control="404" accuracy="456" goalkeeping="48" heading="419"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68172">
+    <personal name="Nenad Hranilovic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="554" risktaking="304" offensive="675" aggressive="515" consistent="604" creative="528" experienced="648"/>
+    <skills stamina="293" dexterity="560" speed="337" tackling="478" passing="332" shooting="350" control="295" accuracy="413" goalkeeping="68" heading="472"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68173">
+    <personal name="Zlatko Herceg">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="520" risktaking="718" offensive="791" aggressive="959" consistent="415" creative="482" experienced="579"/>
+    <skills stamina="595" dexterity="611" speed="241" tackling="329" passing="269" shooting="485" control="409" accuracy="350" goalkeeping="56" heading="294"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68174">
+    <personal name="Stefan Savel">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="55" risktaking="403" offensive="517" aggressive="576" consistent="621" creative="638" experienced="567"/>
+    <skills stamina="162" dexterity="548" speed="596" tackling="407" passing="306" shooting="333" control="238" accuracy="349" goalkeeping="70" heading="444"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68175">
+    <personal name="Alen Nedeljko">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="575" risktaking="659" offensive="305" aggressive="458" consistent="528" creative="612" experienced="571"/>
+    <skills stamina="618" dexterity="136" speed="593" tackling="341" passing="256" shooting="387" control="377" accuracy="304" goalkeeping="58" heading="372"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68176">
+    <personal name="Marko Simeunovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="363" risktaking="547" offensive="195" aggressive="245" consistent="552" creative="770" experienced="631"/>
+    <skills stamina="435" dexterity="306" speed="356" tackling="220" passing="462" shooting="499" control="403" accuracy="244" goalkeeping="624" heading="225"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68177">
+    <personal name="Nihad Pejkovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="407" risktaking="602" offensive="441" aggressive="652" consistent="514" creative="439" experienced="634"/>
+    <skills stamina="587" dexterity="666" speed="419" tackling="236" passing="509" shooting="464" control="388" accuracy="195" goalkeeping="406" heading="181"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68178">
+    <personal name="Nenad Podgajski">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="482" risktaking="663" offensive="637" aggressive="715" consistent="424" creative="708" experienced="639"/>
+    <skills stamina="501" dexterity="372" speed="231" tackling="589" passing="523" shooting="423" control="488" accuracy="424" goalkeeping="72" heading="470"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68179">
+    <personal name="Robert Englaro">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="694" risktaking="662" offensive="677" aggressive="649" consistent="552" creative="504" experienced="417"/>
+    <skills stamina="533" dexterity="288" speed="655" tackling="459" passing="452" shooting="530" control="502" accuracy="435" goalkeeping="62" heading="504"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68180">
+    <personal name="Edin Hadjialagic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="597" risktaking="542" offensive="284" aggressive="426" consistent="460" creative="597" experienced="815"/>
+    <skills stamina="553" dexterity="520" speed="697" tackling="520" passing="542" shooting="576" control="450" accuracy="464" goalkeeping="75" heading="423"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68181">
+    <personal name="Damir Vrabac">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="701" risktaking="608" offensive="405" aggressive="313" consistent="680" creative="510" experienced="333"/>
+    <skills stamina="547" dexterity="276" speed="284" tackling="449" passing="556" shooting="465" control="491" accuracy="459" goalkeeping="80" heading="510"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68182">
+    <personal name="Milos Hudarin">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="568" risktaking="333" offensive="692" aggressive="535" consistent="447" creative="397" experienced="220"/>
+    <skills stamina="525" dexterity="260" speed="482" tackling="500" passing="465" shooting="529" control="590" accuracy="560" goalkeeping="79" heading="452"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68183">
+    <personal name="Zeljko Milinovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="601" risktaking="478" offensive="587" aggressive="352" consistent="483" creative="514" experienced="229"/>
+    <skills stamina="599" dexterity="680" speed="677" tackling="478" passing="447" shooting="431" control="562" accuracy="492" goalkeeping="86" heading="467"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68184">
+    <personal name="Samir Zulic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="214" risktaking="598" offensive="505" aggressive="246" consistent="359" creative="348" experienced="742"/>
+    <skills stamina="704" dexterity="309" speed="679" tackling="472" passing="500" shooting="494" control="453" accuracy="568" goalkeeping="65" heading="473"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68185">
+    <personal name="Nenad Protega">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="489" risktaking="470" offensive="663" aggressive="390" consistent="783" creative="788" experienced="260"/>
+    <skills stamina="290" dexterity="507" speed="383" tackling="492" passing="600" shooting="456" control="599" accuracy="561" goalkeeping="89" heading="554"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68186">
+    <personal name="Igor Benedejcic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="618" risktaking="667" offensive="712" aggressive="599" consistent="591" creative="325" experienced="332"/>
+    <skills stamina="415" dexterity="696" speed="195" tackling="525" passing="505" shooting="386" control="447" accuracy="392" goalkeeping="57" heading="440"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68187">
+    <personal name="Dejan Djuranovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="382" risktaking="514" offensive="585" aggressive="491" consistent="736" creative="702" experienced="379"/>
+    <skills stamina="470" dexterity="552" speed="319" tackling="493" passing="591" shooting="417" control="566" accuracy="489" goalkeeping="68" heading="456"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68188">
+    <personal name="Miran Pavlin">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="535" risktaking="519" offensive="652" aggressive="190" consistent="668" creative="743" experienced="393"/>
+    <skills stamina="707" dexterity="210" speed="611" tackling="550" passing="426" shooting="477" control="481" accuracy="451" goalkeeping="59" heading="447"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68189">
+    <personal name="Zoran Ubavic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="507" risktaking="536" offensive="381" aggressive="595" consistent="470" creative="575" experienced="653"/>
+    <skills stamina="642" dexterity="539" speed="404" tackling="540" passing="499" shooting="569" control="427" accuracy="611" goalkeeping="72" heading="572"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68190">
+    <personal name="Nedeljko Topic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="368" risktaking="379" offensive="408" aggressive="523" consistent="520" creative="462" experienced="471"/>
+    <skills stamina="330" dexterity="488" speed="572" tackling="454" passing="474" shooting="603" control="546" accuracy="420" goalkeeping="72" heading="422"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68191">
+    <personal name="Ermin Siljak">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="548" risktaking="504" offensive="654" aggressive="526" consistent="552" creative="653" experienced="389"/>
+    <skills stamina="534" dexterity="409" speed="546" tackling="525" passing="400" shooting="572" control="429" accuracy="424" goalkeeping="87" heading="531"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68192">
+    <personal name="Samo Skodlar">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="534" risktaking="542" offensive="738" aggressive="648" consistent="603" creative="317" experienced="348"/>
+    <skills stamina="598" dexterity="678" speed="428" tackling="168" passing="306" shooting="330" control="214" accuracy="202" goalkeeping="437" heading="131"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68193">
+    <personal name="Janez Hrovat">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="676" risktaking="472" offensive="300" aggressive="497" consistent="457" creative="535" experienced="512"/>
+    <skills stamina="198" dexterity="510" speed="229" tackling="200" passing="306" shooting="262" control="216" accuracy="157" goalkeeping="436" heading="174"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68194">
+    <personal name="Milos Kostic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="463" risktaking="323" offensive="252" aggressive="326" consistent="99" creative="491" experienced="553"/>
+    <skills stamina="694" dexterity="209" speed="410" tackling="316" passing="415" shooting="298" control="302" accuracy="357" goalkeeping="68" heading="363"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68195">
+    <personal name="Zlatko Cerimovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="443" risktaking="360" offensive="681" aggressive="646" consistent="337" creative="512" experienced="890"/>
+    <skills stamina="636" dexterity="502" speed="425" tackling="441" passing="393" shooting="409" control="517" accuracy="424" goalkeeping="49" heading="409"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68196">
+    <personal name="Zeljko Mitrakovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="544" risktaking="701" offensive="382" aggressive="408" consistent="456" creative="794" experienced="495"/>
+    <skills stamina="280" dexterity="567" speed="192" tackling="537" passing="468" shooting="444" control="413" accuracy="409" goalkeeping="63" heading="389"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68197">
+    <personal name="Igor Bernobic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="604" risktaking="457" offensive="429" aggressive="458" consistent="546" creative="123" experienced="750"/>
+    <skills stamina="440" dexterity="504" speed="210" tackling="302" passing="310" shooting="332" control="359" accuracy="344" goalkeeping="60" heading="353"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68198">
+    <personal name="Enver Ciric">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="490" risktaking="332" offensive="475" aggressive="545" consistent="578" creative="689" experienced="651"/>
+    <skills stamina="595" dexterity="564" speed="603" tackling="355" passing="294" shooting="253" control="404" accuracy="313" goalkeeping="57" heading="403"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="68199">
+    <personal name="Andrej Lamprej">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="255" risktaking="283" offensive="649" aggressive="261" consistent="379" creative="370" experienced="308"/>
+    <skills stamina="508" dexterity="396" speed="189" tackling="308" passing="341" shooting="426" control="400" accuracy="309" goalkeeping="45" heading="330"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68200">
+    <personal name="Marko Jordan">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="565" risktaking="283" offensive="361" aggressive="312" consistent="583" creative="611" experienced="596"/>
+    <skills stamina="474" dexterity="248" speed="380" tackling="417" passing="413" shooting="296" control="469" accuracy="331" goalkeeping="77" heading="341"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68201">
+    <personal name="Miroslav Prezelj">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="575" risktaking="627" offensive="673" aggressive="707" consistent="370" creative="509" experienced="472"/>
+    <skills stamina="162" dexterity="509" speed="384" tackling="344" passing="304" shooting="341" control="328" accuracy="294" goalkeeping="67" heading="390"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68202">
+    <personal name="Edin Mujkic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="383" risktaking="589" offensive="480" aggressive="508" consistent="814" creative="459" experienced="607"/>
+    <skills stamina="411" dexterity="166" speed="392" tackling="309" passing="350" shooting="277" control="285" accuracy="278" goalkeeping="58" heading="337"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68203">
+    <personal name="Andrej Janezic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="606" risktaking="573" offensive="543" aggressive="354" consistent="613" creative="621" experienced="176"/>
+    <skills stamina="453" dexterity="389" speed="440" tackling="405" passing="429" shooting="281" control="411" accuracy="333" goalkeeping="55" heading="313"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68204">
+    <personal name="Peter Voncina">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="828" risktaking="385" offensive="545" aggressive="634" consistent="365" creative="513" experienced="318"/>
+    <skills stamina="524" dexterity="338" speed="180" tackling="315" passing="392" shooting="339" control="416" accuracy="334" goalkeeping="58" heading="251"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68205">
+    <personal name="Rikard Udovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="476" risktaking="378" offensive="563" aggressive="510" consistent="459" creative="478" experienced="431"/>
+    <skills stamina="373" dexterity="566" speed="546" tackling="375" passing="317" shooting="518" control="436" accuracy="349" goalkeeping="52" heading="379"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68206">
+    <personal name="Janez Mrak">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="423" risktaking="382" offensive="170" aggressive="789" consistent="533" creative="318" experienced="498"/>
+    <skills stamina="466" dexterity="682" speed="427" tackling="343" passing="317" shooting="452" control="317" accuracy="434" goalkeeping="68" heading="380"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68207">
+    <personal name="Borut Arlic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="558" risktaking="669" offensive="334" aggressive="411" consistent="670" creative="499" experienced="384"/>
+    <skills stamina="397" dexterity="404" speed="316" tackling="234" passing="349" shooting="356" control="268" accuracy="482" goalkeeping="47" heading="384"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68208">
+    <personal name="Goran Stankovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="568" risktaking="722" offensive="699" aggressive="748" consistent="293" creative="326" experienced="537"/>
+    <skills stamina="258" dexterity="356" speed="544" tackling="179" passing="323" shooting="304" control="282" accuracy="238" goalkeeping="490" heading="198"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68209">
+    <personal name="Janko Irgolic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="594" risktaking="321" offensive="410" aggressive="383" consistent="398" creative="641" experienced="428"/>
+    <skills stamina="338" dexterity="362" speed="461" tackling="194" passing="475" shooting="399" control="358" accuracy="225" goalkeeping="461" heading="150"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68210">
+    <personal name="Bostjan Tratnjak">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="511" risktaking="397" offensive="811" aggressive="491" consistent="611" creative="657" experienced="440"/>
+    <skills stamina="599" dexterity="584" speed="471" tackling="407" passing="532" shooting="459" control="501" accuracy="430" goalkeeping="71" heading="407"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68211">
+    <personal name="Kreso Mundzar">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="406" risktaking="209" offensive="586" aggressive="424" consistent="162" creative="478" experienced="537"/>
+    <skills stamina="689" dexterity="734" speed="438" tackling="324" passing="514" shooting="337" control="491" accuracy="477" goalkeeping="76" heading="509"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68212">
+    <personal name="Matjaz Jancic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="581" risktaking="479" offensive="653" aggressive="477" consistent="387" creative="249" experienced="357"/>
+    <skills stamina="439" dexterity="361" speed="478" tackling="533" passing="459" shooting="337" control="460" accuracy="373" goalkeeping="87" heading="404"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68213">
+    <personal name="Mario Zver">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="417" risktaking="834" offensive="206" aggressive="382" consistent="547" creative="460" experienced="425"/>
+    <skills stamina="239" dexterity="402" speed="162" tackling="387" passing="532" shooting="428" control="517" accuracy="365" goalkeeping="73" heading="368"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="68214">
+    <personal name="Dusan Kosic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="527" risktaking="396" offensive="428" aggressive="535" consistent="632" creative="223" experienced="572"/>
+    <skills stamina="427" dexterity="351" speed="386" tackling="454" passing="552" shooting="362" control="396" accuracy="530" goalkeeping="74" heading="397"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68215">
+    <personal name="Dean Baranja">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="572" risktaking="449" offensive="424" aggressive="637" consistent="648" creative="523" experienced="231"/>
+    <skills stamina="412" dexterity="603" speed="589" tackling="335" passing="453" shooting="416" control="506" accuracy="321" goalkeeping="78" heading="492"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68216">
+    <personal name="Marjan Contala">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="675" risktaking="483" offensive="502" aggressive="375" consistent="440" creative="293" experienced="374"/>
+    <skills stamina="433" dexterity="486" speed="605" tackling="401" passing="351" shooting="359" control="403" accuracy="506" goalkeeping="85" heading="339"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68217">
+    <personal name="Tomislav Godina">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="589" risktaking="428" offensive="474" aggressive="388" consistent="710" creative="372" experienced="357"/>
+    <skills stamina="315" dexterity="508" speed="614" tackling="482" passing="565" shooting="403" control="489" accuracy="355" goalkeeping="55" heading="366"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68218">
+    <personal name="Marinko Sarkezi">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="396" risktaking="451" offensive="172" aggressive="446" consistent="405" creative="365" experienced="369"/>
+    <skills stamina="699" dexterity="253" speed="670" tackling="452" passing="332" shooting="414" control="490" accuracy="399" goalkeeping="66" heading="451"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68219">
+    <personal name="Zlatko Gabor">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="431" risktaking="751" offensive="568" aggressive="479" consistent="483" creative="719" experienced="696"/>
+    <skills stamina="617" dexterity="390" speed="670" tackling="492" passing="518" shooting="473" control="401" accuracy="408" goalkeeping="62" heading="464"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68220">
+    <personal name="Stefan Skaper">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="133" risktaking="615" offensive="394" aggressive="242" consistent="663" creative="619" experienced="405"/>
+    <skills stamina="292" dexterity="383" speed="339" tackling="459" passing="384" shooting="528" control="384" accuracy="419" goalkeeping="72" heading="440"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68221">
+    <personal name="Vlado Milosevic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="429" risktaking="516" offensive="470" aggressive="623" consistent="336" creative="446" experienced="215"/>
+    <skills stamina="558" dexterity="238" speed="194" tackling="489" passing="539" shooting="529" control="488" accuracy="462" goalkeeping="88" heading="348"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68222">
+    <personal name="Emin Prekazi">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="551" risktaking="438" offensive="612" aggressive="482" consistent="418" creative="27" experienced="605"/>
+    <skills stamina="309" dexterity="170" speed="542" tackling="411" passing="507" shooting="561" control="488" accuracy="438" goalkeeping="55" heading="484"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68223">
+    <personal name="Emir Dzafic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="548" risktaking="382" offensive="584" aggressive="316" consistent="585" creative="475" experienced="538"/>
+    <skills stamina="167" dexterity="211" speed="309" tackling="313" passing="425" shooting="384" control="366" accuracy="398" goalkeeping="81" heading="386"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68224">
+    <personal name="Borut Mavric">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="556" risktaking="578" offensive="398" aggressive="645" consistent="646" creative="519" experienced="607"/>
+    <skills stamina="314" dexterity="206" speed="384" tackling="200" passing="483" shooting="425" control="309" accuracy="222" goalkeeping="442" heading="170"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68225">
+    <personal name="Boris Rzek">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="428" risktaking="397" offensive="521" aggressive="581" consistent="880" creative="553" experienced="740"/>
+    <skills stamina="352" dexterity="566" speed="127" tackling="178" passing="229" shooting="367" control="205" accuracy="182" goalkeeping="348" heading="172"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68226">
+    <personal name="Iztok Cermeli">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="692" risktaking="494" offensive="441" aggressive="640" consistent="571" creative="519" experienced="333"/>
+    <skills stamina="404" dexterity="522" speed="570" tackling="405" passing="454" shooting="484" control="335" accuracy="386" goalkeeping="63" heading="494"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68227">
+    <personal name="Kadrija Ibranovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="327" risktaking="399" offensive="437" aggressive="542" consistent="552" creative="653" experienced="698"/>
+    <skills stamina="392" dexterity="207" speed="645" tackling="347" passing="462" shooting="398" control="327" accuracy="312" goalkeeping="79" heading="417"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68228">
+    <personal name="Suarez Kraja">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="624" risktaking="445" offensive="322" aggressive="332" consistent="589" creative="551" experienced="479"/>
+    <skills stamina="523" dexterity="601" speed="594" tackling="445" passing="556" shooting="487" control="496" accuracy="422" goalkeeping="63" heading="427"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68229">
+    <personal name="Ales Krejic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="563" risktaking="609" offensive="627" aggressive="439" consistent="743" creative="481" experienced="440"/>
+    <skills stamina="546" dexterity="240" speed="305" tackling="437" passing="383" shooting="352" control="386" accuracy="411" goalkeeping="59" heading="401"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68230">
+    <personal name="Marko Madon">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="530" risktaking="501" offensive="978" aggressive="682" consistent="583" creative="486" experienced="450"/>
+    <skills stamina="361" dexterity="665" speed="198" tackling="436" passing="382" shooting="417" control="411" accuracy="320" goalkeeping="59" heading="358"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68231">
+    <personal name="Vojo Pegar">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="572" risktaking="561" offensive="635" aggressive="566" consistent="742" creative="389" experienced="618"/>
+    <skills stamina="673" dexterity="238" speed="135" tackling="475" passing="388" shooting="465" control="405" accuracy="338" goalkeeping="64" heading="321"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68232">
+    <personal name="Torno Lokar">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="560" risktaking="460" offensive="644" aggressive="369" consistent="351" creative="519" experienced="507"/>
+    <skills stamina="469" dexterity="518" speed="373" tackling="540" passing="458" shooting="366" control="494" accuracy="486" goalkeeping="80" heading="504"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68233">
+    <personal name="Trivko Lucic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="483" risktaking="601" offensive="499" aggressive="456" consistent="696" creative="296" experienced="406"/>
+    <skills stamina="304" dexterity="675" speed="722" tackling="409" passing="400" shooting="360" control="430" accuracy="439" goalkeeping="74" heading="510"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68234">
+    <personal name="Harudin Music">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="305" risktaking="428" offensive="580" aggressive="423" consistent="205" creative="330" experienced="239"/>
+    <skills stamina="446" dexterity="546" speed="241" tackling="347" passing="430" shooting="438" control="453" accuracy="310" goalkeeping="61" heading="461"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68235">
+    <personal name="Sefik Mulahmetovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="338" risktaking="593" offensive="364" aggressive="695" consistent="441" creative="239" experienced="434"/>
+    <skills stamina="181" dexterity="251" speed="641" tackling="384" passing="274" shooting="267" control="298" accuracy="285" goalkeeping="55" heading="342"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68236">
+    <personal name="Franko Pergar">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="456" risktaking="753" offensive="248" aggressive="439" consistent="237" creative="408" experienced="639"/>
+    <skills stamina="156" dexterity="157" speed="485" tackling="439" passing="464" shooting="255" control="457" accuracy="264" goalkeeping="43" heading="319"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68237">
+    <personal name="Adriano Fegic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="529" risktaking="271" offensive="476" aggressive="667" consistent="548" creative="833" experienced="322"/>
+    <skills stamina="461" dexterity="309" speed="536" tackling="231" passing="275" shooting="301" control="392" accuracy="329" goalkeeping="51" heading="408"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68238">
+    <personal name="Borivoje Lucic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="706" risktaking="566" offensive="709" aggressive="382" consistent="390" creative="213" experienced="366"/>
+    <skills stamina="704" dexterity="332" speed="738" tackling="459" passing="456" shooting="512" control="415" accuracy="457" goalkeeping="85" heading="463"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68239">
+    <personal name="Uros Stanic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="297" risktaking="757" offensive="494" aggressive="580" consistent="226" creative="444" experienced="443"/>
+    <skills stamina="669" dexterity="528" speed="407" tackling="421" passing="403" shooting="441" control="425" accuracy="557" goalkeeping="74" heading="402"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68240">
+    <personal name="Branko Zupan">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="808" risktaking="652" offensive="398" aggressive="761" consistent="437" creative="299" experienced="417"/>
+    <skills stamina="289" dexterity="583" speed="293" tackling="200" passing="431" shooting="475" control="369" accuracy="217" goalkeeping="548" heading="253"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="68241">
+    <personal name="Peter Kozelj">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="510" risktaking="365" offensive="528" aggressive="504" consistent="453" creative="314" experienced="654"/>
+    <skills stamina="269" dexterity="264" speed="356" tackling="227" passing="396" shooting="465" control="290" accuracy="155" goalkeeping="468" heading="241"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68242">
+    <personal name="Janez Zilnik">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="237" risktaking="376" offensive="522" aggressive="529" consistent="526" creative="604" experienced="607"/>
+    <skills stamina="392" dexterity="307" speed="584" tackling="473" passing="392" shooting="452" control="418" accuracy="446" goalkeeping="69" heading="465"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68243">
+    <personal name="Dejan Romih">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="229" risktaking="482" offensive="573" aggressive="432" consistent="424" creative="452" experienced="585"/>
+    <skills stamina="201" dexterity="337" speed="293" tackling="534" passing="471" shooting="381" control="399" accuracy="329" goalkeeping="52" heading="450"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68244">
+    <personal name="Gregor Blatnik">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="368" risktaking="407" offensive="602" aggressive="700" consistent="308" creative="461" experienced="272"/>
+    <skills stamina="651" dexterity="602" speed="213" tackling="530" passing="413" shooting="530" control="400" accuracy="541" goalkeeping="82" heading="410"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68245">
+    <personal name="Matjaz Stancar">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="707" risktaking="748" offensive="376" aggressive="657" consistent="696" creative="672" experienced="758"/>
+    <skills stamina="581" dexterity="661" speed="347" tackling="493" passing="357" shooting="345" control="537" accuracy="479" goalkeeping="80" heading="353"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68246">
+    <personal name="Husnija Omeragic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="459" risktaking="645" offensive="305" aggressive="111" consistent="450" creative="224" experienced="658"/>
+    <skills stamina="429" dexterity="308" speed="147" tackling="469" passing="418" shooting="467" control="407" accuracy="380" goalkeeping="48" heading="420"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68247">
+    <personal name="Ales Turk">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="432" risktaking="497" offensive="646" aggressive="475" consistent="474" creative="571" experienced="557"/>
+    <skills stamina="271" dexterity="517" speed="677" tackling="340" passing="450" shooting="406" control="536" accuracy="472" goalkeeping="62" heading="404"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68248">
+    <personal name="Joze Prelogar">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="406" risktaking="648" offensive="488" aggressive="721" consistent="468" creative="325" experienced="531"/>
+    <skills stamina="449" dexterity="485" speed="506" tackling="406" passing="459" shooting="354" control="393" accuracy="478" goalkeeping="63" heading="434"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68249">
+    <personal name="Bojan Romih">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="554" risktaking="741" offensive="455" aggressive="429" consistent="350" creative="585" experienced="633"/>
+    <skills stamina="552" dexterity="350" speed="667" tackling="375" passing="497" shooting="415" control="526" accuracy="497" goalkeeping="53" heading="420"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68250">
+    <personal name="Stjepan Pranjic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="872" risktaking="196" offensive="600" aggressive="584" consistent="360" creative="144" experienced="452"/>
+    <skills stamina="334" dexterity="679" speed="329" tackling="442" passing="516" shooting="385" control="346" accuracy="446" goalkeeping="63" heading="399"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68251">
+    <personal name="Andrej Gorsek">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="531" risktaking="531" offensive="535" aggressive="323" consistent="376" creative="374" experienced="407"/>
+    <skills stamina="720" dexterity="676" speed="552" tackling="537" passing="496" shooting="501" control="354" accuracy="503" goalkeeping="60" heading="447"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68252">
+    <personal name="Mirza Golubica">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="414" risktaking="580" offensive="397" aggressive="422" consistent="197" creative="212" experienced="604"/>
+    <skills stamina="196" dexterity="325" speed="613" tackling="475" passing="448" shooting="441" control="364" accuracy="473" goalkeeping="58" heading="413"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68253">
+    <personal name="Robert Pevnik">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="594" risktaking="455" offensive="469" aggressive="366" consistent="679" creative="499" experienced="528"/>
+    <skills stamina="707" dexterity="332" speed="391" tackling="488" passing="351" shooting="491" control="384" accuracy="455" goalkeeping="85" heading="397"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68254">
+    <personal name="Simon Seslar">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="580" risktaking="295" offensive="295" aggressive="407" consistent="459" creative="412" experienced="581"/>
+    <skills stamina="459" dexterity="499" speed="394" tackling="343" passing="320" shooting="524" control="498" accuracy="499" goalkeeping="73" heading="448"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68255">
+    <personal name="Dejan Car">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="341" risktaking="530" offensive="486" aggressive="294" consistent="782" creative="567" experienced="285"/>
+    <skills stamina="223" dexterity="222" speed="682" tackling="428" passing="306" shooting="500" control="423" accuracy="500" goalkeeping="55" heading="449"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68256">
+    <personal name="Feruz Canic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="428" risktaking="436" offensive="611" aggressive="559" consistent="598" creative="650" experienced="345"/>
+    <skills stamina="348" dexterity="478" speed="237" tackling="182" passing="467" shooting="334" control="394" accuracy="212" goalkeeping="469" heading="184"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68257">
+    <personal name="Robert Leitinger">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="457" risktaking="196" offensive="395" aggressive="525" consistent="515" creative="356" experienced="547"/>
+    <skills stamina="277" dexterity="386" speed="231" tackling="178" passing="328" shooting="344" control="328" accuracy="142" goalkeeping="415" heading="172"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68258">
+    <personal name="Slavko Javornik">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="365" risktaking="252" offensive="149" aggressive="664" consistent="641" creative="420" experienced="384"/>
+    <skills stamina="313" dexterity="202" speed="467" tackling="422" passing="452" shooting="414" control="478" accuracy="327" goalkeeping="84" heading="374"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68259">
+    <personal name="Simon Oblak">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="756" risktaking="570" offensive="336" aggressive="532" consistent="584" creative="565" experienced="491"/>
+    <skills stamina="476" dexterity="711" speed="543" tackling="398" passing="439" shooting="380" control="452" accuracy="435" goalkeeping="74" heading="328"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68260">
+    <personal name="Saso Grajfoner">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="519" risktaking="478" offensive="396" aggressive="725" consistent="581" creative="723" experienced="608"/>
+    <skills stamina="454" dexterity="633" speed="498" tackling="428" passing="450" shooting="314" control="453" accuracy="322" goalkeeping="55" heading="448"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68261">
+    <personal name="Robert Doler">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="588" risktaking="486" offensive="530" aggressive="540" consistent="565" creative="504" experienced="484"/>
+    <skills stamina="242" dexterity="525" speed="230" tackling="475" passing="484" shooting="311" control="333" accuracy="468" goalkeeping="52" heading="412"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68262">
+    <personal name="Spasoje Bulajic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="345" risktaking="397" offensive="446" aggressive="543" consistent="564" creative="616" experienced="353"/>
+    <skills stamina="641" dexterity="425" speed="662" tackling="453" passing="488" shooting="426" control="366" accuracy="288" goalkeeping="65" heading="343"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68263">
+    <personal name="Ervin Polovsak">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="199" risktaking="613" offensive="295" aggressive="657" consistent="498" creative="604" experienced="507"/>
+    <skills stamina="414" dexterity="679" speed="591" tackling="464" passing="375" shooting="396" control="398" accuracy="399" goalkeeping="59" heading="436"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68264">
+    <personal name="Jernej Javornik">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="448" risktaking="199" offensive="477" aggressive="526" consistent="462" creative="461" experienced="558"/>
+    <skills stamina="624" dexterity="617" speed="570" tackling="423" passing="388" shooting="310" control="376" accuracy="418" goalkeeping="77" heading="389"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68265">
+    <personal name="Sergej Sostar">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="239" risktaking="271" offensive="724" aggressive="617" consistent="291" creative="758" experienced="500"/>
+    <skills stamina="697" dexterity="197" speed="545" tackling="327" passing="489" shooting="468" control="462" accuracy="476" goalkeeping="67" heading="410"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68266">
+    <personal name="Nedret Omerovic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="345" risktaking="690" offensive="547" aggressive="211" consistent="800" creative="491" experienced="869"/>
+    <skills stamina="584" dexterity="260" speed="553" tackling="373" passing="377" shooting="301" control="310" accuracy="451" goalkeeping="70" heading="355"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68267">
+    <personal name="Safet Muslimovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="665" risktaking="453" offensive="477" aggressive="398" consistent="489" creative="485" experienced="426"/>
+    <skills stamina="303" dexterity="405" speed="496" tackling="389" passing="462" shooting="437" control="455" accuracy="430" goalkeeping="63" heading="322"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68268">
+    <personal name="Goran Zivanovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="705" risktaking="276" offensive="372" aggressive="284" consistent="797" creative="500" experienced="554"/>
+    <skills stamina="325" dexterity="496" speed="576" tackling="429" passing="459" shooting="468" control="448" accuracy="392" goalkeeping="81" heading="332"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68269">
+    <personal name="Zaljko Spasojevic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="618" risktaking="534" offensive="618" aggressive="336" consistent="354" creative="542" experienced="315"/>
+    <skills stamina="657" dexterity="534" speed="347" tackling="407" passing="458" shooting="455" control="441" accuracy="424" goalkeeping="70" heading="506"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68270">
+    <personal name="Slavko Komar">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="679" risktaking="681" offensive="610" aggressive="447" consistent="435" creative="382" experienced="618"/>
+    <skills stamina="461" dexterity="465" speed="152" tackling="299" passing="338" shooting="437" control="409" accuracy="385" goalkeeping="70" heading="449"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="68271">
+    <personal name="Alen Mesanovic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="585" risktaking="454" offensive="775" aggressive="430" consistent="503" creative="469" experienced="303"/>
+    <skills stamina="143" dexterity="641" speed="541" tackling="401" passing="441" shooting="412" control="420" accuracy="378" goalkeeping="55" heading="364"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68272">
+    <personal name="Bozidar Surac">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="638" risktaking="687" offensive="532" aggressive="313" consistent="748" creative="595" experienced="543"/>
+    <skills stamina="298" dexterity="436" speed="673" tackling="137" passing="299" shooting="306" control="316" accuracy="230" goalkeeping="430" heading="168"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68273">
+    <personal name="Emerik Lesnik">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="667" risktaking="368" offensive="415" aggressive="631" consistent="546" creative="670" experienced="702"/>
+    <skills stamina="242" dexterity="414" speed="464" tackling="141" passing="289" shooting="301" control="192" accuracy="135" goalkeeping="376" heading="183"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68274">
+    <personal name="Sandi Zdovc">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="389" risktaking="255" offensive="412" aggressive="577" consistent="562" creative="597" experienced="887"/>
+    <skills stamina="462" dexterity="463" speed="362" tackling="413" passing="356" shooting="418" control="442" accuracy="339" goalkeeping="74" heading="456"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68275">
+    <personal name="Ibrahim Neskic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="564" risktaking="162" offensive="636" aggressive="312" consistent="578" creative="475" experienced="483"/>
+    <skills stamina="468" dexterity="188" speed="599" tackling="272" passing="311" shooting="323" control="390" accuracy="356" goalkeeping="67" heading="397"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68276">
+    <personal name="Edo Korazija">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="502" risktaking="620" offensive="772" aggressive="584" consistent="505" creative="529" experienced="458"/>
+    <skills stamina="137" dexterity="186" speed="350" tackling="411" passing="425" shooting="265" control="479" accuracy="362" goalkeeping="57" heading="351"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68277">
+    <personal name="Ivan Horvat">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="521" risktaking="727" offensive="560" aggressive="398" consistent="728" creative="569" experienced="457"/>
+    <skills stamina="391" dexterity="576" speed="154" tackling="291" passing="477" shooting="412" control="428" accuracy="428" goalkeeping="47" heading="358"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="68278">
+    <personal name="Boris Marguc">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="544" risktaking="534" offensive="593" aggressive="520" consistent="695" creative="537" experienced="414"/>
+    <skills stamina="222" dexterity="195" speed="267" tackling="417" passing="381" shooting="379" control="339" accuracy="497" goalkeeping="80" heading="438"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68279">
+    <personal name="Stanko Bevc">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="616" risktaking="574" offensive="618" aggressive="412" consistent="746" creative="624" experienced="626"/>
+    <skills stamina="246" dexterity="207" speed="333" tackling="342" passing="294" shooting="377" control="327" accuracy="243" goalkeeping="57" heading="384"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="68280">
+    <personal name="Bojan Pocivavsek">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="557" risktaking="345" offensive="403" aggressive="298" consistent="513" creative="730" experienced="168"/>
+    <skills stamina="332" dexterity="438" speed="410" tackling="289" passing="346" shooting="447" control="349" accuracy="300" goalkeeping="52" heading="468"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68281">
+    <personal name="Primoz Kidric">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="357" risktaking="610" offensive="671" aggressive="725" consistent="560" creative="456" experienced="566"/>
+    <skills stamina="595" dexterity="591" speed="237" tackling="362" passing="342" shooting="411" control="322" accuracy="284" goalkeeping="53" heading="413"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68282">
+    <personal name="Ales Turnsek">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="505" risktaking="380" offensive="521" aggressive="333" consistent="597" creative="479" experienced="493"/>
+    <skills stamina="602" dexterity="516" speed="157" tackling="380" passing="394" shooting="344" control="335" accuracy="396" goalkeeping="47" heading="414"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68283">
+    <personal name="Joze Bek">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="386" risktaking="458" offensive="464" aggressive="317" consistent="677" creative="572" experienced="551"/>
+    <skills stamina="514" dexterity="293" speed="296" tackling="287" passing="416" shooting="387" control="479" accuracy="411" goalkeeping="62" heading="376"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68284">
+    <personal name="Darko Valek">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="558" risktaking="559" offensive="588" aggressive="535" consistent="241" creative="535" experienced="309"/>
+    <skills stamina="300" dexterity="520" speed="313" tackling="323" passing="417" shooting="530" control="324" accuracy="393" goalkeeping="47" heading="351"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68285">
+    <personal name="Bruno Krklec">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="415" risktaking="285" offensive="551" aggressive="569" consistent="491" creative="564" experienced="480"/>
+    <skills stamina="336" dexterity="464" speed="269" tackling="380" passing="285" shooting="390" control="301" accuracy="411" goalkeeping="64" heading="506"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68286">
+    <personal name="Goran Prevoljsek">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="389" risktaking="344" offensive="488" aggressive="267" consistent="341" creative="610" experienced="499"/>
+    <skills stamina="551" dexterity="316" speed="446" tackling="429" passing="322" shooting="395" control="380" accuracy="518" goalkeeping="74" heading="470"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68287">
+    <personal name="Dragan Tomas">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="444" risktaking="248" offensive="293" aggressive="717" consistent="599" creative="377" experienced="466"/>
+    <skills stamina="294" dexterity="437" speed="414" tackling="335" passing="443" shooting="309" control="289" accuracy="310" goalkeeping="52" heading="380"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68288">
+    <personal name="Izidor Kristl">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="528" risktaking="508" offensive="543" aggressive="359" consistent="559" creative="329" experienced="536"/>
+    <skills stamina="577" dexterity="280" speed="255" tackling="179" passing="380" shooting="374" control="313" accuracy="200" goalkeeping="430" heading="142"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="68289">
+    <personal name="Janko Veselic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="463" risktaking="528" offensive="551" aggressive="533" consistent="492" creative="139" experienced="198"/>
+    <skills stamina="521" dexterity="513" speed="474" tackling="214" passing="321" shooting="283" control="224" accuracy="196" goalkeeping="402" heading="206"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68290">
+    <personal name="Darko Zibek">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="444" risktaking="356" offensive="595" aggressive="541" consistent="622" creative="710" experienced="611"/>
+    <skills stamina="622" dexterity="162" speed="659" tackling="440" passing="320" shooting="445" control="376" accuracy="390" goalkeeping="63" heading="389"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68291">
+    <personal name="Tomaz Vrsic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="458" risktaking="685" offensive="606" aggressive="850" consistent="484" creative="535" experienced="318"/>
+    <skills stamina="341" dexterity="259" speed="171" tackling="485" passing="344" shooting="358" control="417" accuracy="430" goalkeeping="71" heading="393"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68292">
+    <personal name="Andrej Vrsic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="598" risktaking="298" offensive="495" aggressive="677" consistent="417" creative="244" experienced="118"/>
+    <skills stamina="292" dexterity="390" speed="281" tackling="514" passing="464" shooting="373" control="313" accuracy="469" goalkeeping="79" heading="445"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68293">
+    <personal name="Drago Straus">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="301" risktaking="497" offensive="475" aggressive="326" consistent="517" creative="508" experienced="342"/>
+    <skills stamina="406" dexterity="517" speed="241" tackling="364" passing="338" shooting="272" control="379" accuracy="251" goalkeeping="62" heading="417"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68294">
+    <personal name="Goran Pavlic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="715" risktaking="414" offensive="540" aggressive="632" consistent="838" creative="716" experienced="560"/>
+    <skills stamina="498" dexterity="330" speed="350" tackling="276" passing="374" shooting="383" control="325" accuracy="367" goalkeeping="47" heading="336"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68295">
+    <personal name="David Najvirt">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="590" risktaking="366" offensive="536" aggressive="244" consistent="529" creative="585" experienced="607"/>
+    <skills stamina="326" dexterity="631" speed="562" tackling="279" passing="284" shooting="345" control="370" accuracy="307" goalkeeping="70" heading="389"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68296">
+    <personal name="Dejan Kraut">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="252" risktaking="616" offensive="542" aggressive="208" consistent="624" creative="522" experienced="472"/>
+    <skills stamina="367" dexterity="187" speed="640" tackling="447" passing="387" shooting="361" control="458" accuracy="426" goalkeeping="75" heading="436"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68297">
+    <personal name="Mladen Zimet">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="521" risktaking="463" offensive="331" aggressive="515" consistent="620" creative="467" experienced="272"/>
+    <skills stamina="278" dexterity="396" speed="192" tackling="456" passing="358" shooting="406" control="316" accuracy="456" goalkeeping="54" heading="496"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68298">
+    <personal name="Vlado Hecl">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="833" risktaking="803" offensive="572" aggressive="196" consistent="722" creative="495" experienced="405"/>
+    <skills stamina="635" dexterity="137" speed="495" tackling="405" passing="418" shooting="262" control="306" accuracy="365" goalkeeping="43" heading="374"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68299">
+    <personal name="Dusko Vickovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="539" risktaking="363" offensive="448" aggressive="539" consistent="272" creative="375" experienced="564"/>
+    <skills stamina="478" dexterity="341" speed="637" tackling="445" passing="417" shooting="308" control="382" accuracy="378" goalkeeping="61" heading="338"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68300">
+    <personal name="Franc Zitnik">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="261" risktaking="425" offensive="581" aggressive="420" consistent="766" creative="449" experienced="404"/>
+    <skills stamina="207" dexterity="556" speed="304" tackling="333" passing="390" shooting="456" control="423" accuracy="323" goalkeeping="69" heading="371"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68301">
+    <personal name="Vladimir Kokol">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="420" risktaking="832" offensive="257" aggressive="777" consistent="298" creative="632" experienced="177"/>
+    <skills stamina="518" dexterity="632" speed="326" tackling="426" passing="260" shooting="494" control="440" accuracy="504" goalkeeping="48" heading="357"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68302">
+    <personal name="Mato Stanic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="257" risktaking="465" offensive="455" aggressive="523" consistent="398" creative="534" experienced="181"/>
+    <skills stamina="616" dexterity="268" speed="609" tackling="347" passing="397" shooting="383" control="297" accuracy="414" goalkeeping="66" heading="351"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68303">
+    <personal name="Bojan Onic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="418" risktaking="246" offensive="518" aggressive="233" consistent="606" creative="287" experienced="539"/>
+    <skills stamina="579" dexterity="226" speed="557" tackling="422" passing="400" shooting="391" control="281" accuracy="363" goalkeeping="64" heading="316"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="68304">
+    <personal name="Miro Vodan">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="589" risktaking="453" offensive="627" aggressive="463" consistent="608" creative="425" experienced="624"/>
+    <skills stamina="383" dexterity="598" speed="654" tackling="143" passing="459" shooting="428" control="315" accuracy="173" goalkeeping="335" heading="150"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68305">
+    <personal name="Dino Lalic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="526" risktaking="554" offensive="302" aggressive="678" consistent="283" creative="349" experienced="498"/>
+    <skills stamina="166" dexterity="507" speed="391" tackling="197" passing="407" shooting="414" control="258" accuracy="198" goalkeeping="466" heading="151"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="68306">
+    <personal name="Gregor Grasic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="400" risktaking="281" offensive="440" aggressive="622" consistent="382" creative="114" experienced="366"/>
+    <skills stamina="270" dexterity="712" speed="455" tackling="429" passing="379" shooting="422" control="518" accuracy="455" goalkeeping="54" heading="360"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="68307">
+    <personal name="Boris Sirk">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="510" risktaking="649" offensive="474" aggressive="378" consistent="847" creative="428" experienced="426"/>
+    <skills stamina="294" dexterity="569" speed="322" tackling="491" passing="463" shooting="353" control="451" accuracy="443" goalkeeping="61" heading="458"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="68308">
+    <personal name="Filip Murnik">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="331" risktaking="416" offensive="578" aggressive="498" consistent="363" creative="690" experienced="361"/>
+    <skills stamina="282" dexterity="465" speed="475" tackling="541" passing="434" shooting="446" control="509" accuracy="347" goalkeeping="70" heading="388"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68309">
+    <personal name="Darjan Jost">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="623" risktaking="679" offensive="352" aggressive="268" consistent="622" creative="752" experienced="597"/>
+    <skills stamina="658" dexterity="336" speed="610" tackling="473" passing="440" shooting="442" control="472" accuracy="384" goalkeeping="69" heading="478"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68310">
+    <personal name="Boris Krizaj">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="804" risktaking="496" offensive="295" aggressive="869" consistent="188" creative="632" experienced="558"/>
+    <skills stamina="188" dexterity="173" speed="581" tackling="369" passing="429" shooting="448" control="468" accuracy="434" goalkeeping="76" heading="268"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="68311">
+    <personal name="Brane Pavlin">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="601" risktaking="288" offensive="467" aggressive="545" consistent="190" creative="358" experienced="269"/>
+    <skills stamina="259" dexterity="356" speed="584" tackling="417" passing="418" shooting="431" control="401" accuracy="347" goalkeeping="56" heading="372"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="68312">
+    <personal name="Franci Ahcin">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="566" risktaking="480" offensive="420" aggressive="716" consistent="430" creative="431" experienced="636"/>
+    <skills stamina="217" dexterity="427" speed="640" tackling="479" passing="372" shooting="372" control="444" accuracy="405" goalkeeping="52" heading="408"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="68313">
+    <personal name="Aleksandr Vorobyov">
+      <appearance value="0"/>
+      <nationality value="Russia"/>
+    </personal>
+    <personality active="278" risktaking="708" offensive="293" aggressive="630" consistent="361" creative="494" experienced="457"/>
+    <skills stamina="189" dexterity="309" speed="330" tackling="390" passing="410" shooting="377" control="425" accuracy="362" goalkeeping="82" heading="332"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68314">
+    <personal name="Robert Oblak">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="332" risktaking="354" offensive="224" aggressive="604" consistent="443" creative="647" experienced="581"/>
+    <skills stamina="424" dexterity="653" speed="278" tackling="371" passing="395" shooting="387" control="474" accuracy="349" goalkeeping="57" heading="416"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68315">
+    <personal name="Andrej Jost">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="313" risktaking="445" offensive="594" aggressive="524" consistent="298" creative="344" experienced="705"/>
+    <skills stamina="280" dexterity="332" speed="649" tackling="465" passing="392" shooting="420" control="355" accuracy="287" goalkeeping="73" heading="284"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="68316">
+    <personal name="Miran Pihler">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="428" risktaking="672" offensive="566" aggressive="601" consistent="703" creative="774" experienced="566"/>
+    <skills stamina="672" dexterity="228" speed="329" tackling="345" passing="429" shooting="330" control="330" accuracy="383" goalkeeping="57" heading="349"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="68317">
+    <personal name="Robert Marusic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="748" risktaking="666" offensive="570" aggressive="348" consistent="456" creative="556" experienced="454"/>
+    <skills stamina="468" dexterity="323" speed="680" tackling="319" passing="409" shooting="509" control="360" accuracy="286" goalkeeping="59" heading="398"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="68318">
+    <personal name="Andrej Jerina">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="281" risktaking="480" offensive="517" aggressive="606" consistent="459" creative="354" experienced="662"/>
+    <skills stamina="521" dexterity="514" speed="438" tackling="415" passing="434" shooting="436" control="404" accuracy="345" goalkeeping="62" heading="296"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="68319">
+    <personal name="Tomaz Velikovrh">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="365" risktaking="617" offensive="711" aggressive="402" consistent="295" creative="572" experienced="921"/>
+    <skills stamina="591" dexterity="203" speed="163" tackling="318" passing="325" shooting="417" control="304" accuracy="431" goalkeeping="66" heading="415"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+</Players>

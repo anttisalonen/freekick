@@ -1,0 +1,1963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Aldosivi">
+    <coach name="Andres Rebottaro"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Aldosivi Stadium"/>
+    <contracts>
+      <contract player="86000"/>
+      <contract player="86001"/>
+      <contract player="86002"/>
+      <contract player="86003"/>
+      <contract player="86004"/>
+      <contract player="86005"/>
+      <contract player="86006"/>
+      <contract player="86007"/>
+      <contract player="86008"/>
+      <contract player="86009"/>
+      <contract player="86010"/>
+      <contract player="86011"/>
+      <contract player="86012"/>
+      <contract player="86013"/>
+      <contract player="86014"/>
+      <contract player="86015"/>
+    </contracts>
+  </club>
+  <club name="Almirante Brown">
+    <coach name="Blas Armanto Giunta"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Almirante Brown Stadium"/>
+    <contracts>
+      <contract player="86016"/>
+      <contract player="86017"/>
+      <contract player="86018"/>
+      <contract player="86019"/>
+      <contract player="86020"/>
+      <contract player="86021"/>
+      <contract player="86022"/>
+      <contract player="86023"/>
+      <contract player="86024"/>
+      <contract player="86025"/>
+      <contract player="86026"/>
+      <contract player="86027"/>
+      <contract player="86028"/>
+      <contract player="86029"/>
+      <contract player="86030"/>
+      <contract player="86031"/>
+    </contracts>
+  </club>
+  <club name="Argentinos Jnrs">
+    <coach name="Nestor Gorosito"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Argentinos Jnrs Stadium"/>
+    <contracts>
+      <contract player="86032"/>
+      <contract player="86033"/>
+      <contract player="86034"/>
+      <contract player="86035"/>
+      <contract player="86036"/>
+      <contract player="86037"/>
+      <contract player="86038"/>
+      <contract player="86039"/>
+      <contract player="86040"/>
+      <contract player="86041"/>
+      <contract player="86042"/>
+      <contract player="86043"/>
+      <contract player="86044"/>
+      <contract player="86045"/>
+      <contract player="86046"/>
+      <contract player="86047"/>
+    </contracts>
+  </club>
+  <club name="Arsenal">
+    <coach name="Gustavo Alfaro"/>
+    <kits>
+      <kit>
+        <jersey type="3">
+          <color r="173" g="216" b="230"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Arsenal Stadium"/>
+    <contracts>
+      <contract player="86048"/>
+      <contract player="86049"/>
+      <contract player="86050"/>
+      <contract player="86051"/>
+      <contract player="86052"/>
+      <contract player="86053"/>
+      <contract player="86054"/>
+      <contract player="86055"/>
+      <contract player="86056"/>
+      <contract player="86057"/>
+      <contract player="86058"/>
+      <contract player="86059"/>
+      <contract player="86060"/>
+      <contract player="86061"/>
+      <contract player="86062"/>
+      <contract player="86063"/>
+    </contracts>
+  </club>
+  <club name="Atletico Rafaela">
+    <coach name="Juan Amador Sanchez"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="173" g="216" b="230"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Atletico Rafaela Stadium"/>
+    <contracts>
+      <contract player="86064"/>
+      <contract player="86065"/>
+      <contract player="86066"/>
+      <contract player="86067"/>
+      <contract player="86068"/>
+      <contract player="86069"/>
+      <contract player="86070"/>
+      <contract player="86071"/>
+      <contract player="86072"/>
+      <contract player="86073"/>
+      <contract player="86074"/>
+      <contract player="86075"/>
+      <contract player="86076"/>
+      <contract player="86077"/>
+      <contract player="86078"/>
+      <contract player="86079"/>
+    </contracts>
+  </club>
+  <club name="Almagro">
+    <coach name="Roberto Trotta"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Almagro Stadium"/>
+    <contracts>
+      <contract player="86080"/>
+      <contract player="86081"/>
+      <contract player="86082"/>
+      <contract player="86083"/>
+      <contract player="86084"/>
+      <contract player="86085"/>
+      <contract player="86086"/>
+      <contract player="86087"/>
+      <contract player="86088"/>
+      <contract player="86089"/>
+      <contract player="86090"/>
+      <contract player="86091"/>
+      <contract player="86092"/>
+      <contract player="86093"/>
+      <contract player="86094"/>
+      <contract player="86095"/>
+    </contracts>
+  </club>
+  <club name="Banfield">
+    <coach name="Juan Manuel Llop"/>
+    <kits>
+      <kit>
+        <jersey type="3">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="127" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Banfield Stadium"/>
+    <contracts>
+      <contract player="86096"/>
+      <contract player="86097"/>
+      <contract player="86098"/>
+      <contract player="86099"/>
+      <contract player="86100"/>
+      <contract player="86101"/>
+      <contract player="86102"/>
+      <contract player="86103"/>
+      <contract player="86104"/>
+      <contract player="86105"/>
+      <contract player="86106"/>
+      <contract player="86107"/>
+      <contract player="86108"/>
+      <contract player="86109"/>
+      <contract player="86110"/>
+      <contract player="86111"/>
+    </contracts>
+  </club>
+  <club name="Belgrano">
+    <coach name="Mario Gomez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Belgrano Stadium"/>
+    <contracts>
+      <contract player="86112"/>
+      <contract player="86113"/>
+      <contract player="86114"/>
+      <contract player="86115"/>
+      <contract player="86116"/>
+      <contract player="86117"/>
+      <contract player="86118"/>
+      <contract player="86119"/>
+      <contract player="86120"/>
+      <contract player="86121"/>
+      <contract player="86122"/>
+      <contract player="86123"/>
+      <contract player="86124"/>
+      <contract player="86125"/>
+      <contract player="86126"/>
+      <contract player="86127"/>
+    </contracts>
+  </club>
+  <club name="Boca Juniors">
+    <coach name="Miguel Angel Russo"/>
+    <kits>
+      <kit>
+        <jersey type="3">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Boca Juniors Stadium"/>
+    <contracts>
+      <contract player="86128"/>
+      <contract player="86129"/>
+      <contract player="86130"/>
+      <contract player="86131"/>
+      <contract player="86132"/>
+      <contract player="86133"/>
+      <contract player="86134"/>
+      <contract player="86135"/>
+      <contract player="86136"/>
+      <contract player="86137"/>
+      <contract player="86138"/>
+      <contract player="86139"/>
+      <contract player="86140"/>
+      <contract player="86141"/>
+      <contract player="86142"/>
+      <contract player="86143"/>
+    </contracts>
+  </club>
+  <club name="Def Y Justicia">
+    <coach name="Ricardo Rezza"/>
+    <kits>
+      <kit>
+        <jersey type="3">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Def Y Justicia Stadium"/>
+    <contracts>
+      <contract player="86144"/>
+      <contract player="86145"/>
+      <contract player="86146"/>
+      <contract player="86147"/>
+      <contract player="86148"/>
+      <contract player="86149"/>
+      <contract player="86150"/>
+      <contract player="86151"/>
+      <contract player="86152"/>
+      <contract player="86153"/>
+      <contract player="86154"/>
+      <contract player="86155"/>
+      <contract player="86156"/>
+      <contract player="86157"/>
+      <contract player="86158"/>
+      <contract player="86159"/>
+    </contracts>
+  </club>
+  <club name="Chacarita Jnrs">
+    <coach name="Dalcio Giovagnoli"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Chacarita Jnrs Stadium"/>
+    <contracts>
+      <contract player="86160"/>
+      <contract player="86161"/>
+      <contract player="86162"/>
+      <contract player="86163"/>
+      <contract player="86164"/>
+      <contract player="86165"/>
+      <contract player="86166"/>
+      <contract player="86167"/>
+      <contract player="86168"/>
+      <contract player="86169"/>
+      <contract player="86170"/>
+      <contract player="86171"/>
+      <contract player="86172"/>
+      <contract player="86173"/>
+      <contract player="86174"/>
+      <contract player="86175"/>
+    </contracts>
+  </club>
+  <club name="Colon">
+    <coach name="Leonardo Astrada"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Colon Stadium"/>
+    <contracts>
+      <contract player="86176"/>
+      <contract player="86177"/>
+      <contract player="86178"/>
+      <contract player="86179"/>
+      <contract player="86180"/>
+      <contract player="86181"/>
+      <contract player="86182"/>
+      <contract player="86183"/>
+      <contract player="86184"/>
+      <contract player="86185"/>
+      <contract player="86186"/>
+      <contract player="86187"/>
+      <contract player="86188"/>
+      <contract player="86189"/>
+      <contract player="86190"/>
+      <contract player="86191"/>
+    </contracts>
+  </club>
+  <club name="Rivadavia">
+    <coach name="Arnaldo Sialle"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Rivadavia Stadium"/>
+    <contracts>
+      <contract player="86192"/>
+      <contract player="86193"/>
+      <contract player="86194"/>
+      <contract player="86195"/>
+      <contract player="86196"/>
+      <contract player="86197"/>
+      <contract player="86198"/>
+      <contract player="86199"/>
+      <contract player="86200"/>
+      <contract player="86201"/>
+      <contract player="86202"/>
+      <contract player="86203"/>
+      <contract player="86204"/>
+      <contract player="86205"/>
+      <contract player="86206"/>
+      <contract player="86207"/>
+    </contracts>
+  </club>
+  <club name="San Martin T">
+    <coach name="Carlos Roldan"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="San Martin T Stadium"/>
+    <contracts>
+      <contract player="86208"/>
+      <contract player="86209"/>
+      <contract player="86210"/>
+      <contract player="86211"/>
+      <contract player="86212"/>
+      <contract player="86213"/>
+      <contract player="86214"/>
+      <contract player="86215"/>
+      <contract player="86216"/>
+      <contract player="86217"/>
+      <contract player="86218"/>
+      <contract player="86219"/>
+      <contract player="86220"/>
+      <contract player="86221"/>
+      <contract player="86222"/>
+      <contract player="86223"/>
+    </contracts>
+  </club>
+  <club name="Tiro Federal">
+    <coach name="Jose Maria Bianco"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Tiro Federal Stadium"/>
+    <contracts>
+      <contract player="86224"/>
+      <contract player="86225"/>
+      <contract player="86226"/>
+      <contract player="86227"/>
+      <contract player="86228"/>
+      <contract player="86229"/>
+      <contract player="86230"/>
+      <contract player="86231"/>
+      <contract player="86232"/>
+      <contract player="86233"/>
+      <contract player="86234"/>
+      <contract player="86235"/>
+      <contract player="86236"/>
+      <contract player="86237"/>
+      <contract player="86238"/>
+      <contract player="86239"/>
+    </contracts>
+  </club>
+  <club name="Ben Hur">
+    <coach name="Ricardo Zielinski"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Ben Hur Stadium"/>
+    <contracts>
+      <contract player="86240"/>
+      <contract player="86241"/>
+      <contract player="86242"/>
+      <contract player="86243"/>
+      <contract player="86244"/>
+      <contract player="86245"/>
+      <contract player="86246"/>
+      <contract player="86247"/>
+      <contract player="86248"/>
+      <contract player="86249"/>
+      <contract player="86250"/>
+      <contract player="86251"/>
+      <contract player="86252"/>
+      <contract player="86253"/>
+      <contract player="86254"/>
+      <contract player="86255"/>
+    </contracts>
+  </club>
+  <club name="Estudiantes">
+    <coach name="Nestor Sensini"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="128" g="128" b="128"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="128" g="128" b="128"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="128" g="128" b="128"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Estudiantes Stadium"/>
+    <contracts>
+      <contract player="86256"/>
+      <contract player="86257"/>
+      <contract player="86258"/>
+      <contract player="86259"/>
+      <contract player="86260"/>
+      <contract player="86261"/>
+      <contract player="86262"/>
+      <contract player="86263"/>
+      <contract player="86264"/>
+      <contract player="86265"/>
+      <contract player="86266"/>
+      <contract player="86267"/>
+      <contract player="86268"/>
+      <contract player="86269"/>
+      <contract player="86270"/>
+      <contract player="86271"/>
+    </contracts>
+  </club>
+  <club name="Ferro">
+    <coach name="Jose Luis Brown"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Ferro Stadium"/>
+    <contracts>
+      <contract player="86272"/>
+      <contract player="86273"/>
+      <contract player="86274"/>
+      <contract player="86275"/>
+      <contract player="86276"/>
+      <contract player="86277"/>
+      <contract player="86278"/>
+      <contract player="86279"/>
+      <contract player="86280"/>
+      <contract player="86281"/>
+      <contract player="86282"/>
+      <contract player="86283"/>
+      <contract player="86284"/>
+      <contract player="86285"/>
+      <contract player="86286"/>
+      <contract player="86287"/>
+    </contracts>
+  </club>
+  <club name="Gimnasia Jujuy">
+    <coach name="Carlos Ramaciotti"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Gimnasia Jujuy Stadium"/>
+    <contracts>
+      <contract player="86288"/>
+      <contract player="86289"/>
+      <contract player="86290"/>
+      <contract player="86291"/>
+      <contract player="86292"/>
+      <contract player="86293"/>
+      <contract player="86294"/>
+      <contract player="86295"/>
+      <contract player="86296"/>
+      <contract player="86297"/>
+      <contract player="86298"/>
+      <contract player="86299"/>
+      <contract player="86300"/>
+      <contract player="86301"/>
+      <contract player="86302"/>
+      <contract player="86303"/>
+    </contracts>
+  </club>
+  <club name="Cai">
+    <coach name="Diego Cocca"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Cai Stadium"/>
+    <contracts>
+      <contract player="86304"/>
+      <contract player="86305"/>
+      <contract player="86306"/>
+      <contract player="86307"/>
+      <contract player="86308"/>
+      <contract player="86309"/>
+      <contract player="86310"/>
+      <contract player="86311"/>
+      <contract player="86312"/>
+      <contract player="86313"/>
+      <contract player="86314"/>
+      <contract player="86315"/>
+      <contract player="86316"/>
+      <contract player="86317"/>
+      <contract player="86318"/>
+      <contract player="86319"/>
+    </contracts>
+  </club>
+  <club name="Gimnasia Lp">
+    <coach name="Julio Cesar Falcioni"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Gimnasia Lp Stadium"/>
+    <contracts>
+      <contract player="86320"/>
+      <contract player="86321"/>
+      <contract player="86322"/>
+      <contract player="86323"/>
+      <contract player="86324"/>
+      <contract player="86325"/>
+      <contract player="86326"/>
+      <contract player="86327"/>
+      <contract player="86328"/>
+      <contract player="86329"/>
+      <contract player="86330"/>
+      <contract player="86331"/>
+      <contract player="86332"/>
+      <contract player="86333"/>
+      <contract player="86334"/>
+      <contract player="86335"/>
+    </contracts>
+  </club>
+  <club name="Godoy Cruz">
+    <coach name="Daniel Oldra"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="128" g="128" b="128"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="128" g="128" b="128"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Godoy Cruz Stadium"/>
+    <contracts>
+      <contract player="86336"/>
+      <contract player="86337"/>
+      <contract player="86338"/>
+      <contract player="86339"/>
+      <contract player="86340"/>
+      <contract player="86341"/>
+      <contract player="86342"/>
+      <contract player="86343"/>
+      <contract player="86344"/>
+      <contract player="86345"/>
+      <contract player="86346"/>
+      <contract player="86347"/>
+      <contract player="86348"/>
+      <contract player="86349"/>
+      <contract player="86350"/>
+      <contract player="86351"/>
+    </contracts>
+  </club>
+  <club name="Tigre">
+    <coach name="Diego Cagna"/>
+    <kits>
+      <kit>
+        <jersey type="3">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Tigre Stadium"/>
+    <contracts>
+      <contract player="86352"/>
+      <contract player="86353"/>
+      <contract player="86354"/>
+      <contract player="86355"/>
+      <contract player="86356"/>
+      <contract player="86357"/>
+      <contract player="86358"/>
+      <contract player="86359"/>
+      <contract player="86360"/>
+      <contract player="86361"/>
+      <contract player="86362"/>
+      <contract player="86363"/>
+      <contract player="86364"/>
+      <contract player="86365"/>
+      <contract player="86366"/>
+      <contract player="86367"/>
+    </contracts>
+  </club>
+  <club name="Huracan">
+    <coach name="Osvaldo Ardiles"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Huracan Stadium"/>
+    <contracts>
+      <contract player="86368"/>
+      <contract player="86369"/>
+      <contract player="86370"/>
+      <contract player="86371"/>
+      <contract player="86372"/>
+      <contract player="86373"/>
+      <contract player="86374"/>
+      <contract player="86375"/>
+      <contract player="86376"/>
+      <contract player="86377"/>
+      <contract player="86378"/>
+      <contract player="86379"/>
+      <contract player="86380"/>
+      <contract player="86381"/>
+      <contract player="86382"/>
+      <contract player="86383"/>
+    </contracts>
+  </club>
+  <club name="Independiente">
+    <coach name="Pedro Troglio"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Independiente Stadium"/>
+    <contracts>
+      <contract player="86384"/>
+      <contract player="86385"/>
+      <contract player="86386"/>
+      <contract player="86387"/>
+      <contract player="86388"/>
+      <contract player="86389"/>
+      <contract player="86390"/>
+      <contract player="86391"/>
+      <contract player="86392"/>
+      <contract player="86393"/>
+      <contract player="86394"/>
+      <contract player="86395"/>
+      <contract player="86396"/>
+      <contract player="86397"/>
+      <contract player="86398"/>
+      <contract player="86399"/>
+    </contracts>
+  </club>
+  <club name="Instituto">
+    <coach name="Jorge Ghiso"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Instituto Stadium"/>
+    <contracts>
+      <contract player="86400"/>
+      <contract player="86401"/>
+      <contract player="86402"/>
+      <contract player="86403"/>
+      <contract player="86404"/>
+      <contract player="86405"/>
+      <contract player="86406"/>
+      <contract player="86407"/>
+      <contract player="86408"/>
+      <contract player="86409"/>
+      <contract player="86410"/>
+      <contract player="86411"/>
+      <contract player="86412"/>
+      <contract player="86413"/>
+      <contract player="86414"/>
+      <contract player="86415"/>
+    </contracts>
+  </club>
+  <club name="Lanus">
+    <coach name="Ramon Cabrero"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="150" g="75" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="150" g="75" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Lanus Stadium"/>
+    <contracts>
+      <contract player="86416"/>
+      <contract player="86417"/>
+      <contract player="86418"/>
+      <contract player="86419"/>
+      <contract player="86420"/>
+      <contract player="86421"/>
+      <contract player="86422"/>
+      <contract player="86423"/>
+      <contract player="86424"/>
+      <contract player="86425"/>
+      <contract player="86426"/>
+      <contract player="86427"/>
+      <contract player="86428"/>
+      <contract player="86429"/>
+      <contract player="86430"/>
+      <contract player="86431"/>
+    </contracts>
+  </club>
+  <club name="Olimpo">
+    <coach name="Roberto Saporiti"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Olimpo Stadium"/>
+    <contracts>
+      <contract player="86432"/>
+      <contract player="86433"/>
+      <contract player="86434"/>
+      <contract player="86435"/>
+      <contract player="86436"/>
+      <contract player="86437"/>
+      <contract player="86438"/>
+      <contract player="86439"/>
+      <contract player="86440"/>
+      <contract player="86441"/>
+      <contract player="86442"/>
+      <contract player="86443"/>
+      <contract player="86444"/>
+      <contract player="86445"/>
+      <contract player="86446"/>
+      <contract player="86447"/>
+    </contracts>
+  </club>
+  <club name="Newell's Ob">
+    <coach name="Ricardo Lombardi"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Newell's Ob Stadium"/>
+    <contracts>
+      <contract player="86448"/>
+      <contract player="86449"/>
+      <contract player="86450"/>
+      <contract player="86451"/>
+      <contract player="86452"/>
+      <contract player="86453"/>
+      <contract player="86454"/>
+      <contract player="86455"/>
+      <contract player="86456"/>
+      <contract player="86457"/>
+      <contract player="86458"/>
+      <contract player="86459"/>
+      <contract player="86460"/>
+      <contract player="86461"/>
+      <contract player="86462"/>
+      <contract player="86463"/>
+    </contracts>
+  </club>
+  <club name="Nueva Chicago">
+    <coach name="Mario Marcelo"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Nueva Chicago Stadium"/>
+    <contracts>
+      <contract player="86464"/>
+      <contract player="86465"/>
+      <contract player="86466"/>
+      <contract player="86467"/>
+      <contract player="86468"/>
+      <contract player="86469"/>
+      <contract player="86470"/>
+      <contract player="86471"/>
+      <contract player="86472"/>
+      <contract player="86473"/>
+      <contract player="86474"/>
+      <contract player="86475"/>
+      <contract player="86476"/>
+      <contract player="86477"/>
+      <contract player="86478"/>
+      <contract player="86479"/>
+    </contracts>
+  </club>
+  <club name="Platense">
+    <coach name="Claudio Viscovich"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="150" g="75" b="0"/>
+        </shorts>
+        <socks>
+          <color r="150" g="75" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Platense Stadium"/>
+    <contracts>
+      <contract player="86480"/>
+      <contract player="86481"/>
+      <contract player="86482"/>
+      <contract player="86483"/>
+      <contract player="86484"/>
+      <contract player="86485"/>
+      <contract player="86486"/>
+      <contract player="86487"/>
+      <contract player="86488"/>
+      <contract player="86489"/>
+      <contract player="86490"/>
+      <contract player="86491"/>
+      <contract player="86492"/>
+      <contract player="86493"/>
+      <contract player="86494"/>
+      <contract player="86495"/>
+    </contracts>
+  </club>
+  <club name="Quilmes">
+    <coach name="Alberto Fanesi"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Quilmes Stadium"/>
+    <contracts>
+      <contract player="86496"/>
+      <contract player="86497"/>
+      <contract player="86498"/>
+      <contract player="86499"/>
+      <contract player="86500"/>
+      <contract player="86501"/>
+      <contract player="86502"/>
+      <contract player="86503"/>
+      <contract player="86504"/>
+      <contract player="86505"/>
+      <contract player="86506"/>
+      <contract player="86507"/>
+      <contract player="86508"/>
+      <contract player="86509"/>
+      <contract player="86510"/>
+      <contract player="86511"/>
+    </contracts>
+  </club>
+  <club name="Racing Club">
+    <coach name="Gustavo Costas"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="173" g="216" b="230"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Racing Club Stadium"/>
+    <contracts>
+      <contract player="86512"/>
+      <contract player="86513"/>
+      <contract player="86514"/>
+      <contract player="86515"/>
+      <contract player="86516"/>
+      <contract player="86517"/>
+      <contract player="86518"/>
+      <contract player="86519"/>
+      <contract player="86520"/>
+      <contract player="86521"/>
+      <contract player="86522"/>
+      <contract player="86523"/>
+      <contract player="86524"/>
+      <contract player="86525"/>
+      <contract player="86526"/>
+      <contract player="86527"/>
+    </contracts>
+  </club>
+  <club name="River Plate">
+    <coach name="Diego Simeone"/>
+    <kits>
+      <kit>
+        <jersey type="3">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="River Plate Stadium"/>
+    <contracts>
+      <contract player="86528"/>
+      <contract player="86529"/>
+      <contract player="86530"/>
+      <contract player="86531"/>
+      <contract player="86532"/>
+      <contract player="86533"/>
+      <contract player="86534"/>
+      <contract player="86535"/>
+      <contract player="86536"/>
+      <contract player="86537"/>
+      <contract player="86538"/>
+      <contract player="86539"/>
+      <contract player="86540"/>
+      <contract player="86541"/>
+      <contract player="86542"/>
+      <contract player="86543"/>
+    </contracts>
+  </club>
+  <club name="Rosario Central">
+    <coach name="Hugo Galloni"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Rosario Central Stadium"/>
+    <contracts>
+      <contract player="86544"/>
+      <contract player="86545"/>
+      <contract player="86546"/>
+      <contract player="86547"/>
+      <contract player="86548"/>
+      <contract player="86549"/>
+      <contract player="86550"/>
+      <contract player="86551"/>
+      <contract player="86552"/>
+      <contract player="86553"/>
+      <contract player="86554"/>
+      <contract player="86555"/>
+      <contract player="86556"/>
+      <contract player="86557"/>
+      <contract player="86558"/>
+      <contract player="86559"/>
+    </contracts>
+  </club>
+  <club name="San Martin Sj">
+    <coach name="Fernando Quiroz"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="San Martin Sj Stadium"/>
+    <contracts>
+      <contract player="86560"/>
+      <contract player="86561"/>
+      <contract player="86562"/>
+      <contract player="86563"/>
+      <contract player="86564"/>
+      <contract player="86565"/>
+      <contract player="86566"/>
+      <contract player="86567"/>
+      <contract player="86568"/>
+      <contract player="86569"/>
+      <contract player="86570"/>
+      <contract player="86571"/>
+      <contract player="86572"/>
+      <contract player="86573"/>
+      <contract player="86574"/>
+      <contract player="86575"/>
+    </contracts>
+  </club>
+  <club name="San Lorenzo">
+    <coach name="Ramon Diaz"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="San Lorenzo Stadium"/>
+    <contracts>
+      <contract player="86576"/>
+      <contract player="86577"/>
+      <contract player="86578"/>
+      <contract player="86579"/>
+      <contract player="86580"/>
+      <contract player="86581"/>
+      <contract player="86582"/>
+      <contract player="86583"/>
+      <contract player="86584"/>
+      <contract player="86585"/>
+      <contract player="86586"/>
+      <contract player="86587"/>
+      <contract player="86588"/>
+      <contract player="86589"/>
+      <contract player="86590"/>
+      <contract player="86591"/>
+    </contracts>
+  </club>
+  <club name="Talleres">
+    <coach name="Ruben Dario Insua"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Talleres Stadium"/>
+    <contracts>
+      <contract player="86592"/>
+      <contract player="86593"/>
+      <contract player="86594"/>
+      <contract player="86595"/>
+      <contract player="86596"/>
+      <contract player="86597"/>
+      <contract player="86598"/>
+      <contract player="86599"/>
+      <contract player="86600"/>
+      <contract player="86601"/>
+      <contract player="86602"/>
+      <contract player="86603"/>
+      <contract player="86604"/>
+      <contract player="86605"/>
+      <contract player="86606"/>
+      <contract player="86607"/>
+    </contracts>
+  </club>
+  <club name="Union">
+    <coach name="Claudio Gugnali"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Union Stadium"/>
+    <contracts>
+      <contract player="86608"/>
+      <contract player="86609"/>
+      <contract player="86610"/>
+      <contract player="86611"/>
+      <contract player="86612"/>
+      <contract player="86613"/>
+      <contract player="86614"/>
+      <contract player="86615"/>
+      <contract player="86616"/>
+      <contract player="86617"/>
+      <contract player="86618"/>
+      <contract player="86619"/>
+      <contract player="86620"/>
+      <contract player="86621"/>
+      <contract player="86622"/>
+      <contract player="86623"/>
+    </contracts>
+  </club>
+  <club name="Velez Sarsfield">
+    <coach name="None"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Argentina"/>
+    <stadium name="Velez Sarsfield Stadium"/>
+    <contracts>
+      <contract player="86624"/>
+      <contract player="86625"/>
+      <contract player="86626"/>
+      <contract player="86627"/>
+      <contract player="86628"/>
+      <contract player="86629"/>
+      <contract player="86630"/>
+      <contract player="86631"/>
+      <contract player="86632"/>
+      <contract player="86633"/>
+      <contract player="86634"/>
+      <contract player="86635"/>
+      <contract player="86636"/>
+      <contract player="86637"/>
+      <contract player="86638"/>
+      <contract player="86639"/>
+    </contracts>
+  </club>
+</Clubs>

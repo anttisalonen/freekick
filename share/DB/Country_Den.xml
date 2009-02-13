@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Denmark">
+    <Regions>
+      <Region name="Denmark">
+        <stadium name="Aab Stadium" capacity="8300"/>
+        <stadium name="Ac Horsens Stadium" capacity="2600"/>
+        <stadium name="Agf Stadium" capacity="2900"/>
+        <stadium name="Brondby Stadium" capacity="13300"/>
+        <stadium name="Fc Kobenhavn Stadium" capacity="24300"/>
+        <stadium name="Esbjerg Stadium" capacity="5900"/>
+        <stadium name="Fc Midtjylland Stadium" capacity="4900"/>
+        <stadium name="Lyngby Stadium" capacity="3300"/>
+        <stadium name="Ob Stadium" capacity="10300"/>
+        <stadium name="Fc Nordsjaelland Stadium" capacity="6600"/>
+        <stadium name="Randers Stadium" capacity="2600"/>
+        <stadium name="Viborg Stadium" capacity="4600"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Danish league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="12" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Danish Premier league champion"/>
+              <attendances>
+                <attendance tournament="Danish Cup" stage="Quarterfinals"/>
+              </attendances>
+              <preset>
+                <club name="Aab"/>
+                <club name="Ac Horsens"/>
+                <club name="Agf"/>
+                <club name="Brondby"/>
+                <club name="Fc Kobenhavn"/>
+                <club name="Esbjerg"/>
+                <club name="Fc Midtjylland"/>
+                <club name="Lyngby"/>
+                <club name="Ob"/>
+                <club name="Fc Nordsjaelland"/>
+                <club name="Randers"/>
+                <club name="Viborg"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Danish Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Danish Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+          <preset>
+            <club name="Aab"/>
+            <club name="Ac Horsens"/>
+            <club name="Agf"/>
+            <club name="Brondby"/>
+            <club name="Fc Kobenhavn"/>
+            <club name="Esbjerg"/>
+            <club name="Fc Midtjylland"/>
+            <club name="Lyngby"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

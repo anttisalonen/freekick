@@ -1,0 +1,3171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="126000">
+    <personal name="Edgar Marquez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="506" risktaking="342" offensive="563" aggressive="520" consistent="562" creative="663" experienced="505"/>
+    <skills stamina="609" dexterity="457" speed="142" tackling="203" passing="320" shooting="397" control="305" accuracy="117" goalkeeping="355" heading="145"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126001">
+    <personal name="Arturo Parra">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="790" risktaking="347" offensive="515" aggressive="825" consistent="221" creative="524" experienced="666"/>
+    <skills stamina="517" dexterity="355" speed="275" tackling="191" passing="246" shooting="224" control="303" accuracy="199" goalkeeping="441" heading="110"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126002">
+    <personal name="Miguel Gonzalez">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="587" risktaking="370" offensive="546" aggressive="466" consistent="381" creative="408" experienced="470"/>
+    <skills stamina="611" dexterity="328" speed="561" tackling="311" passing="479" shooting="419" control="458" accuracy="435" goalkeeping="65" heading="413"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126003">
+    <personal name="Jose Salazar">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="443" risktaking="422" offensive="311" aggressive="417" consistent="70" creative="372" experienced="439"/>
+    <skills stamina="205" dexterity="657" speed="587" tackling="245" passing="263" shooting="391" control="409" accuracy="383" goalkeeping="48" heading="295"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126004">
+    <personal name="Fernando Seco">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="567" risktaking="495" offensive="578" aggressive="217" consistent="200" creative="339" experienced="827"/>
+    <skills stamina="521" dexterity="651" speed="235" tackling="403" passing="285" shooting="337" control="457" accuracy="260" goalkeeping="48" heading="411"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="126005">
+    <personal name="Juvencio Betancourt">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="554" risktaking="451" offensive="683" aggressive="520" consistent="528" creative="421" experienced="573"/>
+    <skills stamina="549" dexterity="624" speed="569" tackling="322" passing="397" shooting="296" control="385" accuracy="322" goalkeeping="46" heading="278"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126006">
+    <personal name="Luis Marcano">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="563" risktaking="701" offensive="626" aggressive="472" consistent="869" creative="579" experienced="502"/>
+    <skills stamina="462" dexterity="581" speed="490" tackling="399" passing="327" shooting="289" control="414" accuracy="396" goalkeeping="41" heading="362"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126007">
+    <personal name="Alexis Alonso">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="794" risktaking="444" offensive="632" aggressive="652" consistent="501" creative="575" experienced="390"/>
+    <skills stamina="231" dexterity="329" speed="666" tackling="283" passing="399" shooting="412" control="328" accuracy="319" goalkeeping="63" heading="322"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126008">
+    <personal name="Cesar Salazar">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="600" risktaking="647" offensive="563" aggressive="611" consistent="672" creative="565" experienced="394"/>
+    <skills stamina="211" dexterity="214" speed="665" tackling="408" passing="354" shooting="449" control="475" accuracy="416" goalkeeping="45" heading="446"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126009">
+    <personal name="Wilfredo Moreno">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="514" risktaking="527" offensive="664" aggressive="499" consistent="546" creative="379" experienced="572"/>
+    <skills stamina="140" dexterity="303" speed="580" tackling="341" passing="281" shooting="299" control="399" accuracy="374" goalkeeping="49" heading="434"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="126010">
+    <personal name="Gregorio Jimenez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="676" risktaking="378" offensive="459" aggressive="521" consistent="406" creative="568" experienced="225"/>
+    <skills stamina="486" dexterity="587" speed="501" tackling="445" passing="410" shooting="430" control="414" accuracy="243" goalkeeping="53" heading="396"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126011">
+    <personal name="Jose Veliz">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="514" risktaking="476" offensive="578" aggressive="661" consistent="483" creative="568" experienced="456"/>
+    <skills stamina="382" dexterity="426" speed="512" tackling="276" passing="258" shooting="327" control="428" accuracy="300" goalkeeping="39" heading="318"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="126012">
+    <personal name="Jose Avila">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="447" risktaking="668" offensive="499" aggressive="500" consistent="791" creative="479" experienced="421"/>
+    <skills stamina="623" dexterity="200" speed="284" tackling="391" passing="318" shooting="240" control="265" accuracy="321" goalkeeping="50" heading="224"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126013">
+    <personal name="Gustavo Valencia">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="376" risktaking="484" offensive="486" aggressive="125" consistent="425" creative="697" experienced="352"/>
+    <skills stamina="471" dexterity="164" speed="676" tackling="422" passing="430" shooting="457" control="447" accuracy="398" goalkeeping="50" heading="435"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126014">
+    <personal name="Javier Cordoba">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="483" risktaking="578" offensive="339" aggressive="533" consistent="533" creative="574" experienced="570"/>
+    <skills stamina="332" dexterity="579" speed="157" tackling="266" passing="404" shooting="326" control="430" accuracy="386" goalkeeping="59" heading="398"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126015">
+    <personal name="Eleiser Martinez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="595" risktaking="615" offensive="443" aggressive="507" consistent="496" creative="465" experienced="443"/>
+    <skills stamina="619" dexterity="210" speed="597" tackling="232" passing="338" shooting="307" control="284" accuracy="245" goalkeeping="37" heading="305"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126016">
+    <personal name="Jesus Camino">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="58" risktaking="613" offensive="614" aggressive="549" consistent="501" creative="266" experienced="646"/>
+    <skills stamina="220" dexterity="646" speed="648" tackling="240" passing="497" shooting="477" control="296" accuracy="191" goalkeeping="542" heading="172"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126017">
+    <personal name="Herman Sivira">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="412" risktaking="271" offensive="681" aggressive="637" consistent="575" creative="218" experienced="155"/>
+    <skills stamina="182" dexterity="634" speed="646" tackling="153" passing="342" shooting="360" control="372" accuracy="160" goalkeeping="409" heading="234"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="126018">
+    <personal name="Federico Ferrer">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="640" risktaking="422" offensive="346" aggressive="489" consistent="498" creative="584" experienced="323"/>
+    <skills stamina="228" dexterity="690" speed="505" tackling="382" passing="414" shooting="344" control="423" accuracy="327" goalkeeping="58" heading="440"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126019">
+    <personal name="Heder Puerta">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="613" risktaking="578" offensive="333" aggressive="437" consistent="440" creative="278" experienced="313"/>
+    <skills stamina="510" dexterity="559" speed="296" tackling="391" passing="467" shooting="333" control="536" accuracy="322" goalkeeping="55" heading="380"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126020">
+    <personal name="Wilmer Luzardo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="444" risktaking="658" offensive="452" aggressive="578" consistent="369" creative="678" experienced="180"/>
+    <skills stamina="237" dexterity="390" speed="666" tackling="535" passing="507" shooting="492" control="521" accuracy="464" goalkeeping="71" heading="365"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126021">
+    <personal name="Gedmar Auyadermont">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="325" risktaking="341" offensive="490" aggressive="572" consistent="339" creative="310" experienced="592"/>
+    <skills stamina="270" dexterity="682" speed="314" tackling="448" passing="513" shooting="414" control="511" accuracy="454" goalkeeping="60" heading="367"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126022">
+    <personal name="Jose Ortiz">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="230" risktaking="564" offensive="335" aggressive="630" consistent="634" creative="615" experienced="391"/>
+    <skills stamina="600" dexterity="274" speed="145" tackling="397" passing="465" shooting="425" control="391" accuracy="440" goalkeeping="63" heading="344"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126023">
+    <personal name="Rafael Cabeza">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="257" risktaking="495" offensive="522" aggressive="405" consistent="471" creative="406" experienced="236"/>
+    <skills stamina="731" dexterity="344" speed="233" tackling="370" passing="510" shooting="477" control="490" accuracy="485" goalkeeping="87" heading="539"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126024">
+    <personal name="Victor Perez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="292" risktaking="428" offensive="675" aggressive="478" consistent="647" creative="445" experienced="547"/>
+    <skills stamina="504" dexterity="654" speed="583" tackling="450" passing="377" shooting="419" control="440" accuracy="429" goalkeeping="73" heading="367"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126025">
+    <personal name="Pablo Garcia">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="393" risktaking="726" offensive="289" aggressive="520" consistent="550" creative="522" experienced="643"/>
+    <skills stamina="689" dexterity="625" speed="320" tackling="544" passing="511" shooting="363" control="409" accuracy="451" goalkeeping="72" heading="437"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126026">
+    <personal name="Harry Candelo">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="466" risktaking="415" offensive="472" aggressive="408" consistent="602" creative="437" experienced="432"/>
+    <skills stamina="421" dexterity="404" speed="493" tackling="563" passing="448" shooting="507" control="489" accuracy="427" goalkeeping="61" heading="365"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126027">
+    <personal name="Jose Castillo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="547" risktaking="522" offensive="578" aggressive="407" consistent="615" creative="413" experienced="612"/>
+    <skills stamina="267" dexterity="238" speed="507" tackling="487" passing="392" shooting="446" control="353" accuracy="394" goalkeeping="78" heading="439"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126028">
+    <personal name="Alfredo Montilla">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="496" risktaking="282" offensive="570" aggressive="519" consistent="376" creative="347" experienced="509"/>
+    <skills stamina="280" dexterity="159" speed="310" tackling="475" passing="512" shooting="362" control="415" accuracy="476" goalkeeping="55" heading="367"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126029">
+    <personal name="Ruben Benitez">
+      <appearance value="0"/>
+      <nationality value="Uruguay"/>
+    </personal>
+    <personality active="391" risktaking="391" offensive="342" aggressive="429" consistent="488" creative="582" experienced="410"/>
+    <skills stamina="577" dexterity="445" speed="247" tackling="500" passing="506" shooting="487" control="377" accuracy="501" goalkeeping="83" heading="469"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126030">
+    <personal name="Jesus Angarita">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="549" risktaking="483" offensive="591" aggressive="539" consistent="737" creative="481" experienced="704"/>
+    <skills stamina="371" dexterity="665" speed="672" tackling="454" passing="322" shooting="449" control="369" accuracy="484" goalkeeping="81" heading="430"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="126031">
+    <personal name="Jair Roa">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="393" risktaking="658" offensive="441" aggressive="445" consistent="608" creative="641" experienced="535"/>
+    <skills stamina="218" dexterity="610" speed="537" tackling="445" passing="315" shooting="375" control="382" accuracy="514" goalkeeping="63" heading="337"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="126032">
+    <personal name="Johnny Barreto">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="499" risktaking="87" offensive="472" aggressive="363" consistent="346" creative="651" experienced="661"/>
+    <skills stamina="192" dexterity="328" speed="332" tackling="195" passing="431" shooting="397" control="297" accuracy="242" goalkeeping="437" heading="237"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126033">
+    <personal name="Cesar Baena">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="624" risktaking="271" offensive="805" aggressive="491" consistent="685" creative="366" experienced="415"/>
+    <skills stamina="397" dexterity="318" speed="492" tackling="152" passing="387" shooting="266" control="297" accuracy="215" goalkeeping="505" heading="178"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126034">
+    <personal name="Jesus Delgado">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="578" risktaking="582" offensive="658" aggressive="521" consistent="304" creative="759" experienced="373"/>
+    <skills stamina="476" dexterity="602" speed="357" tackling="468" passing="359" shooting="456" control="480" accuracy="477" goalkeeping="77" heading="305"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126035">
+    <personal name="Ceferino Bencomo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="295" risktaking="453" offensive="790" aggressive="378" consistent="701" creative="659" experienced="338"/>
+    <skills stamina="422" dexterity="651" speed="159" tackling="504" passing="497" shooting="435" control="468" accuracy="449" goalkeeping="60" heading="312"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126036">
+    <personal name="Manuel Borges">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="746" risktaking="549" offensive="741" aggressive="362" consistent="513" creative="471" experienced="476"/>
+    <skills stamina="562" dexterity="660" speed="568" tackling="432" passing="370" shooting="391" control="376" accuracy="416" goalkeeping="70" heading="347"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126037">
+    <personal name="Zdenko Morovoc">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="769" risktaking="659" offensive="350" aggressive="595" consistent="760" creative="355" experienced="507"/>
+    <skills stamina="400" dexterity="199" speed="658" tackling="397" passing="529" shooting="408" control="441" accuracy="339" goalkeeping="72" heading="454"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="126038">
+    <personal name="Rafael Vitali">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="448" risktaking="549" offensive="522" aggressive="728" consistent="518" creative="601" experienced="660"/>
+    <skills stamina="540" dexterity="334" speed="462" tackling="399" passing="369" shooting="472" control="450" accuracy="427" goalkeeping="53" heading="325"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126039">
+    <personal name="Edgar Bolivar">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="541" risktaking="424" offensive="474" aggressive="424" consistent="665" creative="486" experienced="427"/>
+    <skills stamina="718" dexterity="525" speed="672" tackling="348" passing="401" shooting="397" control="389" accuracy="309" goalkeeping="54" heading="497"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126040">
+    <personal name="Leopoldo Paez Pumar">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="559" risktaking="607" offensive="593" aggressive="574" consistent="569" creative="196" experienced="782"/>
+    <skills stamina="167" dexterity="342" speed="332" tackling="452" passing="384" shooting="391" control="448" accuracy="386" goalkeeping="69" heading="402"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126041">
+    <personal name="Gabriel Miranda">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="631" risktaking="369" offensive="534" aggressive="526" consistent="690" creative="675" experienced="598"/>
+    <skills stamina="638" dexterity="422" speed="433" tackling="405" passing="440" shooting="522" control="419" accuracy="358" goalkeeping="87" heading="380"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126042">
+    <personal name="Roberto Cavallo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="196" risktaking="569" offensive="319" aggressive="428" consistent="519" creative="232" experienced="462"/>
+    <skills stamina="517" dexterity="372" speed="460" tackling="441" passing="410" shooting="343" control="403" accuracy="296" goalkeeping="72" heading="319"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126043">
+    <personal name="Nelson Carrero">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="674" risktaking="573" offensive="371" aggressive="423" consistent="619" creative="311" experienced="663"/>
+    <skills stamina="277" dexterity="691" speed="284" tackling="303" passing="353" shooting="350" control="381" accuracy="305" goalkeeping="44" heading="262"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126044">
+    <personal name="Nuno Pereira">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="492" risktaking="654" offensive="370" aggressive="360" consistent="527" creative="282" experienced="532"/>
+    <skills stamina="513" dexterity="477" speed="530" tackling="304" passing="439" shooting="329" control="320" accuracy="314" goalkeeping="56" heading="377"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126045">
+    <personal name="Safiayan Musah">
+      <appearance value="0"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="334" risktaking="640" offensive="555" aggressive="496" consistent="601" creative="510" experienced="465"/>
+    <skills stamina="416" dexterity="554" speed="472" tackling="497" passing="355" shooting="401" control="351" accuracy="413" goalkeeping="77" heading="372"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126046">
+    <personal name="Salisu Ibrahim">
+      <appearance value="0"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="384" risktaking="468" offensive="597" aggressive="374" consistent="393" creative="461" experienced="498"/>
+    <skills stamina="704" dexterity="446" speed="174" tackling="425" passing="355" shooting="542" control="382" accuracy="583" goalkeeping="62" heading="471"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126047">
+    <personal name="Luis Mendoza">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="588" risktaking="434" offensive="588" aggressive="489" consistent="326" creative="527" experienced="254"/>
+    <skills stamina="603" dexterity="653" speed="467" tackling="315" passing="319" shooting="303" control="444" accuracy="320" goalkeeping="75" heading="286"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126048">
+    <personal name="Antonio Carrasco">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="615" risktaking="655" offensive="581" aggressive="570" consistent="733" creative="612" experienced="671"/>
+    <skills stamina="341" dexterity="335" speed="367" tackling="169" passing="422" shooting="490" control="280" accuracy="184" goalkeeping="590" heading="161"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="126049">
+    <personal name="Alfredo Bedetti">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="592" risktaking="701" offensive="567" aggressive="370" consistent="424" creative="457" experienced="536"/>
+    <skills stamina="280" dexterity="134" speed="505" tackling="203" passing="431" shooting="347" control="233" accuracy="174" goalkeeping="428" heading="200"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="126050">
+    <personal name="Alexander Hezzel">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="412" risktaking="449" offensive="498" aggressive="461" consistent="356" creative="557" experienced="692"/>
+    <skills stamina="549" dexterity="356" speed="486" tackling="452" passing="344" shooting="466" control="366" accuracy="306" goalkeeping="52" heading="374"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126051">
+    <personal name="Jose Sosa">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="596" risktaking="303" offensive="82" aggressive="170" consistent="670" creative="822" experienced="398"/>
+    <skills stamina="328" dexterity="266" speed="288" tackling="492" passing="437" shooting="436" control="340" accuracy="436" goalkeeping="86" heading="469"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126052">
+    <personal name="Salomon Alcalde">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="521" risktaking="783" offensive="425" aggressive="621" consistent="367" creative="526" experienced="510"/>
+    <skills stamina="617" dexterity="349" speed="365" tackling="511" passing="384" shooting="432" control="337" accuracy="437" goalkeeping="50" heading="335"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126053">
+    <personal name="Eligio Restifo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="381" risktaking="489" offensive="485" aggressive="580" consistent="286" creative="410" experienced="701"/>
+    <skills stamina="301" dexterity="599" speed="556" tackling="414" passing="396" shooting="403" control="459" accuracy="469" goalkeeping="70" heading="474"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126054">
+    <personal name="Edgar Ramon Infante">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="549" risktaking="666" offensive="283" aggressive="240" consistent="587" creative="470" experienced="219"/>
+    <skills stamina="321" dexterity="658" speed="471" tackling="496" passing="399" shooting="406" control="363" accuracy="300" goalkeeping="69" heading="382"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126055">
+    <personal name="Ederles Pedroso">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="485" risktaking="619" offensive="312" aggressive="603" consistent="388" creative="273" experienced="619"/>
+    <skills stamina="594" dexterity="304" speed="244" tackling="450" passing="510" shooting="384" control="493" accuracy="297" goalkeeping="78" heading="365"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126056">
+    <personal name="Carlos Pereira">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="754" risktaking="635" offensive="569" aggressive="476" consistent="546" creative="367" experienced="503"/>
+    <skills stamina="449" dexterity="354" speed="249" tackling="347" passing="517" shooting="473" control="328" accuracy="452" goalkeeping="58" heading="347"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126057">
+    <personal name="Jose Ramon Lopez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="158" risktaking="534" offensive="372" aggressive="781" consistent="469" creative="490" experienced="138"/>
+    <skills stamina="446" dexterity="682" speed="506" tackling="406" passing="371" shooting="436" control="380" accuracy="425" goalkeeping="65" heading="322"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126058">
+    <personal name="Richard Pachedo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="466" risktaking="423" offensive="510" aggressive="371" consistent="189" creative="505" experienced="633"/>
+    <skills stamina="196" dexterity="350" speed="347" tackling="436" passing="501" shooting="328" control="499" accuracy="348" goalkeeping="74" heading="335"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126059">
+    <personal name="Ronaldy Contreras">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="505" risktaking="505" offensive="506" aggressive="685" consistent="321" creative="509" experienced="484"/>
+    <skills stamina="557" dexterity="519" speed="519" tackling="317" passing="442" shooting="375" control="336" accuracy="435" goalkeeping="49" heading="373"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126060">
+    <personal name="Jesus Andrade">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="466" risktaking="252" offensive="833" aggressive="461" consistent="481" creative="495" experienced="472"/>
+    <skills stamina="408" dexterity="606" speed="604" tackling="294" passing="397" shooting="261" control="475" accuracy="421" goalkeeping="62" heading="294"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126061">
+    <personal name="Elenilson">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="646" risktaking="690" offensive="491" aggressive="534" consistent="653" creative="571" experienced="690"/>
+    <skills stamina="436" dexterity="267" speed="500" tackling="440" passing="520" shooting="438" control="474" accuracy="419" goalkeeping="68" heading="484"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126062">
+    <personal name="Jose Rodriguez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="363" risktaking="629" offensive="315" aggressive="492" consistent="498" creative="601" experienced="493"/>
+    <skills stamina="465" dexterity="277" speed="422" tackling="328" passing="410" shooting="479" control="371" accuracy="479" goalkeeping="67" heading="434"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="126063">
+    <personal name="Winton Arreaza">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="599" risktaking="575" offensive="604" aggressive="667" consistent="148" creative="373" experienced="697"/>
+    <skills stamina="239" dexterity="584" speed="228" tackling="384" passing="374" shooting="378" control="296" accuracy="494" goalkeeping="67" heading="402"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="126064">
+    <personal name="Giuseppe Samele">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="695" risktaking="663" offensive="223" aggressive="397" consistent="616" creative="586" experienced="536"/>
+    <skills stamina="602" dexterity="587" speed="262" tackling="150" passing="329" shooting="461" control="332" accuracy="192" goalkeeping="507" heading="220"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126065">
+    <personal name="Wilmer Mujica">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="472" risktaking="477" offensive="598" aggressive="520" consistent="587" creative="324" experienced="510"/>
+    <skills stamina="176" dexterity="426" speed="366" tackling="219" passing="443" shooting="263" control="282" accuracy="179" goalkeeping="413" heading="152"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="126066">
+    <personal name="Wilfredo Orama">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="429" risktaking="351" offensive="462" aggressive="479" consistent="432" creative="515" experienced="473"/>
+    <skills stamina="668" dexterity="716" speed="697" tackling="488" passing="456" shooting="495" control="386" accuracy="303" goalkeeping="58" heading="331"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126067">
+    <personal name="Luis Palma">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="444" risktaking="634" offensive="416" aggressive="611" consistent="522" creative="614" experienced="534"/>
+    <skills stamina="232" dexterity="516" speed="176" tackling="368" passing="488" shooting="395" control="425" accuracy="309" goalkeeping="56" heading="346"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126068">
+    <personal name="Vicente Arruda">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="436" risktaking="600" offensive="511" aggressive="175" consistent="489" creative="532" experienced="358"/>
+    <skills stamina="699" dexterity="355" speed="670" tackling="360" passing="363" shooting="311" control="346" accuracy="413" goalkeeping="63" heading="471"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126069">
+    <personal name="Mauro Diaz">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="698" risktaking="576" offensive="578" aggressive="645" consistent="367" creative="638" experienced="530"/>
+    <skills stamina="428" dexterity="210" speed="699" tackling="470" passing="531" shooting="426" control="498" accuracy="505" goalkeeping="67" heading="355"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126070">
+    <personal name="Jaime Gomez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="426" risktaking="422" offensive="624" aggressive="531" consistent="267" creative="246" experienced="595"/>
+    <skills stamina="346" dexterity="244" speed="549" tackling="349" passing="451" shooting="306" control="438" accuracy="430" goalkeeping="55" heading="291"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126071">
+    <personal name="Ramoon Ortega">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="451" risktaking="629" offensive="915" aggressive="560" consistent="424" creative="642" experienced="439"/>
+    <skills stamina="472" dexterity="510" speed="173" tackling="435" passing="416" shooting="444" control="327" accuracy="361" goalkeeping="69" heading="407"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126072">
+    <personal name="John Gil">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="446" risktaking="357" offensive="733" aggressive="731" consistent="387" creative="368" experienced="280"/>
+    <skills stamina="296" dexterity="273" speed="324" tackling="451" passing="461" shooting="366" control="497" accuracy="358" goalkeeping="78" heading="396"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126073">
+    <personal name="Gerenel Sanmartin">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="593" risktaking="511" offensive="554" aggressive="470" consistent="568" creative="490" experienced="430"/>
+    <skills stamina="471" dexterity="601" speed="446" tackling="526" passing="498" shooting="472" control="395" accuracy="407" goalkeeping="56" heading="419"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126074">
+    <personal name="Yerson Araujo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="290" risktaking="667" offensive="554" aggressive="709" consistent="496" creative="736" experienced="388"/>
+    <skills stamina="311" dexterity="707" speed="395" tackling="460" passing="431" shooting="395" control="353" accuracy="439" goalkeeping="69" heading="414"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126075">
+    <personal name="Carlos Arroyo">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="238" risktaking="676" offensive="339" aggressive="435" consistent="402" creative="550" experienced="728"/>
+    <skills stamina="549" dexterity="245" speed="408" tackling="452" passing="447" shooting="395" control="307" accuracy="328" goalkeeping="57" heading="329"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126076">
+    <personal name="Camilo Cassiany">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="499" risktaking="188" offensive="878" aggressive="624" consistent="661" creative="387" experienced="533"/>
+    <skills stamina="273" dexterity="188" speed="286" tackling="371" passing="403" shooting="336" control="415" accuracy="418" goalkeeping="61" heading="364"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126077">
+    <personal name="Rafael Rodriguez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="695" risktaking="354" offensive="653" aggressive="462" consistent="666" creative="449" experienced="464"/>
+    <skills stamina="169" dexterity="160" speed="629" tackling="409" passing="412" shooting="474" control="499" accuracy="559" goalkeeping="77" heading="428"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126078">
+    <personal name="Remberto Mairmon">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="607" risktaking="490" offensive="423" aggressive="639" consistent="495" creative="351" experienced="510"/>
+    <skills stamina="590" dexterity="280" speed="151" tackling="389" passing="335" shooting="399" control="288" accuracy="483" goalkeeping="60" heading="516"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126079">
+    <personal name="Joel Tortolero">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="599" risktaking="310" offensive="550" aggressive="564" consistent="602" creative="468" experienced="303"/>
+    <skills stamina="415" dexterity="304" speed="478" tackling="438" passing="429" shooting="481" control="348" accuracy="451" goalkeeping="75" heading="318"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="126080">
+    <personal name="Jose Luis Gonzalez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="512" risktaking="500" offensive="428" aggressive="216" consistent="358" creative="610" experienced="547"/>
+    <skills stamina="283" dexterity="276" speed="608" tackling="208" passing="259" shooting="277" control="282" accuracy="149" goalkeeping="471" heading="148"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126081">
+    <personal name="Williams Dandrea">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="358" risktaking="541" offensive="486" aggressive="368" consistent="443" creative="264" experienced="579"/>
+    <skills stamina="385" dexterity="624" speed="439" tackling="115" passing="386" shooting="380" control="195" accuracy="115" goalkeeping="305" heading="121"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126082">
+    <personal name="Carlos Cardona">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="341" risktaking="475" offensive="388" aggressive="448" consistent="176" creative="196" experienced="605"/>
+    <skills stamina="610" dexterity="192" speed="134" tackling="308" passing="397" shooting="419" control="487" accuracy="289" goalkeeping="64" heading="429"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126083">
+    <personal name="Jorge Vergara">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="367" risktaking="701" offensive="573" aggressive="297" consistent="492" creative="302" experienced="284"/>
+    <skills stamina="288" dexterity="195" speed="516" tackling="352" passing="472" shooting="274" control="299" accuracy="430" goalkeeping="57" heading="251"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126084">
+    <personal name="Edilio Belen">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="566" risktaking="689" offensive="283" aggressive="777" consistent="522" creative="427" experienced="455"/>
+    <skills stamina="660" dexterity="570" speed="126" tackling="308" passing="331" shooting="321" control="388" accuracy="371" goalkeeping="41" heading="252"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126085">
+    <personal name="Gregorio Rivero">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="353" risktaking="335" offensive="545" aggressive="467" consistent="691" creative="225" experienced="543"/>
+    <skills stamina="474" dexterity="487" speed="539" tackling="422" passing="318" shooting="326" control="449" accuracy="397" goalkeeping="57" heading="398"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126086">
+    <personal name="Carlos Romero">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="423" risktaking="371" offensive="475" aggressive="244" consistent="440" creative="466" experienced="500"/>
+    <skills stamina="596" dexterity="555" speed="467" tackling="279" passing="361" shooting="395" control="338" accuracy="277" goalkeeping="41" heading="290"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126087">
+    <personal name="Jesus Rodriguez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="597" risktaking="856" offensive="386" aggressive="585" consistent="276" creative="467" experienced="570"/>
+    <skills stamina="398" dexterity="552" speed="574" tackling="306" passing="356" shooting="430" control="316" accuracy="411" goalkeeping="54" heading="401"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126088">
+    <personal name="Alexander Canizalez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="310" risktaking="248" offensive="664" aggressive="515" consistent="394" creative="642" experienced="432"/>
+    <skills stamina="614" dexterity="258" speed="380" tackling="288" passing="449" shooting="361" control="376" accuracy="389" goalkeeping="72" heading="376"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126089">
+    <personal name="Ramon Guerrero">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="572" risktaking="288" offensive="500" aggressive="471" consistent="760" creative="401" experienced="382"/>
+    <skills stamina="258" dexterity="326" speed="394" tackling="384" passing="451" shooting="423" control="327" accuracy="293" goalkeeping="54" heading="429"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126090">
+    <personal name="German Bueno">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="569" risktaking="491" offensive="520" aggressive="558" consistent="472" creative="172" experienced="477"/>
+    <skills stamina="435" dexterity="679" speed="662" tackling="380" passing="322" shooting="251" control="306" accuracy="428" goalkeeping="63" heading="417"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126091">
+    <personal name="Emilio Guerrero">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="461" risktaking="764" offensive="606" aggressive="423" consistent="499" creative="335" experienced="434"/>
+    <skills stamina="562" dexterity="369" speed="258" tackling="373" passing="356" shooting="362" control="394" accuracy="296" goalkeeping="37" heading="256"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126092">
+    <personal name="Elvis Faure">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="462" risktaking="631" offensive="521" aggressive="506" consistent="712" creative="299" experienced="604"/>
+    <skills stamina="347" dexterity="152" speed="109" tackling="231" passing="250" shooting="391" control="315" accuracy="218" goalkeeping="39" heading="345"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126093">
+    <personal name="Tony Diaz">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="574" risktaking="511" offensive="441" aggressive="430" consistent="268" creative="895" experienced="623"/>
+    <skills stamina="537" dexterity="528" speed="439" tackling="292" passing="367" shooting="391" control="283" accuracy="302" goalkeeping="64" heading="301"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126094">
+    <personal name="Nelson Pirela">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="434" risktaking="442" offensive="324" aggressive="686" consistent="343" creative="497" experienced="302"/>
+    <skills stamina="625" dexterity="581" speed="423" tackling="420" passing="255" shooting="360" control="243" accuracy="374" goalkeeping="59" heading="417"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126095">
+    <personal name="Javier Canon">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="392" risktaking="549" offensive="336" aggressive="365" consistent="286" creative="413" experienced="258"/>
+    <skills stamina="651" dexterity="330" speed="280" tackling="366" passing="265" shooting="291" control="243" accuracy="255" goalkeeping="54" heading="400"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="126096">
+    <personal name="Rosario Camacho">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="207" risktaking="535" offensive="515" aggressive="506" consistent="388" creative="366" experienced="414"/>
+    <skills stamina="160" dexterity="601" speed="664" tackling="228" passing="379" shooting="476" control="335" accuracy="243" goalkeeping="513" heading="180"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126097">
+    <personal name="Alfedo Vivas">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="401" risktaking="762" offensive="261" aggressive="467" consistent="491" creative="618" experienced="578"/>
+    <skills stamina="380" dexterity="345" speed="478" tackling="133" passing="315" shooting="382" control="299" accuracy="134" goalkeeping="434" heading="126"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="126098">
+    <personal name="Pedro Vielma">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="505" risktaking="335" offensive="201" aggressive="566" consistent="665" creative="436" experienced="378"/>
+    <skills stamina="288" dexterity="695" speed="580" tackling="453" passing="484" shooting="265" control="474" accuracy="361" goalkeeping="73" heading="412"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126099">
+    <personal name="Luis Madriz">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="511" risktaking="381" offensive="238" aggressive="152" consistent="448" creative="260" experienced="562"/>
+    <skills stamina="549" dexterity="467" speed="347" tackling="462" passing="431" shooting="300" control="287" accuracy="339" goalkeeping="67" heading="299"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126100">
+    <personal name="Douglas Ivan Araque">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="587" risktaking="525" offensive="485" aggressive="467" consistent="471" creative="404" experienced="514"/>
+    <skills stamina="540" dexterity="215" speed="575" tackling="428" passing="412" shooting="364" control="445" accuracy="379" goalkeeping="73" heading="360"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126101">
+    <personal name="Orlando Mollega">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="582" risktaking="550" offensive="400" aggressive="438" consistent="439" creative="471" experienced="495"/>
+    <skills stamina="268" dexterity="535" speed="279" tackling="515" passing="379" shooting="395" control="481" accuracy="401" goalkeeping="76" heading="353"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126102">
+    <personal name="Wilmer Melo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="425" risktaking="436" offensive="432" aggressive="656" consistent="452" creative="434" experienced="673"/>
+    <skills stamina="137" dexterity="463" speed="319" tackling="359" passing="454" shooting="378" control="293" accuracy="299" goalkeeping="71" heading="348"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126103">
+    <personal name="Jose Gavidia">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="911" risktaking="523" offensive="601" aggressive="637" consistent="543" creative="415" experienced="621"/>
+    <skills stamina="310" dexterity="255" speed="376" tackling="377" passing="436" shooting="400" control="445" accuracy="293" goalkeeping="64" heading="267"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126104">
+    <personal name="Jose Dugarte">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="220" risktaking="415" offensive="617" aggressive="282" consistent="369" creative="417" experienced="331"/>
+    <skills stamina="530" dexterity="691" speed="563" tackling="471" passing="379" shooting="370" control="486" accuracy="411" goalkeeping="62" heading="461"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126105">
+    <personal name="Webens Princime">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="305" risktaking="739" offensive="261" aggressive="728" consistent="600" creative="718" experienced="456"/>
+    <skills stamina="369" dexterity="689" speed="262" tackling="482" passing="493" shooting="350" control="445" accuracy="360" goalkeeping="51" heading="322"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126106">
+    <personal name="Juan Carlos Zambrano">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="538" risktaking="472" offensive="517" aggressive="440" consistent="572" creative="114" experienced="750"/>
+    <skills stamina="597" dexterity="456" speed="246" tackling="423" passing="406" shooting="412" control="500" accuracy="389" goalkeeping="75" heading="413"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126107">
+    <personal name="Ricardo Milillo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="472" risktaking="496" offensive="687" aggressive="609" consistent="414" creative="531" experienced="334"/>
+    <skills stamina="189" dexterity="363" speed="660" tackling="351" passing="311" shooting="449" control="411" accuracy="425" goalkeeping="44" heading="298"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126108">
+    <personal name="Oscar Pena">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="429" risktaking="515" offensive="724" aggressive="536" consistent="804" creative="584" experienced="560"/>
+    <skills stamina="300" dexterity="380" speed="341" tackling="397" passing="464" shooting="357" control="398" accuracy="387" goalkeeping="47" heading="358"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="126109">
+    <personal name="Gregory Luzardo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="716" risktaking="687" offensive="572" aggressive="726" consistent="620" creative="633" experienced="665"/>
+    <skills stamina="250" dexterity="259" speed="278" tackling="428" passing="433" shooting="329" control="328" accuracy="317" goalkeeping="69" heading="308"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126110">
+    <personal name="Ruberth Moran">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="397" risktaking="731" offensive="384" aggressive="524" consistent="382" creative="379" experienced="525"/>
+    <skills stamina="526" dexterity="510" speed="493" tackling="359" passing="329" shooting="360" control="328" accuracy="493" goalkeeping="50" heading="397"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="126111">
+    <personal name="Carlos Moran">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="473" risktaking="445" offensive="701" aggressive="700" consistent="381" creative="329" experienced="500"/>
+    <skills stamina="657" dexterity="360" speed="655" tackling="279" passing="263" shooting="429" control="285" accuracy="276" goalkeeping="49" heading="343"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126112">
+    <personal name="Christian Garcia">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="515" risktaking="550" offensive="651" aggressive="524" consistent="631" creative="509" experienced="466"/>
+    <skills stamina="235" dexterity="300" speed="641" tackling="244" passing="316" shooting="469" control="300" accuracy="164" goalkeeping="509" heading="231"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126113">
+    <personal name="Douglas Diaz">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="398" risktaking="595" offensive="283" aggressive="387" consistent="628" creative="294" experienced="187"/>
+    <skills stamina="646" dexterity="181" speed="574" tackling="182" passing="374" shooting="260" control="271" accuracy="133" goalkeeping="484" heading="218"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126114">
+    <personal name="Cipriano Flores">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="646" risktaking="462" offensive="715" aggressive="476" consistent="453" creative="390" experienced="538"/>
+    <skills stamina="310" dexterity="320" speed="406" tackling="328" passing="527" shooting="315" control="430" accuracy="334" goalkeeping="81" heading="321"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126115">
+    <personal name="Jose Velazquez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="535" risktaking="175" offensive="624" aggressive="406" consistent="487" creative="647" experienced="285"/>
+    <skills stamina="407" dexterity="448" speed="592" tackling="443" passing="484" shooting="450" control="373" accuracy="394" goalkeeping="80" heading="359"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126116">
+    <personal name="Pedroo Montero">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="384" risktaking="508" offensive="800" aggressive="790" consistent="739" creative="616" experienced="552"/>
+    <skills stamina="437" dexterity="237" speed="673" tackling="488" passing="366" shooting="342" control="420" accuracy="463" goalkeeping="65" heading="357"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126117">
+    <personal name="Juan Millan">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="205" risktaking="424" offensive="595" aggressive="684" consistent="402" creative="271" experienced="698"/>
+    <skills stamina="367" dexterity="637" speed="467" tackling="314" passing="428" shooting="301" control="397" accuracy="314" goalkeeping="67" heading="426"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126118">
+    <personal name="Richard Fuentes">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="618" risktaking="278" offensive="638" aggressive="208" consistent="545" creative="572" experienced="492"/>
+    <skills stamina="196" dexterity="601" speed="664" tackling="455" passing="336" shooting="408" control="487" accuracy="357" goalkeeping="47" heading="375"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126119">
+    <personal name="Angel Rodriguez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="560" risktaking="478" offensive="534" aggressive="523" consistent="709" creative="413" experienced="358"/>
+    <skills stamina="365" dexterity="310" speed="481" tackling="452" passing="486" shooting="499" control="527" accuracy="377" goalkeeping="82" heading="372"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126120">
+    <personal name="Amado Reales">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="885" risktaking="658" offensive="483" aggressive="126" consistent="223" creative="649" experienced="347"/>
+    <skills stamina="663" dexterity="646" speed="195" tackling="467" passing="341" shooting="438" control="359" accuracy="467" goalkeeping="65" heading="384"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126121">
+    <personal name="Jose Brito">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="695" risktaking="363" offensive="888" aggressive="466" consistent="453" creative="395" experienced="556"/>
+    <skills stamina="628" dexterity="612" speed="569" tackling="408" passing="433" shooting="357" control="365" accuracy="313" goalkeeping="80" heading="356"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="126122">
+    <personal name="Abraham Tejera">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="420" risktaking="595" offensive="718" aggressive="688" consistent="596" creative="539" experienced="528"/>
+    <skills stamina="480" dexterity="623" speed="296" tackling="504" passing="461" shooting="441" control="401" accuracy="472" goalkeeping="67" heading="490"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126123">
+    <personal name="Rafael Romero">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="487" risktaking="571" offensive="562" aggressive="611" consistent="607" creative="674" experienced="585"/>
+    <skills stamina="564" dexterity="530" speed="187" tackling="375" passing="351" shooting="280" control="303" accuracy="338" goalkeeping="67" heading="379"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126124">
+    <personal name="Reny Vazquez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="275" risktaking="500" offensive="294" aggressive="474" consistent="465" creative="552" experienced="463"/>
+    <skills stamina="420" dexterity="399" speed="554" tackling="366" passing="417" shooting="450" control="447" accuracy="349" goalkeeping="53" heading="422"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126125">
+    <personal name="Jose De Leon">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="616" risktaking="479" offensive="478" aggressive="413" consistent="725" creative="642" experienced="467"/>
+    <skills stamina="189" dexterity="678" speed="200" tackling="399" passing="299" shooting="552" control="331" accuracy="447" goalkeeping="61" heading="345"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126126">
+    <personal name="Ivan Carlos Gonzalez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="516" risktaking="525" offensive="860" aggressive="318" consistent="126" creative="389" experienced="480"/>
+    <skills stamina="303" dexterity="276" speed="547" tackling="466" passing="380" shooting="462" control="299" accuracy="349" goalkeeping="60" heading="444"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126127">
+    <personal name="Felipe Lancken">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="296" risktaking="455" offensive="666" aggressive="481" consistent="806" creative="458" experienced="208"/>
+    <skills stamina="213" dexterity="258" speed="615" tackling="377" passing="342" shooting="406" control="374" accuracy="468" goalkeeping="73" heading="361"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="126128">
+    <personal name="Lewis Brinez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="491" risktaking="580" offensive="460" aggressive="105" consistent="485" creative="307" experienced="563"/>
+    <skills stamina="385" dexterity="509" speed="259" tackling="174" passing="277" shooting="395" control="291" accuracy="152" goalkeeping="451" heading="148"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126129">
+    <personal name="Roger Briceno">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="581" risktaking="501" offensive="490" aggressive="475" consistent="564" creative="575" experienced="385"/>
+    <skills stamina="411" dexterity="151" speed="588" tackling="166" passing="360" shooting="253" control="200" accuracy="147" goalkeeping="338" heading="196"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126130">
+    <personal name="Marcelo Vilar">
+      <appearance value="0"/>
+      <nationality value="Uruguay"/>
+    </personal>
+    <personality active="412" risktaking="397" offensive="458" aggressive="491" consistent="637" creative="607" experienced="516"/>
+    <skills stamina="255" dexterity="271" speed="556" tackling="422" passing="322" shooting="314" control="406" accuracy="447" goalkeeping="74" heading="334"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126131">
+    <personal name="Robert Millan">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="563" risktaking="613" offensive="465" aggressive="601" consistent="218" creative="567" experienced="564"/>
+    <skills stamina="320" dexterity="479" speed="474" tackling="441" passing="397" shooting="428" control="387" accuracy="328" goalkeeping="51" heading="313"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126132">
+    <personal name="Felix Guerra">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="516" risktaking="624" offensive="713" aggressive="773" consistent="775" creative="530" experienced="623"/>
+    <skills stamina="630" dexterity="664" speed="364" tackling="392" passing="328" shooting="404" control="268" accuracy="418" goalkeeping="41" heading="403"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126133">
+    <personal name="Pedro Ortega">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="687" risktaking="194" offensive="601" aggressive="417" consistent="581" creative="189" experienced="419"/>
+    <skills stamina="519" dexterity="534" speed="167" tackling="390" passing="356" shooting="341" control="489" accuracy="386" goalkeeping="57" heading="334"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126134">
+    <personal name="Alex Mendez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="666" risktaking="429" offensive="407" aggressive="259" consistent="512" creative="475" experienced="356"/>
+    <skills stamina="457" dexterity="684" speed="225" tackling="334" passing="414" shooting="210" control="260" accuracy="275" goalkeeping="39" heading="248"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126135">
+    <personal name="Pedro Barlo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="762" risktaking="486" offensive="497" aggressive="352" consistent="431" creative="244" experienced="688"/>
+    <skills stamina="577" dexterity="300" speed="479" tackling="348" passing="417" shooting="430" control="387" accuracy="388" goalkeeping="76" heading="409"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126136">
+    <personal name="Luis Camacaro">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="579" risktaking="451" offensive="226" aggressive="607" consistent="424" creative="526" experienced="434"/>
+    <skills stamina="356" dexterity="300" speed="342" tackling="392" passing="473" shooting="371" control="298" accuracy="313" goalkeeping="52" heading="464"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126137">
+    <personal name="Angel Samot">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="722" risktaking="435" offensive="345" aggressive="555" consistent="683" creative="337" experienced="553"/>
+    <skills stamina="619" dexterity="265" speed="654" tackling="429" passing="301" shooting="425" control="350" accuracy="430" goalkeeping="70" heading="300"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126138">
+    <personal name="Gilbert Silva">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="301" risktaking="303" offensive="522" aggressive="208" consistent="410" creative="443" experienced="582"/>
+    <skills stamina="516" dexterity="296" speed="133" tackling="402" passing="305" shooting="397" control="433" accuracy="239" goalkeeping="49" heading="412"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126139">
+    <personal name="Domingo Alvarez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="439" risktaking="539" offensive="606" aggressive="658" consistent="809" creative="514" experienced="783"/>
+    <skills stamina="677" dexterity="516" speed="570" tackling="234" passing="420" shooting="296" control="350" accuracy="316" goalkeeping="58" heading="365"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="126140">
+    <personal name="Ramon Ortega">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="433" risktaking="597" offensive="403" aggressive="370" consistent="272" creative="444" experienced="465"/>
+    <skills stamina="280" dexterity="430" speed="394" tackling="291" passing="285" shooting="337" control="273" accuracy="238" goalkeeping="55" heading="237"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126141">
+    <personal name="Jose Sanchez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="739" risktaking="361" offensive="748" aggressive="272" consistent="557" creative="546" experienced="585"/>
+    <skills stamina="541" dexterity="514" speed="615" tackling="425" passing="235" shooting="362" control="403" accuracy="476" goalkeeping="43" heading="414"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126142">
+    <personal name="Jose Torres">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="520" risktaking="420" offensive="560" aggressive="647" consistent="534" creative="397" experienced="280"/>
+    <skills stamina="408" dexterity="460" speed="361" tackling="328" passing="296" shooting="283" control="280" accuracy="425" goalkeeping="63" heading="303"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126143">
+    <personal name="Jesus Vidal">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="375" risktaking="744" offensive="670" aggressive="629" consistent="387" creative="441" experienced="681"/>
+    <skills stamina="500" dexterity="194" speed="473" tackling="227" passing="310" shooting="380" control="268" accuracy="445" goalkeeping="59" heading="269"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126144">
+    <personal name="Gustavo Martinez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="403" risktaking="601" offensive="309" aggressive="534" consistent="539" creative="903" experienced="73"/>
+    <skills stamina="360" dexterity="437" speed="612" tackling="119" passing="386" shooting="232" control="277" accuracy="143" goalkeeping="358" heading="171"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="126145">
+    <personal name="Jose Fonseca">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="450" risktaking="591" offensive="545" aggressive="413" consistent="578" creative="500" experienced="524"/>
+    <skills stamina="332" dexterity="614" speed="594" tackling="131" passing="206" shooting="202" control="216" accuracy="105" goalkeeping="381" heading="183"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="126146">
+    <personal name="Nelson Vilchez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="281" risktaking="391" offensive="290" aggressive="359" consistent="453" creative="394" experienced="381"/>
+    <skills stamina="482" dexterity="473" speed="553" tackling="273" passing="422" shooting="377" control="380" accuracy="418" goalkeeping="48" heading="315"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126147">
+    <personal name="Julian Fernandez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="553" risktaking="706" offensive="390" aggressive="709" consistent="487" creative="298" experienced="586"/>
+    <skills stamina="570" dexterity="280" speed="273" tackling="312" passing="289" shooting="262" control="370" accuracy="287" goalkeeping="42" heading="426"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126148">
+    <personal name="Alfredo Gonzalez">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="480" risktaking="838" offensive="337" aggressive="274" consistent="336" creative="592" experienced="637"/>
+    <skills stamina="361" dexterity="694" speed="250" tackling="460" passing="492" shooting="294" control="435" accuracy="273" goalkeeping="45" heading="342"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126149">
+    <personal name="Edwin Canedo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="679" risktaking="330" offensive="723" aggressive="430" consistent="627" creative="517" experienced="469"/>
+    <skills stamina="199" dexterity="416" speed="243" tackling="463" passing="279" shooting="353" control="425" accuracy="264" goalkeeping="70" heading="379"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126150">
+    <personal name="Omar Padron">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="539" risktaking="489" offensive="569" aggressive="272" consistent="544" creative="495" experienced="393"/>
+    <skills stamina="224" dexterity="307" speed="408" tackling="420" passing="450" shooting="397" control="287" accuracy="392" goalkeeping="65" heading="233"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126151">
+    <personal name="Franklin Vilchez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="431" risktaking="393" offensive="329" aggressive="632" consistent="652" creative="535" experienced="608"/>
+    <skills stamina="191" dexterity="498" speed="155" tackling="401" passing="422" shooting="435" control="354" accuracy="382" goalkeeping="67" heading="284"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126152">
+    <personal name="Jose Galvis">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="501" risktaking="293" offensive="674" aggressive="660" consistent="535" creative="554" experienced="631"/>
+    <skills stamina="699" dexterity="312" speed="390" tackling="381" passing="373" shooting="362" control="340" accuracy="401" goalkeeping="74" heading="272"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126153">
+    <personal name="Jose Rivas">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="529" risktaking="466" offensive="524" aggressive="537" consistent="317" creative="529" experienced="618"/>
+    <skills stamina="226" dexterity="653" speed="480" tackling="343" passing="301" shooting="385" control="360" accuracy="268" goalkeeping="43" heading="410"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126154">
+    <personal name="Carlos Valente">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="352" risktaking="422" offensive="313" aggressive="421" consistent="463" creative="499" experienced="716"/>
+    <skills stamina="287" dexterity="513" speed="551" tackling="444" passing="255" shooting="420" control="247" accuracy="298" goalkeeping="42" heading="291"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126155">
+    <personal name="Martin Javier Diaz">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="541" risktaking="521" offensive="503" aggressive="489" consistent="589" creative="288" experienced="533"/>
+    <skills stamina="250" dexterity="193" speed="107" tackling="286" passing="256" shooting="309" control="332" accuracy="216" goalkeeping="53" heading="229"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126156">
+    <personal name="Jerry Chirinos">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="418" risktaking="585" offensive="675" aggressive="769" consistent="734" creative="506" experienced="504"/>
+    <skills stamina="513" dexterity="281" speed="396" tackling="225" passing="373" shooting="351" control="384" accuracy="291" goalkeeping="42" heading="377"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126157">
+    <personal name="Jorge Medina">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="544" risktaking="664" offensive="382" aggressive="393" consistent="217" creative="441" experienced="444"/>
+    <skills stamina="565" dexterity="409" speed="310" tackling="344" passing="458" shooting="439" control="435" accuracy="502" goalkeeping="58" heading="330"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126158">
+    <personal name="Henry Lopez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="777" risktaking="320" offensive="645" aggressive="549" consistent="515" creative="580" experienced="883"/>
+    <skills stamina="175" dexterity="136" speed="561" tackling="281" passing="362" shooting="271" control="246" accuracy="430" goalkeeping="41" heading="452"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="126159">
+    <personal name="Flavio Rego">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="685" risktaking="309" offensive="579" aggressive="735" consistent="571" creative="722" experienced="285"/>
+    <skills stamina="621" dexterity="621" speed="631" tackling="271" passing="221" shooting="454" control="295" accuracy="316" goalkeeping="53" heading="317"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126160">
+    <personal name="Alcides Saavedra">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="682" risktaking="389" offensive="566" aggressive="526" consistent="725" creative="529" experienced="578"/>
+    <skills stamina="472" dexterity="569" speed="252" tackling="155" passing="411" shooting="447" control="384" accuracy="155" goalkeeping="546" heading="196"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="126161">
+    <personal name="Jose Bottini">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="743" risktaking="501" offensive="232" aggressive="401" consistent="473" creative="456" experienced="396"/>
+    <skills stamina="188" dexterity="660" speed="242" tackling="194" passing="306" shooting="399" control="320" accuracy="227" goalkeeping="366" heading="162"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126162">
+    <personal name="Marco Gimenez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="450" risktaking="811" offensive="605" aggressive="426" consistent="489" creative="548" experienced="516"/>
+    <skills stamina="466" dexterity="337" speed="660" tackling="488" passing="433" shooting="418" control="462" accuracy="342" goalkeeping="57" heading="474"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126163">
+    <personal name="Hector Tabare">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="501" risktaking="559" offensive="395" aggressive="526" consistent="541" creative="761" experienced="619"/>
+    <skills stamina="551" dexterity="256" speed="448" tackling="532" passing="492" shooting="482" control="396" accuracy="376" goalkeeping="54" heading="408"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126164">
+    <personal name="Raul Guzman">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="588" risktaking="399" offensive="406" aggressive="497" consistent="528" creative="550" experienced="529"/>
+    <skills stamina="368" dexterity="593" speed="319" tackling="434" passing="468" shooting="499" control="453" accuracy="395" goalkeeping="66" heading="365"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126165">
+    <personal name="Hector Suarez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="609" risktaking="791" offensive="703" aggressive="405" consistent="574" creative="683" experienced="574"/>
+    <skills stamina="337" dexterity="549" speed="368" tackling="555" passing="330" shooting="468" control="402" accuracy="417" goalkeeping="53" heading="399"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126166">
+    <personal name="Pecho Boada">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="599" risktaking="600" offensive="416" aggressive="575" consistent="556" creative="610" experienced="427"/>
+    <skills stamina="403" dexterity="445" speed="383" tackling="495" passing="315" shooting="377" control="465" accuracy="311" goalkeeping="61" heading="342"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126167">
+    <personal name="Cesar Marcano">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="461" risktaking="503" offensive="559" aggressive="704" consistent="589" creative="719" experienced="500"/>
+    <skills stamina="696" dexterity="415" speed="236" tackling="391" passing="346" shooting="411" control="338" accuracy="363" goalkeeping="69" heading="489"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126168">
+    <personal name="Juan Roman">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="335" risktaking="295" offensive="486" aggressive="570" consistent="344" creative="554" experienced="497"/>
+    <skills stamina="313" dexterity="356" speed="227" tackling="322" passing="429" shooting="327" control="316" accuracy="346" goalkeeping="70" heading="418"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126169">
+    <personal name="Alexis Chirinos">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="407" risktaking="516" offensive="524" aggressive="697" consistent="673" creative="624" experienced="507"/>
+    <skills stamina="423" dexterity="681" speed="420" tackling="398" passing="407" shooting="383" control="391" accuracy="460" goalkeeping="50" heading="458"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="126170">
+    <personal name="Richard Gutierrez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="618" risktaking="203" offensive="427" aggressive="453" consistent="654" creative="563" experienced="853"/>
+    <skills stamina="264" dexterity="223" speed="150" tackling="490" passing="387" shooting="320" control="442" accuracy="297" goalkeeping="79" heading="372"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126171">
+    <personal name="Roger Longart">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="795" risktaking="397" offensive="446" aggressive="554" consistent="581" creative="257" experienced="557"/>
+    <skills stamina="289" dexterity="678" speed="470" tackling="487" passing="432" shooting="469" control="310" accuracy="393" goalkeeping="60" heading="349"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="126172">
+    <personal name="Jose Vargas">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="796" risktaking="362" offensive="648" aggressive="661" consistent="635" creative="588" experienced="342"/>
+    <skills stamina="516" dexterity="666" speed="322" tackling="388" passing="493" shooting="286" control="393" accuracy="413" goalkeeping="60" heading="403"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126173">
+    <personal name="Jose Ducallin">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="764" risktaking="536" offensive="201" aggressive="550" consistent="483" creative="553" experienced="508"/>
+    <skills stamina="605" dexterity="583" speed="295" tackling="401" passing="430" shooting="458" control="417" accuracy="515" goalkeeping="51" heading="352"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126174">
+    <personal name="Ronny Malave">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="564" risktaking="301" offensive="477" aggressive="772" consistent="351" creative="753" experienced="514"/>
+    <skills stamina="291" dexterity="457" speed="692" tackling="339" passing="490" shooting="494" control="300" accuracy="388" goalkeeping="60" heading="518"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126175">
+    <personal name="Freddy Villoria">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="404" risktaking="451" offensive="388" aggressive="296" consistent="665" creative="447" experienced="322"/>
+    <skills stamina="448" dexterity="426" speed="648" tackling="328" passing="407" shooting="475" control="375" accuracy="488" goalkeeping="69" heading="484"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="126176">
+    <personal name="Daniel Nicola">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="558" risktaking="358" offensive="525" aggressive="660" consistent="454" creative="789" experienced="436"/>
+    <skills stamina="672" dexterity="233" speed="544" tackling="202" passing="416" shooting="323" control="219" accuracy="147" goalkeeping="379" heading="223"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126177">
+    <personal name="German Oropeza">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="646" risktaking="685" offensive="365" aggressive="357" consistent="395" creative="426" experienced="592"/>
+    <skills stamina="277" dexterity="186" speed="284" tackling="154" passing="376" shooting="285" control="205" accuracy="143" goalkeeping="455" heading="156"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126178">
+    <personal name="Luis Marines">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="321" risktaking="487" offensive="556" aggressive="623" consistent="199" creative="442" experienced="723"/>
+    <skills stamina="386" dexterity="319" speed="309" tackling="481" passing="275" shooting="297" control="420" accuracy="378" goalkeeping="61" heading="284"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126179">
+    <personal name="Javier Medina">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="414" risktaking="161" offensive="463" aggressive="870" consistent="505" creative="423" experienced="507"/>
+    <skills stamina="466" dexterity="673" speed="178" tackling="417" passing="425" shooting="479" control="467" accuracy="325" goalkeeping="77" heading="379"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126180">
+    <personal name="Alfarabi Romero">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="417" risktaking="679" offensive="284" aggressive="417" consistent="481" creative="406" experienced="363"/>
+    <skills stamina="392" dexterity="164" speed="424" tackling="466" passing="451" shooting="380" control="526" accuracy="504" goalkeeping="58" heading="434"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126181">
+    <personal name="Miguel Cordero">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="456" risktaking="450" offensive="424" aggressive="559" consistent="395" creative="497" experienced="518"/>
+    <skills stamina="419" dexterity="280" speed="157" tackling="330" passing="311" shooting="406" control="397" accuracy="382" goalkeeping="65" heading="371"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126182">
+    <personal name="Hector Rivas">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="572" risktaking="499" offensive="464" aggressive="431" consistent="452" creative="257" experienced="369"/>
+    <skills stamina="665" dexterity="205" speed="602" tackling="336" passing="325" shooting="408" control="444" accuracy="399" goalkeeping="47" heading="298"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126183">
+    <personal name="Franklin Romero">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="615" risktaking="605" offensive="472" aggressive="276" consistent="394" creative="547" experienced="500"/>
+    <skills stamina="352" dexterity="292" speed="631" tackling="448" passing="469" shooting="466" control="336" accuracy="451" goalkeeping="68" heading="465"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126184">
+    <personal name="Luis Correa">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="211" risktaking="540" offensive="480" aggressive="659" consistent="686" creative="645" experienced="565"/>
+    <skills stamina="533" dexterity="441" speed="448" tackling="363" passing="309" shooting="335" control="374" accuracy="269" goalkeeping="52" heading="253"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126185">
+    <personal name="Edson Rodriguez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="511" risktaking="659" offensive="229" aggressive="562" consistent="678" creative="624" experienced="710"/>
+    <skills stamina="226" dexterity="267" speed="538" tackling="413" passing="383" shooting="447" control="425" accuracy="448" goalkeeping="75" heading="384"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126186">
+    <personal name="Francisco Rizzi">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="434" risktaking="320" offensive="505" aggressive="419" consistent="504" creative="724" experienced="369"/>
+    <skills stamina="365" dexterity="201" speed="563" tackling="523" passing="454" shooting="476" control="355" accuracy="457" goalkeeping="60" heading="460"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="126187">
+    <personal name="Maximo Veira">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="190" risktaking="547" offensive="638" aggressive="408" consistent="362" creative="443" experienced="724"/>
+    <skills stamina="191" dexterity="550" speed="448" tackling="456" passing="455" shooting="379" control="396" accuracy="427" goalkeeping="54" heading="415"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126188">
+    <personal name="Noel San Vicente">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="709" risktaking="695" offensive="194" aggressive="317" consistent="724" creative="621" experienced="665"/>
+    <skills stamina="672" dexterity="323" speed="374" tackling="384" passing="414" shooting="352" control="293" accuracy="414" goalkeeping="52" heading="361"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126189">
+    <personal name="Marinho Jordao">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="565" risktaking="446" offensive="502" aggressive="758" consistent="357" creative="391" experienced="472"/>
+    <skills stamina="677" dexterity="274" speed="384" tackling="479" passing="420" shooting="481" control="390" accuracy="372" goalkeeping="67" heading="429"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126190">
+    <personal name="Pedro Francia">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="458" risktaking="427" offensive="509" aggressive="518" consistent="494" creative="361" experienced="527"/>
+    <skills stamina="661" dexterity="240" speed="283" tackling="265" passing="368" shooting="410" control="399" accuracy="508" goalkeeping="63" heading="279"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="126191">
+    <personal name="Edwar Elizandre">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="612" risktaking="347" offensive="706" aggressive="295" consistent="455" creative="754" experienced="329"/>
+    <skills stamina="663" dexterity="211" speed="420" tackling="275" passing="268" shooting="478" control="401" accuracy="382" goalkeeping="65" heading="307"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126192">
+    <personal name="Jose Gomez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="744" risktaking="500" offensive="636" aggressive="488" consistent="544" creative="566" experienced="710"/>
+    <skills stamina="397" dexterity="481" speed="579" tackling="230" passing="473" shooting="414" control="244" accuracy="231" goalkeeping="413" heading="214"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="126193">
+    <personal name="Sergio Antonio Silano">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="593" risktaking="246" offensive="372" aggressive="496" consistent="334" creative="556" experienced="309"/>
+    <skills stamina="246" dexterity="505" speed="423" tackling="186" passing="323" shooting="312" control="359" accuracy="170" goalkeeping="380" heading="160"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126194">
+    <personal name="Luis Filosa">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="497" risktaking="630" offensive="486" aggressive="496" consistent="311" creative="648" experienced="372"/>
+    <skills stamina="526" dexterity="578" speed="560" tackling="472" passing="386" shooting="429" control="326" accuracy="394" goalkeeping="70" heading="298"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126195">
+    <personal name="Alexander Flores">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="731" risktaking="830" offensive="492" aggressive="558" consistent="439" creative="343" experienced="593"/>
+    <skills stamina="398" dexterity="457" speed="701" tackling="494" passing="421" shooting="513" control="537" accuracy="479" goalkeeping="88" heading="421"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126196">
+    <personal name="Gabriel Rangel">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="306" risktaking="397" offensive="743" aggressive="438" consistent="518" creative="685" experienced="633"/>
+    <skills stamina="185" dexterity="539" speed="672" tackling="418" passing="395" shooting="480" control="374" accuracy="372" goalkeeping="59" heading="488"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126197">
+    <personal name="Luis Londano">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="611" risktaking="620" offensive="718" aggressive="277" consistent="573" creative="271" experienced="319"/>
+    <skills stamina="589" dexterity="367" speed="591" tackling="533" passing="374" shooting="418" control="341" accuracy="354" goalkeeping="59" heading="336"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126198">
+    <personal name="Jesus Rafael Villegas">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="524" risktaking="731" offensive="463" aggressive="163" consistent="707" creative="409" experienced="303"/>
+    <skills stamina="314" dexterity="366" speed="529" tackling="387" passing="317" shooting="326" control="415" accuracy="305" goalkeeping="61" heading="316"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="126199">
+    <personal name="Otilio Yantis">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="300" risktaking="628" offensive="394" aggressive="421" consistent="462" creative="484" experienced="777"/>
+    <skills stamina="370" dexterity="687" speed="474" tackling="404" passing="480" shooting="300" control="487" accuracy="481" goalkeeping="54" heading="429"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126200">
+    <personal name="Walter Colina">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="407" risktaking="652" offensive="595" aggressive="714" consistent="582" creative="322" experienced="411"/>
+    <skills stamina="554" dexterity="385" speed="635" tackling="428" passing="379" shooting="428" control="398" accuracy="415" goalkeeping="53" heading="304"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126201">
+    <personal name="Marco Cardoso">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="304" risktaking="437" offensive="495" aggressive="529" consistent="531" creative="609" experienced="592"/>
+    <skills stamina="152" dexterity="511" speed="507" tackling="423" passing="455" shooting="402" control="386" accuracy="440" goalkeeping="73" heading="369"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126202">
+    <personal name="Alberto Fanias">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="657" risktaking="455" offensive="515" aggressive="226" consistent="513" creative="353" experienced="474"/>
+    <skills stamina="308" dexterity="416" speed="267" tackling="439" passing="476" shooting="362" control="487" accuracy="394" goalkeeping="59" heading="358"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126203">
+    <personal name="Alcir">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="332" risktaking="652" offensive="617" aggressive="802" consistent="554" creative="447" experienced="590"/>
+    <skills stamina="727" dexterity="526" speed="190" tackling="408" passing="323" shooting="416" control="433" accuracy="301" goalkeeping="79" heading="420"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="126204">
+    <personal name="Daniel Noriega">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="375" risktaking="121" offensive="507" aggressive="486" consistent="548" creative="481" experienced="578"/>
+    <skills stamina="520" dexterity="202" speed="384" tackling="321" passing="389" shooting="274" control="400" accuracy="373" goalkeeping="61" heading="456"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126205">
+    <personal name="Rogerio">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="517" risktaking="601" offensive="439" aggressive="534" consistent="750" creative="533" experienced="160"/>
+    <skills stamina="687" dexterity="488" speed="694" tackling="534" passing="457" shooting="383" control="490" accuracy="537" goalkeeping="70" heading="404"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126206">
+    <personal name="Oscar Michell">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="398" risktaking="513" offensive="744" aggressive="545" consistent="249" creative="437" experienced="334"/>
+    <skills stamina="512" dexterity="308" speed="307" tackling="496" passing="377" shooting="446" control="473" accuracy="589" goalkeeping="58" heading="362"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126207">
+    <personal name="Johnny Carneiro">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="360" risktaking="430" offensive="482" aggressive="664" consistent="602" creative="513" experienced="317"/>
+    <skills stamina="398" dexterity="262" speed="314" tackling="435" passing="358" shooting="405" control="277" accuracy="358" goalkeeping="57" heading="348"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126208">
+    <personal name="Gilberto Angelucci">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="551" risktaking="390" offensive="639" aggressive="678" consistent="743" creative="415" experienced="350"/>
+    <skills stamina="416" dexterity="208" speed="384" tackling="233" passing="446" shooting="334" control="283" accuracy="231" goalkeeping="390" heading="219"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="126209">
+    <personal name="Tulio Hernandez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="407" risktaking="551" offensive="500" aggressive="455" consistent="470" creative="760" experienced="845"/>
+    <skills stamina="145" dexterity="674" speed="299" tackling="151" passing="356" shooting="298" control="350" accuracy="178" goalkeeping="554" heading="183"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126210">
+    <personal name="Edson Tortolero">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="344" risktaking="846" offensive="442" aggressive="667" consistent="488" creative="472" experienced="723"/>
+    <skills stamina="404" dexterity="429" speed="398" tackling="411" passing="448" shooting="376" control="443" accuracy="359" goalkeeping="70" heading="354"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126211">
+    <personal name="Eleazar Garcia">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="535" risktaking="913" offensive="555" aggressive="398" consistent="302" creative="451" experienced="476"/>
+    <skills stamina="326" dexterity="291" speed="338" tackling="467" passing="472" shooting="334" control="431" accuracy="390" goalkeeping="78" heading="514"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126212">
+    <personal name="Luis Alberto Morales">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="326" risktaking="579" offensive="501" aggressive="573" consistent="451" creative="451" experienced="646"/>
+    <skills stamina="675" dexterity="378" speed="220" tackling="372" passing="417" shooting="332" control="448" accuracy="309" goalkeeping="78" heading="414"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126213">
+    <personal name="Carlos Mieres">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="429" risktaking="237" offensive="667" aggressive="598" consistent="363" creative="378" experienced="581"/>
+    <skills stamina="286" dexterity="530" speed="395" tackling="513" passing="417" shooting="479" control="416" accuracy="368" goalkeeping="56" heading="370"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126214">
+    <personal name="Carlos Garcia">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="612" risktaking="435" offensive="708" aggressive="491" consistent="518" creative="482" experienced="441"/>
+    <skills stamina="507" dexterity="307" speed="301" tackling="399" passing="462" shooting="311" control="399" accuracy="439" goalkeeping="57" heading="309"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126215">
+    <personal name="Robert Rodallega">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="629" risktaking="778" offensive="532" aggressive="234" consistent="373" creative="535" experienced="363"/>
+    <skills stamina="272" dexterity="386" speed="678" tackling="365" passing="447" shooting="539" control="456" accuracy="446" goalkeeping="86" heading="522"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126216">
+    <personal name="David Gruesso">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="404" risktaking="620" offensive="294" aggressive="312" consistent="793" creative="368" experienced="276"/>
+    <skills stamina="441" dexterity="203" speed="655" tackling="323" passing="490" shooting="413" control="435" accuracy="461" goalkeeping="81" heading="341"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126217">
+    <personal name="Jose Marquez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="707" risktaking="531" offensive="722" aggressive="527" consistent="471" creative="593" experienced="374"/>
+    <skills stamina="693" dexterity="247" speed="378" tackling="363" passing="384" shooting="391" control="440" accuracy="368" goalkeeping="62" heading="300"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126218">
+    <personal name="Luis Vera">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="305" risktaking="511" offensive="434" aggressive="650" consistent="399" creative="236" experienced="710"/>
+    <skills stamina="362" dexterity="408" speed="533" tackling="449" passing="403" shooting="332" control="523" accuracy="472" goalkeeping="57" heading="474"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126219">
+    <personal name="Felix Hernandez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="491" risktaking="651" offensive="313" aggressive="391" consistent="564" creative="371" experienced="571"/>
+    <skills stamina="598" dexterity="485" speed="175" tackling="393" passing="321" shooting="287" control="322" accuracy="297" goalkeeping="75" heading="444"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126220">
+    <personal name="Hector Bidoglio">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="521" risktaking="726" offensive="317" aggressive="746" consistent="624" creative="524" experienced="561"/>
+    <skills stamina="296" dexterity="576" speed="373" tackling="429" passing="420" shooting="354" control="420" accuracy="342" goalkeeping="45" heading="380"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126221">
+    <personal name="Raul Villegas">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="290" risktaking="514" offensive="562" aggressive="851" consistent="159" creative="424" experienced="515"/>
+    <skills stamina="177" dexterity="617" speed="408" tackling="415" passing="328" shooting="479" control="450" accuracy="402" goalkeeping="80" heading="434"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126222">
+    <personal name="Luis Tizamo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="412" risktaking="568" offensive="686" aggressive="694" consistent="440" creative="585" experienced="657"/>
+    <skills stamina="653" dexterity="458" speed="326" tackling="315" passing="350" shooting="560" control="474" accuracy="435" goalkeeping="59" heading="306"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126223">
+    <personal name="Juan Garcia">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="487" risktaking="439" offensive="345" aggressive="603" consistent="370" creative="560" experienced="587"/>
+    <skills stamina="598" dexterity="400" speed="197" tackling="337" passing="296" shooting="406" control="445" accuracy="404" goalkeeping="66" heading="368"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="126224">
+    <personal name="Cesar Espinosa">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="388" risktaking="300" offensive="663" aggressive="515" consistent="570" creative="629" experienced="520"/>
+    <skills stamina="305" dexterity="203" speed="429" tackling="132" passing="261" shooting="308" control="256" accuracy="176" goalkeeping="478" heading="145"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126225">
+    <personal name="Jose Fasciano">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="308" risktaking="727" offensive="387" aggressive="478" consistent="650" creative="450" experienced="544"/>
+    <skills stamina="109" dexterity="478" speed="345" tackling="168" passing="223" shooting="241" control="288" accuracy="198" goalkeeping="355" heading="196"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126226">
+    <personal name="Orlando Hercules">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="744" risktaking="586" offensive="538" aggressive="472" consistent="430" creative="609" experienced="492"/>
+    <skills stamina="370" dexterity="515" speed="621" tackling="322" passing="335" shooting="301" control="339" accuracy="416" goalkeeping="49" heading="358"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126227">
+    <personal name="Julio Quintero">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="422" risktaking="488" offensive="604" aggressive="615" consistent="677" creative="241" experienced="231"/>
+    <skills stamina="282" dexterity="405" speed="608" tackling="304" passing="456" shooting="300" control="307" accuracy="295" goalkeeping="63" heading="410"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126228">
+    <personal name="Williams Hernandez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="516" risktaking="694" offensive="285" aggressive="541" consistent="588" creative="307" experienced="490"/>
+    <skills stamina="487" dexterity="362" speed="440" tackling="336" passing="367" shooting="398" control="443" accuracy="312" goalkeeping="62" heading="394"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126229">
+    <personal name="Freddy Figueroa">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="489" risktaking="464" offensive="622" aggressive="510" consistent="307" creative="615" experienced="515"/>
+    <skills stamina="318" dexterity="343" speed="385" tackling="479" passing="418" shooting="278" control="396" accuracy="271" goalkeeping="70" heading="333"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="126230">
+    <personal name="Jose Ashby">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="274" risktaking="347" offensive="450" aggressive="397" consistent="418" creative="227" experienced="556"/>
+    <skills stamina="505" dexterity="395" speed="111" tackling="388" passing="330" shooting="354" control="248" accuracy="265" goalkeeping="46" heading="303"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126231">
+    <personal name="Martin Balcucho">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="479" risktaking="597" offensive="319" aggressive="723" consistent="600" creative="596" experienced="590"/>
+    <skills stamina="223" dexterity="387" speed="525" tackling="336" passing="372" shooting="447" control="465" accuracy="282" goalkeeping="42" heading="425"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126232">
+    <personal name="Enrique Aleman">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="540" risktaking="667" offensive="508" aggressive="644" consistent="643" creative="344" experienced="582"/>
+    <skills stamina="370" dexterity="624" speed="315" tackling="326" passing="269" shooting="419" control="332" accuracy="399" goalkeeping="65" heading="365"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126233">
+    <personal name="Jose Rivas">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="55" risktaking="467" offensive="405" aggressive="531" consistent="664" creative="468" experienced="585"/>
+    <skills stamina="345" dexterity="641" speed="656" tackling="331" passing="424" shooting="406" control="432" accuracy="439" goalkeeping="54" heading="344"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126234">
+    <personal name="Numar Chacon">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="257" risktaking="652" offensive="758" aggressive="615" consistent="749" creative="235" experienced="498"/>
+    <skills stamina="251" dexterity="574" speed="243" tackling="390" passing="382" shooting="399" control="308" accuracy="300" goalkeeping="65" heading="345"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126235">
+    <personal name="Gruvel Barreto">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="363" risktaking="189" offensive="523" aggressive="323" consistent="747" creative="660" experienced="579"/>
+    <skills stamina="289" dexterity="286" speed="146" tackling="376" passing="356" shooting="283" control="346" accuracy="324" goalkeeping="57" heading="218"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126236">
+    <personal name="Jose Rossi">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="537" risktaking="462" offensive="719" aggressive="532" consistent="351" creative="508" experienced="562"/>
+    <skills stamina="260" dexterity="307" speed="579" tackling="271" passing="331" shooting="327" control="447" accuracy="219" goalkeeping="65" heading="307"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126237">
+    <personal name="Jose Luis Samuel">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="524" risktaking="474" offensive="459" aggressive="495" consistent="529" creative="377" experienced="272"/>
+    <skills stamina="551" dexterity="314" speed="383" tackling="371" passing="350" shooting="462" control="357" accuracy="390" goalkeeping="77" heading="454"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126238">
+    <personal name="Rafael Castellin">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="533" risktaking="629" offensive="542" aggressive="527" consistent="592" creative="644" experienced="569"/>
+    <skills stamina="162" dexterity="161" speed="470" tackling="255" passing="429" shooting="500" control="393" accuracy="460" goalkeeping="72" heading="328"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126239">
+    <personal name="Alexander Bottini">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="418" risktaking="488" offensive="390" aggressive="705" consistent="462" creative="600" experienced="443"/>
+    <skills stamina="593" dexterity="429" speed="535" tackling="255" passing="304" shooting="400" control="299" accuracy="299" goalkeeping="58" heading="269"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126240">
+    <personal name="Ivan Catari">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="614" risktaking="789" offensive="381" aggressive="483" consistent="571" creative="581" experienced="431"/>
+    <skills stamina="649" dexterity="537" speed="571" tackling="192" passing="481" shooting="383" control="268" accuracy="166" goalkeeping="480" heading="218"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126241">
+    <personal name="Miguel Silva">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="432" risktaking="337" offensive="651" aggressive="423" consistent="558" creative="391" experienced="409"/>
+    <skills stamina="658" dexterity="274" speed="349" tackling="219" passing="388" shooting="351" control="264" accuracy="193" goalkeeping="452" heading="191"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126242">
+    <personal name="Elbert Anez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="572" risktaking="465" offensive="488" aggressive="469" consistent="726" creative="548" experienced="558"/>
+    <skills stamina="504" dexterity="517" speed="549" tackling="451" passing="352" shooting="490" control="355" accuracy="432" goalkeeping="70" heading="390"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126243">
+    <personal name="Rodney Lopez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="363" risktaking="658" offensive="553" aggressive="277" consistent="535" creative="509" experienced="636"/>
+    <skills stamina="472" dexterity="186" speed="266" tackling="340" passing="402" shooting="360" control="445" accuracy="461" goalkeeping="65" heading="312"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126244">
+    <personal name="Winston Zurita">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="200" risktaking="776" offensive="345" aggressive="600" consistent="456" creative="406" experienced="374"/>
+    <skills stamina="276" dexterity="473" speed="623" tackling="401" passing="319" shooting="325" control="341" accuracy="308" goalkeeping="73" heading="446"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126245">
+    <personal name="Johnny Gotto">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="233" risktaking="449" offensive="528" aggressive="507" consistent="186" creative="298" experienced="770"/>
+    <skills stamina="164" dexterity="517" speed="385" tackling="395" passing="490" shooting="329" control="406" accuracy="443" goalkeeping="63" heading="339"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="126246">
+    <personal name="Manuel Brizuela">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="552" risktaking="461" offensive="365" aggressive="573" consistent="640" creative="393" experienced="571"/>
+    <skills stamina="568" dexterity="477" speed="291" tackling="440" passing="413" shooting="351" control="358" accuracy="328" goalkeeping="67" heading="329"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126247">
+    <personal name="Juan Roa">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="662" risktaking="497" offensive="599" aggressive="578" consistent="471" creative="423" experienced="587"/>
+    <skills stamina="619" dexterity="312" speed="449" tackling="413" passing="457" shooting="344" control="317" accuracy="452" goalkeeping="57" heading="319"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126248">
+    <personal name="Jose Lugo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="183" risktaking="505" offensive="244" aggressive="369" consistent="297" creative="501" experienced="606"/>
+    <skills stamina="470" dexterity="671" speed="298" tackling="379" passing="329" shooting="338" control="483" accuracy="349" goalkeeping="51" heading="367"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126249">
+    <personal name="Joel Diaz">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="413" risktaking="461" offensive="757" aggressive="457" consistent="274" creative="417" experienced="395"/>
+    <skills stamina="299" dexterity="479" speed="268" tackling="491" passing="477" shooting="491" control="475" accuracy="406" goalkeeping="51" heading="352"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="126250">
+    <personal name="Javier Escoobar">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="444" risktaking="414" offensive="361" aggressive="777" consistent="476" creative="578" experienced="473"/>
+    <skills stamina="408" dexterity="411" speed="493" tackling="415" passing="355" shooting="358" control="515" accuracy="328" goalkeeping="60" heading="313"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="126251">
+    <personal name="Gerardo Dominguez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="523" risktaking="706" offensive="373" aggressive="366" consistent="744" creative="511" experienced="678"/>
+    <skills stamina="190" dexterity="391" speed="481" tackling="403" passing="371" shooting="407" control="409" accuracy="473" goalkeeping="56" heading="393"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="126252">
+    <personal name="John Villegas">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="821" risktaking="398" offensive="728" aggressive="738" consistent="383" creative="478" experienced="768"/>
+    <skills stamina="165" dexterity="211" speed="449" tackling="346" passing="407" shooting="336" control="314" accuracy="381" goalkeeping="74" heading="331"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="126253">
+    <personal name="Anderson Uzcategui">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="710" risktaking="719" offensive="400" aggressive="224" consistent="776" creative="388" experienced="354"/>
+    <skills stamina="503" dexterity="614" speed="357" tackling="397" passing="415" shooting="471" control="421" accuracy="482" goalkeeping="77" heading="353"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126254">
+    <personal name="Larry Cartaya">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="583" risktaking="630" offensive="510" aggressive="488" consistent="468" creative="514" experienced="413"/>
+    <skills stamina="148" dexterity="294" speed="567" tackling="283" passing="439" shooting="472" control="325" accuracy="372" goalkeeping="71" heading="405"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126255">
+    <personal name="Jose Martinez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="513" risktaking="724" offensive="385" aggressive="388" consistent="588" creative="674" experienced="468"/>
+    <skills stamina="341" dexterity="535" speed="677" tackling="318" passing="267" shooting="376" control="452" accuracy="330" goalkeeping="59" heading="375"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126256">
+    <personal name="Williams Suarez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="261" risktaking="503" offensive="626" aggressive="433" consistent="466" creative="308" experienced="795"/>
+    <skills stamina="280" dexterity="516" speed="608" tackling="210" passing="292" shooting="446" control="360" accuracy="242" goalkeeping="532" heading="172"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126257">
+    <personal name="Euro Guzman">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="705" risktaking="400" offensive="486" aggressive="600" consistent="836" creative="558" experienced="375"/>
+    <skills stamina="382" dexterity="268" speed="305" tackling="171" passing="325" shooting="409" control="330" accuracy="194" goalkeeping="378" heading="211"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126258">
+    <personal name="Luis Ramirez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="484" risktaking="416" offensive="605" aggressive="456" consistent="385" creative="529" experienced="353"/>
+    <skills stamina="258" dexterity="205" speed="378" tackling="407" passing="418" shooting="339" control="452" accuracy="454" goalkeeping="79" heading="368"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126259">
+    <personal name="Alex Echenique">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="595" risktaking="713" offensive="554" aggressive="440" consistent="362" creative="470" experienced="684"/>
+    <skills stamina="563" dexterity="251" speed="550" tackling="390" passing="482" shooting="425" control="483" accuracy="410" goalkeeping="76" heading="314"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126260">
+    <personal name="German Chacon">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="441" risktaking="463" offensive="513" aggressive="503" consistent="482" creative="506" experienced="472"/>
+    <skills stamina="584" dexterity="405" speed="689" tackling="394" passing="417" shooting="323" control="516" accuracy="356" goalkeeping="67" heading="334"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126261">
+    <personal name="Juan Carlos Quinonez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="724" risktaking="825" offensive="479" aggressive="500" consistent="266" creative="891" experienced="571"/>
+    <skills stamina="689" dexterity="618" speed="672" tackling="418" passing="317" shooting="427" control="411" accuracy="321" goalkeeping="67" heading="427"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126262">
+    <personal name="Oswaldo Hurtado">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="378" risktaking="159" offensive="612" aggressive="246" consistent="607" creative="566" experienced="571"/>
+    <skills stamina="385" dexterity="214" speed="455" tackling="388" passing="380" shooting="309" control="283" accuracy="419" goalkeeping="54" heading="267"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="126263">
+    <personal name="Henry Duran">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="332" risktaking="334" offensive="909" aggressive="413" consistent="412" creative="736" experienced="712"/>
+    <skills stamina="678" dexterity="224" speed="630" tackling="424" passing="346" shooting="333" control="321" accuracy="363" goalkeeping="56" heading="421"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126264">
+    <personal name="Orlando Vera">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="363" risktaking="638" offensive="602" aggressive="388" consistent="298" creative="343" experienced="617"/>
+    <skills stamina="607" dexterity="351" speed="606" tackling="367" passing="426" shooting="472" control="476" accuracy="417" goalkeeping="65" heading="314"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126265">
+    <personal name="Jesus Contreras">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="435" risktaking="491" offensive="304" aggressive="628" consistent="453" creative="443" experienced="694"/>
+    <skills stamina="581" dexterity="398" speed="236" tackling="446" passing="392" shooting="472" control="445" accuracy="422" goalkeeping="66" heading="341"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126266">
+    <personal name="Carlos Maldonado">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="579" risktaking="241" offensive="515" aggressive="494" consistent="359" creative="706" experienced="398"/>
+    <skills stamina="368" dexterity="469" speed="638" tackling="496" passing="413" shooting="360" control="374" accuracy="363" goalkeeping="71" heading="421"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126267">
+    <personal name="Martin Tarazona">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="441" risktaking="410" offensive="549" aggressive="454" consistent="728" creative="303" experienced="317"/>
+    <skills stamina="350" dexterity="646" speed="308" tackling="406" passing="340" shooting="295" control="443" accuracy="354" goalkeeping="59" heading="366"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126268">
+    <personal name="Jesus Rivas">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="482" risktaking="277" offensive="613" aggressive="310" consistent="370" creative="460" experienced="558"/>
+    <skills stamina="484" dexterity="478" speed="136" tackling="336" passing="473" shooting="405" control="364" accuracy="303" goalkeeping="44" heading="359"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126269">
+    <personal name="Carlos Castro">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="357" risktaking="384" offensive="506" aggressive="355" consistent="435" creative="432" experienced="384"/>
+    <skills stamina="433" dexterity="409" speed="373" tackling="507" passing="492" shooting="359" control="391" accuracy="348" goalkeeping="73" heading="525"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126270">
+    <personal name="Hector Coll">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="634" risktaking="733" offensive="248" aggressive="542" consistent="500" creative="280" experienced="591"/>
+    <skills stamina="560" dexterity="322" speed="333" tackling="351" passing="455" shooting="409" control="498" accuracy="453" goalkeeping="79" heading="424"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126271">
+    <personal name="Jose Davila">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="559" risktaking="569" offensive="496" aggressive="303" consistent="254" creative="259" experienced="455"/>
+    <skills stamina="408" dexterity="299" speed="419" tackling="387" passing="462" shooting="540" control="312" accuracy="448" goalkeeping="60" heading="365"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126272">
+    <personal name="Luis Carillo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="336" risktaking="317" offensive="558" aggressive="534" consistent="661" creative="737" experienced="357"/>
+    <skills stamina="461" dexterity="466" speed="556" tackling="209" passing="418" shooting="300" control="263" accuracy="173" goalkeeping="532" heading="174"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126273">
+    <personal name="Jose Colmenares">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="469" risktaking="555" offensive="517" aggressive="553" consistent="356" creative="686" experienced="451"/>
+    <skills stamina="234" dexterity="250" speed="184" tackling="123" passing="297" shooting="313" control="221" accuracy="133" goalkeeping="463" heading="152"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126274">
+    <personal name="Jose Jimenez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="381" risktaking="592" offensive="476" aggressive="530" consistent="648" creative="577" experienced="221"/>
+    <skills stamina="514" dexterity="432" speed="381" tackling="393" passing="485" shooting="358" control="368" accuracy="467" goalkeeping="65" heading="411"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126275">
+    <personal name="Andes Paz">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="568" risktaking="426" offensive="614" aggressive="552" consistent="536" creative="312" experienced="459"/>
+    <skills stamina="228" dexterity="604" speed="472" tackling="355" passing="404" shooting="383" control="382" accuracy="300" goalkeeping="74" heading="418"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126276">
+    <personal name="Cecilio Carvajal">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="882" risktaking="644" offensive="731" aggressive="442" consistent="254" creative="411" experienced="294"/>
+    <skills stamina="400" dexterity="417" speed="549" tackling="368" passing="342" shooting="268" control="335" accuracy="441" goalkeeping="64" heading="300"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126277">
+    <personal name="Luis Camacaro">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="443" risktaking="480" offensive="317" aggressive="596" consistent="548" creative="379" experienced="504"/>
+    <skills stamina="327" dexterity="518" speed="159" tackling="415" passing="323" shooting="340" control="287" accuracy="336" goalkeeping="68" heading="422"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126278">
+    <personal name="Carlos Garcia">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="814" risktaking="843" offensive="451" aggressive="577" consistent="617" creative="495" experienced="674"/>
+    <skills stamina="410" dexterity="422" speed="515" tackling="474" passing="276" shooting="268" control="452" accuracy="335" goalkeeping="62" heading="408"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126279">
+    <personal name="Laurenco Jaimes">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="284" risktaking="539" offensive="344" aggressive="840" consistent="346" creative="232" experienced="618"/>
+    <skills stamina="525" dexterity="570" speed="712" tackling="327" passing="291" shooting="381" control="486" accuracy="383" goalkeeping="52" heading="261"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126280">
+    <personal name="Luis Socarras">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="665" risktaking="237" offensive="872" aggressive="550" consistent="615" creative="601" experienced="640"/>
+    <skills stamina="661" dexterity="288" speed="327" tackling="283" passing="386" shooting="307" control="431" accuracy="439" goalkeeping="51" heading="421"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126281">
+    <personal name="Sergio Hernandez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="199" risktaking="288" offensive="550" aggressive="666" consistent="265" creative="521" experienced="502"/>
+    <skills stamina="210" dexterity="532" speed="324" tackling="470" passing="474" shooting="414" control="410" accuracy="381" goalkeeping="49" heading="462"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="126282">
+    <personal name="Herbert Marquez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="750" risktaking="285" offensive="584" aggressive="562" consistent="514" creative="595" experienced="675"/>
+    <skills stamina="222" dexterity="688" speed="208" tackling="479" passing="486" shooting="464" control="379" accuracy="273" goalkeeping="66" heading="446"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126283">
+    <personal name="Angel Hoyos">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="601" risktaking="261" offensive="469" aggressive="407" consistent="393" creative="521" experienced="852"/>
+    <skills stamina="558" dexterity="423" speed="630" tackling="389" passing="333" shooting="236" control="347" accuracy="416" goalkeeping="60" heading="329"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126284">
+    <personal name="Giovanny Perez">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="404" risktaking="620" offensive="538" aggressive="709" consistent="500" creative="440" experienced="461"/>
+    <skills stamina="189" dexterity="520" speed="327" tackling="369" passing="405" shooting="386" control="433" accuracy="406" goalkeeping="56" heading="432"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126285">
+    <personal name="Ruben Bachini">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="551" risktaking="743" offensive="390" aggressive="833" consistent="417" creative="507" experienced="345"/>
+    <skills stamina="364" dexterity="177" speed="359" tackling="314" passing="373" shooting="446" control="321" accuracy="328" goalkeeping="63" heading="423"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126286">
+    <personal name="Jose Luis Dolgetta">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="317" risktaking="624" offensive="412" aggressive="717" consistent="646" creative="375" experienced="361"/>
+    <skills stamina="348" dexterity="249" speed="401" tackling="375" passing="343" shooting="396" control="294" accuracy="441" goalkeeping="56" heading="395"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="126287">
+    <personal name="Adolfo Ferraresi">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="324" risktaking="507" offensive="665" aggressive="465" consistent="143" creative="808" experienced="541"/>
+    <skills stamina="171" dexterity="144" speed="662" tackling="290" passing="301" shooting="344" control="395" accuracy="416" goalkeeping="57" heading="381"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="126288">
+    <personal name="Osmel Garcia">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="294" risktaking="295" offensive="415" aggressive="400" consistent="633" creative="352" experienced="406"/>
+    <skills stamina="148" dexterity="499" speed="615" tackling="141" passing="290" shooting="300" control="257" accuracy="174" goalkeeping="496" heading="161"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="126289">
+    <personal name="Jose Urbina">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="343" risktaking="778" offensive="399" aggressive="225" consistent="296" creative="190" experienced="175"/>
+    <skills stamina="518" dexterity="512" speed="128" tackling="179" passing="337" shooting="238" control="274" accuracy="164" goalkeeping="371" heading="207"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126290">
+    <personal name="Pedro Venegas">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="514" risktaking="494" offensive="506" aggressive="691" consistent="432" creative="355" experienced="214"/>
+    <skills stamina="427" dexterity="234" speed="415" tackling="444" passing="465" shooting="328" control="413" accuracy="300" goalkeeping="49" heading="305"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126291">
+    <personal name="Leonardo Lupi">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="581" risktaking="567" offensive="475" aggressive="402" consistent="637" creative="708" experienced="642"/>
+    <skills stamina="305" dexterity="230" speed="220" tackling="416" passing="333" shooting="336" control="460" accuracy="299" goalkeeping="64" heading="270"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126292">
+    <personal name="Carlos Ramirez">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="342" risktaking="589" offensive="421" aggressive="693" consistent="547" creative="600" experienced="328"/>
+    <skills stamina="647" dexterity="500" speed="346" tackling="561" passing="346" shooting="475" control="367" accuracy="447" goalkeeping="76" heading="416"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126293">
+    <personal name="Jorge Vergara">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="525" risktaking="201" offensive="552" aggressive="550" consistent="745" creative="565" experienced="515"/>
+    <skills stamina="131" dexterity="519" speed="417" tackling="516" passing="419" shooting="437" control="437" accuracy="364" goalkeeping="65" heading="301"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126294">
+    <personal name="Jose Duran">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="375" risktaking="768" offensive="760" aggressive="234" consistent="432" creative="229" experienced="279"/>
+    <skills stamina="646" dexterity="665" speed="224" tackling="380" passing="440" shooting="330" control="302" accuracy="325" goalkeeping="42" heading="385"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126295">
+    <personal name="Jesus Valbuena">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="366" risktaking="291" offensive="608" aggressive="533" consistent="727" creative="609" experienced="566"/>
+    <skills stamina="520" dexterity="268" speed="514" tackling="331" passing="458" shooting="381" control="431" accuracy="478" goalkeeping="67" heading="290"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126296">
+    <personal name="Leonardo Gonzalez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="687" risktaking="738" offensive="349" aggressive="352" consistent="474" creative="813" experienced="636"/>
+    <skills stamina="402" dexterity="674" speed="172" tackling="418" passing="436" shooting="460" control="340" accuracy="338" goalkeeping="78" heading="353"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126297">
+    <personal name="Marcos Mathias">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="400" risktaking="528" offensive="561" aggressive="305" consistent="530" creative="450" experienced="497"/>
+    <skills stamina="260" dexterity="666" speed="167" tackling="369" passing="428" shooting="258" control="402" accuracy="357" goalkeeping="53" heading="334"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="126298">
+    <personal name="Alexander Antequera">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="510" risktaking="467" offensive="375" aggressive="534" consistent="545" creative="491" experienced="609"/>
+    <skills stamina="567" dexterity="689" speed="374" tackling="503" passing="412" shooting="357" control="378" accuracy="403" goalkeeping="65" heading="325"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126299">
+    <personal name="Jose Suarez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="513" risktaking="435" offensive="721" aggressive="678" consistent="413" creative="604" experienced="693"/>
+    <skills stamina="511" dexterity="495" speed="256" tackling="388" passing="385" shooting="372" control="393" accuracy="363" goalkeeping="68" heading="384"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126300">
+    <personal name="Jesus Valiente">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="548" risktaking="418" offensive="345" aggressive="581" consistent="819" creative="621" experienced="369"/>
+    <skills stamina="305" dexterity="654" speed="497" tackling="439" passing="450" shooting="338" control="354" accuracy="333" goalkeeping="67" heading="245"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126301">
+    <personal name="Gustavo Alastre">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="468" risktaking="834" offensive="293" aggressive="455" consistent="605" creative="542" experienced="688"/>
+    <skills stamina="597" dexterity="535" speed="495" tackling="418" passing="320" shooting="376" control="402" accuracy="468" goalkeeping="57" heading="438"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126302">
+    <personal name="Rodrigo Soto">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="538" risktaking="827" offensive="698" aggressive="469" consistent="472" creative="459" experienced="331"/>
+    <skills stamina="572" dexterity="454" speed="288" tackling="458" passing="423" shooting="432" control="285" accuracy="421" goalkeeping="54" heading="341"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126303">
+    <personal name="Jose Luis Antequera">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="596" risktaking="821" offensive="669" aggressive="428" consistent="343" creative="75" experienced="737"/>
+    <skills stamina="306" dexterity="649" speed="267" tackling="406" passing="242" shooting="285" control="336" accuracy="381" goalkeeping="62" heading="342"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126304">
+    <personal name="Alfredo Briceno">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="609" risktaking="376" offensive="464" aggressive="381" consistent="638" creative="460" experienced="695"/>
+    <skills stamina="324" dexterity="369" speed="235" tackling="187" passing="358" shooting="334" control="343" accuracy="223" goalkeeping="513" heading="163"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126305">
+    <personal name="Hector Dugarte">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="566" risktaking="447" offensive="651" aggressive="379" consistent="341" creative="577" experienced="464"/>
+    <skills stamina="597" dexterity="194" speed="561" tackling="136" passing="397" shooting="413" control="191" accuracy="166" goalkeeping="475" heading="138"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126306">
+    <personal name="Henry Rodriguez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="577" risktaking="505" offensive="508" aggressive="463" consistent="477" creative="532" experienced="412"/>
+    <skills stamina="569" dexterity="212" speed="258" tackling="363" passing="464" shooting="331" control="416" accuracy="372" goalkeeping="52" heading="367"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126307">
+    <personal name="Carlos Pena">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="376" risktaking="354" offensive="533" aggressive="430" consistent="691" creative="346" experienced="571"/>
+    <skills stamina="463" dexterity="302" speed="682" tackling="499" passing="477" shooting="439" control="485" accuracy="376" goalkeeping="63" heading="314"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126308">
+    <personal name="Carlos Briceno">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="391" risktaking="665" offensive="139" aggressive="609" consistent="510" creative="413" experienced="733"/>
+    <skills stamina="186" dexterity="352" speed="157" tackling="481" passing="375" shooting="353" control="330" accuracy="393" goalkeeping="66" heading="420"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126309">
+    <personal name="Jose Luis Fernandez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="297" risktaking="618" offensive="367" aggressive="330" consistent="504" creative="630" experienced="585"/>
+    <skills stamina="264" dexterity="497" speed="182" tackling="410" passing="364" shooting="394" control="435" accuracy="441" goalkeeping="45" heading="290"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126310">
+    <personal name="Alejandro Araque">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="433" risktaking="540" offensive="525" aggressive="783" consistent="452" creative="751" experienced="400"/>
+    <skills stamina="600" dexterity="409" speed="358" tackling="434" passing="328" shooting="402" control="349" accuracy="347" goalkeeping="51" heading="372"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="126311">
+    <personal name="Alberto Ramirez">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="748" risktaking="532" offensive="556" aggressive="422" consistent="299" creative="430" experienced="589"/>
+    <skills stamina="724" dexterity="242" speed="702" tackling="271" passing="327" shooting="403" control="346" accuracy="442" goalkeeping="66" heading="381"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126312">
+    <personal name="Antonio Becerra">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="665" risktaking="291" offensive="677" aggressive="419" consistent="649" creative="391" experienced="514"/>
+    <skills stamina="649" dexterity="169" speed="485" tackling="325" passing="324" shooting="374" control="302" accuracy="393" goalkeeping="68" heading="391"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126313">
+    <personal name="Juan Barrientos">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="478" risktaking="300" offensive="497" aggressive="330" consistent="407" creative="393" experienced="156"/>
+    <skills stamina="372" dexterity="566" speed="218" tackling="367" passing="390" shooting="312" control="469" accuracy="310" goalkeeping="69" heading="462"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126314">
+    <personal name="Ronaldy Confreras">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="482" risktaking="473" offensive="409" aggressive="613" consistent="745" creative="518" experienced="532"/>
+    <skills stamina="177" dexterity="693" speed="607" tackling="361" passing="441" shooting="385" control="440" accuracy="342" goalkeeping="58" heading="383"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126315">
+    <personal name="Angel Chacon">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="400" risktaking="374" offensive="529" aggressive="656" consistent="660" creative="280" experienced="465"/>
+    <skills stamina="434" dexterity="479" speed="355" tackling="255" passing="425" shooting="315" control="334" accuracy="364" goalkeeping="61" heading="346"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126316">
+    <personal name="Andrew Paez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="663" risktaking="751" offensive="651" aggressive="252" consistent="797" creative="449" experienced="393"/>
+    <skills stamina="190" dexterity="320" speed="637" tackling="328" passing="370" shooting="239" control="250" accuracy="373" goalkeeping="38" heading="335"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126317">
+    <personal name="Jose Zarzalejo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="490" risktaking="610" offensive="533" aggressive="637" consistent="387" creative="690" experienced="599"/>
+    <skills stamina="460" dexterity="333" speed="384" tackling="350" passing="318" shooting="443" control="446" accuracy="365" goalkeeping="74" heading="455"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126318">
+    <personal name="Ramon Vera">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="409" risktaking="388" offensive="564" aggressive="531" consistent="382" creative="716" experienced="679"/>
+    <skills stamina="439" dexterity="414" speed="630" tackling="378" passing="340" shooting="335" control="442" accuracy="296" goalkeeping="61" heading="414"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126319">
+    <personal name="Alejandro Miniti">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="643" risktaking="575" offensive="864" aggressive="765" consistent="505" creative="611" experienced="409"/>
+    <skills stamina="503" dexterity="540" speed="397" tackling="338" passing="272" shooting="428" control="414" accuracy="491" goalkeeping="58" heading="295"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126320">
+    <personal name="Eduardo Mendoza">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="423" risktaking="516" offensive="523" aggressive="452" consistent="621" creative="598" experienced="508"/>
+    <skills stamina="170" dexterity="150" speed="166" tackling="191" passing="452" shooting="393" control="280" accuracy="176" goalkeeping="521" heading="239"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126321">
+    <personal name="Oscar Flaminio">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="524" risktaking="502" offensive="567" aggressive="592" consistent="557" creative="719" experienced="778"/>
+    <skills stamina="312" dexterity="552" speed="558" tackling="186" passing="323" shooting="403" control="346" accuracy="226" goalkeeping="342" heading="168"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126322">
+    <personal name="Virgilio Perez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="505" risktaking="480" offensive="275" aggressive="463" consistent="465" creative="396" experienced="471"/>
+    <skills stamina="706" dexterity="324" speed="580" tackling="437" passing="421" shooting="419" control="414" accuracy="441" goalkeeping="53" heading="451"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126323">
+    <personal name="Jorge Perez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="406" risktaking="405" offensive="387" aggressive="312" consistent="411" creative="503" experienced="623"/>
+    <skills stamina="377" dexterity="474" speed="273" tackling="516" passing="451" shooting="357" control="367" accuracy="407" goalkeeping="75" heading="333"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126324">
+    <personal name="Marco Leiva">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="456" risktaking="287" offensive="373" aggressive="633" consistent="621" creative="763" experienced="310"/>
+    <skills stamina="665" dexterity="478" speed="578" tackling="338" passing="417" shooting="482" control="406" accuracy="477" goalkeeping="66" heading="493"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126325">
+    <personal name="Donosio Rojas">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="565" risktaking="627" offensive="296" aggressive="637" consistent="445" creative="265" experienced="608"/>
+    <skills stamina="585" dexterity="713" speed="607" tackling="334" passing="429" shooting="451" control="402" accuracy="318" goalkeeping="48" heading="329"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126326">
+    <personal name="Pedro Aldana">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="531" risktaking="621" offensive="440" aggressive="397" consistent="438" creative="566" experienced="447"/>
+    <skills stamina="383" dexterity="479" speed="196" tackling="490" passing="439" shooting="282" control="313" accuracy="421" goalkeeping="72" heading="262"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126327">
+    <personal name="John Medina">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="331" risktaking="727" offensive="583" aggressive="592" consistent="462" creative="298" experienced="455"/>
+    <skills stamina="546" dexterity="242" speed="477" tackling="476" passing="533" shooting="462" control="398" accuracy="365" goalkeeping="63" heading="414"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126328">
+    <personal name="Douglas Guarecuco">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="169" risktaking="713" offensive="493" aggressive="510" consistent="534" creative="491" experienced="737"/>
+    <skills stamina="351" dexterity="457" speed="563" tackling="460" passing="352" shooting="366" control="406" accuracy="352" goalkeeping="70" heading="385"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126329">
+    <personal name="Jose Naboyan">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="395" risktaking="600" offensive="404" aggressive="359" consistent="507" creative="532" experienced="704"/>
+    <skills stamina="465" dexterity="252" speed="361" tackling="404" passing="486" shooting="408" control="403" accuracy="315" goalkeeping="47" heading="302"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126330">
+    <personal name="Alex Magaldi">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="644" risktaking="479" offensive="349" aggressive="517" consistent="513" creative="603" experienced="607"/>
+    <skills stamina="625" dexterity="648" speed="313" tackling="421" passing="495" shooting="447" control="436" accuracy="320" goalkeeping="73" heading="452"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126331">
+    <personal name="Ruben Benitez">
+      <appearance value="0"/>
+      <nationality value="Uruguay"/>
+    </personal>
+    <personality active="691" risktaking="592" offensive="530" aggressive="740" consistent="608" creative="749" experienced="669"/>
+    <skills stamina="625" dexterity="443" speed="668" tackling="407" passing="357" shooting="415" control="428" accuracy="318" goalkeeping="56" heading="406"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126332">
+    <personal name="Jose Ortiz">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="302" risktaking="542" offensive="513" aggressive="310" consistent="516" creative="373" experienced="907"/>
+    <skills stamina="612" dexterity="462" speed="301" tackling="427" passing="454" shooting="321" control="484" accuracy="274" goalkeeping="66" heading="425"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126333">
+    <personal name="Carlos Camargo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="514" risktaking="514" offensive="717" aggressive="277" consistent="500" creative="617" experienced="673"/>
+    <skills stamina="383" dexterity="262" speed="241" tackling="395" passing="469" shooting="439" control="425" accuracy="515" goalkeeping="52" heading="409"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126334">
+    <personal name="Jose Vera">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="239" risktaking="354" offensive="617" aggressive="434" consistent="540" creative="358" experienced="864"/>
+    <skills stamina="416" dexterity="406" speed="281" tackling="406" passing="482" shooting="353" control="381" accuracy="409" goalkeeping="70" heading="454"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126335">
+    <personal name="Gabriel Urdaneta">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="527" risktaking="555" offensive="331" aggressive="440" consistent="488" creative="263" experienced="595"/>
+    <skills stamina="521" dexterity="587" speed="477" tackling="339" passing="415" shooting="469" control="407" accuracy="374" goalkeeping="73" heading="328"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126336">
+    <personal name="Jose Leon">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="325" risktaking="342" offensive="737" aggressive="615" consistent="662" creative="606" experienced="415"/>
+    <skills stamina="157" dexterity="239" speed="654" tackling="205" passing="271" shooting="379" control="313" accuracy="178" goalkeeping="328" heading="167"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126337">
+    <personal name="Vicente Rosales">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="633" risktaking="694" offensive="541" aggressive="749" consistent="392" creative="384" experienced="584"/>
+    <skills stamina="310" dexterity="507" speed="355" tackling="100" passing="274" shooting="220" control="248" accuracy="123" goalkeeping="366" heading="162"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="126338">
+    <personal name="William Portez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="615" risktaking="304" offensive="454" aggressive="507" consistent="582" creative="360" experienced="792"/>
+    <skills stamina="591" dexterity="598" speed="585" tackling="438" passing="402" shooting="300" control="418" accuracy="253" goalkeeping="45" heading="285"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="126339">
+    <personal name="Jose Montenegro">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="423" risktaking="797" offensive="678" aggressive="449" consistent="400" creative="519" experienced="511"/>
+    <skills stamina="507" dexterity="397" speed="650" tackling="382" passing="340" shooting="424" control="324" accuracy="291" goalkeeping="48" heading="355"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="126340">
+    <personal name="Juan M Otero">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="331" risktaking="492" offensive="516" aggressive="574" consistent="709" creative="504" experienced="470"/>
+    <skills stamina="230" dexterity="397" speed="566" tackling="317" passing="353" shooting="362" control="453" accuracy="321" goalkeeping="63" heading="376"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126341">
+    <personal name="Jesus Salcedo">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="519" risktaking="574" offensive="706" aggressive="361" consistent="400" creative="415" experienced="430"/>
+    <skills stamina="264" dexterity="355" speed="264" tackling="272" passing="346" shooting="406" control="440" accuracy="406" goalkeeping="64" heading="307"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126342">
+    <personal name="Byron Delgado">
+      <appearance value="0"/>
+      <nationality value="Ecuador"/>
+    </personal>
+    <personality active="702" risktaking="573" offensive="461" aggressive="414" consistent="525" creative="482" experienced="682"/>
+    <skills stamina="200" dexterity="664" speed="292" tackling="355" passing="312" shooting="403" control="298" accuracy="310" goalkeeping="58" heading="298"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="126343">
+    <personal name="Clifton Philip">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="298" risktaking="454" offensive="482" aggressive="452" consistent="329" creative="646" experienced="594"/>
+    <skills stamina="198" dexterity="584" speed="331" tackling="341" passing="445" shooting="405" control="404" accuracy="408" goalkeeping="69" heading="445"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="126344">
+    <personal name="Jose Silvestre">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="383" risktaking="424" offensive="503" aggressive="708" consistent="157" creative="463" experienced="405"/>
+    <skills stamina="417" dexterity="464" speed="687" tackling="232" passing="286" shooting="303" control="269" accuracy="260" goalkeeping="54" heading="345"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="126345">
+    <personal name="Wilfredo Reina">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="382" risktaking="665" offensive="635" aggressive="302" consistent="608" creative="461" experienced="588"/>
+    <skills stamina="610" dexterity="552" speed="520" tackling="333" passing="383" shooting="231" control="415" accuracy="331" goalkeeping="45" heading="275"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126346">
+    <personal name="Luis Fernando Rico">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="441" risktaking="468" offensive="516" aggressive="527" consistent="570" creative="283" experienced="518"/>
+    <skills stamina="607" dexterity="372" speed="161" tackling="342" passing="298" shooting="400" control="317" accuracy="411" goalkeeping="50" heading="293"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="126347">
+    <personal name="Ramon Ortega">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="276" risktaking="292" offensive="570" aggressive="446" consistent="521" creative="527" experienced="475"/>
+    <skills stamina="543" dexterity="550" speed="635" tackling="363" passing="373" shooting="325" control="239" accuracy="372" goalkeeping="49" heading="242"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="126348">
+    <personal name="Jose Tortolero">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="458" risktaking="674" offensive="597" aggressive="441" consistent="521" creative="565" experienced="564"/>
+    <skills stamina="253" dexterity="183" speed="572" tackling="394" passing="282" shooting="365" control="350" accuracy="248" goalkeeping="56" heading="363"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="126349">
+    <personal name="Derwin Salas">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="411" risktaking="435" offensive="613" aggressive="534" consistent="550" creative="417" experienced="433"/>
+    <skills stamina="456" dexterity="209" speed="372" tackling="411" passing="402" shooting="368" control="449" accuracy="315" goalkeeping="53" heading="291"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="126350">
+    <personal name="Wilson Medina">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="708" risktaking="485" offensive="505" aggressive="539" consistent="310" creative="339" experienced="820"/>
+    <skills stamina="218" dexterity="534" speed="199" tackling="407" passing="377" shooting="412" control="359" accuracy="359" goalkeeping="49" heading="316"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="126351">
+    <personal name="Nestor Villasmil">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="385" risktaking="364" offensive="596" aggressive="531" consistent="598" creative="380" experienced="510"/>
+    <skills stamina="147" dexterity="470" speed="287" tackling="399" passing="239" shooting="278" control="221" accuracy="325" goalkeeping="40" heading="229"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+</Players>

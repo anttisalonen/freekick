@@ -1,0 +1,2307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="94000">
+    <personal name="Nelson Cossio">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="550" risktaking="395" offensive="678" aggressive="407" consistent="648" creative="693" experienced="615"/>
+    <skills stamina="591" dexterity="684" speed="540" tackling="252" passing="430" shooting="421" control="375" accuracy="254" goalkeeping="436" heading="163"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94001">
+    <personal name="Arturo Palma">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="440" risktaking="590" offensive="673" aggressive="594" consistent="475" creative="955" experienced="463"/>
+    <skills stamina="561" dexterity="585" speed="666" tackling="149" passing="374" shooting="336" control="327" accuracy="166" goalkeeping="344" heading="213"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94002">
+    <personal name="Marco Villaseca">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="780" risktaking="289" offensive="344" aggressive="572" consistent="488" creative="517" experienced="522"/>
+    <skills stamina="255" dexterity="174" speed="228" tackling="473" passing="392" shooting="518" control="487" accuracy="533" goalkeeping="77" heading="489"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="94003">
+    <personal name="Andres Munoz">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="883" risktaking="646" offensive="321" aggressive="510" consistent="467" creative="504" experienced="106"/>
+    <skills stamina="665" dexterity="253" speed="423" tackling="535" passing="395" shooting="516" control="432" accuracy="455" goalkeeping="61" heading="379"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="94004">
+    <personal name="Sergio Vargas">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="437" risktaking="664" offensive="293" aggressive="458" consistent="563" creative="737" experienced="565"/>
+    <skills stamina="434" dexterity="463" speed="486" tackling="419" passing="453" shooting="526" control="427" accuracy="510" goalkeeping="73" heading="368"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94005">
+    <personal name="Ricardo Lee">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="557" risktaking="524" offensive="663" aggressive="537" consistent="460" creative="279" experienced="341"/>
+    <skills stamina="485" dexterity="753" speed="319" tackling="453" passing="443" shooting="429" control="429" accuracy="463" goalkeeping="86" heading="525"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94006">
+    <personal name="Danilo Chacon">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="614" risktaking="684" offensive="590" aggressive="421" consistent="699" creative="272" experienced="513"/>
+    <skills stamina="290" dexterity="457" speed="336" tackling="424" passing="422" shooting="322" control="423" accuracy="463" goalkeeping="77" heading="374"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94007">
+    <personal name="Carlos Reyes">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="333" risktaking="273" offensive="472" aggressive="419" consistent="673" creative="491" experienced="642"/>
+    <skills stamina="392" dexterity="643" speed="605" tackling="449" passing="442" shooting="542" control="529" accuracy="414" goalkeeping="86" heading="375"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="94008">
+    <personal name="Felipe Cortes">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="570" risktaking="716" offensive="708" aggressive="578" consistent="291" creative="536" experienced="638"/>
+    <skills stamina="549" dexterity="323" speed="395" tackling="517" passing="532" shooting="511" control="565" accuracy="462" goalkeeping="87" heading="528"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="94009">
+    <personal name="Marcelo Pena">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="521" risktaking="192" offensive="557" aggressive="347" consistent="534" creative="391" experienced="359"/>
+    <skills stamina="425" dexterity="483" speed="535" tackling="435" passing="351" shooting="467" control="475" accuracy="436" goalkeeping="84" heading="494"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94010">
+    <personal name="Danilo Machado">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="426" risktaking="405" offensive="491" aggressive="403" consistent="765" creative="522" experienced="411"/>
+    <skills stamina="476" dexterity="442" speed="675" tackling="405" passing="519" shooting="412" control="332" accuracy="405" goalkeeping="80" heading="463"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94011">
+    <personal name="Boris Morris">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="259" risktaking="795" offensive="411" aggressive="759" consistent="610" creative="691" experienced="579"/>
+    <skills stamina="504" dexterity="485" speed="441" tackling="521" passing="333" shooting="465" control="412" accuracy="446" goalkeeping="70" heading="416"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94012">
+    <personal name="Jose Ortega">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="579" risktaking="547" offensive="640" aggressive="315" consistent="486" creative="722" experienced="304"/>
+    <skills stamina="389" dexterity="470" speed="382" tackling="506" passing="426" shooting="360" control="479" accuracy="371" goalkeeping="81" heading="379"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94013">
+    <personal name="Toninho">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="803" risktaking="745" offensive="585" aggressive="485" consistent="608" creative="451" experienced="512"/>
+    <skills stamina="245" dexterity="175" speed="234" tackling="363" passing="418" shooting="401" control="394" accuracy="547" goalkeeping="81" heading="578"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94014">
+    <personal name="Mauricio Illesca">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="454" risktaking="500" offensive="726" aggressive="659" consistent="457" creative="454" experienced="610"/>
+    <skills stamina="318" dexterity="568" speed="359" tackling="384" passing="494" shooting="403" control="470" accuracy="478" goalkeeping="58" heading="356"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="94015">
+    <personal name="Hugo Brizuela">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="557" risktaking="618" offensive="792" aggressive="482" consistent="402" creative="340" experienced="295"/>
+    <skills stamina="582" dexterity="698" speed="638" tackling="473" passing="438" shooting="396" control="327" accuracy="408" goalkeeping="55" heading="454"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94016">
+    <personal name="Walter Cordero">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="627" risktaking="13" offensive="633" aggressive="580" consistent="358" creative="790" experienced="564"/>
+    <skills stamina="265" dexterity="169" speed="370" tackling="175" passing="489" shooting="464" control="324" accuracy="159" goalkeeping="447" heading="169"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="94017">
+    <personal name="Jacob Barraza">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="677" risktaking="693" offensive="258" aggressive="667" consistent="819" creative="485" experienced="408"/>
+    <skills stamina="437" dexterity="310" speed="298" tackling="203" passing="343" shooting="409" control="295" accuracy="208" goalkeeping="480" heading="189"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94018">
+    <personal name="Juan Cruz">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="368" risktaking="598" offensive="407" aggressive="558" consistent="255" creative="625" experienced="388"/>
+    <skills stamina="320" dexterity="254" speed="267" tackling="522" passing="510" shooting="458" control="440" accuracy="341" goalkeeping="56" heading="465"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="94019">
+    <personal name="David Soto">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="429" risktaking="448" offensive="547" aggressive="534" consistent="204" creative="343" experienced="549"/>
+    <skills stamina="508" dexterity="443" speed="651" tackling="556" passing="445" shooting="551" control="434" accuracy="437" goalkeeping="60" heading="430"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="94020">
+    <personal name="Claudio Cruz">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="442" risktaking="428" offensive="526" aggressive="389" consistent="731" creative="628" experienced="615"/>
+    <skills stamina="294" dexterity="306" speed="533" tackling="456" passing="503" shooting="426" control="408" accuracy="337" goalkeeping="75" heading="394"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="94021">
+    <personal name="Mauro Donoso">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="406" risktaking="687" offensive="396" aggressive="559" consistent="579" creative="657" experienced="456"/>
+    <skills stamina="281" dexterity="235" speed="162" tackling="512" passing="357" shooting="361" control="464" accuracy="431" goalkeeping="71" heading="501"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94022">
+    <personal name="Felipe Vega">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="388" risktaking="544" offensive="393" aggressive="615" consistent="414" creative="192" experienced="526"/>
+    <skills stamina="606" dexterity="324" speed="582" tackling="528" passing="391" shooting="445" control="438" accuracy="388" goalkeeping="64" heading="311"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94023">
+    <personal name="Cristian Cubillo">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="376" risktaking="463" offensive="584" aggressive="277" consistent="439" creative="508" experienced="487"/>
+    <skills stamina="667" dexterity="571" speed="389" tackling="497" passing="520" shooting="395" control="459" accuracy="369" goalkeeping="62" heading="355"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="94024">
+    <personal name="Gabriel Caballero">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="417" risktaking="470" offensive="531" aggressive="343" consistent="402" creative="535" experienced="213"/>
+    <skills stamina="580" dexterity="398" speed="594" tackling="402" passing="464" shooting="453" control="440" accuracy="435" goalkeeping="55" heading="321"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="94025">
+    <personal name="Ramon Castro">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="619" risktaking="364" offensive="121" aggressive="155" consistent="353" creative="372" experienced="871"/>
+    <skills stamina="297" dexterity="610" speed="436" tackling="506" passing="524" shooting="339" control="393" accuracy="356" goalkeeping="67" heading="367"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="94026">
+    <personal name="Sergio Marchant">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="351" risktaking="175" offensive="616" aggressive="464" consistent="804" creative="634" experienced="458"/>
+    <skills stamina="589" dexterity="499" speed="469" tackling="514" passing="357" shooting="363" control="511" accuracy="452" goalkeeping="83" heading="451"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94027">
+    <personal name="Oscar Avalos">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="646" risktaking="357" offensive="635" aggressive="619" consistent="341" creative="622" experienced="449"/>
+    <skills stamina="646" dexterity="353" speed="470" tackling="411" passing="518" shooting="315" control="397" accuracy="379" goalkeeping="64" heading="497"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="94028">
+    <personal name="Johnny Cortes">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="403" risktaking="466" offensive="631" aggressive="483" consistent="540" creative="617" experienced="270"/>
+    <skills stamina="645" dexterity="676" speed="269" tackling="362" passing="381" shooting="331" control="394" accuracy="419" goalkeeping="63" heading="395"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94029">
+    <personal name="Rodrifo Guevara">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="535" risktaking="153" offensive="566" aggressive="786" consistent="750" creative="407" experienced="39"/>
+    <skills stamina="297" dexterity="250" speed="661" tackling="342" passing="424" shooting="481" control="364" accuracy="514" goalkeeping="80" heading="510"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94030">
+    <personal name="Jorge Munoz">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="561" risktaking="678" offensive="807" aggressive="631" consistent="482" creative="628" experienced="404"/>
+    <skills stamina="364" dexterity="413" speed="587" tackling="363" passing="554" shooting="512" control="479" accuracy="531" goalkeeping="74" heading="496"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94031">
+    <personal name="Rodrigo Bravo">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="603" risktaking="532" offensive="653" aggressive="757" consistent="491" creative="817" experienced="359"/>
+    <skills stamina="672" dexterity="271" speed="687" tackling="385" passing="440" shooting="357" control="285" accuracy="395" goalkeeping="67" heading="322"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94032">
+    <personal name="Enrique Berrios">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="705" risktaking="612" offensive="220" aggressive="405" consistent="561" creative="460" experienced="392"/>
+    <skills stamina="290" dexterity="732" speed="588" tackling="239" passing="487" shooting="463" control="377" accuracy="284" goalkeeping="566" heading="259"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94033">
+    <personal name="Luis Corvalan">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="287" risktaking="376" offensive="324" aggressive="294" consistent="324" creative="606" experienced="591"/>
+    <skills stamina="414" dexterity="179" speed="589" tackling="191" passing="408" shooting="444" control="426" accuracy="243" goalkeeping="416" heading="195"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94034">
+    <personal name="Fernando Cornejo">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="589" risktaking="426" offensive="612" aggressive="349" consistent="401" creative="598" experienced="729"/>
+    <skills stamina="509" dexterity="378" speed="538" tackling="562" passing="549" shooting="449" control="386" accuracy="386" goalkeeping="84" heading="373"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="94035">
+    <personal name="Marcelo Miranda">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="289" risktaking="299" offensive="343" aggressive="546" consistent="704" creative="285" experienced="387"/>
+    <skills stamina="248" dexterity="625" speed="677" tackling="490" passing="521" shooting="532" control="458" accuracy="447" goalkeeping="81" heading="511"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="94036">
+    <personal name="Hector Puebla">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="377" risktaking="578" offensive="700" aggressive="234" consistent="482" creative="583" experienced="554"/>
+    <skills stamina="326" dexterity="424" speed="577" tackling="527" passing="552" shooting="585" control="613" accuracy="507" goalkeeping="98" heading="407"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94037">
+    <personal name="Pedro Jaque">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="556" risktaking="477" offensive="424" aggressive="458" consistent="663" creative="592" experienced="327"/>
+    <skills stamina="206" dexterity="342" speed="404" tackling="406" passing="481" shooting="564" control="525" accuracy="401" goalkeeping="79" heading="464"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="94038">
+    <personal name="Cesar Bravo">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="457" risktaking="443" offensive="555" aggressive="226" consistent="531" creative="483" experienced="514"/>
+    <skills stamina="286" dexterity="444" speed="420" tackling="577" passing="517" shooting="420" control="429" accuracy="476" goalkeeping="80" heading="387"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="94039">
+    <personal name="Cesar Muena">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="524" risktaking="219" offensive="432" aggressive="343" consistent="329" creative="458" experienced="450"/>
+    <skills stamina="646" dexterity="517" speed="350" tackling="469" passing="585" shooting="414" control="400" accuracy="547" goalkeeping="68" heading="449"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="94040">
+    <personal name="Jaime Riveros">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="468" risktaking="381" offensive="767" aggressive="560" consistent="437" creative="73" experienced="586"/>
+    <skills stamina="622" dexterity="662" speed="434" tackling="466" passing="535" shooting="388" control="449" accuracy="468" goalkeeping="76" heading="464"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="94041">
+    <personal name="Camilo Pino">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="543" risktaking="761" offensive="154" aggressive="262" consistent="612" creative="636" experienced="270"/>
+    <skills stamina="708" dexterity="676" speed="522" tackling="455" passing="450" shooting="404" control="458" accuracy="456" goalkeeping="85" heading="500"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94042">
+    <personal name="Fabian Vazquez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="364" risktaking="446" offensive="606" aggressive="453" consistent="535" creative="491" experienced="446"/>
+    <skills stamina="707" dexterity="645" speed="655" tackling="364" passing="461" shooting="419" control="400" accuracy="368" goalkeeping="86" heading="484"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94043">
+    <personal name="Juan Silva">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="683" risktaking="850" offensive="476" aggressive="397" consistent="695" creative="490" experienced="439"/>
+    <skills stamina="276" dexterity="642" speed="309" tackling="470" passing="420" shooting="424" control="444" accuracy="525" goalkeeping="93" heading="441"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="94044">
+    <personal name="Luis Chabat">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="411" risktaking="566" offensive="465" aggressive="488" consistent="837" creative="413" experienced="837"/>
+    <skills stamina="719" dexterity="615" speed="634" tackling="442" passing="522" shooting="471" control="513" accuracy="562" goalkeeping="83" heading="598"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94045">
+    <personal name="Rodrigo Latorre">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="445" risktaking="342" offensive="447" aggressive="613" consistent="634" creative="397" experienced="559"/>
+    <skills stamina="725" dexterity="543" speed="442" tackling="408" passing="510" shooting="382" control="396" accuracy="625" goalkeeping="83" heading="430"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94046">
+    <personal name="Rodrigo Flores">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="631" risktaking="617" offensive="489" aggressive="322" consistent="435" creative="256" experienced="478"/>
+    <skills stamina="378" dexterity="640" speed="376" tackling="593" passing="431" shooting="476" control="609" accuracy="645" goalkeeping="94" heading="557"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="94047">
+    <personal name="Pedro Gonzalez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="534" risktaking="624" offensive="490" aggressive="451" consistent="625" creative="499" experienced="470"/>
+    <skills stamina="195" dexterity="383" speed="431" tackling="352" passing="422" shooting="552" control="487" accuracy="446" goalkeeping="57" heading="519"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94048">
+    <personal name="Jose Moron">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="494" risktaking="513" offensive="364" aggressive="828" consistent="492" creative="339" experienced="616"/>
+    <skills stamina="448" dexterity="463" speed="173" tackling="185" passing="462" shooting="393" control="305" accuracy="172" goalkeeping="579" heading="165"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="94049">
+    <personal name="Antonio Zaracho">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="727" risktaking="438" offensive="479" aggressive="226" consistent="462" creative="530" experienced="368"/>
+    <skills stamina="509" dexterity="185" speed="327" tackling="236" passing="304" shooting="293" control="285" accuracy="164" goalkeeping="369" heading="178"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94050">
+    <personal name="Luis Guajardo">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="444" risktaking="433" offensive="678" aggressive="609" consistent="512" creative="279" experienced="558"/>
+    <skills stamina="645" dexterity="341" speed="468" tackling="422" passing="518" shooting="496" control="373" accuracy="478" goalkeeping="76" heading="399"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="94051">
+    <personal name="Adolfo Ovalle">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="350" risktaking="479" offensive="531" aggressive="623" consistent="601" creative="352" experienced="557"/>
+    <skills stamina="436" dexterity="449" speed="200" tackling="474" passing="560" shooting="346" control="548" accuracy="485" goalkeeping="73" heading="375"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="94052">
+    <personal name="Jorge Carrasco">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="399" risktaking="613" offensive="541" aggressive="567" consistent="464" creative="583" experienced="771"/>
+    <skills stamina="435" dexterity="441" speed="175" tackling="508" passing="393" shooting="417" control="365" accuracy="457" goalkeeping="85" heading="400"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94053">
+    <personal name="Alexis Garrido">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="807" risktaking="97" offensive="331" aggressive="677" consistent="691" creative="645" experienced="405"/>
+    <skills stamina="276" dexterity="363" speed="433" tackling="541" passing="565" shooting="451" control="527" accuracy="420" goalkeeping="65" heading="538"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94054">
+    <personal name="Leonel Pedreros">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="691" risktaking="448" offensive="771" aggressive="400" consistent="577" creative="438" experienced="649"/>
+    <skills stamina="555" dexterity="401" speed="288" tackling="440" passing="416" shooting="426" control="482" accuracy="424" goalkeeping="49" heading="439"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94055">
+    <personal name="Luis Chavarria">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="668" risktaking="366" offensive="471" aggressive="530" consistent="544" creative="76" experienced="458"/>
+    <skills stamina="584" dexterity="249" speed="514" tackling="370" passing="372" shooting="435" control="564" accuracy="397" goalkeeping="80" heading="425"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="94056">
+    <personal name="Luis Aravena">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="555" risktaking="663" offensive="447" aggressive="415" consistent="581" creative="554" experienced="502"/>
+    <skills stamina="385" dexterity="403" speed="298" tackling="477" passing="502" shooting="327" control="381" accuracy="398" goalkeeping="62" heading="440"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="94057">
+    <personal name="Danilo Figueroa">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="580" risktaking="307" offensive="138" aggressive="420" consistent="609" creative="696" experienced="516"/>
+    <skills stamina="288" dexterity="478" speed="417" tackling="439" passing="402" shooting="352" control="503" accuracy="456" goalkeeping="70" heading="372"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94058">
+    <personal name="Darwin Perez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="500" risktaking="497" offensive="523" aggressive="654" consistent="443" creative="605" experienced="364"/>
+    <skills stamina="642" dexterity="519" speed="618" tackling="530" passing="521" shooting="441" control="554" accuracy="426" goalkeeping="84" heading="360"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94059">
+    <personal name="Mauricio Pozo">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="366" risktaking="793" offensive="613" aggressive="606" consistent="611" creative="351" experienced="550"/>
+    <skills stamina="481" dexterity="681" speed="288" tackling="420" passing="409" shooting="347" control="450" accuracy="443" goalkeeping="55" heading="460"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94060">
+    <personal name="Marcelo Fracchia">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="399" risktaking="424" offensive="727" aggressive="89" consistent="207" creative="357" experienced="555"/>
+    <skills stamina="350" dexterity="744" speed="654" tackling="389" passing="434" shooting="408" control="449" accuracy="369" goalkeeping="78" heading="354"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94061">
+    <personal name="Eduardo Ovalle">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="502" risktaking="603" offensive="352" aggressive="287" consistent="462" creative="343" experienced="731"/>
+    <skills stamina="370" dexterity="483" speed="517" tackling="476" passing="498" shooting="419" control="472" accuracy="439" goalkeeping="77" heading="382"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94062">
+    <personal name="Dioni Guerra">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="577" risktaking="571" offensive="477" aggressive="491" consistent="531" creative="484" experienced="605"/>
+    <skills stamina="370" dexterity="690" speed="532" tackling="502" passing="339" shooting="456" control="521" accuracy="441" goalkeeping="68" heading="441"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94063">
+    <personal name="Juan Carreno">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="690" risktaking="257" offensive="538" aggressive="506" consistent="882" creative="703" experienced="506"/>
+    <skills stamina="508" dexterity="201" speed="599" tackling="475" passing="363" shooting="461" control="399" accuracy="402" goalkeeping="53" heading="407"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94064">
+    <personal name="Hector Gatti">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="605" risktaking="323" offensive="477" aggressive="446" consistent="512" creative="612" experienced="470"/>
+    <skills stamina="528" dexterity="330" speed="211" tackling="256" passing="363" shooting="508" control="284" accuracy="236" goalkeeping="446" heading="252"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94065">
+    <personal name="Carlos Ortega">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="431" risktaking="741" offensive="436" aggressive="186" consistent="318" creative="407" experienced="581"/>
+    <skills stamina="457" dexterity="660" speed="306" tackling="192" passing="454" shooting="473" control="263" accuracy="149" goalkeeping="541" heading="182"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94066">
+    <personal name="Juan Umana">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="428" risktaking="563" offensive="619" aggressive="404" consistent="451" creative="314" experienced="274"/>
+    <skills stamina="728" dexterity="721" speed="574" tackling="448" passing="396" shooting="334" control="544" accuracy="338" goalkeeping="78" heading="357"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="94067">
+    <personal name="Jorge Torres">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="420" risktaking="343" offensive="389" aggressive="430" consistent="422" creative="428" experienced="438"/>
+    <skills stamina="206" dexterity="382" speed="352" tackling="486" passing="375" shooting="473" control="457" accuracy="507" goalkeeping="77" heading="424"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="94068">
+    <personal name="Daniel Fuentes">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="490" risktaking="608" offensive="503" aggressive="590" consistent="422" creative="335" experienced="636"/>
+    <skills stamina="664" dexterity="601" speed="442" tackling="519" passing="450" shooting="453" control="404" accuracy="518" goalkeeping="82" heading="444"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94069">
+    <personal name="Angelo Merello">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="481" risktaking="301" offensive="559" aggressive="406" consistent="326" creative="483" experienced="152"/>
+    <skills stamina="450" dexterity="634" speed="400" tackling="546" passing="495" shooting="401" control="454" accuracy="518" goalkeeping="63" heading="334"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94070">
+    <personal name="Hugo Neira">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="509" risktaking="346" offensive="546" aggressive="559" consistent="399" creative="610" experienced="473"/>
+    <skills stamina="530" dexterity="253" speed="553" tackling="532" passing="343" shooting="357" control="324" accuracy="333" goalkeeping="57" heading="325"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94071">
+    <personal name="Roberto Cartes">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="627" risktaking="413" offensive="454" aggressive="314" consistent="560" creative="618" experienced="661"/>
+    <skills stamina="362" dexterity="590" speed="718" tackling="381" passing="535" shooting="466" control="524" accuracy="417" goalkeeping="73" heading="458"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="94072">
+    <personal name="Rodrigo Rain">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="654" risktaking="358" offensive="705" aggressive="777" consistent="352" creative="377" experienced="686"/>
+    <skills stamina="678" dexterity="598" speed="317" tackling="396" passing="431" shooting="468" control="488" accuracy="486" goalkeeping="64" heading="552"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="94073">
+    <personal name="Omar Gomez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="544" risktaking="655" offensive="496" aggressive="652" consistent="338" creative="483" experienced="462"/>
+    <skills stamina="215" dexterity="342" speed="467" tackling="519" passing="431" shooting="468" control="425" accuracy="398" goalkeeping="67" heading="493"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94074">
+    <personal name="Francisco Ugarte">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="722" risktaking="396" offensive="412" aggressive="129" consistent="386" creative="730" experienced="271"/>
+    <skills stamina="445" dexterity="727" speed="485" tackling="424" passing="467" shooting="458" control="542" accuracy="406" goalkeeping="88" heading="412"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94075">
+    <personal name="Luis Munoz">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="561" risktaking="534" offensive="627" aggressive="642" consistent="447" creative="375" experienced="483"/>
+    <skills stamina="440" dexterity="183" speed="218" tackling="361" passing="306" shooting="302" control="355" accuracy="443" goalkeeping="72" heading="425"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94076">
+    <personal name="Nestor Fernandez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="443" risktaking="462" offensive="334" aggressive="226" consistent="262" creative="492" experienced="482"/>
+    <skills stamina="555" dexterity="271" speed="309" tackling="519" passing="517" shooting="570" control="475" accuracy="538" goalkeeping="70" heading="479"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="94077">
+    <personal name="Luis Castillo">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="449" risktaking="706" offensive="367" aggressive="625" consistent="432" creative="415" experienced="426"/>
+    <skills stamina="358" dexterity="485" speed="225" tackling="407" passing="449" shooting="456" control="465" accuracy="431" goalkeeping="56" heading="543"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="94078">
+    <personal name="Wilson Contreras">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="624" risktaking="654" offensive="754" aggressive="466" consistent="359" creative="617" experienced="529"/>
+    <skills stamina="378" dexterity="434" speed="183" tackling="362" passing="471" shooting="496" control="337" accuracy="438" goalkeeping="57" heading="417"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94079">
+    <personal name="Segundo Escobar">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="224" risktaking="500" offensive="333" aggressive="396" consistent="539" creative="501" experienced="618"/>
+    <skills stamina="522" dexterity="403" speed="675" tackling="363" passing="450" shooting="531" control="419" accuracy="464" goalkeeping="61" heading="346"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94080">
+    <personal name="Javier Zeoli">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="390" risktaking="289" offensive="560" aggressive="778" consistent="594" creative="227" experienced="415"/>
+    <skills stamina="263" dexterity="512" speed="352" tackling="222" passing="499" shooting="406" control="347" accuracy="214" goalkeeping="579" heading="232"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94081">
+    <personal name="Mario Jamett">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="558" risktaking="754" offensive="808" aggressive="478" consistent="554" creative="726" experienced="518"/>
+    <skills stamina="419" dexterity="272" speed="512" tackling="174" passing="383" shooting="504" control="324" accuracy="171" goalkeeping="620" heading="225"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94082">
+    <personal name="Oscar Lee Chong">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="367" risktaking="416" offensive="562" aggressive="707" consistent="602" creative="539" experienced="365"/>
+    <skills stamina="638" dexterity="476" speed="421" tackling="421" passing="538" shooting="496" control="427" accuracy="534" goalkeeping="78" heading="418"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="94083">
+    <personal name="Edgardo Fuentes">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="393" risktaking="467" offensive="434" aggressive="404" consistent="341" creative="377" experienced="442"/>
+    <skills stamina="631" dexterity="573" speed="531" tackling="493" passing="410" shooting="549" control="546" accuracy="424" goalkeeping="75" heading="419"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="94084">
+    <personal name="Ismael Ahumada">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="444" risktaking="514" offensive="542" aggressive="367" consistent="330" creative="291" experienced="666"/>
+    <skills stamina="197" dexterity="248" speed="264" tackling="503" passing="496" shooting="426" control="435" accuracy="563" goalkeeping="75" heading="464"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="94085">
+    <personal name="Cristian Radi">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="359" risktaking="440" offensive="280" aggressive="569" consistent="852" creative="592" experienced="512"/>
+    <skills stamina="714" dexterity="576" speed="447" tackling="534" passing="548" shooting="504" control="480" accuracy="520" goalkeeping="64" heading="537"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94086">
+    <personal name="Rodrigo Huerta">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="462" risktaking="647" offensive="402" aggressive="481" consistent="549" creative="625" experienced="550"/>
+    <skills stamina="212" dexterity="489" speed="685" tackling="431" passing="390" shooting="498" control="428" accuracy="385" goalkeeping="54" heading="455"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="94087">
+    <personal name="Ivan Canete">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="504" risktaking="623" offensive="658" aggressive="469" consistent="311" creative="599" experienced="342"/>
+    <skills stamina="613" dexterity="541" speed="587" tackling="452" passing="407" shooting="426" control="555" accuracy="390" goalkeeping="64" heading="456"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="94088">
+    <personal name="Alejandro Hisis">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="400" risktaking="445" offensive="715" aggressive="435" consistent="480" creative="665" experienced="438"/>
+    <skills stamina="246" dexterity="510" speed="436" tackling="412" passing="502" shooting="470" control="561" accuracy="461" goalkeeping="89" heading="502"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="94089">
+    <personal name="Nelson Lizana">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="515" risktaking="347" offensive="574" aggressive="614" consistent="638" creative="379" experienced="419"/>
+    <skills stamina="392" dexterity="680" speed="189" tackling="446" passing="576" shooting="507" control="376" accuracy="398" goalkeeping="80" heading="419"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94090">
+    <personal name="Miguel Castillo">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="491" risktaking="549" offensive="710" aggressive="584" consistent="601" creative="731" experienced="600"/>
+    <skills stamina="225" dexterity="419" speed="174" tackling="518" passing="452" shooting="523" control="413" accuracy="389" goalkeeping="82" heading="340"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94091">
+    <personal name="Leonardo Hernandez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="525" risktaking="646" offensive="361" aggressive="349" consistent="505" creative="633" experienced="407"/>
+    <skills stamina="534" dexterity="299" speed="684" tackling="461" passing="441" shooting="433" control="479" accuracy="518" goalkeeping="72" heading="524"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94092">
+    <personal name="Eros Perez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="482" risktaking="743" offensive="393" aggressive="542" consistent="556" creative="192" experienced="687"/>
+    <skills stamina="522" dexterity="576" speed="325" tackling="474" passing="387" shooting="492" control="468" accuracy="546" goalkeeping="89" heading="553"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94093">
+    <personal name="Cesar Diaz">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="507" risktaking="526" offensive="327" aggressive="498" consistent="558" creative="480" experienced="379"/>
+    <skills stamina="402" dexterity="584" speed="331" tackling="416" passing="439" shooting="556" control="466" accuracy="460" goalkeeping="72" heading="501"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94094">
+    <personal name="Ariel Beltramo">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="557" risktaking="482" offensive="347" aggressive="539" consistent="560" creative="527" experienced="617"/>
+    <skills stamina="233" dexterity="466" speed="598" tackling="496" passing="504" shooting="452" control="512" accuracy="355" goalkeeping="73" heading="445"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94095">
+    <personal name="Malcolm Moyano">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="556" risktaking="549" offensive="647" aggressive="386" consistent="676" creative="290" experienced="261"/>
+    <skills stamina="537" dexterity="351" speed="472" tackling="395" passing="517" shooting="402" control="379" accuracy="456" goalkeeping="78" heading="504"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94096">
+    <personal name="Juan Docabo">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="710" risktaking="388" offensive="508" aggressive="386" consistent="488" creative="468" experienced="184"/>
+    <skills stamina="408" dexterity="210" speed="485" tackling="224" passing="325" shooting="374" control="400" accuracy="192" goalkeeping="503" heading="226"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94097">
+    <personal name="Marcelo Reyes">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="465" risktaking="500" offensive="518" aggressive="417" consistent="773" creative="493" experienced="497"/>
+    <skills stamina="692" dexterity="590" speed="378" tackling="146" passing="471" shooting="321" control="277" accuracy="201" goalkeeping="410" heading="211"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94098">
+    <personal name="Miguel Latin">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="138" risktaking="294" offensive="695" aggressive="552" consistent="474" creative="306" experienced="358"/>
+    <skills stamina="589" dexterity="657" speed="547" tackling="483" passing="396" shooting="421" control="482" accuracy="502" goalkeeping="75" heading="494"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="94099">
+    <personal name="Ruben Silva">
+      <appearance value="0"/>
+      <nationality value="Uruguay"/>
+    </personal>
+    <personality active="151" risktaking="701" offensive="380" aggressive="685" consistent="637" creative="576" experienced="437"/>
+    <skills stamina="550" dexterity="452" speed="540" tackling="374" passing="493" shooting="491" control="448" accuracy="482" goalkeeping="82" heading="510"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="94100">
+    <personal name="Roberto Reynero">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="587" risktaking="389" offensive="192" aggressive="342" consistent="791" creative="327" experienced="351"/>
+    <skills stamina="489" dexterity="223" speed="322" tackling="393" passing="342" shooting="390" control="512" accuracy="406" goalkeeping="53" heading="322"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94101">
+    <personal name="Mauricio Soto">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="556" risktaking="394" offensive="565" aggressive="599" consistent="523" creative="459" experienced="719"/>
+    <skills stamina="641" dexterity="671" speed="696" tackling="582" passing="374" shooting="353" control="452" accuracy="437" goalkeeping="80" heading="382"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94102">
+    <personal name="Hugo Cortez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="550" risktaking="441" offensive="395" aggressive="330" consistent="707" creative="588" experienced="365"/>
+    <skills stamina="240" dexterity="363" speed="615" tackling="440" passing="337" shooting="339" control="408" accuracy="334" goalkeeping="76" heading="483"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94103">
+    <personal name="Nelson Enriquez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="338" risktaking="780" offensive="360" aggressive="483" consistent="530" creative="467" experienced="486"/>
+    <skills stamina="392" dexterity="327" speed="479" tackling="408" passing="481" shooting="505" control="406" accuracy="320" goalkeeping="65" heading="425"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="94104">
+    <personal name="Oscar Lepe">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="514" risktaking="520" offensive="324" aggressive="509" consistent="476" creative="598" experienced="611"/>
+    <skills stamina="459" dexterity="446" speed="383" tackling="438" passing="496" shooting="414" control="417" accuracy="358" goalkeeping="80" heading="485"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="94105">
+    <personal name="Gustavo Poirrier">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="692" risktaking="476" offensive="354" aggressive="613" consistent="741" creative="371" experienced="526"/>
+    <skills stamina="477" dexterity="316" speed="500" tackling="395" passing="397" shooting="366" control="436" accuracy="438" goalkeeping="56" heading="358"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94106">
+    <personal name="Patricio Lira">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="538" risktaking="400" offensive="253" aggressive="478" consistent="484" creative="748" experienced="531"/>
+    <skills stamina="366" dexterity="397" speed="269" tackling="437" passing="371" shooting="527" control="513" accuracy="383" goalkeeping="64" heading="430"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94107">
+    <personal name="Nelson Enriquez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="683" risktaking="531" offensive="489" aggressive="327" consistent="392" creative="611" experienced="330"/>
+    <skills stamina="644" dexterity="492" speed="340" tackling="426" passing="496" shooting="428" control="469" accuracy="482" goalkeeping="55" heading="339"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94108">
+    <personal name="Sergio Zuniga">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="207" risktaking="705" offensive="501" aggressive="217" consistent="875" creative="490" experienced="301"/>
+    <skills stamina="217" dexterity="260" speed="631" tackling="438" passing="501" shooting="454" control="405" accuracy="435" goalkeeping="74" heading="361"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94109">
+    <personal name="Franz Arancibia">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="381" risktaking="500" offensive="365" aggressive="529" consistent="461" creative="879" experienced="435"/>
+    <skills stamina="413" dexterity="288" speed="415" tackling="469" passing="506" shooting="505" control="331" accuracy="509" goalkeeping="58" heading="560"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94110">
+    <personal name="Marcelo Alvarez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="542" risktaking="718" offensive="449" aggressive="709" consistent="474" creative="527" experienced="463"/>
+    <skills stamina="485" dexterity="703" speed="705" tackling="521" passing="502" shooting="396" control="470" accuracy="496" goalkeeping="74" heading="470"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94111">
+    <personal name="Elton Troncoso">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="400" risktaking="440" offensive="546" aggressive="569" consistent="376" creative="596" experienced="422"/>
+    <skills stamina="483" dexterity="297" speed="266" tackling="349" passing="356" shooting="426" control="487" accuracy="539" goalkeeping="69" heading="502"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94112">
+    <personal name="Marcelo Ramirez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="700" risktaking="318" offensive="304" aggressive="553" consistent="148" creative="421" experienced="412"/>
+    <skills stamina="285" dexterity="390" speed="481" tackling="263" passing="396" shooting="553" control="385" accuracy="233" goalkeeping="596" heading="258"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94113">
+    <personal name="Claudio Arbiza">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="605" risktaking="494" offensive="592" aggressive="576" consistent="564" creative="407" experienced="612"/>
+    <skills stamina="441" dexterity="486" speed="374" tackling="199" passing="430" shooting="345" control="407" accuracy="241" goalkeeping="542" heading="187"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="94114">
+    <personal name="Javier Margas">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="276" risktaking="423" offensive="450" aggressive="406" consistent="514" creative="624" experienced="515"/>
+    <skills stamina="588" dexterity="614" speed="576" tackling="511" passing="542" shooting="577" control="439" accuracy="495" goalkeeping="95" heading="511"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="94115">
+    <personal name="Pedro Reyes">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="427" risktaking="461" offensive="512" aggressive="681" consistent="417" creative="579" experienced="645"/>
+    <skills stamina="443" dexterity="407" speed="249" tackling="475" passing="462" shooting="420" control="456" accuracy="481" goalkeeping="71" heading="381"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="94116">
+    <personal name="Francisco Royas">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="509" risktaking="509" offensive="709" aggressive="318" consistent="342" creative="552" experienced="700"/>
+    <skills stamina="446" dexterity="609" speed="533" tackling="487" passing="510" shooting="484" control="552" accuracy="479" goalkeeping="89" heading="510"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94117">
+    <personal name="Sergio Villegas">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="291" risktaking="686" offensive="363" aggressive="516" consistent="494" creative="622" experienced="749"/>
+    <skills stamina="605" dexterity="463" speed="602" tackling="566" passing="445" shooting="494" control="485" accuracy="482" goalkeeping="76" heading="392"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94118">
+    <personal name="Francisco Fernandez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="475" risktaking="830" offensive="504" aggressive="439" consistent="481" creative="462" experienced="745"/>
+    <skills stamina="228" dexterity="579" speed="498" tackling="455" passing="448" shooting="508" control="547" accuracy="386" goalkeeping="70" heading="412"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94119">
+    <personal name="David Henriquez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="513" risktaking="464" offensive="565" aggressive="514" consistent="403" creative="506" experienced="544"/>
+    <skills stamina="663" dexterity="440" speed="689" tackling="478" passing="570" shooting="368" control="547" accuracy="470" goalkeeping="91" heading="422"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="94120">
+    <personal name="Hector Tapia">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="665" risktaking="519" offensive="322" aggressive="603" consistent="446" creative="360" experienced="425"/>
+    <skills stamina="382" dexterity="416" speed="665" tackling="516" passing="415" shooting="543" control="419" accuracy="370" goalkeeping="92" heading="502"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="94121">
+    <personal name="Mario Salas">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="363" risktaking="305" offensive="525" aggressive="562" consistent="507" creative="545" experienced="540"/>
+    <skills stamina="577" dexterity="524" speed="198" tackling="447" passing="489" shooting="519" control="559" accuracy="471" goalkeeping="74" heading="391"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94122">
+    <personal name="Francisco Arrue">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="350" risktaking="528" offensive="627" aggressive="592" consistent="616" creative="355" experienced="506"/>
+    <skills stamina="384" dexterity="354" speed="697" tackling="438" passing="549" shooting="442" control="571" accuracy="422" goalkeeping="82" heading="591"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94123">
+    <personal name="Juan Carlos Alegria">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="598" risktaking="844" offensive="413" aggressive="488" consistent="415" creative="520" experienced="613"/>
+    <skills stamina="752" dexterity="717" speed="492" tackling="531" passing="580" shooting="542" control="573" accuracy="434" goalkeeping="87" heading="524"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94124">
+    <personal name="Fernando Vergara">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="544" risktaking="642" offensive="521" aggressive="530" consistent="551" creative="356" experienced="665"/>
+    <skills stamina="442" dexterity="395" speed="377" tackling="434" passing="408" shooting="482" control="393" accuracy="524" goalkeeping="90" heading="451"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94125">
+    <personal name="Ivo Basay">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="418" risktaking="618" offensive="596" aggressive="678" consistent="570" creative="448" experienced="658"/>
+    <skills stamina="379" dexterity="257" speed="243" tackling="575" passing="572" shooting="681" control="589" accuracy="617" goalkeeping="71" heading="580"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94126">
+    <personal name="Hugo Rubio">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="441" risktaking="575" offensive="341" aggressive="351" consistent="431" creative="392" experienced="375"/>
+    <skills stamina="741" dexterity="211" speed="223" tackling="554" passing="533" shooting="555" control="504" accuracy="544" goalkeeping="98" heading="541"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94127">
+    <personal name="Patricio Avila">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="379" risktaking="409" offensive="650" aggressive="489" consistent="433" creative="474" experienced="453"/>
+    <skills stamina="624" dexterity="658" speed="673" tackling="397" passing="394" shooting="411" control="417" accuracy="495" goalkeeping="75" heading="422"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94128">
+    <personal name="Carlos Tejas">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="534" risktaking="600" offensive="365" aggressive="437" consistent="204" creative="478" experienced="510"/>
+    <skills stamina="202" dexterity="218" speed="345" tackling="212" passing="504" shooting="502" control="331" accuracy="169" goalkeeping="422" heading="235"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="94129">
+    <personal name="Johnny Perez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="356" risktaking="375" offensive="350" aggressive="511" consistent="451" creative="514" experienced="255"/>
+    <skills stamina="314" dexterity="568" speed="537" tackling="182" passing="428" shooting="485" control="368" accuracy="201" goalkeeping="462" heading="248"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="94130">
+    <personal name="Luis Marin">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="376" risktaking="339" offensive="746" aggressive="490" consistent="260" creative="353" experienced="649"/>
+    <skills stamina="496" dexterity="298" speed="366" tackling="394" passing="394" shooting="508" control="435" accuracy="495" goalkeeping="84" heading="480"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="94131">
+    <personal name="Pablo Lenci">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="659" risktaking="400" offensive="462" aggressive="693" consistent="572" creative="380" experienced="523"/>
+    <skills stamina="669" dexterity="226" speed="500" tackling="414" passing="466" shooting="331" control="569" accuracy="391" goalkeeping="62" heading="451"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="94132">
+    <personal name="Juan Estay">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="501" risktaking="183" offensive="280" aggressive="715" consistent="413" creative="586" experienced="533"/>
+    <skills stamina="526" dexterity="489" speed="391" tackling="519" passing="389" shooting="504" control="478" accuracy="525" goalkeeping="60" heading="485"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94133">
+    <personal name="Enzo Lara">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="229" risktaking="595" offensive="379" aggressive="640" consistent="552" creative="576" experienced="498"/>
+    <skills stamina="253" dexterity="718" speed="355" tackling="425" passing="437" shooting="405" control="456" accuracy="381" goalkeeping="64" heading="470"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94134">
+    <personal name="Luis Fuentes">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="746" risktaking="737" offensive="455" aggressive="422" consistent="348" creative="398" experienced="433"/>
+    <skills stamina="669" dexterity="687" speed="317" tackling="504" passing="417" shooting="414" control="477" accuracy="291" goalkeeping="66" heading="424"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94135">
+    <personal name="Juan Carlos Barraza">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="612" risktaking="439" offensive="428" aggressive="500" consistent="458" creative="578" experienced="371"/>
+    <skills stamina="278" dexterity="310" speed="227" tackling="506" passing="561" shooting="455" control="492" accuracy="381" goalkeeping="72" heading="330"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="94136">
+    <personal name="Manuel Ibarra">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="259" risktaking="351" offensive="323" aggressive="510" consistent="467" creative="342" experienced="473"/>
+    <skills stamina="673" dexterity="537" speed="433" tackling="415" passing="371" shooting="477" control="350" accuracy="443" goalkeeping="54" heading="397"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="94137">
+    <personal name="Hugo Sena">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="708" risktaking="564" offensive="318" aggressive="459" consistent="291" creative="526" experienced="419"/>
+    <skills stamina="365" dexterity="458" speed="535" tackling="402" passing="548" shooting="409" control="513" accuracy="438" goalkeeping="68" heading="421"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="94138">
+    <personal name="Carlos Rojas">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="445" risktaking="277" offensive="677" aggressive="446" consistent="761" creative="476" experienced="685"/>
+    <skills stamina="615" dexterity="622" speed="240" tackling="436" passing="511" shooting="475" control="538" accuracy="345" goalkeeping="62" heading="408"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94139">
+    <personal name="Jose Ponce">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="474" risktaking="427" offensive="516" aggressive="418" consistent="240" creative="600" experienced="592"/>
+    <skills stamina="667" dexterity="469" speed="288" tackling="493" passing="478" shooting="341" control="441" accuracy="435" goalkeeping="59" heading="409"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94140">
+    <personal name="Herman Alvarado">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="492" risktaking="757" offensive="158" aggressive="415" consistent="622" creative="299" experienced="811"/>
+    <skills stamina="382" dexterity="387" speed="681" tackling="343" passing="328" shooting="351" control="470" accuracy="335" goalkeeping="59" heading="403"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94141">
+    <personal name="Adolfo Esparza">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="432" risktaking="576" offensive="379" aggressive="519" consistent="612" creative="820" experienced="338"/>
+    <skills stamina="716" dexterity="197" speed="280" tackling="431" passing="499" shooting="588" control="418" accuracy="438" goalkeeping="72" heading="383"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94142">
+    <personal name="Alejandro Kenig">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="431" risktaking="523" offensive="191" aggressive="346" consistent="492" creative="468" experienced="668"/>
+    <skills stamina="557" dexterity="490" speed="356" tackling="352" passing="480" shooting="345" control="495" accuracy="440" goalkeeping="84" heading="365"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94143">
+    <personal name="Roberto Cerino">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="505" risktaking="389" offensive="661" aggressive="362" consistent="297" creative="513" experienced="344"/>
+    <skills stamina="197" dexterity="156" speed="521" tackling="488" passing="385" shooting="483" control="468" accuracy="452" goalkeeping="76" heading="322"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="94144">
+    <personal name="Roberto Rojas">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="572" risktaking="454" offensive="531" aggressive="338" consistent="710" creative="508" experienced="494"/>
+    <skills stamina="173" dexterity="595" speed="271" tackling="237" passing="498" shooting="457" control="396" accuracy="175" goalkeeping="469" heading="262"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94145">
+    <personal name="Waldo Trejos">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="647" risktaking="973" offensive="319" aggressive="437" consistent="570" creative="238" experienced="605"/>
+    <skills stamina="570" dexterity="584" speed="405" tackling="204" passing="390" shooting="424" control="282" accuracy="179" goalkeeping="419" heading="235"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94146">
+    <personal name="Joel Molina">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="444" risktaking="642" offensive="498" aggressive="268" consistent="338" creative="473" experienced="501"/>
+    <skills stamina="515" dexterity="654" speed="437" tackling="571" passing="469" shooting="574" control="506" accuracy="418" goalkeeping="94" heading="503"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="94147">
+    <personal name="Rodrigo Perez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="568" risktaking="433" offensive="299" aggressive="738" consistent="501" creative="602" experienced="653"/>
+    <skills stamina="570" dexterity="337" speed="532" tackling="378" passing="439" shooting="421" control="367" accuracy="535" goalkeeping="84" heading="466"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="94148">
+    <personal name="Wilson Rojas">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="459" risktaking="684" offensive="525" aggressive="369" consistent="306" creative="453" experienced="688"/>
+    <skills stamina="230" dexterity="725" speed="550" tackling="434" passing="511" shooting="393" control="556" accuracy="448" goalkeeping="78" heading="473"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="94149">
+    <personal name="Clarence Acuna">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="324" risktaking="308" offensive="436" aggressive="533" consistent="353" creative="549" experienced="227"/>
+    <skills stamina="444" dexterity="623" speed="652" tackling="581" passing="411" shooting="477" control="507" accuracy="357" goalkeeping="75" heading="391"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94150">
+    <personal name="Mauro Melendez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="555" risktaking="429" offensive="380" aggressive="498" consistent="252" creative="467" experienced="533"/>
+    <skills stamina="459" dexterity="693" speed="462" tackling="490" passing="404" shooting="316" control="352" accuracy="436" goalkeeping="72" heading="354"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94151">
+    <personal name="Italo Pinochet">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="400" risktaking="451" offensive="567" aggressive="465" consistent="471" creative="287" experienced="432"/>
+    <skills stamina="343" dexterity="641" speed="704" tackling="522" passing="567" shooting="498" control="518" accuracy="404" goalkeeping="62" heading="526"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="94152">
+    <personal name="Luis Casanova">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="506" risktaking="576" offensive="423" aggressive="288" consistent="539" creative="465" experienced="385"/>
+    <skills stamina="629" dexterity="520" speed="451" tackling="526" passing="443" shooting="435" control="518" accuracy="363" goalkeeping="81" heading="501"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="94153">
+    <personal name="Danilo Miranda">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="491" risktaking="729" offensive="410" aggressive="362" consistent="286" creative="484" experienced="529"/>
+    <skills stamina="388" dexterity="422" speed="276" tackling="530" passing="555" shooting="469" control="401" accuracy="381" goalkeeping="77" heading="395"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="94154">
+    <personal name="Gerardo Martino">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="633" risktaking="506" offensive="684" aggressive="656" consistent="771" creative="512" experienced="519"/>
+    <skills stamina="478" dexterity="467" speed="610" tackling="396" passing="540" shooting="435" control="507" accuracy="414" goalkeeping="85" heading="530"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94155">
+    <personal name="Alejandro Tobar">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="391" risktaking="314" offensive="458" aggressive="636" consistent="569" creative="394" experienced="536"/>
+    <skills stamina="407" dexterity="424" speed="268" tackling="398" passing="399" shooting="369" control="506" accuracy="502" goalkeeping="87" heading="527"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94156">
+    <personal name="Sergio Gonzalez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="605" risktaking="581" offensive="407" aggressive="501" consistent="558" creative="597" experienced="393"/>
+    <skills stamina="386" dexterity="340" speed="240" tackling="493" passing="378" shooting="466" control="542" accuracy="491" goalkeeping="73" heading="473"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94157">
+    <personal name="Leopoldo Arancibia">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="637" risktaking="690" offensive="725" aggressive="595" consistent="551" creative="784" experienced="448"/>
+    <skills stamina="673" dexterity="558" speed="501" tackling="533" passing="366" shooting="535" control="408" accuracy="520" goalkeeping="71" heading="475"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="94158">
+    <personal name="Mario Nunez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="445" risktaking="522" offensive="399" aggressive="531" consistent="537" creative="595" experienced="390"/>
+    <skills stamina="351" dexterity="488" speed="402" tackling="503" passing="515" shooting="474" control="470" accuracy="446" goalkeeping="87" heading="545"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94159">
+    <personal name="Jose Chaves">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="661" risktaking="383" offensive="606" aggressive="550" consistent="528" creative="294" experienced="188"/>
+    <skills stamina="451" dexterity="366" speed="522" tackling="468" passing="482" shooting="412" control="479" accuracy="430" goalkeeping="60" heading="416"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94160">
+    <personal name="Cristian Trejos">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="475" risktaking="567" offensive="353" aggressive="693" consistent="670" creative="481" experienced="502"/>
+    <skills stamina="262" dexterity="610" speed="358" tackling="189" passing="434" shooting="525" control="346" accuracy="261" goalkeeping="474" heading="220"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94161">
+    <personal name="Raul Imilpan">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="562" risktaking="702" offensive="556" aggressive="368" consistent="732" creative="234" experienced="283"/>
+    <skills stamina="192" dexterity="528" speed="633" tackling="198" passing="504" shooting="426" control="272" accuracy="175" goalkeeping="580" heading="169"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94162">
+    <personal name="Franyo Flores">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="574" risktaking="614" offensive="590" aggressive="553" consistent="371" creative="576" experienced="483"/>
+    <skills stamina="388" dexterity="551" speed="627" tackling="384" passing="420" shooting="529" control="401" accuracy="394" goalkeeping="66" heading="422"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="94163">
+    <personal name="Daniel Fuentes">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="511" risktaking="816" offensive="530" aggressive="787" consistent="522" creative="760" experienced="403"/>
+    <skills stamina="704" dexterity="743" speed="369" tackling="584" passing="548" shooting="360" control="513" accuracy="541" goalkeeping="59" heading="517"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="94164">
+    <personal name="Marcelo Zunino">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="628" risktaking="751" offensive="693" aggressive="757" consistent="399" creative="443" experienced="711"/>
+    <skills stamina="704" dexterity="466" speed="212" tackling="456" passing="449" shooting="361" control="453" accuracy="360" goalkeeping="58" heading="441"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94165">
+    <personal name="Ariel Lara">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="725" risktaking="359" offensive="585" aggressive="658" consistent="389" creative="490" experienced="603"/>
+    <skills stamina="619" dexterity="341" speed="526" tackling="546" passing="551" shooting="445" control="510" accuracy="577" goalkeeping="95" heading="485"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94166">
+    <personal name="Hernan Pena">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="705" risktaking="853" offensive="705" aggressive="417" consistent="512" creative="498" experienced="395"/>
+    <skills stamina="285" dexterity="693" speed="510" tackling="458" passing="503" shooting="443" control="347" accuracy="408" goalkeeping="62" heading="408"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94167">
+    <personal name="Mario Vanemarak">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="613" risktaking="519" offensive="754" aggressive="315" consistent="553" creative="139" experienced="525"/>
+    <skills stamina="640" dexterity="544" speed="533" tackling="545" passing="576" shooting="530" control="535" accuracy="481" goalkeeping="73" heading="557"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="94168">
+    <personal name="Orlando Munoz">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="438" risktaking="515" offensive="548" aggressive="692" consistent="469" creative="60" experienced="437"/>
+    <skills stamina="704" dexterity="704" speed="323" tackling="503" passing="441" shooting="503" control="418" accuracy="418" goalkeeping="80" heading="450"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="94169">
+    <personal name="Victor Monje">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="319" risktaking="518" offensive="796" aggressive="439" consistent="45" creative="649" experienced="452"/>
+    <skills stamina="229" dexterity="514" speed="469" tackling="506" passing="436" shooting="403" control="391" accuracy="448" goalkeeping="79" heading="493"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94170">
+    <personal name="Luis Medina">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="449" risktaking="582" offensive="642" aggressive="554" consistent="304" creative="675" experienced="515"/>
+    <skills stamina="560" dexterity="526" speed="345" tackling="565" passing="388" shooting="451" control="444" accuracy="500" goalkeeping="89" heading="558"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94171">
+    <personal name="Jaime Aguilar">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="520" risktaking="718" offensive="791" aggressive="959" consistent="415" creative="482" experienced="579"/>
+    <skills stamina="652" dexterity="642" speed="271" tackling="421" passing="372" shooting="468" control="484" accuracy="409" goalkeeping="66" heading="322"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94172">
+    <personal name="Carlos Caceres">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="403" risktaking="517" offensive="576" aggressive="621" consistent="638" creative="567" experienced="602"/>
+    <skills stamina="688" dexterity="326" speed="681" tackling="428" passing="359" shooting="368" control="554" accuracy="487" goalkeeping="77" heading="403"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="94173">
+    <personal name="Ramon Castillo">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="659" risktaking="305" offensive="458" aggressive="528" consistent="612" creative="571" experienced="784"/>
+    <skills stamina="658" dexterity="614" speed="320" tackling="433" passing="507" shooting="493" control="481" accuracy="536" goalkeeping="85" heading="420"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94174">
+    <personal name="Ruben Martinez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="547" risktaking="195" offensive="245" aggressive="552" consistent="770" creative="631" experienced="682"/>
+    <skills stamina="341" dexterity="526" speed="312" tackling="469" passing="474" shooting="503" control="543" accuracy="458" goalkeeping="74" heading="446"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94175">
+    <personal name="Pedro Gonzalez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="602" risktaking="441" offensive="652" aggressive="514" consistent="439" creative="634" experienced="507"/>
+    <skills stamina="414" dexterity="430" speed="227" tackling="454" passing="476" shooting="454" control="326" accuracy="424" goalkeeping="73" heading="478"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="94176">
+    <personal name="Guillermo Rojas">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="663" risktaking="637" offensive="715" aggressive="424" consistent="708" creative="639" experienced="429"/>
+    <skills stamina="191" dexterity="284" speed="601" tackling="171" passing="384" shooting="344" control="285" accuracy="195" goalkeeping="438" heading="215"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94177">
+    <personal name="Ricardo Miranda">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="516" risktaking="694" offensive="662" aggressive="677" consistent="649" creative="552" experienced="504"/>
+    <skills stamina="582" dexterity="314" speed="478" tackling="136" passing="335" shooting="320" control="252" accuracy="210" goalkeeping="461" heading="162"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94178">
+    <personal name="Carlos Soto">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="392" risktaking="545" offensive="597" aggressive="542" consistent="284" creative="426" experienced="460"/>
+    <skills stamina="419" dexterity="681" speed="225" tackling="412" passing="460" shooting="409" control="465" accuracy="449" goalkeeping="82" heading="383"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="94179">
+    <personal name="Claudio Tabali">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="383" risktaking="268" offensive="250" aggressive="409" consistent="611" creative="324" experienced="275"/>
+    <skills stamina="194" dexterity="284" speed="385" tackling="438" passing="417" shooting="384" control="369" accuracy="392" goalkeeping="70" heading="397"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="94180">
+    <personal name="Luis Caballero">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="333" risktaking="692" offensive="535" aggressive="447" consistent="397" creative="220" experienced="425"/>
+    <skills stamina="447" dexterity="535" speed="350" tackling="537" passing="526" shooting="490" control="426" accuracy="382" goalkeeping="65" heading="503"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94181">
+    <personal name="Wilson Contreras">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="601" risktaking="478" offensive="587" aggressive="352" consistent="483" creative="514" experienced="229"/>
+    <skills stamina="559" dexterity="640" speed="637" tackling="398" passing="367" shooting="351" control="482" accuracy="412" goalkeeping="72" heading="387"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94182">
+    <personal name="Alexis Cano">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="214" risktaking="598" offensive="505" aggressive="246" consistent="359" creative="348" experienced="742"/>
+    <skills stamina="649" dexterity="249" speed="633" tackling="477" passing="420" shooting="414" control="350" accuracy="488" goalkeeping="52" heading="393"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="94183">
+    <personal name="Fernando Perez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="375" risktaking="416" offensive="588" aggressive="345" consistent="343" creative="353" experienced="492"/>
+    <skills stamina="727" dexterity="651" speed="656" tackling="426" passing="310" shooting="373" control="435" accuracy="484" goalkeeping="62" heading="496"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="94184">
+    <personal name="Luis Myano">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="635" risktaking="262" offensive="357" aggressive="263" consistent="409" creative="416" experienced="517"/>
+    <skills stamina="317" dexterity="642" speed="225" tackling="326" passing="523" shooting="399" control="519" accuracy="419" goalkeeping="57" heading="377"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="94185">
+    <personal name="Jose Roldan">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="428" risktaking="744" offensive="390" aggressive="575" consistent="547" creative="492" experienced="628"/>
+    <skills stamina="360" dexterity="435" speed="471" tackling="439" passing="423" shooting="504" control="364" accuracy="461" goalkeeping="69" heading="338"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94186">
+    <personal name="Miguel Candia">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="700" risktaking="448" offensive="366" aggressive="498" consistent="208" creative="514" experienced="626"/>
+    <skills stamina="683" dexterity="682" speed="185" tackling="476" passing="500" shooting="373" control="430" accuracy="404" goalkeeping="66" heading="304"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94187">
+    <personal name="Sergio Malbran">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="304" risktaking="568" offensive="660" aggressive="422" consistent="257" creative="657" experienced="774"/>
+    <skills stamina="495" dexterity="379" speed="231" tackling="383" passing="454" shooting="287" control="407" accuracy="294" goalkeeping="64" heading="452"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="94188">
+    <personal name="Marcelo Soto">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="535" risktaking="307" offensive="399" aggressive="598" consistent="631" creative="380" experienced="422"/>
+    <skills stamina="373" dexterity="445" speed="403" tackling="381" passing="279" shooting="360" control="357" accuracy="352" goalkeeping="58" heading="407"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94189">
+    <personal name="Rolando Azas">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="479" risktaking="277" offensive="240" aggressive="387" consistent="307" creative="511" experienced="691"/>
+    <skills stamina="177" dexterity="376" speed="674" tackling="521" passing="502" shooting="541" control="420" accuracy="496" goalkeeping="70" heading="366"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94190">
+    <personal name="Alex Garcia">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="672" risktaking="565" offensive="500" aggressive="527" consistent="716" creative="563" experienced="310"/>
+    <skills stamina="318" dexterity="581" speed="337" tackling="342" passing="466" shooting="435" control="355" accuracy="318" goalkeeping="52" heading="329"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94191">
+    <personal name="Jorge Gamboa">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="687" risktaking="459" offensive="304" aggressive="570" consistent="522" creative="311" experienced="815"/>
+    <skills stamina="562" dexterity="446" speed="535" tackling="402" passing="283" shooting="304" control="435" accuracy="400" goalkeeping="49" heading="293"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94192">
+    <personal name="Rodrigo Cuevas">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="506" risktaking="407" offensive="423" aggressive="355" consistent="439" creative="258" experienced="476"/>
+    <skills stamina="173" dexterity="416" speed="560" tackling="248" passing="488" shooting="490" control="249" accuracy="232" goalkeeping="462" heading="174"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94193">
+    <personal name="Rodrigo Vergara">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="384" risktaking="404" offensive="320" aggressive="480" consistent="435" creative="453" experienced="317"/>
+    <skills stamina="187" dexterity="259" speed="248" tackling="155" passing="443" shooting="437" control="237" accuracy="210" goalkeeping="483" heading="149"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="94194">
+    <personal name="Hector Santibanez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="519" risktaking="510" offensive="257" aggressive="918" consistent="356" creative="639" experienced="496"/>
+    <skills stamina="277" dexterity="616" speed="278" tackling="423" passing="375" shooting="412" control="560" accuracy="519" goalkeeping="84" heading="477"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="94195">
+    <personal name="Renato Garrido">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="123" risktaking="750" offensive="534" aggressive="594" consistent="460" creative="472" experienced="644"/>
+    <skills stamina="613" dexterity="201" speed="616" tackling="370" passing="362" shooting="397" control="551" accuracy="513" goalkeeping="81" heading="467"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="94196">
+    <personal name="Jaime Bahamondes">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="414" risktaking="565" offensive="410" aggressive="655" consistent="560" creative="431" experienced="654"/>
+    <skills stamina="674" dexterity="433" speed="704" tackling="404" passing="503" shooting="387" control="526" accuracy="424" goalkeeping="89" heading="435"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="94197">
+    <personal name="Juan Aros">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="388" risktaking="605" offensive="519" aggressive="516" consistent="608" creative="362" experienced="445"/>
+    <skills stamina="248" dexterity="239" speed="354" tackling="429" passing="373" shooting="527" control="355" accuracy="412" goalkeeping="85" heading="438"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94198">
+    <personal name="Jose Cabrera">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="611" risktaking="596" offensive="557" aggressive="728" consistent="600" creative="613" experienced="594"/>
+    <skills stamina="329" dexterity="589" speed="204" tackling="429" passing="483" shooting="379" control="514" accuracy="326" goalkeeping="53" heading="450"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94199">
+    <personal name="Santiago Pizzarro">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="344" risktaking="565" offensive="566" aggressive="435" consistent="730" creative="435" experienced="678"/>
+    <skills stamina="376" dexterity="238" speed="567" tackling="419" passing="431" shooting="358" control="485" accuracy="349" goalkeeping="85" heading="335"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="94200">
+    <personal name="Cristian Flores">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="506" risktaking="739" offensive="510" aggressive="367" consistent="473" creative="466" experienced="350"/>
+    <skills stamina="484" dexterity="610" speed="588" tackling="492" passing="513" shooting="457" control="514" accuracy="429" goalkeeping="78" heading="469"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="94201">
+    <personal name="Danilo Ormeno">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="466" risktaking="448" offensive="686" aggressive="552" consistent="435" creative="498" experienced="665"/>
+    <skills stamina="481" dexterity="633" speed="316" tackling="525" passing="511" shooting="536" control="432" accuracy="416" goalkeeping="80" heading="557"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="94202">
+    <personal name="Freddy Ferragut">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="644" risktaking="344" offensive="242" aggressive="413" consistent="681" creative="491" experienced="413"/>
+    <skills stamina="404" dexterity="453" speed="215" tackling="559" passing="456" shooting="445" control="421" accuracy="386" goalkeeping="84" heading="464"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94203">
+    <personal name="Luis Bustos">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="551" risktaking="383" offensive="602" aggressive="601" consistent="545" creative="494" experienced="243"/>
+    <skills stamina="554" dexterity="566" speed="239" tackling="406" passing="502" shooting="345" control="419" accuracy="353" goalkeeping="69" heading="426"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94204">
+    <personal name="Jorge Perez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="796" risktaking="288" offensive="497" aggressive="500" consistent="613" creative="438" experienced="605"/>
+    <skills stamina="560" dexterity="483" speed="652" tackling="429" passing="495" shooting="452" control="520" accuracy="464" goalkeeping="76" heading="462"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="94205">
+    <personal name="Claudio Nunez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="563" risktaking="417" offensive="383" aggressive="356" consistent="511" creative="601" experienced="373"/>
+    <skills stamina="266" dexterity="346" speed="577" tackling="380" passing="456" shooting="419" control="486" accuracy="409" goalkeeping="60" heading="483"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="94206">
+    <personal name="Mario Vener">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="536" risktaking="530" offensive="338" aggressive="712" consistent="479" creative="384" experienced="433"/>
+    <skills stamina="677" dexterity="384" speed="167" tackling="440" passing="420" shooting="340" control="467" accuracy="474" goalkeeping="63" heading="472"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94207">
+    <personal name="Carlos Rojas">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="318" risktaking="503" offensive="570" aggressive="450" consistent="901" creative="318" experienced="297"/>
+    <skills stamina="584" dexterity="330" speed="629" tackling="381" passing="477" shooting="469" control="302" accuracy="459" goalkeeping="60" heading="482"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94208">
+    <personal name="Manuel Suarez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="417" risktaking="758" offensive="548" aggressive="322" consistent="647" creative="498" experienced="500"/>
+    <skills stamina="309" dexterity="705" speed="678" tackling="209" passing="410" shooting="546" control="432" accuracy="245" goalkeeping="632" heading="268"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="94209">
+    <personal name="Eduardo Azargado">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="644" risktaking="655" offensive="441" aggressive="532" consistent="539" creative="572" experienced="500"/>
+    <skills stamina="384" dexterity="433" speed="589" tackling="231" passing="321" shooting="429" control="356" accuracy="247" goalkeeping="514" heading="229"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94210">
+    <personal name="Juan Gonzales">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="587" risktaking="321" offensive="464" aggressive="535" consistent="519" creative="419" experienced="280"/>
+    <skills stamina="700" dexterity="352" speed="174" tackling="564" passing="444" shooting="514" control="433" accuracy="403" goalkeeping="68" heading="417"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="94211">
+    <personal name="Victor Bascunan">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="206" risktaking="382" offensive="547" aggressive="460" consistent="425" creative="492" experienced="195"/>
+    <skills stamina="234" dexterity="423" speed="639" tackling="409" passing="512" shooting="398" control="466" accuracy="349" goalkeeping="82" heading="428"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="94212">
+    <personal name="Ricardo Rojas">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="577" risktaking="441" offensive="512" aggressive="514" consistent="457" creative="372" experienced="581"/>
+    <skills stamina="249" dexterity="397" speed="217" tackling="547" passing="520" shooting="433" control="593" accuracy="475" goalkeeping="72" heading="462"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94213">
+    <personal name="Richard Valenzuela">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="449" risktaking="424" offensive="637" aggressive="648" consistent="523" creative="231" experienced="220"/>
+    <skills stamina="584" dexterity="285" speed="420" tackling="534" passing="546" shooting="361" control="520" accuracy="532" goalkeeping="87" heading="503"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94214">
+    <personal name="Sergio Rivero">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="210" risktaking="373" offensive="378" aggressive="414" consistent="655" creative="395" experienced="679"/>
+    <skills stamina="449" dexterity="642" speed="162" tackling="339" passing="377" shooting="378" control="531" accuracy="512" goalkeeping="56" heading="491"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="94215">
+    <personal name="Jorge Rejamal">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="589" risktaking="428" offensive="474" aggressive="388" consistent="710" creative="372" experienced="357"/>
+    <skills stamina="335" dexterity="528" speed="643" tackling="513" passing="605" shooting="443" control="529" accuracy="395" goalkeeping="62" heading="406"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="94216">
+    <personal name="Jaime Ramirez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="396" risktaking="451" offensive="172" aggressive="446" consistent="405" creative="365" experienced="369"/>
+    <skills stamina="719" dexterity="273" speed="691" tackling="491" passing="372" shooting="454" control="530" accuracy="439" goalkeeping="73" heading="491"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="94217">
+    <personal name="Charles Silvera">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="431" risktaking="751" offensive="568" aggressive="479" consistent="483" creative="719" experienced="696"/>
+    <skills stamina="642" dexterity="415" speed="695" tackling="542" passing="568" shooting="523" control="451" accuracy="458" goalkeeping="71" heading="514"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94218">
+    <personal name="Hector Mendez">
+      <appearance value="0"/>
+      <nationality value="Uruguay"/>
+    </personal>
+    <personality active="133" risktaking="615" offensive="394" aggressive="242" consistent="663" creative="619" experienced="405"/>
+    <skills stamina="317" dexterity="434" speed="364" tackling="535" passing="468" shooting="578" control="443" accuracy="443" goalkeeping="81" heading="464"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="94219">
+    <personal name="Francisco Torre">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="429" risktaking="516" offensive="470" aggressive="623" consistent="336" creative="446" experienced="215"/>
+    <skills stamina="572" dexterity="256" speed="194" tackling="491" passing="580" shooting="465" control="492" accuracy="394" goalkeeping="88" heading="346"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94220">
+    <personal name="Casiano Del Valle">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="438" risktaking="612" offensive="482" aggressive="418" consistent="27" creative="605" experienced="413"/>
+    <skills stamina="520" dexterity="483" speed="248" tackling="473" passing="395" shooting="497" control="481" accuracy="445" goalkeeping="69" heading="510"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="94221">
+    <personal name="Ramon Tapia">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="316" risktaking="585" offensive="475" aggressive="538" consistent="358" creative="682" experienced="418"/>
+    <skills stamina="672" dexterity="331" speed="625" tackling="385" passing="512" shooting="536" control="504" accuracy="447" goalkeeping="62" heading="402"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94222">
+    <personal name="Rodrigo Valenzuela">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="578" risktaking="398" offensive="645" aggressive="646" consistent="519" creative="607" experienced="388"/>
+    <skills stamina="429" dexterity="306" speed="408" tackling="515" passing="477" shooting="569" control="471" accuracy="524" goalkeeping="92" heading="492"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94223">
+    <personal name="Juan Duran">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="521" risktaking="581" offensive="880" aggressive="553" consistent="740" creative="292" experienced="653"/>
+    <skills stamina="672" dexterity="411" speed="279" tackling="464" passing="392" shooting="521" control="362" accuracy="463" goalkeeping="72" heading="340"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94224">
+    <personal name="Patricio Toledo">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="441" risktaking="640" offensive="571" aggressive="519" consistent="333" creative="461" experienced="389"/>
+    <skills stamina="519" dexterity="720" speed="480" tackling="287" passing="411" shooting="487" control="360" accuracy="226" goalkeeping="595" heading="283"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94225">
+    <personal name="Nelson Tapia">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="399" risktaking="437" offensive="542" aggressive="552" consistent="653" creative="698" experienced="729"/>
+    <skills stamina="435" dexterity="273" speed="194" tackling="171" passing="508" shooting="447" control="395" accuracy="258" goalkeeping="525" heading="204"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94226">
+    <personal name="Claudio Lizama">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="624" risktaking="445" offensive="322" aggressive="332" consistent="589" creative="551" experienced="479"/>
+    <skills stamina="592" dexterity="620" speed="614" tackling="471" passing="573" shooting="527" control="544" accuracy="462" goalkeeping="70" heading="467"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="94227">
+    <personal name="Andres Romero">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="411" risktaking="374" offensive="657" aggressive="586" consistent="552" creative="523" experienced="614"/>
+    <skills stamina="466" dexterity="579" speed="227" tackling="502" passing="433" shooting="387" control="406" accuracy="372" goalkeeping="71" heading="375"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="94228">
+    <personal name="Daniel Lopez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="530" risktaking="501" offensive="978" aggressive="682" consistent="583" creative="486" experienced="450"/>
+    <skills stamina="411" dexterity="715" speed="248" tackling="536" passing="482" shooting="517" control="511" accuracy="420" goalkeeping="76" heading="458"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94229">
+    <personal name="Nelson Garrido">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="572" risktaking="561" offensive="635" aggressive="566" consistent="742" creative="389" experienced="618"/>
+    <skills stamina="728" dexterity="293" speed="190" tackling="585" passing="498" shooting="575" control="515" accuracy="448" goalkeeping="82" heading="431"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94230">
+    <personal name="Max Muller">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="560" risktaking="460" offensive="644" aggressive="369" consistent="351" creative="519" experienced="507"/>
+    <skills stamina="452" dexterity="492" speed="332" tackling="633" passing="459" shooting="366" control="493" accuracy="486" goalkeeping="80" heading="504"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94231">
+    <personal name="Mario Lepe">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="652" risktaking="405" offensive="212" aggressive="568" consistent="377" creative="339" experienced="597"/>
+    <skills stamina="690" dexterity="737" speed="469" tackling="414" passing="395" shooting="455" control="487" accuracy="478" goalkeeping="90" heading="376"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="94232">
+    <personal name="Rodrigo Gomez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="563" risktaking="527" offensive="641" aggressive="526" consistent="679" creative="448" experienced="390"/>
+    <skills stamina="561" dexterity="637" speed="386" tackling="535" passing="426" shooting="460" control="554" accuracy="398" goalkeeping="73" heading="426"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="94233">
+    <personal name="Ian Mcniven">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="405" risktaking="557" offensive="342" aggressive="324" consistent="451" creative="237" experienced="534"/>
+    <skills stamina="573" dexterity="562" speed="403" tackling="626" passing="555" shooting="546" control="560" accuracy="517" goalkeeping="96" heading="527"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="94234">
+    <personal name="Nelson Parraguez">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="326" risktaking="382" offensive="568" aggressive="656" consistent="456" creative="207" experienced="527"/>
+    <skills stamina="198" dexterity="205" speed="260" tackling="471" passing="576" shooting="512" control="501" accuracy="431" goalkeeping="87" heading="372"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94235">
+    <personal name="Mario Salinas">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="581" risktaking="535" offensive="683" aggressive="708" consistent="518" creative="500" experienced="647"/>
+    <skills stamina="340" dexterity="225" speed="588" tackling="488" passing="385" shooting="518" control="467" accuracy="423" goalkeeping="64" heading="413"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="94236">
+    <personal name="Lukas Tudor">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="454" risktaking="655" offensive="368" aggressive="694" consistent="548" creative="334" experienced="516"/>
+    <skills stamina="370" dexterity="593" speed="477" tackling="393" passing="473" shooting="518" control="441" accuracy="443" goalkeeping="87" heading="536"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94237">
+    <personal name="Cate">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="537" risktaking="572" offensive="244" aggressive="522" consistent="698" creative="435" experienced="586"/>
+    <skills stamina="450" dexterity="282" speed="470" tackling="494" passing="442" shooting="438" control="443" accuracy="487" goalkeeping="76" heading="577"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="94238">
+    <personal name="Sebastian Rozental">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="432" risktaking="338" offensive="465" aggressive="577" consistent="503" creative="398" experienced="316"/>
+    <skills stamina="558" dexterity="490" speed="472" tackling="512" passing="485" shooting="613" control="556" accuracy="533" goalkeeping="84" heading="558"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94239">
+    <personal name="Marcelo Caro">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="531" risktaking="374" offensive="804" aggressive="816" consistent="576" creative="502" experienced="435"/>
+    <skills stamina="507" dexterity="294" speed="289" tackling="423" passing="505" shooting="452" control="515" accuracy="507" goalkeeping="60" heading="460"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94240">
+    <personal name="Sergio Vargas">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="479" risktaking="500" offensive="393" aggressive="430" consistent="472" creative="391" experienced="662"/>
+    <skills stamina="309" dexterity="614" speed="493" tackling="205" passing="512" shooting="462" control="404" accuracy="239" goalkeeping="603" heading="234"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94241">
+    <personal name="Anibal Pinto">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="570" risktaking="290" offensive="743" aggressive="549" consistent="389" creative="691" experienced="332"/>
+    <skills stamina="550" dexterity="193" speed="338" tackling="183" passing="512" shooting="451" control="312" accuracy="190" goalkeeping="427" heading="163"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="94242">
+    <personal name="Miguel Ponce">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="106" risktaking="646" offensive="483" aggressive="520" consistent="655" creative="645" experienced="585"/>
+    <skills stamina="741" dexterity="563" speed="631" tackling="474" passing="507" shooting="487" control="450" accuracy="485" goalkeeping="81" heading="438"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="94243">
+    <personal name="Luis Abarca">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="195" risktaking="437" offensive="578" aggressive="707" consistent="748" creative="376" experienced="657"/>
+    <skills stamina="585" dexterity="331" speed="468" tackling="488" passing="417" shooting="517" control="560" accuracy="369" goalkeeping="86" heading="497"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="94244">
+    <personal name="Ronald Fuentes">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="673" risktaking="450" offensive="565" aggressive="618" consistent="610" creative="191" experienced="513"/>
+    <skills stamina="397" dexterity="445" speed="711" tackling="498" passing="498" shooting="503" control="433" accuracy="578" goalkeeping="67" heading="520"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="94245">
+    <personal name="Cristian Romero">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="690" risktaking="626" offensive="648" aggressive="460" consistent="719" creative="395" experienced="540"/>
+    <skills stamina="724" dexterity="237" speed="689" tackling="507" passing="512" shooting="449" control="448" accuracy="494" goalkeeping="76" heading="496"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="94246">
+    <personal name="Cristian Traverso">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="571" risktaking="557" offensive="475" aggressive="286" consistent="590" creative="599" experienced="622"/>
+    <skills stamina="225" dexterity="574" speed="587" tackling="362" passing="524" shooting="371" control="333" accuracy="376" goalkeeping="72" heading="473"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="94247">
+    <personal name="Victor Castaneda">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="509" risktaking="698" offensive="403" aggressive="677" consistent="136" creative="412" experienced="297"/>
+    <skills stamina="570" dexterity="456" speed="488" tackling="467" passing="402" shooting="423" control="516" accuracy="437" goalkeeping="59" heading="419"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="94248">
+    <personal name="Pablo Galdames">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="448" risktaking="800" offensive="764" aggressive="409" consistent="631" creative="311" experienced="804"/>
+    <skills stamina="444" dexterity="458" speed="394" tackling="415" passing="472" shooting="440" control="477" accuracy="541" goalkeeping="91" heading="541"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="94249">
+    <personal name="Patricio Mardones">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="658" risktaking="452" offensive="645" aggressive="427" consistent="436" creative="468" experienced="613"/>
+    <skills stamina="463" dexterity="282" speed="323" tackling="494" passing="565" shooting="484" control="446" accuracy="511" goalkeeping="77" heading="450"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94250">
+    <personal name="Luis Mussri">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="655" risktaking="267" offensive="334" aggressive="360" consistent="750" creative="491" experienced="488"/>
+    <skills stamina="686" dexterity="693" speed="424" tackling="519" passing="326" shooting="337" control="438" accuracy="324" goalkeeping="70" heading="428"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94251">
+    <personal name="Esteban Valencia">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="466" risktaking="183" offensive="511" aggressive="632" consistent="344" creative="368" experienced="771"/>
+    <skills stamina="400" dexterity="423" speed="671" tackling="424" passing="553" shooting="445" control="427" accuracy="361" goalkeeping="79" heading="337"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="94252">
+    <personal name="Marcelo Jara">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="401" risktaking="429" offensive="585" aggressive="572" consistent="313" creative="436" experienced="383"/>
+    <skills stamina="409" dexterity="420" speed="375" tackling="418" passing="375" shooting="544" control="386" accuracy="484" goalkeeping="59" heading="430"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="94253">
+    <personal name="Walter Silvani">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="400" risktaking="741" offensive="245" aggressive="710" consistent="516" creative="381" experienced="109"/>
+    <skills stamina="544" dexterity="647" speed="208" tackling="444" passing="522" shooting="498" control="436" accuracy="585" goalkeeping="65" heading="464"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94254">
+    <personal name="Marcelo Salas">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="476" risktaking="379" offensive="336" aggressive="471" consistent="477" creative="778" experienced="277"/>
+    <skills stamina="239" dexterity="198" speed="480" tackling="508" passing="510" shooting="456" control="358" accuracy="434" goalkeeping="64" heading="530"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="94255">
+    <personal name="Rodrigo Goldberg">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="324" risktaking="266" offensive="623" aggressive="497" consistent="476" creative="232" experienced="558"/>
+    <skills stamina="415" dexterity="322" speed="431" tackling="435" passing="446" shooting="424" control="434" accuracy="595" goalkeeping="62" heading="444"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+</Players>

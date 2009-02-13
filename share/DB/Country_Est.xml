@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Estonia">
+    <Regions>
+      <Region name="Estonia">
+        <stadium name="Dunamo Tallinn Stadium" capacity="1000"/>
+        <stadium name="Ep Johvi Stadium" capacity="2100"/>
+        <stadium name="Esdag Tartu Stadium" capacity="600"/>
+        <stadium name="Flora Tallinn Stadium" capacity="4500"/>
+        <stadium name="Kalev Sillamae Stadium" capacity="900"/>
+        <stadium name="Keemik K-j Stadium" capacity="700"/>
+        <stadium name="Merkuur Tartu Stadium" capacity="900"/>
+        <stadium name="Nikol Tallinn Stadium" capacity="2300"/>
+        <stadium name="Norma Tallinn Stadium" capacity="3800"/>
+        <stadium name="Tallinna Sadam Stadium" capacity="700"/>
+        <stadium name="Tervis Parnu Stadium" capacity="700"/>
+        <stadium name="Tevalte Tallinn Stadium" capacity="5400"/>
+        <stadium name="Trans Narva Stadium" capacity="1200"/>
+        <stadium name="Tulevik Viljandi Stadium" capacity="200"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Estonian league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="12" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Estonian Premier league champion"/>
+              <attendances>
+                <attendance tournament="Estonian Cup" stage="Quarterfinals"/>
+              </attendances>
+              <preset>
+                <club name="Dunamo Tallinn"/>
+                <club name="Ep Johvi"/>
+                <club name="Esdag Tartu"/>
+                <club name="Flora Tallinn"/>
+                <club name="Kalev Sillamae"/>
+                <club name="Merkuur Tartu"/>
+                <club name="Nikol Tallinn"/>
+                <club name="Norma Tallinn"/>
+                <club name="Tallinna Sadam"/>
+                <club name="Tervis Parnu"/>
+                <club name="Tevalte Tallinn"/>
+                <club name="Trans Narva"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Estonian Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Estonian Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+          <preset>
+            <club name="Dunamo Tallinn"/>
+            <club name="Ep Johvi"/>
+            <club name="Esdag Tartu"/>
+            <club name="Flora Tallinn"/>
+            <club name="Kalev Sillamae"/>
+            <club name="Merkuur Tartu"/>
+            <club name="Nikol Tallinn"/>
+            <club name="Norma Tallinn"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

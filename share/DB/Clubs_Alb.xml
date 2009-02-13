@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Albpetrol Patos">
+    <coach name="Fatmir Dogani"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Albania"/>
+    <stadium name="Albpetrol Patos Stadium"/>
+    <contracts>
+      <contract player="2000"/>
+      <contract player="2001"/>
+      <contract player="2002"/>
+      <contract player="2003"/>
+      <contract player="2004"/>
+      <contract player="2005"/>
+      <contract player="2006"/>
+      <contract player="2007"/>
+      <contract player="2008"/>
+      <contract player="2009"/>
+      <contract player="2010"/>
+      <contract player="2011"/>
+      <contract player="2012"/>
+      <contract player="2013"/>
+      <contract player="2014"/>
+      <contract player="2015"/>
+    </contracts>
+  </club>
+  <club name="Apolonia Fier">
+    <coach name="Sotiraq Tegu"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Albania"/>
+    <stadium name="Apolonia Fier Stadium"/>
+    <contracts>
+      <contract player="2016"/>
+      <contract player="2017"/>
+      <contract player="2018"/>
+      <contract player="2019"/>
+      <contract player="2020"/>
+      <contract player="2021"/>
+      <contract player="2022"/>
+      <contract player="2023"/>
+      <contract player="2024"/>
+      <contract player="2025"/>
+      <contract player="2026"/>
+      <contract player="2027"/>
+      <contract player="2028"/>
+      <contract player="2029"/>
+      <contract player="2030"/>
+      <contract player="2031"/>
+    </contracts>
+  </club>
+  <club name="Besa Kavaje">
+    <coach name="Azem Mullaliu"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Albania"/>
+    <stadium name="Besa Kavaje Stadium"/>
+    <contracts>
+      <contract player="2032"/>
+      <contract player="2033"/>
+      <contract player="2034"/>
+      <contract player="2035"/>
+      <contract player="2036"/>
+      <contract player="2037"/>
+      <contract player="2038"/>
+      <contract player="2039"/>
+      <contract player="2040"/>
+      <contract player="2041"/>
+      <contract player="2042"/>
+      <contract player="2043"/>
+      <contract player="2044"/>
+      <contract player="2045"/>
+      <contract player="2046"/>
+      <contract player="2047"/>
+    </contracts>
+  </club>
+  <club name="Beselidhja Lezhe">
+    <coach name="Vasil Bici"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Albania"/>
+    <stadium name="Beselidhja Lezhe Stadium"/>
+    <contracts>
+      <contract player="2048"/>
+      <contract player="2049"/>
+      <contract player="2050"/>
+      <contract player="2051"/>
+      <contract player="2052"/>
+      <contract player="2053"/>
+      <contract player="2054"/>
+      <contract player="2055"/>
+      <contract player="2056"/>
+      <contract player="2057"/>
+      <contract player="2058"/>
+      <contract player="2059"/>
+      <contract player="2060"/>
+      <contract player="2061"/>
+      <contract player="2062"/>
+      <contract player="2063"/>
+    </contracts>
+  </club>
+  <club name="Dinamo Tirana">
+    <coach name="Faruk Sejdini"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Albania"/>
+    <stadium name="Dinamo Tirana Stadium"/>
+    <contracts>
+      <contract player="2064"/>
+      <contract player="2065"/>
+      <contract player="2066"/>
+      <contract player="2067"/>
+      <contract player="2068"/>
+      <contract player="2069"/>
+      <contract player="2070"/>
+      <contract player="2071"/>
+      <contract player="2072"/>
+      <contract player="2073"/>
+      <contract player="2074"/>
+      <contract player="2075"/>
+      <contract player="2076"/>
+      <contract player="2077"/>
+      <contract player="2078"/>
+      <contract player="2079"/>
+    </contracts>
+  </club>
+  <club name="Elbasani">
+    <coach name="Dashamir Stringa"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Albania"/>
+    <stadium name="Elbasani Stadium"/>
+    <contracts>
+      <contract player="2080"/>
+      <contract player="2081"/>
+      <contract player="2082"/>
+      <contract player="2083"/>
+      <contract player="2084"/>
+      <contract player="2085"/>
+      <contract player="2086"/>
+      <contract player="2087"/>
+      <contract player="2088"/>
+      <contract player="2089"/>
+      <contract player="2090"/>
+      <contract player="2091"/>
+      <contract player="2092"/>
+      <contract player="2093"/>
+      <contract player="2094"/>
+      <contract player="2095"/>
+    </contracts>
+  </club>
+  <club name="Flamurtari Vlore">
+    <coach name="Bejkush Birce"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Albania"/>
+    <stadium name="Flamurtari Vlore Stadium"/>
+    <contracts>
+      <contract player="2096"/>
+      <contract player="2097"/>
+      <contract player="2098"/>
+      <contract player="2099"/>
+      <contract player="2100"/>
+      <contract player="2101"/>
+      <contract player="2102"/>
+      <contract player="2103"/>
+      <contract player="2104"/>
+      <contract player="2105"/>
+      <contract player="2106"/>
+      <contract player="2107"/>
+      <contract player="2108"/>
+      <contract player="2109"/>
+      <contract player="2110"/>
+      <contract player="2111"/>
+    </contracts>
+  </club>
+  <club name="Iliria F-kruje">
+    <coach name="Fatmir Sala"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Albania"/>
+    <stadium name="Iliria F-kruje Stadium"/>
+    <contracts>
+      <contract player="2112"/>
+      <contract player="2113"/>
+      <contract player="2114"/>
+      <contract player="2115"/>
+      <contract player="2116"/>
+      <contract player="2117"/>
+      <contract player="2118"/>
+      <contract player="2119"/>
+      <contract player="2120"/>
+      <contract player="2121"/>
+      <contract player="2122"/>
+      <contract player="2123"/>
+      <contract player="2124"/>
+      <contract player="2125"/>
+      <contract player="2126"/>
+      <contract player="2127"/>
+    </contracts>
+  </club>
+  <club name="Laci">
+    <coach name="Luigj Dodaj"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Albania"/>
+    <stadium name="Laci Stadium"/>
+    <contracts>
+      <contract player="2128"/>
+      <contract player="2129"/>
+      <contract player="2130"/>
+      <contract player="2131"/>
+      <contract player="2132"/>
+      <contract player="2133"/>
+      <contract player="2134"/>
+      <contract player="2135"/>
+      <contract player="2136"/>
+      <contract player="2137"/>
+      <contract player="2138"/>
+      <contract player="2139"/>
+      <contract player="2140"/>
+      <contract player="2141"/>
+      <contract player="2142"/>
+      <contract player="2143"/>
+    </contracts>
+  </club>
+  <club name="Partizani Tirana">
+    <coach name="Hasan Lika"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Albania"/>
+    <stadium name="Partizani Tirana Stadium"/>
+    <contracts>
+      <contract player="2144"/>
+      <contract player="2145"/>
+      <contract player="2146"/>
+      <contract player="2147"/>
+      <contract player="2148"/>
+      <contract player="2149"/>
+      <contract player="2150"/>
+      <contract player="2151"/>
+      <contract player="2152"/>
+      <contract player="2153"/>
+      <contract player="2154"/>
+      <contract player="2155"/>
+      <contract player="2156"/>
+      <contract player="2157"/>
+      <contract player="2158"/>
+      <contract player="2159"/>
+    </contracts>
+  </club>
+  <club name="Shkumbini Peqin">
+    <coach name="Shyqyri Rreli"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Albania"/>
+    <stadium name="Shkumbini Peqin Stadium"/>
+    <contracts>
+      <contract player="2160"/>
+      <contract player="2161"/>
+      <contract player="2162"/>
+      <contract player="2163"/>
+      <contract player="2164"/>
+      <contract player="2165"/>
+      <contract player="2166"/>
+      <contract player="2167"/>
+      <contract player="2168"/>
+      <contract player="2169"/>
+      <contract player="2170"/>
+      <contract player="2171"/>
+      <contract player="2172"/>
+      <contract player="2173"/>
+      <contract player="2174"/>
+      <contract player="2175"/>
+    </contracts>
+  </club>
+  <club name="Shqiponja">
+    <coach name="Hito Hitaj"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Albania"/>
+    <stadium name="Shqiponja Stadium"/>
+    <contracts>
+      <contract player="2176"/>
+      <contract player="2177"/>
+      <contract player="2178"/>
+      <contract player="2179"/>
+      <contract player="2180"/>
+      <contract player="2181"/>
+      <contract player="2182"/>
+      <contract player="2183"/>
+      <contract player="2184"/>
+      <contract player="2185"/>
+      <contract player="2186"/>
+      <contract player="2187"/>
+      <contract player="2188"/>
+      <contract player="2189"/>
+      <contract player="2190"/>
+      <contract player="2191"/>
+    </contracts>
+  </club>
+  <club name="Sk Tirana">
+    <coach name="Sulejman Mema"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Albania"/>
+    <stadium name="Sk Tirana Stadium"/>
+    <contracts>
+      <contract player="2192"/>
+      <contract player="2193"/>
+      <contract player="2194"/>
+      <contract player="2195"/>
+      <contract player="2196"/>
+      <contract player="2197"/>
+      <contract player="2198"/>
+      <contract player="2199"/>
+      <contract player="2200"/>
+      <contract player="2201"/>
+      <contract player="2202"/>
+      <contract player="2203"/>
+      <contract player="2204"/>
+      <contract player="2205"/>
+      <contract player="2206"/>
+      <contract player="2207"/>
+    </contracts>
+  </club>
+  <club name="Teuta Durres">
+    <coach name="Bashkim Koka"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Albania"/>
+    <stadium name="Teuta Durres Stadium"/>
+    <contracts>
+      <contract player="2208"/>
+      <contract player="2209"/>
+      <contract player="2210"/>
+      <contract player="2211"/>
+      <contract player="2212"/>
+      <contract player="2213"/>
+      <contract player="2214"/>
+      <contract player="2215"/>
+      <contract player="2216"/>
+      <contract player="2217"/>
+      <contract player="2218"/>
+      <contract player="2219"/>
+      <contract player="2220"/>
+      <contract player="2221"/>
+      <contract player="2222"/>
+      <contract player="2223"/>
+    </contracts>
+  </club>
+  <club name="Tomori Berat">
+    <coach name="Fatos Karkanjozi"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Albania"/>
+    <stadium name="Tomori Berat Stadium"/>
+    <contracts>
+      <contract player="2224"/>
+      <contract player="2225"/>
+      <contract player="2226"/>
+      <contract player="2227"/>
+      <contract player="2228"/>
+      <contract player="2229"/>
+      <contract player="2230"/>
+      <contract player="2231"/>
+      <contract player="2232"/>
+      <contract player="2233"/>
+      <contract player="2234"/>
+      <contract player="2235"/>
+      <contract player="2236"/>
+      <contract player="2237"/>
+      <contract player="2238"/>
+      <contract player="2239"/>
+    </contracts>
+  </club>
+  <club name="Vllaznia Shkoder">
+    <coach name="Astrit Hafizi"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Albania"/>
+    <stadium name="Vllaznia Shkoder Stadium"/>
+    <contracts>
+      <contract player="2240"/>
+      <contract player="2241"/>
+      <contract player="2242"/>
+      <contract player="2243"/>
+      <contract player="2244"/>
+      <contract player="2245"/>
+      <contract player="2246"/>
+      <contract player="2247"/>
+      <contract player="2248"/>
+      <contract player="2249"/>
+      <contract player="2250"/>
+      <contract player="2251"/>
+      <contract player="2252"/>
+      <contract player="2253"/>
+      <contract player="2254"/>
+      <contract player="2255"/>
+    </contracts>
+  </club>
+</Clubs>

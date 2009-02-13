@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Ankaraspor">
+    <coach name="Hikmet Karaman"/>
+    <kits>
+      <kit>
+        <jersey type="3">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Ankaraspor Stadium"/>
+    <contracts>
+      <contract player="76000"/>
+      <contract player="76001"/>
+      <contract player="76002"/>
+      <contract player="76003"/>
+      <contract player="76004"/>
+      <contract player="76005"/>
+      <contract player="76006"/>
+      <contract player="76007"/>
+      <contract player="76008"/>
+      <contract player="76009"/>
+      <contract player="76010"/>
+      <contract player="76011"/>
+      <contract player="76012"/>
+      <contract player="76013"/>
+      <contract player="76014"/>
+      <contract player="76015"/>
+    </contracts>
+  </club>
+  <club name="Ankaragucu">
+    <coach name="Hans-pieter Briegel"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Ankaragucu Stadium"/>
+    <contracts>
+      <contract player="76016"/>
+      <contract player="76017"/>
+      <contract player="76018"/>
+      <contract player="76019"/>
+      <contract player="76020"/>
+      <contract player="76021"/>
+      <contract player="76022"/>
+      <contract player="76023"/>
+      <contract player="76024"/>
+      <contract player="76025"/>
+      <contract player="76026"/>
+      <contract player="76027"/>
+      <contract player="76028"/>
+      <contract player="76029"/>
+      <contract player="76030"/>
+      <contract player="76031"/>
+    </contracts>
+  </club>
+  <club name="C Rizespor">
+    <coach name="Safet Susic"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="C Rizespor Stadium"/>
+    <contracts>
+      <contract player="76032"/>
+      <contract player="76033"/>
+      <contract player="76034"/>
+      <contract player="76035"/>
+      <contract player="76036"/>
+      <contract player="76037"/>
+      <contract player="76038"/>
+      <contract player="76039"/>
+      <contract player="76040"/>
+      <contract player="76041"/>
+      <contract player="76042"/>
+      <contract player="76043"/>
+      <contract player="76044"/>
+      <contract player="76045"/>
+      <contract player="76046"/>
+      <contract player="76047"/>
+    </contracts>
+  </club>
+  <club name="Antalyaspor">
+    <coach name="Rasit Cetiner"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Antalyaspor Stadium"/>
+    <contracts>
+      <contract player="76048"/>
+      <contract player="76049"/>
+      <contract player="76050"/>
+      <contract player="76051"/>
+      <contract player="76052"/>
+      <contract player="76053"/>
+      <contract player="76054"/>
+      <contract player="76055"/>
+      <contract player="76056"/>
+      <contract player="76057"/>
+      <contract player="76058"/>
+      <contract player="76059"/>
+      <contract player="76060"/>
+      <contract player="76061"/>
+      <contract player="76062"/>
+      <contract player="76063"/>
+    </contracts>
+  </club>
+  <club name="K Erciyesspor">
+    <coach name="Mehmet Bulut"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="K Erciyesspor Stadium"/>
+    <contracts>
+      <contract player="76064"/>
+      <contract player="76065"/>
+      <contract player="76066"/>
+      <contract player="76067"/>
+      <contract player="76068"/>
+      <contract player="76069"/>
+      <contract player="76070"/>
+      <contract player="76071"/>
+      <contract player="76072"/>
+      <contract player="76073"/>
+      <contract player="76074"/>
+      <contract player="76075"/>
+      <contract player="76076"/>
+      <contract player="76077"/>
+      <contract player="76078"/>
+      <contract player="76079"/>
+    </contracts>
+  </club>
+  <club name="Besiktas">
+    <coach name="Ertugrul Saglam"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Besiktas Stadium"/>
+    <contracts>
+      <contract player="76080"/>
+      <contract player="76081"/>
+      <contract player="76082"/>
+      <contract player="76083"/>
+      <contract player="76084"/>
+      <contract player="76085"/>
+      <contract player="76086"/>
+      <contract player="76087"/>
+      <contract player="76088"/>
+      <contract player="76089"/>
+      <contract player="76090"/>
+      <contract player="76091"/>
+      <contract player="76092"/>
+      <contract player="76093"/>
+      <contract player="76094"/>
+      <contract player="76095"/>
+    </contracts>
+  </club>
+  <club name="Bursaspor">
+    <coach name="Samet Aybaba"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Bursaspor Stadium"/>
+    <contracts>
+      <contract player="76096"/>
+      <contract player="76097"/>
+      <contract player="76098"/>
+      <contract player="76099"/>
+      <contract player="76100"/>
+      <contract player="76101"/>
+      <contract player="76102"/>
+      <contract player="76103"/>
+      <contract player="76104"/>
+      <contract player="76105"/>
+      <contract player="76106"/>
+      <contract player="76107"/>
+      <contract player="76108"/>
+      <contract player="76109"/>
+      <contract player="76110"/>
+      <contract player="76111"/>
+    </contracts>
+  </club>
+  <club name="Denizlispor">
+    <coach name="Guvenc Kurtar"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Denizlispor Stadium"/>
+    <contracts>
+      <contract player="76112"/>
+      <contract player="76113"/>
+      <contract player="76114"/>
+      <contract player="76115"/>
+      <contract player="76116"/>
+      <contract player="76117"/>
+      <contract player="76118"/>
+      <contract player="76119"/>
+      <contract player="76120"/>
+      <contract player="76121"/>
+      <contract player="76122"/>
+      <contract player="76123"/>
+      <contract player="76124"/>
+      <contract player="76125"/>
+      <contract player="76126"/>
+      <contract player="76127"/>
+    </contracts>
+  </club>
+  <club name="Oftas">
+    <coach name="Osman Ozdemir"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Oftas Stadium"/>
+    <contracts>
+      <contract player="76128"/>
+      <contract player="76129"/>
+      <contract player="76130"/>
+      <contract player="76131"/>
+      <contract player="76132"/>
+      <contract player="76133"/>
+      <contract player="76134"/>
+      <contract player="76135"/>
+      <contract player="76136"/>
+      <contract player="76137"/>
+      <contract player="76138"/>
+      <contract player="76139"/>
+      <contract player="76140"/>
+      <contract player="76141"/>
+      <contract player="76142"/>
+      <contract player="76143"/>
+    </contracts>
+  </club>
+  <club name="Fenerbahce">
+    <coach name="Zico"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Fenerbahce Stadium"/>
+    <contracts>
+      <contract player="76144"/>
+      <contract player="76145"/>
+      <contract player="76146"/>
+      <contract player="76147"/>
+      <contract player="76148"/>
+      <contract player="76149"/>
+      <contract player="76150"/>
+      <contract player="76151"/>
+      <contract player="76152"/>
+      <contract player="76153"/>
+      <contract player="76154"/>
+      <contract player="76155"/>
+      <contract player="76156"/>
+      <contract player="76157"/>
+      <contract player="76158"/>
+      <contract player="76159"/>
+    </contracts>
+  </club>
+  <club name="Galatasaray">
+    <coach name="Karl-heinz Feldkamp"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Galatasaray Stadium"/>
+    <contracts>
+      <contract player="76160"/>
+      <contract player="76161"/>
+      <contract player="76162"/>
+      <contract player="76163"/>
+      <contract player="76164"/>
+      <contract player="76165"/>
+      <contract player="76166"/>
+      <contract player="76167"/>
+      <contract player="76168"/>
+      <contract player="76169"/>
+      <contract player="76170"/>
+      <contract player="76171"/>
+      <contract player="76172"/>
+      <contract player="76173"/>
+      <contract player="76174"/>
+      <contract player="76175"/>
+    </contracts>
+  </club>
+  <club name="Gaziantepspor">
+    <coach name="Mesut Bakkal"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Gaziantepspor Stadium"/>
+    <contracts>
+      <contract player="76176"/>
+      <contract player="76177"/>
+      <contract player="76178"/>
+      <contract player="76179"/>
+      <contract player="76180"/>
+      <contract player="76181"/>
+      <contract player="76182"/>
+      <contract player="76183"/>
+      <contract player="76184"/>
+      <contract player="76185"/>
+      <contract player="76186"/>
+      <contract player="76187"/>
+      <contract player="76188"/>
+      <contract player="76189"/>
+      <contract player="76190"/>
+      <contract player="76191"/>
+    </contracts>
+  </club>
+  <club name="Genclerbirligi">
+    <coach name="Bulent Korkmaz"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Genclerbirligi Stadium"/>
+    <contracts>
+      <contract player="76192"/>
+      <contract player="76193"/>
+      <contract player="76194"/>
+      <contract player="76195"/>
+      <contract player="76196"/>
+      <contract player="76197"/>
+      <contract player="76198"/>
+      <contract player="76199"/>
+      <contract player="76200"/>
+      <contract player="76201"/>
+      <contract player="76202"/>
+      <contract player="76203"/>
+      <contract player="76204"/>
+      <contract player="76205"/>
+      <contract player="76206"/>
+      <contract player="76207"/>
+    </contracts>
+  </club>
+  <club name="Belediyespor">
+    <coach name="Abdullah Avci"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="127" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="127" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Belediyespor Stadium"/>
+    <contracts>
+      <contract player="76208"/>
+      <contract player="76209"/>
+      <contract player="76210"/>
+      <contract player="76211"/>
+      <contract player="76212"/>
+      <contract player="76213"/>
+      <contract player="76214"/>
+      <contract player="76215"/>
+      <contract player="76216"/>
+      <contract player="76217"/>
+      <contract player="76218"/>
+      <contract player="76219"/>
+      <contract player="76220"/>
+      <contract player="76221"/>
+      <contract player="76222"/>
+      <contract player="76223"/>
+    </contracts>
+  </club>
+  <club name="Sakaryaspor">
+    <coach name="Saban Yildirim"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Sakaryaspor Stadium"/>
+    <contracts>
+      <contract player="76224"/>
+      <contract player="76225"/>
+      <contract player="76226"/>
+      <contract player="76227"/>
+      <contract player="76228"/>
+      <contract player="76229"/>
+      <contract player="76230"/>
+      <contract player="76231"/>
+      <contract player="76232"/>
+      <contract player="76233"/>
+      <contract player="76234"/>
+      <contract player="76235"/>
+      <contract player="76236"/>
+      <contract player="76237"/>
+      <contract player="76238"/>
+      <contract player="76239"/>
+    </contracts>
+  </club>
+  <club name="Kasimpasa">
+    <coach name="Werner Lorant"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Kasimpasa Stadium"/>
+    <contracts>
+      <contract player="76240"/>
+      <contract player="76241"/>
+      <contract player="76242"/>
+      <contract player="76243"/>
+      <contract player="76244"/>
+      <contract player="76245"/>
+      <contract player="76246"/>
+      <contract player="76247"/>
+      <contract player="76248"/>
+      <contract player="76249"/>
+      <contract player="76250"/>
+      <contract player="76251"/>
+      <contract player="76252"/>
+      <contract player="76253"/>
+      <contract player="76254"/>
+      <contract player="76255"/>
+    </contracts>
+  </club>
+  <club name="Kayserispor">
+    <coach name="Tolunay Kafkas"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Kayserispor Stadium"/>
+    <contracts>
+      <contract player="76256"/>
+      <contract player="76257"/>
+      <contract player="76258"/>
+      <contract player="76259"/>
+      <contract player="76260"/>
+      <contract player="76261"/>
+      <contract player="76262"/>
+      <contract player="76263"/>
+      <contract player="76264"/>
+      <contract player="76265"/>
+      <contract player="76266"/>
+      <contract player="76267"/>
+      <contract player="76268"/>
+      <contract player="76269"/>
+      <contract player="76270"/>
+      <contract player="76271"/>
+    </contracts>
+  </club>
+  <club name="Konyaspor">
+    <coach name="Unal Karaman"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Konyaspor Stadium"/>
+    <contracts>
+      <contract player="76272"/>
+      <contract player="76273"/>
+      <contract player="76274"/>
+      <contract player="76275"/>
+      <contract player="76276"/>
+      <contract player="76277"/>
+      <contract player="76278"/>
+      <contract player="76279"/>
+      <contract player="76280"/>
+      <contract player="76281"/>
+      <contract player="76282"/>
+      <contract player="76283"/>
+      <contract player="76284"/>
+      <contract player="76285"/>
+      <contract player="76286"/>
+      <contract player="76287"/>
+    </contracts>
+  </club>
+  <club name="Samsunspor">
+    <coach name="Yucel Ildiz"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Samsunspor Stadium"/>
+    <contracts>
+      <contract player="76288"/>
+      <contract player="76289"/>
+      <contract player="76290"/>
+      <contract player="76291"/>
+      <contract player="76292"/>
+      <contract player="76293"/>
+      <contract player="76294"/>
+      <contract player="76295"/>
+      <contract player="76296"/>
+      <contract player="76297"/>
+      <contract player="76298"/>
+      <contract player="76299"/>
+      <contract player="76300"/>
+      <contract player="76301"/>
+      <contract player="76302"/>
+      <contract player="76303"/>
+    </contracts>
+  </club>
+  <club name="Sivasspor">
+    <coach name="Bulent Uygun"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Sivasspor Stadium"/>
+    <contracts>
+      <contract player="76304"/>
+      <contract player="76305"/>
+      <contract player="76306"/>
+      <contract player="76307"/>
+      <contract player="76308"/>
+      <contract player="76309"/>
+      <contract player="76310"/>
+      <contract player="76311"/>
+      <contract player="76312"/>
+      <contract player="76313"/>
+      <contract player="76314"/>
+      <contract player="76315"/>
+      <contract player="76316"/>
+      <contract player="76317"/>
+      <contract player="76318"/>
+      <contract player="76319"/>
+    </contracts>
+  </club>
+  <club name="Altay">
+    <coach name="Ekrem Al"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Altay Stadium"/>
+    <contracts>
+      <contract player="76320"/>
+      <contract player="76321"/>
+      <contract player="76322"/>
+      <contract player="76323"/>
+      <contract player="76324"/>
+      <contract player="76325"/>
+      <contract player="76326"/>
+      <contract player="76327"/>
+      <contract player="76328"/>
+      <contract player="76329"/>
+      <contract player="76330"/>
+      <contract player="76331"/>
+      <contract player="76332"/>
+      <contract player="76333"/>
+      <contract player="76334"/>
+      <contract player="76335"/>
+    </contracts>
+  </club>
+  <club name="Trabzonspor">
+    <coach name="Ersun Yanal"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="173" g="216" b="230"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="150" g="75" b="0"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Trabzonspor Stadium"/>
+    <contracts>
+      <contract player="76336"/>
+      <contract player="76337"/>
+      <contract player="76338"/>
+      <contract player="76339"/>
+      <contract player="76340"/>
+      <contract player="76341"/>
+      <contract player="76342"/>
+      <contract player="76343"/>
+      <contract player="76344"/>
+      <contract player="76345"/>
+      <contract player="76346"/>
+      <contract player="76347"/>
+      <contract player="76348"/>
+      <contract player="76349"/>
+      <contract player="76350"/>
+      <contract player="76351"/>
+    </contracts>
+  </club>
+  <club name="Manisaspor">
+    <coach name="Giray Bulak"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Manisaspor Stadium"/>
+    <contracts>
+      <contract player="76352"/>
+      <contract player="76353"/>
+      <contract player="76354"/>
+      <contract player="76355"/>
+      <contract player="76356"/>
+      <contract player="76357"/>
+      <contract player="76358"/>
+      <contract player="76359"/>
+      <contract player="76360"/>
+      <contract player="76361"/>
+      <contract player="76362"/>
+      <contract player="76363"/>
+      <contract player="76364"/>
+      <contract player="76365"/>
+      <contract player="76366"/>
+      <contract player="76367"/>
+    </contracts>
+  </club>
+  <club name="Istanbulspor">
+    <coach name="Fuat Yaman"/>
+    <kits>
+      <kit>
+        <jersey type="3">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Turkey"/>
+    <stadium name="Istanbulspor Stadium"/>
+    <contracts>
+      <contract player="76368"/>
+      <contract player="76369"/>
+      <contract player="76370"/>
+      <contract player="76371"/>
+      <contract player="76372"/>
+      <contract player="76373"/>
+      <contract player="76374"/>
+      <contract player="76375"/>
+      <contract player="76376"/>
+      <contract player="76377"/>
+      <contract player="76378"/>
+      <contract player="76379"/>
+      <contract player="76380"/>
+      <contract player="76381"/>
+      <contract player="76382"/>
+      <contract player="76383"/>
+    </contracts>
+  </club>
+</Clubs>

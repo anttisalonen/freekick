@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="44000">
+    <personal name="Vaclovas Lekevicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="409" risktaking="386" offensive="713" aggressive="353" consistent="400" creative="673" experienced="612"/>
+    <skills stamina="599" dexterity="570" speed="401" tackling="191" passing="359" shooting="445" control="222" accuracy="215" goalkeeping="431" heading="214"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="44001">
+    <personal name="Algimantas Lungys">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="724" risktaking="317" offensive="751" aggressive="376" consistent="203" creative="286" experienced="546"/>
+    <skills stamina="367" dexterity="277" speed="539" tackling="139" passing="286" shooting="421" control="312" accuracy="163" goalkeeping="459" heading="175"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="44002">
+    <personal name="Stasys Cesnauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="650" risktaking="545" offensive="622" aggressive="591" consistent="538" creative="235" experienced="570"/>
+    <skills stamina="609" dexterity="424" speed="567" tackling="331" passing="461" shooting="316" control="459" accuracy="351" goalkeeping="67" heading="388"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="44003">
+    <personal name="Maksimas Davydovas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="457" risktaking="503" offensive="386" aggressive="332" consistent="482" creative="765" experienced="572"/>
+    <skills stamina="186" dexterity="317" speed="504" tackling="405" passing="415" shooting="400" control="516" accuracy="337" goalkeeping="57" heading="404"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="44004">
+    <personal name="Rytis Skackauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="686" risktaking="401" offensive="877" aggressive="287" consistent="386" creative="556" experienced="354"/>
+    <skills stamina="665" dexterity="570" speed="353" tackling="479" passing="450" shooting="346" control="323" accuracy="435" goalkeeping="45" heading="413"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44005">
+    <personal name="Romas Maciulevicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="487" risktaking="160" offensive="525" aggressive="618" consistent="304" creative="704" experienced="151"/>
+    <skills stamina="153" dexterity="391" speed="448" tackling="441" passing="317" shooting="393" control="372" accuracy="373" goalkeeping="52" heading="411"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44006">
+    <personal name="Zenonis Atutis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="516" risktaking="555" offensive="692" aggressive="584" consistent="160" creative="293" experienced="499"/>
+    <skills stamina="600" dexterity="275" speed="497" tackling="348" passing="351" shooting="349" control="318" accuracy="390" goalkeeping="47" heading="306"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44007">
+    <personal name="Romas Volungevicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="314" risktaking="192" offensive="616" aggressive="500" consistent="736" creative="431" experienced="457"/>
+    <skills stamina="243" dexterity="346" speed="507" tackling="455" passing="479" shooting="386" control="471" accuracy="324" goalkeeping="52" heading="377"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="44008">
+    <personal name="Olegas Bobrickis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="783" risktaking="358" offensive="353" aggressive="634" consistent="565" creative="504" experienced="460"/>
+    <skills stamina="281" dexterity="468" speed="190" tackling="408" passing="491" shooting="339" control="304" accuracy="312" goalkeeping="50" heading="448"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="44009">
+    <personal name="Algimantas Salkauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="710" risktaking="418" offensive="395" aggressive="452" consistent="785" creative="367" experienced="443"/>
+    <skills stamina="320" dexterity="353" speed="427" tackling="503" passing="347" shooting="332" control="325" accuracy="342" goalkeeping="82" heading="315"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44010">
+    <personal name="Gintaras Kniuksta">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="372" risktaking="663" offensive="511" aggressive="141" consistent="364" creative="245" experienced="429"/>
+    <skills stamina="530" dexterity="297" speed="196" tackling="479" passing="397" shooting="343" control="472" accuracy="295" goalkeeping="59" heading="463"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="44011">
+    <personal name="Kestas Sruogis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="537" risktaking="576" offensive="639" aggressive="416" consistent="692" creative="376" experienced="515"/>
+    <skills stamina="494" dexterity="452" speed="303" tackling="449" passing="352" shooting="367" control="389" accuracy="354" goalkeeping="72" heading="362"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44012">
+    <personal name="Vadimas Petrenka">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="514" risktaking="530" offensive="451" aggressive="598" consistent="459" creative="284" experienced="588"/>
+    <skills stamina="156" dexterity="598" speed="362" tackling="355" passing="313" shooting="389" control="267" accuracy="407" goalkeeping="63" heading="482"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="44013">
+    <personal name="Arturas Safonovas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="634" risktaking="485" offensive="273" aggressive="710" consistent="490" creative="606" experienced="469"/>
+    <skills stamina="448" dexterity="312" speed="233" tackling="298" passing="309" shooting="268" control="438" accuracy="458" goalkeeping="58" heading="364"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44014">
+    <personal name="Aleksandras Koroliovs">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="742" risktaking="320" offensive="412" aggressive="466" consistent="393" creative="573" experienced="456"/>
+    <skills stamina="504" dexterity="662" speed="499" tackling="300" passing="370" shooting="445" control="252" accuracy="348" goalkeeping="53" heading="355"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44015">
+    <personal name="Darius Muizys">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="759" risktaking="457" offensive="645" aggressive="549" consistent="369" creative="794" experienced="673"/>
+    <skills stamina="654" dexterity="546" speed="177" tackling="431" passing="414" shooting="380" control="282" accuracy="476" goalkeeping="57" heading="382"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="44016">
+    <personal name="Arvydas Skrupskis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="263" risktaking="284" offensive="342" aggressive="352" consistent="535" creative="618" experienced="507"/>
+    <skills stamina="535" dexterity="665" speed="639" tackling="188" passing="365" shooting="472" control="356" accuracy="180" goalkeeping="413" heading="174"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="44017">
+    <personal name="Egidijus Liubauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="562" risktaking="494" offensive="365" aggressive="677" consistent="370" creative="576" experienced="664"/>
+    <skills stamina="156" dexterity="182" speed="356" tackling="208" passing="463" shooting="453" control="234" accuracy="140" goalkeeping="481" heading="195"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="44018">
+    <personal name="K. Aleksandravicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="336" risktaking="493" offensive="520" aggressive="473" consistent="554" creative="676" experienced="610"/>
+    <skills stamina="448" dexterity="293" speed="543" tackling="312" passing="356" shooting="353" control="516" accuracy="483" goalkeeping="60" heading="391"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="44019">
+    <personal name="Albertas Klimavicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="605" risktaking="381" offensive="537" aggressive="289" consistent="508" creative="504" experienced="413"/>
+    <skills stamina="660" dexterity="350" speed="342" tackling="395" passing="428" shooting="406" control="448" accuracy="415" goalkeeping="83" heading="443"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="44020">
+    <personal name="Giedrius Juzelenas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="539" risktaking="77" offensive="478" aggressive="543" consistent="464" creative="688" experienced="387"/>
+    <skills stamina="446" dexterity="528" speed="529" tackling="371" passing="407" shooting="327" control="446" accuracy="368" goalkeeping="73" heading="456"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="44021">
+    <personal name="Raimondas Petrukaitis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="697" risktaking="415" offensive="757" aggressive="663" consistent="268" creative="487" experienced="405"/>
+    <skills stamina="318" dexterity="533" speed="212" tackling="408" passing="481" shooting="327" control="431" accuracy="336" goalkeeping="59" heading="342"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44022">
+    <personal name="Darius Staleliunas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="592" risktaking="518" offensive="450" aggressive="946" consistent="426" creative="575" experienced="578"/>
+    <skills stamina="505" dexterity="604" speed="557" tackling="500" passing="344" shooting="419" control="459" accuracy="373" goalkeeping="49" heading="317"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44023">
+    <personal name="Vytautas Apanavicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="464" risktaking="767" offensive="176" aggressive="472" consistent="414" creative="462" experienced="431"/>
+    <skills stamina="348" dexterity="390" speed="505" tackling="345" passing="507" shooting="481" control="400" accuracy="494" goalkeeping="67" heading="403"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="44024">
+    <personal name="Andrius Staliunas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="607" risktaking="411" offensive="626" aggressive="453" consistent="260" creative="263" experienced="687"/>
+    <skills stamina="275" dexterity="302" speed="286" tackling="347" passing="361" shooting="405" control="474" accuracy="431" goalkeeping="73" heading="470"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="44025">
+    <personal name="Irmantas Stumbrys">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="277" risktaking="532" offensive="463" aggressive="237" consistent="398" creative="408" experienced="427"/>
+    <skills stamina="446" dexterity="512" speed="645" tackling="438" passing="510" shooting="341" control="391" accuracy="441" goalkeeping="80" heading="398"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44026">
+    <personal name="Linas Niurka">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="245" risktaking="446" offensive="329" aggressive="381" consistent="800" creative="277" experienced="557"/>
+    <skills stamina="410" dexterity="617" speed="551" tackling="327" passing="348" shooting="457" control="499" accuracy="344" goalkeeping="64" heading="462"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44027">
+    <personal name="Arturas Fomenka">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="325" risktaking="414" offensive="497" aggressive="723" consistent="502" creative="452" experienced="158"/>
+    <skills stamina="331" dexterity="309" speed="265" tackling="445" passing="383" shooting="455" control="333" accuracy="413" goalkeeping="57" heading="375"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44028">
+    <personal name="Tomas Nemanis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="324" risktaking="389" offensive="580" aggressive="655" consistent="644" creative="456" experienced="9"/>
+    <skills stamina="374" dexterity="221" speed="160" tackling="373" passing="490" shooting="441" control="482" accuracy="300" goalkeeping="56" heading="344"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44029">
+    <personal name="Andrius Banevicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="236" risktaking="540" offensive="590" aggressive="291" consistent="471" creative="501" experienced="470"/>
+    <skills stamina="331" dexterity="630" speed="204" tackling="418" passing="428" shooting="456" control="394" accuracy="422" goalkeeping="65" heading="352"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44030">
+    <personal name="Vidmantas Deveikis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="882" risktaking="585" offensive="778" aggressive="443" consistent="348" creative="343" experienced="428"/>
+    <skills stamina="410" dexterity="660" speed="476" tackling="447" passing="465" shooting="460" control="478" accuracy="423" goalkeeping="64" heading="330"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44031">
+    <personal name="Vaidotas Slekys">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="582" risktaking="543" offensive="671" aggressive="539" consistent="424" creative="276" experienced="325"/>
+    <skills stamina="680" dexterity="282" speed="186" tackling="355" passing="365" shooting="539" control="424" accuracy="332" goalkeeping="51" heading="496"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44032">
+    <personal name="Arturas Ramoska">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="660" risktaking="517" offensive="385" aggressive="300" consistent="733" creative="459" experienced="445"/>
+    <skills stamina="301" dexterity="669" speed="208" tackling="189" passing="451" shooting="306" control="218" accuracy="198" goalkeeping="505" heading="181"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="44033">
+    <personal name="Darius Brazauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="500" risktaking="585" offensive="323" aggressive="635" consistent="413" creative="565" experienced="270"/>
+    <skills stamina="555" dexterity="153" speed="329" tackling="151" passing="413" shooting="288" control="312" accuracy="189" goalkeeping="487" heading="181"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="44034">
+    <personal name="Ramunas Statkevicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="456" risktaking="547" offensive="428" aggressive="495" consistent="351" creative="570" experienced="535"/>
+    <skills stamina="394" dexterity="505" speed="535" tackling="419" passing="287" shooting="358" control="286" accuracy="445" goalkeeping="69" heading="433"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="44035">
+    <personal name="Darius Grazys">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="525" risktaking="362" offensive="304" aggressive="357" consistent="553" creative="257" experienced="396"/>
+    <skills stamina="181" dexterity="623" speed="634" tackling="441" passing="465" shooting="462" control="375" accuracy="335" goalkeeping="72" heading="401"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="44036">
+    <personal name="Rytis Blazys">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="570" risktaking="409" offensive="413" aggressive="329" consistent="639" creative="419" experienced="798"/>
+    <skills stamina="434" dexterity="280" speed="358" tackling="403" passing="433" shooting="474" control="299" accuracy="463" goalkeeping="53" heading="443"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44037">
+    <personal name="Vilmantas Rukavicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="365" risktaking="457" offensive="667" aggressive="247" consistent="465" creative="747" experienced="490"/>
+    <skills stamina="609" dexterity="210" speed="320" tackling="444" passing="391" shooting="378" control="382" accuracy="292" goalkeeping="61" heading="282"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44038">
+    <personal name="Gintaras Grigonis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="557" risktaking="394" offensive="510" aggressive="421" consistent="429" creative="472" experienced="480"/>
+    <skills stamina="377" dexterity="494" speed="659" tackling="509" passing="320" shooting="261" control="336" accuracy="386" goalkeeping="61" heading="348"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44039">
+    <personal name="Raimondas Vainoras">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="499" risktaking="391" offensive="484" aggressive="357" consistent="250" creative="497" experienced="717"/>
+    <skills stamina="599" dexterity="579" speed="404" tackling="493" passing="375" shooting="443" control="491" accuracy="369" goalkeeping="53" heading="397"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44040">
+    <personal name="Svajunas Cerniauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="465" risktaking="340" offensive="508" aggressive="625" consistent="722" creative="539" experienced="373"/>
+    <skills stamina="281" dexterity="497" speed="458" tackling="443" passing="293" shooting="394" control="408" accuracy="301" goalkeeping="61" heading="442"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="44041">
+    <personal name="Arvydas Korsakovas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="332" risktaking="446" offensive="450" aggressive="139" consistent="570" creative="656" experienced="476"/>
+    <skills stamina="309" dexterity="587" speed="198" tackling="316" passing="413" shooting="305" control="394" accuracy="292" goalkeeping="70" heading="368"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="44042">
+    <personal name="Darius Gvildys">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="662" risktaking="379" offensive="384" aggressive="271" consistent="569" creative="119" experienced="484"/>
+    <skills stamina="455" dexterity="264" speed="367" tackling="443" passing="489" shooting="406" control="459" accuracy="343" goalkeeping="69" heading="338"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44043">
+    <personal name="Saulius Ramanauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="797" risktaking="605" offensive="527" aggressive="667" consistent="444" creative="356" experienced="668"/>
+    <skills stamina="409" dexterity="537" speed="161" tackling="284" passing="395" shooting="421" control="346" accuracy="307" goalkeeping="71" heading="249"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44044">
+    <personal name="Ramunas Levickas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="488" risktaking="588" offensive="356" aggressive="529" consistent="591" creative="432" experienced="485"/>
+    <skills stamina="452" dexterity="397" speed="144" tackling="429" passing="396" shooting="368" control="416" accuracy="266" goalkeeping="66" heading="315"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44045">
+    <personal name="Naglis Miknevicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="727" risktaking="474" offensive="558" aggressive="567" consistent="557" creative="650" experienced="457"/>
+    <skills stamina="585" dexterity="312" speed="208" tackling="316" passing="311" shooting="385" control="310" accuracy="426" goalkeeping="54" heading="461"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44046">
+    <personal name="Robertas Zalys">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="437" risktaking="485" offensive="463" aggressive="431" consistent="503" creative="173" experienced="791"/>
+    <skills stamina="560" dexterity="514" speed="343" tackling="406" passing="400" shooting="462" control="428" accuracy="514" goalkeeping="55" heading="507"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44047">
+    <personal name="Arvydas Daunoras">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="547" risktaking="611" offensive="777" aggressive="402" consistent="717" creative="389" experienced="335"/>
+    <skills stamina="262" dexterity="351" speed="350" tackling="408" passing="408" shooting="358" control="402" accuracy="415" goalkeeping="46" heading="362"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44048">
+    <personal name="Kestutis Maciulis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="438" risktaking="550" offensive="589" aggressive="555" consistent="312" creative="257" experienced="367"/>
+    <skills stamina="444" dexterity="633" speed="500" tackling="210" passing="443" shooting="323" control="303" accuracy="176" goalkeeping="381" heading="141"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="44049">
+    <personal name="Ramunas Merkelis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="249" risktaking="612" offensive="663" aggressive="674" consistent="460" creative="418" experienced="324"/>
+    <skills stamina="649" dexterity="516" speed="523" tackling="151" passing="395" shooting="348" control="203" accuracy="160" goalkeeping="407" heading="181"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="44050">
+    <personal name="Tomas Graziunas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="219" risktaking="620" offensive="500" aggressive="693" consistent="766" creative="469" experienced="357"/>
+    <skills stamina="613" dexterity="344" speed="558" tackling="372" passing="243" shooting="354" control="412" accuracy="240" goalkeeping="41" heading="312"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="44051">
+    <personal name="Narutis Vilciuaskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="557" risktaking="492" offensive="504" aggressive="687" consistent="228" creative="622" experienced="609"/>
+    <skills stamina="471" dexterity="611" speed="431" tackling="313" passing="293" shooting="382" control="308" accuracy="309" goalkeeping="69" heading="399"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="44052">
+    <personal name="Romas Klisys">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="732" risktaking="355" offensive="488" aggressive="586" consistent="262" creative="396" experienced="501"/>
+    <skills stamina="176" dexterity="690" speed="379" tackling="384" passing="442" shooting="248" control="428" accuracy="416" goalkeeping="61" heading="436"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44053">
+    <personal name="Zilvinas Zudys">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="609" risktaking="568" offensive="610" aggressive="347" consistent="699" creative="454" experienced="622"/>
+    <skills stamina="248" dexterity="634" speed="656" tackling="412" passing="292" shooting="335" control="366" accuracy="279" goalkeeping="40" heading="389"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="44054">
+    <personal name="Igoris Stukalinas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="745" risktaking="616" offensive="432" aggressive="447" consistent="469" creative="321" experienced="518"/>
+    <skills stamina="270" dexterity="506" speed="606" tackling="358" passing="455" shooting="427" control="395" accuracy="377" goalkeeping="56" heading="321"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="44055">
+    <personal name="Arturas Januskevicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="534" risktaking="726" offensive="588" aggressive="531" consistent="535" creative="651" experienced="657"/>
+    <skills stamina="698" dexterity="569" speed="603" tackling="370" passing="278" shooting="293" control="440" accuracy="406" goalkeeping="56" heading="339"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44056">
+    <personal name="Egidijus Juska">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="446" risktaking="525" offensive="848" aggressive="447" consistent="286" creative="521" experienced="498"/>
+    <skills stamina="629" dexterity="603" speed="213" tackling="369" passing="441" shooting="473" control="433" accuracy="354" goalkeeping="63" heading="413"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44057">
+    <personal name="Zydrius Grudzinskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="460" risktaking="413" offensive="323" aggressive="438" consistent="541" creative="617" experienced="555"/>
+    <skills stamina="317" dexterity="283" speed="450" tackling="421" passing="396" shooting="418" control="302" accuracy="413" goalkeeping="58" heading="350"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44058">
+    <personal name="Saulius Kijanskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="708" risktaking="386" offensive="611" aggressive="92" consistent="336" creative="319" experienced="442"/>
+    <skills stamina="553" dexterity="273" speed="381" tackling="349" passing="287" shooting="308" control="347" accuracy="228" goalkeeping="45" heading="414"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44059">
+    <personal name="Richardas Nikandrinas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="531" risktaking="474" offensive="498" aggressive="467" consistent="503" creative="335" experienced="208"/>
+    <skills stamina="386" dexterity="646" speed="437" tackling="310" passing="359" shooting="295" control="359" accuracy="243" goalkeeping="50" heading="325"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="44060">
+    <personal name="Eduardas Morozas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="478" risktaking="757" offensive="410" aggressive="466" consistent="315" creative="706" experienced="716"/>
+    <skills stamina="471" dexterity="585" speed="598" tackling="362" passing="353" shooting="346" control="395" accuracy="434" goalkeeping="63" heading="353"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44061">
+    <personal name="Laimis Bytautas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="602" risktaking="600" offensive="614" aggressive="549" consistent="304" creative="309" experienced="395"/>
+    <skills stamina="221" dexterity="279" speed="303" tackling="380" passing="282" shooting="338" control="388" accuracy="415" goalkeeping="58" heading="335"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44062">
+    <personal name="Arnas Balsevicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="163" risktaking="673" offensive="478" aggressive="524" consistent="131" creative="427" experienced="501"/>
+    <skills stamina="235" dexterity="220" speed="573" tackling="323" passing="321" shooting="417" control="300" accuracy="295" goalkeeping="40" heading="310"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44063">
+    <personal name="Algis Vascenka">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="590" risktaking="451" offensive="591" aggressive="819" consistent="695" creative="489" experienced="443"/>
+    <skills stamina="498" dexterity="631" speed="497" tackling="217" passing="291" shooting="300" control="335" accuracy="474" goalkeeping="40" heading="404"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44064">
+    <personal name="Raimondas Markauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="653" risktaking="238" offensive="534" aggressive="807" consistent="639" creative="627" experienced="394"/>
+    <skills stamina="175" dexterity="575" speed="541" tackling="155" passing="277" shooting="383" control="352" accuracy="163" goalkeeping="347" heading="168"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="44065">
+    <personal name="Almantas Brazenas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="334" risktaking="537" offensive="720" aggressive="482" consistent="527" creative="440" experienced="444"/>
+    <skills stamina="489" dexterity="611" speed="282" tackling="207" passing="286" shooting="378" control="238" accuracy="187" goalkeeping="477" heading="163"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="44066">
+    <personal name="Laimis Bickauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="526" risktaking="513" offensive="674" aggressive="788" consistent="542" creative="704" experienced="407"/>
+    <skills stamina="459" dexterity="469" speed="292" tackling="432" passing="401" shooting="348" control="350" accuracy="447" goalkeeping="72" heading="426"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="44067">
+    <personal name="Audrius Markevicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="601" risktaking="477" offensive="551" aggressive="706" consistent="545" creative="493" experienced="628"/>
+    <skills stamina="639" dexterity="570" speed="244" tackling="510" passing="490" shooting="440" control="516" accuracy="348" goalkeeping="64" heading="316"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="44068">
+    <personal name="Sigitas Juozaitis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="714" risktaking="587" offensive="97" aggressive="542" consistent="501" creative="512" experienced="426"/>
+    <skills stamina="426" dexterity="640" speed="309" tackling="325" passing="362" shooting="302" control="475" accuracy="300" goalkeeping="50" heading="293"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44069">
+    <personal name="Minvydas Matlasaitis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="366" risktaking="494" offensive="355" aggressive="358" consistent="430" creative="432" experienced="486"/>
+    <skills stamina="623" dexterity="158" speed="379" tackling="415" passing="481" shooting="268" control="324" accuracy="264" goalkeeping="48" heading="337"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44070">
+    <personal name="Rolandas Cepkauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="536" risktaking="691" offensive="390" aggressive="314" consistent="749" creative="452" experienced="309"/>
+    <skills stamina="607" dexterity="402" speed="632" tackling="453" passing="406" shooting="315" control="424" accuracy="423" goalkeeping="43" heading="329"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44071">
+    <personal name="Zydrunas Merkelis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="445" risktaking="681" offensive="581" aggressive="652" consistent="364" creative="492" experienced="343"/>
+    <skills stamina="492" dexterity="283" speed="286" tackling="357" passing="389" shooting="374" control="310" accuracy="382" goalkeeping="53" heading="262"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44072">
+    <personal name="Rimvydas Bakus">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="474" risktaking="447" offensive="422" aggressive="521" consistent="547" creative="370" experienced="677"/>
+    <skills stamina="593" dexterity="482" speed="367" tackling="433" passing="276" shooting="439" control="454" accuracy="309" goalkeeping="71" heading="305"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="44073">
+    <personal name="Kestutis Rudzionis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="473" risktaking="508" offensive="696" aggressive="422" consistent="268" creative="465" experienced="480"/>
+    <skills stamina="338" dexterity="550" speed="226" tackling="285" passing="434" shooting="431" control="299" accuracy="346" goalkeeping="46" heading="278"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="44074">
+    <personal name="Vytas Vaskunas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="628" risktaking="240" offensive="686" aggressive="289" consistent="668" creative="642" experienced="407"/>
+    <skills stamina="227" dexterity="635" speed="162" tackling="363" passing="291" shooting="405" control="334" accuracy="360" goalkeeping="53" heading="299"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44075">
+    <personal name="Rimas Kazlauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="491" risktaking="534" offensive="245" aggressive="772" consistent="442" creative="458" experienced="953"/>
+    <skills stamina="631" dexterity="259" speed="184" tackling="486" passing="379" shooting="385" control="405" accuracy="371" goalkeeping="75" heading="346"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44076">
+    <personal name="Rimas Jokubauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="247" risktaking="463" offensive="227" aggressive="458" consistent="382" creative="385" experienced="331"/>
+    <skills stamina="262" dexterity="412" speed="460" tackling="451" passing="460" shooting="430" control="329" accuracy="247" goalkeeping="42" heading="412"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="44077">
+    <personal name="Robertas Vilimas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="477" risktaking="745" offensive="500" aggressive="489" consistent="660" creative="244" experienced="295"/>
+    <skills stamina="559" dexterity="303" speed="644" tackling="456" passing="414" shooting="267" control="453" accuracy="375" goalkeeping="50" heading="356"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44078">
+    <personal name="Dainius Ruseckas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="296" risktaking="479" offensive="471" aggressive="526" consistent="683" creative="430" experienced="522"/>
+    <skills stamina="616" dexterity="602" speed="390" tackling="296" passing="410" shooting="359" control="451" accuracy="432" goalkeeping="67" heading="325"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44079">
+    <personal name="Andrius Upstas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="356" risktaking="476" offensive="557" aggressive="522" consistent="741" creative="483" experienced="753"/>
+    <skills stamina="615" dexterity="612" speed="574" tackling="281" passing="312" shooting="357" control="281" accuracy="392" goalkeeping="50" heading="452"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44080">
+    <personal name="Audrius Dilys">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="525" risktaking="535" offensive="731" aggressive="456" consistent="529" creative="438" experienced="654"/>
+    <skills stamina="620" dexterity="186" speed="265" tackling="200" passing="427" shooting="352" control="362" accuracy="234" goalkeeping="402" heading="242"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="44081">
+    <personal name="Vaclovas Jurkus">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="700" risktaking="440" offensive="745" aggressive="523" consistent="446" creative="704" experienced="361"/>
+    <skills stamina="393" dexterity="154" speed="568" tackling="138" passing="284" shooting="293" control="263" accuracy="218" goalkeeping="493" heading="181"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="44082">
+    <personal name="Virmantas Cerniauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="249" risktaking="343" offensive="514" aggressive="427" consistent="440" creative="406" experienced="622"/>
+    <skills stamina="375" dexterity="511" speed="192" tackling="381" passing="395" shooting="395" control="329" accuracy="370" goalkeeping="63" heading="383"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="44083">
+    <personal name="Andrejus Sorokinas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="339" risktaking="369" offensive="397" aggressive="494" consistent="398" creative="746" experienced="544"/>
+    <skills stamina="633" dexterity="471" speed="564" tackling="394" passing="335" shooting="415" control="423" accuracy="439" goalkeeping="80" heading="433"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="44084">
+    <personal name="Remigijus Sakalas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="477" risktaking="421" offensive="477" aggressive="457" consistent="461" creative="702" experienced="615"/>
+    <skills stamina="360" dexterity="669" speed="570" tackling="463" passing="539" shooting="492" control="345" accuracy="432" goalkeeping="65" heading="477"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44085">
+    <personal name="Edgaras Tumasonis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="495" risktaking="422" offensive="474" aggressive="514" consistent="375" creative="642" experienced="497"/>
+    <skills stamina="180" dexterity="549" speed="480" tackling="310" passing="448" shooting="436" control="504" accuracy="347" goalkeeping="73" heading="313"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44086">
+    <personal name="Deimantas Bicka">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="507" risktaking="864" offensive="545" aggressive="521" consistent="561" creative="682" experienced="420"/>
+    <skills stamina="303" dexterity="391" speed="364" tackling="388" passing="467" shooting="290" control="390" accuracy="475" goalkeeping="65" heading="450"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="44087">
+    <personal name="Jonas Jakimavicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="689" risktaking="605" offensive="631" aggressive="504" consistent="596" creative="658" experienced="617"/>
+    <skills stamina="391" dexterity="265" speed="491" tackling="311" passing="428" shooting="442" control="435" accuracy="381" goalkeeping="66" heading="391"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="44088">
+    <personal name="Paulius Malzinskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="268" risktaking="550" offensive="323" aggressive="685" consistent="210" creative="497" experienced="485"/>
+    <skills stamina="443" dexterity="624" speed="420" tackling="417" passing="375" shooting="374" control="497" accuracy="359" goalkeeping="61" heading="357"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44089">
+    <personal name="Vitoldas Rudzianecas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="464" risktaking="731" offensive="384" aggressive="649" consistent="639" creative="583" experienced="516"/>
+    <skills stamina="605" dexterity="434" speed="168" tackling="362" passing="353" shooting="416" control="545" accuracy="415" goalkeeping="53" heading="312"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44090">
+    <personal name="Tomas Razanauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="562" risktaking="412" offensive="536" aggressive="301" consistent="536" creative="528" experienced="390"/>
+    <skills stamina="395" dexterity="380" speed="333" tackling="349" passing="394" shooting="350" control="352" accuracy="321" goalkeeping="77" heading="298"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="44091">
+    <personal name="Igoris Kirilovas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="671" risktaking="430" offensive="526" aggressive="404" consistent="462" creative="483" experienced="309"/>
+    <skills stamina="565" dexterity="618" speed="313" tackling="320" passing="426" shooting="281" control="384" accuracy="330" goalkeeping="75" heading="412"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44092">
+    <personal name="Vadimas Petrenka">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="605" risktaking="901" offensive="619" aggressive="610" consistent="587" creative="510" experienced="653"/>
+    <skills stamina="368" dexterity="306" speed="450" tackling="306" passing="400" shooting="454" control="335" accuracy="466" goalkeeping="54" heading="451"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44093">
+    <personal name="Aleksandras Darincevas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="479" risktaking="536" offensive="708" aggressive="617" consistent="822" creative="297" experienced="434"/>
+    <skills stamina="303" dexterity="559" speed="444" tackling="425" passing="483" shooting="458" control="374" accuracy="555" goalkeeping="67" heading="565"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44094">
+    <personal name="Igoris Morinas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="748" risktaking="280" offensive="575" aggressive="585" consistent="684" creative="312" experienced="529"/>
+    <skills stamina="638" dexterity="254" speed="420" tackling="357" passing="368" shooting="592" control="502" accuracy="445" goalkeeping="73" heading="385"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="44095">
+    <personal name="Edvinas Trinkunas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="759" risktaking="555" offensive="652" aggressive="503" consistent="404" creative="299" experienced="521"/>
+    <skills stamina="147" dexterity="213" speed="491" tackling="412" passing="372" shooting="343" control="398" accuracy="433" goalkeeping="53" heading="369"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="44096">
+    <personal name="Darius Dilda">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="293" risktaking="546" offensive="743" aggressive="406" consistent="205" creative="891" experienced="536"/>
+    <skills stamina="408" dexterity="460" speed="698" tackling="197" passing="332" shooting="328" control="382" accuracy="212" goalkeeping="387" heading="198"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="44097">
+    <personal name="Vaidas Zutautas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="353" risktaking="490" offensive="526" aggressive="713" consistent="514" creative="552" experienced="557"/>
+    <skills stamina="625" dexterity="562" speed="522" tackling="147" passing="314" shooting="307" control="272" accuracy="173" goalkeeping="577" heading="159"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="44098">
+    <personal name="Egidijus Zukauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="478" risktaking="492" offensive="537" aggressive="446" consistent="345" creative="617" experienced="428"/>
+    <skills stamina="668" dexterity="231" speed="684" tackling="359" passing="523" shooting="321" control="364" accuracy="481" goalkeeping="63" heading="474"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="44099">
+    <personal name="Darius Magdisauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="607" risktaking="614" offensive="653" aggressive="464" consistent="657" creative="277" experienced="520"/>
+    <skills stamina="316" dexterity="291" speed="645" tackling="376" passing="443" shooting="469" control="526" accuracy="356" goalkeeping="76" heading="401"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="44100">
+    <personal name="Nerijus Gudaitis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="458" risktaking="670" offensive="473" aggressive="601" consistent="360" creative="499" experienced="250"/>
+    <skills stamina="419" dexterity="717" speed="413" tackling="421" passing="434" shooting="529" control="391" accuracy="388" goalkeeping="72" heading="350"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44101">
+    <personal name="Tomas Kancelskis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="522" risktaking="538" offensive="701" aggressive="358" consistent="476" creative="687" experienced="385"/>
+    <skills stamina="432" dexterity="295" speed="543" tackling="379" passing="537" shooting="395" control="450" accuracy="347" goalkeeping="73" heading="364"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44102">
+    <personal name="Gediminas Kontautas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="635" risktaking="513" offensive="385" aggressive="626" consistent="435" creative="424" experienced="363"/>
+    <skills stamina="347" dexterity="625" speed="235" tackling="322" passing="333" shooting="397" control="305" accuracy="375" goalkeeping="70" heading="456"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44103">
+    <personal name="Raimondas Zutautas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="859" risktaking="320" offensive="501" aggressive="561" consistent="462" creative="582" experienced="369"/>
+    <skills stamina="475" dexterity="226" speed="304" tackling="411" passing="394" shooting="464" control="383" accuracy="358" goalkeeping="78" heading="480"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="44104">
+    <personal name="Vitalijus Danilicevas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="353" risktaking="816" offensive="544" aggressive="702" consistent="537" creative="519" experienced="441"/>
+    <skills stamina="519" dexterity="445" speed="241" tackling="351" passing="484" shooting="381" control="348" accuracy="324" goalkeeping="53" heading="489"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="44105">
+    <personal name="Rolandas Vainekis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="577" risktaking="332" offensive="482" aggressive="663" consistent="384" creative="641" experienced="516"/>
+    <skills stamina="437" dexterity="617" speed="599" tackling="483" passing="373" shooting="450" control="391" accuracy="527" goalkeeping="77" heading="445"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44106">
+    <personal name="Arunas Suika">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="620" risktaking="490" offensive="167" aggressive="627" consistent="655" creative="402" experienced="381"/>
+    <skills stamina="565" dexterity="543" speed="579" tackling="529" passing="395" shooting="439" control="481" accuracy="517" goalkeeping="58" heading="355"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44107">
+    <personal name="Raimondas Gecas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="693" risktaking="747" offensive="580" aggressive="107" consistent="476" creative="529" experienced="415"/>
+    <skills stamina="439" dexterity="239" speed="215" tackling="371" passing="364" shooting="351" control="387" accuracy="474" goalkeeping="78" heading="466"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="44108">
+    <personal name="Saulius Vilciauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="529" risktaking="381" offensive="565" aggressive="557" consistent="500" creative="637" experienced="518"/>
+    <skills stamina="387" dexterity="632" speed="683" tackling="447" passing="398" shooting="345" control="363" accuracy="414" goalkeeping="83" heading="461"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44109">
+    <personal name="Vidas Doncenka">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="581" risktaking="435" offensive="445" aggressive="396" consistent="561" creative="489" experienced="569"/>
+    <skills stamina="634" dexterity="239" speed="473" tackling="447" passing="378" shooting="543" control="503" accuracy="574" goalkeeping="79" heading="409"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="44110">
+    <personal name="Remigijus Pocius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="625" risktaking="432" offensive="407" aggressive="418" consistent="570" creative="358" experienced="641"/>
+    <skills stamina="470" dexterity="587" speed="475" tackling="460" passing="452" shooting="483" control="482" accuracy="431" goalkeeping="76" heading="522"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44111">
+    <personal name="Aurimas Malakauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="451" risktaking="577" offensive="707" aggressive="808" consistent="441" creative="187" experienced="599"/>
+    <skills stamina="476" dexterity="260" speed="476" tackling="354" passing="391" shooting="418" control="366" accuracy="538" goalkeeping="50" heading="340"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44112">
+    <personal name="Remigijus Mikocionis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="543" risktaking="451" offensive="477" aggressive="445" consistent="300" creative="552" experienced="638"/>
+    <skills stamina="295" dexterity="218" speed="681" tackling="218" passing="324" shooting="460" control="304" accuracy="164" goalkeeping="582" heading="204"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="44113">
+    <personal name="Nerijus Jokubauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="582" risktaking="374" offensive="292" aggressive="672" consistent="463" creative="324" experienced="643"/>
+    <skills stamina="211" dexterity="542" speed="421" tackling="143" passing="404" shooting="272" control="335" accuracy="130" goalkeeping="460" heading="126"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="44114">
+    <personal name="Saulius Jagminas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="462" risktaking="387" offensive="409" aggressive="567" consistent="645" creative="498" experienced="603"/>
+    <skills stamina="434" dexterity="667" speed="328" tackling="517" passing="477" shooting="394" control="516" accuracy="432" goalkeeping="71" heading="405"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="44115">
+    <personal name="Virgerdas Kavolis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="600" risktaking="419" offensive="667" aggressive="631" consistent="659" creative="607" experienced="683"/>
+    <skills stamina="390" dexterity="422" speed="287" tackling="421" passing="385" shooting="412" control="466" accuracy="447" goalkeeping="46" heading="424"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="44116">
+    <personal name="Virgilijus Raciunas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="457" risktaking="557" offensive="663" aggressive="405" consistent="722" creative="464" experienced="407"/>
+    <skills stamina="613" dexterity="687" speed="663" tackling="499" passing="357" shooting="494" control="407" accuracy="449" goalkeeping="72" heading="379"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44117">
+    <personal name="Vaidotas Sarkis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="514" risktaking="586" offensive="511" aggressive="522" consistent="507" creative="543" experienced="473"/>
+    <skills stamina="362" dexterity="395" speed="406" tackling="460" passing="263" shooting="328" control="421" accuracy="253" goalkeeping="72" heading="368"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44118">
+    <personal name="Edvinas Sakalys">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="467" risktaking="571" offensive="511" aggressive="628" consistent="487" creative="347" experienced="246"/>
+    <skills stamina="311" dexterity="419" speed="176" tackling="357" passing="400" shooting="339" control="297" accuracy="392" goalkeeping="45" heading="413"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44119">
+    <personal name="Marius Butkevicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="547" risktaking="730" offensive="415" aggressive="620" consistent="409" creative="338" experienced="190"/>
+    <skills stamina="337" dexterity="334" speed="559" tackling="284" passing="285" shooting="265" control="428" accuracy="368" goalkeeping="49" heading="455"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="44120">
+    <personal name="Vladas Kuizinas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="416" risktaking="299" offensive="497" aggressive="407" consistent="455" creative="586" experienced="864"/>
+    <skills stamina="405" dexterity="262" speed="522" tackling="419" passing="323" shooting="401" control="385" accuracy="395" goalkeeping="70" heading="383"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="44121">
+    <personal name="Mindaugas Delkus">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="319" risktaking="705" offensive="410" aggressive="557" consistent="758" creative="486" experienced="454"/>
+    <skills stamina="677" dexterity="484" speed="506" tackling="444" passing="455" shooting="433" control="378" accuracy="351" goalkeeping="53" heading="464"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44122">
+    <personal name="Saulius Lesnickas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="459" risktaking="385" offensive="420" aggressive="496" consistent="478" creative="586" experienced="414"/>
+    <skills stamina="707" dexterity="521" speed="385" tackling="418" passing="324" shooting="370" control="496" accuracy="325" goalkeeping="54" heading="319"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44123">
+    <personal name="Romas Senkus">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="300" risktaking="431" offensive="760" aggressive="483" consistent="337" creative="475" experienced="858"/>
+    <skills stamina="390" dexterity="434" speed="426" tackling="299" passing="306" shooting="374" control="303" accuracy="350" goalkeeping="68" heading="362"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44124">
+    <personal name="Saulius Skodminas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="312" risktaking="426" offensive="731" aggressive="340" consistent="542" creative="527" experienced="417"/>
+    <skills stamina="574" dexterity="363" speed="543" tackling="375" passing="356" shooting="332" control="296" accuracy="315" goalkeeping="60" heading="343"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44125">
+    <personal name="Viaceslavas Konikas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="452" risktaking="730" offensive="498" aggressive="887" consistent="366" creative="642" experienced="575"/>
+    <skills stamina="653" dexterity="251" speed="220" tackling="319" passing="445" shooting="415" control="387" accuracy="366" goalkeeping="62" heading="501"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44126">
+    <personal name="Virginijus Nutautas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="629" risktaking="476" offensive="419" aggressive="625" consistent="269" creative="475" experienced="398"/>
+    <skills stamina="411" dexterity="428" speed="285" tackling="299" passing="353" shooting="378" control="332" accuracy="312" goalkeeping="61" heading="336"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44127">
+    <personal name="Andrius Urbonas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="399" risktaking="710" offensive="346" aggressive="613" consistent="226" creative="401" experienced="332"/>
+    <skills stamina="240" dexterity="156" speed="246" tackling="255" passing="407" shooting="308" control="246" accuracy="334" goalkeeping="61" heading="349"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44128">
+    <personal name="Marius Poskus">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="745" risktaking="474" offensive="161" aggressive="321" consistent="224" creative="436" experienced="440"/>
+    <skills stamina="612" dexterity="563" speed="242" tackling="209" passing="487" shooting="313" control="257" accuracy="237" goalkeeping="440" heading="190"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="44129">
+    <personal name="Erikas Zaburas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="476" risktaking="262" offensive="664" aggressive="371" consistent="732" creative="411" experienced="745"/>
+    <skills stamina="532" dexterity="653" speed="155" tackling="206" passing="311" shooting="291" control="235" accuracy="130" goalkeeping="398" heading="163"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="44130">
+    <personal name="Saulius Atmanavicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="316" risktaking="137" offensive="608" aggressive="459" consistent="372" creative="555" experienced="635"/>
+    <skills stamina="275" dexterity="249" speed="403" tackling="407" passing="302" shooting="394" control="429" accuracy="370" goalkeeping="73" heading="354"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="44131">
+    <personal name="Eduardas Gaigalas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="334" risktaking="693" offensive="480" aggressive="771" consistent="294" creative="645" experienced="253"/>
+    <skills stamina="452" dexterity="523" speed="517" tackling="377" passing="383" shooting="362" control="427" accuracy="276" goalkeeping="69" heading="385"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="44132">
+    <personal name="Arturas Mika">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="283" risktaking="707" offensive="358" aggressive="685" consistent="400" creative="722" experienced="344"/>
+    <skills stamina="185" dexterity="279" speed="273" tackling="348" passing="381" shooting="390" control="298" accuracy="269" goalkeeping="44" heading="330"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44133">
+    <personal name="Zenonas Atutis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="580" risktaking="434" offensive="498" aggressive="530" consistent="557" creative="657" experienced="190"/>
+    <skills stamina="406" dexterity="468" speed="183" tackling="434" passing="341" shooting="333" control="400" accuracy="338" goalkeeping="56" heading="380"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44134">
+    <personal name="Edgaras Tumasonis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="497" risktaking="377" offensive="722" aggressive="441" consistent="201" creative="656" experienced="538"/>
+    <skills stamina="497" dexterity="241" speed="303" tackling="263" passing="337" shooting="383" control="371" accuracy="394" goalkeeping="40" heading="375"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44135">
+    <personal name="Audrius Zuta">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="495" risktaking="459" offensive="601" aggressive="367" consistent="439" creative="476" experienced="666"/>
+    <skills stamina="192" dexterity="393" speed="297" tackling="348" passing="451" shooting="308" control="310" accuracy="378" goalkeeping="79" heading="440"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="44136">
+    <personal name="Saulius Mikalajunas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="426" risktaking="282" offensive="491" aggressive="215" consistent="258" creative="654" experienced="758"/>
+    <skills stamina="491" dexterity="704" speed="673" tackling="414" passing="354" shooting="453" control="459" accuracy="306" goalkeeping="58" heading="392"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="44137">
+    <personal name="Orestas Buitkus">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="394" risktaking="429" offensive="239" aggressive="360" consistent="442" creative="726" experienced="544"/>
+    <skills stamina="485" dexterity="379" speed="412" tackling="333" passing="529" shooting="407" control="407" accuracy="420" goalkeeping="72" heading="334"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="44138">
+    <personal name="Vitalijus Kutyrinas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="188" risktaking="705" offensive="584" aggressive="389" consistent="561" creative="393" experienced="684"/>
+    <skills stamina="348" dexterity="373" speed="172" tackling="484" passing="395" shooting="438" control="337" accuracy="448" goalkeeping="70" heading="465"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44139">
+    <personal name="Remigijus Bubliauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="801" risktaking="370" offensive="845" aggressive="502" consistent="765" creative="575" experienced="409"/>
+    <skills stamina="470" dexterity="632" speed="589" tackling="440" passing="293" shooting="267" control="346" accuracy="289" goalkeeping="64" heading="250"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44140">
+    <personal name="Gintaras Kviliunas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="613" risktaking="685" offensive="539" aggressive="739" consistent="796" creative="456" experienced="440"/>
+    <skills stamina="562" dexterity="248" speed="452" tackling="303" passing="375" shooting="409" control="370" accuracy="282" goalkeeping="69" heading="358"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44141">
+    <personal name="Rolandas Bubliauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="604" risktaking="532" offensive="801" aggressive="409" consistent="481" creative="845" experienced="524"/>
+    <skills stamina="509" dexterity="575" speed="688" tackling="315" passing="414" shooting="298" control="376" accuracy="430" goalkeeping="55" heading="421"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44142">
+    <personal name="Arunas Suika">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="438" risktaking="446" offensive="490" aggressive="430" consistent="304" creative="688" experienced="325"/>
+    <skills stamina="262" dexterity="484" speed="634" tackling="347" passing="281" shooting="456" control="277" accuracy="320" goalkeeping="56" heading="503"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44143">
+    <personal name="Valerijus Kiseliovas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="237" risktaking="439" offensive="670" aggressive="527" consistent="423" creative="371" experienced="544"/>
+    <skills stamina="495" dexterity="515" speed="386" tackling="237" passing="342" shooting="365" control="363" accuracy="384" goalkeeping="57" heading="261"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44144">
+    <personal name="Aleksandr Ignatyev">
+      <appearance value="0"/>
+      <nationality value="Russia"/>
+    </personal>
+    <personality active="503" risktaking="677" offensive="692" aggressive="528" consistent="489" creative="543" experienced="286"/>
+    <skills stamina="215" dexterity="566" speed="441" tackling="195" passing="285" shooting="422" control="194" accuracy="209" goalkeeping="372" heading="179"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="44145">
+    <personal name="Mikhail Tuliakov">
+      <appearance value="0"/>
+      <nationality value="Russia"/>
+    </personal>
+    <personality active="540" risktaking="425" offensive="457" aggressive="469" consistent="380" creative="256" experienced="495"/>
+    <skills stamina="334" dexterity="309" speed="346" tackling="184" passing="206" shooting="361" control="217" accuracy="101" goalkeeping="424" heading="137"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="44146">
+    <personal name="Dainius Simkus">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="885" risktaking="620" offensive="595" aggressive="650" consistent="477" creative="553" experienced="559"/>
+    <skills stamina="359" dexterity="512" speed="204" tackling="480" passing="310" shooting="417" control="331" accuracy="418" goalkeeping="62" heading="264"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="44147">
+    <personal name="Raimondas Saulevicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="656" risktaking="525" offensive="526" aggressive="672" consistent="753" creative="618" experienced="429"/>
+    <skills stamina="596" dexterity="337" speed="482" tackling="429" passing="328" shooting="413" control="355" accuracy="418" goalkeeping="54" heading="423"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="44148">
+    <personal name="Vidas Laurinaitis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="617" risktaking="456" offensive="578" aggressive="589" consistent="521" creative="506" experienced="394"/>
+    <skills stamina="313" dexterity="265" speed="179" tackling="416" passing="361" shooting="363" control="410" accuracy="423" goalkeeping="48" heading="363"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44149">
+    <personal name="Gediminas Krencius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="606" risktaking="434" offensive="487" aggressive="485" consistent="501" creative="564" experienced="569"/>
+    <skills stamina="478" dexterity="377" speed="512" tackling="273" passing="358" shooting="357" control="357" accuracy="437" goalkeeping="68" heading="242"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="44150">
+    <personal name="Aleksandr Moiseyev">
+      <appearance value="0"/>
+      <nationality value="Russia"/>
+    </personal>
+    <personality active="532" risktaking="420" offensive="525" aggressive="663" consistent="459" creative="285" experienced="282"/>
+    <skills stamina="329" dexterity="559" speed="577" tackling="356" passing="449" shooting="329" control="397" accuracy="326" goalkeeping="64" heading="387"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="44151">
+    <personal name="Virginijus Kazlauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="600" risktaking="731" offensive="314" aggressive="515" consistent="674" creative="340" experienced="558"/>
+    <skills stamina="454" dexterity="572" speed="592" tackling="271" passing="287" shooting="297" control="386" accuracy="302" goalkeeping="41" heading="245"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="44152">
+    <personal name="Vaidas Juodeikis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="735" risktaking="588" offensive="575" aggressive="504" consistent="526" creative="460" experienced="781"/>
+    <skills stamina="277" dexterity="413" speed="498" tackling="400" passing="325" shooting="405" control="448" accuracy="264" goalkeeping="74" heading="309"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="44153">
+    <personal name="Virginijus Rasovas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="544" risktaking="466" offensive="553" aggressive="788" consistent="733" creative="606" experienced="333"/>
+    <skills stamina="484" dexterity="660" speed="225" tackling="395" passing="373" shooting="354" control="358" accuracy="276" goalkeeping="59" heading="282"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="44154">
+    <personal name="Nerijus Milkeraitis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="502" risktaking="638" offensive="741" aggressive="298" consistent="653" creative="313" experienced="801"/>
+    <skills stamina="692" dexterity="620" speed="511" tackling="367" passing="378" shooting="257" control="440" accuracy="393" goalkeeping="54" heading="393"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="44155">
+    <personal name="Jurijus Kopylovas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="607" risktaking="694" offensive="464" aggressive="379" consistent="527" creative="532" experienced="444"/>
+    <skills stamina="324" dexterity="599" speed="356" tackling="277" passing="308" shooting="290" control="443" accuracy="235" goalkeeping="66" heading="304"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44156">
+    <personal name="Viktoras Jonca">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="625" risktaking="271" offensive="632" aggressive="474" consistent="477" creative="683" experienced="519"/>
+    <skills stamina="637" dexterity="411" speed="374" tackling="232" passing="302" shooting="398" control="259" accuracy="253" goalkeeping="37" heading="321"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44157">
+    <personal name="Martynas Cikas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="449" risktaking="473" offensive="369" aggressive="415" consistent="292" creative="524" experienced="556"/>
+    <skills stamina="489" dexterity="505" speed="485" tackling="276" passing="393" shooting="343" control="285" accuracy="324" goalkeeping="58" heading="277"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44158">
+    <personal name="Vladimir Bondar">
+      <appearance value="0"/>
+      <nationality value="Russia"/>
+    </personal>
+    <personality active="454" risktaking="723" offensive="489" aggressive="780" consistent="491" creative="452" experienced="717"/>
+    <skills stamina="379" dexterity="599" speed="314" tackling="282" passing="373" shooting="414" control="291" accuracy="359" goalkeeping="50" heading="279"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44159">
+    <personal name="Darius Stasys">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="246" risktaking="730" offensive="765" aggressive="487" consistent="540" creative="520" experienced="626"/>
+    <skills stamina="397" dexterity="255" speed="121" tackling="211" passing="287" shooting="436" control="289" accuracy="421" goalkeeping="33" heading="329"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="44160">
+    <personal name="Darius Spetyla">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="393" risktaking="525" offensive="305" aggressive="421" consistent="471" creative="305" experienced="419"/>
+    <skills stamina="333" dexterity="706" speed="281" tackling="173" passing="480" shooting="422" control="408" accuracy="184" goalkeeping="435" heading="199"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="44161">
+    <personal name="Kestutis Kumza">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="730" risktaking="503" offensive="385" aggressive="526" consistent="488" creative="440" experienced="627"/>
+    <skills stamina="643" dexterity="644" speed="505" tackling="168" passing="305" shooting="359" control="283" accuracy="227" goalkeeping="514" heading="167"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="44162">
+    <personal name="Tomas Ziukas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="453" risktaking="504" offensive="525" aggressive="428" consistent="686" creative="229" experienced="632"/>
+    <skills stamina="480" dexterity="250" speed="224" tackling="510" passing="441" shooting="375" control="402" accuracy="357" goalkeeping="60" heading="530"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="44163">
+    <personal name="Andrius Tereskinas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="758" risktaking="779" offensive="197" aggressive="362" consistent="627" creative="349" experienced="292"/>
+    <skills stamina="257" dexterity="215" speed="627" tackling="464" passing="559" shooting="431" control="520" accuracy="405" goalkeeping="88" heading="489"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="44164">
+    <personal name="Girius Kalvaitis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="302" risktaking="377" offensive="402" aggressive="380" consistent="370" creative="133" experienced="618"/>
+    <skills stamina="511" dexterity="697" speed="345" tackling="456" passing="485" shooting="368" control="442" accuracy="372" goalkeeping="74" heading="417"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44165">
+    <personal name="Andrius Sriubas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="435" risktaking="739" offensive="384" aggressive="487" consistent="627" creative="789" experienced="809"/>
+    <skills stamina="671" dexterity="551" speed="518" tackling="503" passing="449" shooting="461" control="362" accuracy="389" goalkeeping="61" heading="401"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44166">
+    <personal name="Ramunas Stonkas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="313" risktaking="490" offensive="625" aggressive="697" consistent="453" creative="470" experienced="588"/>
+    <skills stamina="190" dexterity="554" speed="647" tackling="401" passing="511" shooting="398" control="444" accuracy="338" goalkeeping="66" heading="439"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="44167">
+    <personal name="Dainius Suliauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="480" risktaking="595" offensive="553" aggressive="376" consistent="475" creative="553" experienced="688"/>
+    <skills stamina="602" dexterity="613" speed="729" tackling="450" passing="485" shooting="482" control="392" accuracy="360" goalkeeping="69" heading="531"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="44168">
+    <personal name="Aidas Preiksaitis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="527" risktaking="651" offensive="600" aggressive="722" consistent="462" creative="379" experienced="233"/>
+    <skills stamina="445" dexterity="610" speed="221" tackling="357" passing="498" shooting="452" control="571" accuracy="367" goalkeeping="62" heading="383"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44169">
+    <personal name="Donatas Vencevicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="503" risktaking="453" offensive="535" aggressive="674" consistent="604" creative="253" experienced="478"/>
+    <skills stamina="566" dexterity="597" speed="429" tackling="520" passing="391" shooting="417" control="484" accuracy="483" goalkeeping="92" heading="429"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44170">
+    <personal name="Darius Maciulevicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="766" risktaking="594" offensive="376" aggressive="425" consistent="424" creative="365" experienced="490"/>
+    <skills stamina="454" dexterity="631" speed="464" tackling="452" passing="427" shooting="565" control="461" accuracy="465" goalkeeping="75" heading="418"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44171">
+    <personal name="Ricardas Zdancius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="706" risktaking="492" offensive="603" aggressive="297" consistent="637" creative="562" experienced="410"/>
+    <skills stamina="596" dexterity="476" speed="571" tackling="403" passing="348" shooting="349" control="405" accuracy="342" goalkeeping="83" heading="497"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="44172">
+    <personal name="Valdas Urbonas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="672" risktaking="496" offensive="307" aggressive="519" consistent="508" creative="345" experienced="780"/>
+    <skills stamina="678" dexterity="429" speed="446" tackling="491" passing="449" shooting="485" control="448" accuracy="482" goalkeeping="82" heading="393"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44173">
+    <personal name="Edgaras Jankauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="627" risktaking="463" offensive="638" aggressive="22" consistent="491" creative="299" experienced="507"/>
+    <skills stamina="360" dexterity="212" speed="406" tackling="481" passing="456" shooting="565" control="446" accuracy="387" goalkeeping="67" heading="420"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44174">
+    <personal name="Aurelijus Skarbalius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="634" risktaking="613" offensive="412" aggressive="539" consistent="649" creative="243" experienced="622"/>
+    <skills stamina="264" dexterity="372" speed="434" tackling="385" passing="394" shooting="403" control="549" accuracy="446" goalkeeping="60" heading="455"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44175">
+    <personal name="Eimantas Poderis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="319" risktaking="652" offensive="524" aggressive="777" consistent="674" creative="476" experienced="384"/>
+    <skills stamina="519" dexterity="202" speed="336" tackling="503" passing="502" shooting="489" control="493" accuracy="453" goalkeeping="80" heading="521"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44176">
+    <personal name="Saulius Buivydas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="522" risktaking="646" offensive="686" aggressive="427" consistent="447" creative="550" experienced="474"/>
+    <skills stamina="552" dexterity="502" speed="225" tackling="213" passing="299" shooting="342" control="272" accuracy="221" goalkeeping="390" heading="220"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="44177">
+    <personal name="Raimondas Ceginskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="419" risktaking="574" offensive="410" aggressive="428" consistent="616" creative="648" experienced="378"/>
+    <skills stamina="196" dexterity="246" speed="396" tackling="161" passing="373" shooting="282" control="332" accuracy="207" goalkeeping="313" heading="114"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="44178">
+    <personal name="Saulius Griskevicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="415" risktaking="596" offensive="513" aggressive="534" consistent="269" creative="708" experienced="658"/>
+    <skills stamina="619" dexterity="578" speed="264" tackling="378" passing="290" shooting="393" control="397" accuracy="405" goalkeeping="66" heading="335"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="44179">
+    <personal name="Ricardas Jankauskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="526" risktaking="487" offensive="269" aggressive="499" consistent="478" creative="543" experienced="415"/>
+    <skills stamina="725" dexterity="401" speed="282" tackling="361" passing="453" shooting="312" control="313" accuracy="388" goalkeeping="63" heading="272"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="44180">
+    <personal name="Zilvinas Rimsa">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="609" risktaking="525" offensive="543" aggressive="385" consistent="659" creative="696" experienced="508"/>
+    <skills stamina="286" dexterity="645" speed="470" tackling="394" passing="352" shooting="415" control="364" accuracy="343" goalkeeping="49" heading="416"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44181">
+    <personal name="Dalius Totoraitis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="505" risktaking="512" offensive="600" aggressive="563" consistent="470" creative="437" experienced="330"/>
+    <skills stamina="651" dexterity="649" speed="653" tackling="364" passing="444" shooting="310" control="423" accuracy="390" goalkeeping="44" heading="397"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="44182">
+    <personal name="Gediminas Jankevicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="619" risktaking="594" offensive="626" aggressive="384" consistent="529" creative="258" experienced="411"/>
+    <skills stamina="469" dexterity="354" speed="517" tackling="229" passing="249" shooting="399" control="432" accuracy="327" goalkeeping="40" heading="321"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="44183">
+    <personal name="Igoris Kiselevicius">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="670" risktaking="390" offensive="311" aggressive="140" consistent="600" creative="584" experienced="429"/>
+    <skills stamina="211" dexterity="474" speed="439" tackling="352" passing="481" shooting="406" control="308" accuracy="368" goalkeeping="66" heading="418"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="44184">
+    <personal name="Ruslanas Fiodorovas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="333" risktaking="469" offensive="645" aggressive="453" consistent="803" creative="419" experienced="713"/>
+    <skills stamina="563" dexterity="370" speed="440" tackling="413" passing="495" shooting="279" control="426" accuracy="294" goalkeeping="54" heading="417"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="44185">
+    <personal name="Arvydas Mykolaitis">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="436" risktaking="592" offensive="768" aggressive="333" consistent="526" creative="410" experienced="504"/>
+    <skills stamina="526" dexterity="450" speed="377" tackling="287" passing="354" shooting="260" control="369" accuracy="251" goalkeeping="68" heading="398"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44186">
+    <personal name="Saulius Vikertas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="559" risktaking="677" offensive="546" aggressive="730" consistent="625" creative="468" experienced="526"/>
+    <skills stamina="642" dexterity="156" speed="389" tackling="380" passing="453" shooting="302" control="299" accuracy="275" goalkeeping="54" heading="372"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44187">
+    <personal name="Vitas Jakunskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="528" risktaking="174" offensive="301" aggressive="610" consistent="606" creative="409" experienced="443"/>
+    <skills stamina="449" dexterity="445" speed="124" tackling="439" passing="331" shooting="302" control="376" accuracy="357" goalkeeping="65" heading="320"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44188">
+    <personal name="Valdas Zilinskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="385" risktaking="508" offensive="300" aggressive="361" consistent="769" creative="656" experienced="391"/>
+    <skills stamina="351" dexterity="271" speed="564" tackling="256" passing="288" shooting="313" control="354" accuracy="252" goalkeeping="60" heading="279"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="44189">
+    <personal name="Eimantas Liaugaudas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="445" risktaking="594" offensive="751" aggressive="378" consistent="594" creative="428" experienced="457"/>
+    <skills stamina="496" dexterity="325" speed="529" tackling="316" passing="418" shooting="473" control="375" accuracy="323" goalkeeping="56" heading="360"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44190">
+    <personal name="Vidas Zitinskas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="533" risktaking="351" offensive="401" aggressive="858" consistent="121" creative="735" experienced="635"/>
+    <skills stamina="420" dexterity="532" speed="582" tackling="320" passing="290" shooting="423" control="406" accuracy="302" goalkeeping="56" heading="378"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="44191">
+    <personal name="Sarunas Litvinas">
+      <appearance value="0"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="624" risktaking="426" offensive="641" aggressive="660" consistent="439" creative="735" experienced="756"/>
+    <skills stamina="323" dexterity="631" speed="568" tackling="308" passing="333" shooting="398" control="388" accuracy="476" goalkeeping="46" heading="340"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+</Players>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Latvia">
+    <Regions>
+      <Region name="Latvia">
+        <stadium name="Auseklis Stadium" capacity="900"/>
+        <stadium name="Fc Dag Riga Stadium" capacity="1000"/>
+        <stadium name="Gauya Valmiera Stadium" capacity="300"/>
+        <stadium name="Olympia Liepaya Stadium" capacity="700"/>
+        <stadium name="Olympia Riga Stadium" capacity="2700"/>
+        <stadium name="Pardaugava Riga Stadium" capacity="3000"/>
+        <stadium name="Raf Yelgava Stadium" capacity="2400"/>
+        <stadium name="Skonto Riga Stadium" capacity="5800"/>
+        <stadium name="Vairogs Rezekne Stadium" capacity="800"/>
+        <stadium name="Vidus Riga Stadium" capacity="800"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Latvian league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="10" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Latvian Premier league champion"/>
+              <attendances>
+                <attendance tournament="Latvian Cup" stage="Quarterfinals"/>
+              </attendances>
+              <preset>
+                <club name="Auseklis"/>
+                <club name="Fc Dag Riga"/>
+                <club name="Gauya Valmiera"/>
+                <club name="Olympia Liepaya"/>
+                <club name="Olympia Riga"/>
+                <club name="Pardaugava Riga"/>
+                <club name="Raf Yelgava"/>
+                <club name="Skonto Riga"/>
+                <club name="Vairogs Rezekne"/>
+                <club name="Vidus Riga"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Latvian Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Latvian Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+          <preset>
+            <club name="Auseklis"/>
+            <club name="Fc Dag Riga"/>
+            <club name="Gauya Valmiera"/>
+            <club name="Olympia Liepaya"/>
+            <club name="Olympia Riga"/>
+            <club name="Pardaugava Riga"/>
+            <club name="Raf Yelgava"/>
+            <club name="Skonto Riga"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

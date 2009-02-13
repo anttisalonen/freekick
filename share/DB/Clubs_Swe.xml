@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Aik">
+    <coach name="Rikard Norling"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Aik Stadium"/>
+    <contracts>
+      <contract player="72000"/>
+      <contract player="72001"/>
+      <contract player="72002"/>
+      <contract player="72003"/>
+      <contract player="72004"/>
+      <contract player="72005"/>
+      <contract player="72006"/>
+      <contract player="72007"/>
+      <contract player="72008"/>
+      <contract player="72009"/>
+      <contract player="72010"/>
+      <contract player="72011"/>
+      <contract player="72012"/>
+      <contract player="72013"/>
+      <contract player="72014"/>
+      <contract player="72015"/>
+    </contracts>
+  </club>
+  <club name="Hacken">
+    <coach name="Sonny Karlsson"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="3">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Hacken Stadium"/>
+    <contracts>
+      <contract player="72016"/>
+      <contract player="72017"/>
+      <contract player="72018"/>
+      <contract player="72019"/>
+      <contract player="72020"/>
+      <contract player="72021"/>
+      <contract player="72022"/>
+      <contract player="72023"/>
+      <contract player="72024"/>
+      <contract player="72025"/>
+      <contract player="72026"/>
+      <contract player="72027"/>
+      <contract player="72028"/>
+      <contract player="72029"/>
+      <contract player="72030"/>
+      <contract player="72031"/>
+    </contracts>
+  </club>
+  <club name="Elfsborg">
+    <coach name="Magnus Haglund"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Elfsborg Stadium"/>
+    <contracts>
+      <contract player="72032"/>
+      <contract player="72033"/>
+      <contract player="72034"/>
+      <contract player="72035"/>
+      <contract player="72036"/>
+      <contract player="72037"/>
+      <contract player="72038"/>
+      <contract player="72039"/>
+      <contract player="72040"/>
+      <contract player="72041"/>
+      <contract player="72042"/>
+      <contract player="72043"/>
+      <contract player="72044"/>
+      <contract player="72045"/>
+      <contract player="72046"/>
+      <contract player="72047"/>
+    </contracts>
+  </club>
+  <club name="Djurgarden">
+    <coach name="Siggi Jonsson"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Djurgarden Stadium"/>
+    <contracts>
+      <contract player="72048"/>
+      <contract player="72049"/>
+      <contract player="72050"/>
+      <contract player="72051"/>
+      <contract player="72052"/>
+      <contract player="72053"/>
+      <contract player="72054"/>
+      <contract player="72055"/>
+      <contract player="72056"/>
+      <contract player="72057"/>
+      <contract player="72058"/>
+      <contract player="72059"/>
+      <contract player="72060"/>
+      <contract player="72061"/>
+      <contract player="72062"/>
+      <contract player="72063"/>
+    </contracts>
+  </club>
+  <club name="Gais">
+    <coach name="Magnus Pehrsson"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Gais Stadium"/>
+    <contracts>
+      <contract player="72064"/>
+      <contract player="72065"/>
+      <contract player="72066"/>
+      <contract player="72067"/>
+      <contract player="72068"/>
+      <contract player="72069"/>
+      <contract player="72070"/>
+      <contract player="72071"/>
+      <contract player="72072"/>
+      <contract player="72073"/>
+      <contract player="72074"/>
+      <contract player="72075"/>
+      <contract player="72076"/>
+      <contract player="72077"/>
+      <contract player="72078"/>
+      <contract player="72079"/>
+    </contracts>
+  </club>
+  <club name="Halmstad">
+    <coach name="Janne Andersson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Halmstad Stadium"/>
+    <contracts>
+      <contract player="72080"/>
+      <contract player="72081"/>
+      <contract player="72082"/>
+      <contract player="72083"/>
+      <contract player="72084"/>
+      <contract player="72085"/>
+      <contract player="72086"/>
+      <contract player="72087"/>
+      <contract player="72088"/>
+      <contract player="72089"/>
+      <contract player="72090"/>
+      <contract player="72091"/>
+      <contract player="72092"/>
+      <contract player="72093"/>
+      <contract player="72094"/>
+      <contract player="72095"/>
+    </contracts>
+  </club>
+  <club name="Hammarby">
+    <coach name="Tony Gustavsson"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Hammarby Stadium"/>
+    <contracts>
+      <contract player="72096"/>
+      <contract player="72097"/>
+      <contract player="72098"/>
+      <contract player="72099"/>
+      <contract player="72100"/>
+      <contract player="72101"/>
+      <contract player="72102"/>
+      <contract player="72103"/>
+      <contract player="72104"/>
+      <contract player="72105"/>
+      <contract player="72106"/>
+      <contract player="72107"/>
+      <contract player="72108"/>
+      <contract player="72109"/>
+      <contract player="72110"/>
+      <contract player="72111"/>
+    </contracts>
+  </club>
+  <club name="Helsingborg">
+    <coach name="Stuart Baxter"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Helsingborg Stadium"/>
+    <contracts>
+      <contract player="72112"/>
+      <contract player="72113"/>
+      <contract player="72114"/>
+      <contract player="72115"/>
+      <contract player="72116"/>
+      <contract player="72117"/>
+      <contract player="72118"/>
+      <contract player="72119"/>
+      <contract player="72120"/>
+      <contract player="72121"/>
+      <contract player="72122"/>
+      <contract player="72123"/>
+      <contract player="72124"/>
+      <contract player="72125"/>
+      <contract player="72126"/>
+      <contract player="72127"/>
+    </contracts>
+  </club>
+  <club name="Ifk Goteborg">
+    <coach name="Stefan Rehn"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Ifk Goteborg Stadium"/>
+    <contracts>
+      <contract player="72128"/>
+      <contract player="72129"/>
+      <contract player="72130"/>
+      <contract player="72131"/>
+      <contract player="72132"/>
+      <contract player="72133"/>
+      <contract player="72134"/>
+      <contract player="72135"/>
+      <contract player="72136"/>
+      <contract player="72137"/>
+      <contract player="72138"/>
+      <contract player="72139"/>
+      <contract player="72140"/>
+      <contract player="72141"/>
+      <contract player="72142"/>
+      <contract player="72143"/>
+    </contracts>
+  </club>
+  <club name="Ifk Norrkoping">
+    <coach name="Mats Jingblad"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Ifk Norrkoping Stadium"/>
+    <contracts>
+      <contract player="72144"/>
+      <contract player="72145"/>
+      <contract player="72146"/>
+      <contract player="72147"/>
+      <contract player="72148"/>
+      <contract player="72149"/>
+      <contract player="72150"/>
+      <contract player="72151"/>
+      <contract player="72152"/>
+      <contract player="72153"/>
+      <contract player="72154"/>
+      <contract player="72155"/>
+      <contract player="72156"/>
+      <contract player="72157"/>
+      <contract player="72158"/>
+      <contract player="72159"/>
+    </contracts>
+  </club>
+  <club name="Kalmar">
+    <coach name="Nanne Bergstrand"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Kalmar Stadium"/>
+    <contracts>
+      <contract player="72160"/>
+      <contract player="72161"/>
+      <contract player="72162"/>
+      <contract player="72163"/>
+      <contract player="72164"/>
+      <contract player="72165"/>
+      <contract player="72166"/>
+      <contract player="72167"/>
+      <contract player="72168"/>
+      <contract player="72169"/>
+      <contract player="72170"/>
+      <contract player="72171"/>
+      <contract player="72172"/>
+      <contract player="72173"/>
+      <contract player="72174"/>
+      <contract player="72175"/>
+    </contracts>
+  </club>
+  <club name="Landskrona">
+    <coach name="Patrik Johansson"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Landskrona Stadium"/>
+    <contracts>
+      <contract player="72176"/>
+      <contract player="72177"/>
+      <contract player="72178"/>
+      <contract player="72179"/>
+      <contract player="72180"/>
+      <contract player="72181"/>
+      <contract player="72182"/>
+      <contract player="72183"/>
+      <contract player="72184"/>
+      <contract player="72185"/>
+      <contract player="72186"/>
+      <contract player="72187"/>
+      <contract player="72188"/>
+      <contract player="72189"/>
+      <contract player="72190"/>
+      <contract player="72191"/>
+    </contracts>
+  </club>
+  <club name="Malmo">
+    <coach name="Roland Nilsson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Malmo Stadium"/>
+    <contracts>
+      <contract player="72192"/>
+      <contract player="72193"/>
+      <contract player="72194"/>
+      <contract player="72195"/>
+      <contract player="72196"/>
+      <contract player="72197"/>
+      <contract player="72198"/>
+      <contract player="72199"/>
+      <contract player="72200"/>
+      <contract player="72201"/>
+      <contract player="72202"/>
+      <contract player="72203"/>
+      <contract player="72204"/>
+      <contract player="72205"/>
+      <contract player="72206"/>
+      <contract player="72207"/>
+    </contracts>
+  </club>
+  <club name="Orebro">
+    <coach name="Urban Hammar"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Orebro Stadium"/>
+    <contracts>
+      <contract player="72208"/>
+      <contract player="72209"/>
+      <contract player="72210"/>
+      <contract player="72211"/>
+      <contract player="72212"/>
+      <contract player="72213"/>
+      <contract player="72214"/>
+      <contract player="72215"/>
+      <contract player="72216"/>
+      <contract player="72217"/>
+      <contract player="72218"/>
+      <contract player="72219"/>
+      <contract player="72220"/>
+      <contract player="72221"/>
+      <contract player="72222"/>
+      <contract player="72223"/>
+    </contracts>
+  </club>
+  <club name="Gefle">
+    <coach name="Per Olsson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Gefle Stadium"/>
+    <contracts>
+      <contract player="72224"/>
+      <contract player="72225"/>
+      <contract player="72226"/>
+      <contract player="72227"/>
+      <contract player="72228"/>
+      <contract player="72229"/>
+      <contract player="72230"/>
+      <contract player="72231"/>
+      <contract player="72232"/>
+      <contract player="72233"/>
+      <contract player="72234"/>
+      <contract player="72235"/>
+      <contract player="72236"/>
+      <contract player="72237"/>
+      <contract player="72238"/>
+      <contract player="72239"/>
+    </contracts>
+  </club>
+  <club name="Oster">
+    <coach name="Giles Stille"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Oster Stadium"/>
+    <contracts>
+      <contract player="72240"/>
+      <contract player="72241"/>
+      <contract player="72242"/>
+      <contract player="72243"/>
+      <contract player="72244"/>
+      <contract player="72245"/>
+      <contract player="72246"/>
+      <contract player="72247"/>
+      <contract player="72248"/>
+      <contract player="72249"/>
+      <contract player="72250"/>
+      <contract player="72251"/>
+      <contract player="72252"/>
+      <contract player="72253"/>
+      <contract player="72254"/>
+      <contract player="72255"/>
+    </contracts>
+  </club>
+  <club name="Trelleborg">
+    <coach name="Conny Karlsson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Trelleborg Stadium"/>
+    <contracts>
+      <contract player="72256"/>
+      <contract player="72257"/>
+      <contract player="72258"/>
+      <contract player="72259"/>
+      <contract player="72260"/>
+      <contract player="72261"/>
+      <contract player="72262"/>
+      <contract player="72263"/>
+      <contract player="72264"/>
+      <contract player="72265"/>
+      <contract player="72266"/>
+      <contract player="72267"/>
+      <contract player="72268"/>
+      <contract player="72269"/>
+      <contract player="72270"/>
+      <contract player="72271"/>
+    </contracts>
+  </club>
+  <club name="Brommapojkarna">
+    <coach name="Kim Bergstrand"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Brommapojkarna Stadium"/>
+    <contracts>
+      <contract player="72272"/>
+      <contract player="72273"/>
+      <contract player="72274"/>
+      <contract player="72275"/>
+      <contract player="72276"/>
+      <contract player="72277"/>
+      <contract player="72278"/>
+      <contract player="72279"/>
+      <contract player="72280"/>
+      <contract player="72281"/>
+      <contract player="72282"/>
+      <contract player="72283"/>
+      <contract player="72284"/>
+      <contract player="72285"/>
+      <contract player="72286"/>
+      <contract player="72287"/>
+    </contracts>
+  </club>
+  <club name="Ljungskile">
+    <coach name="David Wilson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Sweden"/>
+    <stadium name="Ljungskile Stadium"/>
+    <contracts>
+      <contract player="72288"/>
+      <contract player="72289"/>
+      <contract player="72290"/>
+      <contract player="72291"/>
+      <contract player="72292"/>
+      <contract player="72293"/>
+      <contract player="72294"/>
+      <contract player="72295"/>
+      <contract player="72296"/>
+      <contract player="72297"/>
+      <contract player="72298"/>
+      <contract player="72299"/>
+      <contract player="72300"/>
+      <contract player="72301"/>
+      <contract player="72302"/>
+      <contract player="72303"/>
+    </contracts>
+  </club>
+</Clubs>

@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Diosgyor">
+    <coach name="Janos Pajkos"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Diosgyor Stadium"/>
+    <contracts>
+      <contract player="32000"/>
+      <contract player="32001"/>
+      <contract player="32002"/>
+      <contract player="32003"/>
+      <contract player="32004"/>
+      <contract player="32005"/>
+      <contract player="32006"/>
+      <contract player="32007"/>
+      <contract player="32008"/>
+      <contract player="32009"/>
+      <contract player="32010"/>
+      <contract player="32011"/>
+      <contract player="32012"/>
+      <contract player="32013"/>
+      <contract player="32014"/>
+      <contract player="32015"/>
+    </contracts>
+  </club>
+  <club name="Kaposvar">
+    <coach name="Laszlo Prukner"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Kaposvar Stadium"/>
+    <contracts>
+      <contract player="32016"/>
+      <contract player="32017"/>
+      <contract player="32018"/>
+      <contract player="32019"/>
+      <contract player="32020"/>
+      <contract player="32021"/>
+      <contract player="32022"/>
+      <contract player="32023"/>
+      <contract player="32024"/>
+      <contract player="32025"/>
+      <contract player="32026"/>
+      <contract player="32027"/>
+      <contract player="32028"/>
+      <contract player="32029"/>
+      <contract player="32030"/>
+      <contract player="32031"/>
+    </contracts>
+  </club>
+  <club name="Nyiregyhaza">
+    <coach name="Attila Revesz"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Nyiregyhaza Stadium"/>
+    <contracts>
+      <contract player="32032"/>
+      <contract player="32033"/>
+      <contract player="32034"/>
+      <contract player="32035"/>
+      <contract player="32036"/>
+      <contract player="32037"/>
+      <contract player="32038"/>
+      <contract player="32039"/>
+      <contract player="32040"/>
+      <contract player="32041"/>
+      <contract player="32042"/>
+      <contract player="32043"/>
+      <contract player="32044"/>
+      <contract player="32045"/>
+      <contract player="32046"/>
+      <contract player="32047"/>
+    </contracts>
+  </club>
+  <club name="Fehervar">
+    <coach name="Marijan Vlak"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Fehervar Stadium"/>
+    <contracts>
+      <contract player="32048"/>
+      <contract player="32049"/>
+      <contract player="32050"/>
+      <contract player="32051"/>
+      <contract player="32052"/>
+      <contract player="32053"/>
+      <contract player="32054"/>
+      <contract player="32055"/>
+      <contract player="32056"/>
+      <contract player="32057"/>
+      <contract player="32058"/>
+      <contract player="32059"/>
+      <contract player="32060"/>
+      <contract player="32061"/>
+      <contract player="32062"/>
+      <contract player="32063"/>
+    </contracts>
+  </club>
+  <club name="Pecs">
+    <coach name="Karoly Kis"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Pecs Stadium"/>
+    <contracts>
+      <contract player="32064"/>
+      <contract player="32065"/>
+      <contract player="32066"/>
+      <contract player="32067"/>
+      <contract player="32068"/>
+      <contract player="32069"/>
+      <contract player="32070"/>
+      <contract player="32071"/>
+      <contract player="32072"/>
+      <contract player="32073"/>
+      <contract player="32074"/>
+      <contract player="32075"/>
+      <contract player="32076"/>
+      <contract player="32077"/>
+      <contract player="32078"/>
+      <contract player="32079"/>
+    </contracts>
+  </club>
+  <club name="Debrecen">
+    <coach name="Miroslav Beranek"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Debrecen Stadium"/>
+    <contracts>
+      <contract player="32080"/>
+      <contract player="32081"/>
+      <contract player="32082"/>
+      <contract player="32083"/>
+      <contract player="32084"/>
+      <contract player="32085"/>
+      <contract player="32086"/>
+      <contract player="32087"/>
+      <contract player="32088"/>
+      <contract player="32089"/>
+      <contract player="32090"/>
+      <contract player="32091"/>
+      <contract player="32092"/>
+      <contract player="32093"/>
+      <contract player="32094"/>
+      <contract player="32095"/>
+    </contracts>
+  </club>
+  <club name="Gyor">
+    <coach name="Gyula Lencse"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Gyor Stadium"/>
+    <contracts>
+      <contract player="32096"/>
+      <contract player="32097"/>
+      <contract player="32098"/>
+      <contract player="32099"/>
+      <contract player="32100"/>
+      <contract player="32101"/>
+      <contract player="32102"/>
+      <contract player="32103"/>
+      <contract player="32104"/>
+      <contract player="32105"/>
+      <contract player="32106"/>
+      <contract player="32107"/>
+      <contract player="32108"/>
+      <contract player="32109"/>
+      <contract player="32110"/>
+      <contract player="32111"/>
+    </contracts>
+  </club>
+  <club name="Paks">
+    <coach name="Ferenc Lengyel"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Paks Stadium"/>
+    <contracts>
+      <contract player="32112"/>
+      <contract player="32113"/>
+      <contract player="32114"/>
+      <contract player="32115"/>
+      <contract player="32116"/>
+      <contract player="32117"/>
+      <contract player="32118"/>
+      <contract player="32119"/>
+      <contract player="32120"/>
+      <contract player="32121"/>
+      <contract player="32122"/>
+      <contract player="32123"/>
+      <contract player="32124"/>
+      <contract player="32125"/>
+      <contract player="32126"/>
+      <contract player="32127"/>
+    </contracts>
+  </club>
+  <club name="Honved">
+    <coach name="Attila Supka"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Honved Stadium"/>
+    <contracts>
+      <contract player="32128"/>
+      <contract player="32129"/>
+      <contract player="32130"/>
+      <contract player="32131"/>
+      <contract player="32132"/>
+      <contract player="32133"/>
+      <contract player="32134"/>
+      <contract player="32135"/>
+      <contract player="32136"/>
+      <contract player="32137"/>
+      <contract player="32138"/>
+      <contract player="32139"/>
+      <contract player="32140"/>
+      <contract player="32141"/>
+      <contract player="32142"/>
+      <contract player="32143"/>
+    </contracts>
+  </club>
+  <club name="Mtk">
+    <coach name="Jozsef Garami"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Mtk Stadium"/>
+    <contracts>
+      <contract player="32144"/>
+      <contract player="32145"/>
+      <contract player="32146"/>
+      <contract player="32147"/>
+      <contract player="32148"/>
+      <contract player="32149"/>
+      <contract player="32150"/>
+      <contract player="32151"/>
+      <contract player="32152"/>
+      <contract player="32153"/>
+      <contract player="32154"/>
+      <contract player="32155"/>
+      <contract player="32156"/>
+      <contract player="32157"/>
+      <contract player="32158"/>
+      <contract player="32159"/>
+    </contracts>
+  </club>
+  <club name="Vac">
+    <coach name="Jozsef Verebes"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Vac Stadium"/>
+    <contracts>
+      <contract player="32160"/>
+      <contract player="32161"/>
+      <contract player="32162"/>
+      <contract player="32163"/>
+      <contract player="32164"/>
+      <contract player="32165"/>
+      <contract player="32166"/>
+      <contract player="32167"/>
+      <contract player="32168"/>
+      <contract player="32169"/>
+      <contract player="32170"/>
+      <contract player="32171"/>
+      <contract player="32172"/>
+      <contract player="32173"/>
+      <contract player="32174"/>
+      <contract player="32175"/>
+    </contracts>
+  </club>
+  <club name="Reac">
+    <coach name="Zoltan Aczel"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Reac Stadium"/>
+    <contracts>
+      <contract player="32176"/>
+      <contract player="32177"/>
+      <contract player="32178"/>
+      <contract player="32179"/>
+      <contract player="32180"/>
+      <contract player="32181"/>
+      <contract player="32182"/>
+      <contract player="32183"/>
+      <contract player="32184"/>
+      <contract player="32185"/>
+      <contract player="32186"/>
+      <contract player="32187"/>
+      <contract player="32188"/>
+      <contract player="32189"/>
+      <contract player="32190"/>
+      <contract player="32191"/>
+    </contracts>
+  </club>
+  <club name="Sopron">
+    <coach name="Vincenzo Cosco"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Sopron Stadium"/>
+    <contracts>
+      <contract player="32192"/>
+      <contract player="32193"/>
+      <contract player="32194"/>
+      <contract player="32195"/>
+      <contract player="32196"/>
+      <contract player="32197"/>
+      <contract player="32198"/>
+      <contract player="32199"/>
+      <contract player="32200"/>
+      <contract player="32201"/>
+      <contract player="32202"/>
+      <contract player="32203"/>
+      <contract player="32204"/>
+      <contract player="32205"/>
+      <contract player="32206"/>
+      <contract player="32207"/>
+    </contracts>
+  </club>
+  <club name="Ferencvaros">
+    <coach name="Janos Csank"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Ferencvaros Stadium"/>
+    <contracts>
+      <contract player="32208"/>
+      <contract player="32209"/>
+      <contract player="32210"/>
+      <contract player="32211"/>
+      <contract player="32212"/>
+      <contract player="32213"/>
+      <contract player="32214"/>
+      <contract player="32215"/>
+      <contract player="32216"/>
+      <contract player="32217"/>
+      <contract player="32218"/>
+      <contract player="32219"/>
+      <contract player="32220"/>
+      <contract player="32221"/>
+      <contract player="32222"/>
+      <contract player="32223"/>
+    </contracts>
+  </club>
+  <club name="Papa">
+    <coach name="Jozsef Kiprich"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Papa Stadium"/>
+    <contracts>
+      <contract player="32224"/>
+      <contract player="32225"/>
+      <contract player="32226"/>
+      <contract player="32227"/>
+      <contract player="32228"/>
+      <contract player="32229"/>
+      <contract player="32230"/>
+      <contract player="32231"/>
+      <contract player="32232"/>
+      <contract player="32233"/>
+      <contract player="32234"/>
+      <contract player="32235"/>
+      <contract player="32236"/>
+      <contract player="32237"/>
+      <contract player="32238"/>
+      <contract player="32239"/>
+    </contracts>
+  </club>
+  <club name="Tatabanya">
+    <coach name="Ferenc Meszaros"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Tatabanya Stadium"/>
+    <contracts>
+      <contract player="32240"/>
+      <contract player="32241"/>
+      <contract player="32242"/>
+      <contract player="32243"/>
+      <contract player="32244"/>
+      <contract player="32245"/>
+      <contract player="32246"/>
+      <contract player="32247"/>
+      <contract player="32248"/>
+      <contract player="32249"/>
+      <contract player="32250"/>
+      <contract player="32251"/>
+      <contract player="32252"/>
+      <contract player="32253"/>
+      <contract player="32254"/>
+      <contract player="32255"/>
+    </contracts>
+  </club>
+  <club name="Ujpest">
+    <coach name="Istvan Urbanyi"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Ujpest Stadium"/>
+    <contracts>
+      <contract player="32256"/>
+      <contract player="32257"/>
+      <contract player="32258"/>
+      <contract player="32259"/>
+      <contract player="32260"/>
+      <contract player="32261"/>
+      <contract player="32262"/>
+      <contract player="32263"/>
+      <contract player="32264"/>
+      <contract player="32265"/>
+      <contract player="32266"/>
+      <contract player="32267"/>
+      <contract player="32268"/>
+      <contract player="32269"/>
+      <contract player="32270"/>
+      <contract player="32271"/>
+    </contracts>
+  </club>
+  <club name="Siofok">
+    <coach name="Antal Botos"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Siofok Stadium"/>
+    <contracts>
+      <contract player="32272"/>
+      <contract player="32273"/>
+      <contract player="32274"/>
+      <contract player="32275"/>
+      <contract player="32276"/>
+      <contract player="32277"/>
+      <contract player="32278"/>
+      <contract player="32279"/>
+      <contract player="32280"/>
+      <contract player="32281"/>
+      <contract player="32282"/>
+      <contract player="32283"/>
+      <contract player="32284"/>
+      <contract player="32285"/>
+      <contract player="32286"/>
+      <contract player="32287"/>
+    </contracts>
+  </club>
+  <club name="Vasas">
+    <coach name="Geza Meszoly"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Vasas Stadium"/>
+    <contracts>
+      <contract player="32288"/>
+      <contract player="32289"/>
+      <contract player="32290"/>
+      <contract player="32291"/>
+      <contract player="32292"/>
+      <contract player="32293"/>
+      <contract player="32294"/>
+      <contract player="32295"/>
+      <contract player="32296"/>
+      <contract player="32297"/>
+      <contract player="32298"/>
+      <contract player="32299"/>
+      <contract player="32300"/>
+      <contract player="32301"/>
+      <contract player="32302"/>
+      <contract player="32303"/>
+    </contracts>
+  </club>
+  <club name="Haladas">
+    <coach name="Aurel Csertoi"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Haladas Stadium"/>
+    <contracts>
+      <contract player="32304"/>
+      <contract player="32305"/>
+      <contract player="32306"/>
+      <contract player="32307"/>
+      <contract player="32308"/>
+      <contract player="32309"/>
+      <contract player="32310"/>
+      <contract player="32311"/>
+      <contract player="32312"/>
+      <contract player="32313"/>
+      <contract player="32314"/>
+      <contract player="32315"/>
+      <contract player="32316"/>
+      <contract player="32317"/>
+      <contract player="32318"/>
+      <contract player="32319"/>
+    </contracts>
+  </club>
+  <club name="Zte">
+    <coach name="Slavko Petrovic"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Hungary"/>
+    <stadium name="Zte Stadium"/>
+    <contracts>
+      <contract player="32320"/>
+      <contract player="32321"/>
+      <contract player="32322"/>
+      <contract player="32323"/>
+      <contract player="32324"/>
+      <contract player="32325"/>
+      <contract player="32326"/>
+      <contract player="32327"/>
+      <contract player="32328"/>
+      <contract player="32329"/>
+      <contract player="32330"/>
+      <contract player="32331"/>
+      <contract player="32332"/>
+      <contract player="32333"/>
+      <contract player="32334"/>
+      <contract player="32335"/>
+    </contracts>
+  </club>
+</Clubs>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Austria">
+    <Regions>
+      <Region name="Austria">
+        <stadium name="Austria Wien Stadium" capacity="17100"/>
+        <stadium name="Austria Karnten Stadium" capacity="7600"/>
+        <stadium name="Mattersburg Stadium" capacity="12900"/>
+        <stadium name="Lask Stadium" capacity="7900"/>
+        <stadium name="Altach Stadium" capacity="6700"/>
+        <stadium name="Rapid Wien Stadium" capacity="10700"/>
+        <stadium name="Ried Stadium" capacity="8900"/>
+        <stadium name="Sturm Graz Stadium" capacity="11300"/>
+        <stadium name="Salzburg Stadium" capacity="21600"/>
+        <stadium name="Wacker Innsbruck Stadium" capacity="7200"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Austrian league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="10" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Austrian Premier league champion"/>
+              <attendances>
+                <attendance tournament="Austrian Cup" stage="Quarterfinals"/>
+              </attendances>
+              <preset>
+                <club name="Austria Wien"/>
+                <club name="Austria Karnten"/>
+                <club name="Mattersburg"/>
+                <club name="Lask"/>
+                <club name="Altach"/>
+                <club name="Rapid Wien"/>
+                <club name="Ried"/>
+                <club name="Sturm Graz"/>
+                <club name="Salzburg"/>
+                <club name="Wacker Innsbruck"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Austrian Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Austrian Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+          <preset>
+            <club name="Austria Wien"/>
+            <club name="Austria Karnten"/>
+            <club name="Mattersburg"/>
+            <club name="Lask"/>
+            <club name="Altach"/>
+            <club name="Rapid Wien"/>
+            <club name="Ried"/>
+            <club name="Sturm Graz"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

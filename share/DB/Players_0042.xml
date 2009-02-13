@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="42000">
+    <personal name="Victor Spole">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="409" risktaking="386" offensive="713" aggressive="353" consistent="400" creative="673" experienced="612"/>
+    <skills stamina="584" dexterity="555" speed="386" tackling="176" passing="329" shooting="415" control="198" accuracy="200" goalkeeping="401" heading="199"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42001">
+    <personal name="Andris Tsatlaksh">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="724" risktaking="317" offensive="751" aggressive="376" consistent="203" creative="286" experienced="546"/>
+    <skills stamina="347" dexterity="257" speed="519" tackling="119" passing="246" shooting="381" control="280" accuracy="143" goalkeeping="419" heading="155"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42002">
+    <personal name="Mickhail Baronenko">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="650" risktaking="545" offensive="622" aggressive="591" consistent="538" creative="235" experienced="570"/>
+    <skills stamina="619" dexterity="434" speed="577" tackling="351" passing="481" shooting="336" control="479" accuracy="371" goalkeeping="70" heading="408"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="42003">
+    <personal name="Albert Martyanov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="457" risktaking="503" offensive="386" aggressive="332" consistent="482" creative="765" experienced="572"/>
+    <skills stamina="191" dexterity="322" speed="509" tackling="415" passing="425" shooting="410" control="526" accuracy="347" goalkeeping="58" heading="414"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="42004">
+    <personal name="Alexandr Isakov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="686" risktaking="401" offensive="877" aggressive="287" consistent="386" creative="556" experienced="354"/>
+    <skills stamina="660" dexterity="565" speed="348" tackling="469" passing="440" shooting="336" control="313" accuracy="425" goalkeeping="44" heading="403"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42005">
+    <personal name="Andris Tsirsh">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="487" risktaking="160" offensive="525" aggressive="618" consistent="304" creative="704" experienced="151"/>
+    <skills stamina="123" dexterity="361" speed="418" tackling="381" passing="257" shooting="333" control="312" accuracy="313" goalkeeping="42" heading="351"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42006">
+    <personal name="Alexandr Gamulchik">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="516" risktaking="555" offensive="692" aggressive="584" consistent="160" creative="293" experienced="499"/>
+    <skills stamina="585" dexterity="260" speed="482" tackling="318" passing="321" shooting="319" control="288" accuracy="360" goalkeeping="42" heading="276"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42007">
+    <personal name="Dmitry Loginov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="314" risktaking="192" offensive="616" aggressive="500" consistent="736" creative="431" experienced="457"/>
+    <skills stamina="223" dexterity="326" speed="487" tackling="415" passing="439" shooting="346" control="431" accuracy="284" goalkeeping="46" heading="337"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="42008">
+    <personal name="Eduard Burlakov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="783" risktaking="358" offensive="353" aggressive="634" consistent="565" creative="504" experienced="460"/>
+    <skills stamina="271" dexterity="458" speed="180" tackling="388" passing="471" shooting="319" control="284" accuracy="292" goalkeeping="46" heading="428"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="42009">
+    <personal name="Mickhail Zizilev">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="710" risktaking="418" offensive="395" aggressive="452" consistent="785" creative="367" experienced="443"/>
+    <skills stamina="295" dexterity="328" speed="402" tackling="453" passing="297" shooting="282" control="275" accuracy="292" goalkeeping="74" heading="265"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42010">
+    <personal name="Alexey Ilyin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="372" risktaking="663" offensive="511" aggressive="141" consistent="364" creative="245" experienced="429"/>
+    <skills stamina="500" dexterity="267" speed="166" tackling="419" passing="337" shooting="283" control="412" accuracy="235" goalkeeping="49" heading="403"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="42011">
+    <personal name="Alexandr Fedotov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="537" risktaking="576" offensive="639" aggressive="416" consistent="692" creative="376" experienced="515"/>
+    <skills stamina="450" dexterity="395" speed="293" tackling="385" passing="318" shooting="381" control="330" accuracy="431" goalkeeping="69" heading="386"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42012">
+    <personal name="Yury Dementyev">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="420" risktaking="514" offensive="530" aggressive="451" consistent="598" creative="459" experienced="284"/>
+    <skills stamina="482" dexterity="265" speed="546" tackling="437" passing="292" shooting="485" control="354" accuracy="371" goalkeeping="50" heading="357"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42013">
+    <personal name="Sergey Pogodin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="567" risktaking="464" offensive="634" aggressive="485" consistent="273" creative="710" experienced="490"/>
+    <skills stamina="499" dexterity="600" speed="378" tackling="319" passing="358" shooting="337" control="211" accuracy="319" goalkeeping="44" heading="266"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42014">
+    <personal name="Vyacheslav Zhevnerovih">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="295" risktaking="335" offensive="755" aggressive="742" consistent="320" creative="412" experienced="466"/>
+    <skills stamina="200" dexterity="340" speed="660" tackling="280" passing="347" shooting="393" control="351" accuracy="459" goalkeeping="76" heading="363"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42015">
+    <personal name="Alexandr Vasilyev">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="683" risktaking="618" offensive="759" aggressive="457" consistent="645" creative="549" experienced="369"/>
+    <skills stamina="647" dexterity="500" speed="157" tackling="313" passing="328" shooting="246" control="315" accuracy="435" goalkeeping="64" heading="295"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42016">
+    <personal name="Georgs Atvars">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="473" risktaking="447" offensive="263" aggressive="284" consistent="342" creative="352" experienced="535"/>
+    <skills stamina="359" dexterity="556" speed="195" tackling="131" passing="408" shooting="404" control="328" accuracy="131" goalkeeping="351" heading="172"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42017">
+    <personal name="Leonid Dvorkins">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="434" risktaking="485" offensive="461" aggressive="562" consistent="494" creative="365" experienced="677"/>
+    <skills stamina="393" dexterity="433" speed="523" tackling="116" passing="207" shooting="201" control="300" accuracy="178" goalkeeping="264" heading="173"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42018">
+    <personal name="Alexandr Solomko">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="627" risktaking="282" offensive="336" aggressive="493" consistent="520" creative="473" experienced="554"/>
+    <skills stamina="314" dexterity="429" speed="643" tackling="446" passing="342" shooting="310" control="346" accuracy="250" goalkeeping="43" heading="303"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="42019">
+    <personal name="Yury Nikolayenko">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="611" risktaking="570" offensive="605" aggressive="381" consistent="537" creative="289" experienced="508"/>
+    <skills stamina="141" dexterity="672" speed="288" tackling="291" passing="371" shooting="303" control="304" accuracy="290" goalkeeping="49" heading="306"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="42020">
+    <personal name="Boris Dolinsky">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="686" risktaking="539" offensive="77" aggressive="478" consistent="543" creative="464" experienced="688"/>
+    <skills stamina="155" dexterity="341" speed="411" tackling="278" passing="400" shooting="276" control="350" accuracy="257" goalkeeping="60" heading="298"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42021">
+    <personal name="Andrey Lapsa">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="427" risktaking="697" offensive="415" aggressive="757" consistent="663" creative="268" experienced="487"/>
+    <skills stamina="516" dexterity="473" speed="591" tackling="471" passing="306" shooting="333" control="348" accuracy="343" goalkeeping="71" heading="287"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42022">
+    <personal name="Boris Antonov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="219" risktaking="592" offensive="518" aggressive="450" consistent="946" creative="426" experienced="575"/>
+    <skills stamina="334" dexterity="188" speed="480" tackling="449" passing="361" shooting="367" control="304" accuracy="369" goalkeeping="64" heading="323"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42023">
+    <personal name="Sergey Utkin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="391" risktaking="464" offensive="767" aggressive="176" consistent="472" creative="414" experienced="462"/>
+    <skills stamina="498" dexterity="629" speed="264" tackling="306" passing="360" shooting="245" control="399" accuracy="381" goalkeeping="45" heading="394"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42024">
+    <personal name="Dmitry Horolsky">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="546" risktaking="317" offensive="408" aggressive="547" consistent="282" creative="512" experienced="658"/>
+    <skills stamina="606" dexterity="193" speed="273" tackling="295" passing="346" shooting="271" control="354" accuracy="282" goalkeeping="60" heading="401"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="42025">
+    <personal name="Vladimir Vashkevitch">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="491" risktaking="363" offensive="637" aggressive="652" consistent="281" creative="561" experienced="371"/>
+    <skills stamina="398" dexterity="411" speed="477" tackling="310" passing="368" shooting="412" control="299" accuracy="290" goalkeeping="61" heading="413"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="42026">
+    <personal name="Vadim Shvatsky">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="593" risktaking="504" offensive="651" aggressive="429" consistent="754" creative="833" experienced="380"/>
+    <skills stamina="603" dexterity="400" speed="576" tackling="343" passing="307" shooting="321" control="444" accuracy="469" goalkeeping="54" heading="368"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42027">
+    <personal name="Oleg Antilsky">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="502" risktaking="494" offensive="148" aggressive="492" consistent="968" creative="294" experienced="327"/>
+    <skills stamina="560" dexterity="321" speed="281" tackling="413" passing="425" shooting="357" control="441" accuracy="304" goalkeeping="65" heading="323"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42028">
+    <personal name="Vladimir Serbin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="611" risktaking="580" offensive="546" aggressive="410" consistent="583" creative="453" experienced="274"/>
+    <skills stamina="539" dexterity="339" speed="181" tackling="268" passing="303" shooting="375" control="416" accuracy="401" goalkeeping="38" heading="266"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42029">
+    <personal name="Alexey Mirmanov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="452" risktaking="543" offensive="680" aggressive="686" consistent="404" creative="360" experienced="443"/>
+    <skills stamina="461" dexterity="301" speed="600" tackling="448" passing="358" shooting="462" control="325" accuracy="405" goalkeeping="56" heading="357"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42030">
+    <personal name="Yury Azarov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="560" risktaking="351" offensive="457" aggressive="313" consistent="523" creative="458" experienced="287"/>
+    <skills stamina="257" dexterity="257" speed="445" tackling="360" passing="325" shooting="292" control="387" accuracy="415" goalkeeping="59" heading="444"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42031">
+    <personal name="Vladimir Kuvichkin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="373" risktaking="208" offensive="256" aggressive="484" consistent="498" creative="684" experienced="446"/>
+    <skills stamina="247" dexterity="299" speed="320" tackling="275" passing="352" shooting="273" control="348" accuracy="321" goalkeeping="47" heading="335"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42032">
+    <personal name="Ivo Kalninsh">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="374" risktaking="628" offensive="476" aggressive="673" consistent="477" creative="472" experienced="583"/>
+    <skills stamina="450" dexterity="497" speed="567" tackling="135" passing="235" shooting="384" control="204" accuracy="186" goalkeeping="418" heading="165"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42033">
+    <personal name="Guntis Meletsis">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="786" risktaking="499" offensive="486" aggressive="369" consistent="619" creative="615" experienced="417"/>
+    <skills stamina="532" dexterity="139" speed="497" tackling="128" passing="412" shooting="280" control="289" accuracy="177" goalkeeping="435" heading="176"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42034">
+    <personal name="Andrey Pichkin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="377" risktaking="128" offensive="311" aggressive="457" consistent="600" creative="381" experienced="402"/>
+    <skills stamina="624" dexterity="211" speed="199" tackling="354" passing="293" shooting="363" control="362" accuracy="400" goalkeeping="49" heading="277"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="42035">
+    <personal name="Victor Vitsehovsky">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="659" risktaking="486" offensive="649" aggressive="424" consistent="419" creative="483" experienced="804"/>
+    <skills stamina="578" dexterity="201" speed="392" tackling="297" passing="320" shooting="272" control="324" accuracy="373" goalkeeping="46" heading="249"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="42036">
+    <personal name="Victor Baskakov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="407" risktaking="464" offensive="120" aggressive="711" consistent="546" creative="555" experienced="293"/>
+    <skills stamina="503" dexterity="388" speed="554" tackling="387" passing="321" shooting="261" control="301" accuracy="304" goalkeeping="65" heading="326"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42037">
+    <personal name="Sergey Smirnov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="453" risktaking="428" offensive="846" aggressive="517" consistent="419" creative="718" experienced="512"/>
+    <skills stamina="589" dexterity="526" speed="593" tackling="372" passing="282" shooting="407" control="400" accuracy="317" goalkeeping="46" heading="253"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42038">
+    <personal name="Yanis Zuyev">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="474" risktaking="461" offensive="734" aggressive="567" consistent="417" creative="665" experienced="385"/>
+    <skills stamina="568" dexterity="406" speed="460" tackling="475" passing="439" shooting="296" control="245" accuracy="296" goalkeeping="61" heading="348"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42039">
+    <personal name="Alexandr Lobanov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="887" risktaking="248" offensive="693" aggressive="336" consistent="110" creative="434" experienced="673"/>
+    <skills stamina="485" dexterity="380" speed="354" tackling="335" passing="394" shooting="360" control="304" accuracy="229" goalkeeping="51" heading="359"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42040">
+    <personal name="Oleg Alyohin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="904" risktaking="496" offensive="400" aggressive="427" consistent="530" creative="245" experienced="694"/>
+    <skills stamina="659" dexterity="429" speed="574" tackling="363" passing="304" shooting="336" control="428" accuracy="420" goalkeeping="61" heading="269"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="42041">
+    <personal name="Arnis Pukitis">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="456" risktaking="680" offensive="681" aggressive="536" consistent="491" creative="579" experienced="289"/>
+    <skills stamina="528" dexterity="279" speed="557" tackling="356" passing="284" shooting="317" control="281" accuracy="306" goalkeeping="38" heading="362"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="42042">
+    <personal name="Aldis Birkans">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="424" risktaking="548" offensive="389" aggressive="331" consistent="615" creative="330" experienced="882"/>
+    <skills stamina="515" dexterity="425" speed="205" tackling="326" passing="383" shooting="397" control="378" accuracy="383" goalkeeping="47" heading="358"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42043">
+    <personal name="Dainis Andersons">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="288" risktaking="469" offensive="623" aggressive="432" consistent="610" creative="431" experienced="528"/>
+    <skills stamina="458" dexterity="424" speed="319" tackling="362" passing="332" shooting="281" control="296" accuracy="354" goalkeeping="65" heading="282"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42044">
+    <personal name="Oleg Moiseyev">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="602" risktaking="651" offensive="445" aggressive="511" consistent="375" creative="702" experienced="604"/>
+    <skills stamina="638" dexterity="335" speed="509" tackling="410" passing="307" shooting="302" control="461" accuracy="239" goalkeeping="60" heading="348"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42045">
+    <personal name="Agris Balinsh">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="620" risktaking="500" offensive="523" aggressive="395" consistent="345" creative="138" experienced="482"/>
+    <skills stamina="237" dexterity="563" speed="378" tackling="278" passing="252" shooting="390" control="322" accuracy="366" goalkeeping="57" heading="356"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42046">
+    <personal name="Andris Grapens">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="864" risktaking="387" offensive="557" aggressive="508" consistent="610" creative="336" experienced="414"/>
+    <skills stamina="616" dexterity="585" speed="647" tackling="365" passing="269" shooting="417" control="262" accuracy="374" goalkeeping="62" heading="351"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42047">
+    <personal name="Aldis Mezhgailis">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="496" risktaking="518" offensive="502" aggressive="499" consistent="646" creative="558" experienced="618"/>
+    <skills stamina="499" dexterity="292" speed="412" tackling="352" passing="323" shooting="277" control="300" accuracy="401" goalkeeping="46" heading="271"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42048">
+    <personal name="Igor Korshakov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="409" risktaking="538" offensive="663" aggressive="658" consistent="455" creative="364" experienced="505"/>
+    <skills stamina="561" dexterity="289" speed="156" tackling="169" passing="313" shooting="245" control="194" accuracy="194" goalkeeping="525" heading="147"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42049">
+    <personal name="Yaroslav Farion">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="500" risktaking="592" offensive="562" aggressive="868" consistent="698" creative="681" experienced="589"/>
+    <skills stamina="521" dexterity="528" speed="413" tackling="202" passing="358" shooting="264" control="264" accuracy="182" goalkeeping="434" heading="207"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42050">
+    <personal name="Ainars Bukovsky">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="439" risktaking="255" offensive="361" aggressive="503" consistent="521" creative="473" experienced="446"/>
+    <skills stamina="220" dexterity="270" speed="552" tackling="417" passing="259" shooting="247" control="334" accuracy="331" goalkeeping="48" heading="423"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="42051">
+    <personal name="Normunds Zile">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="745" risktaking="309" offensive="470" aggressive="256" consistent="685" creative="390" experienced="616"/>
+    <skills stamina="162" dexterity="575" speed="420" tackling="414" passing="250" shooting="397" control="301" accuracy="281" goalkeeping="48" heading="377"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="42052">
+    <personal name="Zintis Kalns">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="545" risktaking="267" offensive="524" aggressive="225" consistent="783" creative="378" experienced="581"/>
+    <skills stamina="231" dexterity="438" speed="216" tackling="410" passing="275" shooting="327" control="260" accuracy="325" goalkeeping="64" heading="416"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42053">
+    <personal name="Romualds Grants">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="467" risktaking="551" offensive="315" aggressive="529" consistent="524" creative="586" experienced="178"/>
+    <skills stamina="627" dexterity="324" speed="186" tackling="417" passing="240" shooting="289" control="412" accuracy="270" goalkeeping="39" heading="295"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42054">
+    <personal name="Oleg Rudenko">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="447" risktaking="469" offensive="321" aggressive="518" consistent="648" creative="636" experienced="363"/>
+    <skills stamina="594" dexterity="184" speed="623" tackling="351" passing="494" shooting="352" control="399" accuracy="278" goalkeeping="51" heading="387"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="42055">
+    <personal name="Igor Shulzhenko">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="726" risktaking="588" offensive="531" aggressive="535" consistent="651" creative="657" experienced="380"/>
+    <skills stamina="575" dexterity="535" speed="384" tackling="406" passing="379" shooting="339" control="446" accuracy="339" goalkeeping="69" heading="419"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="42056">
+    <personal name="Alexandr Berezin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="848" risktaking="447" offensive="286" aggressive="521" consistent="498" creative="146" experienced="616"/>
+    <skills stamina="358" dexterity="622" speed="518" tackling="378" passing="407" shooting="403" control="358" accuracy="368" goalkeeping="73" heading="445"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42057">
+    <personal name="Yanis Zuntners">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="323" risktaking="438" offensive="541" aggressive="617" consistent="555" creative="44" experienced="494"/>
+    <skills stamina="324" dexterity="479" speed="662" tackling="437" passing="393" shooting="350" control="311" accuracy="325" goalkeeping="54" heading="329"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42058">
+    <personal name="Ilmars Verpakovsky">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="611" risktaking="92" offensive="336" aggressive="319" consistent="442" creative="359" experienced="581"/>
+    <skills stamina="651" dexterity="199" speed="367" tackling="289" passing="300" shooting="434" control="364" accuracy="257" goalkeeping="43" heading="375"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="42059">
+    <personal name="Dainis Kristalds">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="498" risktaking="467" offensive="503" aggressive="335" consistent="208" creative="709" experienced="318"/>
+    <skills stamina="430" dexterity="398" speed="313" tackling="276" passing="333" shooting="325" control="414" accuracy="363" goalkeeping="57" heading="362"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42060">
+    <personal name="Victor Dobretsov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="410" risktaking="466" offensive="315" aggressive="706" consistent="716" creative="369" experienced="223"/>
+    <skills stamina="234" dexterity="627" speed="238" tackling="315" passing="247" shooting="351" control="302" accuracy="297" goalkeeping="64" heading="221"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42061">
+    <personal name="Sergey Klinichev">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="309" risktaking="395" offensive="150" aggressive="690" consistent="490" creative="704" experienced="498"/>
+    <skills stamina="440" dexterity="131" speed="657" tackling="426" passing="396" shooting="410" control="303" accuracy="414" goalkeeping="54" heading="359"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="42062">
+    <personal name="Feliks Kotov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="524" risktaking="131" offensive="427" aggressive="501" consistent="497" creative="233" experienced="431"/>
+    <skills stamina="183" dexterity="560" speed="593" tackling="390" passing="443" shooting="397" control="298" accuracy="473" goalkeeping="76" heading="315"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42063">
+    <personal name="Yanis Intenbergs">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="695" risktaking="489" offensive="443" aggressive="674" consistent="448" creative="545" experienced="277"/>
+    <skills stamina="459" dexterity="135" speed="455" tackling="341" passing="307" shooting="449" control="393" accuracy="292" goalkeeping="48" heading="334"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42064">
+    <personal name="Erik Grigyan">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="238" risktaking="534" offensive="807" aggressive="639" consistent="627" creative="394" experienced="533"/>
+    <skills stamina="541" dexterity="156" speed="651" tackling="191" passing="440" shooting="326" control="212" accuracy="168" goalkeeping="373" heading="125"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42065">
+    <personal name="Oleg Karavayev">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="537" risktaking="720" offensive="482" aggressive="527" consistent="440" creative="444" experienced="370"/>
+    <skills stamina="287" dexterity="361" speed="205" tackling="194" passing="308" shooting="384" control="320" accuracy="168" goalkeeping="333" heading="195"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="42066">
+    <personal name="Igor Korablev">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="513" risktaking="674" offensive="788" aggressive="542" consistent="704" creative="407" experienced="152"/>
+    <skills stamina="350" dexterity="197" speed="675" tackling="396" passing="389" shooting="467" control="464" accuracy="446" goalkeeping="50" heading="274"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="42067">
+    <personal name="Mickhail Lisyakov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="601" risktaking="477" offensive="551" aggressive="706" consistent="545" creative="493" experienced="628"/>
+    <skills stamina="624" dexterity="555" speed="229" tackling="480" passing="460" shooting="410" control="486" accuracy="318" goalkeeping="59" heading="286"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="42068">
+    <personal name="Sergey Semenov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="714" risktaking="587" offensive="97" aggressive="542" consistent="501" creative="512" experienced="426"/>
+    <skills stamina="436" dexterity="650" speed="319" tackling="345" passing="382" shooting="322" control="495" accuracy="320" goalkeeping="53" heading="313"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42069">
+    <personal name="Vladimir Verbitsky">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="366" risktaking="494" offensive="355" aggressive="358" consistent="430" creative="432" experienced="486"/>
+    <skills stamina="608" dexterity="143" speed="364" tackling="385" passing="451" shooting="238" control="294" accuracy="234" goalkeeping="43" heading="307"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42070">
+    <personal name="Dmitry Zheltov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="536" risktaking="691" offensive="390" aggressive="314" consistent="749" creative="452" experienced="309"/>
+    <skills stamina="656" dexterity="401" speed="665" tackling="435" passing="479" shooting="355" control="434" accuracy="463" goalkeeping="50" heading="369"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="42071">
+    <personal name="Andrey Abzinov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="498" risktaking="477" offensive="392" aggressive="236" consistent="601" creative="590" experienced="543"/>
+    <skills stamina="728" dexterity="540" speed="308" tackling="362" passing="329" shooting="452" control="453" accuracy="396" goalkeeping="76" heading="332"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="42072">
+    <personal name="Vladimir Pachko">
+      <appearance value="0"/>
+      <nationality value="Russia"/>
+    </personal>
+    <personality active="521" risktaking="547" offensive="370" aggressive="677" consistent="543" creative="569" experienced="387"/>
+    <skills stamina="294" dexterity="333" speed="498" tackling="327" passing="440" shooting="281" control="453" accuracy="300" goalkeeping="62" heading="277"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="42073">
+    <personal name="Vladislav Skorodihin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="268" risktaking="465" offensive="480" aggressive="784" consistent="414" creative="156" experienced="611"/>
+    <skills stamina="199" dexterity="224" speed="153" tackling="430" passing="484" shooting="301" control="453" accuracy="365" goalkeeping="45" heading="373"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="42074">
+    <personal name="Andrey Shtolcers">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="289" risktaking="668" offensive="642" aggressive="407" consistent="622" creative="753" experienced="209"/>
+    <skills stamina="176" dexterity="615" speed="191" tackling="341" passing="428" shooting="497" control="384" accuracy="431" goalkeeping="60" heading="385"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42075">
+    <personal name="Andris Pumpa">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="772" risktaking="442" offensive="458" aggressive="953" consistent="430" creative="434" experienced="374"/>
+    <skills stamina="581" dexterity="467" speed="427" tackling="270" passing="272" shooting="329" control="346" accuracy="269" goalkeeping="59" heading="272"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42076">
+    <personal name="Yurgis Samsonov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="382" risktaking="385" offensive="331" aggressive="684" consistent="382" creative="276" experienced="497"/>
+    <skills stamina="343" dexterity="375" speed="221" tackling="295" passing="353" shooting="331" control="344" accuracy="274" goalkeeping="54" heading="295"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="42077">
+    <personal name="Vitaly Ryabinin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="500" risktaking="489" offensive="660" aggressive="244" consistent="295" creative="631" experienced="442"/>
+    <skills stamina="169" dexterity="456" speed="192" tackling="396" passing="343" shooting="457" control="429" accuracy="460" goalkeeping="69" heading="310"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42078">
+    <personal name="Genady Levchenko">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="471" risktaking="526" offensive="683" aggressive="430" consistent="522" creative="655" experienced="475"/>
+    <skills stamina="559" dexterity="561" speed="488" tackling="403" passing="403" shooting="317" control="446" accuracy="430" goalkeeping="53" heading="359"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="42079">
+    <personal name="Alexandr Ataman">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="557" risktaking="522" offensive="741" aggressive="483" consistent="753" creative="730" experienced="545"/>
+    <skills stamina="196" dexterity="615" speed="118" tackling="404" passing="270" shooting="348" control="429" accuracy="427" goalkeeping="53" heading="291"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="42080">
+    <personal name="Andris Piedels">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="525" risktaking="535" offensive="731" aggressive="456" consistent="529" creative="438" experienced="654"/>
+    <skills stamina="605" dexterity="171" speed="250" tackling="185" passing="397" shooting="322" control="338" accuracy="219" goalkeeping="372" heading="227"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42081">
+    <personal name="Victor Druzhinin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="700" risktaking="440" offensive="745" aggressive="523" consistent="446" creative="704" experienced="361"/>
+    <skills stamina="378" dexterity="139" speed="553" tackling="123" passing="254" shooting="263" control="239" accuracy="203" goalkeeping="463" heading="166"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42082">
+    <personal name="Vladislav Nesterenko">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="249" risktaking="343" offensive="514" aggressive="427" consistent="440" creative="406" experienced="622"/>
+    <skills stamina="370" dexterity="506" speed="187" tackling="371" passing="385" shooting="385" control="319" accuracy="360" goalkeeping="61" heading="373"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="42083">
+    <personal name="Andris Baumanis">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="339" risktaking="369" offensive="397" aggressive="494" consistent="398" creative="746" experienced="544"/>
+    <skills stamina="623" dexterity="461" speed="554" tackling="374" passing="315" shooting="395" control="403" accuracy="419" goalkeeping="76" heading="413"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="42084">
+    <personal name="Victor Doroschenkov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="477" risktaking="421" offensive="477" aggressive="457" consistent="461" creative="702" experienced="615"/>
+    <skills stamina="325" dexterity="634" speed="535" tackling="393" passing="469" shooting="422" control="275" accuracy="362" goalkeeping="53" heading="407"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42085">
+    <personal name="Victor Lazarenko">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="495" risktaking="422" offensive="474" aggressive="514" consistent="375" creative="642" experienced="497"/>
+    <skills stamina="190" dexterity="559" speed="490" tackling="330" passing="468" shooting="456" control="524" accuracy="367" goalkeeping="76" heading="333"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42086">
+    <personal name="Boris Monyak">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="507" risktaking="864" offensive="545" aggressive="521" consistent="561" creative="682" experienced="420"/>
+    <skills stamina="297" dexterity="369" speed="355" tackling="456" passing="461" shooting="310" control="434" accuracy="495" goalkeeping="68" heading="470"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42087">
+    <personal name="Girts Smishkalns">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="538" risktaking="637" offensive="730" aggressive="248" consistent="880" creative="383" experienced="465"/>
+    <skills stamina="556" dexterity="318" speed="416" tackling="516" passing="396" shooting="280" control="305" accuracy="333" goalkeeping="65" heading="383"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="42088">
+    <personal name="Rihards Butkus">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="623" risktaking="560" offensive="268" aggressive="550" consistent="323" creative="685" experienced="210"/>
+    <skills stamina="529" dexterity="255" speed="364" tackling="449" passing="444" shooting="372" control="412" accuracy="467" goalkeeping="77" heading="346"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="42089">
+    <personal name="Sergey Pavlenko">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="343" risktaking="396" offensive="356" aggressive="464" consistent="731" creative="384" experienced="649"/>
+    <skills stamina="271" dexterity="569" speed="584" tackling="341" passing="391" shooting="335" control="282" accuracy="369" goalkeeping="58" heading="300"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="42090">
+    <personal name="Eduard Shtrubo">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="323" risktaking="474" offensive="562" aggressive="412" consistent="536" creative="301" experienced="536"/>
+    <skills stamina="648" dexterity="541" speed="588" tackling="357" passing="469" shooting="273" control="372" accuracy="437" goalkeeping="55" heading="321"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="42091">
+    <personal name="Dzintars Zirnis">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="462" risktaking="569" offensive="671" aggressive="430" consistent="526" creative="404" experienced="462"/>
+    <skills stamina="143" dexterity="357" speed="406" tackling="428" passing="273" shooting="292" control="258" accuracy="264" goalkeeping="60" heading="251"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42092">
+    <personal name="Mickhail Smorodin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="680" risktaking="651" offensive="605" aggressive="901" consistent="619" creative="610" experienced="587"/>
+    <skills stamina="627" dexterity="486" speed="244" tackling="317" passing="329" shooting="495" control="379" accuracy="345" goalkeeping="66" heading="493"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42093">
+    <personal name="Andrey Yakimov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="485" risktaking="197" offensive="479" aggressive="536" consistent="708" creative="617" experienced="822"/>
+    <skills stamina="614" dexterity="129" speed="597" tackling="330" passing="415" shooting="502" control="346" accuracy="373" goalkeeping="65" heading="380"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42094">
+    <personal name="Vitas Rimkus">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="808" risktaking="477" offensive="748" aggressive="280" consistent="575" creative="585" experienced="684"/>
+    <skills stamina="388" dexterity="266" speed="222" tackling="415" passing="453" shooting="369" control="263" accuracy="390" goalkeeping="69" heading="328"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="42095">
+    <personal name="Yury Karashauskas">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="503" risktaking="435" offensive="759" aggressive="555" consistent="652" creative="503" experienced="404"/>
+    <skills stamina="607" dexterity="655" speed="633" tackling="392" passing="320" shooting="445" control="253" accuracy="363" goalkeeping="43" heading="362"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42096">
+    <personal name="Konstantin Igoshin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="332" risktaking="423" offensive="293" aggressive="546" consistent="743" creative="406" experienced="205"/>
+    <skills stamina="458" dexterity="354" speed="300" tackling="187" passing="331" shooting="447" control="244" accuracy="177" goalkeeping="388" heading="144"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42097">
+    <personal name="Alexandr Kulakov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="378" risktaking="475" offensive="353" aggressive="490" consistent="526" creative="713" experienced="514"/>
+    <skills stamina="266" dexterity="371" speed="362" tackling="167" passing="412" shooting="315" control="320" accuracy="117" goalkeeping="333" heading="123"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42098">
+    <personal name="Alexandr Danilov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="619" risktaking="478" offensive="492" aggressive="537" consistent="446" creative="345" experienced="617"/>
+    <skills stamina="678" dexterity="658" speed="620" tackling="430" passing="468" shooting="295" control="421" accuracy="261" goalkeeping="44" heading="421"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="42099">
+    <personal name="Gatis Erglis">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="391" risktaking="607" offensive="614" aggressive="653" consistent="464" creative="657" experienced="277"/>
+    <skills stamina="461" dexterity="366" speed="304" tackling="434" passing="449" shooting="351" control="398" accuracy="449" goalkeeping="76" heading="336"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="42100">
+    <personal name="Sergey Borisov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="495" risktaking="458" offensive="670" aggressive="473" consistent="601" creative="360" experienced="499"/>
+    <skills stamina="316" dexterity="617" speed="560" tackling="488" passing="393" shooting="380" control="431" accuracy="275" goalkeeping="43" heading="286"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42101">
+    <personal name="Vitaly Dolgopolov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="387" risktaking="405" offensive="364" aggressive="522" consistent="538" creative="701" experienced="358"/>
+    <skills stamina="199" dexterity="612" speed="352" tackling="411" passing="410" shooting="382" control="340" accuracy="391" goalkeeping="56" heading="301"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="42102">
+    <personal name="Vadim Mikutsky">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="510" risktaking="352" offensive="635" aggressive="513" consistent="385" creative="626" experienced="435"/>
+    <skills stamina="187" dexterity="401" speed="471" tackling="279" passing="391" shooting="414" control="380" accuracy="297" goalkeeping="48" heading="377"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42103">
+    <personal name="Gints Krogeris">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="187" risktaking="586" offensive="859" aggressive="320" consistent="501" creative="561" experienced="462"/>
+    <skills stamina="232" dexterity="178" speed="251" tackling="350" passing="285" shooting="323" control="361" accuracy="311" goalkeeping="47" heading="364"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42104">
+    <personal name="Valery Bogdan">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="614" risktaking="398" offensive="629" aggressive="282" consistent="651" creative="341" experienced="491"/>
+    <skills stamina="362" dexterity="155" speed="642" tackling="283" passing="385" shooting="428" control="484" accuracy="449" goalkeeping="76" heading="309"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="42105">
+    <personal name="Ugis Edelnieks">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="690" risktaking="521" offensive="643" aggressive="427" consistent="562" creative="459" experienced="454"/>
+    <skills stamina="300" dexterity="228" speed="499" tackling="446" passing="408" shooting="363" control="367" accuracy="424" goalkeeping="52" heading="371"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="42106">
+    <personal name="Alberts Shvans">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="351" risktaking="510" offensive="497" aggressive="467" consistent="283" creative="551" experienced="501"/>
+    <skills stamina="472" dexterity="365" speed="210" tackling="440" passing="404" shooting="244" control="338" accuracy="412" goalkeeping="66" heading="314"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42107">
+    <personal name="Yurgis Samsonov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="277" risktaking="386" offensive="632" aggressive="623" consistent="335" creative="679" experienced="613"/>
+    <skills stamina="315" dexterity="273" speed="375" tackling="467" passing="431" shooting="296" control="399" accuracy="336" goalkeeping="53" heading="373"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="42108">
+    <personal name="Igor Kozlov">
+      <appearance value="0"/>
+      <nationality value="Russia"/>
+    </personal>
+    <personality active="556" risktaking="716" offensive="630" aggressive="517" consistent="700" creative="614" experienced="331"/>
+    <skills stamina="208" dexterity="172" speed="602" tackling="348" passing="314" shooting="485" control="463" accuracy="392" goalkeeping="52" heading="390"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42109">
+    <personal name="Aivars Poznyak">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="684" risktaking="474" offensive="439" aggressive="523" consistent="529" creative="529" experienced="675"/>
+    <skills stamina="287" dexterity="222" speed="466" tackling="440" passing="418" shooting="489" control="372" accuracy="415" goalkeeping="76" heading="436"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="42110">
+    <personal name="Agris Zarinsh">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="271" risktaking="763" offensive="442" aggressive="401" consistent="546" creative="374" experienced="287"/>
+    <skills stamina="676" dexterity="509" speed="433" tackling="279" passing="284" shooting="308" control="381" accuracy="420" goalkeeping="70" heading="441"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42111">
+    <personal name="Roman Sidorov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="211" risktaking="517" offensive="559" aggressive="286" consistent="260" creative="475" experienced="972"/>
+    <skills stamina="268" dexterity="460" speed="304" tackling="435" passing="252" shooting="428" control="390" accuracy="331" goalkeeping="62" heading="407"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42112">
+    <personal name="Raimond Laizans">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="614" risktaking="678" offensive="758" aggressive="530" consistent="707" creative="510" experienced="486"/>
+    <skills stamina="265" dexterity="481" speed="271" tackling="200" passing="412" shooting="376" control="363" accuracy="157" goalkeeping="430" heading="193"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42113">
+    <personal name="Oleg Grishin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="652" risktaking="652" offensive="253" aggressive="502" consistent="238" creative="442" experienced="722"/>
+    <skills stamina="213" dexterity="676" speed="186" tackling="157" passing="450" shooting="370" control="254" accuracy="238" goalkeeping="487" heading="215"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42114">
+    <personal name="Igor Troitsky">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="463" risktaking="529" offensive="525" aggressive="796" consistent="541" creative="479" experienced="442"/>
+    <skills stamina="627" dexterity="470" speed="705" tackling="509" passing="389" shooting="509" control="351" accuracy="460" goalkeeping="57" heading="521"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="42115">
+    <personal name="Mikhail Zemlinsky">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="327" risktaking="615" offensive="772" aggressive="342" consistent="777" creative="489" experienced="467"/>
+    <skills stamina="308" dexterity="705" speed="312" tackling="506" passing="513" shooting="465" control="449" accuracy="478" goalkeeping="68" heading="390"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="42116">
+    <personal name="Einars Gnedoy">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="601" risktaking="404" offensive="464" aggressive="400" consistent="813" creative="634" experienced="293"/>
+    <skills stamina="198" dexterity="563" speed="364" tackling="444" passing="511" shooting="421" control="529" accuracy="397" goalkeeping="78" heading="350"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="42117">
+    <personal name="Valentin Lobanev">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="663" risktaking="405" offensive="722" aggressive="464" consistent="407" creative="606" experienced="357"/>
+    <skills stamina="401" dexterity="641" speed="517" tackling="387" passing="438" shooting="315" control="339" accuracy="422" goalkeeping="74" heading="323"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="42118">
+    <personal name="Oleg Blagonadezhdin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="522" risktaking="507" offensive="543" aggressive="473" consistent="523" creative="424" experienced="812"/>
+    <skills stamina="399" dexterity="291" speed="353" tackling="464" passing="334" shooting="361" control="345" accuracy="489" goalkeeping="71" heading="385"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="42119">
+    <personal name="Igor Stepanov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="361" risktaking="97" offensive="286" aggressive="509" consistent="517" creative="748" experienced="172"/>
+    <skills stamina="213" dexterity="260" speed="245" tackling="382" passing="387" shooting="399" control="404" accuracy="486" goalkeeping="71" heading="401"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="42120">
+    <personal name="Alexandr Stradin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="409" risktaking="338" offensive="190" aggressive="659" consistent="625" creative="412" experienced="548"/>
+    <skills stamina="244" dexterity="566" speed="331" tackling="439" passing="376" shooting="415" control="451" accuracy="333" goalkeeping="86" heading="427"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42121">
+    <personal name="Vitaly Astafyev">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="864" risktaking="319" offensive="462" aggressive="494" consistent="567" creative="561" experienced="694"/>
+    <skills stamina="249" dexterity="239" speed="509" tackling="510" passing="549" shooting="479" control="515" accuracy="451" goalkeeping="64" heading="387"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42122">
+    <personal name="Alexandr Dibrivny">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="454" risktaking="412" offensive="847" aggressive="527" consistent="371" creative="676" experienced="222"/>
+    <skills stamina="489" dexterity="204" speed="701" tackling="489" passing="351" shooting="411" control="456" accuracy="461" goalkeeping="58" heading="466"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42123">
+    <personal name="Vladimir Dragun">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="586" risktaking="414" offensive="360" aggressive="566" consistent="233" creative="677" experienced="124"/>
+    <skills stamina="592" dexterity="322" speed="390" tackling="395" passing="521" shooting="335" control="372" accuracy="401" goalkeeping="67" heading="367"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="42124">
+    <personal name="Alexey Semenov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="858" risktaking="740" offensive="300" aggressive="752" consistent="656" creative="965" experienced="466"/>
+    <skills stamina="580" dexterity="230" speed="572" tackling="331" passing="480" shooting="324" control="426" accuracy="307" goalkeeping="65" heading="337"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42125">
+    <personal name="Vladimir Babichev">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="527" risktaking="417" offensive="526" aggressive="565" consistent="370" creative="452" experienced="730"/>
+    <skills stamina="243" dexterity="375" speed="643" tackling="323" passing="335" shooting="342" control="421" accuracy="457" goalkeeping="60" heading="409"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42126">
+    <personal name="Alexandr Yeliseyev">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="650" risktaking="864" offensive="589" aggressive="460" consistent="534" creative="629" experienced="476"/>
+    <skills stamina="525" dexterity="275" speed="333" tackling="488" passing="377" shooting="392" control="361" accuracy="386" goalkeeping="69" heading="543"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42127">
+    <personal name="Sergey Tarasov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="494" risktaking="445" offensive="331" aggressive="608" consistent="394" creative="402" experienced="399"/>
+    <skills stamina="159" dexterity="556" speed="201" tackling="425" passing="355" shooting="500" control="389" accuracy="443" goalkeeping="50" heading="461"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42128">
+    <personal name="Andris Gruzde">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="575" risktaking="500" offensive="631" aggressive="430" consistent="534" creative="745" experienced="474"/>
+    <skills stamina="235" dexterity="173" speed="306" tackling="153" passing="279" shooting="254" control="218" accuracy="196" goalkeeping="445" heading="206"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42129">
+    <personal name="Andris Rupainis">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="440" risktaking="537" offensive="793" aggressive="564" consistent="323" creative="476" experienced="262"/>
+    <skills stamina="643" dexterity="553" speed="227" tackling="199" passing="211" shooting="403" control="284" accuracy="193" goalkeeping="368" heading="142"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42130">
+    <personal name="Alexey Yegorov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="565" risktaking="253" offensive="672" aggressive="554" consistent="607" creative="466" experienced="316"/>
+    <skills stamina="248" dexterity="459" speed="279" tackling="420" passing="270" shooting="364" control="341" accuracy="423" goalkeeping="51" heading="283"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="42131">
+    <personal name="Erik Seletskis">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="515" risktaking="452" offensive="510" aggressive="233" consistent="523" creative="889" experienced="643"/>
+    <skills stamina="496" dexterity="389" speed="487" tackling="443" passing="435" shooting="270" control="418" accuracy="401" goalkeeping="74" heading="332"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="42132">
+    <personal name="Vyacheslav Belov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="600" risktaking="513" offensive="384" aggressive="581" consistent="588" creative="472" experienced="441"/>
+    <skills stamina="435" dexterity="328" speed="345" tackling="459" passing="473" shooting="365" control="418" accuracy="366" goalkeeping="44" heading="365"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="42133">
+    <personal name="Vitaly Voshkans">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="584" risktaking="413" offensive="336" aggressive="343" consistent="371" creative="177" experienced="580"/>
+    <skills stamina="163" dexterity="169" speed="214" tackling="259" passing="310" shooting="292" control="310" accuracy="401" goalkeeping="43" heading="320"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42134">
+    <personal name="Igor Pegasov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="349" risktaking="761" offensive="470" aggressive="433" consistent="477" creative="638" experienced="373"/>
+    <skills stamina="292" dexterity="216" speed="237" tackling="370" passing="244" shooting="292" control="390" accuracy="222" goalkeeping="48" heading="299"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42135">
+    <personal name="Ilmars Logins">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="411" risktaking="379" offensive="467" aggressive="547" consistent="495" creative="459" experienced="601"/>
+    <skills stamina="573" dexterity="359" speed="456" tackling="336" passing="408" shooting="263" control="368" accuracy="422" goalkeeping="52" heading="308"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="42136">
+    <personal name="Igor Fyodorov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="788" risktaking="364" offensive="592" aggressive="618" consistent="488" creative="426" experienced="282"/>
+    <skills stamina="646" dexterity="551" speed="436" tackling="415" passing="314" shooting="287" control="443" accuracy="378" goalkeeping="60" heading="304"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="42137">
+    <personal name="Vadim Bekeris">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="378" risktaking="525" offensive="225" aggressive="561" consistent="394" creative="429" experienced="239"/>
+    <skills stamina="490" dexterity="370" speed="134" tackling="454" passing="349" shooting="336" control="449" accuracy="244" goalkeeping="65" heading="321"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42138">
+    <personal name="Andris Shmaukstelis">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="377" risktaking="465" offensive="588" aggressive="566" consistent="600" creative="188" experienced="705"/>
+    <skills stamina="629" dexterity="621" speed="264" tackling="363" passing="441" shooting="311" control="382" accuracy="357" goalkeeping="49" heading="390"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42139">
+    <personal name="Oleg Andreyev">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="706" risktaking="418" offensive="689" aggressive="625" consistent="474" creative="606" experienced="801"/>
+    <skills stamina="524" dexterity="164" speed="627" tackling="364" passing="236" shooting="237" control="248" accuracy="358" goalkeeping="49" heading="266"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="42140">
+    <personal name="Zhanis Armanis">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="468" risktaking="361" offensive="582" aggressive="625" consistent="642" creative="663" experienced="613"/>
+    <skills stamina="138" dexterity="163" speed="595" tackling="449" passing="258" shooting="363" control="349" accuracy="437" goalkeeping="52" heading="463"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42141">
+    <personal name="Igor Salov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="366" risktaking="627" offensive="584" aggressive="667" consistent="619" creative="713" experienced="590"/>
+    <skills stamina="362" dexterity="521" speed="436" tackling="375" passing="337" shooting="424" control="326" accuracy="374" goalkeeping="55" heading="451"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="42142">
+    <personal name="Valery Arakcheyev">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="845" risktaking="524" offensive="587" aggressive="616" consistent="296" creative="723" experienced="474"/>
+    <skills stamina="353" dexterity="472" speed="167" tackling="326" passing="246" shooting="413" control="241" accuracy="281" goalkeeping="67" heading="272"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42143">
+    <personal name="Valery Yefimov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="430" risktaking="304" offensive="688" aggressive="325" consistent="536" creative="592" experienced="612"/>
+    <skills stamina="426" dexterity="309" speed="436" tackling="342" passing="266" shooting="324" control="404" accuracy="302" goalkeeping="49" heading="297"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42144">
+    <personal name="Leonid Dvorkin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="371" risktaking="544" offensive="375" aggressive="498" consistent="647" creative="642" experienced="448"/>
+    <skills stamina="125" dexterity="163" speed="335" tackling="142" passing="422" shooting="317" control="266" accuracy="179" goalkeeping="349" heading="204"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42145">
+    <personal name="Alexandr Klushin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="528" risktaking="489" offensive="543" aggressive="286" consistent="620" creative="596" experienced="385"/>
+    <skills stamina="479" dexterity="109" speed="304" tackling="164" passing="290" shooting="303" control="277" accuracy="162" goalkeeping="449" heading="184"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="42146">
+    <personal name="Sergey Pavlichuk">
+      <appearance value="0"/>
+      <nationality value="Belarus"/>
+    </personal>
+    <personality active="380" risktaking="256" offensive="495" aggressive="406" consistent="353" creative="552" experienced="306"/>
+    <skills stamina="243" dexterity="346" speed="416" tackling="416" passing="398" shooting="261" control="279" accuracy="297" goalkeeping="63" heading="315"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="42147">
+    <personal name="Oleg Ziborov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="650" risktaking="477" offensive="553" aggressive="559" consistent="398" creative="459" experienced="871"/>
+    <skills stamina="574" dexterity="380" speed="579" tackling="282" passing="458" shooting="372" control="281" accuracy="340" goalkeeping="68" heading="338"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="42148">
+    <personal name="Sergey Ivanov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="672" risktaking="753" offensive="618" aggressive="429" consistent="404" creative="273" experienced="372"/>
+    <skills stamina="579" dexterity="570" speed="587" tackling="515" passing="429" shooting="410" control="299" accuracy="353" goalkeeping="77" heading="281"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42149">
+    <personal name="Andris Mitsitis">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="597" risktaking="645" offensive="404" aggressive="380" consistent="739" creative="849" experienced="602"/>
+    <skills stamina="607" dexterity="164" speed="220" tackling="323" passing="365" shooting="408" control="441" accuracy="324" goalkeeping="66" heading="331"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42150">
+    <personal name="Andrey Roshkov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="563" risktaking="582" offensive="417" aggressive="439" consistent="397" creative="132" experienced="586"/>
+    <skills stamina="190" dexterity="178" speed="208" tackling="423" passing="210" shooting="258" control="394" accuracy="242" goalkeeping="63" heading="320"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="42151">
+    <personal name="Artur Zakreshevsky">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="411" risktaking="792" offensive="595" aggressive="495" consistent="561" creative="261" experienced="570"/>
+    <skills stamina="509" dexterity="394" speed="215" tackling="389" passing="391" shooting="249" control="416" accuracy="397" goalkeeping="63" heading="385"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="42152">
+    <personal name="Alexandr Zakrevsky">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="314" risktaking="515" offensive="674" aggressive="340" consistent="558" creative="507" experienced="429"/>
+    <skills stamina="562" dexterity="417" speed="217" tackling="322" passing="289" shooting="265" control="314" accuracy="370" goalkeeping="70" heading="422"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="42153">
+    <personal name="Alexandr Kondratenko">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="686" risktaking="455" offensive="557" aggressive="334" consistent="660" creative="487" experienced="537"/>
+    <skills stamina="169" dexterity="503" speed="412" tackling="424" passing="262" shooting="429" control="292" accuracy="426" goalkeeping="68" heading="316"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42154">
+    <personal name="Alexandr Alexandrov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="412" risktaking="605" offensive="511" aggressive="603" consistent="400" creative="342" experienced="361"/>
+    <skills stamina="395" dexterity="651" speed="142" tackling="328" passing="291" shooting="338" control="299" accuracy="305" goalkeeping="46" heading="233"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="42155">
+    <personal name="Genady Shirin">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="617" risktaking="524" offensive="505" aggressive="599" consistent="423" creative="319" experienced="270"/>
+    <skills stamina="600" dexterity="526" speed="280" tackling="376" passing="287" shooting="483" control="423" accuracy="355" goalkeeping="70" heading="379"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42156">
+    <personal name="Igor Zenkov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="662" risktaking="582" offensive="526" aggressive="341" consistent="606" creative="646" experienced="371"/>
+    <skills stamina="568" dexterity="366" speed="326" tackling="325" passing="310" shooting="531" control="255" accuracy="493" goalkeeping="54" heading="411"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42157">
+    <personal name="Boris Korotkevich">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="663" risktaking="318" offensive="467" aggressive="530" consistent="437" creative="168" experienced="450"/>
+    <skills stamina="381" dexterity="389" speed="254" tackling="317" passing="428" shooting="335" control="283" accuracy="332" goalkeeping="58" heading="293"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42158">
+    <personal name="Yevgeny Goryachilov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="712" risktaking="273" offensive="294" aggressive="378" consistent="238" creative="441" experienced="548"/>
+    <skills stamina="202" dexterity="218" speed="273" tackling="232" passing="304" shooting="359" control="257" accuracy="410" goalkeeping="62" heading="397"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="42159">
+    <personal name="Igor Petrov">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="577" risktaking="447" offensive="393" aggressive="543" consistent="529" creative="316" experienced="717"/>
+    <skills stamina="579" dexterity="294" speed="593" tackling="333" passing="336" shooting="260" control="310" accuracy="278" goalkeeping="37" heading="383"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+</Players>

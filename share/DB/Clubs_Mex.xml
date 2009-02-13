@@ -1,0 +1,1963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="America">
+    <coach name="Daniel Brailovsky"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="America Stadium"/>
+    <contracts>
+      <contract player="104000"/>
+      <contract player="104001"/>
+      <contract player="104002"/>
+      <contract player="104003"/>
+      <contract player="104004"/>
+      <contract player="104005"/>
+      <contract player="104006"/>
+      <contract player="104007"/>
+      <contract player="104008"/>
+      <contract player="104009"/>
+      <contract player="104010"/>
+      <contract player="104011"/>
+      <contract player="104012"/>
+      <contract player="104013"/>
+      <contract player="104014"/>
+      <contract player="104015"/>
+    </contracts>
+  </club>
+  <club name="Atlante">
+    <coach name="Jose Guadalupe Cruz"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Atlante Stadium"/>
+    <contracts>
+      <contract player="104016"/>
+      <contract player="104017"/>
+      <contract player="104018"/>
+      <contract player="104019"/>
+      <contract player="104020"/>
+      <contract player="104021"/>
+      <contract player="104022"/>
+      <contract player="104023"/>
+      <contract player="104024"/>
+      <contract player="104025"/>
+      <contract player="104026"/>
+      <contract player="104027"/>
+      <contract player="104028"/>
+      <contract player="104029"/>
+      <contract player="104030"/>
+      <contract player="104031"/>
+    </contracts>
+  </club>
+  <club name="Monarcas">
+    <coach name="David Patino"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="128" g="128" b="128"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Monarcas Stadium"/>
+    <contracts>
+      <contract player="104032"/>
+      <contract player="104033"/>
+      <contract player="104034"/>
+      <contract player="104035"/>
+      <contract player="104036"/>
+      <contract player="104037"/>
+      <contract player="104038"/>
+      <contract player="104039"/>
+      <contract player="104040"/>
+      <contract player="104041"/>
+      <contract player="104042"/>
+      <contract player="104043"/>
+      <contract player="104044"/>
+      <contract player="104045"/>
+      <contract player="104046"/>
+      <contract player="104047"/>
+    </contracts>
+  </club>
+  <club name="Academicos">
+    <coach name="Jorge Castaneda"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Academicos Stadium"/>
+    <contracts>
+      <contract player="104048"/>
+      <contract player="104049"/>
+      <contract player="104050"/>
+      <contract player="104051"/>
+      <contract player="104052"/>
+      <contract player="104053"/>
+      <contract player="104054"/>
+      <contract player="104055"/>
+      <contract player="104056"/>
+      <contract player="104057"/>
+      <contract player="104058"/>
+      <contract player="104059"/>
+      <contract player="104060"/>
+      <contract player="104061"/>
+      <contract player="104062"/>
+      <contract player="104063"/>
+    </contracts>
+  </club>
+  <club name="Cruz Azul H">
+    <coach name="Robert Dante Siboldi"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Cruz Azul H Stadium"/>
+    <contracts>
+      <contract player="104064"/>
+      <contract player="104065"/>
+      <contract player="104066"/>
+      <contract player="104067"/>
+      <contract player="104068"/>
+      <contract player="104069"/>
+      <contract player="104070"/>
+      <contract player="104071"/>
+      <contract player="104072"/>
+      <contract player="104073"/>
+      <contract player="104074"/>
+      <contract player="104075"/>
+      <contract player="104076"/>
+      <contract player="104077"/>
+      <contract player="104078"/>
+      <contract player="104079"/>
+    </contracts>
+  </club>
+  <club name="Coatzacoalcos">
+    <coach name="Carlos Barra"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Coatzacoalcos Stadium"/>
+    <contracts>
+      <contract player="104080"/>
+      <contract player="104081"/>
+      <contract player="104082"/>
+      <contract player="104083"/>
+      <contract player="104084"/>
+      <contract player="104085"/>
+      <contract player="104086"/>
+      <contract player="104087"/>
+      <contract player="104088"/>
+      <contract player="104089"/>
+      <contract player="104090"/>
+      <contract player="104091"/>
+      <contract player="104092"/>
+      <contract player="104093"/>
+      <contract player="104094"/>
+      <contract player="104095"/>
+    </contracts>
+  </club>
+  <club name="Atlas">
+    <coach name="Tomas Boy"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Atlas Stadium"/>
+    <contracts>
+      <contract player="104096"/>
+      <contract player="104097"/>
+      <contract player="104098"/>
+      <contract player="104099"/>
+      <contract player="104100"/>
+      <contract player="104101"/>
+      <contract player="104102"/>
+      <contract player="104103"/>
+      <contract player="104104"/>
+      <contract player="104105"/>
+      <contract player="104106"/>
+      <contract player="104107"/>
+      <contract player="104108"/>
+      <contract player="104109"/>
+      <contract player="104110"/>
+      <contract player="104111"/>
+    </contracts>
+  </club>
+  <club name="Guadalajara">
+    <coach name="Efrain Flores"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Guadalajara Stadium"/>
+    <contracts>
+      <contract player="104112"/>
+      <contract player="104113"/>
+      <contract player="104114"/>
+      <contract player="104115"/>
+      <contract player="104116"/>
+      <contract player="104117"/>
+      <contract player="104118"/>
+      <contract player="104119"/>
+      <contract player="104120"/>
+      <contract player="104121"/>
+      <contract player="104122"/>
+      <contract player="104123"/>
+      <contract player="104124"/>
+      <contract player="104125"/>
+      <contract player="104126"/>
+      <contract player="104127"/>
+    </contracts>
+  </club>
+  <club name="Jaguares">
+    <coach name="Rene Isidoro Garcia"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="127" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="127" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Jaguares Stadium"/>
+    <contracts>
+      <contract player="104128"/>
+      <contract player="104129"/>
+      <contract player="104130"/>
+      <contract player="104131"/>
+      <contract player="104132"/>
+      <contract player="104133"/>
+      <contract player="104134"/>
+      <contract player="104135"/>
+      <contract player="104136"/>
+      <contract player="104137"/>
+      <contract player="104138"/>
+      <contract player="104139"/>
+      <contract player="104140"/>
+      <contract player="104141"/>
+      <contract player="104142"/>
+      <contract player="104143"/>
+    </contracts>
+  </club>
+  <club name="Monterrey">
+    <coach name="Isaac Mizrahi"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Monterrey Stadium"/>
+    <contracts>
+      <contract player="104144"/>
+      <contract player="104145"/>
+      <contract player="104146"/>
+      <contract player="104147"/>
+      <contract player="104148"/>
+      <contract player="104149"/>
+      <contract player="104150"/>
+      <contract player="104151"/>
+      <contract player="104152"/>
+      <contract player="104153"/>
+      <contract player="104154"/>
+      <contract player="104155"/>
+      <contract player="104156"/>
+      <contract player="104157"/>
+      <contract player="104158"/>
+      <contract player="104159"/>
+    </contracts>
+  </club>
+  <club name="Necaxa">
+    <coach name="Hans Westerhof"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Necaxa Stadium"/>
+    <contracts>
+      <contract player="104160"/>
+      <contract player="104161"/>
+      <contract player="104162"/>
+      <contract player="104163"/>
+      <contract player="104164"/>
+      <contract player="104165"/>
+      <contract player="104166"/>
+      <contract player="104167"/>
+      <contract player="104168"/>
+      <contract player="104169"/>
+      <contract player="104170"/>
+      <contract player="104171"/>
+      <contract player="104172"/>
+      <contract player="104173"/>
+      <contract player="104174"/>
+      <contract player="104175"/>
+    </contracts>
+  </club>
+  <club name="Puebla">
+    <coach name="Jose Luis Sanchez Sola"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Puebla Stadium"/>
+    <contracts>
+      <contract player="104176"/>
+      <contract player="104177"/>
+      <contract player="104178"/>
+      <contract player="104179"/>
+      <contract player="104180"/>
+      <contract player="104181"/>
+      <contract player="104182"/>
+      <contract player="104183"/>
+      <contract player="104184"/>
+      <contract player="104185"/>
+      <contract player="104186"/>
+      <contract player="104187"/>
+      <contract player="104188"/>
+      <contract player="104189"/>
+      <contract player="104190"/>
+      <contract player="104191"/>
+    </contracts>
+  </club>
+  <club name="Santos Laguna">
+    <coach name="Daniel Guzman"/>
+    <kits>
+      <kit>
+        <jersey type="3">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="3">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Santos Laguna Stadium"/>
+    <contracts>
+      <contract player="104192"/>
+      <contract player="104193"/>
+      <contract player="104194"/>
+      <contract player="104195"/>
+      <contract player="104196"/>
+      <contract player="104197"/>
+      <contract player="104198"/>
+      <contract player="104199"/>
+      <contract player="104200"/>
+      <contract player="104201"/>
+      <contract player="104202"/>
+      <contract player="104203"/>
+      <contract player="104204"/>
+      <contract player="104205"/>
+      <contract player="104206"/>
+      <contract player="104207"/>
+    </contracts>
+  </club>
+  <club name="Tuberos">
+    <coach name="Gaston Angel Obledo"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Tuberos Stadium"/>
+    <contracts>
+      <contract player="104208"/>
+      <contract player="104209"/>
+      <contract player="104210"/>
+      <contract player="104211"/>
+      <contract player="104212"/>
+      <contract player="104213"/>
+      <contract player="104214"/>
+      <contract player="104215"/>
+      <contract player="104216"/>
+      <contract player="104217"/>
+      <contract player="104218"/>
+      <contract player="104219"/>
+      <contract player="104220"/>
+      <contract player="104221"/>
+      <contract player="104222"/>
+      <contract player="104223"/>
+    </contracts>
+  </club>
+  <club name="Queretaro">
+    <coach name="Salvador Reyes"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Queretaro Stadium"/>
+    <contracts>
+      <contract player="104224"/>
+      <contract player="104225"/>
+      <contract player="104226"/>
+      <contract player="104227"/>
+      <contract player="104228"/>
+      <contract player="104229"/>
+      <contract player="104230"/>
+      <contract player="104231"/>
+      <contract player="104232"/>
+      <contract player="104233"/>
+      <contract player="104234"/>
+      <contract player="104235"/>
+      <contract player="104236"/>
+      <contract player="104237"/>
+      <contract player="104238"/>
+      <contract player="104239"/>
+    </contracts>
+  </club>
+  <club name="Cruz Azul">
+    <coach name="Sergio Markarian"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Cruz Azul Stadium"/>
+    <contracts>
+      <contract player="104240"/>
+      <contract player="104241"/>
+      <contract player="104242"/>
+      <contract player="104243"/>
+      <contract player="104244"/>
+      <contract player="104245"/>
+      <contract player="104246"/>
+      <contract player="104247"/>
+      <contract player="104248"/>
+      <contract player="104249"/>
+      <contract player="104250"/>
+      <contract player="104251"/>
+      <contract player="104252"/>
+      <contract player="104253"/>
+      <contract player="104254"/>
+      <contract player="104255"/>
+    </contracts>
+  </club>
+  <club name="Correcaminos">
+    <coach name="Ricardo De Leon"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Correcaminos Stadium"/>
+    <contracts>
+      <contract player="104256"/>
+      <contract player="104257"/>
+      <contract player="104258"/>
+      <contract player="104259"/>
+      <contract player="104260"/>
+      <contract player="104261"/>
+      <contract player="104262"/>
+      <contract player="104263"/>
+      <contract player="104264"/>
+      <contract player="104265"/>
+      <contract player="104266"/>
+      <contract player="104267"/>
+      <contract player="104268"/>
+      <contract player="104269"/>
+      <contract player="104270"/>
+      <contract player="104271"/>
+    </contracts>
+  </club>
+  <club name="Alacranes">
+    <coach name="Francisco Calderon"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Alacranes Stadium"/>
+    <contracts>
+      <contract player="104272"/>
+      <contract player="104273"/>
+      <contract player="104274"/>
+      <contract player="104275"/>
+      <contract player="104276"/>
+      <contract player="104277"/>
+      <contract player="104278"/>
+      <contract player="104279"/>
+      <contract player="104280"/>
+      <contract player="104281"/>
+      <contract player="104282"/>
+      <contract player="104283"/>
+      <contract player="104284"/>
+      <contract player="104285"/>
+      <contract player="104286"/>
+      <contract player="104287"/>
+    </contracts>
+  </club>
+  <club name="Indios">
+    <coach name="Sergio Orduna"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Indios Stadium"/>
+    <contracts>
+      <contract player="104288"/>
+      <contract player="104289"/>
+      <contract player="104290"/>
+      <contract player="104291"/>
+      <contract player="104292"/>
+      <contract player="104293"/>
+      <contract player="104294"/>
+      <contract player="104295"/>
+      <contract player="104296"/>
+      <contract player="104297"/>
+      <contract player="104298"/>
+      <contract player="104299"/>
+      <contract player="104300"/>
+      <contract player="104301"/>
+      <contract player="104302"/>
+      <contract player="104303"/>
+    </contracts>
+  </club>
+  <club name="Leon">
+    <coach name="Sergio Bueno"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Leon Stadium"/>
+    <contracts>
+      <contract player="104304"/>
+      <contract player="104305"/>
+      <contract player="104306"/>
+      <contract player="104307"/>
+      <contract player="104308"/>
+      <contract player="104309"/>
+      <contract player="104310"/>
+      <contract player="104311"/>
+      <contract player="104312"/>
+      <contract player="104313"/>
+      <contract player="104314"/>
+      <contract player="104315"/>
+      <contract player="104316"/>
+      <contract player="104317"/>
+      <contract player="104318"/>
+      <contract player="104319"/>
+    </contracts>
+  </club>
+  <club name="Lobos Buap">
+    <coach name="Jorge Aravena"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Lobos Buap Stadium"/>
+    <contracts>
+      <contract player="104320"/>
+      <contract player="104321"/>
+      <contract player="104322"/>
+      <contract player="104323"/>
+      <contract player="104324"/>
+      <contract player="104325"/>
+      <contract player="104326"/>
+      <contract player="104327"/>
+      <contract player="104328"/>
+      <contract player="104329"/>
+      <contract player="104330"/>
+      <contract player="104331"/>
+      <contract player="104332"/>
+      <contract player="104333"/>
+      <contract player="104334"/>
+      <contract player="104335"/>
+    </contracts>
+  </club>
+  <club name="Tigres B">
+    <coach name="Jose Sigifredo Trevino"/>
+    <kits>
+      <kit>
+        <jersey type="3">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="3">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Tigres B Stadium"/>
+    <contracts>
+      <contract player="104336"/>
+      <contract player="104337"/>
+      <contract player="104338"/>
+      <contract player="104339"/>
+      <contract player="104340"/>
+      <contract player="104341"/>
+      <contract player="104342"/>
+      <contract player="104343"/>
+      <contract player="104344"/>
+      <contract player="104345"/>
+      <contract player="104346"/>
+      <contract player="104347"/>
+      <contract player="104348"/>
+      <contract player="104349"/>
+      <contract player="104350"/>
+      <contract player="104351"/>
+    </contracts>
+  </club>
+  <club name="Mexiquense">
+    <coach name="Marco Antonio Trejo"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Mexiquense Stadium"/>
+    <contracts>
+      <contract player="104352"/>
+      <contract player="104353"/>
+      <contract player="104354"/>
+      <contract player="104355"/>
+      <contract player="104356"/>
+      <contract player="104357"/>
+      <contract player="104358"/>
+      <contract player="104359"/>
+      <contract player="104360"/>
+      <contract player="104361"/>
+      <contract player="104362"/>
+      <contract player="104363"/>
+      <contract player="104364"/>
+      <contract player="104365"/>
+      <contract player="104366"/>
+      <contract player="104367"/>
+    </contracts>
+  </club>
+  <club name="Petroleros">
+    <coach name="Jose Luis Hernandez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="150" g="75" b="0"/>
+        </shorts>
+        <socks>
+          <color r="150" g="75" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Petroleros Stadium"/>
+    <contracts>
+      <contract player="104368"/>
+      <contract player="104369"/>
+      <contract player="104370"/>
+      <contract player="104371"/>
+      <contract player="104372"/>
+      <contract player="104373"/>
+      <contract player="104374"/>
+      <contract player="104375"/>
+      <contract player="104376"/>
+      <contract player="104377"/>
+      <contract player="104378"/>
+      <contract player="104379"/>
+      <contract player="104380"/>
+      <contract player="104381"/>
+      <contract player="104382"/>
+      <contract player="104383"/>
+    </contracts>
+  </club>
+  <club name="Pumas M">
+    <coach name="Jose Luis Salgado"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Pumas M Stadium"/>
+    <contracts>
+      <contract player="104384"/>
+      <contract player="104385"/>
+      <contract player="104386"/>
+      <contract player="104387"/>
+      <contract player="104388"/>
+      <contract player="104389"/>
+      <contract player="104390"/>
+      <contract player="104391"/>
+      <contract player="104392"/>
+      <contract player="104393"/>
+      <contract player="104394"/>
+      <contract player="104395"/>
+      <contract player="104396"/>
+      <contract player="104397"/>
+      <contract player="104398"/>
+      <contract player="104399"/>
+    </contracts>
+  </club>
+  <club name="Rayados A">
+    <coach name="Gerardo Jimenez"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Rayados A Stadium"/>
+    <contracts>
+      <contract player="104400"/>
+      <contract player="104401"/>
+      <contract player="104402"/>
+      <contract player="104403"/>
+      <contract player="104404"/>
+      <contract player="104405"/>
+      <contract player="104406"/>
+      <contract player="104407"/>
+      <contract player="104408"/>
+      <contract player="104409"/>
+      <contract player="104410"/>
+      <contract player="104411"/>
+      <contract player="104412"/>
+      <contract player="104413"/>
+      <contract player="104414"/>
+      <contract player="104415"/>
+    </contracts>
+  </club>
+  <club name="Socio Aguila">
+    <coach name="Vinicio Bravo"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Socio Aguila Stadium"/>
+    <contracts>
+      <contract player="104416"/>
+      <contract player="104417"/>
+      <contract player="104418"/>
+      <contract player="104419"/>
+      <contract player="104420"/>
+      <contract player="104421"/>
+      <contract player="104422"/>
+      <contract player="104423"/>
+      <contract player="104424"/>
+      <contract player="104425"/>
+      <contract player="104426"/>
+      <contract player="104427"/>
+      <contract player="104428"/>
+      <contract player="104429"/>
+      <contract player="104430"/>
+      <contract player="104431"/>
+    </contracts>
+  </club>
+  <club name="Tampico">
+    <coach name="Jose Luis Salvidar"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Tampico Stadium"/>
+    <contracts>
+      <contract player="104432"/>
+      <contract player="104433"/>
+      <contract player="104434"/>
+      <contract player="104435"/>
+      <contract player="104436"/>
+      <contract player="104437"/>
+      <contract player="104438"/>
+      <contract player="104439"/>
+      <contract player="104440"/>
+      <contract player="104441"/>
+      <contract player="104442"/>
+      <contract player="104443"/>
+      <contract player="104444"/>
+      <contract player="104445"/>
+      <contract player="104446"/>
+      <contract player="104447"/>
+    </contracts>
+  </club>
+  <club name="San Luis">
+    <coach name="Raul Arias"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="San Luis Stadium"/>
+    <contracts>
+      <contract player="104448"/>
+      <contract player="104449"/>
+      <contract player="104450"/>
+      <contract player="104451"/>
+      <contract player="104452"/>
+      <contract player="104453"/>
+      <contract player="104454"/>
+      <contract player="104455"/>
+      <contract player="104456"/>
+      <contract player="104457"/>
+      <contract player="104458"/>
+      <contract player="104459"/>
+      <contract player="104460"/>
+      <contract player="104461"/>
+      <contract player="104462"/>
+      <contract player="104463"/>
+    </contracts>
+  </club>
+  <club name="Jaguares T">
+    <coach name="Gerardo Martin Duron"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="127" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="127" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Jaguares T Stadium"/>
+    <contracts>
+      <contract player="104464"/>
+      <contract player="104465"/>
+      <contract player="104466"/>
+      <contract player="104467"/>
+      <contract player="104468"/>
+      <contract player="104469"/>
+      <contract player="104470"/>
+      <contract player="104471"/>
+      <contract player="104472"/>
+      <contract player="104473"/>
+      <contract player="104474"/>
+      <contract player="104475"/>
+      <contract player="104476"/>
+      <contract player="104477"/>
+      <contract player="104478"/>
+      <contract player="104479"/>
+    </contracts>
+  </club>
+  <club name="Toluca">
+    <coach name="Jose Nestor Pekerman"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Toluca Stadium"/>
+    <contracts>
+      <contract player="104480"/>
+      <contract player="104481"/>
+      <contract player="104482"/>
+      <contract player="104483"/>
+      <contract player="104484"/>
+      <contract player="104485"/>
+      <contract player="104486"/>
+      <contract player="104487"/>
+      <contract player="104488"/>
+      <contract player="104489"/>
+      <contract player="104490"/>
+      <contract player="104491"/>
+      <contract player="104492"/>
+      <contract player="104493"/>
+      <contract player="104494"/>
+      <contract player="104495"/>
+    </contracts>
+  </club>
+  <club name="Dorados">
+    <coach name="Hugo Fernandez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Dorados Stadium"/>
+    <contracts>
+      <contract player="104496"/>
+      <contract player="104497"/>
+      <contract player="104498"/>
+      <contract player="104499"/>
+      <contract player="104500"/>
+      <contract player="104501"/>
+      <contract player="104502"/>
+      <contract player="104503"/>
+      <contract player="104504"/>
+      <contract player="104505"/>
+      <contract player="104506"/>
+      <contract player="104507"/>
+      <contract player="104508"/>
+      <contract player="104509"/>
+      <contract player="104510"/>
+      <contract player="104511"/>
+    </contracts>
+  </club>
+  <club name="Tigres">
+    <coach name="Americo Gallego"/>
+    <kits>
+      <kit>
+        <jersey type="3">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="3">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Tigres Stadium"/>
+    <contracts>
+      <contract player="104512"/>
+      <contract player="104513"/>
+      <contract player="104514"/>
+      <contract player="104515"/>
+      <contract player="104516"/>
+      <contract player="104517"/>
+      <contract player="104518"/>
+      <contract player="104519"/>
+      <contract player="104520"/>
+      <contract player="104521"/>
+      <contract player="104522"/>
+      <contract player="104523"/>
+      <contract player="104524"/>
+      <contract player="104525"/>
+      <contract player="104526"/>
+      <contract player="104527"/>
+    </contracts>
+  </club>
+  <club name="Pachuca">
+    <coach name="Enrique Meza"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="127" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Pachuca Stadium"/>
+    <contracts>
+      <contract player="104528"/>
+      <contract player="104529"/>
+      <contract player="104530"/>
+      <contract player="104531"/>
+      <contract player="104532"/>
+      <contract player="104533"/>
+      <contract player="104534"/>
+      <contract player="104535"/>
+      <contract player="104536"/>
+      <contract player="104537"/>
+      <contract player="104538"/>
+      <contract player="104539"/>
+      <contract player="104540"/>
+      <contract player="104541"/>
+      <contract player="104542"/>
+      <contract player="104543"/>
+    </contracts>
+  </club>
+  <club name="Pumas">
+    <coach name="Ricardo Ferretti"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Pumas Stadium"/>
+    <contracts>
+      <contract player="104544"/>
+      <contract player="104545"/>
+      <contract player="104546"/>
+      <contract player="104547"/>
+      <contract player="104548"/>
+      <contract player="104549"/>
+      <contract player="104550"/>
+      <contract player="104551"/>
+      <contract player="104552"/>
+      <contract player="104553"/>
+      <contract player="104554"/>
+      <contract player="104555"/>
+      <contract player="104556"/>
+      <contract player="104557"/>
+      <contract player="104558"/>
+      <contract player="104559"/>
+    </contracts>
+  </club>
+  <club name="Tapatio">
+    <coach name="Juan German Lopez"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Tapatio Stadium"/>
+    <contracts>
+      <contract player="104560"/>
+      <contract player="104561"/>
+      <contract player="104562"/>
+      <contract player="104563"/>
+      <contract player="104564"/>
+      <contract player="104565"/>
+      <contract player="104566"/>
+      <contract player="104567"/>
+      <contract player="104568"/>
+      <contract player="104569"/>
+      <contract player="104570"/>
+      <contract player="104571"/>
+      <contract player="104572"/>
+      <contract player="104573"/>
+      <contract player="104574"/>
+      <contract player="104575"/>
+    </contracts>
+  </club>
+  <club name="Tecos">
+    <coach name="Cesar Luis Menotti"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Tecos Stadium"/>
+    <contracts>
+      <contract player="104576"/>
+      <contract player="104577"/>
+      <contract player="104578"/>
+      <contract player="104579"/>
+      <contract player="104580"/>
+      <contract player="104581"/>
+      <contract player="104582"/>
+      <contract player="104583"/>
+      <contract player="104584"/>
+      <contract player="104585"/>
+      <contract player="104586"/>
+      <contract player="104587"/>
+      <contract player="104588"/>
+      <contract player="104589"/>
+      <contract player="104590"/>
+      <contract player="104591"/>
+    </contracts>
+  </club>
+  <club name="Veracruz">
+    <coach name="Antonio Mohamed"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Veracruz Stadium"/>
+    <contracts>
+      <contract player="104592"/>
+      <contract player="104593"/>
+      <contract player="104594"/>
+      <contract player="104595"/>
+      <contract player="104596"/>
+      <contract player="104597"/>
+      <contract player="104598"/>
+      <contract player="104599"/>
+      <contract player="104600"/>
+      <contract player="104601"/>
+      <contract player="104602"/>
+      <contract player="104603"/>
+      <contract player="104604"/>
+      <contract player="104605"/>
+      <contract player="104606"/>
+      <contract player="104607"/>
+    </contracts>
+  </club>
+  <club name="Tecos Uag">
+    <coach name="Sergio Pacheco"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Tecos Uag Stadium"/>
+    <contracts>
+      <contract player="104608"/>
+      <contract player="104609"/>
+      <contract player="104610"/>
+      <contract player="104611"/>
+      <contract player="104612"/>
+      <contract player="104613"/>
+      <contract player="104614"/>
+      <contract player="104615"/>
+      <contract player="104616"/>
+      <contract player="104617"/>
+      <contract player="104618"/>
+      <contract player="104619"/>
+      <contract player="104620"/>
+      <contract player="104621"/>
+      <contract player="104622"/>
+      <contract player="104623"/>
+    </contracts>
+  </club>
+  <club name="Xoloitzcuintles">
+    <coach name="Victor Rangel"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="150" g="75" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Mexico"/>
+    <stadium name="Xoloitzcuintles Stadium"/>
+    <contracts>
+      <contract player="104624"/>
+      <contract player="104625"/>
+      <contract player="104626"/>
+      <contract player="104627"/>
+      <contract player="104628"/>
+      <contract player="104629"/>
+      <contract player="104630"/>
+      <contract player="104631"/>
+      <contract player="104632"/>
+      <contract player="104633"/>
+      <contract player="104634"/>
+      <contract player="104635"/>
+      <contract player="104636"/>
+      <contract player="104637"/>
+      <contract player="104638"/>
+      <contract player="104639"/>
+    </contracts>
+  </club>
+</Clubs>

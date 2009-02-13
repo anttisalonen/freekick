@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Bulgaria">
+    <Regions>
+      <Region name="Bulgaria">
+        <stadium name="Beroe Stadium" capacity="1100"/>
+        <stadium name="Botev Plovdiv Stadium" capacity="1000"/>
+        <stadium name="Cska Sofia Stadium" capacity="13900"/>
+        <stadium name="Belasitsa Stadium" capacity="1000"/>
+        <stadium name="Chernomorets Stadium" capacity="1700"/>
+        <stadium name="Litex Stadium" capacity="6100"/>
+        <stadium name="Levski Sofia Stadium" capacity="12400"/>
+        <stadium name="Cherno More Stadium" capacity="2400"/>
+        <stadium name="Loko Plovdiv Stadium" capacity="2200"/>
+        <stadium name="Loko Sofia Stadium" capacity="5100"/>
+        <stadium name="Marek Stadium" capacity="1300"/>
+        <stadium name="Vidima-rakovski Stadium" capacity="700"/>
+        <stadium name="Pirin Stadium" capacity="1000"/>
+        <stadium name="Spartak Varna Stadium" capacity="1000"/>
+        <stadium name="Slavia Sofia Stadium" capacity="4300"/>
+        <stadium name="Vihren Stadium" capacity="1000"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Bulgarian league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="16" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Bulgarian Premier league champion"/>
+              <attendances>
+                <attendance tournament="Bulgarian Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Beroe"/>
+                <club name="Botev Plovdiv"/>
+                <club name="Cska Sofia"/>
+                <club name="Belasitsa"/>
+                <club name="Chernomorets"/>
+                <club name="Litex"/>
+                <club name="Levski Sofia"/>
+                <club name="Cherno More"/>
+                <club name="Loko Plovdiv"/>
+                <club name="Loko Sofia"/>
+                <club name="Marek"/>
+                <club name="Vidima-rakovski"/>
+                <club name="Pirin"/>
+                <club name="Spartak Varna"/>
+                <club name="Slavia Sofia"/>
+                <club name="Vihren"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Bulgarian Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Bulgarian Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+        </stage>
+        <stage name="First round" type="1">
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Quarterfinals"/>
+          <preset>
+            <club name="Beroe"/>
+            <club name="Botev Plovdiv"/>
+            <club name="Cska Sofia"/>
+            <club name="Belasitsa"/>
+            <club name="Chernomorets"/>
+            <club name="Litex"/>
+            <club name="Levski Sofia"/>
+            <club name="Cherno More"/>
+            <club name="Loko Plovdiv"/>
+            <club name="Loko Sofia"/>
+            <club name="Marek"/>
+            <club name="Vidima-rakovski"/>
+            <club name="Pirin"/>
+            <club name="Spartak Varna"/>
+            <club name="Slavia Sofia"/>
+            <club name="Vihren"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

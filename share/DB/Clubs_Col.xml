@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="America Cali">
+    <coach name="Diego Umana"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Colombia"/>
+    <stadium name="America Cali Stadium"/>
+    <contracts>
+      <contract player="96000"/>
+      <contract player="96001"/>
+      <contract player="96002"/>
+      <contract player="96003"/>
+      <contract player="96004"/>
+      <contract player="96005"/>
+      <contract player="96006"/>
+      <contract player="96007"/>
+      <contract player="96008"/>
+      <contract player="96009"/>
+      <contract player="96010"/>
+      <contract player="96011"/>
+      <contract player="96012"/>
+      <contract player="96013"/>
+      <contract player="96014"/>
+      <contract player="96015"/>
+    </contracts>
+  </club>
+  <club name="Atl. Bucaramanga">
+    <coach name="Norberto Peluffo"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Colombia"/>
+    <stadium name="Atl. Bucaramanga Stadium"/>
+    <contracts>
+      <contract player="96016"/>
+      <contract player="96017"/>
+      <contract player="96018"/>
+      <contract player="96019"/>
+      <contract player="96020"/>
+      <contract player="96021"/>
+      <contract player="96022"/>
+      <contract player="96023"/>
+      <contract player="96024"/>
+      <contract player="96025"/>
+      <contract player="96026"/>
+      <contract player="96027"/>
+      <contract player="96028"/>
+      <contract player="96029"/>
+      <contract player="96030"/>
+      <contract player="96031"/>
+    </contracts>
+  </club>
+  <club name="Atl. Nacional">
+    <coach name="Norberto Peluffo"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Colombia"/>
+    <stadium name="Atl. Nacional Stadium"/>
+    <contracts>
+      <contract player="96032"/>
+      <contract player="96033"/>
+      <contract player="96034"/>
+      <contract player="96035"/>
+      <contract player="96036"/>
+      <contract player="96037"/>
+      <contract player="96038"/>
+      <contract player="96039"/>
+      <contract player="96040"/>
+      <contract player="96041"/>
+      <contract player="96042"/>
+      <contract player="96043"/>
+      <contract player="96044"/>
+      <contract player="96045"/>
+      <contract player="96046"/>
+      <contract player="96047"/>
+    </contracts>
+  </club>
+  <club name="Atletico Huila">
+    <coach name="Nelson Abadia"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Colombia"/>
+    <stadium name="Atletico Huila Stadium"/>
+    <contracts>
+      <contract player="96048"/>
+      <contract player="96049"/>
+      <contract player="96050"/>
+      <contract player="96051"/>
+      <contract player="96052"/>
+      <contract player="96053"/>
+      <contract player="96054"/>
+      <contract player="96055"/>
+      <contract player="96056"/>
+      <contract player="96057"/>
+      <contract player="96058"/>
+      <contract player="96059"/>
+      <contract player="96060"/>
+      <contract player="96061"/>
+      <contract player="96062"/>
+      <contract player="96063"/>
+    </contracts>
+  </club>
+  <club name="Atletico Junior">
+    <coach name="Julio Comesana"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Colombia"/>
+    <stadium name="Atletico Junior Stadium"/>
+    <contracts>
+      <contract player="96064"/>
+      <contract player="96065"/>
+      <contract player="96066"/>
+      <contract player="96067"/>
+      <contract player="96068"/>
+      <contract player="96069"/>
+      <contract player="96070"/>
+      <contract player="96071"/>
+      <contract player="96072"/>
+      <contract player="96073"/>
+      <contract player="96074"/>
+      <contract player="96075"/>
+      <contract player="96076"/>
+      <contract player="96077"/>
+      <contract player="96078"/>
+      <contract player="96079"/>
+    </contracts>
+  </club>
+  <club name="Cucuta Deportivo">
+    <coach name="Moises Pachon"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Colombia"/>
+    <stadium name="Cucuta Deportivo Stadium"/>
+    <contracts>
+      <contract player="96080"/>
+      <contract player="96081"/>
+      <contract player="96082"/>
+      <contract player="96083"/>
+      <contract player="96084"/>
+      <contract player="96085"/>
+      <contract player="96086"/>
+      <contract player="96087"/>
+      <contract player="96088"/>
+      <contract player="96089"/>
+      <contract player="96090"/>
+      <contract player="96091"/>
+      <contract player="96092"/>
+      <contract player="96093"/>
+      <contract player="96094"/>
+      <contract player="96095"/>
+    </contracts>
+  </club>
+  <club name="Dep. Pereira">
+    <coach name="Oscar Quintabani"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Colombia"/>
+    <stadium name="Dep. Pereira Stadium"/>
+    <contracts>
+      <contract player="96096"/>
+      <contract player="96097"/>
+      <contract player="96098"/>
+      <contract player="96099"/>
+      <contract player="96100"/>
+      <contract player="96101"/>
+      <contract player="96102"/>
+      <contract player="96103"/>
+      <contract player="96104"/>
+      <contract player="96105"/>
+      <contract player="96106"/>
+      <contract player="96107"/>
+      <contract player="96108"/>
+      <contract player="96109"/>
+      <contract player="96110"/>
+      <contract player="96111"/>
+    </contracts>
+  </club>
+  <club name="Dep. Quindio">
+    <coach name="Nelson Gallego"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Colombia"/>
+    <stadium name="Dep. Quindio Stadium"/>
+    <contracts>
+      <contract player="96112"/>
+      <contract player="96113"/>
+      <contract player="96114"/>
+      <contract player="96115"/>
+      <contract player="96116"/>
+      <contract player="96117"/>
+      <contract player="96118"/>
+      <contract player="96119"/>
+      <contract player="96120"/>
+      <contract player="96121"/>
+      <contract player="96122"/>
+      <contract player="96123"/>
+      <contract player="96124"/>
+      <contract player="96125"/>
+      <contract player="96126"/>
+      <contract player="96127"/>
+    </contracts>
+  </club>
+  <club name="Dep. Tolima">
+    <coach name="Humberto Ortiz"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Colombia"/>
+    <stadium name="Dep. Tolima Stadium"/>
+    <contracts>
+      <contract player="96128"/>
+      <contract player="96129"/>
+      <contract player="96130"/>
+      <contract player="96131"/>
+      <contract player="96132"/>
+      <contract player="96133"/>
+      <contract player="96134"/>
+      <contract player="96135"/>
+      <contract player="96136"/>
+      <contract player="96137"/>
+      <contract player="96138"/>
+      <contract player="96139"/>
+      <contract player="96140"/>
+      <contract player="96141"/>
+      <contract player="96142"/>
+      <contract player="96143"/>
+    </contracts>
+  </club>
+  <club name="Dep. Tulia">
+    <coach name="Reinaldo Rueda"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Colombia"/>
+    <stadium name="Dep. Tulia Stadium"/>
+    <contracts>
+      <contract player="96144"/>
+      <contract player="96145"/>
+      <contract player="96146"/>
+      <contract player="96147"/>
+      <contract player="96148"/>
+      <contract player="96149"/>
+      <contract player="96150"/>
+      <contract player="96151"/>
+      <contract player="96152"/>
+      <contract player="96153"/>
+      <contract player="96154"/>
+      <contract player="96155"/>
+      <contract player="96156"/>
+      <contract player="96157"/>
+      <contract player="96158"/>
+      <contract player="96159"/>
+    </contracts>
+  </club>
+  <club name="Deportivo Cali">
+    <coach name="Fernando Castro"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Colombia"/>
+    <stadium name="Deportivo Cali Stadium"/>
+    <contracts>
+      <contract player="96160"/>
+      <contract player="96161"/>
+      <contract player="96162"/>
+      <contract player="96163"/>
+      <contract player="96164"/>
+      <contract player="96165"/>
+      <contract player="96166"/>
+      <contract player="96167"/>
+      <contract player="96168"/>
+      <contract player="96169"/>
+      <contract player="96170"/>
+      <contract player="96171"/>
+      <contract player="96172"/>
+      <contract player="96173"/>
+      <contract player="96174"/>
+      <contract player="96175"/>
+    </contracts>
+  </club>
+  <club name="Envigado Fc">
+    <coach name="Gabriel Gomez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Colombia"/>
+    <stadium name="Envigado Fc Stadium"/>
+    <contracts>
+      <contract player="96176"/>
+      <contract player="96177"/>
+      <contract player="96178"/>
+      <contract player="96179"/>
+      <contract player="96180"/>
+      <contract player="96181"/>
+      <contract player="96182"/>
+      <contract player="96183"/>
+      <contract player="96184"/>
+      <contract player="96185"/>
+      <contract player="96186"/>
+      <contract player="96187"/>
+      <contract player="96188"/>
+      <contract player="96189"/>
+      <contract player="96190"/>
+      <contract player="96191"/>
+    </contracts>
+  </club>
+  <club name="Ind. Medellin">
+    <coach name="Norberto Molina"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Colombia"/>
+    <stadium name="Ind. Medellin Stadium"/>
+    <contracts>
+      <contract player="96192"/>
+      <contract player="96193"/>
+      <contract player="96194"/>
+      <contract player="96195"/>
+      <contract player="96196"/>
+      <contract player="96197"/>
+      <contract player="96198"/>
+      <contract player="96199"/>
+      <contract player="96200"/>
+      <contract player="96201"/>
+      <contract player="96202"/>
+      <contract player="96203"/>
+      <contract player="96204"/>
+      <contract player="96205"/>
+      <contract player="96206"/>
+      <contract player="96207"/>
+    </contracts>
+  </club>
+  <club name="Ind. Santa Fe">
+    <coach name="Edgar Plazas"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Colombia"/>
+    <stadium name="Ind. Santa Fe Stadium"/>
+    <contracts>
+      <contract player="96208"/>
+      <contract player="96209"/>
+      <contract player="96210"/>
+      <contract player="96211"/>
+      <contract player="96212"/>
+      <contract player="96213"/>
+      <contract player="96214"/>
+      <contract player="96215"/>
+      <contract player="96216"/>
+      <contract player="96217"/>
+      <contract player="96218"/>
+      <contract player="96219"/>
+      <contract player="96220"/>
+      <contract player="96221"/>
+      <contract player="96222"/>
+      <contract player="96223"/>
+    </contracts>
+  </club>
+  <club name="Millonarios">
+    <coach name="Vladimir Popovic"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Colombia"/>
+    <stadium name="Millonarios Stadium"/>
+    <contracts>
+      <contract player="96224"/>
+      <contract player="96225"/>
+      <contract player="96226"/>
+      <contract player="96227"/>
+      <contract player="96228"/>
+      <contract player="96229"/>
+      <contract player="96230"/>
+      <contract player="96231"/>
+      <contract player="96232"/>
+      <contract player="96233"/>
+      <contract player="96234"/>
+      <contract player="96235"/>
+      <contract player="96236"/>
+      <contract player="96237"/>
+      <contract player="96238"/>
+      <contract player="96239"/>
+    </contracts>
+  </club>
+  <club name="Once Caldas">
+    <coach name="Orlando Restrepo"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Colombia"/>
+    <stadium name="Once Caldas Stadium"/>
+    <contracts>
+      <contract player="96240"/>
+      <contract player="96241"/>
+      <contract player="96242"/>
+      <contract player="96243"/>
+      <contract player="96244"/>
+      <contract player="96245"/>
+      <contract player="96246"/>
+      <contract player="96247"/>
+      <contract player="96248"/>
+      <contract player="96249"/>
+      <contract player="96250"/>
+      <contract player="96251"/>
+      <contract player="96252"/>
+      <contract player="96253"/>
+      <contract player="96254"/>
+      <contract player="96255"/>
+    </contracts>
+  </club>
+  <club name="Union Magdalena">
+    <coach name="Jorge Luis Pinto"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Colombia"/>
+    <stadium name="Union Magdalena Stadium"/>
+    <contracts>
+      <contract player="96256"/>
+      <contract player="96257"/>
+      <contract player="96258"/>
+      <contract player="96259"/>
+      <contract player="96260"/>
+      <contract player="96261"/>
+      <contract player="96262"/>
+      <contract player="96263"/>
+      <contract player="96264"/>
+      <contract player="96265"/>
+      <contract player="96266"/>
+      <contract player="96267"/>
+      <contract player="96268"/>
+      <contract player="96269"/>
+      <contract player="96270"/>
+      <contract player="96271"/>
+    </contracts>
+  </club>
+</Clubs>

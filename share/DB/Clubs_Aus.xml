@@ -1,0 +1,2502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Acacia Ridge">
+    <coach name="Steve Hamlett"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Acacia Ridge Stadium"/>
+    <contracts>
+      <contract player="88000"/>
+      <contract player="88001"/>
+      <contract player="88002"/>
+      <contract player="88003"/>
+      <contract player="88004"/>
+      <contract player="88005"/>
+      <contract player="88006"/>
+      <contract player="88007"/>
+      <contract player="88008"/>
+      <contract player="88009"/>
+      <contract player="88010"/>
+      <contract player="88011"/>
+      <contract player="88012"/>
+      <contract player="88013"/>
+      <contract player="88014"/>
+      <contract player="88015"/>
+    </contracts>
+  </club>
+  <club name="Adamstown">
+    <coach name="Neville Power"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Adamstown Stadium"/>
+    <contracts>
+      <contract player="88016"/>
+      <contract player="88017"/>
+      <contract player="88018"/>
+      <contract player="88019"/>
+      <contract player="88020"/>
+      <contract player="88021"/>
+      <contract player="88022"/>
+      <contract player="88023"/>
+      <contract player="88024"/>
+      <contract player="88025"/>
+      <contract player="88026"/>
+      <contract player="88027"/>
+      <contract player="88028"/>
+      <contract player="88029"/>
+      <contract player="88030"/>
+      <contract player="88031"/>
+    </contracts>
+  </club>
+  <club name="Adelaide C.s.c.">
+    <coach name="Mike Kavalcenti"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Adelaide C.s.c. Stadium"/>
+    <contracts>
+      <contract player="88032"/>
+      <contract player="88033"/>
+      <contract player="88034"/>
+      <contract player="88035"/>
+      <contract player="88036"/>
+      <contract player="88037"/>
+      <contract player="88038"/>
+      <contract player="88039"/>
+      <contract player="88040"/>
+      <contract player="88041"/>
+      <contract player="88042"/>
+      <contract player="88043"/>
+      <contract player="88044"/>
+      <contract player="88045"/>
+      <contract player="88046"/>
+      <contract player="88047"/>
+    </contracts>
+  </club>
+  <club name="Adelaide City">
+    <coach name="John Perin"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Adelaide City Stadium"/>
+    <contracts>
+      <contract player="88048"/>
+      <contract player="88049"/>
+      <contract player="88050"/>
+      <contract player="88051"/>
+      <contract player="88052"/>
+      <contract player="88053"/>
+      <contract player="88054"/>
+      <contract player="88055"/>
+      <contract player="88056"/>
+      <contract player="88057"/>
+      <contract player="88058"/>
+      <contract player="88059"/>
+      <contract player="88060"/>
+      <contract player="88061"/>
+      <contract player="88062"/>
+      <contract player="88063"/>
+    </contracts>
+  </club>
+  <club name="Bankstown City">
+    <coach name="Lube Jancey"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Bankstown City Stadium"/>
+    <contracts>
+      <contract player="88064"/>
+      <contract player="88065"/>
+      <contract player="88066"/>
+      <contract player="88067"/>
+      <contract player="88068"/>
+      <contract player="88069"/>
+      <contract player="88070"/>
+      <contract player="88071"/>
+      <contract player="88072"/>
+      <contract player="88073"/>
+      <contract player="88074"/>
+      <contract player="88075"/>
+      <contract player="88076"/>
+      <contract player="88077"/>
+      <contract player="88078"/>
+      <contract player="88079"/>
+    </contracts>
+  </club>
+  <club name="Blacktown City">
+    <coach name="Ken Schembri"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Blacktown City Stadium"/>
+    <contracts>
+      <contract player="88080"/>
+      <contract player="88081"/>
+      <contract player="88082"/>
+      <contract player="88083"/>
+      <contract player="88084"/>
+      <contract player="88085"/>
+      <contract player="88086"/>
+      <contract player="88087"/>
+      <contract player="88088"/>
+      <contract player="88089"/>
+      <contract player="88090"/>
+      <contract player="88091"/>
+      <contract player="88092"/>
+      <contract player="88093"/>
+      <contract player="88094"/>
+      <contract player="88095"/>
+    </contracts>
+  </club>
+  <club name="Blue Eagles">
+    <coach name="Jan Kierno"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Blue Eagles Stadium"/>
+    <contracts>
+      <contract player="88096"/>
+      <contract player="88097"/>
+      <contract player="88098"/>
+      <contract player="88099"/>
+      <contract player="88100"/>
+      <contract player="88101"/>
+      <contract player="88102"/>
+      <contract player="88103"/>
+      <contract player="88104"/>
+      <contract player="88105"/>
+      <contract player="88106"/>
+      <contract player="88107"/>
+      <contract player="88108"/>
+      <contract player="88109"/>
+      <contract player="88110"/>
+      <contract player="88111"/>
+    </contracts>
+  </club>
+  <club name="Bonnyrigg">
+    <coach name="Michael Johnson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Bonnyrigg Stadium"/>
+    <contracts>
+      <contract player="88112"/>
+      <contract player="88113"/>
+      <contract player="88114"/>
+      <contract player="88115"/>
+      <contract player="88116"/>
+      <contract player="88117"/>
+      <contract player="88118"/>
+      <contract player="88119"/>
+      <contract player="88120"/>
+      <contract player="88121"/>
+      <contract player="88122"/>
+      <contract player="88123"/>
+      <contract player="88124"/>
+      <contract player="88125"/>
+      <contract player="88126"/>
+      <contract player="88127"/>
+    </contracts>
+  </club>
+  <club name="Brisbane Lions">
+    <coach name="Leonard Manikus"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="127" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="127" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Brisbane Lions Stadium"/>
+    <contracts>
+      <contract player="88128"/>
+      <contract player="88129"/>
+      <contract player="88130"/>
+      <contract player="88131"/>
+      <contract player="88132"/>
+      <contract player="88133"/>
+      <contract player="88134"/>
+      <contract player="88135"/>
+      <contract player="88136"/>
+      <contract player="88137"/>
+      <contract player="88138"/>
+      <contract player="88139"/>
+      <contract player="88140"/>
+      <contract player="88141"/>
+      <contract player="88142"/>
+      <contract player="88143"/>
+    </contracts>
+  </club>
+  <club name="Brisbane Strikes">
+    <coach name="Glenn Gwynne"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Brisbane Strikes Stadium"/>
+    <contracts>
+      <contract player="88144"/>
+      <contract player="88145"/>
+      <contract player="88146"/>
+      <contract player="88147"/>
+      <contract player="88148"/>
+      <contract player="88149"/>
+      <contract player="88150"/>
+      <contract player="88151"/>
+      <contract player="88152"/>
+      <contract player="88153"/>
+      <contract player="88154"/>
+      <contract player="88155"/>
+      <contract player="88156"/>
+      <contract player="88157"/>
+      <contract player="88158"/>
+      <contract player="88159"/>
+    </contracts>
+  </club>
+  <club name="Brunswick United">
+    <coach name="John Margaritis"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Brunswick United Stadium"/>
+    <contracts>
+      <contract player="88160"/>
+      <contract player="88161"/>
+      <contract player="88162"/>
+      <contract player="88163"/>
+      <contract player="88164"/>
+      <contract player="88165"/>
+      <contract player="88166"/>
+      <contract player="88167"/>
+      <contract player="88168"/>
+      <contract player="88169"/>
+      <contract player="88170"/>
+      <contract player="88171"/>
+      <contract player="88172"/>
+      <contract player="88173"/>
+      <contract player="88174"/>
+      <contract player="88175"/>
+    </contracts>
+  </club>
+  <club name="Canberra Cosmos">
+    <coach name="Alan Strachan"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Canberra Cosmos Stadium"/>
+    <contracts>
+      <contract player="88176"/>
+      <contract player="88177"/>
+      <contract player="88178"/>
+      <contract player="88179"/>
+      <contract player="88180"/>
+      <contract player="88181"/>
+      <contract player="88182"/>
+      <contract player="88183"/>
+      <contract player="88184"/>
+      <contract player="88185"/>
+      <contract player="88186"/>
+      <contract player="88187"/>
+      <contract player="88188"/>
+      <contract player="88189"/>
+      <contract player="88190"/>
+      <contract player="88191"/>
+    </contracts>
+  </club>
+  <club name="Canterbury">
+    <coach name="John Zipolitas"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Canterbury Stadium"/>
+    <contracts>
+      <contract player="88192"/>
+      <contract player="88193"/>
+      <contract player="88194"/>
+      <contract player="88195"/>
+      <contract player="88196"/>
+      <contract player="88197"/>
+      <contract player="88198"/>
+      <contract player="88199"/>
+      <contract player="88200"/>
+      <contract player="88201"/>
+      <contract player="88202"/>
+      <contract player="88203"/>
+      <contract player="88204"/>
+      <contract player="88205"/>
+      <contract player="88206"/>
+      <contract player="88207"/>
+    </contracts>
+  </club>
+  <club name="Coalstars">
+    <coach name="Chris Barrett"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Coalstars Stadium"/>
+    <contracts>
+      <contract player="88208"/>
+      <contract player="88209"/>
+      <contract player="88210"/>
+      <contract player="88211"/>
+      <contract player="88212"/>
+      <contract player="88213"/>
+      <contract player="88214"/>
+      <contract player="88215"/>
+      <contract player="88216"/>
+      <contract player="88217"/>
+      <contract player="88218"/>
+      <contract player="88219"/>
+      <contract player="88220"/>
+      <contract player="88221"/>
+      <contract player="88222"/>
+      <contract player="88223"/>
+    </contracts>
+  </club>
+  <club name="Croydon P.s.c.">
+    <coach name="Martyn Crook"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Croydon P.s.c. Stadium"/>
+    <contracts>
+      <contract player="88224"/>
+      <contract player="88225"/>
+      <contract player="88226"/>
+      <contract player="88227"/>
+      <contract player="88228"/>
+      <contract player="88229"/>
+      <contract player="88230"/>
+      <contract player="88231"/>
+      <contract player="88232"/>
+      <contract player="88233"/>
+      <contract player="88234"/>
+      <contract player="88235"/>
+      <contract player="88236"/>
+      <contract player="88237"/>
+      <contract player="88238"/>
+      <contract player="88239"/>
+    </contracts>
+  </club>
+  <club name="Cyc Stanmore">
+    <coach name="Joe Watson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Cyc Stanmore Stadium"/>
+    <contracts>
+      <contract player="88240"/>
+      <contract player="88241"/>
+      <contract player="88242"/>
+      <contract player="88243"/>
+      <contract player="88244"/>
+      <contract player="88245"/>
+      <contract player="88246"/>
+      <contract player="88247"/>
+      <contract player="88248"/>
+      <contract player="88249"/>
+      <contract player="88250"/>
+      <contract player="88251"/>
+      <contract player="88252"/>
+      <contract player="88253"/>
+      <contract player="88254"/>
+      <contract player="88255"/>
+    </contracts>
+  </club>
+  <club name="East Suburbs">
+    <coach name="Mick Higginbottom"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="East Suburbs Stadium"/>
+    <contracts>
+      <contract player="88256"/>
+      <contract player="88257"/>
+      <contract player="88258"/>
+      <contract player="88259"/>
+      <contract player="88260"/>
+      <contract player="88261"/>
+      <contract player="88262"/>
+      <contract player="88263"/>
+      <contract player="88264"/>
+      <contract player="88265"/>
+      <contract player="88266"/>
+      <contract player="88267"/>
+      <contract player="88268"/>
+      <contract player="88269"/>
+      <contract player="88270"/>
+      <contract player="88271"/>
+    </contracts>
+  </club>
+  <club name="Eastern Suburbs">
+    <coach name="Andrew Robertson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Eastern Suburbs Stadium"/>
+    <contracts>
+      <contract player="88272"/>
+      <contract player="88273"/>
+      <contract player="88274"/>
+      <contract player="88275"/>
+      <contract player="88276"/>
+      <contract player="88277"/>
+      <contract player="88278"/>
+      <contract player="88279"/>
+      <contract player="88280"/>
+      <contract player="88281"/>
+      <contract player="88282"/>
+      <contract player="88283"/>
+      <contract player="88284"/>
+      <contract player="88285"/>
+      <contract player="88286"/>
+      <contract player="88287"/>
+    </contracts>
+  </club>
+  <club name="Enfield City">
+    <coach name="Rocky Aloisi"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Enfield City Stadium"/>
+    <contracts>
+      <contract player="88288"/>
+      <contract player="88289"/>
+      <contract player="88290"/>
+      <contract player="88291"/>
+      <contract player="88292"/>
+      <contract player="88293"/>
+      <contract player="88294"/>
+      <contract player="88295"/>
+      <contract player="88296"/>
+      <contract player="88297"/>
+      <contract player="88298"/>
+      <contract player="88299"/>
+      <contract player="88300"/>
+      <contract player="88301"/>
+      <contract player="88302"/>
+      <contract player="88303"/>
+    </contracts>
+  </club>
+  <club name="Heidelberg Utd">
+    <coach name="Gary Mcdowall"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Heidelberg Utd Stadium"/>
+    <contracts>
+      <contract player="88304"/>
+      <contract player="88305"/>
+      <contract player="88306"/>
+      <contract player="88307"/>
+      <contract player="88308"/>
+      <contract player="88309"/>
+      <contract player="88310"/>
+      <contract player="88311"/>
+      <contract player="88312"/>
+      <contract player="88313"/>
+      <contract player="88314"/>
+      <contract player="88315"/>
+      <contract player="88316"/>
+      <contract player="88317"/>
+      <contract player="88318"/>
+      <contract player="88319"/>
+    </contracts>
+  </club>
+  <club name="Inala City">
+    <coach name="Scott Kelly"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Inala City Stadium"/>
+    <contracts>
+      <contract player="88320"/>
+      <contract player="88321"/>
+      <contract player="88322"/>
+      <contract player="88323"/>
+      <contract player="88324"/>
+      <contract player="88325"/>
+      <contract player="88326"/>
+      <contract player="88327"/>
+      <contract player="88328"/>
+      <contract player="88329"/>
+      <contract player="88330"/>
+      <contract player="88331"/>
+      <contract player="88332"/>
+      <contract player="88333"/>
+      <contract player="88334"/>
+      <contract player="88335"/>
+    </contracts>
+  </club>
+  <club name="Leichhardt ">
+    <coach name="Manfred Schaeffer"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Leichhardt  Stadium"/>
+    <contracts>
+      <contract player="88336"/>
+      <contract player="88337"/>
+      <contract player="88338"/>
+      <contract player="88339"/>
+      <contract player="88340"/>
+      <contract player="88341"/>
+      <contract player="88342"/>
+      <contract player="88343"/>
+      <contract player="88344"/>
+      <contract player="88345"/>
+      <contract player="88346"/>
+      <contract player="88347"/>
+      <contract player="88348"/>
+      <contract player="88349"/>
+      <contract player="88350"/>
+      <contract player="88351"/>
+    </contracts>
+  </club>
+  <club name="Marconi Fairfied">
+    <coach name="Joe Mirigliani"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Marconi Fairfied Stadium"/>
+    <contracts>
+      <contract player="88352"/>
+      <contract player="88353"/>
+      <contract player="88354"/>
+      <contract player="88355"/>
+      <contract player="88356"/>
+      <contract player="88357"/>
+      <contract player="88358"/>
+      <contract player="88359"/>
+      <contract player="88360"/>
+      <contract player="88361"/>
+      <contract player="88362"/>
+      <contract player="88363"/>
+      <contract player="88364"/>
+      <contract player="88365"/>
+      <contract player="88366"/>
+      <contract player="88367"/>
+    </contracts>
+  </club>
+  <club name="Melbourne Knight">
+    <coach name="Mirko Bazic"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Melbourne Knight Stadium"/>
+    <contracts>
+      <contract player="88368"/>
+      <contract player="88369"/>
+      <contract player="88370"/>
+      <contract player="88371"/>
+      <contract player="88372"/>
+      <contract player="88373"/>
+      <contract player="88374"/>
+      <contract player="88375"/>
+      <contract player="88376"/>
+      <contract player="88377"/>
+      <contract player="88378"/>
+      <contract player="88379"/>
+      <contract player="88380"/>
+      <contract player="88381"/>
+      <contract player="88382"/>
+      <contract player="88383"/>
+    </contracts>
+  </club>
+  <club name="Melbourne Sc">
+    <coach name="Ken Murphy"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Melbourne Sc Stadium"/>
+    <contracts>
+      <contract player="88384"/>
+      <contract player="88385"/>
+      <contract player="88386"/>
+      <contract player="88387"/>
+      <contract player="88388"/>
+      <contract player="88389"/>
+      <contract player="88390"/>
+      <contract player="88391"/>
+      <contract player="88392"/>
+      <contract player="88393"/>
+      <contract player="88394"/>
+      <contract player="88395"/>
+      <contract player="88396"/>
+      <contract player="88397"/>
+      <contract player="88398"/>
+      <contract player="88399"/>
+    </contracts>
+  </club>
+  <club name="Modbury">
+    <coach name="John Nyshokus"/>
+    <kits>
+      <kit>
+        <jersey type="3">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Modbury Stadium"/>
+    <contracts>
+      <contract player="88400"/>
+      <contract player="88401"/>
+      <contract player="88402"/>
+      <contract player="88403"/>
+      <contract player="88404"/>
+      <contract player="88405"/>
+      <contract player="88406"/>
+      <contract player="88407"/>
+      <contract player="88408"/>
+      <contract player="88409"/>
+      <contract player="88410"/>
+      <contract player="88411"/>
+      <contract player="88412"/>
+      <contract player="88413"/>
+      <contract player="88414"/>
+      <contract player="88415"/>
+    </contracts>
+  </club>
+  <club name="Morwell Falcons">
+    <coach name="Harry Bingham"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Morwell Falcons Stadium"/>
+    <contracts>
+      <contract player="88416"/>
+      <contract player="88417"/>
+      <contract player="88418"/>
+      <contract player="88419"/>
+      <contract player="88420"/>
+      <contract player="88421"/>
+      <contract player="88422"/>
+      <contract player="88423"/>
+      <contract player="88424"/>
+      <contract player="88425"/>
+      <contract player="88426"/>
+      <contract player="88427"/>
+      <contract player="88428"/>
+      <contract player="88429"/>
+      <contract player="88430"/>
+      <contract player="88431"/>
+    </contracts>
+  </club>
+  <club name="Mount Gravatt">
+    <coach name="Trevor Ridley"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Mount Gravatt Stadium"/>
+    <contracts>
+      <contract player="88432"/>
+      <contract player="88433"/>
+      <contract player="88434"/>
+      <contract player="88435"/>
+      <contract player="88436"/>
+      <contract player="88437"/>
+      <contract player="88438"/>
+      <contract player="88439"/>
+      <contract player="88440"/>
+      <contract player="88441"/>
+      <contract player="88442"/>
+      <contract player="88443"/>
+      <contract player="88444"/>
+      <contract player="88445"/>
+      <contract player="88446"/>
+      <contract player="88447"/>
+    </contracts>
+  </club>
+  <club name="Newcastle B'kers">
+    <coach name="David Lowe"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Newcastle B'kers Stadium"/>
+    <contracts>
+      <contract player="88448"/>
+      <contract player="88449"/>
+      <contract player="88450"/>
+      <contract player="88451"/>
+      <contract player="88452"/>
+      <contract player="88453"/>
+      <contract player="88454"/>
+      <contract player="88455"/>
+      <contract player="88456"/>
+      <contract player="88457"/>
+      <contract player="88458"/>
+      <contract player="88459"/>
+      <contract player="88460"/>
+      <contract player="88461"/>
+      <contract player="88462"/>
+      <contract player="88463"/>
+    </contracts>
+  </club>
+  <club name="North Brisbane">
+    <coach name="Chris Slater"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="North Brisbane Stadium"/>
+    <contracts>
+      <contract player="88464"/>
+      <contract player="88465"/>
+      <contract player="88466"/>
+      <contract player="88467"/>
+      <contract player="88468"/>
+      <contract player="88469"/>
+      <contract player="88470"/>
+      <contract player="88471"/>
+      <contract player="88472"/>
+      <contract player="88473"/>
+      <contract player="88474"/>
+      <contract player="88475"/>
+      <contract player="88476"/>
+      <contract player="88477"/>
+      <contract player="88478"/>
+      <contract player="88479"/>
+    </contracts>
+  </club>
+  <club name="North Star">
+    <coach name="Paul Schloss"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="North Star Stadium"/>
+    <contracts>
+      <contract player="88480"/>
+      <contract player="88481"/>
+      <contract player="88482"/>
+      <contract player="88483"/>
+      <contract player="88484"/>
+      <contract player="88485"/>
+      <contract player="88486"/>
+      <contract player="88487"/>
+      <contract player="88488"/>
+      <contract player="88489"/>
+      <contract player="88490"/>
+      <contract player="88491"/>
+      <contract player="88492"/>
+      <contract player="88493"/>
+      <contract player="88494"/>
+      <contract player="88495"/>
+    </contracts>
+  </club>
+  <club name="Olympians">
+    <coach name="Petros Cagialis"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Olympians Stadium"/>
+    <contracts>
+      <contract player="88496"/>
+      <contract player="88497"/>
+      <contract player="88498"/>
+      <contract player="88499"/>
+      <contract player="88500"/>
+      <contract player="88501"/>
+      <contract player="88502"/>
+      <contract player="88503"/>
+      <contract player="88504"/>
+      <contract player="88505"/>
+      <contract player="88506"/>
+      <contract player="88507"/>
+      <contract player="88508"/>
+      <contract player="88509"/>
+      <contract player="88510"/>
+      <contract player="88511"/>
+    </contracts>
+  </club>
+  <club name="Para Hills">
+    <coach name="Robert Marwe"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Para Hills Stadium"/>
+    <contracts>
+      <contract player="88512"/>
+      <contract player="88513"/>
+      <contract player="88514"/>
+      <contract player="88515"/>
+      <contract player="88516"/>
+      <contract player="88517"/>
+      <contract player="88518"/>
+      <contract player="88519"/>
+      <contract player="88520"/>
+      <contract player="88521"/>
+      <contract player="88522"/>
+      <contract player="88523"/>
+      <contract player="88524"/>
+      <contract player="88525"/>
+      <contract player="88526"/>
+      <contract player="88527"/>
+    </contracts>
+  </club>
+  <club name="Parramatta">
+    <coach name="Rale Rasic"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Parramatta Stadium"/>
+    <contracts>
+      <contract player="88528"/>
+      <contract player="88529"/>
+      <contract player="88530"/>
+      <contract player="88531"/>
+      <contract player="88532"/>
+      <contract player="88533"/>
+      <contract player="88534"/>
+      <contract player="88535"/>
+      <contract player="88536"/>
+      <contract player="88537"/>
+      <contract player="88538"/>
+      <contract player="88539"/>
+      <contract player="88540"/>
+      <contract player="88541"/>
+      <contract player="88542"/>
+      <contract player="88543"/>
+    </contracts>
+  </club>
+  <club name="Pine Rivers">
+    <coach name="John Rowley"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Pine Rivers Stadium"/>
+    <contracts>
+      <contract player="88544"/>
+      <contract player="88545"/>
+      <contract player="88546"/>
+      <contract player="88547"/>
+      <contract player="88548"/>
+      <contract player="88549"/>
+      <contract player="88550"/>
+      <contract player="88551"/>
+      <contract player="88552"/>
+      <contract player="88553"/>
+      <contract player="88554"/>
+      <contract player="88555"/>
+      <contract player="88556"/>
+      <contract player="88557"/>
+      <contract player="88558"/>
+      <contract player="88559"/>
+    </contracts>
+  </club>
+  <club name="Preston">
+    <coach name="Oscar Crino"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="150" g="75" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Preston Stadium"/>
+    <contracts>
+      <contract player="88560"/>
+      <contract player="88561"/>
+      <contract player="88562"/>
+      <contract player="88563"/>
+      <contract player="88564"/>
+      <contract player="88565"/>
+      <contract player="88566"/>
+      <contract player="88567"/>
+      <contract player="88568"/>
+      <contract player="88569"/>
+      <contract player="88570"/>
+      <contract player="88571"/>
+      <contract player="88572"/>
+      <contract player="88573"/>
+      <contract player="88574"/>
+      <contract player="88575"/>
+    </contracts>
+  </club>
+  <club name="Rochedale Rovers">
+    <coach name="Dean Svensson"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Rochedale Rovers Stadium"/>
+    <contracts>
+      <contract player="88576"/>
+      <contract player="88577"/>
+      <contract player="88578"/>
+      <contract player="88579"/>
+      <contract player="88580"/>
+      <contract player="88581"/>
+      <contract player="88582"/>
+      <contract player="88583"/>
+      <contract player="88584"/>
+      <contract player="88585"/>
+      <contract player="88586"/>
+      <contract player="88587"/>
+      <contract player="88588"/>
+      <contract player="88589"/>
+      <contract player="88590"/>
+      <contract player="88591"/>
+    </contracts>
+  </club>
+  <club name="Rockdale Hinden">
+    <coach name="Bill Pilovski"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Rockdale Hinden Stadium"/>
+    <contracts>
+      <contract player="88592"/>
+      <contract player="88593"/>
+      <contract player="88594"/>
+      <contract player="88595"/>
+      <contract player="88596"/>
+      <contract player="88597"/>
+      <contract player="88598"/>
+      <contract player="88599"/>
+      <contract player="88600"/>
+      <contract player="88601"/>
+      <contract player="88602"/>
+      <contract player="88603"/>
+      <contract player="88604"/>
+      <contract player="88605"/>
+      <contract player="88606"/>
+      <contract player="88607"/>
+    </contracts>
+  </club>
+  <club name="Salisbury Utd">
+    <coach name="Chris Manolev"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Salisbury Utd Stadium"/>
+    <contracts>
+      <contract player="88608"/>
+      <contract player="88609"/>
+      <contract player="88610"/>
+      <contract player="88611"/>
+      <contract player="88612"/>
+      <contract player="88613"/>
+      <contract player="88614"/>
+      <contract player="88615"/>
+      <contract player="88616"/>
+      <contract player="88617"/>
+      <contract player="88618"/>
+      <contract player="88619"/>
+      <contract player="88620"/>
+      <contract player="88621"/>
+      <contract player="88622"/>
+      <contract player="88623"/>
+    </contracts>
+  </club>
+  <club name="South Melbourne">
+    <coach name="Frank Arok"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="South Melbourne Stadium"/>
+    <contracts>
+      <contract player="88624"/>
+      <contract player="88625"/>
+      <contract player="88626"/>
+      <contract player="88627"/>
+      <contract player="88628"/>
+      <contract player="88629"/>
+      <contract player="88630"/>
+      <contract player="88631"/>
+      <contract player="88632"/>
+      <contract player="88633"/>
+      <contract player="88634"/>
+      <contract player="88635"/>
+      <contract player="88636"/>
+      <contract player="88637"/>
+      <contract player="88638"/>
+      <contract player="88639"/>
+    </contracts>
+  </club>
+  <club name="St. Georges">
+    <coach name="Frank Lang"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="St. Georges Stadium"/>
+    <contracts>
+      <contract player="88640"/>
+      <contract player="88641"/>
+      <contract player="88642"/>
+      <contract player="88643"/>
+      <contract player="88644"/>
+      <contract player="88645"/>
+      <contract player="88646"/>
+      <contract player="88647"/>
+      <contract player="88648"/>
+      <contract player="88649"/>
+      <contract player="88650"/>
+      <contract player="88651"/>
+      <contract player="88652"/>
+      <contract player="88653"/>
+      <contract player="88654"/>
+      <contract player="88655"/>
+    </contracts>
+  </club>
+  <club name="Sutherland Shire">
+    <coach name="John Kirsopp"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Sutherland Shire Stadium"/>
+    <contracts>
+      <contract player="88656"/>
+      <contract player="88657"/>
+      <contract player="88658"/>
+      <contract player="88659"/>
+      <contract player="88660"/>
+      <contract player="88661"/>
+      <contract player="88662"/>
+      <contract player="88663"/>
+      <contract player="88664"/>
+      <contract player="88665"/>
+      <contract player="88666"/>
+      <contract player="88667"/>
+      <contract player="88668"/>
+      <contract player="88669"/>
+      <contract player="88670"/>
+      <contract player="88671"/>
+    </contracts>
+  </club>
+  <club name="Sydney United">
+    <coach name="Branko Culina"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Sydney United Stadium"/>
+    <contracts>
+      <contract player="88672"/>
+      <contract player="88673"/>
+      <contract player="88674"/>
+      <contract player="88675"/>
+      <contract player="88676"/>
+      <contract player="88677"/>
+      <contract player="88678"/>
+      <contract player="88679"/>
+      <contract player="88680"/>
+      <contract player="88681"/>
+      <contract player="88682"/>
+      <contract player="88683"/>
+      <contract player="88684"/>
+      <contract player="88685"/>
+      <contract player="88686"/>
+      <contract player="88687"/>
+    </contracts>
+  </club>
+  <club name="Taringa Rovers">
+    <coach name="Brad Burke"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Taringa Rovers Stadium"/>
+    <contracts>
+      <contract player="88688"/>
+      <contract player="88689"/>
+      <contract player="88690"/>
+      <contract player="88691"/>
+      <contract player="88692"/>
+      <contract player="88693"/>
+      <contract player="88694"/>
+      <contract player="88695"/>
+      <contract player="88696"/>
+      <contract player="88697"/>
+      <contract player="88698"/>
+      <contract player="88699"/>
+      <contract player="88700"/>
+      <contract player="88701"/>
+      <contract player="88702"/>
+      <contract player="88703"/>
+    </contracts>
+  </club>
+  <club name="Uts Olympic">
+    <coach name="David Ratcliffe"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Uts Olympic Stadium"/>
+    <contracts>
+      <contract player="88704"/>
+      <contract player="88705"/>
+      <contract player="88706"/>
+      <contract player="88707"/>
+      <contract player="88708"/>
+      <contract player="88709"/>
+      <contract player="88710"/>
+      <contract player="88711"/>
+      <contract player="88712"/>
+      <contract player="88713"/>
+      <contract player="88714"/>
+      <contract player="88715"/>
+      <contract player="88716"/>
+      <contract player="88717"/>
+      <contract player="88718"/>
+      <contract player="88719"/>
+    </contracts>
+  </club>
+  <club name="Warringah Dolphn">
+    <coach name="Glenn Sterrey"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Warringah Dolphn Stadium"/>
+    <contracts>
+      <contract player="88720"/>
+      <contract player="88721"/>
+      <contract player="88722"/>
+      <contract player="88723"/>
+      <contract player="88724"/>
+      <contract player="88725"/>
+      <contract player="88726"/>
+      <contract player="88727"/>
+      <contract player="88728"/>
+      <contract player="88729"/>
+      <contract player="88730"/>
+      <contract player="88731"/>
+      <contract player="88732"/>
+      <contract player="88733"/>
+      <contract player="88734"/>
+      <contract player="88735"/>
+    </contracts>
+  </club>
+  <club name="West Adelaide">
+    <coach name="Raul Blanco"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="West Adelaide Stadium"/>
+    <contracts>
+      <contract player="88736"/>
+      <contract player="88737"/>
+      <contract player="88738"/>
+      <contract player="88739"/>
+      <contract player="88740"/>
+      <contract player="88741"/>
+      <contract player="88742"/>
+      <contract player="88743"/>
+      <contract player="88744"/>
+      <contract player="88745"/>
+      <contract player="88746"/>
+      <contract player="88747"/>
+      <contract player="88748"/>
+      <contract player="88749"/>
+      <contract player="88750"/>
+      <contract player="88751"/>
+    </contracts>
+  </club>
+  <club name="West Torrens">
+    <coach name="Zoran Maricic"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="West Torrens Stadium"/>
+    <contracts>
+      <contract player="88752"/>
+      <contract player="88753"/>
+      <contract player="88754"/>
+      <contract player="88755"/>
+      <contract player="88756"/>
+      <contract player="88757"/>
+      <contract player="88758"/>
+      <contract player="88759"/>
+      <contract player="88760"/>
+      <contract player="88761"/>
+      <contract player="88762"/>
+      <contract player="88763"/>
+      <contract player="88764"/>
+      <contract player="88765"/>
+      <contract player="88766"/>
+      <contract player="88767"/>
+    </contracts>
+  </club>
+  <club name="White City">
+    <coach name="Bogdan Nyskohus"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="White City Stadium"/>
+    <contracts>
+      <contract player="88768"/>
+      <contract player="88769"/>
+      <contract player="88770"/>
+      <contract player="88771"/>
+      <contract player="88772"/>
+      <contract player="88773"/>
+      <contract player="88774"/>
+      <contract player="88775"/>
+      <contract player="88776"/>
+      <contract player="88777"/>
+      <contract player="88778"/>
+      <contract player="88779"/>
+      <contract player="88780"/>
+      <contract player="88781"/>
+      <contract player="88782"/>
+      <contract player="88783"/>
+    </contracts>
+  </club>
+  <club name="Wollongong City">
+    <coach name="Berti Mariani"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Wollongong City Stadium"/>
+    <contracts>
+      <contract player="88784"/>
+      <contract player="88785"/>
+      <contract player="88786"/>
+      <contract player="88787"/>
+      <contract player="88788"/>
+      <contract player="88789"/>
+      <contract player="88790"/>
+      <contract player="88791"/>
+      <contract player="88792"/>
+      <contract player="88793"/>
+      <contract player="88794"/>
+      <contract player="88795"/>
+      <contract player="88796"/>
+      <contract player="88797"/>
+      <contract player="88798"/>
+      <contract player="88799"/>
+    </contracts>
+  </club>
+  <club name="Wollongong Utd">
+    <coach name="Albin Mikulski"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Australia"/>
+    <stadium name="Wollongong Utd Stadium"/>
+    <contracts>
+      <contract player="88800"/>
+      <contract player="88801"/>
+      <contract player="88802"/>
+      <contract player="88803"/>
+      <contract player="88804"/>
+      <contract player="88805"/>
+      <contract player="88806"/>
+      <contract player="88807"/>
+      <contract player="88808"/>
+      <contract player="88809"/>
+      <contract player="88810"/>
+      <contract player="88811"/>
+      <contract player="88812"/>
+      <contract player="88813"/>
+      <contract player="88814"/>
+      <contract player="88815"/>
+    </contracts>
+  </club>
+</Clubs>

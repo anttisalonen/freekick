@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Norway">
+    <Regions>
+      <Region name="Norway">
+        <stadium name="Bodo-glimt Stadium" capacity="1900"/>
+        <stadium name="Brann Stadium" capacity="7800"/>
+        <stadium name="Bryne Stadium" capacity="2300"/>
+        <stadium name="Ham-kam Stadium" capacity="2600"/>
+        <stadium name="Kongsvinger Stadium" capacity="2700"/>
+        <stadium name="Fredrikstad Stadium" capacity="3600"/>
+        <stadium name="Lillestrom Stadium" capacity="4400"/>
+        <stadium name="Lyn Stadium" capacity="7400"/>
+        <stadium name="Odd Grenland Stadium" capacity="3600"/>
+        <stadium name="Molde Stadium" capacity="3800"/>
+        <stadium name="Moss Stadium" capacity="2300"/>
+        <stadium name="Rosenborg Stadium" capacity="11500"/>
+        <stadium name="Sandefjord Stadium" capacity="3300"/>
+        <stadium name="Sogndal Stadium" capacity="1700"/>
+        <stadium name="Stabaek Stadium" capacity="3500"/>
+        <stadium name="Start Stadium" capacity="2800"/>
+        <stadium name="Aalesund Stadium" capacity="6300"/>
+        <stadium name="Stromsgodset Stadium" capacity="6300"/>
+        <stadium name="Tromso Stadium" capacity="3300"/>
+        <stadium name="Valerenga Stadium" capacity="8700"/>
+        <stadium name="Viking Stadium" capacity="8200"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Norwegish league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="14" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Norwegish Premier league champion"/>
+              <attendances>
+                <attendance tournament="Norwegish Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Brann"/>
+                <club name="Fredrikstad"/>
+                <club name="Lillestrom"/>
+                <club name="Lyn"/>
+                <club name="Odd Grenland"/>
+                <club name="Rosenborg"/>
+                <club name="Sandefjord"/>
+                <club name="Stabaek"/>
+                <club name="Start"/>
+                <club name="Aalesund"/>
+                <club name="Stromsgodset"/>
+                <club name="Tromso"/>
+                <club name="Valerenga"/>
+                <club name="Viking"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Norwegish Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Norwegish Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+        </stage>
+        <stage name="First round" type="1">
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Quarterfinals"/>
+          <preset>
+            <club name="Brann"/>
+            <club name="Fredrikstad"/>
+            <club name="Lillestrom"/>
+            <club name="Lyn"/>
+            <club name="Odd Grenland"/>
+            <club name="Rosenborg"/>
+            <club name="Sandefjord"/>
+            <club name="Stabaek"/>
+            <club name="Start"/>
+            <club name="Aalesund"/>
+            <club name="Stromsgodset"/>
+            <club name="Tromso"/>
+            <club name="Valerenga"/>
+            <club name="Viking"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

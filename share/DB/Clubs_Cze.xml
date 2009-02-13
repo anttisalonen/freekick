@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Banik Ostrava">
+    <coach name="Karel Vecera"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="127" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Czech Republic"/>
+    <stadium name="Banik Ostrava Stadium"/>
+    <contracts>
+      <contract player="14000"/>
+      <contract player="14001"/>
+      <contract player="14002"/>
+      <contract player="14003"/>
+      <contract player="14004"/>
+      <contract player="14005"/>
+      <contract player="14006"/>
+      <contract player="14007"/>
+      <contract player="14008"/>
+      <contract player="14009"/>
+      <contract player="14010"/>
+      <contract player="14011"/>
+      <contract player="14012"/>
+      <contract player="14013"/>
+      <contract player="14014"/>
+      <contract player="14015"/>
+    </contracts>
+  </club>
+  <club name="Brno">
+    <coach name="Petr Ulicny"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Czech Republic"/>
+    <stadium name="Brno Stadium"/>
+    <contracts>
+      <contract player="14016"/>
+      <contract player="14017"/>
+      <contract player="14018"/>
+      <contract player="14019"/>
+      <contract player="14020"/>
+      <contract player="14021"/>
+      <contract player="14022"/>
+      <contract player="14023"/>
+      <contract player="14024"/>
+      <contract player="14025"/>
+      <contract player="14026"/>
+      <contract player="14027"/>
+      <contract player="14028"/>
+      <contract player="14029"/>
+      <contract player="14030"/>
+      <contract player="14031"/>
+    </contracts>
+  </club>
+  <club name="Ceske Budejovice">
+    <coach name="Frantisek Straka"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Czech Republic"/>
+    <stadium name="Ceske Budejovice Stadium"/>
+    <contracts>
+      <contract player="14032"/>
+      <contract player="14033"/>
+      <contract player="14034"/>
+      <contract player="14035"/>
+      <contract player="14036"/>
+      <contract player="14037"/>
+      <contract player="14038"/>
+      <contract player="14039"/>
+      <contract player="14040"/>
+      <contract player="14041"/>
+      <contract player="14042"/>
+      <contract player="14043"/>
+      <contract player="14044"/>
+      <contract player="14045"/>
+      <contract player="14046"/>
+      <contract player="14047"/>
+    </contracts>
+  </club>
+  <club name="Bohemians">
+    <coach name="Vaclav Hradecky"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Czech Republic"/>
+    <stadium name="Bohemians Stadium"/>
+    <contracts>
+      <contract player="14048"/>
+      <contract player="14049"/>
+      <contract player="14050"/>
+      <contract player="14051"/>
+      <contract player="14052"/>
+      <contract player="14053"/>
+      <contract player="14054"/>
+      <contract player="14055"/>
+      <contract player="14056"/>
+      <contract player="14057"/>
+      <contract player="14058"/>
+      <contract player="14059"/>
+      <contract player="14060"/>
+      <contract player="14061"/>
+      <contract player="14062"/>
+      <contract player="14063"/>
+    </contracts>
+  </club>
+  <club name="Jablonec">
+    <coach name="Frantisek Komnacky"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Czech Republic"/>
+    <stadium name="Jablonec Stadium"/>
+    <contracts>
+      <contract player="14064"/>
+      <contract player="14065"/>
+      <contract player="14066"/>
+      <contract player="14067"/>
+      <contract player="14068"/>
+      <contract player="14069"/>
+      <contract player="14070"/>
+      <contract player="14071"/>
+      <contract player="14072"/>
+      <contract player="14073"/>
+      <contract player="14074"/>
+      <contract player="14075"/>
+      <contract player="14076"/>
+      <contract player="14077"/>
+      <contract player="14078"/>
+      <contract player="14079"/>
+    </contracts>
+  </club>
+  <club name="Kladno">
+    <coach name="Jaroslav Silhavy"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Czech Republic"/>
+    <stadium name="Kladno Stadium"/>
+    <contracts>
+      <contract player="14080"/>
+      <contract player="14081"/>
+      <contract player="14082"/>
+      <contract player="14083"/>
+      <contract player="14084"/>
+      <contract player="14085"/>
+      <contract player="14086"/>
+      <contract player="14087"/>
+      <contract player="14088"/>
+      <contract player="14089"/>
+      <contract player="14090"/>
+      <contract player="14091"/>
+      <contract player="14092"/>
+      <contract player="14093"/>
+      <contract player="14094"/>
+      <contract player="14095"/>
+    </contracts>
+  </club>
+  <club name="Siad Most">
+    <coach name="Robert Zak"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Czech Republic"/>
+    <stadium name="Siad Most Stadium"/>
+    <contracts>
+      <contract player="14096"/>
+      <contract player="14097"/>
+      <contract player="14098"/>
+      <contract player="14099"/>
+      <contract player="14100"/>
+      <contract player="14101"/>
+      <contract player="14102"/>
+      <contract player="14103"/>
+      <contract player="14104"/>
+      <contract player="14105"/>
+      <contract player="14106"/>
+      <contract player="14107"/>
+      <contract player="14108"/>
+      <contract player="14109"/>
+      <contract player="14110"/>
+      <contract player="14111"/>
+    </contracts>
+  </club>
+  <club name="Sigma Olomouc">
+    <coach name="Martin Pulpit"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Czech Republic"/>
+    <stadium name="Sigma Olomouc Stadium"/>
+    <contracts>
+      <contract player="14112"/>
+      <contract player="14113"/>
+      <contract player="14114"/>
+      <contract player="14115"/>
+      <contract player="14116"/>
+      <contract player="14117"/>
+      <contract player="14118"/>
+      <contract player="14119"/>
+      <contract player="14120"/>
+      <contract player="14121"/>
+      <contract player="14122"/>
+      <contract player="14123"/>
+      <contract player="14124"/>
+      <contract player="14125"/>
+      <contract player="14126"/>
+      <contract player="14127"/>
+    </contracts>
+  </club>
+  <club name="Slavia Praha">
+    <coach name="Karel Jarolim"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Czech Republic"/>
+    <stadium name="Slavia Praha Stadium"/>
+    <contracts>
+      <contract player="14128"/>
+      <contract player="14129"/>
+      <contract player="14130"/>
+      <contract player="14131"/>
+      <contract player="14132"/>
+      <contract player="14133"/>
+      <contract player="14134"/>
+      <contract player="14135"/>
+      <contract player="14136"/>
+      <contract player="14137"/>
+      <contract player="14138"/>
+      <contract player="14139"/>
+      <contract player="14140"/>
+      <contract player="14141"/>
+      <contract player="14142"/>
+      <contract player="14143"/>
+    </contracts>
+  </club>
+  <club name="Slovan Liberec">
+    <coach name="Vitezslav Lavicka"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Czech Republic"/>
+    <stadium name="Slovan Liberec Stadium"/>
+    <contracts>
+      <contract player="14144"/>
+      <contract player="14145"/>
+      <contract player="14146"/>
+      <contract player="14147"/>
+      <contract player="14148"/>
+      <contract player="14149"/>
+      <contract player="14150"/>
+      <contract player="14151"/>
+      <contract player="14152"/>
+      <contract player="14153"/>
+      <contract player="14154"/>
+      <contract player="14155"/>
+      <contract player="14156"/>
+      <contract player="14157"/>
+      <contract player="14158"/>
+      <contract player="14159"/>
+    </contracts>
+  </club>
+  <club name="Sparta Praha">
+    <coach name="Michal Bilek"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="150" g="75" b="0"/>
+        </shorts>
+        <socks>
+          <color r="150" g="75" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Czech Republic"/>
+    <stadium name="Sparta Praha Stadium"/>
+    <contracts>
+      <contract player="14160"/>
+      <contract player="14161"/>
+      <contract player="14162"/>
+      <contract player="14163"/>
+      <contract player="14164"/>
+      <contract player="14165"/>
+      <contract player="14166"/>
+      <contract player="14167"/>
+      <contract player="14168"/>
+      <contract player="14169"/>
+      <contract player="14170"/>
+      <contract player="14171"/>
+      <contract player="14172"/>
+      <contract player="14173"/>
+      <contract player="14174"/>
+      <contract player="14175"/>
+    </contracts>
+  </club>
+  <club name="Zlin">
+    <coach name="Pavel Hoftych"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Czech Republic"/>
+    <stadium name="Zlin Stadium"/>
+    <contracts>
+      <contract player="14176"/>
+      <contract player="14177"/>
+      <contract player="14178"/>
+      <contract player="14179"/>
+      <contract player="14180"/>
+      <contract player="14181"/>
+      <contract player="14182"/>
+      <contract player="14183"/>
+      <contract player="14184"/>
+      <contract player="14185"/>
+      <contract player="14186"/>
+      <contract player="14187"/>
+      <contract player="14188"/>
+      <contract player="14189"/>
+      <contract player="14190"/>
+      <contract player="14191"/>
+    </contracts>
+  </club>
+  <club name="Mlada Boleslav">
+    <coach name="Zdenek Scasny"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Czech Republic"/>
+    <stadium name="Mlada Boleslav Stadium"/>
+    <contracts>
+      <contract player="14192"/>
+      <contract player="14193"/>
+      <contract player="14194"/>
+      <contract player="14195"/>
+      <contract player="14196"/>
+      <contract player="14197"/>
+      <contract player="14198"/>
+      <contract player="14199"/>
+      <contract player="14200"/>
+      <contract player="14201"/>
+      <contract player="14202"/>
+      <contract player="14203"/>
+      <contract player="14204"/>
+      <contract player="14205"/>
+      <contract player="14206"/>
+      <contract player="14207"/>
+    </contracts>
+  </club>
+  <club name="Teplice">
+    <coach name="Petr Rada"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Czech Republic"/>
+    <stadium name="Teplice Stadium"/>
+    <contracts>
+      <contract player="14208"/>
+      <contract player="14209"/>
+      <contract player="14210"/>
+      <contract player="14211"/>
+      <contract player="14212"/>
+      <contract player="14213"/>
+      <contract player="14214"/>
+      <contract player="14215"/>
+      <contract player="14216"/>
+      <contract player="14217"/>
+      <contract player="14218"/>
+      <contract player="14219"/>
+      <contract player="14220"/>
+      <contract player="14221"/>
+      <contract player="14222"/>
+      <contract player="14223"/>
+    </contracts>
+  </club>
+  <club name="Viktoria Plzen">
+    <coach name="Stanislav Levy"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Czech Republic"/>
+    <stadium name="Viktoria Plzen Stadium"/>
+    <contracts>
+      <contract player="14224"/>
+      <contract player="14225"/>
+      <contract player="14226"/>
+      <contract player="14227"/>
+      <contract player="14228"/>
+      <contract player="14229"/>
+      <contract player="14230"/>
+      <contract player="14231"/>
+      <contract player="14232"/>
+      <contract player="14233"/>
+      <contract player="14234"/>
+      <contract player="14235"/>
+      <contract player="14236"/>
+      <contract player="14237"/>
+      <contract player="14238"/>
+      <contract player="14239"/>
+    </contracts>
+  </club>
+  <club name="Viktoria Zizkov">
+    <coach name="Stanislav Griga"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Czech Republic"/>
+    <stadium name="Viktoria Zizkov Stadium"/>
+    <contracts>
+      <contract player="14240"/>
+      <contract player="14241"/>
+      <contract player="14242"/>
+      <contract player="14243"/>
+      <contract player="14244"/>
+      <contract player="14245"/>
+      <contract player="14246"/>
+      <contract player="14247"/>
+      <contract player="14248"/>
+      <contract player="14249"/>
+      <contract player="14250"/>
+      <contract player="14251"/>
+      <contract player="14252"/>
+      <contract player="14253"/>
+      <contract player="14254"/>
+      <contract player="14255"/>
+    </contracts>
+  </club>
+</Clubs>

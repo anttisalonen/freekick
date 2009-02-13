@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Inter Moengo">
+    <coach name="Herbert Watson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Surinam"/>
+    <stadium name="Inter Moengo Stadium"/>
+    <contracts>
+      <contract player="112000"/>
+      <contract player="112001"/>
+      <contract player="112002"/>
+      <contract player="112003"/>
+      <contract player="112004"/>
+      <contract player="112005"/>
+      <contract player="112006"/>
+      <contract player="112007"/>
+      <contract player="112008"/>
+      <contract player="112009"/>
+      <contract player="112010"/>
+      <contract player="112011"/>
+      <contract player="112012"/>
+      <contract player="112013"/>
+      <contract player="112014"/>
+      <contract player="112015"/>
+    </contracts>
+  </club>
+  <club name="Prekash">
+    <coach name="Rik Sleur"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Surinam"/>
+    <stadium name="Prekash Stadium"/>
+    <contracts>
+      <contract player="112016"/>
+      <contract player="112017"/>
+      <contract player="112018"/>
+      <contract player="112019"/>
+      <contract player="112020"/>
+      <contract player="112021"/>
+      <contract player="112022"/>
+      <contract player="112023"/>
+      <contract player="112024"/>
+      <contract player="112025"/>
+      <contract player="112026"/>
+      <contract player="112027"/>
+      <contract player="112028"/>
+      <contract player="112029"/>
+      <contract player="112030"/>
+      <contract player="112031"/>
+    </contracts>
+  </club>
+  <club name="Pvv">
+    <coach name="Humphrey Simson"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Surinam"/>
+    <stadium name="Pvv Stadium"/>
+    <contracts>
+      <contract player="112032"/>
+      <contract player="112033"/>
+      <contract player="112034"/>
+      <contract player="112035"/>
+      <contract player="112036"/>
+      <contract player="112037"/>
+      <contract player="112038"/>
+      <contract player="112039"/>
+      <contract player="112040"/>
+      <contract player="112041"/>
+      <contract player="112042"/>
+      <contract player="112043"/>
+      <contract player="112044"/>
+      <contract player="112045"/>
+      <contract player="112046"/>
+      <contract player="112047"/>
+    </contracts>
+  </club>
+  <club name="Robin Hood">
+    <coach name="Ronald Kolf"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Surinam"/>
+    <stadium name="Robin Hood Stadium"/>
+    <contracts>
+      <contract player="112048"/>
+      <contract player="112049"/>
+      <contract player="112050"/>
+      <contract player="112051"/>
+      <contract player="112052"/>
+      <contract player="112053"/>
+      <contract player="112054"/>
+      <contract player="112055"/>
+      <contract player="112056"/>
+      <contract player="112057"/>
+      <contract player="112058"/>
+      <contract player="112059"/>
+      <contract player="112060"/>
+      <contract player="112061"/>
+      <contract player="112062"/>
+      <contract player="112063"/>
+    </contracts>
+  </club>
+  <club name="Sv Boxel">
+    <coach name="Paul Bagwandas"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Surinam"/>
+    <stadium name="Sv Boxel Stadium"/>
+    <contracts>
+      <contract player="112064"/>
+      <contract player="112065"/>
+      <contract player="112066"/>
+      <contract player="112067"/>
+      <contract player="112068"/>
+      <contract player="112069"/>
+      <contract player="112070"/>
+      <contract player="112071"/>
+      <contract player="112072"/>
+      <contract player="112073"/>
+      <contract player="112074"/>
+      <contract player="112075"/>
+      <contract player="112076"/>
+      <contract player="112077"/>
+      <contract player="112078"/>
+      <contract player="112079"/>
+    </contracts>
+  </club>
+  <club name="Sv Corona Boys">
+    <coach name="Stanley Duizen"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Surinam"/>
+    <stadium name="Sv Corona Boys Stadium"/>
+    <contracts>
+      <contract player="112080"/>
+      <contract player="112081"/>
+      <contract player="112082"/>
+      <contract player="112083"/>
+      <contract player="112084"/>
+      <contract player="112085"/>
+      <contract player="112086"/>
+      <contract player="112087"/>
+      <contract player="112088"/>
+      <contract player="112089"/>
+      <contract player="112090"/>
+      <contract player="112091"/>
+      <contract player="112092"/>
+      <contract player="112093"/>
+      <contract player="112094"/>
+      <contract player="112095"/>
+    </contracts>
+  </club>
+  <club name="Sv Leo Victor">
+    <coach name="F Purperhart"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="127" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="127" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Surinam"/>
+    <stadium name="Sv Leo Victor Stadium"/>
+    <contracts>
+      <contract player="112096"/>
+      <contract player="112097"/>
+      <contract player="112098"/>
+      <contract player="112099"/>
+      <contract player="112100"/>
+      <contract player="112101"/>
+      <contract player="112102"/>
+      <contract player="112103"/>
+      <contract player="112104"/>
+      <contract player="112105"/>
+      <contract player="112106"/>
+      <contract player="112107"/>
+      <contract player="112108"/>
+      <contract player="112109"/>
+      <contract player="112110"/>
+      <contract player="112111"/>
+    </contracts>
+  </club>
+  <club name="Sv Nationaal">
+    <coach name="August Bourne"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Surinam"/>
+    <stadium name="Sv Nationaal Stadium"/>
+    <contracts>
+      <contract player="112112"/>
+      <contract player="112113"/>
+      <contract player="112114"/>
+      <contract player="112115"/>
+      <contract player="112116"/>
+      <contract player="112117"/>
+      <contract player="112118"/>
+      <contract player="112119"/>
+      <contract player="112120"/>
+      <contract player="112121"/>
+      <contract player="112122"/>
+      <contract player="112123"/>
+      <contract player="112124"/>
+      <contract player="112125"/>
+      <contract player="112126"/>
+      <contract player="112127"/>
+    </contracts>
+  </club>
+  <club name="Sv Road">
+    <coach name="George Auguste"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Surinam"/>
+    <stadium name="Sv Road Stadium"/>
+    <contracts>
+      <contract player="112128"/>
+      <contract player="112129"/>
+      <contract player="112130"/>
+      <contract player="112131"/>
+      <contract player="112132"/>
+      <contract player="112133"/>
+      <contract player="112134"/>
+      <contract player="112135"/>
+      <contract player="112136"/>
+      <contract player="112137"/>
+      <contract player="112138"/>
+      <contract player="112139"/>
+      <contract player="112140"/>
+      <contract player="112141"/>
+      <contract player="112142"/>
+      <contract player="112143"/>
+    </contracts>
+  </club>
+  <club name="Sv Transvaal">
+    <coach name="Franklin Richters"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Surinam"/>
+    <stadium name="Sv Transvaal Stadium"/>
+    <contracts>
+      <contract player="112144"/>
+      <contract player="112145"/>
+      <contract player="112146"/>
+      <contract player="112147"/>
+      <contract player="112148"/>
+      <contract player="112149"/>
+      <contract player="112150"/>
+      <contract player="112151"/>
+      <contract player="112152"/>
+      <contract player="112153"/>
+      <contract player="112154"/>
+      <contract player="112155"/>
+      <contract player="112156"/>
+      <contract player="112157"/>
+      <contract player="112158"/>
+      <contract player="112159"/>
+    </contracts>
+  </club>
+</Clubs>

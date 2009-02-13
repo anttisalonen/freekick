@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="22000">
+    <personal name="Wieslaw Zarezewski">
+      <appearance value="0"/>
+      <nationality value="Poland"/>
+    </personal>
+    <personality active="497" risktaking="431" offensive="67" aggressive="679" consistent="458" creative="180" experienced="436"/>
+    <skills stamina="505" dexterity="455" speed="643" tackling="206" passing="380" shooting="368" control="212" accuracy="185" goalkeeping="366" heading="120"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="22001">
+    <personal name="Regin Hognesen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="472" risktaking="463" offensive="354" aggressive="711" consistent="359" creative="264" experienced="661"/>
+    <skills stamina="472" dexterity="472" speed="315" tackling="147" passing="377" shooting="252" control="175" accuracy="165" goalkeeping="289" heading="160"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="22002">
+    <personal name="Danjal Petur Johansen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="434" risktaking="627" offensive="459" aggressive="354" consistent="451" creative="388" experienced="336"/>
+    <skills stamina="376" dexterity="175" speed="665" tackling="372" passing="353" shooting="371" control="407" accuracy="278" goalkeeping="69" heading="358"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="22003">
+    <personal name="Tummas Eli Hansen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="515" risktaking="666" offensive="512" aggressive="593" consistent="533" creative="465" experienced="619"/>
+    <skills stamina="690" dexterity="524" speed="315" tackling="331" passing="478" shooting="421" control="371" accuracy="454" goalkeeping="72" heading="322"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="22004">
+    <personal name="Jacek Burkhardt">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="527" risktaking="304" offensive="503" aggressive="651" consistent="670" creative="537" experienced="779"/>
+    <skills stamina="606" dexterity="668" speed="215" tackling="344" passing="412" shooting="302" control="225" accuracy="413" goalkeeping="47" heading="387"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="22005">
+    <personal name="Rogvi Thorsteinsson">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="615" risktaking="557" offensive="530" aggressive="341" consistent="527" creative="363" experienced="557"/>
+    <skills stamina="284" dexterity="473" speed="415" tackling="368" passing="380" shooting="317" control="263" accuracy="231" goalkeeping="53" heading="232"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22006">
+    <personal name="Bogi Jacobsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="791" risktaking="475" offensive="516" aggressive="444" consistent="665" creative="340" experienced="658"/>
+    <skills stamina="621" dexterity="216" speed="557" tackling="266" passing="388" shooting="335" control="261" accuracy="354" goalkeeping="48" heading="280"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22007">
+    <personal name="Jan Poulsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="445" risktaking="391" offensive="576" aggressive="372" consistent="227" creative="476" experienced="323"/>
+    <skills stamina="307" dexterity="583" speed="662" tackling="369" passing="433" shooting="353" control="312" accuracy="402" goalkeeping="68" heading="363"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22008">
+    <personal name="Bogi Midjord">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="618" risktaking="911" offensive="530" aggressive="206" consistent="461" creative="542" experienced="351"/>
+    <skills stamina="405" dexterity="458" speed="544" tackling="266" passing="396" shooting="243" control="305" accuracy="275" goalkeeping="47" heading="339"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="22009">
+    <personal name="Jens Christian Hansen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="453" risktaking="386" offensive="731" aggressive="589" consistent="500" creative="577" experienced="436"/>
+    <skills stamina="401" dexterity="442" speed="404" tackling="287" passing="309" shooting="389" control="330" accuracy="273" goalkeeping="40" heading="270"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="22010">
+    <personal name="Todi Jonsson">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="612" risktaking="742" offensive="579" aggressive="587" consistent="791" creative="432" experienced="645"/>
+    <skills stamina="169" dexterity="392" speed="571" tackling="308" passing="425" shooting="395" control="510" accuracy="348" goalkeeping="65" heading="390"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22011">
+    <personal name="Jakup Mork">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="579" risktaking="545" offensive="387" aggressive="249" consistent="476" creative="399" experienced="483"/>
+    <skills stamina="341" dexterity="279" speed="279" tackling="382" passing="315" shooting="325" control="286" accuracy="397" goalkeeping="66" heading="352"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22012">
+    <personal name="Petur Eiriksson">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="434" risktaking="377" offensive="627" aggressive="567" consistent="475" creative="606" experienced="406"/>
+    <skills stamina="453" dexterity="270" speed="300" tackling="416" passing="333" shooting="244" control="342" accuracy="258" goalkeeping="64" heading="306"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="22013">
+    <personal name="Bogi Vang">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="777" risktaking="555" offensive="624" aggressive="595" consistent="439" creative="436" experienced="820"/>
+    <skills stamina="242" dexterity="197" speed="397" tackling="328" passing="306" shooting="385" control="377" accuracy="289" goalkeeping="57" heading="323"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22014">
+    <personal name="Kari Gullfoss">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="472" risktaking="469" offensive="379" aggressive="726" consistent="623" creative="800" experienced="442"/>
+    <skills stamina="672" dexterity="360" speed="248" tackling="264" passing="459" shooting="535" control="329" accuracy="432" goalkeeping="43" heading="422"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22015">
+    <personal name="Jakup Simonsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="412" risktaking="464" offensive="708" aggressive="260" consistent="533" creative="594" experienced="709"/>
+    <skills stamina="358" dexterity="222" speed="470" tackling="355" passing="378" shooting="348" control="253" accuracy="426" goalkeeping="59" heading="391"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22016">
+    <personal name="Olaf Magnussen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="402" risktaking="435" offensive="301" aggressive="340" consistent="504" creative="693" experienced="470"/>
+    <skills stamina="257" dexterity="345" speed="225" tackling="205" passing="389" shooting="386" control="339" accuracy="192" goalkeeping="416" heading="186"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="22017">
+    <personal name="Kjartan Nesa">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="309" risktaking="664" offensive="326" aggressive="421" consistent="325" creative="388" experienced="445"/>
+    <skills stamina="584" dexterity="648" speed="599" tackling="167" passing="252" shooting="252" control="233" accuracy="123" goalkeeping="449" heading="185"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="22018">
+    <personal name="Eydfinn Olsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="514" risktaking="537" offensive="495" aggressive="602" consistent="451" creative="322" experienced="837"/>
+    <skills stamina="671" dexterity="343" speed="535" tackling="341" passing="453" shooting="387" control="447" accuracy="414" goalkeeping="63" heading="292"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="22019">
+    <personal name="Jan Petersen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="542" risktaking="463" offensive="600" aggressive="753" consistent="384" creative="433" experienced="238"/>
+    <skills stamina="195" dexterity="424" speed="513" tackling="357" passing="443" shooting="423" control="392" accuracy="382" goalkeeping="60" heading="396"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="22020">
+    <personal name="Johannes Danielsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="509" risktaking="384" offensive="377" aggressive="723" consistent="409" creative="363" experienced="610"/>
+    <skills stamina="489" dexterity="627" speed="507" tackling="386" passing="335" shooting="371" control="247" accuracy="392" goalkeeping="46" heading="351"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="22021">
+    <personal name="Oleif Joensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="520" risktaking="469" offensive="525" aggressive="383" consistent="461" creative="579" experienced="390"/>
+    <skills stamina="238" dexterity="432" speed="509" tackling="498" passing="412" shooting="256" control="316" accuracy="289" goalkeeping="64" heading="412"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22022">
+    <personal name="Hilgemar Hojgaard">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="567" risktaking="410" offensive="674" aggressive="479" consistent="623" creative="591" experienced="399"/>
+    <skills stamina="508" dexterity="652" speed="187" tackling="435" passing="361" shooting="266" control="252" accuracy="362" goalkeeping="51" heading="320"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22023">
+    <personal name="Ossur Hansen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="646" risktaking="561" offensive="294" aggressive="624" consistent="457" creative="765" experienced="429"/>
+    <skills stamina="261" dexterity="614" speed="540" tackling="368" passing="347" shooting="320" control="466" accuracy="340" goalkeeping="49" heading="403"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="22024">
+    <personal name="Abraham Hansen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="276" risktaking="310" offensive="346" aggressive="522" consistent="267" creative="618" experienced="588"/>
+    <skills stamina="512" dexterity="590" speed="366" tackling="414" passing="405" shooting="373" control="456" accuracy="337" goalkeeping="76" heading="347"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="22025">
+    <personal name="Jogvan Martin Olsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="595" risktaking="342" offensive="424" aggressive="194" consistent="795" creative="864" experienced="602"/>
+    <skills stamina="348" dexterity="658" speed="201" tackling="402" passing="432" shooting="240" control="310" accuracy="385" goalkeeping="49" heading="402"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22026">
+    <personal name="Ingolf Petersen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="637" risktaking="592" offensive="529" aggressive="439" consistent="549" creative="733" experienced="418"/>
+    <skills stamina="214" dexterity="326" speed="327" tackling="315" passing="297" shooting="361" control="422" accuracy="355" goalkeeping="47" heading="381"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22027">
+    <personal name="Hans Hansen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="324" risktaking="601" offensive="490" aggressive="563" consistent="645" creative="432" experienced="560"/>
+    <skills stamina="226" dexterity="280" speed="136" tackling="366" passing="387" shooting="308" control="302" accuracy="301" goalkeeping="42" heading="328"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="22028">
+    <personal name="Aksel Hojgaard">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="274" risktaking="490" offensive="644" aggressive="316" consistent="621" creative="671" experienced="607"/>
+    <skills stamina="401" dexterity="437" speed="419" tackling="383" passing="429" shooting="269" control="265" accuracy="491" goalkeeping="54" heading="289"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22029">
+    <personal name="Suni Fridi Johannesen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="240" risktaking="293" offensive="651" aggressive="711" consistent="272" creative="583" experienced="894"/>
+    <skills stamina="672" dexterity="426" speed="511" tackling="370" passing="305" shooting="392" control="410" accuracy="444" goalkeeping="53" heading="358"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22030">
+    <personal name="Pall Didriksen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="483" risktaking="712" offensive="437" aggressive="519" consistent="442" creative="364" experienced="358"/>
+    <skills stamina="500" dexterity="621" speed="120" tackling="320" passing="299" shooting="343" control="392" accuracy="329" goalkeeping="57" heading="310"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22031">
+    <personal name="John Petersen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="399" risktaking="517" offensive="531" aggressive="662" consistent="453" creative="402" experienced="589"/>
+    <skills stamina="622" dexterity="223" speed="306" tackling="392" passing="270" shooting="352" control="312" accuracy="410" goalkeeping="38" heading="279"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="22032">
+    <personal name="Jerzy Bzdega">
+      <appearance value="0"/>
+      <nationality value="Poland"/>
+    </personal>
+    <personality active="509" risktaking="500" offensive="607" aggressive="613" consistent="416" creative="458" experienced="596"/>
+    <skills stamina="148" dexterity="285" speed="371" tackling="142" passing="359" shooting="394" control="203" accuracy="124" goalkeeping="344" heading="136"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="22033">
+    <personal name="Julian Thomsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="353" risktaking="566" offensive="761" aggressive="600" consistent="317" creative="600" experienced="450"/>
+    <skills stamina="343" dexterity="460" speed="425" tackling="135" passing="375" shooting="289" control="187" accuracy="194" goalkeeping="415" heading="158"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="22034">
+    <personal name="Sofus Clementsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="498" risktaking="571" offensive="558" aggressive="934" consistent="580" creative="641" experienced="598"/>
+    <skills stamina="289" dexterity="333" speed="501" tackling="421" passing="403" shooting="396" control="387" accuracy="235" goalkeeping="66" heading="247"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="22035">
+    <personal name="Niclas Joensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="670" risktaking="564" offensive="401" aggressive="428" consistent="418" creative="372" experienced="425"/>
+    <skills stamina="554" dexterity="547" speed="168" tackling="269" passing="397" shooting="394" control="418" accuracy="330" goalkeeping="49" heading="234"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="22036">
+    <personal name="Bjarki Mohr">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="331" risktaking="809" offensive="467" aggressive="569" consistent="454" creative="353" experienced="335"/>
+    <skills stamina="550" dexterity="373" speed="491" tackling="291" passing="412" shooting="307" control="381" accuracy="261" goalkeeping="51" heading="303"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22037">
+    <personal name="Ib Mohr Olsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="384" risktaking="269" offensive="434" aggressive="427" consistent="158" creative="282" experienced="460"/>
+    <skills stamina="373" dexterity="359" speed="172" tackling="328" passing="277" shooting="339" control="441" accuracy="376" goalkeeping="58" heading="235"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="22038">
+    <personal name="Frankie Jensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="486" risktaking="372" offensive="614" aggressive="481" consistent="354" creative="392" experienced="254"/>
+    <skills stamina="506" dexterity="238" speed="200" tackling="352" passing="435" shooting="357" control="249" accuracy="397" goalkeeping="35" heading="396"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22039">
+    <personal name="Joan Petur Clementsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="733" risktaking="505" offensive="308" aggressive="579" consistent="507" creative="618" experienced="404"/>
+    <skills stamina="423" dexterity="394" speed="158" tackling="426" passing="437" shooting="396" control="251" accuracy="336" goalkeeping="67" heading="315"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="22040">
+    <personal name="Runi I Soylu">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="290" risktaking="535" offensive="640" aggressive="277" consistent="549" creative="762" experienced="609"/>
+    <skills stamina="615" dexterity="326" speed="427" tackling="397" passing="288" shooting="386" control="308" accuracy="278" goalkeeping="73" heading="327"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="22041">
+    <personal name="Piotr Krakowski">
+      <appearance value="0"/>
+      <nationality value="Poland"/>
+    </personal>
+    <personality active="504" risktaking="701" offensive="539" aggressive="558" consistent="402" creative="596" experienced="777"/>
+    <skills stamina="197" dexterity="564" speed="231" tackling="414" passing="317" shooting="335" control="351" accuracy="336" goalkeeping="52" heading="317"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22042">
+    <personal name="John Sorensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="397" risktaking="391" offensive="344" aggressive="657" consistent="747" creative="380" experienced="440"/>
+    <skills stamina="185" dexterity="212" speed="209" tackling="377" passing="365" shooting="278" control="244" accuracy="386" goalkeeping="49" heading="306"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22043">
+    <personal name="Pall Ivan Petersen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="327" risktaking="676" offensive="549" aggressive="680" consistent="307" creative="564" experienced="522"/>
+    <skills stamina="182" dexterity="197" speed="205" tackling="400" passing="360" shooting="250" control="260" accuracy="265" goalkeeping="49" heading="339"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22044">
+    <personal name="Pall A Reynatugvu">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="532" risktaking="684" offensive="376" aggressive="458" consistent="434" creative="381" experienced="599"/>
+    <skills stamina="291" dexterity="409" speed="638" tackling="463" passing="324" shooting="306" control="299" accuracy="341" goalkeeping="55" heading="363"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22045">
+    <personal name="Torbjorn Jensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="404" risktaking="445" offensive="376" aggressive="428" consistent="523" creative="422" experienced="443"/>
+    <skills stamina="156" dexterity="313" speed="268" tackling="343" passing="374" shooting="483" control="459" accuracy="409" goalkeeping="59" heading="297"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22046">
+    <personal name="Eli Hentze">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="637" risktaking="511" offensive="624" aggressive="637" consistent="187" creative="331" experienced="534"/>
+    <skills stamina="611" dexterity="455" speed="290" tackling="365" passing="373" shooting="456" control="380" accuracy="313" goalkeeping="65" heading="386"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22047">
+    <personal name="Jogvan Jon Petersen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="573" risktaking="303" offensive="634" aggressive="644" consistent="387" creative="402" experienced="444"/>
+    <skills stamina="236" dexterity="213" speed="295" tackling="291" passing="268" shooting="435" control="299" accuracy="405" goalkeeping="42" heading="313"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="22048">
+    <personal name="Jens Martin Knudsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="237" risktaking="574" offensive="657" aggressive="568" consistent="400" creative="585" experienced="569"/>
+    <skills stamina="659" dexterity="595" speed="658" tackling="182" passing="393" shooting="352" control="310" accuracy="196" goalkeeping="342" heading="210"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="22049">
+    <personal name="Trugvi Olsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="576" risktaking="610" offensive="250" aggressive="538" consistent="304" creative="529" experienced="362"/>
+    <skills stamina="191" dexterity="335" speed="206" tackling="148" passing="359" shooting="405" control="184" accuracy="193" goalkeeping="416" heading="154"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="22050">
+    <personal name="Runi Justinussen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="378" risktaking="503" offensive="503" aggressive="442" consistent="529" creative="461" experienced="395"/>
+    <skills stamina="225" dexterity="609" speed="381" tackling="430" passing="442" shooting="387" control="251" accuracy="358" goalkeeping="54" heading="412"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="22051">
+    <personal name="Alvi Justinussen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="312" risktaking="746" offensive="536" aggressive="310" consistent="455" creative="453" experienced="310"/>
+    <skills stamina="457" dexterity="676" speed="656" tackling="404" passing="414" shooting="366" control="322" accuracy="420" goalkeeping="47" heading="352"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="22052">
+    <personal name="Samson Nesa">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="513" risktaking="218" offensive="418" aggressive="622" consistent="633" creative="350" experienced="480"/>
+    <skills stamina="572" dexterity="473" speed="652" tackling="313" passing="282" shooting="338" control="317" accuracy="395" goalkeeping="58" heading="286"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22053">
+    <personal name="Henning Jarnskor">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="518" risktaking="260" offensive="371" aggressive="521" consistent="525" creative="370" experienced="322"/>
+    <skills stamina="267" dexterity="567" speed="211" tackling="409" passing="395" shooting="397" control="294" accuracy="397" goalkeeping="66" heading="374"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22054">
+    <personal name="Petur Pall Mikkelsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="564" risktaking="218" offensive="650" aggressive="394" consistent="551" creative="298" experienced="326"/>
+    <skills stamina="473" dexterity="302" speed="196" tackling="396" passing="352" shooting="301" control="271" accuracy="251" goalkeeping="50" heading="344"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="22055">
+    <personal name="Svenn Olsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="550" risktaking="481" offensive="484" aggressive="570" consistent="633" creative="447" experienced="628"/>
+    <skills stamina="352" dexterity="461" speed="496" tackling="359" passing="318" shooting="306" control="292" accuracy="423" goalkeeping="46" heading="261"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="22056">
+    <personal name="Samal Joensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="358" risktaking="429" offensive="383" aggressive="265" consistent="430" creative="567" experienced="657"/>
+    <skills stamina="425" dexterity="368" speed="186" tackling="426" passing="379" shooting="361" control="400" accuracy="413" goalkeeping="63" heading="243"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="22057">
+    <personal name="Joan Petur Olsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="420" risktaking="699" offensive="312" aggressive="408" consistent="524" creative="406" experienced="242"/>
+    <skills stamina="401" dexterity="515" speed="169" tackling="322" passing="297" shooting="319" control="357" accuracy="405" goalkeeping="57" heading="288"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22058">
+    <personal name="Pauli Jarnskor">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="645" risktaking="236" offensive="721" aggressive="232" consistent="391" creative="662" experienced="638"/>
+    <skills stamina="510" dexterity="578" speed="272" tackling="386" passing="347" shooting="251" control="293" accuracy="402" goalkeeping="40" heading="249"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22059">
+    <personal name="Anton Skoradal">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="484" risktaking="388" offensive="560" aggressive="483" consistent="751" creative="571" experienced="667"/>
+    <skills stamina="588" dexterity="567" speed="167" tackling="334" passing="337" shooting="362" control="321" accuracy="313" goalkeeping="46" heading="274"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22060">
+    <personal name="Magni Jarnskor">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="668" risktaking="483" offensive="514" aggressive="330" consistent="643" creative="268" experienced="482"/>
+    <skills stamina="198" dexterity="457" speed="432" tackling="277" passing="434" shooting="227" control="378" accuracy="278" goalkeeping="48" heading="223"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22061">
+    <personal name="Heini Henason">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="625" risktaking="414" offensive="612" aggressive="556" consistent="541" creative="360" experienced="327"/>
+    <skills stamina="287" dexterity="392" speed="495" tackling="310" passing="291" shooting="464" control="320" accuracy="317" goalkeeping="55" heading="339"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22062">
+    <personal name="Simun P. Justinussen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="321" risktaking="415" offensive="407" aggressive="547" consistent="586" creative="579" experienced="853"/>
+    <skills stamina="279" dexterity="486" speed="532" tackling="315" passing="325" shooting="430" control="353" accuracy="439" goalkeeping="55" heading="335"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="22063">
+    <personal name="Per Dalheim">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="602" risktaking="381" offensive="496" aggressive="528" consistent="237" creative="637" experienced="623"/>
+    <skills stamina="215" dexterity="407" speed="428" tackling="381" passing="308" shooting="354" control="301" accuracy="410" goalkeeping="51" heading="362"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22064">
+    <personal name="Kaj Leo Johannesen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="694" risktaking="671" offensive="449" aggressive="382" consistent="398" creative="370" experienced="369"/>
+    <skills stamina="256" dexterity="446" speed="661" tackling="152" passing="443" shooting="291" control="343" accuracy="146" goalkeeping="461" heading="136"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="22065">
+    <personal name="Runi Arling">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="520" risktaking="421" offensive="457" aggressive="649" consistent="553" creative="503" experienced="543"/>
+    <skills stamina="274" dexterity="213" speed="498" tackling="199" passing="336" shooting="312" control="195" accuracy="203" goalkeeping="381" heading="214"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="22066">
+    <personal name="Jon Dahl">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="395" risktaking="379" offensive="555" aggressive="416" consistent="425" creative="509" experienced="404"/>
+    <skills stamina="388" dexterity="173" speed="244" tackling="439" passing="414" shooting="275" control="396" accuracy="440" goalkeeping="51" heading="379"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="22067">
+    <personal name="Leivur Holm">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="376" risktaking="686" offensive="545" aggressive="652" consistent="503" creative="352" experienced="425"/>
+    <skills stamina="580" dexterity="280" speed="580" tackling="312" passing="363" shooting="357" control="398" accuracy="385" goalkeeping="69" heading="276"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="22068">
+    <personal name="Joannes Jakobsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="401" risktaking="584" offensive="654" aggressive="263" consistent="238" creative="383" experienced="469"/>
+    <skills stamina="579" dexterity="183" speed="332" tackling="480" passing="366" shooting="434" control="428" accuracy="434" goalkeeping="70" heading="289"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22069">
+    <personal name="Andreas F. Hansen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="166" risktaking="403" offensive="578" aggressive="777" consistent="353" creative="486" experienced="602"/>
+    <skills stamina="435" dexterity="340" speed="620" tackling="441" passing="378" shooting="384" control="332" accuracy="306" goalkeeping="72" heading="261"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22070">
+    <personal name="Niclas Johannesen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="427" risktaking="510" offensive="285" aggressive="382" consistent="521" creative="270" experienced="854"/>
+    <skills stamina="263" dexterity="281" speed="461" tackling="350" passing="401" shooting="430" control="425" accuracy="379" goalkeeping="62" heading="428"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22071">
+    <personal name="Ari Thomasen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="680" risktaking="568" offensive="528" aggressive="684" consistent="352" creative="852" experienced="384"/>
+    <skills stamina="263" dexterity="501" speed="505" tackling="447" passing="461" shooting="351" control="317" accuracy="350" goalkeeping="73" heading="270"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22072">
+    <personal name="Jan Dam">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="449" risktaking="423" offensive="552" aggressive="277" consistent="467" creative="545" experienced="691"/>
+    <skills stamina="237" dexterity="252" speed="600" tackling="430" passing="372" shooting="499" control="448" accuracy="371" goalkeeping="72" heading="356"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="22073">
+    <personal name="Jans Peter Brekkunum">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="607" risktaking="674" offensive="613" aggressive="438" consistent="307" creative="705" experienced="606"/>
+    <skills stamina="671" dexterity="273" speed="192" tackling="379" passing="329" shooting="384" control="298" accuracy="392" goalkeeping="78" heading="429"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="22074">
+    <personal name="Runi Nolsoe">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="726" risktaking="542" offensive="503" aggressive="79" consistent="643" creative="604" experienced="761"/>
+    <skills stamina="228" dexterity="656" speed="255" tackling="354" passing="359" shooting="318" control="482" accuracy="454" goalkeeping="63" heading="416"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22075">
+    <personal name="Kari Reynheim">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="785" risktaking="550" offensive="785" aggressive="370" consistent="342" creative="411" experienced="524"/>
+    <skills stamina="253" dexterity="221" speed="489" tackling="466" passing="336" shooting="360" control="454" accuracy="499" goalkeeping="80" heading="449"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22076">
+    <personal name="Petur Eiriksson">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="605" risktaking="588" offensive="710" aggressive="495" consistent="467" creative="609" experienced="595"/>
+    <skills stamina="571" dexterity="645" speed="297" tackling="355" passing="331" shooting="297" control="303" accuracy="340" goalkeeping="57" heading="434"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22077">
+    <personal name="Gunnar Mohr">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="343" risktaking="379" offensive="615" aggressive="545" consistent="307" creative="489" experienced="176"/>
+    <skills stamina="340" dexterity="373" speed="388" tackling="432" passing="352" shooting="349" control="275" accuracy="427" goalkeeping="47" heading="396"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22078">
+    <personal name="Uni Arge">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="510" risktaking="378" offensive="353" aggressive="470" consistent="374" creative="637" experienced="433"/>
+    <skills stamina="464" dexterity="370" speed="666" tackling="338" passing="443" shooting="455" control="416" accuracy="416" goalkeeping="78" heading="427"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22079">
+    <personal name="Sigfridur Clementsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="611" risktaking="537" offensive="464" aggressive="236" consistent="402" creative="374" experienced="418"/>
+    <skills stamina="197" dexterity="137" speed="646" tackling="265" passing="409" shooting="393" control="280" accuracy="293" goalkeeping="55" heading="392"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22080">
+    <personal name="Erling Joensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="739" risktaking="562" offensive="545" aggressive="659" consistent="480" creative="408" experienced="464"/>
+    <skills stamina="520" dexterity="294" speed="395" tackling="179" passing="239" shooting="263" control="306" accuracy="106" goalkeeping="393" heading="125"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="22081">
+    <personal name="Brestir Jensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="343" risktaking="826" offensive="261" aggressive="687" consistent="756" creative="537" experienced="503"/>
+    <skills stamina="441" dexterity="576" speed="273" tackling="159" passing="366" shooting="382" control="213" accuracy="174" goalkeeping="484" heading="196"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="22082">
+    <personal name="Ken Baerendsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="470" risktaking="555" offensive="546" aggressive="592" consistent="329" creative="586" experienced="634"/>
+    <skills stamina="333" dexterity="636" speed="493" tackling="333" passing="315" shooting="243" control="411" accuracy="388" goalkeeping="59" heading="381"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="22083">
+    <personal name="Andre Magnussen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="577" risktaking="370" offensive="324" aggressive="566" consistent="369" creative="577" experienced="450"/>
+    <skills stamina="701" dexterity="558" speed="300" tackling="433" passing="446" shooting="228" control="403" accuracy="333" goalkeeping="46" heading="248"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="22084">
+    <personal name="Ry Roin">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="446" risktaking="253" offensive="460" aggressive="692" consistent="835" creative="330" experienced="299"/>
+    <skills stamina="285" dexterity="363" speed="619" tackling="251" passing="424" shooting="224" control="301" accuracy="349" goalkeeping="62" heading="344"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="22085">
+    <personal name="Jon Magnussen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="414" risktaking="629" offensive="718" aggressive="376" consistent="567" creative="441" experienced="531"/>
+    <skills stamina="316" dexterity="281" speed="490" tackling="491" passing="413" shooting="290" control="426" accuracy="254" goalkeeping="40" heading="293"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22086">
+    <personal name="Torkil Hansen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="497" risktaking="624" offensive="758" aggressive="665" consistent="748" creative="325" experienced="513"/>
+    <skills stamina="485" dexterity="448" speed="432" tackling="325" passing="381" shooting="351" control="405" accuracy="392" goalkeeping="60" heading="267"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22087">
+    <personal name="Bartal Eliasen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="748" risktaking="354" offensive="354" aggressive="559" consistent="629" creative="365" experienced="194"/>
+    <skills stamina="599" dexterity="164" speed="125" tackling="274" passing="357" shooting="245" control="341" accuracy="331" goalkeeping="36" heading="366"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="22088">
+    <personal name="Rogvi Larsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="639" risktaking="739" offensive="445" aggressive="619" consistent="334" creative="413" experienced="508"/>
+    <skills stamina="666" dexterity="666" speed="567" tackling="356" passing="351" shooting="320" control="333" accuracy="306" goalkeeping="44" heading="222"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="22089">
+    <personal name="Tummas Arni Winthereig">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="320" risktaking="246" offensive="691" aggressive="331" consistent="270" creative="290" experienced="379"/>
+    <skills stamina="493" dexterity="227" speed="288" tackling="374" passing="327" shooting="340" control="271" accuracy="415" goalkeeping="64" heading="245"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="22090">
+    <personal name="Simun Eliasen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="149" risktaking="450" offensive="100" aggressive="429" consistent="417" creative="378" experienced="484"/>
+    <skills stamina="429" dexterity="530" speed="165" tackling="373" passing="378" shooting="357" control="327" accuracy="291" goalkeeping="63" heading="309"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22091">
+    <personal name="Torfinn Non">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="573" risktaking="468" offensive="560" aggressive="473" consistent="813" creative="693" experienced="565"/>
+    <skills stamina="619" dexterity="361" speed="160" tackling="245" passing="305" shooting="278" control="279" accuracy="366" goalkeeping="55" heading="373"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22092">
+    <personal name="Bogi Lervig">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="478" risktaking="589" offensive="619" aggressive="576" consistent="428" creative="545" experienced="708"/>
+    <skills stamina="670" dexterity="516" speed="176" tackling="312" passing="263" shooting="253" control="403" accuracy="271" goalkeeping="69" heading="264"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22093">
+    <personal name="Margar Hansen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="520" risktaking="558" offensive="390" aggressive="441" consistent="570" creative="642" experienced="587"/>
+    <skills stamina="465" dexterity="622" speed="507" tackling="345" passing="316" shooting="429" control="379" accuracy="232" goalkeeping="68" heading="395"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22094">
+    <personal name="Magni A Lakjuni">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="132" risktaking="573" offensive="650" aggressive="422" consistent="596" creative="416" experienced="420"/>
+    <skills stamina="525" dexterity="657" speed="641" tackling="365" passing="273" shooting="265" control="329" accuracy="407" goalkeeping="64" heading="272"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22095">
+    <personal name="Frodi Petersen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="527" risktaking="420" offensive="426" aggressive="475" consistent="691" creative="558" experienced="603"/>
+    <skills stamina="646" dexterity="254" speed="270" tackling="333" passing="310" shooting="365" control="268" accuracy="450" goalkeeping="57" heading="369"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="22096">
+    <personal name="Jon William Joensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="445" risktaking="500" offensive="732" aggressive="560" consistent="559" creative="71" experienced="633"/>
+    <skills stamina="557" dexterity="580" speed="436" tackling="198" passing="337" shooting="297" control="244" accuracy="178" goalkeeping="462" heading="201"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="22097">
+    <personal name="Jakup Mikkelsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="382" risktaking="696" offensive="406" aggressive="451" consistent="544" creative="642" experienced="682"/>
+    <skills stamina="600" dexterity="287" speed="307" tackling="190" passing="391" shooting="326" control="231" accuracy="120" goalkeeping="460" heading="177"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="22098">
+    <personal name="Jon Andreassen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="597" risktaking="563" offensive="540" aggressive="605" consistent="566" creative="690" experienced="368"/>
+    <skills stamina="306" dexterity="288" speed="590" tackling="380" passing="441" shooting="431" control="414" accuracy="335" goalkeeping="53" heading="281"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="22099">
+    <personal name="Samal Eydfinn Poulsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="406" risktaking="420" offensive="575" aggressive="646" consistent="504" creative="684" experienced="479"/>
+    <skills stamina="444" dexterity="540" speed="488" tackling="273" passing="324" shooting="409" control="382" accuracy="338" goalkeeping="45" heading="330"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="22100">
+    <personal name="Jan Joensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="167" risktaking="94" offensive="735" aggressive="741" consistent="631" creative="444" experienced="407"/>
+    <skills stamina="563" dexterity="201" speed="259" tackling="504" passing="470" shooting="334" control="480" accuracy="334" goalkeeping="76" heading="283"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22101">
+    <personal name="Kurt Morkore">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="239" risktaking="498" offensive="613" aggressive="653" consistent="381" creative="355" experienced="424"/>
+    <skills stamina="281" dexterity="283" speed="549" tackling="397" passing="458" shooting="333" control="304" accuracy="281" goalkeeping="52" heading="354"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22102">
+    <personal name="Fridrin Ziskason">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="730" risktaking="573" offensive="355" aggressive="305" consistent="646" creative="417" experienced="725"/>
+    <skills stamina="500" dexterity="272" speed="641" tackling="368" passing="418" shooting="318" control="283" accuracy="402" goalkeeping="62" heading="326"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22103">
+    <personal name="Petur Ovi Ellingsgard">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="634" risktaking="357" offensive="627" aggressive="543" consistent="724" creative="525" experienced="633"/>
+    <skills stamina="137" dexterity="138" speed="527" tackling="286" passing="376" shooting="265" control="348" accuracy="254" goalkeeping="35" heading="339"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22104">
+    <personal name="John Hansen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="710" risktaking="666" offensive="420" aggressive="431" consistent="570" creative="367" experienced="379"/>
+    <skills stamina="694" dexterity="369" speed="583" tackling="346" passing="318" shooting="315" control="276" accuracy="310" goalkeeping="39" heading="270"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="22105">
+    <personal name="Allan Joensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="679" risktaking="501" offensive="408" aggressive="523" consistent="541" creative="511" experienced="628"/>
+    <skills stamina="394" dexterity="624" speed="633" tackling="353" passing="396" shooting="286" control="369" accuracy="421" goalkeeping="62" heading="370"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="22106">
+    <personal name="Allan Morkore">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="641" risktaking="446" offensive="594" aggressive="642" consistent="675" creative="768" experienced="745"/>
+    <skills stamina="391" dexterity="561" speed="469" tackling="375" passing="427" shooting="406" control="296" accuracy="314" goalkeeping="51" heading="309"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22107">
+    <personal name="Harley Bertholdsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="682" risktaking="380" offensive="492" aggressive="509" consistent="241" creative="508" experienced="621"/>
+    <skills stamina="357" dexterity="532" speed="522" tackling="321" passing="391" shooting="370" control="361" accuracy="366" goalkeeping="69" heading="431"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22108">
+    <personal name="Eydun Klakkstein">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="463" risktaking="205" offensive="848" aggressive="466" consistent="438" creative="342" experienced="340"/>
+    <skills stamina="592" dexterity="260" speed="423" tackling="378" passing="295" shooting="246" control="406" accuracy="397" goalkeeping="43" heading="287"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22109">
+    <personal name="Olgar Danielsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="680" risktaking="494" offensive="488" aggressive="563" consistent="489" creative="713" experienced="637"/>
+    <skills stamina="544" dexterity="162" speed="345" tackling="418" passing="366" shooting="318" control="367" accuracy="427" goalkeeping="58" heading="345"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22110">
+    <personal name="Aksel Johannesen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="629" risktaking="550" offensive="367" aggressive="405" consistent="596" creative="360" experienced="498"/>
+    <skills stamina="151" dexterity="391" speed="508" tackling="250" passing="326" shooting="317" control="390" accuracy="295" goalkeeping="45" heading="363"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22111">
+    <personal name="Arnold Joensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="745" risktaking="571" offensive="546" aggressive="524" consistent="677" creative="738" experienced="392"/>
+    <skills stamina="241" dexterity="601" speed="484" tackling="270" passing="403" shooting="403" control="274" accuracy="441" goalkeeping="68" heading="276"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22112">
+    <personal name="Karsten Vang">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="397" risktaking="469" offensive="462" aggressive="540" consistent="224" creative="678" experienced="634"/>
+    <skills stamina="605" dexterity="156" speed="295" tackling="197" passing="235" shooting="396" control="187" accuracy="153" goalkeeping="318" heading="177"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="22113">
+    <personal name="Ove Heinesen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="575" risktaking="572" offensive="223" aggressive="550" consistent="500" creative="606" experienced="749"/>
+    <skills stamina="198" dexterity="497" speed="639" tackling="124" passing="376" shooting="248" control="309" accuracy="100" goalkeeping="432" heading="194"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="22114">
+    <personal name="Olavur Olsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="723" risktaking="513" offensive="737" aggressive="662" consistent="508" creative="447" experienced="519"/>
+    <skills stamina="168" dexterity="553" speed="336" tackling="291" passing="406" shooting="262" control="333" accuracy="383" goalkeeping="35" heading="394"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="22115">
+    <personal name="John Olsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="452" risktaking="535" offensive="305" aggressive="347" consistent="512" creative="298" experienced="358"/>
+    <skills stamina="346" dexterity="198" speed="119" tackling="406" passing="375" shooting="403" control="403" accuracy="350" goalkeeping="40" heading="410"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="22116">
+    <personal name="Niels Pauli Jakobsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="501" risktaking="408" offensive="635" aggressive="524" consistent="366" creative="569" experienced="151"/>
+    <skills stamina="143" dexterity="337" speed="353" tackling="264" passing="255" shooting="370" control="359" accuracy="290" goalkeeping="63" heading="364"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22117">
+    <personal name="Terij Lervig">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="456" risktaking="547" offensive="708" aggressive="190" consistent="471" creative="492" experienced="493"/>
+    <skills stamina="495" dexterity="486" speed="311" tackling="480" passing="331" shooting="277" control="316" accuracy="405" goalkeeping="35" heading="263"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="22118">
+    <personal name="Hans Frodi Hansen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="659" risktaking="729" offensive="310" aggressive="374" consistent="475" creative="509" experienced="444"/>
+    <skills stamina="401" dexterity="165" speed="525" tackling="438" passing="334" shooting="322" control="423" accuracy="353" goalkeeping="60" heading="256"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22119">
+    <personal name="Poul Sani Dam">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="563" risktaking="419" offensive="592" aggressive="834" consistent="648" creative="508" experienced="434"/>
+    <skills stamina="522" dexterity="660" speed="166" tackling="238" passing="353" shooting="240" control="409" accuracy="247" goalkeeping="55" heading="381"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="22120">
+    <personal name="Gert Langaard">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="514" risktaking="307" offensive="423" aggressive="458" consistent="381" creative="630" experienced="265"/>
+    <skills stamina="676" dexterity="480" speed="352" tackling="242" passing="419" shooting="395" control="424" accuracy="376" goalkeeping="61" heading="402"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="22121">
+    <personal name="Sigurd Vatnhamar">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="426" risktaking="215" offensive="521" aggressive="501" consistent="291" creative="417" experienced="546"/>
+    <skills stamina="339" dexterity="559" speed="293" tackling="402" passing="445" shooting="377" control="353" accuracy="336" goalkeeping="58" heading="327"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22122">
+    <personal name="Hjorleif Olsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="436" risktaking="395" offensive="422" aggressive="652" consistent="247" creative="510" experienced="460"/>
+    <skills stamina="567" dexterity="460" speed="494" tackling="413" passing="439" shooting="292" control="335" accuracy="346" goalkeeping="45" heading="349"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22123">
+    <personal name="Arni Vatnhamar">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="569" risktaking="551" offensive="503" aggressive="425" consistent="297" creative="706" experienced="871"/>
+    <skills stamina="335" dexterity="543" speed="174" tackling="378" passing="369" shooting="371" control="270" accuracy="381" goalkeeping="56" heading="371"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22124">
+    <personal name="Jan Olsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="482" risktaking="561" offensive="320" aggressive="316" consistent="464" creative="748" experienced="693"/>
+    <skills stamina="529" dexterity="249" speed="646" tackling="328" passing="374" shooting="344" control="254" accuracy="296" goalkeeping="42" heading="342"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="22125">
+    <personal name="Kristjana Reynatrod">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="783" risktaking="704" offensive="710" aggressive="615" consistent="352" creative="596" experienced="636"/>
+    <skills stamina="585" dexterity="496" speed="480" tackling="340" passing="328" shooting="342" control="424" accuracy="338" goalkeeping="48" heading="429"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22126">
+    <personal name="Kaj Eli Olsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="756" risktaking="582" offensive="654" aggressive="432" consistent="555" creative="488" experienced="510"/>
+    <skills stamina="430" dexterity="550" speed="350" tackling="285" passing="202" shooting="362" control="337" accuracy="318" goalkeeping="58" heading="332"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22127">
+    <personal name="Arni Jacobsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="372" risktaking="528" offensive="627" aggressive="773" consistent="536" creative="735" experienced="402"/>
+    <skills stamina="469" dexterity="190" speed="225" tackling="382" passing="378" shooting="422" control="219" accuracy="369" goalkeeping="40" heading="376"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22128">
+    <personal name="Trugvi Mortensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="597" risktaking="458" offensive="520" aggressive="355" consistent="401" creative="312" experienced="540"/>
+    <skills stamina="285" dexterity="593" speed="614" tackling="139" passing="229" shooting="376" control="300" accuracy="197" goalkeeping="435" heading="198"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="22129">
+    <personal name="Hendrik Juul">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="564" risktaking="480" offensive="715" aggressive="597" consistent="239" creative="727" experienced="495"/>
+    <skills stamina="116" dexterity="408" speed="266" tackling="151" passing="321" shooting="399" control="296" accuracy="170" goalkeeping="454" heading="144"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="22130">
+    <personal name="Oddfridur Gaardbo">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="395" risktaking="487" offensive="382" aggressive="526" consistent="329" creative="138" experienced="390"/>
+    <skills stamina="308" dexterity="549" speed="321" tackling="306" passing="403" shooting="273" control="284" accuracy="281" goalkeeping="57" heading="221"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="22131">
+    <personal name="Olavur Olsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="603" risktaking="446" offensive="657" aggressive="485" consistent="508" creative="616" experienced="507"/>
+    <skills stamina="450" dexterity="518" speed="208" tackling="251" passing="268" shooting="398" control="346" accuracy="362" goalkeeping="62" heading="410"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="22132">
+    <personal name="Ingemar Hojgaard">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="482" risktaking="262" offensive="359" aggressive="364" consistent="481" creative="438" experienced="435"/>
+    <skills stamina="160" dexterity="500" speed="425" tackling="218" passing="249" shooting="351" control="348" accuracy="270" goalkeeping="45" heading="210"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22133">
+    <personal name="Olavur Jacobsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="584" risktaking="491" offensive="370" aggressive="609" consistent="323" creative="697" experienced="338"/>
+    <skills stamina="583" dexterity="255" speed="120" tackling="346" passing="437" shooting="284" control="331" accuracy="356" goalkeeping="49" heading="361"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22134">
+    <personal name="Arni Midjord">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="914" risktaking="721" offensive="552" aggressive="414" consistent="767" creative="448" experienced="565"/>
+    <skills stamina="450" dexterity="482" speed="628" tackling="427" passing="334" shooting="333" control="265" accuracy="348" goalkeeping="47" heading="346"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22135">
+    <personal name="Eydun Gaardbo">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="339" risktaking="398" offensive="536" aggressive="600" consistent="396" creative="446" experienced="206"/>
+    <skills stamina="641" dexterity="611" speed="379" tackling="340" passing="349" shooting="386" control="383" accuracy="403" goalkeeping="42" heading="251"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="22136">
+    <personal name="John Mikkelsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="898" risktaking="307" offensive="506" aggressive="486" consistent="230" creative="306" experienced="345"/>
+    <skills stamina="499" dexterity="584" speed="261" tackling="323" passing="395" shooting="351" control="403" accuracy="245" goalkeeping="71" heading="264"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="22137">
+    <personal name="Arfinn Laangaard">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="395" risktaking="356" offensive="224" aggressive="575" consistent="515" creative="560" experienced="507"/>
+    <skills stamina="657" dexterity="352" speed="564" tackling="397" passing="428" shooting="365" control="443" accuracy="326" goalkeeping="64" heading="310"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22138">
+    <personal name="Tummas Hansen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="613" risktaking="321" offensive="605" aggressive="565" consistent="663" creative="344" experienced="759"/>
+    <skills stamina="616" dexterity="526" speed="412" tackling="366" passing="336" shooting="302" control="332" accuracy="221" goalkeeping="45" heading="319"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22139">
+    <personal name="Simun Danielsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="332" risktaking="527" offensive="690" aggressive="436" consistent="689" creative="406" experienced="638"/>
+    <skills stamina="166" dexterity="353" speed="621" tackling="344" passing="363" shooting="363" control="451" accuracy="409" goalkeeping="62" heading="224"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="22140">
+    <personal name="Eddi Mikkelsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="333" risktaking="570" offensive="245" aggressive="420" consistent="451" creative="440" experienced="569"/>
+    <skills stamina="590" dexterity="459" speed="283" tackling="262" passing="277" shooting="293" control="390" accuracy="240" goalkeeping="47" heading="312"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="22141">
+    <personal name="Solvi Justinussen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="505" risktaking="503" offensive="622" aggressive="606" consistent="406" creative="478" experienced="470"/>
+    <skills stamina="405" dexterity="329" speed="575" tackling="277" passing="430" shooting="384" control="260" accuracy="359" goalkeeping="70" heading="280"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22142">
+    <personal name="Jan Jakobsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="290" risktaking="633" offensive="203" aggressive="546" consistent="313" creative="609" experienced="518"/>
+    <skills stamina="492" dexterity="644" speed="280" tackling="365" passing="256" shooting="281" control="379" accuracy="463" goalkeeping="65" heading="394"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22143">
+    <personal name="Meinhard Hansen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="605" risktaking="410" offensive="407" aggressive="688" consistent="561" creative="727" experienced="608"/>
+    <skills stamina="469" dexterity="592" speed="140" tackling="246" passing="403" shooting="321" control="224" accuracy="403" goalkeeping="43" heading="413"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22144">
+    <personal name="Alvur Samuelsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="669" risktaking="597" offensive="434" aggressive="347" consistent="456" creative="459" experienced="538"/>
+    <skills stamina="443" dexterity="561" speed="594" tackling="189" passing="415" shooting="313" control="285" accuracy="175" goalkeeping="472" heading="156"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="22145">
+    <personal name="Emil Hentze">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="629" risktaking="164" offensive="426" aggressive="447" consistent="594" creative="500" experienced="661"/>
+    <skills stamina="418" dexterity="452" speed="569" tackling="143" passing="402" shooting="261" control="318" accuracy="198" goalkeeping="447" heading="167"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="22146">
+    <personal name="Signar Petersen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="803" risktaking="665" offensive="737" aggressive="614" consistent="314" creative="698" experienced="254"/>
+    <skills stamina="333" dexterity="479" speed="315" tackling="358" passing="209" shooting="219" control="237" accuracy="367" goalkeeping="60" heading="232"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="22147">
+    <personal name="Hedin Joensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="335" risktaking="462" offensive="523" aggressive="243" consistent="644" creative="747" experienced="149"/>
+    <skills stamina="637" dexterity="612" speed="272" tackling="282" passing="452" shooting="300" control="373" accuracy="240" goalkeeping="61" heading="371"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="22148">
+    <personal name="Johan Nielsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="626" risktaking="402" offensive="604" aggressive="326" consistent="299" creative="466" experienced="545"/>
+    <skills stamina="144" dexterity="435" speed="247" tackling="434" passing="359" shooting="227" control="274" accuracy="301" goalkeeping="63" heading="288"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22149">
+    <personal name="Magnus Johansen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="669" risktaking="622" offensive="695" aggressive="495" consistent="647" creative="543" experienced="959"/>
+    <skills stamina="234" dexterity="323" speed="183" tackling="418" passing="434" shooting="380" control="266" accuracy="363" goalkeeping="38" heading="254"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22150">
+    <personal name="Allan Nielsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="799" risktaking="462" offensive="687" aggressive="479" consistent="448" creative="615" experienced="277"/>
+    <skills stamina="380" dexterity="191" speed="138" tackling="412" passing="307" shooting="279" control="269" accuracy="357" goalkeeping="69" heading="300"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="22151">
+    <personal name="Ari Thomassen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="453" risktaking="452" offensive="528" aggressive="775" consistent="670" creative="260" experienced="661"/>
+    <skills stamina="250" dexterity="456" speed="639" tackling="264" passing="278" shooting="240" control="278" accuracy="317" goalkeeping="44" heading="368"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="22152">
+    <personal name="Jonhard Joensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="483" risktaking="508" offensive="338" aggressive="353" consistent="624" creative="429" experienced="288"/>
+    <skills stamina="555" dexterity="166" speed="237" tackling="275" passing="270" shooting="358" control="405" accuracy="271" goalkeeping="40" heading="361"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="22153">
+    <personal name="Eydfinn Davidsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="649" risktaking="530" offensive="237" aggressive="700" consistent="399" creative="826" experienced="536"/>
+    <skills stamina="507" dexterity="348" speed="603" tackling="318" passing="357" shooting="286" control="244" accuracy="235" goalkeeping="51" heading="252"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22154">
+    <personal name="Jogvan H. Samuelsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="306" risktaking="648" offensive="321" aggressive="46" consistent="169" creative="422" experienced="581"/>
+    <skills stamina="449" dexterity="480" speed="371" tackling="340" passing="448" shooting="223" control="422" accuracy="302" goalkeeping="68" heading="234"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22155">
+    <personal name="Torkil Nielsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="220" risktaking="384" offensive="442" aggressive="544" consistent="630" creative="561" experienced="503"/>
+    <skills stamina="282" dexterity="601" speed="168" tackling="296" passing="414" shooting="297" control="320" accuracy="378" goalkeeping="52" heading="383"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="22156">
+    <personal name="Magnus Simonsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="515" risktaking="364" offensive="113" aggressive="665" consistent="662" creative="208" experienced="531"/>
+    <skills stamina="202" dexterity="475" speed="579" tackling="322" passing="403" shooting="290" control="430" accuracy="348" goalkeeping="39" heading="342"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22157">
+    <personal name="Bugvi Joensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="756" risktaking="751" offensive="517" aggressive="413" consistent="482" creative="610" experienced="369"/>
+    <skills stamina="170" dexterity="368" speed="536" tackling="409" passing="316" shooting="363" control="241" accuracy="345" goalkeeping="43" heading="253"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22158">
+    <personal name="Heri Olsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="676" risktaking="224" offensive="327" aggressive="438" consistent="698" creative="379" experienced="207"/>
+    <skills stamina="227" dexterity="608" speed="361" tackling="352" passing="308" shooting="414" control="419" accuracy="364" goalkeeping="69" heading="310"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22159">
+    <personal name="Egil Petersen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="564" risktaking="404" offensive="261" aggressive="320" consistent="480" creative="377" experienced="506"/>
+    <skills stamina="444" dexterity="485" speed="381" tackling="288" passing="315" shooting="339" control="261" accuracy="351" goalkeeping="36" heading="367"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22160">
+    <personal name="Rolf Christensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="475" risktaking="433" offensive="633" aggressive="378" consistent="416" creative="261" experienced="861"/>
+    <skills stamina="451" dexterity="371" speed="572" tackling="120" passing="328" shooting="273" control="272" accuracy="140" goalkeeping="481" heading="162"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="22161">
+    <personal name="Magni Hentze">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="322" risktaking="250" offensive="556" aggressive="722" consistent="581" creative="368" experienced="434"/>
+    <skills stamina="357" dexterity="155" speed="291" tackling="202" passing="256" shooting="382" control="220" accuracy="200" goalkeeping="379" heading="185"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="22162">
+    <personal name="Oli Johannesen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="384" risktaking="563" offensive="632" aggressive="267" consistent="210" creative="555" experienced="595"/>
+    <skills stamina="653" dexterity="435" speed="482" tackling="369" passing="322" shooting="271" control="347" accuracy="348" goalkeeping="42" heading="365"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="22163">
+    <personal name="Hans John Thomsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="549" risktaking="637" offensive="229" aggressive="798" consistent="241" creative="654" experienced="401"/>
+    <skills stamina="117" dexterity="670" speed="287" tackling="443" passing="245" shooting="332" control="358" accuracy="332" goalkeeping="42" heading="363"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="22164">
+    <personal name="Bjarni Mortensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="744" risktaking="888" offensive="491" aggressive="607" consistent="559" creative="272" experienced="518"/>
+    <skills stamina="606" dexterity="148" speed="398" tackling="274" passing="344" shooting="233" control="357" accuracy="208" goalkeeping="57" heading="355"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22165">
+    <personal name="Birgir Dimon">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="557" risktaking="435" offensive="472" aggressive="511" consistent="593" creative="475" experienced="337"/>
+    <skills stamina="264" dexterity="448" speed="335" tackling="303" passing="358" shooting="263" control="271" accuracy="264" goalkeeping="45" heading="395"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22166">
+    <personal name="Torfinn Mortensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="509" risktaking="560" offensive="454" aggressive="542" consistent="750" creative="376" experienced="499"/>
+    <skills stamina="149" dexterity="175" speed="374" tackling="286" passing="312" shooting="371" control="334" accuracy="264" goalkeeping="39" heading="313"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22167">
+    <personal name="Thordur Holm">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="689" risktaking="641" offensive="439" aggressive="361" consistent="503" creative="689" experienced="423"/>
+    <skills stamina="195" dexterity="306" speed="275" tackling="249" passing="260" shooting="361" control="353" accuracy="244" goalkeeping="66" heading="216"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="22168">
+    <personal name="Eydun Gullok Svalbard">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="492" risktaking="403" offensive="614" aggressive="455" consistent="472" creative="532" experienced="642"/>
+    <skills stamina="155" dexterity="294" speed="613" tackling="245" passing="348" shooting="419" control="329" accuracy="283" goalkeeping="39" heading="388"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="22169">
+    <personal name="Magni Petersen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="549" risktaking="758" offensive="503" aggressive="374" consistent="748" creative="384" experienced="648"/>
+    <skills stamina="478" dexterity="484" speed="407" tackling="432" passing="390" shooting="291" control="394" accuracy="362" goalkeeping="74" heading="418"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22170">
+    <personal name="Poul Fridi Joensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="775" risktaking="410" offensive="464" aggressive="606" consistent="458" creative="224" experienced="657"/>
+    <skills stamina="299" dexterity="627" speed="645" tackling="287" passing="324" shooting="340" control="384" accuracy="402" goalkeeping="66" heading="406"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="22171">
+    <personal name="Oli Johannesen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="462" risktaking="383" offensive="365" aggressive="481" consistent="866" creative="269" experienced="579"/>
+    <skills stamina="654" dexterity="507" speed="583" tackling="246" passing="344" shooting="285" control="243" accuracy="353" goalkeeping="61" heading="304"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22172">
+    <personal name="Niels Gunnar Petersen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="443" risktaking="532" offensive="648" aggressive="467" consistent="378" creative="368" experienced="587"/>
+    <skills stamina="487" dexterity="438" speed="326" tackling="422" passing="371" shooting="384" control="287" accuracy="221" goalkeeping="46" heading="263"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22173">
+    <personal name="Bogi Johannesen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="777" risktaking="219" offensive="408" aggressive="620" consistent="339" creative="178" experienced="392"/>
+    <skills stamina="639" dexterity="531" speed="576" tackling="241" passing="300" shooting="350" control="404" accuracy="324" goalkeeping="53" heading="334"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22174">
+    <personal name="Hermann Mortensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="615" risktaking="592" offensive="385" aggressive="740" consistent="509" creative="573" experienced="432"/>
+    <skills stamina="327" dexterity="502" speed="315" tackling="314" passing="286" shooting="350" control="288" accuracy="342" goalkeeping="36" heading="364"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="22175">
+    <personal name="Birgir Jorgensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="481" risktaking="394" offensive="467" aggressive="765" consistent="333" creative="562" experienced="646"/>
+    <skills stamina="497" dexterity="325" speed="648" tackling="279" passing="372" shooting="463" control="384" accuracy="273" goalkeeping="36" heading="223"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22176">
+    <personal name="Jens Sivar Djurhuus">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="299" risktaking="718" offensive="479" aggressive="452" consistent="418" creative="501" experienced="427"/>
+    <skills stamina="409" dexterity="459" speed="490" tackling="137" passing="303" shooting="221" control="192" accuracy="150" goalkeeping="486" heading="194"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="22177">
+    <personal name="Lars Muller">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="596" risktaking="470" offensive="387" aggressive="998" consistent="778" creative="498" experienced="590"/>
+    <skills stamina="313" dexterity="251" speed="544" tackling="160" passing="285" shooting="249" control="281" accuracy="106" goalkeeping="293" heading="176"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="22178">
+    <personal name="Bjartar Nolso">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="734" risktaking="582" offensive="213" aggressive="399" consistent="514" creative="483" experienced="558"/>
+    <skills stamina="167" dexterity="189" speed="422" tackling="324" passing="250" shooting="366" control="337" accuracy="407" goalkeeping="45" heading="351"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="22179">
+    <personal name="Eydun Kjaerbo">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="629" risktaking="226" offensive="486" aggressive="419" consistent="517" creative="764" experienced="581"/>
+    <skills stamina="565" dexterity="477" speed="623" tackling="250" passing="295" shooting="352" control="242" accuracy="309" goalkeeping="40" heading="309"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="22180">
+    <personal name="Magni Magnussen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="477" risktaking="457" offensive="613" aggressive="529" consistent="573" creative="427" experienced="646"/>
+    <skills stamina="501" dexterity="144" speed="383" tackling="294" passing="280" shooting="360" control="337" accuracy="402" goalkeeping="44" heading="378"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="22181">
+    <personal name="Tordur Poulsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="711" risktaking="536" offensive="559" aggressive="671" consistent="410" creative="411" experienced="685"/>
+    <skills stamina="293" dexterity="511" speed="229" tackling="365" passing="448" shooting="248" control="286" accuracy="351" goalkeeping="60" heading="248"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22182">
+    <personal name="Magni Jacobsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="606" risktaking="765" offensive="692" aggressive="402" consistent="355" creative="464" experienced="660"/>
+    <skills stamina="607" dexterity="258" speed="316" tackling="328" passing="405" shooting="225" control="282" accuracy="216" goalkeeping="45" heading="381"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22183">
+    <personal name="John Eri Larsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="602" risktaking="522" offensive="496" aggressive="454" consistent="444" creative="510" experienced="750"/>
+    <skills stamina="279" dexterity="465" speed="405" tackling="313" passing="397" shooting="311" control="367" accuracy="318" goalkeeping="44" heading="338"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="22184">
+    <personal name="Pol Thorsteinsson">
+      <appearance value="0"/>
+      <nationality value="Iceland"/>
+    </personal>
+    <personality active="551" risktaking="359" offensive="690" aggressive="558" consistent="536" creative="374" experienced="432"/>
+    <skills stamina="416" dexterity="413" speed="338" tackling="311" passing="247" shooting="368" control="314" accuracy="336" goalkeeping="61" heading="226"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="22185">
+    <personal name="Magni Mohr">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="748" risktaking="421" offensive="347" aggressive="687" consistent="818" creative="565" experienced="637"/>
+    <skills stamina="216" dexterity="555" speed="259" tackling="314" passing="331" shooting="391" control="322" accuracy="347" goalkeeping="66" heading="429"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="22186">
+    <personal name="Eydunn Jacobsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="423" risktaking="462" offensive="597" aggressive="441" consistent="524" creative="266" experienced="525"/>
+    <skills stamina="252" dexterity="371" speed="339" tackling="409" passing="362" shooting="264" control="345" accuracy="385" goalkeeping="55" heading="252"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="22187">
+    <personal name="Jon Pauli Olsen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="276" risktaking="516" offensive="700" aggressive="680" consistent="786" creative="359" experienced="625"/>
+    <skills stamina="226" dexterity="166" speed="203" tackling="281" passing="354" shooting="350" control="409" accuracy="214" goalkeeping="43" heading="353"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="22188">
+    <personal name="John Eystberg">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="307" risktaking="445" offensive="494" aggressive="677" consistent="106" creative="563" experienced="563"/>
+    <skills stamina="540" dexterity="518" speed="490" tackling="214" passing="264" shooting="441" control="306" accuracy="276" goalkeeping="52" heading="325"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22189">
+    <personal name="Egil Steintorsson">
+      <appearance value="0"/>
+      <nationality value="Iceland"/>
+    </personal>
+    <personality active="764" risktaking="629" offensive="253" aggressive="616" consistent="574" creative="589" experienced="658"/>
+    <skills stamina="327" dexterity="556" speed="135" tackling="281" passing="392" shooting="343" control="230" accuracy="315" goalkeeping="55" heading="335"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22190">
+    <personal name="Per Joensen">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="499" risktaking="260" offensive="464" aggressive="434" consistent="538" creative="680" experienced="460"/>
+    <skills stamina="467" dexterity="618" speed="619" tackling="314" passing="296" shooting="378" control="365" accuracy="215" goalkeeping="61" heading="353"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="22191">
+    <personal name="Marner Richard">
+      <appearance value="0"/>
+      <nationality value="Faroe Islands"/>
+    </personal>
+    <personality active="263" risktaking="362" offensive="402" aggressive="541" consistent="635" creative="535" experienced="768"/>
+    <skills stamina="245" dexterity="648" speed="472" tackling="269" passing="365" shooting="351" control="328" accuracy="398" goalkeeping="50" heading="244"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+</Players>

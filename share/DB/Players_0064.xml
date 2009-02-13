@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="64000">
+    <personal name="Primo Beccari">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="409" risktaking="386" offensive="713" aggressive="353" consistent="400" creative="673" experienced="612"/>
+    <skills stamina="569" dexterity="540" speed="371" tackling="161" passing="299" shooting="385" control="174" accuracy="185" goalkeeping="371" heading="184"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="64001">
+    <personal name="Domenico Gasperoni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="724" risktaking="317" offensive="751" aggressive="376" consistent="203" creative="286" experienced="546"/>
+    <skills stamina="357" dexterity="267" speed="529" tackling="129" passing="266" shooting="401" control="296" accuracy="153" goalkeeping="439" heading="165"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="64002">
+    <personal name="Luciano Mularoni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="650" risktaking="545" offensive="622" aggressive="591" consistent="538" creative="235" experienced="570"/>
+    <skills stamina="584" dexterity="399" speed="542" tackling="281" passing="411" shooting="266" control="409" accuracy="301" goalkeeping="58" heading="338"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="64003">
+    <personal name="Danilo Albani">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="457" risktaking="503" offensive="386" aggressive="332" consistent="482" creative="765" experienced="572"/>
+    <skills stamina="156" dexterity="287" speed="474" tackling="345" passing="355" shooting="340" control="456" accuracy="277" goalkeeping="47" heading="344"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="64004">
+    <personal name="Marco Mularoni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="686" risktaking="401" offensive="877" aggressive="287" consistent="386" creative="556" experienced="354"/>
+    <skills stamina="660" dexterity="565" speed="348" tackling="469" passing="440" shooting="336" control="313" accuracy="425" goalkeeping="44" heading="403"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64005">
+    <personal name="Roberto Cevoli">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="487" risktaking="160" offensive="525" aggressive="618" consistent="304" creative="704" experienced="151"/>
+    <skills stamina="113" dexterity="351" speed="408" tackling="361" passing="237" shooting="313" control="292" accuracy="293" goalkeeping="39" heading="331"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64006">
+    <personal name="Paolo Berardi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="516" risktaking="555" offensive="692" aggressive="584" consistent="160" creative="293" experienced="499"/>
+    <skills stamina="585" dexterity="260" speed="482" tackling="318" passing="321" shooting="319" control="288" accuracy="360" goalkeeping="42" heading="276"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64007">
+    <personal name="Giampiero Pasquali">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="314" risktaking="192" offensive="616" aggressive="500" consistent="736" creative="431" experienced="457"/>
+    <skills stamina="218" dexterity="321" speed="482" tackling="405" passing="429" shooting="336" control="421" accuracy="274" goalkeeping="44" heading="327"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="64008">
+    <personal name="Claudio Tosi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="783" risktaking="358" offensive="353" aggressive="634" consistent="565" creative="504" experienced="460"/>
+    <skills stamina="256" dexterity="443" speed="165" tackling="358" passing="441" shooting="289" control="254" accuracy="262" goalkeeping="41" heading="398"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="64009">
+    <personal name="Guerrino Albani">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="710" risktaking="418" offensive="395" aggressive="452" consistent="785" creative="367" experienced="443"/>
+    <skills stamina="270" dexterity="303" speed="377" tackling="403" passing="247" shooting="232" control="225" accuracy="242" goalkeeping="65" heading="215"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64010">
+    <personal name="Giovanni Stefanelli">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="372" risktaking="663" offensive="511" aggressive="141" consistent="364" creative="245" experienced="429"/>
+    <skills stamina="495" dexterity="262" speed="161" tackling="409" passing="327" shooting="273" control="402" accuracy="225" goalkeeping="48" heading="393"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="64011">
+    <personal name="Gianluca Stefanelli">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="537" risktaking="576" offensive="639" aggressive="416" consistent="692" creative="376" experienced="515"/>
+    <skills stamina="474" dexterity="432" speed="283" tackling="409" passing="312" shooting="327" control="349" accuracy="314" goalkeeping="65" heading="322"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64012">
+    <personal name="Roberto Casadei">
+      <appearance value="0"/>
+      <nationality value="Italy"/>
+    </personal>
+    <personality active="514" risktaking="530" offensive="451" aggressive="598" consistent="459" creative="284" experienced="588"/>
+    <skills stamina="146" dexterity="588" speed="352" tackling="335" passing="293" shooting="369" control="247" accuracy="387" goalkeeping="60" heading="462"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="64013">
+    <personal name="Aldo Cevoli">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="634" risktaking="485" offensive="273" aggressive="710" consistent="490" creative="606" experienced="469"/>
+    <skills stamina="418" dexterity="282" speed="203" tackling="238" passing="249" shooting="208" control="378" accuracy="398" goalkeeping="48" heading="304"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64014">
+    <personal name="Fabrizio De Leonardis">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="742" risktaking="320" offensive="412" aggressive="466" consistent="393" creative="573" experienced="456"/>
+    <skills stamina="484" dexterity="642" speed="479" tackling="260" passing="330" shooting="405" control="212" accuracy="308" goalkeeping="46" heading="315"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64015">
+    <personal name="Daniele Donnini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="759" risktaking="457" offensive="645" aggressive="549" consistent="369" creative="794" experienced="673"/>
+    <skills stamina="634" dexterity="526" speed="157" tackling="391" passing="374" shooting="340" control="242" accuracy="436" goalkeeping="50" heading="342"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="64016">
+    <personal name="Giorgio Carattoni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="263" risktaking="284" offensive="342" aggressive="352" consistent="535" creative="618" experienced="507"/>
+    <skills stamina="495" dexterity="625" speed="599" tackling="148" passing="285" shooting="392" control="292" accuracy="140" goalkeeping="333" heading="134"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="64017">
+    <personal name="Emanuel Celli">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="562" risktaking="494" offensive="365" aggressive="677" consistent="370" creative="576" experienced="664"/>
+    <skills stamina="121" dexterity="147" speed="321" tackling="173" passing="393" shooting="383" control="178" accuracy="105" goalkeeping="411" heading="160"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="64018">
+    <personal name="Gloriano Zonzini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="336" risktaking="493" offensive="520" aggressive="473" consistent="554" creative="676" experienced="610"/>
+    <skills stamina="413" dexterity="258" speed="508" tackling="242" passing="286" shooting="283" control="446" accuracy="413" goalkeeping="48" heading="321"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="64019">
+    <personal name="Francesco Galassi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="605" risktaking="381" offensive="537" aggressive="289" consistent="508" creative="504" experienced="413"/>
+    <skills stamina="605" dexterity="295" speed="287" tackling="285" passing="318" shooting="296" control="338" accuracy="305" goalkeeping="65" heading="333"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="64020">
+    <personal name="Eraldo Fiorini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="539" risktaking="77" offensive="478" aggressive="543" consistent="464" creative="688" experienced="387"/>
+    <skills stamina="396" dexterity="478" speed="479" tackling="271" passing="307" shooting="227" control="346" accuracy="268" goalkeeping="56" heading="356"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="64021">
+    <personal name="Emanuel Muraccini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="697" risktaking="415" offensive="757" aggressive="663" consistent="268" creative="487" experienced="405"/>
+    <skills stamina="288" dexterity="503" speed="182" tackling="348" passing="421" shooting="267" control="371" accuracy="276" goalkeeping="49" heading="282"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64022">
+    <personal name="Davide Braschi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="592" risktaking="518" offensive="450" aggressive="946" consistent="426" creative="575" experienced="578"/>
+    <skills stamina="475" dexterity="574" speed="527" tackling="440" passing="284" shooting="359" control="399" accuracy="313" goalkeeping="39" heading="257"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64023">
+    <personal name="Luca Della Balda">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="464" risktaking="767" offensive="176" aggressive="472" consistent="414" creative="462" experienced="431"/>
+    <skills stamina="298" dexterity="340" speed="455" tackling="245" passing="407" shooting="381" control="300" accuracy="394" goalkeeping="50" heading="303"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="64024">
+    <personal name="Roberto Raschi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="607" risktaking="411" offensive="626" aggressive="453" consistent="260" creative="263" experienced="687"/>
+    <skills stamina="250" dexterity="277" speed="261" tackling="297" passing="311" shooting="355" control="424" accuracy="381" goalkeeping="64" heading="420"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="64025">
+    <personal name="Denis Zanotti">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="277" risktaking="532" offensive="463" aggressive="237" consistent="398" creative="408" experienced="427"/>
+    <skills stamina="401" dexterity="467" speed="600" tackling="348" passing="420" shooting="251" control="301" accuracy="351" goalkeeping="65" heading="308"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64026">
+    <personal name="Mauro Tabarrini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="245" risktaking="446" offensive="329" aggressive="381" consistent="800" creative="277" experienced="557"/>
+    <skills stamina="360" dexterity="567" speed="501" tackling="227" passing="248" shooting="357" control="399" accuracy="244" goalkeeping="48" heading="362"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64027">
+    <personal name="Claudio Maccio">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="325" risktaking="414" offensive="497" aggressive="723" consistent="502" creative="452" experienced="158"/>
+    <skills stamina="301" dexterity="279" speed="235" tackling="385" passing="323" shooting="395" control="273" accuracy="353" goalkeeping="47" heading="315"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64028">
+    <personal name="Marino Palmieri">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="324" risktaking="389" offensive="580" aggressive="655" consistent="644" creative="456" experienced="9"/>
+    <skills stamina="347" dexterity="196" speed="140" tackling="294" passing="405" shooting="458" control="431" accuracy="265" goalkeeping="49" heading="343"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="64029">
+    <personal name="Andrea Bonte">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="704" risktaking="236" offensive="540" aggressive="590" consistent="291" creative="471" experienced="501"/>
+    <skills stamina="480" dexterity="436" speed="276" tackling="254" passing="398" shooting="378" control="318" accuracy="369" goalkeeping="47" heading="311"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="64030">
+    <personal name="Daniele Zafferani">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="275" risktaking="882" offensive="585" aggressive="778" consistent="443" creative="348" experienced="343"/>
+    <skills stamina="247" dexterity="435" speed="370" tackling="305" passing="262" shooting="377" control="385" accuracy="363" goalkeeping="66" heading="350"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="64031">
+    <personal name="Oscar Mina">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="738" risktaking="582" offensive="543" aggressive="671" consistent="539" creative="424" experienced="276"/>
+    <skills stamina="541" dexterity="594" speed="650" tackling="358" passing="247" shooting="337" control="305" accuracy="458" goalkeeping="60" heading="252"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64032">
+    <personal name="Carlo Casadei">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="339" risktaking="660" offensive="517" aggressive="385" consistent="300" creative="733" experienced="459"/>
+    <skills stamina="511" dexterity="666" speed="133" tackling="191" passing="350" shooting="430" control="261" accuracy="123" goalkeeping="332" heading="179"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="64033">
+    <personal name="Maurizio Conti">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="457" risktaking="500" offensive="585" aggressive="323" consistent="635" creative="413" experienced="565"/>
+    <skills stamina="610" dexterity="332" speed="540" tackling="168" passing="293" shooting="272" control="306" accuracy="129" goalkeeping="449" heading="174"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="64034">
+    <personal name="Gianluigi Zanotti">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="374" risktaking="456" offensive="547" aggressive="428" consistent="495" creative="351" experienced="570"/>
+    <skills stamina="564" dexterity="318" speed="376" tackling="420" passing="341" shooting="419" control="302" accuracy="378" goalkeeping="48" heading="465"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="64035">
+    <personal name="Paolo Zonzini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="526" risktaking="525" offensive="362" aggressive="304" consistent="357" creative="553" experienced="257"/>
+    <skills stamina="509" dexterity="184" speed="570" tackling="323" passing="422" shooting="287" control="281" accuracy="385" goalkeeping="64" heading="422"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="64036">
+    <personal name="Roberto Crescenti">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="337" risktaking="486" offensive="570" aggressive="409" consistent="413" creative="329" experienced="639"/>
+    <skills stamina="373" dexterity="201" speed="594" tackling="372" passing="299" shooting="385" control="334" accuracy="303" goalkeeping="53" heading="404"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64037">
+    <personal name="Silvano Bollini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="318" risktaking="407" offensive="365" aggressive="457" consistent="667" creative="247" experienced="465"/>
+    <skills stamina="326" dexterity="174" speed="479" tackling="385" passing="299" shooting="274" control="404" accuracy="328" goalkeeping="56" heading="358"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64038">
+    <personal name="Stefano Capicchioni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="403" risktaking="557" offensive="394" aggressive="510" consistent="421" creative="429" experienced="472"/>
+    <skills stamina="513" dexterity="593" speed="392" tackling="461" passing="475" shooting="449" control="386" accuracy="291" goalkeeping="57" heading="416"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64039">
+    <personal name="Massimo Rossi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="250" risktaking="499" offensive="391" aggressive="484" consistent="357" creative="250" experienced="497"/>
+    <skills stamina="419" dexterity="677" speed="549" tackling="318" passing="261" shooting="322" control="268" accuracy="343" goalkeeping="58" heading="269"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64040">
+    <personal name="Alessandro Pasolini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="472" risktaking="465" offensive="340" aggressive="508" consistent="625" creative="722" experienced="539"/>
+    <skills stamina="479" dexterity="556" speed="266" tackling="403" passing="460" shooting="413" control="299" accuracy="364" goalkeeping="60" heading="271"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="64041">
+    <personal name="Loris Palmieri">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="593" risktaking="332" offensive="446" aggressive="450" consistent="139" creative="570" experienced="656"/>
+    <skills stamina="221" dexterity="538" speed="289" tackling="315" passing="414" shooting="276" control="365" accuracy="265" goalkeeping="54" heading="252"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="64042">
+    <personal name="Silvano Zonzini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="354" risktaking="662" offensive="379" aggressive="384" consistent="271" creative="569" experienced="119"/>
+    <skills stamina="638" dexterity="540" speed="446" tackling="262" passing="376" shooting="408" control="472" accuracy="396" goalkeeping="72" heading="333"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64043">
+    <personal name="Giuseppe Paolini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="576" risktaking="797" offensive="605" aggressive="527" consistent="667" creative="444" experienced="356"/>
+    <skills stamina="661" dexterity="468" speed="406" tackling="431" passing="382" shooting="339" control="314" accuracy="272" goalkeeping="62" heading="411"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64044">
+    <personal name="Bruno Montanucci">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="589" risktaking="405" offensive="488" aggressive="588" consistent="356" creative="529" experienced="591"/>
+    <skills stamina="355" dexterity="278" speed="398" tackling="276" passing="375" shooting="290" control="394" accuracy="408" goalkeeping="49" heading="285"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64045">
+    <personal name="Paolo Giacobbi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="338" risktaking="542" offensive="460" aggressive="727" consistent="474" creative="558" experienced="567"/>
+    <skills stamina="469" dexterity="186" speed="481" tackling="278" passing="448" shooting="368" control="376" accuracy="383" goalkeeping="69" heading="465"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64046">
+    <personal name="Fabio Bacciocchi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="295" risktaking="326" offensive="427" aggressive="437" consistent="485" creative="463" experienced="431"/>
+    <skills stamina="625" dexterity="575" speed="653" tackling="309" passing="327" shooting="265" control="295" accuracy="457" goalkeeping="48" heading="390"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64047">
+    <personal name="Ened Zucchi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="624" risktaking="632" offensive="547" aggressive="611" consistent="777" creative="402" experienced="717"/>
+    <skills stamina="163" dexterity="264" speed="157" tackling="361" passing="375" shooting="290" control="277" accuracy="268" goalkeeping="63" heading="368"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64048">
+    <personal name="Oscar Bedetti">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="445" risktaking="399" offensive="559" aggressive="438" consistent="550" creative="589" experienced="555"/>
+    <skills stamina="128" dexterity="558" speed="414" tackling="195" passing="239" shooting="238" control="272" accuracy="178" goalkeeping="378" heading="180"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="64049">
+    <personal name="Massimo Cenci">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="426" risktaking="487" offensive="588" aggressive="249" consistent="612" creative="663" experienced="674"/>
+    <skills stamina="245" dexterity="648" speed="654" tackling="125" passing="277" shooting="245" control="184" accuracy="129" goalkeeping="334" heading="156"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="64050">
+    <personal name="Costantino Renzi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="606" risktaking="575" offensive="488" aggressive="219" consistent="620" creative="500" experienced="693"/>
+    <skills stamina="325" dexterity="501" speed="504" tackling="341" passing="407" shooting="352" control="328" accuracy="400" goalkeeping="63" heading="325"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="64051">
+    <personal name="Silvio Riccardi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="563" risktaking="557" offensive="492" aggressive="504" consistent="687" creative="228" experienced="622"/>
+    <skills stamina="442" dexterity="677" speed="141" tackling="389" passing="326" shooting="396" control="231" accuracy="267" goalkeeping="45" heading="362"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="64052">
+    <personal name="Fulvio Casadei">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="404" risktaking="526" offensive="732" aggressive="355" consistent="488" creative="586" experienced="262"/>
+    <skills stamina="195" dexterity="539" speed="356" tackling="310" passing="333" shooting="341" control="273" accuracy="295" goalkeeping="58" heading="281"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64053">
+    <personal name="Mirco Mularoni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="581" risktaking="474" offensive="552" aggressive="609" consistent="568" creative="610" experienced="347"/>
+    <skills stamina="628" dexterity="637" speed="152" tackling="279" passing="350" shooting="233" control="291" accuracy="386" goalkeeping="62" heading="349"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64054">
+    <personal name="Agostino Dall'olmo">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="178" risktaking="275" offensive="465" aggressive="335" consistent="410" creative="473" experienced="509"/>
+    <skills stamina="171" dexterity="278" speed="145" tackling="425" passing="417" shooting="384" control="345" accuracy="418" goalkeeping="69" heading="436"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64055">
+    <personal name="Pier Paolo Donati">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="363" risktaking="358" offensive="591" aggressive="348" consistent="534" creative="726" experienced="588"/>
+    <skills stamina="576" dexterity="358" speed="223" tackling="251" passing="395" shooting="362" control="337" accuracy="274" goalkeeping="40" heading="310"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="64056">
+    <personal name="Luca Riccardi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="458" risktaking="431" offensive="349" aggressive="446" consistent="525" creative="848" experienced="447"/>
+    <skills stamina="336" dexterity="594" speed="494" tackling="292" passing="285" shooting="349" control="322" accuracy="415" goalkeeping="65" heading="301"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="64057">
+    <personal name="Giuseppe Zanotti">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="508" risktaking="580" offensive="432" aggressive="723" consistent="239" creative="460" experienced="413"/>
+    <skills stamina="545" dexterity="214" speed="586" tackling="269" passing="405" shooting="324" control="396" accuracy="264" goalkeeping="51" heading="340"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64058">
+    <personal name="Riccardo Gasperoni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="257" risktaking="584" offensive="393" aggressive="378" consistent="390" creative="708" experienced="386"/>
+    <skills stamina="278" dexterity="183" speed="384" tackling="275" passing="264" shooting="353" control="252" accuracy="322" goalkeeping="39" heading="273"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64059">
+    <personal name="Angelo Righi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="584" risktaking="409" offensive="728" aggressive="465" consistent="433" creative="531" experienced="474"/>
+    <skills stamina="265" dexterity="358" speed="313" tackling="369" passing="255" shooting="253" control="310" accuracy="229" goalkeeping="60" heading="254"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64060">
+    <personal name="Denis Riccardi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="224" risktaking="320" offensive="653" aggressive="478" consistent="757" creative="410" experienced="466"/>
+    <skills stamina="158" dexterity="417" speed="408" tackling="271" passing="304" shooting="477" control="325" accuracy="384" goalkeeping="39" heading="276"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64061">
+    <personal name="Andrea Giorgetti">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="223" risktaking="749" offensive="209" aggressive="587" consistent="602" creative="600" experienced="614"/>
+    <skills stamina="560" dexterity="654" speed="592" tackling="300" passing="319" shooting="456" control="341" accuracy="397" goalkeeping="66" heading="268"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64062">
+    <personal name="Paolo Conti">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="490" risktaking="704" offensive="498" aggressive="163" consistent="673" creative="478" experienced="524"/>
+    <skills stamina="281" dexterity="294" speed="215" tackling="272" passing="308" shooting="437" control="374" accuracy="272" goalkeeping="47" heading="249"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="64063">
+    <personal name="Alessandro Casadei">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="233" risktaking="431" offensive="598" aggressive="278" consistent="590" creative="451" experienced="591"/>
+    <skills stamina="495" dexterity="622" speed="410" tackling="378" passing="220" shooting="299" control="377" accuracy="397" goalkeeping="43" heading="435"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="64064">
+    <personal name="Roberto Guidi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="545" risktaking="277" offensive="526" aggressive="482" consistent="653" creative="238" experienced="534"/>
+    <skills stamina="548" dexterity="371" speed="387" tackling="147" passing="224" shooting="376" control="208" accuracy="164" goalkeeping="429" heading="152"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="64065">
+    <personal name="Giuseppe Felicita">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="497" risktaking="554" offensive="532" aggressive="334" consistent="537" creative="720" experienced="482"/>
+    <skills stamina="146" dexterity="588" speed="408" tackling="177" passing="228" shooting="304" control="304" accuracy="192" goalkeeping="344" heading="187"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="64066">
+    <personal name="Natalino Berardi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="494" risktaking="388" offensive="526" aggressive="513" consistent="674" creative="788" experienced="542"/>
+    <skills stamina="408" dexterity="242" speed="594" tackling="340" passing="358" shooting="384" control="321" accuracy="354" goalkeeping="59" heading="318"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="64067">
+    <personal name="Andrea Guidi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="573" risktaking="413" offensive="601" aggressive="477" consistent="551" creative="706" experienced="545"/>
+    <skills stamina="512" dexterity="364" speed="509" tackling="400" passing="471" shooting="242" control="388" accuracy="412" goalkeeping="69" heading="380"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="64068">
+    <personal name="Giorgio Guidi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="464" risktaking="714" offensive="587" aggressive="97" consistent="542" creative="501" experienced="512"/>
+    <skills stamina="132" dexterity="291" speed="396" tackling="311" passing="296" shooting="252" control="277" accuracy="242" goalkeeping="65" heading="240"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="64069">
+    <personal name="Roger Zanoli">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="423" risktaking="366" offensive="494" aggressive="355" consistent="358" creative="430" experienced="432"/>
+    <skills stamina="419" dexterity="186" speed="585" tackling="492" passing="318" shooting="349" control="444" accuracy="349" goalkeeping="65" heading="218"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="64070">
+    <personal name="Elio Zafferani">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="532" risktaking="583" offensive="536" aggressive="691" consistent="390" creative="314" experienced="749"/>
+    <skills stamina="316" dexterity="225" speed="607" tackling="240" passing="270" shooting="413" control="233" accuracy="319" goalkeeping="58" heading="385"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="64071">
+    <personal name="Eros Selva">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="523" risktaking="615" offensive="636" aggressive="498" consistent="477" creative="392" experienced="236"/>
+    <skills stamina="324" dexterity="225" speed="198" tackling="386" passing="425" shooting="388" control="287" accuracy="324" goalkeeping="59" heading="249"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="64072">
+    <personal name="Manuele Ballabene">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="474" risktaking="447" offensive="422" aggressive="521" consistent="547" creative="370" experienced="677"/>
+    <skills stamina="573" dexterity="462" speed="307" tackling="433" passing="236" shooting="399" control="414" accuracy="269" goalkeeping="65" heading="265"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64073">
+    <personal name="Simone Bianchi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="473" risktaking="508" offensive="696" aggressive="422" consistent="268" creative="465" experienced="480"/>
+    <skills stamina="333" dexterity="545" speed="216" tackling="280" passing="424" shooting="421" control="289" accuracy="336" goalkeeping="44" heading="268"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="64074">
+    <personal name="Rossano Zavoli">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="628" risktaking="240" offensive="686" aggressive="289" consistent="668" creative="642" experienced="407"/>
+    <skills stamina="187" dexterity="595" speed="122" tackling="283" passing="211" shooting="325" control="254" accuracy="280" goalkeeping="40" heading="219"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64075">
+    <personal name="Giuliano Corbelli">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="491" risktaking="534" offensive="245" aggressive="772" consistent="442" creative="458" experienced="953"/>
+    <skills stamina="586" dexterity="214" speed="139" tackling="396" passing="289" shooting="295" control="315" accuracy="281" goalkeeping="60" heading="256"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64076">
+    <personal name="Enrico Prosperini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="247" risktaking="463" offensive="227" aggressive="458" consistent="382" creative="385" experienced="331"/>
+    <skills stamina="203" dexterity="345" speed="440" tackling="380" passing="392" shooting="429" control="265" accuracy="304" goalkeeping="35" heading="403"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64077">
+    <personal name="William Ballabene">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="546" risktaking="477" offensive="745" aggressive="500" consistent="489" creative="660" experienced="244"/>
+    <skills stamina="363" dexterity="210" speed="549" tackling="422" passing="438" shooting="509" control="394" accuracy="257" goalkeeping="72" heading="340"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64078">
+    <personal name="Cristian Bernardini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="296" risktaking="479" offensive="471" aggressive="526" consistent="683" creative="430" experienced="522"/>
+    <skills stamina="591" dexterity="577" speed="365" tackling="246" passing="360" shooting="309" control="401" accuracy="382" goalkeeping="58" heading="275"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64079">
+    <personal name="Roberto Ricci">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="356" risktaking="476" offensive="557" aggressive="522" consistent="741" creative="483" experienced="753"/>
+    <skills stamina="590" dexterity="587" speed="549" tackling="231" passing="262" shooting="307" control="231" accuracy="342" goalkeeping="41" heading="402"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64080">
+    <personal name="Christian Raschi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="525" risktaking="535" offensive="731" aggressive="456" consistent="529" creative="438" experienced="654"/>
+    <skills stamina="595" dexterity="161" speed="240" tackling="175" passing="377" shooting="302" control="322" accuracy="209" goalkeeping="352" heading="217"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="64081">
+    <personal name="Marco Reggini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="700" risktaking="440" offensive="745" aggressive="523" consistent="446" creative="704" experienced="361"/>
+    <skills stamina="363" dexterity="124" speed="538" tackling="108" passing="224" shooting="233" control="215" accuracy="188" goalkeeping="433" heading="151"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="64082">
+    <personal name="Andrea Paolini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="249" risktaking="343" offensive="514" aggressive="427" consistent="440" creative="406" experienced="622"/>
+    <skills stamina="355" dexterity="491" speed="172" tackling="341" passing="355" shooting="355" control="289" accuracy="330" goalkeeping="56" heading="343"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="64083">
+    <personal name="Roberto Benedettini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="339" risktaking="369" offensive="397" aggressive="494" consistent="398" creative="746" experienced="544"/>
+    <skills stamina="593" dexterity="431" speed="524" tackling="314" passing="255" shooting="335" control="343" accuracy="359" goalkeeping="66" heading="353"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="64084">
+    <personal name="Andrea Cecchetti">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="477" risktaking="421" offensive="477" aggressive="457" consistent="461" creative="702" experienced="615"/>
+    <skills stamina="295" dexterity="604" speed="505" tackling="333" passing="409" shooting="362" control="215" accuracy="302" goalkeeping="43" heading="347"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64085">
+    <personal name="Fabio Rossi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="495" risktaking="422" offensive="474" aggressive="514" consistent="375" creative="642" experienced="497"/>
+    <skills stamina="165" dexterity="534" speed="465" tackling="280" passing="418" shooting="406" control="474" accuracy="317" goalkeeping="68" heading="283"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64086">
+    <personal name="Leonardo Rossi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="507" risktaking="864" offensive="545" aggressive="521" consistent="561" creative="682" experienced="420"/>
+    <skills stamina="247" dexterity="319" speed="305" tackling="356" passing="361" shooting="210" control="334" accuracy="395" goalkeeping="52" heading="370"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64087">
+    <personal name="Stefano Molinari">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="538" risktaking="637" offensive="730" aggressive="248" consistent="880" creative="383" experienced="465"/>
+    <skills stamina="583" dexterity="297" speed="406" tackling="380" passing="390" shooting="240" control="240" accuracy="293" goalkeeping="58" heading="343"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="64088">
+    <personal name="Massimo Tamagnini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="513" risktaking="602" offensive="533" aggressive="576" consistent="464" creative="455" experienced="688"/>
+    <skills stamina="578" dexterity="494" speed="220" tackling="272" passing="396" shooting="361" control="315" accuracy="342" goalkeeping="66" heading="396"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="64089">
+    <personal name="Giuliano Colombini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="699" risktaking="781" offensive="600" aggressive="216" consistent="362" creative="213" experienced="485"/>
+    <skills stamina="564" dexterity="303" speed="370" tackling="397" passing="264" shooting="323" control="310" accuracy="302" goalkeeping="42" heading="200"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64090">
+    <personal name="Francesco Di Buo">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="286" risktaking="435" offensive="206" aggressive="572" consistent="565" creative="682" experienced="403"/>
+    <skills stamina="224" dexterity="111" speed="277" tackling="244" passing="326" shooting="264" control="226" accuracy="347" goalkeeping="48" heading="395"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="64091">
+    <personal name="Maurizio Gasperoni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="474" risktaking="638" offensive="455" aggressive="452" consistent="405" creative="398" experienced="455"/>
+    <skills stamina="215" dexterity="507" speed="176" tackling="363" passing="255" shooting="258" control="396" accuracy="220" goalkeeping="45" heading="225"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64092">
+    <personal name="David Bologna">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="706" risktaking="247" offensive="170" aggressive="434" consistent="709" creative="497" experienced="598"/>
+    <skills stamina="526" dexterity="430" speed="544" tackling="257" passing="305" shooting="380" control="257" accuracy="365" goalkeeping="59" heading="323"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="64093">
+    <personal name="Adriano Forcellini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="663" risktaking="740" offensive="593" aggressive="430" consistent="369" creative="469" experienced="659"/>
+    <skills stamina="201" dexterity="599" speed="114" tackling="327" passing="300" shooting="462" control="379" accuracy="409" goalkeeping="50" heading="401"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64094">
+    <personal name="Gabriele Lotti">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="270" risktaking="424" offensive="351" aggressive="768" consistent="480" creative="483" experienced="534"/>
+    <skills stamina="447" dexterity="358" speed="236" tackling="202" passing="355" shooting="485" control="261" accuracy="251" goalkeeping="49" heading="389"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64095">
+    <personal name="Paolo Guidi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="369" risktaking="476" offensive="428" aggressive="936" consistent="397" creative="155" experienced="576"/>
+    <skills stamina="173" dexterity="451" speed="373" tackling="292" passing="240" shooting="387" control="284" accuracy="329" goalkeeping="41" heading="336"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64096">
+    <personal name="Marco Rondelli">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="748" risktaking="594" offensive="402" aggressive="335" consistent="551" creative="684" experienced="384"/>
+    <skills stamina="527" dexterity="494" speed="612" tackling="199" passing="344" shooting="240" control="252" accuracy="114" goalkeeping="370" heading="159"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="64097">
+    <personal name="Federico Foscolo">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="458" risktaking="665" offensive="424" aggressive="185" consistent="393" creative="658" experienced="318"/>
+    <skills stamina="522" dexterity="482" speed="445" tackling="117" passing="227" shooting="261" control="212" accuracy="203" goalkeeping="319" heading="195"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="64098">
+    <personal name="Sandro Agarici">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="357" risktaking="326" offensive="538" aggressive="612" consistent="731" creative="688" experienced="824"/>
+    <skills stamina="181" dexterity="610" speed="331" tackling="401" passing="407" shooting="334" control="294" accuracy="341" goalkeeping="60" heading="406"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="64099">
+    <personal name="Ivan Grassi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="701" risktaking="557" offensive="661" aggressive="852" consistent="751" creative="706" experienced="287"/>
+    <skills stamina="273" dexterity="223" speed="446" tackling="348" passing="311" shooting="265" control="315" accuracy="240" goalkeeping="55" heading="410"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="64100">
+    <personal name="Stefano Biordi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="348" risktaking="580" offensive="715" aggressive="189" consistent="483" creative="566" experienced="236"/>
+    <skills stamina="568" dexterity="446" speed="398" tackling="318" passing="262" shooting="319" control="339" accuracy="263" goalkeeping="54" heading="375"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="64101">
+    <personal name="Luca Moroni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="641" risktaking="415" offensive="671" aggressive="342" consistent="387" creative="356" experienced="638"/>
+    <skills stamina="543" dexterity="406" speed="651" tackling="374" passing="274" shooting="327" control="396" accuracy="288" goalkeeping="64" heading="318"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64102">
+    <personal name="Agostino Biordi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="296" risktaking="767" offensive="492" aggressive="509" consistent="451" creative="286" experienced="318"/>
+    <skills stamina="453" dexterity="527" speed="276" tackling="251" passing="443" shooting="265" control="412" accuracy="225" goalkeeping="40" heading="288"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64103">
+    <personal name="Stefano Biordi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="193" risktaking="490" offensive="472" aggressive="467" consistent="405" creative="375" experienced="375"/>
+    <skills stamina="481" dexterity="574" speed="135" tackling="379" passing="421" shooting="382" control="323" accuracy="257" goalkeeping="59" heading="399"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64104">
+    <personal name="Fabio Ferrarini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="519" risktaking="441" offensive="481" aggressive="273" consistent="583" creative="696" experienced="369"/>
+    <skills stamina="637" dexterity="660" speed="579" tackling="274" passing="227" shooting="243" control="342" accuracy="384" goalkeeping="48" heading="263"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="64105">
+    <personal name="Fabio Mini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="641" risktaking="516" offensive="279" aggressive="230" consistent="674" creative="441" experienced="836"/>
+    <skills stamina="631" dexterity="305" speed="675" tackling="335" passing="371" shooting="344" control="344" accuracy="259" goalkeeping="67" heading="378"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="64106">
+    <personal name="Daniele Toccaceli">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="402" risktaking="381" offensive="533" aggressive="399" consistent="571" creative="590" experienced="710"/>
+    <skills stamina="440" dexterity="431" speed="366" tackling="380" passing="415" shooting="299" control="284" accuracy="339" goalkeeping="68" heading="259"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="64107">
+    <personal name="Massimo Ghiotto">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="107" risktaking="476" offensive="529" aggressive="415" consistent="398" creative="469" experienced="363"/>
+    <skills stamina="661" dexterity="629" speed="245" tackling="390" passing="273" shooting="369" control="288" accuracy="366" goalkeeping="56" heading="402"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64108">
+    <personal name="Daniel Grassi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="557" risktaking="500" offensive="637" aggressive="518" consistent="722" creative="349" experienced="382"/>
+    <skills stamina="690" dexterity="549" speed="252" tackling="258" passing="385" shooting="396" control="392" accuracy="338" goalkeeping="60" heading="292"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64109">
+    <personal name="Teodoro Bernardini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="396" risktaking="561" offensive="489" aggressive="569" consistent="566" creative="552" experienced="548"/>
+    <skills stamina="499" dexterity="423" speed="410" tackling="264" passing="248" shooting="369" control="392" accuracy="426" goalkeeping="65" heading="473"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64110">
+    <personal name="Floriano Sperindio">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="407" risktaking="418" offensive="570" aggressive="358" consistent="641" creative="596" experienced="521"/>
+    <skills stamina="508" dexterity="382" speed="455" tackling="273" passing="307" shooting="388" control="395" accuracy="252" goalkeeping="50" heading="384"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64111">
+    <personal name="Franco Agarici">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="451" risktaking="577" offensive="707" aggressive="808" consistent="441" creative="187" experienced="599"/>
+    <skills stamina="436" dexterity="220" speed="436" tackling="274" passing="311" shooting="338" control="286" accuracy="458" goalkeeping="37" heading="260"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64112">
+    <personal name="Loris Marani">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="543" risktaking="451" offensive="477" aggressive="445" consistent="300" creative="552" experienced="638"/>
+    <skills stamina="255" dexterity="178" speed="641" tackling="178" passing="244" shooting="380" control="240" accuracy="124" goalkeeping="502" heading="164"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="64113">
+    <personal name="Alfredo Amici">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="582" risktaking="374" offensive="292" aggressive="672" consistent="463" creative="324" experienced="643"/>
+    <skills stamina="196" dexterity="527" speed="406" tackling="128" passing="374" shooting="242" control="311" accuracy="115" goalkeeping="430" heading="111"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="64114">
+    <personal name="Italo Pedini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="462" risktaking="387" offensive="409" aggressive="567" consistent="645" creative="498" experienced="603"/>
+    <skills stamina="394" dexterity="627" speed="288" tackling="437" passing="397" shooting="314" control="436" accuracy="352" goalkeeping="57" heading="325"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="64115">
+    <personal name="Maurizio Casali">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="600" risktaking="419" offensive="667" aggressive="631" consistent="659" creative="607" experienced="683"/>
+    <skills stamina="360" dexterity="392" speed="257" tackling="361" passing="325" shooting="352" control="406" accuracy="387" goalkeeping="36" heading="364"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="64116">
+    <personal name="Alessandro Marzi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="457" risktaking="557" offensive="663" aggressive="405" consistent="722" creative="464" experienced="407"/>
+    <skills stamina="573" dexterity="647" speed="623" tackling="419" passing="277" shooting="414" control="327" accuracy="369" goalkeeping="59" heading="299"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64117">
+    <personal name="Denis Amici">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="514" risktaking="586" offensive="511" aggressive="522" consistent="507" creative="543" experienced="473"/>
+    <skills stamina="347" dexterity="380" speed="391" tackling="430" passing="233" shooting="298" control="391" accuracy="223" goalkeeping="67" heading="338"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64118">
+    <personal name="Roberto Contadini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="467" risktaking="571" offensive="511" aggressive="628" consistent="487" creative="347" experienced="246"/>
+    <skills stamina="291" dexterity="399" speed="156" tackling="317" passing="360" shooting="299" control="257" accuracy="352" goalkeeping="39" heading="373"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64119">
+    <personal name="Davide Podeschi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="547" risktaking="730" offensive="415" aggressive="620" consistent="409" creative="338" experienced="190"/>
+    <skills stamina="332" dexterity="329" speed="554" tackling="274" passing="275" shooting="255" control="418" accuracy="358" goalkeeping="47" heading="445"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="64120">
+    <personal name="Diego Pedini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="416" risktaking="299" offensive="497" aggressive="407" consistent="455" creative="586" experienced="864"/>
+    <skills stamina="395" dexterity="252" speed="512" tackling="399" passing="303" shooting="381" control="365" accuracy="375" goalkeeping="67" heading="363"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="64121">
+    <personal name="Ivan Ugolini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="319" risktaking="705" offensive="410" aggressive="557" consistent="758" creative="486" experienced="454"/>
+    <skills stamina="637" dexterity="444" speed="466" tackling="364" passing="375" shooting="353" control="298" accuracy="271" goalkeeping="40" heading="384"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64122">
+    <personal name="Giacomo Casadei">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="459" risktaking="385" offensive="420" aggressive="496" consistent="478" creative="586" experienced="414"/>
+    <skills stamina="677" dexterity="491" speed="355" tackling="358" passing="264" shooting="310" control="436" accuracy="265" goalkeeping="44" heading="259"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64123">
+    <personal name="Mimmo Protti">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="300" risktaking="431" offensive="760" aggressive="483" consistent="337" creative="475" experienced="858"/>
+    <skills stamina="385" dexterity="429" speed="421" tackling="289" passing="296" shooting="364" control="293" accuracy="340" goalkeeping="67" heading="352"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64124">
+    <personal name="Alfredo Cecchetti">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="312" risktaking="426" offensive="731" aggressive="340" consistent="542" creative="527" experienced="417"/>
+    <skills stamina="528" dexterity="309" speed="523" tackling="308" passing="306" shooting="368" control="240" accuracy="359" goalkeeping="53" heading="330"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64125">
+    <personal name="Pietro Aversa">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="452" risktaking="730" offensive="498" aggressive="887" consistent="366" creative="642" experienced="575"/>
+    <skills stamina="623" dexterity="221" speed="190" tackling="259" passing="385" shooting="355" control="327" accuracy="306" goalkeeping="52" heading="441"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64126">
+    <personal name="Giorgio Cesarini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="629" risktaking="476" offensive="419" aggressive="625" consistent="269" creative="475" experienced="398"/>
+    <skills stamina="381" dexterity="398" speed="255" tackling="239" passing="293" shooting="318" control="272" accuracy="252" goalkeeping="51" heading="276"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64127">
+    <personal name="Giorgio Renzetti">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="399" risktaking="710" offensive="346" aggressive="613" consistent="226" creative="401" experienced="332"/>
+    <skills stamina="230" dexterity="146" speed="236" tackling="235" passing="387" shooting="288" control="226" accuracy="314" goalkeeping="58" heading="329"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64128">
+    <personal name="Marco Pelliccioni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="745" risktaking="474" offensive="161" aggressive="321" consistent="224" creative="436" experienced="440"/>
+    <skills stamina="577" dexterity="528" speed="207" tackling="174" passing="417" shooting="243" control="201" accuracy="202" goalkeeping="370" heading="155"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="64129">
+    <personal name="Gian Luca Amici">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="476" risktaking="262" offensive="664" aggressive="371" consistent="732" creative="411" experienced="745"/>
+    <skills stamina="527" dexterity="648" speed="150" tackling="201" passing="301" shooting="281" control="227" accuracy="125" goalkeeping="388" heading="158"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="64130">
+    <personal name="Manuel Berardi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="316" risktaking="137" offensive="608" aggressive="459" consistent="372" creative="555" experienced="635"/>
+    <skills stamina="240" dexterity="214" speed="368" tackling="337" passing="232" shooting="324" control="359" accuracy="300" goalkeeping="62" heading="284"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="64131">
+    <personal name="Michele Pelliccioni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="334" risktaking="693" offensive="480" aggressive="771" consistent="294" creative="645" experienced="253"/>
+    <skills stamina="427" dexterity="498" speed="492" tackling="327" passing="333" shooting="312" control="377" accuracy="226" goalkeeping="60" heading="335"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="64132">
+    <personal name="Pierangelo Battistini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="283" risktaking="707" offensive="358" aggressive="685" consistent="400" creative="722" experienced="344"/>
+    <skills stamina="165" dexterity="259" speed="253" tackling="308" passing="341" shooting="350" control="258" accuracy="229" goalkeeping="37" heading="290"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64133">
+    <personal name="Jader Vagnini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="580" risktaking="434" offensive="498" aggressive="530" consistent="557" creative="657" experienced="190"/>
+    <skills stamina="371" dexterity="433" speed="148" tackling="364" passing="271" shooting="263" control="330" accuracy="268" goalkeeping="45" heading="310"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64134">
+    <personal name="Matteo Comandini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="497" risktaking="377" offensive="722" aggressive="441" consistent="201" creative="656" experienced="538"/>
+    <skills stamina="482" dexterity="226" speed="288" tackling="233" passing="307" shooting="353" control="341" accuracy="364" goalkeeping="35" heading="345"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64135">
+    <personal name="Alan Mularoni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="495" risktaking="459" offensive="601" aggressive="367" consistent="439" creative="476" experienced="666"/>
+    <skills stamina="157" dexterity="358" speed="262" tackling="278" passing="381" shooting="238" control="240" accuracy="308" goalkeeping="68" heading="370"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="64136">
+    <personal name="Giorgio Migano">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="426" risktaking="282" offensive="491" aggressive="215" consistent="258" creative="654" experienced="758"/>
+    <skills stamina="466" dexterity="679" speed="648" tackling="364" passing="304" shooting="403" control="409" accuracy="256" goalkeeping="50" heading="342"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="64137">
+    <personal name="Roberto Fazzardi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="394" risktaking="429" offensive="239" aggressive="360" consistent="442" creative="726" experienced="544"/>
+    <skills stamina="460" dexterity="354" speed="387" tackling="283" passing="479" shooting="357" control="357" accuracy="370" goalkeeping="64" heading="284"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="64138">
+    <personal name="Stefano Penserini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="188" risktaking="705" offensive="584" aggressive="389" consistent="561" creative="393" experienced="684"/>
+    <skills stamina="308" dexterity="333" speed="132" tackling="404" passing="315" shooting="358" control="257" accuracy="368" goalkeeping="57" heading="385"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64139">
+    <personal name="Palmiro Faetanini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="801" risktaking="370" offensive="845" aggressive="502" consistent="765" creative="575" experienced="409"/>
+    <skills stamina="450" dexterity="612" speed="569" tackling="400" passing="253" shooting="227" control="306" accuracy="249" goalkeeping="57" heading="210"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64140">
+    <personal name="Michele Serra">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="613" risktaking="685" offensive="539" aggressive="739" consistent="796" creative="456" experienced="440"/>
+    <skills stamina="547" dexterity="233" speed="437" tackling="273" passing="345" shooting="379" control="340" accuracy="252" goalkeeping="64" heading="328"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64141">
+    <personal name="Gilberto Gasperono">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="604" risktaking="532" offensive="801" aggressive="409" consistent="481" creative="845" experienced="524"/>
+    <skills stamina="484" dexterity="550" speed="663" tackling="265" passing="364" shooting="248" control="326" accuracy="380" goalkeeping="47" heading="371"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64142">
+    <personal name="Luigi Protti">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="438" risktaking="446" offensive="490" aggressive="430" consistent="304" creative="688" experienced="325"/>
+    <skills stamina="237" dexterity="459" speed="609" tackling="297" passing="231" shooting="406" control="227" accuracy="270" goalkeeping="48" heading="453"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64143">
+    <personal name="William Bugli">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="237" risktaking="439" offensive="670" aggressive="527" consistent="423" creative="371" experienced="544"/>
+    <skills stamina="495" dexterity="515" speed="386" tackling="237" passing="342" shooting="365" control="363" accuracy="384" goalkeeping="57" heading="261"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64144">
+    <personal name="Matteo Quadroni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="503" risktaking="677" offensive="692" aggressive="528" consistent="489" creative="543" experienced="286"/>
+    <skills stamina="215" dexterity="566" speed="441" tackling="195" passing="285" shooting="422" control="194" accuracy="209" goalkeeping="372" heading="179"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="64145">
+    <personal name="Denis Venerucci">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="540" risktaking="425" offensive="457" aggressive="469" consistent="380" creative="256" experienced="495"/>
+    <skills stamina="344" dexterity="319" speed="356" tackling="194" passing="226" shooting="381" control="233" accuracy="111" goalkeeping="444" heading="147"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="64146">
+    <personal name="Massimo Mariotti">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="885" risktaking="620" offensive="595" aggressive="650" consistent="477" creative="553" experienced="559"/>
+    <skills stamina="344" dexterity="497" speed="189" tackling="450" passing="280" shooting="387" control="301" accuracy="388" goalkeeping="57" heading="234"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="64147">
+    <personal name="Michele Leoni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="656" risktaking="525" offensive="526" aggressive="672" consistent="753" creative="618" experienced="429"/>
+    <skills stamina="591" dexterity="332" speed="477" tackling="419" passing="318" shooting="403" control="345" accuracy="408" goalkeeping="52" heading="413"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="64148">
+    <personal name="Gian Luca Borgagni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="617" risktaking="456" offensive="578" aggressive="589" consistent="521" creative="506" experienced="394"/>
+    <skills stamina="298" dexterity="250" speed="164" tackling="386" passing="331" shooting="333" control="380" accuracy="393" goalkeeping="43" heading="333"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64149">
+    <personal name="Giovanni Chiaruzzi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="606" risktaking="434" offensive="487" aggressive="485" consistent="501" creative="564" experienced="569"/>
+    <skills stamina="473" dexterity="372" speed="507" tackling="263" passing="348" shooting="347" control="347" accuracy="427" goalkeeping="66" heading="232"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="64150">
+    <personal name="Maurizio Gasperoni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="532" risktaking="420" offensive="525" aggressive="663" consistent="459" creative="285" experienced="282"/>
+    <skills stamina="362" dexterity="561" speed="612" tackling="301" passing="407" shooting="319" control="417" accuracy="316" goalkeeping="63" heading="377"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="64151">
+    <personal name="Ivan Matteoni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="332" risktaking="608" offensive="494" aggressive="330" consistent="401" creative="255" experienced="700"/>
+    <skills stamina="592" dexterity="640" speed="557" tackling="314" passing="362" shooting="396" control="376" accuracy="296" goalkeeping="49" heading="314"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="64152">
+    <personal name="Loris Baldacci">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="588" risktaking="575" offensive="504" aggressive="526" consistent="460" creative="781" experienced="425"/>
+    <skills stamina="493" dexterity="419" speed="548" tackling="242" passing="412" shooting="269" control="425" accuracy="391" goalkeeping="49" heading="231"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="64153">
+    <personal name="Gabriele Capicchioni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="553" risktaking="788" offensive="733" aggressive="606" consistent="333" creative="651" experienced="387"/>
+    <skills stamina="151" dexterity="155" speed="558" tackling="263" passing="299" shooting="267" control="243" accuracy="324" goalkeeping="46" heading="387"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64154">
+    <personal name="Massimo Dolcini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="741" risktaking="298" offensive="653" aggressive="313" consistent="801" creative="406" experienced="648"/>
+    <skills stamina="232" dexterity="591" speed="157" tackling="440" passing="378" shooting="403" control="348" accuracy="365" goalkeeping="65" heading="345"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64155">
+    <personal name="Jader Matteoni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="464" risktaking="379" offensive="527" aggressive="532" consistent="444" creative="408" experienced="514"/>
+    <skills stamina="221" dexterity="335" speed="351" tackling="322" passing="399" shooting="243" control="346" accuracy="251" goalkeeping="48" heading="377"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64156">
+    <personal name="Andrea Ugolini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="474" risktaking="477" offensive="683" aggressive="519" consistent="295" creative="380" experienced="563"/>
+    <skills stamina="650" dexterity="184" speed="382" tackling="391" passing="318" shooting="463" control="394" accuracy="456" goalkeeping="60" heading="388"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64157">
+    <personal name="Marco Zanotti">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="369" risktaking="415" offensive="292" aggressive="524" consistent="556" creative="657" experienced="603"/>
+    <skills stamina="201" dexterity="203" speed="342" tackling="297" passing="417" shooting="498" control="415" accuracy="403" goalkeeping="51" heading="284"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64158">
+    <personal name="Danilo Muscioni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="489" risktaking="780" offensive="491" aggressive="452" consistent="717" creative="701" experienced="535"/>
+    <skills stamina="259" dexterity="113" speed="519" tackling="300" passing="255" shooting="238" control="354" accuracy="410" goalkeeping="39" heading="279"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64159">
+    <personal name="Gianluca Gualtieri">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="765" risktaking="487" offensive="540" aggressive="520" consistent="626" creative="720" experienced="843"/>
+    <skills stamina="218" dexterity="457" speed="379" tackling="378" passing="250" shooting="411" control="347" accuracy="410" goalkeeping="45" heading="378"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64160">
+    <personal name="Loris Volpinari">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="305" risktaking="421" offensive="471" aggressive="305" consistent="419" creative="491" experienced="482"/>
+    <skills stamina="104" dexterity="643" speed="324" tackling="134" passing="318" shooting="241" control="292" accuracy="107" goalkeeping="406" heading="169"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="64161">
+    <personal name="Tommaso Rossini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="526" risktaking="488" offensive="440" aggressive="627" consistent="349" creative="382" experienced="322"/>
+    <skills stamina="279" dexterity="485" speed="615" tackling="117" passing="393" shooting="344" control="204" accuracy="156" goalkeeping="420" heading="187"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="64162">
+    <personal name="Marco Capicchioni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="525" risktaking="428" offensive="686" aggressive="229" consistent="632" creative="604" experienced="408"/>
+    <skills stamina="426" dexterity="355" speed="441" tackling="244" passing="239" shooting="400" control="381" accuracy="287" goalkeeping="44" heading="309"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="64163">
+    <personal name="Alessandro Michelotti">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="197" risktaking="362" offensive="627" aggressive="349" consistent="292" creative="368" experienced="447"/>
+    <skills stamina="485" dexterity="668" speed="633" tackling="310" passing="466" shooting="379" control="472" accuracy="309" goalkeeping="74" heading="298"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="64164">
+    <personal name="Simone Dalla Balda">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="377" risktaking="402" offensive="380" aggressive="370" consistent="133" creative="618" experienced="531"/>
+    <skills stamina="280" dexterity="409" speed="571" tackling="292" passing="310" shooting="242" control="319" accuracy="287" goalkeeping="50" heading="268"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64165">
+    <personal name="Danilo De Biagi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="739" risktaking="384" offensive="487" aggressive="627" consistent="789" creative="809" experienced="196"/>
+    <skills stamina="458" dexterity="526" speed="527" tackling="429" passing="233" shooting="269" control="296" accuracy="281" goalkeeping="60" heading="309"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64166">
+    <personal name="Bruno Romulad">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="490" risktaking="625" offensive="697" aggressive="453" consistent="470" creative="588" experienced="260"/>
+    <skills stamina="579" dexterity="527" speed="368" tackling="380" passing="334" shooting="228" control="302" accuracy="329" goalkeeping="56" heading="351"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64167">
+    <personal name="Alessandro Simoncini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="428" risktaking="693" offensive="393" aggressive="527" consistent="319" creative="554" experienced="429"/>
+    <skills stamina="212" dexterity="252" speed="613" tackling="219" passing="230" shooting="274" control="436" accuracy="376" goalkeeping="55" heading="256"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="64168">
+    <personal name="William Santi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="523" risktaking="613" offensive="263" aggressive="753" consistent="528" creative="398" experienced="291"/>
+    <skills stamina="199" dexterity="380" speed="545" tackling="306" passing="227" shooting="319" control="371" accuracy="406" goalkeeping="39" heading="246"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="64169">
+    <personal name="Daniele Fantini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="558" risktaking="565" offensive="617" aggressive="358" consistent="642" creative="364" experienced="464"/>
+    <skills stamina="468" dexterity="496" speed="500" tackling="413" passing="380" shooting="241" control="287" accuracy="301" goalkeeping="57" heading="416"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64170">
+    <personal name="Loriano Frisoni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="713" risktaking="295" offensive="457" aggressive="562" consistent="499" creative="479" experienced="395"/>
+    <skills stamina="492" dexterity="176" speed="643" tackling="396" passing="375" shooting="257" control="285" accuracy="228" goalkeeping="65" heading="254"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="64171">
+    <personal name="Andrea Gualtieri">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="629" risktaking="584" offensive="412" aggressive="560" consistent="109" creative="521" experienced="373"/>
+    <skills stamina="304" dexterity="330" speed="329" tackling="401" passing="260" shooting="324" control="408" accuracy="228" goalkeeping="57" heading="367"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64172">
+    <personal name="Franco Santi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="706" risktaking="574" offensive="803" aggressive="394" consistent="235" creative="604" experienced="556"/>
+    <skills stamina="443" dexterity="333" speed="123" tackling="423" passing="352" shooting="204" control="347" accuracy="319" goalkeeping="60" heading="305"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64173">
+    <personal name="Davide Gualtieri">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="509" risktaking="724" offensive="631" aggressive="390" consistent="460" creative="910" experienced="429"/>
+    <skills stamina="510" dexterity="275" speed="352" tackling="286" passing="255" shooting="385" control="367" accuracy="444" goalkeeping="67" heading="285"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64174">
+    <personal name="Andrea Dalla Balda">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="726" risktaking="361" offensive="495" aggressive="401" consistent="575" creative="437" experienced="681"/>
+    <skills stamina="446" dexterity="284" speed="290" tackling="229" passing="235" shooting="421" control="341" accuracy="419" goalkeeping="64" heading="397"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64175">
+    <personal name="Aldo Capicchioni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="416" risktaking="771" offensive="393" aggressive="459" consistent="758" creative="683" experienced="398"/>
+    <skills stamina="626" dexterity="412" speed="195" tackling="412" passing="273" shooting="451" control="222" accuracy="293" goalkeeping="60" heading="321"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64176">
+    <personal name="Vincenzo Barulli">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="519" risktaking="438" offensive="439" aggressive="747" consistent="720" creative="619" experienced="433"/>
+    <skills stamina="155" dexterity="217" speed="568" tackling="191" passing="244" shooting="233" control="257" accuracy="186" goalkeeping="368" heading="207"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="64177">
+    <personal name="Stefano Piatelli">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="526" risktaking="614" offensive="180" aggressive="533" consistent="285" creative="421" experienced="213"/>
+    <skills stamina="524" dexterity="259" speed="593" tackling="118" passing="383" shooting="339" control="316" accuracy="195" goalkeeping="424" heading="115"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="64178">
+    <personal name="Pier Luigi Lividini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="253" risktaking="383" offensive="205" aggressive="516" consistent="652" creative="300" experienced="459"/>
+    <skills stamina="285" dexterity="202" speed="172" tackling="250" passing="441" shooting="343" control="322" accuracy="366" goalkeeping="45" heading="259"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="64179">
+    <personal name="Marco Guidi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="514" risktaking="495" offensive="162" aggressive="521" consistent="491" creative="126" experienced="904"/>
+    <skills stamina="241" dexterity="301" speed="620" tackling="310" passing="331" shooting="342" control="424" accuracy="335" goalkeeping="55" heading="285"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="64180">
+    <personal name="Corrado Casadei">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="505" risktaking="512" offensive="600" aggressive="563" consistent="470" creative="437" experienced="330"/>
+    <skills stamina="641" dexterity="639" speed="643" tackling="344" passing="424" shooting="290" control="403" accuracy="370" goalkeeping="40" heading="377"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="64181">
+    <personal name="Fabrizio Francioni">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="619" risktaking="594" offensive="626" aggressive="384" consistent="529" creative="258" experienced="411"/>
+    <skills stamina="479" dexterity="364" speed="527" tackling="249" passing="269" shooting="419" control="452" accuracy="347" goalkeeping="43" heading="341"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="64182">
+    <personal name="Fabrizio Muccioli">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="670" risktaking="390" offensive="311" aggressive="140" consistent="600" creative="584" experienced="429"/>
+    <skills stamina="147" dexterity="502" speed="395" tackling="378" passing="439" shooting="376" control="307" accuracy="338" goalkeeping="61" heading="388"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="64183">
+    <personal name="Fabrizio Bindi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="401" risktaking="207" offensive="551" aggressive="194" consistent="663" creative="484" experienced="410"/>
+    <skills stamina="406" dexterity="528" speed="335" tackling="370" passing="389" shooting="387" control="247" accuracy="338" goalkeeping="37" heading="258"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="64184">
+    <personal name="Moris Valentini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="675" risktaking="678" offensive="412" aggressive="663" consistent="474" creative="581" experienced="73"/>
+    <skills stamina="385" dexterity="526" speed="450" tackling="249" passing="287" shooting="344" control="270" accuracy="339" goalkeeping="41" heading="411"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="64185">
+    <personal name="Christian Bucci">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="518" risktaking="531" offensive="441" aggressive="374" consistent="470" creative="618" experienced="475"/>
+    <skills stamina="476" dexterity="167" speed="555" tackling="442" passing="250" shooting="406" control="321" accuracy="255" goalkeeping="54" heading="408"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="64186">
+    <personal name="Gabriele Bucci">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="604" risktaking="479" offensive="646" aggressive="473" consistent="439" creative="419" experienced="507"/>
+    <skills stamina="348" dexterity="644" speed="437" tackling="331" passing="399" shooting="359" control="368" accuracy="244" goalkeeping="67" heading="266"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64187">
+    <personal name="Simone Guidi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="249" risktaking="467" offensive="265" aggressive="600" consistent="552" creative="544" experienced="661"/>
+    <skills stamina="454" dexterity="255" speed="559" tackling="325" passing="393" shooting="379" control="224" accuracy="256" goalkeeping="48" heading="313"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64188">
+    <personal name="Maurizio Tamagnini">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="573" risktaking="718" offensive="436" aggressive="482" consistent="467" creative="468" experienced="422"/>
+    <skills stamina="158" dexterity="466" speed="230" tackling="344" passing="344" shooting="241" control="260" accuracy="374" goalkeeping="42" heading="393"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="64189">
+    <personal name="Vladimiro Selva">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="249" risktaking="475" offensive="500" aggressive="785" consistent="354" creative="722" experienced="505"/>
+    <skills stamina="367" dexterity="468" speed="208" tackling="220" passing="382" shooting="466" control="251" accuracy="374" goalkeeping="57" heading="337"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64190">
+    <personal name="Evert Zavoli">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="460" risktaking="383" offensive="541" aggressive="506" consistent="552" creative="611" experienced="556"/>
+    <skills stamina="168" dexterity="410" speed="534" tackling="373" passing="331" shooting="295" control="373" accuracy="363" goalkeeping="55" heading="240"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="64191">
+    <personal name="Eric De Biagi">
+      <appearance value="0"/>
+      <nationality value="San Marino"/>
+    </personal>
+    <personality active="500" risktaking="540" offensive="459" aggressive="603" consistent="519" creative="557" experienced="344"/>
+    <skills stamina="611" dexterity="315" speed="227" tackling="271" passing="235" shooting="291" control="244" accuracy="443" goalkeeping="38" heading="383"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+</Players>

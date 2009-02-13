@@ -1,0 +1,2019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="12000">
+    <personal name="Sofronis Avgousti">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="497" risktaking="431" offensive="67" aggressive="679" consistent="458" creative="180" experienced="436"/>
+    <skills stamina="510" dexterity="460" speed="648" tackling="211" passing="390" shooting="378" control="220" accuracy="190" goalkeeping="376" heading="125"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="12001">
+    <personal name="Peter Hodulik">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="472" risktaking="463" offensive="354" aggressive="711" consistent="359" creative="264" experienced="661"/>
+    <skills stamina="492" dexterity="492" speed="335" tackling="167" passing="417" shooting="292" control="207" accuracy="185" goalkeeping="329" heading="180"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12002">
+    <personal name="Jose Rey">
+      <appearance value="1"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="434" risktaking="627" offensive="459" aggressive="354" consistent="451" creative="388" experienced="336"/>
+    <skills stamina="446" dexterity="245" speed="735" tackling="512" passing="493" shooting="511" control="547" accuracy="418" goalkeeping="93" heading="498"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12003">
+    <personal name="Emmanuel Pappoe">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="515" risktaking="666" offensive="512" aggressive="593" consistent="533" creative="465" experienced="619"/>
+    <skills stamina="735" dexterity="569" speed="360" tackling="421" passing="568" shooting="511" control="461" accuracy="544" goalkeeping="87" heading="412"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12004">
+    <personal name="Azubike Oliseh">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="527" risktaking="304" offensive="503" aggressive="651" consistent="670" creative="537" experienced="779"/>
+    <skills stamina="661" dexterity="723" speed="270" tackling="454" passing="522" shooting="412" control="335" accuracy="523" goalkeeping="66" heading="497"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="12005">
+    <personal name="Paraskevas Christou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="615" risktaking="557" offensive="530" aggressive="341" consistent="527" creative="363" experienced="557"/>
+    <skills stamina="304" dexterity="493" speed="435" tackling="408" passing="420" shooting="357" control="303" accuracy="271" goalkeeping="60" heading="272"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12006">
+    <personal name="Pavel Pergl">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="791" risktaking="475" offensive="516" aggressive="444" consistent="665" creative="340" experienced="658"/>
+    <skills stamina="698" dexterity="204" speed="587" tackling="314" passing="435" shooting="395" control="299" accuracy="414" goalkeeping="58" heading="340"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12007">
+    <personal name="Ivica Franciscovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="391" risktaking="591" offensive="454" aggressive="454" consistent="657" creative="522" experienced="536"/>
+    <skills stamina="490" dexterity="362" speed="569" tackling="312" passing="368" shooting="433" control="428" accuracy="297" goalkeeping="72" heading="438"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="12008">
+    <personal name="Hector Gonzalez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="618" risktaking="911" offensive="530" aggressive="206" consistent="461" creative="542" experienced="351"/>
+    <skills stamina="500" dexterity="553" speed="612" tackling="483" passing="586" shooting="433" control="495" accuracy="465" goalkeeping="78" heading="529"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12009">
+    <personal name="Tininho">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="453" risktaking="386" offensive="731" aggressive="589" consistent="500" creative="577" experienced="436"/>
+    <skills stamina="461" dexterity="502" speed="464" tackling="407" passing="429" shooting="509" control="450" accuracy="393" goalkeeping="60" heading="390"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12010">
+    <personal name="Charis Nikolaou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="612" risktaking="742" offensive="579" aggressive="587" consistent="791" creative="432" experienced="645"/>
+    <skills stamina="159" dexterity="382" speed="561" tackling="288" passing="405" shooting="375" control="490" accuracy="328" goalkeeping="62" heading="370"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12011">
+    <personal name="Nordin Wooter">
+      <appearance value="1"/>
+      <nationality value="The Netherlands"/>
+    </personal>
+    <personality active="579" risktaking="545" offensive="387" aggressive="249" consistent="476" creative="399" experienced="483"/>
+    <skills stamina="411" dexterity="349" speed="362" tackling="509" passing="455" shooting="465" control="426" accuracy="537" goalkeeping="89" heading="492"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="12012">
+    <personal name="Esad Razic">
+      <appearance value="0"/>
+      <nationality value="Sweden"/>
+    </personal>
+    <personality active="434" risktaking="377" offensive="627" aggressive="567" consistent="475" creative="606" experienced="406"/>
+    <skills stamina="498" dexterity="315" speed="345" tackling="506" passing="423" shooting="334" control="432" accuracy="348" goalkeeping="79" heading="396"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="12013">
+    <personal name="Shingayi Kaondera">
+      <appearance value="1"/>
+      <nationality value="Zimbabwe"/>
+    </personal>
+    <personality active="777" risktaking="555" offensive="624" aggressive="595" consistent="439" creative="436" experienced="820"/>
+    <skills stamina="339" dexterity="259" speed="452" tackling="487" passing="440" shooting="453" control="506" accuracy="392" goalkeeping="75" heading="384"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12014">
+    <personal name="Edgaras Jankauskas">
+      <appearance value="8"/>
+      <nationality value="Lithuania"/>
+    </personal>
+    <personality active="469" risktaking="379" offensive="726" aggressive="623" consistent="800" creative="442" experienced="517"/>
+    <skills stamina="298" dexterity="607" speed="654" tackling="558" passing="429" shooting="484" control="363" accuracy="522" goalkeeping="83" heading="488"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12015">
+    <personal name="Klimenti Tsitaishvili">
+      <appearance value="0"/>
+      <nationality value="Georgia"/>
+    </personal>
+    <personality active="464" risktaking="708" offensive="260" aggressive="533" consistent="594" creative="709" experienced="99"/>
+    <skills stamina="495" dexterity="307" speed="625" tackling="321" passing="303" shooting="524" control="409" accuracy="473" goalkeeping="43" heading="369"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12016">
+    <personal name="Kleopas Giannou">
+      <appearance value="0"/>
+      <nationality value="Greece"/>
+    </personal>
+    <personality active="435" risktaking="301" offensive="340" aggressive="504" consistent="693" creative="470" experienced="637"/>
+    <skills stamina="478" dexterity="409" speed="575" tackling="246" passing="442" shooting="480" control="288" accuracy="254" goalkeeping="581" heading="179"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="12017">
+    <personal name="Oliver Kovacevic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="326" risktaking="421" offensive="325" aggressive="388" consistent="445" creative="629" experienced="601"/>
+    <skills stamina="257" dexterity="658" speed="554" tackling="173" passing="458" shooting="471" control="391" accuracy="251" goalkeeping="409" heading="225"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12018">
+    <personal name="Luciano De Bruno">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="495" risktaking="602" offensive="451" aggressive="322" consistent="837" creative="517" experienced="443"/>
+    <skills stamina="415" dexterity="569" speed="428" tackling="596" passing="576" shooting="442" control="405" accuracy="480" goalkeeping="92" heading="531"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12019">
+    <personal name="Caibi">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="463" risktaking="600" offensive="753" aggressive="384" consistent="433" creative="238" experienced="576"/>
+    <skills stamina="586" dexterity="302" speed="649" tackling="524" passing="446" shooting="452" control="441" accuracy="466" goalkeeping="69" heading="470"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12020">
+    <personal name="Laurent Fassotte">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="384" risktaking="377" offensive="723" aggressive="409" consistent="363" creative="610" experienced="386"/>
+    <skills stamina="522" dexterity="469" speed="513" tackling="451" passing="277" shooting="422" control="337" accuracy="381" goalkeeping="55" heading="453"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12021">
+    <personal name="Liasos Louka">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="520" risktaking="469" offensive="525" aggressive="383" consistent="461" creative="579" experienced="390"/>
+    <skills stamina="248" dexterity="442" speed="519" tackling="518" passing="432" shooting="276" control="336" accuracy="309" goalkeeping="67" heading="432"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12022">
+    <personal name="Giannakis Sampson">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="567" risktaking="410" offensive="674" aggressive="479" consistent="623" creative="591" experienced="399"/>
+    <skills stamina="554" dexterity="664" speed="197" tackling="367" passing="390" shooting="286" control="268" accuracy="382" goalkeeping="54" heading="340"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12023">
+    <personal name="Helio Roque">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="531" risktaking="601" offensive="653" aggressive="763" consistent="367" creative="507" experienced="530"/>
+    <skills stamina="599" dexterity="525" speed="343" tackling="311" passing="295" shooting="431" control="341" accuracy="266" goalkeeping="62" heading="399"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12024">
+    <personal name="Petros Filaniotis">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="338" risktaking="448" offensive="516" aggressive="645" consistent="468" creative="450" experienced="548"/>
+    <skills stamina="590" dexterity="366" speed="675" tackling="359" passing="393" shooting="436" control="343" accuracy="459" goalkeeping="57" heading="463"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="12025">
+    <personal name="Simos Krassas">
+      <appearance value="8"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="621" risktaking="628" offensive="314" aggressive="731" consistent="784" creative="492" experienced="440"/>
+    <skills stamina="743" dexterity="311" speed="612" tackling="599" passing="449" shooting="441" control="600" accuracy="468" goalkeeping="95" heading="574"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12026">
+    <personal name="Igor Musa">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="584" risktaking="352" offensive="707" aggressive="387" consistent="371" creative="635" experienced="629"/>
+    <skills stamina="408" dexterity="294" speed="388" tackling="546" passing="475" shooting="447" control="531" accuracy="567" goalkeeping="85" heading="445"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12027">
+    <personal name="Tiquinho">
+      <appearance value="1"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="644" risktaking="394" offensive="719" aggressive="536" consistent="297" creative="334" experienced="323"/>
+    <skills stamina="290" dexterity="150" speed="384" tackling="407" passing="364" shooting="286" control="342" accuracy="272" goalkeeping="58" heading="292"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12028">
+    <personal name="Dusan Kerkez">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="476" risktaking="746" offensive="349" aggressive="616" consistent="590" creative="469" experienced="293"/>
+    <skills stamina="540" dexterity="514" speed="594" tackling="621" passing="415" shooting="415" control="569" accuracy="476" goalkeeping="69" heading="466"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12029">
+    <personal name="Jairo Castillo">
+      <appearance value="1"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="408" risktaking="482" offensive="468" aggressive="588" consistent="504" creative="225" experienced="494"/>
+    <skills stamina="456" dexterity="541" speed="597" tackling="365" passing="410" shooting="523" control="451" accuracy="475" goalkeeping="62" heading="419"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12030">
+    <personal name="Seyni N'diaye">
+      <appearance value="1"/>
+      <nationality value="Senegal"/>
+    </personal>
+    <personality active="485" risktaking="543" offensive="641" aggressive="375" consistent="355" creative="295" experienced="584"/>
+    <skills stamina="669" dexterity="393" speed="526" tackling="432" passing="346" shooting="477" control="344" accuracy="268" goalkeeping="68" heading="410"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12031">
+    <personal name="Nemanja Corovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="146" risktaking="561" offensive="828" aggressive="712" consistent="551" creative="577" experienced="503"/>
+    <skills stamina="535" dexterity="568" speed="557" tackling="401" passing="267" shooting="355" control="323" accuracy="338" goalkeeping="69" heading="324"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12032">
+    <personal name="Adam Vezer">
+      <appearance value="0"/>
+      <nationality value="Hungary"/>
+    </personal>
+    <personality active="301" risktaking="563" offensive="722" aggressive="310" consistent="628" creative="545" experienced="624"/>
+    <skills stamina="249" dexterity="623" speed="522" tackling="144" passing="293" shooting="433" control="216" accuracy="128" goalkeeping="389" heading="126"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12033">
+    <personal name="Athos Chrysostomou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="457" risktaking="746" offensive="600" aggressive="321" consistent="488" creative="532" experienced="566"/>
+    <skills stamina="511" dexterity="141" speed="642" tackling="172" passing="401" shooting="326" control="224" accuracy="186" goalkeeping="427" heading="154"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12034">
+    <personal name="Daniel Balan">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="521" risktaking="428" offensive="821" aggressive="999" consistent="523" creative="503" experienced="632"/>
+    <skills stamina="349" dexterity="454" speed="453" tackling="289" passing="354" shooting="300" control="417" accuracy="445" goalkeeping="66" heading="399"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12035">
+    <personal name="Andres Rouga">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="347" risktaking="282" offensive="517" aggressive="198" consistent="458" creative="514" experienced="357"/>
+    <skills stamina="271" dexterity="534" speed="303" tackling="617" passing="554" shooting="523" control="617" accuracy="435" goalkeeping="78" heading="526"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12036">
+    <personal name="Adrian Iordache">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="399" risktaking="412" offensive="613" aggressive="426" consistent="616" creative="455" experienced="455"/>
+    <skills stamina="156" dexterity="207" speed="433" tackling="400" passing="429" shooting="283" control="410" accuracy="358" goalkeeping="68" heading="336"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12037">
+    <personal name="Alex Von Schwedler">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="498" risktaking="383" offensive="400" aggressive="408" consistent="771" creative="682" experienced="607"/>
+    <skills stamina="297" dexterity="639" speed="650" tackling="512" passing="642" shooting="484" control="547" accuracy="616" goalkeeping="75" heading="542"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12038">
+    <personal name="Nandinho">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="594" risktaking="367" offensive="186" aggressive="606" consistent="602" creative="282" experienced="421"/>
+    <skills stamina="349" dexterity="226" speed="474" tackling="472" passing="470" shooting="435" control="440" accuracy="404" goalkeeping="52" heading="403"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12039">
+    <personal name="Miroslav Milosevic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="404" risktaking="437" offensive="548" aggressive="408" consistent="276" creative="290" experienced="535"/>
+    <skills stamina="608" dexterity="304" speed="538" tackling="376" passing="332" shooting="410" control="365" accuracy="310" goalkeeping="73" heading="362"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12040">
+    <personal name="Clayton">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="435" risktaking="479" offensive="565" aggressive="767" consistent="566" creative="149" experienced="565"/>
+    <skills stamina="179" dexterity="601" speed="388" tackling="428" passing="493" shooting="316" control="342" accuracy="437" goalkeeping="55" heading="367"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="12041">
+    <personal name="Hernani">
+      <appearance value="1"/>
+      <nationality value="Unknown"/>
+    </personal>
+    <personality active="822" risktaking="383" offensive="527" aggressive="170" consistent="353" creative="506" experienced="368"/>
+    <skills stamina="285" dexterity="554" speed="217" tackling="372" passing="497" shooting="504" control="389" accuracy="397" goalkeeping="83" heading="471"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12042">
+    <personal name="Chainho">
+      <appearance value="1"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="613" risktaking="605" offensive="364" aggressive="485" consistent="522" creative="475" experienced="362"/>
+    <skills stamina="688" dexterity="388" speed="210" tackling="384" passing="393" shooting="434" control="414" accuracy="465" goalkeeping="63" heading="367"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12043">
+    <personal name="Jocivalter">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="512" risktaking="653" offensive="494" aggressive="192" consistent="471" creative="539" experienced="406"/>
+    <skills stamina="685" dexterity="576" speed="185" tackling="533" passing="431" shooting="392" control="501" accuracy="538" goalkeeping="58" heading="445"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12044">
+    <personal name="Antonis Pagani">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="323" risktaking="616" offensive="360" aggressive="465" consistent="503" creative="340" experienced="723"/>
+    <skills stamina="302" dexterity="363" speed="269" tackling="427" passing="281" shooting="267" control="346" accuracy="279" goalkeeping="62" heading="282"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="12045">
+    <personal name="Cheik Gadiaga">
+      <appearance value="1"/>
+      <nationality value="Senegal"/>
+    </personal>
+    <personality active="468" risktaking="710" offensive="601" aggressive="239" consistent="301" creative="454" experienced="633"/>
+    <skills stamina="209" dexterity="672" speed="666" tackling="388" passing="453" shooting="425" control="380" accuracy="459" goalkeeping="75" heading="432"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12046">
+    <personal name="Soares">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="272" risktaking="489" offensive="287" aggressive="588" consistent="645" creative="373" experienced="381"/>
+    <skills stamina="369" dexterity="149" speed="313" tackling="278" passing="363" shooting="480" control="451" accuracy="493" goalkeeping="68" heading="375"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12047">
+    <personal name="Athos Angeli">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="587" risktaking="406" offensive="483" aggressive="367" consistent="754" creative="626" experienced="750"/>
+    <skills stamina="234" dexterity="128" speed="269" tackling="288" passing="340" shooting="521" control="396" accuracy="427" goalkeeping="66" heading="287"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12048">
+    <personal name="Arjan Beqaj">
+      <appearance value="0"/>
+      <nationality value="Albania"/>
+    </personal>
+    <personality active="494" risktaking="691" offensive="526" aggressive="485" consistent="504" creative="254" experienced="602"/>
+    <skills stamina="223" dexterity="331" speed="221" tackling="280" passing="443" shooting="478" control="363" accuracy="201" goalkeeping="599" heading="285"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12049">
+    <personal name="Zoltan Nagy">
+      <appearance value="0"/>
+      <nationality value="Hungary"/>
+    </personal>
+    <personality active="297" risktaking="431" offensive="674" aggressive="805" consistent="619" creative="163" experienced="319"/>
+    <skills stamina="528" dexterity="120" speed="626" tackling="153" passing="365" shooting="266" control="225" accuracy="152" goalkeeping="313" heading="207"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12050">
+    <personal name="Savvas Poursaitis">
+      <appearance value="0"/>
+      <nationality value="Greece"/>
+    </personal>
+    <personality active="598" risktaking="510" offensive="798" aggressive="385" consistent="618" creative="203" experienced="347"/>
+    <skills stamina="567" dexterity="564" speed="409" tackling="337" passing="477" shooting="454" control="357" accuracy="379" goalkeeping="80" heading="377"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12051">
+    <personal name="Konstantinos Louboutis">
+      <appearance value="0"/>
+      <nationality value="Greece"/>
+    </personal>
+    <personality active="398" risktaking="347" offensive="432" aggressive="690" consistent="702" creative="518" experienced="260"/>
+    <skills stamina="631" dexterity="401" speed="490" tackling="503" passing="424" shooting="568" control="569" accuracy="510" goalkeeping="87" heading="567"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12052">
+    <personal name="Loukas Louka">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="572" risktaking="564" offensive="278" aggressive="451" consistent="351" creative="702" experienced="542"/>
+    <skills stamina="416" dexterity="471" speed="616" tackling="385" passing="400" shooting="509" control="497" accuracy="427" goalkeeping="75" heading="493"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12053">
+    <personal name="Labros Labrou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="736" risktaking="445" offensive="376" aggressive="320" consistent="620" creative="445" experienced="741"/>
+    <skills stamina="651" dexterity="348" speed="718" tackling="503" passing="531" shooting="436" control="480" accuracy="385" goalkeeping="81" heading="409"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12054">
+    <personal name="Andreas Konstantinou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="441" risktaking="571" offensive="358" aggressive="429" consistent="383" creative="265" experienced="430"/>
+    <skills stamina="677" dexterity="541" speed="398" tackling="407" passing="469" shooting="413" control="462" accuracy="486" goalkeeping="71" heading="421"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="12055">
+    <personal name="Fabinho">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="413" risktaking="610" offensive="697" aggressive="533" consistent="315" creative="672" experienced="309"/>
+    <skills stamina="332" dexterity="426" speed="540" tackling="464" passing="372" shooting="323" control="393" accuracy="371" goalkeeping="75" heading="393"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="12056">
+    <personal name="Boaventura">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="693" risktaking="670" offensive="558" aggressive="513" consistent="377" creative="519" experienced="487"/>
+    <skills stamina="220" dexterity="617" speed="631" tackling="434" passing="390" shooting="527" control="469" accuracy="409" goalkeeping="58" heading="364"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12057">
+    <personal name="Luis Loureiro">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="579" risktaking="836" offensive="440" aggressive="342" consistent="360" creative="90" experienced="538"/>
+    <skills stamina="256" dexterity="713" speed="684" tackling="551" passing="584" shooting="539" control="660" accuracy="523" goalkeeping="93" heading="526"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="12058">
+    <personal name="Nikos Nikolaou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="253" risktaking="820" offensive="399" aggressive="659" consistent="613" creative="511" experienced="729"/>
+    <skills stamina="386" dexterity="420" speed="212" tackling="547" passing="472" shooting="452" control="427" accuracy="444" goalkeeping="86" heading="502"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12059">
+    <personal name="Anton Zlogar">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="646" risktaking="491" offensive="702" aggressive="398" consistent="664" creative="199" experienced="582"/>
+    <skills stamina="724" dexterity="669" speed="388" tackling="499" passing="455" shooting="475" control="500" accuracy="392" goalkeeping="66" heading="450"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="12060">
+    <personal name="Marian Pahars">
+      <appearance value="0"/>
+      <nationality value="Latvia"/>
+    </personal>
+    <personality active="530" risktaking="316" offensive="470" aggressive="307" consistent="500" creative="540" experienced="513"/>
+    <skills stamina="683" dexterity="243" speed="247" tackling="519" passing="476" shooting="462" control="473" accuracy="557" goalkeeping="79" heading="484"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12061">
+    <personal name="Lukasz Sosin">
+      <appearance value="0"/>
+      <nationality value="Poland"/>
+    </personal>
+    <personality active="422" risktaking="346" offensive="356" aggressive="306" consistent="395" creative="528" experienced="638"/>
+    <skills stamina="700" dexterity="239" speed="360" tackling="530" passing="547" shooting="475" control="432" accuracy="485" goalkeeping="74" heading="497"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12062">
+    <personal name="Giannis Skopelitis">
+      <appearance value="0"/>
+      <nationality value="Greece"/>
+    </personal>
+    <personality active="363" risktaking="634" offensive="507" aggressive="552" consistent="565" creative="827" experienced="426"/>
+    <skills stamina="507" dexterity="573" speed="283" tackling="499" passing="511" shooting="391" control="452" accuracy="478" goalkeeping="69" heading="414"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12063">
+    <personal name="Nikos Froussos">
+      <appearance value="0"/>
+      <nationality value="Greece"/>
+    </personal>
+    <personality active="579" risktaking="565" offensive="452" aggressive="390" consistent="617" creative="698" experienced="370"/>
+    <skills stamina="325" dexterity="312" speed="405" tackling="385" passing="463" shooting="414" control="448" accuracy="370" goalkeeping="70" heading="365"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12064">
+    <personal name="Michalis Morfis">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="659" risktaking="679" offensive="411" aggressive="272" consistent="508" creative="597" experienced="430"/>
+    <skills stamina="723" dexterity="254" speed="423" tackling="204" passing="491" shooting="424" control="343" accuracy="196" goalkeeping="510" heading="277"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="12065">
+    <personal name="Jane Nikoloski">
+      <appearance value="0"/>
+      <nationality value="FYR Macedonia"/>
+    </personal>
+    <personality active="428" risktaking="459" offensive="582" aggressive="401" consistent="365" creative="426" experienced="585"/>
+    <skills stamina="367" dexterity="385" speed="602" tackling="253" passing="547" shooting="365" control="368" accuracy="266" goalkeeping="580" heading="244"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12066">
+    <personal name="Marios Ilia">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="594" risktaking="608" offensive="279" aggressive="325" consistent="735" creative="629" experienced="307"/>
+    <skills stamina="245" dexterity="220" speed="410" tackling="371" passing="517" shooting="464" control="399" accuracy="349" goalkeeping="74" heading="517"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12067">
+    <personal name="Daniel Florea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="602" risktaking="361" offensive="573" aggressive="391" consistent="478" creative="406" experienced="730"/>
+    <skills stamina="370" dexterity="258" speed="336" tackling="365" passing="508" shooting="509" control="424" accuracy="384" goalkeeping="56" heading="325"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12068">
+    <personal name="Dimitris Daskalakis">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="232" risktaking="356" offensive="307" aggressive="539" consistent="356" creative="561" experienced="680"/>
+    <skills stamina="678" dexterity="227" speed="465" tackling="508" passing="445" shooting="522" control="441" accuracy="508" goalkeeping="85" heading="484"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="12069">
+    <personal name="Michalis Kapsis">
+      <appearance value="0"/>
+      <nationality value="Greece"/>
+    </personal>
+    <personality active="360" risktaking="682" offensive="730" aggressive="445" consistent="601" creative="715" experienced="429"/>
+    <skills stamina="715" dexterity="651" speed="413" tackling="505" passing="571" shooting="484" control="512" accuracy="446" goalkeeping="76" heading="456"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12070">
+    <personal name="Nuno Morais">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="590" risktaking="662" offensive="531" aggressive="373" consistent="436" creative="486" experienced="450"/>
+    <skills stamina="309" dexterity="455" speed="466" tackling="475" passing="342" shooting="411" control="389" accuracy="427" goalkeeping="57" heading="434"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12071">
+    <personal name="Konstantinos Makridis">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="438" risktaking="307" offensive="705" aggressive="606" consistent="348" creative="552" experienced="553"/>
+    <skills stamina="299" dexterity="578" speed="379" tackling="589" passing="541" shooting="505" control="626" accuracy="474" goalkeeping="93" heading="514"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="12072">
+    <personal name="Altin Haxhi">
+      <appearance value="0"/>
+      <nationality value="Albania"/>
+    </personal>
+    <personality active="503" risktaking="79" offensive="643" aggressive="604" consistent="761" creative="753" experienced="391"/>
+    <skills stamina="662" dexterity="630" speed="690" tackling="544" passing="478" shooting="506" control="548" accuracy="544" goalkeeping="63" heading="483"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12073">
+    <personal name="Marinos Satsias">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="785" risktaking="370" offensive="342" aggressive="411" consistent="524" creative="302" experienced="519"/>
+    <skills stamina="668" dexterity="253" speed="445" tackling="580" passing="574" shooting="509" control="513" accuracy="398" goalkeeping="75" heading="511"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12074">
+    <personal name="Emerson">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="588" risktaking="710" offensive="495" aggressive="467" consistent="609" creative="595" experienced="433"/>
+    <skills stamina="531" dexterity="651" speed="193" tackling="494" passing="522" shooting="564" control="584" accuracy="556" goalkeeping="67" heading="464"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12075">
+    <personal name="Ricardo Fernandes">
+      <appearance value="8"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="379" risktaking="615" offensive="545" aggressive="307" consistent="489" creative="176" experienced="738"/>
+    <skills stamina="430" dexterity="320" speed="300" tackling="419" passing="376" shooting="467" control="354" accuracy="459" goalkeeping="65" heading="528"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12076">
+    <personal name="Chrysis Michail">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="353" risktaking="470" offensive="374" aggressive="637" consistent="433" creative="608" experienced="377"/>
+    <skills stamina="606" dexterity="613" speed="425" tackling="474" passing="407" shooting="375" control="463" accuracy="524" goalkeeping="79" heading="504"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="12077">
+    <personal name="Ze Carlos">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="464" risktaking="236" offensive="402" aggressive="374" consistent="418" creative="305" experienced="637"/>
+    <skills stamina="560" dexterity="405" speed="683" tackling="498" passing="517" shooting="606" control="566" accuracy="433" goalkeeping="68" heading="508"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12078">
+    <personal name="Nikos Machlas">
+      <appearance value="0"/>
+      <nationality value="Greece"/>
+    </personal>
+    <personality active="562" risktaking="545" offensive="659" aggressive="480" consistent="408" creative="464" experienced="279"/>
+    <skills stamina="480" dexterity="274" speed="554" tackling="433" passing="553" shooting="442" control="479" accuracy="428" goalkeeping="65" heading="582"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12079">
+    <personal name="Marcos Magno">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="826" risktaking="261" offensive="687" aggressive="756" consistent="537" creative="503" experienced="641"/>
+    <skills stamina="245" dexterity="195" speed="573" tackling="408" passing="447" shooting="523" control="411" accuracy="361" goalkeeping="48" heading="470"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12080">
+    <personal name="Ales Chvalovsky">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="546" risktaking="592" offensive="329" aggressive="586" consistent="634" creative="755" experienced="484"/>
+    <skills stamina="147" dexterity="274" speed="451" tackling="209" passing="387" shooting="411" control="276" accuracy="177" goalkeeping="462" heading="138"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12081">
+    <personal name="Beau Molenaar">
+      <appearance value="0"/>
+      <nationality value="The Netherlands"/>
+    </personal>
+    <personality active="577" risktaking="370" offensive="324" aggressive="566" consistent="369" creative="577" experienced="450"/>
+    <skills stamina="670" dexterity="538" speed="315" tackling="210" passing="441" shooting="258" control="320" accuracy="181" goalkeeping="405" heading="139"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12082">
+    <personal name="Levan Maghradze">
+      <appearance value="0"/>
+      <nationality value="Georgia"/>
+    </personal>
+    <personality active="734" risktaking="446" offensive="253" aggressive="460" consistent="692" creative="835" experienced="330"/>
+    <skills stamina="726" dexterity="619" speed="267" tackling="614" passing="603" shooting="590" control="452" accuracy="453" goalkeeping="103" heading="434"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12083">
+    <personal name="Marko Barun">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="693" risktaking="594" offensive="660" aggressive="602" consistent="383" creative="272" experienced="533"/>
+    <skills stamina="295" dexterity="545" speed="194" tackling="412" passing="361" shooting="447" control="284" accuracy="272" goalkeeping="53" heading="311"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12084">
+    <personal name="Adrian Iencsi">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="624" risktaking="758" offensive="665" aggressive="748" consistent="325" creative="513" experienced="405"/>
+    <skills stamina="522" dexterity="654" speed="361" tackling="582" passing="589" shooting="572" control="558" accuracy="447" goalkeeping="95" heading="498"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12085">
+    <personal name="Petros Konnafis">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="354" risktaking="354" offensive="559" aggressive="629" consistent="365" creative="194" experienced="662"/>
+    <skills stamina="215" dexterity="678" speed="649" tackling="450" passing="525" shooting="511" control="408" accuracy="546" goalkeeping="97" heading="541"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12086">
+    <personal name="Christis Theofilou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="739" risktaking="445" offensive="619" aggressive="334" consistent="413" creative="508" experienced="579"/>
+    <skills stamina="408" dexterity="395" speed="402" tackling="411" passing="361" shooting="312" control="353" accuracy="367" goalkeeping="77" heading="343"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12087">
+    <personal name="Stelios Okkaridis">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="691" risktaking="331" offensive="270" aggressive="290" consistent="379" creative="311" experienced="327"/>
+    <skills stamina="227" dexterity="407" speed="525" tackling="495" passing="383" shooting="376" control="477" accuracy="286" goalkeeping="70" heading="285"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12088">
+    <personal name="Haruna Babangida">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="377" risktaking="538" offensive="541" aggressive="176" consistent="393" creative="440" experienced="601"/>
+    <skills stamina="701" dexterity="685" speed="546" tackling="418" passing="599" shooting="575" control="584" accuracy="554" goalkeeping="83" heading="387"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="12089">
+    <personal name="Hawar Mohammed">
+      <appearance value="0"/>
+      <nationality value="Iraq"/>
+    </personal>
+    <personality active="389" risktaking="463" offensive="554" aggressive="369" consistent="492" creative="725" experienced="818"/>
+    <skills stamina="428" dexterity="683" speed="514" tackling="527" passing="469" shooting="500" control="558" accuracy="431" goalkeeping="71" heading="441"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12090">
+    <personal name="Christos Marangos">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="334" risktaking="348" offensive="495" aggressive="524" consistent="503" creative="706" experienced="597"/>
+    <skills stamina="503" dexterity="214" speed="243" tackling="395" passing="412" shooting="370" control="262" accuracy="273" goalkeeping="45" heading="308"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12091">
+    <personal name="Bogdan Andone">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="518" risktaking="502" offensive="388" aggressive="252" consistent="580" creative="384" experienced="272"/>
+    <skills stamina="562" dexterity="241" speed="467" tackling="384" passing="381" shooting="441" control="435" accuracy="364" goalkeeping="60" heading="413"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12092">
+    <personal name="Anthos Solomou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="360" risktaking="320" offensive="482" aggressive="618" consistent="467" creative="633" experienced="543"/>
+    <skills stamina="588" dexterity="494" speed="319" tackling="487" passing="461" shooting="387" control="463" accuracy="432" goalkeeping="53" heading="421"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="12093">
+    <personal name="Ignacio Risso">
+      <appearance value="0"/>
+      <nationality value="Uruguay"/>
+    </personal>
+    <personality active="527" risktaking="504" offensive="560" aggressive="644" consistent="734" creative="431" experienced="677"/>
+    <skills stamina="493" dexterity="457" speed="202" tackling="542" passing="500" shooting="455" control="436" accuracy="595" goalkeeping="85" heading="430"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12094">
+    <personal name="Joao Paiva">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="611" risktaking="313" offensive="610" aggressive="605" consistent="583" creative="403" experienced="468"/>
+    <skills stamina="270" dexterity="470" speed="341" tackling="375" passing="303" shooting="524" control="444" accuracy="441" goalkeeping="64" heading="418"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12095">
+    <personal name="Alexis Garpozis">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="352" risktaking="577" offensive="411" aggressive="479" consistent="482" creative="365" experienced="677"/>
+    <skills stamina="419" dexterity="383" speed="428" tackling="495" passing="585" shooting="511" control="442" accuracy="634" goalkeeping="94" heading="534"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="12096">
+    <personal name="Radostin Stanev">
+      <appearance value="0"/>
+      <nationality value="Bulgaria"/>
+    </personal>
+    <personality active="664" risktaking="611" offensive="427" aggressive="688" consistent="391" creative="363" experienced="231"/>
+    <skills stamina="504" dexterity="324" speed="572" tackling="206" passing="411" shooting="506" control="335" accuracy="178" goalkeeping="451" heading="210"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12097">
+    <personal name="Gilbert Bayiha">
+      <appearance value="1"/>
+      <nationality value="Cameroon"/>
+    </personal>
+    <personality active="581" risktaking="654" offensive="533" aggressive="323" consistent="384" creative="214" experienced="426"/>
+    <skills stamina="608" dexterity="190" speed="506" tackling="239" passing="347" shooting="373" control="240" accuracy="189" goalkeeping="520" heading="199"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12098">
+    <personal name="Jan Vorel">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="496" risktaking="740" offensive="519" aggressive="435" consistent="525" creative="559" experienced="845"/>
+    <skills stamina="477" dexterity="588" speed="166" tackling="274" passing="435" shooting="446" control="371" accuracy="423" goalkeeping="54" heading="449"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12099">
+    <personal name="Ciprian Mozacu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="239" risktaking="498" offensive="613" aggressive="653" consistent="381" creative="355" experienced="424"/>
+    <skills stamina="286" dexterity="294" speed="539" tackling="291" passing="479" shooting="313" control="266" accuracy="261" goalkeeping="49" heading="334"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12100">
+    <personal name="Marios Antoniou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="516" risktaking="537" offensive="439" aggressive="467" consistent="546" creative="446" experienced="393"/>
+    <skills stamina="236" dexterity="551" speed="275" tackling="335" passing="348" shooting="410" control="386" accuracy="310" goalkeeping="72" heading="404"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="12101">
+    <personal name="Akos Seper">
+      <appearance value="0"/>
+      <nationality value="Hungary"/>
+    </personal>
+    <personality active="318" risktaking="624" offensive="425" aggressive="761" consistent="407" creative="532" experienced="399"/>
+    <skills stamina="175" dexterity="144" speed="564" tackling="308" passing="461" shooting="339" control="359" accuracy="351" goalkeeping="41" heading="368"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="12102">
+    <personal name="Mihai Golob">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="524" risktaking="319" offensive="684" aggressive="717" consistent="409" creative="502" experienced="714"/>
+    <skills stamina="564" dexterity="504" speed="600" tackling="292" passing="458" shooting="298" control="424" accuracy="317" goalkeeping="59" heading="312"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12103">
+    <personal name="Tomas Kuchar">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="352" risktaking="259" offensive="336" aggressive="819" consistent="687" creative="770" experienced="641"/>
+    <skills stamina="230" dexterity="508" speed="676" tackling="309" passing="402" shooting="325" control="356" accuracy="389" goalkeeping="47" heading="345"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12104">
+    <personal name="Paulo Costa">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="189" risktaking="490" offensive="553" aggressive="583" consistent="434" creative="462" experienced="667"/>
+    <skills stamina="498" dexterity="471" speed="641" tackling="429" passing="535" shooting="543" control="610" accuracy="441" goalkeeping="79" heading="467"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="12105">
+    <personal name="Mihai Stere">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="603" risktaking="321" offensive="616" aggressive="382" consistent="435" creative="144" experienced="323"/>
+    <skills stamina="523" dexterity="367" speed="542" tackling="416" passing="341" shooting="386" control="415" accuracy="348" goalkeeping="64" heading="439"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12106">
+    <personal name="Leopoldo Jimenez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="669" risktaking="375" offensive="526" aggressive="662" consistent="341" creative="387" experienced="419"/>
+    <skills stamina="602" dexterity="303" speed="447" tackling="636" passing="571" shooting="586" control="617" accuracy="515" goalkeeping="77" heading="613"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12107">
+    <personal name="Laurentiu Dinita">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="532" risktaking="582" offensive="809" aggressive="589" consistent="64" creative="375" experienced="607"/>
+    <skills stamina="558" dexterity="554" speed="172" tackling="387" passing="438" shooting="416" control="332" accuracy="393" goalkeeping="74" heading="375"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12108">
+    <personal name="Puma">
+      <appearance value="1"/>
+      <nationality value="Unknown"/>
+    </personal>
+    <personality active="410" risktaking="476" offensive="305" aggressive="618" consistent="592" creative="385" experienced="239"/>
+    <skills stamina="496" dexterity="198" speed="411" tackling="423" passing="325" shooting="366" control="313" accuracy="430" goalkeeping="50" heading="314"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12109">
+    <personal name="Giasoumis Giasoumi">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="486" risktaking="383" offensive="591" aggressive="445" consistent="457" creative="423" experienced="525"/>
+    <skills stamina="492" dexterity="326" speed="686" tackling="579" passing="440" shooting="592" control="511" accuracy="506" goalkeeping="98" heading="602"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12110">
+    <personal name="Adrian Mihalcea">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="306" risktaking="556" offensive="464" aggressive="587" consistent="606" creative="586" experienced="604"/>
+    <skills stamina="350" dexterity="655" speed="206" tackling="368" passing="495" shooting="375" control="496" accuracy="394" goalkeeping="67" heading="375"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12111">
+    <personal name="Alekos Alekou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="554" risktaking="382" offensive="640" aggressive="617" consistent="346" creative="433" experienced="378"/>
+    <skills stamina="623" dexterity="233" speed="532" tackling="341" passing="319" shooting="485" control="318" accuracy="495" goalkeeping="45" heading="423"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12112">
+    <personal name="Panikos Charalabous">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="537" risktaking="646" offensive="332" aggressive="436" consistent="173" creative="239" experienced="289"/>
+    <skills stamina="504" dexterity="181" speed="525" tackling="158" passing="279" shooting="426" control="233" accuracy="164" goalkeeping="494" heading="122"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12113">
+    <personal name="Guillermo Alvarez">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="551" risktaking="354" offensive="441" aggressive="724" consistent="533" creative="666" experienced="514"/>
+    <skills stamina="300" dexterity="245" speed="310" tackling="151" passing="321" shooting="439" control="332" accuracy="188" goalkeeping="490" heading="210"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12114">
+    <personal name="Ales Pus">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="475" risktaking="703" offensive="405" aggressive="592" consistent="540" creative="517" experienced="611"/>
+    <skills stamina="248" dexterity="419" speed="555" tackling="488" passing="456" shooting="340" control="480" accuracy="324" goalkeeping="53" heading="379"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12115">
+    <personal name="George Gebro">
+      <appearance value="1"/>
+      <nationality value="Liberia"/>
+    </personal>
+    <personality active="552" risktaking="441" offensive="456" aggressive="547" consistent="708" creative="190" experienced="471"/>
+    <skills stamina="287" dexterity="380" speed="296" tackling="356" passing="317" shooting="350" control="435" accuracy="484" goalkeeping="65" heading="357"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12116">
+    <personal name="Goran Grkinic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="558" risktaking="457" offensive="788" aggressive="643" consistent="654" creative="371" experienced="453"/>
+    <skills stamina="561" dexterity="431" speed="170" tackling="465" passing="418" shooting="330" control="386" accuracy="405" goalkeeping="63" heading="393"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12117">
+    <personal name="Christos Pasialis">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="491" risktaking="593" offensive="687" aggressive="526" consistent="596" creative="350" experienced="296"/>
+    <skills stamina="209" dexterity="444" speed="293" tackling="489" passing="320" shooting="365" control="457" accuracy="268" goalkeeping="43" heading="428"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12118">
+    <personal name="Christos Kotsonis">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="307" risktaking="423" offensive="458" aggressive="381" consistent="630" creative="265" experienced="353"/>
+    <skills stamina="357" dexterity="170" speed="511" tackling="415" passing="465" shooting="386" control="393" accuracy="412" goalkeeping="45" heading="314"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12119">
+    <personal name="Panagiotis Egomitis">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="215" risktaking="521" offensive="501" aggressive="291" consistent="417" creative="546" experienced="407"/>
+    <skills stamina="321" dexterity="362" speed="600" tackling="430" passing="404" shooting="376" control="426" accuracy="367" goalkeeping="67" heading="289"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="12120">
+    <personal name="Christos Pogiatzis">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="395" risktaking="422" offensive="652" aggressive="247" consistent="510" creative="460" experienced="467"/>
+    <skills stamina="509" dexterity="411" speed="424" tackling="312" passing="371" shooting="366" control="323" accuracy="369" goalkeeping="50" heading="416"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12121">
+    <personal name="Daniel Blanco">
+      <appearance value="0"/>
+      <nationality value="Italy"/>
+    </personal>
+    <personality active="551" risktaking="503" offensive="425" aggressive="297" consistent="706" creative="871" experienced="514"/>
+    <skills stamina="196" dexterity="669" speed="300" tackling="429" passing="281" shooting="411" control="386" accuracy="401" goalkeeping="68" heading="348"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="12122">
+    <personal name="Nilton">
+      <appearance value="1"/>
+      <nationality value="Unknown"/>
+    </personal>
+    <personality active="561" risktaking="320" offensive="316" aggressive="464" consistent="748" creative="693" experienced="634"/>
+    <skills stamina="703" dexterity="162" speed="406" tackling="429" passing="272" shooting="346" control="327" accuracy="392" goalkeeping="67" heading="278"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12123">
+    <personal name="Kostas Georgiadis">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="704" risktaking="710" offensive="615" aggressive="352" consistent="596" creative="636" experienced="839"/>
+    <skills stamina="261" dexterity="447" speed="516" tackling="316" passing="350" shooting="446" control="303" accuracy="402" goalkeeping="63" heading="306"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12124">
+    <personal name="Zoran Stjepanovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="555" risktaking="488" offensive="510" aggressive="815" consistent="281" creative="387" experienced="584"/>
+    <skills stamina="461" dexterity="573" speed="608" tackling="240" passing="293" shooting="285" control="356" accuracy="400" goalkeeping="67" heading="332"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="12125">
+    <personal name="Ljubisa Vukelja">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="735" risktaking="402" offensive="475" aggressive="193" consistent="761" creative="679" experienced="540"/>
+    <skills stamina="228" dexterity="658" speed="581" tackling="380" passing="501" shooting="389" control="492" accuracy="519" goalkeeping="61" heading="348"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12126">
+    <personal name="Patrik Ipavec">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="312" risktaking="540" offensive="739" aggressive="628" consistent="612" creative="461" experienced="564"/>
+    <skills stamina="460" dexterity="484" speed="376" tackling="411" passing="451" shooting="498" control="366" accuracy="550" goalkeeping="62" heading="319"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12127">
+    <personal name="Levan Kebadze">
+      <appearance value="0"/>
+      <nationality value="Georgia"/>
+    </personal>
+    <personality active="304" risktaking="454" offensive="673" aggressive="452" consistent="435" creative="536" experienced="395"/>
+    <skills stamina="614" dexterity="408" speed="211" tackling="333" passing="401" shooting="447" control="396" accuracy="377" goalkeeping="50" heading="281"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="12128">
+    <personal name="Petar Milosevski">
+      <appearance value="0"/>
+      <nationality value="FYR Macedonia"/>
+    </personal>
+    <personality active="390" risktaking="427" offensive="602" aggressive="562" consistent="277" creative="585" experienced="603"/>
+    <skills stamina="190" dexterity="368" speed="281" tackling="264" passing="372" shooting="390" control="403" accuracy="284" goalkeeping="482" heading="223"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12129">
+    <personal name="Vasilis Mytilinaios">
+      <appearance value="0"/>
+      <nationality value="Greece"/>
+    </personal>
+    <personality active="507" risktaking="684" offensive="519" aggressive="233" consistent="601" creative="479" experienced="482"/>
+    <skills stamina="291" dexterity="616" speed="437" tackling="193" passing="257" shooting="303" control="308" accuracy="159" goalkeeping="442" heading="146"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12130">
+    <personal name="Almir Tanjic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="438" risktaking="435" offensive="537" aggressive="344" consistent="783" creative="410" experienced="546"/>
+    <skills stamina="344" dexterity="400" speed="490" tackling="291" passing="329" shooting="453" control="315" accuracy="383" goalkeeping="69" heading="449"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12131">
+    <personal name="Fabrice Lokembo">
+      <appearance value="1"/>
+      <nationality value="Congo"/>
+    </personal>
+    <personality active="601" risktaking="545" offensive="695" aggressive="852" consistent="306" creative="423" experienced="605"/>
+    <skills stamina="602" dexterity="500" speed="207" tackling="349" passing="435" shooting="421" control="456" accuracy="363" goalkeeping="60" heading="270"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12132">
+    <personal name="Eric Ejiofor">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="565" risktaking="557" offensive="595" aggressive="610" consistent="443" creative="670" experienced="482"/>
+    <skills stamina="228" dexterity="494" speed="264" tackling="363" passing="342" shooting="347" control="419" accuracy="381" goalkeeping="64" heading="434"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12133">
+    <personal name="Bekim Kapic">
+      <appearance value="0"/>
+      <nationality value="Slovenia"/>
+    </personal>
+    <personality active="453" risktaking="478" offensive="354" aggressive="599" consistent="677" creative="493" experienced="545"/>
+    <skills stamina="310" dexterity="477" speed="341" tackling="407" passing="533" shooting="362" control="413" accuracy="326" goalkeeping="77" heading="438"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12134">
+    <personal name="Panikos Spyrou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="323" risktaking="703" offensive="840" aggressive="560" consistent="446" creative="520" experienced="604"/>
+    <skills stamina="288" dexterity="290" speed="352" tackling="299" passing="332" shooting="384" control="326" accuracy="340" goalkeeping="59" heading="424"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12135">
+    <personal name="Giorgos Kolanis">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="515" risktaking="560" offensive="507" aggressive="355" consistent="632" creative="463" experienced="595"/>
+    <skills stamina="227" dexterity="595" speed="267" tackling="428" passing="436" shooting="421" control="303" accuracy="257" goalkeeping="48" heading="448"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="12136">
+    <personal name="Pavle Popara">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="565" risktaking="663" offensive="344" aggressive="759" consistent="459" creative="347" experienced="472"/>
+    <skills stamina="598" dexterity="168" speed="622" tackling="349" passing="296" shooting="296" control="367" accuracy="283" goalkeeping="59" heading="380"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12137">
+    <personal name="Dimos Goumenos">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="436" risktaking="689" offensive="406" aggressive="638" consistent="459" creative="395" experienced="304"/>
+    <skills stamina="304" dexterity="442" speed="209" tackling="333" passing="402" shooting="424" control="400" accuracy="458" goalkeeping="69" heading="428"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12138">
+    <personal name="Abdelkarim Kissi">
+      <appearance value="0"/>
+      <nationality value="Morocco"/>
+    </personal>
+    <personality active="420" risktaking="451" offensive="440" aggressive="569" consistent="445" creative="585" experienced="406"/>
+    <skills stamina="429" dexterity="673" speed="426" tackling="496" passing="574" shooting="473" control="481" accuracy="575" goalkeeping="71" heading="482"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12139">
+    <personal name="Igor Jancevski">
+      <appearance value="0"/>
+      <nationality value="FYR Macedonia"/>
+    </personal>
+    <personality active="478" risktaking="470" offensive="643" aggressive="307" consistent="682" creative="476" experienced="533"/>
+    <skills stamina="290" dexterity="460" speed="656" tackling="279" passing="334" shooting="423" control="357" accuracy="339" goalkeeping="68" heading="332"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12140">
+    <personal name="Kostas Ilia">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="313" risktaking="609" offensive="518" aggressive="437" consistent="617" creative="561" experienced="409"/>
+    <skills stamina="651" dexterity="627" speed="174" tackling="384" passing="311" shooting="386" control="421" accuracy="463" goalkeeping="68" heading="374"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12141">
+    <personal name="Lefteris Eleftheriou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="608" risktaking="288" offensive="633" aggressive="573" consistent="391" creative="490" experienced="669"/>
+    <skills stamina="245" dexterity="475" speed="633" tackling="430" passing="411" shooting="489" control="390" accuracy="408" goalkeeping="60" heading="432"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="12142">
+    <personal name="Neri">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="389" risktaking="431" offensive="684" aggressive="629" consistent="164" creative="426" experienced="447"/>
+    <skills stamina="334" dexterity="637" speed="352" tackling="358" passing="448" shooting="425" control="354" accuracy="552" goalkeeping="86" heading="381"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12143">
+    <personal name="Jeff Tutuana">
+      <appearance value="1"/>
+      <nationality value="Congo"/>
+    </personal>
+    <personality active="682" risktaking="696" offensive="803" aggressive="665" consistent="737" creative="614" experienced="314"/>
+    <skills stamina="276" dexterity="489" speed="354" tackling="254" passing="401" shooting="336" control="295" accuracy="441" goalkeeping="66" heading="414"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="12144">
+    <personal name="Todor Kyuchukov">
+      <appearance value="0"/>
+      <nationality value="Bulgaria"/>
+    </personal>
+    <personality active="238" risktaking="584" offensive="335" aggressive="462" consistent="523" creative="243" experienced="644"/>
+    <skills stamina="333" dexterity="592" speed="311" tackling="197" passing="434" shooting="332" control="331" accuracy="134" goalkeeping="379" heading="164"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12145">
+    <personal name="Aleksandr Filimonov">
+      <appearance value="0"/>
+      <nationality value="Russia"/>
+    </personal>
+    <personality active="568" risktaking="230" offensive="648" aggressive="418" consistent="508" creative="440" experienced="626"/>
+    <skills stamina="362" dexterity="486" speed="356" tackling="228" passing="356" shooting="401" control="329" accuracy="175" goalkeeping="502" heading="269"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12146">
+    <personal name="Gilles Domoraud">
+      <appearance value="1"/>
+      <nationality value="Ivory Coast"/>
+    </personal>
+    <personality active="466" risktaking="545" offensive="477" aggressive="517" consistent="479" creative="638" experienced="626"/>
+    <skills stamina="185" dexterity="685" speed="384" tackling="317" passing="388" shooting="277" control="345" accuracy="347" goalkeeping="48" heading="411"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12147">
+    <personal name="Angel Stoykov">
+      <appearance value="0"/>
+      <nationality value="Bulgaria"/>
+    </personal>
+    <personality active="503" risktaking="477" offensive="424" aggressive="546" consistent="525" creative="393" experienced="749"/>
+    <skills stamina="470" dexterity="736" speed="180" tackling="360" passing="482" shooting="413" control="433" accuracy="473" goalkeeping="54" heading="472"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12148">
+    <personal name="Tamas Juhar">
+      <appearance value="0"/>
+      <nationality value="Hungary"/>
+    </personal>
+    <personality active="687" risktaking="479" offensive="448" aggressive="615" consistent="277" creative="634" experienced="581"/>
+    <skills stamina="572" dexterity="373" speed="596" tackling="351" passing="279" shooting="357" control="330" accuracy="374" goalkeeping="50" heading="375"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="12149">
+    <personal name="Kostas Konstantinidis">
+      <appearance value="0"/>
+      <nationality value="Greece"/>
+    </personal>
+    <personality active="452" risktaking="528" offensive="775" aggressive="670" consistent="260" creative="661" experienced="292"/>
+    <skills stamina="648" dexterity="489" speed="542" tackling="350" passing="368" shooting="407" control="399" accuracy="458" goalkeeping="77" heading="479"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12150">
+    <personal name="Luis Vallenilla">
+      <appearance value="1"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="578" risktaking="655" offensive="647" aggressive="441" consistent="626" creative="518" experienced="630"/>
+    <skills stamina="548" dexterity="580" speed="174" tackling="443" passing="350" shooting="300" control="428" accuracy="414" goalkeeping="53" heading="294"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12151">
+    <personal name="Giorgos Eleftheriou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="975" risktaking="601" offensive="223" aggressive="342" consistent="718" creative="372" experienced="724"/>
+    <skills stamina="274" dexterity="625" speed="560" tackling="258" passing="292" shooting="359" control="307" accuracy="446" goalkeeping="72" heading="253"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="12152">
+    <personal name="Rui Dolores">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="784" risktaking="507" offensive="732" aggressive="488" consistent="629" creative="420" experienced="620"/>
+    <skills stamina="281" dexterity="508" speed="442" tackling="491" passing="323" shooting="439" control="383" accuracy="461" goalkeeping="58" heading="373"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12153">
+    <personal name="Tsvetomir Chipev">
+      <appearance value="0"/>
+      <nationality value="Bulgaria"/>
+    </personal>
+    <personality active="580" risktaking="372" offensive="527" aggressive="210" consistent="400" creative="135" experienced="645"/>
+    <skills stamina="630" dexterity="478" speed="525" tackling="499" passing="522" shooting="323" control="340" accuracy="411" goalkeeping="59" heading="347"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12154">
+    <personal name="Mohamed Bangura">
+      <appearance value="1"/>
+      <nationality value="Sierra Leone"/>
+    </personal>
+    <personality active="357" risktaking="488" offensive="409" aggressive="338" consistent="508" creative="319" experienced="592"/>
+    <skills stamina="688" dexterity="480" speed="482" tackling="437" passing="377" shooting="414" control="440" accuracy="440" goalkeeping="63" heading="293"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="12155">
+    <personal name="Panagiotis Assiotis">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="181" risktaking="625" offensive="687" aggressive="441" consistent="253" creative="692" experienced="731"/>
+    <skills stamina="569" dexterity="422" speed="263" tackling="255" passing="436" shooting="321" control="424" accuracy="292" goalkeeping="70" heading="269"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12156">
+    <personal name="Tiago Lemos">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="408" risktaking="523" offensive="454" aggressive="443" consistent="363" creative="467" experienced="486"/>
+    <skills stamina="286" dexterity="199" speed="263" tackling="402" passing="392" shooting="313" control="460" accuracy="308" goalkeeping="49" heading="436"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12157">
+    <personal name="Giorgos Nikolaou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="706" risktaking="380" offensive="257" aggressive="566" consistent="584" creative="479" experienced="435"/>
+    <skills stamina="442" dexterity="342" speed="152" tackling="444" passing="285" shooting="343" control="312" accuracy="381" goalkeeping="54" heading="350"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="12158">
+    <personal name="Dario">
+      <appearance value="1"/>
+      <nationality value="Mozambique"/>
+    </personal>
+    <personality active="575" risktaking="451" offensive="670" aggressive="516" consistent="644" creative="150" experienced="560"/>
+    <skills stamina="278" dexterity="535" speed="217" tackling="530" passing="470" shooting="635" control="514" accuracy="594" goalkeeping="69" heading="607"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="12159">
+    <personal name="Milos Kolakovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="359" risktaking="417" offensive="459" aggressive="502" consistent="671" creative="347" experienced="378"/>
+    <skills stamina="158" dexterity="340" speed="451" tackling="305" passing="431" shooting="357" control="401" accuracy="452" goalkeeping="74" heading="313"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12160">
+    <personal name="Paco Bazan">
+      <appearance value="0"/>
+      <nationality value="Peru"/>
+    </personal>
+    <personality active="357" risktaking="651" offensive="431" aggressive="486" consistent="370" creative="413" experienced="623"/>
+    <skills stamina="178" dexterity="257" speed="681" tackling="200" passing="353" shooting="437" control="342" accuracy="228" goalkeeping="530" heading="188"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12161">
+    <personal name="Dimitris Stylianou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="355" risktaking="497" offensive="522" aggressive="488" consistent="515" creative="539" experienced="516"/>
+    <skills stamina="222" dexterity="507" speed="312" tackling="168" passing="352" shooting="275" control="306" accuracy="167" goalkeeping="365" heading="181"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12162">
+    <personal name="Agustin De La Canal">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="374" risktaking="535" offensive="510" aggressive="503" consistent="685" creative="462" experienced="393"/>
+    <skills stamina="434" dexterity="570" speed="175" tackling="328" passing="452" shooting="416" control="314" accuracy="364" goalkeeping="45" heading="351"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12163">
+    <personal name="Lucas Pagano">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="501" risktaking="557" offensive="435" aggressive="472" consistent="511" creative="593" experienced="475"/>
+    <skills stamina="353" dexterity="700" speed="284" tackling="322" passing="351" shooting="335" control="398" accuracy="303" goalkeeping="46" heading="304"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12164">
+    <personal name="Nikos Nikolaou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="692" risktaking="372" offensive="595" aggressive="363" consistent="485" creative="589" experienced="419"/>
+    <skills stamina="588" dexterity="198" speed="199" tackling="357" passing="286" shooting="319" control="464" accuracy="351" goalkeeping="52" heading="287"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12165">
+    <personal name="Marios Nikolaou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="488" risktaking="558" offensive="634" aggressive="583" consistent="643" creative="650" experienced="583"/>
+    <skills stamina="299" dexterity="297" speed="474" tackling="313" passing="443" shooting="400" control="297" accuracy="448" goalkeeping="44" heading="396"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12166">
+    <personal name="Braima Injai">
+      <appearance value="1"/>
+      <nationality value="Unknown"/>
+    </personal>
+    <personality active="492" risktaking="403" offensive="614" aggressive="455" consistent="472" creative="532" experienced="642"/>
+    <skills stamina="190" dexterity="329" speed="607" tackling="356" passing="418" shooting="489" control="399" accuracy="353" goalkeeping="50" heading="458"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="12167">
+    <personal name="Makis Papaioannou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="549" risktaking="758" offensive="503" aggressive="374" consistent="748" creative="384" experienced="648"/>
+    <skills stamina="429" dexterity="522" speed="402" tackling="376" passing="394" shooting="281" control="413" accuracy="352" goalkeeping="73" heading="408"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12168">
+    <personal name="Nikos Nikolaou Ii">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="425" risktaking="464" offensive="357" aggressive="510" consistent="731" creative="679" experienced="456"/>
+    <skills stamina="541" dexterity="309" speed="637" tackling="409" passing="307" shooting="311" control="393" accuracy="393" goalkeeping="70" heading="420"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="12169">
+    <personal name="Alexis Pittas">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="455" risktaking="511" offensive="198" aggressive="620" consistent="429" creative="455" experienced="648"/>
+    <skills stamina="527" dexterity="619" speed="386" tackling="365" passing="352" shooting="256" control="402" accuracy="406" goalkeeping="57" heading="307"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="12170">
+    <personal name="Alexandre Polking">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="420" risktaking="756" offensive="521" aggressive="792" consistent="774" creative="263" experienced="472"/>
+    <skills stamina="560" dexterity="588" speed="562" tackling="388" passing="407" shooting="425" control="372" accuracy="441" goalkeeping="74" heading="375"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12171">
+    <personal name="Feidias Panagiotou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="702" risktaking="301" offensive="750" aggressive="459" consistent="569" creative="515" experienced="387"/>
+    <skills stamina="643" dexterity="297" speed="496" tackling="350" passing="352" shooting="369" control="304" accuracy="256" goalkeeping="70" heading="344"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12172">
+    <personal name="Petar Djenic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="267" risktaking="519" offensive="451" aggressive="412" consistent="539" creative="338" experienced="560"/>
+    <skills stamina="385" dexterity="239" speed="490" tackling="353" passing="314" shooting="247" control="411" accuracy="412" goalkeeping="56" heading="350"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12173">
+    <personal name="Silvio Gonzalez">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="360" risktaking="460" offensive="750" aggressive="373" consistent="658" creative="778" experienced="309"/>
+    <skills stamina="306" dexterity="326" speed="680" tackling="487" passing="465" shooting="481" control="459" accuracy="431" goalkeeping="58" heading="446"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="12174">
+    <personal name="Emerson Panigutti">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="615" risktaking="638" offensive="733" aggressive="364" consistent="658" creative="543" experienced="323"/>
+    <skills stamina="224" dexterity="352" speed="415" tackling="289" passing="289" shooting="508" control="380" accuracy="403" goalkeeping="50" heading="359"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12175">
+    <personal name="Zbigniew Grzybowski">
+      <appearance value="8"/>
+      <nationality value="Poland"/>
+    </personal>
+    <personality active="767" risktaking="496" offensive="497" aggressive="555" consistent="597" creative="294" experienced="588"/>
+    <skills stamina="294" dexterity="435" speed="493" tackling="392" passing="253" shooting="339" control="393" accuracy="351" goalkeeping="65" heading="352"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12176">
+    <personal name="Dimitris Rizos">
+      <appearance value="0"/>
+      <nationality value="Greece"/>
+    </personal>
+    <personality active="429" risktaking="717" offensive="545" aggressive="280" consistent="526" creative="435" experienced="422"/>
+    <skills stamina="264" dexterity="335" speed="131" tackling="189" passing="385" shooting="297" control="315" accuracy="154" goalkeeping="391" heading="197"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12177">
+    <personal name="Andreas Mavris">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="117" risktaking="273" offensive="423" aggressive="533" consistent="621" creative="505" experienced="721"/>
+    <skills stamina="199" dexterity="157" speed="644" tackling="132" passing="329" shooting="237" control="266" accuracy="146" goalkeeping="323" heading="192"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12178">
+    <personal name="Raul Gonzalez">
+      <appearance value="0"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="406" risktaking="288" offensive="552" aggressive="705" consistent="437" creative="404" experienced="597"/>
+    <skills stamina="264" dexterity="320" speed="432" tackling="347" passing="286" shooting="263" control="392" accuracy="306" goalkeeping="63" heading="345"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12179">
+    <personal name="Nuno Rodrigues">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="410" risktaking="411" offensive="685" aggressive="564" consistent="445" creative="683" experienced="826"/>
+    <skills stamina="418" dexterity="520" speed="209" tackling="307" passing="383" shooting="391" control="357" accuracy="427" goalkeeping="68" heading="253"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12180">
+    <personal name="Giorgos Ioannidis">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="695" risktaking="741" offensive="577" aggressive="464" consistent="512" creative="647" experienced="544"/>
+    <skills stamina="482" dexterity="245" speed="576" tackling="309" passing="362" shooting="427" control="461" accuracy="393" goalkeeping="60" heading="379"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12181">
+    <personal name="Rasheed Alabi">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="416" risktaking="497" offensive="761" aggressive="538" consistent="507" creative="618" experienced="726"/>
+    <skills stamina="569" dexterity="650" speed="656" tackling="362" passing="400" shooting="257" control="282" accuracy="331" goalkeeping="44" heading="340"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12182">
+    <personal name="Junior">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="310" risktaking="577" offensive="360" aggressive="323" consistent="481" creative="514" experienced="363"/>
+    <skills stamina="212" dexterity="527" speed="527" tackling="300" passing="277" shooting="328" control="245" accuracy="337" goalkeeping="38" heading="251"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12183">
+    <personal name="Freddy">
+      <appearance value="1"/>
+      <nationality value="Angola"/>
+    </personal>
+    <personality active="575" risktaking="501" offensive="385" aggressive="495" consistent="599" creative="577" experienced="535"/>
+    <skills stamina="590" dexterity="294" speed="218" tackling="367" passing="461" shooting="392" control="456" accuracy="466" goalkeeping="83" heading="417"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="12184">
+    <personal name="Edmar">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="361" risktaking="500" offensive="509" aggressive="570" consistent="639" creative="389" experienced="514"/>
+    <skills stamina="392" dexterity="624" speed="218" tackling="318" passing="353" shooting="388" control="392" accuracy="410" goalkeeping="55" heading="383"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12185">
+    <personal name="Loizos Louvaris">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="521" risktaking="371" offensive="520" aggressive="406" consistent="289" creative="575" experienced="476"/>
+    <skills stamina="177" dexterity="266" speed="634" tackling="319" passing="404" shooting="349" control="468" accuracy="288" goalkeeping="50" heading="267"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12186">
+    <personal name="Giorgos Kamarligos">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="424" risktaking="254" offensive="501" aggressive="505" consistent="604" creative="209" experienced="586"/>
+    <skills stamina="567" dexterity="353" speed="181" tackling="380" passing="357" shooting="385" control="279" accuracy="335" goalkeeping="72" heading="277"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12187">
+    <personal name="Giorgos Kostis">
+      <appearance value="0"/>
+      <nationality value="Greece"/>
+    </personal>
+    <personality active="435" risktaking="423" offensive="391" aggressive="624" consistent="784" creative="500" experienced="634"/>
+    <skills stamina="328" dexterity="455" speed="159" tackling="344" passing="444" shooting="300" control="383" accuracy="404" goalkeeping="46" heading="244"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12188">
+    <personal name="Fangio Buyse">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="570" risktaking="495" offensive="553" aggressive="643" consistent="619" creative="276" experienced="462"/>
+    <skills stamina="192" dexterity="251" speed="260" tackling="422" passing="344" shooting="234" control="435" accuracy="255" goalkeeping="60" heading="417"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12189">
+    <personal name="Mustafa Ndaw">
+      <appearance value="1"/>
+      <nationality value="Gambia"/>
+    </personal>
+    <personality active="480" risktaking="613" offensive="594" aggressive="340" consistent="445" creative="411" experienced="481"/>
+    <skills stamina="407" dexterity="474" speed="416" tackling="335" passing="282" shooting="421" control="363" accuracy="332" goalkeeping="61" heading="264"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="12190">
+    <personal name="Soritis Vourkou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="669" risktaking="362" offensive="397" aggressive="443" consistent="421" creative="449" experienced="493"/>
+    <skills stamina="484" dexterity="309" speed="264" tackling="269" passing="434" shooting="350" control="345" accuracy="437" goalkeeping="49" heading="339"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12191">
+    <personal name="David">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="458" risktaking="281" offensive="580" aggressive="343" consistent="472" creative="593" experienced="571"/>
+    <skills stamina="219" dexterity="184" speed="504" tackling="380" passing="233" shooting="374" control="336" accuracy="339" goalkeeping="58" heading="370"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12192">
+    <personal name="Antonis Giorgallidis">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="568" risktaking="373" offensive="751" aggressive="468" consistent="516" creative="635" experienced="391"/>
+    <skills stamina="477" dexterity="612" speed="520" tackling="261" passing="444" shooting="586" control="417" accuracy="275" goalkeeping="472" heading="222"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12193">
+    <personal name="Dimitris Leoni">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="356" risktaking="502" offensive="730" aggressive="453" consistent="534" creative="709" experienced="662"/>
+    <skills stamina="444" dexterity="294" speed="478" tackling="140" passing="334" shooting="332" control="314" accuracy="172" goalkeeping="430" heading="212"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12194">
+    <personal name="Giorgos Theodotou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="279" risktaking="314" offensive="519" aggressive="585" consistent="558" creative="463" experienced="472"/>
+    <skills stamina="420" dexterity="221" speed="564" tackling="405" passing="342" shooting="399" control="466" accuracy="365" goalkeeping="50" heading="343"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12195">
+    <personal name="Stavros Tziortzopoulos">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="686" risktaking="413" offensive="421" aggressive="541" consistent="470" creative="363" experienced="473"/>
+    <skills stamina="499" dexterity="418" speed="536" tackling="375" passing="515" shooting="463" control="488" accuracy="395" goalkeeping="58" heading="432"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12196">
+    <personal name="Leonel Medeiros">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="454" risktaking="457" offensive="367" aggressive="478" consistent="703" creative="353" experienced="594"/>
+    <skills stamina="510" dexterity="713" speed="308" tackling="394" passing="436" shooting="345" control="500" accuracy="313" goalkeeping="60" heading="459"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="12197">
+    <personal name="Nelson Veiga">
+      <appearance value="1"/>
+      <nationality value="Unknown"/>
+    </personal>
+    <personality active="316" risktaking="196" offensive="500" aggressive="547" consistent="690" creative="531" experienced="351"/>
+    <skills stamina="529" dexterity="463" speed="220" tackling="515" passing="493" shooting="290" control="384" accuracy="457" goalkeeping="49" heading="452"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12198">
+    <personal name="Vlatko Grozdanoski">
+      <appearance value="0"/>
+      <nationality value="FYR Macedonia"/>
+    </personal>
+    <personality active="560" risktaking="634" offensive="629" aggressive="230" consistent="423" creative="501" experienced="665"/>
+    <skills stamina="341" dexterity="731" speed="532" tackling="561" passing="479" shooting="486" control="592" accuracy="408" goalkeeping="78" heading="543"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="12199">
+    <personal name="Magno">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="385" risktaking="469" offensive="487" aggressive="511" consistent="728" creative="431" experienced="642"/>
+    <skills stamina="454" dexterity="349" speed="317" tackling="372" passing="425" shooting="458" control="408" accuracy="439" goalkeeping="69" heading="376"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12200">
+    <personal name="Rui Lima">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="391" risktaking="599" offensive="570" aggressive="316" consistent="404" creative="768" experienced="413"/>
+    <skills stamina="257" dexterity="317" speed="575" tackling="323" passing="404" shooting="341" control="478" accuracy="349" goalkeeping="71" heading="451"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12201">
+    <personal name="Sinisa Dobrasinovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="688" risktaking="571" offensive="540" aggressive="540" consistent="601" creative="716" experienced="535"/>
+    <skills stamina="660" dexterity="606" speed="152" tackling="443" passing="320" shooting="310" control="370" accuracy="414" goalkeeping="57" heading="388"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="12202">
+    <personal name="Dimitris Maris">
+      <appearance value="0"/>
+      <nationality value="Greece"/>
+    </personal>
+    <personality active="614" risktaking="342" offensive="471" aggressive="464" consistent="565" creative="488" experienced="517"/>
+    <skills stamina="517" dexterity="319" speed="299" tackling="459" passing="371" shooting="288" control="292" accuracy="349" goalkeeping="44" heading="428"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12203">
+    <personal name="Kostas Kaiafas">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="571" risktaking="362" offensive="361" aggressive="645" consistent="461" creative="273" experienced="425"/>
+    <skills stamina="225" dexterity="620" speed="538" tackling="581" passing="398" shooting="522" control="475" accuracy="423" goalkeeping="72" heading="522"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12204">
+    <personal name="Ricardo Sousa">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="216" risktaking="343" offensive="673" aggressive="848" consistent="500" creative="264" experienced="412"/>
+    <skills stamina="391" dexterity="758" speed="316" tackling="597" passing="612" shooting="514" control="504" accuracy="509" goalkeeping="96" heading="596"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="12205">
+    <personal name="Musa Mgnuni">
+      <appearance value="1"/>
+      <nationality value="Zimbabwe"/>
+    </personal>
+    <personality active="572" risktaking="587" offensive="520" aggressive="316" consistent="692" creative="490" experienced="396"/>
+    <skills stamina="549" dexterity="661" speed="448" tackling="375" passing="493" shooting="469" control="381" accuracy="408" goalkeeping="81" heading="472"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12206">
+    <personal name="Kyriakos Chailis">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="521" risktaking="572" offensive="723" aggressive="360" consistent="643" creative="311" experienced="564"/>
+    <skills stamina="598" dexterity="477" speed="250" tackling="365" passing="401" shooting="359" control="382" accuracy="422" goalkeeping="73" heading="455"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12207">
+    <personal name="Giorgos Vakouftsis">
+      <appearance value="0"/>
+      <nationality value="Greece"/>
+    </personal>
+    <personality active="661" risktaking="249" offensive="410" aggressive="627" consistent="500" creative="310" experienced="624"/>
+    <skills stamina="499" dexterity="692" speed="452" tackling="348" passing="356" shooting="508" control="443" accuracy="558" goalkeeping="71" heading="485"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12208">
+    <personal name="Alexandre Negri">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="329" risktaking="333" offensive="502" aggressive="401" consistent="534" creative="474" experienced="637"/>
+    <skills stamina="658" dexterity="418" speed="404" tackling="179" passing="444" shooting="528" control="423" accuracy="268" goalkeeping="568" heading="242"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12209">
+    <personal name="Gabor Bardi">
+      <appearance value="0"/>
+      <nationality value="Hungary"/>
+    </personal>
+    <personality active="611" risktaking="507" offensive="445" aggressive="539" consistent="589" creative="620" experienced="543"/>
+    <skills stamina="451" dexterity="527" speed="291" tackling="165" passing="386" shooting="324" control="272" accuracy="140" goalkeeping="325" heading="135"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="12210">
+    <personal name="Angelos Efthymiou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="477" risktaking="593" offensive="214" aggressive="551" consistent="172" creative="620" experienced="664"/>
+    <skills stamina="163" dexterity="598" speed="314" tackling="351" passing="386" shooting="328" control="401" accuracy="279" goalkeeping="55" heading="420"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="12211">
+    <personal name="Marcio">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="367" risktaking="472" offensive="621" aggressive="649" consistent="595" creative="372" experienced="397"/>
+    <skills stamina="453" dexterity="396" speed="506" tackling="347" passing="354" shooting="393" control="564" accuracy="395" goalkeeping="87" heading="510"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="12212">
+    <personal name="Filippos Filippou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="462" risktaking="490" offensive="514" aggressive="242" consistent="363" creative="425" experienced="445"/>
+    <skills stamina="318" dexterity="376" speed="474" tackling="455" passing="395" shooting="263" control="411" accuracy="292" goalkeeping="42" heading="282"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="12213">
+    <personal name="Giannis Sfakianakis">
+      <appearance value="0"/>
+      <nationality value="Greece"/>
+    </personal>
+    <personality active="381" risktaking="625" offensive="805" aggressive="497" consistent="690" creative="511" experienced="406"/>
+    <skills stamina="577" dexterity="652" speed="416" tackling="404" passing="291" shooting="280" control="269" accuracy="294" goalkeeping="49" heading="275"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="12214">
+    <personal name="Dmitri Mikhailenko">
+      <appearance value="0"/>
+      <nationality value="Ukraine"/>
+    </personal>
+    <personality active="445" risktaking="544" offensive="707" aggressive="334" consistent="600" creative="398" experienced="219"/>
+    <skills stamina="297" dexterity="650" speed="579" tackling="408" passing="410" shooting="353" control="422" accuracy="410" goalkeeping="61" heading="432"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="12215">
+    <personal name="Tuta">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="588" risktaking="612" offensive="740" aggressive="496" consistent="347" creative="341" experienced="386"/>
+    <skills stamina="175" dexterity="673" speed="490" tackling="424" passing="384" shooting="309" control="421" accuracy="453" goalkeeping="68" heading="431"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="12216">
+    <personal name="Tinga">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="770" risktaking="640" offensive="368" aggressive="350" consistent="777" creative="604" experienced="367"/>
+    <skills stamina="605" dexterity="376" speed="333" tackling="289" passing="400" shooting="426" control="293" accuracy="332" goalkeeping="64" heading="329"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12217">
+    <personal name="Carlos Marques">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="495" risktaking="455" offensive="248" aggressive="653" consistent="634" creative="282" experienced="329"/>
+    <skills stamina="143" dexterity="403" speed="630" tackling="327" passing="437" shooting="422" control="288" accuracy="402" goalkeeping="72" heading="333"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="12218">
+    <personal name="Paulo Sousa">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="746" risktaking="787" offensive="600" aggressive="693" consistent="591" creative="556" experienced="511"/>
+    <skills stamina="395" dexterity="737" speed="297" tackling="501" passing="566" shooting="444" control="518" accuracy="465" goalkeeping="65" heading="370"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12219">
+    <personal name="Jose Calado">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="423" risktaking="436" offensive="612" aggressive="867" consistent="644" creative="759" experienced="532"/>
+    <skills stamina="602" dexterity="472" speed="438" tackling="385" passing="404" shooting="484" control="458" accuracy="416" goalkeeping="72" heading="471"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="12220">
+    <personal name="Ivan Dudic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="510" risktaking="659" offensive="572" aggressive="586" consistent="436" creative="251" experienced="714"/>
+    <skills stamina="644" dexterity="655" speed="270" tackling="298" passing="384" shooting="360" control="316" accuracy="281" goalkeeping="60" heading="384"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="12221">
+    <personal name="Emmanuel Olisadebe">
+      <appearance value="1"/>
+      <nationality value="Poland"/>
+    </personal>
+    <personality active="484" risktaking="329" offensive="696" aggressive="423" consistent="727" creative="208" experienced="566"/>
+    <skills stamina="207" dexterity="580" speed="307" tackling="433" passing="552" shooting="424" control="454" accuracy="468" goalkeeping="87" heading="572"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="12222">
+    <personal name="Marios Christodoulou">
+      <appearance value="0"/>
+      <nationality value="Cyprus"/>
+    </personal>
+    <personality active="328" risktaking="711" offensive="461" aggressive="509" consistent="357" creative="650" experienced="660"/>
+    <skills stamina="377" dexterity="385" speed="433" tackling="240" passing="322" shooting="252" control="438" accuracy="337" goalkeeping="48" heading="304"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="12223">
+    <personal name="Bernardo Vasconcelos">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="786" risktaking="561" offensive="286" aggressive="613" consistent="586" creative="473" experienced="492"/>
+    <skills stamina="453" dexterity="206" speed="662" tackling="351" passing="415" shooting="405" control="367" accuracy="478" goalkeeping="71" heading="364"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+</Players>

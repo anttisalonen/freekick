@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Arsenal">
+    <coach name="Aleksandr Zavarov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Arsenal Stadium"/>
+    <contracts>
+      <contract player="78000"/>
+      <contract player="78001"/>
+      <contract player="78002"/>
+      <contract player="78003"/>
+      <contract player="78004"/>
+      <contract player="78005"/>
+      <contract player="78006"/>
+      <contract player="78007"/>
+      <contract player="78008"/>
+      <contract player="78009"/>
+      <contract player="78010"/>
+      <contract player="78011"/>
+      <contract player="78012"/>
+      <contract player="78013"/>
+      <contract player="78014"/>
+      <contract player="78015"/>
+    </contracts>
+  </club>
+  <club name="Chornomorets">
+    <coach name="Viktor Prokopenko"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Chornomorets Stadium"/>
+    <contracts>
+      <contract player="78016"/>
+      <contract player="78017"/>
+      <contract player="78018"/>
+      <contract player="78019"/>
+      <contract player="78020"/>
+      <contract player="78021"/>
+      <contract player="78022"/>
+      <contract player="78023"/>
+      <contract player="78024"/>
+      <contract player="78025"/>
+      <contract player="78026"/>
+      <contract player="78027"/>
+      <contract player="78028"/>
+      <contract player="78029"/>
+      <contract player="78030"/>
+      <contract player="78031"/>
+    </contracts>
+  </club>
+  <club name="Dinamo Kiev">
+    <coach name="Oleg Luzhny"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Dinamo Kiev Stadium"/>
+    <contracts>
+      <contract player="78032"/>
+      <contract player="78033"/>
+      <contract player="78034"/>
+      <contract player="78035"/>
+      <contract player="78036"/>
+      <contract player="78037"/>
+      <contract player="78038"/>
+      <contract player="78039"/>
+      <contract player="78040"/>
+      <contract player="78041"/>
+      <contract player="78042"/>
+      <contract player="78043"/>
+      <contract player="78044"/>
+      <contract player="78045"/>
+      <contract player="78046"/>
+      <contract player="78047"/>
+    </contracts>
+  </club>
+  <club name="Dnipro">
+    <coach name="Oleg Protasov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Dnipro Stadium"/>
+    <contracts>
+      <contract player="78048"/>
+      <contract player="78049"/>
+      <contract player="78050"/>
+      <contract player="78051"/>
+      <contract player="78052"/>
+      <contract player="78053"/>
+      <contract player="78054"/>
+      <contract player="78055"/>
+      <contract player="78056"/>
+      <contract player="78057"/>
+      <contract player="78058"/>
+      <contract player="78059"/>
+      <contract player="78060"/>
+      <contract player="78061"/>
+      <contract player="78062"/>
+      <contract player="78063"/>
+    </contracts>
+  </club>
+  <club name="Karpaty">
+    <coach name="Valeri Yaremchenko"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Karpaty Stadium"/>
+    <contracts>
+      <contract player="78064"/>
+      <contract player="78065"/>
+      <contract player="78066"/>
+      <contract player="78067"/>
+      <contract player="78068"/>
+      <contract player="78069"/>
+      <contract player="78070"/>
+      <contract player="78071"/>
+      <contract player="78072"/>
+      <contract player="78073"/>
+      <contract player="78074"/>
+      <contract player="78075"/>
+      <contract player="78076"/>
+      <contract player="78077"/>
+      <contract player="78078"/>
+      <contract player="78079"/>
+    </contracts>
+  </club>
+  <club name="Kharkiv">
+    <coach name="Vladimir Bessonov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="150" g="75" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Kharkiv Stadium"/>
+    <contracts>
+      <contract player="78080"/>
+      <contract player="78081"/>
+      <contract player="78082"/>
+      <contract player="78083"/>
+      <contract player="78084"/>
+      <contract player="78085"/>
+      <contract player="78086"/>
+      <contract player="78087"/>
+      <contract player="78088"/>
+      <contract player="78089"/>
+      <contract player="78090"/>
+      <contract player="78091"/>
+      <contract player="78092"/>
+      <contract player="78093"/>
+      <contract player="78094"/>
+      <contract player="78095"/>
+    </contracts>
+  </club>
+  <club name="Kryvbas">
+    <coach name="Oleg Taran"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Kryvbas Stadium"/>
+    <contracts>
+      <contract player="78096"/>
+      <contract player="78097"/>
+      <contract player="78098"/>
+      <contract player="78099"/>
+      <contract player="78100"/>
+      <contract player="78101"/>
+      <contract player="78102"/>
+      <contract player="78103"/>
+      <contract player="78104"/>
+      <contract player="78105"/>
+      <contract player="78106"/>
+      <contract player="78107"/>
+      <contract player="78108"/>
+      <contract player="78109"/>
+      <contract player="78110"/>
+      <contract player="78111"/>
+    </contracts>
+  </club>
+  <club name="Metalist">
+    <coach name="Myron Markevych"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Metalist Stadium"/>
+    <contracts>
+      <contract player="78112"/>
+      <contract player="78113"/>
+      <contract player="78114"/>
+      <contract player="78115"/>
+      <contract player="78116"/>
+      <contract player="78117"/>
+      <contract player="78118"/>
+      <contract player="78119"/>
+      <contract player="78120"/>
+      <contract player="78121"/>
+      <contract player="78122"/>
+      <contract player="78123"/>
+      <contract player="78124"/>
+      <contract player="78125"/>
+      <contract player="78126"/>
+      <contract player="78127"/>
+    </contracts>
+  </club>
+  <club name="Metalurg D">
+    <coach name="Jos Daerden"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Metalurg D Stadium"/>
+    <contracts>
+      <contract player="78128"/>
+      <contract player="78129"/>
+      <contract player="78130"/>
+      <contract player="78131"/>
+      <contract player="78132"/>
+      <contract player="78133"/>
+      <contract player="78134"/>
+      <contract player="78135"/>
+      <contract player="78136"/>
+      <contract player="78137"/>
+      <contract player="78138"/>
+      <contract player="78139"/>
+      <contract player="78140"/>
+      <contract player="78141"/>
+      <contract player="78142"/>
+      <contract player="78143"/>
+    </contracts>
+  </club>
+  <club name="Metalurg Z">
+    <coach name="Leonid Buryak"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="128" g="128" b="128"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Metalurg Z Stadium"/>
+    <contracts>
+      <contract player="78144"/>
+      <contract player="78145"/>
+      <contract player="78146"/>
+      <contract player="78147"/>
+      <contract player="78148"/>
+      <contract player="78149"/>
+      <contract player="78150"/>
+      <contract player="78151"/>
+      <contract player="78152"/>
+      <contract player="78153"/>
+      <contract player="78154"/>
+      <contract player="78155"/>
+      <contract player="78156"/>
+      <contract player="78157"/>
+      <contract player="78158"/>
+      <contract player="78159"/>
+    </contracts>
+  </club>
+  <club name="Naftovyk">
+    <coach name="Aleksei Grachov"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Naftovyk Stadium"/>
+    <contracts>
+      <contract player="78160"/>
+      <contract player="78161"/>
+      <contract player="78162"/>
+      <contract player="78163"/>
+      <contract player="78164"/>
+      <contract player="78165"/>
+      <contract player="78166"/>
+      <contract player="78167"/>
+      <contract player="78168"/>
+      <contract player="78169"/>
+      <contract player="78170"/>
+      <contract player="78171"/>
+      <contract player="78172"/>
+      <contract player="78173"/>
+      <contract player="78174"/>
+      <contract player="78175"/>
+    </contracts>
+  </club>
+  <club name="Shakhtar Donetsk">
+    <coach name="Mircea Lucescu"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="127" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="127" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Shakhtar Donetsk Stadium"/>
+    <contracts>
+      <contract player="78176"/>
+      <contract player="78177"/>
+      <contract player="78178"/>
+      <contract player="78179"/>
+      <contract player="78180"/>
+      <contract player="78181"/>
+      <contract player="78182"/>
+      <contract player="78183"/>
+      <contract player="78184"/>
+      <contract player="78185"/>
+      <contract player="78186"/>
+      <contract player="78187"/>
+      <contract player="78188"/>
+      <contract player="78189"/>
+      <contract player="78190"/>
+      <contract player="78191"/>
+    </contracts>
+  </club>
+  <club name="Tavriya">
+    <coach name="Mykhailo Fomenko"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Tavriya Stadium"/>
+    <contracts>
+      <contract player="78192"/>
+      <contract player="78193"/>
+      <contract player="78194"/>
+      <contract player="78195"/>
+      <contract player="78196"/>
+      <contract player="78197"/>
+      <contract player="78198"/>
+      <contract player="78199"/>
+      <contract player="78200"/>
+      <contract player="78201"/>
+      <contract player="78202"/>
+      <contract player="78203"/>
+      <contract player="78204"/>
+      <contract player="78205"/>
+      <contract player="78206"/>
+      <contract player="78207"/>
+    </contracts>
+  </club>
+  <club name="Vorskla">
+    <coach name="Viktor Nosov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Vorskla Stadium"/>
+    <contracts>
+      <contract player="78208"/>
+      <contract player="78209"/>
+      <contract player="78210"/>
+      <contract player="78211"/>
+      <contract player="78212"/>
+      <contract player="78213"/>
+      <contract player="78214"/>
+      <contract player="78215"/>
+      <contract player="78216"/>
+      <contract player="78217"/>
+      <contract player="78218"/>
+      <contract player="78219"/>
+      <contract player="78220"/>
+      <contract player="78221"/>
+      <contract player="78222"/>
+      <contract player="78223"/>
+    </contracts>
+  </club>
+  <club name="Stal">
+    <coach name="Ton Kaanen"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Stal Stadium"/>
+    <contracts>
+      <contract player="78224"/>
+      <contract player="78225"/>
+      <contract player="78226"/>
+      <contract player="78227"/>
+      <contract player="78228"/>
+      <contract player="78229"/>
+      <contract player="78230"/>
+      <contract player="78231"/>
+      <contract player="78232"/>
+      <contract player="78233"/>
+      <contract player="78234"/>
+      <contract player="78235"/>
+      <contract player="78236"/>
+      <contract player="78237"/>
+      <contract player="78238"/>
+      <contract player="78239"/>
+    </contracts>
+  </club>
+  <club name="Illychivets">
+    <coach name="Semen Altman"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="150" g="75" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="150" g="75" b="0"/>
+        </shorts>
+        <socks>
+          <color r="150" g="75" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Illychivets Stadium"/>
+    <contracts>
+      <contract player="78240"/>
+      <contract player="78241"/>
+      <contract player="78242"/>
+      <contract player="78243"/>
+      <contract player="78244"/>
+      <contract player="78245"/>
+      <contract player="78246"/>
+      <contract player="78247"/>
+      <contract player="78248"/>
+      <contract player="78249"/>
+      <contract player="78250"/>
+      <contract player="78251"/>
+      <contract player="78252"/>
+      <contract player="78253"/>
+      <contract player="78254"/>
+      <contract player="78255"/>
+    </contracts>
+  </club>
+  <club name="Zakarpattya">
+    <coach name="Petro Kushlyk"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Zakarpattya Stadium"/>
+    <contracts>
+      <contract player="78256"/>
+      <contract player="78257"/>
+      <contract player="78258"/>
+      <contract player="78259"/>
+      <contract player="78260"/>
+      <contract player="78261"/>
+      <contract player="78262"/>
+      <contract player="78263"/>
+      <contract player="78264"/>
+      <contract player="78265"/>
+      <contract player="78266"/>
+      <contract player="78267"/>
+      <contract player="78268"/>
+      <contract player="78269"/>
+      <contract player="78270"/>
+      <contract player="78271"/>
+    </contracts>
+  </club>
+  <club name="Zorya">
+    <coach name="Aleksandr Kosevych"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ukraine"/>
+    <stadium name="Zorya Stadium"/>
+    <contracts>
+      <contract player="78272"/>
+      <contract player="78273"/>
+      <contract player="78274"/>
+      <contract player="78275"/>
+      <contract player="78276"/>
+      <contract player="78277"/>
+      <contract player="78278"/>
+      <contract player="78279"/>
+      <contract player="78280"/>
+      <contract player="78281"/>
+      <contract player="78282"/>
+      <contract player="78283"/>
+      <contract player="78284"/>
+      <contract player="78285"/>
+      <contract player="78286"/>
+      <contract player="78287"/>
+    </contracts>
+  </club>
+</Clubs>

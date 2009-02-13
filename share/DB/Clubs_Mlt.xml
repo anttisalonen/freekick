@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Birkirkara Luxol">
+    <coach name="Lawrence Borg"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Malta"/>
+    <stadium name="Birkirkara Luxol Stadium"/>
+    <contracts>
+      <contract player="48000"/>
+      <contract player="48001"/>
+      <contract player="48002"/>
+      <contract player="48003"/>
+      <contract player="48004"/>
+      <contract player="48005"/>
+      <contract player="48006"/>
+      <contract player="48007"/>
+      <contract player="48008"/>
+      <contract player="48009"/>
+      <contract player="48010"/>
+      <contract player="48011"/>
+      <contract player="48012"/>
+      <contract player="48013"/>
+      <contract player="48014"/>
+      <contract player="48015"/>
+    </contracts>
+  </club>
+  <club name="Floriana">
+    <coach name="Ron Fenton"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Malta"/>
+    <stadium name="Floriana Stadium"/>
+    <contracts>
+      <contract player="48016"/>
+      <contract player="48017"/>
+      <contract player="48018"/>
+      <contract player="48019"/>
+      <contract player="48020"/>
+      <contract player="48021"/>
+      <contract player="48022"/>
+      <contract player="48023"/>
+      <contract player="48024"/>
+      <contract player="48025"/>
+      <contract player="48026"/>
+      <contract player="48027"/>
+      <contract player="48028"/>
+      <contract player="48029"/>
+      <contract player="48030"/>
+      <contract player="48031"/>
+    </contracts>
+  </club>
+  <club name="Hamrun Spartans">
+    <coach name="Lolly Aquilina"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Malta"/>
+    <stadium name="Hamrun Spartans Stadium"/>
+    <contracts>
+      <contract player="48032"/>
+      <contract player="48033"/>
+      <contract player="48034"/>
+      <contract player="48035"/>
+      <contract player="48036"/>
+      <contract player="48037"/>
+      <contract player="48038"/>
+      <contract player="48039"/>
+      <contract player="48040"/>
+      <contract player="48041"/>
+      <contract player="48042"/>
+      <contract player="48043"/>
+      <contract player="48044"/>
+      <contract player="48045"/>
+      <contract player="48046"/>
+      <contract player="48047"/>
+    </contracts>
+  </club>
+  <club name="Hibernians">
+    <coach name="Brian Talbot"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Malta"/>
+    <stadium name="Hibernians Stadium"/>
+    <contracts>
+      <contract player="48048"/>
+      <contract player="48049"/>
+      <contract player="48050"/>
+      <contract player="48051"/>
+      <contract player="48052"/>
+      <contract player="48053"/>
+      <contract player="48054"/>
+      <contract player="48055"/>
+      <contract player="48056"/>
+      <contract player="48057"/>
+      <contract player="48058"/>
+      <contract player="48059"/>
+      <contract player="48060"/>
+      <contract player="48061"/>
+      <contract player="48062"/>
+      <contract player="48063"/>
+    </contracts>
+  </club>
+  <club name="Mellieha">
+    <coach name="Dennis Fenech"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Malta"/>
+    <stadium name="Mellieha Stadium"/>
+    <contracts>
+      <contract player="48064"/>
+      <contract player="48065"/>
+      <contract player="48066"/>
+      <contract player="48067"/>
+      <contract player="48068"/>
+      <contract player="48069"/>
+      <contract player="48070"/>
+      <contract player="48071"/>
+      <contract player="48072"/>
+      <contract player="48073"/>
+      <contract player="48074"/>
+      <contract player="48075"/>
+      <contract player="48076"/>
+      <contract player="48077"/>
+      <contract player="48078"/>
+      <contract player="48079"/>
+    </contracts>
+  </club>
+  <club name="Mqabba Hajduks">
+    <coach name="Joe Bajada"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Malta"/>
+    <stadium name="Mqabba Hajduks Stadium"/>
+    <contracts>
+      <contract player="48080"/>
+      <contract player="48081"/>
+      <contract player="48082"/>
+      <contract player="48083"/>
+      <contract player="48084"/>
+      <contract player="48085"/>
+      <contract player="48086"/>
+      <contract player="48087"/>
+      <contract player="48088"/>
+      <contract player="48089"/>
+      <contract player="48090"/>
+      <contract player="48091"/>
+      <contract player="48092"/>
+      <contract player="48093"/>
+      <contract player="48094"/>
+      <contract player="48095"/>
+    </contracts>
+  </club>
+  <club name="Naxxar Lions">
+    <coach name="Ray Farrugia"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Malta"/>
+    <stadium name="Naxxar Lions Stadium"/>
+    <contracts>
+      <contract player="48096"/>
+      <contract player="48097"/>
+      <contract player="48098"/>
+      <contract player="48099"/>
+      <contract player="48100"/>
+      <contract player="48101"/>
+      <contract player="48102"/>
+      <contract player="48103"/>
+      <contract player="48104"/>
+      <contract player="48105"/>
+      <contract player="48106"/>
+      <contract player="48107"/>
+      <contract player="48108"/>
+      <contract player="48109"/>
+      <contract player="48110"/>
+      <contract player="48111"/>
+    </contracts>
+  </club>
+  <club name="Pieta Hotspurs">
+    <coach name="George Deanov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Malta"/>
+    <stadium name="Pieta Hotspurs Stadium"/>
+    <contracts>
+      <contract player="48112"/>
+      <contract player="48113"/>
+      <contract player="48114"/>
+      <contract player="48115"/>
+      <contract player="48116"/>
+      <contract player="48117"/>
+      <contract player="48118"/>
+      <contract player="48119"/>
+      <contract player="48120"/>
+      <contract player="48121"/>
+      <contract player="48122"/>
+      <contract player="48123"/>
+      <contract player="48124"/>
+      <contract player="48125"/>
+      <contract player="48126"/>
+      <contract player="48127"/>
+    </contracts>
+  </club>
+  <club name="Rabat Ajax">
+    <coach name="Ziya Yildiz"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Malta"/>
+    <stadium name="Rabat Ajax Stadium"/>
+    <contracts>
+      <contract player="48128"/>
+      <contract player="48129"/>
+      <contract player="48130"/>
+      <contract player="48131"/>
+      <contract player="48132"/>
+      <contract player="48133"/>
+      <contract player="48134"/>
+      <contract player="48135"/>
+      <contract player="48136"/>
+      <contract player="48137"/>
+      <contract player="48138"/>
+      <contract player="48139"/>
+      <contract player="48140"/>
+      <contract player="48141"/>
+      <contract player="48142"/>
+      <contract player="48143"/>
+    </contracts>
+  </club>
+  <club name="Sliema Wanderers">
+    <coach name="Andy Weavill"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Malta"/>
+    <stadium name="Sliema Wanderers Stadium"/>
+    <contracts>
+      <contract player="48144"/>
+      <contract player="48145"/>
+      <contract player="48146"/>
+      <contract player="48147"/>
+      <contract player="48148"/>
+      <contract player="48149"/>
+      <contract player="48150"/>
+      <contract player="48151"/>
+      <contract player="48152"/>
+      <contract player="48153"/>
+      <contract player="48154"/>
+      <contract player="48155"/>
+      <contract player="48156"/>
+      <contract player="48157"/>
+      <contract player="48158"/>
+      <contract player="48159"/>
+    </contracts>
+  </club>
+  <club name="St. Andrews">
+    <coach name="Borislav Gyorev"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="150" g="75" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="150" g="75" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="150" g="75" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Malta"/>
+    <stadium name="St. Andrews Stadium"/>
+    <contracts>
+      <contract player="48160"/>
+      <contract player="48161"/>
+      <contract player="48162"/>
+      <contract player="48163"/>
+      <contract player="48164"/>
+      <contract player="48165"/>
+      <contract player="48166"/>
+      <contract player="48167"/>
+      <contract player="48168"/>
+      <contract player="48169"/>
+      <contract player="48170"/>
+      <contract player="48171"/>
+      <contract player="48172"/>
+      <contract player="48173"/>
+      <contract player="48174"/>
+      <contract player="48175"/>
+    </contracts>
+  </club>
+  <club name="St. Georges">
+    <coach name="Robert Kelly"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Malta"/>
+    <stadium name="St. Georges Stadium"/>
+    <contracts>
+      <contract player="48176"/>
+      <contract player="48177"/>
+      <contract player="48178"/>
+      <contract player="48179"/>
+      <contract player="48180"/>
+      <contract player="48181"/>
+      <contract player="48182"/>
+      <contract player="48183"/>
+      <contract player="48184"/>
+      <contract player="48185"/>
+      <contract player="48186"/>
+      <contract player="48187"/>
+      <contract player="48188"/>
+      <contract player="48189"/>
+      <contract player="48190"/>
+      <contract player="48191"/>
+    </contracts>
+  </club>
+  <club name="St. Patrick">
+    <coach name="Edward Darmanin"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Malta"/>
+    <stadium name="St. Patrick Stadium"/>
+    <contracts>
+      <contract player="48192"/>
+      <contract player="48193"/>
+      <contract player="48194"/>
+      <contract player="48195"/>
+      <contract player="48196"/>
+      <contract player="48197"/>
+      <contract player="48198"/>
+      <contract player="48199"/>
+      <contract player="48200"/>
+      <contract player="48201"/>
+      <contract player="48202"/>
+      <contract player="48203"/>
+      <contract player="48204"/>
+      <contract player="48205"/>
+      <contract player="48206"/>
+      <contract player="48207"/>
+    </contracts>
+  </club>
+  <club name="Valletta">
+    <coach name="Edward Aquilina"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Malta"/>
+    <stadium name="Valletta Stadium"/>
+    <contracts>
+      <contract player="48208"/>
+      <contract player="48209"/>
+      <contract player="48210"/>
+      <contract player="48211"/>
+      <contract player="48212"/>
+      <contract player="48213"/>
+      <contract player="48214"/>
+      <contract player="48215"/>
+      <contract player="48216"/>
+      <contract player="48217"/>
+      <contract player="48218"/>
+      <contract player="48219"/>
+      <contract player="48220"/>
+      <contract player="48221"/>
+      <contract player="48222"/>
+      <contract player="48223"/>
+    </contracts>
+  </club>
+  <club name="Zurrieq">
+    <coach name="Jimmy Briffa"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Malta"/>
+    <stadium name="Zurrieq Stadium"/>
+    <contracts>
+      <contract player="48224"/>
+      <contract player="48225"/>
+      <contract player="48226"/>
+      <contract player="48227"/>
+      <contract player="48228"/>
+      <contract player="48229"/>
+      <contract player="48230"/>
+      <contract player="48231"/>
+      <contract player="48232"/>
+      <contract player="48233"/>
+      <contract player="48234"/>
+      <contract player="48235"/>
+      <contract player="48236"/>
+      <contract player="48237"/>
+      <contract player="48238"/>
+      <contract player="48239"/>
+    </contracts>
+  </club>
+</Clubs>

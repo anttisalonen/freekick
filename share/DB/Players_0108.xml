@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="108000">
+    <personal name="Gilberto Chapaino">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="550" risktaking="395" offensive="678" aggressive="407" consistent="648" creative="693" experienced="615"/>
+    <skills stamina="621" dexterity="714" speed="570" tackling="282" passing="490" shooting="481" control="423" accuracy="284" goalkeeping="496" heading="193"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108001">
+    <personal name="Gustavo Willington">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="440" risktaking="590" offensive="673" aggressive="594" consistent="475" creative="955" experienced="463"/>
+    <skills stamina="576" dexterity="600" speed="681" tackling="164" passing="404" shooting="366" control="351" accuracy="181" goalkeeping="374" heading="228"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108002">
+    <personal name="Alfredo Almada">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="780" risktaking="289" offensive="344" aggressive="572" consistent="488" creative="517" experienced="522"/>
+    <skills stamina="250" dexterity="169" speed="223" tackling="463" passing="382" shooting="508" control="477" accuracy="523" goalkeeping="75" heading="479"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="108003">
+    <personal name="Silvio Acuna">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="883" risktaking="646" offensive="321" aggressive="510" consistent="467" creative="504" experienced="106"/>
+    <skills stamina="665" dexterity="253" speed="423" tackling="535" passing="395" shooting="516" control="432" accuracy="455" goalkeeping="61" heading="379"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="108004">
+    <personal name="Marcos Candia">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="437" risktaking="664" offensive="293" aggressive="458" consistent="563" creative="737" experienced="565"/>
+    <skills stamina="459" dexterity="488" speed="511" tackling="469" passing="503" shooting="576" control="477" accuracy="560" goalkeeping="81" heading="418"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108005">
+    <personal name="Cecifio Leguizamon">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="557" risktaking="524" offensive="663" aggressive="537" consistent="460" creative="279" experienced="341"/>
+    <skills stamina="495" dexterity="763" speed="329" tackling="473" passing="463" shooting="449" control="449" accuracy="483" goalkeeping="90" heading="545"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108006">
+    <personal name="Delio Toledo">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="614" risktaking="684" offensive="590" aggressive="421" consistent="699" creative="272" experienced="513"/>
+    <skills stamina="315" dexterity="482" speed="361" tackling="474" passing="472" shooting="372" control="473" accuracy="513" goalkeeping="85" heading="424"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108007">
+    <personal name="Jorge Espinola">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="333" risktaking="273" offensive="472" aggressive="419" consistent="673" creative="491" experienced="642"/>
+    <skills stamina="387" dexterity="638" speed="600" tackling="439" passing="432" shooting="532" control="519" accuracy="404" goalkeeping="84" heading="365"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="108008">
+    <personal name="Osvaldo Ocampos">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="570" risktaking="716" offensive="708" aggressive="578" consistent="291" creative="536" experienced="638"/>
+    <skills stamina="544" dexterity="318" speed="390" tackling="507" passing="522" shooting="501" control="555" accuracy="452" goalkeeping="86" heading="518"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="108009">
+    <personal name="Gilberto Ayala">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="521" risktaking="192" offensive="557" aggressive="347" consistent="534" creative="391" experienced="359"/>
+    <skills stamina="440" dexterity="498" speed="550" tackling="465" passing="381" shooting="497" control="505" accuracy="466" goalkeeping="89" heading="524"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108010">
+    <personal name="Jorge Espinola">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="426" risktaking="405" offensive="491" aggressive="403" consistent="765" creative="522" experienced="411"/>
+    <skills stamina="496" dexterity="462" speed="695" tackling="445" passing="559" shooting="452" control="372" accuracy="445" goalkeeping="86" heading="503"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108011">
+    <personal name="Juan Franco">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="259" risktaking="795" offensive="411" aggressive="759" consistent="610" creative="691" experienced="579"/>
+    <skills stamina="524" dexterity="505" speed="461" tackling="561" passing="373" shooting="505" control="452" accuracy="486" goalkeeping="77" heading="456"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108012">
+    <personal name="Carlos Gorozo">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="579" risktaking="547" offensive="640" aggressive="315" consistent="486" creative="722" experienced="304"/>
+    <skills stamina="399" dexterity="480" speed="392" tackling="526" passing="446" shooting="380" control="499" accuracy="391" goalkeeping="85" heading="399"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108013">
+    <personal name="Carlos Dias">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="803" risktaking="745" offensive="585" aggressive="485" consistent="608" creative="451" experienced="512"/>
+    <skills stamina="270" dexterity="200" speed="259" tackling="413" passing="468" shooting="451" control="444" accuracy="597" goalkeeping="90" heading="628"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108014">
+    <personal name="Nelson Vera">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="454" risktaking="500" offensive="726" aggressive="659" consistent="457" creative="454" experienced="610"/>
+    <skills stamina="333" dexterity="583" speed="374" tackling="414" passing="524" shooting="433" control="500" accuracy="508" goalkeeping="63" heading="386"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="108015">
+    <personal name="Alcides Salinas">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="557" risktaking="618" offensive="792" aggressive="482" consistent="402" creative="340" experienced="295"/>
+    <skills stamina="602" dexterity="718" speed="658" tackling="513" passing="478" shooting="436" control="367" accuracy="448" goalkeeping="61" heading="494"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108016">
+    <personal name="Amadeo Avila">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="627" risktaking="13" offensive="633" aggressive="580" consistent="358" creative="790" experienced="564"/>
+    <skills stamina="275" dexterity="179" speed="380" tackling="185" passing="509" shooting="484" control="340" accuracy="169" goalkeeping="467" heading="179"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="108017">
+    <personal name="Gustavo Lezcano">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="677" risktaking="693" offensive="258" aggressive="667" consistent="819" creative="485" experienced="408"/>
+    <skills stamina="432" dexterity="305" speed="293" tackling="198" passing="333" shooting="399" control="287" accuracy="203" goalkeeping="470" heading="184"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108018">
+    <personal name="Andres Duarte">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="368" risktaking="598" offensive="407" aggressive="558" consistent="255" creative="625" experienced="388"/>
+    <skills stamina="320" dexterity="254" speed="267" tackling="522" passing="510" shooting="458" control="440" accuracy="341" goalkeeping="56" heading="465"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="108019">
+    <personal name="Rodolfo Fernandez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="429" risktaking="448" offensive="547" aggressive="534" consistent="204" creative="343" experienced="549"/>
+    <skills stamina="488" dexterity="423" speed="631" tackling="516" passing="405" shooting="511" control="394" accuracy="397" goalkeeping="53" heading="390"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="108020">
+    <personal name="Enrique Da Silva">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="442" risktaking="428" offensive="526" aggressive="389" consistent="731" creative="628" experienced="615"/>
+    <skills stamina="294" dexterity="306" speed="533" tackling="456" passing="503" shooting="426" control="408" accuracy="337" goalkeeping="75" heading="394"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="108021">
+    <personal name="Jorge Esti Garibia">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="406" risktaking="687" offensive="396" aggressive="559" consistent="579" creative="657" experienced="456"/>
+    <skills stamina="296" dexterity="250" speed="177" tackling="542" passing="387" shooting="391" control="494" accuracy="461" goalkeeping="76" heading="531"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108022">
+    <personal name="Melanio Villalba">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="388" risktaking="544" offensive="393" aggressive="615" consistent="414" creative="192" experienced="526"/>
+    <skills stamina="591" dexterity="309" speed="567" tackling="498" passing="361" shooting="415" control="408" accuracy="358" goalkeeping="59" heading="281"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108023">
+    <personal name="Juscelino Brito">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="376" risktaking="463" offensive="584" aggressive="277" consistent="439" creative="508" experienced="487"/>
+    <skills stamina="682" dexterity="586" speed="404" tackling="527" passing="550" shooting="425" control="489" accuracy="399" goalkeeping="67" heading="385"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="108024">
+    <personal name="Arsenio Silvero">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="417" risktaking="470" offensive="531" aggressive="343" consistent="402" creative="535" experienced="213"/>
+    <skills stamina="585" dexterity="403" speed="599" tackling="412" passing="474" shooting="463" control="450" accuracy="445" goalkeeping="57" heading="331"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="108025">
+    <personal name="Edgar Aguilera">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="619" risktaking="364" offensive="121" aggressive="155" consistent="353" creative="372" experienced="871"/>
+    <skills stamina="302" dexterity="615" speed="441" tackling="516" passing="534" shooting="349" control="403" accuracy="366" goalkeeping="69" heading="377"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="108026">
+    <personal name="Francisco Riveiro">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="351" risktaking="175" offensive="616" aggressive="464" consistent="804" creative="634" experienced="458"/>
+    <skills stamina="589" dexterity="499" speed="469" tackling="514" passing="357" shooting="363" control="511" accuracy="452" goalkeeping="83" heading="451"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108027">
+    <personal name="Osvaldo Zambala">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="646" risktaking="357" offensive="635" aggressive="619" consistent="341" creative="622" experienced="449"/>
+    <skills stamina="646" dexterity="353" speed="470" tackling="411" passing="518" shooting="315" control="397" accuracy="379" goalkeeping="64" heading="497"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="108028">
+    <personal name="Oscar Mora">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="403" risktaking="466" offensive="631" aggressive="483" consistent="540" creative="617" experienced="270"/>
+    <skills stamina="645" dexterity="676" speed="269" tackling="362" passing="381" shooting="331" control="394" accuracy="419" goalkeeping="63" heading="395"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108029">
+    <personal name="Carlos Santander">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="535" risktaking="153" offensive="566" aggressive="786" consistent="750" creative="407" experienced="39"/>
+    <skills stamina="302" dexterity="255" speed="666" tackling="352" passing="434" shooting="491" control="374" accuracy="524" goalkeeping="82" heading="520"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108030">
+    <personal name="Avelino Vega">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="561" risktaking="678" offensive="807" aggressive="631" consistent="482" creative="628" experienced="404"/>
+    <skills stamina="354" dexterity="403" speed="577" tackling="343" passing="534" shooting="492" control="459" accuracy="511" goalkeeping="71" heading="476"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108031">
+    <personal name="Solomon Riveros">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="603" risktaking="532" offensive="653" aggressive="757" consistent="491" creative="817" experienced="359"/>
+    <skills stamina="682" dexterity="281" speed="697" tackling="405" passing="460" shooting="377" control="305" accuracy="415" goalkeeping="70" heading="342"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108032">
+    <personal name="Roberto Fernandez">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="705" risktaking="612" offensive="220" aggressive="405" consistent="561" creative="460" experienced="392"/>
+    <skills stamina="285" dexterity="727" speed="583" tackling="234" passing="477" shooting="453" control="369" accuracy="279" goalkeeping="556" heading="254"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108033">
+    <personal name="V. Portillo">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="287" risktaking="376" offensive="324" aggressive="294" consistent="324" creative="606" experienced="591"/>
+    <skills stamina="419" dexterity="184" speed="594" tackling="196" passing="418" shooting="454" control="434" accuracy="248" goalkeeping="426" heading="200"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108034">
+    <personal name="Jorge Alcaraz">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="589" risktaking="426" offensive="612" aggressive="349" consistent="401" creative="598" experienced="729"/>
+    <skills stamina="504" dexterity="373" speed="533" tackling="552" passing="539" shooting="439" control="376" accuracy="376" goalkeeping="82" heading="363"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="108035">
+    <personal name="Carlos Sanabria">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="289" risktaking="299" offensive="343" aggressive="546" consistent="704" creative="285" experienced="387"/>
+    <skills stamina="258" dexterity="635" speed="687" tackling="510" passing="541" shooting="552" control="478" accuracy="467" goalkeeping="84" heading="531"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="108036">
+    <personal name="Santiago Burgos">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="377" risktaking="578" offensive="700" aggressive="234" consistent="482" creative="583" experienced="554"/>
+    <skills stamina="316" dexterity="414" speed="567" tackling="507" passing="532" shooting="565" control="593" accuracy="487" goalkeeping="94" heading="387"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108037">
+    <personal name="Cesar Romero">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="556" risktaking="477" offensive="424" aggressive="458" consistent="663" creative="592" experienced="327"/>
+    <skills stamina="201" dexterity="337" speed="399" tackling="396" passing="471" shooting="554" control="515" accuracy="391" goalkeeping="77" heading="454"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="108038">
+    <personal name="Catalino Bernal">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="457" risktaking="443" offensive="555" aggressive="226" consistent="531" creative="483" experienced="514"/>
+    <skills stamina="276" dexterity="434" speed="410" tackling="557" passing="497" shooting="400" control="409" accuracy="456" goalkeeping="77" heading="367"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="108039">
+    <personal name="Osvaldo Cohener">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="524" risktaking="219" offensive="432" aggressive="343" consistent="329" creative="458" experienced="450"/>
+    <skills stamina="646" dexterity="517" speed="350" tackling="469" passing="585" shooting="414" control="400" accuracy="547" goalkeeping="68" heading="449"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="108040">
+    <personal name="Virgilio Ferreira">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="468" risktaking="381" offensive="767" aggressive="560" consistent="437" creative="73" experienced="586"/>
+    <skills stamina="637" dexterity="677" speed="449" tackling="496" passing="565" shooting="418" control="479" accuracy="498" goalkeeping="81" heading="494"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="108041">
+    <personal name="Estanislao Struway">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="543" risktaking="761" offensive="154" aggressive="262" consistent="612" creative="636" experienced="270"/>
+    <skills stamina="703" dexterity="671" speed="517" tackling="445" passing="440" shooting="394" control="448" accuracy="446" goalkeeping="83" heading="490"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108042">
+    <personal name="Roberto Torres">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="364" risktaking="446" offensive="606" aggressive="453" consistent="535" creative="491" experienced="446"/>
+    <skills stamina="717" dexterity="655" speed="665" tackling="384" passing="481" shooting="439" control="420" accuracy="388" goalkeeping="89" heading="504"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108043">
+    <personal name="Julio Enciso">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="683" risktaking="850" offensive="476" aggressive="397" consistent="695" creative="490" experienced="439"/>
+    <skills stamina="276" dexterity="642" speed="309" tackling="470" passing="420" shooting="424" control="444" accuracy="525" goalkeeping="93" heading="441"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="108044">
+    <personal name="Humberto Espinoza">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="411" risktaking="566" offensive="465" aggressive="488" consistent="837" creative="413" experienced="837"/>
+    <skills stamina="690" dexterity="577" speed="624" tackling="413" passing="483" shooting="520" control="447" accuracy="570" goalkeeping="80" heading="587"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108045">
+    <personal name="Lilio Torales">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="522" risktaking="445" offensive="342" aggressive="447" consistent="613" creative="634" experienced="397"/>
+    <skills stamina="586" dexterity="409" speed="740" tackling="542" passing="458" shooting="451" control="540" accuracy="472" goalkeeping="71" heading="578"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108046">
+    <personal name="Hector Nunez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="559" risktaking="631" offensive="617" aggressive="489" consistent="322" creative="435" experienced="256"/>
+    <skills stamina="431" dexterity="238" speed="348" tackling="385" passing="499" shooting="568" control="371" accuracy="464" goalkeeping="91" heading="542"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108047">
+    <personal name="Elvio Sandoval">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="436" risktaking="534" offensive="624" aggressive="490" consistent="451" creative="625" experienced="499"/>
+    <skills stamina="677" dexterity="216" speed="195" tackling="387" passing="402" shooting="415" control="422" accuracy="515" goalkeeping="81" heading="444"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108048">
+    <personal name="Enrique Garcia">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="696" risktaking="494" offensive="513" aggressive="364" consistent="828" creative="492" experienced="339"/>
+    <skills stamina="384" dexterity="555" speed="478" tackling="261" passing="439" shooting="430" control="417" accuracy="226" goalkeeping="500" heading="202"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108049">
+    <personal name="Enrique Gaona">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="727" risktaking="438" offensive="479" aggressive="226" consistent="462" creative="530" experienced="368"/>
+    <skills stamina="529" dexterity="205" speed="347" tackling="256" passing="344" shooting="333" control="317" accuracy="184" goalkeeping="409" heading="198"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108050">
+    <personal name="Carlos Cabaglio">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="444" risktaking="433" offensive="678" aggressive="609" consistent="512" creative="279" experienced="558"/>
+    <skills stamina="665" dexterity="361" speed="488" tackling="462" passing="558" shooting="536" control="413" accuracy="518" goalkeeping="83" heading="439"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="108051">
+    <personal name="Lorenzo Monges">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="350" risktaking="479" offensive="531" aggressive="623" consistent="601" creative="352" experienced="557"/>
+    <skills stamina="456" dexterity="469" speed="220" tackling="514" passing="600" shooting="386" control="588" accuracy="525" goalkeeping="79" heading="415"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="108052">
+    <personal name="Ricardo Silva">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="399" risktaking="613" offensive="541" aggressive="567" consistent="464" creative="583" experienced="771"/>
+    <skills stamina="445" dexterity="451" speed="185" tackling="528" passing="413" shooting="437" control="385" accuracy="477" goalkeeping="88" heading="420"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108053">
+    <personal name="Victor Canete">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="807" risktaking="97" offensive="331" aggressive="677" consistent="691" creative="645" experienced="405"/>
+    <skills stamina="286" dexterity="373" speed="443" tackling="561" passing="585" shooting="471" control="547" accuracy="440" goalkeeping="68" heading="558"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108054">
+    <personal name="Roberto Alonso">
+      <appearance value="0"/>
+      <nationality value="Uruguay"/>
+    </personal>
+    <personality active="691" risktaking="448" offensive="771" aggressive="400" consistent="577" creative="438" experienced="649"/>
+    <skills stamina="570" dexterity="416" speed="303" tackling="470" passing="446" shooting="456" control="512" accuracy="454" goalkeeping="54" heading="469"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108055">
+    <personal name="Carlos Britez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="668" risktaking="366" offensive="471" aggressive="530" consistent="544" creative="76" experienced="458"/>
+    <skills stamina="604" dexterity="269" speed="534" tackling="410" passing="412" shooting="475" control="604" accuracy="437" goalkeeping="87" heading="465"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="108056">
+    <personal name="Anibal Diaz">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="555" risktaking="663" offensive="447" aggressive="415" consistent="581" creative="554" experienced="502"/>
+    <skills stamina="400" dexterity="418" speed="313" tackling="507" passing="532" shooting="357" control="411" accuracy="428" goalkeeping="67" heading="470"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="108057">
+    <personal name="Blas Romero">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="580" risktaking="307" offensive="138" aggressive="420" consistent="609" creative="696" experienced="516"/>
+    <skills stamina="293" dexterity="483" speed="422" tackling="449" passing="412" shooting="362" control="513" accuracy="466" goalkeeping="72" heading="382"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108058">
+    <personal name="Hector Gomez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="500" risktaking="497" offensive="523" aggressive="654" consistent="443" creative="605" experienced="364"/>
+    <skills stamina="647" dexterity="524" speed="623" tackling="540" passing="531" shooting="451" control="564" accuracy="436" goalkeeping="86" heading="370"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108059">
+    <personal name="Lucilo Baez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="366" risktaking="793" offensive="613" aggressive="606" consistent="611" creative="351" experienced="550"/>
+    <skills stamina="491" dexterity="691" speed="298" tackling="440" passing="429" shooting="367" control="470" accuracy="463" goalkeeping="58" heading="480"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108060">
+    <personal name="Gurdo Mendoza">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="399" risktaking="424" offensive="727" aggressive="89" consistent="207" creative="357" experienced="555"/>
+    <skills stamina="355" dexterity="749" speed="659" tackling="399" passing="444" shooting="418" control="459" accuracy="379" goalkeeping="80" heading="364"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108061">
+    <personal name="Juan Yegros">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="502" risktaking="603" offensive="352" aggressive="287" consistent="462" creative="343" experienced="731"/>
+    <skills stamina="380" dexterity="493" speed="527" tackling="496" passing="518" shooting="439" control="492" accuracy="459" goalkeeping="80" heading="402"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108062">
+    <personal name="Anibal Fereira">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="577" risktaking="571" offensive="477" aggressive="491" consistent="531" creative="484" experienced="605"/>
+    <skills stamina="370" dexterity="690" speed="532" tackling="502" passing="339" shooting="456" control="521" accuracy="441" goalkeeping="68" heading="441"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108063">
+    <personal name="Clemente Martinez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="690" risktaking="257" offensive="538" aggressive="506" consistent="882" creative="703" experienced="506"/>
+    <skills stamina="528" dexterity="221" speed="619" tackling="515" passing="403" shooting="501" control="439" accuracy="442" goalkeeping="60" heading="447"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108064">
+    <personal name="Raul Navarro">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="605" risktaking="323" offensive="477" aggressive="446" consistent="512" creative="612" experienced="470"/>
+    <skills stamina="468" dexterity="270" speed="151" tackling="196" passing="243" shooting="388" control="188" accuracy="176" goalkeeping="326" heading="192"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108065">
+    <personal name="Edgar Gill">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="431" risktaking="741" offensive="436" aggressive="186" consistent="318" creative="407" experienced="581"/>
+    <skills stamina="412" dexterity="615" speed="261" tackling="147" passing="364" shooting="383" control="191" accuracy="104" goalkeeping="451" heading="137"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108066">
+    <personal name="Norberto Arrua">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="428" risktaking="563" offensive="619" aggressive="404" consistent="451" creative="314" experienced="274"/>
+    <skills stamina="673" dexterity="666" speed="519" tackling="338" passing="286" shooting="224" control="434" accuracy="228" goalkeeping="59" heading="247"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="108067">
+    <personal name="Pablo Ortez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="420" risktaking="343" offensive="389" aggressive="430" consistent="422" creative="428" experienced="438"/>
+    <skills stamina="146" dexterity="322" speed="292" tackling="366" passing="255" shooting="353" control="337" accuracy="387" goalkeeping="57" heading="304"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="108068">
+    <personal name="Santiago Ayala">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="490" risktaking="608" offensive="503" aggressive="590" consistent="422" creative="335" experienced="636"/>
+    <skills stamina="614" dexterity="551" speed="392" tackling="419" passing="350" shooting="353" control="304" accuracy="418" goalkeeping="65" heading="344"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108069">
+    <personal name="Sandro Marques">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="481" risktaking="301" offensive="559" aggressive="406" consistent="326" creative="483" experienced="152"/>
+    <skills stamina="395" dexterity="579" speed="345" tackling="436" passing="385" shooting="291" control="344" accuracy="408" goalkeeping="45" heading="224"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108070">
+    <personal name="Johan Chavez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="509" risktaking="346" offensive="546" aggressive="559" consistent="399" creative="610" experienced="473"/>
+    <skills stamina="490" dexterity="213" speed="513" tackling="452" passing="263" shooting="277" control="244" accuracy="253" goalkeeping="44" heading="245"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108071">
+    <personal name="L. Ojeda">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="627" risktaking="413" offensive="454" aggressive="314" consistent="560" creative="618" experienced="661"/>
+    <skills stamina="297" dexterity="525" speed="653" tackling="251" passing="405" shooting="336" control="394" accuracy="287" goalkeeping="52" heading="328"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="108072">
+    <personal name="Francisco Mereles">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="654" risktaking="358" offensive="705" aggressive="777" consistent="352" creative="377" experienced="686"/>
+    <skills stamina="613" dexterity="533" speed="252" tackling="266" passing="301" shooting="338" control="358" accuracy="356" goalkeeping="42" heading="422"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="108073">
+    <personal name="Juan A. Benitez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="544" risktaking="655" offensive="496" aggressive="652" consistent="338" creative="483" experienced="462"/>
+    <skills stamina="155" dexterity="282" speed="407" tackling="399" passing="311" shooting="348" control="305" accuracy="278" goalkeeping="47" heading="373"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108074">
+    <personal name="Jacinto Irala">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="722" risktaking="396" offensive="412" aggressive="129" consistent="386" creative="730" experienced="271"/>
+    <skills stamina="375" dexterity="657" speed="415" tackling="284" passing="327" shooting="318" control="402" accuracy="266" goalkeeping="65" heading="272"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108075">
+    <personal name="Inocencio Mora">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="561" risktaking="534" offensive="627" aggressive="642" consistent="447" creative="375" experienced="483"/>
+    <skills stamina="410" dexterity="153" speed="188" tackling="301" passing="246" shooting="242" control="295" accuracy="383" goalkeeping="62" heading="365"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108076">
+    <personal name="Mancial Sanchez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="443" risktaking="462" offensive="334" aggressive="226" consistent="262" creative="492" experienced="482"/>
+    <skills stamina="520" dexterity="212" speed="239" tackling="413" passing="403" shooting="345" control="358" accuracy="337" goalkeeping="47" heading="305"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108077">
+    <personal name="Pedro Armoa">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="706" risktaking="367" offensive="625" aggressive="432" consistent="415" creative="426" experienced="288"/>
+    <skills stamina="165" dexterity="124" speed="600" tackling="317" passing="345" shooting="305" control="219" accuracy="436" goalkeeping="58" heading="422"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108078">
+    <personal name="Amelio Caceres">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="654" risktaking="754" offensive="466" aggressive="359" consistent="617" creative="529" experienced="709"/>
+    <skills stamina="149" dexterity="395" speed="347" tackling="354" passing="284" shooting="422" control="373" accuracy="438" goalkeeping="63" heading="450"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="108079">
+    <personal name="Nestor Caceres">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="333" risktaking="396" offensive="539" aggressive="501" consistent="618" creative="255" experienced="388"/>
+    <skills stamina="589" dexterity="597" speed="246" tackling="371" passing="248" shooting="285" control="309" accuracy="301" goalkeeping="41" heading="393"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108080">
+    <personal name="Fernando Baleato">
+      <appearance value="0"/>
+      <nationality value="Uruguay"/>
+    </personal>
+    <personality active="594" risktaking="227" offensive="415" aggressive="532" consistent="733" creative="583" experienced="690"/>
+    <skills stamina="529" dexterity="313" speed="578" tackling="192" passing="455" shooting="422" control="311" accuracy="248" goalkeeping="547" heading="209"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108081">
+    <personal name="Cesar Cabrera">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="554" risktaking="726" offensive="518" aggressive="523" consistent="793" creative="581" experienced="367"/>
+    <skills stamina="532" dexterity="663" speed="223" tackling="224" passing="393" shooting="454" control="308" accuracy="223" goalkeeping="543" heading="242"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108082">
+    <personal name="Ursulino Montiel">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="365" risktaking="484" offensive="386" aggressive="589" consistent="626" creative="460" experienced="426"/>
+    <skills stamina="555" dexterity="666" speed="493" tackling="407" passing="377" shooting="518" control="559" accuracy="461" goalkeeping="69" heading="449"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="108083">
+    <personal name="Osvaldo Peralta">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="341" risktaking="377" offensive="442" aggressive="465" consistent="752" creative="569" experienced="405"/>
+    <skills stamina="407" dexterity="520" speed="178" tackling="546" passing="518" shooting="390" control="439" accuracy="380" goalkeeping="83" heading="467"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="108084">
+    <personal name="Victor Viocini">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="291" risktaking="666" offensive="826" aggressive="445" consistent="410" creative="441" experienced="530"/>
+    <skills stamina="559" dexterity="752" speed="690" tackling="483" passing="568" shooting="382" control="470" accuracy="352" goalkeeping="62" heading="423"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108085">
+    <personal name="Toribio Gaona">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="592" risktaking="512" offensive="487" aggressive="485" consistent="321" creative="465" experienced="564"/>
+    <skills stamina="253" dexterity="693" speed="457" tackling="461" passing="547" shooting="401" control="411" accuracy="527" goalkeeping="64" heading="402"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108086">
+    <personal name="Odilio Gonzales">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="481" risktaking="549" offensive="625" aggressive="550" consistent="449" creative="347" experienced="359"/>
+    <skills stamina="352" dexterity="508" speed="459" tackling="416" passing="455" shooting="471" control="480" accuracy="517" goalkeeping="59" heading="502"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108087">
+    <personal name="Nery Ortiz">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="469" risktaking="311" offensive="599" aggressive="342" consistent="255" creative="637" experienced="493"/>
+    <skills stamina="322" dexterity="294" speed="697" tackling="456" passing="422" shooting="464" control="427" accuracy="496" goalkeeping="58" heading="531"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="108088">
+    <personal name="Celso Gonzalez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="715" risktaking="435" offensive="480" aggressive="665" consistent="438" creative="408" experienced="526"/>
+    <skills stamina="622" dexterity="502" speed="578" tackling="441" passing="556" shooting="482" control="401" accuracy="470" goalkeeping="77" heading="524"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="108089">
+    <personal name="Eradio Espinoza">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="574" risktaking="614" offensive="638" aggressive="379" consistent="419" creative="474" experienced="494"/>
+    <skills stamina="341" dexterity="501" speed="533" tackling="455" passing="543" shooting="449" control="564" accuracy="398" goalkeeping="65" heading="508"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108090">
+    <personal name="Anibal Maidana">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="710" risktaking="584" offensive="601" aggressive="731" consistent="600" creative="211" experienced="643"/>
+    <skills stamina="427" dexterity="523" speed="286" tackling="379" passing="488" shooting="442" control="488" accuracy="425" goalkeeping="76" heading="414"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108091">
+    <personal name="Carlos Pico">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="361" risktaking="349" offensive="505" aggressive="633" consistent="407" creative="407" experienced="321"/>
+    <skills stamina="679" dexterity="613" speed="483" tackling="548" passing="425" shooting="479" control="434" accuracy="459" goalkeeping="82" heading="341"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108092">
+    <personal name="Aristides Rojas">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="743" risktaking="393" offensive="542" aggressive="556" consistent="192" creative="687" experienced="367"/>
+    <skills stamina="325" dexterity="603" speed="463" tackling="424" passing="468" shooting="484" control="536" accuracy="596" goalkeeping="67" heading="557"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="108093">
+    <personal name="Sergio Alcaraz">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="526" risktaking="327" offensive="498" aggressive="558" consistent="480" creative="379" experienced="404"/>
+    <skills stamina="635" dexterity="225" speed="564" tackling="375" passing="407" shooting="483" control="517" accuracy="532" goalkeeping="74" heading="574"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108094">
+    <personal name="Julian Logo">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="482" risktaking="347" offensive="539" aggressive="560" consistent="527" creative="617" experienced="208"/>
+    <skills stamina="669" dexterity="589" speed="703" tackling="361" passing="450" shooting="468" control="453" accuracy="340" goalkeeping="69" heading="536"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="108095">
+    <personal name="Carlos Centurion">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="549" risktaking="647" offensive="386" aggressive="676" consistent="290" creative="261" experienced="804"/>
+    <skills stamina="472" dexterity="491" speed="377" tackling="371" passing="379" shooting="441" control="472" accuracy="523" goalkeeping="57" heading="382"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="108096">
+    <personal name="Rolando Galarza">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="710" risktaking="388" offensive="508" aggressive="386" consistent="488" creative="468" experienced="184"/>
+    <skills stamina="423" dexterity="225" speed="500" tackling="239" passing="355" shooting="404" control="424" accuracy="207" goalkeeping="533" heading="241"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108097">
+    <personal name="Jorge Paredes">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="465" risktaking="500" offensive="518" aggressive="417" consistent="773" creative="493" experienced="497"/>
+    <skills stamina="707" dexterity="605" speed="393" tackling="161" passing="501" shooting="351" control="301" accuracy="216" goalkeeping="440" heading="226"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108098">
+    <personal name="Juan Ortiz">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="138" risktaking="294" offensive="695" aggressive="552" consistent="474" creative="306" experienced="358"/>
+    <skills stamina="584" dexterity="652" speed="542" tackling="473" passing="386" shooting="411" control="472" accuracy="492" goalkeeping="73" heading="484"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="108099">
+    <personal name="Enrique Noguera">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="151" risktaking="701" offensive="380" aggressive="685" consistent="637" creative="576" experienced="437"/>
+    <skills stamina="560" dexterity="462" speed="550" tackling="394" passing="513" shooting="511" control="468" accuracy="502" goalkeeping="85" heading="530"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="108100">
+    <personal name="Ignacio Rolon">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="587" risktaking="389" offensive="192" aggressive="342" consistent="791" creative="327" experienced="351"/>
+    <skills stamina="509" dexterity="243" speed="342" tackling="433" passing="382" shooting="430" control="552" accuracy="446" goalkeeping="59" heading="362"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108101">
+    <personal name="Adalberto Franco">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="556" risktaking="394" offensive="565" aggressive="599" consistent="523" creative="459" experienced="719"/>
+    <skills stamina="651" dexterity="681" speed="706" tackling="602" passing="394" shooting="373" control="472" accuracy="457" goalkeeping="83" heading="402"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108102">
+    <personal name="Hector Bobadilla">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="550" risktaking="441" offensive="395" aggressive="330" consistent="707" creative="588" experienced="365"/>
+    <skills stamina="255" dexterity="378" speed="630" tackling="470" passing="367" shooting="369" control="438" accuracy="364" goalkeeping="81" heading="513"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108103">
+    <personal name="Leonardo Rodriguez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="338" risktaking="780" offensive="360" aggressive="483" consistent="530" creative="467" experienced="486"/>
+    <skills stamina="427" dexterity="362" speed="514" tackling="478" passing="551" shooting="575" control="476" accuracy="390" goalkeeping="76" heading="495"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="108104">
+    <personal name="Nelson Vera">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="514" risktaking="520" offensive="324" aggressive="509" consistent="476" creative="598" experienced="611"/>
+    <skills stamina="454" dexterity="441" speed="378" tackling="428" passing="486" shooting="404" control="407" accuracy="348" goalkeeping="78" heading="475"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="108105">
+    <personal name="Silvio Santacruz">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="692" risktaking="476" offensive="354" aggressive="613" consistent="741" creative="371" experienced="526"/>
+    <skills stamina="487" dexterity="326" speed="510" tackling="415" passing="417" shooting="386" control="456" accuracy="458" goalkeeping="59" heading="378"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108106">
+    <personal name="Walter Avalos">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="538" risktaking="400" offensive="253" aggressive="478" consistent="484" creative="748" experienced="531"/>
+    <skills stamina="381" dexterity="412" speed="284" tackling="467" passing="401" shooting="557" control="543" accuracy="413" goalkeeping="69" heading="460"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108107">
+    <personal name="Hugo Rivas">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="683" risktaking="531" offensive="489" aggressive="327" consistent="392" creative="611" experienced="330"/>
+    <skills stamina="654" dexterity="502" speed="350" tackling="446" passing="516" shooting="448" control="489" accuracy="502" goalkeeping="58" heading="359"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108108">
+    <personal name="Lider Adorno">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="207" risktaking="705" offensive="501" aggressive="217" consistent="875" creative="490" experienced="301"/>
+    <skills stamina="232" dexterity="275" speed="646" tackling="468" passing="531" shooting="484" control="435" accuracy="465" goalkeeping="79" heading="391"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108109">
+    <personal name="Tito Bernal">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="381" risktaking="500" offensive="365" aggressive="529" consistent="461" creative="879" experienced="435"/>
+    <skills stamina="443" dexterity="318" speed="445" tackling="529" passing="566" shooting="565" control="391" accuracy="569" goalkeeping="68" heading="620"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108110">
+    <personal name="Mariano Gaona">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="542" risktaking="718" offensive="449" aggressive="709" consistent="474" creative="527" experienced="463"/>
+    <skills stamina="490" dexterity="708" speed="710" tackling="531" passing="512" shooting="406" control="480" accuracy="506" goalkeeping="76" heading="480"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108111">
+    <personal name="Juan Dilley Ortiz">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="400" risktaking="440" offensive="546" aggressive="569" consistent="376" creative="596" experienced="422"/>
+    <skills stamina="498" dexterity="312" speed="281" tackling="379" passing="386" shooting="456" control="517" accuracy="569" goalkeeping="74" heading="532"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108112">
+    <personal name="Jorge Battaglia">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="700" risktaking="318" offensive="304" aggressive="553" consistent="148" creative="421" experienced="412"/>
+    <skills stamina="305" dexterity="410" speed="501" tackling="283" passing="436" shooting="593" control="417" accuracy="253" goalkeeping="636" heading="278"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108113">
+    <personal name="Ricardo Tavarelli">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="605" risktaking="494" offensive="592" aggressive="576" consistent="564" creative="407" experienced="612"/>
+    <skills stamina="441" dexterity="486" speed="374" tackling="199" passing="430" shooting="345" control="407" accuracy="241" goalkeeping="542" heading="187"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="108114">
+    <personal name="Virgio Caceres">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="276" risktaking="423" offensive="450" aggressive="406" consistent="514" creative="624" experienced="515"/>
+    <skills stamina="583" dexterity="609" speed="571" tackling="501" passing="532" shooting="567" control="429" accuracy="485" goalkeeping="93" heading="501"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="108115">
+    <personal name="Luis Caballero">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="427" risktaking="461" offensive="512" aggressive="681" consistent="417" creative="579" experienced="645"/>
+    <skills stamina="443" dexterity="407" speed="249" tackling="475" passing="462" shooting="420" control="456" accuracy="481" goalkeeping="71" heading="381"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="108116">
+    <personal name="Remigio Fernandez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="509" risktaking="509" offensive="709" aggressive="318" consistent="342" creative="552" experienced="700"/>
+    <skills stamina="446" dexterity="609" speed="533" tackling="487" passing="510" shooting="484" control="552" accuracy="479" goalkeeping="89" heading="510"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108117">
+    <personal name="Silvio Suarez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="291" risktaking="686" offensive="363" aggressive="516" consistent="494" creative="622" experienced="749"/>
+    <skills stamina="605" dexterity="463" speed="602" tackling="566" passing="445" shooting="494" control="485" accuracy="482" goalkeeping="76" heading="392"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108118">
+    <personal name="Enrique Saravia">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="475" risktaking="830" offensive="504" aggressive="439" consistent="481" creative="462" experienced="745"/>
+    <skills stamina="233" dexterity="584" speed="503" tackling="465" passing="458" shooting="518" control="557" accuracy="396" goalkeeping="72" heading="422"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108119">
+    <personal name="Adolfo Jara Heyn">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="513" risktaking="464" offensive="565" aggressive="514" consistent="403" creative="506" experienced="544"/>
+    <skills stamina="678" dexterity="455" speed="704" tackling="508" passing="600" shooting="398" control="577" accuracy="500" goalkeeping="96" heading="452"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="108120">
+    <personal name="Vidal Sanabria">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="665" risktaking="519" offensive="322" aggressive="603" consistent="446" creative="360" experienced="425"/>
+    <skills stamina="397" dexterity="431" speed="680" tackling="546" passing="445" shooting="573" control="449" accuracy="400" goalkeeping="97" heading="532"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="108121">
+    <personal name="Hector Moran">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="363" risktaking="305" offensive="525" aggressive="562" consistent="507" creative="545" experienced="540"/>
+    <skills stamina="587" dexterity="534" speed="208" tackling="467" passing="509" shooting="539" control="579" accuracy="491" goalkeeping="77" heading="411"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108122">
+    <personal name="Luis Monzon">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="350" risktaking="528" offensive="627" aggressive="592" consistent="616" creative="355" experienced="506"/>
+    <skills stamina="374" dexterity="344" speed="687" tackling="418" passing="529" shooting="422" control="551" accuracy="402" goalkeeping="79" heading="571"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108123">
+    <personal name="Charles Bourdier">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="598" risktaking="844" offensive="413" aggressive="488" consistent="415" creative="520" experienced="613"/>
+    <skills stamina="742" dexterity="707" speed="482" tackling="511" passing="560" shooting="522" control="553" accuracy="414" goalkeeping="84" heading="504"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108124">
+    <personal name="Miguel Sanabria">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="544" risktaking="642" offensive="521" aggressive="530" consistent="551" creative="356" experienced="665"/>
+    <skills stamina="435" dexterity="409" speed="392" tackling="453" passing="407" shooting="584" control="417" accuracy="555" goalkeeping="95" heading="492"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108125">
+    <personal name="Adolfo Fatecha">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="418" risktaking="618" offensive="596" aggressive="678" consistent="570" creative="448" experienced="658"/>
+    <skills stamina="364" dexterity="242" speed="228" tackling="545" passing="542" shooting="651" control="559" accuracy="587" goalkeeping="66" heading="550"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108126">
+    <personal name="Mauro Caballero">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="441" risktaking="575" offensive="341" aggressive="351" consistent="431" creative="392" experienced="375"/>
+    <skills stamina="716" dexterity="186" speed="198" tackling="504" passing="483" shooting="505" control="454" accuracy="494" goalkeeping="89" heading="491"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108127">
+    <personal name="Vicente Raul Amarilla">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="379" risktaking="409" offensive="650" aggressive="489" consistent="433" creative="474" experienced="453"/>
+    <skills stamina="619" dexterity="653" speed="668" tackling="387" passing="384" shooting="401" control="407" accuracy="485" goalkeeping="73" heading="412"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108128">
+    <personal name="Miguel Insfran">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="534" risktaking="600" offensive="365" aggressive="437" consistent="204" creative="478" experienced="510"/>
+    <skills stamina="202" dexterity="218" speed="345" tackling="212" passing="504" shooting="502" control="331" accuracy="169" goalkeeping="422" heading="235"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="108129">
+    <personal name="Wilfrido Azar">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="356" risktaking="375" offensive="350" aggressive="511" consistent="451" creative="514" experienced="255"/>
+    <skills stamina="324" dexterity="578" speed="547" tackling="192" passing="448" shooting="505" control="384" accuracy="211" goalkeeping="482" heading="258"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="108130">
+    <personal name="Arnaldo Martinez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="376" risktaking="339" offensive="746" aggressive="490" consistent="260" creative="353" experienced="649"/>
+    <skills stamina="516" dexterity="318" speed="386" tackling="434" passing="434" shooting="548" control="475" accuracy="535" goalkeeping="90" heading="520"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="108131">
+    <personal name="Osvaldo Sosa">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="659" risktaking="400" offensive="462" aggressive="693" consistent="572" creative="380" experienced="523"/>
+    <skills stamina="679" dexterity="236" speed="510" tackling="434" passing="486" shooting="351" control="589" accuracy="411" goalkeeping="66" heading="471"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="108132">
+    <personal name="Mario Vera">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="501" risktaking="183" offensive="280" aggressive="715" consistent="413" creative="586" experienced="533"/>
+    <skills stamina="531" dexterity="494" speed="396" tackling="529" passing="399" shooting="514" control="488" accuracy="535" goalkeeping="62" heading="495"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108133">
+    <personal name="Rolando Lopez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="229" risktaking="595" offensive="379" aggressive="640" consistent="552" creative="576" experienced="498"/>
+    <skills stamina="258" dexterity="723" speed="360" tackling="435" passing="447" shooting="415" control="466" accuracy="391" goalkeeping="66" heading="480"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108134">
+    <personal name="Justo Jacquet">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="746" risktaking="737" offensive="455" aggressive="422" consistent="348" creative="398" experienced="433"/>
+    <skills stamina="694" dexterity="712" speed="342" tackling="554" passing="467" shooting="464" control="527" accuracy="341" goalkeeping="74" heading="474"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108135">
+    <personal name="Manuel Paredes">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="612" risktaking="439" offensive="428" aggressive="500" consistent="458" creative="578" experienced="371"/>
+    <skills stamina="278" dexterity="310" speed="227" tackling="506" passing="561" shooting="455" control="492" accuracy="381" goalkeeping="72" heading="330"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="108136">
+    <personal name="Nicolas Aranda">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="259" risktaking="351" offensive="323" aggressive="510" consistent="467" creative="342" experienced="473"/>
+    <skills stamina="688" dexterity="552" speed="448" tackling="445" passing="401" shooting="507" control="380" accuracy="473" goalkeeping="59" heading="427"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="108137">
+    <personal name="Alberto Meza">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="708" risktaking="564" offensive="318" aggressive="459" consistent="291" creative="526" experienced="419"/>
+    <skills stamina="385" dexterity="478" speed="555" tackling="442" passing="588" shooting="449" control="553" accuracy="478" goalkeeping="75" heading="461"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="108138">
+    <personal name="Luis Flor">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="445" risktaking="277" offensive="677" aggressive="446" consistent="761" creative="476" experienced="685"/>
+    <skills stamina="640" dexterity="647" speed="265" tackling="486" passing="561" shooting="525" control="588" accuracy="395" goalkeeping="71" heading="458"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108139">
+    <personal name="Manuel Ruiz">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="474" risktaking="427" offensive="516" aggressive="418" consistent="240" creative="600" experienced="592"/>
+    <skills stamina="692" dexterity="494" speed="313" tackling="543" passing="528" shooting="391" control="491" accuracy="485" goalkeeping="67" heading="459"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108140">
+    <personal name="Felix Leguizamon">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="492" risktaking="757" offensive="158" aggressive="415" consistent="622" creative="299" experienced="811"/>
+    <skills stamina="392" dexterity="397" speed="691" tackling="363" passing="348" shooting="371" control="490" accuracy="355" goalkeeping="62" heading="423"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108141">
+    <personal name="Edgar Vera">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="432" risktaking="576" offensive="379" aggressive="519" consistent="612" creative="820" experienced="338"/>
+    <skills stamina="736" dexterity="217" speed="300" tackling="471" passing="539" shooting="628" control="458" accuracy="478" goalkeeping="79" heading="423"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108142">
+    <personal name="John Caballero">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="431" risktaking="523" offensive="191" aggressive="346" consistent="492" creative="468" experienced="668"/>
+    <skills stamina="567" dexterity="500" speed="366" tackling="372" passing="500" shooting="365" control="515" accuracy="460" goalkeeping="88" heading="385"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108143">
+    <personal name="Carlos Santander">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="505" risktaking="389" offensive="661" aggressive="362" consistent="297" creative="513" experienced="344"/>
+    <skills stamina="207" dexterity="166" speed="531" tackling="508" passing="405" shooting="503" control="488" accuracy="472" goalkeeping="80" heading="342"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="108144">
+    <personal name="Miguel Enciso">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="572" risktaking="454" offensive="531" aggressive="338" consistent="710" creative="508" experienced="494"/>
+    <skills stamina="173" dexterity="595" speed="271" tackling="237" passing="498" shooting="457" control="396" accuracy="175" goalkeeping="469" heading="262"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108145">
+    <personal name="Nelson Bernal">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="647" risktaking="973" offensive="319" aggressive="437" consistent="570" creative="238" experienced="605"/>
+    <skills stamina="560" dexterity="574" speed="395" tackling="194" passing="370" shooting="404" control="266" accuracy="169" goalkeeping="399" heading="225"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108146">
+    <personal name="Julio Paredes">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="444" risktaking="642" offensive="498" aggressive="268" consistent="338" creative="473" experienced="501"/>
+    <skills stamina="485" dexterity="624" speed="407" tackling="511" passing="409" shooting="514" control="446" accuracy="358" goalkeeping="84" heading="443"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="108147">
+    <personal name="Victor Ozuna">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="568" risktaking="433" offensive="299" aggressive="738" consistent="501" creative="602" experienced="653"/>
+    <skills stamina="565" dexterity="332" speed="527" tackling="368" passing="429" shooting="411" control="357" accuracy="525" goalkeeping="82" heading="456"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="108148">
+    <personal name="Carlos Aranda">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="459" risktaking="684" offensive="525" aggressive="369" consistent="306" creative="453" experienced="688"/>
+    <skills stamina="225" dexterity="720" speed="545" tackling="424" passing="501" shooting="383" control="546" accuracy="438" goalkeeping="77" heading="463"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="108149">
+    <personal name="Flaminio Ortiz">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="324" risktaking="308" offensive="436" aggressive="533" consistent="353" creative="549" experienced="227"/>
+    <skills stamina="434" dexterity="613" speed="642" tackling="561" passing="391" shooting="457" control="487" accuracy="337" goalkeeping="72" heading="371"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108150">
+    <personal name="Derlis Piccinini">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="555" risktaking="429" offensive="380" aggressive="498" consistent="252" creative="467" experienced="533"/>
+    <skills stamina="449" dexterity="683" speed="452" tackling="470" passing="384" shooting="296" control="332" accuracy="416" goalkeeping="69" heading="334"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108151">
+    <personal name="Salustiano Barreto">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="400" risktaking="451" offensive="567" aggressive="465" consistent="471" creative="287" experienced="432"/>
+    <skills stamina="328" dexterity="626" speed="689" tackling="492" passing="537" shooting="468" control="488" accuracy="374" goalkeeping="57" heading="496"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="108152">
+    <personal name="Luis Romero">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="506" risktaking="576" offensive="423" aggressive="288" consistent="539" creative="465" experienced="385"/>
+    <skills stamina="619" dexterity="510" speed="441" tackling="506" passing="423" shooting="415" control="498" accuracy="343" goalkeeping="78" heading="481"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="108153">
+    <personal name="Alan Quintana">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="491" risktaking="729" offensive="410" aggressive="362" consistent="286" creative="484" experienced="529"/>
+    <skills stamina="363" dexterity="397" speed="251" tackling="480" passing="505" shooting="419" control="351" accuracy="331" goalkeeping="68" heading="345"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="108154">
+    <personal name="Dario Ramos">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="633" risktaking="506" offensive="684" aggressive="656" consistent="771" creative="512" experienced="519"/>
+    <skills stamina="458" dexterity="447" speed="590" tackling="356" passing="500" shooting="395" control="467" accuracy="374" goalkeeping="78" heading="490"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108155">
+    <personal name="Nelson Viera">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="391" risktaking="314" offensive="458" aggressive="636" consistent="569" creative="394" experienced="536"/>
+    <skills stamina="387" dexterity="404" speed="248" tackling="358" passing="359" shooting="329" control="466" accuracy="462" goalkeeping="80" heading="487"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108156">
+    <personal name="Jorge Lopez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="605" risktaking="581" offensive="407" aggressive="501" consistent="558" creative="597" experienced="393"/>
+    <skills stamina="376" dexterity="330" speed="230" tackling="473" passing="358" shooting="446" control="522" accuracy="471" goalkeeping="69" heading="453"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108157">
+    <personal name="Pedro Pedrozo">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="637" risktaking="690" offensive="725" aggressive="595" consistent="551" creative="784" experienced="448"/>
+    <skills stamina="678" dexterity="563" speed="506" tackling="543" passing="376" shooting="545" control="418" accuracy="530" goalkeeping="73" heading="485"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="108158">
+    <personal name="Celso Ayala">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="445" risktaking="522" offensive="399" aggressive="531" consistent="537" creative="595" experienced="390"/>
+    <skills stamina="331" dexterity="468" speed="382" tackling="463" passing="475" shooting="434" control="430" accuracy="406" goalkeeping="80" heading="505"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108159">
+    <personal name="Gerardo Bobadilla">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="661" risktaking="383" offensive="606" aggressive="550" consistent="528" creative="294" experienced="188"/>
+    <skills stamina="431" dexterity="346" speed="502" tackling="428" passing="442" shooting="372" control="439" accuracy="390" goalkeeping="53" heading="376"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108160">
+    <personal name="Victor Cuevas">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="475" risktaking="567" offensive="353" aggressive="693" consistent="670" creative="481" experienced="502"/>
+    <skills stamina="282" dexterity="630" speed="378" tackling="209" passing="474" shooting="565" control="378" accuracy="281" goalkeeping="514" heading="240"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108161">
+    <personal name="Roberto Ramirez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="562" risktaking="702" offensive="556" aggressive="368" consistent="732" creative="234" experienced="283"/>
+    <skills stamina="197" dexterity="533" speed="638" tackling="203" passing="514" shooting="436" control="280" accuracy="180" goalkeeping="590" heading="174"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108162">
+    <personal name="Juan Marecos">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="574" risktaking="614" offensive="590" aggressive="553" consistent="371" creative="576" experienced="483"/>
+    <skills stamina="383" dexterity="546" speed="622" tackling="374" passing="410" shooting="519" control="391" accuracy="384" goalkeeping="64" heading="412"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="108163">
+    <personal name="Santiago Dominguez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="511" risktaking="816" offensive="530" aggressive="787" consistent="522" creative="760" experienced="403"/>
+    <skills stamina="724" dexterity="763" speed="389" tackling="624" passing="588" shooting="400" control="553" accuracy="581" goalkeeping="66" heading="557"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="108164">
+    <personal name="Pedro Sarabia">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="628" risktaking="751" offensive="693" aggressive="757" consistent="399" creative="443" experienced="711"/>
+    <skills stamina="719" dexterity="481" speed="227" tackling="486" passing="479" shooting="391" control="483" accuracy="390" goalkeeping="63" heading="471"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108165">
+    <personal name="Marcelino Namandu">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="725" risktaking="359" offensive="585" aggressive="658" consistent="389" creative="490" experienced="603"/>
+    <skills stamina="599" dexterity="321" speed="506" tackling="506" passing="511" shooting="405" control="470" accuracy="537" goalkeeping="89" heading="445"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108166">
+    <personal name="Vidal Bamros">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="705" risktaking="853" offensive="705" aggressive="417" consistent="512" creative="498" experienced="395"/>
+    <skills stamina="290" dexterity="698" speed="515" tackling="468" passing="513" shooting="453" control="357" accuracy="418" goalkeeping="64" heading="418"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108167">
+    <personal name="Daniel Sosa">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="613" risktaking="519" offensive="754" aggressive="315" consistent="553" creative="139" experienced="525"/>
+    <skills stamina="620" dexterity="524" speed="513" tackling="505" passing="536" shooting="490" control="495" accuracy="441" goalkeeping="66" heading="517"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="108168">
+    <personal name="Hernan Florentin">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="438" risktaking="515" offensive="548" aggressive="692" consistent="469" creative="60" experienced="437"/>
+    <skills stamina="689" dexterity="689" speed="308" tackling="473" passing="411" shooting="473" control="388" accuracy="388" goalkeeping="75" heading="420"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="108169">
+    <personal name="Lorenzo Ojeda">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="319" risktaking="518" offensive="796" aggressive="439" consistent="45" creative="649" experienced="452"/>
+    <skills stamina="229" dexterity="514" speed="469" tackling="506" passing="436" shooting="403" control="391" accuracy="448" goalkeeping="79" heading="493"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108170">
+    <personal name="Jose Bueeno">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="449" risktaking="582" offensive="642" aggressive="554" consistent="304" creative="675" experienced="515"/>
+    <skills stamina="545" dexterity="511" speed="330" tackling="535" passing="358" shooting="421" control="414" accuracy="470" goalkeeping="84" heading="528"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108171">
+    <personal name="Carlos Moreno">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="520" risktaking="718" offensive="791" aggressive="959" consistent="415" creative="482" experienced="579"/>
+    <skills stamina="657" dexterity="647" speed="276" tackling="431" passing="382" shooting="478" control="494" accuracy="419" goalkeeping="68" heading="332"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108172">
+    <personal name="Jose Paniagua">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="403" risktaking="517" offensive="576" aggressive="621" consistent="638" creative="567" experienced="602"/>
+    <skills stamina="693" dexterity="331" speed="686" tackling="438" passing="369" shooting="378" control="564" accuracy="497" goalkeeping="79" heading="413"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="108173">
+    <personal name="Arnaldo Perez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="659" risktaking="305" offensive="458" aggressive="528" consistent="612" creative="571" experienced="784"/>
+    <skills stamina="648" dexterity="604" speed="310" tackling="413" passing="487" shooting="473" control="461" accuracy="516" goalkeeping="82" heading="400"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108174">
+    <personal name="Ruben Lucena">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="547" risktaking="195" offensive="245" aggressive="552" consistent="770" creative="631" experienced="682"/>
+    <skills stamina="341" dexterity="526" speed="312" tackling="469" passing="474" shooting="503" control="543" accuracy="458" goalkeeping="74" heading="446"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108175">
+    <personal name="Luis Ruiz Diaz">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="602" risktaking="441" offensive="652" aggressive="514" consistent="439" creative="634" experienced="507"/>
+    <skills stamina="424" dexterity="440" speed="237" tackling="474" passing="496" shooting="474" control="346" accuracy="444" goalkeeping="77" heading="498"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="108176">
+    <personal name="Ubaldo Gonzalez">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="663" risktaking="637" offensive="715" aggressive="424" consistent="708" creative="639" experienced="429"/>
+    <skills stamina="186" dexterity="279" speed="596" tackling="166" passing="374" shooting="334" control="277" accuracy="190" goalkeeping="428" heading="210"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108177">
+    <personal name="Hector Almeida">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="516" risktaking="694" offensive="662" aggressive="677" consistent="649" creative="552" experienced="504"/>
+    <skills stamina="592" dexterity="324" speed="488" tackling="146" passing="355" shooting="340" control="268" accuracy="220" goalkeeping="481" heading="172"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="108178">
+    <personal name="Juan Torales">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="392" risktaking="545" offensive="597" aggressive="542" consistent="284" creative="426" experienced="460"/>
+    <skills stamina="424" dexterity="686" speed="230" tackling="422" passing="470" shooting="419" control="475" accuracy="459" goalkeeping="84" heading="393"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="108179">
+    <personal name="Marcelo Rojas">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="383" risktaking="268" offensive="250" aggressive="409" consistent="611" creative="324" experienced="275"/>
+    <skills stamina="224" dexterity="314" speed="415" tackling="498" passing="477" shooting="444" control="429" accuracy="452" goalkeeping="80" heading="457"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="108180">
+    <personal name="Sigfrido Fonseca">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="333" risktaking="692" offensive="535" aggressive="447" consistent="397" creative="220" experienced="425"/>
+    <skills stamina="437" dexterity="525" speed="340" tackling="517" passing="506" shooting="470" control="406" accuracy="362" goalkeeping="62" heading="483"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108181">
+    <personal name="Jorge Gill">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="601" risktaking="478" offensive="587" aggressive="352" consistent="483" creative="514" experienced="229"/>
+    <skills stamina="574" dexterity="655" speed="652" tackling="428" passing="397" shooting="381" control="512" accuracy="442" goalkeeping="77" heading="417"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="108182">
+    <personal name="Panfilo Escobar">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="214" risktaking="598" offensive="505" aggressive="246" consistent="359" creative="348" experienced="742"/>
+    <skills stamina="639" dexterity="239" speed="623" tackling="457" passing="400" shooting="394" control="330" accuracy="468" goalkeeping="48" heading="373"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="108183">
+    <personal name="Francisco Esteche">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="375" risktaking="416" offensive="588" aggressive="345" consistent="343" creative="353" experienced="492"/>
+    <skills stamina="742" dexterity="666" speed="671" tackling="456" passing="340" shooting="403" control="465" accuracy="514" goalkeeping="67" heading="526"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="108184">
+    <personal name="Marcial Garay">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="635" risktaking="262" offensive="357" aggressive="263" consistent="409" creative="416" experienced="517"/>
+    <skills stamina="337" dexterity="662" speed="245" tackling="366" passing="563" shooting="439" control="559" accuracy="459" goalkeeping="64" heading="417"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="108185">
+    <personal name="Cesar Colman">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="428" risktaking="744" offensive="390" aggressive="575" consistent="547" creative="492" experienced="628"/>
+    <skills stamina="365" dexterity="440" speed="476" tackling="449" passing="433" shooting="514" control="374" accuracy="471" goalkeeping="71" heading="348"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108186">
+    <personal name="Sergio Zarza">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="700" risktaking="448" offensive="366" aggressive="498" consistent="208" creative="514" experienced="626"/>
+    <skills stamina="693" dexterity="692" speed="195" tackling="496" passing="520" shooting="393" control="450" accuracy="424" goalkeeping="70" heading="324"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108187">
+    <personal name="Cirilo Yegros">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="304" risktaking="568" offensive="660" aggressive="422" consistent="257" creative="657" experienced="774"/>
+    <skills stamina="520" dexterity="404" speed="256" tackling="433" passing="504" shooting="337" control="457" accuracy="344" goalkeeping="72" heading="502"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="108188">
+    <personal name="Alfredo Amarilla">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="535" risktaking="307" offensive="399" aggressive="598" consistent="631" creative="380" experienced="422"/>
+    <skills stamina="383" dexterity="455" speed="413" tackling="401" passing="299" shooting="380" control="377" accuracy="372" goalkeeping="62" heading="427"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="108189">
+    <personal name="Daniel Navarro">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="479" risktaking="277" offensive="240" aggressive="387" consistent="307" creative="511" experienced="691"/>
+    <skills stamina="167" dexterity="366" speed="664" tackling="501" passing="482" shooting="521" control="400" accuracy="476" goalkeeping="67" heading="346"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108190">
+    <personal name="Julian Santander">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="672" risktaking="565" offensive="500" aggressive="527" consistent="716" creative="563" experienced="310"/>
+    <skills stamina="333" dexterity="596" speed="352" tackling="372" passing="496" shooting="465" control="385" accuracy="348" goalkeeping="57" heading="359"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="108191">
+    <personal name="Pedro Lopes">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="687" risktaking="459" offensive="304" aggressive="570" consistent="522" creative="311" experienced="815"/>
+    <skills stamina="587" dexterity="471" speed="560" tackling="452" passing="333" shooting="354" control="485" accuracy="450" goalkeeping="57" heading="343"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+</Players>

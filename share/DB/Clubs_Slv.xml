@@ -1,0 +1,2257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="A.c. Arcense">
+    <coach name="M. Ruperez"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="A.c. Arcense Stadium"/>
+    <contracts>
+      <contract player="100000"/>
+      <contract player="100001"/>
+      <contract player="100002"/>
+      <contract player="100003"/>
+      <contract player="100004"/>
+      <contract player="100005"/>
+      <contract player="100006"/>
+      <contract player="100007"/>
+      <contract player="100008"/>
+      <contract player="100009"/>
+      <contract player="100010"/>
+      <contract player="100011"/>
+      <contract player="100012"/>
+      <contract player="100013"/>
+      <contract player="100014"/>
+      <contract player="100015"/>
+    </contracts>
+  </club>
+  <club name="A.c. Udc">
+    <coach name="G Esparga"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="A.c. Udc Stadium"/>
+    <contracts>
+      <contract player="100016"/>
+      <contract player="100017"/>
+      <contract player="100018"/>
+      <contract player="100019"/>
+      <contract player="100020"/>
+      <contract player="100021"/>
+      <contract player="100022"/>
+      <contract player="100023"/>
+      <contract player="100024"/>
+      <contract player="100025"/>
+      <contract player="100026"/>
+      <contract player="100027"/>
+      <contract player="100028"/>
+      <contract player="100029"/>
+      <contract player="100030"/>
+      <contract player="100031"/>
+    </contracts>
+  </club>
+  <club name="Advana F.c.">
+    <coach name="R.ramos"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Advana F.c. Stadium"/>
+    <contracts>
+      <contract player="100032"/>
+      <contract player="100033"/>
+      <contract player="100034"/>
+      <contract player="100035"/>
+      <contract player="100036"/>
+      <contract player="100037"/>
+      <contract player="100038"/>
+      <contract player="100039"/>
+      <contract player="100040"/>
+      <contract player="100041"/>
+      <contract player="100042"/>
+      <contract player="100043"/>
+      <contract player="100044"/>
+      <contract player="100045"/>
+      <contract player="100046"/>
+      <contract player="100047"/>
+    </contracts>
+  </club>
+  <club name="Agave F.c.">
+    <coach name="M.silvagni"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Agave F.c. Stadium"/>
+    <contracts>
+      <contract player="100048"/>
+      <contract player="100049"/>
+      <contract player="100050"/>
+      <contract player="100051"/>
+      <contract player="100052"/>
+      <contract player="100053"/>
+      <contract player="100054"/>
+      <contract player="100055"/>
+      <contract player="100056"/>
+      <contract player="100057"/>
+      <contract player="100058"/>
+      <contract player="100059"/>
+      <contract player="100060"/>
+      <contract player="100061"/>
+      <contract player="100062"/>
+      <contract player="100063"/>
+    </contracts>
+  </club>
+  <club name="Aguila">
+    <coach name="Luis Fernando Cerna"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Aguila Stadium"/>
+    <contracts>
+      <contract player="100064"/>
+      <contract player="100065"/>
+      <contract player="100066"/>
+      <contract player="100067"/>
+      <contract player="100068"/>
+      <contract player="100069"/>
+      <contract player="100070"/>
+      <contract player="100071"/>
+      <contract player="100072"/>
+      <contract player="100073"/>
+      <contract player="100074"/>
+      <contract player="100075"/>
+      <contract player="100076"/>
+      <contract player="100077"/>
+      <contract player="100078"/>
+      <contract player="100079"/>
+    </contracts>
+  </club>
+  <club name="Alianza">
+    <coach name="Juan Toledo"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Alianza Stadium"/>
+    <contracts>
+      <contract player="100080"/>
+      <contract player="100081"/>
+      <contract player="100082"/>
+      <contract player="100083"/>
+      <contract player="100084"/>
+      <contract player="100085"/>
+      <contract player="100086"/>
+      <contract player="100087"/>
+      <contract player="100088"/>
+      <contract player="100089"/>
+      <contract player="100090"/>
+      <contract player="100091"/>
+      <contract player="100092"/>
+      <contract player="100093"/>
+      <contract player="100094"/>
+      <contract player="100095"/>
+    </contracts>
+  </club>
+  <club name="Apaneca">
+    <coach name="Salvador Cardenas"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Apaneca Stadium"/>
+    <contracts>
+      <contract player="100096"/>
+      <contract player="100097"/>
+      <contract player="100098"/>
+      <contract player="100099"/>
+      <contract player="100100"/>
+      <contract player="100101"/>
+      <contract player="100102"/>
+      <contract player="100103"/>
+      <contract player="100104"/>
+      <contract player="100105"/>
+      <contract player="100106"/>
+      <contract player="100107"/>
+      <contract player="100108"/>
+      <contract player="100109"/>
+      <contract player="100110"/>
+      <contract player="100111"/>
+    </contracts>
+  </club>
+  <club name="Atletico Balboa">
+    <coach name="G.gomez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Atletico Balboa Stadium"/>
+    <contracts>
+      <contract player="100112"/>
+      <contract player="100113"/>
+      <contract player="100114"/>
+      <contract player="100115"/>
+      <contract player="100116"/>
+      <contract player="100117"/>
+      <contract player="100118"/>
+      <contract player="100119"/>
+      <contract player="100120"/>
+      <contract player="100121"/>
+      <contract player="100122"/>
+      <contract player="100123"/>
+      <contract player="100124"/>
+      <contract player="100125"/>
+      <contract player="100126"/>
+      <contract player="100127"/>
+    </contracts>
+  </club>
+  <club name="Atletico Barcela">
+    <coach name="M.flores"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="127" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="127" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Atletico Barcela Stadium"/>
+    <contracts>
+      <contract player="100128"/>
+      <contract player="100129"/>
+      <contract player="100130"/>
+      <contract player="100131"/>
+      <contract player="100132"/>
+      <contract player="100133"/>
+      <contract player="100134"/>
+      <contract player="100135"/>
+      <contract player="100136"/>
+      <contract player="100137"/>
+      <contract player="100138"/>
+      <contract player="100139"/>
+      <contract player="100140"/>
+      <contract player="100141"/>
+      <contract player="100142"/>
+      <contract player="100143"/>
+    </contracts>
+  </club>
+  <club name="Atletico Marte">
+    <coach name="Julio Diaz"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Atletico Marte Stadium"/>
+    <contracts>
+      <contract player="100144"/>
+      <contract player="100145"/>
+      <contract player="100146"/>
+      <contract player="100147"/>
+      <contract player="100148"/>
+      <contract player="100149"/>
+      <contract player="100150"/>
+      <contract player="100151"/>
+      <contract player="100152"/>
+      <contract player="100153"/>
+      <contract player="100154"/>
+      <contract player="100155"/>
+      <contract player="100156"/>
+      <contract player="100157"/>
+      <contract player="100158"/>
+      <contract player="100159"/>
+    </contracts>
+  </club>
+  <club name="Baygon-adet">
+    <coach name="Oscar Letona"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Baygon-adet Stadium"/>
+    <contracts>
+      <contract player="100160"/>
+      <contract player="100161"/>
+      <contract player="100162"/>
+      <contract player="100163"/>
+      <contract player="100164"/>
+      <contract player="100165"/>
+      <contract player="100166"/>
+      <contract player="100167"/>
+      <contract player="100168"/>
+      <contract player="100169"/>
+      <contract player="100170"/>
+      <contract player="100171"/>
+      <contract player="100172"/>
+      <contract player="100173"/>
+      <contract player="100174"/>
+      <contract player="100175"/>
+    </contracts>
+  </club>
+  <club name="C.d Dragon">
+    <coach name="M Villalba"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="C.d Dragon Stadium"/>
+    <contracts>
+      <contract player="100176"/>
+      <contract player="100177"/>
+      <contract player="100178"/>
+      <contract player="100179"/>
+      <contract player="100180"/>
+      <contract player="100181"/>
+      <contract player="100182"/>
+      <contract player="100183"/>
+      <contract player="100184"/>
+      <contract player="100185"/>
+      <contract player="100186"/>
+      <contract player="100187"/>
+      <contract player="100188"/>
+      <contract player="100189"/>
+      <contract player="100190"/>
+      <contract player="100191"/>
+    </contracts>
+  </club>
+  <club name="C.d Malacoff">
+    <coach name="A.martinez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="C.d Malacoff Stadium"/>
+    <contracts>
+      <contract player="100192"/>
+      <contract player="100193"/>
+      <contract player="100194"/>
+      <contract player="100195"/>
+      <contract player="100196"/>
+      <contract player="100197"/>
+      <contract player="100198"/>
+      <contract player="100199"/>
+      <contract player="100200"/>
+      <contract player="100201"/>
+      <contract player="100202"/>
+      <contract player="100203"/>
+      <contract player="100204"/>
+      <contract player="100205"/>
+      <contract player="100206"/>
+      <contract player="100207"/>
+    </contracts>
+  </club>
+  <club name="C.d Platense">
+    <coach name="R Reyes"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="150" g="75" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="150" g="75" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="C.d Platense Stadium"/>
+    <contracts>
+      <contract player="100208"/>
+      <contract player="100209"/>
+      <contract player="100210"/>
+      <contract player="100211"/>
+      <contract player="100212"/>
+      <contract player="100213"/>
+      <contract player="100214"/>
+      <contract player="100215"/>
+      <contract player="100216"/>
+      <contract player="100217"/>
+      <contract player="100218"/>
+      <contract player="100219"/>
+      <contract player="100220"/>
+      <contract player="100221"/>
+      <contract player="100222"/>
+      <contract player="100223"/>
+    </contracts>
+  </club>
+  <club name="C.d Salvadoreno">
+    <coach name="G.benitez"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="C.d Salvadoreno Stadium"/>
+    <contracts>
+      <contract player="100224"/>
+      <contract player="100225"/>
+      <contract player="100226"/>
+      <contract player="100227"/>
+      <contract player="100228"/>
+      <contract player="100229"/>
+      <contract player="100230"/>
+      <contract player="100231"/>
+      <contract player="100232"/>
+      <contract player="100233"/>
+      <contract player="100234"/>
+      <contract player="100235"/>
+      <contract player="100236"/>
+      <contract player="100237"/>
+      <contract player="100238"/>
+      <contract player="100239"/>
+    </contracts>
+  </club>
+  <club name="C.d San Rafael">
+    <coach name="L.blanco"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="C.d San Rafael Stadium"/>
+    <contracts>
+      <contract player="100240"/>
+      <contract player="100241"/>
+      <contract player="100242"/>
+      <contract player="100243"/>
+      <contract player="100244"/>
+      <contract player="100245"/>
+      <contract player="100246"/>
+      <contract player="100247"/>
+      <contract player="100248"/>
+      <contract player="100249"/>
+      <contract player="100250"/>
+      <contract player="100251"/>
+      <contract player="100252"/>
+      <contract player="100253"/>
+      <contract player="100254"/>
+      <contract player="100255"/>
+    </contracts>
+  </club>
+  <club name="C.d. El Roble">
+    <coach name="J. Fuentes"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="C.d. El Roble Stadium"/>
+    <contracts>
+      <contract player="100256"/>
+      <contract player="100257"/>
+      <contract player="100258"/>
+      <contract player="100259"/>
+      <contract player="100260"/>
+      <contract player="100261"/>
+      <contract player="100262"/>
+      <contract player="100263"/>
+      <contract player="100264"/>
+      <contract player="100265"/>
+      <contract player="100266"/>
+      <contract player="100267"/>
+      <contract player="100268"/>
+      <contract player="100269"/>
+      <contract player="100270"/>
+      <contract player="100271"/>
+    </contracts>
+  </club>
+  <club name="C.d. Fuerte S F">
+    <coach name="M.silva"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="127" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="127" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="C.d. Fuerte S F Stadium"/>
+    <contracts>
+      <contract player="100272"/>
+      <contract player="100273"/>
+      <contract player="100274"/>
+      <contract player="100275"/>
+      <contract player="100276"/>
+      <contract player="100277"/>
+      <contract player="100278"/>
+      <contract player="100279"/>
+      <contract player="100280"/>
+      <contract player="100281"/>
+      <contract player="100282"/>
+      <contract player="100283"/>
+      <contract player="100284"/>
+      <contract player="100285"/>
+      <contract player="100286"/>
+      <contract player="100287"/>
+    </contracts>
+  </club>
+  <club name="C.d.huracan ">
+    <coach name="J. Limonares"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="C.d.huracan  Stadium"/>
+    <contracts>
+      <contract player="100288"/>
+      <contract player="100289"/>
+      <contract player="100290"/>
+      <contract player="100291"/>
+      <contract player="100292"/>
+      <contract player="100293"/>
+      <contract player="100294"/>
+      <contract player="100295"/>
+      <contract player="100296"/>
+      <contract player="100297"/>
+      <contract player="100298"/>
+      <contract player="100299"/>
+      <contract player="100300"/>
+      <contract player="100301"/>
+      <contract player="100302"/>
+      <contract player="100303"/>
+    </contracts>
+  </club>
+  <club name="C.d.independiene">
+    <coach name="J.guerita"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="C.d.independiene Stadium"/>
+    <contracts>
+      <contract player="100304"/>
+      <contract player="100305"/>
+      <contract player="100306"/>
+      <contract player="100307"/>
+      <contract player="100308"/>
+      <contract player="100309"/>
+      <contract player="100310"/>
+      <contract player="100311"/>
+      <contract player="100312"/>
+      <contract player="100313"/>
+      <contract player="100314"/>
+      <contract player="100315"/>
+      <contract player="100316"/>
+      <contract player="100317"/>
+      <contract player="100318"/>
+      <contract player="100319"/>
+    </contracts>
+  </club>
+  <club name="C.d.mar Y Plata">
+    <coach name="M.martins"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="C.d.mar Y Plata Stadium"/>
+    <contracts>
+      <contract player="100320"/>
+      <contract player="100321"/>
+      <contract player="100322"/>
+      <contract player="100323"/>
+      <contract player="100324"/>
+      <contract player="100325"/>
+      <contract player="100326"/>
+      <contract player="100327"/>
+      <contract player="100328"/>
+      <contract player="100329"/>
+      <contract player="100330"/>
+      <contract player="100331"/>
+      <contract player="100332"/>
+      <contract player="100333"/>
+      <contract player="100334"/>
+      <contract player="100335"/>
+    </contracts>
+  </club>
+  <club name="C.d.marte">
+    <coach name="B.villareal"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="C.d.marte Stadium"/>
+    <contracts>
+      <contract player="100336"/>
+      <contract player="100337"/>
+      <contract player="100338"/>
+      <contract player="100339"/>
+      <contract player="100340"/>
+      <contract player="100341"/>
+      <contract player="100342"/>
+      <contract player="100343"/>
+      <contract player="100344"/>
+      <contract player="100345"/>
+      <contract player="100346"/>
+      <contract player="100347"/>
+      <contract player="100348"/>
+      <contract player="100349"/>
+      <contract player="100350"/>
+      <contract player="100351"/>
+    </contracts>
+  </club>
+  <club name="C.d.neo Pipil">
+    <coach name="F.galdos"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="C.d.neo Pipil Stadium"/>
+    <contracts>
+      <contract player="100352"/>
+      <contract player="100353"/>
+      <contract player="100354"/>
+      <contract player="100355"/>
+      <contract player="100356"/>
+      <contract player="100357"/>
+      <contract player="100358"/>
+      <contract player="100359"/>
+      <contract player="100360"/>
+      <contract player="100361"/>
+      <contract player="100362"/>
+      <contract player="100363"/>
+      <contract player="100364"/>
+      <contract player="100365"/>
+      <contract player="100366"/>
+      <contract player="100367"/>
+    </contracts>
+  </club>
+  <club name="C.d.santiagueno">
+    <coach name="C.ramirez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="C.d.santiagueno Stadium"/>
+    <contracts>
+      <contract player="100368"/>
+      <contract player="100369"/>
+      <contract player="100370"/>
+      <contract player="100371"/>
+      <contract player="100372"/>
+      <contract player="100373"/>
+      <contract player="100374"/>
+      <contract player="100375"/>
+      <contract player="100376"/>
+      <contract player="100377"/>
+      <contract player="100378"/>
+      <contract player="100379"/>
+      <contract player="100380"/>
+      <contract player="100381"/>
+      <contract player="100382"/>
+      <contract player="100383"/>
+    </contracts>
+  </club>
+  <club name="Calvario-metapan">
+    <coach name="I.cruz"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Calvario-metapan Stadium"/>
+    <contracts>
+      <contract player="100384"/>
+      <contract player="100385"/>
+      <contract player="100386"/>
+      <contract player="100387"/>
+      <contract player="100388"/>
+      <contract player="100389"/>
+      <contract player="100390"/>
+      <contract player="100391"/>
+      <contract player="100392"/>
+      <contract player="100393"/>
+      <contract player="100394"/>
+      <contract player="100395"/>
+      <contract player="100396"/>
+      <contract player="100397"/>
+      <contract player="100398"/>
+      <contract player="100399"/>
+    </contracts>
+  </club>
+  <club name="Central Izalco">
+    <coach name="A.navarro"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Central Izalco Stadium"/>
+    <contracts>
+      <contract player="100400"/>
+      <contract player="100401"/>
+      <contract player="100402"/>
+      <contract player="100403"/>
+      <contract player="100404"/>
+      <contract player="100405"/>
+      <contract player="100406"/>
+      <contract player="100407"/>
+      <contract player="100408"/>
+      <contract player="100409"/>
+      <contract player="100410"/>
+      <contract player="100411"/>
+      <contract player="100412"/>
+      <contract player="100413"/>
+      <contract player="100414"/>
+      <contract player="100415"/>
+    </contracts>
+  </club>
+  <club name="Chalatenango">
+    <coach name="J.elloriaga"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Chalatenango Stadium"/>
+    <contracts>
+      <contract player="100416"/>
+      <contract player="100417"/>
+      <contract player="100418"/>
+      <contract player="100419"/>
+      <contract player="100420"/>
+      <contract player="100421"/>
+      <contract player="100422"/>
+      <contract player="100423"/>
+      <contract player="100424"/>
+      <contract player="100425"/>
+      <contract player="100426"/>
+      <contract player="100427"/>
+      <contract player="100428"/>
+      <contract player="100429"/>
+      <contract player="100430"/>
+      <contract player="100431"/>
+    </contracts>
+  </club>
+  <club name="Cojutepeque">
+    <coach name="Oscar Cruz"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="127" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="127" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Cojutepeque Stadium"/>
+    <contracts>
+      <contract player="100432"/>
+      <contract player="100433"/>
+      <contract player="100434"/>
+      <contract player="100435"/>
+      <contract player="100436"/>
+      <contract player="100437"/>
+      <contract player="100438"/>
+      <contract player="100439"/>
+      <contract player="100440"/>
+      <contract player="100441"/>
+      <contract player="100442"/>
+      <contract player="100443"/>
+      <contract player="100444"/>
+      <contract player="100445"/>
+      <contract player="100446"/>
+      <contract player="100447"/>
+    </contracts>
+  </club>
+  <club name="Espana Fc">
+    <coach name="J Riveros"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Espana Fc Stadium"/>
+    <contracts>
+      <contract player="100448"/>
+      <contract player="100449"/>
+      <contract player="100450"/>
+      <contract player="100451"/>
+      <contract player="100452"/>
+      <contract player="100453"/>
+      <contract player="100454"/>
+      <contract player="100455"/>
+      <contract player="100456"/>
+      <contract player="100457"/>
+      <contract player="100458"/>
+      <contract player="100459"/>
+      <contract player="100460"/>
+      <contract player="100461"/>
+      <contract player="100462"/>
+      <contract player="100463"/>
+    </contracts>
+  </club>
+  <club name="Fas">
+    <coach name="Adolfo Menendez"/>
+    <kits>
+      <kit>
+        <jersey type="3">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Fas Stadium"/>
+    <contracts>
+      <contract player="100464"/>
+      <contract player="100465"/>
+      <contract player="100466"/>
+      <contract player="100467"/>
+      <contract player="100468"/>
+      <contract player="100469"/>
+      <contract player="100470"/>
+      <contract player="100471"/>
+      <contract player="100472"/>
+      <contract player="100473"/>
+      <contract player="100474"/>
+      <contract player="100475"/>
+      <contract player="100476"/>
+      <contract player="100477"/>
+      <contract player="100478"/>
+      <contract player="100479"/>
+    </contracts>
+  </club>
+  <club name="Fuerte Aguilares">
+    <coach name="J.matizzo"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Fuerte Aguilares Stadium"/>
+    <contracts>
+      <contract player="100480"/>
+      <contract player="100481"/>
+      <contract player="100482"/>
+      <contract player="100483"/>
+      <contract player="100484"/>
+      <contract player="100485"/>
+      <contract player="100486"/>
+      <contract player="100487"/>
+      <contract player="100488"/>
+      <contract player="100489"/>
+      <contract player="100490"/>
+      <contract player="100491"/>
+      <contract player="100492"/>
+      <contract player="100493"/>
+      <contract player="100494"/>
+      <contract player="100495"/>
+    </contracts>
+  </club>
+  <club name="Gerardo Barrios">
+    <coach name="M. Barbosa"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Gerardo Barrios Stadium"/>
+    <contracts>
+      <contract player="100496"/>
+      <contract player="100497"/>
+      <contract player="100498"/>
+      <contract player="100499"/>
+      <contract player="100500"/>
+      <contract player="100501"/>
+      <contract player="100502"/>
+      <contract player="100503"/>
+      <contract player="100504"/>
+      <contract player="100505"/>
+      <contract player="100506"/>
+      <contract player="100507"/>
+      <contract player="100508"/>
+      <contract player="100509"/>
+      <contract player="100510"/>
+      <contract player="100511"/>
+    </contracts>
+  </club>
+  <club name="Isidro Menendez">
+    <coach name="J.zelaya"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Isidro Menendez Stadium"/>
+    <contracts>
+      <contract player="100512"/>
+      <contract player="100513"/>
+      <contract player="100514"/>
+      <contract player="100515"/>
+      <contract player="100516"/>
+      <contract player="100517"/>
+      <contract player="100518"/>
+      <contract player="100519"/>
+      <contract player="100520"/>
+      <contract player="100521"/>
+      <contract player="100522"/>
+      <contract player="100523"/>
+      <contract player="100524"/>
+      <contract player="100525"/>
+      <contract player="100526"/>
+      <contract player="100527"/>
+    </contracts>
+  </club>
+  <club name="Luis Angel Firpo">
+    <coach name="Carlos Melendez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Luis Angel Firpo Stadium"/>
+    <contracts>
+      <contract player="100528"/>
+      <contract player="100529"/>
+      <contract player="100530"/>
+      <contract player="100531"/>
+      <contract player="100532"/>
+      <contract player="100533"/>
+      <contract player="100534"/>
+      <contract player="100535"/>
+      <contract player="100536"/>
+      <contract player="100537"/>
+      <contract player="100538"/>
+      <contract player="100539"/>
+      <contract player="100540"/>
+      <contract player="100541"/>
+      <contract player="100542"/>
+      <contract player="100543"/>
+    </contracts>
+  </club>
+  <club name="Once Lobos">
+    <coach name="V.ulloa"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Once Lobos Stadium"/>
+    <contracts>
+      <contract player="100544"/>
+      <contract player="100545"/>
+      <contract player="100546"/>
+      <contract player="100547"/>
+      <contract player="100548"/>
+      <contract player="100549"/>
+      <contract player="100550"/>
+      <contract player="100551"/>
+      <contract player="100552"/>
+      <contract player="100553"/>
+      <contract player="100554"/>
+      <contract player="100555"/>
+      <contract player="100556"/>
+      <contract player="100557"/>
+      <contract player="100558"/>
+      <contract player="100559"/>
+    </contracts>
+  </club>
+  <club name="Once Municipal">
+    <coach name="J.lino"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Once Municipal Stadium"/>
+    <contracts>
+      <contract player="100560"/>
+      <contract player="100561"/>
+      <contract player="100562"/>
+      <contract player="100563"/>
+      <contract player="100564"/>
+      <contract player="100565"/>
+      <contract player="100566"/>
+      <contract player="100567"/>
+      <contract player="100568"/>
+      <contract player="100569"/>
+      <contract player="100570"/>
+      <contract player="100571"/>
+      <contract player="100572"/>
+      <contract player="100573"/>
+      <contract player="100574"/>
+      <contract player="100575"/>
+    </contracts>
+  </club>
+  <club name="Pasaquina F.c.">
+    <coach name="P.espinosa"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Pasaquina F.c. Stadium"/>
+    <contracts>
+      <contract player="100576"/>
+      <contract player="100577"/>
+      <contract player="100578"/>
+      <contract player="100579"/>
+      <contract player="100580"/>
+      <contract player="100581"/>
+      <contract player="100582"/>
+      <contract player="100583"/>
+      <contract player="100584"/>
+      <contract player="100585"/>
+      <contract player="100586"/>
+      <contract player="100587"/>
+      <contract player="100588"/>
+      <contract player="100589"/>
+      <contract player="100590"/>
+      <contract player="100591"/>
+    </contracts>
+  </club>
+  <club name="Perlas F.c.">
+    <coach name="E.pineda"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Perlas F.c. Stadium"/>
+    <contracts>
+      <contract player="100592"/>
+      <contract player="100593"/>
+      <contract player="100594"/>
+      <contract player="100595"/>
+      <contract player="100596"/>
+      <contract player="100597"/>
+      <contract player="100598"/>
+      <contract player="100599"/>
+      <contract player="100600"/>
+      <contract player="100601"/>
+      <contract player="100602"/>
+      <contract player="100603"/>
+      <contract player="100604"/>
+      <contract player="100605"/>
+      <contract player="100606"/>
+      <contract player="100607"/>
+    </contracts>
+  </club>
+  <club name="Quezaltepeque">
+    <coach name="J.berger"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Quezaltepeque Stadium"/>
+    <contracts>
+      <contract player="100608"/>
+      <contract player="100609"/>
+      <contract player="100610"/>
+      <contract player="100611"/>
+      <contract player="100612"/>
+      <contract player="100613"/>
+      <contract player="100614"/>
+      <contract player="100615"/>
+      <contract player="100616"/>
+      <contract player="100617"/>
+      <contract player="100618"/>
+      <contract player="100619"/>
+      <contract player="100620"/>
+      <contract player="100621"/>
+      <contract player="100622"/>
+      <contract player="100623"/>
+    </contracts>
+  </club>
+  <club name="Racing Junior">
+    <coach name="S.santana"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Racing Junior Stadium"/>
+    <contracts>
+      <contract player="100624"/>
+      <contract player="100625"/>
+      <contract player="100626"/>
+      <contract player="100627"/>
+      <contract player="100628"/>
+      <contract player="100629"/>
+      <contract player="100630"/>
+      <contract player="100631"/>
+      <contract player="100632"/>
+      <contract player="100633"/>
+      <contract player="100634"/>
+      <contract player="100635"/>
+      <contract player="100636"/>
+      <contract player="100637"/>
+      <contract player="100638"/>
+      <contract player="100639"/>
+    </contracts>
+  </club>
+  <club name="Real Cuslatleco">
+    <coach name="M Nunez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Real Cuslatleco Stadium"/>
+    <contracts>
+      <contract player="100640"/>
+      <contract player="100641"/>
+      <contract player="100642"/>
+      <contract player="100643"/>
+      <contract player="100644"/>
+      <contract player="100645"/>
+      <contract player="100646"/>
+      <contract player="100647"/>
+      <contract player="100648"/>
+      <contract player="100649"/>
+      <contract player="100650"/>
+      <contract player="100651"/>
+      <contract player="100652"/>
+      <contract player="100653"/>
+      <contract player="100654"/>
+      <contract player="100655"/>
+    </contracts>
+  </club>
+  <club name="Sensuntepeque">
+    <coach name="G. Olmos"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Sensuntepeque Stadium"/>
+    <contracts>
+      <contract player="100656"/>
+      <contract player="100657"/>
+      <contract player="100658"/>
+      <contract player="100659"/>
+      <contract player="100660"/>
+      <contract player="100661"/>
+      <contract player="100662"/>
+      <contract player="100663"/>
+      <contract player="100664"/>
+      <contract player="100665"/>
+      <contract player="100666"/>
+      <contract player="100667"/>
+      <contract player="100668"/>
+      <contract player="100669"/>
+      <contract player="100670"/>
+      <contract player="100671"/>
+    </contracts>
+  </club>
+  <club name="Tiburones">
+    <coach name="Alfonso Guttierez"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Tiburones Stadium"/>
+    <contracts>
+      <contract player="100672"/>
+      <contract player="100673"/>
+      <contract player="100674"/>
+      <contract player="100675"/>
+      <contract player="100676"/>
+      <contract player="100677"/>
+      <contract player="100678"/>
+      <contract player="100679"/>
+      <contract player="100680"/>
+      <contract player="100681"/>
+      <contract player="100682"/>
+      <contract player="100683"/>
+      <contract player="100684"/>
+      <contract player="100685"/>
+      <contract player="100686"/>
+      <contract player="100687"/>
+    </contracts>
+  </club>
+  <club name="U.d.e.t">
+    <coach name="G.linares"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="U.d.e.t Stadium"/>
+    <contracts>
+      <contract player="100688"/>
+      <contract player="100689"/>
+      <contract player="100690"/>
+      <contract player="100691"/>
+      <contract player="100692"/>
+      <contract player="100693"/>
+      <contract player="100694"/>
+      <contract player="100695"/>
+      <contract player="100696"/>
+      <contract player="100697"/>
+      <contract player="100698"/>
+      <contract player="100699"/>
+      <contract player="100700"/>
+      <contract player="100701"/>
+      <contract player="100702"/>
+      <contract player="100703"/>
+    </contracts>
+  </club>
+  <club name="Urgente Limeno">
+    <coach name="Gonzalo Munoz"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Urgente Limeno Stadium"/>
+    <contracts>
+      <contract player="100704"/>
+      <contract player="100705"/>
+      <contract player="100706"/>
+      <contract player="100707"/>
+      <contract player="100708"/>
+      <contract player="100709"/>
+      <contract player="100710"/>
+      <contract player="100711"/>
+      <contract player="100712"/>
+      <contract player="100713"/>
+      <contract player="100714"/>
+      <contract player="100715"/>
+      <contract player="100716"/>
+      <contract player="100717"/>
+      <contract player="100718"/>
+      <contract player="100719"/>
+    </contracts>
+  </club>
+  <club name="Vendaval">
+    <coach name="M. De Felipe"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="El Salvador"/>
+    <stadium name="Vendaval Stadium"/>
+    <contracts>
+      <contract player="100720"/>
+      <contract player="100721"/>
+      <contract player="100722"/>
+      <contract player="100723"/>
+      <contract player="100724"/>
+      <contract player="100725"/>
+      <contract player="100726"/>
+      <contract player="100727"/>
+      <contract player="100728"/>
+      <contract player="100729"/>
+      <contract player="100730"/>
+      <contract player="100731"/>
+      <contract player="100732"/>
+      <contract player="100733"/>
+      <contract player="100734"/>
+      <contract player="100735"/>
+    </contracts>
+  </club>
+</Clubs>

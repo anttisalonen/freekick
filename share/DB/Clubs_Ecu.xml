@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Barcelona">
+    <coach name="Salvador Capitano"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ecuador"/>
+    <stadium name="Barcelona Stadium"/>
+    <contracts>
+      <contract player="98000"/>
+      <contract player="98001"/>
+      <contract player="98002"/>
+      <contract player="98003"/>
+      <contract player="98004"/>
+      <contract player="98005"/>
+      <contract player="98006"/>
+      <contract player="98007"/>
+      <contract player="98008"/>
+      <contract player="98009"/>
+      <contract player="98010"/>
+      <contract player="98011"/>
+      <contract player="98012"/>
+      <contract player="98013"/>
+      <contract player="98014"/>
+      <contract player="98015"/>
+    </contracts>
+  </club>
+  <club name="Cd Cuenca">
+    <coach name="Juan Ramon Silva"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ecuador"/>
+    <stadium name="Cd Cuenca Stadium"/>
+    <contracts>
+      <contract player="98016"/>
+      <contract player="98017"/>
+      <contract player="98018"/>
+      <contract player="98019"/>
+      <contract player="98020"/>
+      <contract player="98021"/>
+      <contract player="98022"/>
+      <contract player="98023"/>
+      <contract player="98024"/>
+      <contract player="98025"/>
+      <contract player="98026"/>
+      <contract player="98027"/>
+      <contract player="98028"/>
+      <contract player="98029"/>
+      <contract player="98030"/>
+      <contract player="98031"/>
+    </contracts>
+  </club>
+  <club name="Cs Emelec">
+    <coach name="Angel Castelnoble"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ecuador"/>
+    <stadium name="Cs Emelec Stadium"/>
+    <contracts>
+      <contract player="98032"/>
+      <contract player="98033"/>
+      <contract player="98034"/>
+      <contract player="98035"/>
+      <contract player="98036"/>
+      <contract player="98037"/>
+      <contract player="98038"/>
+      <contract player="98039"/>
+      <contract player="98040"/>
+      <contract player="98041"/>
+      <contract player="98042"/>
+      <contract player="98043"/>
+      <contract player="98044"/>
+      <contract player="98045"/>
+      <contract player="98046"/>
+      <contract player="98047"/>
+    </contracts>
+  </club>
+  <club name="Delfin Sc">
+    <coach name="Telmo Hidalgo"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="128" g="128" b="128"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ecuador"/>
+    <stadium name="Delfin Sc Stadium"/>
+    <contracts>
+      <contract player="98048"/>
+      <contract player="98049"/>
+      <contract player="98050"/>
+      <contract player="98051"/>
+      <contract player="98052"/>
+      <contract player="98053"/>
+      <contract player="98054"/>
+      <contract player="98055"/>
+      <contract player="98056"/>
+      <contract player="98057"/>
+      <contract player="98058"/>
+      <contract player="98059"/>
+      <contract player="98060"/>
+      <contract player="98061"/>
+      <contract player="98062"/>
+      <contract player="98063"/>
+    </contracts>
+  </club>
+  <club name="Dep. El Nacional">
+    <coach name="Paulo Massa"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ecuador"/>
+    <stadium name="Dep. El Nacional Stadium"/>
+    <contracts>
+      <contract player="98064"/>
+      <contract player="98065"/>
+      <contract player="98066"/>
+      <contract player="98067"/>
+      <contract player="98068"/>
+      <contract player="98069"/>
+      <contract player="98070"/>
+      <contract player="98071"/>
+      <contract player="98072"/>
+      <contract player="98073"/>
+      <contract player="98074"/>
+      <contract player="98075"/>
+      <contract player="98076"/>
+      <contract player="98077"/>
+      <contract player="98078"/>
+      <contract player="98079"/>
+    </contracts>
+  </club>
+  <club name="Deportivo Quito">
+    <coach name="Abel Moralijo"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ecuador"/>
+    <stadium name="Deportivo Quito Stadium"/>
+    <contracts>
+      <contract player="98080"/>
+      <contract player="98081"/>
+      <contract player="98082"/>
+      <contract player="98083"/>
+      <contract player="98084"/>
+      <contract player="98085"/>
+      <contract player="98086"/>
+      <contract player="98087"/>
+      <contract player="98088"/>
+      <contract player="98089"/>
+      <contract player="98090"/>
+      <contract player="98091"/>
+      <contract player="98092"/>
+      <contract player="98093"/>
+      <contract player="98094"/>
+      <contract player="98095"/>
+    </contracts>
+  </club>
+  <club name="Espoli">
+    <coach name="Fernando Rodriguez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ecuador"/>
+    <stadium name="Espoli Stadium"/>
+    <contracts>
+      <contract player="98096"/>
+      <contract player="98097"/>
+      <contract player="98098"/>
+      <contract player="98099"/>
+      <contract player="98100"/>
+      <contract player="98101"/>
+      <contract player="98102"/>
+      <contract player="98103"/>
+      <contract player="98104"/>
+      <contract player="98105"/>
+      <contract player="98106"/>
+      <contract player="98107"/>
+      <contract player="98108"/>
+      <contract player="98109"/>
+      <contract player="98110"/>
+      <contract player="98111"/>
+    </contracts>
+  </club>
+  <club name="Green Cross">
+    <coach name="Jose Valencia"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ecuador"/>
+    <stadium name="Green Cross Stadium"/>
+    <contracts>
+      <contract player="98112"/>
+      <contract player="98113"/>
+      <contract player="98114"/>
+      <contract player="98115"/>
+      <contract player="98116"/>
+      <contract player="98117"/>
+      <contract player="98118"/>
+      <contract player="98119"/>
+      <contract player="98120"/>
+      <contract player="98121"/>
+      <contract player="98122"/>
+      <contract player="98123"/>
+      <contract player="98124"/>
+      <contract player="98125"/>
+      <contract player="98126"/>
+      <contract player="98127"/>
+    </contracts>
+  </club>
+  <club name="Ldu Portoviejo">
+    <coach name="Jorge Pinto"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ecuador"/>
+    <stadium name="Ldu Portoviejo Stadium"/>
+    <contracts>
+      <contract player="98128"/>
+      <contract player="98129"/>
+      <contract player="98130"/>
+      <contract player="98131"/>
+      <contract player="98132"/>
+      <contract player="98133"/>
+      <contract player="98134"/>
+      <contract player="98135"/>
+      <contract player="98136"/>
+      <contract player="98137"/>
+      <contract player="98138"/>
+      <contract player="98139"/>
+      <contract player="98140"/>
+      <contract player="98141"/>
+      <contract player="98142"/>
+      <contract player="98143"/>
+    </contracts>
+  </club>
+  <club name="Ldu Quito">
+    <coach name="Carlos Sevilla"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ecuador"/>
+    <stadium name="Ldu Quito Stadium"/>
+    <contracts>
+      <contract player="98144"/>
+      <contract player="98145"/>
+      <contract player="98146"/>
+      <contract player="98147"/>
+      <contract player="98148"/>
+      <contract player="98149"/>
+      <contract player="98150"/>
+      <contract player="98151"/>
+      <contract player="98152"/>
+      <contract player="98153"/>
+      <contract player="98154"/>
+      <contract player="98155"/>
+      <contract player="98156"/>
+      <contract player="98157"/>
+      <contract player="98158"/>
+      <contract player="98159"/>
+    </contracts>
+  </club>
+  <club name="Nueve De Octubre">
+    <coach name="Estuardo Lora"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ecuador"/>
+    <stadium name="Nueve De Octubre Stadium"/>
+    <contracts>
+      <contract player="98160"/>
+      <contract player="98161"/>
+      <contract player="98162"/>
+      <contract player="98163"/>
+      <contract player="98164"/>
+      <contract player="98165"/>
+      <contract player="98166"/>
+      <contract player="98167"/>
+      <contract player="98168"/>
+      <contract player="98169"/>
+      <contract player="98170"/>
+      <contract player="98171"/>
+      <contract player="98172"/>
+      <contract player="98173"/>
+      <contract player="98174"/>
+      <contract player="98175"/>
+    </contracts>
+  </club>
+  <club name="Olmedo Rio Bamba">
+    <coach name="Carlos Cuvi"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ecuador"/>
+    <stadium name="Olmedo Rio Bamba Stadium"/>
+    <contracts>
+      <contract player="98176"/>
+      <contract player="98177"/>
+      <contract player="98178"/>
+      <contract player="98179"/>
+      <contract player="98180"/>
+      <contract player="98181"/>
+      <contract player="98182"/>
+      <contract player="98183"/>
+      <contract player="98184"/>
+      <contract player="98185"/>
+      <contract player="98186"/>
+      <contract player="98187"/>
+      <contract player="98188"/>
+      <contract player="98189"/>
+      <contract player="98190"/>
+      <contract player="98191"/>
+    </contracts>
+  </club>
+  <club name="Sd Aucas">
+    <coach name="Polo Carrera"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ecuador"/>
+    <stadium name="Sd Aucas Stadium"/>
+    <contracts>
+      <contract player="98192"/>
+      <contract player="98193"/>
+      <contract player="98194"/>
+      <contract player="98195"/>
+      <contract player="98196"/>
+      <contract player="98197"/>
+      <contract player="98198"/>
+      <contract player="98199"/>
+      <contract player="98200"/>
+      <contract player="98201"/>
+      <contract player="98202"/>
+      <contract player="98203"/>
+      <contract player="98204"/>
+      <contract player="98205"/>
+      <contract player="98206"/>
+      <contract player="98207"/>
+    </contracts>
+  </club>
+  <club name="Valdez Sc">
+    <coach name="Jorge Paladines"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Ecuador"/>
+    <stadium name="Valdez Sc Stadium"/>
+    <contracts>
+      <contract player="98208"/>
+      <contract player="98209"/>
+      <contract player="98210"/>
+      <contract player="98211"/>
+      <contract player="98212"/>
+      <contract player="98213"/>
+      <contract player="98214"/>
+      <contract player="98215"/>
+      <contract player="98216"/>
+      <contract player="98217"/>
+      <contract player="98218"/>
+      <contract player="98219"/>
+      <contract player="98220"/>
+      <contract player="98221"/>
+      <contract player="98222"/>
+      <contract player="98223"/>
+    </contracts>
+  </club>
+</Clubs>

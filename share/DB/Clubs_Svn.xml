@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="1.fc Kosice">
+    <coach name="Jozef Obert"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="127" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Slovenia"/>
+    <stadium name="1.fc Kosice Stadium"/>
+    <contracts>
+      <contract player="128000"/>
+      <contract player="128001"/>
+      <contract player="128002"/>
+      <contract player="128003"/>
+      <contract player="128004"/>
+      <contract player="128005"/>
+      <contract player="128006"/>
+      <contract player="128007"/>
+      <contract player="128008"/>
+      <contract player="128009"/>
+      <contract player="128010"/>
+      <contract player="128011"/>
+      <contract player="128012"/>
+      <contract player="128013"/>
+      <contract player="128014"/>
+      <contract player="128015"/>
+    </contracts>
+  </club>
+  <club name="Banska Bystrica">
+    <coach name="Anton Janos"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Slovenia"/>
+    <stadium name="Banska Bystrica Stadium"/>
+    <contracts>
+      <contract player="128016"/>
+      <contract player="128017"/>
+      <contract player="128018"/>
+      <contract player="128019"/>
+      <contract player="128020"/>
+      <contract player="128021"/>
+      <contract player="128022"/>
+      <contract player="128023"/>
+      <contract player="128024"/>
+      <contract player="128025"/>
+      <contract player="128026"/>
+      <contract player="128027"/>
+      <contract player="128028"/>
+      <contract player="128029"/>
+      <contract player="128030"/>
+      <contract player="128031"/>
+    </contracts>
+  </club>
+  <club name="Chemlon Humenne">
+    <coach name="Peter Gombar"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Slovenia"/>
+    <stadium name="Chemlon Humenne Stadium"/>
+    <contracts>
+      <contract player="128032"/>
+      <contract player="128033"/>
+      <contract player="128034"/>
+      <contract player="128035"/>
+      <contract player="128036"/>
+      <contract player="128037"/>
+      <contract player="128038"/>
+      <contract player="128039"/>
+      <contract player="128040"/>
+      <contract player="128041"/>
+      <contract player="128042"/>
+      <contract player="128043"/>
+      <contract player="128044"/>
+      <contract player="128045"/>
+      <contract player="128046"/>
+      <contract player="128047"/>
+    </contracts>
+  </club>
+  <club name="Dunajska Streda">
+    <coach name="Ladislav Skorpil"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Slovenia"/>
+    <stadium name="Dunajska Streda Stadium"/>
+    <contracts>
+      <contract player="128048"/>
+      <contract player="128049"/>
+      <contract player="128050"/>
+      <contract player="128051"/>
+      <contract player="128052"/>
+      <contract player="128053"/>
+      <contract player="128054"/>
+      <contract player="128055"/>
+      <contract player="128056"/>
+      <contract player="128057"/>
+      <contract player="128058"/>
+      <contract player="128059"/>
+      <contract player="128060"/>
+      <contract player="128061"/>
+      <contract player="128062"/>
+      <contract player="128063"/>
+    </contracts>
+  </club>
+  <club name="Fc Nitra">
+    <coach name="Ivan Horn"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Slovenia"/>
+    <stadium name="Fc Nitra Stadium"/>
+    <contracts>
+      <contract player="128064"/>
+      <contract player="128065"/>
+      <contract player="128066"/>
+      <contract player="128067"/>
+      <contract player="128068"/>
+      <contract player="128069"/>
+      <contract player="128070"/>
+      <contract player="128071"/>
+      <contract player="128072"/>
+      <contract player="128073"/>
+      <contract player="128074"/>
+      <contract player="128075"/>
+      <contract player="128076"/>
+      <contract player="128077"/>
+      <contract player="128078"/>
+      <contract player="128079"/>
+    </contracts>
+  </club>
+  <club name="Inter Bratislava">
+    <coach name="Josef Adamec"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Slovenia"/>
+    <stadium name="Inter Bratislava Stadium"/>
+    <contracts>
+      <contract player="128080"/>
+      <contract player="128081"/>
+      <contract player="128082"/>
+      <contract player="128083"/>
+      <contract player="128084"/>
+      <contract player="128085"/>
+      <contract player="128086"/>
+      <contract player="128087"/>
+      <contract player="128088"/>
+      <contract player="128089"/>
+      <contract player="128090"/>
+      <contract player="128091"/>
+      <contract player="128092"/>
+      <contract player="128093"/>
+      <contract player="128094"/>
+      <contract player="128095"/>
+    </contracts>
+  </club>
+  <club name="Lok. Kosice">
+    <coach name="Jan Kozak"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Slovenia"/>
+    <stadium name="Lok. Kosice Stadium"/>
+    <contracts>
+      <contract player="128096"/>
+      <contract player="128097"/>
+      <contract player="128098"/>
+      <contract player="128099"/>
+      <contract player="128100"/>
+      <contract player="128101"/>
+      <contract player="128102"/>
+      <contract player="128103"/>
+      <contract player="128104"/>
+      <contract player="128105"/>
+      <contract player="128106"/>
+      <contract player="128107"/>
+      <contract player="128108"/>
+      <contract player="128109"/>
+      <contract player="128110"/>
+      <contract player="128111"/>
+    </contracts>
+  </club>
+  <club name="Prievidza">
+    <coach name="Jan Zachar"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Slovenia"/>
+    <stadium name="Prievidza Stadium"/>
+    <contracts>
+      <contract player="128112"/>
+      <contract player="128113"/>
+      <contract player="128114"/>
+      <contract player="128115"/>
+      <contract player="128116"/>
+      <contract player="128117"/>
+      <contract player="128118"/>
+      <contract player="128119"/>
+      <contract player="128120"/>
+      <contract player="128121"/>
+      <contract player="128122"/>
+      <contract player="128123"/>
+      <contract player="128124"/>
+      <contract player="128125"/>
+      <contract player="128126"/>
+      <contract player="128127"/>
+    </contracts>
+  </club>
+  <club name="Slovan Br'slava">
+    <coach name="Dusan Galis"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Slovenia"/>
+    <stadium name="Slovan Br'slava Stadium"/>
+    <contracts>
+      <contract player="128128"/>
+      <contract player="128129"/>
+      <contract player="128130"/>
+      <contract player="128131"/>
+      <contract player="128132"/>
+      <contract player="128133"/>
+      <contract player="128134"/>
+      <contract player="128135"/>
+      <contract player="128136"/>
+      <contract player="128137"/>
+      <contract player="128138"/>
+      <contract player="128139"/>
+      <contract player="128140"/>
+      <contract player="128141"/>
+      <contract player="128142"/>
+      <contract player="128143"/>
+    </contracts>
+  </club>
+  <club name="Spartak Trnava">
+    <coach name="Justin Javorek"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Slovenia"/>
+    <stadium name="Spartak Trnava Stadium"/>
+    <contracts>
+      <contract player="128144"/>
+      <contract player="128145"/>
+      <contract player="128146"/>
+      <contract player="128147"/>
+      <contract player="128148"/>
+      <contract player="128149"/>
+      <contract player="128150"/>
+      <contract player="128151"/>
+      <contract player="128152"/>
+      <contract player="128153"/>
+      <contract player="128154"/>
+      <contract player="128155"/>
+      <contract player="128156"/>
+      <contract player="128157"/>
+      <contract player="128158"/>
+      <contract player="128159"/>
+    </contracts>
+  </club>
+  <club name="Tatran Presov">
+    <coach name="Igor Novak"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Slovenia"/>
+    <stadium name="Tatran Presov Stadium"/>
+    <contracts>
+      <contract player="128160"/>
+      <contract player="128161"/>
+      <contract player="128162"/>
+      <contract player="128163"/>
+      <contract player="128164"/>
+      <contract player="128165"/>
+      <contract player="128166"/>
+      <contract player="128167"/>
+      <contract player="128168"/>
+      <contract player="128169"/>
+      <contract player="128170"/>
+      <contract player="128171"/>
+      <contract player="128172"/>
+      <contract player="128173"/>
+      <contract player="128174"/>
+      <contract player="128175"/>
+    </contracts>
+  </club>
+  <club name="Zilina">
+    <coach name="Miroslav Kral"/>
+    <kits>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Slovenia"/>
+    <stadium name="Zilina Stadium"/>
+    <contracts>
+      <contract player="128176"/>
+      <contract player="128177"/>
+      <contract player="128178"/>
+      <contract player="128179"/>
+      <contract player="128180"/>
+      <contract player="128181"/>
+      <contract player="128182"/>
+      <contract player="128183"/>
+      <contract player="128184"/>
+      <contract player="128185"/>
+      <contract player="128186"/>
+      <contract player="128187"/>
+      <contract player="128188"/>
+      <contract player="128189"/>
+      <contract player="128190"/>
+      <contract player="128191"/>
+    </contracts>
+  </club>
+</Clubs>

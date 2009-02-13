@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Portugal">
+    <Regions>
+      <Region name="Portugal">
+        <stadium name="Beira-mar Stadium" capacity="3000"/>
+        <stadium name="Belenenses Stadium" capacity="16400"/>
+        <stadium name="Benfica Stadium" capacity="44500"/>
+        <stadium name="Boavista Stadium" capacity="10500"/>
+        <stadium name="Braga Stadium" capacity="22000"/>
+        <stadium name="Portimonense Stadium" capacity="2500"/>
+        <stadium name="Academica Stadium" capacity="6200"/>
+        <stadium name="Leixoes Stadium" capacity="4600"/>
+        <stadium name="Aves Stadium" capacity="2400"/>
+        <stadium name="Estrela Amadora Stadium" capacity="7200"/>
+        <stadium name="Gil Vicente Stadium" capacity="2700"/>
+        <stadium name="Nacional Stadium" capacity="12700"/>
+        <stadium name="Fc Porto Stadium" capacity="42300"/>
+        <stadium name="Olhanense Stadium" capacity="2300"/>
+        <stadium name="Naval Stadium" capacity="11200"/>
+        <stadium name="Pacos Ferreira Stadium" capacity="9300"/>
+        <stadium name="Maritimo Stadium" capacity="13600"/>
+        <stadium name="Vizela Stadium" capacity="2200"/>
+        <stadium name="Rio Ave Stadium" capacity="6800"/>
+        <stadium name="Trofense Stadium" capacity="2500"/>
+        <stadium name="Sporting Cp Stadium" capacity="32300"/>
+        <stadium name="Feirense Stadium" capacity="2700"/>
+        <stadium name="Uniao Leiria Stadium" capacity="13300"/>
+        <stadium name="Santa Clara Stadium" capacity="1500"/>
+        <stadium name="V Guimaraes Stadium" capacity="5900"/>
+        <stadium name="V Setubal Stadium" capacity="8900"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Portuguese league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="18" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Portuguese Premier league champion"/>
+              <attendances>
+                <attendance tournament="Portuguese Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Beira-mar"/>
+                <club name="Belenenses"/>
+                <club name="Benfica"/>
+                <club name="Boavista"/>
+                <club name="Braga"/>
+                <club name="Academica"/>
+                <club name="Leixoes"/>
+                <club name="Estrela Amadora"/>
+                <club name="Nacional"/>
+                <club name="Fc Porto"/>
+                <club name="Naval"/>
+                <club name="Pacos Ferreira"/>
+                <club name="Maritimo"/>
+                <club name="Rio Ave"/>
+                <club name="Sporting Cp"/>
+                <club name="Uniao Leiria"/>
+                <club name="V Guimaraes"/>
+                <club name="V Setubal"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Portuguese Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Portuguese Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+        </stage>
+        <stage name="First round" type="1">
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Quarterfinals"/>
+          <preset>
+            <club name="Beira-mar"/>
+            <club name="Belenenses"/>
+            <club name="Benfica"/>
+            <club name="Boavista"/>
+            <club name="Braga"/>
+            <club name="Academica"/>
+            <club name="Leixoes"/>
+            <club name="Estrela Amadora"/>
+            <club name="Nacional"/>
+            <club name="Fc Porto"/>
+            <club name="Naval"/>
+            <club name="Pacos Ferreira"/>
+            <club name="Maritimo"/>
+            <club name="Rio Ave"/>
+            <club name="Sporting Cp"/>
+            <club name="Uniao Leiria"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

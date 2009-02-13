@@ -1,0 +1,3459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="76000">
+    <personal name="Stefan Senecky">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="550" risktaking="395" offensive="678" aggressive="407" consistent="648" creative="693" experienced="615"/>
+    <skills stamina="596" dexterity="689" speed="545" tackling="257" passing="440" shooting="431" control="383" accuracy="259" goalkeeping="446" heading="168"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76001">
+    <personal name="Ramazan Kursunlu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="440" risktaking="590" offensive="673" aggressive="594" consistent="475" creative="955" experienced="463"/>
+    <skills stamina="611" dexterity="635" speed="716" tackling="199" passing="474" shooting="436" control="407" accuracy="216" goalkeeping="444" heading="263"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76002">
+    <personal name="Ramazan Tunc">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="780" risktaking="289" offensive="344" aggressive="572" consistent="488" creative="517" experienced="522"/>
+    <skills stamina="280" dexterity="199" speed="253" tackling="523" passing="442" shooting="568" control="537" accuracy="583" goalkeeping="85" heading="539"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76003">
+    <personal name="Orhan Ak">
+      <appearance value="8"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="883" risktaking="646" offensive="321" aggressive="510" consistent="467" creative="504" experienced="106"/>
+    <skills stamina="710" dexterity="298" speed="468" tackling="625" passing="485" shooting="606" control="522" accuracy="545" goalkeeping="76" heading="469"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76004">
+    <personal name="Radoslav Batak">
+      <appearance value="8"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="437" risktaking="664" offensive="293" aggressive="458" consistent="563" creative="737" experienced="565"/>
+    <skills stamina="484" dexterity="513" speed="536" tackling="519" passing="553" shooting="626" control="527" accuracy="610" goalkeeping="90" heading="468"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76005">
+    <personal name="Emre Asik">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="557" risktaking="524" offensive="663" aggressive="537" consistent="460" creative="279" experienced="341"/>
+    <skills stamina="530" dexterity="798" speed="364" tackling="543" passing="533" shooting="519" control="519" accuracy="553" goalkeeping="101" heading="615"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76006">
+    <personal name="Ozer Hurmaci">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="614" risktaking="684" offensive="590" aggressive="421" consistent="699" creative="272" experienced="513"/>
+    <skills stamina="395" dexterity="520" speed="441" tackling="496" passing="541" shooting="442" control="503" accuracy="583" goalkeeping="97" heading="494"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76007">
+    <personal name="Bilal Kisa">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="249" risktaking="505" offensive="371" aggressive="556" consistent="878" creative="440" experienced="557"/>
+    <skills stamina="456" dexterity="432" speed="683" tackling="438" passing="543" shooting="521" control="623" accuracy="571" goalkeeping="82" heading="597"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76008">
+    <personal name="Ediz Bahtiyaroglu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="497" risktaking="464" offensive="427" aggressive="502" consistent="385" creative="572" experienced="381"/>
+    <skills stamina="662" dexterity="638" speed="206" tackling="528" passing="606" shooting="525" control="485" accuracy="605" goalkeeping="82" heading="445"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76009">
+    <personal name="Murat Tosun">
+      <appearance value="8"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="791" risktaking="610" offensive="384" aggressive="521" consistent="192" creative="557" experienced="347"/>
+    <skills stamina="278" dexterity="679" speed="417" tackling="549" passing="488" shooting="589" control="483" accuracy="446" goalkeeping="82" heading="553"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76010">
+    <personal name="Hurriyet Gucer">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="301" risktaking="607" offensive="732" aggressive="397" consistent="350" creative="376" experienced="426"/>
+    <skills stamina="429" dexterity="599" speed="344" tackling="450" passing="486" shooting="588" control="415" accuracy="496" goalkeeping="70" heading="447"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76011">
+    <personal name="Adem Kocak">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="462" risktaking="508" offensive="448" aggressive="598" consistent="562" creative="259" experienced="795"/>
+    <skills stamina="585" dexterity="335" speed="279" tackling="614" passing="470" shooting="412" control="422" accuracy="472" goalkeeping="100" heading="440"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76012">
+    <personal name="Tita">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="691" risktaking="579" offensive="512" aggressive="383" consistent="695" creative="522" experienced="293"/>
+    <skills stamina="285" dexterity="655" speed="545" tackling="662" passing="584" shooting="523" control="663" accuracy="583" goalkeeping="89" heading="604"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76013">
+    <personal name="Tayfun Turkmen">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="640" risktaking="315" offensive="486" aggressive="722" consistent="304" creative="460" experienced="853"/>
+    <skills stamina="712" dexterity="483" speed="568" tackling="501" passing="620" shooting="511" control="545" accuracy="583" goalkeeping="102" heading="595"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76014">
+    <personal name="Mehmet Yilmaz">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="803" risktaking="745" offensive="585" aggressive="485" consistent="608" creative="451" experienced="512"/>
+    <skills stamina="275" dexterity="205" speed="264" tackling="423" passing="478" shooting="461" control="454" accuracy="607" goalkeeping="91" heading="638"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76015">
+    <personal name="Necati Ates">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="454" risktaking="500" offensive="726" aggressive="659" consistent="457" creative="454" experienced="610"/>
+    <skills stamina="418" dexterity="668" speed="459" tackling="584" passing="694" shooting="603" control="670" accuracy="678" goalkeeping="91" heading="556"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76016">
+    <personal name="Serkan Kirintili">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="557" risktaking="618" offensive="792" aggressive="482" consistent="402" creative="340" experienced="295"/>
+    <skills stamina="617" dexterity="733" speed="673" tackling="271" passing="508" shooting="431" control="317" accuracy="212" goalkeeping="485" heading="244"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="76017">
+    <personal name="Zafer Ozgultekin">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="627" risktaking="13" offensive="633" aggressive="580" consistent="358" creative="790" experienced="564"/>
+    <skills stamina="290" dexterity="194" speed="395" tackling="200" passing="539" shooting="514" control="364" accuracy="184" goalkeeping="497" heading="194"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="76018">
+    <personal name="Ibrahim Said">
+      <appearance value="0"/>
+      <nationality value="Egypt"/>
+    </personal>
+    <personality active="677" risktaking="693" offensive="258" aggressive="667" consistent="819" creative="485" experienced="408"/>
+    <skills stamina="523" dexterity="381" speed="343" tackling="542" passing="467" shooting="499" control="469" accuracy="506" goalkeeping="79" heading="469"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76019">
+    <personal name="Andre Da Silva">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="598" risktaking="407" offensive="558" aggressive="255" consistent="625" creative="388" experienced="472"/>
+    <skills stamina="315" dexterity="640" speed="275" tackling="525" passing="493" shooting="381" control="413" accuracy="505" goalkeeping="78" heading="419"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76020">
+    <personal name="Emre Gungor">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="448" risktaking="547" offensive="534" aggressive="204" consistent="343" creative="549" experienced="367"/>
+    <skills stamina="389" dexterity="404" speed="474" tackling="577" passing="498" shooting="530" control="520" accuracy="514" goalkeeping="88" heading="626"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="76021">
+    <personal name="Yasin Celik">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="255" risktaking="542" offensive="218" aggressive="455" consistent="544" creative="481" experienced="662"/>
+    <skills stamina="393" dexterity="331" speed="304" tackling="454" passing="363" shooting="475" control="451" accuracy="379" goalkeeping="73" heading="468"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76022">
+    <personal name="Jaba">
+      <appearance value="8"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="687" risktaking="396" offensive="559" aggressive="579" consistent="657" creative="456" experienced="297"/>
+    <skills stamina="257" dexterity="378" speed="668" tackling="521" passing="656" shooting="591" control="630" accuracy="661" goalkeeping="107" heading="473"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76023">
+    <personal name="Murat Erdogan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="693" risktaking="529" offensive="292" aggressive="701" consistent="353" creative="726" experienced="160"/>
+    <skills stamina="395" dexterity="605" speed="793" tackling="504" passing="444" shooting="581" control="521" accuracy="607" goalkeeping="97" heading="604"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76024">
+    <personal name="Ibrahim Ege">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="463" risktaking="584" offensive="277" aggressive="439" consistent="508" creative="487" experienced="500"/>
+    <skills stamina="429" dexterity="288" speed="751" tackling="475" passing="542" shooting="449" control="482" accuracy="435" goalkeeping="95" heading="410"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76025">
+    <personal name="Elyasa Sume">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="470" risktaking="531" offensive="343" aggressive="402" consistent="535" creative="213" experienced="372"/>
+    <skills stamina="571" dexterity="401" speed="220" tackling="480" passing="440" shooting="435" control="340" accuracy="321" goalkeeping="70" heading="448"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76026">
+    <personal name="Stelian Kirita">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="313" risktaking="265" offensive="554" aggressive="515" consistent="500" creative="729" experienced="498"/>
+    <skills stamina="680" dexterity="542" speed="380" tackling="664" passing="517" shooting="495" control="502" accuracy="546" goalkeeping="84" heading="497"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76027">
+    <personal name="Murat Duruer">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="436" risktaking="468" offensive="364" aggressive="413" consistent="493" creative="773" experienced="363"/>
+    <skills stamina="524" dexterity="532" speed="652" tackling="407" passing="448" shooting="526" control="546" accuracy="551" goalkeeping="83" heading="392"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76028">
+    <personal name="Ahmet Dursun">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="227" risktaking="448" offensive="353" aggressive="623" consistent="657" creative="319" experienced="356"/>
+    <skills stamina="387" dexterity="510" speed="544" tackling="561" passing="395" shooting="459" control="459" accuracy="492" goalkeeping="96" heading="569"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76029">
+    <personal name="Gustave Bebbe">
+      <appearance value="1"/>
+      <nationality value="Cameroon"/>
+    </personal>
+    <personality active="426" risktaking="461" offensive="769" aggressive="444" consistent="814" creative="403" experienced="606"/>
+    <skills stamina="610" dexterity="707" speed="736" tackling="518" passing="475" shooting="551" control="461" accuracy="572" goalkeeping="91" heading="517"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76030">
+    <personal name="Mustafa Ozkan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="479" risktaking="350" offensive="383" aggressive="486" consistent="626" creative="543" experienced="546"/>
+    <skills stamina="502" dexterity="484" speed="288" tackling="562" passing="527" shooting="572" control="566" accuracy="525" goalkeeping="71" heading="489"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76031">
+    <personal name="Augustine Ahinful">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="339" risktaking="307" offensive="426" aggressive="260" consistent="620" creative="272" experienced="475"/>
+    <skills stamina="592" dexterity="202" speed="690" tackling="457" passing="507" shooting="601" control="391" accuracy="410" goalkeeping="83" heading="621"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76032">
+    <personal name="David Gonzalez">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="346" risktaking="288" offensive="810" aggressive="443" consistent="663" creative="702" experienced="328"/>
+    <skills stamina="549" dexterity="237" speed="433" tackling="198" passing="543" shooting="507" control="400" accuracy="272" goalkeeping="583" heading="204"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76033">
+    <personal name="Metin Aktas">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="760" risktaking="469" offensive="689" aggressive="784" consistent="512" creative="364" experienced="700"/>
+    <skills stamina="355" dexterity="675" speed="576" tackling="281" passing="538" shooting="416" control="433" accuracy="232" goalkeeping="637" heading="236"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76034">
+    <personal name="Emrah Eren">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="191" risktaking="537" offensive="525" aggressive="339" consistent="621" creative="523" experienced="417"/>
+    <skills stamina="650" dexterity="463" speed="662" tackling="546" passing="583" shooting="469" control="539" accuracy="548" goalkeeping="93" heading="437"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76035">
+    <personal name="Ergun Teber">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="150" risktaking="302" offensive="398" aggressive="613" consistent="346" creative="531" experienced="740"/>
+    <skills stamina="401" dexterity="592" speed="667" tackling="535" passing="451" shooting="501" control="630" accuracy="504" goalkeeping="84" heading="557"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76036">
+    <personal name="Serhat Akyuz">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="181" risktaking="399" offensive="434" aggressive="234" consistent="412" creative="477" experienced="595"/>
+    <skills stamina="706" dexterity="512" speed="486" tackling="609" passing="534" shooting="482" control="509" accuracy="405" goalkeeping="67" heading="402"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76037">
+    <personal name="Kursat Duymus">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="553" risktaking="277" offensive="490" aggressive="419" consistent="377" creative="578" experienced="700"/>
+    <skills stamina="246" dexterity="537" speed="327" tackling="527" passing="495" shooting="452" control="529" accuracy="398" goalkeeping="82" heading="425"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76038">
+    <personal name="Altan Aksoy">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="267" risktaking="717" offensive="507" aggressive="556" consistent="477" creative="424" experienced="458"/>
+    <skills stamina="254" dexterity="398" speed="630" tackling="612" passing="627" shooting="597" control="597" accuracy="601" goalkeeping="88" heading="572"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76039">
+    <personal name="Leandro Rodriguez">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="434" risktaking="555" offensive="634" aggressive="398" consistent="495" creative="759" experienced="424"/>
+    <skills stamina="262" dexterity="274" speed="416" tackling="395" passing="542" shooting="442" control="386" accuracy="363" goalkeeping="71" heading="432"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76040">
+    <personal name="Can Cumhur Bozaci">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="524" risktaking="219" offensive="432" aggressive="343" consistent="329" creative="458" experienced="450"/>
+    <skills stamina="614" dexterity="508" speed="307" tackling="490" passing="573" shooting="404" control="421" accuracy="537" goalkeeping="66" heading="439"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76041">
+    <personal name="Suat Usta">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="284" risktaking="361" offensive="648" aggressive="516" consistent="188" creative="212" experienced="481"/>
+    <skills stamina="694" dexterity="625" speed="662" tackling="483" passing="496" shooting="506" control="431" accuracy="453" goalkeeping="81" heading="477"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76042">
+    <personal name="Emre Toraman">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="578" risktaking="543" offensive="761" aggressive="154" consistent="262" creative="612" experienced="636"/>
+    <skills stamina="695" dexterity="637" speed="677" tackling="601" passing="563" shooting="453" control="493" accuracy="434" goalkeeping="80" heading="486"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76043">
+    <personal name="Gustavo Victoria">
+      <appearance value="0"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="718" risktaking="364" offensive="446" aggressive="606" consistent="453" creative="535" experienced="491"/>
+    <skills stamina="758" dexterity="409" speed="682" tackling="537" passing="482" shooting="403" control="497" accuracy="459" goalkeeping="68" heading="408"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76044">
+    <personal name="Fahri Tatan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="318" risktaking="683" offensive="850" aggressive="476" consistent="397" creative="695" experienced="490"/>
+    <skills stamina="568" dexterity="750" speed="249" tackling="591" passing="503" shooting="454" control="459" accuracy="444" goalkeeping="70" heading="545"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76045">
+    <personal name="Anderson">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="557" risktaking="411" offensive="566" aggressive="465" consistent="488" creative="837" experienced="413"/>
+    <skills stamina="548" dexterity="343" speed="695" tackling="576" passing="510" shooting="510" control="493" accuracy="545" goalkeeping="76" heading="571"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76046">
+    <personal name="Zafer Biryol">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="528" risktaking="522" offensive="445" aggressive="342" consistent="447" creative="613" experienced="634"/>
+    <skills stamina="551" dexterity="651" speed="606" tackling="536" passing="575" shooting="646" control="498" accuracy="573" goalkeeping="96" heading="463"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76047">
+    <personal name="Sadi Colak">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="559" risktaking="631" offensive="617" aggressive="489" consistent="322" creative="435" experienced="256"/>
+    <skills stamina="441" dexterity="248" speed="358" tackling="405" passing="519" shooting="588" control="391" accuracy="484" goalkeeping="94" heading="562"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76048">
+    <personal name="Fevzi Elmas">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="436" risktaking="534" offensive="624" aggressive="490" consistent="451" creative="625" experienced="499"/>
+    <skills stamina="677" dexterity="216" speed="195" tackling="193" passing="402" shooting="352" control="337" accuracy="252" goalkeeping="550" heading="198"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76049">
+    <personal name="Polat Keser">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="562" risktaking="696" offensive="494" aggressive="513" consistent="364" creative="828" experienced="492"/>
+    <skills stamina="657" dexterity="170" speed="334" tackling="202" passing="464" shooting="423" control="271" accuracy="165" goalkeeping="492" heading="176"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76050">
+    <personal name="Ugur Kavuk">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="327" risktaking="727" offensive="438" aggressive="479" consistent="226" creative="462" experienced="530"/>
+    <skills stamina="390" dexterity="508" speed="564" tackling="593" passing="465" shooting="583" control="424" accuracy="403" goalkeeping="77" heading="439"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76051">
+    <personal name="Senol Can">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="433" risktaking="678" offensive="609" aggressive="512" consistent="279" creative="558" experienced="553"/>
+    <skills stamina="538" dexterity="630" speed="373" tackling="549" passing="425" shooting="528" control="552" accuracy="449" goalkeeping="62" heading="463"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76052">
+    <personal name="Jaroslaw Bieniuk">
+      <appearance value="0"/>
+      <nationality value="Poland"/>
+    </personal>
+    <personality active="350" risktaking="479" offensive="531" aggressive="623" consistent="601" creative="352" experienced="557"/>
+    <skills stamina="438" dexterity="495" speed="245" tackling="568" passing="654" shooting="436" control="639" accuracy="575" goalkeeping="88" heading="465"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76053">
+    <personal name="Piotr Dziewicki">
+      <appearance value="0"/>
+      <nationality value="Poland"/>
+    </personal>
+    <personality active="508" risktaking="518" offensive="553" aggressive="611" consistent="611" creative="692" experienced="330"/>
+    <skills stamina="492" dexterity="672" speed="582" tackling="562" passing="441" shooting="588" control="435" accuracy="562" goalkeeping="81" heading="445"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="76054">
+    <personal name="Aytekin Viduslu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="732" risktaking="611" offensive="317" aggressive="172" consistent="512" creative="442" experienced="415"/>
+    <skills stamina="509" dexterity="459" speed="575" tackling="560" passing="509" shooting="469" control="539" accuracy="403" goalkeeping="86" heading="581"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76055">
+    <personal name="Sinan Yitmez">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="685" risktaking="691" offensive="448" aggressive="771" consistent="400" creative="577" experienced="438"/>
+    <skills stamina="403" dexterity="390" speed="550" tackling="491" passing="449" shooting="382" control="449" accuracy="416" goalkeeping="74" heading="414"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76056">
+    <personal name="Vahap Isik">
+      <appearance value="8"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="608" risktaking="668" offensive="366" aggressive="471" consistent="530" creative="544" experienced="76"/>
+    <skills stamina="578" dexterity="499" speed="569" tackling="469" passing="482" shooting="390" control="355" accuracy="455" goalkeeping="90" heading="417"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76057">
+    <personal name="Eyyup Hasan Ugur">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="764" risktaking="576" offensive="649" aggressive="505" consistent="367" creative="632" experienced="426"/>
+    <skills stamina="191" dexterity="374" speed="718" tackling="369" passing="422" shooting="365" control="476" accuracy="376" goalkeeping="86" heading="533"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76058">
+    <personal name="Serkan Recber">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="673" risktaking="603" offensive="418" aggressive="660" consistent="626" creative="635" experienced="278"/>
+    <skills stamina="582" dexterity="239" speed="407" tackling="356" passing="381" shooting="388" control="419" accuracy="306" goalkeeping="60" heading="331"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76059">
+    <personal name="Pavol Straka">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="266" risktaking="447" offensive="596" aggressive="423" consistent="626" creative="607" experienced="447"/>
+    <skills stamina="536" dexterity="568" speed="221" tackling="582" passing="565" shooting="621" control="500" accuracy="429" goalkeeping="91" heading="554"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76060">
+    <personal name="Cenk Isler">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="550" risktaking="391" offensive="715" aggressive="715" consistent="440" creative="776" experienced="520"/>
+    <skills stamina="317" dexterity="297" speed="432" tackling="505" passing="530" shooting="495" control="459" accuracy="650" goalkeeping="100" heading="513"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76061">
+    <personal name="Ertugrul Arslan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="432" risktaking="481" offensive="425" aggressive="445" consistent="545" creative="423" experienced="354"/>
+    <skills stamina="622" dexterity="573" speed="255" tackling="363" passing="433" shooting="446" control="333" accuracy="301" goalkeeping="79" heading="320"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76062">
+    <personal name="Ali Zitouni">
+      <appearance value="1"/>
+      <nationality value="Tunisia"/>
+    </personal>
+    <personality active="724" risktaking="317" offensive="707" aggressive="507" consistent="799" creative="556" experienced="239"/>
+    <skills stamina="516" dexterity="423" speed="399" tackling="516" passing="610" shooting="594" control="479" accuracy="572" goalkeeping="95" heading="486"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76063">
+    <personal name="Ufuk Ates">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="140" risktaking="453" offensive="336" aggressive="556" consistent="577" creative="628" experienced="569"/>
+    <skills stamina="245" dexterity="377" speed="591" tackling="363" passing="425" shooting="530" control="333" accuracy="557" goalkeeping="63" heading="447"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76064">
+    <personal name="Kaya Tarakci">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="584" risktaking="657" offensive="341" aggressive="428" consistent="627" creative="83" experienced="205"/>
+    <skills stamina="520" dexterity="558" speed="342" tackling="228" passing="336" shooting="352" control="299" accuracy="198" goalkeeping="569" heading="230"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="76065">
+    <personal name="Ali Turkan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="309" risktaking="470" offensive="383" aggressive="479" consistent="381" creative="559" experienced="173"/>
+    <skills stamina="250" dexterity="478" speed="604" tackling="140" passing="279" shooting="377" control="235" accuracy="182" goalkeeping="501" heading="137"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76066">
+    <personal name="Osman Demir">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="877" risktaking="536" offensive="220" aggressive="805" consistent="516" creative="722" experienced="632"/>
+    <skills stamina="553" dexterity="529" speed="178" tackling="335" passing="448" shooting="294" control="322" accuracy="424" goalkeeping="58" heading="307"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76067">
+    <personal name="Huseyin Yogurtcu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="599" risktaking="386" offensive="560" aggressive="644" consistent="696" creative="707" experienced="309"/>
+    <skills stamina="696" dexterity="467" speed="509" tackling="428" passing="345" shooting="361" control="514" accuracy="391" goalkeeping="58" heading="486"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76068">
+    <personal name="Kemal Dulda">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="339" risktaking="567" offensive="616" aggressive="293" consistent="452" creative="638" experienced="712"/>
+    <skills stamina="440" dexterity="189" speed="288" tackling="403" passing="401" shooting="403" control="424" accuracy="429" goalkeeping="58" heading="483"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76069">
+    <personal name="Adem Dursun">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="352" risktaking="398" offensive="327" aggressive="523" consistent="490" creative="608" experienced="503"/>
+    <skills stamina="351" dexterity="460" speed="477" tackling="482" passing="573" shooting="531" control="553" accuracy="469" goalkeeping="98" heading="449"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76070">
+    <personal name="Ramazan Durdu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="331" risktaking="791" offensive="645" aggressive="528" consistent="400" creative="481" experienced="301"/>
+    <skills stamina="300" dexterity="191" speed="600" tackling="390" passing="307" shooting="455" control="442" accuracy="337" goalkeeping="61" heading="423"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76071">
+    <personal name="Ilker Erbay">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="435" risktaking="474" offensive="651" aggressive="449" consistent="347" creative="269" experienced="782"/>
+    <skills stamina="532" dexterity="259" speed="324" tackling="483" passing="351" shooting="342" control="423" accuracy="446" goalkeeping="60" heading="476"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76072">
+    <personal name="Ilhan Ozbay">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="301" risktaking="589" offensive="488" aggressive="484" consistent="960" creative="573" experienced="597"/>
+    <skills stamina="279" dexterity="543" speed="651" tackling="455" passing="644" shooting="480" control="610" accuracy="441" goalkeeping="77" heading="474"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76073">
+    <personal name="Ali Aliyev">
+      <appearance value="0"/>
+      <nationality value="Unknown"/>
+    </personal>
+    <personality active="314" risktaking="560" offensive="618" aggressive="661" consistent="730" creative="579" experienced="470"/>
+    <skills stamina="439" dexterity="439" speed="434" tackling="438" passing="491" shooting="357" control="482" accuracy="435" goalkeeping="58" heading="439"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76074">
+    <personal name="Mustafa Tuna Kaya">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="777" risktaking="352" offensive="377" aggressive="686" consistent="561" creative="336" experienced="279"/>
+    <skills stamina="468" dexterity="606" speed="181" tackling="507" passing="460" shooting="446" control="395" accuracy="439" goalkeeping="52" heading="433"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76075">
+    <personal name="Kamil Sener">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="652" risktaking="338" offensive="483" aggressive="462" consistent="719" creative="363" experienced="429"/>
+    <skills stamina="358" dexterity="607" speed="448" tackling="433" passing="392" shooting="454" control="327" accuracy="271" goalkeeping="45" heading="408"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76076">
+    <personal name="Volkan Cekic">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="723" risktaking="577" offensive="730" aggressive="311" consistent="436" creative="662" experienced="410"/>
+    <skills stamina="295" dexterity="643" speed="198" tackling="502" passing="382" shooting="572" control="509" accuracy="404" goalkeeping="85" heading="454"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76077">
+    <personal name="Kazim Seker">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="661" risktaking="418" offensive="724" aggressive="433" consistent="488" creative="700" experienced="207"/>
+    <skills stamina="673" dexterity="552" speed="357" tackling="338" passing="375" shooting="428" control="415" accuracy="257" goalkeeping="72" heading="420"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76078">
+    <personal name="Koksal Yedek">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="699" risktaking="493" offensive="382" aggressive="494" consistent="447" creative="438" experienced="531"/>
+    <skills stamina="596" dexterity="469" speed="569" tackling="433" passing="438" shooting="352" control="422" accuracy="405" goalkeeping="61" heading="309"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76079">
+    <personal name="Burhan Coskun">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="530" risktaking="529" offensive="431" aggressive="351" consistent="679" creative="685" experienced="322"/>
+    <skills stamina="164" dexterity="177" speed="267" tackling="259" passing="424" shooting="434" control="420" accuracy="354" goalkeeping="44" heading="354"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76080">
+    <personal name="Hakan Arikan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="562" risktaking="511" offensive="579" aggressive="406" consistent="558" creative="420" experienced="448"/>
+    <skills stamina="485" dexterity="437" speed="450" tackling="232" passing="517" shooting="553" control="447" accuracy="279" goalkeeping="664" heading="277"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76081">
+    <personal name="Rustu Recber">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="327" risktaking="552" offensive="522" aggressive="519" consistent="748" creative="504" experienced="204"/>
+    <skills stamina="564" dexterity="449" speed="499" tackling="248" passing="472" shooting="447" control="462" accuracy="300" goalkeeping="650" heading="224"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76082">
+    <personal name="Ibrahim Toraman">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="620" risktaking="428" offensive="359" aggressive="513" consistent="630" creative="331" experienced="486"/>
+    <skills stamina="524" dexterity="651" speed="582" tackling="635" passing="638" shooting="704" control="713" accuracy="633" goalkeeping="122" heading="622"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76083">
+    <personal name="Rodrigo Tello">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="117" risktaking="308" offensive="415" aggressive="548" consistent="372" creative="574" experienced="336"/>
+    <skills stamina="449" dexterity="450" speed="359" tackling="657" passing="620" shooting="561" control="514" accuracy="585" goalkeeping="101" heading="553"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76084">
+    <personal name="Baki Mercimek">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="439" risktaking="539" offensive="530" aggressive="518" consistent="783" creative="543" experienced="365"/>
+    <skills stamina="644" dexterity="404" speed="595" tackling="649" passing="564" shooting="507" control="581" accuracy="536" goalkeeping="73" heading="553"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76085">
+    <personal name="Ibrahim Uzulmez">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="377" risktaking="442" offensive="465" aggressive="752" consistent="569" creative="405" experienced="603"/>
+    <skills stamina="238" dexterity="773" speed="385" tackling="520" passing="511" shooting="480" control="600" accuracy="567" goalkeeping="81" heading="475"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76086">
+    <personal name="Ibrahim Akin">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="666" risktaking="826" offensive="445" aggressive="410" consistent="441" creative="530" experienced="524"/>
+    <skills stamina="802" dexterity="649" speed="808" tackling="532" passing="631" shooting="502" control="533" accuracy="573" goalkeeping="104" heading="525"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76087">
+    <personal name="Matias Delgado">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="694" risktaking="426" offensive="371" aggressive="333" consistent="797" creative="324" experienced="563"/>
+    <skills stamina="780" dexterity="594" speed="799" tackling="725" passing="620" shooting="577" control="737" accuracy="598" goalkeeping="102" heading="628"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76088">
+    <personal name="Gokhan Zan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="549" risktaking="625" offensive="550" aggressive="449" consistent="347" creative="359" experienced="435"/>
+    <skills stamina="438" dexterity="454" speed="794" tackling="799" passing="621" shooting="722" control="664" accuracy="714" goalkeeping="123" heading="614"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76089">
+    <personal name="Mustafa Koray Avci">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="599" risktaking="342" offensive="255" aggressive="637" consistent="493" creative="577" experienced="627"/>
+    <skills stamina="826" dexterity="719" speed="475" tackling="642" passing="502" shooting="671" control="692" accuracy="674" goalkeeping="93" heading="602"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76090">
+    <personal name="Filip Holosko">
+      <appearance value="0"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="480" risktaking="665" offensive="438" aggressive="408" consistent="526" creative="829" experienced="632"/>
+    <skills stamina="569" dexterity="297" speed="520" tackling="580" passing="573" shooting="698" control="565" accuracy="673" goalkeeping="91" heading="653"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76091">
+    <personal name="Ricardinho">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="614" risktaking="638" offensive="379" aggressive="419" consistent="474" creative="494" experienced="772"/>
+    <skills stamina="630" dexterity="806" speed="717" tackling="634" passing="707" shooting="538" control="552" accuracy="648" goalkeeping="117" heading="624"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76092">
+    <personal name="Edouard Cisse">
+      <appearance value="1"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="584" risktaking="601" offensive="731" aggressive="600" consistent="211" creative="643" experienced="325"/>
+    <skills stamina="360" dexterity="728" speed="729" tackling="566" passing="571" shooting="515" control="589" accuracy="504" goalkeeping="98" heading="579"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76093">
+    <personal name="Mert Nobre">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="349" risktaking="505" offensive="633" aggressive="407" consistent="407" creative="321" experienced="345"/>
+    <skills stamina="573" dexterity="290" speed="666" tackling="659" passing="569" shooting="673" control="675" accuracy="546" goalkeeping="96" heading="682"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76094">
+    <personal name="Bobo">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="743" risktaking="393" offensive="542" aggressive="556" consistent="192" creative="687" experienced="367"/>
+    <skills stamina="400" dexterity="678" speed="538" tackling="574" passing="618" shooting="634" control="686" accuracy="746" goalkeeping="92" heading="707"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76095">
+    <personal name="Lamine Diatta">
+      <appearance value="1"/>
+      <nationality value="Senegal"/>
+    </personal>
+    <personality active="526" risktaking="327" offensive="498" aggressive="558" consistent="480" creative="379" experienced="404"/>
+    <skills stamina="650" dexterity="247" speed="579" tackling="438" passing="464" shooting="456" control="585" accuracy="529" goalkeeping="79" heading="577"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76096">
+    <personal name="Renny Vega">
+      <appearance value="1"/>
+      <nationality value="Venezuela"/>
+    </personal>
+    <personality active="446" risktaking="519" offensive="644" aggressive="611" consistent="331" creative="519" experienced="437"/>
+    <skills stamina="723" dexterity="699" speed="619" tackling="291" passing="421" shooting="510" control="392" accuracy="256" goalkeeping="484" heading="239"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76097">
+    <personal name="Yavuz Eraydin">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="478" risktaking="500" offensive="530" aggressive="780" consistent="575" creative="550" experienced="506"/>
+    <skills stamina="506" dexterity="392" speed="627" tackling="204" passing="419" shooting="502" control="425" accuracy="188" goalkeeping="462" heading="231"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76098">
+    <personal name="Omer Aysan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="474" risktaking="819" offensive="852" aggressive="652" consistent="592" creative="752" experienced="153"/>
+    <skills stamina="764" dexterity="317" speed="312" tackling="562" passing="554" shooting="608" control="569" accuracy="535" goalkeeping="86" heading="444"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76099">
+    <personal name="Jason Vandelannoite">
+      <appearance value="1"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="678" risktaking="818" offensive="568" aggressive="715" consistent="771" creative="476" experienced="317"/>
+    <skills stamina="767" dexterity="734" speed="290" tackling="473" passing="531" shooting="477" control="462" accuracy="438" goalkeeping="65" heading="446"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76100">
+    <personal name="Egemen Korkmaz">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="440" risktaking="566" offensive="215" aggressive="566" consistent="309" creative="480" experienced="495"/>
+    <skills stamina="581" dexterity="661" speed="395" tackling="685" passing="500" shooting="591" control="613" accuracy="531" goalkeeping="94" heading="569"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76101">
+    <personal name="Cihan Haspolatli">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="318" risktaking="336" offensive="467" aggressive="303" consistent="250" creative="565" experienced="587"/>
+    <skills stamina="653" dexterity="491" speed="310" tackling="419" passing="595" shooting="532" control="576" accuracy="577" goalkeeping="71" heading="598"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76102">
+    <personal name="Veli Acar">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="327" risktaking="351" offensive="540" aggressive="697" consistent="738" creative="431" experienced="698"/>
+    <skills stamina="575" dexterity="655" speed="595" tackling="476" passing="575" shooting="540" control="462" accuracy="409" goalkeeping="81" heading="389"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76103">
+    <personal name="Volkan Bekiroglu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="339" risktaking="469" offensive="430" aggressive="615" consistent="492" creative="577" experienced="264"/>
+    <skills stamina="654" dexterity="667" speed="727" tackling="531" passing="477" shooting="506" control="422" accuracy="561" goalkeeping="89" heading="564"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76104">
+    <personal name="Ismail Gulduren">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="330" risktaking="707" offensive="588" aggressive="365" consistent="445" creative="482" experienced="499"/>
+    <skills stamina="625" dexterity="432" speed="666" tackling="434" passing="528" shooting="537" control="592" accuracy="466" goalkeeping="87" heading="500"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76105">
+    <personal name="Omer Erdogan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="530" risktaking="467" offensive="486" aggressive="320" consistent="497" creative="578" experienced="681"/>
+    <skills stamina="381" dexterity="511" speed="588" tackling="592" passing="443" shooting="545" control="420" accuracy="492" goalkeeping="79" heading="500"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76106">
+    <personal name="Collins Mbesuma">
+      <appearance value="1"/>
+      <nationality value="Zambia"/>
+    </personal>
+    <personality active="333" risktaking="368" offensive="589" aggressive="318" consistent="615" creative="626" experienced="340"/>
+    <skills stamina="398" dexterity="393" speed="496" tackling="509" passing="506" shooting="544" control="566" accuracy="640" goalkeeping="78" heading="440"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76107">
+    <personal name="Velice Sumulikoski">
+      <appearance value="0"/>
+      <nationality value="FYR Macedonia"/>
+    </personal>
+    <personality active="746" risktaking="289" offensive="460" aggressive="302" consistent="553" creative="439" experienced="605"/>
+    <skills stamina="692" dexterity="600" speed="702" tackling="539" passing="421" shooting="559" control="484" accuracy="501" goalkeeping="100" heading="588"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76108">
+    <personal name="Mustafa Sarp">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="623" risktaking="470" offensive="690" aggressive="394" consistent="712" creative="303" experienced="523"/>
+    <skills stamina="258" dexterity="553" speed="423" tackling="518" passing="415" shooting="557" control="537" accuracy="545" goalkeeping="89" heading="517"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76109">
+    <personal name="Sinan Kaloglu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="472" risktaking="452" offensive="565" aggressive="551" consistent="466" creative="390" experienced="510"/>
+    <skills stamina="307" dexterity="451" speed="765" tackling="585" passing="475" shooting="619" control="547" accuracy="614" goalkeeping="107" heading="602"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76110">
+    <personal name="Herve Tum">
+      <appearance value="1"/>
+      <nationality value="Cameroon"/>
+    </personal>
+    <personality active="377" risktaking="461" offensive="602" aggressive="538" consistent="224" creative="314" experienced="644"/>
+    <skills stamina="509" dexterity="746" speed="475" tackling="495" passing="619" shooting="495" control="483" accuracy="571" goalkeeping="78" heading="466"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76111">
+    <personal name="Daniel Pancu">
+      <appearance value="0"/>
+      <nationality value="Romania"/>
+    </personal>
+    <personality active="598" risktaking="709" offensive="327" aggressive="702" consistent="402" creative="452" experienced="674"/>
+    <skills stamina="251" dexterity="532" speed="561" tackling="632" passing="551" shooting="516" control="659" accuracy="588" goalkeeping="93" heading="523"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76112">
+    <personal name="Souleymanou Hamidou">
+      <appearance value="1"/>
+      <nationality value="Cameroon"/>
+    </personal>
+    <personality active="641" risktaking="312" offensive="325" aggressive="633" consistent="376" creative="571" experienced="448"/>
+    <skills stamina="367" dexterity="622" speed="540" tackling="214" passing="408" shooting="515" control="353" accuracy="265" goalkeeping="486" heading="213"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76113">
+    <personal name="Bulut Basmaz">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="567" risktaking="351" offensive="388" aggressive="579" consistent="542" creative="670" experienced="502"/>
+    <skills stamina="517" dexterity="186" speed="293" tackling="180" passing="386" shooting="341" control="365" accuracy="205" goalkeeping="526" heading="153"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76114">
+    <personal name="Hasan Yigit">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="335" risktaking="381" offensive="553" aggressive="509" consistent="204" creative="478" experienced="412"/>
+    <skills stamina="360" dexterity="263" speed="608" tackling="434" passing="494" shooting="448" control="418" accuracy="584" goalkeeping="93" heading="525"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76115">
+    <personal name="Carlos Alberto">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="674" risktaking="643" offensive="215" aggressive="374" consistent="620" creative="586" experienced="514"/>
+    <skills stamina="361" dexterity="633" speed="507" tackling="435" passing="455" shooting="501" control="555" accuracy="367" goalkeeping="85" heading="338"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76116">
+    <personal name="Roman Kratochvil">
+      <appearance value="8"/>
+      <nationality value="Slovakia"/>
+    </personal>
+    <personality active="731" risktaking="618" offensive="584" aggressive="567" consistent="380" creative="630" experienced="452"/>
+    <skills stamina="739" dexterity="555" speed="555" tackling="456" passing="563" shooting="509" control="614" accuracy="511" goalkeeping="93" heading="480"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="76117">
+    <personal name="Allyson">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="519" risktaking="285" offensive="682" aggressive="300" consistent="509" creative="509" experienced="709"/>
+    <skills stamina="524" dexterity="336" speed="205" tackling="430" passing="495" shooting="461" control="542" accuracy="365" goalkeeping="74" heading="406"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76118">
+    <personal name="Bulent Ertugrul">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="570" risktaking="357" offensive="547" aggressive="291" consistent="686" creative="363" experienced="516"/>
+    <skills stamina="606" dexterity="431" speed="536" tackling="549" passing="544" shooting="626" control="530" accuracy="588" goalkeeping="79" heading="612"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76119">
+    <personal name="Musa Kus">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="615" risktaking="586" offensive="475" aggressive="830" consistent="504" creative="439" experienced="481"/>
+    <skills stamina="363" dexterity="638" speed="745" tackling="563" passing="502" shooting="442" control="435" accuracy="428" goalkeeping="72" heading="476"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76120">
+    <personal name="Julio Cesar">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="440" risktaking="483" offensive="796" aggressive="537" consistent="461" creative="464" experienced="325"/>
+    <skills stamina="519" dexterity="677" speed="281" tackling="549" passing="542" shooting="460" control="599" accuracy="549" goalkeeping="94" heading="442"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76121">
+    <personal name="Zafer Demir">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="592" risktaking="224" offensive="397" aggressive="679" consistent="387" creative="791" experienced="435"/>
+    <skills stamina="573" dexterity="628" speed="296" tackling="586" passing="517" shooting="395" control="547" accuracy="456" goalkeeping="77" heading="399"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76122">
+    <personal name="Yusuf Simsek">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="702" risktaking="866" offensive="391" aggressive="533" consistent="388" creative="425" experienced="602"/>
+    <skills stamina="668" dexterity="609" speed="193" tackling="479" passing="503" shooting="524" control="419" accuracy="467" goalkeeping="80" heading="514"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76123">
+    <personal name="Tomas Abraham">
+      <appearance value="0"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="502" risktaking="372" offensive="759" aggressive="626" consistent="757" creative="639" experienced="574"/>
+    <skills stamina="300" dexterity="448" speed="472" tackling="512" passing="534" shooting="406" control="445" accuracy="563" goalkeeping="73" heading="565"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76124">
+    <personal name="Serhat Gulpinar">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="435" risktaking="248" offensive="475" aggressive="425" consistent="451" creative="397" experienced="596"/>
+    <skills stamina="505" dexterity="205" speed="199" tackling="500" passing="400" shooting="445" control="567" accuracy="558" goalkeeping="92" heading="548"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76125">
+    <personal name="Gokhan Gulec">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="410" risktaking="164" offensive="436" aggressive="743" consistent="483" creative="577" experienced="196"/>
+    <skills stamina="444" dexterity="427" speed="252" tackling="477" passing="582" shooting="488" control="624" accuracy="651" goalkeeping="91" heading="681"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76126">
+    <personal name="Selahattin Kinali">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="620" risktaking="658" offensive="557" aggressive="546" consistent="717" creative="541" experienced="531"/>
+    <skills stamina="364" dexterity="336" speed="528" tackling="559" passing="491" shooting="418" control="512" accuracy="484" goalkeeping="63" heading="533"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76127">
+    <personal name="Ilkay Demir">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="330" risktaking="457" offensive="476" aggressive="291" consistent="340" creative="470" experienced="414"/>
+    <skills stamina="352" dexterity="355" speed="491" tackling="444" passing="404" shooting="594" control="465" accuracy="585" goalkeeping="59" heading="514"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76128">
+    <personal name="Ferhat Odabasi">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="557" risktaking="556" offensive="350" aggressive="324" consistent="769" creative="463" experienced="336"/>
+    <skills stamina="450" dexterity="555" speed="398" tackling="221" passing="387" shooting="394" control="342" accuracy="196" goalkeeping="538" heading="228"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76129">
+    <personal name="Recep Biler">
+      <appearance value="8"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="517" risktaking="551" offensive="314" aggressive="73" consistent="770" creative="512" experienced="286"/>
+    <skills stamina="435" dexterity="459" speed="551" tackling="164" passing="461" shooting="457" control="298" accuracy="225" goalkeeping="503" heading="202"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76130">
+    <personal name="Hakan Aslantas">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="759" risktaking="426" offensive="798" aggressive="608" consistent="157" creative="603" experienced="558"/>
+    <skills stamina="626" dexterity="262" speed="274" tackling="482" passing="402" shooting="407" control="362" accuracy="513" goalkeeping="59" heading="519"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76131">
+    <personal name="Murat Selvi">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="451" risktaking="589" offensive="767" aggressive="325" consistent="509" creative="585" experienced="335"/>
+    <skills stamina="305" dexterity="278" speed="268" tackling="423" passing="514" shooting="424" control="485" accuracy="508" goalkeeping="61" heading="473"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76132">
+    <personal name="Orhan Sam">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="572" risktaking="509" offensive="478" aggressive="446" consistent="656" creative="484" experienced="705"/>
+    <skills stamina="456" dexterity="721" speed="209" tackling="498" passing="445" shooting="465" control="417" accuracy="565" goalkeeping="71" heading="416"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76133">
+    <personal name="Remzi Giray Kacar">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="501" risktaking="183" offensive="280" aggressive="715" consistent="413" creative="586" experienced="533"/>
+    <skills stamina="536" dexterity="499" speed="401" tackling="539" passing="409" shooting="524" control="498" accuracy="545" goalkeeping="64" heading="505"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76134">
+    <personal name="Serkan Atak">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="229" risktaking="595" offensive="379" aggressive="640" consistent="552" creative="576" experienced="498"/>
+    <skills stamina="294" dexterity="747" speed="419" tackling="415" passing="465" shooting="435" control="485" accuracy="411" goalkeeping="69" heading="500"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76135">
+    <personal name="Eren Ozen">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="611" risktaking="417" offensive="441" aggressive="526" consistent="423" creative="475" experienced="579"/>
+    <skills stamina="538" dexterity="509" speed="325" tackling="390" passing="511" shooting="407" control="568" accuracy="554" goalkeeping="83" heading="490"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76136">
+    <personal name="Ilhan Eker">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="270" risktaking="341" offensive="612" aggressive="439" consistent="428" creative="500" experienced="458"/>
+    <skills stamina="690" dexterity="586" speed="639" tackling="509" passing="557" shooting="447" control="416" accuracy="546" goalkeeping="94" heading="495"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76137">
+    <personal name="Kemal Yildirim">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="321" risktaking="335" offensive="663" aggressive="464" consistent="490" creative="820" experienced="408"/>
+    <skills stamina="455" dexterity="287" speed="663" tackling="574" passing="465" shooting="446" control="517" accuracy="540" goalkeeping="79" heading="396"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76138">
+    <personal name="Sandro">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="629" risktaking="554" offensive="535" aggressive="549" consistent="401" creative="558" experienced="664"/>
+    <skills stamina="463" dexterity="353" speed="429" tackling="481" passing="386" shooting="484" control="410" accuracy="480" goalkeeping="75" heading="509"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76139">
+    <personal name="Tozo">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="555" risktaking="418" offensive="500" aggressive="421" consistent="424" creative="546" experienced="266"/>
+    <skills stamina="489" dexterity="423" speed="582" tackling="559" passing="565" shooting="536" control="445" accuracy="523" goalkeeping="64" heading="471"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76140">
+    <personal name="Olgay Coskun">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="640" risktaking="400" offensive="691" aggressive="468" consistent="673" creative="327" experienced="252"/>
+    <skills stamina="387" dexterity="708" speed="205" tackling="423" passing="603" shooting="500" control="538" accuracy="387" goalkeeping="75" heading="539"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76141">
+    <personal name="Mile Sterjovski">
+      <appearance value="0"/>
+      <nationality value="Australia"/>
+    </personal>
+    <personality active="544" risktaking="650" offensive="350" aggressive="226" consistent="488" creative="631" experienced="539"/>
+    <skills stamina="686" dexterity="281" speed="375" tackling="458" passing="489" shooting="483" control="398" accuracy="464" goalkeeping="74" heading="475"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76142">
+    <personal name="Aleksandar Jevtic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="276" risktaking="286" offensive="687" aggressive="658" consistent="728" creative="553" experienced="679"/>
+    <skills stamina="404" dexterity="289" speed="668" tackling="411" passing="404" shooting="430" control="464" accuracy="439" goalkeeping="55" heading="453"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76143">
+    <personal name="Ibrahim Sahin">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="590" risktaking="227" offensive="545" aggressive="617" consistent="328" creative="584" experienced="457"/>
+    <skills stamina="427" dexterity="605" speed="166" tackling="425" passing="352" shooting="402" control="501" accuracy="526" goalkeeping="69" heading="439"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76144">
+    <personal name="Volkan Demirel">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="886" risktaking="313" offensive="580" aggressive="310" consistent="559" creative="481" experienced="476"/>
+    <skills stamina="554" dexterity="460" speed="568" tackling="277" passing="480" shooting="518" control="464" accuracy="236" goalkeeping="601" heading="244"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="76145">
+    <personal name="Serdar Kulbilge">
+      <appearance value="8"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="405" risktaking="650" offensive="398" aggressive="691" consistent="363" creative="709" experienced="506"/>
+    <skills stamina="597" dexterity="264" speed="691" tackling="289" passing="588" shooting="415" control="328" accuracy="203" goalkeeping="471" heading="247"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="76146">
+    <personal name="Onder Turaci">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="307" risktaking="727" offensive="502" aggressive="428" consistent="681" creative="523" experienced="160"/>
+    <skills stamina="378" dexterity="508" speed="747" tackling="683" passing="554" shooting="691" control="719" accuracy="590" goalkeeping="111" heading="688"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76147">
+    <personal name="Roberto Carlos">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="532" risktaking="613" offensive="570" aggressive="489" consistent="416" creative="620" experienced="691"/>
+    <skills stamina="689" dexterity="346" speed="734" tackling="635" passing="726" shooting="542" control="765" accuracy="603" goalkeeping="113" heading="630"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76148">
+    <personal name="Diego Lugano">
+      <appearance value="0"/>
+      <nationality value="Uruguay"/>
+    </personal>
+    <personality active="394" risktaking="576" offensive="384" aggressive="546" consistent="483" creative="421" experienced="418"/>
+    <skills stamina="667" dexterity="702" speed="454" tackling="644" passing="734" shooting="690" control="678" accuracy="651" goalkeeping="122" heading="604"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76149">
+    <personal name="Edu Dracena">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="428" risktaking="400" offensive="557" aggressive="444" consistent="435" creative="477" experienced="421"/>
+    <skills stamina="721" dexterity="281" speed="739" tackling="792" passing="617" shooting="729" control="664" accuracy="552" goalkeeping="98" heading="710"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76150">
+    <personal name="Deniz Baris">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="447" risktaking="476" offensive="440" aggressive="361" consistent="509" creative="675" experienced="570"/>
+    <skills stamina="214" dexterity="301" speed="441" tackling="658" passing="422" shooting="559" control="432" accuracy="535" goalkeeping="86" heading="492"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76151">
+    <personal name="Ali Bilgin">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="614" risktaking="472" offensive="541" aggressive="727" consistent="325" creative="363" experienced="325"/>
+    <skills stamina="471" dexterity="704" speed="252" tackling="523" passing="640" shooting="544" control="581" accuracy="497" goalkeeping="78" heading="462"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76152">
+    <personal name="Wederson">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="252" risktaking="467" offensive="533" aggressive="741" consistent="421" creative="654" experienced="271"/>
+    <skills stamina="488" dexterity="740" speed="686" tackling="626" passing="594" shooting="639" control="678" accuracy="518" goalkeeping="99" heading="672"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76153">
+    <personal name="Stephen Appiah">
+      <appearance value="1"/>
+      <nationality value="Ghana"/>
+    </personal>
+    <personality active="661" risktaking="226" offensive="682" aggressive="724" consistent="438" creative="132" experienced="471"/>
+    <skills stamina="383" dexterity="547" speed="383" tackling="663" passing="813" shooting="732" control="703" accuracy="698" goalkeeping="112" heading="761"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76154">
+    <personal name="Mehmet Aurelio">
+      <appearance value="1"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="521" risktaking="447" offensive="595" aggressive="804" consistent="493" creative="554" experienced="742"/>
+    <skills stamina="783" dexterity="574" speed="659" tackling="788" passing="742" shooting="631" control="729" accuracy="700" goalkeeping="124" heading="606"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76155">
+    <personal name="Alex">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="434" risktaking="502" offensive="543" aggressive="687" consistent="773" creative="446" experienced="534"/>
+    <skills stamina="666" dexterity="798" speed="579" tackling="767" passing="735" shooting="726" control="727" accuracy="706" goalkeeping="122" heading="629"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76156">
+    <personal name="Tumer Metin">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="541" risktaking="635" offensive="367" aggressive="754" consistent="671" creative="518" experienced="472"/>
+    <skills stamina="797" dexterity="403" speed="727" tackling="701" passing="573" shooting="664" control="605" accuracy="585" goalkeeping="113" heading="535"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76157">
+    <personal name="Colin Kazim-richards">
+      <appearance value="1"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="594" risktaking="625" offensive="716" aggressive="661" consistent="489" creative="642" experienced="373"/>
+    <skills stamina="532" dexterity="652" speed="597" tackling="423" passing="598" shooting="511" control="508" accuracy="586" goalkeeping="80" heading="567"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76158">
+    <personal name="Mateja Kezman">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="413" risktaking="475" offensive="713" aggressive="466" consistent="493" creative="675" experienced="573"/>
+    <skills stamina="601" dexterity="570" speed="743" tackling="633" passing="734" shooting="598" control="743" accuracy="639" goalkeeping="111" heading="647"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76159">
+    <personal name="Deivid">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="534" risktaking="559" offensive="558" aggressive="471" consistent="359" creative="513" experienced="694"/>
+    <skills stamina="236" dexterity="533" speed="734" tackling="496" passing="489" shooting="577" control="534" accuracy="683" goalkeeping="104" heading="519"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76160">
+    <personal name="Orkun Usak">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="614" risktaking="546" offensive="345" aggressive="453" consistent="303" creative="610" experienced="690"/>
+    <skills stamina="360" dexterity="306" speed="585" tackling="238" passing="563" shooting="527" control="364" accuracy="291" goalkeeping="660" heading="235"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76161">
+    <personal name="Aykut Ercetin">
+      <appearance value="8"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="504" risktaking="726" offensive="383" aggressive="611" consistent="500" creative="446" experienced="408"/>
+    <skills stamina="427" dexterity="244" speed="502" tackling="211" passing="444" shooting="526" control="352" accuracy="198" goalkeeping="483" heading="243"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="76162">
+    <personal name="Ugur Ucar">
+      <appearance value="8"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="357" risktaking="299" offensive="592" aggressive="361" consistent="405" creative="787" experienced="479"/>
+    <skills stamina="664" dexterity="441" speed="513" tackling="535" passing="669" shooting="533" control="654" accuracy="476" goalkeeping="90" heading="627"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76163">
+    <personal name="Hakan Balta">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="518" risktaking="360" offensive="665" aggressive="519" consistent="356" creative="725" experienced="355"/>
+    <skills stamina="621" dexterity="749" speed="632" tackling="712" passing="636" shooting="510" control="558" accuracy="658" goalkeeping="84" heading="567"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76164">
+    <personal name="Rigobert Song">
+      <appearance value="1"/>
+      <nationality value="Cameroon"/>
+    </personal>
+    <personality active="685" risktaking="269" offensive="387" aggressive="466" consistent="224" creative="443" experienced="630"/>
+    <skills stamina="636" dexterity="631" speed="641" tackling="571" passing="578" shooting="567" control="601" accuracy="557" goalkeeping="90" heading="572"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="76165">
+    <personal name="Servet Cetin">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="816" risktaking="530" offensive="787" aggressive="522" consistent="760" creative="403" experienced="528"/>
+    <skills stamina="434" dexterity="701" speed="612" tackling="539" passing="643" shooting="671" control="492" accuracy="647" goalkeeping="90" heading="676"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76166">
+    <personal name="Volkan Yaman">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="351" risktaking="417" offensive="652" aggressive="468" consistent="302" creative="566" experienced="518"/>
+    <skills stamina="515" dexterity="261" speed="389" tackling="539" passing="475" shooting="514" control="444" accuracy="432" goalkeeping="86" heading="559"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76167">
+    <personal name="Arda Turan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="359" risktaking="585" offensive="658" aggressive="389" consistent="490" creative="603" experienced="504"/>
+    <skills stamina="628" dexterity="758" speed="720" tackling="615" passing="655" shooting="747" control="745" accuracy="655" goalkeeping="105" heading="570"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76168">
+    <personal name="Hasan Sas">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="777" risktaking="531" offensive="765" aggressive="319" consistent="214" creative="617" experienced="599"/>
+    <skills stamina="700" dexterity="579" speed="596" tackling="550" passing="641" shooting="585" control="656" accuracy="660" goalkeeping="99" heading="635"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76169">
+    <personal name="Tobias Linderoth">
+      <appearance value="8"/>
+      <nationality value="Sweden"/>
+    </personal>
+    <personality active="519" risktaking="754" offensive="315" aggressive="553" consistent="139" creative="525" experienced="562"/>
+    <skills stamina="598" dexterity="638" speed="477" tackling="698" passing="643" shooting="611" control="581" accuracy="687" goalkeeping="92" heading="542"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76170">
+    <personal name="Sabri Sarioglu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="515" risktaking="548" offensive="692" aggressive="469" consistent="60" creative="437" experienced="376"/>
+    <skills stamina="398" dexterity="593" speed="574" tackling="653" passing="572" shooting="568" control="672" accuracy="600" goalkeeping="100" heading="649"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76171">
+    <personal name="Ayhan Akman">
+      <appearance value="8"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="319" risktaking="518" offensive="796" aggressive="439" consistent="45" creative="649" experienced="452"/>
+    <skills stamina="279" dexterity="564" speed="519" tackling="606" passing="536" shooting="503" control="491" accuracy="548" goalkeeping="95" heading="593"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76172">
+    <personal name="Lincoln">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="449" risktaking="582" offensive="642" aggressive="554" consistent="304" creative="675" experienced="515"/>
+    <skills stamina="675" dexterity="641" speed="460" tackling="795" passing="618" shooting="681" control="674" accuracy="730" goalkeeping="127" heading="788"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76173">
+    <personal name="Shabani Nonda">
+      <appearance value="1"/>
+      <nationality value="Congo"/>
+    </personal>
+    <personality active="520" risktaking="718" offensive="791" aggressive="959" consistent="415" creative="482" experienced="579"/>
+    <skills stamina="725" dexterity="741" speed="371" tackling="589" passing="529" shooting="745" control="669" accuracy="610" goalkeeping="99" heading="554"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76174">
+    <personal name="Umit Karan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="55" risktaking="403" offensive="517" aggressive="576" consistent="621" creative="638" experienced="567"/>
+    <skills stamina="327" dexterity="713" speed="761" tackling="737" passing="636" shooting="663" control="568" accuracy="679" goalkeeping="125" heading="774"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76175">
+    <personal name="Hakan Sukur">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="575" risktaking="659" offensive="305" aggressive="458" consistent="528" creative="612" experienced="571"/>
+    <skills stamina="723" dexterity="241" speed="698" tackling="551" passing="466" shooting="597" control="587" accuracy="514" goalkeeping="93" heading="582"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76176">
+    <personal name="Oguz Daglaroglu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="363" risktaking="547" offensive="195" aggressive="245" consistent="552" creative="770" experienced="631"/>
+    <skills stamina="435" dexterity="306" speed="356" tackling="220" passing="462" shooting="499" control="403" accuracy="244" goalkeeping="624" heading="225"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76177">
+    <personal name="Omer Catkic">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="407" risktaking="602" offensive="441" aggressive="652" consistent="514" creative="439" experienced="634"/>
+    <skills stamina="607" dexterity="686" speed="439" tackling="256" passing="549" shooting="504" control="420" accuracy="215" goalkeeping="446" heading="201"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76178">
+    <personal name="Ozgur Bayer">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="482" risktaking="663" offensive="637" aggressive="715" consistent="424" creative="708" experienced="639"/>
+    <skills stamina="501" dexterity="372" speed="231" tackling="589" passing="523" shooting="423" control="488" accuracy="424" goalkeeping="72" heading="470"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76179">
+    <personal name="Ergun Penbe">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="694" risktaking="662" offensive="677" aggressive="649" consistent="552" creative="504" experienced="417"/>
+    <skills stamina="543" dexterity="298" speed="665" tackling="479" passing="472" shooting="550" control="522" accuracy="455" goalkeeping="65" heading="524"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76180">
+    <personal name="Bekir Irtegun">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="597" risktaking="542" offensive="284" aggressive="426" consistent="460" creative="597" experienced="815"/>
+    <skills stamina="578" dexterity="545" speed="722" tackling="570" passing="592" shooting="626" control="500" accuracy="514" goalkeeping="84" heading="473"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76181">
+    <personal name="Armand Deumi">
+      <appearance value="1"/>
+      <nationality value="Cameroon"/>
+    </personal>
+    <personality active="701" risktaking="608" offensive="405" aggressive="313" consistent="680" creative="510" experienced="333"/>
+    <skills stamina="537" dexterity="266" speed="274" tackling="429" passing="536" shooting="445" control="471" accuracy="439" goalkeeping="77" heading="490"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76182">
+    <personal name="Ugur Yildirim">
+      <appearance value="0"/>
+      <nationality value="The Netherlands"/>
+    </personal>
+    <personality active="568" risktaking="333" offensive="692" aggressive="535" consistent="447" creative="397" experienced="220"/>
+    <skills stamina="602" dexterity="328" speed="535" tackling="555" passing="590" shooting="629" control="696" accuracy="660" goalkeeping="95" heading="552"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76183">
+    <personal name="Akrem Dag">
+      <appearance value="0"/>
+      <nationality value="Austria"/>
+    </personal>
+    <personality active="706" risktaking="655" offensive="460" aggressive="246" consistent="400" creative="573" experienced="457"/>
+    <skills stamina="670" dexterity="710" speed="249" tackling="429" passing="483" shooting="532" control="522" accuracy="526" goalkeeping="79" heading="494"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76184">
+    <personal name="Mehmet Cogum">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="598" risktaking="505" offensive="246" aggressive="359" consistent="348" creative="742" experienced="425"/>
+    <skills stamina="678" dexterity="321" speed="435" tackling="510" passing="463" shooting="578" control="431" accuracy="483" goalkeeping="74" heading="529"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76185">
+    <personal name="Bulent Bolukbasi">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="416" risktaking="588" offensive="345" aggressive="343" consistent="353" creative="492" experienced="610"/>
+    <skills stamina="726" dexterity="320" speed="537" tackling="513" passing="563" shooting="624" control="552" accuracy="636" goalkeeping="103" heading="597"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76186">
+    <personal name="Cristian Zurita">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="262" risktaking="357" offensive="263" aggressive="409" consistent="416" creative="517" experienced="409"/>
+    <skills stamina="280" dexterity="450" speed="695" tackling="545" passing="595" shooting="529" control="502" accuracy="487" goalkeeping="77" heading="412"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76187">
+    <personal name="Mehmet Polat">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="428" risktaking="744" offensive="390" aggressive="575" consistent="547" creative="492" experienced="628"/>
+    <skills stamina="390" dexterity="465" speed="501" tackling="499" passing="483" shooting="564" control="424" accuracy="521" goalkeeping="79" heading="398"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76188">
+    <personal name="Volkan Arslan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="700" risktaking="448" offensive="366" aggressive="498" consistent="208" creative="514" experienced="626"/>
+    <skills stamina="728" dexterity="727" speed="230" tackling="566" passing="590" shooting="463" control="520" accuracy="494" goalkeeping="81" heading="394"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76189">
+    <personal name="Antonio De Nigris">
+      <appearance value="0"/>
+      <nationality value="Mexico"/>
+    </personal>
+    <personality active="304" risktaking="568" offensive="660" aggressive="422" consistent="257" creative="657" experienced="774"/>
+    <skills stamina="539" dexterity="404" speed="301" tackling="499" passing="568" shooting="503" control="535" accuracy="479" goalkeeping="87" heading="616"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76190">
+    <personal name="Ali Cansun">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="547" risktaking="535" offensive="307" aggressive="399" consistent="598" creative="631" experienced="380"/>
+    <skills stamina="488" dexterity="572" speed="222" tackling="474" passing="511" shooting="593" control="373" accuracy="531" goalkeeping="62" heading="505"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76191">
+    <personal name="Kaba Diawara">
+      <appearance value="1"/>
+      <nationality value="Guinea"/>
+    </personal>
+    <personality active="328" risktaking="736" offensive="479" aggressive="277" consistent="240" creative="387" experienced="307"/>
+    <skills stamina="295" dexterity="626" speed="399" tackling="623" passing="601" shooting="502" control="524" accuracy="668" goalkeeping="98" heading="574"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76192">
+    <personal name="Gokhan Tokgoz">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="597" risktaking="442" offensive="672" aggressive="565" consistent="500" creative="527" experienced="716"/>
+    <skills stamina="666" dexterity="577" speed="401" tackling="219" passing="575" shooting="556" control="345" accuracy="249" goalkeeping="659" heading="239"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76193">
+    <personal name="Recep Ozturk">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="444" risktaking="474" offensive="552" aggressive="370" consistent="687" creative="459" experienced="304"/>
+    <skills stamina="536" dexterity="452" speed="233" tackling="175" passing="394" shooting="440" control="343" accuracy="174" goalkeeping="525" heading="164"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76194">
+    <personal name="Erkan Ozbey">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="630" risktaking="473" offensive="564" aggressive="115" consistent="671" creative="506" experienced="407"/>
+    <skills stamina="590" dexterity="507" speed="450" tackling="571" passing="495" shooting="462" control="528" accuracy="520" goalkeeping="97" heading="585"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76195">
+    <personal name="Kerem Seras">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="491" risktaking="268" offensive="384" aggressive="404" consistent="320" creative="480" experienced="435"/>
+    <skills stamina="414" dexterity="405" speed="227" tackling="528" passing="501" shooting="325" control="458" accuracy="398" goalkeeping="53" heading="350"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76196">
+    <personal name="Lamine Traore">
+      <appearance value="1"/>
+      <nationality value="Burkina Faso"/>
+    </personal>
+    <personality active="538" risktaking="519" offensive="510" aggressive="257" consistent="918" creative="356" experienced="639"/>
+    <skills stamina="444" dexterity="311" speed="411" tackling="567" passing="494" shooting="570" control="555" accuracy="432" goalkeeping="66" heading="462"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76197">
+    <personal name="Erhan Guven">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="597" risktaking="308" offensive="510" aggressive="796" consistent="111" creative="748" experienced="592"/>
+    <skills stamina="293" dexterity="643" speed="215" tackling="521" passing="430" shooting="407" control="472" accuracy="577" goalkeeping="95" heading="546"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76198">
+    <personal name="Tolga Dogantez">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="689" risktaking="651" offensive="341" aggressive="297" consistent="607" creative="441" experienced="459"/>
+    <skills stamina="634" dexterity="375" speed="553" tackling="556" passing="514" shooting="439" control="425" accuracy="384" goalkeeping="92" heading="461"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76199">
+    <personal name="Nick Carle">
+      <appearance value="0"/>
+      <nationality value="Australia"/>
+    </personal>
+    <personality active="613" risktaking="543" offensive="736" aggressive="701" consistent="479" creative="590" experienced="565"/>
+    <skills stamina="580" dexterity="660" speed="462" tackling="523" passing="494" shooting="529" control="582" accuracy="441" goalkeeping="87" heading="442"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76200">
+    <personal name="Engin Baytar">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="557" risktaking="728" offensive="600" aggressive="613" consistent="594" creative="572" experienced="377"/>
+    <skills stamina="673" dexterity="490" speed="595" tackling="396" passing="406" shooting="520" control="434" accuracy="524" goalkeeping="87" heading="505"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76201">
+    <personal name="Tuna Uzumcu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="472" risktaking="611" offensive="369" aggressive="542" consistent="418" creative="451" experienced="417"/>
+    <skills stamina="267" dexterity="451" speed="427" tackling="670" passing="397" shooting="576" control="496" accuracy="560" goalkeeping="75" heading="432"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76202">
+    <personal name="Mehmet Nas">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="510" risktaking="367" offensive="473" aggressive="466" consistent="350" creative="250" experienced="513"/>
+    <skills stamina="371" dexterity="481" speed="343" tackling="569" passing="616" shooting="579" control="647" accuracy="515" goalkeeping="74" heading="619"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76203">
+    <personal name="Sedat Yesilkaya">
+      <appearance value="8"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="686" risktaking="552" offensive="435" aggressive="498" consistent="665" creative="289" experienced="203"/>
+    <skills stamina="349" dexterity="492" speed="230" tackling="449" passing="531" shooting="557" control="541" accuracy="457" goalkeeping="91" heading="419"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76204">
+    <personal name="Okan Ozturk">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="344" risktaking="242" offensive="413" aggressive="681" consistent="491" creative="413" experienced="219"/>
+    <skills stamina="280" dexterity="698" speed="342" tackling="575" passing="538" shooting="614" control="634" accuracy="653" goalkeeping="88" heading="549"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76205">
+    <personal name="Mahmet Cakir">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="551" risktaking="383" offensive="602" aggressive="601" consistent="545" creative="494" experienced="243"/>
+    <skills stamina="641" dexterity="617" speed="329" tackling="565" passing="633" shooting="578" control="594" accuracy="572" goalkeeping="99" heading="627"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76206">
+    <personal name="Isaac Promise">
+      <appearance value="1"/>
+      <nationality value="Nigeria"/>
+    </personal>
+    <personality active="423" risktaking="796" offensive="288" aggressive="497" consistent="500" creative="613" experienced="438"/>
+    <skills stamina="588" dexterity="492" speed="641" tackling="580" passing="583" shooting="604" control="633" accuracy="669" goalkeeping="108" heading="638"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76207">
+    <personal name="Kahe">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="698" risktaking="563" offensive="417" aggressive="383" consistent="356" creative="511" experienced="601"/>
+    <skills stamina="409" dexterity="282" speed="276" tackling="534" passing="508" shooting="481" control="476" accuracy="444" goalkeeping="84" heading="383"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76208">
+    <personal name="Kenan Hasagic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="552" risktaking="536" offensive="530" aggressive="338" consistent="712" creative="479" experienced="384"/>
+    <skills stamina="440" dexterity="380" speed="747" tackling="263" passing="504" shooting="580" control="448" accuracy="230" goalkeeping="681" heading="297"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76209">
+    <personal name="Mehmet Ali Tunc">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="527" risktaking="454" offensive="318" aggressive="503" consistent="570" creative="450" experienced="901"/>
+    <skills stamina="307" dexterity="498" speed="544" tackling="175" passing="498" shooting="411" control="337" accuracy="199" goalkeeping="414" heading="184"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76210">
+    <personal name="Rizvan Sahin">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="578" risktaking="609" offensive="450" aggressive="585" consistent="417" creative="758" experienced="548"/>
+    <skills stamina="324" dexterity="225" speed="600" tackling="551" passing="538" shooting="451" control="439" accuracy="401" goalkeeping="83" heading="406"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76211">
+    <personal name="Ekrem Eksioglu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="502" risktaking="415" offensive="480" aggressive="644" consistent="655" creative="441" experienced="532"/>
+    <skills stamina="671" dexterity="284" speed="220" tackling="566" passing="603" shooting="580" control="544" accuracy="518" goalkeeping="96" heading="533"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76212">
+    <personal name="Volkan Kocaloglu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="389" risktaking="587" offensive="321" aggressive="464" consistent="535" creative="519" experienced="419"/>
+    <skills stamina="700" dexterity="304" speed="704" tackling="447" passing="409" shooting="556" control="469" accuracy="534" goalkeeping="72" heading="423"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76213">
+    <personal name="Murat Ocak">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="523" risktaking="576" offensive="527" aggressive="424" consistent="663" creative="655" experienced="817"/>
+    <skills stamina="415" dexterity="240" speed="278" tackling="578" passing="546" shooting="568" control="445" accuracy="513" goalkeeping="73" heading="464"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76214">
+    <personal name="Razundara Tjikuzu">
+      <appearance value="1"/>
+      <nationality value="Unknown"/>
+    </personal>
+    <personality active="527" risktaking="396" offensive="428" aggressive="535" consistent="632" creative="223" experienced="572"/>
+    <skills stamina="442" dexterity="366" speed="401" tackling="484" passing="582" shooting="392" control="426" accuracy="560" goalkeeping="79" heading="427"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76215">
+    <personal name="Sergio Orteman">
+      <appearance value="0"/>
+      <nationality value="Uruguay"/>
+    </personal>
+    <personality active="572" risktaking="449" offensive="424" aggressive="637" consistent="648" creative="523" experienced="231"/>
+    <skills stamina="442" dexterity="633" speed="619" tackling="395" passing="513" shooting="476" control="566" accuracy="381" goalkeeping="88" heading="552"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76216">
+    <personal name="Mert Korkmaz">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="675" risktaking="483" offensive="502" aggressive="375" consistent="440" creative="293" experienced="374"/>
+    <skills stamina="456" dexterity="476" speed="630" tackling="532" passing="389" shooting="409" control="446" accuracy="556" goalkeeping="93" heading="389"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76217">
+    <personal name="Efe Inanc">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="407" risktaking="584" offensive="439" aggressive="313" consistent="391" creative="406" experienced="525"/>
+    <skills stamina="596" dexterity="524" speed="435" tackling="589" passing="530" shooting="413" control="595" accuracy="565" goalkeeping="92" heading="598"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76218">
+    <personal name="Ilyas Kahraman">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="511" risktaking="411" offensive="362" aggressive="494" consistent="507" creative="503" experienced="407"/>
+    <skills stamina="308" dexterity="726" speed="657" tackling="442" passing="528" shooting="596" control="553" accuracy="511" goalkeeping="93" heading="507"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76219">
+    <personal name="Ilhan Sahin">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="623" risktaking="655" offensive="471" aggressive="421" consistent="584" creative="409" experienced="634"/>
+    <skills stamina="519" dexterity="374" speed="364" tackling="461" passing="479" shooting="437" control="550" accuracy="371" goalkeeping="91" heading="380"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76220">
+    <personal name="Marcus Vinicius">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="376" risktaking="626" offensive="502" aggressive="830" consistent="557" creative="527" experienced="536"/>
+    <skills stamina="339" dexterity="324" speed="460" tackling="485" passing="492" shooting="434" control="399" accuracy="486" goalkeeping="72" heading="494"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76221">
+    <personal name="Adriano Nascimento">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="623" risktaking="336" offensive="446" aggressive="215" consistent="391" creative="387" experienced="670"/>
+    <skills stamina="286" dexterity="549" speed="656" tackling="396" passing="528" shooting="623" control="514" accuracy="638" goalkeeping="93" heading="428"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76222">
+    <personal name="Ali Guzeldal">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="612" risktaking="482" offensive="418" aggressive="27" consistent="605" creative="413" experienced="547"/>
+    <skills stamina="301" dexterity="336" speed="580" tackling="495" passing="467" shooting="657" control="411" accuracy="469" goalkeeping="93" heading="410"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76223">
+    <personal name="Sertan Eser">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="585" risktaking="475" offensive="538" aggressive="358" consistent="682" creative="418" experienced="604"/>
+    <skills stamina="625" dexterity="205" speed="356" tackling="506" passing="504" shooting="477" control="373" accuracy="417" goalkeeping="66" heading="379"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76224">
+    <personal name="Luis Martinez">
+      <appearance value="1"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="398" risktaking="645" offensive="646" aggressive="519" consistent="607" creative="388" experienced="649"/>
+    <skills stamina="527" dexterity="301" speed="399" tackling="258" passing="494" shooting="471" control="418" accuracy="247" goalkeeping="710" heading="253"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76225">
+    <personal name="Bora Kork">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="581" risktaking="880" offensive="553" aggressive="740" consistent="292" creative="653" experienced="580"/>
+    <skills stamina="483" dexterity="444" speed="245" tackling="163" passing="482" shooting="471" control="391" accuracy="248" goalkeeping="551" heading="217"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76226">
+    <personal name="Gazanfer Aydin">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="571" risktaking="519" offensive="333" aggressive="461" consistent="389" creative="303" experienced="526"/>
+    <skills stamina="465" dexterity="413" speed="189" tackling="372" passing="444" shooting="437" control="334" accuracy="330" goalkeeping="56" heading="250"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76227">
+    <personal name="Alisan Ural">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="552" risktaking="653" offensive="698" aggressive="729" consistent="657" creative="502" experienced="386"/>
+    <skills stamina="396" dexterity="601" speed="524" tackling="344" passing="304" shooting="358" control="409" accuracy="350" goalkeeping="52" heading="401"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76228">
+    <personal name="Hamza Gezmis">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="322" risktaking="332" offensive="589" aggressive="551" consistent="479" creative="539" experienced="692"/>
+    <skills stamina="448" dexterity="553" speed="661" tackling="415" passing="362" shooting="397" control="331" accuracy="387" goalkeeping="54" heading="399"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76229">
+    <personal name="Volkan Basyurt">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="627" risktaking="439" offensive="743" aggressive="481" consistent="440" creative="477" experienced="450"/>
+    <skills stamina="611" dexterity="419" speed="606" tackling="365" passing="347" shooting="313" control="415" accuracy="306" goalkeeping="70" heading="401"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76230">
+    <personal name="Mustafa Pektemek">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="501" risktaking="978" offensive="682" aggressive="583" consistent="486" creative="450" experienced="547"/>
+    <skills stamina="163" dexterity="355" speed="420" tackling="347" passing="292" shooting="273" control="288" accuracy="387" goalkeeping="64" heading="277"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76231">
+    <personal name="Kerem Ersen Arslan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="715" risktaking="588" offensive="702" aggressive="655" consistent="526" creative="549" experienced="354"/>
+    <skills stamina="241" dexterity="169" speed="223" tackling="376" passing="511" shooting="383" control="348" accuracy="386" goalkeeping="53" heading="308"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76232">
+    <personal name="Sedat Debreli">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="560" risktaking="460" offensive="644" aggressive="369" consistent="351" creative="519" experienced="507"/>
+    <skills stamina="474" dexterity="523" speed="378" tackling="550" passing="468" shooting="376" control="504" accuracy="496" goalkeeping="82" heading="514"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76233">
+    <personal name="Huseyin Tok">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="483" risktaking="601" offensive="499" aggressive="456" consistent="696" creative="296" experienced="406"/>
+    <skills stamina="289" dexterity="660" speed="707" tackling="379" passing="370" shooting="330" control="400" accuracy="409" goalkeeping="69" heading="480"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76234">
+    <personal name="Mehmet Uslu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="305" risktaking="428" offensive="580" aggressive="423" consistent="205" creative="330" experienced="239"/>
+    <skills stamina="436" dexterity="536" speed="231" tackling="327" passing="410" shooting="418" control="433" accuracy="290" goalkeeping="58" heading="441"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76235">
+    <personal name="Serdal Kurt">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="338" risktaking="593" offensive="364" aggressive="695" consistent="441" creative="239" experienced="434"/>
+    <skills stamina="226" dexterity="296" speed="686" tackling="474" passing="364" shooting="357" control="388" accuracy="375" goalkeeping="70" heading="432"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76236">
+    <personal name="Ercan Yaman">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="456" risktaking="753" offensive="248" aggressive="439" consistent="237" creative="408" experienced="639"/>
+    <skills stamina="176" dexterity="151" speed="510" tackling="479" passing="496" shooting="310" control="469" accuracy="395" goalkeeping="52" heading="379"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76237">
+    <personal name="Erman Ergin">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="552" risktaking="529" offensive="271" aggressive="476" consistent="667" creative="548" experienced="833"/>
+    <skills stamina="377" dexterity="299" speed="504" tackling="580" passing="415" shooting="371" control="427" accuracy="451" goalkeeping="87" heading="479"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76238">
+    <personal name="Burak Akdis">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="456" risktaking="706" offensive="566" aggressive="709" consistent="382" creative="390" experienced="213"/>
+    <skills stamina="679" dexterity="475" speed="709" tackling="478" passing="471" shooting="561" control="466" accuracy="540" goalkeeping="70" heading="424"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76239">
+    <personal name="Claudio Graf">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="469" risktaking="297" offensive="757" aggressive="494" consistent="580" creative="226" experienced="444"/>
+    <skills stamina="529" dexterity="677" speed="669" tackling="500" passing="377" shooting="484" control="403" accuracy="456" goalkeeping="70" heading="516"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76240">
+    <personal name="Khalid Sinouh">
+      <appearance value="0"/>
+      <nationality value="Morocco"/>
+    </personal>
+    <personality active="526" risktaking="808" offensive="652" aggressive="398" consistent="761" creative="437" experienced="299"/>
+    <skills stamina="675" dexterity="441" speed="299" tackling="245" passing="380" shooting="420" control="360" accuracy="247" goalkeeping="540" heading="227"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76241">
+    <personal name="Tolga Ozgen">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="510" risktaking="365" offensive="528" aggressive="504" consistent="453" creative="314" experienced="654"/>
+    <skills stamina="279" dexterity="274" speed="366" tackling="237" passing="416" shooting="485" control="306" accuracy="165" goalkeeping="488" heading="251"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76242">
+    <personal name="Fatih Akyel">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="237" risktaking="376" offensive="522" aggressive="529" consistent="526" creative="604" experienced="607"/>
+    <skills stamina="422" dexterity="337" speed="614" tackling="533" passing="452" shooting="512" control="478" accuracy="506" goalkeeping="79" heading="525"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76243">
+    <personal name="Alpaslan Kartal">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="229" risktaking="482" offensive="573" aggressive="432" consistent="424" creative="452" experienced="585"/>
+    <skills stamina="226" dexterity="362" speed="318" tackling="584" passing="521" shooting="431" control="449" accuracy="379" goalkeeping="61" heading="500"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76244">
+    <personal name="Gokhan Caba">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="368" risktaking="407" offensive="602" aggressive="700" consistent="308" creative="461" experienced="272"/>
+    <skills stamina="661" dexterity="612" speed="223" tackling="550" passing="433" shooting="550" control="420" accuracy="561" goalkeeping="85" heading="430"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76245">
+    <personal name="Jens Berthel Askou">
+      <appearance value="8"/>
+      <nationality value="Denmark"/>
+    </personal>
+    <personality active="707" risktaking="748" offensive="376" aggressive="657" consistent="696" creative="672" experienced="758"/>
+    <skills stamina="616" dexterity="696" speed="382" tackling="563" passing="427" shooting="415" control="607" accuracy="549" goalkeeping="92" heading="423"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76246">
+    <personal name="Ozgur Ocal">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="459" risktaking="645" offensive="305" aggressive="111" consistent="450" creative="224" experienced="658"/>
+    <skills stamina="464" dexterity="343" speed="182" tackling="539" passing="488" shooting="537" control="477" accuracy="450" goalkeeping="60" heading="490"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76247">
+    <personal name="Ferhat Bastos">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="432" risktaking="497" offensive="646" aggressive="475" consistent="474" creative="571" experienced="557"/>
+    <skills stamina="291" dexterity="537" speed="697" tackling="380" passing="490" shooting="446" control="576" accuracy="512" goalkeeping="68" heading="444"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76248">
+    <personal name="Faruk Bayar">
+      <appearance value="8"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="406" risktaking="648" offensive="488" aggressive="721" consistent="468" creative="325" experienced="531"/>
+    <skills stamina="499" dexterity="535" speed="556" tackling="506" passing="559" shooting="454" control="493" accuracy="578" goalkeeping="80" heading="534"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76249">
+    <personal name="Merthan Acil">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="554" risktaking="741" offensive="455" aggressive="429" consistent="350" creative="585" experienced="633"/>
+    <skills stamina="587" dexterity="385" speed="702" tackling="445" passing="567" shooting="485" control="596" accuracy="567" goalkeeping="65" heading="490"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76250">
+    <personal name="Omer Hacisalihoglu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="872" risktaking="196" offensive="600" aggressive="584" consistent="360" creative="144" experienced="452"/>
+    <skills stamina="315" dexterity="732" speed="349" tackling="471" passing="562" shooting="425" control="386" accuracy="486" goalkeeping="69" heading="439"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76251">
+    <personal name="Yasin Sulun">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="380" risktaking="332" offensive="518" aggressive="218" consistent="522" creative="517" experienced="497"/>
+    <skills stamina="626" dexterity="744" speed="686" tackling="562" passing="590" shooting="516" control="541" accuracy="374" goalkeeping="80" heading="385"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76252">
+    <personal name="Serdar Akdogan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="788" risktaking="576" offensive="427" aggressive="689" consistent="666" creative="383" experienced="484"/>
+    <skills stamina="515" dexterity="201" speed="330" tackling="548" passing="485" shooting="501" control="446" accuracy="379" goalkeeping="77" heading="381"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76253">
+    <personal name="Erhan Hucuk">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="771" risktaking="627" offensive="380" aggressive="570" consistent="986" creative="646" experienced="579"/>
+    <skills stamina="362" dexterity="421" speed="630" tackling="411" passing="461" shooting="524" control="435" accuracy="577" goalkeeping="75" heading="452"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76254">
+    <personal name="Ender Alkan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="383" risktaking="424" offensive="503" aggressive="541" consistent="431" creative="604" experienced="452"/>
+    <skills stamina="333" dexterity="336" speed="375" tackling="447" passing="520" shooting="421" control="481" accuracy="545" goalkeeping="67" heading="380"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76255">
+    <personal name="Unal Sari">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="381" risktaking="109" offensive="188" aggressive="355" consistent="313" creative="700" experienced="543"/>
+    <skills stamina="274" dexterity="740" speed="761" tackling="366" passing="503" shooting="483" control="556" accuracy="392" goalkeeping="80" heading="483"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76256">
+    <personal name="Dimitar Ivankov">
+      <appearance value="0"/>
+      <nationality value="Bulgaria"/>
+    </personal>
+    <personality active="477" risktaking="778" offensive="277" aggressive="639" consistent="411" creative="462" experienced="526"/>
+    <skills stamina="608" dexterity="586" speed="254" tackling="281" passing="495" shooting="471" control="350" accuracy="236" goalkeeping="556" heading="256"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76257">
+    <personal name="Hasan Sonmez">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="497" risktaking="476" offensive="232" aggressive="558" consistent="534" creative="359" experienced="796"/>
+    <skills stamina="146" dexterity="553" speed="547" tackling="203" passing="372" shooting="442" control="248" accuracy="196" goalkeeping="455" heading="156"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="76258">
+    <personal name="Kamber Arslan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="686" risktaking="306" offensive="421" aggressive="389" consistent="694" creative="791" experienced="523"/>
+    <skills stamina="320" dexterity="207" speed="396" tackling="424" passing="575" shooting="508" control="534" accuracy="552" goalkeeping="68" heading="368"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76259">
+    <personal name="Delio Toledo">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="235" risktaking="429" offensive="635" aggressive="704" consistent="530" creative="253" experienced="317"/>
+    <skills stamina="716" dexterity="534" speed="758" tackling="634" passing="669" shooting="489" control="558" accuracy="538" goalkeeping="72" heading="519"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76260">
+    <personal name="Aydin Toscali">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="654" risktaking="327" offensive="349" aggressive="401" consistent="588" creative="486" experienced="530"/>
+    <skills stamina="354" dexterity="654" speed="236" tackling="668" passing="553" shooting="427" control="477" accuracy="556" goalkeeping="72" heading="400"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="76261">
+    <personal name="Juan Avendano">
+      <appearance value="8"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="538" risktaking="457" offensive="474" aggressive="604" consistent="437" creative="345" experienced="397"/>
+    <skills stamina="609" dexterity="440" speed="190" tackling="551" passing="519" shooting="348" control="393" accuracy="360" goalkeeping="64" heading="334"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76262">
+    <personal name="Fatih Ceylan">
+      <appearance value="8"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="555" risktaking="457" offensive="688" aggressive="199" consistent="613" creative="295" experienced="657"/>
+    <skills stamina="597" dexterity="623" speed="597" tackling="533" passing="514" shooting="565" control="540" accuracy="528" goalkeeping="74" heading="426"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76263">
+    <personal name="Mehmet Topuz">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="337" risktaking="898" offensive="381" aggressive="448" consistent="199" creative="477" experienced="526"/>
+    <skills stamina="554" dexterity="405" speed="451" tackling="638" passing="698" shooting="694" control="557" accuracy="690" goalkeeping="91" heading="694"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76264">
+    <personal name="Mehmet Eren Boyraz">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="533" risktaking="435" offensive="543" aggressive="576" consistent="239" creative="271" experienced="724"/>
+    <skills stamina="493" dexterity="268" speed="450" tackling="476" passing="561" shooting="447" control="460" accuracy="450" goalkeeping="90" heading="486"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76265">
+    <personal name="Ali Turan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="295" risktaking="524" offensive="475" aggressive="419" consistent="368" creative="721" experienced="638"/>
+    <skills stamina="408" dexterity="676" speed="660" tackling="418" passing="445" shooting="389" control="524" accuracy="475" goalkeeping="78" heading="457"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76266">
+    <personal name="Erdal Gunes">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="544" risktaking="492" offensive="560" aggressive="365" consistent="255" creative="353" experienced="521"/>
+    <skills stamina="233" dexterity="586" speed="352" tackling="501" passing="462" shooting="373" control="454" accuracy="417" goalkeeping="66" heading="358"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76267">
+    <personal name="Ragib Basdag">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="654" risktaking="490" offensive="582" aggressive="450" consistent="762" creative="571" experienced="468"/>
+    <skills stamina="553" dexterity="657" speed="309" tackling="553" passing="495" shooting="556" control="533" accuracy="562" goalkeeping="95" heading="578"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76268">
+    <personal name="Alioum Saidou">
+      <appearance value="1"/>
+      <nationality value="Cameroon"/>
+    </personal>
+    <personality active="417" risktaking="612" offensive="745" aggressive="481" consistent="480" creative="475" experienced="482"/>
+    <skills stamina="381" dexterity="279" speed="591" tackling="405" passing="528" shooting="500" control="524" accuracy="467" goalkeeping="81" heading="455"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76269">
+    <personal name="Gokhan Unal">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="503" risktaking="526" offensive="405" aggressive="445" consistent="607" creative="505" experienced="582"/>
+    <skills stamina="768" dexterity="273" speed="651" tackling="630" passing="530" shooting="753" control="695" accuracy="651" goalkeeping="108" heading="565"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76270">
+    <personal name="Leonardo Iglesias">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="483" risktaking="363" offensive="426" aggressive="385" consistent="357" creative="515" experienced="558"/>
+    <skills stamina="517" dexterity="602" speed="431" tackling="402" passing="519" shooting="444" control="446" accuracy="456" goalkeeping="69" heading="591"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76271">
+    <personal name="Franco Cangele">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="598" risktaking="452" offensive="453" aggressive="421" consistent="660" creative="624" experienced="560"/>
+    <skills stamina="455" dexterity="585" speed="599" tackling="564" passing="559" shooting="449" control="424" accuracy="622" goalkeeping="91" heading="547"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76272">
+    <personal name="Ozden Ongun">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="662" risktaking="430" offensive="281" aggressive="280" consistent="312" creative="321" experienced="591"/>
+    <skills stamina="733" dexterity="689" speed="501" tackling="254" passing="400" shooting="473" control="320" accuracy="251" goalkeeping="453" heading="198"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="76273">
+    <personal name="Oguzhan Bahadir">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="567" risktaking="621" offensive="349" aggressive="299" consistent="481" creative="585" experienced="699"/>
+    <skills stamina="486" dexterity="448" speed="453" tackling="204" passing="434" shooting="378" control="366" accuracy="223" goalkeeping="451" heading="244"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="76274">
+    <personal name="Ilsan Burak Ozsarac">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="565" risktaking="458" offensive="406" aggressive="511" consistent="477" creative="518" experienced="631"/>
+    <skills stamina="500" dexterity="304" speed="358" tackling="540" passing="578" shooting="568" control="521" accuracy="489" goalkeeping="82" heading="525"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76275">
+    <personal name="Mohamed Abdallah">
+      <appearance value="0"/>
+      <nationality value="Egypt"/>
+    </personal>
+    <personality active="770" risktaking="568" offensive="498" aggressive="736" consistent="710" creative="260" experienced="750"/>
+    <skills stamina="274" dexterity="460" speed="187" tackling="422" passing="424" shooting="502" control="502" accuracy="528" goalkeeping="78" heading="535"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76276">
+    <personal name="Omer Gundostu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="520" risktaking="497" offensive="521" aggressive="727" consistent="560" creative="398" experienced="728"/>
+    <skills stamina="565" dexterity="471" speed="597" tackling="544" passing="503" shooting="503" control="493" accuracy="401" goalkeeping="97" heading="522"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76277">
+    <personal name="Cedric Sabin">
+      <appearance value="1"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="364" risktaking="521" offensive="544" aggressive="534" consistent="593" creative="520" experienced="695"/>
+    <skills stamina="600" dexterity="397" speed="488" tackling="524" passing="398" shooting="500" control="474" accuracy="558" goalkeeping="92" heading="459"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76278">
+    <personal name="Murat Hacioglu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="524" risktaking="611" offensive="543" aggressive="716" consistent="541" creative="720" experienced="744"/>
+    <skills stamina="417" dexterity="793" speed="588" tackling="525" passing="518" shooting="538" control="603" accuracy="609" goalkeeping="75" heading="520"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76279">
+    <personal name="Kaue">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="536" risktaking="210" offensive="366" aggressive="557" consistent="345" creative="403" experienced="298"/>
+    <skills stamina="609" dexterity="788" speed="757" tackling="571" passing="505" shooting="581" control="622" accuracy="468" goalkeeping="76" heading="449"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76280">
+    <personal name="Erkan Sekman">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="461" risktaking="597" offensive="535" aggressive="357" consistent="610" creative="671" experienced="725"/>
+    <skills stamina="266" dexterity="336" speed="507" tackling="503" passing="446" shooting="454" control="475" accuracy="469" goalkeeping="71" heading="442"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76281">
+    <personal name="Batista">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="280" risktaking="494" offensive="527" aggressive="547" consistent="754" creative="266" experienced="404"/>
+    <skills stamina="434" dexterity="342" speed="308" tackling="479" passing="582" shooting="547" control="469" accuracy="390" goalkeeping="71" heading="474"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76282">
+    <personal name="Mustafa Er">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="420" risktaking="325" offensive="364" aggressive="565" consistent="623" creative="577" experienced="439"/>
+    <skills stamina="687" dexterity="383" speed="274" tackling="534" passing="530" shooting="538" control="476" accuracy="548" goalkeeping="69" heading="568"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76283">
+    <personal name="Neca">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="550" risktaking="324" offensive="457" aggressive="441" consistent="563" creative="710" experienced="276"/>
+    <skills stamina="237" dexterity="350" speed="699" tackling="666" passing="661" shooting="574" control="624" accuracy="578" goalkeeping="86" heading="581"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76284">
+    <personal name="Erman Ozgur">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="621" risktaking="576" offensive="545" aggressive="438" consistent="371" creative="634" experienced="358"/>
+    <skills stamina="518" dexterity="345" speed="684" tackling="571" passing="589" shooting="467" control="474" accuracy="619" goalkeeping="90" heading="445"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76285">
+    <personal name="Veysel Cihan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="421" risktaking="542" offensive="479" aggressive="273" consistent="498" creative="626" experienced="399"/>
+    <skills stamina="478" dexterity="601" speed="319" tackling="517" passing="620" shooting="568" control="549" accuracy="503" goalkeeping="72" heading="541"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76286">
+    <personal name="Sedat Agcay">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="437" risktaking="386" offensive="538" aggressive="236" consistent="485" creative="499" experienced="404"/>
+    <skills stamina="464" dexterity="422" speed="544" tackling="563" passing="555" shooting="446" control="460" accuracy="443" goalkeeping="76" heading="448"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76287">
+    <personal name="Eder Ceccon">
+      <appearance value="8"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="625" risktaking="464" offensive="512" aggressive="154" consistent="574" creative="571" experienced="480"/>
+    <skills stamina="381" dexterity="717" speed="364" tackling="440" passing="460" shooting="574" control="479" accuracy="550" goalkeeping="82" heading="537"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76288">
+    <personal name="Mehmet Bolukbasi">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="486" risktaking="440" offensive="290" aggressive="467" consistent="565" creative="462" experienced="436"/>
+    <skills stamina="573" dexterity="534" speed="478" tackling="220" passing="403" shooting="401" control="410" accuracy="234" goalkeeping="632" heading="203"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76289">
+    <personal name="Ercument Kafkasyali">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="650" risktaking="572" offensive="735" aggressive="441" consistent="467" creative="149" experienced="401"/>
+    <skills stamina="130" dexterity="634" speed="578" tackling="134" passing="395" shooting="282" control="272" accuracy="165" goalkeeping="396" heading="144"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="76290">
+    <personal name="Murat Duman">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="423" risktaking="548" offensive="539" aggressive="704" consistent="497" creative="831" experienced="463"/>
+    <skills stamina="314" dexterity="260" speed="474" tackling="454" passing="513" shooting="482" control="563" accuracy="539" goalkeeping="83" heading="562"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76291">
+    <personal name="Can Ulun">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="616" risktaking="141" offensive="525" aggressive="660" consistent="399" creative="367" experienced="485"/>
+    <skills stamina="450" dexterity="365" speed="368" tackling="532" passing="486" shooting="386" control="595" accuracy="565" goalkeeping="89" heading="472"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76292">
+    <personal name="Mehmet Hakki">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="497" risktaking="475" offensive="326" aggressive="517" consistent="508" creative="342" experienced="618"/>
+    <skills stamina="316" dexterity="346" speed="219" tackling="473" passing="561" shooting="401" control="528" accuracy="567" goalkeeping="95" heading="498"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76293">
+    <personal name="Kenan Yelek">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="414" risktaking="540" offensive="632" aggressive="838" consistent="716" creative="560" experienced="564"/>
+    <skills stamina="402" dexterity="356" speed="473" tackling="542" passing="435" shooting="477" control="397" accuracy="446" goalkeeping="70" heading="532"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76294">
+    <personal name="Sinan Demircioglu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="690" risktaking="691" offensive="401" aggressive="411" consistent="476" creative="756" experienced="715"/>
+    <skills stamina="615" dexterity="631" speed="363" tackling="442" passing="406" shooting="502" control="516" accuracy="501" goalkeeping="86" heading="389"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76295">
+    <personal name="Zafer Sakar">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="504" risktaking="420" offensive="256" aggressive="331" consistent="461" creative="720" experienced="612"/>
+    <skills stamina="232" dexterity="694" speed="656" tackling="477" passing="500" shooting="499" control="564" accuracy="543" goalkeeping="87" heading="456"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76296">
+    <personal name="Celil Sagir">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="613" risktaking="488" offensive="790" aggressive="561" consistent="572" creative="547" experienced="606"/>
+    <skills stamina="228" dexterity="358" speed="394" tackling="362" passing="518" shooting="384" control="574" accuracy="444" goalkeeping="73" heading="552"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76297">
+    <personal name="Furkan Ilker">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="522" risktaking="373" offensive="336" aggressive="548" consistent="799" creative="415" experienced="783"/>
+    <skills stamina="472" dexterity="196" speed="387" tackling="249" passing="377" shooting="437" control="435" accuracy="410" goalkeeping="50" heading="400"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76298">
+    <personal name="Marciel">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="538" risktaking="767" offensive="361" aggressive="435" consistent="428" creative="274" experienced="558"/>
+    <skills stamina="386" dexterity="702" speed="308" tackling="507" passing="402" shooting="468" control="485" accuracy="461" goalkeeping="71" heading="445"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76299">
+    <personal name="Feridun Sungur">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="294" risktaking="724" offensive="748" aggressive="573" consistent="630" creative="501" experienced="343"/>
+    <skills stamina="587" dexterity="249" speed="561" tackling="490" passing="376" shooting="400" control="422" accuracy="433" goalkeeping="47" heading="429"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76300">
+    <personal name="Serkan Eyupoglu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="266" risktaking="520" offensive="389" aggressive="469" consistent="488" creative="374" experienced="250"/>
+    <skills stamina="513" dexterity="535" speed="647" tackling="254" passing="426" shooting="220" control="422" accuracy="400" goalkeeping="63" heading="248"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76301">
+    <personal name="Serkan Aykut">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="276" risktaking="338" offensive="777" aggressive="457" consistent="727" creative="272" experienced="464"/>
+    <skills stamina="338" dexterity="679" speed="485" tackling="537" passing="428" shooting="474" control="517" accuracy="566" goalkeeping="77" heading="561"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76302">
+    <personal name="Caner Altin">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="647" risktaking="523" offensive="642" aggressive="490" consistent="459" creative="683" experienced="459"/>
+    <skills stamina="301" dexterity="632" speed="600" tackling="550" passing="536" shooting="485" control="459" accuracy="612" goalkeeping="73" heading="549"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76303">
+    <personal name="Kemal Akbaba">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="427" risktaking="453" offensive="374" aggressive="680" consistent="699" creative="482" experienced="302"/>
+    <skills stamina="628" dexterity="684" speed="370" tackling="519" passing="488" shooting="551" control="407" accuracy="346" goalkeeping="60" heading="532"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76304">
+    <personal name="Michael Petkovic">
+      <appearance value="0"/>
+      <nationality value="Australia"/>
+    </personal>
+    <personality active="586" risktaking="477" offensive="609" aggressive="428" consistent="798" creative="509" experienced="520"/>
+    <skills stamina="416" dexterity="734" speed="521" tackling="245" passing="623" shooting="430" control="469" accuracy="240" goalkeeping="604" heading="218"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76305">
+    <personal name="Volkan Unlu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="571" risktaking="728" offensive="498" aggressive="550" consistent="744" creative="676" experienced="734"/>
+    <skills stamina="632" dexterity="427" speed="426" tackling="157" passing="366" shooting="327" control="257" accuracy="233" goalkeeping="347" heading="165"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76306">
+    <personal name="Gokhan Bozkaya">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="501" risktaking="539" offensive="332" aggressive="707" consistent="370" creative="298" experienced="533"/>
+    <skills stamina="613" dexterity="663" speed="218" tackling="395" passing="565" shooting="471" control="435" accuracy="408" goalkeeping="82" heading="421"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76307">
+    <personal name="Hayrettin Yerlikaya">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="539" risktaking="436" offensive="666" aggressive="551" consistent="472" creative="493" experienced="445"/>
+    <skills stamina="459" dexterity="449" speed="511" tackling="568" passing="501" shooting="442" control="575" accuracy="435" goalkeeping="83" heading="570"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76308">
+    <personal name="Abdurrahman Dereli">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="268" risktaking="622" offensive="752" aggressive="597" consistent="653" creative="456" experienced="476"/>
+    <skills stamina="735" dexterity="565" speed="533" tackling="568" passing="585" shooting="396" control="444" accuracy="470" goalkeeping="95" heading="493"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76309">
+    <personal name="Murat Sozgelmez">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="594" risktaking="203" offensive="483" aggressive="407" consistent="597" creative="549" experienced="604"/>
+    <skills stamina="198" dexterity="687" speed="735" tackling="559" passing="610" shooting="566" control="607" accuracy="588" goalkeeping="66" heading="548"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76310">
+    <personal name="Ilgar Gurbanov">
+      <appearance value="0"/>
+      <nationality value="Azerbaijan"/>
+    </personal>
+    <personality active="306" risktaking="827" offensive="592" aggressive="321" consistent="495" creative="414" experienced="648"/>
+    <skills stamina="627" dexterity="289" speed="386" tackling="364" passing="526" shooting="446" control="523" accuracy="427" goalkeeping="67" heading="401"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76311">
+    <personal name="Musa Aydin">
+      <appearance value="8"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="346" risktaking="525" offensive="352" aggressive="590" consistent="371" creative="705" experienced="672"/>
+    <skills stamina="420" dexterity="272" speed="482" tackling="442" passing="632" shooting="460" control="504" accuracy="510" goalkeeping="85" heading="423"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76312">
+    <personal name="Ilhan Ummak">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="620" risktaking="439" offensive="445" aggressive="529" consistent="692" creative="262" experienced="419"/>
+    <skills stamina="344" dexterity="407" speed="297" tackling="457" passing="457" shooting="485" control="481" accuracy="565" goalkeeping="67" heading="490"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76313">
+    <personal name="Sedat Bayrak">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="650" risktaking="507" offensive="501" aggressive="463" consistent="161" creative="447" experienced="403"/>
+    <skills stamina="581" dexterity="450" speed="656" tackling="480" passing="443" shooting="424" control="437" accuracy="515" goalkeeping="66" heading="397"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76314">
+    <personal name="Muhammet Ali">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="463" risktaking="313" offensive="445" aggressive="594" consistent="524" creative="298" experienced="344"/>
+    <skills stamina="449" dexterity="513" speed="322" tackling="517" passing="545" shooting="517" control="538" accuracy="520" goalkeeping="69" heading="387"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76315">
+    <personal name="Yasir Elmaci">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="578" risktaking="428" offensive="672" aggressive="566" consistent="601" creative="703" experienced="774"/>
+    <skills stamina="714" dexterity="568" speed="749" tackling="532" passing="582" shooting="542" control="615" accuracy="530" goalkeeping="85" heading="583"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76316">
+    <personal name="Devran Ayhan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="588" risktaking="748" offensive="666" aggressive="570" consistent="348" creative="456" experienced="556"/>
+    <skills stamina="592" dexterity="649" speed="548" tackling="445" passing="591" shooting="479" control="608" accuracy="619" goalkeeping="86" heading="438"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76317">
+    <personal name="Mehmet Yildiz">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="281" risktaking="480" offensive="517" aggressive="606" consistent="459" creative="354" experienced="662"/>
+    <skills stamina="616" dexterity="609" speed="533" tackling="605" passing="624" shooting="626" control="594" accuracy="535" goalkeeping="94" heading="486"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76318">
+    <personal name="Ivan Cvetkov">
+      <appearance value="0"/>
+      <nationality value="Bulgaria"/>
+    </personal>
+    <personality active="365" risktaking="617" offensive="711" aggressive="402" consistent="295" creative="572" experienced="921"/>
+    <skills stamina="626" dexterity="238" speed="198" tackling="388" passing="395" shooting="487" control="374" accuracy="501" goalkeeping="78" heading="485"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76319">
+    <personal name="Pini Balili">
+      <appearance value="0"/>
+      <nationality value="Israel"/>
+    </personal>
+    <personality active="743" risktaking="831" offensive="562" aggressive="436" consistent="358" creative="298" experienced="560"/>
+    <skills stamina="487" dexterity="336" speed="610" tackling="579" passing="531" shooting="516" control="461" accuracy="644" goalkeeping="90" heading="652"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76320">
+    <personal name="Suleyman Kucuk">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="261" risktaking="588" offensive="404" aggressive="500" consistent="715" creative="615" experienced="504"/>
+    <skills stamina="368" dexterity="621" speed="572" tackling="265" passing="418" shooting="555" control="350" accuracy="237" goalkeeping="548" heading="284"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="76321">
+    <personal name="Serdar Ertemcoz">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="759" risktaking="435" offensive="406" aggressive="387" consistent="216" creative="557" experienced="396"/>
+    <skills stamina="146" dexterity="298" speed="380" tackling="139" passing="369" shooting="377" control="308" accuracy="135" goalkeeping="369" heading="116"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76322">
+    <personal name="Recep Asil">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="374" risktaking="353" offensive="673" aggressive="303" consistent="417" creative="328" experienced="578"/>
+    <skills stamina="303" dexterity="391" speed="539" tackling="497" passing="453" shooting="478" control="420" accuracy="540" goalkeeping="88" heading="474"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76323">
+    <personal name="Hakan Turan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="491" risktaking="544" offensive="793" aggressive="346" consistent="751" creative="476" experienced="356"/>
+    <skills stamina="304" dexterity="397" speed="694" tackling="503" passing="475" shooting="468" control="463" accuracy="449" goalkeeping="74" heading="488"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76324">
+    <personal name="Eren Gungor">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="500" risktaking="410" offensive="387" aggressive="664" consistent="326" creative="367" experienced="396"/>
+    <skills stamina="318" dexterity="269" speed="544" tackling="501" passing="246" shooting="290" control="337" accuracy="415" goalkeeping="49" heading="318"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76325">
+    <personal name="Mustafa Macit Guven">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="566" risktaking="548" offensive="467" aggressive="464" consistent="345" creative="294" experienced="477"/>
+    <skills stamina="642" dexterity="419" speed="343" tackling="290" passing="310" shooting="372" control="374" accuracy="315" goalkeeping="55" heading="366"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76326">
+    <personal name="Mehmet Sen">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="457" risktaking="383" offensive="363" aggressive="682" consistent="563" creative="440" experienced="555"/>
+    <skills stamina="606" dexterity="576" speed="299" tackling="293" passing="338" shooting="456" control="227" accuracy="265" goalkeeping="54" heading="361"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76327">
+    <personal name="Yakup Sertkaya">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="561" risktaking="482" offensive="475" aggressive="488" consistent="451" creative="417" experienced="377"/>
+    <skills stamina="675" dexterity="651" speed="203" tackling="480" passing="502" shooting="385" control="474" accuracy="479" goalkeeping="61" heading="343"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76328">
+    <personal name="Cem Baki">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="752" risktaking="430" offensive="406" aggressive="696" consistent="469" creative="358" experienced="388"/>
+    <skills stamina="262" dexterity="663" speed="378" tackling="568" passing="557" shooting="423" control="425" accuracy="445" goalkeeping="96" heading="498"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76329">
+    <personal name="Volkan Bekci">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="593" risktaking="373" offensive="579" aggressive="523" consistent="400" creative="462" experienced="742"/>
+    <skills stamina="305" dexterity="277" speed="662" tackling="483" passing="359" shooting="511" control="385" accuracy="359" goalkeeping="58" heading="389"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76330">
+    <personal name="Enis Kahraman">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="481" risktaking="630" offensive="525" aggressive="454" consistent="643" creative="603" experienced="920"/>
+    <skills stamina="578" dexterity="398" speed="349" tackling="470" passing="371" shooting="401" control="350" accuracy="341" goalkeeping="69" heading="377"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76331">
+    <personal name="Deniz Yilmaz">
+      <appearance value="8"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="671" risktaking="698" offensive="525" aggressive="674" consistent="552" creative="402" experienced="397"/>
+    <skills stamina="415" dexterity="420" speed="172" tackling="283" passing="355" shooting="349" control="364" accuracy="292" goalkeeping="65" heading="276"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76332">
+    <personal name="Muzaffer Bilazer">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="415" risktaking="550" offensive="635" aggressive="392" consistent="533" creative="506" experienced="358"/>
+    <skills stamina="250" dexterity="613" speed="535" tackling="570" passing="554" shooting="463" control="600" accuracy="611" goalkeeping="73" heading="627"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76333">
+    <personal name="Aydin Cetin">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="376" risktaking="304" offensive="479" aggressive="517" consistent="382" creative="276" experienced="555"/>
+    <skills stamina="386" dexterity="449" speed="682" tackling="366" passing="485" shooting="585" control="427" accuracy="579" goalkeeping="73" heading="538"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76334">
+    <personal name="Emirhan Ozdemir">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="96" risktaking="487" offensive="553" aggressive="293" consistent="577" creative="196" experienced="425"/>
+    <skills stamina="655" dexterity="572" speed="448" tackling="223" passing="332" shooting="414" control="332" accuracy="296" goalkeeping="42" heading="383"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76335">
+    <personal name="Murat Bolukbas">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="410" risktaking="201" offensive="580" aggressive="453" consistent="449" creative="667" experienced="373"/>
+    <skills stamina="576" dexterity="621" speed="588" tackling="534" passing="472" shooting="646" control="507" accuracy="536" goalkeeping="71" heading="494"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76336">
+    <personal name="Tolga Zengin">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="377" risktaking="789" offensive="323" aggressive="686" consistent="477" creative="426" experienced="810"/>
+    <skills stamina="244" dexterity="266" speed="640" tackling="278" passing="417" shooting="418" control="382" accuracy="267" goalkeeping="569" heading="233"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="76337">
+    <personal name="Jefferson">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="305" risktaking="451" offensive="456" aggressive="718" consistent="617" creative="426" experienced="151"/>
+    <skills stamina="530" dexterity="253" speed="453" tackling="251" passing="541" shooting="528" control="330" accuracy="233" goalkeeping="493" heading="286"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76338">
+    <personal name="Serkan Balci">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="390" risktaking="312" offensive="158" aggressive="564" consistent="595" creative="925" experienced="605"/>
+    <skills stamina="735" dexterity="561" speed="735" tackling="659" passing="499" shooting="517" control="570" accuracy="591" goalkeeping="109" heading="532"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76339">
+    <personal name="Celaleddin Kocak">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="521" risktaking="467" offensive="407" aggressive="594" consistent="400" creative="347" experienced="529"/>
+    <skills stamina="647" dexterity="457" speed="229" tackling="531" passing="542" shooting="537" control="611" accuracy="461" goalkeeping="101" heading="598"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76340">
+    <personal name="Erdinc Yavuz">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="445" risktaking="453" offensive="481" aggressive="587" consistent="574" creative="502" experienced="467"/>
+    <skills stamina="377" dexterity="475" speed="418" tackling="569" passing="523" shooting="540" control="668" accuracy="637" goalkeeping="87" heading="561"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76341">
+    <personal name="Tolga Seyhan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="698" risktaking="666" offensive="642" aggressive="532" consistent="502" creative="535" experienced="537"/>
+    <skills stamina="531" dexterity="515" speed="728" tackling="557" passing="530" shooting="610" control="472" accuracy="504" goalkeeping="104" heading="557"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76342">
+    <personal name="Fredrik Risp">
+      <appearance value="8"/>
+      <nationality value="Sweden"/>
+    </personal>
+    <personality active="495" risktaking="502" offensive="536" aggressive="463" consistent="525" creative="541" experienced="682"/>
+    <skills stamina="223" dexterity="543" speed="639" tackling="519" passing="621" shooting="440" control="585" accuracy="463" goalkeeping="76" heading="475"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="76343">
+    <personal name="Ibrahima Yattara">
+      <appearance value="1"/>
+      <nationality value="Guinea"/>
+    </personal>
+    <personality active="205" risktaking="498" offensive="576" aggressive="837" consistent="794" creative="421" experienced="566"/>
+    <skills stamina="430" dexterity="377" speed="705" tackling="583" passing="634" shooting="536" control="736" accuracy="562" goalkeeping="100" heading="671"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76344">
+    <personal name="Gokdeniz Karadeniz">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="466" risktaking="408" offensive="363" aggressive="481" consistent="486" creative="543" experienced="414"/>
+    <skills stamina="776" dexterity="548" speed="688" tackling="714" passing="744" shooting="714" control="753" accuracy="592" goalkeeping="101" heading="643"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76345">
+    <personal name="Huseyin Cimsir">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="389" risktaking="793" offensive="543" aggressive="363" consistent="494" creative="381" experienced="803"/>
+    <skills stamina="758" dexterity="686" speed="295" tackling="533" passing="589" shooting="576" control="742" accuracy="556" goalkeeping="101" heading="544"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76346">
+    <personal name="Musa Buyuk">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="487" risktaking="611" offensive="562" aggressive="403" consistent="457" creative="559" experienced="477"/>
+    <skills stamina="310" dexterity="706" speed="478" tackling="488" passing="509" shooting="539" control="491" accuracy="570" goalkeeping="102" heading="527"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76347">
+    <personal name="Ayman Abdelaziz">
+      <appearance value="0"/>
+      <nationality value="Egypt"/>
+    </personal>
+    <personality active="466" risktaking="556" offensive="267" aggressive="634" consistent="558" creative="339" experienced="582"/>
+    <skills stamina="297" dexterity="418" speed="327" tackling="481" passing="531" shooting="547" control="605" accuracy="556" goalkeeping="97" heading="459"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76348">
+    <personal name="Ceyhun Eris">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="673" risktaking="449" offensive="600" aggressive="375" consistent="790" creative="291" experienced="755"/>
+    <skills stamina="727" dexterity="618" speed="308" tackling="530" passing="606" shooting="552" control="578" accuracy="548" goalkeeping="87" heading="654"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76349">
+    <personal name="Hasan Ucuncu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="319" risktaking="310" offensive="544" aggressive="186" consistent="341" creative="441" experienced="322"/>
+    <skills stamina="640" dexterity="726" speed="264" tackling="557" passing="574" shooting="518" control="526" accuracy="460" goalkeeping="104" heading="494"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76350">
+    <personal name="Tomas Jun">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="530" risktaking="467" offensive="741" aggressive="444" consistent="370" creative="393" experienced="601"/>
+    <skills stamina="737" dexterity="384" speed="268" tackling="473" passing="479" shooting="545" control="456" accuracy="569" goalkeeping="91" heading="498"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="76351">
+    <personal name="Umut Bulut">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="388" risktaking="589" offensive="439" aggressive="622" consistent="350" creative="393" experienced="307"/>
+    <skills stamina="361" dexterity="265" speed="289" tackling="508" passing="570" shooting="683" control="497" accuracy="520" goalkeeping="85" heading="619"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76352">
+    <personal name="Ufuk Ceylan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="415" risktaking="498" offensive="590" aggressive="461" consistent="294" creative="450" experienced="599"/>
+    <skills stamina="573" dexterity="575" speed="701" tackling="270" passing="492" shooting="430" control="370" accuracy="194" goalkeeping="573" heading="245"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76353">
+    <personal name="Bulent Ataman">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="433" risktaking="300" offensive="586" aggressive="470" consistent="566" creative="541" experienced="445"/>
+    <skills stamina="487" dexterity="492" speed="677" tackling="223" passing="404" shooting="341" control="296" accuracy="239" goalkeeping="469" heading="232"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76354">
+    <personal name="Ugur Inceman">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="515" risktaking="333" offensive="667" aggressive="423" consistent="315" creative="627" experienced="500"/>
+    <skills stamina="699" dexterity="757" speed="290" tackling="549" passing="504" shooting="571" control="524" accuracy="528" goalkeeping="86" heading="438"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76355">
+    <personal name="Ferhat Oztorun">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="419" risktaking="608" offensive="696" aggressive="584" consistent="418" creative="540" experienced="304"/>
+    <skills stamina="456" dexterity="455" speed="312" tackling="451" passing="469" shooting="401" control="539" accuracy="487" goalkeeping="68" heading="548"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76356">
+    <personal name="Stephane Borbiconi">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="560" risktaking="434" offensive="420" aggressive="677" consistent="496" creative="794" experienced="607"/>
+    <skills stamina="288" dexterity="526" speed="677" tackling="629" passing="689" shooting="576" control="619" accuracy="538" goalkeeping="88" heading="489"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76357">
+    <personal name="Umit Bozkurt">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="293" risktaking="340" offensive="490" aggressive="542" consistent="609" creative="476" experienced="497"/>
+    <skills stamina="660" dexterity="297" speed="654" tackling="485" passing="613" shooting="614" control="554" accuracy="620" goalkeeping="104" heading="525"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76358">
+    <personal name="Oumar Kalabane">
+      <appearance value="1"/>
+      <nationality value="Guinea"/>
+    </personal>
+    <personality active="210" risktaking="567" offensive="472" aggressive="784" consistent="567" creative="184" experienced="692"/>
+    <skills stamina="479" dexterity="215" speed="196" tackling="595" passing="480" shooting="523" control="481" accuracy="425" goalkeeping="86" heading="497"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76359">
+    <personal name="Okan Koc">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="454" risktaking="383" offensive="682" aggressive="805" consistent="320" creative="394" experienced="576"/>
+    <skills stamina="578" dexterity="730" speed="741" tackling="474" passing="540" shooting="506" control="494" accuracy="612" goalkeeping="88" heading="468"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76360">
+    <personal name="Aydin Yilmaz">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="424" risktaking="645" offensive="485" aggressive="458" consistent="370" creative="650" experienced="581"/>
+    <skills stamina="544" dexterity="324" speed="647" tackling="558" passing="403" shooting="422" control="463" accuracy="428" goalkeeping="92" heading="533"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76361">
+    <personal name="Selcuk Inan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="539" risktaking="868" offensive="526" aggressive="394" consistent="519" creative="236" experienced="607"/>
+    <skills stamina="314" dexterity="359" speed="701" tackling="613" passing="552" shooting="645" control="622" accuracy="487" goalkeeping="91" heading="613"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76362">
+    <personal name="Lukas Zelenka">
+      <appearance value="8"/>
+      <nationality value="Czech Republic"/>
+    </personal>
+    <personality active="450" risktaking="598" offensive="418" aggressive="470" consistent="344" creative="588" experienced="227"/>
+    <skills stamina="506" dexterity="633" speed="294" tackling="561" passing="528" shooting="577" control="610" accuracy="667" goalkeeping="98" heading="532"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76363">
+    <personal name="Sener Askaroglu">
+      <appearance value="8"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="574" risktaking="413" offensive="359" aggressive="363" consistent="628" creative="343" experienced="425"/>
+    <skills stamina="214" dexterity="598" speed="357" tackling="514" passing="559" shooting="440" control="558" accuracy="434" goalkeeping="62" heading="410"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76364">
+    <personal name="Oguz Sabankay">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="696" risktaking="524" offensive="585" aggressive="333" consistent="385" creative="524" experienced="456"/>
+    <skills stamina="251" dexterity="446" speed="464" tackling="466" passing="362" shooting="462" control="492" accuracy="418" goalkeeping="64" heading="371"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76365">
+    <personal name="Metin Akan">
+      <appearance value="8"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="307" risktaking="418" offensive="546" aggressive="647" consistent="413" creative="647" experienced="580"/>
+    <skills stamina="539" dexterity="192" speed="675" tackling="422" passing="500" shooting="479" control="474" accuracy="390" goalkeeping="68" heading="552"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76366">
+    <personal name="Rafael Marques">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="551" risktaking="428" offensive="611" aggressive="359" consistent="440" creative="558" experienced="552"/>
+    <skills stamina="324" dexterity="377" speed="712" tackling="406" passing="528" shooting="516" control="451" accuracy="457" goalkeeping="66" heading="616"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76367">
+    <personal name="Burak Yilmaz">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="373" risktaking="445" offensive="556" aggressive="356" consistent="291" creative="440" experienced="515"/>
+    <skills stamina="393" dexterity="678" speed="586" tackling="441" passing="495" shooting="568" control="502" accuracy="592" goalkeeping="84" heading="470"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76368">
+    <personal name="Bekir Kucukertas">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="399" risktaking="639" offensive="500" aggressive="659" consistent="571" creative="452" experienced="483"/>
+    <skills stamina="367" dexterity="361" speed="332" tackling="137" passing="250" shooting="279" control="180" accuracy="193" goalkeeping="288" heading="180"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76369">
+    <personal name="Yilmaz Karamanoglu">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="641" risktaking="583" offensive="354" aggressive="267" consistent="790" creative="274" experienced="413"/>
+    <skills stamina="410" dexterity="347" speed="589" tackling="165" passing="284" shooting="398" control="272" accuracy="221" goalkeeping="422" heading="155"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="76370">
+    <personal name="Mustafa Yalcinkaya">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="501" risktaking="438" offensive="450" aggressive="484" consistent="710" creative="443" experienced="550"/>
+    <skills stamina="718" dexterity="373" speed="519" tackling="465" passing="433" shooting="486" control="482" accuracy="400" goalkeeping="72" heading="493"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76371">
+    <personal name="Ugurtan Cepni">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="525" risktaking="496" offensive="557" aggressive="729" consistent="352" creative="579" experienced="387"/>
+    <skills stamina="469" dexterity="651" speed="570" tackling="248" passing="367" shooting="284" control="354" accuracy="303" goalkeeping="61" heading="330"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="76372">
+    <personal name="Cemil Vatansever">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="618" risktaking="627" offensive="341" aggressive="437" consistent="516" creative="568" experienced="545"/>
+    <skills stamina="492" dexterity="562" speed="533" tackling="355" passing="461" shooting="379" control="411" accuracy="396" goalkeeping="73" heading="476"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="76373">
+    <personal name="Ugur Demirok">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="542" risktaking="806" offensive="559" aggressive="438" consistent="395" creative="436" experienced="316"/>
+    <skills stamina="494" dexterity="469" speed="499" tackling="484" passing="440" shooting="512" control="395" accuracy="348" goalkeeping="64" heading="479"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="76374">
+    <personal name="Tamer Tuna">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="423" risktaking="437" offensive="636" aggressive="462" consistent="387" creative="624" experienced="633"/>
+    <skills stamina="442" dexterity="455" speed="597" tackling="453" passing="540" shooting="603" control="518" accuracy="509" goalkeeping="93" heading="519"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="76375">
+    <personal name="Serkan Akin">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="400" risktaking="356" offensive="490" aggressive="775" consistent="674" creative="680" experienced="335"/>
+    <skills stamina="658" dexterity="521" speed="471" tackling="412" passing="406" shooting="438" control="534" accuracy="496" goalkeeping="83" heading="491"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="76376">
+    <personal name="Salim Kaya">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="623" risktaking="646" offensive="622" aggressive="718" consistent="396" creative="275" experienced="584"/>
+    <skills stamina="306" dexterity="417" speed="146" tackling="349" passing="302" shooting="353" control="350" accuracy="279" goalkeeping="46" heading="327"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="76377">
+    <personal name="Halit Guven Kocabal">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="560" risktaking="701" offensive="410" aggressive="469" consistent="551" creative="636" experienced="782"/>
+    <skills stamina="211" dexterity="662" speed="198" tackling="479" passing="458" shooting="463" control="434" accuracy="371" goalkeeping="55" heading="341"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76378">
+    <personal name="Cem Karaca">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="386" risktaking="626" offensive="615" aggressive="260" consistent="244" creative="617" experienced="335"/>
+    <skills stamina="739" dexterity="469" speed="737" tackling="504" passing="438" shooting="466" control="588" accuracy="446" goalkeeping="86" heading="398"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76379">
+    <personal name="Umit Aydin">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="442" risktaking="358" offensive="493" aggressive="517" consistent="537" creative="514" experienced="365"/>
+    <skills stamina="324" dexterity="364" speed="313" tackling="573" passing="583" shooting="439" control="509" accuracy="424" goalkeeping="80" heading="538"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="76380">
+    <personal name="Ahmet Aras">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="368" risktaking="269" offensive="618" aggressive="658" consistent="742" creative="592" experienced="599"/>
+    <skills stamina="483" dexterity="363" speed="412" tackling="277" passing="414" shooting="293" control="351" accuracy="551" goalkeeping="69" heading="408"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76381">
+    <personal name="Elvir Baljic">
+      <appearance value="0"/>
+      <nationality value="Bosnia-Herzegovina"/>
+    </personal>
+    <personality active="418" risktaking="514" offensive="424" aggressive="389" consistent="524" creative="315" experienced="369"/>
+    <skills stamina="319" dexterity="481" speed="369" tackling="497" passing="397" shooting="490" control="567" accuracy="442" goalkeeping="96" heading="574"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="76382">
+    <personal name="Enis Ulusan">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="577" risktaking="461" offensive="441" aggressive="433" consistent="347" creative="780" experienced="443"/>
+    <skills stamina="601" dexterity="712" speed="381" tackling="427" passing="347" shooting="459" control="381" accuracy="446" goalkeeping="73" heading="477"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="76383">
+    <personal name="Kenan Ozer">
+      <appearance value="0"/>
+      <nationality value="Turkey"/>
+    </personal>
+    <personality active="884" risktaking="447" offensive="724" aggressive="418" consistent="482" creative="248" experienced="347"/>
+    <skills stamina="347" dexterity="454" speed="524" tackling="407" passing="271" shooting="386" control="305" accuracy="444" goalkeeping="51" heading="500"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+</Players>

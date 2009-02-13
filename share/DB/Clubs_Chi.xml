@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Audax Italiano">
+    <coach name="Roberto Hernandez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Chile"/>
+    <stadium name="Audax Italiano Stadium"/>
+    <contracts>
+      <contract player="94000"/>
+      <contract player="94001"/>
+      <contract player="94002"/>
+      <contract player="94003"/>
+      <contract player="94004"/>
+      <contract player="94005"/>
+      <contract player="94006"/>
+      <contract player="94007"/>
+      <contract player="94008"/>
+      <contract player="94009"/>
+      <contract player="94010"/>
+      <contract player="94011"/>
+      <contract player="94012"/>
+      <contract player="94013"/>
+      <contract player="94014"/>
+      <contract player="94015"/>
+    </contracts>
+  </club>
+  <club name="Cd Antofagasta">
+    <coach name="Andrija Percic"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Chile"/>
+    <stadium name="Cd Antofagasta Stadium"/>
+    <contracts>
+      <contract player="94016"/>
+      <contract player="94017"/>
+      <contract player="94018"/>
+      <contract player="94019"/>
+      <contract player="94020"/>
+      <contract player="94021"/>
+      <contract player="94022"/>
+      <contract player="94023"/>
+      <contract player="94024"/>
+      <contract player="94025"/>
+      <contract player="94026"/>
+      <contract player="94027"/>
+      <contract player="94028"/>
+      <contract player="94029"/>
+      <contract player="94030"/>
+      <contract player="94031"/>
+    </contracts>
+  </club>
+  <club name="Cd Cobreloa">
+    <coach name="Miguel Ramos"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="127" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="127" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Chile"/>
+    <stadium name="Cd Cobreloa Stadium"/>
+    <contracts>
+      <contract player="94032"/>
+      <contract player="94033"/>
+      <contract player="94034"/>
+      <contract player="94035"/>
+      <contract player="94036"/>
+      <contract player="94037"/>
+      <contract player="94038"/>
+      <contract player="94039"/>
+      <contract player="94040"/>
+      <contract player="94041"/>
+      <contract player="94042"/>
+      <contract player="94043"/>
+      <contract player="94044"/>
+      <contract player="94045"/>
+      <contract player="94046"/>
+      <contract player="94047"/>
+    </contracts>
+  </club>
+  <club name="Cd Concepcion">
+    <coach name="Fernando Cavaleri"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="150" g="75" b="0"/>
+        </shorts>
+        <socks>
+          <color r="150" g="75" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Chile"/>
+    <stadium name="Cd Concepcion Stadium"/>
+    <contracts>
+      <contract player="94048"/>
+      <contract player="94049"/>
+      <contract player="94050"/>
+      <contract player="94051"/>
+      <contract player="94052"/>
+      <contract player="94053"/>
+      <contract player="94054"/>
+      <contract player="94055"/>
+      <contract player="94056"/>
+      <contract player="94057"/>
+      <contract player="94058"/>
+      <contract player="94059"/>
+      <contract player="94060"/>
+      <contract player="94061"/>
+      <contract player="94062"/>
+      <contract player="94063"/>
+    </contracts>
+  </club>
+  <club name="Cd Huachipato">
+    <coach name="Rolando Garcia"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Chile"/>
+    <stadium name="Cd Huachipato Stadium"/>
+    <contracts>
+      <contract player="94064"/>
+      <contract player="94065"/>
+      <contract player="94066"/>
+      <contract player="94067"/>
+      <contract player="94068"/>
+      <contract player="94069"/>
+      <contract player="94070"/>
+      <contract player="94071"/>
+      <contract player="94072"/>
+      <contract player="94073"/>
+      <contract player="94074"/>
+      <contract player="94075"/>
+      <contract player="94076"/>
+      <contract player="94077"/>
+      <contract player="94078"/>
+      <contract player="94079"/>
+    </contracts>
+  </club>
+  <club name="Cd Palestino">
+    <coach name="German Cornejo"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Chile"/>
+    <stadium name="Cd Palestino Stadium"/>
+    <contracts>
+      <contract player="94080"/>
+      <contract player="94081"/>
+      <contract player="94082"/>
+      <contract player="94083"/>
+      <contract player="94084"/>
+      <contract player="94085"/>
+      <contract player="94086"/>
+      <contract player="94087"/>
+      <contract player="94088"/>
+      <contract player="94089"/>
+      <contract player="94090"/>
+      <contract player="94091"/>
+      <contract player="94092"/>
+      <contract player="94093"/>
+      <contract player="94094"/>
+      <contract player="94095"/>
+    </contracts>
+  </club>
+  <club name="Cd Temuco">
+    <coach name="Eduardo Gatica"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Chile"/>
+    <stadium name="Cd Temuco Stadium"/>
+    <contracts>
+      <contract player="94096"/>
+      <contract player="94097"/>
+      <contract player="94098"/>
+      <contract player="94099"/>
+      <contract player="94100"/>
+      <contract player="94101"/>
+      <contract player="94102"/>
+      <contract player="94103"/>
+      <contract player="94104"/>
+      <contract player="94105"/>
+      <contract player="94106"/>
+      <contract player="94107"/>
+      <contract player="94108"/>
+      <contract player="94109"/>
+      <contract player="94110"/>
+      <contract player="94111"/>
+    </contracts>
+  </club>
+  <club name="Colo Colo">
+    <coach name="Gustavo Benitez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Chile"/>
+    <stadium name="Colo Colo Stadium"/>
+    <contracts>
+      <contract player="94112"/>
+      <contract player="94113"/>
+      <contract player="94114"/>
+      <contract player="94115"/>
+      <contract player="94116"/>
+      <contract player="94117"/>
+      <contract player="94118"/>
+      <contract player="94119"/>
+      <contract player="94120"/>
+      <contract player="94121"/>
+      <contract player="94122"/>
+      <contract player="94123"/>
+      <contract player="94124"/>
+      <contract player="94125"/>
+      <contract player="94126"/>
+      <contract player="94127"/>
+    </contracts>
+  </club>
+  <club name="Coquimbo Unido">
+    <coach name="Manuel Rodriguez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Chile"/>
+    <stadium name="Coquimbo Unido Stadium"/>
+    <contracts>
+      <contract player="94128"/>
+      <contract player="94129"/>
+      <contract player="94130"/>
+      <contract player="94131"/>
+      <contract player="94132"/>
+      <contract player="94133"/>
+      <contract player="94134"/>
+      <contract player="94135"/>
+      <contract player="94136"/>
+      <contract player="94137"/>
+      <contract player="94138"/>
+      <contract player="94139"/>
+      <contract player="94140"/>
+      <contract player="94141"/>
+      <contract player="94142"/>
+      <contract player="94143"/>
+    </contracts>
+  </club>
+  <club name="O'higgins">
+    <coach name="Raul Alfaro"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Chile"/>
+    <stadium name="O'higgins Stadium"/>
+    <contracts>
+      <contract player="94144"/>
+      <contract player="94145"/>
+      <contract player="94146"/>
+      <contract player="94147"/>
+      <contract player="94148"/>
+      <contract player="94149"/>
+      <contract player="94150"/>
+      <contract player="94151"/>
+      <contract player="94152"/>
+      <contract player="94153"/>
+      <contract player="94154"/>
+      <contract player="94155"/>
+      <contract player="94156"/>
+      <contract player="94157"/>
+      <contract player="94158"/>
+      <contract player="94159"/>
+    </contracts>
+  </club>
+  <club name="Provincial">
+    <coach name="Oscar Malbernat"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Chile"/>
+    <stadium name="Provincial Stadium"/>
+    <contracts>
+      <contract player="94160"/>
+      <contract player="94161"/>
+      <contract player="94162"/>
+      <contract player="94163"/>
+      <contract player="94164"/>
+      <contract player="94165"/>
+      <contract player="94166"/>
+      <contract player="94167"/>
+      <contract player="94168"/>
+      <contract player="94169"/>
+      <contract player="94170"/>
+      <contract player="94171"/>
+      <contract player="94172"/>
+      <contract player="94173"/>
+      <contract player="94174"/>
+      <contract player="94175"/>
+    </contracts>
+  </club>
+  <club name="Regional Atacama">
+    <coach name="Manuel Soto"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Chile"/>
+    <stadium name="Regional Atacama Stadium"/>
+    <contracts>
+      <contract player="94176"/>
+      <contract player="94177"/>
+      <contract player="94178"/>
+      <contract player="94179"/>
+      <contract player="94180"/>
+      <contract player="94181"/>
+      <contract player="94182"/>
+      <contract player="94183"/>
+      <contract player="94184"/>
+      <contract player="94185"/>
+      <contract player="94186"/>
+      <contract player="94187"/>
+      <contract player="94188"/>
+      <contract player="94189"/>
+      <contract player="94190"/>
+      <contract player="94191"/>
+    </contracts>
+  </club>
+  <club name="Santiago Wdrs.">
+    <coach name="Jorge Siviero"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Chile"/>
+    <stadium name="Santiago Wdrs. Stadium"/>
+    <contracts>
+      <contract player="94192"/>
+      <contract player="94193"/>
+      <contract player="94194"/>
+      <contract player="94195"/>
+      <contract player="94196"/>
+      <contract player="94197"/>
+      <contract player="94198"/>
+      <contract player="94199"/>
+      <contract player="94200"/>
+      <contract player="94201"/>
+      <contract player="94202"/>
+      <contract player="94203"/>
+      <contract player="94204"/>
+      <contract player="94205"/>
+      <contract player="94206"/>
+      <contract player="94207"/>
+    </contracts>
+  </club>
+  <club name="Union Espanola">
+    <coach name="Nelson Acosta"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Chile"/>
+    <stadium name="Union Espanola Stadium"/>
+    <contracts>
+      <contract player="94208"/>
+      <contract player="94209"/>
+      <contract player="94210"/>
+      <contract player="94211"/>
+      <contract player="94212"/>
+      <contract player="94213"/>
+      <contract player="94214"/>
+      <contract player="94215"/>
+      <contract player="94216"/>
+      <contract player="94217"/>
+      <contract player="94218"/>
+      <contract player="94219"/>
+      <contract player="94220"/>
+      <contract player="94221"/>
+      <contract player="94222"/>
+      <contract player="94223"/>
+    </contracts>
+  </club>
+  <club name="Univ. Catolica">
+    <coach name="Manuel Pellegrini"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Chile"/>
+    <stadium name="Univ. Catolica Stadium"/>
+    <contracts>
+      <contract player="94224"/>
+      <contract player="94225"/>
+      <contract player="94226"/>
+      <contract player="94227"/>
+      <contract player="94228"/>
+      <contract player="94229"/>
+      <contract player="94230"/>
+      <contract player="94231"/>
+      <contract player="94232"/>
+      <contract player="94233"/>
+      <contract player="94234"/>
+      <contract player="94235"/>
+      <contract player="94236"/>
+      <contract player="94237"/>
+      <contract player="94238"/>
+      <contract player="94239"/>
+    </contracts>
+  </club>
+  <club name="Univ. De Chile">
+    <coach name="Miguel Russo"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Chile"/>
+    <stadium name="Univ. De Chile Stadium"/>
+    <contracts>
+      <contract player="94240"/>
+      <contract player="94241"/>
+      <contract player="94242"/>
+      <contract player="94243"/>
+      <contract player="94244"/>
+      <contract player="94245"/>
+      <contract player="94246"/>
+      <contract player="94247"/>
+      <contract player="94248"/>
+      <contract player="94249"/>
+      <contract player="94250"/>
+      <contract player="94251"/>
+      <contract player="94252"/>
+      <contract player="94253"/>
+      <contract player="94254"/>
+      <contract player="94255"/>
+    </contracts>
+  </club>
+</Clubs>

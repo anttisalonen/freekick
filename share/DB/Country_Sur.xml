@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Surinam">
+    <Regions>
+      <Region name="Surinam">
+        <stadium name="Inter Moengo Stadium" capacity="100"/>
+        <stadium name="Prekash Stadium" capacity="100"/>
+        <stadium name="Pvv Stadium" capacity="1000"/>
+        <stadium name="Robin Hood Stadium" capacity="4200"/>
+        <stadium name="Sv Boxel Stadium" capacity="100"/>
+        <stadium name="Sv Corona Boys Stadium" capacity="1000"/>
+        <stadium name="Sv Leo Victor Stadium" capacity="5000"/>
+        <stadium name="Sv Nationaal Stadium" capacity="200"/>
+        <stadium name="Sv Road Stadium" capacity="100"/>
+        <stadium name="Sv Transvaal Stadium" capacity="4700"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Surinamese league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="10" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Surinamese Premier league champion"/>
+              <attendances>
+                <attendance tournament="Surinamese Cup" stage="Quarterfinals"/>
+              </attendances>
+              <preset>
+                <club name="Inter Moengo"/>
+                <club name="Prekash"/>
+                <club name="Pvv"/>
+                <club name="Robin Hood"/>
+                <club name="Sv Boxel"/>
+                <club name="Sv Corona Boys"/>
+                <club name="Sv Leo Victor"/>
+                <club name="Sv Nationaal"/>
+                <club name="Sv Road"/>
+                <club name="Sv Transvaal"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Surinamese Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Surinamese Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+          <preset>
+            <club name="Inter Moengo"/>
+            <club name="Prekash"/>
+            <club name="Pvv"/>
+            <club name="Robin Hood"/>
+            <club name="Sv Boxel"/>
+            <club name="Sv Corona Boys"/>
+            <club name="Sv Leo Victor"/>
+            <club name="Sv Nationaal"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

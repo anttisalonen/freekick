@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Anzoategui">
+    <coach name="Pedro La Zorra Brito"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Anzoategui Stadium"/>
+    <contracts>
+      <contract player="126000"/>
+      <contract player="126001"/>
+      <contract player="126002"/>
+      <contract player="126003"/>
+      <contract player="126004"/>
+      <contract player="126005"/>
+      <contract player="126006"/>
+      <contract player="126007"/>
+      <contract player="126008"/>
+      <contract player="126009"/>
+      <contract player="126010"/>
+      <contract player="126011"/>
+      <contract player="126012"/>
+      <contract player="126013"/>
+      <contract player="126014"/>
+      <contract player="126015"/>
+    </contracts>
+  </club>
+  <club name="At Zamora">
+    <coach name="Carlos Ravell"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="At Zamora Stadium"/>
+    <contracts>
+      <contract player="126016"/>
+      <contract player="126017"/>
+      <contract player="126018"/>
+      <contract player="126019"/>
+      <contract player="126020"/>
+      <contract player="126021"/>
+      <contract player="126022"/>
+      <contract player="126023"/>
+      <contract player="126024"/>
+      <contract player="126025"/>
+      <contract player="126026"/>
+      <contract player="126027"/>
+      <contract player="126028"/>
+      <contract player="126029"/>
+      <contract player="126030"/>
+      <contract player="126031"/>
+    </contracts>
+  </club>
+  <club name="Caracas">
+    <coach name="Manuel Plascencia"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Caracas Stadium"/>
+    <contracts>
+      <contract player="126032"/>
+      <contract player="126033"/>
+      <contract player="126034"/>
+      <contract player="126035"/>
+      <contract player="126036"/>
+      <contract player="126037"/>
+      <contract player="126038"/>
+      <contract player="126039"/>
+      <contract player="126040"/>
+      <contract player="126041"/>
+      <contract player="126042"/>
+      <contract player="126043"/>
+      <contract player="126044"/>
+      <contract player="126045"/>
+      <contract player="126046"/>
+      <contract player="126047"/>
+    </contracts>
+  </club>
+  <club name="Deportivo Italia">
+    <coach name="Adolfo Castro"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Deportivo Italia Stadium"/>
+    <contracts>
+      <contract player="126048"/>
+      <contract player="126049"/>
+      <contract player="126050"/>
+      <contract player="126051"/>
+      <contract player="126052"/>
+      <contract player="126053"/>
+      <contract player="126054"/>
+      <contract player="126055"/>
+      <contract player="126056"/>
+      <contract player="126057"/>
+      <contract player="126058"/>
+      <contract player="126059"/>
+      <contract player="126060"/>
+      <contract player="126061"/>
+      <contract player="126062"/>
+      <contract player="126063"/>
+    </contracts>
+  </club>
+  <club name="Deportivo Tuy">
+    <coach name="Vicente Arruda"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Deportivo Tuy Stadium"/>
+    <contracts>
+      <contract player="126064"/>
+      <contract player="126065"/>
+      <contract player="126066"/>
+      <contract player="126067"/>
+      <contract player="126068"/>
+      <contract player="126069"/>
+      <contract player="126070"/>
+      <contract player="126071"/>
+      <contract player="126072"/>
+      <contract player="126073"/>
+      <contract player="126074"/>
+      <contract player="126075"/>
+      <contract player="126076"/>
+      <contract player="126077"/>
+      <contract player="126078"/>
+      <contract player="126079"/>
+    </contracts>
+  </club>
+  <club name="El Vigia">
+    <coach name="Ramon Hernandez"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="El Vigia Stadium"/>
+    <contracts>
+      <contract player="126080"/>
+      <contract player="126081"/>
+      <contract player="126082"/>
+      <contract player="126083"/>
+      <contract player="126084"/>
+      <contract player="126085"/>
+      <contract player="126086"/>
+      <contract player="126087"/>
+      <contract player="126088"/>
+      <contract player="126089"/>
+      <contract player="126090"/>
+      <contract player="126091"/>
+      <contract player="126092"/>
+      <contract player="126093"/>
+      <contract player="126094"/>
+      <contract player="126095"/>
+    </contracts>
+  </club>
+  <club name="Estudiantes">
+    <coach name="Pacho Moreno"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Estudiantes Stadium"/>
+    <contracts>
+      <contract player="126096"/>
+      <contract player="126097"/>
+      <contract player="126098"/>
+      <contract player="126099"/>
+      <contract player="126100"/>
+      <contract player="126101"/>
+      <contract player="126102"/>
+      <contract player="126103"/>
+      <contract player="126104"/>
+      <contract player="126105"/>
+      <contract player="126106"/>
+      <contract player="126107"/>
+      <contract player="126108"/>
+      <contract player="126109"/>
+      <contract player="126110"/>
+      <contract player="126111"/>
+    </contracts>
+  </club>
+  <club name="Industriales">
+    <coach name="Carlos Palacios"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Industriales Stadium"/>
+    <contracts>
+      <contract player="126112"/>
+      <contract player="126113"/>
+      <contract player="126114"/>
+      <contract player="126115"/>
+      <contract player="126116"/>
+      <contract player="126117"/>
+      <contract player="126118"/>
+      <contract player="126119"/>
+      <contract player="126120"/>
+      <contract player="126121"/>
+      <contract player="126122"/>
+      <contract player="126123"/>
+      <contract player="126124"/>
+      <contract player="126125"/>
+      <contract player="126126"/>
+      <contract player="126127"/>
+    </contracts>
+  </club>
+  <club name="Llaneros">
+    <coach name="Washington Antunez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Llaneros Stadium"/>
+    <contracts>
+      <contract player="126128"/>
+      <contract player="126129"/>
+      <contract player="126130"/>
+      <contract player="126131"/>
+      <contract player="126132"/>
+      <contract player="126133"/>
+      <contract player="126134"/>
+      <contract player="126135"/>
+      <contract player="126136"/>
+      <contract player="126137"/>
+      <contract player="126138"/>
+      <contract player="126139"/>
+      <contract player="126140"/>
+      <contract player="126141"/>
+      <contract player="126142"/>
+      <contract player="126143"/>
+    </contracts>
+  </club>
+  <club name="Maracaibo">
+    <coach name="Danger Mendonca"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Maracaibo Stadium"/>
+    <contracts>
+      <contract player="126144"/>
+      <contract player="126145"/>
+      <contract player="126146"/>
+      <contract player="126147"/>
+      <contract player="126148"/>
+      <contract player="126149"/>
+      <contract player="126150"/>
+      <contract player="126151"/>
+      <contract player="126152"/>
+      <contract player="126153"/>
+      <contract player="126154"/>
+      <contract player="126155"/>
+      <contract player="126156"/>
+      <contract player="126157"/>
+      <contract player="126158"/>
+      <contract player="126159"/>
+    </contracts>
+  </club>
+  <club name="Marinos De Sucre">
+    <coach name="Ramon Betancourt"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Marinos De Sucre Stadium"/>
+    <contracts>
+      <contract player="126160"/>
+      <contract player="126161"/>
+      <contract player="126162"/>
+      <contract player="126163"/>
+      <contract player="126164"/>
+      <contract player="126165"/>
+      <contract player="126166"/>
+      <contract player="126167"/>
+      <contract player="126168"/>
+      <contract player="126169"/>
+      <contract player="126170"/>
+      <contract player="126171"/>
+      <contract player="126172"/>
+      <contract player="126173"/>
+      <contract player="126174"/>
+      <contract player="126175"/>
+    </contracts>
+  </club>
+  <club name="Martimo">
+    <coach name="Alfredo Lopez"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Martimo Stadium"/>
+    <contracts>
+      <contract player="126176"/>
+      <contract player="126177"/>
+      <contract player="126178"/>
+      <contract player="126179"/>
+      <contract player="126180"/>
+      <contract player="126181"/>
+      <contract player="126182"/>
+      <contract player="126183"/>
+      <contract player="126184"/>
+      <contract player="126185"/>
+      <contract player="126186"/>
+      <contract player="126187"/>
+      <contract player="126188"/>
+      <contract player="126189"/>
+      <contract player="126190"/>
+      <contract player="126191"/>
+    </contracts>
+  </club>
+  <club name="Mineros Guayana">
+    <coach name="Eduardo Borrero"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Mineros Guayana Stadium"/>
+    <contracts>
+      <contract player="126192"/>
+      <contract player="126193"/>
+      <contract player="126194"/>
+      <contract player="126195"/>
+      <contract player="126196"/>
+      <contract player="126197"/>
+      <contract player="126198"/>
+      <contract player="126199"/>
+      <contract player="126200"/>
+      <contract player="126201"/>
+      <contract player="126202"/>
+      <contract player="126203"/>
+      <contract player="126204"/>
+      <contract player="126205"/>
+      <contract player="126206"/>
+      <contract player="126207"/>
+    </contracts>
+  </club>
+  <club name="Minerven">
+    <coach name="Nerio Hernandez"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Minerven Stadium"/>
+    <contracts>
+      <contract player="126208"/>
+      <contract player="126209"/>
+      <contract player="126210"/>
+      <contract player="126211"/>
+      <contract player="126212"/>
+      <contract player="126213"/>
+      <contract player="126214"/>
+      <contract player="126215"/>
+      <contract player="126216"/>
+      <contract player="126217"/>
+      <contract player="126218"/>
+      <contract player="126219"/>
+      <contract player="126220"/>
+      <contract player="126221"/>
+      <contract player="126222"/>
+      <contract player="126223"/>
+    </contracts>
+  </club>
+  <club name="Monagas">
+    <coach name="Radamel Garcia"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Monagas Stadium"/>
+    <contracts>
+      <contract player="126224"/>
+      <contract player="126225"/>
+      <contract player="126226"/>
+      <contract player="126227"/>
+      <contract player="126228"/>
+      <contract player="126229"/>
+      <contract player="126230"/>
+      <contract player="126231"/>
+      <contract player="126232"/>
+      <contract player="126233"/>
+      <contract player="126234"/>
+      <contract player="126235"/>
+      <contract player="126236"/>
+      <contract player="126237"/>
+      <contract player="126238"/>
+      <contract player="126239"/>
+    </contracts>
+  </club>
+  <club name="Saman De Aragua">
+    <coach name="Ramon Useche"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Saman De Aragua Stadium"/>
+    <contracts>
+      <contract player="126240"/>
+      <contract player="126241"/>
+      <contract player="126242"/>
+      <contract player="126243"/>
+      <contract player="126244"/>
+      <contract player="126245"/>
+      <contract player="126246"/>
+      <contract player="126247"/>
+      <contract player="126248"/>
+      <contract player="126249"/>
+      <contract player="126250"/>
+      <contract player="126251"/>
+      <contract player="126252"/>
+      <contract player="126253"/>
+      <contract player="126254"/>
+      <contract player="126255"/>
+    </contracts>
+  </club>
+  <club name="San Cristobal">
+    <coach name="Manuel Contreras"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="127" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="127" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="127" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="San Cristobal Stadium"/>
+    <contracts>
+      <contract player="126256"/>
+      <contract player="126257"/>
+      <contract player="126258"/>
+      <contract player="126259"/>
+      <contract player="126260"/>
+      <contract player="126261"/>
+      <contract player="126262"/>
+      <contract player="126263"/>
+      <contract player="126264"/>
+      <contract player="126265"/>
+      <contract player="126266"/>
+      <contract player="126267"/>
+      <contract player="126268"/>
+      <contract player="126269"/>
+      <contract player="126270"/>
+      <contract player="126271"/>
+    </contracts>
+  </club>
+  <club name="Tachira">
+    <coach name="Victor Pignarelli"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Tachira Stadium"/>
+    <contracts>
+      <contract player="126272"/>
+      <contract player="126273"/>
+      <contract player="126274"/>
+      <contract player="126275"/>
+      <contract player="126276"/>
+      <contract player="126277"/>
+      <contract player="126278"/>
+      <contract player="126279"/>
+      <contract player="126280"/>
+      <contract player="126281"/>
+      <contract player="126282"/>
+      <contract player="126283"/>
+      <contract player="126284"/>
+      <contract player="126285"/>
+      <contract player="126286"/>
+      <contract player="126287"/>
+    </contracts>
+  </club>
+  <club name="Trujillanos">
+    <coach name="Rafael Santana"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="150" g="75" b="0"/>
+        </shorts>
+        <socks>
+          <color r="150" g="75" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Trujillanos Stadium"/>
+    <contracts>
+      <contract player="126288"/>
+      <contract player="126289"/>
+      <contract player="126290"/>
+      <contract player="126291"/>
+      <contract player="126292"/>
+      <contract player="126293"/>
+      <contract player="126294"/>
+      <contract player="126295"/>
+      <contract player="126296"/>
+      <contract player="126297"/>
+      <contract player="126298"/>
+      <contract player="126299"/>
+      <contract player="126300"/>
+      <contract player="126301"/>
+      <contract player="126302"/>
+      <contract player="126303"/>
+    </contracts>
+  </club>
+  <club name="Uni De Los Andes">
+    <coach name="Alfredo Carabot"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Uni De Los Andes Stadium"/>
+    <contracts>
+      <contract player="126304"/>
+      <contract player="126305"/>
+      <contract player="126306"/>
+      <contract player="126307"/>
+      <contract player="126308"/>
+      <contract player="126309"/>
+      <contract player="126310"/>
+      <contract player="126311"/>
+      <contract player="126312"/>
+      <contract player="126313"/>
+      <contract player="126314"/>
+      <contract player="126315"/>
+      <contract player="126316"/>
+      <contract player="126317"/>
+      <contract player="126318"/>
+      <contract player="126319"/>
+    </contracts>
+  </club>
+  <club name="Unicol">
+    <coach name="Antonio Vieira"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Unicol Stadium"/>
+    <contracts>
+      <contract player="126320"/>
+      <contract player="126321"/>
+      <contract player="126322"/>
+      <contract player="126323"/>
+      <contract player="126324"/>
+      <contract player="126325"/>
+      <contract player="126326"/>
+      <contract player="126327"/>
+      <contract player="126328"/>
+      <contract player="126329"/>
+      <contract player="126330"/>
+      <contract player="126331"/>
+      <contract player="126332"/>
+      <contract player="126333"/>
+      <contract player="126334"/>
+      <contract player="126335"/>
+    </contracts>
+  </club>
+  <club name="Valencia">
+    <coach name="Jose Garzetti"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Venezuela"/>
+    <stadium name="Valencia Stadium"/>
+    <contracts>
+      <contract player="126336"/>
+      <contract player="126337"/>
+      <contract player="126338"/>
+      <contract player="126339"/>
+      <contract player="126340"/>
+      <contract player="126341"/>
+      <contract player="126342"/>
+      <contract player="126343"/>
+      <contract player="126344"/>
+      <contract player="126345"/>
+      <contract player="126346"/>
+      <contract player="126347"/>
+      <contract player="126348"/>
+      <contract player="126349"/>
+      <contract player="126350"/>
+      <contract player="126351"/>
+    </contracts>
+  </club>
+</Clubs>

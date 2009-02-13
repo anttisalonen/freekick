@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Cailungo">
+    <coach name="Bruno Albani"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="San Marino"/>
+    <stadium name="Cailungo Stadium"/>
+    <contracts>
+      <contract player="64000"/>
+      <contract player="64001"/>
+      <contract player="64002"/>
+      <contract player="64003"/>
+      <contract player="64004"/>
+      <contract player="64005"/>
+      <contract player="64006"/>
+      <contract player="64007"/>
+      <contract player="64008"/>
+      <contract player="64009"/>
+      <contract player="64010"/>
+      <contract player="64011"/>
+      <contract player="64012"/>
+      <contract player="64013"/>
+      <contract player="64014"/>
+      <contract player="64015"/>
+    </contracts>
+  </club>
+  <club name="Cosmos">
+    <coach name="Dante Maiani"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="San Marino"/>
+    <stadium name="Cosmos Stadium"/>
+    <contracts>
+      <contract player="64016"/>
+      <contract player="64017"/>
+      <contract player="64018"/>
+      <contract player="64019"/>
+      <contract player="64020"/>
+      <contract player="64021"/>
+      <contract player="64022"/>
+      <contract player="64023"/>
+      <contract player="64024"/>
+      <contract player="64025"/>
+      <contract player="64026"/>
+      <contract player="64027"/>
+      <contract player="64028"/>
+      <contract player="64029"/>
+      <contract player="64030"/>
+      <contract player="64031"/>
+    </contracts>
+  </club>
+  <club name="Domagnano">
+    <coach name="Roberto Ranocchini"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="San Marino"/>
+    <stadium name="Domagnano Stadium"/>
+    <contracts>
+      <contract player="64032"/>
+      <contract player="64033"/>
+      <contract player="64034"/>
+      <contract player="64035"/>
+      <contract player="64036"/>
+      <contract player="64037"/>
+      <contract player="64038"/>
+      <contract player="64039"/>
+      <contract player="64040"/>
+      <contract player="64041"/>
+      <contract player="64042"/>
+      <contract player="64043"/>
+      <contract player="64044"/>
+      <contract player="64045"/>
+      <contract player="64046"/>
+      <contract player="64047"/>
+    </contracts>
+  </club>
+  <club name="Faetano">
+    <coach name="Joseph Guidi"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="San Marino"/>
+    <stadium name="Faetano Stadium"/>
+    <contracts>
+      <contract player="64048"/>
+      <contract player="64049"/>
+      <contract player="64050"/>
+      <contract player="64051"/>
+      <contract player="64052"/>
+      <contract player="64053"/>
+      <contract player="64054"/>
+      <contract player="64055"/>
+      <contract player="64056"/>
+      <contract player="64057"/>
+      <contract player="64058"/>
+      <contract player="64059"/>
+      <contract player="64060"/>
+      <contract player="64061"/>
+      <contract player="64062"/>
+      <contract player="64063"/>
+    </contracts>
+  </club>
+  <club name="Folgore">
+    <coach name="Sereno Uraldi"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="San Marino"/>
+    <stadium name="Folgore Stadium"/>
+    <contracts>
+      <contract player="64064"/>
+      <contract player="64065"/>
+      <contract player="64066"/>
+      <contract player="64067"/>
+      <contract player="64068"/>
+      <contract player="64069"/>
+      <contract player="64070"/>
+      <contract player="64071"/>
+      <contract player="64072"/>
+      <contract player="64073"/>
+      <contract player="64074"/>
+      <contract player="64075"/>
+      <contract player="64076"/>
+      <contract player="64077"/>
+      <contract player="64078"/>
+      <contract player="64079"/>
+    </contracts>
+  </club>
+  <club name="Juvenes">
+    <coach name="Danilo Forcellini"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="San Marino"/>
+    <stadium name="Juvenes Stadium"/>
+    <contracts>
+      <contract player="64080"/>
+      <contract player="64081"/>
+      <contract player="64082"/>
+      <contract player="64083"/>
+      <contract player="64084"/>
+      <contract player="64085"/>
+      <contract player="64086"/>
+      <contract player="64087"/>
+      <contract player="64088"/>
+      <contract player="64089"/>
+      <contract player="64090"/>
+      <contract player="64091"/>
+      <contract player="64092"/>
+      <contract player="64093"/>
+      <contract player="64094"/>
+      <contract player="64095"/>
+    </contracts>
+  </club>
+  <club name="Libertas">
+    <coach name="Pier Luigi Parenti"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="150" g="75" b="0"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="150" g="75" b="0"/>
+        </shorts>
+        <socks>
+          <color r="150" g="75" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="San Marino"/>
+    <stadium name="Libertas Stadium"/>
+    <contracts>
+      <contract player="64096"/>
+      <contract player="64097"/>
+      <contract player="64098"/>
+      <contract player="64099"/>
+      <contract player="64100"/>
+      <contract player="64101"/>
+      <contract player="64102"/>
+      <contract player="64103"/>
+      <contract player="64104"/>
+      <contract player="64105"/>
+      <contract player="64106"/>
+      <contract player="64107"/>
+      <contract player="64108"/>
+      <contract player="64109"/>
+      <contract player="64110"/>
+      <contract player="64111"/>
+    </contracts>
+  </club>
+  <club name="Montevito">
+    <coach name="Domebico Pedini"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="San Marino"/>
+    <stadium name="Montevito Stadium"/>
+    <contracts>
+      <contract player="64112"/>
+      <contract player="64113"/>
+      <contract player="64114"/>
+      <contract player="64115"/>
+      <contract player="64116"/>
+      <contract player="64117"/>
+      <contract player="64118"/>
+      <contract player="64119"/>
+      <contract player="64120"/>
+      <contract player="64121"/>
+      <contract player="64122"/>
+      <contract player="64123"/>
+      <contract player="64124"/>
+      <contract player="64125"/>
+      <contract player="64126"/>
+      <contract player="64127"/>
+    </contracts>
+  </club>
+  <club name="Murata">
+    <coach name="Sergio Penserini"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="San Marino"/>
+    <stadium name="Murata Stadium"/>
+    <contracts>
+      <contract player="64128"/>
+      <contract player="64129"/>
+      <contract player="64130"/>
+      <contract player="64131"/>
+      <contract player="64132"/>
+      <contract player="64133"/>
+      <contract player="64134"/>
+      <contract player="64135"/>
+      <contract player="64136"/>
+      <contract player="64137"/>
+      <contract player="64138"/>
+      <contract player="64139"/>
+      <contract player="64140"/>
+      <contract player="64141"/>
+      <contract player="64142"/>
+      <contract player="64143"/>
+    </contracts>
+  </club>
+  <club name="Tre Fiori">
+    <coach name="Duilio Felici"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="San Marino"/>
+    <stadium name="Tre Fiori Stadium"/>
+    <contracts>
+      <contract player="64144"/>
+      <contract player="64145"/>
+      <contract player="64146"/>
+      <contract player="64147"/>
+      <contract player="64148"/>
+      <contract player="64149"/>
+      <contract player="64150"/>
+      <contract player="64151"/>
+      <contract player="64152"/>
+      <contract player="64153"/>
+      <contract player="64154"/>
+      <contract player="64155"/>
+      <contract player="64156"/>
+      <contract player="64157"/>
+      <contract player="64158"/>
+      <contract player="64159"/>
+    </contracts>
+  </club>
+  <club name="Tre Penne">
+    <coach name="Andrea Tini"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="San Marino"/>
+    <stadium name="Tre Penne Stadium"/>
+    <contracts>
+      <contract player="64160"/>
+      <contract player="64161"/>
+      <contract player="64162"/>
+      <contract player="64163"/>
+      <contract player="64164"/>
+      <contract player="64165"/>
+      <contract player="64166"/>
+      <contract player="64167"/>
+      <contract player="64168"/>
+      <contract player="64169"/>
+      <contract player="64170"/>
+      <contract player="64171"/>
+      <contract player="64172"/>
+      <contract player="64173"/>
+      <contract player="64174"/>
+      <contract player="64175"/>
+    </contracts>
+  </club>
+  <club name="Virtus">
+    <coach name="Leo Ferrini"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="San Marino"/>
+    <stadium name="Virtus Stadium"/>
+    <contracts>
+      <contract player="64176"/>
+      <contract player="64177"/>
+      <contract player="64178"/>
+      <contract player="64179"/>
+      <contract player="64180"/>
+      <contract player="64181"/>
+      <contract player="64182"/>
+      <contract player="64183"/>
+      <contract player="64184"/>
+      <contract player="64185"/>
+      <contract player="64186"/>
+      <contract player="64187"/>
+      <contract player="64188"/>
+      <contract player="64189"/>
+      <contract player="64190"/>
+      <contract player="64191"/>
+    </contracts>
+  </club>
+</Clubs>

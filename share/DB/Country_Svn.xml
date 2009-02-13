@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Slovenia">
+    <Regions>
+      <Region name="Slovenia">
+        <stadium name="1.fc Kosice Stadium" capacity="6000"/>
+        <stadium name="Banska Bystrica Stadium" capacity="4100"/>
+        <stadium name="Chemlon Humenne Stadium" capacity="4200"/>
+        <stadium name="Dunajska Streda Stadium" capacity="9800"/>
+        <stadium name="Fc Nitra Stadium" capacity="5700"/>
+        <stadium name="Inter Bratislava Stadium" capacity="9700"/>
+        <stadium name="Lok. Kosice Stadium" capacity="4800"/>
+        <stadium name="Prievidza Stadium" capacity="4700"/>
+        <stadium name="Slovan Br'slava Stadium" capacity="15000"/>
+        <stadium name="Spartak Trnava Stadium" capacity="5100"/>
+        <stadium name="Tatran Presov Stadium" capacity="7200"/>
+        <stadium name="Zilina Stadium" capacity="5500"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Slovenian league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="12" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Slovenian Premier league champion"/>
+              <attendances>
+                <attendance tournament="Slovenian Cup" stage="Quarterfinals"/>
+              </attendances>
+              <preset>
+                <club name="1.fc Kosice"/>
+                <club name="Banska Bystrica"/>
+                <club name="Chemlon Humenne"/>
+                <club name="Dunajska Streda"/>
+                <club name="Fc Nitra"/>
+                <club name="Inter Bratislava"/>
+                <club name="Lok. Kosice"/>
+                <club name="Prievidza"/>
+                <club name="Slovan Br'slava"/>
+                <club name="Spartak Trnava"/>
+                <club name="Tatran Presov"/>
+                <club name="Zilina"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Slovenian Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Slovenian Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+          <preset>
+            <club name="1.fc Kosice"/>
+            <club name="Banska Bystrica"/>
+            <club name="Chemlon Humenne"/>
+            <club name="Dunajska Streda"/>
+            <club name="Fc Nitra"/>
+            <club name="Inter Bratislava"/>
+            <club name="Lok. Kosice"/>
+            <club name="Prievidza"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

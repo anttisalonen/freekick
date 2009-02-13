@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Beroe">
+    <coach name="Eduard Eronosyan"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bulgaria"/>
+    <stadium name="Beroe Stadium"/>
+    <contracts>
+      <contract player="8000"/>
+      <contract player="8001"/>
+      <contract player="8002"/>
+      <contract player="8003"/>
+      <contract player="8004"/>
+      <contract player="8005"/>
+      <contract player="8006"/>
+      <contract player="8007"/>
+      <contract player="8008"/>
+      <contract player="8009"/>
+      <contract player="8010"/>
+      <contract player="8011"/>
+      <contract player="8012"/>
+      <contract player="8013"/>
+      <contract player="8014"/>
+      <contract player="8015"/>
+    </contracts>
+  </club>
+  <club name="Botev Plovdiv">
+    <coach name="Tencho Tenev"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="128" g="128" b="128"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="128" g="128" b="128"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bulgaria"/>
+    <stadium name="Botev Plovdiv Stadium"/>
+    <contracts>
+      <contract player="8016"/>
+      <contract player="8017"/>
+      <contract player="8018"/>
+      <contract player="8019"/>
+      <contract player="8020"/>
+      <contract player="8021"/>
+      <contract player="8022"/>
+      <contract player="8023"/>
+      <contract player="8024"/>
+      <contract player="8025"/>
+      <contract player="8026"/>
+      <contract player="8027"/>
+      <contract player="8028"/>
+      <contract player="8029"/>
+      <contract player="8030"/>
+      <contract player="8031"/>
+    </contracts>
+  </club>
+  <club name="Cska Sofia">
+    <coach name="Stoycho Mladenov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bulgaria"/>
+    <stadium name="Cska Sofia Stadium"/>
+    <contracts>
+      <contract player="8032"/>
+      <contract player="8033"/>
+      <contract player="8034"/>
+      <contract player="8035"/>
+      <contract player="8036"/>
+      <contract player="8037"/>
+      <contract player="8038"/>
+      <contract player="8039"/>
+      <contract player="8040"/>
+      <contract player="8041"/>
+      <contract player="8042"/>
+      <contract player="8043"/>
+      <contract player="8044"/>
+      <contract player="8045"/>
+      <contract player="8046"/>
+      <contract player="8047"/>
+    </contracts>
+  </club>
+  <club name="Belasitsa">
+    <coach name="Alyosha Andonov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bulgaria"/>
+    <stadium name="Belasitsa Stadium"/>
+    <contracts>
+      <contract player="8048"/>
+      <contract player="8049"/>
+      <contract player="8050"/>
+      <contract player="8051"/>
+      <contract player="8052"/>
+      <contract player="8053"/>
+      <contract player="8054"/>
+      <contract player="8055"/>
+      <contract player="8056"/>
+      <contract player="8057"/>
+      <contract player="8058"/>
+      <contract player="8059"/>
+      <contract player="8060"/>
+      <contract player="8061"/>
+      <contract player="8062"/>
+      <contract player="8063"/>
+    </contracts>
+  </club>
+  <club name="Chernomorets">
+    <coach name="Dimitar Dimitrov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bulgaria"/>
+    <stadium name="Chernomorets Stadium"/>
+    <contracts>
+      <contract player="8064"/>
+      <contract player="8065"/>
+      <contract player="8066"/>
+      <contract player="8067"/>
+      <contract player="8068"/>
+      <contract player="8069"/>
+      <contract player="8070"/>
+      <contract player="8071"/>
+      <contract player="8072"/>
+      <contract player="8073"/>
+      <contract player="8074"/>
+      <contract player="8075"/>
+      <contract player="8076"/>
+      <contract player="8077"/>
+      <contract player="8078"/>
+      <contract player="8079"/>
+    </contracts>
+  </club>
+  <club name="Litex">
+    <coach name="Miodrag Jesic"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="127" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bulgaria"/>
+    <stadium name="Litex Stadium"/>
+    <contracts>
+      <contract player="8080"/>
+      <contract player="8081"/>
+      <contract player="8082"/>
+      <contract player="8083"/>
+      <contract player="8084"/>
+      <contract player="8085"/>
+      <contract player="8086"/>
+      <contract player="8087"/>
+      <contract player="8088"/>
+      <contract player="8089"/>
+      <contract player="8090"/>
+      <contract player="8091"/>
+      <contract player="8092"/>
+      <contract player="8093"/>
+      <contract player="8094"/>
+      <contract player="8095"/>
+    </contracts>
+  </club>
+  <club name="Levski Sofia">
+    <coach name="Stanimir Stoilov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bulgaria"/>
+    <stadium name="Levski Sofia Stadium"/>
+    <contracts>
+      <contract player="8096"/>
+      <contract player="8097"/>
+      <contract player="8098"/>
+      <contract player="8099"/>
+      <contract player="8100"/>
+      <contract player="8101"/>
+      <contract player="8102"/>
+      <contract player="8103"/>
+      <contract player="8104"/>
+      <contract player="8105"/>
+      <contract player="8106"/>
+      <contract player="8107"/>
+      <contract player="8108"/>
+      <contract player="8109"/>
+      <contract player="8110"/>
+      <contract player="8111"/>
+    </contracts>
+  </club>
+  <club name="Cherno More">
+    <coach name="Nikola Spasov"/>
+    <kits>
+      <kit>
+        <jersey type="3">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bulgaria"/>
+    <stadium name="Cherno More Stadium"/>
+    <contracts>
+      <contract player="8112"/>
+      <contract player="8113"/>
+      <contract player="8114"/>
+      <contract player="8115"/>
+      <contract player="8116"/>
+      <contract player="8117"/>
+      <contract player="8118"/>
+      <contract player="8119"/>
+      <contract player="8120"/>
+      <contract player="8121"/>
+      <contract player="8122"/>
+      <contract player="8123"/>
+      <contract player="8124"/>
+      <contract player="8125"/>
+      <contract player="8126"/>
+      <contract player="8127"/>
+    </contracts>
+  </club>
+  <club name="Loko Plovdiv">
+    <coach name="Yasen Petrov"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bulgaria"/>
+    <stadium name="Loko Plovdiv Stadium"/>
+    <contracts>
+      <contract player="8128"/>
+      <contract player="8129"/>
+      <contract player="8130"/>
+      <contract player="8131"/>
+      <contract player="8132"/>
+      <contract player="8133"/>
+      <contract player="8134"/>
+      <contract player="8135"/>
+      <contract player="8136"/>
+      <contract player="8137"/>
+      <contract player="8138"/>
+      <contract player="8139"/>
+      <contract player="8140"/>
+      <contract player="8141"/>
+      <contract player="8142"/>
+      <contract player="8143"/>
+    </contracts>
+  </club>
+  <club name="Loko Sofia">
+    <coach name="Stefan Grozdanov"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bulgaria"/>
+    <stadium name="Loko Sofia Stadium"/>
+    <contracts>
+      <contract player="8144"/>
+      <contract player="8145"/>
+      <contract player="8146"/>
+      <contract player="8147"/>
+      <contract player="8148"/>
+      <contract player="8149"/>
+      <contract player="8150"/>
+      <contract player="8151"/>
+      <contract player="8152"/>
+      <contract player="8153"/>
+      <contract player="8154"/>
+      <contract player="8155"/>
+      <contract player="8156"/>
+      <contract player="8157"/>
+      <contract player="8158"/>
+      <contract player="8159"/>
+    </contracts>
+  </club>
+  <club name="Marek">
+    <coach name="Stoyan Kotsev"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bulgaria"/>
+    <stadium name="Marek Stadium"/>
+    <contracts>
+      <contract player="8160"/>
+      <contract player="8161"/>
+      <contract player="8162"/>
+      <contract player="8163"/>
+      <contract player="8164"/>
+      <contract player="8165"/>
+      <contract player="8166"/>
+      <contract player="8167"/>
+      <contract player="8168"/>
+      <contract player="8169"/>
+      <contract player="8170"/>
+      <contract player="8171"/>
+      <contract player="8172"/>
+      <contract player="8173"/>
+      <contract player="8174"/>
+      <contract player="8175"/>
+    </contracts>
+  </club>
+  <club name="Vidima-rakovski">
+    <coach name="Kostadin Angelov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bulgaria"/>
+    <stadium name="Vidima-rakovski Stadium"/>
+    <contracts>
+      <contract player="8176"/>
+      <contract player="8177"/>
+      <contract player="8178"/>
+      <contract player="8179"/>
+      <contract player="8180"/>
+      <contract player="8181"/>
+      <contract player="8182"/>
+      <contract player="8183"/>
+      <contract player="8184"/>
+      <contract player="8185"/>
+      <contract player="8186"/>
+      <contract player="8187"/>
+      <contract player="8188"/>
+      <contract player="8189"/>
+      <contract player="8190"/>
+      <contract player="8191"/>
+    </contracts>
+  </club>
+  <club name="Pirin">
+    <coach name="Peter Cvetkov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="255" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bulgaria"/>
+    <stadium name="Pirin Stadium"/>
+    <contracts>
+      <contract player="8192"/>
+      <contract player="8193"/>
+      <contract player="8194"/>
+      <contract player="8195"/>
+      <contract player="8196"/>
+      <contract player="8197"/>
+      <contract player="8198"/>
+      <contract player="8199"/>
+      <contract player="8200"/>
+      <contract player="8201"/>
+      <contract player="8202"/>
+      <contract player="8203"/>
+      <contract player="8204"/>
+      <contract player="8205"/>
+      <contract player="8206"/>
+      <contract player="8207"/>
+    </contracts>
+  </club>
+  <club name="Spartak Varna">
+    <coach name="Atanas Atanasov"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="173" g="216" b="230"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="173" g="216" b="230"/>
+        </shorts>
+        <socks>
+          <color r="173" g="216" b="230"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bulgaria"/>
+    <stadium name="Spartak Varna Stadium"/>
+    <contracts>
+      <contract player="8208"/>
+      <contract player="8209"/>
+      <contract player="8210"/>
+      <contract player="8211"/>
+      <contract player="8212"/>
+      <contract player="8213"/>
+      <contract player="8214"/>
+      <contract player="8215"/>
+      <contract player="8216"/>
+      <contract player="8217"/>
+      <contract player="8218"/>
+      <contract player="8219"/>
+      <contract player="8220"/>
+      <contract player="8221"/>
+      <contract player="8222"/>
+      <contract player="8223"/>
+    </contracts>
+  </club>
+  <club name="Slavia Sofia">
+    <coach name="Stevica Kuzmanovski"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="173" g="216" b="230"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bulgaria"/>
+    <stadium name="Slavia Sofia Stadium"/>
+    <contracts>
+      <contract player="8224"/>
+      <contract player="8225"/>
+      <contract player="8226"/>
+      <contract player="8227"/>
+      <contract player="8228"/>
+      <contract player="8229"/>
+      <contract player="8230"/>
+      <contract player="8231"/>
+      <contract player="8232"/>
+      <contract player="8233"/>
+      <contract player="8234"/>
+      <contract player="8235"/>
+      <contract player="8236"/>
+      <contract player="8237"/>
+      <contract player="8238"/>
+      <contract player="8239"/>
+    </contracts>
+  </club>
+  <club name="Vihren">
+    <coach name="Eduard Eranosyan"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Bulgaria"/>
+    <stadium name="Vihren Stadium"/>
+    <contracts>
+      <contract player="8240"/>
+      <contract player="8241"/>
+      <contract player="8242"/>
+      <contract player="8243"/>
+      <contract player="8244"/>
+      <contract player="8245"/>
+      <contract player="8246"/>
+      <contract player="8247"/>
+      <contract player="8248"/>
+      <contract player="8249"/>
+      <contract player="8250"/>
+      <contract player="8251"/>
+      <contract player="8252"/>
+      <contract player="8253"/>
+      <contract player="8254"/>
+      <contract player="8255"/>
+    </contracts>
+  </club>
+</Clubs>

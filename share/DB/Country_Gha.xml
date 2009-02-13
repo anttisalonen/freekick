@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Ghana">
+    <Regions>
+      <Region name="Ghana">
+        <stadium name="Asante Kotoko Stadium" capacity="7700"/>
+        <stadium name="Cape Coast  Stadium" capacity="5000"/>
+        <stadium name="Dawu Youngsters Stadium" capacity="4700"/>
+        <stadium name="Great Olympics Stadium" capacity="7300"/>
+        <stadium name="Hearts Of Oak Stadium" capacity="12400"/>
+        <stadium name="Neoplan Stars Stadium" capacity="4700"/>
+        <stadium name="Obuasi Goldfield Stadium" capacity="7800"/>
+        <stadium name="Orwahu Stores Ud Stadium" capacity="4200"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Ghanaian league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="8" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Ghanaian Premier league champion"/>
+              <attendances>
+                <attendance tournament="Ghanaian Cup" stage="Quarterfinals"/>
+              </attendances>
+              <preset>
+                <club name="Asante Kotoko"/>
+                <club name="Cape Coast "/>
+                <club name="Dawu Youngsters"/>
+                <club name="Great Olympics"/>
+                <club name="Hearts Of Oak"/>
+                <club name="Neoplan Stars"/>
+                <club name="Obuasi Goldfield"/>
+                <club name="Orwahu Stores Ud"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Ghanaian Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Ghanaian Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+          <preset>
+            <club name="Asante Kotoko"/>
+            <club name="Cape Coast "/>
+            <club name="Dawu Youngsters"/>
+            <club name="Great Olympics"/>
+            <club name="Hearts Of Oak"/>
+            <club name="Neoplan Stars"/>
+            <club name="Obuasi Goldfield"/>
+            <club name="Orwahu Stores Ud"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

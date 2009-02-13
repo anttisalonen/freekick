@@ -1,0 +1,3459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="92000">
+    <personal name="Julian Viafara">
+      <appearance value="1"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="550" risktaking="395" offensive="678" aggressive="407" consistent="648" creative="693" experienced="615"/>
+    <skills stamina="646" dexterity="739" speed="595" tackling="307" passing="540" shooting="531" control="463" accuracy="309" goalkeeping="546" heading="218"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92001">
+    <personal name="Vinicius">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="440" risktaking="590" offensive="673" aggressive="594" consistent="475" creative="955" experienced="463"/>
+    <skills stamina="606" dexterity="630" speed="711" tackling="194" passing="464" shooting="426" control="399" accuracy="211" goalkeeping="434" heading="258"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92002">
+    <personal name="Jancarlos">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="780" risktaking="289" offensive="344" aggressive="572" consistent="488" creative="517" experienced="522"/>
+    <skills stamina="290" dexterity="209" speed="263" tackling="543" passing="462" shooting="588" control="557" accuracy="603" goalkeeping="89" heading="559"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92003">
+    <personal name="Piaui">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="883" risktaking="646" offensive="321" aggressive="510" consistent="467" creative="504" experienced="106"/>
+    <skills stamina="695" dexterity="283" speed="453" tackling="595" passing="455" shooting="576" control="492" accuracy="515" goalkeeping="71" heading="439"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92004">
+    <personal name="Danilo">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="437" risktaking="664" offensive="293" aggressive="458" consistent="563" creative="737" experienced="565"/>
+    <skills stamina="504" dexterity="533" speed="556" tackling="559" passing="593" shooting="666" control="567" accuracy="650" goalkeeping="96" heading="508"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92005">
+    <personal name="Joao Leonardo">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="557" risktaking="524" offensive="663" aggressive="537" consistent="460" creative="279" experienced="341"/>
+    <skills stamina="555" dexterity="823" speed="389" tackling="593" passing="583" shooting="569" control="569" accuracy="603" goalkeeping="110" heading="665"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92006">
+    <personal name="Antonio Carlos">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="614" risktaking="684" offensive="590" aggressive="421" consistent="699" creative="272" experienced="513"/>
+    <skills stamina="370" dexterity="537" speed="416" tackling="584" passing="582" shooting="482" control="583" accuracy="623" goalkeeping="104" heading="534"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92007">
+    <personal name="Evandro">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="333" risktaking="273" offensive="472" aggressive="419" consistent="673" creative="491" experienced="642"/>
+    <skills stamina="462" dexterity="713" speed="675" tackling="589" passing="582" shooting="682" control="669" accuracy="554" goalkeeping="109" heading="515"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92008">
+    <personal name="David Ferreira">
+      <appearance value="1"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="570" risktaking="716" offensive="708" aggressive="578" consistent="291" creative="536" experienced="638"/>
+    <skills stamina="619" dexterity="393" speed="465" tackling="657" passing="672" shooting="651" control="705" accuracy="602" goalkeeping="111" heading="668"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92009">
+    <personal name="Claiton">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="521" risktaking="192" offensive="557" aggressive="347" consistent="534" creative="391" experienced="359"/>
+    <skills stamina="510" dexterity="568" speed="620" tackling="605" passing="521" shooting="637" control="645" accuracy="606" goalkeeping="112" heading="664"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92010">
+    <personal name="Edwin Valencia">
+      <appearance value="1"/>
+      <nationality value="Colombia"/>
+    </personal>
+    <personality active="426" risktaking="405" offensive="491" aggressive="403" consistent="765" creative="522" experienced="411"/>
+    <skills stamina="561" dexterity="527" speed="760" tackling="575" passing="689" shooting="582" control="502" accuracy="575" goalkeeping="108" heading="633"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92011">
+    <personal name="Pedro Oldoni">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="259" risktaking="795" offensive="411" aggressive="759" consistent="610" creative="691" experienced="579"/>
+    <skills stamina="576" dexterity="583" speed="541" tackling="678" passing="503" shooting="743" control="609" accuracy="648" goalkeeping="104" heading="659"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92012">
+    <personal name="Netinho">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="221" risktaking="579" offensive="547" aggressive="640" consistent="315" creative="486" experienced="722"/>
+    <skills stamina="755" dexterity="644" speed="430" tackling="627" passing="558" shooting="641" control="553" accuracy="572" goalkeeping="101" heading="525"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92013">
+    <personal name="Alex Mineiro">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="588" risktaking="803" offensive="745" aggressive="585" consistent="485" creative="608" experienced="451"/>
+    <skills stamina="691" dexterity="429" speed="310" tackling="477" passing="508" shooting="553" control="548" accuracy="517" goalkeeping="87" heading="648"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92014">
+    <personal name="Alan Bahia">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="582" risktaking="454" offensive="500" aggressive="726" consistent="659" creative="457" experienced="454"/>
+    <skills stamina="501" dexterity="343" speed="383" tackling="469" passing="678" shooting="514" control="631" accuracy="477" goalkeeping="100" heading="538"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="92015">
+    <personal name="Dinei">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="557" risktaking="618" offensive="792" aggressive="482" consistent="402" creative="340" experienced="295"/>
+    <skills stamina="617" dexterity="733" speed="673" tackling="543" passing="508" shooting="466" control="397" accuracy="478" goalkeeping="66" heading="524"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92016">
+    <personal name="Edson">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="627" risktaking="13" offensive="633" aggressive="580" consistent="358" creative="790" experienced="564"/>
+    <skills stamina="320" dexterity="224" speed="425" tackling="230" passing="599" shooting="574" control="412" accuracy="214" goalkeeping="557" heading="224"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="92017">
+    <personal name="Juninho">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="677" risktaking="693" offensive="258" aggressive="667" consistent="819" creative="485" experienced="408"/>
+    <skills stamina="477" dexterity="350" speed="338" tackling="243" passing="423" shooting="489" control="359" accuracy="248" goalkeeping="560" heading="229"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92018">
+    <personal name="Coelho">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="368" risktaking="598" offensive="407" aggressive="558" consistent="255" creative="625" experienced="388"/>
+    <skills stamina="390" dexterity="324" speed="337" tackling="662" passing="650" shooting="598" control="580" accuracy="481" goalkeeping="79" heading="605"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92019">
+    <personal name="Thiago Feltri">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="429" risktaking="448" offensive="547" aggressive="534" consistent="204" creative="343" experienced="549"/>
+    <skills stamina="523" dexterity="458" speed="666" tackling="586" passing="475" shooting="581" control="464" accuracy="467" goalkeeping="65" heading="460"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92020">
+    <personal name="Leandro Almeida">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="442" risktaking="428" offensive="526" aggressive="389" consistent="731" creative="628" experienced="615"/>
+    <skills stamina="319" dexterity="331" speed="558" tackling="506" passing="553" shooting="476" control="458" accuracy="387" goalkeeping="84" heading="444"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="92021">
+    <personal name="Marcos">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="406" risktaking="687" offensive="396" aggressive="559" consistent="579" creative="657" experienced="456"/>
+    <skills stamina="311" dexterity="265" speed="192" tackling="572" passing="417" shooting="421" control="524" accuracy="491" goalkeeping="81" heading="561"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92022">
+    <personal name="Ricardinho">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="388" risktaking="544" offensive="393" aggressive="615" consistent="414" creative="192" experienced="526"/>
+    <skills stamina="640" dexterity="374" speed="612" tackling="520" passing="445" shooting="505" control="537" accuracy="448" goalkeeping="74" heading="371"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92023">
+    <personal name="Gerson">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="427" risktaking="537" offensive="670" aggressive="540" consistent="619" creative="422" experienced="556"/>
+    <skills stamina="532" dexterity="752" speed="656" tackling="612" passing="704" shooting="674" control="581" accuracy="619" goalkeeping="89" heading="542"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92024">
+    <personal name="Danilinho">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="725" risktaking="242" offensive="351" aggressive="459" consistent="526" creative="743" experienced="400"/>
+    <skills stamina="362" dexterity="670" speed="488" tackling="647" passing="605" shooting="617" control="660" accuracy="602" goalkeeping="102" heading="512"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92025">
+    <personal name="Rafael Miranda">
+      <appearance value="8"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="363" risktaking="313" offensive="265" aggressive="554" consistent="515" creative="500" experienced="729"/>
+    <skills stamina="313" dexterity="377" speed="681" tackling="591" passing="666" shooting="661" control="522" accuracy="515" goalkeeping="86" heading="566"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92026">
+    <personal name="Marcinho">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="436" risktaking="468" offensive="364" aggressive="413" consistent="493" creative="773" experienced="363"/>
+    <skills stamina="579" dexterity="587" speed="707" tackling="517" passing="558" shooting="636" control="656" accuracy="661" goalkeeping="101" heading="502"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92027">
+    <personal name="Xaves">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="227" risktaking="448" offensive="353" aggressive="623" consistent="657" creative="319" experienced="356"/>
+    <skills stamina="413" dexterity="553" speed="564" tackling="638" passing="459" shooting="493" control="509" accuracy="509" goalkeeping="102" heading="572"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92028">
+    <personal name="Eder Luis">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="461" risktaking="769" offensive="444" aggressive="814" consistent="403" creative="606" experienced="499"/>
+    <skills stamina="756" dexterity="354" speed="438" tackling="522" passing="501" shooting="614" control="589" accuracy="619" goalkeeping="94" heading="541"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92029">
+    <personal name="Vanderlei">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="479" risktaking="350" offensive="383" aggressive="486" consistent="626" creative="543" experienced="546"/>
+    <skills stamina="557" dexterity="539" speed="343" tackling="672" passing="637" shooting="682" control="676" accuracy="635" goalkeeping="89" heading="599"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92030">
+    <personal name="Batista">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="339" risktaking="307" offensive="426" aggressive="260" consistent="620" creative="272" experienced="475"/>
+    <skills stamina="612" dexterity="215" speed="700" tackling="521" passing="573" shooting="561" control="430" accuracy="427" goalkeeping="86" heading="597"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92031">
+    <personal name="Marinho">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="288" risktaking="810" offensive="443" aggressive="663" consistent="702" creative="328" experienced="600"/>
+    <skills stamina="433" dexterity="494" speed="549" tackling="507" passing="500" shooting="596" control="524" accuracy="414" goalkeeping="80" heading="482"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92032">
+    <personal name="Wilson">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="689" risktaking="784" offensive="512" aggressive="364" consistent="700" creative="452" experienced="348"/>
+    <skills stamina="359" dexterity="457" speed="661" tackling="262" passing="613" shooting="532" control="360" accuracy="260" goalkeeping="629" heading="282"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="92033">
+    <personal name="Ari">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="525" risktaking="339" offensive="621" aggressive="523" consistent="417" creative="669" experienced="449"/>
+    <skills stamina="497" dexterity="348" speed="262" tackling="214" passing="443" shooting="317" control="385" accuracy="208" goalkeeping="495" heading="211"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="92034">
+    <personal name="Ruy">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="150" risktaking="302" offensive="398" aggressive="613" consistent="346" creative="531" experienced="740"/>
+    <skills stamina="431" dexterity="622" speed="697" tackling="595" passing="511" shooting="561" control="690" accuracy="564" goalkeeping="94" heading="617"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92035">
+    <personal name="Andre Santos">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="181" risktaking="399" offensive="434" aggressive="234" consistent="412" creative="477" experienced="595"/>
+    <skills stamina="770" dexterity="554" speed="521" tackling="614" passing="625" shooting="552" control="541" accuracy="475" goalkeeping="78" heading="472"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92036">
+    <personal name="Felipe Santana">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="394" risktaking="372" offensive="843" aggressive="449" consistent="358" creative="392" experienced="375"/>
+    <skills stamina="570" dexterity="416" speed="297" tackling="635" passing="577" shooting="584" control="533" accuracy="584" goalkeeping="85" heading="526"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92037">
+    <personal name="Chicao">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="412" risktaking="677" offensive="282" aggressive="606" consistent="353" creative="570" experienced="583"/>
+    <skills stamina="256" dexterity="240" speed="277" tackling="528" passing="527" shooting="519" control="686" accuracy="623" goalkeeping="106" heading="603"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92038">
+    <personal name="Edson">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="736" risktaking="434" offensive="555" aggressive="634" consistent="398" creative="495" experienced="759"/>
+    <skills stamina="431" dexterity="538" speed="292" tackling="600" passing="550" shooting="525" control="660" accuracy="572" goalkeeping="83" heading="493"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92039">
+    <personal name="Cleiton Xavier">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="521" risktaking="379" offensive="440" aggressive="467" consistent="195" creative="695" experienced="411"/>
+    <skills stamina="552" dexterity="385" speed="542" tackling="615" passing="493" shooting="461" control="623" accuracy="479" goalkeeping="86" heading="529"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92040">
+    <personal name="Thiago Gentil">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="361" risktaking="648" offensive="516" aggressive="188" consistent="212" creative="481" experienced="300"/>
+    <skills stamina="712" dexterity="484" speed="817" tackling="586" passing="504" shooting="533" control="601" accuracy="557" goalkeeping="94" heading="614"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92041">
+    <personal name="Diogo">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="639" risktaking="184" offensive="453" aggressive="442" consistent="642" creative="386" experienced="222"/>
+    <skills stamina="696" dexterity="574" speed="516" tackling="490" passing="451" shooting="491" control="497" accuracy="552" goalkeeping="90" heading="552"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92042">
+    <personal name="Fernandes">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="319" risktaking="601" offensive="671" aggressive="404" consistent="626" creative="522" experienced="624"/>
+    <skills stamina="700" dexterity="711" speed="775" tackling="571" passing="558" shooting="481" control="484" accuracy="629" goalkeeping="99" heading="497"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92043">
+    <personal name="Peter">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="805" risktaking="299" offensive="652" aggressive="514" consistent="282" creative="467" experienced="602"/>
+    <skills stamina="780" dexterity="316" speed="682" tackling="531" passing="550" shooting="483" control="521" accuracy="484" goalkeeping="100" heading="638"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92044">
+    <personal name="Ramon">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="365" risktaking="300" offensive="510" aggressive="404" consistent="408" creative="600" experienced="474"/>
+    <skills stamina="561" dexterity="657" speed="452" tackling="671" passing="536" shooting="672" control="666" accuracy="698" goalkeeping="85" heading="583"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92045">
+    <personal name="Jean Carlos">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="376" risktaking="734" offensive="362" aggressive="509" consistent="640" creative="466" experienced="452"/>
+    <skills stamina="320" dexterity="586" speed="686" tackling="585" passing="606" shooting="686" control="652" accuracy="632" goalkeeping="91" heading="695"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92046">
+    <personal name="Cesar Prates">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="555" risktaking="463" offensive="547" aggressive="577" consistent="630" creative="554" experienced="557"/>
+    <skills stamina="659" dexterity="422" speed="679" tackling="575" passing="584" shooting="567" control="476" accuracy="569" goalkeeping="100" heading="441"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92047">
+    <personal name="Alexandre">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="720" risktaking="349" offensive="503" aggressive="560" consistent="521" creative="820" experienced="467"/>
+    <skills stamina="246" dexterity="225" speed="413" tackling="462" passing="412" shooting="493" control="564" accuracy="595" goalkeeping="76" heading="407"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92048">
+    <personal name="Marcos Leandro">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="201" risktaking="444" offensive="371" aggressive="281" consistent="327" creative="662" experienced="355"/>
+    <skills stamina="680" dexterity="333" speed="490" tackling="246" passing="455" shooting="619" control="352" accuracy="231" goalkeeping="648" heading="269"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92049">
+    <personal name="Julio Cesar">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="290" risktaking="315" offensive="565" aggressive="552" consistent="458" creative="417" experienced="543"/>
+    <skills stamina="515" dexterity="626" speed="440" tackling="205" passing="486" shooting="479" control="484" accuracy="298" goalkeeping="633" heading="212"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92050">
+    <personal name="Alessandro">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="509" risktaking="418" offensive="224" aggressive="531" consistent="430" creative="592" experienced="639"/>
+    <skills stamina="690" dexterity="648" speed="343" tackling="559" passing="500" shooting="387" control="500" accuracy="488" goalkeeping="68" heading="468"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92051">
+    <personal name="Athirson">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="427" risktaking="540" offensive="630" aggressive="638" consistent="578" creative="692" experienced="506"/>
+    <skills stamina="726" dexterity="620" speed="553" tackling="567" passing="599" shooting="510" control="488" accuracy="422" goalkeeping="69" heading="414"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92052">
+    <personal name="Renato Silva">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="611" risktaking="611" offensive="692" aggressive="330" consistent="586" creative="455" experienced="858"/>
+    <skills stamina="501" dexterity="280" speed="380" tackling="573" passing="555" shooting="487" control="593" accuracy="640" goalkeeping="88" heading="625"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92053">
+    <personal name="Alex">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="172" risktaking="512" offensive="442" aggressive="415" consistent="698" creative="604" experienced="387"/>
+    <skills stamina="420" dexterity="525" speed="653" tackling="755" passing="612" shooting="646" control="588" accuracy="533" goalkeeping="113" heading="536"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="92054">
+    <personal name="Rafael Marques">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="423" risktaking="618" offensive="346" aggressive="487" consistent="611" creative="727" experienced="601"/>
+    <skills stamina="424" dexterity="678" speed="461" tackling="609" passing="590" shooting="561" control="581" accuracy="605" goalkeeping="95" heading="448"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92055">
+    <personal name="Thiago Marin">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="580" risktaking="453" offensive="475" aggressive="575" consistent="356" creative="548" experienced="432"/>
+    <skills stamina="443" dexterity="620" speed="446" tackling="659" passing="588" shooting="598" control="589" accuracy="577" goalkeeping="85" heading="470"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92056">
+    <personal name="Ze Roberto">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="340" risktaking="764" offensive="576" aggressive="649" consistent="505" creative="367" experienced="632"/>
+    <skills stamina="276" dexterity="796" speed="256" tackling="586" passing="630" shooting="499" control="524" accuracy="495" goalkeeping="93" heading="506"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92057">
+    <personal name="Juninho">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="477" risktaking="673" offensive="603" aggressive="418" consistent="660" creative="626" experienced="635"/>
+    <skills stamina="753" dexterity="617" speed="652" tackling="636" passing="609" shooting="566" control="564" accuracy="598" goalkeeping="97" heading="516"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92058">
+    <personal name="Lucio Flavio">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="793" risktaking="266" offensive="447" aggressive="596" consistent="423" creative="626" experienced="607"/>
+    <skills stamina="778" dexterity="775" speed="586" tackling="588" passing="594" shooting="682" control="675" accuracy="662" goalkeeping="100" heading="519"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92059">
+    <personal name="Tulio">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="550" risktaking="391" offensive="715" aggressive="715" consistent="440" creative="776" experienced="520"/>
+    <skills stamina="345" dexterity="334" speed="442" tackling="551" passing="597" shooting="497" control="526" accuracy="593" goalkeeping="103" heading="507"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92060">
+    <personal name="Leandro Guerreiro">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="432" risktaking="481" offensive="425" aggressive="445" consistent="545" creative="423" experienced="354"/>
+    <skills stamina="702" dexterity="653" speed="335" tackling="523" passing="593" shooting="606" control="493" accuracy="461" goalkeeping="105" heading="480"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92061">
+    <personal name="Reinaldo">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="724" risktaking="317" offensive="707" aggressive="507" consistent="799" creative="556" experienced="239"/>
+    <skills stamina="556" dexterity="463" speed="439" tackling="596" passing="690" shooting="674" control="559" accuracy="652" goalkeeping="108" heading="566"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92062">
+    <personal name="Dodo">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="140" risktaking="453" offensive="336" aggressive="556" consistent="577" creative="628" experienced="569"/>
+    <skills stamina="315" dexterity="447" speed="661" tackling="503" passing="565" shooting="670" control="473" accuracy="697" goalkeeping="86" heading="587"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92063">
+    <personal name="Jorge Henrique">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="584" risktaking="657" offensive="341" aggressive="428" consistent="627" creative="83" experienced="205"/>
+    <skills stamina="605" dexterity="643" speed="427" tackling="627" passing="506" shooting="621" control="544" accuracy="591" goalkeeping="106" heading="654"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92064">
+    <personal name="Gleguer">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="470" risktaking="383" offensive="479" aggressive="381" consistent="559" creative="173" experienced="665"/>
+    <skills stamina="659" dexterity="655" speed="632" tackling="243" passing="404" shooting="474" control="436" accuracy="192" goalkeeping="538" heading="236"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92065">
+    <personal name="Marcelo Bonan">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="536" risktaking="220" offensive="805" aggressive="516" consistent="722" creative="632" experienced="547"/>
+    <skills stamina="183" dexterity="258" speed="435" tackling="152" passing="293" shooting="434" control="290" accuracy="158" goalkeeping="344" heading="164"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92066">
+    <personal name="Adriano Peixe">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="408" risktaking="599" offensive="386" aggressive="560" consistent="644" creative="696" experienced="707"/>
+    <skills stamina="434" dexterity="430" speed="673" tackling="582" passing="415" shooting="429" control="407" accuracy="411" goalkeeping="89" heading="441"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92067">
+    <personal name="Ney Santos">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="444" risktaking="339" offensive="567" aggressive="616" consistent="293" creative="452" experienced="638"/>
+    <skills stamina="279" dexterity="526" speed="485" tackling="452" passing="524" shooting="416" control="491" accuracy="493" goalkeeping="78" heading="519"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92068">
+    <personal name="Edson Borges">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="684" risktaking="704" offensive="614" aggressive="514" consistent="698" creative="705" experienced="386"/>
+    <skills stamina="224" dexterity="572" speed="603" tackling="611" passing="393" shooting="496" control="517" accuracy="522" goalkeeping="68" heading="480"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92069">
+    <personal name="Cris">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="506" risktaking="450" offensive="791" aggressive="472" consistent="468" creative="391" experienced="563"/>
+    <skills stamina="346" dexterity="576" speed="513" tackling="517" passing="547" shooting="409" control="412" accuracy="355" goalkeeping="91" heading="504"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92070">
+    <personal name="Carlos Eduardo">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="269" risktaking="782" offensive="518" aggressive="543" consistent="754" creative="333" experienced="664"/>
+    <skills stamina="493" dexterity="531" speed="413" tackling="544" passing="447" shooting="434" control="432" accuracy="487" goalkeeping="78" heading="386"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92071">
+    <personal name="Souza">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="390" risktaking="504" offensive="635" aggressive="550" consistent="453" creative="545" experienced="521"/>
+    <skills stamina="480" dexterity="531" speed="487" tackling="496" passing="507" shooting="531" control="407" accuracy="556" goalkeeping="83" heading="445"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92072">
+    <personal name="Leandro Sena">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="530" risktaking="377" offensive="704" aggressive="401" consistent="374" creative="359" experienced="439"/>
+    <skills stamina="227" dexterity="456" speed="467" tackling="442" passing="531" shooting="464" control="422" accuracy="522" goalkeeping="75" heading="485"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92073">
+    <personal name="Reinaldo">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="346" risktaking="772" offensive="895" aggressive="295" consistent="255" creative="449" experienced="285"/>
+    <skills stamina="227" dexterity="441" speed="435" tackling="606" passing="416" shooting="546" control="520" accuracy="447" goalkeeping="76" heading="466"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92074">
+    <personal name="Berg">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="599" risktaking="438" offensive="290" aggressive="298" consistent="754" creative="481" experienced="601"/>
+    <skills stamina="256" dexterity="426" speed="377" tackling="348" passing="311" shooting="382" control="374" accuracy="405" goalkeeping="54" heading="389"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92075">
+    <personal name="Luis Maranhao">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="662" risktaking="410" offensive="433" aggressive="683" consistent="470" creative="418" experienced="603"/>
+    <skills stamina="280" dexterity="475" speed="619" tackling="358" passing="379" shooting="530" control="474" accuracy="399" goalkeeping="73" heading="380"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92076">
+    <personal name="Rogelio Avila">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="700" risktaking="207" offensive="318" aggressive="437" consistent="796" creative="658" experienced="479"/>
+    <skills stamina="690" dexterity="558" speed="255" tackling="349" passing="384" shooting="338" control="464" accuracy="429" goalkeeping="58" heading="492"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92077">
+    <personal name="Geovane">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="531" risktaking="358" offensive="515" aggressive="633" consistent="486" creative="291" experienced="459"/>
+    <skills stamina="487" dexterity="605" speed="719" tackling="388" passing="441" shooting="535" control="460" accuracy="461" goalkeeping="79" heading="467"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92078">
+    <personal name="Paulo Isidoro">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="431" risktaking="351" offensive="679" aggressive="685" consistent="322" creative="813" experienced="464"/>
+    <skills stamina="462" dexterity="276" speed="261" tackling="445" passing="439" shooting="430" control="392" accuracy="573" goalkeeping="82" heading="506"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92079">
+    <personal name="Wesley Brasilia">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="406" risktaking="558" offensive="420" aggressive="448" consistent="765" creative="546" experienced="537"/>
+    <skills stamina="345" dexterity="362" speed="526" tackling="434" passing="380" shooting="411" control="495" accuracy="422" goalkeeping="55" heading="407"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92080">
+    <personal name="Felipe">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="519" risktaking="748" offensive="504" aggressive="204" consistent="505" creative="460" experienced="505"/>
+    <skills stamina="732" dexterity="381" speed="406" tackling="259" passing="494" shooting="579" control="423" accuracy="259" goalkeeping="745" heading="334"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92081">
+    <personal name="Marcelo">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="513" risktaking="630" offensive="331" aggressive="486" consistent="206" creative="646" experienced="685"/>
+    <skills stamina="323" dexterity="588" speed="676" tackling="237" passing="442" shooting="409" control="412" accuracy="240" goalkeeping="535" heading="239"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92082">
+    <personal name="Amaral">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="415" risktaking="548" offensive="372" aggressive="574" consistent="336" creative="506" experienced="442"/>
+    <skills stamina="778" dexterity="630" speed="733" tackling="570" passing="610" shooting="533" control="632" accuracy="525" goalkeeping="97" heading="605"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92083">
+    <personal name="Gustavo Nery">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="539" risktaking="530" offensive="518" aggressive="783" consistent="543" creative="365" experienced="655"/>
+    <skills stamina="638" dexterity="739" speed="322" tackling="600" passing="615" shooting="596" control="535" accuracy="613" goalkeeping="86" heading="577"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92084">
+    <personal name="Fabio Ferreira">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="476" risktaking="625" offensive="554" aggressive="545" consistent="510" creative="22" experienced="253"/>
+    <skills stamina="680" dexterity="287" speed="450" tackling="650" passing="613" shooting="489" control="514" accuracy="548" goalkeeping="88" heading="505"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92085">
+    <personal name="Kadu">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="826" risktaking="445" offensive="410" aggressive="441" consistent="530" creative="524" experienced="353"/>
+    <skills stamina="532" dexterity="424" speed="743" tackling="573" passing="603" shooting="485" control="520" accuracy="497" goalkeeping="95" heading="537"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="92086">
+    <personal name="Marcelo Oliveira">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="487" risktaking="485" offensive="321" aggressive="465" consistent="564" creative="697" experienced="544"/>
+    <skills stamina="691" dexterity="397" speed="609" tackling="632" passing="490" shooting="502" control="534" accuracy="523" goalkeeping="95" heading="565"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92087">
+    <personal name="Ailton">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="369" risktaking="727" offensive="345" aggressive="467" consistent="496" creative="656" experienced="504"/>
+    <skills stamina="725" dexterity="424" speed="786" tackling="629" passing="552" shooting="448" control="442" accuracy="454" goalkeeping="75" heading="592"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92088">
+    <personal name="Clodoaldo">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="637" risktaking="493" offensive="577" aggressive="627" consistent="450" creative="301" experienced="597"/>
+    <skills stamina="528" dexterity="789" speed="592" tackling="582" passing="639" shooting="569" control="636" accuracy="616" goalkeeping="90" heading="576"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92089">
+    <personal name="Nilton">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="438" risktaking="408" offensive="526" aggressive="829" consistent="632" creative="472" experienced="558"/>
+    <skills stamina="571" dexterity="271" speed="606" tackling="652" passing="636" shooting="457" control="535" accuracy="504" goalkeeping="85" heading="591"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92090">
+    <personal name="Carlos Alberto">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="379" risktaking="419" offensive="474" aggressive="494" consistent="772" creative="765" experienced="616"/>
+    <skills stamina="360" dexterity="672" speed="458" tackling="554" passing="632" shooting="524" control="659" accuracy="434" goalkeeping="71" heading="497"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92091">
+    <personal name="Zelao">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="731" risktaking="600" offensive="211" aggressive="643" consistent="325" creative="333" experienced="719"/>
+    <skills stamina="682" dexterity="649" speed="416" tackling="549" passing="609" shooting="460" control="616" accuracy="489" goalkeeping="94" heading="544"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92092">
+    <personal name="Vampeta">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="423" risktaking="464" offensive="721" aggressive="458" consistent="566" creative="647" experienced="552"/>
+    <skills stamina="708" dexterity="260" speed="338" tackling="407" passing="472" shooting="477" control="576" accuracy="558" goalkeeping="87" heading="511"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92093">
+    <personal name="Everton Santos">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="424" risktaking="308" offensive="656" aggressive="750" consistent="712" creative="871" experienced="305"/>
+    <skills stamina="421" dexterity="262" speed="409" tackling="651" passing="640" shooting="675" control="500" accuracy="643" goalkeeping="102" heading="605"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92094">
+    <personal name="Wilson">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="466" risktaking="730" offensive="720" aggressive="667" consistent="425" creative="682" experienced="325"/>
+    <skills stamina="237" dexterity="376" speed="672" tackling="418" passing="389" shooting="574" control="529" accuracy="590" goalkeeping="81" heading="445"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92095">
+    <personal name="Juan Arce">
+      <appearance value="0"/>
+      <nationality value="Bolivia"/>
+    </personal>
+    <personality active="519" risktaking="437" offensive="501" aggressive="592" consistent="529" creative="730" experienced="605"/>
+    <skills stamina="405" dexterity="197" speed="653" tackling="374" passing="548" shooting="473" control="544" accuracy="535" goalkeeping="72" heading="465"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92096">
+    <personal name="Edson Bastos">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="575" risktaking="550" offensive="506" aggressive="542" consistent="330" creative="419" experienced="521"/>
+    <skills stamina="187" dexterity="609" speed="351" tackling="208" passing="402" shooting="371" control="336" accuracy="266" goalkeeping="552" heading="197"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="92097">
+    <personal name="Vanderlei">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="852" risktaking="652" offensive="592" aggressive="752" consistent="153" creative="461" experienced="381"/>
+    <skills stamina="547" dexterity="329" speed="262" tackling="212" passing="410" shooting="334" control="394" accuracy="207" goalkeeping="366" heading="158"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92098">
+    <personal name="Tulio">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="678" risktaking="818" offensive="568" aggressive="715" consistent="771" creative="476" experienced="317"/>
+    <skills stamina="757" dexterity="724" speed="280" tackling="453" passing="511" shooting="457" control="442" accuracy="418" goalkeeping="62" heading="426"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92099">
+    <personal name="Carlao">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="440" risktaking="566" offensive="215" aggressive="566" consistent="309" creative="480" experienced="495"/>
+    <skills stamina="518" dexterity="630" speed="325" tackling="503" passing="357" shooting="451" control="505" accuracy="391" goalkeeping="71" heading="429"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92100">
+    <personal name="Felipe">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="543" risktaking="270" offensive="537" aggressive="503" consistent="355" creative="680" experienced="531"/>
+    <skills stamina="432" dexterity="339" speed="365" tackling="598" passing="533" shooting="517" control="576" accuracy="398" goalkeeping="94" heading="443"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92101">
+    <personal name="Henrique">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="327" risktaking="351" offensive="540" aggressive="697" consistent="738" creative="431" experienced="698"/>
+    <skills stamina="597" dexterity="701" speed="609" tackling="548" passing="627" shooting="610" control="536" accuracy="479" goalkeeping="93" heading="459"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="92102">
+    <personal name="Rodrigo Mancha">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="459" risktaking="719" offensive="463" aggressive="291" consistent="491" creative="475" experienced="586"/>
+    <skills stamina="504" dexterity="504" speed="340" tackling="421" passing="407" shooting="475" control="520" accuracy="495" goalkeeping="90" heading="435"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92103">
+    <personal name="Henrique Dias">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="654" risktaking="762" offensive="533" aggressive="338" consistent="780" creative="360" experienced="483"/>
+    <skills stamina="216" dexterity="421" speed="631" tackling="478" passing="616" shooting="465" control="613" accuracy="469" goalkeeping="81" heading="488"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92104">
+    <personal name="Diogo">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="681" risktaking="644" offensive="538" aggressive="514" consistent="520" creative="324" experienced="509"/>
+    <skills stamina="502" dexterity="534" speed="630" tackling="463" passing="646" shooting="556" control="584" accuracy="602" goalkeeping="97" heading="639"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92105">
+    <personal name="Careca">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="458" risktaking="454" offensive="495" aggressive="692" consistent="476" creative="354" experienced="613"/>
+    <skills stamina="330" dexterity="468" speed="461" tackling="530" passing="414" shooting="508" control="409" accuracy="546" goalkeeping="74" heading="410"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92106">
+    <personal name="Pedro Ken">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="381" risktaking="657" offensive="418" aggressive="538" consistent="400" creative="253" experienced="478"/>
+    <skills stamina="428" dexterity="564" speed="601" tackling="467" passing="598" shooting="422" control="437" accuracy="423" goalkeeping="95" heading="524"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="92107">
+    <personal name="Marlos">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="413" risktaking="430" offensive="359" aggressive="683" consistent="531" creative="489" experienced="327"/>
+    <skills stamina="311" dexterity="345" speed="472" tackling="396" passing="459" shooting="385" control="428" accuracy="536" goalkeeping="73" heading="399"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="92108">
+    <personal name="Hugo">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="392" risktaking="399" offensive="382" aggressive="207" consistent="705" creative="501" experienced="217"/>
+    <skills stamina="521" dexterity="689" speed="553" tackling="543" passing="466" shooting="527" control="436" accuracy="546" goalkeeping="67" heading="511"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92109">
+    <personal name="Gustavo">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="500" risktaking="701" offensive="569" aggressive="381" consistent="500" creative="365" experienced="529"/>
+    <skills stamina="741" dexterity="470" speed="666" tackling="609" passing="474" shooting="495" control="539" accuracy="490" goalkeeping="71" heading="603"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92110">
+    <personal name="Arlon">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="343" risktaking="633" offensive="592" aggressive="542" consistent="718" creative="449" experienced="709"/>
+    <skills stamina="532" dexterity="561" speed="550" tackling="551" passing="496" shooting="697" control="550" accuracy="660" goalkeeping="79" heading="664"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92111">
+    <personal name="Keirrison">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="730" risktaking="515" offensive="424" aggressive="400" consistent="440" creative="546" experienced="569"/>
+    <skills stamina="361" dexterity="387" speed="642" tackling="454" passing="468" shooting="503" control="555" accuracy="499" goalkeeping="95" heading="508"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92112">
+    <personal name="Fred">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="301" risktaking="700" offensive="318" aggressive="304" consistent="553" creative="148" experienced="421"/>
+    <skills stamina="244" dexterity="257" speed="255" tackling="227" passing="306" shooting="467" control="268" accuracy="246" goalkeeping="482" heading="203"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92113">
+    <personal name="Rodrigo Posso">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="346" risktaking="605" offensive="494" aggressive="592" consistent="576" creative="564" experienced="407"/>
+    <skills stamina="384" dexterity="558" speed="212" tackling="256" passing="535" shooting="600" control="335" accuracy="239" goalkeeping="604" heading="212"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92114">
+    <personal name="Marcio Gabriel">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="541" risktaking="514" offensive="276" aggressive="423" consistent="450" creative="406" experienced="514"/>
+    <skills stamina="163" dexterity="633" speed="323" tackling="459" passing="343" shooting="451" control="288" accuracy="359" goalkeeping="69" heading="457"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92115">
+    <personal name="Beto">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="450" risktaking="626" offensive="427" aggressive="461" consistent="512" creative="681" experienced="417"/>
+    <skills stamina="548" dexterity="506" speed="221" tackling="530" passing="430" shooting="472" control="408" accuracy="414" goalkeeping="67" heading="380"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92116">
+    <personal name="Leo Oliveira">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="682" risktaking="300" offensive="509" aggressive="509" consistent="709" creative="318" experienced="342"/>
+    <skills stamina="642" dexterity="204" speed="322" tackling="336" passing="406" shooting="366" control="457" accuracy="407" goalkeeping="73" heading="424"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92117">
+    <personal name="Marcio Alemao">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="357" risktaking="547" offensive="291" aggressive="686" consistent="363" creative="516" experienced="494"/>
+    <skills stamina="491" dexterity="184" speed="551" tackling="601" passing="459" shooting="498" control="399" accuracy="522" goalkeeping="63" heading="454"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="92118">
+    <personal name="Leandro Eugenio">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="615" risktaking="586" offensive="475" aggressive="830" consistent="504" creative="439" experienced="481"/>
+    <skills stamina="343" dexterity="618" speed="703" tackling="545" passing="462" shooting="402" control="395" accuracy="388" goalkeeping="65" heading="436"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92119">
+    <personal name="Alessandro">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="440" risktaking="483" offensive="796" aggressive="537" consistent="461" creative="464" experienced="325"/>
+    <skills stamina="494" dexterity="652" speed="256" tackling="499" passing="492" shooting="410" control="549" accuracy="499" goalkeeping="86" heading="392"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92120">
+    <personal name="Diego Silva">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="592" risktaking="224" offensive="397" aggressive="679" consistent="387" creative="791" experienced="435"/>
+    <skills stamina="608" dexterity="663" speed="349" tackling="638" passing="587" shooting="465" control="617" accuracy="526" goalkeeping="89" heading="469"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92121">
+    <personal name="Augusto Recife">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="702" risktaking="866" offensive="391" aggressive="533" consistent="388" creative="425" experienced="602"/>
+    <skills stamina="668" dexterity="609" speed="193" tackling="479" passing="503" shooting="524" control="419" accuracy="467" goalkeeping="80" heading="514"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92122">
+    <personal name="Luciano Sorriso">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="502" risktaking="372" offensive="759" aggressive="626" consistent="757" creative="639" experienced="574"/>
+    <skills stamina="295" dexterity="443" speed="467" tackling="502" passing="524" shooting="396" control="435" accuracy="553" goalkeeping="72" heading="555"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92123">
+    <personal name="Maraba">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="435" risktaking="248" offensive="475" aggressive="425" consistent="451" creative="397" experienced="596"/>
+    <skills stamina="475" dexterity="175" speed="169" tackling="440" passing="340" shooting="385" control="507" accuracy="498" goalkeeping="82" heading="488"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92124">
+    <personal name="Tallys">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="410" risktaking="164" offensive="436" aggressive="743" consistent="483" creative="577" experienced="196"/>
+    <skills stamina="360" dexterity="353" speed="167" tackling="338" passing="418" shooting="317" control="501" accuracy="470" goalkeeping="63" heading="480"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="92125">
+    <personal name="Walter Minhoca">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="620" risktaking="658" offensive="557" aggressive="546" consistent="717" creative="541" experienced="531"/>
+    <skills stamina="384" dexterity="356" speed="548" tackling="599" passing="531" shooting="458" control="552" accuracy="524" goalkeeping="70" heading="573"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92126">
+    <personal name="Gerson Magrao">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="330" risktaking="457" offensive="476" aggressive="291" consistent="340" creative="470" experienced="414"/>
+    <skills stamina="357" dexterity="360" speed="496" tackling="454" passing="414" shooting="604" control="475" accuracy="595" goalkeeping="61" heading="524"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92127">
+    <personal name="Luiz Felipe">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="557" risktaking="556" offensive="350" aggressive="324" consistent="769" creative="463" experienced="336"/>
+    <skills stamina="400" dexterity="505" speed="348" tackling="342" passing="287" shooting="318" control="328" accuracy="321" goalkeeping="60" heading="363"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92128">
+    <personal name="Fabio">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="551" risktaking="314" offensive="73" aggressive="770" consistent="512" creative="286" experienced="671"/>
+    <skills stamina="621" dexterity="230" speed="511" tackling="298" passing="513" shooting="590" control="474" accuracy="272" goalkeeping="649" heading="329"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92129">
+    <personal name="Gatti">
+      <appearance value="8"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="426" risktaking="798" offensive="608" aggressive="157" consistent="603" creative="558" experienced="557"/>
+    <skills stamina="659" dexterity="229" speed="692" tackling="294" passing="536" shooting="560" control="363" accuracy="230" goalkeeping="556" heading="239"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="92130">
+    <personal name="Jonathan">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="589" risktaking="767" offensive="325" aggressive="509" consistent="585" creative="335" experienced="477"/>
+    <skills stamina="300" dexterity="515" speed="686" tackling="577" passing="609" shooting="615" control="591" accuracy="623" goalkeeping="106" heading="577"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92131">
+    <personal name="Sandro">
+      <appearance value="8"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="509" risktaking="478" offensive="446" aggressive="656" consistent="484" creative="705" experienced="586"/>
+    <skills stamina="474" dexterity="361" speed="576" tackling="655" passing="562" shooting="506" control="586" accuracy="461" goalkeeping="105" heading="595"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92132">
+    <personal name="Emerson">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="465" risktaking="392" offensive="364" aggressive="429" consistent="463" creative="567" experienced="498"/>
+    <skills stamina="716" dexterity="710" speed="637" tackling="577" passing="491" shooting="631" control="513" accuracy="489" goalkeeping="79" heading="555"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="92133">
+    <personal name="Thiago Heleno">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="666" risktaking="282" offensive="601" aggressive="491" consistent="230" creative="490" experienced="697"/>
+    <skills stamina="671" dexterity="468" speed="625" tackling="521" passing="504" shooting="485" control="488" accuracy="490" goalkeeping="108" heading="497"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="92134">
+    <personal name="Thiago Martinelli">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="441" risktaking="526" offensive="423" aggressive="475" consistent="579" creative="473" experienced="540"/>
+    <skills stamina="653" dexterity="468" speed="427" tackling="627" passing="480" shooting="539" control="592" accuracy="599" goalkeeping="79" heading="447"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92135">
+    <personal name="Maicosuel">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="594" risktaking="433" offensive="723" aggressive="442" consistent="499" creative="439" experienced="631"/>
+    <skills stamina="434" dexterity="676" speed="713" tackling="584" passing="509" shooting="522" control="605" accuracy="597" goalkeeping="83" heading="503"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92136">
+    <personal name="Marcinho">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="820" risktaking="408" offensive="610" aggressive="206" consistent="412" creative="205" experienced="377"/>
+    <skills stamina="586" dexterity="464" speed="417" tackling="669" passing="530" shooting="645" control="687" accuracy="655" goalkeeping="80" heading="501"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92137">
+    <personal name="Kerlon">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="664" risktaking="450" offensive="636" aggressive="471" consistent="428" creative="612" experienced="573"/>
+    <skills stamina="283" dexterity="548" speed="740" tackling="590" passing="499" shooting="565" control="575" accuracy="552" goalkeeping="89" heading="634"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92138">
+    <personal name="Leo Silva">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="266" risktaking="391" offensive="500" aggressive="161" consistent="338" creative="205" experienced="603"/>
+    <skills stamina="495" dexterity="694" speed="479" tackling="616" passing="475" shooting="486" control="555" accuracy="474" goalkeeping="85" heading="565"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92139">
+    <personal name="Fernandinho">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="252" risktaking="692" offensive="326" aggressive="362" consistent="713" creative="441" experienced="338"/>
+    <skills stamina="419" dexterity="651" speed="702" tackling="507" passing="567" shooting="463" control="497" accuracy="633" goalkeeping="98" heading="461"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92140">
+    <personal name="Wagner">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="329" risktaking="680" offensive="372" aggressive="586" consistent="671" creative="500" experienced="276"/>
+    <skills stamina="372" dexterity="545" speed="617" tackling="607" passing="644" shooting="646" control="610" accuracy="691" goalkeeping="101" heading="569"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92141">
+    <personal name="Nene">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="241" risktaking="301" offensive="689" aggressive="510" consistent="801" creative="533" experienced="590"/>
+    <skills stamina="492" dexterity="650" speed="257" tackling="536" passing="517" shooting="680" control="547" accuracy="749" goalkeeping="111" heading="641"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92142">
+    <personal name="Alecsandro">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="457" risktaking="782" offensive="378" aggressive="349" consistent="577" creative="399" experienced="603"/>
+    <skills stamina="573" dexterity="485" speed="603" tackling="679" passing="512" shooting="612" control="525" accuracy="731" goalkeeping="100" heading="597"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92143">
+    <personal name="Guilherme">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="481" risktaking="476" offensive="433" aggressive="925" consistent="584" creative="458" experienced="499"/>
+    <skills stamina="380" dexterity="732" speed="307" tackling="668" passing="565" shooting="700" control="510" accuracy="551" goalkeeping="108" heading="570"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92144">
+    <personal name="Bruno">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="709" risktaking="506" offensive="491" aggressive="409" consistent="497" creative="632" experienced="307"/>
+    <skills stamina="343" dexterity="784" speed="655" tackling="327" passing="511" shooting="531" control="547" accuracy="299" goalkeeping="626" heading="298"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92145">
+    <personal name="Diego">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="506" risktaking="521" offensive="468" aggressive="546" consistent="751" creative="583" experienced="276"/>
+    <skills stamina="614" dexterity="435" speed="608" tackling="225" passing="484" shooting="413" control="335" accuracy="205" goalkeeping="585" heading="220"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92146">
+    <personal name="Leonardo Moura">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="416" risktaking="620" offensive="691" aggressive="450" consistent="305" creative="272" experienced="704"/>
+    <skills stamina="665" dexterity="570" speed="692" tackling="630" passing="681" shooting="542" control="721" accuracy="581" goalkeeping="88" heading="675"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92147">
+    <personal name="Juan">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="483" risktaking="421" offensive="418" aggressive="797" consistent="522" creative="601" experienced="552"/>
+    <skills stamina="568" dexterity="630" speed="386" tackling="611" passing="498" shooting="556" control="544" accuracy="469" goalkeeping="109" heading="627"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92148">
+    <personal name="Fabio Luciano">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="455" risktaking="572" offensive="493" aggressive="649" consistent="235" creative="447" experienced="476"/>
+    <skills stamina="724" dexterity="575" speed="456" tackling="591" passing="457" shooting="552" control="523" accuracy="502" goalkeeping="83" heading="535"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="92149">
+    <personal name="Ronaldo Angelim">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="335" risktaking="414" offensive="631" aggressive="457" consistent="443" creative="614" experienced="472"/>
+    <skills stamina="634" dexterity="690" speed="214" tackling="461" passing="561" shooting="523" control="407" accuracy="504" goalkeeping="73" heading="519"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="92150">
+    <personal name="Cristian">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="614" risktaking="542" offensive="186" aggressive="619" consistent="291" creative="612" experienced="613"/>
+    <skills stamina="738" dexterity="536" speed="616" tackling="559" passing="484" shooting="448" control="580" accuracy="566" goalkeeping="80" heading="494"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92151">
+    <personal name="Renato Augusto">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="451" risktaking="567" offensive="465" aggressive="471" consistent="287" creative="432" experienced="570"/>
+    <skills stamina="683" dexterity="352" speed="479" tackling="554" passing="547" shooting="676" control="585" accuracy="519" goalkeeping="89" heading="658"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92152">
+    <personal name="Roger">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="423" risktaking="288" offensive="539" aggressive="465" consistent="385" creative="351" experienced="562"/>
+    <skills stamina="550" dexterity="458" speed="715" tackling="611" passing="588" shooting="588" control="582" accuracy="629" goalkeeping="97" heading="664"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92153">
+    <personal name="Ibson">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="410" risktaking="362" offensive="286" aggressive="484" consistent="529" creative="356" experienced="500"/>
+    <skills stamina="714" dexterity="770" speed="384" tackling="525" passing="591" shooting="505" control="686" accuracy="606" goalkeeping="104" heading="614"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92154">
+    <personal name="Romulo">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="684" risktaking="656" offensive="771" aggressive="512" consistent="519" creative="522" experienced="134"/>
+    <skills stamina="669" dexterity="805" speed="260" tackling="679" passing="622" shooting="603" control="512" accuracy="492" goalkeeping="106" heading="503"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92155">
+    <personal name="Paulo Sergio">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="458" risktaking="636" offensive="569" aggressive="394" consistent="536" creative="177" experienced="398"/>
+    <skills stamina="440" dexterity="744" speed="317" tackling="657" passing="474" shooting="664" control="463" accuracy="680" goalkeeping="89" heading="585"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92156">
+    <personal name="Maxi Biancucchi">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="407" risktaking="501" offensive="558" aggressive="597" consistent="393" creative="448" experienced="203"/>
+    <skills stamina="643" dexterity="694" speed="291" tackling="641" passing="588" shooting="686" control="638" accuracy="621" goalkeeping="100" heading="633"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92157">
+    <personal name="Souza">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="690" risktaking="725" offensive="595" aggressive="551" consistent="784" creative="448" experienced="606"/>
+    <skills stamina="581" dexterity="774" speed="531" tackling="676" passing="568" shooting="668" control="590" accuracy="653" goalkeeping="93" heading="549"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92158">
+    <personal name="Obina">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="445" risktaking="522" offensive="399" aggressive="531" consistent="537" creative="595" experienced="390"/>
+    <skills stamina="436" dexterity="573" speed="487" tackling="673" passing="685" shooting="644" control="640" accuracy="616" goalkeeping="115" heading="715"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92159">
+    <personal name="Bruno Mezenga">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="661" risktaking="383" offensive="606" aggressive="550" consistent="528" creative="294" experienced="188"/>
+    <skills stamina="526" dexterity="441" speed="597" tackling="618" passing="632" shooting="562" control="629" accuracy="580" goalkeeping="85" heading="566"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92160">
+    <personal name="Fernando Henrique">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="475" risktaking="567" offensive="353" aggressive="693" consistent="670" creative="481" experienced="502"/>
+    <skills stamina="337" dexterity="685" speed="433" tackling="264" passing="584" shooting="675" control="466" accuracy="336" goalkeeping="624" heading="295"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92161">
+    <personal name="Ricardo Berna">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="562" risktaking="702" offensive="556" aggressive="368" consistent="732" creative="234" experienced="283"/>
+    <skills stamina="247" dexterity="583" speed="688" tackling="253" passing="614" shooting="536" control="360" accuracy="230" goalkeeping="690" heading="224"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92162">
+    <personal name="Gabriel">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="574" risktaking="614" offensive="590" aggressive="553" consistent="371" creative="576" experienced="483"/>
+    <skills stamina="458" dexterity="621" speed="697" tackling="524" passing="560" shooting="669" control="541" accuracy="534" goalkeeping="89" heading="562"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92163">
+    <personal name="Ivan">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="511" risktaking="816" offensive="530" aggressive="787" consistent="522" creative="760" experienced="403"/>
+    <skills stamina="734" dexterity="773" speed="399" tackling="644" passing="608" shooting="420" control="573" accuracy="601" goalkeeping="69" heading="577"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92164">
+    <personal name="Thiago Silva">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="628" risktaking="751" offensive="693" aggressive="757" consistent="399" creative="443" experienced="711"/>
+    <skills stamina="789" dexterity="551" speed="297" tackling="626" passing="619" shooting="531" control="623" accuracy="530" goalkeeping="87" heading="611"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92165">
+    <personal name="Luiz Alberto">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="725" risktaking="359" offensive="585" aggressive="658" consistent="389" creative="490" experienced="603"/>
+    <skills stamina="664" dexterity="386" speed="571" tackling="636" passing="641" shooting="535" control="600" accuracy="667" goalkeeping="110" heading="575"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92166">
+    <personal name="Roger">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="705" risktaking="853" offensive="705" aggressive="417" consistent="512" creative="498" experienced="395"/>
+    <skills stamina="353" dexterity="716" speed="555" tackling="530" passing="567" shooting="533" control="438" accuracy="498" goalkeeping="77" heading="498"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92167">
+    <personal name="Rafael">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="506" risktaking="297" offensive="399" aggressive="481" consistent="589" creative="702" experienced="354"/>
+    <skills stamina="567" dexterity="711" speed="264" tackling="450" passing="464" shooting="414" control="527" accuracy="507" goalkeeping="81" heading="457"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92168">
+    <personal name="Thiago Neves">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="519" risktaking="689" offensive="491" aggressive="592" consistent="817" creative="496" experienced="448"/>
+    <skills stamina="462" dexterity="779" speed="779" tackling="584" passing="659" shooting="557" control="687" accuracy="554" goalkeeping="94" heading="630"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92169">
+    <personal name="Arouca">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="690" risktaking="743" offensive="663" aggressive="484" consistent="733" creative="545" experienced="593"/>
+    <skills stamina="482" dexterity="309" speed="570" tackling="686" passing="666" shooting="585" control="574" accuracy="526" goalkeeping="101" heading="634"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92170">
+    <personal name="Junior Cesar">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="547" risktaking="352" offensive="385" aggressive="334" consistent="326" creative="567" experienced="581"/>
+    <skills stamina="478" dexterity="595" speed="533" tackling="590" passing="635" shooting="455" control="524" accuracy="494" goalkeeping="95" heading="606"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="92171">
+    <personal name="Alex Dias">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="508" risktaking="522" offensive="651" aggressive="429" consistent="661" creative="203" experienced="502"/>
+    <skills stamina="643" dexterity="294" speed="234" tackling="395" passing="562" shooting="486" control="371" accuracy="572" goalkeeping="74" heading="409"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92172">
+    <personal name="Fabinho">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="571" risktaking="212" offensive="490" aggressive="267" consistent="256" creative="430" experienced="714"/>
+    <skills stamina="313" dexterity="281" speed="648" tackling="544" passing="654" shooting="506" control="561" accuracy="438" goalkeeping="79" heading="624"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92173">
+    <personal name="Somalia">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="480" risktaking="378" offensive="258" aggressive="353" consistent="624" creative="299" experienced="306"/>
+    <skills stamina="241" dexterity="698" speed="654" tackling="466" passing="513" shooting="627" control="474" accuracy="660" goalkeeping="88" heading="626"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92174">
+    <personal name="Soares">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="339" risktaking="395" offensive="418" aggressive="538" consistent="631" creative="448" experienced="407"/>
+    <skills stamina="376" dexterity="426" speed="611" tackling="602" passing="639" shooting="731" control="629" accuracy="757" goalkeeping="98" heading="652"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92175">
+    <personal name="Jean">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="711" risktaking="466" offensive="274" aggressive="431" consistent="541" creative="500" experienced="520"/>
+    <skills stamina="243" dexterity="291" speed="577" tackling="446" passing="473" shooting="579" control="591" accuracy="552" goalkeeping="101" heading="494"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92176">
+    <personal name="Harlei">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="473" risktaking="563" offensive="764" aggressive="247" consistent="465" creative="419" experienced="578"/>
+    <skills stamina="374" dexterity="691" speed="501" tackling="282" passing="524" shooting="537" control="456" accuracy="278" goalkeeping="668" heading="260"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92177">
+    <personal name="Rodrigo Calaca">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="286" risktaking="614" offensive="715" aggressive="377" consistent="404" creative="729" experienced="470"/>
+    <skills stamina="369" dexterity="533" speed="281" tackling="222" passing="430" shooting="426" control="424" accuracy="237" goalkeeping="505" heading="186"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92178">
+    <personal name="Vitor">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="514" risktaking="138" offensive="528" aggressive="398" consistent="520" creative="518" experienced="326"/>
+    <skills stamina="463" dexterity="494" speed="731" tackling="679" passing="562" shooting="597" control="572" accuracy="584" goalkeeping="99" heading="645"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92179">
+    <personal name="Diego">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="351" risktaking="431" offensive="701" aggressive="608" consistent="405" creative="313" experienced="680"/>
+    <skills stamina="744" dexterity="256" speed="622" tackling="642" passing="619" shooting="596" control="502" accuracy="456" goalkeeping="95" heading="525"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92180">
+    <personal name="Amaral">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="600" risktaking="467" offensive="509" aggressive="327" consistent="359" creative="822" experienced="267"/>
+    <skills stamina="365" dexterity="586" speed="660" tackling="523" passing="622" shooting="626" control="612" accuracy="612" goalkeeping="107" heading="513"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92181">
+    <personal name="Leonardo">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="521" risktaking="519" offensive="279" aggressive="744" consistent="706" creative="655" experienced="460"/>
+    <skills stamina="399" dexterity="396" speed="356" tackling="478" passing="620" shooting="430" control="483" accuracy="393" goalkeeping="84" heading="470"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92182">
+    <personal name="Luiz Henrique">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="459" risktaking="567" offensive="650" aggressive="693" consistent="474" creative="212" experienced="713"/>
+    <skills stamina="272" dexterity="732" speed="693" tackling="613" passing="470" shooting="456" control="513" accuracy="521" goalkeeping="85" heading="534"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92183">
+    <personal name="Maurinho">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="531" risktaking="375" offensive="416" aggressive="588" consistent="345" creative="343" experienced="353"/>
+    <skills stamina="468" dexterity="805" speed="812" tackling="619" passing="682" shooting="596" control="508" accuracy="543" goalkeeping="97" heading="654"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92184">
+    <personal name="Chiquinho">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="393" risktaking="635" offensive="262" aggressive="357" consistent="263" creative="409" experienced="416"/>
+    <skills stamina="697" dexterity="430" speed="695" tackling="643" passing="605" shooting="652" control="670" accuracy="515" goalkeeping="106" heading="496"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92185">
+    <personal name="Fabio Bahia">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="560" risktaking="493" offensive="754" aggressive="428" consistent="744" creative="390" experienced="575"/>
+    <skills stamina="809" dexterity="445" speed="723" tackling="558" passing="584" shooting="635" control="563" accuracy="520" goalkeeping="89" heading="519"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92186">
+    <personal name="Danilo Portugal">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="540" risktaking="688" offensive="509" aggressive="700" consistent="448" creative="366" experienced="498"/>
+    <skills stamina="369" dexterity="244" speed="347" tackling="501" passing="546" shooting="441" control="583" accuracy="489" goalkeeping="79" heading="616"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92187">
+    <personal name="Harison">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="558" risktaking="806" offensive="416" aggressive="304" consistent="568" creative="660" experienced="422"/>
+    <skills stamina="329" dexterity="659" speed="535" tackling="669" passing="622" shooting="550" control="696" accuracy="592" goalkeeping="87" heading="664"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92188">
+    <personal name="Elson">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="556" risktaking="500" offensive="571" aggressive="474" consistent="423" creative="547" experienced="535"/>
+    <skills stamina="771" dexterity="598" speed="589" tackling="547" passing="518" shooting="523" control="613" accuracy="656" goalkeeping="107" heading="648"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92189">
+    <personal name="Fabricio Carvalho">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="353" risktaking="369" offensive="514" aggressive="408" consistent="328" creative="736" experienced="479"/>
+    <skills stamina="456" dexterity="343" speed="721" tackling="593" passing="524" shooting="634" control="695" accuracy="664" goalkeeping="113" heading="630"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92190">
+    <personal name="Fabiano Oliveira">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="649" risktaking="597" offensive="442" aggressive="672" consistent="565" creative="500" experienced="527"/>
+    <skills stamina="793" dexterity="543" speed="696" tackling="536" passing="560" shooting="560" control="635" accuracy="702" goalkeeping="82" heading="589"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92191">
+    <personal name="Wendell">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="444" risktaking="474" offensive="552" aggressive="370" consistent="687" creative="459" experienced="304"/>
+    <skills stamina="591" dexterity="507" speed="288" tackling="461" passing="504" shooting="565" control="539" accuracy="533" goalkeeping="95" heading="487"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92192">
+    <personal name="Sebastian Saja">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="473" risktaking="564" offensive="115" aggressive="671" consistent="506" creative="407" experienced="423"/>
+    <skills stamina="505" dexterity="587" speed="428" tackling="286" passing="634" shooting="630" control="553" accuracy="347" goalkeeping="738" heading="292"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="92193">
+    <personal name="Galatto">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="554" risktaking="491" offensive="268" aggressive="384" consistent="404" creative="320" experienced="480"/>
+    <skills stamina="535" dexterity="465" speed="398" tackling="216" passing="489" shooting="559" control="403" accuracy="187" goalkeeping="546" heading="224"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92194">
+    <personal name="Felipe Mattione">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="224" risktaking="413" offensive="538" aggressive="519" consistent="510" creative="257" experienced="918"/>
+    <skills stamina="316" dexterity="325" speed="592" tackling="474" passing="584" shooting="489" control="543" accuracy="454" goalkeeping="79" heading="449"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92195">
+    <personal name="Anderson Pico">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="604" risktaking="457" offensive="429" aggressive="458" consistent="546" creative="123" experienced="750"/>
+    <skills stamina="532" dexterity="589" speed="285" tackling="452" passing="480" shooting="482" control="505" accuracy="494" goalkeeping="85" heading="503"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92196">
+    <personal name="William">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="463" risktaking="336" offensive="398" aggressive="446" consistent="414" creative="565" experienced="410"/>
+    <skills stamina="626" dexterity="733" speed="463" tackling="494" passing="490" shooting="567" control="538" accuracy="546" goalkeeping="100" heading="520"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92197">
+    <personal name="Thiego">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="459" risktaking="569" offensive="431" aggressive="503" consistent="388" creative="605" experienced="519"/>
+    <skills stamina="453" dexterity="334" speed="293" tackling="512" passing="683" shooting="587" control="542" accuracy="485" goalkeeping="90" heading="590"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92198">
+    <personal name="Teco">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="565" risktaking="283" offensive="361" aggressive="312" consistent="583" creative="611" experienced="596"/>
+    <skills stamina="546" dexterity="337" speed="456" tackling="616" passing="605" shooting="476" control="622" accuracy="511" goalkeeping="107" heading="521"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="92199">
+    <personal name="Diego Gavilan">
+      <appearance value="0"/>
+      <nationality value="Paraguay"/>
+    </personal>
+    <personality active="471" risktaking="349" offensive="305" aggressive="667" consistent="458" creative="610" experienced="344"/>
+    <skills stamina="747" dexterity="614" speed="343" tackling="564" passing="549" shooting="483" control="489" accuracy="542" goalkeeping="79" heading="557"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92200">
+    <personal name="Danilo Rios">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="373" risktaking="612" offensive="523" aggressive="257" consistent="607" creative="594" experienced="506"/>
+    <skills stamina="417" dexterity="659" speed="584" tackling="630" passing="472" shooting="501" control="492" accuracy="461" goalkeeping="84" heading="541"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92201">
+    <personal name="Eduardo Costa">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="513" risktaking="403" offensive="473" aggressive="749" consistent="315" creative="273" experienced="466"/>
+    <skills stamina="612" dexterity="299" speed="563" tackling="664" passing="684" shooting="583" control="673" accuracy="679" goalkeeping="106" heading="663"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92202">
+    <personal name="Diego Souza">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="203" risktaking="312" offensive="449" aggressive="375" consistent="529" creative="558" experienced="644"/>
+    <skills stamina="738" dexterity="773" speed="616" tackling="576" passing="614" shooting="577" control="724" accuracy="564" goalkeeping="114" heading="557"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="92203">
+    <personal name="Tcheco">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="219" risktaking="391" offensive="352" aggressive="544" consistent="399" creative="643" experienced="333"/>
+    <skills stamina="702" dexterity="770" speed="591" tackling="563" passing="471" shooting="560" control="435" accuracy="596" goalkeeping="94" heading="556"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92204">
+    <personal name="Jonas">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="494" risktaking="243" offensive="512" aggressive="490" consistent="427" creative="507" experienced="464"/>
+    <skills stamina="746" dexterity="313" speed="673" tackling="493" passing="479" shooting="538" control="489" accuracy="517" goalkeeping="78" heading="511"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92205">
+    <personal name="Rodrigo Mendes">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="497" risktaking="500" offensive="613" aggressive="438" consistent="605" creative="441" experienced="928"/>
+    <skills stamina="682" dexterity="288" speed="392" tackling="652" passing="651" shooting="579" control="547" accuracy="513" goalkeeping="84" heading="651"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92206">
+    <personal name="Marcel">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="383" risktaking="356" offensive="511" aggressive="601" consistent="373" creative="839" experienced="539"/>
+    <skills stamina="448" dexterity="691" speed="690" tackling="516" passing="524" shooting="642" control="541" accuracy="574" goalkeeping="100" heading="502"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92207">
+    <personal name="Ramon">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="338" risktaking="712" offensive="479" aggressive="384" consistent="433" creative="525" experienced="659"/>
+    <skills stamina="393" dexterity="424" speed="539" tackling="628" passing="648" shooting="584" control="640" accuracy="580" goalkeeping="80" heading="462"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92208">
+    <personal name="Eduardo">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="570" risktaking="450" offensive="901" aggressive="318" consistent="297" creative="578" experienced="609"/>
+    <skills stamina="662" dexterity="609" speed="583" tackling="271" passing="394" shooting="540" control="391" accuracy="256" goalkeeping="521" heading="230"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92209">
+    <personal name="Fabiano">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="548" risktaking="322" offensive="647" aggressive="498" consistent="500" creative="640" experienced="656"/>
+    <skills stamina="335" dexterity="585" speed="323" tackling="215" passing="478" shooting="477" control="299" accuracy="185" goalkeeping="492" heading="242"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92210">
+    <personal name="Sidny">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="441" risktaking="532" offensive="539" aggressive="572" consistent="500" creative="141" experienced="469"/>
+    <skills stamina="454" dexterity="345" speed="635" tackling="526" passing="510" shooting="423" control="438" accuracy="414" goalkeeping="68" heading="513"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92211">
+    <personal name="Hamilton">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="419" risktaking="280" offensive="581" aggressive="670" consistent="591" creative="373" experienced="417"/>
+    <skills stamina="245" dexterity="550" speed="399" tackling="488" passing="452" shooting="467" control="552" accuracy="491" goalkeeping="63" heading="439"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92212">
+    <personal name="Onildo">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="425" risktaking="492" offensive="195" aggressive="587" consistent="647" creative="766" experienced="542"/>
+    <skills stamina="507" dexterity="218" speed="631" tackling="428" passing="533" shooting="454" control="558" accuracy="532" goalkeeping="57" heading="386"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92213">
+    <personal name="Breno">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="223" risktaking="572" offensive="426" aggressive="356" consistent="244" creative="305" experienced="390"/>
+    <skills stamina="361" dexterity="582" speed="743" tackling="496" passing="658" shooting="447" control="437" accuracy="460" goalkeeping="89" heading="613"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92214">
+    <personal name="Everaldo">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="385" risktaking="661" offensive="584" aggressive="402" consistent="816" creative="433" experienced="335"/>
+    <skills stamina="444" dexterity="276" speed="358" tackling="459" passing="566" shooting="505" control="461" accuracy="538" goalkeeping="76" heading="471"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92215">
+    <personal name="Marcelinho">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="440" risktaking="293" offensive="374" aggressive="541" consistent="315" creative="478" experienced="441"/>
+    <skills stamina="508" dexterity="558" speed="651" tackling="572" passing="659" shooting="476" control="623" accuracy="645" goalkeeping="84" heading="648"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92216">
+    <personal name="Juliano">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="474" risktaking="388" offensive="710" aggressive="372" consistent="357" creative="524" experienced="549"/>
+    <skills stamina="364" dexterity="733" speed="288" tackling="466" passing="512" shooting="439" control="523" accuracy="580" goalkeeping="74" heading="429"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92217">
+    <personal name="Radames">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="446" risktaking="405" offensive="365" aggressive="369" consistent="645" creative="319" experienced="554"/>
+    <skills stamina="487" dexterity="480" speed="609" tackling="608" passing="571" shooting="576" control="610" accuracy="582" goalkeeping="89" heading="581"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92218">
+    <personal name="Elicarlos">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="751" risktaking="568" offensive="479" aggressive="483" consistent="719" creative="696" experienced="524"/>
+    <skills stamina="734" dexterity="519" speed="330" tackling="577" passing="461" shooting="468" control="448" accuracy="524" goalkeeping="61" heading="550"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92219">
+    <personal name="Serginho Baiano">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="615" risktaking="394" offensive="242" aggressive="663" consistent="619" creative="405" experienced="330"/>
+    <skills stamina="311" dexterity="661" speed="619" tackling="433" passing="476" shooting="513" control="397" accuracy="560" goalkeeping="74" heading="400"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92220">
+    <personal name="Alberto Acosta">
+      <appearance value="0"/>
+      <nationality value="Uruguay"/>
+    </personal>
+    <personality active="516" risktaking="470" offensive="623" aggressive="336" consistent="446" creative="215" experienced="391"/>
+    <skills stamina="271" dexterity="450" speed="563" tackling="619" passing="649" shooting="544" control="693" accuracy="496" goalkeeping="104" heading="658"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92221">
+    <personal name="Vagner Rosa">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="438" risktaking="612" offensive="482" aggressive="418" consistent="27" creative="605" experienced="413"/>
+    <skills stamina="525" dexterity="488" speed="253" tackling="483" passing="405" shooting="507" control="491" accuracy="455" goalkeeping="71" heading="520"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="92222">
+    <personal name="Felipe">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="316" risktaking="585" offensive="475" aggressive="538" consistent="358" creative="682" experienced="418"/>
+    <skills stamina="747" dexterity="406" speed="700" tackling="535" passing="662" shooting="686" control="654" accuracy="597" goalkeeping="87" heading="552"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92223">
+    <personal name="Ferreira">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="578" risktaking="398" offensive="645" aggressive="646" consistent="519" creative="607" experienced="388"/>
+    <skills stamina="419" dexterity="296" speed="398" tackling="495" passing="457" shooting="549" control="451" accuracy="504" goalkeeping="89" heading="472"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92224">
+    <personal name="Clemer">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="521" risktaking="581" offensive="880" aggressive="553" consistent="740" creative="292" experienced="653"/>
+    <skills stamina="722" dexterity="461" speed="329" tackling="282" passing="492" shooting="544" control="369" accuracy="263" goalkeeping="614" heading="213"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="92225">
+    <personal name="Renan">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="441" risktaking="640" offensive="571" aggressive="519" consistent="333" creative="461" experienced="389"/>
+    <skills stamina="549" dexterity="750" speed="510" tackling="317" passing="471" shooting="547" control="408" accuracy="256" goalkeeping="655" heading="313"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92226">
+    <personal name="Elder Granja">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="399" risktaking="437" offensive="542" aggressive="552" consistent="653" creative="698" experienced="729"/>
+    <skills stamina="470" dexterity="323" speed="229" tackling="413" passing="606" shooting="517" control="600" accuracy="587" goalkeeping="90" heading="478"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92227">
+    <personal name="Alex">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="445" risktaking="322" offensive="332" aggressive="589" consistent="551" creative="479" experienced="539"/>
+    <skills stamina="708" dexterity="805" speed="543" tackling="666" passing="668" shooting="582" control="552" accuracy="587" goalkeeping="83" heading="577"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92228">
+    <personal name="Marcao">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="374" risktaking="657" offensive="586" aggressive="552" consistent="523" creative="614" experienced="232"/>
+    <skills stamina="227" dexterity="355" speed="708" tackling="453" passing="406" shooting="372" control="442" accuracy="375" goalkeeping="70" heading="391"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="92229">
+    <personal name="Mineiro">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="739" risktaking="700" offensive="367" aggressive="290" consistent="492" creative="527" experienced="549"/>
+    <skills stamina="302" dexterity="515" speed="505" tackling="603" passing="647" shooting="513" control="604" accuracy="511" goalkeeping="97" heading="519"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="92230">
+    <personal name="Indio">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="617" risktaking="672" offensive="715" aggressive="588" consistent="702" creative="655" experienced="526"/>
+    <skills stamina="603" dexterity="439" speed="436" tackling="602" passing="492" shooting="442" control="522" accuracy="454" goalkeeping="94" heading="483"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92231">
+    <personal name="Wellington Monteiro">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="409" risktaking="537" offensive="534" aggressive="750" consistent="605" creative="574" experienced="780"/>
+    <skills stamina="397" dexterity="326" speed="472" tackling="542" passing="566" shooting="537" control="481" accuracy="517" goalkeeping="87" heading="603"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92232">
+    <personal name="Pinga">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="568" risktaking="377" offensive="339" aggressive="597" consistent="515" creative="394" experienced="371"/>
+    <skills stamina="436" dexterity="608" speed="587" tackling="506" passing="542" shooting="672" control="617" accuracy="605" goalkeeping="110" heading="506"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92233">
+    <personal name="Pablo Guinazu">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="641" risktaking="526" offensive="679" aggressive="448" consistent="390" creative="360" experienced="360"/>
+    <skills stamina="451" dexterity="330" speed="566" tackling="534" passing="551" shooting="526" control="624" accuracy="669" goalkeeping="90" heading="668"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92234">
+    <personal name="Fernandao">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="405" risktaking="557" offensive="342" aggressive="324" consistent="451" creative="237" experienced="534"/>
+    <skills stamina="612" dexterity="579" speed="453" tackling="708" passing="609" shooting="657" control="648" accuracy="650" goalkeeping="113" heading="645"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92235">
+    <personal name="Edinho">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="444" risktaking="326" offensive="382" aggressive="568" consistent="656" creative="456" experienced="207"/>
+    <skills stamina="479" dexterity="642" speed="236" tackling="573" passing="640" shooting="588" control="661" accuracy="632" goalkeeping="101" heading="551"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="92236">
+    <personal name="Magrao">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="581" risktaking="535" offensive="683" aggressive="708" consistent="518" creative="500" experienced="647"/>
+    <skills stamina="395" dexterity="280" speed="643" tackling="598" passing="495" shooting="628" control="577" accuracy="533" goalkeeping="83" heading="523"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="92237">
+    <personal name="Gil">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="454" risktaking="655" offensive="368" aggressive="694" consistent="548" creative="334" experienced="516"/>
+    <skills stamina="410" dexterity="606" speed="537" tackling="504" passing="582" shooting="708" control="520" accuracy="610" goalkeeping="107" heading="665"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92238">
+    <personal name="Nilmar">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="537" risktaking="572" offensive="244" aggressive="522" consistent="698" creative="435" experienced="586"/>
+    <skills stamina="535" dexterity="367" speed="555" tackling="664" passing="612" shooting="608" control="613" accuracy="657" goalkeeping="104" heading="747"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92239">
+    <personal name="Luciano Henrique">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="432" risktaking="338" offensive="465" aggressive="577" consistent="503" creative="398" experienced="316"/>
+    <skills stamina="616" dexterity="544" speed="507" tackling="622" passing="559" shooting="610" control="668" accuracy="584" goalkeeping="96" heading="588"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="92240">
+    <personal name="Andre">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="374" risktaking="804" offensive="816" aggressive="576" consistent="502" creative="435" experienced="652"/>
+    <skills stamina="324" dexterity="416" speed="454" tackling="258" passing="585" shooting="483" control="344" accuracy="247" goalkeeping="688" heading="294"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92241">
+    <personal name="Michel Alves">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="479" risktaking="500" offensive="393" aggressive="430" consistent="472" creative="391" experienced="662"/>
+    <skills stamina="299" dexterity="604" speed="483" tackling="195" passing="492" shooting="442" control="388" accuracy="229" goalkeeping="583" heading="224"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92242">
+    <personal name="Jucemar">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="570" risktaking="290" offensive="743" aggressive="549" consistent="389" creative="691" experienced="332"/>
+    <skills stamina="583" dexterity="201" speed="333" tackling="361" passing="534" shooting="441" control="411" accuracy="371" goalkeeping="54" heading="316"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92243">
+    <personal name="Marcio Azevedo">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="483" risktaking="520" offensive="655" aggressive="645" consistent="585" creative="366" experienced="581"/>
+    <skills stamina="320" dexterity="532" speed="270" tackling="569" passing="536" shooting="478" control="482" accuracy="397" goalkeeping="81" heading="475"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92244">
+    <personal name="Cedrola">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="437" risktaking="578" offensive="707" aggressive="748" consistent="376" creative="657" experienced="696"/>
+    <skills stamina="473" dexterity="734" speed="372" tackling="601" passing="570" shooting="379" control="556" accuracy="507" goalkeeping="89" heading="474"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92245">
+    <personal name="Wescley">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="576" risktaking="771" offensive="459" aggressive="645" consistent="305" creative="111" experienced="450"/>
+    <skills stamina="396" dexterity="733" speed="584" tackling="538" passing="533" shooting="383" control="571" accuracy="392" goalkeeping="85" heading="482"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92246">
+    <personal name="Luiz Nunes">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="121" risktaking="459" offensive="324" aggressive="458" consistent="432" creative="497" experienced="646"/>
+    <skills stamina="276" dexterity="693" speed="172" tackling="520" passing="514" shooting="539" control="501" accuracy="404" goalkeeping="72" heading="437"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92247">
+    <personal name="Marcelo Costa">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="557" risktaking="602" offensive="201" aggressive="611" consistent="662" creative="426" experienced="639"/>
+    <skills stamina="420" dexterity="273" speed="278" tackling="614" passing="681" shooting="555" control="573" accuracy="517" goalkeeping="100" heading="631"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92248">
+    <personal name="Fabio Baiano">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="677" risktaking="136" offensive="412" aggressive="297" consistent="649" creative="494" experienced="510"/>
+    <skills stamina="490" dexterity="606" speed="620" tackling="374" passing="445" shooting="443" control="511" accuracy="515" goalkeeping="75" heading="432"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92249">
+    <personal name="Marco Vanzini">
+      <appearance value="0"/>
+      <nationality value="Uruguay"/>
+    </personal>
+    <personality active="409" risktaking="631" offensive="311" aggressive="804" consistent="510" creative="591" experienced="477"/>
+    <skills stamina="411" dexterity="742" speed="308" tackling="636" passing="488" shooting="498" control="537" accuracy="531" goalkeeping="95" heading="482"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92250">
+    <personal name="Julio Cesar">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="427" risktaking="436" offensive="468" aggressive="613" consistent="380" creative="332" experienced="518"/>
+    <skills stamina="707" dexterity="209" speed="557" tackling="414" passing="514" shooting="479" control="488" accuracy="452" goalkeeping="82" heading="471"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92251">
+    <personal name="Ze Rodolpho">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="360" risktaking="750" offensive="491" aggressive="488" consistent="788" creative="576" experienced="427"/>
+    <skills stamina="612" dexterity="679" speed="370" tackling="532" passing="486" shooting="462" control="409" accuracy="407" goalkeeping="87" heading="553"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92252">
+    <personal name="William">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="632" risktaking="344" offensive="368" aggressive="771" consistent="627" creative="380" experienced="570"/>
+    <skills stamina="707" dexterity="261" speed="600" tackling="413" passing="435" shooting="511" control="497" accuracy="368" goalkeeping="82" heading="371"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92253">
+    <personal name="Alex Alves">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="572" risktaking="313" offensive="436" aggressive="383" consistent="424" creative="503" experienced="541"/>
+    <skills stamina="255" dexterity="398" speed="181" tackling="402" passing="390" shooting="440" control="423" accuracy="435" goalkeeping="60" heading="492"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92254">
+    <personal name="Tiago Cavalcanti">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="245" risktaking="710" offensive="516" aggressive="381" consistent="109" creative="188" experienced="355"/>
+    <skills stamina="710" dexterity="318" speed="673" tackling="588" passing="604" shooting="589" control="618" accuracy="688" goalkeeping="103" heading="519"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92255">
+    <personal name="Tadeu">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="336" risktaking="471" offensive="477" aggressive="778" consistent="277" creative="639" experienced="411"/>
+    <skills stamina="448" dexterity="383" speed="513" tackling="426" passing="434" shooting="569" control="404" accuracy="631" goalkeeping="82" heading="517"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92256">
+    <personal name="Marcos">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="623" risktaking="497" offensive="476" aggressive="232" consistent="558" creative="534" experienced="359"/>
+    <skills stamina="646" dexterity="727" speed="571" tackling="328" passing="745" shooting="634" control="470" accuracy="333" goalkeeping="705" heading="351"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92257">
+    <personal name="Diego Cavalieri">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="393" risktaking="442" offensive="686" aggressive="306" consistent="421" creative="389" experienced="694"/>
+    <skills stamina="471" dexterity="748" speed="710" tackling="306" passing="655" shooting="529" control="414" accuracy="301" goalkeeping="658" heading="278"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92258">
+    <personal name="Paulo Sergio">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="281" risktaking="815" offensive="521" aggressive="479" consistent="235" creative="429" experienced="635"/>
+    <skills stamina="392" dexterity="717" speed="291" tackling="604" passing="618" shooting="628" control="547" accuracy="523" goalkeeping="101" heading="678"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92259">
+    <personal name="Valmir">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="381" risktaking="440" offensive="656" aggressive="478" consistent="654" creative="327" experienced="349"/>
+    <skills stamina="567" dexterity="591" speed="323" tackling="520" passing="666" shooting="564" control="664" accuracy="458" goalkeeping="91" heading="640"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92260">
+    <personal name="David">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="540" risktaking="565" offensive="504" aggressive="484" consistent="571" creative="649" experienced="430"/>
+    <skills stamina="482" dexterity="332" speed="575" tackling="653" passing="615" shooting="661" control="664" accuracy="634" goalkeeping="108" heading="640"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92261">
+    <personal name="Gustavo">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="543" risktaking="564" offensive="616" aggressive="353" consistent="667" creative="655" experienced="691"/>
+    <skills stamina="626" dexterity="792" speed="490" tackling="582" passing="639" shooting="652" control="687" accuracy="585" goalkeeping="97" heading="594"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92262">
+    <personal name="Wendel">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="604" risktaking="507" offensive="439" aggressive="662" consistent="509" creative="337" experienced="898"/>
+    <skills stamina="536" dexterity="559" speed="257" tackling="668" passing="600" shooting="608" control="690" accuracy="625" goalkeeping="99" heading="574"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92263">
+    <personal name="Jorge Valdivia">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="558" risktaking="575" offensive="450" aggressive="471" consistent="606" creative="533" experienced="435"/>
+    <skills stamina="503" dexterity="798" speed="682" tackling="631" passing="760" shooting="724" control="585" accuracy="678" goalkeeping="106" heading="670"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92264">
+    <personal name="William">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="291" risktaking="758" offensive="500" aggressive="404" consistent="295" creative="524" experienced="475"/>
+    <skills stamina="779" dexterity="396" speed="402" tackling="506" passing="540" shooting="618" control="663" accuracy="590" goalkeeping="83" heading="684"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92265">
+    <personal name="Pierre">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="211" risktaking="800" offensive="491" aggressive="869" consistent="537" creative="320" experienced="347"/>
+    <skills stamina="408" dexterity="459" speed="251" tackling="621" passing="533" shooting="532" control="541" accuracy="581" goalkeeping="86" heading="593"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="92266">
+    <personal name="Francis">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="485" risktaking="426" offensive="492" aggressive="696" consistent="362" creative="221" experienced="632"/>
+    <skills stamina="722" dexterity="412" speed="547" tackling="576" passing="598" shooting="492" control="558" accuracy="617" goalkeeping="87" heading="544"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92267">
+    <personal name="Makelele">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="797" risktaking="500" offensive="554" aggressive="524" consistent="741" creative="853" experienced="688"/>
+    <skills stamina="627" dexterity="553" speed="445" tackling="702" passing="606" shooting="534" control="573" accuracy="584" goalkeeping="99" heading="642"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92268">
+    <personal name="Martinez">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="354" risktaking="542" offensive="315" aggressive="583" consistent="361" creative="660" experienced="472"/>
+    <skills stamina="370" dexterity="400" speed="481" tackling="544" passing="568" shooting="599" control="533" accuracy="686" goalkeeping="81" heading="625"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92269">
+    <personal name="Osmar">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="447" risktaking="435" offensive="382" aggressive="618" consistent="464" creative="375" experienced="661"/>
+    <skills stamina="308" dexterity="411" speed="254" tackling="620" passing="661" shooting="601" control="602" accuracy="666" goalkeeping="85" heading="656"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92270">
+    <personal name="Luiz Henrique">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="430" risktaking="503" offensive="469" aggressive="303" consistent="595" creative="490" experienced="512"/>
+    <skills stamina="689" dexterity="384" speed="754" tackling="621" passing="621" shooting="510" control="648" accuracy="523" goalkeeping="101" heading="509"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92271">
+    <personal name="Edmundo">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="748" risktaking="595" offensive="543" aggressive="451" consistent="623" creative="577" experienced="506"/>
+    <skills stamina="615" dexterity="541" speed="694" tackling="521" passing="508" shooting="548" control="472" accuracy="542" goalkeeping="77" heading="454"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92272">
+    <personal name="Gabriel">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="546" risktaking="670" offensive="702" aggressive="531" consistent="325" creative="389" experienced="255"/>
+    <skills stamina="723" dexterity="398" speed="380" tackling="226" passing="503" shooting="434" control="331" accuracy="193" goalkeeping="452" heading="247"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92273">
+    <personal name="Flavio">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="169" risktaking="630" offensive="521" aggressive="601" consistent="482" creative="657" experienced="564"/>
+    <skills stamina="660" dexterity="645" speed="465" tackling="264" passing="357" shooting="451" control="276" accuracy="200" goalkeeping="511" heading="182"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92274">
+    <personal name="Alex">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="475" risktaking="483" offensive="535" aggressive="542" consistent="531" creative="365" experienced="541"/>
+    <skills stamina="265" dexterity="434" speed="695" tackling="543" passing="603" shooting="475" control="623" accuracy="546" goalkeeping="83" heading="465"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92275">
+    <personal name="Paulo Rodrigues">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="529" risktaking="458" offensive="456" aggressive="424" consistent="528" creative="680" experienced="327"/>
+    <skills stamina="732" dexterity="709" speed="243" tackling="400" passing="565" shooting="389" control="538" accuracy="444" goalkeeping="67" heading="439"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92276">
+    <personal name="Daniel Marques">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="423" risktaking="764" offensive="497" aggressive="304" consistent="491" creative="541" experienced="508"/>
+    <skills stamina="657" dexterity="787" speed="391" tackling="620" passing="679" shooting="570" control="613" accuracy="498" goalkeeping="108" heading="603"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="92277">
+    <personal name="Luis Henrique">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="643" risktaking="573" offensive="358" aggressive="458" consistent="824" creative="735" experienced="407"/>
+    <skills stamina="503" dexterity="283" speed="416" tackling="685" passing="614" shooting="637" control="651" accuracy="532" goalkeeping="93" heading="665"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92278">
+    <personal name="Joao Paulo">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="744" risktaking="243" offensive="517" aggressive="525" consistent="618" creative="780" experienced="348"/>
+    <skills stamina="428" dexterity="596" speed="293" tackling="483" passing="459" shooting="527" control="585" accuracy="591" goalkeeping="71" heading="578"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92279">
+    <personal name="Goiano">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="679" risktaking="526" offensive="585" aggressive="849" consistent="611" creative="291" experienced="482"/>
+    <skills stamina="513" dexterity="485" speed="758" tackling="484" passing="632" shooting="464" control="495" accuracy="466" goalkeeping="103" heading="431"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92280">
+    <personal name="Batista">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="325" risktaking="443" offensive="539" aggressive="564" consistent="657" creative="360" experienced="460"/>
+    <skills stamina="696" dexterity="342" speed="491" tackling="509" passing="643" shooting="510" control="506" accuracy="530" goalkeeping="103" heading="632"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92281">
+    <personal name="Adriano">
+      <appearance value="8"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="266" risktaking="404" offensive="568" aggressive="260" consistent="348" creative="480" experienced="479"/>
+    <skills stamina="631" dexterity="309" speed="404" tackling="624" passing="599" shooting="540" control="639" accuracy="517" goalkeeping="107" heading="473"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="92282">
+    <personal name="Everton">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="364" risktaking="565" offensive="623" aggressive="577" consistent="439" creative="669" experienced="586"/>
+    <skills stamina="557" dexterity="589" speed="368" tackling="528" passing="437" shooting="548" control="555" accuracy="582" goalkeeping="93" heading="525"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92283">
+    <personal name="Lima">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="457" risktaking="441" offensive="563" aggressive="710" consistent="276" creative="352" experienced="114"/>
+    <skills stamina="458" dexterity="250" speed="466" tackling="488" passing="429" shooting="506" control="423" accuracy="602" goalkeeping="89" heading="452"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92284">
+    <personal name="Jefferson">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="576" risktaking="545" offensive="438" aggressive="371" consistent="634" creative="358" experienced="575"/>
+    <skills stamina="694" dexterity="389" speed="524" tackling="487" passing="460" shooting="690" control="560" accuracy="494" goalkeeping="89" heading="515"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92285">
+    <personal name="Vinicius Pacheco">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="421" risktaking="542" offensive="479" aggressive="273" consistent="498" creative="626" experienced="399"/>
+    <skills stamina="508" dexterity="631" speed="349" tackling="577" passing="680" shooting="628" control="609" accuracy="563" goalkeeping="82" heading="601"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92286">
+    <personal name="Josiel">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="437" risktaking="386" offensive="538" aggressive="236" consistent="485" creative="499" experienced="404"/>
+    <skills stamina="495" dexterity="453" speed="614" tackling="688" passing="664" shooting="625" control="581" accuracy="622" goalkeeping="99" heading="603"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92287">
+    <personal name="Vandinho">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="455" risktaking="625" offensive="464" aggressive="512" consistent="154" creative="574" experienced="571"/>
+    <skills stamina="590" dexterity="307" speed="259" tackling="580" passing="477" shooting="512" control="595" accuracy="521" goalkeeping="85" heading="512"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92288">
+    <personal name="Tiago">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="565" risktaking="516" offensive="486" aggressive="440" consistent="290" creative="467" experienced="565"/>
+    <skills stamina="248" dexterity="454" speed="218" tackling="254" passing="380" shooting="374" control="455" accuracy="230" goalkeeping="479" heading="210"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="92289">
+    <personal name="Leandro">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="401" risktaking="262" offensive="650" aggressive="572" consistent="735" creative="441" experienced="467"/>
+    <skills stamina="205" dexterity="345" speed="204" tackling="187" passing="466" shooting="394" control="333" accuracy="159" goalkeeping="514" heading="166"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92290">
+    <personal name="Juninho Goiano">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="240" risktaking="414" offensive="423" aggressive="548" consistent="539" creative="704" experienced="497"/>
+    <skills stamina="698" dexterity="474" speed="563" tackling="330" passing="457" shooting="306" control="360" accuracy="392" goalkeeping="63" heading="285"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92291">
+    <personal name="Leonardo">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="494" risktaking="554" offensive="753" aggressive="616" consistent="141" creative="525" experienced="660"/>
+    <skills stamina="643" dexterity="536" speed="194" tackling="411" passing="468" shooting="481" control="372" accuracy="363" goalkeeping="82" heading="455"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92292">
+    <personal name="Marco Aurelio">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="648" risktaking="301" offensive="497" aggressive="475" consistent="326" creative="517" experienced="508"/>
+    <skills stamina="388" dexterity="398" speed="682" tackling="499" passing="437" shooting="464" control="429" accuracy="385" goalkeeping="61" heading="322"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92293">
+    <personal name="Bruno">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="504" risktaking="703" offensive="715" aggressive="414" consistent="540" creative="632" experienced="838"/>
+    <skills stamina="400" dexterity="528" speed="668" tackling="466" passing="334" shooting="479" control="373" accuracy="306" goalkeeping="59" heading="413"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92294">
+    <personal name="Wilton Goiano">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="392" risktaking="387" offensive="531" aggressive="690" consistent="691" creative="401" experienced="411"/>
+    <skills stamina="327" dexterity="438" speed="537" tackling="374" passing="373" shooting="444" control="478" accuracy="320" goalkeeping="51" heading="314"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92295">
+    <personal name="Bruno Soares">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="538" risktaking="261" offensive="535" aggressive="504" consistent="420" creative="256" experienced="331"/>
+    <skills stamina="553" dexterity="471" speed="597" tackling="366" passing="381" shooting="487" control="581" accuracy="527" goalkeeping="83" heading="414"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92296">
+    <personal name="Preto">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="797" risktaking="415" offensive="558" aggressive="494" consistent="362" creative="613" experienced="488"/>
+    <skills stamina="575" dexterity="530" speed="546" tackling="477" passing="348" shooting="474" control="448" accuracy="340" goalkeeping="68" heading="337"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92297">
+    <personal name="Rai">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="384" risktaking="250" offensive="492" aggressive="505" consistent="285" creative="523" experienced="522"/>
+    <skills stamina="635" dexterity="278" speed="553" tackling="422" passing="424" shooting="538" control="558" accuracy="498" goalkeeping="64" heading="442"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92298">
+    <personal name="Diogo">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="535" risktaking="644" offensive="435" aggressive="381" consistent="384" creative="322" experienced="601"/>
+    <skills stamina="661" dexterity="684" speed="439" tackling="535" passing="489" shooting="575" control="556" accuracy="465" goalkeeping="80" heading="532"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92299">
+    <personal name="Erick">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="558" risktaking="136" offensive="270" aggressive="585" consistent="401" creative="488" experienced="336"/>
+    <skills stamina="597" dexterity="262" speed="546" tackling="418" passing="415" shooting="367" control="538" accuracy="447" goalkeeping="57" heading="342"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="92300">
+    <personal name="Claudio Mineiro">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="343" risktaking="363" offensive="683" aggressive="233" consistent="324" creative="328" experienced="343"/>
+    <skills stamina="483" dexterity="615" speed="636" tackling="433" passing="458" shooting="396" control="381" accuracy="383" goalkeeping="60" heading="376"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92301">
+    <personal name="Vaguinho">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="374" risktaking="250" offensive="492" aggressive="455" consistent="321" creative="375" experienced="405"/>
+    <skills stamina="354" dexterity="275" speed="200" tackling="466" passing="407" shooting="613" control="410" accuracy="385" goalkeeping="89" heading="461"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92302">
+    <personal name="Jonas">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="727" risktaking="272" offensive="464" aggressive="142" consistent="515" creative="835" experienced="513"/>
+    <skills stamina="617" dexterity="470" speed="208" tackling="307" passing="396" shooting="349" control="464" accuracy="406" goalkeeping="56" heading="443"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92303">
+    <personal name="Clayton">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="683" risktaking="459" offensive="581" aggressive="714" consistent="409" creative="378" experienced="646"/>
+    <skills stamina="611" dexterity="441" speed="705" tackling="420" passing="463" shooting="500" control="407" accuracy="535" goalkeeping="86" heading="470"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92304">
+    <personal name="Fabio Costa">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="699" risktaking="482" offensive="302" aggressive="386" consistent="591" creative="698" experienced="554"/>
+    <skills stamina="682" dexterity="404" speed="331" tackling="332" passing="550" shooting="597" control="480" accuracy="274" goalkeeping="567" heading="327"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92305">
+    <personal name="Felipe">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="428" risktaking="798" offensive="509" aggressive="520" consistent="418" creative="537" experienced="622"/>
+    <skills stamina="684" dexterity="327" speed="371" tackling="173" passing="441" shooting="509" control="316" accuracy="224" goalkeeping="525" heading="239"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="92306">
+    <personal name="Denis">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="550" risktaking="744" offensive="676" aggressive="734" consistent="260" creative="666" experienced="255"/>
+    <skills stamina="668" dexterity="469" speed="599" tackling="556" passing="584" shooting="441" control="567" accuracy="622" goalkeeping="92" heading="560"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92307">
+    <personal name="Kleber">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="533" risktaking="365" offensive="253" aggressive="437" consistent="372" creative="483" experienced="477"/>
+    <skills stamina="390" dexterity="401" speed="785" tackling="710" passing="671" shooting="646" control="770" accuracy="740" goalkeeping="112" heading="673"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92308">
+    <personal name="Domingos">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="421" risktaking="591" offensive="378" aggressive="328" consistent="623" creative="679" experienced="352"/>
+    <skills stamina="703" dexterity="477" speed="432" tackling="700" passing="713" shooting="545" control="678" accuracy="601" goalkeeping="103" heading="535"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92309">
+    <personal name="Leonardo">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="137" risktaking="605" offensive="378" aggressive="804" consistent="496" creative="295" experienced="869"/>
+    <skills stamina="298" dexterity="446" speed="608" tackling="703" passing="541" shooting="524" control="683" accuracy="607" goalkeeping="110" heading="577"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92310">
+    <personal name="Antonio Carlos">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="548" risktaking="668" offensive="651" aggressive="275" consistent="601" creative="288" experienced="467"/>
+    <skills stamina="522" dexterity="266" speed="459" tackling="618" passing="389" shooting="499" control="437" accuracy="578" goalkeeping="67" heading="539"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92311">
+    <personal name="Dejan Petkovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="613" risktaking="312" offensive="505" aggressive="395" consistent="346" creative="525" experienced="352"/>
+    <skills stamina="482" dexterity="230" speed="241" tackling="429" passing="528" shooting="559" control="408" accuracy="446" goalkeeping="92" heading="507"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92312">
+    <personal name="Rodrigo Tabata">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="528" risktaking="499" offensive="680" aggressive="433" consistent="620" creative="439" experienced="445"/>
+    <skills stamina="537" dexterity="586" speed="658" tackling="601" passing="596" shooting="566" control="515" accuracy="661" goalkeeping="79" heading="638"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92313">
+    <personal name="Claudio Maldonado">
+      <appearance value="0"/>
+      <nationality value="Chile"/>
+    </personal>
+    <personality active="487" risktaking="454" offensive="763" aggressive="580" consistent="650" creative="507" experienced="501"/>
+    <skills stamina="467" dexterity="740" speed="434" tackling="537" passing="617" shooting="589" control="645" accuracy="609" goalkeeping="114" heading="594"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92314">
+    <personal name="Dionisio">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="583" risktaking="288" offensive="414" aggressive="310" consistent="531" creative="789" experienced="175"/>
+    <skills stamina="289" dexterity="614" speed="354" tackling="582" passing="521" shooting="452" control="632" accuracy="538" goalkeeping="96" heading="515"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92315">
+    <personal name="Baiano">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="486" risktaking="390" offensive="671" aggressive="434" consistent="604" creative="772" experienced="839"/>
+    <skills stamina="398" dexterity="444" speed="249" tackling="517" passing="488" shooting="586" control="425" accuracy="572" goalkeeping="78" heading="478"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92316">
+    <personal name="Vitor Junior">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="425" risktaking="377" offensive="637" aggressive="385" consistent="500" creative="423" experienced="522"/>
+    <skills stamina="286" dexterity="446" speed="515" tackling="570" passing="621" shooting="549" control="602" accuracy="509" goalkeeping="110" heading="563"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92317">
+    <personal name="Marcos Aurelio">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="437" risktaking="383" offensive="714" aggressive="390" consistent="186" creative="500" experienced="684"/>
+    <skills stamina="655" dexterity="424" speed="255" tackling="615" passing="645" shooting="619" control="479" accuracy="514" goalkeeping="100" heading="529"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92318">
+    <personal name="Kleber Pereira">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="745" risktaking="622" offensive="469" aggressive="454" consistent="784" creative="571" experienced="514"/>
+    <skills stamina="646" dexterity="269" speed="644" tackling="608" passing="464" shooting="600" control="564" accuracy="639" goalkeeping="108" heading="580"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92319">
+    <personal name="Moraes">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="451" risktaking="721" offensive="634" aggressive="570" consistent="112" creative="504" experienced="593"/>
+    <skills stamina="570" dexterity="577" speed="262" tackling="443" passing="532" shooting="580" control="595" accuracy="550" goalkeeping="68" heading="539"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92320">
+    <personal name="Rogerio Ceni">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="539" risktaking="336" offensive="499" aggressive="386" consistent="384" creative="499" experienced="460"/>
+    <skills stamina="547" dexterity="740" speed="763" tackling="298" passing="678" shooting="728" control="571" accuracy="331" goalkeeping="730" heading="358"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92321">
+    <personal name="Bosco">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="264" risktaking="454" offensive="463" aggressive="473" consistent="333" creative="395" experienced="402"/>
+    <skills stamina="242" dexterity="762" speed="711" tackling="325" passing="496" shooting="558" control="464" accuracy="330" goalkeeping="720" heading="239"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92322">
+    <personal name="Souza">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="328" risktaking="468" offensive="411" aggressive="273" consistent="665" creative="691" experienced="588"/>
+    <skills stamina="327" dexterity="438" speed="408" tackling="655" passing="549" shooting="538" control="676" accuracy="631" goalkeeping="113" heading="625"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92323">
+    <personal name="Jorge Wagner">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="298" risktaking="427" offensive="723" aggressive="276" consistent="656" creative="547" experienced="353"/>
+    <skills stamina="772" dexterity="661" speed="719" tackling="715" passing="703" shooting="717" control="655" accuracy="571" goalkeeping="90" heading="557"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92324">
+    <personal name="Miranda">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="600" risktaking="427" offensive="413" aggressive="491" consistent="418" creative="288" experienced="444"/>
+    <skills stamina="542" dexterity="365" speed="604" tackling="595" passing="712" shooting="571" control="739" accuracy="536" goalkeeping="94" heading="596"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92325">
+    <personal name="Andre Dias">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="586" risktaking="194" offensive="431" aggressive="491" consistent="464" creative="514" experienced="469"/>
+    <skills stamina="588" dexterity="484" speed="526" tackling="680" passing="678" shooting="582" control="601" accuracy="601" goalkeeping="96" heading="675"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92326">
+    <personal name="Neicer Reasco">
+      <appearance value="1"/>
+      <nationality value="Ecuador"/>
+    </personal>
+    <personality active="496" risktaking="381" offensive="380" aggressive="917" consistent="355" creative="527" experienced="370"/>
+    <skills stamina="577" dexterity="335" speed="405" tackling="618" passing="527" shooting="592" control="542" accuracy="596" goalkeeping="83" heading="635"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92327">
+    <personal name="Leandro">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="626" risktaking="675" offensive="601" aggressive="756" consistent="669" creative="359" experienced="589"/>
+    <skills stamina="642" dexterity="672" speed="636" tackling="677" passing="698" shooting="577" control="569" accuracy="509" goalkeeping="108" heading="556"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92328">
+    <personal name="Hernanes">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="221" risktaking="287" offensive="482" aggressive="619" consistent="550" creative="492" experienced="696"/>
+    <skills stamina="472" dexterity="824" speed="726" tackling="547" passing="685" shooting="567" control="615" accuracy="610" goalkeeping="113" heading="563"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92329">
+    <personal name="Fredson">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="781" risktaking="463" offensive="438" aggressive="495" consistent="542" creative="728" experienced="604"/>
+    <skills stamina="445" dexterity="713" speed="736" tackling="526" passing="697" shooting="561" control="690" accuracy="667" goalkeeping="109" heading="682"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92330">
+    <personal name="Richarlyson">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="402" risktaking="786" offensive="389" aggressive="477" consistent="642" creative="614" experienced="370"/>
+    <skills stamina="828" dexterity="515" speed="372" tackling="562" passing="631" shooting="673" control="509" accuracy="506" goalkeeping="110" heading="632"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92331">
+    <personal name="Francisco Alex">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="566" risktaking="504" offensive="452" aggressive="839" consistent="435" creative="296" experienced="817"/>
+    <skills stamina="648" dexterity="515" speed="500" tackling="581" passing="483" shooting="516" control="588" accuracy="558" goalkeeping="82" heading="590"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92332">
+    <personal name="Hugo">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="248" risktaking="434" offensive="490" aggressive="266" consistent="595" creative="496" experienced="673"/>
+    <skills stamina="532" dexterity="417" speed="342" tackling="575" passing="709" shooting="615" control="658" accuracy="579" goalkeeping="87" heading="615"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92333">
+    <personal name="Diego Tardelli">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="548" risktaking="721" offensive="838" aggressive="321" consistent="531" creative="439" experienced="652"/>
+    <skills stamina="519" dexterity="752" speed="372" tackling="625" passing="653" shooting="641" control="645" accuracy="603" goalkeeping="109" heading="689"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92334">
+    <personal name="Borges">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="383" risktaking="485" offensive="399" aggressive="396" consistent="541" creative="547" experienced="327"/>
+    <skills stamina="766" dexterity="262" speed="521" tackling="590" passing="678" shooting="671" control="667" accuracy="646" goalkeeping="83" heading="657"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="92335">
+    <personal name="Aloisio">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="569" risktaking="367" offensive="325" aggressive="352" consistent="511" creative="296" experienced="270"/>
+    <skills stamina="629" dexterity="317" speed="604" tackling="635" passing="582" shooting="519" control="571" accuracy="619" goalkeeping="97" heading="562"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92336">
+    <personal name="Cleber">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="802" risktaking="447" offensive="363" aggressive="483" consistent="699" creative="465" experienced="338"/>
+    <skills stamina="676" dexterity="689" speed="562" tackling="275" passing="444" shooting="455" control="374" accuracy="254" goalkeeping="545" heading="260"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="92337">
+    <personal name="Magrao">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="587" risktaking="691" offensive="451" aggressive="861" consistent="385" creative="426" experienced="173"/>
+    <skills stamina="368" dexterity="203" speed="357" tackling="214" passing="369" shooting="441" control="362" accuracy="203" goalkeeping="560" heading="255"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="92338">
+    <personal name="Diogo">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="621" risktaking="471" offensive="356" aggressive="287" consistent="499" creative="566" experienced="758"/>
+    <skills stamina="510" dexterity="800" speed="642" tackling="548" passing="668" shooting="497" control="670" accuracy="468" goalkeeping="82" heading="537"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92339">
+    <personal name="Bruno">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="303" risktaking="552" offensive="602" aggressive="605" consistent="380" creative="301" experienced="620"/>
+    <skills stamina="512" dexterity="502" speed="756" tackling="485" passing="609" shooting="497" control="490" accuracy="508" goalkeeping="87" heading="533"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92340">
+    <personal name="Durval">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="508" risktaking="225" offensive="561" aggressive="672" consistent="536" creative="506" experienced="774"/>
+    <skills stamina="627" dexterity="510" speed="751" tackling="587" passing="728" shooting="697" control="572" accuracy="518" goalkeeping="96" heading="669"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92341">
+    <personal name="Gustavo">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="471" risktaking="450" offensive="461" aggressive="545" consistent="537" creative="359" experienced="406"/>
+    <skills stamina="374" dexterity="257" speed="377" tackling="676" passing="545" shooting="558" control="492" accuracy="507" goalkeeping="98" heading="436"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92342">
+    <personal name="Igor">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="734" risktaking="769" offensive="390" aggressive="398" consistent="321" creative="646" experienced="297"/>
+    <skills stamina="705" dexterity="414" speed="428" tackling="587" passing="517" shooting="540" control="464" accuracy="423" goalkeeping="77" heading="570"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92343">
+    <personal name="Rosembrick">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="494" risktaking="635" offensive="424" aggressive="522" consistent="300" creative="248" experienced="468"/>
+    <skills stamina="309" dexterity="500" speed="315" tackling="537" passing="521" shooting="440" control="414" accuracy="420" goalkeeping="77" heading="393"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92344">
+    <personal name="Romerito">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="455" risktaking="551" offensive="331" aggressive="552" consistent="595" creative="409" experienced="495"/>
+    <skills stamina="265" dexterity="619" speed="526" tackling="544" passing="444" shooting="571" control="545" accuracy="553" goalkeeping="97" heading="485"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92345">
+    <personal name="Everton">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="613" risktaking="536" offensive="682" aggressive="433" consistent="552" creative="569" experienced="376"/>
+    <skills stamina="664" dexterity="555" speed="339" tackling="523" passing="598" shooting="490" control="627" accuracy="670" goalkeeping="89" heading="503"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92346">
+    <personal name="Adriano Gabiru">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="290" risktaking="373" offensive="417" aggressive="396" consistent="481" creative="455" experienced="391"/>
+    <skills stamina="291" dexterity="415" speed="369" tackling="526" passing="510" shooting="621" control="532" accuracy="605" goalkeeping="101" heading="503"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92347">
+    <personal name="Fabio Gomes">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="315" risktaking="632" offensive="454" aggressive="239" consistent="371" creative="443" experienced="689"/>
+    <skills stamina="365" dexterity="681" speed="259" tackling="636" passing="546" shooting="657" control="575" accuracy="514" goalkeeping="89" heading="622"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92348">
+    <personal name="Ticao">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="318" risktaking="481" offensive="420" aggressive="226" consistent="552" creative="373" experienced="258"/>
+    <skills stamina="567" dexterity="569" speed="366" tackling="490" passing="519" shooting="544" control="566" accuracy="591" goalkeeping="84" heading="571"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92349">
+    <personal name="Jadilson">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="307" risktaking="455" offensive="346" aggressive="416" consistent="357" creative="416" experienced="297"/>
+    <skills stamina="581" dexterity="503" speed="594" tackling="525" passing="535" shooting="506" control="582" accuracy="538" goalkeeping="76" heading="566"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92350">
+    <personal name="Carlinhos Bala">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="586" risktaking="421" offensive="784" aggressive="656" consistent="384" creative="624" experienced="570"/>
+    <skills stamina="754" dexterity="408" speed="688" tackling="671" passing="511" shooting="637" control="578" accuracy="718" goalkeeping="107" heading="643"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92351">
+    <personal name="Da Silva">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="221" risktaking="522" offensive="515" aggressive="335" consistent="510" creative="501" experienced="516"/>
+    <skills stamina="482" dexterity="417" speed="719" tackling="532" passing="399" shooting="559" control="382" accuracy="569" goalkeeping="73" heading="529"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92352">
+    <personal name="Roberto">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="415" risktaking="525" offensive="529" aggressive="397" consistent="652" creative="774" experienced="484"/>
+    <skills stamina="460" dexterity="563" speed="482" tackling="278" passing="631" shooting="562" control="415" accuracy="306" goalkeeping="548" heading="265"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92353">
+    <personal name="Silvio Luiz">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="684" risktaking="405" offensive="573" aggressive="574" consistent="486" creative="634" experienced="456"/>
+    <skills stamina="246" dexterity="540" speed="302" tackling="303" passing="474" shooting="480" control="360" accuracy="258" goalkeeping="591" heading="231"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92354">
+    <personal name="Wagner Diniz">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="406" risktaking="360" offensive="564" aggressive="642" consistent="511" creative="610" experienced="446"/>
+    <skills stamina="344" dexterity="521" speed="759" tackling="700" passing="550" shooting="509" control="628" accuracy="541" goalkeeping="81" heading="515"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92355">
+    <personal name="Guilherme">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="632" risktaking="526" offensive="631" aggressive="458" consistent="418" creative="375" experienced="583"/>
+    <skills stamina="726" dexterity="541" speed="418" tackling="566" passing="541" shooting="544" control="620" accuracy="497" goalkeeping="96" heading="634"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92356">
+    <personal name="Jorge Luis">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="398" risktaking="488" offensive="613" aggressive="632" consistent="569" creative="658" experienced="624"/>
+    <skills stamina="681" dexterity="393" speed="693" tackling="609" passing="537" shooting="620" control="558" accuracy="593" goalkeeping="100" heading="646"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92357">
+    <personal name="Luizao">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="59" risktaking="768" offensive="271" aggressive="230" consistent="238" creative="436" experienced="346"/>
+    <skills stamina="576" dexterity="405" speed="594" tackling="608" passing="608" shooting="565" control="648" accuracy="532" goalkeeping="98" heading="498"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="92358">
+    <personal name="Julio Santos">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="648" risktaking="517" offensive="259" aggressive="472" consistent="562" creative="617" experienced="397"/>
+    <skills stamina="739" dexterity="720" speed="338" tackling="628" passing="542" shooting="550" control="535" accuracy="568" goalkeeping="87" heading="396"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="92359">
+    <personal name="Ernane">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="615" risktaking="508" offensive="711" aggressive="461" consistent="454" creative="383" experienced="682"/>
+    <skills stamina="502" dexterity="502" speed="730" tackling="534" passing="607" shooting="502" control="693" accuracy="591" goalkeeping="108" heading="474"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92360">
+    <personal name="Morais">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="437" risktaking="301" offensive="500" aggressive="350" consistent="294" creative="424" experienced="645"/>
+    <skills stamina="462" dexterity="343" speed="433" tackling="674" passing="732" shooting="555" control="795" accuracy="658" goalkeeping="93" heading="611"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92361">
+    <personal name="Andrade">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="669" risktaking="539" offensive="693" aggressive="539" consistent="868" creative="526" experienced="394"/>
+    <skills stamina="327" dexterity="426" speed="515" tackling="648" passing="609" shooting="500" control="637" accuracy="556" goalkeeping="113" heading="615"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92362">
+    <personal name="Amaral">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="443" risktaking="271" offensive="450" aggressive="598" consistent="418" creative="470" experienced="344"/>
+    <skills stamina="452" dexterity="364" speed="350" tackling="481" passing="657" shooting="580" control="680" accuracy="539" goalkeeping="80" heading="567"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="92363">
+    <personal name="Perdigao">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="544" risktaking="666" offensive="574" aggressive="413" consistent="359" creative="363" experienced="628"/>
+    <skills stamina="726" dexterity="473" speed="336" tackling="683" passing="550" shooting="550" control="617" accuracy="600" goalkeeping="102" heading="530"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="92364">
+    <personal name="Dario Conca">
+      <appearance value="0"/>
+      <nationality value="Argentina"/>
+    </personal>
+    <personality active="553" risktaking="585" offensive="532" aggressive="654" consistent="559" creative="478" experienced="638"/>
+    <skills stamina="514" dexterity="321" speed="483" tackling="595" passing="627" shooting="466" control="638" accuracy="585" goalkeeping="93" heading="525"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92365">
+    <personal name="Alan Kardec">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="411" risktaking="595" offensive="297" aggressive="578" consistent="718" creative="256" experienced="235"/>
+    <skills stamina="434" dexterity="242" speed="637" tackling="667" passing="572" shooting="596" control="592" accuracy="707" goalkeeping="96" heading="664"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92366">
+    <personal name="Leandro Bonfim">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="363" risktaking="357" offensive="384" aggressive="594" consistent="613" creative="644" experienced="330"/>
+    <skills stamina="387" dexterity="370" speed="407" tackling="573" passing="497" shooting="588" control="512" accuracy="511" goalkeeping="81" heading="460"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="92367">
+    <personal name="Enilton">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="416" risktaking="645" offensive="541" aggressive="453" consistent="357" creative="664" experienced="689"/>
+    <skills stamina="522" dexterity="256" speed="226" tackling="522" passing="576" shooting="563" control="484" accuracy="563" goalkeeping="76" heading="599"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92368">
+    <personal name="Ney">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="204" risktaking="266" offensive="500" aggressive="516" consistent="511" creative="542" experienced="626"/>
+    <skills stamina="541" dexterity="407" speed="401" tackling="216" passing="354" shooting="330" control="287" accuracy="153" goalkeeping="538" heading="158"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92369">
+    <personal name="Franca">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="495" risktaking="549" offensive="531" aggressive="578" consistent="693" creative="364" experienced="508"/>
+    <skills stamina="427" dexterity="650" speed="196" tackling="208" passing="450" shooting="436" control="280" accuracy="152" goalkeeping="503" heading="180"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="92370">
+    <personal name="Apodi">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="754" risktaking="489" offensive="651" aggressive="440" consistent="598" creative="255" experienced="549"/>
+    <skills stamina="470" dexterity="603" speed="293" tackling="505" passing="564" shooting="594" control="592" accuracy="604" goalkeeping="79" heading="526"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="92371">
+    <personal name="Jean">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="765" risktaking="624" offensive="553" aggressive="417" consistent="362" creative="409" experienced="364"/>
+    <skills stamina="440" dexterity="650" speed="223" tackling="509" passing="478" shooting="424" control="404" accuracy="390" goalkeeping="82" heading="417"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92372">
+    <personal name="Anderson Martins">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="341" risktaking="437" offensive="516" aggressive="568" consistent="545" creative="543" experienced="193"/>
+    <skills stamina="424" dexterity="436" speed="195" tackling="452" passing="472" shooting="486" control="442" accuracy="512" goalkeeping="67" heading="500"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="92373">
+    <personal name="Wallace">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="806" risktaking="559" offensive="438" aggressive="395" consistent="436" creative="316" experienced="778"/>
+    <skills stamina="519" dexterity="685" speed="659" tackling="578" passing="435" shooting="388" control="454" accuracy="519" goalkeeping="66" heading="440"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="92374">
+    <personal name="Anderson Rodrigues">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="473" risktaking="614" offensive="474" aggressive="662" consistent="483" creative="521" experienced="536"/>
+    <skills stamina="425" dexterity="567" speed="333" tackling="480" passing="580" shooting="421" control="497" accuracy="503" goalkeeping="76" heading="529"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="92375">
+    <personal name="Indio">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="536" risktaking="216" offensive="500" aggressive="766" consistent="622" creative="521" experienced="540"/>
+    <skills stamina="368" dexterity="522" speed="317" tackling="641" passing="639" shooting="629" control="627" accuracy="520" goalkeeping="81" heading="531"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92376">
+    <personal name="Caique">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="458" risktaking="537" offensive="700" aggressive="643" consistent="382" creative="526" experienced="409"/>
+    <skills stamina="452" dexterity="184" speed="660" tackling="369" passing="455" shooting="375" control="366" accuracy="346" goalkeeping="66" heading="386"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="92377">
+    <personal name="Guilherme">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="701" risktaking="410" offensive="469" aggressive="551" consistent="636" creative="782" experienced="593"/>
+    <skills stamina="345" dexterity="619" speed="596" tackling="421" passing="388" shooting="371" control="518" accuracy="431" goalkeeping="73" heading="486"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92378">
+    <personal name="Faioli">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="615" risktaking="260" offensive="244" aggressive="617" consistent="335" creative="697" experienced="347"/>
+    <skills stamina="503" dexterity="348" speed="279" tackling="511" passing="590" shooting="448" control="559" accuracy="533" goalkeeping="80" heading="606"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92379">
+    <personal name="Jackson">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="493" risktaking="517" offensive="537" aggressive="514" consistent="365" creative="294" experienced="477"/>
+    <skills stamina="461" dexterity="280" speed="204" tackling="364" passing="444" shooting="478" control="502" accuracy="406" goalkeeping="73" heading="442"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="92380">
+    <personal name="Joaozinho">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="269" risktaking="618" offensive="658" aggressive="742" consistent="592" creative="599" experienced="525"/>
+    <skills stamina="457" dexterity="298" speed="228" tackling="365" passing="441" shooting="563" control="506" accuracy="495" goalkeeping="93" heading="396"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92381">
+    <personal name="Bida">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="514" risktaking="424" offensive="389" aggressive="524" consistent="315" creative="369" experienced="391"/>
+    <skills stamina="344" dexterity="313" speed="416" tackling="347" passing="517" shooting="376" control="527" accuracy="557" goalkeeping="77" heading="534"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="92382">
+    <personal name="Vanderson">
+      <appearance value="0"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="577" risktaking="461" offensive="441" aggressive="433" consistent="347" creative="780" experienced="443"/>
+    <skills stamina="626" dexterity="737" speed="406" tackling="477" passing="397" shooting="509" control="431" accuracy="496" goalkeeping="81" heading="527"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="92383">
+    <personal name="Elcimar">
+      <appearance value="1"/>
+      <nationality value="Brazil"/>
+    </personal>
+    <personality active="884" risktaking="447" offensive="724" aggressive="418" consistent="482" creative="248" experienced="347"/>
+    <skills stamina="382" dexterity="489" speed="559" tackling="477" passing="341" shooting="456" control="375" accuracy="514" goalkeeping="62" heading="570"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+</Players>

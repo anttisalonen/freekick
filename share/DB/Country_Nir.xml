@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Northern Ireland">
+    <Regions>
+      <Region name="Northern Ireland">
+        <stadium name="Ards Stadium" capacity="2600"/>
+        <stadium name="Ballyclare C. Stadium" capacity="800"/>
+        <stadium name="Ballymena United Stadium" capacity="3000"/>
+        <stadium name="Bangor Stadium" capacity="5600"/>
+        <stadium name="Carrick Rangers Stadium" capacity="2100"/>
+        <stadium name="Cliftonville Stadium" capacity="2500"/>
+        <stadium name="Coleraine Stadium" capacity="3000"/>
+        <stadium name="Crusaders Stadium" capacity="3800"/>
+        <stadium name="Distillery Stadium" capacity="2800"/>
+        <stadium name="Glenavon Stadium" capacity="7900"/>
+        <stadium name="Glentoran Stadium" capacity="5600"/>
+        <stadium name="Larne Stadium" capacity="800"/>
+        <stadium name="Linfield Stadium" capacity="8900"/>
+        <stadium name="Newry Town Stadium" capacity="900"/>
+        <stadium name="Omagh Town Stadium" capacity="600"/>
+        <stadium name="Portadown Stadium" capacity="7700"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="Northern Irish league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier league" type="0">
+              <setup seeded="0" participantnum="16" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="Northern Irish Premier league champion"/>
+              <attendances>
+                <attendance tournament="Northern Irish Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="Ards"/>
+                <club name="Ballyclare C."/>
+                <club name="Ballymena United"/>
+                <club name="Bangor"/>
+                <club name="Carrick Rangers"/>
+                <club name="Cliftonville"/>
+                <club name="Coleraine"/>
+                <club name="Crusaders"/>
+                <club name="Distillery"/>
+                <club name="Glenavon"/>
+                <club name="Glentoran"/>
+                <club name="Larne"/>
+                <club name="Linfield"/>
+                <club name="Newry Town"/>
+                <club name="Omagh Town"/>
+                <club name="Portadown"/>
+              </preset>
+            </stage>
+          </branch>
+          <leagueprs/>
+          <leaguerls/>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="Northern Irish Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <trophy name="Northern Irish Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+        </stage>
+        <stage name="First round" type="1">
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Quarterfinals"/>
+          <preset>
+            <club name="Ards"/>
+            <club name="Ballyclare C."/>
+            <club name="Ballymena United"/>
+            <club name="Bangor"/>
+            <club name="Carrick Rangers"/>
+            <club name="Cliftonville"/>
+            <club name="Coleraine"/>
+            <club name="Crusaders"/>
+            <club name="Distillery"/>
+            <club name="Glenavon"/>
+            <club name="Glentoran"/>
+            <club name="Larne"/>
+            <club name="Linfield"/>
+            <club name="Newry Town"/>
+            <club name="Omagh Town"/>
+            <club name="Portadown"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>

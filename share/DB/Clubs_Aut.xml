@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clubs>
+  <club name="Austria Wien">
+    <coach name="Thomas Parits"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Austria"/>
+    <stadium name="Austria Wien Stadium"/>
+    <contracts>
+      <contract player="4000"/>
+      <contract player="4001"/>
+      <contract player="4002"/>
+      <contract player="4003"/>
+      <contract player="4004"/>
+      <contract player="4005"/>
+      <contract player="4006"/>
+      <contract player="4007"/>
+      <contract player="4008"/>
+      <contract player="4009"/>
+      <contract player="4010"/>
+      <contract player="4011"/>
+      <contract player="4012"/>
+      <contract player="4013"/>
+      <contract player="4014"/>
+      <contract player="4015"/>
+    </contracts>
+  </club>
+  <club name="Austria Karnten">
+    <coach name="Walter Schachner"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Austria"/>
+    <stadium name="Austria Karnten Stadium"/>
+    <contracts>
+      <contract player="4016"/>
+      <contract player="4017"/>
+      <contract player="4018"/>
+      <contract player="4019"/>
+      <contract player="4020"/>
+      <contract player="4021"/>
+      <contract player="4022"/>
+      <contract player="4023"/>
+      <contract player="4024"/>
+      <contract player="4025"/>
+      <contract player="4026"/>
+      <contract player="4027"/>
+      <contract player="4028"/>
+      <contract player="4029"/>
+      <contract player="4030"/>
+      <contract player="4031"/>
+    </contracts>
+  </club>
+  <club name="Mattersburg">
+    <coach name="Franz Lederer"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Austria"/>
+    <stadium name="Mattersburg Stadium"/>
+    <contracts>
+      <contract player="4032"/>
+      <contract player="4033"/>
+      <contract player="4034"/>
+      <contract player="4035"/>
+      <contract player="4036"/>
+      <contract player="4037"/>
+      <contract player="4038"/>
+      <contract player="4039"/>
+      <contract player="4040"/>
+      <contract player="4041"/>
+      <contract player="4042"/>
+      <contract player="4043"/>
+      <contract player="4044"/>
+      <contract player="4045"/>
+      <contract player="4046"/>
+      <contract player="4047"/>
+    </contracts>
+  </club>
+  <club name="Lask">
+    <coach name="Karl Daxbacher"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Austria"/>
+    <stadium name="Lask Stadium"/>
+    <contracts>
+      <contract player="4048"/>
+      <contract player="4049"/>
+      <contract player="4050"/>
+      <contract player="4051"/>
+      <contract player="4052"/>
+      <contract player="4053"/>
+      <contract player="4054"/>
+      <contract player="4055"/>
+      <contract player="4056"/>
+      <contract player="4057"/>
+      <contract player="4058"/>
+      <contract player="4059"/>
+      <contract player="4060"/>
+      <contract player="4061"/>
+      <contract player="4062"/>
+      <contract player="4063"/>
+    </contracts>
+  </club>
+  <club name="Altach">
+    <coach name="Manfred Bender"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="0"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Austria"/>
+    <stadium name="Altach Stadium"/>
+    <contracts>
+      <contract player="4064"/>
+      <contract player="4065"/>
+      <contract player="4066"/>
+      <contract player="4067"/>
+      <contract player="4068"/>
+      <contract player="4069"/>
+      <contract player="4070"/>
+      <contract player="4071"/>
+      <contract player="4072"/>
+      <contract player="4073"/>
+      <contract player="4074"/>
+      <contract player="4075"/>
+      <contract player="4076"/>
+      <contract player="4077"/>
+      <contract player="4078"/>
+      <contract player="4079"/>
+    </contracts>
+  </club>
+  <club name="Rapid Wien">
+    <coach name="Peter Pacult"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="1">
+          <color r="255" g="0" b="0"/>
+          <color r="0" g="0" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Austria"/>
+    <stadium name="Rapid Wien Stadium"/>
+    <contracts>
+      <contract player="4080"/>
+      <contract player="4081"/>
+      <contract player="4082"/>
+      <contract player="4083"/>
+      <contract player="4084"/>
+      <contract player="4085"/>
+      <contract player="4086"/>
+      <contract player="4087"/>
+      <contract player="4088"/>
+      <contract player="4089"/>
+      <contract player="4090"/>
+      <contract player="4091"/>
+      <contract player="4092"/>
+      <contract player="4093"/>
+      <contract player="4094"/>
+      <contract player="4095"/>
+    </contracts>
+  </club>
+  <club name="Ried">
+    <coach name="Helmut Kraft"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Austria"/>
+    <stadium name="Ried Stadium"/>
+    <contracts>
+      <contract player="4096"/>
+      <contract player="4097"/>
+      <contract player="4098"/>
+      <contract player="4099"/>
+      <contract player="4100"/>
+      <contract player="4101"/>
+      <contract player="4102"/>
+      <contract player="4103"/>
+      <contract player="4104"/>
+      <contract player="4105"/>
+      <contract player="4106"/>
+      <contract player="4107"/>
+      <contract player="4108"/>
+      <contract player="4109"/>
+      <contract player="4110"/>
+      <contract player="4111"/>
+    </contracts>
+  </club>
+  <club name="Sturm Graz">
+    <coach name="Franco Foda"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="255" g="255" b="255"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="0"/>
+          <color r="255" g="255" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="0"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Austria"/>
+    <stadium name="Sturm Graz Stadium"/>
+    <contracts>
+      <contract player="4112"/>
+      <contract player="4113"/>
+      <contract player="4114"/>
+      <contract player="4115"/>
+      <contract player="4116"/>
+      <contract player="4117"/>
+      <contract player="4118"/>
+      <contract player="4119"/>
+      <contract player="4120"/>
+      <contract player="4121"/>
+      <contract player="4122"/>
+      <contract player="4123"/>
+      <contract player="4124"/>
+      <contract player="4125"/>
+      <contract player="4126"/>
+      <contract player="4127"/>
+    </contracts>
+  </club>
+  <club name="Salzburg">
+    <coach name="Giovanni Trapattoni"/>
+    <kits>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="255" b="255"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="0" g="0" b="255"/>
+          <color r="150" g="75" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="255"/>
+        </shorts>
+        <socks>
+          <color r="0" g="0" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Austria"/>
+    <stadium name="Salzburg Stadium"/>
+    <contracts>
+      <contract player="4128"/>
+      <contract player="4129"/>
+      <contract player="4130"/>
+      <contract player="4131"/>
+      <contract player="4132"/>
+      <contract player="4133"/>
+      <contract player="4134"/>
+      <contract player="4135"/>
+      <contract player="4136"/>
+      <contract player="4137"/>
+      <contract player="4138"/>
+      <contract player="4139"/>
+      <contract player="4140"/>
+      <contract player="4141"/>
+      <contract player="4142"/>
+      <contract player="4143"/>
+    </contracts>
+  </club>
+  <club name="Wacker Innsbruck">
+    <coach name="Lars Sondergaard"/>
+    <kits>
+      <kit>
+        <jersey type="2">
+          <color r="0" g="255" b="0"/>
+          <color r="0" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="0" g="0" b="0"/>
+        </shorts>
+        <socks>
+          <color r="0" g="255" b="0"/>
+        </socks>
+      </kit>
+      <kit>
+        <jersey type="0">
+          <color r="255" g="255" b="255"/>
+          <color r="255" g="0" b="0"/>
+        </jersey>
+        <shorts>
+          <color r="255" g="255" b="255"/>
+        </shorts>
+        <socks>
+          <color r="255" g="255" b="255"/>
+        </socks>
+      </kit>
+    </kits>
+    <country name="Austria"/>
+    <stadium name="Wacker Innsbruck Stadium"/>
+    <contracts>
+      <contract player="4144"/>
+      <contract player="4145"/>
+      <contract player="4146"/>
+      <contract player="4147"/>
+      <contract player="4148"/>
+      <contract player="4149"/>
+      <contract player="4150"/>
+      <contract player="4151"/>
+      <contract player="4152"/>
+      <contract player="4153"/>
+      <contract player="4154"/>
+      <contract player="4155"/>
+      <contract player="4156"/>
+      <contract player="4157"/>
+      <contract player="4158"/>
+      <contract player="4159"/>
+    </contracts>
+  </club>
+</Clubs>

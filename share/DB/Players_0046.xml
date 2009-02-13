@@ -1,0 +1,2307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+  <player id="46000">
+    <personal name="Marc Reuter">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="409" risktaking="386" offensive="713" aggressive="353" consistent="400" creative="673" experienced="612"/>
+    <skills stamina="579" dexterity="550" speed="381" tackling="171" passing="319" shooting="405" control="190" accuracy="195" goalkeeping="391" heading="194"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46001">
+    <personal name="Christian Schumacher">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="724" risktaking="317" offensive="751" aggressive="376" consistent="203" creative="286" experienced="546"/>
+    <skills stamina="352" dexterity="262" speed="524" tackling="124" passing="256" shooting="391" control="288" accuracy="148" goalkeeping="429" heading="160"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46002">
+    <personal name="Frank Lessure">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="650" risktaking="545" offensive="622" aggressive="591" consistent="538" creative="235" experienced="570"/>
+    <skills stamina="619" dexterity="434" speed="577" tackling="351" passing="481" shooting="336" control="479" accuracy="371" goalkeeping="70" heading="408"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="46003">
+    <personal name="Michel Bechet">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="457" risktaking="503" offensive="386" aggressive="332" consistent="482" creative="765" experienced="572"/>
+    <skills stamina="176" dexterity="307" speed="494" tackling="385" passing="395" shooting="380" control="496" accuracy="317" goalkeeping="53" heading="384"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="46004">
+    <personal name="Norbert Hoor">
+      <appearance value="0"/>
+      <nationality value="Germany"/>
+    </personal>
+    <personality active="686" risktaking="401" offensive="877" aggressive="287" consistent="386" creative="556" experienced="354"/>
+    <skills stamina="655" dexterity="560" speed="343" tackling="459" passing="430" shooting="326" control="303" accuracy="415" goalkeeping="42" heading="393"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46005">
+    <personal name="Marc Schoder">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="487" risktaking="160" offensive="525" aggressive="618" consistent="304" creative="704" experienced="151"/>
+    <skills stamina="108" dexterity="346" speed="403" tackling="351" passing="227" shooting="303" control="282" accuracy="283" goalkeeping="37" heading="321"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46006">
+    <personal name="Adnan Dervisevic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="516" risktaking="555" offensive="692" aggressive="584" consistent="160" creative="293" experienced="499"/>
+    <skills stamina="631" dexterity="258" speed="519" tackling="334" passing="360" shooting="349" control="297" accuracy="390" goalkeeping="47" heading="306"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="46007">
+    <personal name="Dragoljub Brnovic">
+      <appearance value="0"/>
+      <nationality value="Serbia"/>
+    </personal>
+    <personality active="818" risktaking="504" offensive="471" aggressive="695" consistent="767" creative="690" experienced="363"/>
+    <skills stamina="187" dexterity="391" speed="601" tackling="421" passing="324" shooting="287" control="351" accuracy="372" goalkeeping="45" heading="261"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="46008">
+    <personal name="Michel Zaccaria">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="541" risktaking="450" offensive="497" aggressive="466" consistent="259" creative="709" experienced="712"/>
+    <skills stamina="458" dexterity="180" speed="581" tackling="471" passing="328" shooting="275" control="302" accuracy="281" goalkeeping="71" heading="430"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46009">
+    <personal name="Patrick Leogrande">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="529" risktaking="623" offensive="623" aggressive="481" consistent="550" creative="324" experienced="659"/>
+    <skills stamina="328" dexterity="430" speed="291" tackling="297" passing="297" shooting="260" control="309" accuracy="444" goalkeeping="44" heading="304"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46010">
+    <personal name="Roby Meyrer">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="400" risktaking="807" offensive="680" aggressive="565" consistent="576" creative="226" experienced="620"/>
+    <skills stamina="277" dexterity="192" speed="196" tackling="357" passing="318" shooting="417" control="269" accuracy="318" goalkeeping="70" heading="294"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46011">
+    <personal name="Pedro Dos Santos">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="427" risktaking="370" offensive="410" aggressive="569" consistent="488" creative="391" experienced="364"/>
+    <skills stamina="437" dexterity="332" speed="394" tackling="322" passing="376" shooting="320" control="325" accuracy="404" goalkeeping="55" heading="355"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46012">
+    <personal name="Thierry Petitjean">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="318" risktaking="326" offensive="257" aggressive="604" consistent="451" creative="409" experienced="607"/>
+    <skills stamina="334" dexterity="227" speed="113" tackling="371" passing="405" shooting="236" control="251" accuracy="342" goalkeeping="58" heading="317"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46013">
+    <personal name="Patrick Grettnich">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="578" risktaking="519" offensive="550" aggressive="251" consistent="343" creative="554" experienced="604"/>
+    <skills stamina="306" dexterity="293" speed="236" tackling="348" passing="338" shooting="449" control="292" accuracy="381" goalkeeping="61" heading="483"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46014">
+    <personal name="Francois Brandao">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="303" risktaking="612" offensive="627" aggressive="705" consistent="591" creative="560" experienced="394"/>
+    <skills stamina="335" dexterity="527" speed="237" tackling="300" passing="350" shooting="378" control="323" accuracy="395" goalkeeping="57" heading="445"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="46015">
+    <personal name="Steve Thull">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="677" risktaking="472" offensive="569" aggressive="650" consistent="691" creative="387" experienced="448"/>
+    <skills stamina="277" dexterity="181" speed="193" tackling="267" passing="391" shooting="338" control="279" accuracy="336" goalkeeping="46" heading="369"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="46016">
+    <personal name="Nico Konsbruck">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="517" risktaking="402" offensive="283" aggressive="374" consistent="283" creative="423" experienced="538"/>
+    <skills stamina="562" dexterity="161" speed="492" tackling="249" passing="479" shooting="348" control="271" accuracy="171" goalkeeping="389" heading="225"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46017">
+    <personal name="Georges Eiden">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="631" risktaking="442" offensive="585" aggressive="613" consistent="421" creative="463" experienced="629"/>
+    <skills stamina="648" dexterity="400" speed="611" tackling="240" passing="313" shooting="308" control="367" accuracy="212" goalkeeping="540" heading="239"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46018">
+    <personal name="Ralph Ferron">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="464" risktaking="474" offensive="504" aggressive="581" consistent="429" creative="564" experienced="389"/>
+    <skills stamina="677" dexterity="469" speed="561" tackling="427" passing="444" shooting="407" control="354" accuracy="524" goalkeeping="55" heading="526"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="46019">
+    <personal name="Patrick Posing">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="307" risktaking="438" offensive="573" aggressive="571" consistent="286" creative="545" experienced="356"/>
+    <skills stamina="277" dexterity="263" speed="174" tackling="420" passing="395" shooting="391" control="449" accuracy="367" goalkeeping="56" heading="340"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="46020">
+    <personal name="Jean Vanek">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="455" risktaking="701" offensive="708" aggressive="668" consistent="505" creative="594" experienced="268"/>
+    <skills stamina="233" dexterity="530" speed="418" tackling="463" passing="420" shooting="335" control="493" accuracy="364" goalkeeping="86" heading="413"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46021">
+    <personal name="Etienne Delangre">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="481" risktaking="197" offensive="436" aggressive="284" consistent="705" creative="575" experienced="430"/>
+    <skills stamina="350" dexterity="194" speed="443" tackling="441" passing="362" shooting="405" control="354" accuracy="430" goalkeeping="71" heading="313"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46022">
+    <personal name="Jaba Moreira">
+      <appearance value="1"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="225" risktaking="502" offensive="518" aggressive="225" consistent="331" creative="461" experienced="8"/>
+    <skills stamina="613" dexterity="391" speed="184" tackling="380" passing="372" shooting="450" control="384" accuracy="452" goalkeeping="78" heading="463"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="46023">
+    <personal name="Alex Wilhelm">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="315" risktaking="536" offensive="627" aggressive="774" consistent="720" creative="671" experienced="612"/>
+    <skills stamina="399" dexterity="631" speed="688" tackling="420" passing="534" shooting="423" control="460" accuracy="439" goalkeeping="68" heading="407"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46024">
+    <personal name="Luc Holtz">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="607" risktaking="411" offensive="626" aggressive="453" consistent="260" creative="263" experienced="687"/>
+    <skills stamina="315" dexterity="342" speed="326" tackling="427" passing="441" shooting="485" control="554" accuracy="511" goalkeeping="86" heading="550"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="46025">
+    <personal name="Frank Deville">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="277" risktaking="532" offensive="463" aggressive="237" consistent="398" creative="408" experienced="427"/>
+    <skills stamina="456" dexterity="522" speed="684" tackling="429" passing="530" shooting="361" control="411" accuracy="461" goalkeeping="83" heading="418"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="46026">
+    <personal name="Gabriel Lopes">
+      <appearance value="1"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="245" risktaking="446" offensive="329" aggressive="381" consistent="800" creative="277" experienced="557"/>
+    <skills stamina="425" dexterity="632" speed="566" tackling="357" passing="378" shooting="487" control="529" accuracy="374" goalkeeping="69" heading="492"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46027">
+    <personal name="Theo Scholten">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="325" risktaking="414" offensive="497" aggressive="723" consistent="502" creative="452" experienced="158"/>
+    <skills stamina="356" dexterity="334" speed="290" tackling="495" passing="433" shooting="505" control="383" accuracy="463" goalkeeping="65" heading="425"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46028">
+    <personal name="Roby Peters">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="324" risktaking="389" offensive="580" aggressive="655" consistent="644" creative="456" experienced="9"/>
+    <skills stamina="379" dexterity="226" speed="165" tackling="383" passing="500" shooting="451" control="492" accuracy="310" goalkeeping="57" heading="354"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46029">
+    <personal name="Mikhail Zaritski">
+      <appearance value="0"/>
+      <nationality value="Russia"/>
+    </personal>
+    <personality active="236" risktaking="540" offensive="590" aggressive="291" consistent="471" creative="501" experienced="470"/>
+    <skills stamina="336" dexterity="635" speed="209" tackling="428" passing="438" shooting="466" control="404" accuracy="432" goalkeeping="67" heading="362"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46030">
+    <personal name="Marcus Krahen">
+      <appearance value="0"/>
+      <nationality value="Germany"/>
+    </personal>
+    <personality active="882" risktaking="585" offensive="778" aggressive="443" consistent="348" creative="343" experienced="428"/>
+    <skills stamina="425" dexterity="675" speed="491" tackling="477" passing="495" shooting="490" control="508" accuracy="453" goalkeeping="69" heading="360"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46031">
+    <personal name="Luc Biver">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="582" risktaking="543" offensive="671" aggressive="539" consistent="424" creative="276" experienced="325"/>
+    <skills stamina="695" dexterity="297" speed="201" tackling="385" passing="395" shooting="569" control="454" accuracy="362" goalkeeping="56" heading="526"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46032">
+    <personal name="Paul Koch">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="660" risktaking="517" offensive="385" aggressive="300" consistent="733" creative="459" experienced="445"/>
+    <skills stamina="341" dexterity="709" speed="248" tackling="229" passing="531" shooting="386" control="282" accuracy="238" goalkeeping="585" heading="221"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="46033">
+    <personal name="Karl-heinz Lohme">
+      <appearance value="0"/>
+      <nationality value="Germany"/>
+    </personal>
+    <personality active="500" risktaking="585" offensive="323" aggressive="635" consistent="413" creative="565" experienced="270"/>
+    <skills stamina="580" dexterity="178" speed="354" tackling="176" passing="463" shooting="338" control="352" accuracy="214" goalkeeping="537" heading="206"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46034">
+    <personal name="Eimar Klodt">
+      <appearance value="0"/>
+      <nationality value="Germany"/>
+    </personal>
+    <personality active="456" risktaking="547" offensive="428" aggressive="495" consistent="351" creative="570" experienced="535"/>
+    <skills stamina="434" dexterity="545" speed="575" tackling="499" passing="367" shooting="438" control="366" accuracy="525" goalkeeping="82" heading="513"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="46035">
+    <personal name="Thomas Wolf">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="525" risktaking="362" offensive="304" aggressive="357" consistent="553" creative="257" experienced="396"/>
+    <skills stamina="196" dexterity="638" speed="649" tackling="471" passing="495" shooting="492" control="405" accuracy="365" goalkeeping="77" heading="431"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="46036">
+    <personal name="Pierre Petry">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="570" risktaking="409" offensive="413" aggressive="329" consistent="639" creative="419" experienced="798"/>
+    <skills stamina="464" dexterity="310" speed="388" tackling="463" passing="493" shooting="534" control="359" accuracy="523" goalkeeping="63" heading="503"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46037">
+    <personal name="Karl-heinz Grun">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="365" risktaking="457" offensive="667" aggressive="247" consistent="465" creative="747" experienced="490"/>
+    <skills stamina="624" dexterity="225" speed="335" tackling="474" passing="421" shooting="408" control="412" accuracy="322" goalkeeping="66" heading="312"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46038">
+    <personal name="Nico Funck">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="557" risktaking="394" offensive="510" aggressive="421" consistent="429" creative="472" experienced="480"/>
+    <skills stamina="417" dexterity="534" speed="699" tackling="589" passing="400" shooting="341" control="416" accuracy="466" goalkeeping="74" heading="428"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46039">
+    <personal name="Marc Thome">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="499" risktaking="391" offensive="484" aggressive="357" consistent="250" creative="497" experienced="717"/>
+    <skills stamina="658" dexterity="561" speed="442" tackling="442" passing="408" shooting="463" control="495" accuracy="389" goalkeeping="56" heading="417"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="46040">
+    <personal name="Thomas Raach">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="904" risktaking="496" offensive="400" aggressive="427" consistent="530" creative="245" experienced="694"/>
+    <skills stamina="689" dexterity="459" speed="604" tackling="423" passing="364" shooting="396" control="488" accuracy="480" goalkeeping="71" heading="329"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="46041">
+    <personal name="Jorg Lauer">
+      <appearance value="0"/>
+      <nationality value="Germany"/>
+    </personal>
+    <personality active="456" risktaking="680" offensive="681" aggressive="536" consistent="491" creative="579" experienced="289"/>
+    <skills stamina="578" dexterity="329" speed="569" tackling="494" passing="384" shooting="417" control="381" accuracy="406" goalkeeping="55" heading="462"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46042">
+    <personal name="Achim Wilbois">
+      <appearance value="0"/>
+      <nationality value="Germany"/>
+    </personal>
+    <personality active="424" risktaking="548" offensive="389" aggressive="331" consistent="615" creative="330" experienced="882"/>
+    <skills stamina="580" dexterity="490" speed="270" tackling="456" passing="513" shooting="527" control="508" accuracy="513" goalkeeping="68" heading="488"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46043">
+    <personal name="Guy Entringer">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="288" risktaking="469" offensive="623" aggressive="432" consistent="610" creative="431" experienced="528"/>
+    <skills stamina="503" dexterity="469" speed="364" tackling="452" passing="422" shooting="371" control="386" accuracy="444" goalkeeping="80" heading="372"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46044">
+    <personal name="Andre Haas">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="602" risktaking="651" offensive="445" aggressive="511" consistent="375" creative="702" experienced="604"/>
+    <skills stamina="673" dexterity="370" speed="544" tackling="480" passing="377" shooting="372" control="531" accuracy="309" goalkeeping="72" heading="418"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46045">
+    <personal name="Lidio Alves Silva">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="620" risktaking="500" offensive="523" aggressive="395" consistent="345" creative="138" experienced="482"/>
+    <skills stamina="277" dexterity="603" speed="418" tackling="358" passing="332" shooting="470" control="402" accuracy="446" goalkeeping="70" heading="436"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46046">
+    <personal name="Jerry Jungblut">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="864" risktaking="387" offensive="557" aggressive="508" consistent="610" creative="336" experienced="414"/>
+    <skills stamina="691" dexterity="660" speed="722" tackling="515" passing="419" shooting="567" control="412" accuracy="524" goalkeeping="87" heading="501"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46047">
+    <personal name="Sascha Schneider">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="496" risktaking="518" offensive="502" aggressive="499" consistent="646" creative="558" experienced="618"/>
+    <skills stamina="544" dexterity="337" speed="457" tackling="442" passing="413" shooting="367" control="390" accuracy="491" goalkeeping="61" heading="361"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46048">
+    <personal name="Christian Hoffmann">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="409" risktaking="538" offensive="663" aggressive="658" consistent="455" creative="364" experienced="505"/>
+    <skills stamina="596" dexterity="324" speed="191" tackling="204" passing="383" shooting="315" control="250" accuracy="229" goalkeeping="595" heading="182"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46049">
+    <personal name="Steve Glody">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="500" risktaking="592" offensive="562" aggressive="868" consistent="698" creative="681" experienced="589"/>
+    <skills stamina="536" dexterity="543" speed="428" tackling="217" passing="388" shooting="294" control="288" accuracy="197" goalkeeping="464" heading="222"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46050">
+    <personal name="Jean-jacques Kayl">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="439" risktaking="255" offensive="361" aggressive="503" consistent="521" creative="473" experienced="446"/>
+    <skills stamina="260" dexterity="310" speed="592" tackling="497" passing="339" shooting="327" control="414" accuracy="411" goalkeeping="62" heading="503"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="46051">
+    <personal name="Omar Boukharouba">
+      <appearance value="0"/>
+      <nationality value="Morocco"/>
+    </personal>
+    <personality active="745" risktaking="309" offensive="470" aggressive="256" consistent="685" creative="390" experienced="616"/>
+    <skills stamina="202" dexterity="615" speed="460" tackling="494" passing="330" shooting="477" control="381" accuracy="361" goalkeeping="61" heading="457"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="46052">
+    <personal name="Paolo Cardoso">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="545" risktaking="267" offensive="524" aggressive="225" consistent="783" creative="378" experienced="581"/>
+    <skills stamina="271" dexterity="478" speed="256" tackling="490" passing="355" shooting="407" control="340" accuracy="405" goalkeeping="77" heading="496"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46053">
+    <personal name="Steve Bertemes">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="467" risktaking="551" offensive="315" aggressive="529" consistent="524" creative="586" experienced="178"/>
+    <skills stamina="667" dexterity="364" speed="226" tackling="497" passing="320" shooting="369" control="492" accuracy="350" goalkeeping="52" heading="375"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46054">
+    <personal name="Guy Keiser">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="447" risktaking="469" offensive="321" aggressive="518" consistent="648" creative="636" experienced="363"/>
+    <skills stamina="583" dexterity="197" speed="589" tackling="439" passing="511" shooting="372" control="441" accuracy="298" goalkeeping="54" heading="407"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46055">
+    <personal name="Kamel Boukellal">
+      <appearance value="0"/>
+      <nationality value="Morocco"/>
+    </personal>
+    <personality active="475" risktaking="334" offensive="344" aggressive="615" consistent="443" creative="382" experienced="544"/>
+    <skills stamina="599" dexterity="670" speed="195" tackling="327" passing="368" shooting="485" control="499" accuracy="397" goalkeeping="66" heading="484"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="46056">
+    <personal name="Jasmin Dervisevic">
+      <appearance value="0"/>
+      <nationality value="Croatia"/>
+    </personal>
+    <personality active="424" risktaking="644" offensive="487" aggressive="287" consistent="850" creative="260" experienced="764"/>
+    <skills stamina="353" dexterity="368" speed="632" tackling="435" passing="398" shooting="392" control="458" accuracy="354" goalkeeping="64" heading="463"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="46057">
+    <personal name="Sylvain Lambert">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="468" risktaking="485" offensive="663" aggressive="600" consistent="828" creative="500" experienced="485"/>
+    <skills stamina="499" dexterity="706" speed="661" tackling="433" passing="438" shooting="303" control="388" accuracy="365" goalkeeping="61" heading="423"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46058">
+    <personal name="Serge Jentgen">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="264" risktaking="528" offensive="424" aggressive="566" consistent="448" creative="704" experienced="426"/>
+    <skills stamina="234" dexterity="443" speed="240" tackling="370" passing="520" shooting="418" control="368" accuracy="331" goalkeeping="74" heading="406"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46059">
+    <personal name="Steve D'anzico">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="640" risktaking="606" offensive="671" aggressive="474" consistent="508" creative="438" experienced="315"/>
+    <skills stamina="292" dexterity="665" speed="508" tackling="478" passing="424" shooting="382" control="413" accuracy="338" goalkeeping="46" heading="308"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46060">
+    <personal name="Fabrice Mennuni">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="530" risktaking="317" offensive="585" aggressive="486" consistent="608" creative="345" experienced="445"/>
+    <skills stamina="633" dexterity="263" speed="497" tackling="288" passing="401" shooting="375" control="347" accuracy="528" goalkeeping="45" heading="341"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46061">
+    <personal name="Cosimo Barnabo">
+      <appearance value="0"/>
+      <nationality value="The Netherlands"/>
+    </personal>
+    <personality active="639" risktaking="531" offensive="713" aggressive="457" consistent="323" creative="438" experienced="851"/>
+    <skills stamina="178" dexterity="475" speed="166" tackling="408" passing="496" shooting="498" control="444" accuracy="409" goalkeeping="64" heading="446"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46062">
+    <personal name="Alain Klein">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="643" risktaking="572" offensive="424" aggressive="430" consistent="713" creative="537" experienced="487"/>
+    <skills stamina="615" dexterity="449" speed="237" tackling="362" passing="425" shooting="503" control="440" accuracy="518" goalkeeping="62" heading="356"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46063">
+    <personal name="Laurent Marinoni">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="695" risktaking="462" offensive="152" aggressive="433" consistent="442" creative="420" experienced="347"/>
+    <skills stamina="609" dexterity="489" speed="165" tackling="318" passing="401" shooting="417" control="444" accuracy="518" goalkeeping="57" heading="354"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46064">
+    <personal name="Roger Fetler">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="235" risktaking="389" offensive="584" aggressive="516" consistent="554" creative="572" experienced="394"/>
+    <skills stamina="560" dexterity="526" speed="141" tackling="123" passing="353" shooting="410" control="236" accuracy="118" goalkeeping="383" heading="135"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46065">
+    <personal name="Andy Wennmacher">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="649" risktaking="597" offensive="417" aggressive="390" consistent="573" creative="233" experienced="174"/>
+    <skills stamina="464" dexterity="388" speed="597" tackling="175" passing="286" shooting="219" control="272" accuracy="181" goalkeeping="333" heading="190"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46066">
+    <personal name="Patrick Schmit">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="588" risktaking="650" offensive="499" aggressive="633" consistent="590" creative="594" experienced="312"/>
+    <skills stamina="469" dexterity="340" speed="174" tackling="401" passing="376" shooting="322" control="494" accuracy="434" goalkeeping="71" heading="285"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="46067">
+    <personal name="Daniel Fellens">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="533" risktaking="606" offensive="627" aggressive="636" consistent="273" creative="518" experienced="725"/>
+    <skills stamina="359" dexterity="508" speed="481" tackling="461" passing="275" shooting="335" control="418" accuracy="408" goalkeeping="61" heading="406"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="46068">
+    <personal name="Alain Wies">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="577" risktaking="630" offensive="579" aggressive="300" consistent="562" creative="713" experienced="353"/>
+    <skills stamina="585" dexterity="173" speed="278" tackling="473" passing="321" shooting="274" control="294" accuracy="274" goalkeeping="42" heading="402"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46069">
+    <personal name="Carlo Fiedler">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="730" risktaking="299" offensive="785" aggressive="540" consistent="449" creative="423" experienced="386"/>
+    <skills stamina="602" dexterity="667" speed="126" tackling="512" passing="405" shooting="434" control="295" accuracy="314" goalkeeping="42" heading="280"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46070">
+    <personal name="Roland Schaack">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="284" risktaking="624" offensive="622" aggressive="382" consistent="506" creative="434" experienced="511"/>
+    <skills stamina="363" dexterity="630" speed="484" tackling="436" passing="341" shooting="358" control="419" accuracy="240" goalkeeping="51" heading="352"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46071">
+    <personal name="Patrick Wies">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="498" risktaking="477" offensive="392" aggressive="236" consistent="601" creative="590" experienced="543"/>
+    <skills stamina="655" dexterity="544" speed="276" tackling="311" passing="244" shooting="392" control="380" accuracy="336" goalkeeping="66" heading="272"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46072">
+    <personal name="Daniel Kneia">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="565" risktaking="666" offensive="676" aggressive="293" consistent="531" creative="431" experienced="365"/>
+    <skills stamina="282" dexterity="300" speed="220" tackling="440" passing="322" shooting="462" control="303" accuracy="417" goalkeeping="48" heading="441"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="46073">
+    <personal name="Roby Peters">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="576" risktaking="391" offensive="473" aggressive="319" consistent="708" creative="297" experienced="712"/>
+    <skills stamina="186" dexterity="304" speed="398" tackling="296" passing="384" shooting="286" control="311" accuracy="387" goalkeeping="72" heading="461"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="46074">
+    <personal name="Alain Palgen">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="521" risktaking="622" offensive="564" aggressive="513" consistent="595" creative="372" experienced="293"/>
+    <skills stamina="630" dexterity="182" speed="461" tackling="281" passing="421" shooting="298" control="386" accuracy="311" goalkeeping="48" heading="391"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="46075">
+    <personal name="Serge Baritussio">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="184" risktaking="710" offensive="750" aggressive="526" consistent="372" creative="642" experienced="503"/>
+    <skills stamina="209" dexterity="173" speed="549" tackling="279" passing="327" shooting="263" control="286" accuracy="355" goalkeeping="41" heading="232"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46076">
+    <personal name="John Heiles">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="514" risktaking="634" offensive="482" aggressive="497" consistent="263" creative="567" experienced="480"/>
+    <skills stamina="404" dexterity="412" speed="446" tackling="295" passing="237" shooting="321" control="402" accuracy="307" goalkeeping="45" heading="445"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46077">
+    <personal name="Antonio Da Silva">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="612" risktaking="655" offensive="332" aggressive="479" consistent="605" creative="272" experienced="397"/>
+    <skills stamina="210" dexterity="549" speed="293" tackling="438" passing="436" shooting="408" control="243" accuracy="437" goalkeeping="56" heading="302"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46078">
+    <personal name="Mirsad Karisic">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="530" risktaking="457" offensive="627" aggressive="678" consistent="564" creative="753" experienced="462"/>
+    <skills stamina="546" dexterity="473" speed="188" tackling="373" passing="264" shooting="514" control="302" accuracy="337" goalkeeping="47" heading="289"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46079">
+    <personal name="Eric Volcher">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="810" risktaking="603" offensive="183" aggressive="386" consistent="428" creative="498" experienced="305"/>
+    <skills stamina="438" dexterity="191" speed="610" tackling="271" passing="394" shooting="263" control="257" accuracy="500" goalkeeping="53" heading="356"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="46080">
+    <personal name="Serge Rohmann">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="466" risktaking="337" offensive="223" aggressive="462" consistent="336" creative="601" experienced="367"/>
+    <skills stamina="434" dexterity="620" speed="186" tackling="200" passing="401" shooting="427" control="281" accuracy="226" goalkeeping="533" heading="166"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="46081">
+    <personal name="Alain Schumacher">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="293" risktaking="787" offensive="379" aggressive="119" consistent="622" creative="459" experienced="373"/>
+    <skills stamina="154" dexterity="568" speed="509" tackling="142" passing="293" shooting="329" control="349" accuracy="207" goalkeeping="456" heading="186"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46082">
+    <personal name="Frank Goergen">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="422" risktaking="682" offensive="361" aggressive="361" consistent="761" creative="565" experienced="338"/>
+    <skills stamina="280" dexterity="603" speed="261" tackling="404" passing="398" shooting="347" control="359" accuracy="437" goalkeeping="68" heading="411"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="46083">
+    <personal name="Serge Cardoni">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="431" risktaking="335" offensive="551" aggressive="560" consistent="547" creative="372" experienced="509"/>
+    <skills stamina="724" dexterity="496" speed="293" tackling="425" passing="319" shooting="375" control="381" accuracy="324" goalkeeping="70" heading="418"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="46084">
+    <personal name="Jose Nora Favita">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="582" risktaking="404" offensive="534" aggressive="273" consistent="318" creative="452" experienced="477"/>
+    <skills stamina="642" dexterity="345" speed="633" tackling="494" passing="373" shooting="473" control="478" accuracy="294" goalkeeping="65" heading="353"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46085">
+    <personal name="Marco Galli">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="702" risktaking="485" offensive="764" aggressive="426" consistent="668" creative="231" experienced="495"/>
+    <skills stamina="508" dexterity="515" speed="271" tackling="448" passing="481" shooting="459" control="358" accuracy="441" goalkeeping="52" heading="410"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46086">
+    <personal name="Gerry Hutmacher">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="421" risktaking="504" offensive="420" aggressive="696" consistent="263" creative="370" experienced="801"/>
+    <skills stamina="505" dexterity="287" speed="338" tackling="507" passing="426" shooting="412" control="299" accuracy="359" goalkeeping="77" heading="382"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46087">
+    <personal name="Franck Petitfrere">
+      <appearance value="8"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="685" risktaking="689" offensive="605" aggressive="631" consistent="504" creative="596" experienced="658"/>
+    <skills stamina="669" dexterity="623" speed="337" tackling="358" passing="470" shooting="426" control="364" accuracy="301" goalkeeping="62" heading="432"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="46088">
+    <personal name="Marco Morgante">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="623" risktaking="560" offensive="268" aggressive="550" consistent="323" creative="685" experienced="210"/>
+    <skills stamina="549" dexterity="275" speed="384" tackling="489" passing="484" shooting="412" control="452" accuracy="507" goalkeeping="84" heading="386"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="46089">
+    <personal name="Angelo Fiorucci">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="343" risktaking="396" offensive="356" aggressive="464" consistent="731" creative="384" experienced="649"/>
+    <skills stamina="286" dexterity="584" speed="594" tackling="376" passing="421" shooting="365" control="312" accuracy="399" goalkeeping="63" heading="330"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="46090">
+    <personal name="Rico Cardoni">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="323" risktaking="474" offensive="562" aggressive="412" consistent="536" creative="301" experienced="536"/>
+    <skills stamina="668" dexterity="561" speed="608" tackling="397" passing="509" shooting="313" control="412" accuracy="477" goalkeeping="61" heading="361"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="46091">
+    <personal name="Ronny Bonvini">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="462" risktaking="569" offensive="671" aggressive="430" consistent="526" creative="404" experienced="462"/>
+    <skills stamina="163" dexterity="377" speed="426" tackling="468" passing="313" shooting="332" control="298" accuracy="304" goalkeeping="67" heading="291"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46092">
+    <personal name="Joel Groff">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="680" risktaking="651" offensive="605" aggressive="901" consistent="619" creative="610" experienced="587"/>
+    <skills stamina="673" dexterity="550" speed="259" tackling="376" passing="374" shooting="444" control="443" accuracy="326" goalkeeping="71" heading="494"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46093">
+    <personal name="Pedro Borrega">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="197" risktaking="479" offensive="536" aggressive="708" consistent="617" creative="822" experienced="297"/>
+    <skills stamina="642" dexterity="308" speed="303" tackling="499" passing="436" shooting="519" control="483" accuracy="505" goalkeeping="62" heading="521"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46094">
+    <personal name="Thorvik Amari">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="477" risktaking="748" offensive="280" aggressive="575" consistent="585" creative="684" experienced="312"/>
+    <skills stamina="272" dexterity="511" speed="623" tackling="378" passing="437" shooting="426" control="338" accuracy="481" goalkeeping="78" heading="374"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46095">
+    <personal name="Stefano Fanelli">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="759" risktaking="555" offensive="652" aggressive="503" consistent="404" creative="299" experienced="521"/>
+    <skills stamina="137" dexterity="203" speed="481" tackling="392" passing="352" shooting="323" control="378" accuracy="413" goalkeeping="50" heading="349"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="46096">
+    <personal name="Patrick Simon">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="293" risktaking="546" offensive="743" aggressive="406" consistent="205" creative="891" experienced="536"/>
+    <skills stamina="388" dexterity="440" speed="678" tackling="177" passing="292" shooting="288" control="350" accuracy="192" goalkeeping="347" heading="178"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46097">
+    <personal name="Georges Werdel">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="353" risktaking="490" offensive="526" aggressive="713" consistent="514" creative="552" experienced="557"/>
+    <skills stamina="595" dexterity="532" speed="492" tackling="117" passing="254" shooting="247" control="224" accuracy="143" goalkeeping="517" heading="129"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="46098">
+    <personal name="Alain Bernard">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="478" risktaking="492" offensive="537" aggressive="446" consistent="345" creative="617" experienced="428"/>
+    <skills stamina="638" dexterity="201" speed="654" tackling="299" passing="463" shooting="261" control="304" accuracy="421" goalkeeping="53" heading="414"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="46099">
+    <personal name="Raymond Juchem">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="607" risktaking="614" offensive="653" aggressive="464" consistent="657" creative="277" experienced="520"/>
+    <skills stamina="306" dexterity="281" speed="635" tackling="356" passing="423" shooting="449" control="506" accuracy="336" goalkeeping="73" heading="381"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="46100">
+    <personal name="Patrick Juchem">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="458" risktaking="670" offensive="473" aggressive="601" consistent="360" creative="499" experienced="250"/>
+    <skills stamina="389" dexterity="687" speed="383" tackling="361" passing="374" shooting="469" control="331" accuracy="328" goalkeeping="62" heading="290"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46101">
+    <personal name="Henri Bossi">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="522" risktaking="538" offensive="701" aggressive="358" consistent="476" creative="687" experienced="385"/>
+    <skills stamina="402" dexterity="265" speed="513" tackling="319" passing="477" shooting="335" control="390" accuracy="287" goalkeeping="63" heading="304"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46102">
+    <personal name="Marc Schwickert">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="635" risktaking="513" offensive="385" aggressive="626" consistent="435" creative="424" experienced="363"/>
+    <skills stamina="332" dexterity="610" speed="220" tackling="292" passing="303" shooting="367" control="275" accuracy="345" goalkeeping="65" heading="426"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46103">
+    <personal name="Victor Lobo">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="859" risktaking="320" offensive="501" aggressive="561" consistent="462" creative="582" experienced="369"/>
+    <skills stamina="440" dexterity="191" speed="269" tackling="341" passing="324" shooting="394" control="313" accuracy="288" goalkeeping="66" heading="410"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="46104">
+    <personal name="Pascal Welter">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="353" risktaking="816" offensive="544" aggressive="702" consistent="537" creative="519" experienced="441"/>
+    <skills stamina="489" dexterity="415" speed="211" tackling="291" passing="424" shooting="321" control="288" accuracy="264" goalkeeping="43" heading="429"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="46105">
+    <personal name="Sebastien Marasco">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="577" risktaking="332" offensive="482" aggressive="663" consistent="384" creative="641" experienced="516"/>
+    <skills stamina="392" dexterity="572" speed="554" tackling="393" passing="283" shooting="360" control="301" accuracy="437" goalkeeping="62" heading="355"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46106">
+    <personal name="Daniel Poulet">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="620" risktaking="490" offensive="167" aggressive="627" consistent="655" creative="402" experienced="381"/>
+    <skills stamina="520" dexterity="498" speed="534" tackling="439" passing="305" shooting="349" control="391" accuracy="427" goalkeeping="43" heading="265"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46107">
+    <personal name="Smail Gucat">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="693" risktaking="747" offensive="580" aggressive="107" consistent="476" creative="529" experienced="415"/>
+    <skills stamina="409" dexterity="209" speed="185" tackling="311" passing="304" shooting="291" control="327" accuracy="414" goalkeeping="68" heading="406"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="46108">
+    <personal name="Francois Brandao">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="529" risktaking="381" offensive="565" aggressive="557" consistent="500" creative="637" experienced="518"/>
+    <skills stamina="341" dexterity="622" speed="673" tackling="399" passing="376" shooting="411" control="311" accuracy="444" goalkeeping="80" heading="469"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="46109">
+    <personal name="Mario Novak">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="508" risktaking="581" offensive="435" aggressive="445" consistent="396" creative="561" experienced="489"/>
+    <skills stamina="619" dexterity="494" speed="594" tackling="263" passing="421" shooting="391" control="298" accuracy="450" goalkeeping="70" heading="463"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46110">
+    <personal name="Marco Heyar">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="423" risktaking="625" offensive="432" aggressive="407" consistent="418" creative="570" experienced="358"/>
+    <skills stamina="387" dexterity="620" speed="425" tackling="418" passing="399" shooting="382" control="362" accuracy="343" goalkeeping="65" heading="333"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46111">
+    <personal name="Guy Poggi">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="456" risktaking="451" offensive="577" aggressive="707" consistent="808" creative="441" experienced="187"/>
+    <skills stamina="429" dexterity="151" speed="451" tackling="449" passing="405" shooting="364" control="341" accuracy="378" goalkeeping="52" heading="410"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46112">
+    <personal name="Philippe Felgen">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="465" risktaking="543" offensive="451" aggressive="477" consistent="445" creative="300" experienced="552"/>
+    <skills stamina="456" dexterity="428" speed="310" tackling="250" passing="424" shooting="466" control="283" accuracy="245" goalkeeping="483" heading="179"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="46113">
+    <personal name="Enrico Francinella">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="396" risktaking="582" offensive="374" aggressive="292" consistent="672" creative="463" experienced="324"/>
+    <skills stamina="630" dexterity="563" speed="241" tackling="231" passing="478" shooting="347" control="371" accuracy="166" goalkeeping="551" heading="160"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46114">
+    <personal name="Roland Schaack">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="641" risktaking="462" offensive="387" aggressive="409" consistent="567" creative="645" experienced="498"/>
+    <skills stamina="244" dexterity="533" speed="445" tackling="433" passing="524" shooting="535" control="570" accuracy="454" goalkeeping="89" heading="492"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="46115">
+    <personal name="Marc Lamborelle">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="454" risktaking="600" offensive="419" aggressive="667" consistent="631" creative="659" experienced="607"/>
+    <skills stamina="186" dexterity="728" speed="331" tackling="474" passing="361" shooting="491" control="375" accuracy="453" goalkeeping="69" heading="472"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="46116">
+    <personal name="Johnny Thill">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="144" risktaking="300" offensive="457" aggressive="557" consistent="663" creative="405" experienced="722"/>
+    <skills stamina="461" dexterity="633" speed="439" tackling="497" passing="500" shooting="411" control="468" accuracy="464" goalkeeping="57" heading="504"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="46117">
+    <personal name="Jean Wagner">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="604" risktaking="207" offensive="514" aggressive="586" consistent="511" creative="522" experienced="507"/>
+    <skills stamina="629" dexterity="681" speed="194" tackling="554" passing="464" shooting="431" control="475" accuracy="502" goalkeeping="54" heading="398"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46118">
+    <personal name="Ralph Schiltz">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="471" risktaking="529" offensive="467" aggressive="571" consistent="511" creative="628" experienced="487"/>
+    <skills stamina="505" dexterity="525" speed="685" tackling="437" passing="404" shooting="439" control="326" accuracy="386" goalkeeping="74" heading="399"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46119">
+    <personal name="Denis Scuto">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="172" risktaking="395" offensive="547" aggressive="730" consistent="415" creative="620" experienced="409"/>
+    <skills stamina="383" dexterity="607" speed="342" tackling="374" passing="455" shooting="345" control="453" accuracy="346" goalkeeping="55" heading="354"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="46120">
+    <personal name="Manuel Cardoni">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="548" risktaking="596" offensive="416" aggressive="299" consistent="497" creative="407" experienced="455"/>
+    <skills stamina="353" dexterity="325" speed="467" tackling="503" passing="527" shooting="419" control="495" accuracy="514" goalkeeping="65" heading="482"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="46121">
+    <personal name="Claude Ganser">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="561" risktaking="694" offensive="485" aggressive="343" consistent="319" creative="705" experienced="410"/>
+    <skills stamina="489" dexterity="748" speed="549" tackling="468" passing="376" shooting="376" control="482" accuracy="517" goalkeeping="87" heading="505"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46122">
+    <personal name="Patrick Meyers">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="676" risktaking="222" offensive="415" aggressive="459" consistent="459" creative="385" experienced="420"/>
+    <skills stamina="631" dexterity="441" speed="174" tackling="396" passing="385" shooting="348" control="377" accuracy="284" goalkeeping="53" heading="391"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46123">
+    <personal name="Claude Meylender">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="677" risktaking="124" offensive="428" aggressive="300" consistent="431" creative="760" experienced="483"/>
+    <skills stamina="555" dexterity="729" speed="465" tackling="427" passing="408" shooting="380" control="444" accuracy="371" goalkeeping="48" heading="465"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46124">
+    <personal name="Patrick Morocutti">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="965" risktaking="466" offensive="371" aggressive="312" consistent="426" creative="731" experienced="340"/>
+    <skills stamina="631" dexterity="467" speed="365" tackling="474" passing="566" shooting="438" control="472" accuracy="406" goalkeeping="78" heading="511"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="46125">
+    <personal name="Dany Theis">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="370" risktaking="452" offensive="730" aggressive="498" consistent="887" creative="366" experienced="642"/>
+    <skills stamina="289" dexterity="420" speed="698" tackling="456" passing="437" shooting="480" control="535" accuracy="538" goalkeeping="79" heading="438"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46126">
+    <personal name="Vito Marchione">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="534" risktaking="629" offensive="476" aggressive="419" consistent="625" creative="269" experienced="475"/>
+    <skills stamina="206" dexterity="396" speed="431" tackling="343" passing="331" shooting="387" control="393" accuracy="465" goalkeeping="62" heading="315"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46127">
+    <personal name="Paolo Amodio">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="402" risktaking="399" offensive="710" aggressive="346" consistent="613" creative="226" experienced="401"/>
+    <skills stamina="548" dexterity="448" speed="290" tackling="464" passing="526" shooting="441" control="507" accuracy="433" goalkeeping="57" heading="401"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46128">
+    <personal name="Mauro Castellani">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="534" risktaking="745" offensive="474" aggressive="161" consistent="321" creative="224" experienced="436"/>
+    <skills stamina="534" dexterity="421" speed="597" tackling="135" passing="454" shooting="389" control="365" accuracy="141" goalkeeping="360" heading="222"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46129">
+    <personal name="Marc Frisch">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="476" risktaking="262" offensive="664" aggressive="371" consistent="732" creative="411" experienced="745"/>
+    <skills stamina="537" dexterity="658" speed="160" tackling="211" passing="321" shooting="301" control="243" accuracy="135" goalkeeping="408" heading="168"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="46130">
+    <personal name="Pascal May">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="316" risktaking="137" offensive="608" aggressive="459" consistent="372" creative="555" experienced="635"/>
+    <skills stamina="290" dexterity="264" speed="418" tackling="437" passing="332" shooting="424" control="459" accuracy="400" goalkeeping="78" heading="384"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="46131">
+    <personal name="Luc Speller">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="334" risktaking="693" offensive="480" aggressive="771" consistent="294" creative="645" experienced="253"/>
+    <skills stamina="457" dexterity="528" speed="522" tackling="387" passing="393" shooting="372" control="437" accuracy="286" goalkeeping="70" heading="395"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="46132">
+    <personal name="Miguel Dos Santos">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="283" risktaking="707" offensive="358" aggressive="685" consistent="400" creative="722" experienced="344"/>
+    <skills stamina="195" dexterity="289" speed="283" tackling="368" passing="401" shooting="410" control="318" accuracy="289" goalkeeping="47" heading="350"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46133">
+    <personal name="Mike Del Bon">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="580" risktaking="434" offensive="498" aggressive="530" consistent="557" creative="657" experienced="190"/>
+    <skills stamina="396" dexterity="458" speed="173" tackling="414" passing="321" shooting="313" control="380" accuracy="318" goalkeeping="53" heading="360"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46134">
+    <personal name="Vincent Carnevale">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="497" risktaking="377" offensive="722" aggressive="441" consistent="201" creative="656" experienced="538"/>
+    <skills stamina="497" dexterity="241" speed="303" tackling="263" passing="337" shooting="383" control="371" accuracy="394" goalkeeping="40" heading="375"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46135">
+    <personal name="Ralph Bunk">
+      <appearance value="0"/>
+      <nationality value="Germany"/>
+    </personal>
+    <personality active="495" risktaking="459" offensive="601" aggressive="367" consistent="439" creative="476" experienced="666"/>
+    <skills stamina="182" dexterity="383" speed="287" tackling="328" passing="431" shooting="288" control="290" accuracy="358" goalkeeping="76" heading="420"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="46136">
+    <personal name="Abde Ennassouh">
+      <appearance value="1"/>
+      <nationality value="Algeria"/>
+    </personal>
+    <personality active="426" risktaking="282" offensive="491" aggressive="215" consistent="258" creative="654" experienced="758"/>
+    <skills stamina="506" dexterity="719" speed="688" tackling="444" passing="384" shooting="483" control="489" accuracy="336" goalkeeping="63" heading="422"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="46137">
+    <personal name="Christian Sinner">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="394" risktaking="429" offensive="239" aggressive="360" consistent="442" creative="726" experienced="544"/>
+    <skills stamina="465" dexterity="359" speed="392" tackling="293" passing="489" shooting="367" control="367" accuracy="380" goalkeeping="65" heading="294"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="46138">
+    <personal name="Abdel Berrih">
+      <appearance value="0"/>
+      <nationality value="Algeria"/>
+    </personal>
+    <personality active="188" risktaking="705" offensive="584" aggressive="389" consistent="561" creative="393" experienced="684"/>
+    <skills stamina="333" dexterity="358" speed="157" tackling="454" passing="365" shooting="408" control="307" accuracy="418" goalkeeping="65" heading="435"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46139">
+    <personal name="Suad Berberi">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="801" risktaking="370" offensive="845" aggressive="502" consistent="765" creative="575" experienced="409"/>
+    <skills stamina="485" dexterity="647" speed="604" tackling="470" passing="323" shooting="297" control="376" accuracy="319" goalkeeping="69" heading="280"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46140">
+    <personal name="Laurent Zahles">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="613" risktaking="685" offensive="539" aggressive="739" consistent="796" creative="456" experienced="440"/>
+    <skills stamina="557" dexterity="243" speed="447" tackling="293" passing="365" shooting="399" control="360" accuracy="272" goalkeeping="68" heading="348"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46141">
+    <personal name="Paulo Pache">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="604" risktaking="532" offensive="801" aggressive="409" consistent="481" creative="845" experienced="524"/>
+    <skills stamina="494" dexterity="560" speed="673" tackling="285" passing="384" shooting="268" control="346" accuracy="400" goalkeeping="50" heading="391"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46142">
+    <personal name="Yves Heinen">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="438" risktaking="446" offensive="490" aggressive="430" consistent="304" creative="688" experienced="325"/>
+    <skills stamina="282" dexterity="504" speed="654" tackling="387" passing="321" shooting="496" control="317" accuracy="360" goalkeeping="63" heading="543"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46143">
+    <personal name="Ange Touboui-bi">
+      <appearance value="1"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="237" risktaking="439" offensive="670" aggressive="527" consistent="423" creative="371" experienced="544"/>
+    <skills stamina="495" dexterity="515" speed="386" tackling="237" passing="342" shooting="365" control="363" accuracy="384" goalkeeping="57" heading="261"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46144">
+    <personal name="Nico Gilbertz">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="503" risktaking="677" offensive="692" aggressive="528" consistent="489" creative="543" experienced="286"/>
+    <skills stamina="225" dexterity="576" speed="451" tackling="205" passing="305" shooting="442" control="210" accuracy="219" goalkeeping="392" heading="189"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46145">
+    <personal name="Reynald Bourgeois">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="540" risktaking="425" offensive="457" aggressive="469" consistent="380" creative="256" experienced="495"/>
+    <skills stamina="354" dexterity="329" speed="366" tackling="204" passing="246" shooting="401" control="249" accuracy="121" goalkeeping="464" heading="157"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="46146">
+    <personal name="Kalambay Mutombo">
+      <appearance value="1"/>
+      <nationality value="Congo"/>
+    </personal>
+    <personality active="885" risktaking="620" offensive="595" aggressive="650" consistent="477" creative="553" experienced="559"/>
+    <skills stamina="359" dexterity="512" speed="204" tackling="480" passing="310" shooting="417" control="331" accuracy="418" goalkeeping="62" heading="264"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="46147">
+    <personal name="Marco Driulini">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="656" risktaking="525" offensive="526" aggressive="672" consistent="753" creative="618" experienced="429"/>
+    <skills stamina="626" dexterity="367" speed="512" tackling="489" passing="388" shooting="473" control="415" accuracy="478" goalkeeping="64" heading="483"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="46148">
+    <personal name="Joachim Constant">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="617" risktaking="456" offensive="578" aggressive="589" consistent="521" creative="506" experienced="394"/>
+    <skills stamina="318" dexterity="270" speed="184" tackling="426" passing="371" shooting="373" control="420" accuracy="433" goalkeeping="50" heading="373"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46149">
+    <personal name="Joel Wintersdorf">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="606" risktaking="434" offensive="487" aggressive="485" consistent="501" creative="564" experienced="569"/>
+    <skills stamina="493" dexterity="392" speed="527" tackling="303" passing="388" shooting="387" control="387" accuracy="467" goalkeeping="73" heading="272"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="46150">
+    <personal name="Pascal Dupont">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="532" risktaking="420" offensive="525" aggressive="663" consistent="459" creative="285" experienced="282"/>
+    <skills stamina="329" dexterity="559" speed="577" tackling="356" passing="449" shooting="329" control="397" accuracy="326" goalkeeping="64" heading="387"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="46151">
+    <personal name="Antonio De Matteis">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="600" risktaking="731" offensive="314" aggressive="515" consistent="674" creative="340" experienced="558"/>
+    <skills stamina="506" dexterity="587" speed="635" tackling="284" passing="344" shooting="337" control="401" accuracy="342" goalkeeping="47" heading="285"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="46152">
+    <personal name="Laurent Schmit">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="441" risktaking="338" offensive="686" aggressive="455" consistent="557" creative="334" experienced="660"/>
+    <skills stamina="610" dexterity="282" speed="418" tackling="381" passing="452" shooting="297" control="453" accuracy="437" goalkeeping="45" heading="459"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="46153">
+    <personal name="Gilles Inglebert">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="890" risktaking="721" offensive="412" aggressive="605" consistent="511" creative="603" experienced="400"/>
+    <skills stamina="505" dexterity="499" speed="647" tackling="433" passing="462" shooting="387" control="400" accuracy="370" goalkeeping="51" heading="388"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46154">
+    <personal name="Christian Alverdi">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="205" risktaking="617" offensive="524" aggressive="505" consistent="599" creative="423" experienced="319"/>
+    <skills stamina="544" dexterity="722" speed="615" tackling="424" passing="427" shooting="406" control="349" accuracy="478" goalkeeping="75" heading="384"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46155">
+    <personal name="Franky Schank">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="662" risktaking="582" offensive="526" aggressive="341" consistent="606" creative="646" experienced="371"/>
+    <skills stamina="599" dexterity="383" speed="316" tackling="308" passing="313" shooting="420" control="236" accuracy="396" goalkeeping="50" heading="388"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46156">
+    <personal name="Jacky Dedenon">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="318" risktaking="467" offensive="530" aggressive="437" consistent="168" creative="450" experienced="458"/>
+    <skills stamina="274" dexterity="364" speed="497" tackling="297" passing="320" shooting="265" control="408" accuracy="288" goalkeeping="67" heading="364"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="46157">
+    <personal name="Arthur Neves">
+      <appearance value="1"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="273" risktaking="294" offensive="378" aggressive="238" consistent="441" creative="548" experienced="369"/>
+    <skills stamina="318" dexterity="226" speed="228" tackling="418" passing="347" shooting="489" control="467" accuracy="546" goalkeeping="65" heading="369"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46158">
+    <personal name="Piero Daresta">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="447" risktaking="393" offensive="543" aggressive="529" consistent="316" creative="717" experienced="440"/>
+    <skills stamina="628" dexterity="299" speed="153" tackling="321" passing="380" shooting="354" control="296" accuracy="456" goalkeeping="67" heading="355"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46159">
+    <personal name="Johan Andreux">
+      <appearance value="8"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="504" risktaking="498" offensive="393" aggressive="490" consistent="337" creative="270" experienced="856"/>
+    <skills stamina="452" dexterity="374" speed="234" tackling="240" passing="337" shooting="342" control="395" accuracy="301" goalkeeping="54" heading="438"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46160">
+    <personal name="Tom Burquel">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="217" risktaking="256" offensive="540" aggressive="325" consistent="720" creative="309" experienced="650"/>
+    <skills stamina="668" dexterity="349" speed="383" tackling="184" passing="291" shooting="416" control="212" accuracy="199" goalkeeping="446" heading="177"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46161">
+    <personal name="Albert Polo">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="408" risktaking="391" offensive="455" aggressive="537" consistent="324" creative="720" experienced="468"/>
+    <skills stamina="500" dexterity="630" speed="298" tackling="211" passing="374" shooting="285" control="273" accuracy="183" goalkeeping="484" heading="154"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="46162">
+    <personal name="Laurent Thill">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="507" risktaking="262" offensive="378" aggressive="501" consistent="541" creative="343" experienced="306"/>
+    <skills stamina="395" dexterity="498" speed="413" tackling="319" passing="490" shooting="451" control="373" accuracy="344" goalkeeping="64" heading="293"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="46163">
+    <personal name="Patrick Bei">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="522" risktaking="494" offensive="606" aggressive="402" consistent="582" creative="455" experienced="508"/>
+    <skills stamina="170" dexterity="589" speed="183" tackling="469" passing="375" shooting="396" control="351" accuracy="440" goalkeeping="66" heading="449"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="46164">
+    <personal name="Christophe Boulard">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="473" risktaking="478" offensive="789" aggressive="299" consistent="326" creative="279" experienced="513"/>
+    <skills stamina="262" dexterity="501" speed="643" tackling="441" passing="386" shooting="380" control="333" accuracy="368" goalkeeping="50" heading="379"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46165">
+    <personal name="Claude Schumacher">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="751" risktaking="288" offensive="672" aggressive="736" consistent="610" creative="560" experienced="415"/>
+    <skills stamina="494" dexterity="520" speed="517" tackling="449" passing="449" shooting="274" control="368" accuracy="320" goalkeeping="58" heading="431"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="46166">
+    <personal name="Olivier Durand">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="113" risktaking="609" offensive="585" aggressive="401" consistent="347" creative="413" experienced="331"/>
+    <skills stamina="506" dexterity="602" speed="529" tackling="402" passing="360" shooting="325" control="297" accuracy="320" goalkeeping="59" heading="371"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="46167">
+    <personal name="Eric Delobel">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="480" risktaking="595" offensive="553" aggressive="376" consistent="475" creative="553" experienced="688"/>
+    <skills stamina="572" dexterity="583" speed="699" tackling="390" passing="425" shooting="422" control="332" accuracy="300" goalkeeping="59" heading="471"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="46168">
+    <personal name="Philippe Plaskacz">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="527" risktaking="651" offensive="600" aggressive="722" consistent="462" creative="379" experienced="233"/>
+    <skills stamina="405" dexterity="570" speed="183" tackling="275" passing="418" shooting="372" control="491" accuracy="287" goalkeeping="49" heading="303"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="46169">
+    <personal name="Marc Chaussy">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="503" risktaking="453" offensive="535" aggressive="674" consistent="604" creative="253" experienced="478"/>
+    <skills stamina="531" dexterity="562" speed="394" tackling="450" passing="321" shooting="347" control="414" accuracy="413" goalkeeping="81" heading="359"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46170">
+    <personal name="Manuel Borrega">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="766" risktaking="594" offensive="376" aggressive="425" consistent="424" creative="365" experienced="490"/>
+    <skills stamina="389" dexterity="566" speed="399" tackling="322" passing="297" shooting="435" control="331" accuracy="335" goalkeeping="53" heading="288"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46171">
+    <personal name="Jean-pierre Almeida">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="706" risktaking="492" offensive="603" aggressive="297" consistent="637" creative="562" experienced="410"/>
+    <skills stamina="546" dexterity="426" speed="521" tackling="303" passing="248" shooting="249" control="305" accuracy="242" goalkeeping="66" heading="397"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="46172">
+    <personal name="Yvo Dos Santos Pinto">
+      <appearance value="0"/>
+      <nationality value="Spain"/>
+    </personal>
+    <personality active="672" risktaking="496" offensive="307" aggressive="519" consistent="508" creative="345" experienced="780"/>
+    <skills stamina="616" dexterity="391" speed="421" tackling="404" passing="389" shooting="472" control="375" accuracy="445" goalkeeping="74" heading="380"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46173">
+    <personal name="Pascal Wahpach">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="588" risktaking="627" offensive="463" aggressive="638" consistent="22" creative="491" experienced="299"/>
+    <skills stamina="231" dexterity="650" speed="310" tackling="269" passing="272" shooting="418" control="356" accuracy="473" goalkeeping="57" heading="284"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46174">
+    <personal name="Christian Felten">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="518" risktaking="634" offensive="613" aggressive="412" consistent="539" creative="649" experienced="243"/>
+    <skills stamina="630" dexterity="149" speed="204" tackling="380" passing="372" shooting="362" control="274" accuracy="277" goalkeeping="71" heading="297"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46175">
+    <personal name="Luc Mischo">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="386" risktaking="319" offensive="652" aggressive="524" consistent="777" creative="674" experienced="476"/>
+    <skills stamina="633" dexterity="659" speed="489" tackling="407" passing="375" shooting="475" control="442" accuracy="437" goalkeeping="72" heading="401"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46176">
+    <personal name="Roger Fetler">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="522" risktaking="646" offensive="686" aggressive="427" consistent="447" creative="550" experienced="474"/>
+    <skills stamina="552" dexterity="502" speed="225" tackling="213" passing="299" shooting="342" control="272" accuracy="221" goalkeeping="390" heading="220"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="46177">
+    <personal name="Carlo Schmitz">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="419" risktaking="574" offensive="410" aggressive="428" consistent="616" creative="648" experienced="378"/>
+    <skills stamina="201" dexterity="251" speed="401" tackling="166" passing="383" shooting="292" control="340" accuracy="212" goalkeeping="323" heading="119"/>
+    <position pos="0" left="1" wing="0"/>
+  </player>
+  <player id="46178">
+    <personal name="Ralph Stange">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="415" risktaking="596" offensive="513" aggressive="534" consistent="269" creative="708" experienced="658"/>
+    <skills stamina="644" dexterity="603" speed="289" tackling="428" passing="340" shooting="443" control="447" accuracy="455" goalkeeping="75" heading="385"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="46179">
+    <personal name="Victor Mestre">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="526" risktaking="487" offensive="269" aggressive="499" consistent="478" creative="543" experienced="415"/>
+    <skills stamina="730" dexterity="406" speed="287" tackling="371" passing="463" shooting="322" control="323" accuracy="398" goalkeeping="64" heading="282"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="46180">
+    <personal name="Carlo Weis">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="609" risktaking="525" offensive="543" aggressive="385" consistent="659" creative="696" experienced="508"/>
+    <skills stamina="311" dexterity="670" speed="495" tackling="444" passing="402" shooting="465" control="414" accuracy="393" goalkeeping="57" heading="466"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46181">
+    <personal name="Pierre Scholtes">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="505" risktaking="512" offensive="600" aggressive="563" consistent="470" creative="437" experienced="330"/>
+    <skills stamina="671" dexterity="669" speed="673" tackling="404" passing="484" shooting="350" control="463" accuracy="430" goalkeeping="50" heading="437"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46182">
+    <personal name="Serge Thillens">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="619" risktaking="594" offensive="626" aggressive="384" consistent="529" creative="258" experienced="411"/>
+    <skills stamina="489" dexterity="374" speed="537" tackling="269" passing="289" shooting="439" control="472" accuracy="367" goalkeeping="47" heading="361"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="46183">
+    <personal name="Eduardo Dinis">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="670" risktaking="390" offensive="311" aggressive="140" consistent="600" creative="584" experienced="429"/>
+    <skills stamina="231" dexterity="494" speed="459" tackling="392" passing="521" shooting="446" control="348" accuracy="408" goalkeeping="73" heading="458"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="46184">
+    <personal name="Bernard Siebert">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="333" risktaking="469" offensive="645" aggressive="453" consistent="803" creative="419" experienced="713"/>
+    <skills stamina="558" dexterity="365" speed="435" tackling="403" passing="485" shooting="269" control="416" accuracy="284" goalkeeping="53" heading="407"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="46185">
+    <personal name="Andre Mergen">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="436" risktaking="592" offensive="768" aggressive="333" consistent="526" creative="410" experienced="504"/>
+    <skills stamina="561" dexterity="485" speed="412" tackling="357" passing="424" shooting="330" control="439" accuracy="321" goalkeeping="80" heading="468"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46186">
+    <personal name="Kamel Meftouh">
+      <appearance value="0"/>
+      <nationality value="Algeria"/>
+    </personal>
+    <personality active="559" risktaking="677" offensive="546" aggressive="730" consistent="625" creative="468" experienced="526"/>
+    <skills stamina="662" dexterity="176" speed="409" tackling="420" passing="493" shooting="342" control="339" accuracy="315" goalkeeping="60" heading="412"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46187">
+    <personal name="Carlo Sachsen">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="528" risktaking="174" offensive="301" aggressive="610" consistent="606" creative="409" experienced="443"/>
+    <skills stamina="464" dexterity="460" speed="139" tackling="469" passing="361" shooting="332" control="406" accuracy="387" goalkeeping="70" heading="350"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46188">
+    <personal name="Walter Antunes">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="385" risktaking="508" offensive="300" aggressive="361" consistent="769" creative="656" experienced="391"/>
+    <skills stamina="361" dexterity="281" speed="574" tackling="276" passing="308" shooting="333" control="374" accuracy="272" goalkeeping="64" heading="299"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46189">
+    <personal name="Michel Deza">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="445" risktaking="594" offensive="751" aggressive="378" consistent="594" creative="428" experienced="457"/>
+    <skills stamina="516" dexterity="345" speed="549" tackling="356" passing="458" shooting="513" control="415" accuracy="363" goalkeeping="63" heading="400"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46190">
+    <personal name="Sergio Da Silva">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="533" risktaking="351" offensive="401" aggressive="858" consistent="121" creative="735" experienced="635"/>
+    <skills stamina="430" dexterity="542" speed="592" tackling="340" passing="310" shooting="443" control="426" accuracy="322" goalkeeping="60" heading="398"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46191">
+    <personal name="Fernand Wosko">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="624" risktaking="426" offensive="641" aggressive="660" consistent="439" creative="735" experienced="756"/>
+    <skills stamina="343" dexterity="651" speed="588" tackling="348" passing="373" shooting="438" control="428" accuracy="516" goalkeeping="52" heading="380"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46192">
+    <personal name="Carlos Lima">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="646" risktaking="718" offensive="666" aggressive="407" consistent="548" creative="688" experienced="781"/>
+    <skills stamina="277" dexterity="409" speed="631" tackling="155" passing="244" shooting="317" control="188" accuracy="192" goalkeeping="383" heading="132"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46193">
+    <personal name="Claudio Englaro">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="433" risktaking="534" offensive="288" aggressive="470" consistent="667" creative="680" experienced="804"/>
+    <skills stamina="476" dexterity="535" speed="213" tackling="176" passing="264" shooting="335" control="186" accuracy="115" goalkeeping="300" heading="119"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46194">
+    <personal name="John Kremer">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="397" risktaking="365" offensive="533" aggressive="392" consistent="351" creative="528" experienced="372"/>
+    <skills stamina="255" dexterity="461" speed="541" tackling="322" passing="465" shooting="326" control="466" accuracy="461" goalkeeping="73" heading="408"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="46195">
+    <personal name="Carlo Schartz">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="741" risktaking="412" offensive="588" aggressive="379" consistent="790" creative="397" experienced="269"/>
+    <skills stamina="684" dexterity="247" speed="476" tackling="247" passing="355" shooting="297" control="270" accuracy="280" goalkeeping="40" heading="371"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="46196">
+    <personal name="Johny Schleck">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="381" risktaking="572" offensive="292" aggressive="276" consistent="297" creative="544" experienced="374"/>
+    <skills stamina="211" dexterity="415" speed="230" tackling="329" passing="304" shooting="416" control="459" accuracy="392" goalkeeping="70" heading="240"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="46197">
+    <personal name="Gelu Ciociu">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="214" risktaking="462" offensive="260" aggressive="643" consistent="700" creative="507" experienced="697"/>
+    <skills stamina="659" dexterity="479" speed="641" tackling="402" passing="403" shooting="283" control="350" accuracy="367" goalkeeping="45" heading="431"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="46198">
+    <personal name="Steve Quiring">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="501" risktaking="680" offensive="554" aggressive="380" consistent="688" creative="775" experienced="437"/>
+    <skills stamina="484" dexterity="570" speed="165" tackling="453" passing="364" shooting="392" control="248" accuracy="331" goalkeeping="35" heading="345"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="46199">
+    <personal name="Serge May">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="656" risktaking="422" offensive="633" aggressive="427" consistent="465" creative="408" experienced="289"/>
+    <skills stamina="117" dexterity="267" speed="543" tackling="293" passing="252" shooting="352" control="242" accuracy="317" goalkeeping="38" heading="324"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46200">
+    <personal name="Sylvain Alfieri">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="524" risktaking="327" offensive="113" aggressive="427" consistent="602" creative="722" experienced="488"/>
+    <skills stamina="293" dexterity="297" speed="396" tackling="341" passing="281" shooting="262" control="309" accuracy="359" goalkeeping="70" heading="352"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="46201">
+    <personal name="Luc Lambert">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="159" risktaking="300" offensive="353" aggressive="370" consistent="720" creative="478" experienced="325"/>
+    <skills stamina="205" dexterity="395" speed="282" tackling="381" passing="403" shooting="345" control="463" accuracy="363" goalkeeping="77" heading="357"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="46202">
+    <personal name="Fausto Sorcinelli">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="337" risktaking="592" offensive="421" aggressive="398" consistent="777" creative="655" experienced="497"/>
+    <skills stamina="326" dexterity="639" speed="254" tackling="386" passing="340" shooting="402" control="479" accuracy="357" goalkeeping="63" heading="328"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46203">
+    <personal name="Franco De Paola">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="506" risktaking="311" offensive="629" aggressive="582" consistent="529" creative="399" experienced="596"/>
+    <skills stamina="392" dexterity="145" speed="510" tackling="353" passing="315" shooting="396" control="264" accuracy="216" goalkeeping="35" heading="273"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46204">
+    <personal name="Uwe Horn">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="443" risktaking="472" offensive="436" aggressive="933" consistent="530" creative="662" experienced="479"/>
+    <skills stamina="370" dexterity="349" speed="570" tackling="421" passing="461" shooting="304" control="447" accuracy="357" goalkeeping="67" heading="357"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46205">
+    <personal name="Dragan Vrebac">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="448" risktaking="412" offensive="602" aggressive="599" consistent="509" creative="296" experienced="360"/>
+    <skills stamina="343" dexterity="508" speed="565" tackling="374" passing="252" shooting="270" control="390" accuracy="482" goalkeeping="49" heading="324"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46206">
+    <personal name="Adriano Abbruzzese">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="773" risktaking="673" offensive="491" aggressive="578" consistent="567" creative="577" experienced="505"/>
+    <skills stamina="438" dexterity="435" speed="431" tackling="341" passing="438" shooting="339" control="367" accuracy="454" goalkeeping="42" heading="455"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46207">
+    <personal name="Raoul Hippertchen">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="423" risktaking="451" offensive="440" aggressive="625" consistent="492" creative="374" experienced="491"/>
+    <skills stamina="187" dexterity="623" speed="412" tackling="318" passing="221" shooting="316" control="236" accuracy="366" goalkeeping="62" heading="268"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46208">
+    <personal name="John Van Rijswijck">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="537" risktaking="404" offensive="871" aggressive="911" consistent="501" creative="665" experienced="459"/>
+    <skills stamina="464" dexterity="334" speed="482" tackling="229" passing="349" shooting="485" control="390" accuracy="193" goalkeeping="425" heading="232"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46209">
+    <personal name="Alija Besic">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="219" risktaking="287" offensive="549" aggressive="463" consistent="490" creative="542" experienced="601"/>
+    <skills stamina="248" dexterity="446" speed="263" tackling="145" passing="320" shooting="337" control="218" accuracy="149" goalkeeping="473" heading="172"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46210">
+    <personal name="Luc Feiereisen">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="487" risktaking="675" offensive="369" aggressive="561" consistent="416" creative="482" experienced="483"/>
+    <skills stamina="696" dexterity="282" speed="689" tackling="480" passing="356" shooting="425" control="512" accuracy="350" goalkeeping="75" heading="454"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="46211">
+    <personal name="Patrick Feyder">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="597" risktaking="383" offensive="813" aggressive="450" consistent="541" creative="471" experienced="579"/>
+    <skills stamina="313" dexterity="665" speed="670" tackling="345" passing="519" shooting="470" control="505" accuracy="458" goalkeeping="49" heading="431"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="46212">
+    <personal name="Marc Birsens">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="301" risktaking="524" offensive="426" aggressive="453" consistent="101" creative="316" experienced="186"/>
+    <skills stamina="411" dexterity="557" speed="304" tackling="475" passing="359" shooting="500" control="379" accuracy="381" goalkeeping="82" heading="335"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46213">
+    <personal name="Laurent Pellegrino">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="463" risktaking="418" offensive="605" aggressive="461" consistent="700" creative="503" experienced="498"/>
+    <skills stamina="541" dexterity="462" speed="593" tackling="431" passing="506" shooting="487" control="391" accuracy="386" goalkeeping="62" heading="459"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="46214">
+    <personal name="Dany Schammel">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="743" risktaking="371" offensive="445" aggressive="521" consistent="426" creative="323" experienced="695"/>
+    <skills stamina="579" dexterity="374" speed="222" tackling="461" passing="448" shooting="371" control="310" accuracy="341" goalkeeping="69" heading="368"/>
+    <position pos="1" left="1" wing="0"/>
+  </player>
+  <player id="46215">
+    <personal name="Mustapha Kharoubi">
+      <appearance value="0"/>
+      <nationality value="Algeria"/>
+    </personal>
+    <personality active="492" risktaking="635" offensive="183" aggressive="560" consistent="568" creative="756" experienced="524"/>
+    <skills stamina="537" dexterity="350" speed="572" tackling="362" passing="446" shooting="378" control="487" accuracy="415" goalkeeping="51" heading="390"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="46216">
+    <personal name="Benoit Lahery">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="491" risktaking="643" offensive="380" aggressive="443" consistent="578" creative="363" experienced="683"/>
+    <skills stamina="206" dexterity="277" speed="575" tackling="478" passing="446" shooting="372" control="463" accuracy="335" goalkeeping="68" heading="362"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="46217">
+    <personal name="David Borboconi">
+      <appearance value="0"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="785" risktaking="408" offensive="668" aggressive="631" consistent="228" creative="637" experienced="646"/>
+    <skills stamina="257" dexterity="367" speed="674" tackling="436" passing="419" shooting="305" control="458" accuracy="473" goalkeeping="56" heading="361"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46218">
+    <personal name="Eugene Afrika">
+      <appearance value="1"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="368" risktaking="704" offensive="230" aggressive="585" consistent="717" creative="652" experienced="570"/>
+    <skills stamina="303" dexterity="605" speed="391" tackling="344" passing="387" shooting="270" control="422" accuracy="376" goalkeeping="47" heading="366"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="46219">
+    <personal name="Claude Mangen">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="368" risktaking="509" offensive="792" aggressive="580" consistent="382" creative="829" experienced="489"/>
+    <skills stamina="385" dexterity="636" speed="667" tackling="457" passing="468" shooting="416" control="296" accuracy="290" goalkeeping="71" heading="326"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46220">
+    <personal name="Laurent Deville">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="409" risktaking="446" offensive="555" aggressive="308" consistent="348" creative="300" experienced="468"/>
+    <skills stamina="373" dexterity="709" speed="642" tackling="409" passing="435" shooting="389" control="456" accuracy="492" goalkeeping="70" heading="434"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="46221">
+    <personal name="Serge Makoumbou">
+      <appearance value="1"/>
+      <nationality value="France"/>
+    </personal>
+    <personality active="709" risktaking="508" offensive="545" aggressive="662" consistent="485" creative="599" experienced="201"/>
+    <skills stamina="201" dexterity="159" speed="631" tackling="431" passing="365" shooting="385" control="496" accuracy="415" goalkeeping="58" heading="410"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46222">
+    <personal name="Gordon Braun">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="305" risktaking="497" offensive="765" aggressive="828" consistent="135" creative="686" experienced="558"/>
+    <skills stamina="501" dexterity="243" speed="316" tackling="464" passing="477" shooting="393" control="462" accuracy="453" goalkeeping="66" heading="356"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46223">
+    <personal name="Fabien Mellinger">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="530" risktaking="636" offensive="308" aggressive="445" consistent="362" creative="484" experienced="603"/>
+    <skills stamina="366" dexterity="267" speed="494" tackling="362" passing="369" shooting="375" control="314" accuracy="437" goalkeeping="44" heading="319"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46224">
+    <personal name="David Malanee">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="869" risktaking="446" offensive="545" aggressive="787" consistent="357" creative="553" experienced="874"/>
+    <skills stamina="314" dexterity="267" speed="680" tackling="187" passing="400" shooting="319" control="224" accuracy="180" goalkeeping="389" heading="209"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46225">
+    <personal name="Serge Lutgen">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="526" risktaking="518" offensive="760" aggressive="335" consistent="511" creative="547" experienced="538"/>
+    <skills stamina="587" dexterity="237" speed="268" tackling="160" passing="285" shooting="438" control="302" accuracy="183" goalkeeping="385" heading="194"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46226">
+    <personal name="Marco Baus">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="649" risktaking="252" offensive="565" aggressive="573" consistent="483" creative="746" experienced="612"/>
+    <skills stamina="645" dexterity="237" speed="445" tackling="403" passing="397" shooting="456" control="312" accuracy="333" goalkeeping="56" heading="357"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="46227">
+    <personal name="Boris Henry">
+      <appearance value="8"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="475" risktaking="237" offensive="471" aggressive="497" consistent="368" creative="408" experienced="523"/>
+    <skills stamina="609" dexterity="473" speed="226" tackling="403" passing="456" shooting="302" control="372" accuracy="443" goalkeeping="50" heading="376"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="46228">
+    <personal name="Luc Melchior">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="538" risktaking="731" offensive="540" aggressive="332" consistent="427" creative="338" experienced="518"/>
+    <skills stamina="212" dexterity="379" speed="612" tackling="467" passing="343" shooting="420" control="419" accuracy="316" goalkeeping="52" heading="295"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46229">
+    <personal name="Joao Pereira">
+      <appearance value="0"/>
+      <nationality value="Portugal"/>
+    </personal>
+    <personality active="353" risktaking="495" offensive="468" aggressive="340" consistent="370" creative="332" experienced="343"/>
+    <skills stamina="139" dexterity="349" speed="201" tackling="480" passing="449" shooting="454" control="473" accuracy="436" goalkeeping="56" heading="282"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46230">
+    <personal name="Pierre Grisius">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="473" risktaking="223" offensive="339" aggressive="679" consistent="489" creative="591" experienced="500"/>
+    <skills stamina="367" dexterity="163" speed="228" tackling="431" passing="383" shooting="411" control="339" accuracy="307" goalkeeping="68" heading="437"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46231">
+    <personal name="Francois Toex">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="514" risktaking="271" offensive="379" aggressive="356" consistent="304" creative="298" experienced="580"/>
+    <skills stamina="473" dexterity="475" speed="666" tackling="427" passing="394" shooting="475" control="454" accuracy="395" goalkeeping="74" heading="444"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="46232">
+    <personal name="Franco Iovino">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="794" risktaking="498" offensive="663" aggressive="535" consistent="287" creative="409" experienced="552"/>
+    <skills stamina="540" dexterity="331" speed="214" tackling="409" passing="313" shooting="320" control="466" accuracy="438" goalkeeping="67" heading="429"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="46233">
+    <personal name="Pascal Pantusa">
+      <appearance value="0"/>
+      <nationality value="Belgium"/>
+    </personal>
+    <personality active="424" risktaking="477" offensive="625" aggressive="519" consistent="405" creative="750" experienced="681"/>
+    <skills stamina="374" dexterity="349" speed="400" tackling="442" passing="470" shooting="332" control="312" accuracy="358" goalkeeping="47" heading="410"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="46234">
+    <personal name="Joe Matgen">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="918" risktaking="575" offensive="604" aggressive="408" consistent="452" creative="526" experienced="743"/>
+    <skills stamina="450" dexterity="395" speed="409" tackling="355" passing="471" shooting="448" control="384" accuracy="426" goalkeeping="57" heading="393"/>
+    <position pos="2" left="1" wing="0"/>
+  </player>
+  <player id="46235">
+    <personal name="Denis Collignon">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="507" risktaking="606" offensive="201" aggressive="442" consistent="718" creative="874" experienced="477"/>
+    <skills stamina="247" dexterity="316" speed="283" tackling="386" passing="427" shooting="391" control="415" accuracy="299" goalkeeping="61" heading="431"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46236">
+    <personal name="Marc Theis">
+      <appearance value="8"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="645" risktaking="650" offensive="515" aggressive="749" consistent="934" creative="555" experienced="500"/>
+    <skills stamina="245" dexterity="684" speed="636" tackling="364" passing="486" shooting="489" control="365" accuracy="440" goalkeeping="71" heading="486"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="46237">
+    <personal name="Marc Gira">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="285" risktaking="465" offensive="558" aggressive="476" consistent="172" creative="574" experienced="520"/>
+    <skills stamina="407" dexterity="273" speed="161" tackling="275" passing="314" shooting="504" control="282" accuracy="363" goalkeeping="55" heading="349"/>
+    <position pos="3" left="1" wing="0"/>
+  </player>
+  <player id="46238">
+    <personal name="Claude Kandels">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="624" risktaking="453" offensive="758" aggressive="732" consistent="410" creative="472" experienced="451"/>
+    <skills stamina="290" dexterity="243" speed="681" tackling="341" passing="431" shooting="426" control="371" accuracy="478" goalkeeping="50" heading="388"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46239">
+    <personal name="Frank Welter">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="611" risktaking="674" offensive="573" aggressive="426" consistent="589" creative="728" experienced="484"/>
+    <skills stamina="368" dexterity="403" speed="472" tackling="434" passing="349" shooting="512" control="374" accuracy="402" goalkeeping="47" heading="475"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46240">
+    <personal name="Andre Weiler">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="479" risktaking="262" offensive="397" aggressive="512" consistent="421" creative="609" experienced="583"/>
+    <skills stamina="194" dexterity="509" speed="297" tackling="134" passing="246" shooting="345" control="282" accuracy="139" goalkeeping="372" heading="174"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46241">
+    <personal name="Eduard Kula">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="490" risktaking="436" offensive="329" aggressive="606" consistent="439" creative="517" experienced="617"/>
+    <skills stamina="329" dexterity="114" speed="546" tackling="197" passing="297" shooting="294" control="209" accuracy="110" goalkeeping="348" heading="130"/>
+    <position pos="0" left="0" wing="0"/>
+  </player>
+  <player id="46242">
+    <personal name="Steve Schmitt">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="653" risktaking="599" offensive="467" aggressive="418" consistent="577" creative="569" experienced="344"/>
+    <skills stamina="480" dexterity="517" speed="465" tackling="418" passing="325" shooting="349" control="417" accuracy="407" goalkeeping="50" heading="314"/>
+    <position pos="1" left="0" wing="1"/>
+  </player>
+  <player id="46243">
+    <personal name="Tom Pundel">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="377" risktaking="495" offensive="666" aggressive="407" consistent="376" creative="447" experienced="532"/>
+    <skills stamina="661" dexterity="647" speed="377" tackling="438" passing="363" shooting="240" control="299" accuracy="361" goalkeeping="49" heading="291"/>
+    <position pos="1" left="1" wing="1"/>
+  </player>
+  <player id="46244">
+    <personal name="Giuseppe Consoli">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="551" risktaking="419" offensive="458" aggressive="635" consistent="511" creative="368" experienced="478"/>
+    <skills stamina="311" dexterity="207" speed="151" tackling="243" passing="334" shooting="317" control="256" accuracy="336" goalkeeping="44" heading="295"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46245">
+    <personal name="Roger Gries">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="616" risktaking="431" offensive="649" aggressive="385" consistent="528" creative="292" experienced="508"/>
+    <skills stamina="500" dexterity="634" speed="258" tackling="479" passing="430" shooting="300" control="472" accuracy="259" goalkeeping="48" heading="258"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46246">
+    <personal name="Guy Legill">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="773" risktaking="713" offensive="476" aggressive="409" consistent="508" creative="653" experienced="504"/>
+    <skills stamina="269" dexterity="656" speed="286" tackling="364" passing="358" shooting="390" control="301" accuracy="330" goalkeeping="55" heading="266"/>
+    <position pos="1" left="0" wing="0"/>
+  </player>
+  <player id="46247">
+    <personal name="Roger Thilgen">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="383" risktaking="305" offensive="670" aggressive="669" consistent="529" creative="539" experienced="556"/>
+    <skills stamina="413" dexterity="247" speed="364" tackling="471" passing="467" shooting="449" control="416" accuracy="335" goalkeeping="54" heading="444"/>
+    <position pos="2" left="0" wing="1"/>
+  </player>
+  <player id="46248">
+    <personal name="Roger Reuland">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="355" risktaking="458" offensive="523" aggressive="290" consistent="550" creative="498" experienced="741"/>
+    <skills stamina="250" dexterity="358" speed="615" tackling="389" passing="399" shooting="317" control="347" accuracy="270" goalkeeping="54" heading="358"/>
+    <position pos="2" left="1" wing="1"/>
+  </player>
+  <player id="46249">
+    <personal name="Daniel Rech">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="127" risktaking="575" offensive="762" aggressive="687" consistent="679" creative="717" experienced="619"/>
+    <skills stamina="424" dexterity="302" speed="499" tackling="255" passing="310" shooting="394" control="289" accuracy="380" goalkeeping="53" heading="390"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46250">
+    <personal name="Jose Jimenez">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="555" risktaking="728" offensive="600" aggressive="400" consistent="455" creative="350" experienced="192"/>
+    <skills stamina="329" dexterity="430" speed="113" tackling="333" passing="382" shooting="382" control="273" accuracy="371" goalkeeping="47" heading="255"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46251">
+    <personal name="Marc Beffort">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="519" risktaking="698" offensive="257" aggressive="738" consistent="414" creative="472" experienced="509"/>
+    <skills stamina="405" dexterity="169" speed="279" tackling="241" passing="446" shooting="253" control="457" accuracy="366" goalkeeping="52" heading="393"/>
+    <position pos="2" left="0" wing="0"/>
+  </player>
+  <player id="46252">
+    <personal name="Robert Axmann">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="415" risktaking="546" offensive="643" aggressive="454" consistent="305" creative="505" experienced="417"/>
+    <skills stamina="268" dexterity="176" speed="137" tackling="454" passing="365" shooting="540" control="407" accuracy="327" goalkeeping="71" heading="370"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46253">
+    <personal name="Emanuel Marchal">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="649" risktaking="361" offensive="623" aggressive="459" consistent="645" creative="122" experienced="445"/>
+    <skills stamina="464" dexterity="588" speed="566" tackling="403" passing="388" shooting="486" control="425" accuracy="364" goalkeeping="43" heading="419"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46254">
+    <personal name="Ralph Glebener">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="622" risktaking="298" offensive="803" aggressive="363" consistent="726" creative="468" experienced="362"/>
+    <skills stamina="491" dexterity="476" speed="445" tackling="330" passing="223" shooting="366" control="243" accuracy="319" goalkeeping="35" heading="432"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+  <player id="46255">
+    <personal name="Daniel Clemen">
+      <appearance value="0"/>
+      <nationality value="Luxembourg"/>
+    </personal>
+    <personality active="491" risktaking="575" offensive="660" aggressive="278" consistent="361" creative="559" experienced="680"/>
+    <skills stamina="505" dexterity="540" speed="616" tackling="234" passing="367" shooting="367" control="298" accuracy="416" goalkeeping="48" heading="294"/>
+    <position pos="3" left="0" wing="0"/>
+  </player>
+</Players>
