@@ -1,0 +1,80 @@
+TEAM.000:Albania:Albanian
+TEAM.001:Austria:Austrian
+TEAM.002:Belgium:Belgian
+TEAM.003:Bulgaria:Bulgarian
+TEAM.004:Croatia:Croatian
+TEAM.005:Cyprus:Cypriot
+TEAM.006:Czech Republic:Czech
+TEAM.007:Denmark:Danish
+TEAM.008:England:English
+TEAM.009:-
+TEAM.010:Estonia:Estonian
+TEAM.011:Faroe Islands:Faroese
+TEAM.012:Finland:Finnish
+TEAM.013:France:French
+TEAM.014:Germany:German
+TEAM.015:Greece:Greek
+TEAM.016:Hungary:Hungarian
+TEAM.017:Iceland:Icelandic
+TEAM.018:Ireland:Irish
+TEAM.019:Israel:Israeli
+TEAM.020:Italy:Italian
+TEAM.021:Latvia:Latvian
+TEAM.022:Lithuania:Lithuanian
+TEAM.023:Luxembourg:Luxembourger
+TEAM.024:Malta:Maltese
+TEAM.025:Netherlands:Dutch
+TEAM.026:Northern Ireland:Northern Irish
+TEAM.027:Norway:Norwegish
+TEAM.028:Poland:Polish
+TEAM.029:Portugal:Portuguese
+TEAM.030:Romania:Romanian
+TEAM.031:Russia:Russian
+TEAM.032:San Marino:Sammarinese
+TEAM.033:Scotland:Scottish
+TEAM.034:Slovenia:Slovenian
+TEAM.035:Spain:Spanish
+TEAM.036:Sweden:Swedish
+TEAM.037:Switzerland:Swiss
+TEAM.038:Turkey:Turkish
+TEAM.039:Ukraine:Ukrainian
+TEAM.040:Wales:Welsh
+TEAM.041:Serbia:Serbian
+TEAM.042:Algeria:Algerian
+TEAM.043:Argentina:Argentinian
+TEAM.044:Australia:Australian
+TEAM.045:Bolivia:Bolivian
+TEAM.046:Brazil:Brazilian
+TEAM.047:-
+TEAM.048:Chile:Chilean
+TEAM.049:Colombia:Colombian
+TEAM.050:Ecuador:Ecuadorian
+TEAM.051:El Salvador:Salvadoran
+TEAM.052:-
+TEAM.053:-
+TEAM.054:-
+TEAM.055:Japan:Japanese
+TEAM.056:-
+TEAM.057:-
+TEAM.058:-
+TEAM.059:-
+TEAM.060:Mexico:Mexican
+TEAM.061:-
+TEAM.062:New Zealand:New Zealander
+TEAM.063:-
+TEAM.064:Paraguay:Paraguayan
+TEAM.065:Peru:Peruvian
+TEAM.066:Surinam:Surinamese
+TEAM.067:China:Chinese
+TEAM.068:-
+TEAM.069:South Africa:South African
+TEAM.070:-
+TEAM.071:Uruguay:Uruguayan
+TEAM.072:-
+TEAM.073:U.S.A.:American
+TEAM.074:-
+TEAM.075:India:Indian
+TEAM.076:Belarus:Belarusian
+TEAM.077:Venezuela:Venezuelan
+TEAM.078:Slovenia:Slovenian
+TEAM.079:Ghana:Ghanaian

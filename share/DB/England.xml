@@ -226,7 +226,7 @@
         </stage>
         <stage id="102" name="semifinals" type="1">
           <setup seeded="0" participantnum="4" rounds="2" extratime="1" penalties="1" replays="0" awaygoals="1"/>
-          <cuppr stage="finals"/>  <!-- no tournament -> stays the same -->
+          <cuppr stage="final"/>  <!-- no tournament defined in cuppr -> clubs stay in this tournament -->
         </stage>
         <stage id="103" name="sixth round proper" type="1">
           <setup seeded="0" participantnum="8" rounds="2" extratime="1" penalties="1" replays="0" awaygoals="1"/>

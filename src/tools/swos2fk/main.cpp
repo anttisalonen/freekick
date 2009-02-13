@@ -39,12 +39,14 @@ using namespace std;
 
 void usage(const char* prog_name)
 {
-    cerr << prog_name << " -s           input_file country_name         output_file\n";
-    cerr << prog_name << "    first_pid input_file country_name country_output_file players_output_file\n";
+    cerr << prog_name << " -s           input_file country_name output_file\n";
+    cerr << prog_name << "    first_pid input_file country_name country_adjective\n";
+    cerr << "                           club_output_file players_output_file\n";
+    cerr << "                           country_output_file\n";
     cerr << "-s: SWOS mode (no additional Freekick tags included)\n";
     cerr << "first_pid: player IDs will be given starting from this number.\n";
     cerr << "input_file: SWOS team data file\n";
-    cerr << "Will convert a SWOS team data file into a Freekick country file and players file.\n";
+    cerr << "Will convert a SWOS team data file into a Freekick club file, country file and players file.\n";
 }
 
 static const int team_size = 684;
@@ -97,6 +99,7 @@ typedef struct
     char coach_name[coach_name_len];
     char player_position_in_file[player_position_in_file_len];
     s_player players[number_of_players];
+    int value;
 } s_team;
 
 typedef vector<s_team> team_list;
@@ -251,7 +254,7 @@ const char* nationality_to_string(int nat)
         case 34: return "Turkey";
         case 35: return "Ukraine";
         case 36: return "Wales";
-        case 37: return "Serbia";  // check for montenegrins
+        case 37: return "Serbia";  // check for montenegrin players
         case 38: return "Belarus";
         case 39: return "Slovakia";
         case 40: return "Spain";
@@ -564,6 +567,11 @@ void color_to_xml(xmlNodePtr parent, char color, const char* node_name)
     add_attribute(color_node, "b", b);
 }
 
+string team_name_to_stadium_name(const char* team_name)
+{
+    return string(team_name) + " Stadium";
+}
+
 int parse_player(const unsigned char* player_block, int pid, s_player* player)
 {
     const unsigned char* iter = player_block;
@@ -649,6 +657,7 @@ int parse_team(const unsigned char* team_block, int first_pid, s_team* team)
     correct_name(team->coach_name);
     // cerr << team->coach_name << endl;
     memcpy(&team->player_position_in_file, (const void*)iter, player_position_in_file_len); iter += player_position_in_file_len;
+    team->value = 0;
     for(int pnum = 0; pnum < number_of_players; pnum++)
     {
         retval = parse_player(iter, pid, &team->players[pnum]);
@@ -659,7 +668,9 @@ int parse_team(const unsigned char* team_block, int first_pid, s_team* team)
         }
         iter += player_size;
         pid++;
+        team->value += team->players[pnum].value;
     }
+    // cerr << team->value << endl;
     return 0;
 }
 
@@ -883,7 +894,7 @@ void create_freekick_player_xml(const team_list& teams, const char* player_out_f
     xmlFreeDoc(doc);
 }
 
-void create_freekick_country_xml(const team_list& teams, const char* country_name, const char* country_out_filename)
+void create_freekick_club_xml(const team_list& teams, const char* country_name, const char* club_out_filename)
 {
     xmlDocPtr doc = NULL;       /* document pointer */
     xmlNodePtr root_node = NULL;
@@ -919,10 +930,13 @@ void create_freekick_country_xml(const team_list& teams, const char* country_nam
         sub_node = add_child(team_node, "country");
         add_attribute(sub_node, "name", country_name);
 
+/*
         sub_node = add_child(team_node, "region");
         add_attribute(sub_node, "name", country_name);
+*/
+
         sub_node = add_child(team_node, "stadium");
-        add_attribute(sub_node, "name", (string(teams[i].team_name) + " Stadium").c_str());
+        add_attribute(sub_node, "name", team_name_to_stadium_name(teams[i].team_name).c_str());
         sub_node = add_child(team_node, "contracts");
         for (int j = 0; j < number_of_players; j++)
         {
@@ -930,6 +944,218 @@ void create_freekick_country_xml(const team_list& teams, const char* country_nam
             add_attribute(sub_node2, "player", teams[i].players[j].id);
         }
     }
+    xmlSaveFormatFileEnc(club_out_filename, doc, "UTF-8", 1);
+
+    xmlFreeDoc(doc);
+
+    return;
+}
+
+const char* stage_number_to_stage_name(int s, int num_cup_stages)
+{
+    if(s < 1 || num_cup_stages < 1) return "";
+    if(s < 4)
+    {
+        switch(s)
+        {
+            case 1:  return "Final";
+            case 2:  return "Semifinals";
+            default: return "Quarterfinals";
+        }
+    }
+
+    if(s == num_cup_stages)
+        return "First round";
+    else if (s == num_cup_stages - 1)
+        return "Second round";
+    else if (s == num_cup_stages - 2)
+        return "Third round";
+    else if (s == num_cup_stages - 3)
+        return "Fourth round";
+    else if (s == num_cup_stages - 4)
+        return "Fifth round";
+    else if (s == num_cup_stages - 5)
+        return "Sixth round";
+    else if (s == num_cup_stages - 6)
+        return "Seventh round";
+    else if (s == num_cup_stages - 7)
+        return "Eighth round";
+    return "";
+}
+
+void create_freekick_country_xml(const team_list& teams, const char* country_name, const char* country_adjective, const char* country_out_filename)
+{
+    xmlDocPtr doc = NULL;       /* document pointer */
+    xmlNodePtr root_node = NULL;
+    xmlNodePtr country_node = NULL;
+    xmlNodePtr sub_node = NULL;
+    xmlNodePtr regions_node, region_node, stadium_node = NULL;
+    xmlNodePtr league_system_node, levels_node = NULL;
+    int num_divisions = 4;
+    int clubs_in_divisions[num_divisions];
+    vector<const s_team*> divisions[num_divisions];
+
+    int i;
+    for(i = 0; i < num_divisions; i++)
+        clubs_in_divisions[i] = 0;
+
+    doc = xmlNewDoc(BAD_CAST "1.0");
+    root_node = xmlNewNode(NULL, BAD_CAST "Countries");
+    xmlDocSetRootElement(doc, root_node);
+    country_node = add_child(root_node, "Country");
+    add_attribute(country_node, "name", country_name);
+    regions_node = add_child(country_node, "Regions");
+    region_node = add_child(regions_node, "Region");
+    add_attribute(region_node, "name", country_name);
+    league_system_node = add_child(country_node, "leaguesystem");
+    add_attribute(league_system_node, "name", (string(country_adjective) + " league").c_str());
+    levels_node = add_child(league_system_node, "Levels");
+
+    team_list::const_iterator it;
+    for(it = teams.begin(); it != teams.end(); it++)
+    {
+        stadium_node = add_child(region_node, "stadium");
+        add_attribute(stadium_node, "name", team_name_to_stadium_name(it->team_name).c_str());
+        int capacity = pow(it->value, 1.7) / 100;
+        if(capacity >= 4)
+            capacity = capacity + rand_int(capacity / 2) - (capacity / 4);
+        add_attribute(stadium_node, "capacity", capacity * 100);
+        if(it->division < num_divisions)
+        {
+            clubs_in_divisions[it->division]++;
+            divisions[it->division].push_back(&(*it));
+        }
+    }
+
+    int num_teams = teams.size();
+    int num_cup_stages = 0;
+
+    for(i = 8; i > 1; i--)
+    {
+        if(num_teams >= pow(2, i))
+        {
+            num_cup_stages = i;
+            break;
+        }
+    }
+    string tournament_name = string(country_adjective) + " Cup";
+    if(num_cup_stages > 0)
+    {
+        int s;
+        xmlNodePtr tournaments, tournament, t_stage, t_setup, t_trophy, t_cuppr = NULL;
+        tournaments = add_child(country_node, "Tournaments");
+        tournament = add_child(tournaments, "tournament");
+        add_attribute(tournament, "name", tournament_name.c_str());
+        for(s = 1; s <= num_cup_stages; s++)
+        {
+            t_stage = add_child(tournament, "stage");
+            const char* stage_name = stage_number_to_stage_name(s, num_cup_stages);
+            if(strlen(stage_name) < 1)
+                break;
+            add_attribute(t_stage, "name", stage_name);
+            add_attribute(t_stage, "type", "1");
+
+            t_setup = add_child(t_stage, "setup");
+            add_attribute(t_setup, "seeded", "0");
+            add_attribute(t_setup, "participantnum", pow(2, s));
+            add_attribute(t_setup, "rounds", "1");
+            add_attribute(t_setup, "extratime", "1");
+            add_attribute(t_setup, "replays", "0");
+            add_attribute(t_setup, "awaygoals", "0");
+
+            if(s == 1)
+            {
+                t_trophy = add_child(t_stage, "trophy");
+                add_attribute(t_trophy, "name", (string(country_adjective) + " Cup champion").c_str());
+            }
+            else
+            {
+                t_cuppr = add_child(t_stage, "cuppr");
+                add_attribute(t_cuppr, "stage", stage_number_to_stage_name(s - 1, num_cup_stages));
+            }
+
+            if(s == num_cup_stages)
+            {
+                int added_clubs = 0;
+                int total_num_clubs = pow(2, num_cup_stages);
+
+                xmlNodePtr t_preset, t_club = NULL;
+                vector<const s_team*>::const_iterator it2;
+                t_preset = add_child(t_stage, "preset");
+
+                for(i = 0; i < num_divisions && added_clubs < total_num_clubs; i++)
+                {
+                    for(it2 = divisions[i].begin(); it2 != divisions[i].end() && added_clubs < total_num_clubs; it2++)
+                    {
+                        added_clubs++;
+                        t_club = add_child(t_preset, "club");
+                        add_attribute(t_club, "name", (*it2)->team_name);
+                    }
+                }
+            }
+        }
+    }
+    const char* bottom_tournament_stage = stage_number_to_stage_name(num_cup_stages, num_cup_stages);
+
+    for(i = 0; i < num_divisions; i++)
+    {
+        if(clubs_in_divisions[i] <= 0)
+            continue;
+        xmlNodePtr level_node, branch_node, stage_node, setup_node = NULL;
+        xmlNodePtr leagueprs, leaguepr, leaguerls, leaguerl, attendances, attendance, trophy = NULL;
+        level_node = add_child(levels_node, "level");
+        branch_node = add_child(level_node, "branch");
+        stage_node = add_child(branch_node, "stage");
+        const char* stage_name;
+        switch(i)
+        {
+            case 0:  stage_name = "Premier league"; break;
+            case 1:  stage_name = "First league"; break;
+            case 2:  stage_name = "Second league"; break;
+            default: stage_name = "Third league"; break;
+        }
+        add_attribute(stage_node, "name", stage_name);
+        add_attribute(stage_node, "type", "0");
+        setup_node = add_child(stage_node, "setup");
+        add_attribute(setup_node, "seeded", "0");
+        add_attribute(setup_node, "participantnum", clubs_in_divisions[i]);
+        add_attribute(setup_node, "groups", "1");
+        add_attribute(setup_node, "rounds", "2");
+        add_attribute(setup_node, "pointsperwin", "3");
+        trophy = add_child(stage_node, "trophy");
+        add_attribute(trophy, "name", (string(country_adjective) + " " + stage_name + " champion").c_str());
+
+        leagueprs = add_child(level_node, "leagueprs");
+        leaguerls = add_child(level_node, "leaguerls");
+        if(i > 0)
+        {
+            leaguepr = add_child(leagueprs, "leaguepr");
+            add_attribute(leaguepr, "num", "3");
+        }
+        if(i < num_divisions - 1 && clubs_in_divisions[i + 1] > 0)
+        {
+            leaguerl = add_child(leaguerls, "leaguerl");
+            add_attribute(leaguerl, "num", "3");
+        }
+        attendances = add_child(stage_node, "attendances");
+        if(strlen(bottom_tournament_stage) > 0)
+        {
+            attendance = add_child(attendances, "attendance");
+            add_attribute(attendance, "tournament", tournament_name.c_str());
+            add_attribute(attendance, "stage", bottom_tournament_stage);
+        }
+
+        xmlNodePtr preset, preset_club = NULL;
+        vector<const s_team*>::const_iterator it2;
+        preset = add_child(stage_node, "preset");
+
+        for(it2 = divisions[i].begin(); it2 != divisions[i].end(); it2++)
+        {
+            preset_club = add_child(preset, "club");
+            add_attribute(preset_club, "name", (*it2)->team_name);
+        }
+    }
+
     xmlSaveFormatFileEnc(country_out_filename, doc, "UTF-8", 1);
 
     xmlFreeDoc(doc);
@@ -964,7 +1190,7 @@ int main(int argc, char** argv)
         }
     }
 
-    if((!swos_mode && argc < 6) || (swos_mode && argc < 5))
+    if((!swos_mode && argc < 8) || (swos_mode && argc < 5))
     {
         usage(argv[0]);
         exit(1);
@@ -1003,10 +1229,13 @@ int main(int argc, char** argv)
     }
     else
     {
-        char* country_out_filename = argv[4];
-        char* player_out_filename = argv[5];
+        char* country_adjective = argv[4];
+        char* club_out_filename = argv[5];
+        char* player_out_filename = argv[6];
+        char* country_out_filename = argv[7];
         create_freekick_player_xml(teams, player_out_filename);
-        create_freekick_country_xml(teams, country_name, country_out_filename);
+        create_freekick_club_xml(teams, country_name, club_out_filename);
+        create_freekick_country_xml(teams, country_name, country_adjective, country_out_filename);
     }
 
     xmlCleanupParser();

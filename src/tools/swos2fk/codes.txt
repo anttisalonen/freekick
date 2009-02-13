@@ -1,0 +1,158 @@
+                                                      
+     ┌───────────────────────────────────────────────────────────────────────────────────────────────┐
+     │                              [Cre]England Football Online[flag]                               │
+     ├───────────────────────┬───────────────────────┬────────────────────────┬──────────────────────┤
+     │          Home         │          New          │          Team          │       Matches        │
+     ├───────────────────────┼───────────────────────┼────────────────────────┼──────────────────────┤
+     │        Seasons        │      Competition      │       Opponents        │       Comment        │
+     ├───────────────────────┼───────────────────────┼────────────────────────┼──────────────────────┤
+     │       Features        │         Q & A         │         Forum          │      Appendices      │
+     ├───────────────────────┴───────────────────────┼────────────────────────┴──────────────────────┤
+     │                  Contact Us                   │       Page Last Updated 13 August 2005        │
+     └───────────────────────────────────────────────┴───────────────────────────────────────────────┘
+                                                      
+
+                                            FIFA Country Codes
+
+                                                   Notes
+
+    These are the national football associations which are FIFA members and the three-letter codes it has
+    assigned to them.  Country names and codes followed by an asterisk designate nations that no longer
+    exist.  For ease of reference, we have listed some countries twice.  For example, the Republic of
+    Ireland is listed as both Republic of Ireland and Ireland, Republic of, and the former West Germany as
+    both West Germany and Germany, West.
+
+                                                      
+
+A                                   B                                   C
+Afghanistan (AFG)                   Bahamas (BAH)                       Cambodia (CAM)
+Albania (ALB)                       Bahrain (BHR)                       Cameroon (CMR)
+Algeria (ALG)                       Bangladesh (BAN)                    Canada (CAN)
+American Samoa (ASA)                Barbados (BRB)                      Cape Verde Islands (CPV)
+Andorra (AND)                       Belarus (BLR)                       Cayman Islands (CAY)
+Angola (ANG)                        Belgium (BEL)                       Central African Republic (CTA)
+Anguilla (AIA)                      Belize (BLZ)                        Chad (CHA)
+Antigua and Barbuda (ATG)           Benin (BEN)                         Chile (CHI)
+Argentina (ARG)                     Bermuda (BER)                       China PR (CHN)
+Armenia (ARM)                       Bolivia (BOL)                       Colombia (COL)
+Aruba (ARU)                         Bosnia-Herzegovina (BIH)            Congo (CGO)
+Australia (AUS)                     Botswana (BOT)                      Congo DR (COD)
+Austria (AUT)                       Brazil (BRA)                        Cook Islands (COK)
+Azerbaijan (AZE)                    British Virgin Islands (VGB)        Costa Rica (CRC)
+                                    Brunei Darussalam (BRU)             C te d Ivoire (CIV)
+                                    Bulgaria (BUL)                      Croatia (CRO)
+                                    Burkina Faso (BFA)                  Cuba (CUB)
+                                    Burundi (BDI)                       Cyprus (CYP)
+                                                                        Czech Republic (CZE)
+                                                                        Czechoslovakia (TCH)*
+China (CHN)
+
+D                                   E                                   F
+Denmark (DEN)                       East Germany (GDR)*                 Faroe Islands (FRO)
+Djibouti (DJI)                      Ecuador (ECU)                       Fiji (FIJ)
+Dominica (DMA)                      Egypt (EGY)                         Finland (FIN)
+Dominican Republic (DOM)            El Salvador (SLV)                   France (FRA)
+                                    England (ENG)
+                                    Equatorial Guinea (EQG)              
+                                    Eritrea (ERI)
+                                    Estonia (EST)
+                                    Ethiopia (ETH)
+
+G                                   H                                   I
+Gabon (GAB)                         Haiti (HAI)                         Iceland (ISL)
+Gambia (GAM)                        Honduras (HON)                      India (IND)
+Georgia (GEO)                       Hong Kong (HKG)                     Indonesia (IDN)
+Germany (GER)                       Hungary (HUN)                       Iran (IRN)
+Germany, East (GDR)*                                                    Iraq (IRQ)
+Germany, West (FRG)*                                                    Ireland, Republic of  (IRL)
+Ghana (GHA)                                                             Ireland, Northern (NIR)
+Greece (GRE)                                                            Israel (ISR)
+Grenada (GRN)                                                           Italy (ITA)
+Guam (GUM)
+Guatemala (GUA)                                                          
+Guinea (GUI)
+Guinea-Bissau (GNB)
+Guyana (GUY)
+
+J                                   K                                   L
+Jamaica (JAM)                       Kazakhstan (KAZ)                    Laos (LAO)
+Japan (JPN)                         Kenya (KEN)                         Latvia (LVA)
+Jordan (JOR)                        Korea DPR (PRK)                     Lebanon (LIB)
+                                    Korea Republic (KOR)                Lesotho (LES)
+                                    Kuwait (KUW)                        Liberia (LBR)
+                                    Kyrgyzstan (KGZ)                    Libya (LBY)
+                                                                        Liechtenstein (LIE)
+                                                                        Lithuania (LTU)
+                                                                        Luxembourg (LUX)
+
+M                                   N                                   O
+Macao (MAC)                         Namibia (NAM)                       Oman (OMA)
+Macedonia FYR (MKD)                 Nepal (NEP)
+Madagascar (MAD)                    Netherlands (NED)                    
+Malawi (MWI)                        Netherlands Antilles (ANT)          The Netherlands (NED)
+Malaysia (MAS)                      New Zealand (NZL)
+Maldives (MDV)                      Nicaragua (NCA)
+Mali (MLI)                          Niger (NIG)
+Malta (MLT)                         Nigeria (NGA)
+Mauritania (MTN)                    Northern Ireland (NIR)
+Mauritius (MRI)                     Norway (NOR)
+Mexico (MEX)
+Moldova (MDA)                        
+Mongolia (MGL)
+Montserrat (MSR)
+Morocco (MAR)
+Mozambique (MOZ)
+Myanmar (MYA)
+
+P                                   Q                                   R
+Pakistan (PAK)                      Qatar (QAT)                         Republic of Ireland (IRL)
+Palestine (PAL)                                                         Romania (ROM)
+Panama (PAN)                                                            Russia (RUS)
+Papua New Guinea (PNG)                                                  Rwanda (RWA)
+Paraguay (PAR)
+Peru (PER)                                                               
+Philippines (PHI)
+Poland (POL)
+Portugal (POR)
+Puerto Rico (PUR)
+
+S                                   T                                   U
+Samoa (SAM)                         Tahiti (TAH)                        Uganda (UGA)
+San Marino (SMR)                    Chinese Taipei (TPE)                Ukraine (UKR)
+S o Tom  e Pr ncipe (STP)           Tajikistan (TJK)                    United Arab Emirates (UAE)
+Saudi Arabia (KSA)                  Tanzania (TAN)                      Uruguay (URU)
+Scotland (SCO)                      Thailand (THA)                      US Virgin Islands (VIR)
+Senegal (SEN)                       Togo (TOG)                          USA (USA)
+Serbia and Montenegro (SBM)         Tonga (TGA)                         Union of Soviet Socialist Republics
+Seychelles (SEY)                    Trinidad and Tobago (TRI)           (URS)*
+Sierra Leone (SLE)                  Tunisia (TUN)                       Uzbekistan (UZB)
+Singapore (SIN)                     Turkey (TUR)
+Slovakia (SVK)                      Turkmenistan (TKM)                   
+Slovenia (SVN)                      Turks and Caicos Islands (TCA)
+Solomon Islands (SOL)               Serbia (SRB)
+Somalia (SOM)                        
+South Africa (RSA)
+Spain (ESP)
+Sri Lanka (SRI)
+St. Kitts & Nevis (SKN)
+St. Lucia (LCA)
+St. Vincent and the Grenadines
+(VIN)
+Sudan (SUD)
+Surinam (SUR)
+Swaziland (SWZ)
+Sweden (SWE)
+Switzerland (SUI)
+Syria (SYR)
+
+U.S.A. (USA)
+
+V                                   W                                   Y
+Vanuatu (VAN)                       Wales (WAL)                         Yemen (YEM)
+Venezuela (VEN)                     West Germany (FRG)*                 Yugoslavia (YUG)*
+Vietnam SR (VIE)
+                                                                         
+Z                                                                        
+Zambia (ZAM)
+Zimbabwe (ZIM)
+

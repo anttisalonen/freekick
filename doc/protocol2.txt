@@ -201,7 +201,7 @@ Exact form of messages:
 100: (+ 100 "home club name" "away club name" "player name" <player id> <player number> <club: 0 for home, 1 for away> <position: 0-gk, 1-df, 2-mf, 3-fw> <substitute: 0 for no, 1 for yes> <repeat for each player> +)
      e.g. (+ 120 "club1" "club2" "player name 1" 123 2 0 1 0 "player name 2" 595 5 0 3 1 "player name 3" 19 8 0 2 0 "away player" 98 3 1 0 1 +)
 110: (+ 110 <home club jersey type> <home colors> <away club jersey type> <away colors> <home goalkeeper jersey type> <home goalkeeper colors> <away goalkeper jersey type> <away goalkeeper colors> <referee jersey type> <referee colors> +)
-     where jersey type: 0: plain - 1: striped - 2: striped horizontal - 3: colored sleeves - 4: diagonal line
+     where jersey type: 0: plain - 1: colored sleeves - 2: striped vertical - 3: striped horizontal - 4: diagonal line
            colors: jersey color 1 - jersey color 2 - shorts color - socks color
            color: three numbers, red - green - blue, 0..255
      e.g. (+ 110 1 255 0 0 0 0 0 255 255 255 255 0 0 255 0 0 0 0 0 255 0 0 255 0 0 ... +)
