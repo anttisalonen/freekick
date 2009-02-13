@@ -15,6 +15,16 @@ opt = ARGUMENTS.get('opt', 1)
 if int(opt):
     def_env.Append(CPPFLAGS = '-O2 ')
 
+# SWOS2FK
+
+swos2fk_env = def_env.Clone()
+swos2fk_env.Append(CPPPATH = ['./src/tools/swos2fk'])
+swos2fk_env.ParseConfig("pkg-config libxml-2.0 --cflags --libs")
+
+swos2fk_name = 'bin/swos2fk'
+swos2fk_files = Glob('src/tools/swos2fk/*.cpp')
+swos2fk = swos2fk_env.Program(swos2fk_name, swos2fk_files)
+
 # Libaddutil
 
 addutil_env = def_env.Clone()
