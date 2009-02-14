@@ -5,8 +5,11 @@ import subprocess
 import os
 import signal
 import time
+import functools
+import math
 
 from PyQt4 import QtGui, QtCore
+from PyQt4 import Qt as qt
 
 import Database
 
@@ -18,8 +21,8 @@ class Lineups(QtGui.QWidget):
         self.forward = QtGui.QPushButton("Play", self)
 
         clubs = []
-        clubs.append(db.clubs[str(clubnames[0].text())])
-        clubs.append(db.clubs[str(clubnames[1].text())])
+        clubs.append(db.clubs[clubnames[0]])
+        clubs.append(db.clubs[clubnames[1]])
         self.lineups = []
         for i in range(2):
             self.lineups.append(QtGui.QListWidget())
@@ -34,8 +37,8 @@ class Lineups(QtGui.QWidget):
         hbox1.addWidget(self.lineups[1])
 
         hbox2 = QtGui.QHBoxLayout()
-        hbox2.addWidget(self.forward)
         hbox2.addWidget(self.back)
+        hbox2.addWidget(self.forward)
 
         vbox = QtGui.QVBoxLayout()
         vbox.addLayout(hbox1)
@@ -60,32 +63,32 @@ class Lineups(QtGui.QWidget):
         time.sleep(0.5)
         os.kill(srv.pid, signal.SIGTERM)
 
-    def doLineups(self):
-        ln = Lineups(self.list.selectedItems()[:2])
-        ln.show()
-        self.wins = [ln]
-
-class Friendly(QtGui.QWidget):
-    def __init__(self, parent=None):
+class ChooseClubs(QtGui.QWidget):
+    def __init__(self, num_needed_clubs, clubs, selected_clubs, continue_handler, title="Clubs", parent = None):
         QtGui.QWidget.__init__(self, parent)
 
-        self.setWindowTitle('Friendly match')
+        self.setWindowTitle(title)
+        self.num_needed_clubs = num_needed_clubs
+        self.continue_handler = continue_handler
 
-        self.lineups = QtGui.QPushButton("Go to lineups", self)
-        self.lineups.setEnabled(False)
+        self.forward = QtGui.QPushButton("Continue", self)
         back = QtGui.QPushButton("Back", self)
 
         self.list = QtGui.QListWidget()
-        for clubname in db.clubs.keys():
+        for clubname in clubs:
             self.list.addItem(clubname)
         self.list.setSelectionMode(QtGui.QAbstractItemView.MultiSelection)
         self.list.sortItems()
+        for clubname in selected_clubs:
+            print clubname
+            self.list.setItemSelected(self.list.findItems(clubname, qt.Qt.MatchExactly)[0], True)
+        self.newSelection()
 
         vbox1 = QtGui.QVBoxLayout()
         vbox1.addWidget(self.list)
 
         vbox2 = QtGui.QVBoxLayout()
-        vbox2.addWidget(self.lineups)
+        vbox2.addWidget(self.forward)
         vbox2.addWidget(back)
 
         hbox = QtGui.QHBoxLayout()
@@ -95,20 +98,262 @@ class Friendly(QtGui.QWidget):
         self.setLayout(hbox)
         self.resize(800, 600)
 
-        self.connect(self.lineups, QtCore.SIGNAL('clicked()'), self.doLineups)
+        self.connect(self.forward, QtCore.SIGNAL('clicked()'), self.goForward)
+        self.connect(back, QtCore.SIGNAL('clicked()'), self.backClicked)
+        self.connect(self.list, QtCore.SIGNAL('itemSelectionChanged()'), self.newSelection)
+
+    def newSelection(self):
+        if len(self.list.selectedItems()) == self.num_needed_clubs:
+            self.forward.setEnabled(True)
+        else:
+            self.forward.setEnabled(False)
+
+    def backClicked(self):
+        self.continue_handler([str(item.text()) for item in self.list.selectedItems()], False)
+        self.close()
+
+    def goForward(self):
+        self.continue_handler([str(item.text()) for item in self.list.selectedItems()], True)
+
+class Event:
+    def receiveClubsHandler(self, clubs):
+        pass
+
+class Friendly(Event):
+    def __init__(self):
+        countrynames = db.countries.keys()
+        countrynames.sort()
+        cc = ChooseX(countrynames, self.countryChosenHandler, "Choose Country", 4)
+        cc.show()
+        self.wins = [cc]
+        self.clubs_selected = set()
+
+    def countryChosenHandler(self, country_name):
+        stages = db.countries[country_name].get_stages()
+        num_stages = len(stages)
+        if num_stages > 0:
+            if num_stages == 1:
+                cd = self.get_club_chooser(stages[0].clubs)
+            else:
+                cd = ChooseX([s.name for s in stages], functools.partial(self.divisionChosenHandler, stages), "Choose Division")
+            cd.show()
+            self.wins.append(cd)
+
+    def gotoLineups(self):
+        ln = Lineups(list(self.clubs_selected)[:2])
+        ln.show()
+        self.wins.append(ln)
+
+    def divisionChosenHandler(self, stages, stage_name):
+        for stage in stages:
+            if stage.name == stage_name:
+                cd = self.get_club_chooser(stage.clubs)
+                cd.show()
+                self.wins.append(cd)
+
+    def get_club_chooser(self, clubs):
+        already_here_chosen_clubs = self.clubs_selected.intersection(clubs)
+        return ChooseClubs(2 - len(self.clubs_selected) + len(already_here_chosen_clubs), clubs, already_here_chosen_clubs, functools.partial(self.receiveClubsHandler, clubs))
+
+    def receiveClubsHandler(self, total_clubs, these_clubs, cont):
+        self.clubs_selected = self.clubs_selected - set(total_clubs)
+        self.clubs_selected = self.clubs_selected.union(these_clubs)
+        if cont:
+            self.gotoLineups()
+
+class ChooseX(QtGui.QWidget):
+    def __init__(self, button_names, continue_handler, title, num_columns = 1, parent = None):
+        QtGui.QWidget.__init__(self, parent)
+        self.setWindowTitle(title)
+        self.continue_handler = continue_handler
+
+        back = QtGui.QPushButton("Back", self)
+        self.select_buttons = []
+
+        for button_name in button_names:
+            self.select_buttons.append(QtGui.QPushButton(button_name, self))
+
+        button_box = QtGui.QGridLayout()
+
+        num_rows = math.ceil(len(self.select_buttons) / float(num_columns))
+        for index in range(len(self.select_buttons)):
+            button_box.addWidget(self.select_buttons[index], index % num_rows, index / num_rows)
+
+        vbox2 = QtGui.QVBoxLayout()
+        vbox2.addWidget(back)
+
+        topbox = QtGui.QVBoxLayout()
+        topbox.addLayout(button_box)
+        topbox.addLayout(vbox2)
+
+        self.setLayout(topbox)
+        self.resize(800, 600)
+
+        self.connect(back, QtCore.SIGNAL('clicked()'), self, QtCore.SLOT('close()'))
+        for i in range(0, len(self.select_buttons)):
+            self.connect(self.select_buttons[i], QtCore.SIGNAL('clicked()'), functools.partial(continue_handler, str(self.select_buttons[i].text())))
+
+class ChooseDivision(QtGui.QWidget):
+    def __init__(self, divisions, num_needed_clubs, clubs_handler, title="Divisions", parent = None):
+        QtGui.QWidget.__init__(self, parent)
+        self.setWindowTitle(title)
+
+        self.setWindowTitle(title)
+        self.num_needed_clubs = num_needed_clubs
+        self.clubs_handler = clubs_handler
+
+        back = QtGui.QPushButton("Back", self)
+        self.countrybuttons = []
+        self.countrybuttonhandlers = []
+
+        countrynames = db.countries.keys()
+        countrynames.sort()
+
+        for countryname in countrynames:
+            self.countrybuttons.append(QtGui.QPushButton(countryname, self))
+            self.countrybuttonhandlers.append(self.get_button_handler(countryname))
+
+        clubbox = QtGui.QGridLayout()
+
+        num_columns = 4
+        num_rows = math.ceil(len(self.countrybuttons) / float(num_columns))
+        for index in range(len(self.countrybuttons)):
+            clubbox.addWidget(self.countrybuttons[index], index % num_rows, index / num_rows)
+
+        vbox2 = QtGui.QVBoxLayout()
+        vbox2.addWidget(back)
+
+        topbox = QtGui.QVBoxLayout()
+        topbox.addLayout(clubbox)
+        topbox.addLayout(vbox2)
+
+        self.setLayout(topbox)
+        self.resize(800, 600)
+
+        self.connect(back, QtCore.SIGNAL('clicked()'), self, QtCore.SLOT('close()'))
+        for i in range(0, len(self.countrybuttons)):
+            self.connect(self.countrybuttons[i], QtCore.SIGNAL('clicked()'), self.countrybuttonhandlers[i])
+
+    def get_button_handler(self, country_label):
+        def button_handler(self, country_name):
+            stages = db.countries[country_name].get_stages()
+            num_stages = len(stages)
+            if num_stages > 0:
+                if num_stages == 1:
+                    cd = ChooseClubs(stages[0].clubs, self.num_needed_clubs, self.clubs_handler)
+                else:
+                    cd = ChooseDivision(stages, self.num_needed_clubs, self.clubs_handler)
+                cd.show()
+                self.wins = [cd]
+        return functools.partial(button_handler, self, country_label)
+
+        for div in divisions:
+            print div.name
+            for clubname in div.clubs:
+                print clubname
+
+class ChooseCountry(QtGui.QWidget):
+    def __init__(self, num_needed_clubs, clubs_handler, title = "Countries", parent = None):
+        QtGui.QWidget.__init__(self, parent)
+        self.setWindowTitle(title)
+        self.num_needed_clubs = num_needed_clubs
+        self.clubs_handler = clubs_handler
+
+        back = QtGui.QPushButton("Back", self)
+        self.countrybuttons = []
+        self.countrybuttonhandlers = []
+
+        countrynames = db.countries.keys()
+        countrynames.sort()
+
+        for countryname in countrynames:
+            self.countrybuttons.append(QtGui.QPushButton(countryname, self))
+            self.countrybuttonhandlers.append(self.get_button_handler(countryname))
+
+        clubbox = QtGui.QGridLayout()
+
+        num_columns = 4
+        num_rows = math.ceil(len(self.countrybuttons) / float(num_columns))
+        for index in range(len(self.countrybuttons)):
+            clubbox.addWidget(self.countrybuttons[index], index % num_rows, index / num_rows)
+
+        vbox2 = QtGui.QVBoxLayout()
+        vbox2.addWidget(back)
+
+        topbox = QtGui.QVBoxLayout()
+        topbox.addLayout(clubbox)
+        topbox.addLayout(vbox2)
+
+        self.setLayout(topbox)
+        self.resize(800, 600)
+
+        self.connect(back, QtCore.SIGNAL('clicked()'), self, QtCore.SLOT('close()'))
+        for i in range(0, len(self.countrybuttons)):
+            self.connect(self.countrybuttons[i], QtCore.SIGNAL('clicked()'), self.countrybuttonhandlers[i])
+
+    def get_button_handler(self, country_label):
+        def button_handler(self, country_name):
+            stages = db.countries[country_name].get_stages()
+            num_stages = len(stages)
+            if num_stages > 0:
+                if num_stages == 1:
+                    cd = ChooseClubs(stages[0].clubs, self.num_needed_clubs, self.clubs_handler)
+                else:
+                    cd = ChooseDivision(stages, self.num_needed_clubs, self.clubs_handler)
+                cd.show()
+                self.wins = [cd]
+        return functools.partial(button_handler, self, country_label)
+
+class ShowClubs(QtGui.QWidget):
+    def __init__(self, clubs, num_needed_clubs, forward_handler, title="Clubs", parent=None):
+        QtGui.QWidget.__init__(self, parent)
+
+        self.setWindowTitle(title)
+        self.num_needed_clubs = num_needed_clubs
+        self.forward_handler = forward_handler
+
+        self.forward = QtGui.QPushButton("Continue", self)
+        self.forward.setEnabled(False)
+        back = QtGui.QPushButton("Back", self)
+
+        self.list = QtGui.QListWidget()
+#        for clubname in db.clubs.keys():
+        for clubname in clubs:
+            self.list.addItem(clubname)
+        self.list.setSelectionMode(QtGui.QAbstractItemView.MultiSelection)
+        self.list.sortItems()
+
+        vbox1 = QtGui.QVBoxLayout()
+        vbox1.addWidget(self.list)
+
+        vbox2 = QtGui.QVBoxLayout()
+        vbox2.addWidget(self.forward)
+        vbox2.addWidget(back)
+
+        hbox = QtGui.QHBoxLayout()
+        hbox.addLayout(vbox1)
+        hbox.addLayout(vbox2)
+
+        self.setLayout(hbox)
+        self.resize(800, 600)
+
+        self.connect(self.forward, QtCore.SIGNAL('clicked()'), self.doForward)
         self.connect(back, QtCore.SIGNAL('clicked()'), self, QtCore.SLOT('close()'))
         self.connect(self.list, QtCore.SIGNAL('itemSelectionChanged()'), self.newSelection)
 
     def newSelection(self):
-        if len(self.list.selectedItems()) == 2:
-            self.lineups.setEnabled(True)
+        if len(self.list.selectedItems()) == self.num_needed_clubs:
+            self.forward.setEnabled(True)
         else:
-            self.lineups.setEnabled(False)
+            self.forward.setEnabled(False)
 
-    def doLineups(self):
-        ln = Lineups(self.list.selectedItems()[:2])
-        ln.show()
-        self.wins = [ln]
+    def doForward(self):
+        self.forward_handler.receiveClubsHandler(self.list.selectedItems())
+
+class Preset(QtGui.QWidget):
+    def __init__(self, parent=None):
+        QtGui.QWidget.__init__(self, parent)
+
 
 class DIY(QtGui.QWidget):
     def __init__(self, parent=None):
@@ -260,15 +505,19 @@ class MainMenu(QtGui.QWidget):
 
         self.connect(friendly, QtCore.SIGNAL('clicked()'), self.doFriendly)
         self.connect(diy, QtCore.SIGNAL('clicked()'), self.doDIY)
+        self.connect(preset, QtCore.SIGNAL('clicked()'), self.doPreset)
         self.connect(quit, QtCore.SIGNAL('clicked()'), QtGui.qApp, QtCore.SLOT('quit()'))
 
     def doFriendly(self):
         fr = Friendly()
-        fr.show()
-        self.wins += [fr]
 
     def doDIY(self):
         wn = DIY()
+        wn.show()
+        self.wins += [wn]
+
+    def doPreset(self):
+        wn = Preset()
         wn.show()
         self.wins += [wn]
 

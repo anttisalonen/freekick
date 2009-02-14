@@ -67,6 +67,98 @@ class Club:
     def __str__(self):
         return '%s\n%s\n%s\n%s\n%s' % (self.name, self.kits[0], self.contracts, self.org_name, self.stadium)
 
+class Stadium:
+    def __init__(self, name, capacity = 0):
+        self.name = name
+        self.capacity = capacity
+
+class Region:
+    def __init__(self, name):
+        self.name = name
+        self.subregions = []
+        self.stadiums = []
+
+class Country:
+    def __init__(self, name):
+        self.name = name
+        self.tournaments = []
+    def get_stages(self):
+        ret = []
+        for l in self.leaguesystem.levels:
+            for b in l.branches:
+                for s in b.stages:
+                    ret.append(s)
+        return ret
+
+class StageType:
+    League = 0
+    Cup = 1
+
+class StageSetup:
+    def __init__(self):
+        self.seeded = False
+        self.rounds = 1
+
+class LeagueSetup(StageSetup):
+    def __init__(self):
+        StageSetup.__init__(self)
+        self.pointsperwin = 3
+        self.groups = 1
+
+class CupSetup(StageSetup):
+    def __init__(self):
+        StageSetup.__init__(self)
+        self.extratime = 1
+        self.replays = 0
+        self.awaygoals = 0
+        self.penalties = 1
+
+class Branch:
+    def __init__(self, stages = []):
+        self.stages = stages
+
+class Stage:
+    def __init__(self, name, type):
+        self.name = name
+        self.type = type
+        self.clubs = []
+        self.promotions = []
+        self.relegations = []
+        if self.type == StageType.League:
+            self.setup = LeagueSetup()
+        else:
+            self.setup = CupSetup()
+    def get_clubs(self):
+        return self.clubs
+
+class Tournament:
+    def __init__(self, name, stages = []):
+        self.name = name
+        self.stages = stages
+
+class Exchange:
+    def __init__(self, highest = 0, num = 0):
+        self.highest = highest
+        self.num = num
+
+class Trophy:
+    def __init__(self, name):
+        self.name = name
+
+class Level:
+    def __init__(self):
+        self.branches = []
+        self.promotions = []
+        self.relegations = []
+
+class Leaguesystem:
+    def __init__(self, name):
+        self.name = name
+
+class Preset:
+    def __init__(self, name):
+        self.name = name
+
 class DB:
     pass
 
