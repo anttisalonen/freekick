@@ -62,6 +62,7 @@ class Lineups(QtGui.QWidget):
         os.kill(aic.pid, signal.SIGTERM)
         time.sleep(0.5)
         os.kill(srv.pid, signal.SIGTERM)
+        self.close()
 
 class ChooseClubs(QtGui.QWidget):
     def __init__(self, num_needed_clubs, clubs, selected_clubs, continue_handler, title="Clubs", parent = None):
@@ -119,14 +120,15 @@ class Event:
     def receiveClubsHandler(self, clubs):
         pass
 
-class Friendly(Event):
-    def __init__(self):
+class GeneralClubChooser:
+    def __init__(self, chosen_func):
         countrynames = db.countries.keys()
         countrynames.sort()
         cc = ChooseX(countrynames, self.countryChosenHandler, "Choose Country", 4)
         cc.show()
         self.wins = [cc]
         self.clubs_selected = set()
+        self.chosen_func = chosen_func
 
     def countryChosenHandler(self, country_name):
         stages = db.countries[country_name].get_stages()
@@ -138,11 +140,6 @@ class Friendly(Event):
                 cd = ChooseX([s.name for s in stages], functools.partial(self.divisionChosenHandler, stages), "Choose Division")
             cd.show()
             self.wins.append(cd)
-
-    def gotoLineups(self):
-        ln = Lineups(list(self.clubs_selected)[:2])
-        ln.show()
-        self.wins.append(ln)
 
     def divisionChosenHandler(self, stages, stage_name):
         for stage in stages:
@@ -159,7 +156,16 @@ class Friendly(Event):
         self.clubs_selected = self.clubs_selected - set(total_clubs)
         self.clubs_selected = self.clubs_selected.union(these_clubs)
         if cont:
-            self.gotoLineups()
+            self.chosen_func(list(self.clubs_selected))
+
+class Friendly(Event):
+    def __init__(self):
+        cc = GeneralClubChooser(self.gotoLineups)
+
+    def gotoLineups(self, clubs_selected):
+        ln = Lineups(clubs_selected[:2])
+        ln.show()
+        self.wins.append(ln)
 
 class ChooseX(QtGui.QWidget):
     def __init__(self, button_names, continue_handler, title, num_columns = 1, parent = None):
