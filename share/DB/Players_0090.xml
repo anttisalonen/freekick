@@ -5,8 +5,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="550" risktaking="395" offensive="678" aggressive="407" consistent="648" creative="693" experienced="615"/>
-    <skills stamina="616" dexterity="709" speed="565" tackling="277" passing="480" shooting="471" control="415" accuracy="279" goalkeeping="486" heading="188"/>
+    <personality active="321" risktaking="662" offensive="313" aggressive="249" consistent="547" creative="272" experienced="467"/>
+    <skills stamina="536" dexterity="225" speed="249" tackling="227" passing="508" shooting="363" control="390" accuracy="264" goalkeeping="520" heading="250"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90001">
@@ -14,8 +14,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="440" risktaking="590" offensive="673" aggressive="594" consistent="475" creative="955" experienced="463"/>
-    <skills stamina="596" dexterity="620" speed="701" tackling="184" passing="444" shooting="406" control="383" accuracy="201" goalkeeping="414" heading="248"/>
+    <personality active="421" risktaking="631" offensive="512" aggressive="777" consistent="563" creative="483" experienced="409"/>
+    <skills stamina="628" dexterity="346" speed="718" tackling="238" passing="483" shooting="481" control="296" accuracy="215" goalkeeping="497" heading="225"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90002">
@@ -23,8 +23,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="780" risktaking="289" offensive="344" aggressive="572" consistent="488" creative="517" experienced="522"/>
-    <skills stamina="265" dexterity="184" speed="238" tackling="493" passing="412" shooting="538" control="507" accuracy="553" goalkeeping="80" heading="509"/>
+    <personality active="366" risktaking="554" offensive="548" aggressive="394" consistent="805" creative="666" experienced="480"/>
+    <skills stamina="519" dexterity="732" speed="678" tackling="448" passing="493" shooting="455" control="490" accuracy="544" goalkeeping="64" heading="506"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="90003">
@@ -32,8 +32,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="883" risktaking="646" offensive="321" aggressive="510" consistent="467" creative="504" experienced="106"/>
-    <skills stamina="680" dexterity="268" speed="438" tackling="565" passing="425" shooting="546" control="462" accuracy="485" goalkeeping="66" heading="409"/>
+    <personality active="582" risktaking="566" offensive="534" aggressive="139" consistent="779" creative="550" experienced="332"/>
+    <skills stamina="337" dexterity="612" speed="514" tackling="586" passing="529" shooting="440" control="577" accuracy="500" goalkeeping="68" heading="392"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="90004">
@@ -41,8 +41,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="437" risktaking="664" offensive="293" aggressive="458" consistent="563" creative="737" experienced="565"/>
-    <skills stamina="464" dexterity="493" speed="516" tackling="479" passing="513" shooting="586" control="487" accuracy="570" goalkeeping="83" heading="428"/>
+    <personality active="574" risktaking="364" offensive="438" aggressive="486" consistent="604" creative="487" experienced="314"/>
+    <skills stamina="526" dexterity="390" speed="215" tackling="574" passing="584" shooting="416" control="547" accuracy="549" goalkeeping="91" heading="531"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90005">
@@ -50,8 +50,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="557" risktaking="524" offensive="663" aggressive="537" consistent="460" creative="279" experienced="341"/>
-    <skills stamina="515" dexterity="783" speed="349" tackling="513" passing="503" shooting="489" control="489" accuracy="523" goalkeeping="96" heading="585"/>
+    <personality active="490" risktaking="376" offensive="518" aggressive="718" consistent="361" creative="582" experienced="395"/>
+    <skills stamina="342" dexterity="534" speed="204" tackling="576" passing="476" shooting="562" control="470" accuracy="417" goalkeeping="82" heading="436"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90006">
@@ -59,17 +59,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="614" risktaking="684" offensive="590" aggressive="421" consistent="699" creative="272" experienced="513"/>
-    <skills stamina="310" dexterity="477" speed="356" tackling="464" passing="462" shooting="362" control="463" accuracy="503" goalkeeping="84" heading="414"/>
-    <position pos="1" left="0" wing="0"/>
+    <personality active="562" risktaking="395" offensive="776" aggressive="420" consistent="453" creative="611" experienced="184"/>
+    <skills stamina="237" dexterity="395" speed="620" tackling="615" passing="397" shooting="505" control="384" accuracy="496" goalkeeping="61" heading="336"/>
+    <position pos="1" left="1" wing="0"/>
   </player>
   <player id="90007">
     <personal name="Juan Carlos Chavez">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="333" risktaking="273" offensive="472" aggressive="419" consistent="673" creative="491" experienced="642"/>
-    <skills stamina="407" dexterity="658" speed="620" tackling="479" passing="472" shooting="572" control="559" accuracy="444" goalkeeping="91" heading="405"/>
+    <personality active="605" risktaking="474" offensive="503" aggressive="624" consistent="675" creative="597" experienced="506"/>
+    <skills stamina="322" dexterity="599" speed="645" tackling="532" passing="545" shooting="578" control="526" accuracy="527" goalkeeping="75" heading="560"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="90008">
@@ -77,8 +77,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="570" risktaking="716" offensive="708" aggressive="578" consistent="291" creative="536" experienced="638"/>
-    <skills stamina="559" dexterity="333" speed="405" tackling="537" passing="552" shooting="531" control="585" accuracy="482" goalkeeping="91" heading="548"/>
+    <personality active="337" risktaking="473" offensive="360" aggressive="639" consistent="644" creative="620" experienced="556"/>
+    <skills stamina="327" dexterity="379" speed="314" tackling="522" passing="531" shooting="475" control="514" accuracy="535" goalkeeping="75" heading="574"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="90009">
@@ -86,8 +86,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="521" risktaking="192" offensive="557" aggressive="347" consistent="534" creative="391" experienced="359"/>
-    <skills stamina="445" dexterity="503" speed="555" tackling="475" passing="391" shooting="507" control="515" accuracy="476" goalkeeping="91" heading="534"/>
+    <personality active="583" risktaking="353" offensive="439" aggressive="616" consistent="603" creative="586" experienced="405"/>
+    <skills stamina="281" dexterity="383" speed="411" tackling="421" passing="496" shooting="523" control="442" accuracy="408" goalkeeping="63" heading="541"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90010">
@@ -95,35 +95,35 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="426" risktaking="405" offensive="491" aggressive="403" consistent="765" creative="522" experienced="411"/>
-    <skills stamina="491" dexterity="457" speed="690" tackling="435" passing="549" shooting="442" control="362" accuracy="435" goalkeeping="85" heading="493"/>
-    <position pos="2" left="0" wing="0"/>
+    <personality active="643" risktaking="617" offensive="454" aggressive="487" consistent="702" creative="256" experienced="662"/>
+    <skills stamina="523" dexterity="421" speed="690" tackling="441" passing="407" shooting="380" control="390" accuracy="444" goalkeeping="63" heading="356"/>
+    <position pos="2" left="1" wing="0"/>
   </player>
   <player id="90011">
     <personal name="Mario Pinedo">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="259" risktaking="795" offensive="411" aggressive="759" consistent="610" creative="691" experienced="579"/>
-    <skills stamina="534" dexterity="515" speed="471" tackling="581" passing="393" shooting="525" control="472" accuracy="506" goalkeeping="80" heading="476"/>
-    <position pos="2" left="0" wing="0"/>
+    <personality active="721" risktaking="126" offensive="419" aggressive="152" consistent="562" creative="894" experienced="617"/>
+    <skills stamina="349" dexterity="302" speed="547" tackling="549" passing="380" shooting="464" control="389" accuracy="406" goalkeeping="80" heading="403"/>
+    <position pos="2" left="1" wing="0"/>
   </player>
   <player id="90012">
     <personal name="Adrian Adanto">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="579" risktaking="547" offensive="640" aggressive="315" consistent="486" creative="722" experienced="304"/>
-    <skills stamina="405" dexterity="463" speed="422" tackling="568" passing="503" shooting="464" control="557" accuracy="498" goalkeeping="95" heading="477"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="290" risktaking="643" offensive="278" aggressive="438" consistent="554" creative="575" experienced="418"/>
+    <skills stamina="373" dexterity="503" speed="528" tackling="465" passing="498" shooting="419" control="570" accuracy="638" goalkeeping="71" heading="512"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90013">
     <personal name="Luis Suarez">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="588" risktaking="803" offensive="745" aggressive="585" consistent="485" creative="608" experienced="451"/>
-    <skills stamina="656" dexterity="394" speed="275" tackling="407" passing="438" shooting="483" control="478" accuracy="447" goalkeeping="75" heading="578"/>
+    <personality active="633" risktaking="376" offensive="84" aggressive="303" consistent="648" creative="734" experienced="206"/>
+    <skills stamina="473" dexterity="422" speed="420" tackling="587" passing="557" shooting="562" control="529" accuracy="602" goalkeeping="71" heading="519"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90014">
@@ -131,8 +131,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="582" risktaking="454" offensive="500" aggressive="726" consistent="659" creative="457" experienced="454"/>
-    <skills stamina="478" dexterity="279" speed="363" tackling="423" passing="618" shooting="527" control="584" accuracy="481" goalkeeping="93" heading="504"/>
+    <personality active="728" risktaking="532" offensive="464" aggressive="483" consistent="506" creative="497" experienced="432"/>
+    <skills stamina="703" dexterity="701" speed="243" tackling="556" passing="494" shooting="503" control="474" accuracy="582" goalkeeping="89" heading="515"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90015">
@@ -140,8 +140,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="582" risktaking="557" offensive="618" aggressive="792" consistent="482" creative="402" experienced="340"/>
-    <skills stamina="450" dexterity="589" speed="602" tackling="522" passing="403" shooting="561" control="478" accuracy="439" goalkeeping="61" heading="429"/>
+    <personality active="659" risktaking="740" offensive="608" aggressive="551" consistent="513" creative="352" experienced="343"/>
+    <skills stamina="715" dexterity="249" speed="646" tackling="386" passing="448" shooting="473" control="420" accuracy="414" goalkeeping="61" heading="518"/>
     <position pos="3" left="1" wing="0"/>
   </player>
   <player id="90016">
@@ -149,17 +149,17 @@
       <appearance value="1"/>
       <nationality value="Cameroon"/>
     </personal>
-    <personality active="627" risktaking="13" offensive="633" aggressive="580" consistent="358" creative="790" experienced="564"/>
-    <skills stamina="320" dexterity="224" speed="425" tackling="230" passing="599" shooting="574" control="412" accuracy="214" goalkeeping="557" heading="224"/>
-    <position pos="0" left="1" wing="0"/>
+    <personality active="497" risktaking="473" offensive="463" aggressive="406" consistent="535" creative="470" experienced="554"/>
+    <skills stamina="491" dexterity="414" speed="340" tackling="302" passing="543" shooting="532" control="485" accuracy="286" goalkeeping="505" heading="276"/>
+    <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90017">
     <personal name="Mauricio Soria">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="677" risktaking="693" offensive="258" aggressive="667" consistent="819" creative="485" experienced="408"/>
-    <skills stamina="477" dexterity="350" speed="338" tackling="243" passing="423" shooting="489" control="359" accuracy="248" goalkeeping="560" heading="229"/>
+    <personality active="200" risktaking="734" offensive="497" aggressive="524" consistent="568" creative="625" experienced="479"/>
+    <skills stamina="470" dexterity="575" speed="731" tackling="261" passing="472" shooting="495" control="380" accuracy="250" goalkeeping="485" heading="228"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90018">
@@ -167,8 +167,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="368" risktaking="598" offensive="407" aggressive="558" consistent="255" creative="625" experienced="388"/>
-    <skills stamina="355" dexterity="289" speed="302" tackling="592" passing="580" shooting="528" control="510" accuracy="411" goalkeeping="67" heading="535"/>
+    <personality active="656" risktaking="750" offensive="436" aggressive="376" consistent="735" creative="753" experienced="194"/>
+    <skills stamina="750" dexterity="281" speed="296" tackling="556" passing="528" shooting="535" control="544" accuracy="420" goalkeeping="81" heading="415"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="90019">
@@ -176,8 +176,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="429" risktaking="448" offensive="547" aggressive="534" consistent="204" creative="343" experienced="549"/>
-    <skills stamina="523" dexterity="458" speed="666" tackling="586" passing="475" shooting="581" control="464" accuracy="467" goalkeeping="65" heading="460"/>
+    <personality active="528" risktaking="474" offensive="358" aggressive="296" consistent="315" creative="746" experienced="353"/>
+    <skills stamina="666" dexterity="544" speed="660" tackling="440" passing="458" shooting="561" control="411" accuracy="536" goalkeeping="96" heading="548"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="90020">
@@ -185,8 +185,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="442" risktaking="428" offensive="526" aggressive="389" consistent="731" creative="628" experienced="615"/>
-    <skills stamina="329" dexterity="341" speed="568" tackling="526" passing="573" shooting="496" control="478" accuracy="407" goalkeeping="87" heading="464"/>
+    <personality active="324" risktaking="357" offensive="775" aggressive="588" consistent="249" creative="737" experienced="702"/>
+    <skills stamina="485" dexterity="589" speed="288" tackling="563" passing="511" shooting="411" control="576" accuracy="450" goalkeeping="86" heading="408"/>
     <position pos="1" left="1" wing="0"/>
   </player>
   <player id="90021">
@@ -194,8 +194,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="406" risktaking="687" offensive="396" aggressive="559" consistent="579" creative="657" experienced="456"/>
-    <skills stamina="331" dexterity="285" speed="212" tackling="612" passing="457" shooting="461" control="564" accuracy="531" goalkeeping="88" heading="601"/>
+    <personality active="606" risktaking="359" offensive="387" aggressive="429" consistent="168" creative="461" experienced="240"/>
+    <skills stamina="612" dexterity="654" speed="733" tackling="680" passing="463" shooting="441" control="493" accuracy="593" goalkeeping="100" heading="451"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90022">
@@ -203,8 +203,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="388" risktaking="544" offensive="393" aggressive="615" consistent="414" creative="192" experienced="526"/>
-    <skills stamina="641" dexterity="359" speed="617" tackling="598" passing="461" shooting="515" control="508" accuracy="458" goalkeeping="75" heading="381"/>
+    <personality active="389" risktaking="637" offensive="609" aggressive="700" consistent="806" creative="545" experienced="850"/>
+    <skills stamina="462" dexterity="712" speed="424" tackling="474" passing="555" shooting="492" control="444" accuracy="556" goalkeeping="80" heading="405"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90023">
@@ -212,17 +212,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="376" risktaking="463" offensive="584" aggressive="277" consistent="439" creative="508" experienced="487"/>
-    <skills stamina="675" dexterity="587" speed="387" tackling="613" passing="611" shooting="465" control="535" accuracy="439" goalkeeping="73" heading="425"/>
-    <position pos="1" left="0" wing="0"/>
+    <personality active="326" risktaking="354" offensive="517" aggressive="409" consistent="451" creative="454" experienced="416"/>
+    <skills stamina="311" dexterity="604" speed="341" tackling="471" passing="564" shooting="559" control="573" accuracy="447" goalkeeping="92" heading="507"/>
+    <position pos="1" left="1" wing="0"/>
   </player>
   <player id="90024">
     <personal name="Vladimir Soria">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="725" risktaking="242" offensive="351" aggressive="459" consistent="526" creative="743" experienced="400"/>
-    <skills stamina="322" dexterity="630" speed="448" tackling="567" passing="525" shooting="537" control="580" accuracy="522" goalkeeping="89" heading="432"/>
+    <personality active="851" risktaking="402" offensive="690" aggressive="177" consistent="591" creative="345" experienced="565"/>
+    <skills stamina="807" dexterity="661" speed="758" tackling="444" passing="612" shooting="496" control="451" accuracy="475" goalkeeping="80" heading="579"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="90025">
@@ -230,8 +230,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="363" risktaking="313" offensive="265" aggressive="554" consistent="515" creative="500" experienced="729"/>
-    <skills stamina="273" dexterity="337" speed="650" tackling="502" passing="586" shooting="581" control="442" accuracy="435" goalkeeping="72" heading="486"/>
+    <personality active="495" risktaking="454" offensive="235" aggressive="255" consistent="531" creative="594" experienced="373"/>
+    <skills stamina="493" dexterity="524" speed="300" tackling="558" passing="460" shooting="406" control="542" accuracy="545" goalkeeping="72" heading="482"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="90026">
@@ -239,17 +239,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="436" risktaking="468" offensive="364" aggressive="413" consistent="493" creative="773" experienced="363"/>
-    <skills stamina="534" dexterity="542" speed="662" tackling="427" passing="468" shooting="546" control="566" accuracy="571" goalkeeping="86" heading="412"/>
-    <position pos="2" left="0" wing="0"/>
+    <personality active="320" risktaking="351" offensive="224" aggressive="587" consistent="529" creative="602" experienced="529"/>
+    <skills stamina="579" dexterity="699" speed="507" tackling="477" passing="460" shooting="561" control="477" accuracy="522" goalkeeping="84" heading="448"/>
+    <position pos="2" left="1" wing="0"/>
   </player>
   <player id="90027">
     <personal name="Fabio Seixas">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="227" risktaking="448" offensive="353" aggressive="623" consistent="657" creative="319" experienced="356"/>
-    <skills stamina="383" dexterity="523" speed="534" tackling="578" passing="399" shooting="433" control="449" accuracy="449" goalkeeping="92" heading="512"/>
+    <personality active="404" risktaking="736" offensive="494" aggressive="367" consistent="582" creative="791" experienced="388"/>
+    <skills stamina="711" dexterity="761" speed="646" tackling="526" passing="528" shooting="475" control="611" accuracy="409" goalkeeping="83" heading="415"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90028">
@@ -257,35 +257,35 @@
       <appearance value="1"/>
       <nationality value="Nigeria"/>
     </personal>
-    <personality active="461" risktaking="769" offensive="444" aggressive="814" consistent="403" creative="606" experienced="499"/>
-    <skills stamina="721" dexterity="319" speed="403" tackling="452" passing="431" shooting="544" control="519" accuracy="549" goalkeeping="82" heading="471"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="563" risktaking="249" offensive="444" aggressive="524" consistent="455" creative="600" experienced="422"/>
+    <skills stamina="489" dexterity="586" speed="245" tackling="471" passing="410" shooting="575" control="516" accuracy="557" goalkeeping="91" heading="497"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90029">
     <personal name="Claudio Mir">
       <appearance value="0"/>
       <nationality value="Argentina"/>
     </personal>
-    <personality active="479" risktaking="350" offensive="383" aggressive="486" consistent="626" creative="543" experienced="546"/>
-    <skills stamina="527" dexterity="509" speed="313" tackling="612" passing="577" shooting="622" control="616" accuracy="575" goalkeeping="79" heading="539"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="433" risktaking="344" offensive="688" aggressive="551" consistent="765" creative="486" experienced="587"/>
+    <skills stamina="499" dexterity="501" speed="354" tackling="497" passing="479" shooting="585" control="521" accuracy="513" goalkeeping="77" heading="625"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90030">
     <personal name="Richard Cueto">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="339" risktaking="307" offensive="426" aggressive="260" consistent="620" creative="272" experienced="475"/>
-    <skills stamina="622" dexterity="232" speed="720" tackling="517" passing="567" shooting="661" control="451" accuracy="470" goalkeeping="93" heading="681"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="597" risktaking="545" offensive="205" aggressive="504" consistent="631" creative="466" experienced="556"/>
+    <skills stamina="631" dexterity="742" speed="672" tackling="572" passing="481" shooting="597" control="583" accuracy="523" goalkeeping="104" heading="509"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90031">
     <personal name="Marcelo Ibanez">
       <appearance value="0"/>
       <nationality value="Argentina"/>
     </personal>
-    <personality active="346" risktaking="288" offensive="810" aggressive="443" consistent="663" creative="702" experienced="328"/>
-    <skills stamina="554" dexterity="242" speed="438" tackling="407" passing="553" shooting="576" control="510" accuracy="568" goalkeeping="89" heading="421"/>
+    <personality active="786" risktaking="664" offensive="605" aggressive="599" consistent="248" creative="459" experienced="677"/>
+    <skills stamina="303" dexterity="320" speed="530" tackling="490" passing="492" shooting="584" control="564" accuracy="622" goalkeeping="88" heading="486"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90032">
@@ -293,8 +293,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="469" risktaking="689" offensive="784" aggressive="512" consistent="364" creative="700" experienced="452"/>
-    <skills stamina="566" dexterity="709" speed="319" tackling="198" passing="522" shooting="444" control="426" accuracy="226" goalkeeping="462" heading="220"/>
+    <personality active="496" risktaking="450" offensive="199" aggressive="535" consistent="426" creative="484" experienced="456"/>
+    <skills stamina="403" dexterity="698" speed="383" tackling="229" passing="390" shooting="392" control="422" accuracy="253" goalkeeping="602" heading="260"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90033">
@@ -302,8 +302,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="537" risktaking="525" offensive="339" aggressive="621" consistent="523" creative="417" experienced="669"/>
-    <skills stamina="597" dexterity="413" speed="492" tackling="169" passing="371" shooting="418" control="346" accuracy="153" goalkeeping="565" heading="203"/>
+    <personality active="472" risktaking="789" offensive="680" aggressive="457" consistent="289" creative="322" experienced="375"/>
+    <skills stamina="353" dexterity="422" speed="276" tackling="168" passing="453" shooting="488" control="302" accuracy="191" goalkeeping="507" heading="151"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90034">
@@ -311,8 +311,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="566" risktaking="150" offensive="302" aggressive="398" consistent="613" creative="346" experienced="531"/>
-    <skills stamina="510" dexterity="224" speed="317" tackling="543" passing="390" shooting="435" control="358" accuracy="421" goalkeeping="84" heading="424"/>
+    <personality active="706" risktaking="495" offensive="814" aggressive="554" consistent="437" creative="780" experienced="318"/>
+    <skills stamina="605" dexterity="208" speed="455" tackling="561" passing="428" shooting="520" control="379" accuracy="499" goalkeeping="87" heading="406"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="90035">
@@ -320,8 +320,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="462" risktaking="181" offensive="399" aggressive="434" consistent="234" creative="412" experienced="477"/>
-    <skills stamina="504" dexterity="241" speed="177" tackling="501" passing="552" shooting="353" control="439" accuracy="463" goalkeeping="75" heading="422"/>
+    <personality active="701" risktaking="225" offensive="507" aggressive="612" consistent="360" creative="413" experienced="299"/>
+    <skills stamina="571" dexterity="352" speed="260" tackling="544" passing="477" shooting="511" control="532" accuracy="410" goalkeeping="80" heading="504"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="90036">
@@ -329,17 +329,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="667" risktaking="394" offensive="372" aggressive="843" consistent="449" creative="358" experienced="392"/>
-    <skills stamina="400" dexterity="248" speed="490" tackling="480" passing="457" shooting="390" control="417" accuracy="424" goalkeeping="54" heading="424"/>
-    <position pos="1" left="1" wing="0"/>
+    <personality active="283" risktaking="622" offensive="335" aggressive="546" consistent="406" creative="349" experienced="317"/>
+    <skills stamina="183" dexterity="221" speed="505" tackling="374" passing="371" shooting="364" control="362" accuracy="461" goalkeeping="74" heading="415"/>
+    <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90037">
     <personal name="William Narvaez">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="412" risktaking="677" offensive="282" aggressive="606" consistent="353" creative="570" experienced="583"/>
-    <skills stamina="191" dexterity="175" speed="212" tackling="398" passing="397" shooting="389" control="556" accuracy="493" goalkeeping="84" heading="473"/>
+    <personality active="454" risktaking="451" offensive="512" aggressive="310" consistent="387" creative="761" experienced="580"/>
+    <skills stamina="319" dexterity="470" speed="332" tackling="478" passing="465" shooting="357" control="497" accuracy="497" goalkeeping="68" heading="451"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90038">
@@ -347,8 +347,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="736" risktaking="434" offensive="555" aggressive="634" consistent="398" creative="495" experienced="759"/>
-    <skills stamina="356" dexterity="463" speed="217" tackling="450" passing="400" shooting="375" control="510" accuracy="422" goalkeeping="58" heading="343"/>
+    <personality active="358" risktaking="524" offensive="498" aggressive="258" consistent="714" creative="547" experienced="426"/>
+    <skills stamina="295" dexterity="279" speed="678" tackling="549" passing="327" shooting="430" control="367" accuracy="382" goalkeeping="63" heading="393"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90039">
@@ -356,8 +356,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="521" risktaking="379" offensive="440" aggressive="467" consistent="195" creative="695" experienced="411"/>
-    <skills stamina="487" dexterity="320" speed="477" tackling="485" passing="363" shooting="331" control="493" accuracy="349" goalkeeping="64" heading="399"/>
+    <personality active="658" risktaking="623" offensive="616" aggressive="863" consistent="439" creative="556" experienced="675"/>
+    <skills stamina="709" dexterity="232" speed="274" tackling="503" passing="427" shooting="470" control="358" accuracy="453" goalkeeping="58" heading="359"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="90040">
@@ -365,8 +365,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="361" risktaking="648" offensive="516" aggressive="188" consistent="212" creative="481" experienced="300"/>
-    <skills stamina="662" dexterity="434" speed="767" tackling="486" passing="404" shooting="433" control="501" accuracy="457" goalkeeping="77" heading="514"/>
+    <personality active="649" risktaking="503" offensive="753" aggressive="446" consistent="370" creative="641" experienced="503"/>
+    <skills stamina="441" dexterity="535" speed="737" tackling="484" passing="473" shooting="543" control="499" accuracy="500" goalkeeping="61" heading="558"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="90041">
@@ -374,17 +374,17 @@
       <appearance value="0"/>
       <nationality value="Argentina"/>
     </personal>
-    <personality active="639" risktaking="184" offensive="453" aggressive="442" consistent="642" creative="386" experienced="222"/>
-    <skills stamina="641" dexterity="519" speed="461" tackling="380" passing="341" shooting="381" control="387" accuracy="442" goalkeeping="71" heading="442"/>
-    <position pos="2" left="0" wing="0"/>
+    <personality active="533" risktaking="294" offensive="380" aggressive="213" consistent="428" creative="428" experienced="475"/>
+    <skills stamina="633" dexterity="404" speed="261" tackling="430" passing="379" shooting="489" control="387" accuracy="409" goalkeeping="63" heading="523"/>
+    <position pos="2" left="1" wing="0"/>
   </player>
   <player id="90042">
     <personal name="Pablo Sandy">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="319" risktaking="601" offensive="671" aggressive="404" consistent="626" creative="522" experienced="624"/>
-    <skills stamina="630" dexterity="641" speed="705" tackling="431" passing="418" shooting="341" control="344" accuracy="489" goalkeeping="75" heading="357"/>
+    <personality active="408" risktaking="259" offensive="324" aggressive="380" consistent="459" creative="158" experienced="473"/>
+    <skills stamina="345" dexterity="571" speed="335" tackling="507" passing="449" shooting="457" control="383" accuracy="477" goalkeeping="67" heading="404"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90043">
@@ -392,8 +392,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="805" risktaking="299" offensive="652" aggressive="514" consistent="282" creative="467" experienced="602"/>
-    <skills stamina="715" dexterity="251" speed="585" tackling="433" passing="420" shooting="353" control="391" accuracy="354" goalkeeping="79" heading="508"/>
+    <personality active="361" risktaking="624" offensive="389" aggressive="444" consistent="239" creative="368" experienced="496"/>
+    <skills stamina="198" dexterity="550" speed="358" tackling="497" passing="362" shooting="364" control="333" accuracy="467" goalkeeping="82" heading="351"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90044">
@@ -401,8 +401,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="365" risktaking="300" offensive="510" aggressive="404" consistent="408" creative="600" experienced="474"/>
-    <skills stamina="464" dexterity="605" speed="352" tackling="471" passing="373" shooting="469" control="500" accuracy="400" goalkeeping="52" heading="383"/>
+    <personality active="255" risktaking="760" offensive="398" aggressive="449" consistent="691" creative="474" experienced="420"/>
+    <skills stamina="410" dexterity="325" speed="517" tackling="454" passing="305" shooting="411" control="318" accuracy="447" goalkeeping="53" heading="439"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90045">
@@ -410,8 +410,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="734" risktaking="362" offensive="509" aggressive="640" consistent="466" creative="452" experienced="412"/>
-    <skills stamina="611" dexterity="566" speed="389" tackling="495" passing="502" shooting="513" control="398" accuracy="513" goalkeeping="61" heading="398"/>
+    <personality active="373" risktaking="259" offensive="829" aggressive="664" consistent="454" creative="353" experienced="374"/>
+    <skills stamina="636" dexterity="672" speed="285" tackling="464" passing="489" shooting="444" control="423" accuracy="511" goalkeeping="68" heading="480"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90046">
@@ -419,8 +419,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="555" risktaking="463" offensive="547" aggressive="577" consistent="630" creative="554" experienced="557"/>
-    <skills stamina="593" dexterity="349" speed="619" tackling="432" passing="429" shooting="503" control="335" accuracy="462" goalkeeping="80" heading="344"/>
+    <personality active="725" risktaking="299" offensive="433" aggressive="565" consistent="557" creative="349" experienced="743"/>
+    <skills stamina="510" dexterity="675" speed="518" tackling="473" passing="461" shooting="476" control="328" accuracy="538" goalkeeping="76" heading="366"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90047">
@@ -428,8 +428,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="201" risktaking="720" offensive="349" aggressive="503" consistent="560" creative="521" experienced="820"/>
-    <skills stamina="251" dexterity="652" speed="191" tackling="355" passing="337" shooting="377" control="302" accuracy="435" goalkeeping="75" heading="448"/>
+    <personality active="489" risktaking="587" offensive="278" aggressive="449" consistent="476" creative="524" experienced="642"/>
+    <skills stamina="269" dexterity="547" speed="290" tackling="434" passing="394" shooting="450" control="398" accuracy="441" goalkeeping="80" heading="323"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90048">
@@ -437,8 +437,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="708" risktaking="201" offensive="444" aggressive="371" consistent="281" creative="327" experienced="662"/>
-    <skills stamina="483" dexterity="193" speed="645" tackling="251" passing="433" shooting="422" control="308" accuracy="274" goalkeeping="443" heading="196"/>
+    <personality active="494" risktaking="342" offensive="480" aggressive="559" consistent="317" creative="605" experienced="248"/>
+    <skills stamina="192" dexterity="497" speed="698" tackling="196" passing="397" shooting="400" control="330" accuracy="236" goalkeeping="544" heading="204"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90049">
@@ -446,8 +446,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="290" risktaking="315" offensive="565" aggressive="552" consistent="458" creative="417" experienced="543"/>
-    <skills stamina="460" dexterity="571" speed="385" tackling="150" passing="376" shooting="369" control="396" accuracy="243" goalkeeping="523" heading="157"/>
+    <personality active="475" risktaking="569" offensive="528" aggressive="298" consistent="666" creative="473" experienced="408"/>
+    <skills stamina="162" dexterity="487" speed="444" tackling="214" passing="441" shooting="483" control="376" accuracy="220" goalkeeping="412" heading="167"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90050">
@@ -455,8 +455,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="509" risktaking="418" offensive="224" aggressive="531" consistent="430" creative="592" experienced="639"/>
-    <skills stamina="665" dexterity="623" speed="318" tackling="509" passing="450" shooting="337" control="450" accuracy="438" goalkeeping="59" heading="418"/>
+    <personality active="455" risktaking="257" offensive="478" aggressive="319" consistent="427" creative="500" experienced="605"/>
+    <skills stamina="270" dexterity="377" speed="668" tackling="348" passing="481" shooting="521" control="490" accuracy="335" goalkeeping="76" heading="399"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="90051">
@@ -464,8 +464,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="427" risktaking="540" offensive="630" aggressive="638" consistent="578" creative="692" experienced="506"/>
-    <skills stamina="706" dexterity="600" speed="533" tackling="527" passing="559" shooting="470" control="448" accuracy="382" goalkeeping="63" heading="374"/>
+    <personality active="392" risktaking="457" offensive="630" aggressive="485" consistent="372" creative="625" experienced="118"/>
+    <skills stamina="559" dexterity="578" speed="556" tackling="532" passing="411" shooting="386" control="436" accuracy="487" goalkeeping="57" heading="515"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="90052">
@@ -473,17 +473,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="611" risktaking="611" offensive="692" aggressive="330" consistent="586" creative="455" experienced="858"/>
-    <skills stamina="441" dexterity="220" speed="320" tackling="453" passing="435" shooting="367" control="473" accuracy="520" goalkeeping="68" heading="505"/>
-    <position pos="1" left="0" wing="0"/>
+    <personality active="391" risktaking="808" offensive="541" aggressive="467" consistent="582" creative="511" experienced="437"/>
+    <skills stamina="383" dexterity="346" speed="211" tackling="516" passing="483" shooting="390" control="510" accuracy="508" goalkeeping="77" heading="524"/>
+    <position pos="1" left="1" wing="0"/>
   </player>
   <player id="90053">
     <personal name="Luis Cuellar">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="172" risktaking="512" offensive="442" aggressive="415" consistent="698" creative="604" experienced="387"/>
-    <skills stamina="375" dexterity="480" speed="608" tackling="665" passing="522" shooting="556" control="498" accuracy="443" goalkeeping="98" heading="446"/>
+    <personality active="379" risktaking="508" offensive="428" aggressive="856" consistent="572" creative="532" experienced="661"/>
+    <skills stamina="508" dexterity="510" speed="626" tackling="612" passing="569" shooting="532" control="462" accuracy="505" goalkeeping="83" heading="469"/>
     <position pos="1" left="1" wing="0"/>
   </player>
   <player id="90054">
@@ -491,17 +491,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="423" risktaking="618" offensive="346" aggressive="487" consistent="611" creative="727" experienced="601"/>
-    <skills stamina="364" dexterity="618" speed="401" tackling="489" passing="470" shooting="441" control="461" accuracy="485" goalkeeping="75" heading="328"/>
-    <position pos="1" left="0" wing="0"/>
+    <personality active="647" risktaking="359" offensive="675" aggressive="656" consistent="673" creative="665" experienced="645"/>
+    <skills stamina="199" dexterity="535" speed="473" tackling="512" passing="475" shooting="423" control="400" accuracy="452" goalkeeping="67" heading="417"/>
+    <position pos="1" left="1" wing="0"/>
   </player>
   <player id="90055">
     <personal name="Casiano Menacho">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="580" risktaking="453" offensive="475" aggressive="575" consistent="356" creative="548" experienced="432"/>
-    <skills stamina="383" dexterity="560" speed="386" tackling="539" passing="468" shooting="478" control="469" accuracy="457" goalkeeping="65" heading="350"/>
+    <personality active="408" risktaking="595" offensive="443" aggressive="418" consistent="289" creative="836" experienced="419"/>
+    <skills stamina="550" dexterity="260" speed="529" tackling="460" passing="552" shooting="530" control="429" accuracy="385" goalkeeping="87" heading="518"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="90056">
@@ -509,8 +509,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="340" risktaking="764" offensive="576" aggressive="649" consistent="505" creative="367" experienced="632"/>
-    <skills stamina="211" dexterity="731" speed="191" tackling="456" passing="500" shooting="369" control="394" accuracy="365" goalkeeping="71" heading="376"/>
+    <personality active="403" risktaking="491" offensive="550" aggressive="203" consistent="367" creative="295" experienced="612"/>
+    <skills stamina="695" dexterity="316" speed="488" tackling="502" passing="517" shooting="486" control="396" accuracy="507" goalkeeping="62" heading="389"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="90057">
@@ -518,8 +518,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="477" risktaking="673" offensive="603" aggressive="418" consistent="660" creative="626" experienced="635"/>
-    <skills stamina="703" dexterity="567" speed="602" tackling="536" passing="509" shooting="466" control="464" accuracy="498" goalkeeping="80" heading="416"/>
+    <personality active="621" risktaking="236" offensive="451" aggressive="614" consistent="300" creative="679" experienced="415"/>
+    <skills stamina="505" dexterity="773" speed="521" tackling="518" passing="457" shooting="476" control="550" accuracy="495" goalkeeping="71" heading="438"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90058">
@@ -527,8 +527,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="793" risktaking="266" offensive="447" aggressive="596" consistent="423" creative="626" experienced="607"/>
-    <skills stamina="708" dexterity="705" speed="516" tackling="448" passing="454" shooting="542" control="535" accuracy="522" goalkeeping="76" heading="379"/>
+    <personality active="383" risktaking="437" offensive="840" aggressive="253" consistent="576" creative="212" experienced="472"/>
+    <skills stamina="749" dexterity="759" speed="332" tackling="497" passing="430" shooting="515" control="384" accuracy="528" goalkeeping="89" heading="358"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90059">
@@ -536,8 +536,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="550" risktaking="391" offensive="715" aggressive="715" consistent="440" creative="776" experienced="520"/>
-    <skills stamina="280" dexterity="269" speed="377" tackling="421" passing="467" shooting="367" control="396" accuracy="463" goalkeeping="82" heading="377"/>
+    <personality active="549" risktaking="332" offensive="255" aggressive="396" consistent="298" creative="341" experienced="529"/>
+    <skills stamina="348" dexterity="598" speed="558" tackling="395" passing="558" shooting="431" control="384" accuracy="502" goalkeeping="65" heading="517"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90060">
@@ -545,8 +545,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="432" risktaking="481" offensive="425" aggressive="445" consistent="545" creative="423" experienced="354"/>
-    <skills stamina="642" dexterity="593" speed="275" tackling="403" passing="473" shooting="486" control="373" accuracy="341" goalkeeping="85" heading="360"/>
+    <personality active="460" risktaking="366" offensive="440" aggressive="615" consistent="508" creative="718" experienced="365"/>
+    <skills stamina="194" dexterity="628" speed="332" tackling="485" passing="403" shooting="472" control="443" accuracy="460" goalkeeping="70" heading="479"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90061">
@@ -554,8 +554,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="724" risktaking="317" offensive="707" aggressive="507" consistent="799" creative="556" experienced="239"/>
-    <skills stamina="476" dexterity="383" speed="359" tackling="436" passing="530" shooting="514" control="399" accuracy="492" goalkeeping="82" heading="406"/>
+    <personality active="596" risktaking="442" offensive="531" aggressive="324" consistent="484" creative="528" experienced="531"/>
+    <skills stamina="683" dexterity="507" speed="600" tackling="496" passing="376" shooting="565" control="439" accuracy="460" goalkeeping="69" heading="536"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90062">
@@ -563,8 +563,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="140" risktaking="453" offensive="336" aggressive="556" consistent="577" creative="628" experienced="569"/>
-    <skills stamina="255" dexterity="387" speed="601" tackling="383" passing="445" shooting="550" control="353" accuracy="577" goalkeeping="66" heading="467"/>
+    <personality active="269" risktaking="498" offensive="404" aggressive="568" consistent="330" creative="374" experienced="407"/>
+    <skills stamina="220" dexterity="586" speed="708" tackling="367" passing="474" shooting="491" control="431" accuracy="526" goalkeeping="62" heading="479"/>
     <position pos="3" left="1" wing="0"/>
   </player>
   <player id="90063">
@@ -572,8 +572,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="584" risktaking="657" offensive="341" aggressive="428" consistent="627" creative="83" experienced="205"/>
-    <skills stamina="535" dexterity="573" speed="357" tackling="487" passing="366" shooting="481" control="404" accuracy="451" goalkeeping="83" heading="514"/>
+    <personality active="744" risktaking="513" offensive="366" aggressive="351" consistent="659" creative="401" experienced="426"/>
+    <skills stamina="394" dexterity="215" speed="587" tackling="385" passing="381" shooting="515" control="401" accuracy="386" goalkeeping="81" heading="397"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90064">
@@ -581,17 +581,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="470" risktaking="383" offensive="479" aggressive="381" consistent="559" creative="173" experienced="665"/>
-    <skills stamina="649" dexterity="645" speed="622" tackling="233" passing="384" shooting="454" control="420" accuracy="182" goalkeeping="518" heading="226"/>
-    <position pos="0" left="0" wing="0"/>
+    <personality active="660" risktaking="512" offensive="446" aggressive="593" consistent="477" creative="554" experienced="335"/>
+    <skills stamina="274" dexterity="417" speed="589" tackling="222" passing="528" shooting="460" control="356" accuracy="224" goalkeeping="581" heading="190"/>
+    <position pos="0" left="1" wing="0"/>
   </player>
   <player id="90065">
     <personal name="Bernardo Rea">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="536" risktaking="220" offensive="805" aggressive="516" consistent="722" creative="632" experienced="547"/>
-    <skills stamina="213" dexterity="288" speed="465" tackling="182" passing="353" shooting="494" control="338" accuracy="188" goalkeeping="404" heading="194"/>
+    <personality active="391" risktaking="397" offensive="544" aggressive="365" consistent="755" creative="603" experienced="377"/>
+    <skills stamina="179" dexterity="319" speed="707" tackling="247" passing="471" shooting="395" control="345" accuracy="240" goalkeeping="412" heading="221"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90066">
@@ -599,8 +599,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="408" risktaking="599" offensive="386" aggressive="560" consistent="644" creative="696" experienced="707"/>
-    <skills stamina="464" dexterity="460" speed="703" tackling="642" passing="475" shooting="489" control="467" accuracy="471" goalkeeping="99" heading="501"/>
+    <personality active="611" risktaking="471" offensive="547" aggressive="541" consistent="578" creative="407" experienced="530"/>
+    <skills stamina="441" dexterity="332" speed="515" tackling="557" passing="525" shooting="589" control="473" accuracy="504" goalkeeping="90" heading="524"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="90067">
@@ -608,8 +608,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="444" risktaking="339" offensive="567" aggressive="616" consistent="293" creative="452" experienced="638"/>
-    <skills stamina="279" dexterity="526" speed="485" tackling="452" passing="524" shooting="416" control="491" accuracy="493" goalkeeping="78" heading="519"/>
+    <personality active="562" risktaking="368" offensive="621" aggressive="397" consistent="326" creative="346" experienced="264"/>
+    <skills stamina="196" dexterity="288" speed="384" tackling="499" passing="488" shooting="441" control="443" accuracy="452" goalkeeping="86" heading="399"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="90068">
@@ -617,8 +617,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="684" risktaking="704" offensive="614" aggressive="514" consistent="698" creative="705" experienced="386"/>
-    <skills stamina="229" dexterity="577" speed="608" tackling="621" passing="403" shooting="506" control="527" accuracy="532" goalkeeping="70" heading="490"/>
+    <personality active="667" risktaking="558" offensive="639" aggressive="328" consistent="516" creative="395" experienced="586"/>
+    <skills stamina="525" dexterity="633" speed="648" tackling="648" passing="433" shooting="430" control="439" accuracy="482" goalkeeping="91" heading="441"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90069">
@@ -626,8 +626,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="506" risktaking="450" offensive="791" aggressive="472" consistent="468" creative="391" experienced="563"/>
-    <skills stamina="361" dexterity="591" speed="528" tackling="547" passing="577" shooting="439" control="442" accuracy="385" goalkeeping="96" heading="534"/>
+    <personality active="605" risktaking="606" offensive="396" aggressive="293" consistent="632" creative="733" experienced="517"/>
+    <skills stamina="580" dexterity="236" speed="362" tackling="550" passing="426" shooting="399" control="474" accuracy="488" goalkeeping="81" heading="509"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90070">
@@ -635,8 +635,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="269" risktaking="782" offensive="518" aggressive="543" consistent="754" creative="333" experienced="664"/>
-    <skills stamina="528" dexterity="566" speed="448" tackling="614" passing="517" shooting="504" control="502" accuracy="557" goalkeeping="90" heading="456"/>
+    <personality active="694" risktaking="461" offensive="589" aggressive="228" consistent="581" creative="354" experienced="607"/>
+    <skills stamina="367" dexterity="488" speed="634" tackling="602" passing="444" shooting="473" control="517" accuracy="436" goalkeeping="87" heading="374"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90071">
@@ -644,8 +644,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="390" risktaking="504" offensive="635" aggressive="550" consistent="453" creative="545" experienced="521"/>
-    <skills stamina="490" dexterity="541" speed="497" tackling="516" passing="527" shooting="551" control="427" accuracy="576" goalkeeping="86" heading="465"/>
+    <personality active="614" risktaking="519" offensive="594" aggressive="447" consistent="460" creative="487" experienced="705"/>
+    <skills stamina="623" dexterity="473" speed="579" tackling="525" passing="558" shooting="408" control="602" accuracy="419" goalkeeping="93" heading="410"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="90072">
@@ -653,8 +653,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="530" risktaking="377" offensive="704" aggressive="401" consistent="374" creative="359" experienced="439"/>
-    <skills stamina="227" dexterity="456" speed="467" tackling="442" passing="531" shooting="464" control="422" accuracy="522" goalkeeping="75" heading="485"/>
+    <personality active="582" risktaking="622" offensive="387" aggressive="654" consistent="287" creative="791" experienced="462"/>
+    <skills stamina="366" dexterity="235" speed="524" tackling="414" passing="516" shooting="404" control="581" accuracy="396" goalkeeping="65" heading="544"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="90073">
@@ -662,17 +662,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="346" risktaking="772" offensive="895" aggressive="295" consistent="255" creative="449" experienced="285"/>
-    <skills stamina="222" dexterity="436" speed="430" tackling="596" passing="406" shooting="536" control="510" accuracy="437" goalkeeping="75" heading="456"/>
-    <position pos="2" left="0" wing="0"/>
+    <personality active="512" risktaking="568" offensive="360" aggressive="371" consistent="542" creative="609" experienced="587"/>
+    <skills stamina="694" dexterity="236" speed="503" tackling="493" passing="419" shooting="408" control="464" accuracy="383" goalkeeping="72" heading="414"/>
+    <position pos="2" left="1" wing="0"/>
   </player>
   <player id="90074">
     <personal name="Juan Hurtado">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="599" risktaking="438" offensive="290" aggressive="298" consistent="754" creative="481" experienced="601"/>
-    <skills stamina="301" dexterity="471" speed="422" tackling="438" passing="401" shooting="472" control="464" accuracy="495" goalkeeping="69" heading="479"/>
+    <personality active="395" risktaking="507" offensive="618" aggressive="796" consistent="199" creative="625" experienced="448"/>
+    <skills stamina="450" dexterity="473" speed="278" tackling="386" passing="511" shooting="378" control="438" accuracy="391" goalkeeping="73" heading="475"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90075">
@@ -680,8 +680,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="662" risktaking="410" offensive="433" aggressive="683" consistent="470" creative="418" experienced="603"/>
-    <skills stamina="300" dexterity="495" speed="639" tackling="398" passing="419" shooting="570" control="514" accuracy="439" goalkeeping="80" heading="420"/>
+    <personality active="606" risktaking="559" offensive="417" aggressive="644" consistent="541" creative="734" experienced="546"/>
+    <skills stamina="629" dexterity="589" speed="492" tackling="481" passing="535" shooting="524" control="490" accuracy="523" goalkeeping="82" heading="475"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90076">
@@ -689,8 +689,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="700" risktaking="207" offensive="318" aggressive="437" consistent="796" creative="658" experienced="479"/>
-    <skills stamina="745" dexterity="613" speed="310" tackling="459" passing="494" shooting="448" control="574" accuracy="539" goalkeeping="76" heading="602"/>
+    <personality active="448" risktaking="204" offensive="487" aggressive="327" consistent="590" creative="603" experienced="558"/>
+    <skills stamina="312" dexterity="572" speed="269" tackling="539" passing="558" shooting="643" control="574" accuracy="467" goalkeeping="90" heading="591"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90077">
@@ -698,17 +698,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="531" risktaking="358" offensive="515" aggressive="633" consistent="486" creative="291" experienced="459"/>
-    <skills stamina="487" dexterity="605" speed="719" tackling="388" passing="441" shooting="535" control="460" accuracy="461" goalkeeping="79" heading="467"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="470" risktaking="682" offensive="579" aggressive="422" consistent="397" creative="776" experienced="486"/>
+    <skills stamina="324" dexterity="398" speed="461" tackling="477" passing="505" shooting="625" control="418" accuracy="609" goalkeeping="70" heading="500"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90078">
     <personal name="Adhemar Suarez">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="431" risktaking="351" offensive="679" aggressive="685" consistent="322" creative="813" experienced="464"/>
-    <skills stamina="452" dexterity="266" speed="251" tackling="425" passing="419" shooting="410" control="372" accuracy="553" goalkeeping="79" heading="486"/>
+    <personality active="615" risktaking="502" offensive="675" aggressive="352" consistent="775" creative="518" experienced="657"/>
+    <skills stamina="385" dexterity="178" speed="368" tackling="457" passing="478" shooting="493" control="336" accuracy="520" goalkeeping="74" heading="458"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90079">
@@ -716,8 +716,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="406" risktaking="558" offensive="420" aggressive="448" consistent="765" creative="546" experienced="537"/>
-    <skills stamina="365" dexterity="382" speed="546" tackling="474" passing="420" shooting="451" control="535" accuracy="462" goalkeeping="62" heading="447"/>
+    <personality active="590" risktaking="571" offensive="538" aggressive="378" consistent="329" creative="429" experienced="331"/>
+    <skills stamina="551" dexterity="443" speed="236" tackling="380" passing="492" shooting="497" control="475" accuracy="419" goalkeeping="85" heading="432"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90080">
@@ -725,8 +725,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="519" risktaking="748" offensive="504" aggressive="204" consistent="505" creative="460" experienced="505"/>
-    <skills stamina="662" dexterity="311" speed="336" tackling="189" passing="354" shooting="439" control="311" accuracy="189" goalkeeping="605" heading="264"/>
+    <personality active="592" risktaking="584" offensive="107" aggressive="781" consistent="271" creative="600" experienced="446"/>
+    <skills stamina="194" dexterity="620" speed="231" tackling="200" passing="397" shooting="453" control="380" accuracy="261" goalkeeping="549" heading="219"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90081">
@@ -734,8 +734,8 @@
       <appearance value="0"/>
       <nationality value="Paraguay"/>
     </personal>
-    <personality active="513" risktaking="630" offensive="331" aggressive="486" consistent="206" creative="646" experienced="685"/>
-    <skills stamina="303" dexterity="568" speed="656" tackling="217" passing="402" shooting="369" control="380" accuracy="220" goalkeeping="495" heading="219"/>
+    <personality active="226" risktaking="537" offensive="754" aggressive="543" consistent="625" creative="586" experienced="600"/>
+    <skills stamina="514" dexterity="171" speed="245" tackling="218" passing="470" shooting="344" control="327" accuracy="269" goalkeeping="499" heading="190"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90082">
@@ -743,8 +743,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="415" risktaking="548" offensive="372" aggressive="574" consistent="336" creative="506" experienced="442"/>
-    <skills stamina="733" dexterity="585" speed="688" tackling="480" passing="520" shooting="443" control="542" accuracy="435" goalkeeping="82" heading="515"/>
+    <personality active="613" risktaking="645" offensive="702" aggressive="539" consistent="655" creative="433" experienced="418"/>
+    <skills stamina="688" dexterity="759" speed="509" tackling="456" passing="430" shooting="378" control="467" accuracy="479" goalkeeping="79" heading="383"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="90083">
@@ -752,8 +752,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="539" risktaking="530" offensive="518" aggressive="783" consistent="543" creative="365" experienced="655"/>
-    <skills stamina="568" dexterity="669" speed="252" tackling="460" passing="475" shooting="456" control="395" accuracy="473" goalkeeping="63" heading="437"/>
+    <personality active="621" risktaking="451" offensive="543" aggressive="380" consistent="767" creative="539" experienced="574"/>
+    <skills stamina="325" dexterity="344" speed="439" tackling="373" passing="438" shooting="416" control="575" accuracy="530" goalkeeping="60" heading="531"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="90084">
@@ -761,8 +761,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="476" risktaking="625" offensive="554" aggressive="545" consistent="510" creative="22" experienced="253"/>
-    <skills stamina="635" dexterity="242" speed="405" tackling="560" passing="523" shooting="399" control="424" accuracy="458" goalkeeping="73" heading="415"/>
+    <personality active="503" risktaking="303" offensive="471" aggressive="522" consistent="555" creative="428" experienced="449"/>
+    <skills stamina="655" dexterity="488" speed="646" tackling="600" passing="537" shooting="480" control="410" accuracy="446" goalkeeping="76" heading="368"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90085">
@@ -770,17 +770,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="826" risktaking="445" offensive="410" aggressive="441" consistent="530" creative="524" experienced="353"/>
-    <skills stamina="472" dexterity="364" speed="683" tackling="453" passing="483" shooting="365" control="400" accuracy="377" goalkeeping="75" heading="417"/>
-    <position pos="1" left="1" wing="0"/>
+    <personality active="338" risktaking="266" offensive="538" aggressive="755" consistent="506" creative="625" experienced="412"/>
+    <skills stamina="210" dexterity="711" speed="455" tackling="543" passing="430" shooting="503" control="577" accuracy="495" goalkeeping="60" heading="347"/>
+    <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90086">
     <personal name="Alberto Illanes">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="487" risktaking="485" offensive="321" aggressive="465" consistent="564" creative="697" experienced="544"/>
-    <skills stamina="637" dexterity="361" speed="564" tackling="587" passing="403" shooting="412" control="430" accuracy="433" goalkeeping="80" heading="475"/>
+    <personality active="519" risktaking="650" offensive="630" aggressive="459" consistent="586" creative="484" experienced="588"/>
+    <skills stamina="388" dexterity="538" speed="171" tackling="440" passing="476" shooting="470" control="417" accuracy="417" goalkeeping="69" heading="469"/>
     <position pos="1" left="1" wing="0"/>
   </player>
   <player id="90087">
@@ -788,8 +788,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="549" risktaking="625" offensive="550" aggressive="449" consistent="347" creative="359" experienced="435"/>
-    <skills stamina="357" dexterity="337" speed="731" tackling="527" passing="401" shooting="512" control="444" accuracy="504" goalkeeping="88" heading="404"/>
+    <personality active="101" risktaking="674" offensive="317" aggressive="448" consistent="200" creative="536" experienced="386"/>
+    <skills stamina="250" dexterity="577" speed="295" tackling="451" passing="423" shooting="380" control="537" accuracy="451" goalkeeping="76" heading="404"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="90088">
@@ -797,8 +797,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="445" risktaking="610" offensive="471" aggressive="627" consistent="535" creative="527" experienced="656"/>
-    <skills stamina="331" dexterity="217" speed="221" tackling="535" passing="567" shooting="423" control="499" accuracy="485" goalkeeping="74" heading="480"/>
+    <personality active="430" risktaking="558" offensive="249" aggressive="490" consistent="745" creative="441" experienced="517"/>
+    <skills stamina="656" dexterity="345" speed="705" tackling="429" passing="431" shooting="512" control="504" accuracy="521" goalkeeping="68" heading="531"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="90089">
@@ -806,8 +806,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="793" risktaking="619" offensive="652" aggressive="584" consistent="601" creative="619" experienced="509"/>
-    <skills stamina="202" dexterity="516" speed="181" tackling="451" passing="542" shooting="519" control="354" accuracy="420" goalkeeping="65" heading="405"/>
+    <personality active="457" risktaking="740" offensive="491" aggressive="458" consistent="219" creative="593" experienced="336"/>
+    <skills stamina="724" dexterity="530" speed="558" tackling="555" passing="442" shooting="364" control="477" accuracy="331" goalkeeping="81" heading="494"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90090">
@@ -815,8 +815,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="387" risktaking="427" offensive="713" aggressive="717" consistent="656" creative="586" experienced="370"/>
-    <skills stamina="520" dexterity="345" speed="640" tackling="421" passing="524" shooting="577" control="519" accuracy="583" goalkeeping="67" heading="397"/>
+    <personality active="616" risktaking="532" offensive="361" aggressive="508" consistent="573" creative="339" experienced="437"/>
+    <skills stamina="620" dexterity="418" speed="737" tackling="448" passing="568" shooting="413" control="483" accuracy="445" goalkeeping="81" heading="534"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90091">
@@ -824,8 +824,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="407" risktaking="579" offensive="349" aggressive="478" consistent="451" creative="458" experienced="467"/>
-    <skills stamina="500" dexterity="634" speed="597" tackling="462" passing="487" shooting="471" control="407" accuracy="469" goalkeeping="64" heading="468"/>
+    <personality active="827" risktaking="473" offensive="548" aggressive="568" consistent="621" creative="486" experienced="187"/>
+    <skills stamina="672" dexterity="737" speed="483" tackling="472" passing="508" shooting="490" control="478" accuracy="408" goalkeeping="62" heading="495"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90092">
@@ -833,8 +833,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="423" risktaking="464" offensive="721" aggressive="458" consistent="566" creative="647" experienced="552"/>
-    <skills stamina="678" dexterity="230" speed="308" tackling="347" passing="412" shooting="417" control="516" accuracy="498" goalkeeping="77" heading="451"/>
+    <personality active="602" risktaking="539" offensive="558" aggressive="529" consistent="416" creative="630" experienced="291"/>
+    <skills stamina="684" dexterity="468" speed="399" tackling="424" passing="386" shooting="457" control="524" accuracy="396" goalkeeping="73" heading="418"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90093">
@@ -842,8 +842,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="424" risktaking="308" offensive="656" aggressive="750" consistent="712" creative="871" experienced="305"/>
-    <skills stamina="371" dexterity="212" speed="359" tackling="551" passing="540" shooting="575" control="400" accuracy="543" goalkeeping="85" heading="505"/>
+    <personality active="396" risktaking="517" offensive="504" aggressive="618" consistent="712" creative="478" experienced="323"/>
+    <skills stamina="677" dexterity="224" speed="417" tackling="444" passing="530" shooting="418" control="472" accuracy="434" goalkeeping="69" heading="579"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90094">
@@ -851,8 +851,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="466" risktaking="730" offensive="720" aggressive="667" consistent="425" creative="682" experienced="325"/>
-    <skills stamina="232" dexterity="371" speed="667" tackling="408" passing="379" shooting="564" control="519" accuracy="580" goalkeeping="79" heading="435"/>
+    <personality active="247" risktaking="326" offensive="449" aggressive="498" consistent="579" creative="256" experienced="691"/>
+    <skills stamina="513" dexterity="247" speed="607" tackling="566" passing="483" shooting="448" control="403" accuracy="509" goalkeeping="70" heading="527"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90095">
@@ -860,8 +860,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="519" risktaking="437" offensive="501" aggressive="592" consistent="529" creative="730" experienced="605"/>
-    <skills stamina="375" dexterity="167" speed="623" tackling="314" passing="488" shooting="413" control="484" accuracy="475" goalkeeping="62" heading="405"/>
+    <personality active="613" risktaking="633" offensive="502" aggressive="369" consistent="515" creative="394" experienced="589"/>
+    <skills stamina="478" dexterity="682" speed="690" tackling="457" passing="338" shooting="514" control="385" accuracy="348" goalkeeping="54" heading="424"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90096">
@@ -869,17 +869,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="575" risktaking="550" offensive="506" aggressive="542" consistent="330" creative="419" experienced="521"/>
-    <skills stamina="197" dexterity="619" speed="361" tackling="218" passing="422" shooting="391" control="352" accuracy="276" goalkeeping="572" heading="207"/>
-    <position pos="0" left="1" wing="0"/>
+    <personality active="389" risktaking="230" offensive="307" aggressive="466" consistent="595" creative="402" experienced="498"/>
+    <skills stamina="388" dexterity="291" speed="613" tackling="270" passing="486" shooting="564" control="360" accuracy="257" goalkeeping="490" heading="234"/>
+    <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90097">
     <personal name="Fernando Bartomioli">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="852" risktaking="652" offensive="592" aggressive="752" consistent="153" creative="461" experienced="381"/>
-    <skills stamina="572" dexterity="354" speed="287" tackling="237" passing="460" shooting="384" control="434" accuracy="232" goalkeeping="416" heading="183"/>
+    <personality active="350" risktaking="608" offensive="424" aggressive="334" consistent="612" creative="659" experienced="638"/>
+    <skills stamina="259" dexterity="363" speed="656" tackling="274" passing="474" shooting="500" control="365" accuracy="226" goalkeeping="446" heading="182"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90098">
@@ -887,8 +887,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="678" risktaking="818" offensive="568" aggressive="715" consistent="771" creative="476" experienced="317"/>
-    <skills stamina="772" dexterity="739" speed="295" tackling="483" passing="541" shooting="487" control="472" accuracy="448" goalkeeping="67" heading="456"/>
+    <personality active="376" risktaking="480" offensive="373" aggressive="605" consistent="579" creative="635" experienced="383"/>
+    <skills stamina="526" dexterity="440" speed="409" tackling="423" passing="441" shooting="542" control="611" accuracy="501" goalkeeping="82" heading="434"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="90099">
@@ -896,8 +896,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="440" risktaking="566" offensive="215" aggressive="566" consistent="309" creative="480" experienced="495"/>
-    <skills stamina="538" dexterity="650" speed="345" tackling="543" passing="397" shooting="491" control="545" accuracy="431" goalkeeping="77" heading="469"/>
+    <personality active="479" risktaking="362" offensive="510" aggressive="422" consistent="362" creative="525" experienced="419"/>
+    <skills stamina="599" dexterity="477" speed="433" tackling="587" passing="572" shooting="421" control="408" accuracy="506" goalkeeping="87" heading="467"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="90100">
@@ -905,8 +905,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="543" risktaking="270" offensive="537" aggressive="503" consistent="355" creative="680" experienced="531"/>
-    <skills stamina="427" dexterity="334" speed="360" tackling="588" passing="523" shooting="507" control="566" accuracy="388" goalkeeping="93" heading="433"/>
+    <personality active="373" risktaking="542" offensive="450" aggressive="527" consistent="740" creative="524" experienced="352"/>
+    <skills stamina="348" dexterity="602" speed="710" tackling="549" passing="516" shooting="512" control="392" accuracy="384" goalkeeping="71" heading="528"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90101">
@@ -914,8 +914,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="327" risktaking="351" offensive="540" aggressive="697" consistent="738" creative="431" experienced="698"/>
-    <skills stamina="572" dexterity="676" speed="584" tackling="498" passing="577" shooting="560" control="486" accuracy="429" goalkeeping="84" heading="409"/>
+    <personality active="489" risktaking="454" offensive="656" aggressive="564" consistent="399" creative="779" experienced="491"/>
+    <skills stamina="440" dexterity="606" speed="585" tackling="617" passing="496" shooting="559" control="555" accuracy="415" goalkeeping="90" heading="467"/>
     <position pos="1" left="1" wing="0"/>
   </player>
   <player id="90102">
@@ -923,8 +923,8 @@
       <appearance value="0"/>
       <nationality value="Argentina"/>
     </personal>
-    <personality active="459" risktaking="719" offensive="463" aggressive="291" consistent="491" creative="475" experienced="586"/>
-    <skills stamina="489" dexterity="476" speed="335" tackling="421" passing="372" shooting="465" control="527" accuracy="485" goalkeeping="88" heading="425"/>
+    <personality active="666" risktaking="623" offensive="574" aggressive="628" consistent="247" creative="660" experienced="548"/>
+    <skills stamina="209" dexterity="203" speed="253" tackling="364" passing="457" shooting="407" control="379" accuracy="400" goalkeeping="59" heading="376"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90103">
@@ -932,8 +932,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="445" risktaking="482" offensive="499" aggressive="655" consistent="538" creative="724" experienced="465"/>
-    <skills stamina="295" dexterity="250" speed="424" tackling="578" passing="467" shooting="518" control="529" accuracy="604" goalkeeping="80" heading="608"/>
+    <personality active="562" risktaking="524" offensive="492" aggressive="596" consistent="450" creative="465" experienced="440"/>
+    <skills stamina="346" dexterity="701" speed="478" tackling="458" passing="485" shooting="436" control="537" accuracy="601" goalkeeping="70" heading="422"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="90104">
@@ -941,8 +941,8 @@
       <appearance value="0"/>
       <nationality value="Argentina"/>
     </personal>
-    <personality active="537" risktaking="534" offensive="771" aggressive="682" consistent="653" creative="375" experienced="803"/>
-    <skills stamina="276" dexterity="477" speed="509" tackling="560" passing="431" shooting="554" control="548" accuracy="489" goalkeeping="92" heading="537"/>
+    <personality active="626" risktaking="346" offensive="547" aggressive="549" consistent="538" creative="361" experienced="604"/>
+    <skills stamina="726" dexterity="631" speed="467" tackling="419" passing="525" shooting="459" control="503" accuracy="451" goalkeeping="75" heading="566"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="90105">
@@ -950,8 +950,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="615" risktaking="626" offensive="340" aggressive="503" consistent="458" creative="533" experienced="571"/>
-    <skills stamina="498" dexterity="519" speed="713" tackling="474" passing="570" shooting="467" control="641" accuracy="509" goalkeeping="78" heading="457"/>
+    <personality active="375" risktaking="588" offensive="158" aggressive="134" consistent="460" creative="438" experienced="456"/>
+    <skills stamina="730" dexterity="235" speed="692" tackling="562" passing="476" shooting="542" control="431" accuracy="441" goalkeeping="76" heading="540"/>
     <position pos="2" left="1" wing="0"/>
   </player>
   <player id="90106">
@@ -959,8 +959,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="439" risktaking="605" offensive="673" aggressive="386" consistent="618" creative="693" experienced="367"/>
-    <skills stamina="320" dexterity="654" speed="585" tackling="379" passing="392" shooting="520" control="494" accuracy="385" goalkeeping="94" heading="511"/>
+    <personality active="589" risktaking="338" offensive="362" aggressive="249" consistent="397" creative="368" experienced="727"/>
+    <skills stamina="271" dexterity="471" speed="531" tackling="460" passing="575" shooting="393" control="582" accuracy="534" goalkeeping="77" heading="450"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90107">
@@ -968,8 +968,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="303" risktaking="523" offensive="416" aggressive="389" consistent="500" creative="584" experienced="407"/>
-    <skills stamina="325" dexterity="456" speed="383" tackling="419" passing="383" shooting="350" control="544" accuracy="399" goalkeeping="59" heading="348"/>
+    <personality active="647" risktaking="397" offensive="722" aggressive="671" consistent="501" creative="515" experienced="485"/>
+    <skills stamina="410" dexterity="465" speed="565" tackling="517" passing="449" shooting="443" control="449" accuracy="511" goalkeeping="87" heading="440"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90108">
@@ -977,8 +977,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="551" risktaking="466" offensive="390" aggressive="510" consistent="946" creative="391" experienced="237"/>
-    <skills stamina="720" dexterity="549" speed="455" tackling="472" passing="476" shooting="406" control="501" accuracy="375" goalkeeping="78" heading="526"/>
+    <personality active="500" risktaking="377" offensive="449" aggressive="412" consistent="446" creative="620" experienced="409"/>
+    <skills stamina="653" dexterity="375" speed="289" tackling="398" passing="385" shooting="485" control="526" accuracy="355" goalkeeping="57" heading="485"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90109">
@@ -986,8 +986,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="538" risktaking="224" offensive="314" aggressive="644" consistent="571" creative="374" experienced="490"/>
-    <skills stamina="724" dexterity="433" speed="308" tackling="377" passing="509" shooting="601" control="475" accuracy="441" goalkeeping="80" heading="406"/>
+    <personality active="341" risktaking="576" offensive="648" aggressive="583" consistent="510" creative="352" experienced="649"/>
+    <skills stamina="706" dexterity="527" speed="570" tackling="451" passing="386" shooting="487" control="424" accuracy="587" goalkeeping="79" heading="563"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90110">
@@ -995,17 +995,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="702" risktaking="402" offensive="452" aggressive="674" consistent="862" creative="230" experienced="684"/>
-    <skills stamina="573" dexterity="500" speed="718" tackling="394" passing="551" shooting="562" control="411" accuracy="515" goalkeeping="86" heading="487"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="511" risktaking="658" offensive="456" aggressive="439" consistent="343" creative="423" experienced="725"/>
+    <skills stamina="232" dexterity="554" speed="629" tackling="403" passing="506" shooting="530" control="549" accuracy="594" goalkeeping="83" heading="498"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90111">
     <personal name="Oscar Luna">
       <appearance value="0"/>
       <nationality value="Argentina"/>
     </personal>
-    <personality active="325" risktaking="633" offensive="376" aggressive="571" consistent="448" creative="492" experienced="646"/>
-    <skills stamina="524" dexterity="508" speed="322" tackling="511" passing="399" shooting="472" control="432" accuracy="581" goalkeeping="84" heading="501"/>
+    <personality active="530" risktaking="653" offensive="643" aggressive="494" consistent="608" creative="507" experienced="563"/>
+    <skills stamina="511" dexterity="213" speed="455" tackling="467" passing="365" shooting="419" control="517" accuracy="461" goalkeeping="77" heading="360"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90112">
@@ -1013,8 +1013,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="351" risktaking="388" offensive="579" aggressive="542" consistent="670" creative="502" experienced="572"/>
-    <skills stamina="328" dexterity="357" speed="541" tackling="205" passing="527" shooting="481" control="419" accuracy="188" goalkeeping="631" heading="203"/>
+    <personality active="349" risktaking="836" offensive="383" aggressive="608" consistent="445" creative="394" experienced="612"/>
+    <skills stamina="292" dexterity="469" speed="268" tackling="219" passing="502" shooting="406" control="316" accuracy="234" goalkeeping="553" heading="232"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90113">
@@ -1022,8 +1022,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="381" risktaking="553" offensive="509" aggressive="204" consistent="478" creative="412" experienced="538"/>
-    <skills stamina="355" dexterity="374" speed="684" tackling="252" passing="479" shooting="445" control="408" accuracy="199" goalkeeping="483" heading="227"/>
+    <personality active="426" risktaking="369" offensive="476" aggressive="441" consistent="516" creative="433" experienced="622"/>
+    <skills stamina="613" dexterity="471" speed="303" tackling="236" passing="470" shooting="392" control="389" accuracy="245" goalkeeping="557" heading="209"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90114">
@@ -1031,8 +1031,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="674" risktaking="643" offensive="215" aggressive="374" consistent="620" creative="586" experienced="514"/>
-    <skills stamina="391" dexterity="663" speed="537" tackling="495" passing="515" shooting="561" control="615" accuracy="427" goalkeeping="95" heading="398"/>
+    <personality active="435" risktaking="416" offensive="761" aggressive="368" consistent="647" creative="431" experienced="418"/>
+    <skills stamina="220" dexterity="678" speed="532" tackling="461" passing="554" shooting="575" control="523" accuracy="433" goalkeeping="72" heading="481"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="90115">
@@ -1040,8 +1040,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="731" risktaking="618" offensive="584" aggressive="567" consistent="380" creative="630" experienced="452"/>
-    <skills stamina="736" dexterity="499" speed="525" tackling="396" passing="503" shooting="449" control="588" accuracy="451" goalkeeping="83" heading="420"/>
+    <personality active="408" risktaking="552" offensive="437" aggressive="399" consistent="522" creative="646" experienced="573"/>
+    <skills stamina="536" dexterity="348" speed="447" tackling="569" passing="521" shooting="415" control="402" accuracy="378" goalkeeping="86" heading="565"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="90116">
@@ -1049,8 +1049,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="571" risktaking="298" offensive="835" aggressive="785" consistent="549" creative="546" experienced="502"/>
-    <skills stamina="204" dexterity="373" speed="335" tackling="486" passing="494" shooting="489" control="509" accuracy="520" goalkeeping="84" heading="527"/>
+    <personality active="630" risktaking="538" offensive="519" aggressive="518" consistent="309" creative="619" experienced="360"/>
+    <skills stamina="508" dexterity="384" speed="222" tackling="531" passing="492" shooting="586" control="454" accuracy="562" goalkeeping="96" heading="466"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90117">
@@ -1058,17 +1058,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="765" risktaking="330" offensive="589" aggressive="209" consistent="217" creative="394" experienced="379"/>
-    <skills stamina="647" dexterity="612" speed="419" tackling="456" passing="556" shooting="411" control="508" accuracy="441" goalkeeping="78" heading="451"/>
-    <position pos="1" left="0" wing="0"/>
+    <personality active="319" risktaking="426" offensive="582" aggressive="439" consistent="564" creative="480" experienced="485"/>
+    <skills stamina="619" dexterity="740" speed="308" tackling="502" passing="477" shooting="511" control="443" accuracy="527" goalkeeping="87" heading="465"/>
+    <position pos="1" left="1" wing="0"/>
   </player>
   <player id="90118">
     <personal name="Juan Dorado">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="738" risktaking="381" offensive="108" aggressive="819" consistent="357" creative="561" experienced="552"/>
-    <skills stamina="397" dexterity="261" speed="550" tackling="499" passing="465" shooting="432" control="544" accuracy="538" goalkeeping="66" heading="435"/>
+    <personality active="853" risktaking="521" offensive="421" aggressive="641" consistent="437" creative="600" experienced="429"/>
+    <skills stamina="221" dexterity="695" speed="524" tackling="480" passing="513" shooting="544" control="380" accuracy="442" goalkeeping="89" heading="512"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90119">
@@ -1076,8 +1076,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="796" risktaking="537" offensive="461" aggressive="464" consistent="325" creative="494" experienced="881"/>
-    <skills stamina="221" dexterity="444" speed="235" tackling="452" passing="491" shooting="564" control="543" accuracy="565" goalkeeping="64" heading="558"/>
+    <personality active="827" risktaking="451" offensive="493" aggressive="593" consistent="535" creative="715" experienced="669"/>
+    <skills stamina="672" dexterity="689" speed="323" tackling="518" passing="547" shooting="457" control="513" accuracy="578" goalkeeping="73" heading="390"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="90120">
@@ -1085,8 +1085,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="679" risktaking="387" offensive="791" aggressive="435" consistent="529" creative="462" experienced="306"/>
-    <skills stamina="597" dexterity="537" speed="556" tackling="439" passing="457" shooting="425" control="582" accuracy="441" goalkeeping="100" heading="438"/>
+    <personality active="653" risktaking="729" offensive="631" aggressive="204" consistent="439" creative="551" experienced="275"/>
+    <skills stamina="553" dexterity="364" speed="357" tackling="603" passing="589" shooting="439" control="589" accuracy="568" goalkeeping="74" heading="550"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="90121">
@@ -1094,8 +1094,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="391" risktaking="533" offensive="388" aggressive="425" consistent="602" creative="551" experienced="298"/>
-    <skills stamina="413" dexterity="574" speed="591" tackling="549" passing="497" shooting="416" control="546" accuracy="450" goalkeeping="68" heading="475"/>
+    <personality active="664" risktaking="330" offensive="629" aggressive="530" consistent="725" creative="574" experienced="328"/>
+    <skills stamina="572" dexterity="387" speed="558" tackling="407" passing="530" shooting="565" control="537" accuracy="547" goalkeeping="82" heading="496"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90122">
@@ -1103,35 +1103,35 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="759" risktaking="626" offensive="757" aggressive="639" consistent="574" creative="467" experienced="346"/>
-    <skills stamina="440" dexterity="500" speed="226" tackling="615" passing="499" shooting="575" control="424" accuracy="486" goalkeeping="70" heading="545"/>
-    <position pos="2" left="0" wing="0"/>
+    <personality active="548" risktaking="371" offensive="491" aggressive="626" consistent="697" creative="709" experienced="517"/>
+    <skills stamina="435" dexterity="433" speed="372" tackling="523" passing="598" shooting="519" control="508" accuracy="458" goalkeeping="73" heading="532"/>
+    <position pos="2" left="1" wing="0"/>
   </player>
   <player id="90123">
     <personal name="Lucio Hinojosa">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="248" risktaking="475" offensive="425" aggressive="451" consistent="397" creative="596" experienced="621"/>
-    <skills stamina="191" dexterity="737" speed="671" tackling="436" passing="501" shooting="518" control="544" accuracy="508" goalkeeping="67" heading="494"/>
-    <position pos="2" left="0" wing="0"/>
+    <personality active="342" risktaking="431" offensive="404" aggressive="369" consistent="569" creative="293" experienced="589"/>
+    <skills stamina="612" dexterity="454" speed="699" tackling="391" passing="351" shooting="366" control="515" accuracy="371" goalkeeping="72" heading="354"/>
+    <position pos="2" left="1" wing="0"/>
   </player>
   <player id="90124">
     <personal name="Orlando Montano">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="164" risktaking="436" offensive="743" aggressive="483" consistent="577" creative="196" experienced="487"/>
-    <skills stamina="227" dexterity="206" speed="566" tackling="437" passing="574" shooting="671" control="501" accuracy="606" goalkeeping="70" heading="654"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="553" risktaking="338" offensive="474" aggressive="458" consistent="331" creative="497" experienced="425"/>
+    <skills stamina="357" dexterity="221" speed="341" tackling="470" passing="563" shooting="645" control="447" accuracy="526" goalkeeping="71" heading="527"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90125">
     <personal name="Gustavo Velasco">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="620" risktaking="658" offensive="557" aggressive="546" consistent="717" creative="541" experienced="531"/>
-    <skills stamina="364" dexterity="336" speed="528" tackling="559" passing="491" shooting="418" control="512" accuracy="484" goalkeeping="63" heading="533"/>
+    <personality active="376" risktaking="658" offensive="571" aggressive="373" consistent="306" creative="345" experienced="445"/>
+    <skills stamina="599" dexterity="418" speed="558" tackling="435" passing="429" shooting="662" control="562" accuracy="508" goalkeeping="67" heading="426"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90126">
@@ -1139,17 +1139,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="330" risktaking="457" offensive="476" aggressive="291" consistent="340" creative="470" experienced="414"/>
-    <skills stamina="347" dexterity="350" speed="486" tackling="434" passing="394" shooting="584" control="455" accuracy="575" goalkeeping="57" heading="504"/>
-    <position pos="3" left="0" wing="0"/>
+    <personality active="374" risktaking="375" offensive="551" aggressive="663" consistent="603" creative="276" experienced="357"/>
+    <skills stamina="474" dexterity="458" speed="526" tackling="353" passing="512" shooting="501" control="490" accuracy="581" goalkeeping="78" heading="564"/>
+    <position pos="3" left="1" wing="0"/>
   </player>
   <player id="90127">
     <personal name="Juan Velasco">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="557" risktaking="556" offensive="350" aggressive="324" consistent="769" creative="463" experienced="336"/>
-    <skills stamina="450" dexterity="555" speed="398" tackling="442" passing="387" shooting="418" control="428" accuracy="421" goalkeeping="77" heading="463"/>
+    <personality active="788" risktaking="516" offensive="729" aggressive="758" consistent="654" creative="446" experienced="279"/>
+    <skills stamina="243" dexterity="622" speed="494" tackling="477" passing="391" shooting="454" control="490" accuracy="450" goalkeeping="86" heading="466"/>
     <position pos="3" left="1" wing="0"/>
   </player>
   <player id="90128">
@@ -1157,26 +1157,26 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="551" risktaking="314" offensive="73" aggressive="770" consistent="512" creative="286" experienced="671"/>
-    <skills stamina="561" dexterity="170" speed="451" tackling="238" passing="393" shooting="470" control="378" accuracy="212" goalkeeping="529" heading="269"/>
-    <position pos="0" left="0" wing="0"/>
+    <personality active="600" risktaking="281" offensive="618" aggressive="306" consistent="574" creative="674" experienced="297"/>
+    <skills stamina="617" dexterity="273" speed="356" tackling="213" passing="353" shooting="460" control="364" accuracy="223" goalkeeping="493" heading="188"/>
+    <position pos="0" left="1" wing="0"/>
   </player>
   <player id="90129">
     <personal name="Juan Fernandez">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="426" risktaking="798" offensive="608" aggressive="157" consistent="603" creative="558" experienced="557"/>
-    <skills stamina="624" dexterity="194" speed="657" tackling="259" passing="466" shooting="490" control="307" accuracy="195" goalkeeping="486" heading="204"/>
-    <position pos="0" left="1" wing="0"/>
+    <personality active="494" risktaking="243" offensive="476" aggressive="703" consistent="204" creative="402" experienced="326"/>
+    <skills stamina="611" dexterity="247" speed="280" tackling="174" passing="450" shooting="349" control="347" accuracy="207" goalkeeping="471" heading="251"/>
+    <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90130">
     <personal name="Carlos Vargas">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="589" risktaking="767" offensive="325" aggressive="509" consistent="585" creative="335" experienced="477"/>
-    <skills stamina="255" dexterity="470" speed="641" tackling="487" passing="519" shooting="525" control="501" accuracy="533" goalkeeping="91" heading="487"/>
+    <personality active="429" risktaking="680" offensive="394" aggressive="787" consistent="450" creative="501" experienced="457"/>
+    <skills stamina="549" dexterity="591" speed="258" tackling="546" passing="533" shooting="554" control="404" accuracy="412" goalkeeping="63" heading="442"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="90131">
@@ -1184,8 +1184,8 @@
       <appearance value="0"/>
       <nationality value="Argentina"/>
     </personal>
-    <personality active="509" risktaking="478" offensive="446" aggressive="656" consistent="484" creative="705" experienced="586"/>
-    <skills stamina="414" dexterity="301" speed="516" tackling="535" passing="442" shooting="386" control="466" accuracy="341" goalkeeping="85" heading="475"/>
+    <personality active="449" risktaking="862" offensive="576" aggressive="395" consistent="324" creative="478" experienced="321"/>
+    <skills stamina="660" dexterity="638" speed="630" tackling="448" passing="477" shooting="538" control="452" accuracy="509" goalkeeping="63" heading="419"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="90132">
@@ -1193,35 +1193,35 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="465" risktaking="392" offensive="364" aggressive="429" consistent="463" creative="567" experienced="498"/>
-    <skills stamina="671" dexterity="665" speed="592" tackling="487" passing="401" shooting="541" control="423" accuracy="399" goalkeeping="64" heading="465"/>
-    <position pos="1" left="1" wing="0"/>
+    <personality active="421" risktaking="510" offensive="520" aggressive="616" consistent="361" creative="686" experienced="473"/>
+    <skills stamina="291" dexterity="608" speed="449" tackling="473" passing="463" shooting="489" control="563" accuracy="558" goalkeeping="89" heading="383"/>
+    <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90133">
     <personal name="Angel Parada">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="666" risktaking="282" offensive="601" aggressive="491" consistent="230" creative="490" experienced="697"/>
-    <skills stamina="631" dexterity="428" speed="585" tackling="441" passing="424" shooting="405" control="408" accuracy="410" goalkeeping="94" heading="417"/>
-    <position pos="1" left="1" wing="0"/>
+    <personality active="519" risktaking="473" offensive="380" aggressive="402" consistent="608" creative="377" experienced="519"/>
+    <skills stamina="277" dexterity="705" speed="610" tackling="422" passing="532" shooting="462" control="559" accuracy="541" goalkeeping="62" heading="515"/>
+    <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90134">
     <personal name="Juan Carlos Farah">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="441" risktaking="526" offensive="423" aggressive="475" consistent="579" creative="473" experienced="540"/>
-    <skills stamina="608" dexterity="423" speed="382" tackling="537" passing="390" shooting="449" control="502" accuracy="509" goalkeeping="64" heading="357"/>
-    <position pos="1" left="0" wing="0"/>
+    <personality active="549" risktaking="452" offensive="323" aggressive="568" consistent="474" creative="518" experienced="764"/>
+    <skills stamina="402" dexterity="409" speed="271" tackling="566" passing="479" shooting="498" control="379" accuracy="465" goalkeeping="70" heading="421"/>
+    <position pos="1" left="1" wing="0"/>
   </player>
   <player id="90135">
     <personal name="Jose Luis Medrano">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="594" risktaking="433" offensive="723" aggressive="442" consistent="499" creative="439" experienced="631"/>
-    <skills stamina="364" dexterity="606" speed="643" tackling="444" passing="369" shooting="382" control="465" accuracy="457" goalkeeping="60" heading="363"/>
+    <personality active="596" risktaking="430" offensive="463" aggressive="510" consistent="737" creative="788" experienced="413"/>
+    <skills stamina="405" dexterity="461" speed="595" tackling="393" passing="556" shooting="404" control="541" accuracy="457" goalkeeping="73" heading="445"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="90136">
@@ -1229,8 +1229,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="820" risktaking="408" offensive="610" aggressive="206" consistent="412" creative="205" experienced="377"/>
-    <skills stamina="536" dexterity="414" speed="367" tackling="569" passing="430" shooting="545" control="587" accuracy="555" goalkeeping="63" heading="401"/>
+    <personality active="630" risktaking="365" offensive="603" aggressive="668" consistent="402" creative="422" experienced="373"/>
+    <skills stamina="670" dexterity="421" speed="690" tackling="481" passing="492" shooting="469" control="583" accuracy="494" goalkeeping="62" heading="514"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="90137">
@@ -1238,26 +1238,26 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="664" risktaking="450" offensive="636" aggressive="471" consistent="428" creative="612" experienced="573"/>
-    <skills stamina="223" dexterity="521" speed="670" tackling="471" passing="363" shooting="415" control="455" accuracy="369" goalkeeping="66" heading="473"/>
-    <position pos="2" left="0" wing="0"/>
+    <personality active="605" risktaking="485" offensive="610" aggressive="880" consistent="590" creative="650" experienced="707"/>
+    <skills stamina="287" dexterity="522" speed="380" tackling="437" passing="440" shooting="437" control="388" accuracy="456" goalkeeping="73" heading="411"/>
+    <position pos="2" left="1" wing="0"/>
   </player>
   <player id="90138">
     <personal name="Pablo Banegas">
       <appearance value="0"/>
       <nationality value="Argentina"/>
     </personal>
-    <personality active="391" risktaking="500" offensive="161" aggressive="338" consistent="205" creative="603" experienced="416"/>
-    <skills stamina="458" dexterity="519" speed="381" tackling="463" passing="490" shooting="414" control="480" accuracy="505" goalkeeping="66" heading="513"/>
-    <position pos="2" left="0" wing="0"/>
+    <personality active="563" risktaking="370" offensive="580" aggressive="636" consistent="352" creative="517" experienced="306"/>
+    <skills stamina="526" dexterity="329" speed="253" tackling="439" passing="430" shooting="555" control="473" accuracy="394" goalkeeping="70" heading="557"/>
+    <position pos="2" left="1" wing="0"/>
   </player>
   <player id="90139">
     <personal name="Ruben Tufino">
       <appearance value="0"/>
       <nationality value="Brazil"/>
     </personal>
-    <personality active="692" risktaking="326" offensive="362" aggressive="713" consistent="441" creative="338" experienced="544"/>
-    <skills stamina="395" dexterity="250" speed="578" tackling="551" passing="538" shooting="361" control="445" accuracy="500" goalkeeping="86" heading="361"/>
+    <personality active="654" risktaking="429" offensive="613" aggressive="513" consistent="516" creative="491" experienced="353"/>
+    <skills stamina="451" dexterity="294" speed="181" tackling="517" passing="358" shooting="478" control="472" accuracy="384" goalkeeping="84" heading="518"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90140">
@@ -1265,8 +1265,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="372" risktaking="586" offensive="671" aggressive="500" consistent="276" creative="286" experienced="687"/>
-    <skills stamina="306" dexterity="647" speed="445" tackling="409" passing="504" shooting="558" control="412" accuracy="497" goalkeeping="87" heading="468"/>
+    <personality active="744" risktaking="369" offensive="498" aggressive="499" consistent="358" creative="275" experienced="368"/>
+    <skills stamina="620" dexterity="526" speed="378" tackling="505" passing="488" shooting="488" control="485" accuracy="432" goalkeeping="65" heading="494"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90141">
@@ -1274,35 +1274,35 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="689" risktaking="510" offensive="801" aggressive="533" consistent="590" creative="227" experienced="545"/>
-    <skills stamina="391" dexterity="284" speed="232" tackling="459" passing="537" shooting="460" control="502" accuracy="462" goalkeeping="86" heading="399"/>
-    <position pos="3" left="0" wing="0"/>
+    <personality active="484" risktaking="507" offensive="354" aggressive="81" consistent="532" creative="473" experienced="450"/>
+    <skills stamina="384" dexterity="184" speed="385" tackling="415" passing="537" shooting="447" control="416" accuracy="452" goalkeeping="83" heading="390"/>
+    <position pos="3" left="1" wing="0"/>
   </player>
   <player id="90142">
     <personal name="Leonardo Ricatti">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="349" risktaking="577" offensive="399" aggressive="603" consistent="339" creative="886" experienced="313"/>
-    <skills stamina="322" dexterity="190" speed="420" tackling="422" passing="513" shooting="448" control="493" accuracy="594" goalkeeping="80" heading="469"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="266" risktaking="488" offensive="652" aggressive="430" consistent="408" creative="565" experienced="505"/>
+    <skills stamina="660" dexterity="588" speed="591" tackling="361" passing="501" shooting="484" control="366" accuracy="478" goalkeeping="81" heading="430"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90143">
     <personal name="Tito Ortiz">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="433" risktaking="925" offensive="584" aggressive="458" consistent="499" creative="405" experienced="650"/>
-    <skills stamina="274" dexterity="469" speed="223" tackling="382" passing="491" shooting="418" control="465" accuracy="491" goalkeeping="73" heading="378"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="176" risktaking="542" offensive="521" aggressive="548" consistent="457" creative="728" experienced="454"/>
+    <skills stamina="629" dexterity="536" speed="705" tackling="430" passing="404" shooting="511" control="404" accuracy="556" goalkeeping="66" heading="444"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90144">
     <personal name="Julio Perez">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="506" risktaking="491" offensive="409" aggressive="497" consistent="632" creative="307" experienced="727"/>
-    <skills stamina="585" dexterity="331" speed="578" tackling="195" passing="544" shooting="458" control="344" accuracy="228" goalkeeping="585" heading="219"/>
+    <personality active="630" risktaking="321" offensive="328" aggressive="371" consistent="358" creative="504" experienced="338"/>
+    <skills stamina="687" dexterity="449" speed="378" tackling="271" passing="421" shooting="382" control="386" accuracy="245" goalkeeping="487" heading="273"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90145">
@@ -1310,8 +1310,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="521" risktaking="468" offensive="546" aggressive="751" consistent="583" creative="276" experienced="532"/>
-    <skills stamina="511" dexterity="278" speed="606" tackling="175" passing="471" shooting="380" control="275" accuracy="232" goalkeeping="551" heading="212"/>
+    <personality active="594" risktaking="499" offensive="356" aggressive="523" consistent="418" creative="430" experienced="656"/>
+    <skills stamina="505" dexterity="489" speed="221" tackling="211" passing="371" shooting="370" control="293" accuracy="240" goalkeeping="595" heading="219"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90146">
@@ -1319,8 +1319,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="691" risktaking="450" offensive="305" aggressive="272" consistent="704" creative="363" experienced="394"/>
-    <skills stamina="222" dexterity="226" speed="627" tackling="546" passing="553" shooting="497" control="480" accuracy="467" goalkeeping="59" heading="487"/>
+    <personality active="598" risktaking="333" offensive="514" aggressive="411" consistent="516" creative="568" experienced="305"/>
+    <skills stamina="516" dexterity="624" speed="341" tackling="423" passing="506" shooting="487" control="540" accuracy="486" goalkeeping="89" heading="495"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="90147">
@@ -1328,8 +1328,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="522" risktaking="601" offensive="552" aggressive="498" consistent="592" creative="286" experienced="302"/>
-    <skills stamina="215" dexterity="474" speed="269" tackling="547" passing="426" shooting="452" control="447" accuracy="351" goalkeeping="77" heading="343"/>
+    <personality active="561" risktaking="530" offensive="556" aggressive="592" consistent="662" creative="749" experienced="490"/>
+    <skills stamina="371" dexterity="198" speed="172" tackling="447" passing="414" shooting="488" control="403" accuracy="343" goalkeeping="89" heading="451"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="90148">
@@ -1337,8 +1337,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="493" risktaking="649" offensive="235" aggressive="447" consistent="476" creative="440" experienced="361"/>
-    <skills stamina="710" dexterity="493" speed="475" tackling="495" passing="502" shooting="515" control="431" accuracy="385" goalkeeping="87" heading="520"/>
+    <personality active="454" risktaking="467" offensive="545" aggressive="690" consistent="164" creative="375" experienced="474"/>
+    <skills stamina="725" dexterity="476" speed="427" tackling="478" passing="529" shooting="391" control="411" accuracy="480" goalkeeping="75" heading="390"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90149">
@@ -1346,8 +1346,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="414" risktaking="631" offensive="457" aggressive="443" consistent="614" creative="472" experienced="541"/>
-    <skills stamina="194" dexterity="727" speed="670" tackling="483" passing="404" shooting="464" control="411" accuracy="479" goalkeeping="74" heading="487"/>
+    <personality active="617" risktaking="922" offensive="312" aggressive="462" consistent="433" creative="545" experienced="389"/>
+    <skills stamina="205" dexterity="530" speed="718" tackling="477" passing="452" shooting="540" control="455" accuracy="490" goalkeeping="64" heading="451"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90150">
@@ -1355,17 +1355,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="614" risktaking="542" offensive="186" aggressive="619" consistent="291" creative="612" experienced="613"/>
-    <skills stamina="672" dexterity="513" speed="576" tackling="504" passing="400" shooting="368" control="524" accuracy="486" goalkeeping="67" heading="414"/>
-    <position pos="1" left="1" wing="0"/>
+    <personality active="943" risktaking="374" offensive="544" aggressive="522" consistent="300" creative="533" experienced="596"/>
+    <skills stamina="710" dexterity="363" speed="386" tackling="608" passing="461" shooting="454" control="578" accuracy="404" goalkeeping="84" heading="491"/>
+    <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90151">
     <personal name="Enrique Salinas">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="606" risktaking="605" offensive="460" aggressive="625" consistent="661" creative="226" experienced="682"/>
-    <skills stamina="380" dexterity="613" speed="282" tackling="492" passing="451" shooting="386" control="557" accuracy="420" goalkeeping="63" heading="395"/>
+    <personality active="400" risktaking="460" offensive="548" aggressive="312" consistent="420" creative="638" experienced="180"/>
+    <skills stamina="493" dexterity="366" speed="205" tackling="546" passing="421" shooting="480" control="519" accuracy="381" goalkeeping="63" heading="423"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="90152">
@@ -1373,8 +1373,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="593" risktaking="149" offensive="573" aggressive="521" consistent="447" creative="595" experienced="804"/>
-    <skills stamina="398" dexterity="655" speed="349" tackling="462" passing="481" shooting="449" control="544" accuracy="462" goalkeeping="90" heading="547"/>
+    <personality active="949" risktaking="655" offensive="602" aggressive="456" consistent="504" creative="569" experienced="647"/>
+    <skills stamina="740" dexterity="618" speed="321" tackling="443" passing="423" shooting="481" control="497" accuracy="388" goalkeeping="82" heading="417"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="90153">
@@ -1382,8 +1382,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="474" risktaking="507" offensive="434" aggressive="502" consistent="543" creative="687" experienced="773"/>
-    <skills stamina="308" dexterity="664" speed="689" tackling="439" passing="425" shooting="473" control="423" accuracy="564" goalkeeping="84" heading="526"/>
+    <personality active="757" risktaking="582" offensive="541" aggressive="413" consistent="677" creative="528" experienced="448"/>
+    <skills stamina="679" dexterity="620" speed="259" tackling="494" passing="406" shooting="461" control="569" accuracy="472" goalkeeping="75" heading="483"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90154">
@@ -1391,17 +1391,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="508" risktaking="555" offensive="541" aggressive="635" consistent="367" creative="754" experienced="671"/>
-    <skills stamina="368" dexterity="624" speed="725" tackling="556" passing="589" shooting="521" control="524" accuracy="395" goalkeeping="67" heading="549"/>
-    <position pos="2" left="1" wing="0"/>
+    <personality active="736" risktaking="398" offensive="631" aggressive="509" consistent="520" creative="494" experienced="471"/>
+    <skills stamina="698" dexterity="617" speed="355" tackling="402" passing="377" shooting="425" control="459" accuracy="517" goalkeeping="76" heading="485"/>
+    <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90155">
     <personal name="Johnny Sanchez">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="643" risktaking="566" offensive="594" aggressive="625" consistent="716" creative="661" experienced="489"/>
-    <skills stamina="340" dexterity="397" speed="679" tackling="564" passing="564" shooting="344" control="526" accuracy="333" goalkeeping="84" heading="407"/>
+    <personality active="532" risktaking="381" offensive="527" aggressive="298" consistent="396" creative="219" experienced="466"/>
+    <skills stamina="375" dexterity="293" speed="266" tackling="512" passing="452" shooting="511" control="371" accuracy="362" goalkeeping="77" heading="427"/>
     <position pos="2" left="1" wing="0"/>
   </player>
   <player id="90156">
@@ -1409,8 +1409,8 @@
       <appearance value="0"/>
       <nationality value="Brazil"/>
     </personal>
-    <personality active="233" risktaking="413" offensive="475" aggressive="713" consistent="466" creative="493" experienced="675"/>
-    <skills stamina="480" dexterity="727" speed="501" tackling="505" passing="493" shooting="513" control="534" accuracy="384" goalkeeping="90" heading="416"/>
+    <personality active="656" risktaking="526" offensive="290" aggressive="642" consistent="575" creative="574" experienced="368"/>
+    <skills stamina="688" dexterity="669" speed="330" tackling="469" passing="436" shooting="594" control="390" accuracy="455" goalkeeping="68" heading="522"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90157">
@@ -1418,8 +1418,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="528" risktaking="534" offensive="559" aggressive="558" consistent="471" creative="359" experienced="513"/>
-    <skills stamina="479" dexterity="597" speed="171" tackling="410" passing="441" shooting="397" control="363" accuracy="357" goalkeeping="58" heading="454"/>
+    <personality active="597" risktaking="399" offensive="654" aggressive="390" consistent="534" creative="654" experienced="668"/>
+    <skills stamina="441" dexterity="585" speed="530" tackling="457" passing="425" shooting="508" control="381" accuracy="400" goalkeeping="75" heading="449"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90158">
@@ -1427,8 +1427,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="587" risktaking="614" offensive="546" aggressive="345" consistent="453" creative="303" experienced="610"/>
-    <skills stamina="658" dexterity="176" speed="320" tackling="483" passing="462" shooting="397" control="483" accuracy="527" goalkeeping="62" heading="510"/>
+    <personality active="480" risktaking="653" offensive="684" aggressive="279" consistent="534" creative="594" experienced="353"/>
+    <skills stamina="430" dexterity="476" speed="518" tackling="482" passing="402" shooting="467" control="339" accuracy="571" goalkeeping="87" heading="560"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90159">
@@ -1436,8 +1436,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="504" risktaking="726" offensive="383" aggressive="611" consistent="500" creative="446" experienced="408"/>
-    <skills stamina="397" dexterity="214" speed="472" tackling="363" passing="384" shooting="504" control="381" accuracy="389" goalkeeping="55" heading="466"/>
+    <personality active="287" risktaking="397" offensive="644" aggressive="393" consistent="307" creative="308" experienced="505"/>
+    <skills stamina="334" dexterity="575" speed="189" tackling="514" passing="353" shooting="447" control="452" accuracy="500" goalkeeping="73" heading="358"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90160">
@@ -1445,8 +1445,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="299" risktaking="592" offensive="361" aggressive="405" consistent="787" creative="479" experienced="666"/>
-    <skills stamina="453" dexterity="509" speed="338" tackling="206" passing="502" shooting="356" control="336" accuracy="253" goalkeeping="456" heading="176"/>
+    <personality active="471" risktaking="542" offensive="471" aggressive="618" consistent="391" creative="412" experienced="574"/>
+    <skills stamina="681" dexterity="196" speed="619" tackling="247" passing="312" shooting="397" control="307" accuracy="188" goalkeeping="435" heading="227"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90161">
@@ -1454,8 +1454,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="578" risktaking="518" offensive="360" aggressive="665" consistent="519" creative="356" experienced="725"/>
-    <skills stamina="158" dexterity="167" speed="503" tackling="136" passing="346" shooting="454" control="300" accuracy="145" goalkeeping="378" heading="219"/>
+    <personality active="461" risktaking="646" offensive="421" aggressive="500" consistent="302" creative="790" experienced="448"/>
+    <skills stamina="248" dexterity="434" speed="371" tackling="162" passing="425" shooting="454" control="344" accuracy="195" goalkeeping="525" heading="192"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90162">
@@ -1463,8 +1463,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="250" risktaking="424" offensive="487" aggressive="685" consistent="269" creative="387" experienced="466"/>
-    <skills stamina="231" dexterity="522" speed="422" tackling="475" passing="329" shooting="466" control="304" accuracy="350" goalkeeping="79" heading="342"/>
+    <personality active="605" risktaking="424" offensive="508" aggressive="499" consistent="679" creative="705" experienced="526"/>
+    <skills stamina="347" dexterity="305" speed="647" tackling="355" passing="354" shooting="397" control="368" accuracy="315" goalkeeping="64" heading="431"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="90163">
@@ -1472,8 +1472,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="344" risktaking="155" offensive="359" aggressive="492" consistent="337" creative="391" experienced="537"/>
-    <skills stamina="404" dexterity="403" speed="367" tackling="367" passing="509" shooting="308" control="511" accuracy="449" goalkeeping="51" heading="420"/>
+    <personality active="534" risktaking="727" offensive="354" aggressive="385" consistent="106" creative="625" experienced="495"/>
+    <skills stamina="404" dexterity="210" speed="547" tackling="423" passing="380" shooting="330" control="470" accuracy="421" goalkeeping="65" heading="306"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="90164">
@@ -1481,17 +1481,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="405" risktaking="553" offensive="351" aggressive="417" consistent="652" creative="468" experienced="302"/>
-    <skills stamina="310" dexterity="331" speed="191" tackling="430" passing="486" shooting="362" control="397" accuracy="390" goalkeeping="51" heading="384"/>
-    <position pos="1" left="0" wing="0"/>
+    <personality active="472" risktaking="542" offensive="461" aggressive="753" consistent="671" creative="54" experienced="476"/>
+    <skills stamina="213" dexterity="426" speed="374" tackling="447" passing="374" shooting="470" control="475" accuracy="388" goalkeeping="79" heading="424"/>
+    <position pos="1" left="1" wing="0"/>
   </player>
   <player id="90165">
     <personal name="Vicente Farina">
       <appearance value="0"/>
       <nationality value="Paraguay"/>
     </personal>
-    <personality active="531" risktaking="266" offensive="473" aggressive="496" consistent="593" creative="459" experienced="639"/>
-    <skills stamina="537" dexterity="508" speed="195" tackling="471" passing="391" shooting="392" control="460" accuracy="444" goalkeeping="59" heading="378"/>
+    <personality active="479" risktaking="552" offensive="217" aggressive="289" consistent="450" creative="790" experienced="559"/>
+    <skills stamina="377" dexterity="592" speed="257" tackling="489" passing="487" shooting="315" control="333" accuracy="402" goalkeeping="80" heading="453"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90166">
@@ -1499,8 +1499,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="538" risktaking="777" offensive="531" aggressive="765" consistent="319" creative="214" experienced="617"/>
-    <skills stamina="645" dexterity="486" speed="563" tackling="453" passing="400" shooting="290" control="366" accuracy="325" goalkeeping="59" heading="400"/>
+    <personality active="645" risktaking="604" offensive="295" aggressive="472" consistent="130" creative="613" experienced="735"/>
+    <skills stamina="462" dexterity="252" speed="325" tackling="396" passing="367" shooting="392" control="444" accuracy="425" goalkeeping="54" heading="307"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90167">
@@ -1508,8 +1508,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="506" risktaking="297" offensive="399" aggressive="481" consistent="589" creative="702" experienced="354"/>
-    <skills stamina="562" dexterity="706" speed="259" tackling="440" passing="454" shooting="404" control="517" accuracy="497" goalkeeping="80" heading="447"/>
+    <personality active="705" risktaking="297" offensive="674" aggressive="582" consistent="343" creative="453" experienced="461"/>
+    <skills stamina="630" dexterity="226" speed="474" tackling="453" passing="469" shooting="478" control="545" accuracy="455" goalkeeping="75" heading="428"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="90168">
@@ -1517,8 +1517,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="519" risktaking="689" offensive="491" aggressive="592" consistent="817" creative="496" experienced="448"/>
-    <skills stamina="347" dexterity="664" speed="664" tackling="354" passing="429" shooting="327" control="457" accuracy="324" goalkeeping="56" heading="400"/>
+    <personality active="460" risktaking="498" offensive="391" aggressive="421" consistent="664" creative="494" experienced="455"/>
+    <skills stamina="472" dexterity="411" speed="262" tackling="397" passing="392" shooting="365" control="498" accuracy="350" goalkeeping="81" heading="420"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="90169">
@@ -1526,8 +1526,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="690" risktaking="743" offensive="663" aggressive="484" consistent="733" creative="545" experienced="593"/>
-    <skills stamina="367" dexterity="194" speed="455" tackling="456" passing="436" shooting="355" control="344" accuracy="296" goalkeeping="63" heading="404"/>
+    <personality active="636" risktaking="574" offensive="470" aggressive="680" consistent="584" creative="431" experienced="331"/>
+    <skills stamina="564" dexterity="718" speed="160" tackling="413" passing="493" shooting="313" control="464" accuracy="296" goalkeeping="61" heading="369"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90170">
@@ -1535,8 +1535,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="547" risktaking="352" offensive="385" aggressive="334" consistent="326" creative="567" experienced="581"/>
-    <skills stamina="408" dexterity="525" speed="463" tackling="450" passing="495" shooting="315" control="384" accuracy="354" goalkeeping="71" heading="466"/>
+    <personality active="593" risktaking="555" offensive="374" aggressive="492" consistent="485" creative="442" experienced="813"/>
+    <skills stamina="320" dexterity="296" speed="161" tackling="376" passing="386" shooting="357" control="440" accuracy="465" goalkeeping="60" heading="470"/>
     <position pos="2" left="1" wing="0"/>
   </player>
   <player id="90171">
@@ -1544,17 +1544,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="508" risktaking="522" offensive="651" aggressive="429" consistent="661" creative="203" experienced="502"/>
-    <skills stamina="637" dexterity="261" speed="189" tackling="325" passing="508" shooting="307" control="297" accuracy="470" goalkeeping="59" heading="299"/>
-    <position pos="2" left="0" wing="0"/>
+    <personality active="723" risktaking="336" offensive="655" aggressive="738" consistent="371" creative="798" experienced="340"/>
+    <skills stamina="293" dexterity="538" speed="373" tackling="372" passing="479" shooting="304" control="313" accuracy="450" goalkeeping="59" heading="456"/>
+    <position pos="2" left="1" wing="0"/>
   </player>
   <player id="90172">
     <personal name="Adrian Soto">
       <appearance value="0"/>
       <nationality value="Argentina"/>
     </personal>
-    <personality active="571" risktaking="212" offensive="490" aggressive="267" consistent="256" creative="430" experienced="714"/>
-    <skills stamina="238" dexterity="206" speed="573" tackling="394" passing="504" shooting="356" control="411" accuracy="288" goalkeeping="54" heading="474"/>
+    <personality active="564" risktaking="721" offensive="560" aggressive="502" consistent="525" creative="513" experienced="100"/>
+    <skills stamina="236" dexterity="159" speed="433" tackling="372" passing="296" shooting="468" control="494" accuracy="315" goalkeeping="66" heading="308"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90173">
@@ -1562,26 +1562,26 @@
       <appearance value="0"/>
       <nationality value="Brazil"/>
     </personal>
-    <personality active="480" risktaking="378" offensive="258" aggressive="353" consistent="624" creative="299" experienced="306"/>
-    <skills stamina="161" dexterity="618" speed="574" tackling="306" passing="353" shooting="467" control="314" accuracy="500" goalkeeping="62" heading="466"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="546" risktaking="585" offensive="758" aggressive="424" consistent="515" creative="445" experienced="582"/>
+    <skills stamina="157" dexterity="400" speed="586" tackling="319" passing="433" shooting="453" control="307" accuracy="464" goalkeeping="71" heading="391"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90174">
     <personal name="Jose Mendez">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="339" risktaking="395" offensive="418" aggressive="538" consistent="631" creative="448" experienced="407"/>
-    <skills stamina="271" dexterity="321" speed="506" tackling="392" passing="429" shooting="521" control="419" accuracy="547" goalkeeping="63" heading="442"/>
-    <position pos="3" left="0" wing="0"/>
+    <personality active="383" risktaking="383" offensive="616" aggressive="272" consistent="790" creative="895" experienced="395"/>
+    <skills stamina="655" dexterity="267" speed="186" tackling="420" passing="449" shooting="476" control="310" accuracy="428" goalkeeping="79" heading="452"/>
+    <position pos="3" left="1" wing="0"/>
   </player>
   <player id="90175">
     <personal name="Gabriel Taricollao">
       <appearance value="0"/>
       <nationality value="Brazil"/>
     </personal>
-    <personality active="711" risktaking="466" offensive="274" aggressive="431" consistent="541" creative="500" experienced="520"/>
-    <skills stamina="148" dexterity="196" speed="482" tackling="256" passing="283" shooting="389" control="401" accuracy="362" goalkeeping="70" heading="304"/>
+    <personality active="649" risktaking="445" offensive="483" aggressive="652" consistent="192" creative="425" experienced="294"/>
+    <skills stamina="171" dexterity="126" speed="330" tackling="279" passing="399" shooting="359" control="398" accuracy="377" goalkeeping="53" heading="385"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90176">
@@ -1589,17 +1589,17 @@
       <appearance value="0"/>
       <nationality value="Argentina"/>
     </personal>
-    <personality active="473" risktaking="563" offensive="764" aggressive="247" consistent="465" creative="419" experienced="578"/>
-    <skills stamina="284" dexterity="601" speed="411" tackling="192" passing="344" shooting="357" control="312" accuracy="188" goalkeeping="488" heading="170"/>
-    <position pos="0" left="0" wing="0"/>
+    <personality active="592" risktaking="512" offensive="673" aggressive="683" consistent="484" creative="347" experienced="584"/>
+    <skills stamina="597" dexterity="384" speed="497" tackling="209" passing="314" shooting="336" control="379" accuracy="207" goalkeeping="442" heading="248"/>
+    <position pos="0" left="1" wing="0"/>
   </player>
   <player id="90177">
     <personal name="Carlo Laime">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="286" risktaking="614" offensive="715" aggressive="377" consistent="404" creative="729" experienced="470"/>
-    <skills stamina="309" dexterity="473" speed="221" tackling="162" passing="310" shooting="306" control="328" accuracy="177" goalkeeping="385" heading="126"/>
+    <personality active="588" risktaking="534" offensive="705" aggressive="622" consistent="583" creative="299" experienced="303"/>
+    <skills stamina="573" dexterity="523" speed="143" tackling="164" passing="417" shooting="421" control="356" accuracy="215" goalkeeping="355" heading="186"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90178">
@@ -1607,8 +1607,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="514" risktaking="138" offensive="528" aggressive="398" consistent="520" creative="518" experienced="326"/>
-    <skills stamina="368" dexterity="399" speed="636" tackling="489" passing="372" shooting="407" control="382" accuracy="394" goalkeeping="68" heading="455"/>
+    <personality active="312" risktaking="887" offensive="630" aggressive="700" consistent="624" creative="600" experienced="466"/>
+    <skills stamina="606" dexterity="196" speed="514" tackling="363" passing="510" shooting="465" control="494" accuracy="313" goalkeeping="52" heading="337"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="90179">
@@ -1616,8 +1616,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="351" risktaking="431" offensive="701" aggressive="608" consistent="405" creative="313" experienced="680"/>
-    <skills stamina="679" dexterity="191" speed="557" tackling="512" passing="489" shooting="466" control="372" accuracy="326" goalkeeping="73" heading="395"/>
+    <personality active="516" risktaking="412" offensive="451" aggressive="600" consistent="497" creative="693" experienced="448"/>
+    <skills stamina="455" dexterity="711" speed="274" tackling="403" passing="484" shooting="327" control="395" accuracy="440" goalkeeping="52" heading="412"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="90180">
@@ -1625,8 +1625,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="600" risktaking="467" offensive="509" aggressive="327" consistent="359" creative="822" experienced="267"/>
-    <skills stamina="280" dexterity="501" speed="575" tackling="353" passing="452" shooting="456" control="442" accuracy="442" goalkeeping="78" heading="343"/>
+    <personality active="386" risktaking="297" offensive="592" aggressive="659" consistent="512" creative="490" experienced="457"/>
+    <skills stamina="194" dexterity="224" speed="493" tackling="422" passing="425" shooting="490" control="427" accuracy="331" goalkeeping="54" heading="430"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90181">
@@ -1634,8 +1634,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="521" risktaking="519" offensive="279" aggressive="744" consistent="706" creative="655" experienced="460"/>
-    <skills stamina="359" dexterity="356" speed="316" tackling="398" passing="540" shooting="350" control="403" accuracy="313" goalkeeping="70" heading="390"/>
+    <personality active="374" risktaking="568" offensive="697" aggressive="440" consistent="658" creative="698" experienced="743"/>
+    <skills stamina="304" dexterity="533" speed="678" tackling="503" passing="465" shooting="479" control="498" accuracy="314" goalkeeping="71" heading="416"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90182">
@@ -1643,8 +1643,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="459" risktaking="567" offensive="650" aggressive="693" consistent="474" creative="212" experienced="713"/>
-    <skills stamina="194" dexterity="627" speed="618" tackling="502" passing="335" shooting="306" control="364" accuracy="371" goalkeeping="60" heading="384"/>
+    <personality active="456" risktaking="347" offensive="605" aggressive="403" consistent="577" creative="693" experienced="576"/>
+    <skills stamina="214" dexterity="237" speed="239" tackling="337" passing="480" shooting="357" control="485" accuracy="403" goalkeeping="78" heading="353"/>
     <position pos="1" left="1" wing="0"/>
   </player>
   <player id="90183">
@@ -1652,8 +1652,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="317" risktaking="546" offensive="461" aggressive="489" consistent="470" creative="663" experienced="390"/>
-    <skills stamina="208" dexterity="323" speed="569" tackling="508" passing="426" shooting="313" control="426" accuracy="438" goalkeeping="66" heading="276"/>
+    <personality active="552" risktaking="383" offensive="729" aggressive="467" consistent="424" creative="574" experienced="582"/>
+    <skills stamina="265" dexterity="384" speed="493" tackling="318" passing="321" shooting="271" control="303" accuracy="349" goalkeeping="49" heading="426"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90184">
@@ -1661,8 +1661,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="525" risktaking="836" offensive="393" aggressive="635" consistent="262" creative="357" experienced="263"/>
-    <skills stamina="339" dexterity="503" speed="230" tackling="404" passing="368" shooting="385" control="373" accuracy="503" goalkeeping="77" heading="512"/>
+    <personality active="160" risktaking="311" offensive="710" aggressive="522" consistent="375" creative="257" experienced="293"/>
+    <skills stamina="662" dexterity="454" speed="225" tackling="499" passing="497" shooting="519" control="488" accuracy="372" goalkeeping="66" heading="411"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="90185">
@@ -1670,8 +1670,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="570" risktaking="477" offensive="560" aggressive="493" consistent="754" creative="428" experienced="744"/>
-    <skills stamina="685" dexterity="360" speed="444" tackling="463" passing="514" shooting="365" control="421" accuracy="407" goalkeeping="57" heading="387"/>
+    <personality active="658" risktaking="500" offensive="597" aggressive="568" consistent="538" creative="578" experienced="283"/>
+    <skills stamina="519" dexterity="727" speed="300" tackling="449" passing="466" shooting="280" control="492" accuracy="281" goalkeeping="52" heading="395"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="90186">
@@ -1679,17 +1679,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="448" risktaking="399" offensive="326" aggressive="540" consistent="688" creative="509" experienced="700"/>
-    <skills stamina="205" dexterity="423" speed="399" tackling="361" passing="475" shooting="392" control="417" accuracy="458" goalkeeping="75" heading="468"/>
-    <position pos="2" left="1" wing="0"/>
+    <personality active="309" risktaking="525" offensive="504" aggressive="488" consistent="514" creative="596" experienced="561"/>
+    <skills stamina="178" dexterity="561" speed="608" tackling="485" passing="488" shooting="454" control="435" accuracy="427" goalkeeping="67" heading="406"/>
+    <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90187">
     <personal name="Fernando Zabala">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="574" risktaking="543" offensive="718" aggressive="503" consistent="558" creative="806" experienced="416"/>
-    <skills stamina="489" dexterity="267" speed="402" tackling="439" passing="436" shooting="338" control="343" accuracy="498" goalkeeping="52" heading="493"/>
+    <personality active="605" risktaking="314" offensive="437" aggressive="606" consistent="710" creative="587" experienced="454"/>
+    <skills stamina="552" dexterity="485" speed="190" tackling="416" passing="498" shooting="316" control="526" accuracy="366" goalkeeping="69" heading="423"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90188">
@@ -1697,8 +1697,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="657" risktaking="774" offensive="454" aggressive="556" consistent="500" creative="571" experienced="474"/>
-    <skills stamina="416" dexterity="273" speed="236" tackling="352" passing="408" shooting="332" control="291" accuracy="335" goalkeeping="69" heading="291"/>
+    <personality active="670" risktaking="553" offensive="621" aggressive="528" consistent="503" creative="750" experienced="594"/>
+    <skills stamina="232" dexterity="499" speed="252" tackling="413" passing="426" shooting="415" control="473" accuracy="387" goalkeeping="71" heading="304"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90189">
@@ -1706,8 +1706,8 @@
       <appearance value="0"/>
       <nationality value="Brazil"/>
     </personal>
-    <personality active="422" risktaking="667" offensive="353" aggressive="369" consistent="514" creative="408" experienced="328"/>
-    <skills stamina="401" dexterity="229" speed="566" tackling="379" passing="336" shooting="462" control="397" accuracy="507" goalkeeping="65" heading="379"/>
+    <personality active="281" risktaking="482" offensive="554" aggressive="627" consistent="784" creative="465" experienced="619"/>
+    <skills stamina="326" dexterity="181" speed="283" tackling="348" passing="492" shooting="469" control="335" accuracy="603" goalkeeping="85" heading="456"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90190">
@@ -1715,17 +1715,17 @@
       <appearance value="1"/>
       <nationality value="Angola"/>
     </personal>
-    <personality active="387" risktaking="307" offensive="511" aggressive="691" consistent="461" creative="649" experienced="597"/>
-    <skills stamina="616" dexterity="564" speed="541" tackling="353" passing="398" shooting="484" control="388" accuracy="406" goalkeeping="84" heading="349"/>
-    <position pos="3" left="0" wing="0"/>
+    <personality active="353" risktaking="448" offensive="663" aggressive="756" consistent="643" creative="674" experienced="697"/>
+    <skills stamina="469" dexterity="537" speed="572" tackling="333" passing="403" shooting="433" control="432" accuracy="375" goalkeeping="65" heading="369"/>
+    <position pos="3" left="1" wing="0"/>
   </player>
   <player id="90191">
     <personal name="Nestor Orellana">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="563" risktaking="310" offensive="694" aggressive="195" consistent="444" creative="474" experienced="552"/>
-    <skills stamina="641" dexterity="346" speed="452" tackling="427" passing="294" shooting="317" control="433" accuracy="343" goalkeeping="49" heading="456"/>
+    <personality active="696" risktaking="656" offensive="824" aggressive="582" consistent="304" creative="445" experienced="670"/>
+    <skills stamina="482" dexterity="204" speed="305" tackling="384" passing="383" shooting="323" control="375" accuracy="374" goalkeeping="61" heading="421"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90192">
@@ -1733,8 +1733,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="311" risktaking="815" offensive="542" aggressive="426" consistent="630" creative="473" experienced="564"/>
-    <skills stamina="728" dexterity="627" speed="237" tackling="204" passing="422" shooting="401" control="460" accuracy="204" goalkeeping="479" heading="250"/>
+    <personality active="283" risktaking="440" offensive="394" aggressive="260" consistent="586" creative="585" experienced="877"/>
+    <skills stamina="632" dexterity="667" speed="666" tackling="193" passing="483" shooting="428" control="457" accuracy="199" goalkeeping="522" heading="215"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90193">
@@ -1742,8 +1742,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="355" risktaking="439" offensive="258" aggressive="476" consistent="554" creative="491" experienced="268"/>
-    <skills stamina="499" dexterity="227" speed="184" tackling="239" passing="426" shooting="421" control="406" accuracy="213" goalkeeping="432" heading="249"/>
+    <personality active="487" risktaking="684" offensive="582" aggressive="743" consistent="641" creative="686" experienced="823"/>
+    <skills stamina="213" dexterity="469" speed="445" tackling="264" passing="423" shooting="455" control="277" accuracy="249" goalkeeping="564" heading="220"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90194">
@@ -1751,8 +1751,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="317" risktaking="318" offensive="347" aggressive="224" consistent="413" creative="538" experienced="519"/>
-    <skills stamina="639" dexterity="368" speed="634" tackling="434" passing="486" shooting="517" control="527" accuracy="425" goalkeeping="68" heading="462"/>
+    <personality active="545" risktaking="708" offensive="622" aggressive="716" consistent="367" creative="323" experienced="497"/>
+    <skills stamina="214" dexterity="268" speed="688" tackling="479" passing="448" shooting="515" control="411" accuracy="522" goalkeeping="73" heading="415"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="90195">
@@ -1760,8 +1760,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="363" risktaking="791" offensive="604" aggressive="457" consistent="429" creative="458" experienced="546"/>
-    <skills stamina="572" dexterity="490" speed="527" tackling="445" passing="435" shooting="405" control="412" accuracy="464" goalkeeping="81" heading="375"/>
+    <personality active="522" risktaking="281" offensive="638" aggressive="268" consistent="351" creative="525" experienced="439"/>
+    <skills stamina="410" dexterity="524" speed="360" tackling="488" passing="517" shooting="445" control="472" accuracy="391" goalkeeping="76" heading="482"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="90196">
@@ -1769,26 +1769,26 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="682" risktaking="313" offensive="463" aggressive="336" consistent="398" creative="446" experienced="414"/>
-    <skills stamina="203" dexterity="656" speed="593" tackling="549" passing="479" shooting="569" control="493" accuracy="417" goalkeeping="63" heading="497"/>
-    <position pos="1" left="1" wing="0"/>
+    <personality active="371" risktaking="410" offensive="265" aggressive="410" consistent="383" creative="658" experienced="51"/>
+    <skills stamina="722" dexterity="642" speed="623" tackling="516" passing="541" shooting="482" control="586" accuracy="537" goalkeeping="90" heading="423"/>
+    <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90197">
     <personal name="Daniel Ferrufino">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="441" risktaking="459" offensive="569" aggressive="431" consistent="503" creative="388" experienced="605"/>
-    <skills stamina="695" dexterity="546" speed="393" tackling="521" passing="446" shooting="384" control="524" accuracy="467" goalkeeping="66" heading="365"/>
-    <position pos="1" left="1" wing="0"/>
+    <personality active="590" risktaking="627" offensive="445" aggressive="633" consistent="414" creative="549" experienced="549"/>
+    <skills stamina="596" dexterity="584" speed="185" tackling="511" passing="570" shooting="519" control="394" accuracy="438" goalkeeping="75" heading="471"/>
+    <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90198">
     <personal name="Olsen Borja">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="590" risktaking="565" offensive="283" aggressive="361" consistent="312" creative="583" experienced="611"/>
-    <skills stamina="471" dexterity="617" speed="700" tackling="486" passing="487" shooting="500" control="411" accuracy="452" goalkeeping="69" heading="507"/>
+    <personality active="490" risktaking="648" offensive="527" aggressive="191" consistent="607" creative="679" experienced="604"/>
+    <skills stamina="364" dexterity="568" speed="533" tackling="387" passing="529" shooting="543" control="429" accuracy="460" goalkeeping="84" heading="430"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90199">
@@ -1796,8 +1796,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="487" risktaking="532" offensive="471" aggressive="349" consistent="305" creative="667" experienced="458"/>
-    <skills stamina="521" dexterity="612" speed="443" tackling="545" passing="499" shooting="404" control="580" accuracy="497" goalkeeping="69" heading="474"/>
+    <personality active="664" risktaking="574" offensive="283" aggressive="497" consistent="617" creative="534" experienced="481"/>
+    <skills stamina="724" dexterity="357" speed="324" tackling="385" passing="612" shooting="529" control="435" accuracy="454" goalkeeping="87" heading="544"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="90200">
@@ -1805,8 +1805,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="730" risktaking="435" offensive="678" aggressive="373" consistent="612" creative="523" experienced="257"/>
-    <skills stamina="529" dexterity="562" speed="566" tackling="497" passing="594" shooting="457" control="586" accuracy="568" goalkeeping="70" heading="560"/>
+    <personality active="673" risktaking="717" offensive="390" aggressive="490" consistent="303" creative="633" experienced="618"/>
+    <skills stamina="488" dexterity="612" speed="334" tackling="536" passing="472" shooting="534" control="557" accuracy="394" goalkeeping="90" heading="456"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="90201">
@@ -1814,8 +1814,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="466" risktaking="350" offensive="250" aggressive="513" consistent="403" creative="473" experienced="749"/>
-    <skills stamina="386" dexterity="525" speed="381" tackling="578" passing="561" shooting="539" control="451" accuracy="471" goalkeeping="89" heading="460"/>
+    <personality active="361" risktaking="721" offensive="512" aggressive="725" consistent="684" creative="273" experienced="399"/>
+    <skills stamina="466" dexterity="681" speed="205" tackling="606" passing="412" shooting="382" control="549" accuracy="406" goalkeeping="73" heading="399"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90202">
@@ -1823,8 +1823,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="498" risktaking="665" offensive="289" aggressive="203" consistent="312" creative="449" experienced="375"/>
-    <skills stamina="517" dexterity="609" speed="569" tackling="416" passing="440" shooting="355" control="494" accuracy="353" goalkeeping="64" heading="523"/>
+    <personality active="386" risktaking="434" offensive="434" aggressive="723" consistent="513" creative="483" experienced="502"/>
+    <skills stamina="285" dexterity="514" speed="556" tackling="471" passing="492" shooting="456" control="504" accuracy="420" goalkeeping="68" heading="537"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90203">
@@ -1832,8 +1832,8 @@
       <appearance value="0"/>
       <nationality value="Paraguay"/>
     </personal>
-    <personality active="681" risktaking="491" offensive="413" aggressive="219" consistent="391" creative="352" experienced="544"/>
-    <skills stamina="370" dexterity="701" speed="355" tackling="432" passing="495" shooting="468" control="383" accuracy="548" goalkeeping="68" heading="513"/>
+    <personality active="463" risktaking="384" offensive="565" aggressive="521" consistent="620" creative="380" experienced="635"/>
+    <skills stamina="606" dexterity="757" speed="270" tackling="398" passing="553" shooting="402" control="411" accuracy="427" goalkeeping="85" heading="524"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90204">
@@ -1841,8 +1841,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="602" risktaking="601" offensive="545" aggressive="494" consistent="243" creative="512" experienced="490"/>
-    <skills stamina="679" dexterity="634" speed="234" tackling="467" passing="512" shooting="496" control="464" accuracy="497" goalkeeping="76" heading="423"/>
+    <personality active="697" risktaking="578" offensive="344" aggressive="496" consistent="616" creative="115" experienced="671"/>
+    <skills stamina="750" dexterity="228" speed="366" tackling="544" passing="547" shooting="564" control="424" accuracy="510" goalkeeping="89" heading="415"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90205">
@@ -1850,8 +1850,8 @@
       <appearance value="0"/>
       <nationality value="Paraguay"/>
     </personal>
-    <personality active="288" risktaking="497" offensive="500" aggressive="613" consistent="438" creative="605" experienced="441"/>
-    <skills stamina="344" dexterity="609" speed="622" tackling="534" passing="528" shooting="570" control="531" accuracy="496" goalkeeping="71" heading="389"/>
+    <personality active="320" risktaking="537" offensive="683" aggressive="638" consistent="561" creative="369" experienced="712"/>
+    <skills stamina="736" dexterity="204" speed="498" tackling="479" passing="493" shooting="542" control="571" accuracy="481" goalkeeping="85" heading="422"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90206">
@@ -1859,8 +1859,8 @@
       <appearance value="0"/>
       <nationality value="Argentina"/>
     </personal>
-    <personality active="417" risktaking="383" offensive="356" aggressive="511" consistent="601" creative="373" experienced="839"/>
-    <skills stamina="592" dexterity="587" speed="383" tackling="442" passing="516" shooting="482" control="394" accuracy="512" goalkeeping="68" heading="486"/>
+    <personality active="393" risktaking="454" offensive="438" aggressive="567" consistent="436" creative="408" experienced="284"/>
+    <skills stamina="718" dexterity="493" speed="198" tackling="372" passing="523" shooting="510" control="556" accuracy="488" goalkeeping="83" heading="387"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90207">
@@ -1868,17 +1868,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="530" risktaking="338" offensive="712" aggressive="479" consistent="384" creative="433" experienced="525"/>
-    <skills stamina="310" dexterity="642" speed="308" tackling="514" passing="440" shooting="605" control="547" accuracy="513" goalkeeping="89" heading="545"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="298" risktaking="853" offensive="475" aggressive="518" consistent="522" creative="490" experienced="640"/>
+    <skills stamina="593" dexterity="432" speed="501" tackling="456" passing="429" shooting="543" control="484" accuracy="596" goalkeeping="72" heading="453"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90208">
     <personal name="Juan Bernuncio">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="503" risktaking="570" offensive="450" aggressive="901" consistent="318" creative="297" experienced="578"/>
-    <skills stamina="330" dexterity="380" speed="657" tackling="254" passing="421" shooting="532" control="307" accuracy="265" goalkeeping="563" heading="251"/>
+    <personality active="544" risktaking="706" offensive="479" aggressive="465" consistent="433" creative="471" experienced="593"/>
+    <skills stamina="588" dexterity="433" speed="622" tackling="232" passing="460" shooting="405" control="393" accuracy="254" goalkeeping="418" heading="198"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90209">
@@ -1886,8 +1886,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="758" risktaking="548" offensive="322" aggressive="647" consistent="498" creative="500" experienced="640"/>
-    <skills stamina="663" dexterity="454" speed="350" tackling="258" passing="511" shooting="461" control="406" accuracy="253" goalkeeping="494" heading="200"/>
+    <personality active="683" risktaking="430" offensive="610" aggressive="193" consistent="639" creative="608" experienced="189"/>
+    <skills stamina="307" dexterity="416" speed="557" tackling="164" passing="407" shooting="436" control="276" accuracy="179" goalkeeping="457" heading="252"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="90210">
@@ -1895,8 +1895,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="655" risktaking="441" offensive="532" aggressive="539" consistent="572" creative="500" experienced="141"/>
-    <skills stamina="612" dexterity="478" speed="381" tackling="463" passing="475" shooting="515" control="505" accuracy="478" goalkeeping="77" heading="413"/>
+    <personality active="493" risktaking="596" offensive="345" aggressive="409" consistent="342" creative="697" experienced="647"/>
+    <skills stamina="206" dexterity="615" speed="461" tackling="380" passing="469" shooting="459" control="390" accuracy="396" goalkeeping="70" heading="440"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="90211">
@@ -1904,8 +1904,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="535" risktaking="519" offensive="419" aggressive="280" consistent="581" creative="670" experienced="591"/>
-    <skills stamina="697" dexterity="463" speed="597" tackling="519" passing="358" shooting="336" control="428" accuracy="458" goalkeeping="68" heading="447"/>
+    <personality active="238" risktaking="426" offensive="533" aggressive="633" consistent="748" creative="217" experienced="571"/>
+    <skills stamina="373" dexterity="692" speed="468" tackling="543" passing="463" shooting="529" control="422" accuracy="347" goalkeeping="74" heading="443"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="90212">
@@ -1913,8 +1913,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="547" risktaking="460" offensive="425" aggressive="492" consistent="195" creative="587" experienced="647"/>
-    <skills stamina="670" dexterity="216" speed="699" tackling="332" passing="523" shooting="408" control="373" accuracy="363" goalkeeping="81" heading="368"/>
+    <personality active="478" risktaking="547" offensive="368" aggressive="633" consistent="553" creative="669" experienced="629"/>
+    <skills stamina="602" dexterity="625" speed="231" tackling="412" passing="400" shooting="356" control="481" accuracy="514" goalkeeping="76" heading="419"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90213">
@@ -1922,8 +1922,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="428" risktaking="535" offensive="632" aggressive="223" consistent="572" creative="426" experienced="356"/>
-    <skills stamina="225" dexterity="242" speed="212" tackling="624" passing="473" shooting="397" control="500" accuracy="486" goalkeeping="68" heading="530"/>
+    <personality active="514" risktaking="779" offensive="587" aggressive="373" consistent="774" creative="494" experienced="455"/>
+    <skills stamina="708" dexterity="466" speed="581" tackling="541" passing="440" shooting="511" control="392" accuracy="394" goalkeeping="66" heading="488"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90214">
@@ -1931,8 +1931,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="627" risktaking="537" offensive="404" aggressive="356" consistent="385" creative="661" experienced="584"/>
-    <skills stamina="537" dexterity="386" speed="558" tackling="496" passing="380" shooting="425" control="441" accuracy="458" goalkeeping="53" heading="469"/>
+    <personality active="562" risktaking="859" offensive="311" aggressive="505" consistent="725" creative="504" experienced="783"/>
+    <skills stamina="616" dexterity="439" speed="193" tackling="471" passing="328" shooting="439" control="327" accuracy="435" goalkeeping="60" heading="477"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="90215">
@@ -1940,8 +1940,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="501" risktaking="675" offensive="483" aggressive="502" consistent="375" creative="440" experienced="293"/>
-    <skills stamina="656" dexterity="289" speed="448" tackling="400" passing="515" shooting="425" control="369" accuracy="389" goalkeeping="68" heading="536"/>
+    <personality active="542" risktaking="655" offensive="604" aggressive="655" consistent="589" creative="335" experienced="573"/>
+    <skills stamina="231" dexterity="371" speed="704" tackling="447" passing="378" shooting="455" control="416" accuracy="502" goalkeeping="76" heading="376"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="90216">
@@ -1949,8 +1949,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="462" risktaking="589" offensive="428" aggressive="474" consistent="388" creative="710" experienced="372"/>
-    <skills stamina="657" dexterity="325" speed="330" tackling="541" passing="544" shooting="503" control="557" accuracy="433" goalkeeping="79" heading="385"/>
+    <personality active="414" risktaking="670" offensive="545" aggressive="257" consistent="227" creative="370" experienced="414"/>
+    <skills stamina="382" dexterity="366" speed="566" tackling="381" passing="483" shooting="520" control="490" accuracy="369" goalkeeping="91" heading="500"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="90217">
@@ -1958,17 +1958,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="396" risktaking="451" offensive="172" aggressive="446" consistent="405" creative="365" experienced="369"/>
-    <skills stamina="734" dexterity="288" speed="705" tackling="522" passing="402" shooting="484" control="560" accuracy="469" goalkeeping="78" heading="521"/>
-    <position pos="2" left="1" wing="0"/>
+    <personality active="517" risktaking="481" offensive="566" aggressive="454" consistent="432" creative="285" experienced="602"/>
+    <skills stamina="370" dexterity="368" speed="321" tackling="588" passing="501" shooting="381" control="428" accuracy="409" goalkeeping="91" heading="501"/>
+    <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90218">
     <personal name="Nicolas Baptista">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="431" risktaking="751" offensive="568" aggressive="479" consistent="483" creative="719" experienced="696"/>
-    <skills stamina="627" dexterity="400" speed="680" tackling="512" passing="538" shooting="493" control="421" accuracy="428" goalkeeping="66" heading="484"/>
+    <personality active="661" risktaking="309" offensive="458" aggressive="287" consistent="533" creative="727" experienced="584"/>
+    <skills stamina="216" dexterity="291" speed="230" tackling="498" passing="384" shooting="363" control="509" accuracy="358" goalkeeping="60" heading="333"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90219">
@@ -1976,8 +1976,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="133" risktaking="615" offensive="394" aggressive="242" consistent="663" creative="619" experienced="405"/>
-    <skills stamina="287" dexterity="404" speed="334" tackling="475" passing="408" shooting="518" control="383" accuracy="383" goalkeeping="71" heading="404"/>
+    <personality active="691" risktaking="388" offensive="252" aggressive="798" consistent="776" creative="556" experienced="472"/>
+    <skills stamina="230" dexterity="194" speed="402" tackling="466" passing="516" shooting="452" control="485" accuracy="412" goalkeeping="64" heading="358"/>
     <position pos="2" left="1" wing="0"/>
   </player>
   <player id="90220">
@@ -1985,8 +1985,8 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="429" risktaking="516" offensive="470" aggressive="623" consistent="336" creative="446" experienced="215"/>
-    <skills stamina="557" dexterity="241" speed="179" tackling="461" passing="550" shooting="435" control="462" accuracy="364" goalkeeping="83" heading="316"/>
+    <personality active="596" risktaking="737" offensive="399" aggressive="571" consistent="589" creative="410" experienced="566"/>
+    <skills stamina="214" dexterity="495" speed="208" tackling="338" passing="354" shooting="321" control="381" accuracy="363" goalkeeping="69" heading="313"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="90221">
@@ -1994,8 +1994,8 @@
       <appearance value="0"/>
       <nationality value="Paraguay"/>
     </personal>
-    <personality active="438" risktaking="612" offensive="482" aggressive="418" consistent="27" creative="605" experienced="413"/>
-    <skills stamina="526" dexterity="502" speed="278" tackling="487" passing="415" shooting="581" control="494" accuracy="566" goalkeeping="79" heading="616"/>
+    <personality active="540" risktaking="137" offensive="572" aggressive="418" consistent="137" creative="481" experienced="564"/>
+    <skills stamina="272" dexterity="276" speed="606" tackling="569" passing="399" shooting="466" control="552" accuracy="461" goalkeeping="89" heading="493"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="90222">
@@ -2003,17 +2003,17 @@
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="584" risktaking="316" offensive="585" aggressive="475" consistent="538" creative="358" experienced="682"/>
-    <skills stamina="398" dexterity="716" speed="672" tackling="415" passing="529" shooting="391" control="512" accuracy="506" goalkeeping="84" heading="446"/>
-    <position pos="3" left="0" wing="0"/>
+    <personality active="742" risktaking="281" offensive="604" aggressive="501" consistent="582" creative="643" experienced="461"/>
+    <skills stamina="652" dexterity="644" speed="518" tackling="506" passing="495" shooting="423" control="470" accuracy="399" goalkeeping="67" heading="515"/>
+    <position pos="3" left="1" wing="0"/>
   </player>
   <player id="90223">
     <personal name="Heberth Yabeta">
       <appearance value="0"/>
       <nationality value="Bolivia"/>
     </personal>
-    <personality active="578" risktaking="398" offensive="645" aggressive="646" consistent="519" creative="607" experienced="388"/>
-    <skills stamina="389" dexterity="266" speed="368" tackling="435" passing="397" shooting="489" control="391" accuracy="444" goalkeeping="79" heading="412"/>
+    <personality active="570" risktaking="536" offensive="151" aggressive="517" consistent="634" creative="52" experienced="400"/>
+    <skills stamina="279" dexterity="542" speed="202" tackling="344" passing="416" shooting="394" control="331" accuracy="413" goalkeeping="61" heading="390"/>
     <position pos="3" left="0" wing="0"/>
   </player>
 </Players>

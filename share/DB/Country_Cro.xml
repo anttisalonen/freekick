@@ -3,18 +3,18 @@
   <Country name="Croatia">
     <Regions>
       <Region name="Croatia">
-        <stadium name="Cibalia Stadium" capacity="3600"/>
-        <stadium name="Dinamo Zagreb Stadium" capacity="17600"/>
-        <stadium name="Hajduk Split Stadium" capacity="14900"/>
-        <stadium name="Inter Zapresic Stadium" capacity="4600"/>
-        <stadium name="Zadar Stadium" capacity="5000"/>
-        <stadium name="Medjimurje Stadium" capacity="3400"/>
-        <stadium name="Nk Zagreb Stadium" capacity="6600"/>
-        <stadium name="Osijek Stadium" capacity="6700"/>
-        <stadium name="Rijeka Stadium" capacity="9200"/>
-        <stadium name="Slaven Belupo Stadium" capacity="4300"/>
-        <stadium name="Sibenik Stadium" capacity="3900"/>
-        <stadium name="Varteks Stadium" capacity="3800"/>
+        <stadium name="Cibalia Stadium" capacity="4100"/>
+        <stadium name="Dinamo Zagreb Stadium" capacity="20200"/>
+        <stadium name="Hajduk Split Stadium" capacity="14700"/>
+        <stadium name="Inter Zapresic Stadium" capacity="5600"/>
+        <stadium name="Zadar Stadium" capacity="4200"/>
+        <stadium name="Medjimurje Stadium" capacity="5000"/>
+        <stadium name="Nk Zagreb Stadium" capacity="5200"/>
+        <stadium name="Osijek Stadium" capacity="9700"/>
+        <stadium name="Rijeka Stadium" capacity="7800"/>
+        <stadium name="Slaven Belupo Stadium" capacity="3800"/>
+        <stadium name="Sibenik Stadium" capacity="2700"/>
+        <stadium name="Varteks Stadium" capacity="4900"/>
       </Region>
     </Regions>
     <leaguesystem name="Croatian league">
@@ -51,15 +51,15 @@
     <Tournaments>
       <tournament name="Croatian Cup">
         <stage name="Final" type="1">
-          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
           <trophy name="Croatian Cup champion"/>
         </stage>
         <stage name="Semifinals" type="1">
-          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
           <cuppr stage="Final"/>
         </stage>
         <stage name="Quarterfinals" type="1">
-          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
           <cuppr stage="Semifinals"/>
           <preset>
             <club name="Cibalia"/>

@@ -3,18 +3,18 @@
   <Country name="Finland">
     <Regions>
       <Region name="Finland">
-        <stadium name="Honka Stadium" capacity="2500"/>
-        <stadium name="Lahti Stadium" capacity="2200"/>
-        <stadium name="Haka Stadium" capacity="3200"/>
-        <stadium name="Hjk Stadium" capacity="5900"/>
-        <stadium name="Mariehamn Stadium" capacity="2600"/>
-        <stadium name="Inter Turku Stadium" capacity="1700"/>
-        <stadium name="Jaro Stadium" capacity="1300"/>
-        <stadium name="Kooteepee Stadium" capacity="1100"/>
-        <stadium name="Mypa Stadium" capacity="2500"/>
-        <stadium name="Tampere Utd Stadium" capacity="5000"/>
-        <stadium name="Tps Stadium" capacity="1600"/>
-        <stadium name="Vps Stadium" capacity="1200"/>
+        <stadium name="Honka Stadium" capacity="2400"/>
+        <stadium name="Lahti Stadium" capacity="2100"/>
+        <stadium name="Haka Stadium" capacity="2400"/>
+        <stadium name="Hjk Stadium" capacity="4300"/>
+        <stadium name="Mariehamn Stadium" capacity="2300"/>
+        <stadium name="Inter Turku Stadium" capacity="1400"/>
+        <stadium name="Jaro Stadium" capacity="1900"/>
+        <stadium name="Kooteepee Stadium" capacity="1300"/>
+        <stadium name="Mypa Stadium" capacity="2100"/>
+        <stadium name="Tampere Utd Stadium" capacity="4400"/>
+        <stadium name="Tps Stadium" capacity="2200"/>
+        <stadium name="Vps Stadium" capacity="1400"/>
       </Region>
     </Regions>
     <leaguesystem name="Finnish league">
@@ -51,15 +51,15 @@
     <Tournaments>
       <tournament name="Finnish Cup">
         <stage name="Final" type="1">
-          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
           <trophy name="Finnish Cup champion"/>
         </stage>
         <stage name="Semifinals" type="1">
-          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
           <cuppr stage="Final"/>
         </stage>
         <stage name="Quarterfinals" type="1">
-          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
           <cuppr stage="Semifinals"/>
           <preset>
             <club name="Honka"/>

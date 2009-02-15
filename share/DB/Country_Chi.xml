@@ -3,22 +3,22 @@
   <Country name="Chile">
     <Regions>
       <Region name="Chile">
-        <stadium name="Audax Italiano Stadium" capacity="7400"/>
-        <stadium name="Cd Antofagasta Stadium" capacity="6000"/>
-        <stadium name="Cd Cobreloa Stadium" capacity="16800"/>
-        <stadium name="Cd Concepcion Stadium" capacity="9000"/>
-        <stadium name="Cd Huachipato Stadium" capacity="8600"/>
-        <stadium name="Cd Palestino Stadium" capacity="12300"/>
-        <stadium name="Cd Temuco Stadium" capacity="8800"/>
-        <stadium name="Colo Colo Stadium" capacity="12300"/>
-        <stadium name="Coquimbo Unido Stadium" capacity="6100"/>
-        <stadium name="O'higgins Stadium" capacity="8700"/>
-        <stadium name="Provincial Stadium" capacity="8200"/>
-        <stadium name="Regional Atacama Stadium" capacity="4200"/>
-        <stadium name="Santiago Wdrs. Stadium" capacity="7700"/>
-        <stadium name="Union Espanola Stadium" capacity="11800"/>
-        <stadium name="Univ. Catolica Stadium" capacity="16100"/>
-        <stadium name="Univ. De Chile Stadium" capacity="8500"/>
+        <stadium name="Audax Italiano Stadium" capacity="7300"/>
+        <stadium name="Cd Antofagasta Stadium" capacity="7100"/>
+        <stadium name="Cd Cobreloa Stadium" capacity="14100"/>
+        <stadium name="Cd Concepcion Stadium" capacity="8700"/>
+        <stadium name="Cd Huachipato Stadium" capacity="9200"/>
+        <stadium name="Cd Palestino Stadium" capacity="8900"/>
+        <stadium name="Cd Temuco Stadium" capacity="6300"/>
+        <stadium name="Colo Colo Stadium" capacity="11400"/>
+        <stadium name="Coquimbo Unido Stadium" capacity="7300"/>
+        <stadium name="O'higgins Stadium" capacity="12200"/>
+        <stadium name="Provincial Stadium" capacity="12900"/>
+        <stadium name="Regional Atacama Stadium" capacity="5700"/>
+        <stadium name="Santiago Wdrs. Stadium" capacity="9100"/>
+        <stadium name="Union Espanola Stadium" capacity="10000"/>
+        <stadium name="Univ. Catolica Stadium" capacity="15600"/>
+        <stadium name="Univ. De Chile Stadium" capacity="11300"/>
       </Region>
     </Regions>
     <leaguesystem name="Chilean league">
@@ -59,19 +59,19 @@
     <Tournaments>
       <tournament name="Chilean Cup">
         <stage name="Final" type="1">
-          <setup seeded="0" participantnum="2" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
           <trophy name="Chilean Cup champion"/>
         </stage>
         <stage name="Semifinals" type="1">
-          <setup seeded="0" participantnum="4" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
           <cuppr stage="Final"/>
         </stage>
         <stage name="Quarterfinals" type="1">
-          <setup seeded="0" participantnum="8" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
           <cuppr stage="Semifinals"/>
         </stage>
         <stage name="First round" type="1">
-          <setup seeded="0" participantnum="16" rounds="1" extratime="1" replays="0" awaygoals="0"/>
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
           <cuppr stage="Quarterfinals"/>
           <preset>
             <club name="Audax Italiano"/>
