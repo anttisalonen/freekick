@@ -42,10 +42,10 @@ def get_players(root):
 def parse_player(plnode):
     pid = int(plnode.get("id"))
     pl = SoccerData.Player(pid)
-    for node in plnode.iter():
+    for node in plnode:
         if node.tag == "personal":
             pl.name = node.get("name")
-            for prnode in node.iter():
+            for prnode in node:
                 if prnode.tag == "birth":
                     pl.birthdate = Primitives.Date(int(prnode.get("year")), int(prnode.get("month")), int(prnode.get("day")))
                 elif prnode.tag == "skin":
@@ -95,7 +95,7 @@ def get_clubs(root):
 def parse_club(clubnode):
     name = clubnode.get("name")
     club = SoccerData.Club(name)
-    for node in clubnode.iter():
+    for node in clubnode:
         if node.tag == "coach":
             club.coach = SoccerData.Coach(node.get("name"))
         if node.tag == "kits":
@@ -112,24 +112,24 @@ def parse_club(clubnode):
 
 def parse_contracts(contractsnode):
     cs = []
-    for node in contractsnode.iter():
+    for node in contractsnode:
         if node.tag == "contract":
             cs.append(int(node.get("player")))
     return cs
 
 def parse_kits(kitsnode):
     kits = []
-    for node in kitsnode.iter():
+    for node in kitsnode:
         if node.tag == "kit":
             kits.append(parse_kit(node))
     return kits
 
 def parse_kit(kitnode):
     kit = SoccerData.Kit()
-    for node in kitnode.iter():
+    for node in kitnode:
         if node.tag == "jersey":
             kit.jersey_type = int(node.get("type"))
-            for unode in node.iter():
+            for unode in node:
                 if unode.tag == "color":
                     kit.jersey_color = parse_color(unode)
                 elif unode.tag == "image":
@@ -153,7 +153,7 @@ def get_countries(root):
 def parse_country(countrynode):
     name = countrynode.get("name")
     country = SoccerData.Country(name)
-    for node in countrynode.iter():
+    for node in countrynode:
         if node.tag == "Regions":
             country.regions = parse_regions(node)
         elif node.tag == "leaguesystem":
@@ -164,7 +164,7 @@ def parse_country(countrynode):
 
 def parse_regions(regnode):
     regs = []
-    for node in regnode.iter():
+    for node in regnode:
         if node.tag == "Region":
             regs.append(parse_region(node))
     return regs
@@ -172,7 +172,7 @@ def parse_regions(regnode):
 def parse_region(regnode):
     name = regnode.get("name")
     region = SoccerData.Region(name)
-    for node in regnode.iter():
+    for node in regnode:
         if node.tag == "Region" and node.get("name") != name:
             region.subregions.append(parse_region(node))
         elif node.tag == "stadium":
@@ -185,7 +185,7 @@ def parse_stadium(stadnode):
 def parse_leaguesystem(lsnode):
     name = lsnode.get("name")
     ls = SoccerData.Leaguesystem(name)
-    for node in lsnode.iter():
+    for node in lsnode:
         if node.tag == "Levels":
             ls.levels = parse_levels(node)
     return ls
@@ -204,16 +204,16 @@ def parse_exchange(node):
 def parse_level(level_node):
     l = SoccerData.Level()
     l.branches = []
-    for node in level_node.iter():
+    for node in level_node:
         if node.tag == "branch":
             l.branches.append(parse_branch(node))
         elif node.tag == "leagueprs":
-            for prnode in node.iter():
+            for prnode in node:
                 if prnode.tag == "leaguepr":
                     exchange = parse_exchange(prnode)
                     l.promotions.append(exchange)
         elif node.tag == "leaguerls":
-            for prnode in node.iter():
+            for prnode in node:
                 if prnode.tag == "leaguerl":
                     exchange = parse_exchange(prnode)
                     l.relegations.append(exchange)
@@ -227,7 +227,7 @@ def parse_stage(stage_node):
     name = stage_node.get("name")
     type = stage_node.get("type")
     stage = SoccerData.Stage(name, type)
-    for node in stage_node.iter():
+    for node in stage_node:
         if node.tag == "setup":
             for n in ["seeded", "participantnum", "groups", "rounds", "pointsperwin", "extratime", "penalties", "replays", "awaygoals"]:
                 a = node.get(n)
@@ -241,7 +241,7 @@ def parse_stage(stage_node):
             exchange = parse_exchange(node)
             stage.promotions.append(exchange)
         elif node.tag == "preset":
-            for clubnode in node.iter():
+            for clubnode in node:
                 clubname = clubnode.get("name")
                 if clubname != None and clubname != "None":
                     stage.clubs.append(clubnode.get("name"))
@@ -252,21 +252,21 @@ def parse_attendance(attendance_node):
 
 def parse_list(top_node, child_node_name, f):
     l = []
-    for node in top_node.iter():
+    for node in top_node:
         if node.tag == child_node_name:
             l.append(f(node))
     return l
 
 def parse_tournaments(tnode):
     tournaments = []
-    for node in tnode.iter():
+    for node in tnode:
         if node.tag == "tournament":
             tournaments.append(parse_tournament(node))
     return tournaments
 
 def parse_tournament(tnode):
     tournament = SoccerData.Tournament(tnode.get("name"))
-    for node in tnode.iter():
+    for node in tnode:
         if node.tag == "stage":
             tournament.stages.append(parse_stage(node))
     return tournament

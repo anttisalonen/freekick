@@ -120,8 +120,95 @@ class Event:
     def receiveClubsHandler(self, clubs):
         pass
 
-class GeneralClubChooser:
-    def __init__(self, chosen_func):
+def sorted_dict_values(adict):
+    items = adict.items()
+    items.sort()
+    return [(key, value) for key, value in items]
+
+def get_tree_widget_item(text):
+    item = QtGui.QTreeWidgetItem()
+    item.setText(0, text)
+    return item
+
+def add_to_tree(widget):
+    sorted_countries = sorted_dict_values(db.countries)
+    for countryname, country in sorted_countries:
+        item = get_tree_widget_item(countryname)
+        widget.addTopLevelItem(item)
+        stages = country.get_stages()
+        if len(stages) == 1:
+            for club in stages[0].clubs:
+                club_item = get_tree_widget_item(club)
+                item.addChild(club_item)
+        elif len(stages) > 1:
+            for stage in stages:
+                st_item = get_tree_widget_item(stage.name)
+                item.addChild(st_item)
+                for club in stage.clubs:
+                    club_item = get_tree_widget_item(club)
+                    st_item.addChild(club_item)
+            
+class GeneralClubChooser(QtGui.QWidget):
+    def __init__(self, num_clubs_to_choose, chosen_func, parent = None):
+        QtGui.QWidget.__init__(self, parent)
+        self.setWindowTitle('Choose clubs')
+        self.num_clubs_to_choose = num_clubs_to_choose
+        self.chosen_func = chosen_func
+
+        highest_box = QtGui.QVBoxLayout()
+        bottom_buttons_box = QtGui.QHBoxLayout()
+        top_choosing_box = QtGui.QHBoxLayout()
+
+        tree_widget = QtGui.QTreeWidget()
+        add_to_tree(tree_widget)
+
+        back = QtGui.QPushButton("Back")
+        self.forward = QtGui.QPushButton("Continue")
+
+        self.chosen_clubs = QtGui.QListWidget()
+
+        bottom_buttons_box.addWidget(back)
+        bottom_buttons_box.addWidget(self.forward)
+        top_choosing_box.addWidget(tree_widget)
+        top_choosing_box.addWidget(self.chosen_clubs)
+
+        highest_box.addLayout(top_choosing_box)
+        highest_box.addLayout(bottom_buttons_box)
+
+        self.newSelection()
+        self.setLayout(highest_box)
+        self.resize(800, 600)
+
+        self.connect(back, QtCore.SIGNAL('clicked()'), self, QtCore.SLOT('close()'))
+        self.connect(tree_widget, QtCore.SIGNAL('itemClicked(QTreeWidgetItem *, int)'), self.itemSelected)
+        self.connect(self.chosen_clubs, QtCore.SIGNAL('itemClicked(QListWidgetItem *)'), self.itemDeselected)
+        self.connect(self.forward, QtCore.SIGNAL('clicked()'), self.goForward)
+
+    def itemSelected(self, widget, column):
+        if widget.childCount() == 0:
+            self.chosen_clubs.addItem(widget.text(0))
+            self.newSelection()
+
+    def itemDeselected(self, widget):
+        self.chosen_clubs.takeItem(self.chosen_clubs.currentRow())
+        self.chosen_clubs.clearSelection()
+        self.newSelection()
+
+    def newSelection(self):
+        if self.chosen_clubs.count() == self.num_clubs_to_choose:
+            self.forward.setEnabled(True)
+        else:
+            self.forward.setEnabled(False)
+
+    def goForward(self):
+        names = []
+        for index in range(self.chosen_clubs.count()):
+            names.append(str(self.chosen_clubs.item(index).text()))
+        self.chosen_func(names)
+
+
+    """
+    def __init__(self, num_clubs_to_choose, chosen_func):
         countrynames = db.countries.keys()
         countrynames.sort()
         cc = ChooseX(countrynames, self.countryChosenHandler, "Choose Country", 4)
@@ -129,6 +216,7 @@ class GeneralClubChooser:
         self.wins = [cc]
         self.clubs_selected = set()
         self.chosen_func = chosen_func
+        self.num_clubs_to_choose = num_clubs_to_choose
 
     def countryChosenHandler(self, country_name):
         stages = db.countries[country_name].get_stages()
@@ -150,17 +238,20 @@ class GeneralClubChooser:
 
     def get_club_chooser(self, clubs):
         already_here_chosen_clubs = self.clubs_selected.intersection(clubs)
-        return ChooseClubs(2 - len(self.clubs_selected) + len(already_here_chosen_clubs), clubs, already_here_chosen_clubs, functools.partial(self.receiveClubsHandler, clubs))
+        return ChooseClubs(num_clubs_to_choose - len(self.clubs_selected) + len(already_here_chosen_clubs), clubs, already_here_chosen_clubs, functools.partial(self.receiveClubsHandler, clubs))
 
     def receiveClubsHandler(self, total_clubs, these_clubs, cont):
         self.clubs_selected = self.clubs_selected - set(total_clubs)
         self.clubs_selected = self.clubs_selected.union(these_clubs)
         if cont:
             self.chosen_func(list(self.clubs_selected))
+    """
 
 class Friendly(Event):
     def __init__(self):
-        cc = GeneralClubChooser(self.gotoLineups)
+        cc = GeneralClubChooser(2, self.gotoLineups)
+        cc.show()
+        self.wins = [cc]
 
     def gotoLineups(self, clubs_selected):
         ln = Lineups(clubs_selected[:2])
@@ -515,7 +606,7 @@ class MainMenu(QtGui.QWidget):
         self.connect(quit, QtCore.SIGNAL('clicked()'), QtGui.qApp, QtCore.SLOT('quit()'))
 
     def doFriendly(self):
-        fr = Friendly()
+        self.fr = Friendly()
 
     def doDIY(self):
         wn = DIY()
