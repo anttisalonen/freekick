@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+def sorted_dict_values(adict):
+    items = adict.items()
+    items.sort()
+    return [(key, value) for key, value in items]
+
 class Color:
     def __init__(self, r, g, b):
         self.red = r
