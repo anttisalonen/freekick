@@ -11,6 +11,8 @@ Summary:
 10s. S->C - In-game: Server Info - (I)
 11s. S->C - Reply to 7c/9c: Give General Update Interval (V)
 12s. S->C - Reply to 8c/10c: Give Constant Update Interval (U)
+13s. S->C - Reply to 11c: Chat Broadcast Message - (Q 123 "Hello all")
+14s. S->C - Reply to 12c: Team Broadcast Message - (R 123 "Hello team")
 
 1c.  C->S - Init: Client Information: ident, username, type, players
 2c.  C->S - When setting players: Player Control Request - (z)
@@ -22,6 +24,8 @@ Summary:
 8c.  C->S - In-game: Set Constant Update Interval - (s)
 9c.  C->S - In-game: Get General Update Interval - (v)
 10c. C->S - In-game: Get Constant Update Interval - (u)
+11c. C->S - In-game: Chat Message - (q "Hello all")
+12c. C->S - In-game: Team Message - (r "Hello team")
 
 ------------------------------------------------------------------------------
 Classification:
@@ -38,7 +42,10 @@ Server Messages
 - General Update Message
 - Constant Update Message
 -Error Message
--Info Message
+ Info Messages
+- Server Message
+- Chat Broadcast Message
+- Team Broadcast Message
 
 Client Messages
 -Initialization Message
@@ -55,6 +62,9 @@ Client Messages
 -  Get General Update Interval Message
 -  Get Constant Update Interval Message
 -Player Control Message
+ Info Messages
+- Chat Messages
+- Team Messages
 
 ------------------------------------------------------------------------------
 Connection:
@@ -167,6 +177,26 @@ e.g.
 Give Constant Update Interval
 e.g.
 (U 100)
+
+------------------------------------------------------------------------------
+Chat Message
+e.g.
+(q "Hello")
+
+------------------------------------------------------------------------------
+Team Message
+e.g.
+(r "Hello team")
+
+------------------------------------------------------------------------------
+Chat Broadcast Message
+e.g.
+(Q 123 "Hello")
+
+------------------------------------------------------------------------------
+Team Broadcast Message
+e.g.
+(R 2340 "Hello team")
 
 ------------------------------------------------------------------------------
 Match Data:
@@ -315,5 +345,37 @@ e.g.
 (f 4865 0.0 0.0 0.0 2)                        # ask for support
 Note: player_id should always be sent by the AI and by the human clients
 Note: heading for goalkeepers includes boxing the ball
+
+------------------------------------------------------------------------------
+Coach Message (Team Message):
+(also see formation.txt)
+(r "message")
+message:
+1 <strategy_num> <strategy_value>
+2 <player_id>
+2 <player_id> <pitch_coordinates left/top x/y> <pitch_coordinates right/bottom x/y>
+3 <player_id> <position_number>
+4 <player_id> <attribute_id> <attribute_value>
+
+strategy:
+e.g. "1 1 0.5" -> moderate utilization of strategy long ball
+strategies: 1 -> long ball
+            2 -> counter attack
+            3 -> attack width
+            4 -> defense width
+
+area:
+e.g. "2 484" -> clear area of player 484
+e.g. "2 575 30 30 70 60" -> player 575 gets additional area of square (30,30),(70,60)
+
+position:
+e.g. "3 575 3" -> player 575 plays now as a forward
+positions: 1 -> defender
+           2 -> midfielder
+           3 -> forward
+
+attributes:
+e.g. "4 474 1 -0.78" -> player 474 has now offensiveness of -0.78
+attributes: 1 -> offensiveness
 
 ------------------------------------------------------------------------------

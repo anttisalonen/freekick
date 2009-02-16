@@ -1,0 +1,29 @@
+formation definition:
+1. general team strategy
+ general team strategy is a weighted list of strategies
+ each strategy is given a weight between -1 and 1
+ strategies:
+ -long ball (opposite: short passes)
+ -counter attack (opposite: pressure/possessive)
+ -width in attack/from the wings (opposite: from the middle)
+ -width in defense
+ (-zone defense (opposite: man-to-man defense))
+2. areas for all players
+ area defined as a list of squares
+ player should usually only be active in his area (does not include special situations, e.g. free kicks)
+3. positions for all players
+  position: defender/middlefielder/forward
+   all players are responsible for:
+   -keeping control of the ball in their area
+   defenders are responsible for:
+   -making sure no opponents have the ball in their area or even nearer to goal
+   -passing the ball further on
+   midfielders are responsible for:
+   -passing the ball further on
+   forwards are responsible for:
+   -scoring
+4. attributes for all players
+  each player has a list of attribute values between -1 and 1 given by coach
+  attributes:
+   offensiveness
+   

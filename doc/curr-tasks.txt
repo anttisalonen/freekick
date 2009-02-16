@@ -1,3 +1,45 @@
+-16.02.2009--------------
+org:
+-creating schedules
+-calculating results
+-stepping through tournaments
+general:
+-define matchdata file (from org to server):
+ -see doc/soccer/org.txt
+tactics:
+ general:
+ -define tactics + formation
+ org:
+ -create formation + tactics data for server
+ server:
+ -send formation + tactics to clients
+ client:
+ -parse formation + tactics
+ ai:
+ -execute formation + tactics
+ncurses:
+-write client in ncurses
+server:
+-smaller kicking range for players
+-gravity + jumping
+-chat and team messages
+-kicking ball backwards/sideways from player should only be very weak
+-take player skills into account
+-stamina loss
+ai:
+-dribbling
+-fuzzy logic in decision making
+-event-based decision making
+-better goalkeepers
+-decisions based on future ball/player positions
+-send coach messages
+-players should not kick backwards, but either go around the ball or
+ dribble the ball to the side first
+-player personalities
+-take coach messages into account
+client:
+-configurable controls
+-show player areas as defined by coach messages
 -28.01.2009--------------
 -server: add recognition of master client (localhost)
 -server: add password recognition of master client
@@ -15,6 +57,7 @@
  -goal scorers
 -general: define options file:
  -match length
+ -arcade mode
 -server: read options file (given as parameter)
 -organization: create organization
 -27.01.2009--------------
@@ -60,7 +103,7 @@ bugs:
 -physics: player bounding box height dependent of player height
 +server: initial positions of players on the pitch
 +rules: detection of prekickoff, kickoff
--physics: higher inertia/friction of the ball/lighter players
++physics: higher inertia/friction of the ball/lighter players
 +ai: setting and reading formation for the players
 +ai: reacting on free kickoff
 -19.12.2008--------------
@@ -72,7 +115,7 @@ bugs:
 -improve start positions
 -client: configurable player control request + other input
 +server: interpolating player input (smooth start + save wished velocity/plan input processing)
--server: parse control requests also in the initialization message(or drop it from the protocol?)
++server: parse control requests also in the initialization message(or drop it from the protocol?)
 -15.12.2008--------------
 +client: sending idr and requesting player control
 -09.12.2008--------------
