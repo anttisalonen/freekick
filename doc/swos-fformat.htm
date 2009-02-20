@@ -1,0 +1,2475 @@
+<html>
+
+<head>
+
+<title>SWOS TEAM FILE DESCRIPTION</title>
+
+<link rel=stylesheet type="text/css" href="../../mwstyle.css" title="mwstyle">
+
+</head>
+
+<body bgcolor="#CCCCCC">
+<h1>SWOS team file structure</h1>
+
+<p>- General file structure:<br>
+  A team file with <i>n</i> teams sizes 2 + 684 * <i>n</i> bytes.</p>
+<table width="75%" border="1">
+  <tr> 
+    <td width="3%"> 
+      <div align="center"><b>hex position</b></div>
+    </td>
+    <td width="13%"> 
+      <div align="center">0</div>
+    </td>
+    <td width="17%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="17%"> 
+      <div align="center">2</div>
+    </td>
+    <td width="18%"> 
+      <div align="center">2+2AC</div>
+    </td>
+    <td width="15%"> 
+      <div align="center">...</div>
+    </td>
+    <td width="17%"> 
+      <div align="center">2+(n-1)*2AC</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="3%"> 
+      <div align="center"><b>content</b></div>
+    </td>
+    <td width="13%"> 
+      <div align="center">00</div>
+    </td>
+    <td width="17%"> 
+      <div align="center">n</div>
+    </td>
+    <td width="17%"> 
+      <div align="center">team 1</div>
+    </td>
+    <td width="18%"> 
+      <div align="center">team 2</div>
+    </td>
+    <td width="15%"> 
+      <div align="center">...</div>
+    </td>
+    <td width="17%"> 
+      <div align="center">team n</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="3%"> 
+      <div align="center"><b>number of bytes</b></div>
+    </td>
+    <td width="13%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="17%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="17%"> 
+      <div align="center">684</div>
+    </td>
+    <td width="18%"> 
+      <div align="center">684</div>
+    </td>
+    <td width="15%"> 
+      <div align="center">...</div>
+    </td>
+    <td width="17%"> 
+      <div align="center">684</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="3%"> 
+      <div align="center"><b>notes</b></div>
+    </td>
+    <td width="13%"> 
+      <div align="center"></div>
+    </td>
+    <td width="17%"> 
+      <div align="center">number of teams</div>
+    </td>
+    <td width="17%"> 
+      <div align="center"></div>
+    </td>
+    <td width="18%"> 
+      <div align="center"></div>
+    </td>
+    <td width="15%"> 
+      <div align="center"></div>
+    </td>
+    <td width="17%"> 
+      <div align="center"></div>
+    </td>
+  </tr>
+</table>
+<p>- Structure of the team:<br>
+  Each team has 16 players and sizes 76 + 38*16 = 684 bytes</p>
+<table width="75%" border="1">
+  <tr> 
+    <td width="12%"> 
+      <div align="center"><b>hex position</b></div>
+    </td>
+    <td width="10%"> 
+      <div align="center">0</div>
+    </td>
+    <td width="22%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">2</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">3</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">4</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">5</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">18</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">19</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">1A</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">1B</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">1C</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">1D</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">1E</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">1F</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">20</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">21</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">22</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">23</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">24</div>
+    </td>
+    <td width="39%"> 
+      <div align="center">3D</div>
+    </td>
+    <td width="39%"> 
+      <div align="center">4C</div>
+    </td>
+    <td width="39%"> 
+      <div align="center">...</div>
+    </td>
+    <td width="39%"> 
+      <div align="center">286</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="12%"> 
+      <div align="center"><b>content</b></div>
+    </td>
+    <td width="10%"> 
+      <div align="center">nation</div>
+    </td>
+    <td width="22%"> 
+      <div align="center">team number</div>
+    </td>
+    <td colspan="2"> 
+      <div align="center">swos general team number</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">00</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">team name</div>
+    </td>
+    <td width="1%"> 
+      <div align="center"><u>tactics</u></div>
+    </td>
+    <td width="1%"> 
+      <div align="center"><u>division</u></div>
+    </td>
+    <td width="1%"> 
+      <div align="center"><u>type</u></div>
+    </td>
+    <td width="1%"> 
+      <div align="center">first color</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">second color</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">short color</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">socks color</div>
+    </td>
+    <td width="1%"> 
+      <div align="center"><u>type</u></div>
+    </td>
+    <td width="1%"> 
+      <div align="center">first color</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">second color</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">short color</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">socks color</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">coach name</div>
+    </td>
+    <td width="39%"> 
+      <div align="center">player position in file</div>
+    </td>
+    <td width="39%"> 
+      <div align="center">player 1</div>
+    </td>
+    <td width="39%"> 
+      <div align="center">...</div>
+    </td>
+    <td width="39%"> 
+      <div align="center">player 16</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="12%"> 
+      <div align="center"><b>number of bytes</b></div>
+    </td>
+    <td width="10%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="22%"> 
+      <div align="center">1</div>
+    </td>
+    <td colspan="2"> 
+      <div align="center">2</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">19</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">1</div>
+    </td>
+    <td colspan="5"> 
+      <div align="center">5</div>
+    </td>
+    <td colspan="5"> 
+      <div align="center">5</div>
+    </td>
+    <td width="1%"> 
+      <div align="center">25</div>
+    </td>
+    <td width="39%"> 
+      <div align="center">15</div>
+    </td>
+    <td width="39%"> 
+      <div align="center">38</div>
+    </td>
+    <td width="39%"> 
+      <div align="center">...</div>
+    </td>
+    <td width="39%"> 
+      <div align="center">38</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="12%"> 
+      <div align="center"><b>notes</b></div>
+    </td>
+    <td width="10%"> 
+      <div align="center"></div>
+    </td>
+    <td width="22%"> 
+      <div align="center"></div>
+    </td>
+    <td colspan="2"> 
+      <div align="center"></div>
+    </td>
+    <td width="1%"> 
+      <div align="center"></div>
+    </td>
+    <td width="1%"> 
+      <div align="center"></div>
+    </td>
+    <td width="1%"> 
+      <div align="center"></div>
+    </td>
+    <td width="1%"> 
+      <div align="center"></div>
+    </td>
+    <td colspan="5"> 
+      <div align="center">primary kit</div>
+    </td>
+    <td colspan="5"> 
+      <div align="center">secondary kit</div>
+    </td>
+    <td width="1%"> 
+      <div align="center"></div>
+    </td>
+    <td width="39%"> 
+      <div align="center"></div>
+    </td>
+    <td width="39%"> 
+      <div align="center"></div>
+    </td>
+    <td width="39%"> 
+      <div align="center"></div>
+    </td>
+    <td width="39%"> 
+      <div align="center"></div>
+    </td>
+  </tr>
+</table>
+<p>- Structure of the player:<br>
+  Each player sizes 38 bytes <br>
+</p>
+<table width="101%" border="1">
+  <tr> 
+    <td width="6%"> 
+      <div align="center"><b>hex position</b></div>
+    </td>
+    <td width="4%"> 
+      <div align="center">0</div>
+    </td>
+    <td width="2%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="5%"> 
+      <div align="center">2</div>
+    </td>
+    <td width="11%"> 
+      <div align="center">3</div>
+    </td>
+    <td width="11%"> 
+      <div align="center">1A</div>
+    </td>
+    <td width="4%"> 
+      <div align="center">1B</div>
+    </td>
+    <td width="7%"> 
+      <div align="center">1C</div>
+    </td>
+    <td width="8%"> 
+      <div align="center">1D</div>
+    </td>
+    <td width="8%"> 
+      <div align="center">1E</div>
+    </td>
+    <td width="8%"> 
+      <div align="center">1F</div>
+    </td>
+    <td width="7%"> 
+      <div align="center">20</div>
+    </td>
+    <td width="5%"> 
+      <div align="center">21</div>
+    </td>
+    <td width="3%"> 
+      <div align="center">22</div>
+    </td>
+    <td width="3%"> 
+      <div align="center">23</div>
+    </td>
+    <td width="3%"> 
+      <div align="center">24</div>
+    </td>
+    <td width="5%"> 
+      <div align="center">25</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="6%"> 
+      <div align="center"><b>content</b></div>
+    </td>
+    <td width="4%"> 
+      <div align="center"><u>nationality</u></div>
+    </td>
+    <td width="2%"> 
+      <div align="center">00</div>
+    </td>
+    <td width="5%"> 
+      <div align="center">number</div>
+    </td>
+    <td width="11%"> 
+      <div align="center">player name</div>
+    </td>
+    <td width="11%"> 
+      <div align="center"><u>multi purpose</u></div>
+    </td>
+    <td width="4%"> 
+      <div align="center"></div>
+    </td>
+    <td width="7%"> 
+      <div align="center">0000<br>
+        -<br>
+        passing</div>
+    </td>
+    <td width="8%"> 
+      <div align="center">shooting<br>
+        -<br>
+        heading</div>
+    </td>
+    <td width="8%"> 
+      <div align="center">tackling<br>
+        -<br>
+        ball control</div>
+    </td>
+    <td width="8%"> 
+      <div align="center">speed<br>
+        -<br>
+        finishing</div>
+    </td>
+    <td width="7%"> 
+      <div align="center"><u>value</u></div>
+    </td>
+    <td width="5%"> 
+      <div align="center">0</div>
+    </td>
+    <td width="3%"> 
+      <div align="center">0</div>
+    </td>
+    <td width="3%"> 
+      <div align="center">0</div>
+    </td>
+    <td width="3%"> 
+      <div align="center">0</div>
+    </td>
+    <td width="5%"> 
+      <div align="center">0</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="6%"> 
+      <div align="center"><b>number of bytes</b></div>
+    </td>
+    <td width="4%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="2%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="5%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="11%"> 
+      <div align="center">23</div>
+    </td>
+    <td width="11%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="4%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="7%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="8%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="8%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="8%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="7%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="5%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="3%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="3%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="3%"> 
+      <div align="center">1</div>
+    </td>
+    <td width="5%"> 
+      <div align="center">1</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="6%" height="37"> 
+      <div align="center"><b>notes</b></div>
+    </td>
+    <td width="4%" height="37"> 
+      <div align="center"></div>
+    </td>
+    <td width="2%" height="37"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%" height="37"> 
+      <div align="center"></div>
+    </td>
+    <td width="11%" height="37"> 
+      <div align="center">first name-space -family name</div>
+    </td>
+    <td width="11%" height="37"> 
+      <div align="center"></div>
+    </td>
+    <td width="4%" height="37"> 
+      <div align="center"></div>
+    </td>
+    <td width="7%" height="37"> 
+      <div align="center"></div>
+    </td>
+    <td width="8%" height="37"> 
+      <div align="center"></div>
+    </td>
+    <td width="8%" height="37"> 
+      <div align="center"></div>
+    </td>
+    <td width="8%" height="37"> 
+      <div align="center"></div>
+    </td>
+    <td width="7%" height="37"> 
+      <div align="center"></div>
+    </td>
+    <td colspan="5" height="37"> 
+      <div align="center">used in career file</div>
+    </td>
+  </tr>
+</table>
+<p>- Tables<br>
+</p>
+<table width="26%" border="1">
+  <tr> 
+    <td colspan="2"> 
+      <div align="center"><b>Tactics</b></div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center"><b>Hex code</b></div>
+    </td>
+    <td> 
+      <div align="center"><b>Tactics name</b></div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">00</div>
+    </td>
+    <td> 
+      <div align="center">4-4-2</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">01</div>
+    </td>
+    <td> 
+      <div align="center">5-4-1</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">02</div>
+    </td>
+    <td> 
+      <div align="center">4-5-1</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">03</div>
+    </td>
+    <td> 
+      <div align="center">5-3-2</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">04</div>
+    </td>
+    <td> 
+      <div align="center">3-5-2</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">05</div>
+    </td>
+    <td> 
+      <div align="center">4-3-3</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">06</div>
+    </td>
+    <td> 
+      <div align="center">4-2-4</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">07</div>
+    </td>
+    <td> 
+      <div align="center">3-4-3</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">08</div>
+    </td>
+    <td> 
+      <div align="center">sweep</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">09</div>
+    </td>
+    <td> 
+      <div align="center">5-2-3</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">0A</div>
+    </td>
+    <td> 
+      <div align="center">attack</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">0B</div>
+    </td>
+    <td> 
+      <div align="center">defed</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">0C</div>
+    </td>
+    <td> 
+      <div align="center">user a</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">0D</div>
+    </td>
+    <td> 
+      <div align="center">user b</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">0E</div>
+    </td>
+    <td> 
+      <div align="center">user c</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">0F</div>
+    </td>
+    <td> 
+      <div align="center">user d</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">10</div>
+    </td>
+    <td> 
+      <div align="center">user e</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">11</div>
+    </td>
+    <td> 
+      <div align="center">user f</div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="26%" border="1">
+  <tr> 
+    <td colspan="2"> 
+      <div align="center"><b>Divisions</b></div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center"><b>Hex code</b></div>
+    </td>
+    <td> 
+      <div align="center"><b>Division</b></div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">00</div>
+    </td>
+    <td> 
+      <div align="center">Premier</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">01</div>
+    </td>
+    <td> 
+      <div align="center">First</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">02</div>
+    </td>
+    <td> 
+      <div align="center">Second</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">03</div>
+    </td>
+    <td> 
+      <div align="center">Third</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">04</div>
+    </td>
+    <td> 
+      <div align="center">Non league</div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="26%" border="1">
+  <tr> 
+    <td colspan="2"> 
+      <div align="center"><b>Kit type</b></div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center"><b>Hex code</b></div>
+    </td>
+    <td> 
+      <div align="center"><b>Type</b></div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">00</div>
+    </td>
+    <td> 
+      <div align="center">Plain</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">01</div>
+    </td>
+    <td> 
+      <div align="center">Colored sleeves</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">02</div>
+    </td>
+    <td> 
+      <div align="center">Vertical</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">03</div>
+    </td>
+    <td> 
+      <div align="center">Horizontal</div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="74%" border="1">
+  <tr> 
+    <td colspan="6"> 
+      <div align="center"><b>Multipurpose byte: field position (3 bit) + head 
+        type (2 bit) + unknown (3 bit)</b></div>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2" height="15"> 
+      <div align="center"><b>Field position</b></div>
+    </td>
+    <td colspan="2" height="15"> 
+      <div align="center"><b>Head type</b></div>
+    </td>
+    <td height="15" colspan="2"> 
+      <div align="center"><b>Unknown</b></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="13%"> 
+      <div align="center"><b>Binary&nbsp;code</b></div>
+    </td>
+    <td width="16%"> 
+      <div align="center"><b>Position</b></div>
+    </td>
+    <td width="13%"> 
+      <div align="center"><b>Binary&nbsp;code</b></div>
+    </td>
+    <td width="21%"> 
+      <div align="center"><b>Type</b></div>
+    </td>
+    <td width="13%"> 
+      <div align="center"><b>Binary&nbsp;code</b></div>
+    </td>
+    <td width="24%"> 
+      <div align="center"></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="13%"> 
+      <div align="center">000</div>
+    </td>
+    <td width="16%"> 
+      <div align="center">goalkeeper</div>
+    </td>
+    <td width="13%"> 
+      <div align="center">00</div>
+    </td>
+    <td width="21%"> 
+      <div align="center">white skin, black hair</div>
+    </td>
+    <td width="13%"> 
+      <div align="center">000</div>
+    </td>
+    <td width="24%"> 
+      <div align="center"></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="13%"> 
+      <div align="center">001</div>
+    </td>
+    <td width="16%"> 
+      <div align="center">right back</div>
+    </td>
+    <td width="13%"> 
+      <div align="center">01</div>
+    </td>
+    <td width="21%"> 
+      <div align="center">white skin, blonde hair</div>
+    </td>
+    <td width="13%"> 
+      <div align="center">001</div>
+    </td>
+    <td width="24%"> 
+      <div align="center"></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="13%"> 
+      <div align="center">010</div>
+    </td>
+    <td width="16%"> 
+      <div align="center">left back</div>
+    </td>
+    <td width="13%"> 
+      <div align="center">10</div>
+    </td>
+    <td width="21%"> 
+      <div align="center">black skin, black hair</div>
+    </td>
+    <td width="13%"> 
+      <div align="center">010</div>
+    </td>
+    <td width="24%"> 
+      <div align="center"></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="13%"> 
+      <div align="center">011</div>
+    </td>
+    <td width="16%"> 
+      <div align="center">defender</div>
+    </td>
+    <td width="13%"> 
+      <div align="center">11</div>
+    </td>
+    <td width="21%"> 
+      <div align="center">undefined</div>
+    </td>
+    <td width="13%"> 
+      <div align="center">011</div>
+    </td>
+    <td width="24%"> 
+      <div align="center"></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="13%"> 
+      <div align="center">100</div>
+    </td>
+    <td width="16%"> 
+      <div align="center">right wing</div>
+    </td>
+    <td width="13%"> 
+      <div align="center"></div>
+    </td>
+    <td width="21%"> 
+      <div align="center"></div>
+    </td>
+    <td width="13%"> 
+      <div align="center">100</div>
+    </td>
+    <td width="24%"> 
+      <div align="center"></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="13%"> 
+      <div align="center">101</div>
+    </td>
+    <td width="16%"> 
+      <div align="center">left wing</div>
+    </td>
+    <td width="13%"> 
+      <div align="center"></div>
+    </td>
+    <td width="21%"> 
+      <div align="center"></div>
+    </td>
+    <td width="13%"> 
+      <div align="center">101</div>
+    </td>
+    <td width="24%"> 
+      <div align="center"></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="13%"> 
+      <div align="center">110</div>
+    </td>
+    <td width="16%"> 
+      <div align="center">midfielder</div>
+    </td>
+    <td width="13%"> 
+      <div align="center"></div>
+    </td>
+    <td width="21%"> 
+      <div align="center"></div>
+    </td>
+    <td width="13%"> 
+      <div align="center">110</div>
+    </td>
+    <td width="24%"> 
+      <div align="center"></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="13%"> 
+      <div align="center">111</div>
+    </td>
+    <td width="16%"> 
+      <div align="center">attacker</div>
+    </td>
+    <td width="13%"> 
+      <div align="center"></div>
+    </td>
+    <td width="21%"> 
+      <div align="center"></div>
+    </td>
+    <td width="13%"> 
+      <div align="center">111</div>
+    </td>
+    <td width="24%"> 
+      <div align="center"></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="25%" border="1">
+  <tr> 
+    <td colspan="2"> 
+      <div align="center"><b>Color coding</b></div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center"><b>Hex code</b></div>
+    </td>
+    <td> 
+      <div align="center"><b>Color</b></div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">00</div>
+    </td>
+    <td> 
+      <div align="center">gray</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">01</div>
+    </td>
+    <td> 
+      <div align="center">white</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">02</div>
+    </td>
+    <td> 
+      <div align="center">black</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">03</div>
+    </td>
+    <td> 
+      <div align="center">orange</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">04</div>
+    </td>
+    <td> 
+      <div align="center">red</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">05</div>
+    </td>
+    <td> 
+      <div align="center">blue</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">06</div>
+    </td>
+    <td> 
+      <div align="center">brown</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">07</div>
+    </td>
+    <td> 
+      <div align="center">light blue</div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center">08</div>
+    </td>
+    <td> 
+      <div align="center">green</div>
+    </td>
+  </tr>
+  <tr> 
+    <td height="24"> 
+      <div align="center">09</div>
+    </td>
+    <td height="24"> 
+      <div align="center">yellow</div>
+    </td>
+  </tr>
+</table>
+
+<br>
+<table width="25%" border="1">
+  <tr> 
+    <td colspan="2"> 
+      <div align="center"><b>Value Coding</b></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center"><b>Hex Code</b></div>
+    </td>
+    <td width="46%"> 
+      <div align="center"><b>Value</b></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">00</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">less than 25k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">01</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">25k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">02</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">30k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">03</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">40k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">04</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">50k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">05</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">65k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">06</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">75k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">07</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">85k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">08</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">100k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">09</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">110k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">0A</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">130k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">0B</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">150k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">0C</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">160k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">0D</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">180k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">0E</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">200k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">0F</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">250k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">10</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">300k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">11</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">350k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">12</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">450k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">13</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">500k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">14</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">550k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">15</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">600k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">16</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">650k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">17</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">700k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">18</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">750k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">19</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">800k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">1A</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">850k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">1B</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">950k</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">1C</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">1M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">1D</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">1.1M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">1E</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">1.3M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">1F</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">1.5M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">20</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">1.6M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">21</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">1.8M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">22</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">1.9M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">23</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">2M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">24</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">2.25M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">25</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">2.75M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">26</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">3M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">27</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">3.5M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">28</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">4.5M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">29</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">5M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">2A</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">6M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">2B</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">7M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">2C</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">8M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">2D</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">9M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">2E</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">10M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">2F</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">12M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">30</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">15M</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="54%"> 
+      <div align="center">31</div>
+    </td>
+    <td width="46%"> 
+      <div align="center">more than 15M</div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="80%" border="1">
+  <tr> 
+    <td colspan="12" height="11"> 
+      <div align="center"><b>Nationality Codes</b></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="5%" height="11"><b>Hex<br>
+      Code</b></td>
+    <td width="6%" height="11"><b>SWOS<br>
+      Code</b></td>
+    <td width="5%" height="11"><b>FIFA<br>
+      Code</b></td>
+    <td width="16%" height="11"><b>Nationality</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td width="5%" height="11"><b>Hex<br>
+      Code</b></td>
+    <td width="6%" height="11"><b>SWOS<br>
+      Code</b></td>
+    <td width="5%" height="11"><b>FIFA<br>
+      Code</b></td>
+    <td width="15%" height="11"><b>Nationality</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td width="5%" height="11"><b>Hex<br>
+      Code</b></td>
+    <td width="6%" height="11"><b>SWOS<br>
+      Code</b></td>
+    <td width="5%" height="11"><b>FIFA<br>
+      Code</b></td>
+    <td width="21%" height="11"><b>Nationality</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">00</td>
+    <td width="6%">ALB</td>
+    <td width="5%" height="16">ALB</td>
+    <td width="16%">Albania</td>
+    <td width="5%">40</td>
+    <td width="6%">CAN</td>
+    <td width="5%">CAN</td>
+    <td width="15%">Canada</td>
+    <td width="5%">80</td>
+    <td width="6%">IRN</td>
+    <td width="5%">IRN</td>
+    <td width="21%"><font color="#FFFF00">Iran</font></td>
+  </tr>
+  <tr> 
+    <td width="5%" height="22">01</td>
+    <td width="6%" height="22">AUT</td>
+    <td width="5%">AUT</td>
+    <td width="16%" height="22">Austria</td>
+    <td width="5%" height="22">41</td>
+    <td width="6%" height="22">BAR</td>
+    <td width="5%" height="22"><font color="#0000FF">BRB</font></td>
+    <td width="15%" height="22"><font color="#FFFF00">Barbados</font></td>
+    <td width="5%" height="22">81</td>
+    <td width="6%" height="22">VIE</td>
+    <td width="5%" height="22">VIE</td>
+    <td width="21%" height="22">Vietnam</td>
+  </tr>
+  <tr> 
+    <td width="5%">02</td>
+    <td width="6%">BEL</td>
+    <td width="5%">BEL</td>
+    <td width="16%">Belgium</td>
+    <td width="5%">42</td>
+    <td width="6%">ELS</td>
+    <td width="5%"><font color="#0000FF">SLV</font></td>
+    <td width="15%">El Salvador (nat)</td>
+    <td width="5%">82</td>
+    <td width="6%">MLY</td>
+    <td width="5%"><font color="#0000FF">MAS</font></td>
+    <td width="21%">Malaysia&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">03</td>
+    <td width="6%">BUL</td>
+    <td width="5%">BUL</td>
+    <td width="16%">Bulgaria</td>
+    <td width="5%"><u>43</u></td>
+    <td width="6%"><u>SVC</u></td>
+    <td width="5%"><u><font color="#FFFF00"><font color="#0000FF">VIN</font></font></u></td>
+    <td width="15%"><u>St.Vincent - Grenad.</u></td>
+    <td width="5%">83</td>
+    <td width="6%">SAU</td>
+    <td width="5%"><font color="#FFFF00"><font color="#0000FF">KSA</font></font></td>
+    <td width="21%">Saudi Arabia<font color="#FFFF00">&nbsp;</font></td>
+  </tr>
+  <tr> 
+    <td width="5%" height="21">04</td>
+    <td width="6%" height="21">CRO</td>
+    <td width="5%">CRO</td>
+    <td width="16%" height="21">Croatia</td>
+    <td width="5%" height="21">44</td>
+    <td width="6%" height="21">ARG</td>
+    <td width="5%" height="21">ARG</td>
+    <td width="15%" height="21">Argentina</td>
+    <td width="5%" height="21">84</td>
+    <td width="6%" height="21">YEM</td>
+    <td width="5%" height="21">YEM</td>
+    <td width="21%" height="21">Yemen</td>
+  </tr>
+  <tr> 
+    <td width="5%">05</td>
+    <td width="6%">CYP</td>
+    <td width="5%">CYP</td>
+    <td width="16%">Cyprus</td>
+    <td width="5%">45</td>
+    <td width="6%">BOL</td>
+    <td width="5%">BOL</td>
+    <td width="15%">Bolivia</td>
+    <td width="5%">85</td>
+    <td width="6%">KUW</td>
+    <td width="5%">KUW</td>
+    <td width="21%">Kuwait</td>
+  </tr>
+  <tr> 
+    <td width="5%">06</td>
+    <td width="6%">TCH</td>
+    <td width="5%"><font color="#0000FF">CZE</font></td>
+    <td width="16%">Czech&nbsp;Republic</td>
+    <td width="5%">46</td>
+    <td width="6%">BRA</td>
+    <td width="5%">BRA</td>
+    <td width="15%">Brazil</td>
+    <td width="5%">86</td>
+    <td width="6%">LAO</td>
+    <td width="5%">LAO</td>
+    <td width="21%">Laos</td>
+  </tr>
+  <tr> 
+    <td width="5%">07</td>
+    <td width="6%">DEN</td>
+    <td width="5%">DEN</td>
+    <td width="16%">Denmark</td>
+    <td width="5%">47</td>
+    <td width="6%">CHL</td>
+    <td width="5%"><font color="#0000FF">CHI</font></td>
+    <td width="15%">Chile</td>
+    <td width="5%">87</td>
+    <td width="6%">NKR</td>
+    <td width="5%">PRK</td>
+    <td width="21%">North Korea</td>
+  </tr>
+  <tr> 
+    <td width="5%" height="22">08</td>
+    <td width="6%" height="22">ENG</td>
+    <td width="5%">ENG</td>
+    <td width="16%" height="22">England</td>
+    <td width="5%" height="22">48</td>
+    <td width="6%" height="22">COL</td>
+    <td width="5%" height="22">COL</td>
+    <td width="15%" height="22">Colombia</td>
+    <td width="5%" height="22">88</td>
+    <td width="6%" height="22">OMA</td>
+    <td width="5%" height="22">OMA</td>
+    <td width="21%" height="22">Oman</td>
+  </tr>
+  <tr> 
+    <td width="5%">09</td>
+    <td width="6%">EST</td>
+    <td width="5%">EST</td>
+    <td width="16%">Estonia</td>
+    <td width="5%">49</td>
+    <td width="6%">ECU</td>
+    <td width="5%">ECU</td>
+    <td width="15%">Ecuador</td>
+    <td width="5%">89</td>
+    <td width="6%">PAK</td>
+    <td width="5%">PAK</td>
+    <td width="21%">Pakistan</td>
+  </tr>
+  <tr> 
+    <td width="5%">0A</td>
+    <td width="6%">FAR</td>
+    <td width="5%"><font color="#0000FF">FRO</font></td>
+    <td width="16%">Far Oer</td>
+    <td width="5%">4A</td>
+    <td width="6%">PAR</td>
+    <td width="5%">PAR</td>
+    <td width="15%">Paraguay</td>
+    <td width="5%">8A</td>
+    <td width="6%">PHI</td>
+    <td width="5%">PHI</td>
+    <td width="21%">Philippines</td>
+  </tr>
+  <tr> 
+    <td width="5%">0B</td>
+    <td width="6%">FIN</td>
+    <td width="5%">FIN</td>
+    <td width="16%">Finland</td>
+    <td width="5%">4B</td>
+    <td width="6%">SUR</td>
+    <td width="5%">SUR</td>
+    <td width="15%">Surinam</td>
+    <td width="5%">8B</td>
+    <td width="6%">CHN</td>
+    <td width="5%">CHN</td>
+    <td width="21%">China</td>
+  </tr>
+  <tr> 
+    <td width="5%">0C</td>
+    <td width="6%">FRA</td>
+    <td width="5%">FRA</td>
+    <td width="16%">France</td>
+    <td width="5%">4C</td>
+    <td width="6%">URU</td>
+    <td width="5%">URU</td>
+    <td width="15%">Uruguay</td>
+    <td width="5%">8C</td>
+    <td width="6%">SGP</td>
+    <td width="5%"><font color="#FFFF00"><font color="#0000FF">SIN</font></font></td>
+    <td width="21%">Singapore</td>
+  </tr>
+  <tr> 
+    <td width="5%">0D</td>
+    <td width="6%">GER</td>
+    <td width="5%">GER</td>
+    <td width="16%">Germany</td>
+    <td width="5%">4D</td>
+    <td width="6%">VEN</td>
+    <td width="5%">VEN</td>
+    <td width="15%">Venezuela</td>
+    <td width="5%">8D</td>
+    <td width="6%">MAU</td>
+    <td width="5%"><font color="#0000FF">MRI</font></td>
+    <td width="21%">Mauritius </td>
+  </tr>
+  <tr> 
+    <td width="5%">0E</td>
+    <td width="6%">GRE</td>
+    <td width="5%">GRE</td>
+    <td width="16%">Greece</td>
+    <td width="5%">4E</td>
+    <td width="6%">GUY</td>
+    <td width="5%">GUY</td>
+    <td width="15%">Guyana</td>
+    <td width="5%">8E</td>
+    <td width="6%">MYA</td>
+    <td width="5%">MYA</td>
+    <td width="21%">Myanmar</td>
+  </tr>
+  <tr> 
+    <td width="5%">0F</td>
+    <td width="6%">HUN</td>
+    <td width="5%">HUN</td>
+    <td width="16%">Hungary</td>
+    <td width="5%"><u>4F</u></td>
+    <td width="6%"><u>PER</u></td>
+    <td width="5%"><u>PER</u></td>
+    <td width="15%"><u>Peru</u></td>
+    <td width="5%">8F</td>
+    <td width="6%">PAP</td>
+    <td width="5%"><font color="#0000FF">PNG</font></td>
+    <td width="21%">Papua New Guinea</td>
+  </tr>
+  <tr> 
+    <td width="5%" height="16">10</td>
+    <td width="6%" height="16">ISL</td>
+    <td width="5%">ISL</td>
+    <td width="16%" height="16">Iceland</td>
+    <td width="5%" height="16">50</td>
+    <td width="6%" height="16">ALG</td>
+    <td width="5%" height="16">ALG</td>
+    <td width="15%" height="16">Algeria</td>
+    <td width="5%" height="16">90</td>
+    <td width="6%" height="16">TAD</td>
+    <td width="5%" height="16"><font color="#0000FF">THA</font></td>
+    <td width="21%" height="16"><font color="#FFFF00">Thailand</font> </td>
+  </tr>
+  <tr> 
+    <td width="5%">11</td>
+    <td width="6%">ISR</td>
+    <td width="5%" height="22">ISR</td>
+    <td width="16%">Israel</td>
+    <td width="5%">51</td>
+    <td width="6%">SAF</td>
+    <td width="5%"><font color="#0000FF">RSA</font></td>
+    <td width="15%">South&nbsp;Africa</td>
+    <td width="5%">91</td>
+    <td width="6%">UZB</td>
+    <td width="5%">UZB</td>
+    <td width="21%"><font color="#FFFF00">Uzbekistan</font></td>
+  </tr>
+  <tr> 
+    <td width="5%">12</td>
+    <td width="6%">ITA</td>
+    <td width="5%">ITA</td>
+    <td width="16%">Italy</td>
+    <td width="5%">52</td>
+    <td width="6%">BOT</td>
+    <td width="5%">BOT</td>
+    <td width="15%">Botswana</td>
+    <td width="5%">92</td>
+    <td width="6%">QAT</td>
+    <td width="5%">QAT</td>
+    <td width="21%">Qatar</td>
+  </tr>
+  <tr> 
+    <td width="5%">13</td>
+    <td width="6%">LAT</td>
+    <td width="5%"><font color="#0000FF">LVA</font></td>
+    <td width="16%">Latvia</td>
+    <td width="5%">53</td>
+    <td width="6%">BFS</td>
+    <td width="5%"><font color="#0000FF">BFA</font></td>
+    <td width="15%">Burkina Faso</td>
+    <td width="5%"><u>93</u></td>
+    <td width="6%"><u>UAE</u></td>
+    <td width="5%"><u>UAE</u></td>
+    <td width="21%"><u>United&nbsp;Arab&nbsp;Emirates</u></td>
+  </tr>
+  <tr> 
+    <td width="5%">14</td>
+    <td width="6%">LIT</td>
+    <td width="5%" height="21"><font color="#0000FF">LTU</font></td>
+    <td width="16%">Lithuania</td>
+    <td width="5%">54</td>
+    <td width="6%">BUR</td>
+    <td width="5%"><font color="#0000FF">BDI</font></td>
+    <td width="15%">Burundi</td>
+    <td width="5%">94</td>
+    <td width="6%">AUS</td>
+    <td width="5%">AUS</td>
+    <td width="21%">Australia</td>
+  </tr>
+  <tr> 
+    <td width="5%">15</td>
+    <td width="6%">LUX</td>
+    <td width="5%">LUX</td>
+    <td width="16%">Luxembourg</td>
+    <td width="5%">55</td>
+    <td width="6%">LES</td>
+    <td width="5%">LES</td>
+    <td width="15%">Lesotho</td>
+    <td width="5%">95</td>
+    <td width="6%">NZL</td>
+    <td width="5%">NZL</td>
+    <td width="21%">New Zealand</td>
+  </tr>
+  <tr> 
+    <td width="5%">16</td>
+    <td width="6%">MLT</td>
+    <td width="5%">MLT</td>
+    <td width="16%">Malta</td>
+    <td width="5%">56</td>
+    <td width="6%">ZAI</td>
+    <td width="5%"><font color="#0000FF">COD</font></td>
+    <td width="15%"><font color="#FFFF00">Congo,D.R.(Zaire)</font></td>
+    <td width="5%">96</td>
+    <td width="6%">FIJ</td>
+    <td width="5%">FIJ</td>
+    <td width="21%">Fiji</td>
+  </tr>
+  <tr> 
+    <td width="5%">17</td>
+    <td width="6%">HOL</td>
+    <td width="5%"><font color="#0000FF">NED</font></td>
+    <td width="16%">Holland</td>
+    <td width="5%">57</td>
+    <td width="6%">ZAM</td>
+    <td width="5%">ZAM</td>
+    <td width="15%">Zambia</td>
+    <td width="5%">97</td>
+    <td width="6%">SOL</td>
+    <td width="5%">SOL</td>
+    <td width="21%">Solomon Islands</td>
+  </tr>
+  <tr> 
+    <td width="5%">18</td>
+    <td width="6%">NIR</td>
+    <td width="5%" height="22">NIR</td>
+    <td width="16%">Northern&nbsp;Ireland</td>
+    <td width="5%">58</td>
+    <td width="6%">GHA</td>
+    <td width="5%">GHA</td>
+    <td width="15%">Ghana</td>
+    <td width="5%">98</td>
+    <td width="6%">CUS</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">Custom</td>
+  </tr>
+  <tr> 
+    <td width="5%">19</td>
+    <td width="6%">NOR</td>
+    <td width="5%">NOR</td>
+    <td width="16%">Norway</td>
+    <td width="5%">59</td>
+    <td width="6%">SEN</td>
+    <td width="5%">SEN</td>
+    <td width="15%">Senegal</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">1A</td>
+    <td width="6%">POL</td>
+    <td width="5%">POL</td>
+    <td width="16%">Poland</td>
+    <td width="5%">5A</td>
+    <td width="6%">CIV</td>
+    <td width="5%">CIV</td>
+    <td width="15%">Ivory Coast</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">1B</td>
+    <td width="6%">POR</td>
+    <td width="5%">POR</td>
+    <td width="16%">Portugal</td>
+    <td width="5%">5B</td>
+    <td width="6%">TUN</td>
+    <td width="5%">TUN</td>
+    <td width="15%">Tunisia</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">1C</td>
+    <td width="6%">ROM</td>
+    <td width="5%">ROM</td>
+    <td width="16%">Romania</td>
+    <td width="5%">5C</td>
+    <td width="6%">MLI<br>
+    </td>
+    <td width="5%">MLI</td>
+    <td width="15%">Mali</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">1D</td>
+    <td width="6%">RUS</td>
+    <td width="5%">RUS</td>
+    <td width="16%">Russia</td>
+    <td width="5%">5D</td>
+    <td width="6%">MDG</td>
+    <td width="5%"><font color="#FFFF00"><font color="#0000FF">MAD</font></font></td>
+    <td width="15%"><font color="#FFFF00">Madagascar</font></td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">1E</td>
+    <td width="6%">SMR</td>
+    <td width="5%">SMR</td>
+    <td width="16%">San Marino</td>
+    <td width="5%">5E</td>
+    <td width="6%">CMR</td>
+    <td width="5%">CMR</td>
+    <td width="15%">Cameroon</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">1F</td>
+    <td width="6%">SCO</td>
+    <td width="5%">SCO</td>
+    <td width="16%">Scotland</td>
+    <td width="5%">5F</td>
+    <td width="6%">CHD</td>
+    <td width="5%"><font color="#0000FF">CHA</font></td>
+    <td width="15%"><font color="#FFFF00">Chad</font></td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">20</td>
+    <td width="6%">SLO</td>
+    <td width="5%" height="16"><font color="#0000FF">SVN</font></td>
+    <td width="16%">Slovenia</td>
+    <td width="5%">60</td>
+    <td width="6%">UGA</td>
+    <td width="5%">UGA</td>
+    <td width="15%">Uganda</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%" height="22">21</td>
+    <td width="6%" height="22">SWE</td>
+    <td width="5%">SWE</td>
+    <td width="16%" height="22">Sweden</td>
+    <td width="5%" height="22">61</td>
+    <td width="6%" height="22">LIB</td>
+    <td width="5%" height="22"><font color="#FFFF00"><font color="#0000FF">LBR</font></font></td>
+    <td width="15%" height="22">Liberia</td>
+    <td width="5%" height="22">&nbsp;</td>
+    <td width="6%" height="22">&nbsp;</td>
+    <td width="5%" height="22">&nbsp;</td>
+    <td width="21%" height="22">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">22</td>
+    <td width="6%">TUR</td>
+    <td width="5%">TUR</td>
+    <td width="16%">Turkey</td>
+    <td width="5%">62</td>
+    <td width="6%">MOZ</td>
+    <td width="5%">MOZ</td>
+    <td width="15%">Mozambique</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">23</td>
+    <td width="6%">UKR</td>
+    <td width="5%">UKR</td>
+    <td width="16%">Ukraine</td>
+    <td width="5%">63</td>
+    <td width="6%">KEN</td>
+    <td width="5%">KEN</td>
+    <td width="15%">Kenia</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%" height="21">24</td>
+    <td width="6%" height="21">WAL</td>
+    <td width="5%">WAL</td>
+    <td width="16%" height="21">Wales</td>
+    <td width="5%" height="21">64</td>
+    <td width="6%" height="21">SUD</td>
+    <td width="5%" height="21">SUD</td>
+    <td width="15%" height="21">Sudan</td>
+    <td width="5%" height="21">&nbsp;</td>
+    <td width="6%" height="21">&nbsp;</td>
+    <td width="5%" height="21">&nbsp;</td>
+    <td width="21%" height="21">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">25</td>
+    <td width="6%">YUG</td>
+    <td width="5%">YUG</td>
+    <td width="16%">Serbia&nbsp;Montenegro</td>
+    <td width="5%">65</td>
+    <td width="6%">SWA</td>
+    <td width="5%"><font color="#0000FF">SWZ</font></td>
+    <td width="15%">Swaziland</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">26</td>
+    <td width="6%">BLS</td>
+    <td width="5%"><font color="#0000FF">BLR</font></td>
+    <td width="16%">Belarus</td>
+    <td width="5%">66</td>
+    <td width="6%">ANG</td>
+    <td width="5%">ANG</td>
+    <td width="15%">Angola</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">27</td>
+    <td width="6%">SVK</td>
+    <td width="5%">SVK</td>
+    <td width="16%">Slovakia</td>
+    <td width="5%">67</td>
+    <td width="6%">TOG</td>
+    <td width="5%">TOG</td>
+    <td width="15%">Togo</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%" height="22">28</td>
+    <td width="6%" height="22">ESP</td>
+    <td width="5%">ESP</td>
+    <td width="16%" height="22">Spain</td>
+    <td width="5%" height="22">68</td>
+    <td width="6%" height="22">ZIM</td>
+    <td width="5%" height="22">ZIM</td>
+    <td width="15%" height="22">Zimbabwe</td>
+    <td width="5%" height="22">&nbsp;</td>
+    <td width="6%" height="22">&nbsp;</td>
+    <td width="5%" height="22">&nbsp;</td>
+    <td width="21%" height="22">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">29</td>
+    <td width="6%">ARM</td>
+    <td width="5%">ARM</td>
+    <td width="16%">Armenia</td>
+    <td width="5%">69</td>
+    <td width="6%">EGY</td>
+    <td width="5%">EGY</td>
+    <td width="15%">Egypt</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">2A</td>
+    <td width="6%">BOS</td>
+    <td width="5%"><font color="#0000FF">BIH</font></td>
+    <td width="16%"><font color="#FFFF00">Bosnia&nbsp;Herzegovina</font></td>
+    <td width="5%">6A</td>
+    <td width="6%">TAN</td>
+    <td width="5%">TAN</td>
+    <td width="15%">Tanzania</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">2B</td>
+    <td width="6%">AZB</td>
+    <td width="5%"><font color="#0000FF">AZE</font></td>
+    <td width="16%">Azerbaijan</td>
+    <td width="5%">6B</td>
+    <td width="6%">NIG</td>
+    <td width="5%"><font color="#0000FF">NGA</font></td>
+    <td width="15%">Nigeria<font color="#FFFF00"><font color="#FF0000">-Niger(NIG)</font></font></td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">2C</td>
+    <td width="6%">GEO</td>
+    <td width="5%">GEO</td>
+    <td width="16%">Georgia</td>
+    <td width="5%">6C</td>
+    <td width="6%">ETH</td>
+    <td width="5%">ETH</td>
+    <td width="15%">Ethiopia</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">2D</td>
+    <td width="6%">SWI</td>
+    <td width="5%"><font color="#0000FF">SUI</font></td>
+    <td width="16%">Switzerland</td>
+    <td width="5%">6D</td>
+    <td width="6%">GAB</td>
+    <td width="5%">GAB</td>
+    <td width="15%">Gabon</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">2E</td>
+    <td width="6%">IRL</td>
+    <td width="5%">IRL</td>
+    <td width="16%">Rep.Ireland</td>
+    <td width="5%">6E</td>
+    <td width="6%">SIE</td>
+    <td width="5%"><font color="#0000FF">SLE</font></td>
+    <td width="15%">Sierra&nbsp;Leone</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">2F</td>
+    <td width="6%">MAC</td>
+    <td width="5%"><font color="#0000FF">MKD</font></td>
+    <td width="16%">FYR Macedonia</td>
+    <td width="5%">6F</td>
+    <td width="6%">BEN</td>
+    <td width="5%">BEN</td>
+    <td width="15%">Benin</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%" height="16">30</td>
+    <td width="6%" height="16">TRK</td>
+    <td width="5%" height="16"><font color="#0000FF">TKM</font></td>
+    <td width="16%" height="16"><font color="#FFFF00">Turkmenistan</font></td>
+    <td width="5%" height="16">70</td>
+    <td width="6%" height="16">CON</td>
+    <td width="5%" height="16"><font color="#0000FF">CGO</font></td>
+    <td width="15%" height="16">Congo</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">31</td>
+    <td width="6%">LIE</td>
+    <td width="5%">LIE</td>
+    <td width="16%">Liechtenstein</td>
+    <td width="5%">71</td>
+    <td width="6%">GUI</td>
+    <td width="5%">GUI</td>
+    <td width="15%">Guinea</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%"><u>32</u></td>
+    <td width="6%"><u>MOL</u></td>
+    <td width="5%"><u><font color="#0000FF">MDA</font></u></td>
+    <td width="16%"><u>Moldova</u></td>
+    <td width="5%">72</td>
+    <td width="6%">SRL</td>
+    <td width="5%">&nbsp;</td>
+    <td width="15%"><s><font color="#FFFF00">Sri Lanka</font></s></td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">33</td>
+    <td width="6%">CRC</td>
+    <td width="5%">CRC</td>
+    <td width="16%">Costa Rica</td>
+    <td width="5%">73</td>
+    <td width="6%">MAR</td>
+    <td width="5%">MAR</td>
+    <td width="15%">Morocco</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">34</td>
+    <td width="6%">SAL</td>
+    <td width="5%"><font color="#0000FF">SLV</font></td>
+    <td width="16%">El Salvador</td>
+    <td width="5%">74</td>
+    <td width="6%">GAM</td>
+    <td width="5%">GAM</td>
+    <td width="15%"><font color="#FFFF00">Gambia</font></td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">35</td>
+    <td width="6%">GUA</td>
+    <td width="5%">GUA</td>
+    <td width="16%">Guatemala</td>
+    <td width="5%"><u>75</u></td>
+    <td width="6%"><u>MLW</u></td>
+    <td width="5%"><u><font color="#0000FF">MWI</font></u></td>
+    <td width="15%"><u>Malawi</u></td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">36</td>
+    <td width="6%">HON</td>
+    <td width="5%">HON</td>
+    <td width="16%">Honduras<font color="#FF0000">&nbsp;-&nbsp;Hong&nbsp;Kong(HKG)</font></td>
+    <td width="5%">76</td>
+    <td width="6%">JAP</td>
+    <td width="5%"><font color="#0000FF">JPN</font></td>
+    <td width="15%">Japan </td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">37</td>
+    <td width="6%">BHM</td>
+    <td width="5%"><font color="#0000FF">BAH</font></td>
+    <td width="16%"><font color="#FFFF00">Bahamas</font></td>
+    <td width="5%">77</td>
+    <td width="6%">TAI</td>
+    <td width="5%"><font color="#0000FF">TPE</font></td>
+    <td width="15%">Taiwan (Taipei)</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">38</td>
+    <td width="6%">MEX</td>
+    <td width="5%">MEX</td>
+    <td width="16%">Mexico</td>
+    <td width="5%">78</td>
+    <td width="6%">IND</td>
+    <td width="5%">IND</td>
+    <td width="15%">India<font color="#FF0000">&nbsp;-&nbsp;Indonesia(IDN)</font></td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">39</td>
+    <td width="6%">PAN</td>
+    <td width="5%">PAN</td>
+    <td width="16%">Panama</td>
+    <td width="5%">79</td>
+    <td width="6%">BAN</td>
+    <td width="5%">BAN</td>
+    <td width="15%">Bangladesh</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">3A</td>
+    <td width="6%">USA</td>
+    <td width="5%">USA</td>
+    <td width="16%">U.S.A.</td>
+    <td width="5%">7A</td>
+    <td width="6%">BRU</td>
+    <td width="5%">BRU</td>
+    <td width="15%">Brunei</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">3B</td>
+    <td width="6%">BAH</td>
+    <td width="5%"><font color="#0000FF">BHR</font></td>
+    <td width="16%">Bahrain</td>
+    <td width="5%">7B</td>
+    <td width="6%">IRA</td>
+    <td width="5%"><font color="#FFFF00"><font color="#0000FF">IRQ</font></font></td>
+    <td width="15%">Iraq<font color="#FF0000"> -&nbsp;Iran(IRN)</font></td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">3C</td>
+    <td width="6%">NIC</td>
+    <td width="5%"><font color="#FFFF00"><font color="#0000FF">NCA</font></font></td>
+    <td width="16%">Nicaragua</td>
+    <td width="5%">7C</td>
+    <td width="6%">JOR</td>
+    <td width="5%">JOR</td>
+    <td width="15%">Jordan</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">3D</td>
+    <td width="6%">BER</td>
+    <td width="5%">BER</td>
+    <td width="16%">Bermuda</td>
+    <td width="5%">7D</td>
+    <td width="6%">SRI</td>
+    <td width="5%">SRI</td>
+    <td width="15%">Sri Lanka</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">3E</td>
+    <td width="6%">JAM</td>
+    <td width="5%">JAM</td>
+    <td width="16%">Jamaica</td>
+    <td width="5%">7E</td>
+    <td width="6%">SYR</td>
+    <td width="5%">SYR</td>
+    <td width="15%">Syria</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="5%">3F</td>
+    <td width="6%">TRI</td>
+    <td width="5%">TRI</td>
+    <td width="16%">Trinidad&nbsp;Tobago</td>
+    <td width="5%">7F</td>
+    <td width="6%">KOR</td>
+    <td width="5%">KOR</td>
+    <td width="15%">South Korea</td>
+    <td width="5%">&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="5%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+
+</html>
