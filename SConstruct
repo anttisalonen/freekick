@@ -29,6 +29,7 @@ swos2fk = swos2fk_env.Program(swos2fk_name, swos2fk_files)
 
 addutil_env = def_env.Clone()
 addutil_env.Append(CPPPATH = ['src/addutil'])
+# addutil_env['CPPFLAGS'] += '-fPIC '
 addutil_name = 'lib/addutil'
 addutil_obj = addutil_env.Object(Glob('src/addutil/*.cpp') + 
                                  Glob('src/addutil/network/*.cpp') +
@@ -153,6 +154,29 @@ fkserver_env['LIBS'] = ['boost_thread',
 fkserver_name = 'bin/fkserver'
 fkserver_files = Glob('src/freekick/match/server/*.cpp')
 fkserver = fkserver_env.Program(fkserver_name, fkserver_files)
+
+# freekick_client_py-client
+
+freekick_client_py_env = def_env.Clone()
+freekick_client_py_env.Append(CPPPATH = ['./src/freekick/match/client/ncurses'])
+freekick_client_py_env.Append(CPPPATH = ['./src/addutil'])
+freekick_client_py_env.Append(CPPPATH = ['./src/freekick/soccer'])
+freekick_client_py_env.Append(CPPPATH = ['./src/freekick/match'])
+freekick_client_py_env.Append(CPPPATH = ['./src/freekick/match/client'])
+freekick_client_py_env.Append(CPPPATH = ['/usr/include/python2.5'])
+freekick_client_py_env.Append(LIBPATH = ['./lib'])
+
+freekick_client_py_env['LIBS'] = ['boost_thread', 
+                                  'boost_system', 
+                                  'boost_serialization',
+                                  'boost_regex',
+                                  'boost_python',
+                                  'client']
+
+freekick_client_py_name = 'lib/freekick_client_py'
+freekick_client_py_files = Glob('src/freekick/match/client/python/*.cpp')
+freekick_client_py = freekick_client_py_env.SharedLibrary(freekick_client_py_name, freekick_client_py_files)
+
 
 Default(ai_client, ogre_client, fkserver)
 

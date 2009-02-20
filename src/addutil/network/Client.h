@@ -40,8 +40,9 @@ namespace addutil
             Client(IP_Connection conn);
             virtual ~Client();
             virtual bool is_connected();
+            void read_connection(bool nonblocking);
         protected:
-            void connect();
+            void connect(bool nonblocking = false);
             void disconnect();
             void setTarget(const IP_Connection& conn);
             void getTarget(IP_Connection& conn) const;

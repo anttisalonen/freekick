@@ -53,12 +53,30 @@ namespace addutil
             }
         }
 
-        void Connection::read(boost::shared_ptr<msgbuffer>& b)
+        void Connection::read(boost::shared_ptr<msgbuffer>& b, bool nonblocking)
         {
             boost::asio::streambuf indata;
             boost::system::error_code error;
-            boost::asio::read(*socket, indata,
-                              boost::asio::transfer_at_least(1), error);
+            if(!nonblocking)
+            {
+                boost::asio::read(*socket, indata,
+                                  boost::asio::transfer_at_least(1), error);
+            }
+            else
+            {
+                char buf[8192];
+                size_t len = socket->read_some(boost::asio::buffer(buf), error);
+                buf[len] = '\0';
+                if(len == 0)
+                {
+                    b.reset(new msgbuffer(""));
+                }
+                else
+                {
+                    b.reset(new msgbuffer(buf));
+                }
+                return;
+            }
             if(error) throw error;
             std::istream datastream(&indata);
             boost::asio::streambuf::const_buffers_type bufs = indata.data();

@@ -267,11 +267,11 @@ namespace freekick
                 }
             }
 
-            bool Network::run ( ) 
+            bool Network::run (bool async) 
             {
                 std::cout << "Network engine running" << std::endl;
                 handshake = true;
-                connect();
+                connect(async);
                 return true;
             }
 

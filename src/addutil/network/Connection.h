@@ -46,7 +46,7 @@ namespace addutil
             Connection(conn_id _id, boost::asio::io_service& ios);
             Connection(conn_id _id, boost::shared_ptr<boost::asio::ip::tcp::socket> s);
             virtual ~Connection();
-            void read(boost::shared_ptr<msgbuffer>& b);
+            void read(boost::shared_ptr<msgbuffer>& b, bool nonblocking = false);
             void write(const msgbuffer& buf);
             void connect(const IP_Connection& tgt);
             void disconnect();

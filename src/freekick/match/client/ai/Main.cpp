@@ -53,7 +53,7 @@ int main(int argc, char** argv)
         try
         {
             network = new Network(conn, true);
-            boost::thread network_thread(boost::bind(&Network::run, network));
+            boost::thread network_thread(boost::bind(&Network::run, network, false));
             boost::this_thread::sleep(boost::posix_time::milliseconds(1000));  // TODO: make timeouts configurable?
             if(!network->is_connected())
             {

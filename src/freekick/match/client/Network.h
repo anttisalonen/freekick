@@ -62,7 +62,7 @@ namespace freekick
                 virtual ~Network();
                 freekick::match::MatchStatus* getMatchStatus();
 
-                bool run ( );
+                bool run (bool async = false);
                 void sendMessage(const messages::Message& m);
                 void sendMessages(const std::vector<boost::shared_ptr<messages::Message> >& ms);
                 void disconnect();

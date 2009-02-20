@@ -51,11 +51,14 @@ namespace addutil
             conn = ip_conn;
         }
 
-        void Client::connect()
+        void Client::connect(bool nonblocking)
         {
             disconnect();
             c.connect(ip_conn);
-            read_loop();
+            if(!nonblocking)
+            {
+                read_loop();
+            }
         }
 
         void Client::disconnect()
@@ -73,8 +76,16 @@ namespace addutil
         {
             while(c.connected())
             {
-                boost::shared_ptr<std::string> n;
-                c.read(n);
+                read_connection(false);
+            }
+        }
+
+        void Client::read_connection(bool nonblocking)
+        {
+            boost::shared_ptr<std::string> n;
+            c.read(n, nonblocking);
+            if(n->length() > 0)
+            {
                 read(*n);
             }
         }

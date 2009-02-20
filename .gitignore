@@ -3,6 +3,7 @@ dist/
 .sconf_temp/
 config.log
 *.o
+*.os
 *~
 TAGS
 bin/
