@@ -1059,6 +1059,7 @@ void create_freekick_country_xml(const team_list& teams, const char* country_nam
             add_attribute(t_setup, "participantnum", pow(2, s));
             add_attribute(t_setup, "rounds", "1");
             add_attribute(t_setup, "extratime", "1");
+            add_attribute(t_setup, "penalties", "1");
             add_attribute(t_setup, "replays", "0");
             add_attribute(t_setup, "awaygoals", "0");
 
@@ -1124,16 +1125,14 @@ void create_freekick_country_xml(const team_list& teams, const char* country_nam
         trophy = add_child(stage_node, "trophy");
         add_attribute(trophy, "name", (string(country_adjective) + " " + stage_name + " champion").c_str());
 
-        leagueprs = add_child(level_node, "leagueprs");
-        leaguerls = add_child(level_node, "leaguerls");
         if(i > 0)
         {
-            leaguepr = add_child(leagueprs, "leaguepr");
+            leaguepr = add_child(stage_node, "leaguepr");
             add_attribute(leaguepr, "num", "3");
         }
         if(i < num_divisions - 1 && clubs_in_divisions[i + 1] > 0)
         {
-            leaguerl = add_child(leaguerls, "leaguerl");
+            leaguerl = add_child(stage_node, "leaguerl");
             add_attribute(leaguerl, "num", "3");
         }
         attendances = add_child(stage_node, "attendances");
