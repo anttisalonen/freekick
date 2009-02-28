@@ -44,7 +44,7 @@ namespace freekick
                       mRenderWindow(win)
                 {
                     mRotate = 0.13;
-                    mMove = 250;
+                    mMove = 50;
                     mDirection = Ogre::Vector3::ZERO;
                     mContinue = true;
 
@@ -89,15 +89,10 @@ namespace freekick
                     }
 
                     // Camera
-                    // TODO: read pitch dimensions from matchstatus
                     mCamNodes[0] = mSceneMgr->getRootSceneNode()->createChildSceneNode("CamNode0");
-                    mCamNodes[0]->setPosition (Ogre::Vector3(35.0f, 100.0f, 50.0f));
-                    mCamNodes[0]->lookAt (Ogre::Vector3(35.0f, 0, 50.0f), Ogre::Node::TS_WORLD);
-                    mCamNodes[0]->roll(Ogre::Radian(-Ogre::Math::HALF_PI));
-
                     mCamNodes[1] = mSceneMgr->getRootSceneNode()->createChildSceneNode("CamNode1");
-                    mCamNodes[1]->setPosition (Ogre::Vector3(35.0f, 75.0f, 120.0f));
-                    mCamNodes[1]->lookAt (Ogre::Vector3(35.0f, 0, 65.0f), Ogre::Node::TS_WORLD);
+                    mCamNodes[2] = mSceneMgr->getRootSceneNode()->createChildSceneNode("CamNode2");
+                    init_camera_nodes();
 
                     mCamNodes[1]->attachObject(mCamera);
                     mCamNode = mCamNodes[1];
@@ -116,6 +111,20 @@ namespace freekick
                     if(mKeyboard) mInputManager->destroyInputObject(mKeyboard);
                     if(mMouse) mInputManager->destroyInputObject(mMouse);
                     OIS::InputManager::destroyInputSystem(mInputManager);
+                }
+
+                void InputHandler::init_camera_nodes()
+                {
+                    // TODO: read pitch dimensions from matchstatus
+                    mCamNodes[0]->setPosition (Ogre::Vector3(35.0f, 100.0f, 50.0f));
+                    mCamNodes[0]->lookAt (Ogre::Vector3(35.0f, 0, 50.0f), Ogre::Node::TS_WORLD);
+                    mCamNodes[0]->roll(Ogre::Radian(Ogre::Math::HALF_PI));
+
+                    mCamNodes[1]->setPosition (Ogre::Vector3(35.0f, 75.0f, 120.0f));
+                    mCamNodes[1]->lookAt (Ogre::Vector3(35.0f, 0, 65.0f), Ogre::Node::TS_WORLD);
+
+                    mCamNodes[2]->setPosition (Ogre::Vector3(105.0f, 45.0f, 50.0f));
+                    mCamNodes[2]->lookAt (Ogre::Vector3(35.0f, 0, 50.0f), Ogre::Node::TS_WORLD);
                 }
 
                 bool InputHandler::frameStarted(const Ogre::FrameEvent& evt)
@@ -231,8 +240,10 @@ namespace freekick
 
                         case OIS::KC_O:
                         {
-                            const Ogre::Vector3& vec = mCamNode->getPosition();
+                            const Ogre::Vector3& vec = mCamera->getPosition();
                             std::cerr << "Camera position: " << vec.x << "; " << vec.y << "; " << vec.z << std::endl;
+                            const Ogre::Quaternion& q = mCamera->getOrientation();
+                            std::cerr << "Camera orientation: " << q.w << "; " << q.x << "; " << q.y << "; " << q.z << std::endl;
                             break;
                         }
 
@@ -276,6 +287,10 @@ namespace freekick
 
                         case OIS::KC_2:
                             switchToCameraMode(CamLengthFar);
+                            break;
+
+                        case OIS::KC_3:
+                            switchToCameraMode(CamTV);
                             break;
 
                         default:
@@ -369,26 +384,26 @@ namespace freekick
                     switch(d)
                     {
                         case DirUp:
-                            if(mCamMode == CamSky)
-                                mRunDirection.x += mag;
+                            if(mCamMode == CamSky || mCamMode == CamTV)
+                                mRunDirection.x -= mag;
                             else if (mCamMode == CamLengthFar)
                                 mRunDirection.z -= mag;
                             break;
                         case DirDown:
-                            if(mCamMode == CamSky)
-                                mRunDirection.x -= mag;
+                            if(mCamMode == CamSky || mCamMode == CamTV)
+                                mRunDirection.x += mag;
                             else if (mCamMode == CamLengthFar)
                                 mRunDirection.z += mag;
                             break;
                         case DirLeft:
-                            if(mCamMode == CamSky)
-                                mRunDirection.z -= mag;
+                            if(mCamMode == CamSky || mCamMode == CamTV)
+                                mRunDirection.z += mag;
                             else if (mCamMode == CamLengthFar)
                                 mRunDirection.x -= mag;
                             break;
                         case DirRight:
-                            if(mCamMode == CamSky)
-                                mRunDirection.z += mag;
+                            if(mCamMode == CamSky || mCamMode == CamTV)
+                                mRunDirection.z -= mag;
                             else if (mCamMode == CamLengthFar)
                                 mRunDirection.x += mag;
                             break;
@@ -424,10 +439,36 @@ namespace freekick
                 void InputHandler::switchToCameraMode(CameraMode m)
                 {
                     mCamera->getParentSceneNode()->detachObject(mCamera);
-                    int i = (m == CamSky) ? 0 : 1;
+
+                    int i;
+                    switch(m)
+                    {
+                        case CamSky: 
+                            i = 0; break;
+                        case CamLengthFar: 
+                            i = 1; break;
+                        case CamTV: 
+                        default: 
+                            i = 2; break;
+                    }
                     mCamNodes[i]->attachObject(mCamera);
                     mCamNode = mCamNodes[i];
                     mCamMode = m;
+
+                    mCamera->setAutoTracking(false);
+                    mCamera->setOrientation(Ogre::Quaternion::IDENTITY);
+                    if(m == CamTV)
+                    {
+                        try
+                        {
+                            Ogre::SceneNode* ballnode = mSceneMgr->getSceneNode("Node-2");
+                            mCamera->setAutoTracking(true, ballnode);
+                        }
+                        catch(...)
+                        {
+                            std::cerr << "InputHandler::switchToCameraMode(): ball node not found!\n";
+                        }
+                    }
                 }
             }
         }

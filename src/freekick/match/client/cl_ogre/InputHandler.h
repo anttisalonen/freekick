@@ -82,7 +82,8 @@ namespace freekick
                 enum CameraMode
                 {
                     CamSky,
-                    CamLengthFar
+                    CamLengthFar,
+                    CamTV
                 };
 
                 class InputHandler : public Ogre::FrameListener, public OIS::MouseListener, public OIS::KeyListener, public Ogre::WindowEventListener
@@ -106,6 +107,7 @@ namespace freekick
                     void windowResized(Ogre::RenderWindow* rw);
 
                 private:
+                    void init_camera_nodes();
                     void setMoveVector(SubjectiveDirection d, float mag);
                     void sendMoveMessage(const addutil::Vector3& to);
                     void sendMoveMessage(Direction d, float mag);
@@ -133,7 +135,7 @@ namespace freekick
                     Ogre::SceneManager* mSceneMgr;
                     Ogre::Camera* mCamera;
                     CameraMode mCamMode;
-                    boost::array<Ogre::SceneNode*, 2> mCamNodes;
+                    boost::array<Ogre::SceneNode*, 3> mCamNodes;
                     Ogre::SceneNode* mCamNode;
 
                     Ogre::RaySceneQuery* mRaySceneQuery;
