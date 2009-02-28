@@ -63,7 +63,14 @@ namespace freekick
 
             void Helpers::correctShootVector(addutil::Vector3& target)
             {
-                target.y = target.length() * 0.3f;
+                target.y = target.length() * 0.2f;
+                target.normalize();
+                target *= 30.0f;
+            }
+
+            void Helpers::correctLongBallVector(addutil::Vector3& target)
+            {
+                target.y = target.length() * 0.4f;
                 target.normalize();
                 target *= 30.0f;
             }

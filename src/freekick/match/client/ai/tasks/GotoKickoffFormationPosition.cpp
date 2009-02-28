@@ -42,7 +42,7 @@ namespace freekick
                             addutil::Vector3 formationpoint;
                             try
                             {
-                                formationpoint = mMatchStatus->getPlayerClub(mPlayerID)->getFormation()->getPlayerArea(mPlayerID).getCenter();
+                                formationpoint = mMatchStatus->getPlayerClub(mPlayerID)->getFormation()->getPlayerAreaCenter(mPlayerID);
                                 ownformationpos.x = formationpoint.x;
                             }
                             catch(...)
@@ -75,8 +75,8 @@ namespace freekick
                             ownformationpos.x = 1.0f - ownformationpos.x;
                             ownformationpos.z = 1.0f - ownformationpos.z;
                         }
-                        float pitchw = mMatchStatus->getMatchData()->getStadium()->getPitch()->getWidth();
-                        float pitchl = mMatchStatus->getMatchData()->getStadium()->getPitch()->getLength();
+                        float pitchw = mMatchStatus->getPitchWidth();
+                        float pitchl = mMatchStatus->getPitchLength();
                         ownformationpos.x *= pitchw;
                         ownformationpos.z *= pitchl;
                     }

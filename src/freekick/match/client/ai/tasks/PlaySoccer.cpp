@@ -90,7 +90,11 @@ namespace freekick
                                 }
                                 else
                                 {
-                                    if(h.isnearestplayer && h.allowed_to_kick)
+                                    addutil::Vector3 ballpos_corrected = 
+                                        mMatchStatus->absolute_pitch_position_to_percent(mMatchStatus->getBall()->getPosition(), h.b);
+                                    bool ballinmyarea = mMatchStatus->getPlayerFormation(mPlayerID)->getPlayerArea(mPlayerID).in(
+                                        ballpos_corrected);
+                                    if((h.isnearestplayer || ballinmyarea) && h.allowed_to_kick)
                                     {
                                         if(h.abletokick)
                                         {

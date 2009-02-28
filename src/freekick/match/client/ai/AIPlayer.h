@@ -28,10 +28,11 @@
 #include <boost/foreach.hpp>
 
 #include "addutil/DynamicEntity.h"
-#include "addutil/ai/Task.h"
 
 #include "messages/PlayerControlMessage.h"
 #include "messages/MovePlayerControlMessage.h"
+#include "messages/KickPlayerControlMessage.h"
+#include "messages/HoldPlayerControlMessage.h"
 
 #include "MatchStatus.h"
 #include "Club.h"

@@ -64,6 +64,7 @@ namespace freekick
 
                 static void correctPassVector(addutil::Vector3& target);
                 static void correctShootVector(addutil::Vector3& target);
+                static void correctLongBallVector(addutil::Vector3& target);
             };
         }
     }

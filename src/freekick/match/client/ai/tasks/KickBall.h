@@ -22,14 +22,16 @@
 #define FREEKICKTASKSKICKBALL_H
 
 #include <boost/shared_ptr.hpp>
+#include <boost/tuple/tuple.hpp>
 
 #include "addutil/Vector3.h"
 
 #include "MatchStatus.h"
+#include "Helpers.h"
+#include "Primitives.h"
 
 #include "tasks/CompositeTask.h"
-#include "tasks/PassBall.h"
-#include "tasks/ShootBall.h"
+#include "messages/KickPlayerControlMessage.h"
 
 namespace freekick 
 { 
@@ -41,6 +43,7 @@ namespace freekick
             {
                 namespace tasks
                 {
+                    typedef boost::tuple<float, addutil::Vector3> optimal_kick;
                     class KickBall : public CompositeTask
                     {
                     public:
@@ -48,9 +51,17 @@ namespace freekick
                         bool finished() const;
                         boost::shared_ptr<messages::PlayerControlMessage> process();
                     private:
+                        optimal_kick getOptimalPass() const;
+                        optimal_kick getOptimalShot() const;
+                        optimal_kick getOptimalDribble() const;
+                        optimal_kick getOptimalLongBall() const;
                         boost::shared_ptr<MatchStatus> mMatchStatus;
                         int mPlayerID;
                         boost::shared_ptr<MatchPlayer> mPlayer;
+                        addutil::Vector3 ownpos;
+                        soccer::PlayerTarget t;
+                        addutil::Vector3 tgtgoal;
+                        addutil::Vector3 goalvec;
                     };
                 }
             }

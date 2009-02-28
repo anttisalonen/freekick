@@ -49,7 +49,7 @@ namespace freekick
                         soccer::PlayerTarget b = mMatchStatus->getPlayerTarget(mPlayerID);
                         const boost::shared_ptr<Formation> f = mMatchStatus->getPlayerClub(mPlayerID)->getFormation();
                         PlayerPosition pp = mPlayer->getPlayerPosition();
-                        addutil::Vector3 formationpoint = f->getPlayerArea(mPlayerID).getCenter();
+                        addutil::Vector3 formationpoint = f->getPlayerAreaCenter(mPlayerID);
                         addutil::Vector3 movedFormationpoint(formationpoint);
                         float plength = mMatchStatus->getPitchLength();
                         float pwidth = mMatchStatus->getPitchWidth();

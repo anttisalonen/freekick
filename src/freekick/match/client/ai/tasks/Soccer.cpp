@@ -36,7 +36,8 @@ namespace freekick
                         boost::shared_ptr<tasks::StartSoccer> t1;
                         boost::shared_ptr<tasks::PlaySoccer> t2;
                         boost::shared_ptr<tasks::EndSoccer> t3;
-                        for(int i = 0; i < 2; i++)
+                        int num_half_times = 2;
+                        for(int i = 0; i < num_half_times; i++)
                         {
                             t1.reset(new tasks::StartSoccer(mMatchStatus, mPlayerID));   // 1, 4
                             addTask(t1);
