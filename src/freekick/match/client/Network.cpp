@@ -269,10 +269,17 @@ namespace freekick
 
             bool Network::run (bool async) 
             {
-                std::cout << "Network engine running" << std::endl;
-                handshake = true;
-                connect(async);
-                return true;
+                try
+                {
+                    std::cout << "Network engine running" << std::endl;
+                    handshake = true;
+                    connect(async);
+                    return true;
+                }
+                catch (...)
+                {
+                    throw std::runtime_error("Network::run: unknown exception.");
+                }
             }
 
             int Network::getConstantUpdateInterval() const
