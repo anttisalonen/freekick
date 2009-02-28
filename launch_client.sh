@@ -1,1 +1,0 @@
-bin/launch_client.sh
