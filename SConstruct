@@ -177,6 +177,26 @@ freekick_client_py_name = 'lib/freekick_client_py'
 freekick_client_py_files = Glob('src/freekick/match/client/python/*.cpp')
 freekick_client_py = freekick_client_py_env.SharedLibrary(freekick_client_py_name, freekick_client_py_files)
 
+# NCurses Client
+
+ncursesclient_env = def_env.Clone()
+ncursesclient_env.Append(CPPPATH = ['./src/addutil'])
+ncursesclient_env.Append(CPPPATH = ['./src/freekick/soccer'])
+ncursesclient_env.Append(CPPPATH = ['./src/freekick/match'])
+ncursesclient_env.Append(CPPPATH = ['./src/freekick/match/client'])
+ncursesclient_env.Append(CPPPATH = ['./src/freekick/match/client/ncurses'])
+ncursesclient_env.Append(LIBPATH = ['./lib'])
+ncursesclient_env['LIBS'] = ['boost_thread',
+                             'boost_system',
+                             'boost_serialization',
+                             'boost_regex',
+                             'ncurses',
+                             'client']
+
+ncursesclient_name = 'bin/ncclient'
+ncursesclient_files = (Glob('src/freekick/match/client/ncurses/*.cpp'))
+ncursesclient = ncursesclient_env.Program(ncursesclient_name, ncursesclient_files)
+
 
 Default(ai_client, ogre_client, fkserver)
 
