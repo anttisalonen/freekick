@@ -62,6 +62,7 @@ namespace addutil
 
         Vector3& normalize();
         float length() const;
+        float length2() const;
         void capX(float n);
         void capY(float n);
         void capZ(float n);

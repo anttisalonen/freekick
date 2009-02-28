@@ -57,6 +57,11 @@ namespace addutil
         return sqrt(x * x + y * y + z * z);
     }
 
+    float Vector3::length2() const
+    {
+        return x * x + y * y + z * z;
+    }
+
     void Vector3::capX(float n)
     {
         if(x > n) x = n;

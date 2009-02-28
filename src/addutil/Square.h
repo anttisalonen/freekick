@@ -18,26 +18,27 @@
 **************************************************************************/
 
 
-#ifndef ADDUTILCIRCLE_H
-#define ADDUTILCIRCLE_H
+#ifndef ADDUTIL_SQUARE_H
+#define ADDUTIL_SQUARE_H
+
+#include <algorithm>
+#include <iostream>
 
 #include "Vector3.h"
 
 namespace addutil
 {
-    class Circle
+    class Square
     {
     public:
-        Circle(Vector3 v, float rad);
-        Circle(float x, float y, float rad);
-        virtual ~Circle() { }
-        const Vector3& getCenter() const;
-        float getRadius() const;
-        bool inCircle(int x, int y) const;
-        bool inCircle(Vector3 v) const;
+        Square(float minx, float maxx, float minz, float maxz);
+        Square(const Vector3& a, const Vector3& b);
+        bool in(const Vector3& t) const;
+        const Vector3 getCenter() const;        
+        virtual ~Square() { }
     private:
-        Vector3 mLocation;
-        float mRadius;
+        Vector3 topleft;
+        Vector3 bottomright;
     };
 }
 

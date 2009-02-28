@@ -24,6 +24,7 @@
 #include <string>
 #include <iostream>
 #include <cstdlib>
+#include <sstream>
 
 #include <boost/lexical_cast.hpp>
 #include <boost/algorithm/string/find.hpp>
@@ -70,6 +71,14 @@ namespace addutil
             nums.push_back(boost::lexical_cast<int>(num));
             strings.pop_front();
         }
+    }
+
+    template <typename T>
+        std::string num_to_string(const T& n)
+    {
+        std::stringstream out;
+        out << n;
+        return out.str();
     }
 }
 
