@@ -44,6 +44,8 @@ namespace freekick
         static const float goal_height = 2.44f;
         static const float goal_area_width = 5.5f;
         static const float goal_area_length = 5.5f;
+        static const float penalty_box_area_width = 40.3f;
+        static const float penalty_box_area_length = 16.5f;
 
         class Pitch
         {
@@ -58,6 +60,7 @@ namespace freekick
             bool inFirstGoal(float x, float y, float z) const;
             bool inSecondGoal(float x, float y, float z) const;
             GoalQuery inGoalArea(const addutil::Vector3& v) const;
+            GoalQuery inPenaltyBoxArea(const addutil::Vector3& v) const;
 
         protected:
             bool maybeInGoal(float x, float y, float z) const;
@@ -65,6 +68,7 @@ namespace freekick
             const float width;
             const float length;
             boost::array<addutil::Vector3, 4> goal_area_points;
+            boost::array<addutil::Vector3, 4> penalty_box_area_points;
 
             friend class boost::serialization::access;
             template<class Archive>

@@ -27,14 +27,25 @@ namespace freekick
         Pitch::Pitch (float w, float l)
             : width(w), length(l) 
         {
-            float goal_area_left = width / 2.0f - (goal_width / 2.0f) - goal_area_width;
-            float goal_area_right = width / 2.0f + (goal_width / 2.0f) + goal_area_width;
+            float half_width = width / 2.0f;
+
+            float goal_area_left = half_width - (goal_width / 2.0f) - goal_area_width;
+            float goal_area_right = half_width + (goal_width / 2.0f) + goal_area_width;
             float goal_area_up = goal_area_length;
             float goal_area_down = length - goal_area_length;
             goal_area_points[0] = addutil::Vector3(goal_area_left,  0.0f, 0.0f);
             goal_area_points[1] = addutil::Vector3(goal_area_right, 0.0f, goal_area_up);
             goal_area_points[2] = addutil::Vector3(goal_area_left,  0.0f, goal_area_down);
             goal_area_points[3] = addutil::Vector3(goal_area_right, 0.0f, length);
+
+            float penalty_box_area_left  = half_width - penalty_box_area_width / 2.0f;
+            float penalty_box_area_right = half_width + penalty_box_area_width / 2.0f;
+            float penalty_box_area_up    = penalty_box_area_length;
+            float penalty_box_area_down  = length - penalty_box_area_length;
+            penalty_box_area_points[0] = addutil::Vector3(penalty_box_area_left,  0.0f, 0.0f);
+            penalty_box_area_points[1] = addutil::Vector3(penalty_box_area_right, 0.0f, penalty_box_area_up);
+            penalty_box_area_points[2] = addutil::Vector3(penalty_box_area_left,  0.0f, penalty_box_area_down);
+            penalty_box_area_points[3] = addutil::Vector3(penalty_box_area_right, 0.0f, length);
         }
 
         float Pitch::getWidth() const
@@ -95,6 +106,13 @@ namespace freekick
         {
             if(addutil::inArea(goal_area_points[0], goal_area_points[1], v)) return HomeGoal;
             if(addutil::inArea(goal_area_points[2], goal_area_points[3], v)) return AwayGoal;
+            return NoGoal;
+        }
+
+        GoalQuery Pitch::inPenaltyBoxArea(const addutil::Vector3& v) const
+        {
+            if(addutil::inArea(penalty_box_area_points[0], penalty_box_area_points[1], v)) return HomeGoal;
+            if(addutil::inArea(penalty_box_area_points[2], penalty_box_area_points[3], v)) return AwayGoal;
             return NoGoal;
         }
     }

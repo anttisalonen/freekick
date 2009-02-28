@@ -26,7 +26,7 @@
 
 #include <boost/shared_ptr.hpp>
 
-#include "addutil/Circle.h"
+#include "addutil/Square.h"
 
 #include "Lineup.h"
 
@@ -34,7 +34,7 @@ namespace freekick
 {
     namespace soccer
     {
-        typedef std::map<int, addutil::Circle> FormationMap;
+        typedef std::map<int, addutil::Square> FormationMap;
         class Formation
         {
         public:
@@ -42,7 +42,8 @@ namespace freekick
             Formation(const boost::shared_ptr<Lineup>& l);
             bool updateLineup(const boost::shared_ptr<Lineup>& l);
             virtual ~Formation() { }
-            const addutil::Circle& getPlayerArea(int id) const;
+            const addutil::Square& getPlayerArea(int id) const;
+            const addutil::Vector3 getPlayerAreaCenter(int id) const;
         private:
             FormationMap mFormationMap;
         };

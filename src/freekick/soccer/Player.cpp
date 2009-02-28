@@ -29,11 +29,23 @@ namespace freekick
               idnumber(_idnumber),
               position(pos)
         {
+            id_string = addutil::num_to_string(idnumber);
+            number_string = addutil::num_to_string(number);
         }
 
         unsigned int Player::getID() const
         {
             return idnumber;
+        }
+
+        const std::string& Player::getIDString() const
+        {
+            return id_string;
+        }
+
+        const std::string& Player::getNumberString() const
+        {
+            return number_string;
         }
 
         int Player::getNumber() const
@@ -44,6 +56,16 @@ namespace freekick
         PlayerPosition Player::getPlayerPosition() const
         {
             return position;
+        }
+
+        PlayerPersonality& Player::getPersonality()
+        {
+            return playerpersonality;
+        }
+
+        PlayerSkills& Player::getSkills()
+        {
+            return playerskills;
         }
 
         PlayerPosition IntToPlayerPosition(int i)

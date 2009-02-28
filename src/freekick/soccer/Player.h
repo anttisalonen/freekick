@@ -27,6 +27,7 @@
 
 #include "addutil/Human.h"
 #include "addutil/Color.h"
+#include "addutil/Parsing.h"
 
 /**
  * class Player
@@ -44,6 +45,33 @@ namespace freekick
             Forward
         };
 
+        class PlayerPersonality
+        {
+        public:
+            int active;
+            int risktaking;
+            int offensive;
+            int aggressive;
+            int consistent;
+            int creative;
+            int experienced;
+        };
+
+        class PlayerSkills
+        {
+        public:
+            int stamina;
+            int dexterity;
+            int speed;
+            int tackling;
+            int passing;
+            int shooting;
+            int control;
+            int accuracy;
+            int goalkeeping;
+            int heading;
+        };
+
         class Player : public addutil::Human
         {
         public:
@@ -57,14 +85,22 @@ namespace freekick
              */
             Player (const std::string& _name, int num, unsigned int _idnumber, PlayerPosition pos);
             unsigned int getID() const;
+            const std::string& getIDString() const;
+            const std::string& getNumberString() const;
             int getNumber() const;
             PlayerPosition getPlayerPosition() const;
+            PlayerPersonality& getPersonality();
+            PlayerSkills& getSkills();
 
         private:
 
             int number;
             const unsigned int idnumber;
+            std::string id_string;
+            std::string number_string;
             PlayerPosition position;
+            PlayerPersonality playerpersonality;
+            PlayerSkills playerskills;
 
             friend class boost::serialization::access;
             template<class Archive>
