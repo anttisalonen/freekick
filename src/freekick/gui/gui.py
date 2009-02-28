@@ -13,6 +13,7 @@ from PyQt4 import Qt as qt
 
 from Primitives import sorted_dict_values
 import Database
+import SoccerData
 
 class Lineups(QtGui.QWidget):
     def __init__(self, clubnames, parent=None):
@@ -130,8 +131,9 @@ class GeneralClubChooser(QtGui.QWidget):
 
     def itemSelected(self, widget, column):
         if widget.childCount() == 0:
-            self.chosen_clubs.addItem(widget.text(0))
-            self.newSelection()
+            if len(self.chosen_clubs.findItems(widget.text(0), qt.Qt.MatchExactly)) == 0:
+                self.chosen_clubs.addItem(widget.text(0))
+                self.newSelection()
 
     def itemDeselected(self, widget):
         self.chosen_clubs.takeItem(self.chosen_clubs.currentRow())
@@ -225,6 +227,7 @@ class DIY(QtGui.QWidget):
             self.connect(self.num_clubs_boxes[stage], QtCore.SIGNAL('valueChanged(int)'), self.update_stages)
             self.connect(self.additional_clubs_boxes[stage], QtCore.SIGNAL('valueChanged(int)'), self.update_stages)
         self.connect(self.back, QtCore.SIGNAL('clicked()'), self, QtCore.SLOT('close()'))
+        self.connect(self.forward, QtCore.SIGNAL('clicked()'), self.go_forward)
 
         self.update_stages()
 
@@ -276,6 +279,66 @@ class DIY(QtGui.QWidget):
                     combo.addItem("%d groups of %d" % (num_groups, num_clubs_per_group))
                 else:
                     combo.addItem("%d group of %d" % (num_groups, num_clubs_per_group))
+
+    def go_forward(self):
+        total_clubs = self.num_clubs_boxes[0].value()
+        for box in self.additional_clubs_boxes:
+            total_clubs += box.value()
+        t_stages = []
+        for stage in range(self.max_num_stages):
+            if self.num_clubs_boxes[stage].value() < 1:
+                break
+            s_type = SoccerData.StageType.League
+            if str(self.stage_type_boxes[stage].currentText()) == "Knockout":
+                s_type = SoccerData.StageType.Cup
+            new_stage = SoccerData.Stage(SoccerData.stage_number_to_stage_name(stage, self.max_num_stages), s_type)
+            new_stage.setup.participantnum = self.additional_clubs_boxes[stage].value() + self.num_clubs_boxes[stage].value()
+            t_stages.append(new_stage)
+        self.tournament = SoccerData.Tournament("DIY Tournament")
+        self.tournament.stages = t_stages
+        cc = GeneralClubChooser(total_clubs, self.start_tournament)
+        cc.show()
+        self.wins = [cc]
+
+    def start_tournament(self, chosen_clubs):
+        tournament_screen = TournamentScreen(self.tournament, chosen_clubs)
+        tournament_screen.show()
+        self.wins += [tournament_screen]
+
+class TournamentScreen(QtGui.QWidget):
+    def __init__(self, tournament, additional_clubs = [], parent = None):
+        QtGui.QWidget.__init__(self, parent)
+        self.tournament = tournament
+        tournament.add_clubs(additional_clubs)
+
+        self.highest_box = QtGui.QVBoxLayout()
+        self.bottom_buttons_box = QtGui.QHBoxLayout()
+
+        self.this_stage = tournament.stages[0]
+        if self.this_stage.type == SoccerData.StageType.Cup:
+            self.matches_box = QtGui.QHBoxLayout()
+            self.left_matches_box = QtGui.QVBoxLayout()
+            self.right_matches_box = QtGui.QVBoxLayout()
+            index = 0
+            for club in self.this_stage.clubs:
+                label = QtGui.QLabel(club)
+                if index % 2 == 0:
+                    self.left_matches_box.addWidget(label)
+                else:
+                    self.right_matches_box.addWidget(label)
+                index += 1
+            self.matches_box.addLayout(self.left_matches_box)
+            self.matches_box.addLayout(self.right_matches_box)
+            self.highest_box.addLayout(self.matches_box)
+
+        self.back = QtGui.QPushButton("Back", self)
+        self.bottom_buttons_box.addWidget(self.back)
+        self.highest_box.addLayout(self.bottom_buttons_box)
+
+        self.setLayout(self.highest_box)
+        self.resize(800, 600)
+
+        self.connect(self.back, QtCore.SIGNAL('clicked()'), self, QtCore.SLOT('close()'))
 
 class MainMenu(QtGui.QWidget):
     def __init__(self, parent=None):

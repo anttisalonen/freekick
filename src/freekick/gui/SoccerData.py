@@ -128,13 +128,51 @@ class Stage:
             self.setup = LeagueSetup()
         else:
             self.setup = CupSetup()
+
     def get_clubs(self):
         return self.clubs
+
+    def feed_clubs(self, clubs):
+        while len(self.clubs) < self.setup.participantnum:
+            self.clubs.append(clubs.pop(0))
+
+def stage_number_to_stage_name(s, max_stages):
+    if s < 1 or max_stages < 1:
+        return ""
+    if s == 1:
+        return "Final"
+    elif s == 2:
+        return "Semifinals"
+    elif s == 3:
+        return "Quarterfinals"
+    else:
+        if s == max_stages:
+            return "First round"
+        elif s == max_stages - 1:
+            return "Second round"
+        elif s == max_stages - 2:
+            return "Third round"
+        elif s == max_stages - 3:
+            return "Fourth round"
+        elif s == max_stages - 4:
+            return "Fifth round"
+        elif s == max_stages - 5:
+            return "Sixth round"
+        elif s == max_stages - 6:
+            return "Seventh round"
+        elif s == max_stages - 7:
+            return "Eighth round"
+    return ""
 
 class Tournament:
     def __init__(self, name, stages = []):
         self.name = name
         self.stages = stages
+    def add_clubs(self, clubs):
+        for s in self.stages:
+            s.feed_clubs(clubs)
+            if len(clubs) == 0:
+                break
 
 class Exchange:
     def __init__(self, highest = 0, num = 0):
