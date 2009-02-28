@@ -70,6 +70,30 @@ namespace freekick
             v = mPlayers;
         }
 
+        std::vector<boost::shared_ptr<MatchPlayer> > MatchStatus::getPlayers() const
+        {
+            std::vector<boost::shared_ptr<MatchPlayer> > retval;
+            typedef const std::pair<const int, boost::shared_ptr<MatchPlayer> > pair_cl;
+            BOOST_FOREACH(pair_cl m, mPlayers)
+            {
+                retval.push_back(m.second);
+            }
+            return retval;
+        }
+
+        std::vector<boost::shared_ptr<MatchPlayer> > MatchStatus::getPlayers(soccer::BallOwner b) const
+        {
+            std::vector<boost::shared_ptr<MatchPlayer> > retval;
+            typedef const std::pair<const int, boost::shared_ptr<MatchPlayer> > pair_cl;
+            BOOST_FOREACH(pair_cl m, mPlayers)
+            {
+                soccer::BallOwner bo = getPlayerSide(m.second->getID());
+                if(bo == b)
+                    retval.push_back(m.second);
+            }
+            return retval;
+        }
+
         void MatchStatus::update(const messages::ConstantUpdateMessage& m, float time_interval)
         {
             int n = m.getPlayerID();
@@ -238,6 +262,11 @@ namespace freekick
             return mMatchData->getAwayClub();
         }
 
+        boost::shared_ptr<Formation> MatchStatus::getPlayerFormation(int id) const
+        {
+            return getPlayerClub(id)->getFormation();
+        }
+
         addutil::Vector3 MatchStatus::getCentreSpot() const
         {
             float pwidth = mMatchData->getStadium()->getPitch()->getWidth();
@@ -266,7 +295,7 @@ namespace freekick
             return boost::tuple<int, float>(plid, min_length);
         }
 
-        boost::tuple<int, float> MatchStatus::nearestPlayerFromClubToBall(soccer::BallOwner b) const
+        boost::tuple<int, float> MatchStatus::nearestPlayerFromClubToEntity(soccer::BallOwner b, const boost::shared_ptr<addutil::Entity>& e) const
         {
             boost::shared_ptr<Club> c1 = mMatchData->getHomeClub();
             boost::shared_ptr<Club> c2 = mMatchData->getAwayClub();
@@ -296,7 +325,7 @@ namespace freekick
                         continue;
                 }
 
-                float this_length = (it->second->getPosition() - mBall->getPosition()).length();
+                float this_length = (it->second->getPosition() - e->getPosition()).length();
                 if(this_length < min_length)
                 {
                     min_length = this_length;
@@ -306,14 +335,29 @@ namespace freekick
             return boost::tuple<int, float>(plid, min_length);
         }
 
+        boost::tuple<int, float> MatchStatus::nearestPlayerFromClubToBall(soccer::BallOwner b) const
+        {
+            return nearestPlayerFromClubToEntity(b, mBall);
+        }
+
+        boost::tuple<int, float> MatchStatus::nearestPlayerFromClubToPlayer(soccer::BallOwner b, int id) const
+        {
+            return nearestPlayerFromClubToEntity(b, getPlayer(id));
+        }
+
         float MatchStatus::getPitchWidth() const
         {
-            return mMatchData->getStadium()->getPitch()->getWidth();
+            return getPitch()->getWidth();
         }
 
         float MatchStatus::getPitchLength() const
         {
-            return mMatchData->getStadium()->getPitch()->getLength();
+            return getPitch()->getLength();
+        }
+
+        const boost::shared_ptr<Pitch> MatchStatus::getPitch() const
+        {
+            return mMatchData->getStadium()->getPitch();
         }
 
         addutil::Vector3 MatchStatus::getGoalPosition(soccer::PlayerTarget b) const
@@ -417,6 +461,93 @@ namespace freekick
         void MatchStatus::setBallHolder(int h)
         {
             mBall->setHolder(h);
+        }
+
+        BallOwner MatchStatus::nearestClubToBall() const
+        {
+            return getPlayerSide(nearestPlayerToBall().get<0>());
+        }
+
+        int MatchStatus::ownPlayersInOwnPenaltyBox(BallOwner b) const
+        {
+            boost::shared_ptr<Pitch> p = getPitch();
+            int retval = 0;
+            typedef const std::pair<const int, boost::shared_ptr<MatchPlayer> > pair_cl;
+            BOOST_FOREACH(pair_cl m, mPlayers)
+            {
+                if(getPlayerSide(m.second->getID()) == b)
+                {
+                    if(p->inPenaltyBoxArea(m.second->getPosition()))
+                        retval++;
+                }
+            }
+            return retval;
+        }
+
+        float MatchStatus::playerDistanceToBall(int id) const
+        {
+            return (getPlayer(id)->getPosition() - mBall->getPosition()).length();
+        }
+
+        float MatchStatus::distanceToNearestOpponent(int id) const
+        {
+            return nearestPlayerFromClubToEntity(other(getPlayerSide(id)), getPlayer(id)).get<0>();
+        }
+
+        bool MatchStatus::ballInOwnPenaltyBox(BallOwner b) const
+        {
+            GoalQuery g = getPitch()->inPenaltyBoxArea(mBall->getPosition());
+            if(g == NoGoal) return false;
+            bool retval = false;
+            if(g == HomeGoal && b == Home)
+                retval = true;
+            else if (g == AwayGoal && b == Away)
+                retval = true;
+            if(secondhalf)
+                retval = !retval;
+            return retval;
+        }
+
+        addutil::Vector3 MatchStatus::percent_pitch_position_to_absolute(const addutil::Vector3& perc) const
+        {
+            addutil::Vector3 retval = perc;
+            retval.x *= getPitchWidth();
+            retval.z *= getPitchLength();
+            return retval;
+        }
+
+        addutil::Vector3 MatchStatus::percent_pitch_position_to_absolute(const addutil::Vector3& perc, BallOwner side) const
+        {
+            addutil::Vector3 retval = perc;
+            if((side == Away && !secondhalf) || (side == Home && secondhalf))
+            {
+                retval.x = 1.0f - retval.x;
+                retval.z = 1.0f - retval.z;
+            }
+            retval.x *= getPitchWidth();
+            retval.z *= getPitchLength();
+            return retval;
+        }
+
+        addutil::Vector3 MatchStatus::absolute_pitch_position_to_percent(const addutil::Vector3& abs) const
+        {
+            addutil::Vector3 retval = abs;
+            retval.x /= getPitchWidth();
+            retval.z /= getPitchLength();
+            return retval;
+        }
+
+        addutil::Vector3 MatchStatus::absolute_pitch_position_to_percent(const addutil::Vector3& abs, BallOwner side) const
+        {
+            addutil::Vector3 retval = abs;
+            if((side == Away && !secondhalf) || (side == Home && secondhalf))
+            {
+                retval.x = 1.0f - retval.x;
+                retval.z = 1.0f - retval.z;
+            }
+            retval.x /= getPitchWidth();
+            retval.z /= getPitchLength();
+            return retval;
         }
     }
 }

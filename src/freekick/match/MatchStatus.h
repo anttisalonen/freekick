@@ -35,6 +35,7 @@
 #include "Primitives.h"
 #include "Lineup.h"
 #include "Player.h"
+#include "Formation.h"
 #include "MatchPlayer.h"
 #include "MatchBall.h"
 #include "MatchClub.h"
@@ -66,20 +67,26 @@ namespace freekick
             void update(const std::vector<messages::GeneralUpdateScoreMessage>& ms);
             const boost::shared_ptr<MatchData>& getMatchData() const;
             void getPlayers (std::map <int, boost::shared_ptr<MatchPlayer> >& v) const;
+            std::vector<boost::shared_ptr<MatchPlayer> > getPlayers() const;
+            std::vector<boost::shared_ptr<MatchPlayer> > getPlayers(soccer::BallOwner b) const;
             boost::shared_ptr<MatchPlayer> getPlayer(int id) const;
             boost::shared_ptr<MatchBall> getBall() const;
             const BallState& getBallState() const;
             soccer::PlayerTarget getPlayerTarget(int id) const;
             soccer::BallOwner getPlayerSide(int id) const;
             boost::shared_ptr<Club> getPlayerClub(int id) const;
+            boost::shared_ptr<Formation> getPlayerFormation(int id) const;
             addutil::Vector3 getCentreSpot() const;
             boost::tuple<int, float> nearestPlayerToBall() const;
+            boost::tuple<int, float> nearestPlayerFromClubToEntity(soccer::BallOwner b, const boost::shared_ptr<addutil::Entity>& e) const;
+            boost::tuple<int, float> nearestPlayerFromClubToPlayer(soccer::BallOwner b, int id) const;
             boost::tuple<int, float> nearestPlayerFromClubToBall(soccer::BallOwner b) const;
             int getPlayerPositions(std::vector<addutil::Vector3>& ret, int pid) const;
             int getPlayerPositions(std::vector<addutil::Vector3>& ret, soccer::PlayerTarget t) const;
             int getPlayerPositions(std::vector<addutil::Vector3>& ret, soccer::BallOwner b) const;
             float getPitchWidth() const;
             float getPitchLength() const;
+            const boost::shared_ptr<Pitch> getPitch() const;
             addutil::Vector3 getGoalPosition(soccer::PlayerTarget b) const;
             bool playerAllowedToKick(int id) const;
             bool continuing() const;
@@ -91,6 +98,15 @@ namespace freekick
             GoalQuery ballInGoalArea() const;
             int holdingBall() const;
             void setBallHolder(int h);
+            BallOwner nearestClubToBall() const;
+            int ownPlayersInOwnPenaltyBox(BallOwner b) const;
+            float playerDistanceToBall(int id) const;
+            float distanceToNearestOpponent(int id) const;
+            bool ballInOwnPenaltyBox(BallOwner b) const;
+            addutil::Vector3 percent_pitch_position_to_absolute(const addutil::Vector3& perc) const;
+            addutil::Vector3 percent_pitch_position_to_absolute(const addutil::Vector3& perc, BallOwner side) const;
+            addutil::Vector3 absolute_pitch_position_to_percent(const addutil::Vector3& abs) const;
+            addutil::Vector3 absolute_pitch_position_to_percent(const addutil::Vector3& abs, BallOwner side) const;
 
         protected:
             void updateEntity(addutil::DynamicEntity* e, const messages::ConstantUpdateMessage& m, float time_interval);
