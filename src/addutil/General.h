@@ -89,6 +89,12 @@ namespace addutil
                 }
             }
         }
+
+        float rand_float();
+        float rand_float(float min, float max);
+        int rand_int(int max);
+        float rand_std_normal_distribution();
+        int rand_normal_distribution(int min, int max);
     }
 }
 
