@@ -48,14 +48,14 @@ namespace freekick
                 int i = p->getID();
                 PlayerInLineup pil = c1->getLineup()->playerInLineup(i);
                 bool subst = (pil == Substitute);
-                mPlayers[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p, subst));
+                mPlayers[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p, Home, subst));
             }
             BOOST_FOREACH(boost::shared_ptr<Player> p, c2pls)
             {
                 int i = p->getID();
                 PlayerInLineup pil = c2->getLineup()->playerInLineup(i);
                 bool subst = (pil == Substitute);
-                mPlayers[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p, subst));
+                mPlayers[i] = boost::shared_ptr<MatchPlayer>(new MatchPlayer(*p, Away, subst));
             }
             // TODO: add referee + others (if any)
         }
@@ -81,6 +81,18 @@ namespace freekick
             return retval;
         }
 
+        void MatchStatus::getPlayers(std::vector<boost::shared_ptr<MatchPlayer> >& retval, soccer::BallOwner b) const
+        {
+            retval.clear();
+            typedef const std::pair<const int, boost::shared_ptr<MatchPlayer> > pair_cl;
+            BOOST_FOREACH(pair_cl m, mPlayers)
+            {
+                soccer::BallOwner bo = getPlayerSide(m.second->getID());
+                if(bo == b)
+                    retval.push_back(m.second);
+            }
+        }
+
         std::vector<boost::shared_ptr<MatchPlayer> > MatchStatus::getPlayers(soccer::BallOwner b) const
         {
             std::vector<boost::shared_ptr<MatchPlayer> > retval;
@@ -94,7 +106,7 @@ namespace freekick
             return retval;
         }
 
-        void MatchStatus::update(const messages::ConstantUpdateMessage& m, float time_interval)
+        void MatchStatus::update(const messages::ConstantUpdateMessage& m, float time_interval, bool update_offside_pos)
         {
             int n = m.getPlayerID();
             std::map<int, boost::shared_ptr<MatchPlayer> >::iterator it;
@@ -110,6 +122,10 @@ namespace freekick
             else
             {
                 updateEntity(it->second.get(), m, time_interval);
+                if(update_offside_pos)
+                {
+                    update_offside_positions(getPlayerSide(n));
+                }
             }
         }
 
@@ -160,8 +176,10 @@ namespace freekick
             typedef std::pair<std::string, boost::shared_ptr<MatchClub> > pair_cl;
             BOOST_FOREACH(messages::ConstantUpdateMessage m, ms)
             {
-                update(m, time_interval);
+                update(m, time_interval, false);
             }
+            update_offside_positions(Home);
+            update_offside_positions(Away);
         }
 
         void MatchStatus::update(const messages::GeneralUpdateStatusMessage& m)
@@ -233,24 +251,7 @@ namespace freekick
 
         soccer::BallOwner MatchStatus::getPlayerSide(int id) const
         {
-            boost::shared_ptr<Club> c1 = mMatchData->getHomeClub();
-            boost::shared_ptr<Club> c2 = mMatchData->getAwayClub();
-            std::set<int> ids1;
-            c1->getPlayerIDs(ids1);
-            std::set<int> ids2;
-            c2->getPlayerIDs(ids2);
-
-            std::set<int>::const_iterator idsit;
-            idsit = ids1.find(id);
-            if(idsit != ids1.end())
-                return Home;
-            else
-            {
-                idsit = ids2.find(id);
-                if(idsit != ids2.end())
-                    return Away;
-            }
-            throw "MatchStatus::getPlayerSide: player ID not found in matchstatus!";
+            return getPlayer(id)->getSide();
         }
 
         boost::shared_ptr<Club> MatchStatus::getPlayerClub(int id) const
@@ -519,7 +520,7 @@ namespace freekick
         addutil::Vector3 MatchStatus::percent_pitch_position_to_absolute(const addutil::Vector3& perc, BallOwner side) const
         {
             addutil::Vector3 retval = perc;
-            if((side == Away && !secondhalf) || (side == Home && secondhalf))
+            if(sides_flipped(side))
             {
                 retval.x = 1.0f - retval.x;
                 retval.z = 1.0f - retval.z;
@@ -540,14 +541,94 @@ namespace freekick
         addutil::Vector3 MatchStatus::absolute_pitch_position_to_percent(const addutil::Vector3& abs, BallOwner side) const
         {
             addutil::Vector3 retval = abs;
-            if((side == Away && !secondhalf) || (side == Home && secondhalf))
+            if(sides_flipped(side))
             {
-                retval.x = 1.0f - retval.x;
-                retval.z = 1.0f - retval.z;
+                retval.x = getPitchWidth() - retval.x;
+                retval.z = getPitchLength() - retval.z;
             }
             retval.x /= getPitchWidth();
             retval.z /= getPitchLength();
             return retval;
+        }
+
+        void MatchStatus::update_offside_positions(BallOwner b)
+        {
+            int index = (b == Home) ? 0 : 1;
+            float second_lowest_opponent = 100000.0f;
+            float lowest_opponent = 200000.0f;
+            MatchPlayerMap::const_iterator it;
+            for(it = mPlayers.begin(); it != mPlayers.end(); it++)
+            {
+                if(it->second->getSide() == b)
+                    continue;
+                if(it->second->isSubstitute())
+                    continue;
+                float this_pos = it->second->getPosition().z;
+                if(sides_flipped(other(b)))
+                {
+                    this_pos = getPitchLength() - this_pos;
+                }
+                if(this_pos < lowest_opponent)
+                {
+                    second_lowest_opponent = lowest_opponent;
+                    lowest_opponent = this_pos;
+                }
+                else if(this_pos < second_lowest_opponent)
+                {
+                    second_lowest_opponent = this_pos;
+                }
+            }
+            offside_lines[index] = second_lowest_opponent;      // TODO: take body side into account (currently measured from middle of body)
+        }
+
+        bool MatchStatus::inOffsidePosition(int id) const
+        {
+            return inOffsidePosition(getPlayerTarget(id), getPlayer(id)->getPosition());
+        }
+
+        bool MatchStatus::sides_flipped(BallOwner side) const
+        {
+            return ((side == Away && !secondhalf) || (side == Home && secondhalf));
+        }
+
+        float MatchStatus::getOffsideLine(BallOwner b) const
+        {
+            int index = (b == Home) ? 0 : 1;
+            float ball_pos_z = mBall->getPosition().z;
+            if(sides_flipped(b))
+            {
+                ball_pos_z = getPitchLength() - ball_pos_z;
+            }
+            if(ball_pos_z > offside_lines[index])
+                return 0.0f;
+            return offside_lines[index];
+        }
+
+        float MatchStatus::getOffsideLine(PlayerTarget b) const
+        {
+            if((b == DownTarget && !secondhalf) || (b == UpTarget && secondhalf))
+                return getOffsideLine(Home);
+            return getOffsideLine(Away);
+        }
+
+        bool MatchStatus::onPitch(const addutil::Vector3 pos) const
+        {
+            return getPitch()->onPitch(pos.x, pos.z);
+        }
+
+        bool MatchStatus::inOffsidePosition(soccer::PlayerTarget b, const addutil::Vector3& v) const
+        {
+            float offside_line = getOffsideLine(b);
+
+            if(b != UpTarget)
+            {
+                return (v.z < offside_line);
+            }
+            else
+            {
+                offside_line = getPitchLength() - offside_line;
+                return (v.z > offside_line);
+            }
         }
     }
 }

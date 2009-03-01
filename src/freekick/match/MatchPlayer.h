@@ -30,6 +30,7 @@
 #include "addutil/Color.h"
 
 #include "Player.h"
+#include "Primitives.h"
 
 /**
  * class Player
@@ -45,11 +46,13 @@ namespace freekick
 
             // Constructors/Destructors
             //  
-            MatchPlayer (const freekick::soccer::Player& p, bool sub);
+            MatchPlayer (const freekick::soccer::Player& p, soccer::BallOwner _side, bool sub);
             const int getID() const;
             bool isSubstitute() const;
+            soccer::BallOwner getSide() const;
 
         private:
+            soccer::BallOwner m_side;
             bool substitute;
 
             friend class boost::serialization::access;
@@ -58,6 +61,8 @@ namespace freekick
             {
                 ar & boost::serialization::base_object<freekick::soccer::Player>(*this);
                 ar & boost::serialization::base_object<addutil::DynamicEntity>(*this);
+                ar & m_side;
+                ar & substitute;
             }
         };
     }

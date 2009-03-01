@@ -59,7 +59,7 @@ namespace freekick
         public:
             MatchStatus(boost::shared_ptr<MatchData> md);
             virtual ~MatchStatus() { }
-            void update(const messages::ConstantUpdateMessage& m, float time_interval = 0.0f);
+            void update(const messages::ConstantUpdateMessage& m, float time_interval = 0.0f, bool update_offside_pos = true);
             void update(const std::vector<messages::ConstantUpdateMessage>& ms, float time_interval = 0.0f);
             void update(const messages::GeneralUpdateStatusMessage& m);
             void update(const std::vector<messages::GeneralUpdateStatusMessage>& ms);
@@ -68,6 +68,7 @@ namespace freekick
             const boost::shared_ptr<MatchData>& getMatchData() const;
             void getPlayers (std::map <int, boost::shared_ptr<MatchPlayer> >& v) const;
             std::vector<boost::shared_ptr<MatchPlayer> > getPlayers() const;
+            void getPlayers(std::vector<boost::shared_ptr<MatchPlayer> >& retval, soccer::BallOwner b) const;
             std::vector<boost::shared_ptr<MatchPlayer> > getPlayers(soccer::BallOwner b) const;
             boost::shared_ptr<MatchPlayer> getPlayer(int id) const;
             boost::shared_ptr<MatchBall> getBall() const;
@@ -107,9 +108,16 @@ namespace freekick
             addutil::Vector3 percent_pitch_position_to_absolute(const addutil::Vector3& perc, BallOwner side) const;
             addutil::Vector3 absolute_pitch_position_to_percent(const addutil::Vector3& abs) const;
             addutil::Vector3 absolute_pitch_position_to_percent(const addutil::Vector3& abs, BallOwner side) const;
+            void update_offside_positions(BallOwner b);
+            bool inOffsidePosition(int id) const;
+            float getOffsideLine(BallOwner b) const;
+            float getOffsideLine(PlayerTarget b) const;
+            bool onPitch(const addutil::Vector3 pos) const;
+            bool inOffsidePosition(soccer::PlayerTarget b, const addutil::Vector3& v) const;
 
         protected:
             void updateEntity(addutil::DynamicEntity* e, const messages::ConstantUpdateMessage& m, float time_interval);
+            bool sides_flipped(BallOwner side) const;
 
         private:
             const boost::shared_ptr<MatchData> mMatchData;
@@ -125,6 +133,7 @@ namespace freekick
             bool secondhalf;
             int injurytime;
             BallState mBallState;
+            boost::array<float, 2> offside_lines;
             // TODO: add status of yellow cards etc.
 
             friend class boost::serialization::access;

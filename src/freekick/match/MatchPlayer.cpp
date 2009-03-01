@@ -24,9 +24,10 @@ namespace freekick
 {
     namespace match
     {
-        MatchPlayer::MatchPlayer (const freekick::soccer::Player& p, bool sub)
+        MatchPlayer::MatchPlayer (const freekick::soccer::Player& p, soccer::BallOwner _side, bool sub)
             : Player(p), 
               DynamicEntity(70.0f, "robot.mesh"),
+              m_side(_side),
               substitute(sub)
         {
         }
@@ -39,6 +40,11 @@ namespace freekick
         bool MatchPlayer::isSubstitute() const
         {
             return substitute;
+        }
+
+        soccer::BallOwner MatchPlayer::getSide() const
+        {
+            return m_side;
         }
     }
 }
