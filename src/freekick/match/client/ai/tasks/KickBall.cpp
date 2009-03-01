@@ -49,32 +49,41 @@ namespace freekick
                         float plength = mMatchStatus->getPitchLength();
                         const float max_pass_length = 25.0f;
                         float opt_val = 0.0f;
+                        const float defensive_area_threshold = 25.0f;
+                        const float defensive_area_coefficient = 0.15f;
 
                         float best_z    = 0.0f;
                         float own_z     = (t == UpTarget) ? plength - ownpos.z : ownpos.z;
                         addutil::Vector3 bestpass;
 
-                        std::vector<addutil::Vector3> ownclub;
-                        std::vector<addutil::Vector3>::const_iterator clubit;
+                        // TODO: take opponents near target into account
+                        std::vector<boost::shared_ptr<MatchPlayer> > ownclub;
+                        std::vector<boost::shared_ptr<MatchPlayer> >::const_iterator clubit;
 
-                        mMatchStatus->getPlayerPositions(ownclub, mPlayerID);
+                        mMatchStatus->getPlayers(ownclub, mMatchStatus->getPlayerSide(mPlayerID));
                         for(clubit = ownclub.begin(); clubit != ownclub.end(); clubit++)
                         {
+                            addutil::Vector3 clubitpos = (*clubit)->getPosition();
                             // TODO: passing ahead of the player
-                            float diff = (*clubit - ownpos).length();
-                            float this_z = clubit->z;
+                            float diff = (clubitpos - ownpos).length();
+                            float this_z = clubitpos.z;
                             if(this_z == ownpos.z)
                                 continue;
-                            if(t == UpTarget) this_z = plength - this_z;
-
-                            if(diff < 5.0f || diff > max_pass_length)
+                            if(diff < 10.0f || diff > max_pass_length)
                                 continue;
-                            if (this_z < own_z - 25.0f)
+                            if(!mMatchStatus->onPitch(clubitpos))
+                                continue;
+                            if(mMatchStatus->inOffsidePosition((*clubit)->getID()))
+                                continue;
+
+                            if(t == UpTarget) 
+                                this_z = plength - this_z;
+                            if (this_z < own_z - 10.0f)
                                 continue;
 
                             if(this_z > best_z)
                             {
-                                bestpass = *clubit;
+                                bestpass = clubitpos;
                                 best_z = this_z;
                             }
                         }
@@ -82,7 +91,13 @@ namespace freekick
                             return optimal_kick(0.0f, bestpass);
                         addutil::Vector3 target = bestpass - ownpos;
 
+                        std::cerr << "best_z: " << best_z << std::endl;
                         opt_val = 1.0f - (target.length() / max_pass_length);
+                        if(best_z < defensive_area_threshold) 
+                        {
+                            opt_val *= defensive_area_coefficient;
+                            std::cerr << "pass target in defensive area\n";
+                        }
 
                         Helpers::correctPassVector(target);
                         // std::cout << "Pass: Kick target: " << (target + ownpos) << std::endl;
@@ -96,26 +111,44 @@ namespace freekick
                         Helpers::correctShootVector(target);
                         float gvlen = goalvec.length();
                         float max_shoot_len = 35.0f;
+                        float min_opt_shoot_len = 10.0f;
                         float val;
+                        // TODO: take angle into account
+                        if(gvlen < min_opt_shoot_len)
+                            val = 1.0f;
                         if(gvlen > max_shoot_len)
                             val = 0.0f;
                         else 
-                            val = 1.0f - (gvlen / max_shoot_len);
+                            val = 1.0f - ((gvlen - min_opt_shoot_len) / (max_shoot_len - min_opt_shoot_len));
                         return optimal_kick(val, target);
                     }
 
                     optimal_kick KickBall::getOptimalDribble() const
                     {
                         addutil::Vector3 target = tgtgoal - ownpos;
-                        soccer::BallOwner other_club = soccer::other(mMatchStatus->getPlayerSide(mPlayerID));
+                        soccer::BallOwner our_club = mMatchStatus->getPlayerSide(mPlayerID);
+                        soccer::BallOwner other_club = soccer::other(our_club);
                         float nop_len = mMatchStatus->nearestPlayerFromClubToPlayer(other_club, mPlayerID).get<1>();
                         const float nop_max_len = 10.0f;
                         if(nop_len > nop_max_len) nop_len = nop_max_len;
                         target.normalize();
-                        const float dribble_strength = 15.0f;
+                        const float dribble_strength = 10.0f;
                         target *= dribble_strength;
                         const float dribble_coefficient = 0.2f;
                         float opt_val = (nop_len / nop_max_len) * dribble_coefficient;
+
+                        const float offensive_area_multiplier = 2.0f;
+                        const float offensive_area_threshold = 0.65f;
+                        const float defensive_area_multiplier = 0.5f;
+                        const float defensive_area_threshold = 0.20f;
+                        addutil::Vector3 ownpos = mMatchStatus->getPlayer(mPlayerID)->getPosition();
+                        addutil::Vector3 ownpos_rel = mMatchStatus->absolute_pitch_position_to_percent(ownpos, our_club);
+
+                        if(ownpos_rel.z > offensive_area_threshold)
+                            opt_val *= offensive_area_multiplier;
+                        else if(ownpos_rel.z < defensive_area_threshold)
+                            opt_val *= defensive_area_multiplier;
+
                         return optimal_kick(opt_val, target);
                     }
 
@@ -128,14 +161,15 @@ namespace freekick
                         float own_z     = (t == UpTarget) ? plength - ownpos.z : ownpos.z;
                         addutil::Vector3 bestpass;
 
-                        std::vector<addutil::Vector3> ownclub;
-                        std::vector<addutil::Vector3>::const_iterator clubit;
+                        std::vector<boost::shared_ptr<MatchPlayer> > ownclub;
+                        std::vector<boost::shared_ptr<MatchPlayer> >::const_iterator clubit;
 
-                        mMatchStatus->getPlayerPositions(ownclub, mPlayerID);
+                        mMatchStatus->getPlayers(ownclub, mMatchStatus->getPlayerSide(mPlayerID));
                         for(clubit = ownclub.begin(); clubit != ownclub.end(); clubit++)
                         {
-                            float diff = (*clubit - ownpos).length();
-                            float this_z = clubit->z;
+                            addutil::Vector3 clubitpos = (*clubit)->getPosition();
+                            float diff = (clubitpos - ownpos).length();
+                            float this_z = clubitpos.z;
                             if(this_z == ownpos.z)
                                 continue;
                             if(t == UpTarget) this_z = plength - this_z;
@@ -144,10 +178,12 @@ namespace freekick
                                 continue;
                             if (this_z < own_z + 25.0f)
                                 continue;
+                            if(mMatchStatus->inOffsidePosition((*clubit)->getID()))
+                                continue;
 
                             if(this_z > best_z)
                             {
-                                bestpass = *clubit;
+                                bestpass = clubitpos;
                                 best_z = this_z;
                             }
                         }
@@ -156,7 +192,7 @@ namespace freekick
                         addutil::Vector3 target = bestpass - ownpos;
 
                         float tlen = target.length();
-                        const float max_long_pass = 50.0f;
+                        const float max_long_pass = 70.0f;
                         const float long_ball_coefficient = 0.2f;
                         if(tlen > max_long_pass) tlen = max_long_pass;
                         opt_val = (tlen / max_long_pass) * long_ball_coefficient;

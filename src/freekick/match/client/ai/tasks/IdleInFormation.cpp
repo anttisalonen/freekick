@@ -46,8 +46,18 @@ namespace freekick
 
                     boost::shared_ptr<messages::PlayerControlMessage> IdleInFormation::process()
                     {
-                        soccer::PlayerTarget b = mMatchStatus->getPlayerTarget(mPlayerID);
+                        addutil::Vector3 ownpos = mPlayer->getPosition();
                         const boost::shared_ptr<Formation> f = mMatchStatus->getPlayerClub(mPlayerID)->getFormation();
+
+                        using namespace messages;
+                        if(f->inPlayerArea(mPlayerID, 
+                                           mMatchStatus->absolute_pitch_position_to_percent(ownpos, mMatchStatus->getPlayerSide(mPlayerID))) &&
+                           !(mMatchStatus->inOffsidePosition(mPlayerID)))
+                        {
+                            return boost::shared_ptr<MovePlayerControlMessage>(new MovePlayerControlMessage(mPlayerID, addutil::Vector3()));
+                        }
+
+                        soccer::PlayerTarget b = mMatchStatus->getPlayerTarget(mPlayerID);
                         PlayerPosition pp = mPlayer->getPlayerPosition();
                         addutil::Vector3 formationpoint = f->getPlayerAreaCenter(mPlayerID);
                         addutil::Vector3 movedFormationpoint(formationpoint);
@@ -75,7 +85,7 @@ namespace freekick
                         }
                         addutil::general::clamp(movedFormationpoint.x, 0.0f, 1.0f);
 
-                        if((movedFormationpoint - mPlayer->getPosition()).length() > 5.0f)
+                        if((movedFormationpoint - ownpos).length() > 5.0f)
                         {
                             mTarget = movedFormationpoint;
                         }
@@ -84,20 +94,34 @@ namespace freekick
                             mTarget = formationpoint;
                         }
 
+                        float offside_line = mMatchStatus->getOffsideLine(b);
                         if(b == UpTarget)
                         {
                             mTarget.z = 1.0f - mTarget.z;
                             mTarget.x = 1.0f - mTarget.x;
                         }
+                        else
+                        {
+                            offside_line = plength - offside_line;
+                        }
 
                         mTarget.x *= pwidth;
                         mTarget.z *= plength;
+                        if(b != UpTarget)
+                        {
+                            if(mTarget.z > offside_line)
+                                mTarget.z = offside_line;
+                        }
+                        else
+                        {
+                            if(mTarget.z < offside_line)
+                                mTarget.z = offside_line;
+                        }
 
-                        addutil::Vector3 gotovec = mTarget - mPlayer->getPosition();
+                        addutil::Vector3 gotovec = mTarget - ownpos;
                         if(gotovec.length() < 1.0f) gotovec.reset();
                         gotovec.y = 0.0f;
 
-                        using namespace messages;
                         return boost::shared_ptr<MovePlayerControlMessage>(new MovePlayerControlMessage(mPlayerID, gotovec));
                     }
                 }

@@ -61,13 +61,13 @@ namespace freekick
                             {
                                 // TODO: implement timer to wait for a while before kicking ball away
                                 // std::cerr << "GoalkeeperAction: kicking the ball.\n";
-                                boost::shared_ptr<ShootBall> t(new ShootBall(mMatchStatus, mPlayerID));
+                                boost::shared_ptr<KickBall> t(new KickBall(mMatchStatus, mPlayerID));
                                 addTask(t);
                             }
                         }
                         else if (h.isnearestplayer)
                         {
-                            boost::shared_ptr<ShootBall> t(new ShootBall(mMatchStatus, mPlayerID));
+                            boost::shared_ptr<KickBall> t(new KickBall(mMatchStatus, mPlayerID));
                             addTask(t);
                         }
                         else

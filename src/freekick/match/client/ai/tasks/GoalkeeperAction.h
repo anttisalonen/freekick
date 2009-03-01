@@ -30,7 +30,6 @@
 #include "tasks/CompositeTask.h"
 #include "tasks/IdleInFormation.h"
 #include "tasks/KickBall.h"
-#include "tasks/ShootBall.h"
 #include "tasks/GoalkeeperGetBall.h"
 
 namespace freekick 
