@@ -44,6 +44,7 @@ namespace freekick
             virtual ~Formation() { }
             const addutil::Square& getPlayerArea(int id) const;
             const addutil::Vector3 getPlayerAreaCenter(int id) const;
+            bool inPlayerArea(int id, const addutil::Vector3& plloc) const;
         private:
             FormationMap mFormationMap;
         };

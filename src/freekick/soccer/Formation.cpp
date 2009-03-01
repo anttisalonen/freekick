@@ -52,16 +52,15 @@ namespace freekick
             float defdiff = 1.0f / (def + 1);
             float middiff = 1.0f / (midf + 1);
             float fordiff = 1.0f / (forw + 1);
-            float defhei = 0.25f;
-            float midhei = 0.55f;
-            float forhei = 0.8f;
-            float defwidvar_2 = 0.25f;
-            float midwidvar_2 = 0.25f;
-            float forwidvar_2 = 0.25f;
-            float defheivar_2 = 0.2f;
-            float midheivar_2 = 0.15f;
-            float forheivar_2 = 0.15f;
-            float overlapping_width = 1.05f;
+            float defhei = 0.20f;
+            float midhei = 0.50f;
+            float forhei = 0.78f;
+            float defwidvar_2 = 0.15f;
+            float midwidvar_2 = 0.15f;
+            float forwidvar_2 = 0.15f;
+            float defheivar_2 = 0.10f;
+            float midheivar_2 = 0.08f;
+            float forheivar_2 = 0.08f;
 
             using addutil::Square;
             using std::pair;
@@ -71,28 +70,28 @@ namespace freekick
                 switch(it->first)
                 {
                     case Goalkeeper:
-                        mFormationMap.insert(pair<int, Square>(it->second, Square(0.4f, 0.6f, 0.0f, 0.05f)));
+                        mFormationMap.insert(pair<int, Square>(it->second, Square(0.48f, 0.52f, 0.0f, 0.02f)));
                         break;
                     case Defender:
                         mFormationMap.insert(pair<int, Square>(it->second, 
-                                                               Square(defdiff * (defs + 1) - (defdiff * overlapping_width),
-                                                                      defdiff * (defs + 1) + (defdiff * overlapping_width),
+                                                               Square(defdiff * (defs + 1) - defwidvar_2,
+                                                                      defdiff * (defs + 1) + defwidvar_2,
                                                                       defhei - defheivar_2,
                                                                       defhei + defheivar_2)));
                         defs++;
                         break;
                     case Midfielder:
                         mFormationMap.insert(pair<int, Square>(it->second, 
-                                                               Square(middiff * (midfs + 1) - (middiff * overlapping_width),
-                                                                      middiff * (midfs + 1) + (middiff * overlapping_width),
+                                                               Square(middiff * (midfs + 1) - midwidvar_2,
+                                                                      middiff * (midfs + 1) + midwidvar_2,
                                                                       midhei - midheivar_2,
                                                                       midhei + midheivar_2)));
                         midfs++;
                         break;
                     case Forward:
                         mFormationMap.insert(pair<int, Square>(it->second, 
-                                                               Square(fordiff * (forws + 1) - (fordiff * overlapping_width),
-                                                                      fordiff * (forws + 1) + (fordiff * overlapping_width),
+                                                               Square(fordiff * (forws + 1) - forwidvar_2,
+                                                                      fordiff * (forws + 1) + forwidvar_2,
                                                                       forhei - forheivar_2,
                                                                       forhei + forheivar_2)));
                         forws++;
@@ -114,6 +113,11 @@ namespace freekick
         const addutil::Vector3 Formation::getPlayerAreaCenter(int id) const
         {
             return getPlayerArea(id).getCenter();
+        }
+
+        bool Formation::inPlayerArea(int id, const addutil::Vector3& plloc) const
+        {
+            return getPlayerArea(id).in(plloc);
         }
     }
 }
