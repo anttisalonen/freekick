@@ -401,10 +401,11 @@ class MainMenu(QtGui.QWidget):
         wn.show()
         self.wins += [wn]
 
-database_path = "../share/DB/"
-db = Database.get_db(database_path)
+db = SoccerData.DB()
 
 if __name__ == '__main__':
+    database_path = "../share/DB/"
+    db = Database.get_db(database_path)
     app = QtGui.QApplication(sys.argv)
     mm = MainMenu()
     mm.show()

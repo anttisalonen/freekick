@@ -1,0 +1,94 @@
+<Tournaments>
+  <tournament name="DIY Cup">
+    <stage name="Final" type="1">
+      <setup seeded="0" participantnum="2" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+      <trophy name="Finnish Cup champion"/>
+    </stage>
+    <stage name="Semifinals" type="1">
+      <setup seeded="0" participantnum="4" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+      <cuppr stage="Final"/>
+    </stage>
+    <stage name="Quarterfinals" type="1">
+      <setup seeded="0" participantnum="8" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+      <cuppr stage="Semifinals"/>
+    </stage>
+    <stage name="First round" type="1">
+      <setup seeded="0" participantnum="16" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+      <cuppr stage="Semifinals"/>
+      <preset>
+        <club name="Manchester Utd"/>
+        <club name="Lahti"/>
+        <club name="Oriente"/>
+        <club name="Hjk"/>
+        <club name="Arsenal"/>
+        <club name="Inter Turku"/>
+        <club name="Kooteepee"/>
+        <club name="Bournemouth"/>
+        <club name="Brighton"/>
+        <club name="Bristol Rovers"/>
+        <club name="Cheltenham Town"/>
+        <club name="Carlisle Utd"/>
+        <club name="Crewe Alexandra"/>
+        <club name="Doncaster Rovers"/>
+        <club name="Leeds Utd"/>
+        <club name="Gillingham"/>
+      </preset>
+    </stage>
+  </tournament>
+  <tournament name="DIY League">
+    <stage name="League" type="0">
+      <setup seeded="0" participantnum="10" groups="1" rounds="2" pointsperwin="3"/>
+      <trophy name="DIY trophy"/>
+      <preset>
+        <club name="Barnsley"/>
+        <club name="Charlton"/>
+        <club name="Coventry City"/>
+        <club name="Crystal Palace"/>
+        <club name="Scunthorpe Utd"/>
+        <club name="Watford"/>
+        <club name="Arsenal"/>
+        <club name="Inter Turku"/>
+        <club name="Varteks"/>
+        <club name="Kooteepee"/>
+      </preset>
+    </stage>
+  </tournament>
+  <tournament name="DIY Tournament">
+    <stage name="Final" type="1">
+      <setup seeded="0" participantnum="2" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+      <trophy name="Finnish Cup champion"/>
+    </stage>
+    <stage name="Semifinals" type="1">
+      <setup seeded="0" participantnum="4" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+      <cuppr stage="Final"/>
+    </stage>
+    <stage name="Group phase" type="0">
+      <setup seeded="0" participantnum="8" groups="2" rounds="2" pointsperwin="3"/>
+      <leagueprs>
+        <leaguepr num="4" stage="Semifinals"/>
+      </leagueprs>
+      <preset>
+        <club name="Oriente"/>
+        <club name="Hjk"/>
+      </preset>
+    </stage>
+    <stage name="First round" type="1">
+      <setup seeded="0" participantnum="12" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+      <cuppr stage="Group phase"/>
+      <preset>
+        <club name="Varteks"/>
+        <club name="Kooteepee"/>
+        <club name="Scunthorpe Utd"/>
+        <club name="Bournemouth"/>
+        <club name="Brighton"/>
+        <club name="Bristol Rovers"/>
+        <club name="Cheltenham Town"/>
+        <club name="Carlisle Utd"/>
+        <club name="Crewe Alexandra"/>
+        <club name="Doncaster Rovers"/>
+        <club name="Leeds Utd"/>
+        <club name="Gillingham"/>
+      </preset>
+    </stage>
+  </tournament>
+</Tournaments>

@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
+import datetime
+
 import Primitives
+import Match
 
 class player_position_type:
     Goalkeeper = 1
@@ -90,51 +93,9 @@ class Country:
                     ret.append(s)
         return ret
 
-class StageType:
-    League = 0
-    Cup = 1
-
-class StageSetup:
-    def __init__(self):
-        self.seeded = False
-        self.rounds = 1
-
-class LeagueSetup(StageSetup):
-    def __init__(self):
-        StageSetup.__init__(self)
-        self.pointsperwin = 3
-        self.groups = 1
-
-class CupSetup(StageSetup):
-    def __init__(self):
-        StageSetup.__init__(self)
-        self.extratime = 1
-        self.replays = 0
-        self.awaygoals = 0
-        self.penalties = 1
-
 class Branch:
     def __init__(self, stages = []):
         self.stages = stages
-
-class Stage:
-    def __init__(self, name, type):
-        self.name = name
-        self.type = type
-        self.clubs = []
-        self.promotions = []
-        self.relegations = []
-        if self.type == StageType.League:
-            self.setup = LeagueSetup()
-        else:
-            self.setup = CupSetup()
-
-    def get_clubs(self):
-        return self.clubs
-
-    def feed_clubs(self, clubs):
-        while len(self.clubs) < self.setup.participantnum:
-            self.clubs.append(clubs.pop(0))
 
 def stage_number_to_stage_name(s, max_stages):
     if s < 1 or max_stages < 1:
@@ -163,16 +124,6 @@ def stage_number_to_stage_name(s, max_stages):
         elif s == max_stages - 7:
             return "Eighth round"
     return ""
-
-class Tournament:
-    def __init__(self, name, stages = []):
-        self.name = name
-        self.stages = stages
-    def add_clubs(self, clubs):
-        for s in self.stages:
-            s.feed_clubs(clubs)
-            if len(clubs) == 0:
-                break
 
 class Exchange:
     def __init__(self, highest = 0, num = 0):

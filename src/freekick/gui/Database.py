@@ -6,13 +6,16 @@ import glob
 from lxml import etree
 
 import Primitives
+import Tournament
 import SoccerData
+import Match
 
 def get_db(path):
     db = SoccerData.DB()
     db.clubs = {}
     db.players = {}
     db.countries = {}
+    db.tournaments = {}
     xml_list = glob.glob(os.path.join(path, '*.xml'))
     for fn in xml_list:
         tree = etree.parse(fn)
@@ -26,10 +29,15 @@ def get_db(path):
         elif root.tag == "Countries":
             print "Parsing countries in %s" % fn
             db.countries.update(get_countries(root))
+        elif root.tag == "Tournaments":
+            print "Parsing tournaments in %s" % fn
+            db.tournaments.update(get_tournaments(root))
         else:
             print "Don't know how to parse %s" % fn
     print "%d clubs parsed" % len(db.clubs)
+    print "%d countries parsed" % len(db.countries)
     print "%d players parsed" % len(db.players)
+    print "%d DIY tournaments parsed" % len(db.tournaments)
     return db
 
 def get_players(root):
@@ -159,7 +167,7 @@ def parse_country(countrynode):
         elif node.tag == "leaguesystem":
             country.leaguesystem = parse_leaguesystem(node)
         elif node.tag == "Tournaments":
-            country.tournaments.append(parse_tournaments(node))
+            country.tournaments = parse_tournaments(node)
     return name, country
 
 def parse_regions(regnode):
@@ -226,13 +234,39 @@ def parse_branch(branch_node):
 def parse_stage(stage_node):
     name = stage_node.get("name")
     type = stage_node.get("type")
-    stage = SoccerData.Stage(name, type)
+    if type == "0":
+        type = Tournament.StageType.League
+    else:
+        type = Tournament.StageType.Cup        
+    stage = Tournament.Stage(name, type)
     for node in stage_node:
         if node.tag == "setup":
-            for n in ["seeded", "participantnum", "groups", "rounds", "pointsperwin", "extratime", "penalties", "replays", "awaygoals"]:
+            for n in ["seeded", "rounds"]:
                 a = node.get(n)
                 if a != None:
-                    setattr(stage.setup, n, a)
+                    setattr(stage.setup, n, int(a))
+            for n in ["participantnum", "groups", "pointsperwin"]:
+                a = node.get(n)
+                if a != None:
+                    setattr(stage.setup, n, int(a))
+            a = node.get("extratime")
+            if a != None and a != "0":
+                stage.setup.matchrules.extratime = True
+            a = node.get("penalties")
+            if a != None and a != "0":
+                stage.setup.matchrules.penalties = True
+            a = node.get("replays")
+            if a != None:
+                if a == "1":
+                    stage.setup.matchrules.replays = Match.TiebreakerType.After90Min
+                elif a == "2":
+                    stage.setup.matchrules.replays = Match.TiebreakerType.AfterET
+            a = node.get("awaygoals")
+            if a != None:
+                if a == "1":
+                    stage.setup.matchrules.awaygoals = Match.TiebreakerType.After90Min
+                elif a == "2":
+                    stage.setup.matchrules.awaygoals = Match.TiebreakerType.AfterET
         elif node.tag == "trophy":
             stage.trophy = SoccerData.Trophy(node.get("name"))
         elif node.tag == "attendances":
@@ -244,7 +278,7 @@ def parse_stage(stage_node):
             for clubnode in node:
                 clubname = clubnode.get("name")
                 if clubname != None and clubname != "None":
-                    stage.clubs.append(clubnode.get("name"))
+                    stage.club_names.append(clubname)
     return stage
 
 def parse_attendance(attendance_node):
@@ -257,19 +291,28 @@ def parse_list(top_node, child_node_name, f):
             l.append(f(node))
     return l
 
+def get_tournaments(root):
+    tournaments = {}
+    for tournament in root:
+        n, t = parse_tournament(tournament)
+        tournaments[n] = t
+    return tournaments
+
 def parse_tournaments(tnode):
     tournaments = []
     for node in tnode:
         if node.tag == "tournament":
-            tournaments.append(parse_tournament(node))
+            n, t = parse_tournament(node)
+            tournaments.append(t)
     return tournaments
 
 def parse_tournament(tnode):
-    tournament = SoccerData.Tournament(tnode.get("name"))
+    tname = tnode.get("name")
+    tournament = Tournament.Tournament(tname)
     for node in tnode:
         if node.tag == "stage":
-            tournament.stages.append(parse_stage(node))
-    return tournament
+            tournament.add_stage(parse_stage(node))
+    return tname, tournament
 
 def print_usage():
     print "Usage: %s path_to_club_xml" % sys.argv[0]
@@ -279,8 +322,13 @@ if __name__ == '__main__':
         print_usage()
         sys.exit(1)
     db = get_db(sys.argv[1])
-    print "%d clubs parsed" % len(db.clubs)
-    print "%d players parsed" % len(db.players)
+
+    for k, v in db.tournaments.iteritems():
+        print k, len(v.stages)
+    for k, v in db.countries.iteritems():
+        print k,
+        for t in v.tournaments:
+            print t.name, len(t.stages)
 
 """
     for pl in db.players:
