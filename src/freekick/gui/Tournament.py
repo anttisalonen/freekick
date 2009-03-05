@@ -47,10 +47,27 @@ class Tournament:
         print "Current stage:", self.stages[self.current_stage].name
         winners = self.stages[self.current_stage].play_next_round()
         print "Winners: %s\n" % winners
+        self.update_stage(winners)
+
+    def get_next_round(self):
+        return self.stages[self.current_stage].get_next_round()
+
+    def round_played(self):
+        winners = self.stages[self.current_stage].round_played()
+        return self.update_stage(winners)
+
+    def update_stage(self, winners):
         if len(winners) > 0:
             self.current_stage -= 1
-            self.stages[self.current_stage].update_club_names(winners)
+            if self.current_stage >= 0:
+                self.stages[self.current_stage].update_club_names(winners)
+            return True
+        return False
 
+    def pretty_print(self):
+        for stage in reversed(self.stages):
+            print "%s:" % stage.name
+            stage.pretty_print()
 
 class Stage:
     def __init__(self, name, type):
@@ -106,11 +123,17 @@ class Stage:
         self.club_names = []
         return self.rounds
 
+    def get_next_round(self):
+        return self.rounds[self.current_round]
+
     def play_next_round(self):
         if self.current_round >= len(self.rounds):
             return self.get_winners()
         for m in self.rounds[self.current_round]:
             print "%-40s %-20s" % (m, m.play_random())
+        self.round_played()
+
+    def round_played(self):
         self.current_round += 1
         if self.current_round >= len(self.rounds):
             print "Stage finished"
@@ -134,3 +157,14 @@ class Stage:
         self.feed_club_names(new_club_names)
         self.to_rounds()
 
+    def pretty_print(self):
+        if self.type == StageType.Cup:
+            for round in self.rounds:
+                for match in round:
+                    if match.mr.result_type() != Match.MatchResultType.NotPlayed:
+                        mr = match.mr.__str__()
+                    else:
+                        mr = ""
+                    print "%-40s %-80s" % (match, mr)
+        else:
+            pass         # TODO

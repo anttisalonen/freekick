@@ -37,34 +37,20 @@ if __name__ == '__main__':
     tournamentname = sys.argv[1]
     tournament = db.tournaments[tournamentname]
 
-    """
-    for stage in reversed(tournament.stages):
-        stage.to_rounds()
-
-    for stage in reversed(tournament.stages):
-        for round in stage.rounds:
-            for match in round:
-                print match.club1, match.club2
-            tournament.play_next_round()
-            """
-
     es = create_event_schedule(startdate, enddate, tournament)
     schedule = Schedule.Schedule(es)
 
     for stage in reversed(tournament.stages):        
         stage.to_rounds()
 
+    tournament.pretty_print()
+    f = raw_input()
     for d, t in schedule.next_event():
-        print d,
-        t.play_next_round()
-
-        """
-        for round in stage.rounds:
-            for match in round:
-                d, t = schedule.next_event()
-                print d, t
-                mr = match.play_random()
-                print "Match: ", match.club1, match.club2, mr
-        tournament.play_next_round()
-        """
-    print schedule
+        print d
+        round = t.get_next_round()
+        for match in round:
+            match.play_random()
+        cont = t.round_played()
+        if cont == True:
+            t.pretty_print()
+            f = raw_input()
