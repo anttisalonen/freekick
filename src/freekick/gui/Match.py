@@ -77,7 +77,7 @@ class TiebreakerType:
     After90Min = 1
     AfterET = 2
 
-def double_match_result(res1, res2, extratime, penalties, away_goals):
+def double_match_result(res1, res2, matchrules):
     tot_after_90_1 = res1.g2 + res2.g1
     tot_after_90_2 = res1.g1 + res2.g2
     if tot_after_90_1 > tot_after_90_2:
@@ -86,24 +86,24 @@ def double_match_result(res1, res2, extratime, penalties, away_goals):
         return MatchResultType.Club2
     awg_1 = res1.g2
     awg_2 = res2.g2
-    if away_goals == TiebreakerType.After90Min:
+    if matchrules.away_goals == TiebreakerType.After90Min:
         if awg_1 > awg_2:
             return MatchResultType.Club1
         elif awg_2 > awg_1:
             return MatchResultType.Club2
-    if away_goals == TiebreakerType.AfterET:
+    if matchrules.away_goals == matchrules.TiebreakerType.AfterET:
         awg_1 = res1.g2 + res2.et1
         awg_2 = res2.g2 + res2.et2
         if awg_1 > awg_2:
             return MatchResultType.Club1
         elif awg_2 > awg_1:
             return MatchResultType.Club2
-    if extratime:
+    if matchrules.extratime:
         if res2.et1 > res2.et2:
             return MatchResultType.Club1
         if res2.et2 > res2.et1:
             return MatchResultType.Club2
-    if penalties:
+    if matchrules.penalties:
         if res2.pen1 > res2.pen2:
             return MatchResultType.Club1
         if res2.pen2 > res2.pen1:
@@ -120,7 +120,7 @@ def generate_simple_random_match_result(matchrules):
             mr.play_random_penalties()
     return mr
 
-def generate_second_leg_random_match_result(extratime, penalties, away_goals, prev_res):
+def generate_second_leg_random_match_result(prev_res, matchrules):
     # First play 90 minutes
     res2 = MatchResult()
     res2.play_random_90min()
@@ -134,8 +134,8 @@ def generate_second_leg_random_match_result(extratime, penalties, away_goals, pr
         return res2, MatchResultType.Club2
 
     # Winner on away goals after 90 minutes?
-    if away_goals == TiebreakerType.After90Min:
-        awg_1 = res1.g2
+    if matchrules.awaygoals == TiebreakerType.After90Min:
+        awg_1 = prev_res.g2
         awg_2 = res2.g2
         if awg_1 > awg_2:
             return res2, MatchResultType.Club1
@@ -146,8 +146,8 @@ def generate_second_leg_random_match_result(extratime, penalties, away_goals, pr
     res2.play_random_et()
 
     # Winner on away goals after extra time?
-    if away_goals == TiebreakerType.AfterET:
-        awg_1 = res1.g2 + res2.et1
+    if matchrules.awaygoals == TiebreakerType.AfterET:
+        awg_1 = prev_res.g2 + res2.et1
         awg_2 = res2.g2 + res2.et2
         if awg_1 > awg_2:
             return res2, MatchResultType.Club1
@@ -155,7 +155,7 @@ def generate_second_leg_random_match_result(extratime, penalties, away_goals, pr
             return res2, MatchResultType.Club2
 
     # Winner after extra time?
-    if extratime:
+    if matchrules.extratime:
         if res2.et1 > res2.et2:
             return res2, MatchResultType.Club1
         if res2.et2 > res2.et1:
@@ -165,7 +165,7 @@ def generate_second_leg_random_match_result(extratime, penalties, away_goals, pr
     res2.play_random_penalties()
 
     # Winner on penalties?
-    if penalties:
+    if matchrules.penalties:
         if res2.pen1 > res2.pen2:
             return res2, MatchResultType.Club1
         if res2.pen2 > res2.pen1:
@@ -195,3 +195,32 @@ class Match:
         else:
             return "draw"
 
+if __name__ == "__main__":
+    simple = MatchRules()
+    cl = MatchRules(True, True)
+    cl.awaygoals = TiebreakerType.After90Min
+    cup = MatchRules(True, True)
+    complex = MatchRules(True, True)
+    complex.awaygoals = TiebreakerType.AfterET
+    random.seed(24)
+    num_simples = 4
+    for i in range(0, num_simples):
+        simpleres = generate_simple_random_match_result(simple)
+        print "Simple: \t%-30s   %s" % (simpleres, simpleres.result_type())
+
+    num_cups = 4
+    for i in range(0, num_cups):
+        cupres = generate_simple_random_match_result(cup)
+        print "Cup:    \t%-30s   %s" % (cupres, cupres.result_type())
+
+    num_cls = 4
+    for i in range(0, num_cls):
+        simpleres = generate_simple_random_match_result(simple)
+        clres, clwinner = generate_second_leg_random_match_result(simpleres, cl)
+        print "CL:     \t%-30s   %-30s   %s" % (simpleres, clres, clwinner)
+
+    num_complex = 4
+    for i in range(0, num_complex):
+        simpleres = generate_simple_random_match_result(simple)
+        complexres, complexwinner = generate_second_leg_random_match_result(simpleres, complex)
+        print "Complex:\t%-30s   %-30s   %s" % (simpleres, complexres, complexwinner)
