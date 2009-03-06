@@ -46,11 +46,10 @@ if __name__ == '__main__':
     tournament.pretty_print()
     f = raw_input()
     for d, t in schedule.next_event():
-        print d
         round = t.get_next_round()
         for match in round:
-            match.play_random()
-        cont = t.round_played()
-        if cont == True:
+            mr = match.play_random()
+            print d, match, mr, "\n"
             t.pretty_print()
             f = raw_input()
+        cont = t.round_played()

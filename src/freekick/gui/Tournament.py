@@ -69,6 +69,72 @@ class Tournament:
             print "%s:" % stage.name
             stage.pretty_print()
 
+class LeagueTableRow:
+    def __init__(self, name):
+        self.name = name
+        self.played = 0
+        self.won = 0
+        self.drawn = 0
+        self.lost = 0
+        self.points = 0
+
+class LeagueTable:
+    def __init__(self):
+        self.rows = {}
+
+    def add_match(self, match):
+        if match.club1 not in self.rows:
+            self.rows[match.club1] = LeagueTableRow(match.club1)
+        if match.club2 not in self.rows:
+            self.rows[match.club2] = LeagueTableRow(match.club2)
+
+        rt = match.mr.result_type()
+        if rt != Match.MatchResultType.NotPlayed:
+            self.rows[match.club1].played += 1
+            self.rows[match.club2].played += 1
+            if rt == Match.MatchResultType.Club1:
+                self.rows[match.club1].won += 1
+                self.rows[match.club1].points += 3       # TODO
+                self.rows[match.club2].lost += 1
+            elif rt == Match.MatchResultType.Club2:
+                self.rows[match.club2].won += 1
+                self.rows[match.club2].points += 3       # TODO
+                self.rows[match.club1].lost += 1
+            elif rt == Match.MatchResultType.Draw:
+                self.rows[match.club1].drawn += 1
+                self.rows[match.club2].drawn += 1
+                self.rows[match.club1].points += 1
+                self.rows[match.club2].points += 1
+
+    def get_top(self, num):
+        names = get_sorted_league_table_clubs(self)
+        return names[:num]
+
+def get_sorted_league_table_clubs(table):
+    clubs = []
+    club_names = []
+    for k, v in table.rows.items():
+        clubs.append((v.points, v.name))      # TODO: no goal differences
+    clubs.sort(reverse = True)
+    for points, name in clubs:
+        club_names.append(name)
+    return club_names
+
+def create_league_table(rounds):
+    l = LeagueTable()
+    for round in rounds:
+        for match in round:
+            l.add_match(match)
+    return l
+
+def print_league_table(table):
+    strings = []
+    for k, v in table.rows.items():
+        strings.append((v.points, "%-20s %3d %3d %3d %3d %3d" % (v.name, v.played, v.won, v.drawn, v.lost, v.points)))
+    strings.sort(reverse = True)
+    for points, string in strings:
+        print string
+
 class Stage:
     def __init__(self, name, type):
         self.name = name
@@ -120,7 +186,7 @@ class Stage:
                 matches.append(Match.Match(c1, c2, self.setup.matchrules))
             if len(matches) > 0:
                 self.rounds.append(matches)
-        self.club_names = []
+        # self.club_names = []
         return self.rounds
 
     def get_next_round(self):
@@ -148,12 +214,13 @@ class Stage:
                 if w != "unknown":
                     retval.append(w)
         else:
-            pass      # TODO: create league table, read leaguepr num...
+            table = create_league_table(self.rounds)
+            retval = table.get_top(self.promotions[0].num)     # TODO - only returns top x
         return retval
 
     def update_club_names(self, new_club_names):
         self.rounds = []
-        self.club_names = []
+        self.club_names = [name for name in self.club_names if name != "unknown"]
         self.feed_club_names(new_club_names)
         self.to_rounds()
 
@@ -167,4 +234,5 @@ class Stage:
                         mr = ""
                     print "%-40s %-80s" % (match, mr)
         else:
-            pass         # TODO
+            table = create_league_table(self.rounds)
+            print_league_table(table)

@@ -203,10 +203,13 @@ def parse_levels(levels_node):
 
 def parse_exchange(node):
     exchange = SoccerData.Exchange()
-    for a in ["num", "tournament", "stage"]:
+    for a in ["tournament", "stage"]:
         val = node.get(a)
         if val != None:
             setattr(exchange, a, val)
+    val = node.get("num")
+    if val != None:        # not needed by cups
+        exchange.num = int(val)
     return exchange
 
 def parse_level(level_node):
@@ -274,6 +277,16 @@ def parse_stage(stage_node):
         elif node.tag == "cuppr":
             exchange = parse_exchange(node)
             stage.promotions.append(exchange)
+        elif node.tag == "leagueprs":
+            for prnode in node:
+                if prnode.tag == "leaguepr":
+                    exchange = parse_exchange(prnode)
+                    stage.promotions.append(exchange)
+        elif node.tag == "leaguerls":
+            for prnode in node:
+                if prnode.tag == "leaguerl":
+                    exchange = parse_exchange(prnode)
+                    stage.relegations.append(exchange)
         elif node.tag == "preset":
             for clubnode in node:
                 clubname = clubnode.get("name")
