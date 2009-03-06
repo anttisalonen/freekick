@@ -9,6 +9,9 @@ class MatchRules:
         self.awaygoals = TiebreakerType.Off
         self.penalties = penalties
 
+    def allow_draw(self):
+        return self.penalties == False and self.awaygoals == TiebreakerType.Off
+
 class MatchResultType:
     NotPlayed = 0
     Club1 = 1
@@ -180,18 +183,103 @@ class Match:
         self.club2 = club2
 
     def __str__(self):
-        return self.club1.__str__() + " - " + self.club2.__str__()
+        return self.club1.name + " - " + self.club2.name
+
+    def play_match(self):
+        if self.rules.allow_draw():
+            self.generate_simulated_result(False)
+        else:
+            self.generate_simulated_result(True)
+        return self.mr
+
+    def generate_simulated_result(self, tiebreaker):
+        c1 = self.club1.get_rating() / 1000.0
+        c2 = self.club2.get_rating() / 1000.0
+        c1r = int(c1 ** 2.0)
+        c2r = int(c2 ** 2.0)
+        if c1r > c2r * 1.5:
+            self.generate_desired_result(MatchResultType.Club1, 1.0)
+            return
+        elif c2r > c1r * 1.5:
+            self.generate_desired_result(MatchResultType.Club2, 1.0)
+            return
+        tot_rating = c1r + c2r
+        chosen_point = random.randint(0, tot_rating)
+        draw_point_1 = min(c1r, c2r) - (min(c1r, c2r) / 3)
+        draw_point_2 = min(c1r, c2r) + (min(c1r, c2r) / 3)
+        print "club values: %d %d; tot: %d, chosen: %d, d1: %d, d2: %d" % (c1r, c2r, tot_rating, chosen_point, draw_point_1, draw_point_2)
+        if tiebreaker:
+            mid_point = draw_point_1 + ((draw_point_2 - draw_point_1) / 2)
+            draw_point_1 = mid_point
+            draw_point_2 = mid_point
+        area_0_len = draw_point_1
+        area_1_len = draw_point_2 - draw_point_1
+        area_2_len = tot_rating - draw_point_2
+        if chosen_point < draw_point_1:
+            res = MatchResultType.Club1
+            strength = abs(chosen_point - draw_point_1) / float(area_0_len)
+        elif chosen_point > draw_point_2 or tiebreaker:
+            res = MatchResultType.Club2
+            strength = abs(chosen_point - draw_point_2) / float(area_2_len)
+        else:
+            res = MatchResultType.Draw
+            strength = 0
+        self.generate_desired_result(res, strength)
+
+    def generate_desired_result(self, type, strength):
+        if type == MatchResultType.Draw:
+            self.mr.g1 = random.randint(0, 3)
+            self.mr.g2 = self.mr.g1
+            if self.rules.extratime:
+                self.mr.et1 = self.mr.g1
+                self.mr.et2 = self.mr.g2
+        else:
+            et1 = 0
+            et2 = 0
+            pen1 = 0
+            pen2 = 0
+            if self.rules.extratime and strength < 0.3:
+                g1 = random.randint(0, 2)
+                g2 = g1
+                if self.rules.penalties and strength < 0.2:
+                    et1 = g1 + random.randint(0, 1)
+                    et2 = et1
+                    pen1 = random.randint(4, 5)
+                    pen2 = random.randint(3, (pen1 - 1))
+                else:
+                    et1 = g1 + 1
+                    et2 = g2
+            else:
+                winner_max_goals = max(1, int(strength * 6))
+                g1 = random.randint(1, winner_max_goals)
+                g2 = random.randint(0, min(2, (g1 - 1)))
+                if g1 > 4:
+                    g2 = min(g2, 1)
+            if type == MatchResultType.Club1:
+                self.mr.g1 = g1
+                self.mr.g2 = g2
+                self.mr.et1 = et1
+                self.mr.et2 = et2
+                self.mr.pen1 = pen1
+                self.mr.pen2 = pen2
+            else:
+                self.mr.g1 = g2
+                self.mr.g2 = g1
+                self.mr.et1 = et2
+                self.mr.et2 = et1
+                self.mr.pen1 = pen2
+                self.mr.pen2 = pen1
 
     def play_random(self):
         self.mr = generate_simple_random_match_result(self.rules)
         return self.mr
 
-    def get_winner(self):
+    def get_winner_name(self):
         rt = self.mr.result_type()
         if rt == MatchResultType.Club1:
-            return self.club1
+            return self.club1.name
         elif rt == MatchResultType.Club2:
-            return self.club2
+            return self.club2.name
         else:
             return "draw"
 

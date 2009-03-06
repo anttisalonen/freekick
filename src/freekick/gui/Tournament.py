@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+import random
+
 import Primitives
 import SoccerData
 import Match
@@ -44,24 +46,18 @@ class Tournament:
             if len(clubs) == 0:
                 break
 
-    def play_next_round(self):
-        print "Current stage:", self.stages[self.current_stage].name
-        winners = self.stages[self.current_stage].play_next_round()
-        print "Winners: %s\n" % winners
-        self.update_stage(winners)
-
     def get_next_round(self):
         return self.stages[self.current_stage].get_next_round()
 
-    def round_played(self):
+    def round_played(self, db):
         winners = self.stages[self.current_stage].round_played()
-        return self.update_stage(winners)
+        return self.update_stage(winners, db)
 
-    def update_stage(self, winners):
+    def update_stage(self, winners, db):
         if len(winners) > 0:
             self.current_stage -= 1
             if self.current_stage >= 0:
-                self.stages[self.current_stage].update_club_names(winners)
+                self.stages[self.current_stage].update_club_names(winners, db)
             return True
         return False
 
@@ -87,34 +83,34 @@ class LeagueTable:
         self.rows = {}
 
     def add_match(self, match, pointsperwin):
-        if match.club1 not in self.rows:
-            self.rows[match.club1] = LeagueTableRow(match.club1)
-        if match.club2 not in self.rows:
-            self.rows[match.club2] = LeagueTableRow(match.club2)
+        if match.club1.name not in self.rows:
+            self.rows[match.club1.name] = LeagueTableRow(match.club1.name)
+        if match.club2.name not in self.rows:
+            self.rows[match.club2.name] = LeagueTableRow(match.club2.name)
 
         rt = match.mr.result_type()
         if rt != Match.MatchResultType.NotPlayed:
-            self.rows[match.club1].played += 1
-            self.rows[match.club2].played += 1
-            self.rows[match.club1].goals_for += match.mr.g1
-            self.rows[match.club1].goals_against += match.mr.g2
-            self.rows[match.club2].goals_for += match.mr.g2
-            self.rows[match.club2].goals_against += match.mr.g1
-            self.rows[match.club1].goals_total = self.rows[match.club1].goals_for - self.rows[match.club1].goals_against
-            self.rows[match.club2].goals_total = self.rows[match.club2].goals_for - self.rows[match.club2].goals_against
+            self.rows[match.club1.name].played += 1
+            self.rows[match.club2.name].played += 1
+            self.rows[match.club1.name].goals_for += match.mr.g1
+            self.rows[match.club1.name].goals_against += match.mr.g2
+            self.rows[match.club2.name].goals_for += match.mr.g2
+            self.rows[match.club2.name].goals_against += match.mr.g1
+            self.rows[match.club1.name].goals_total = self.rows[match.club1.name].goals_for - self.rows[match.club1.name].goals_against 
+            self.rows[match.club2.name].goals_total = self.rows[match.club2.name].goals_for - self.rows[match.club2.name].goals_against
             if rt == Match.MatchResultType.Club1:
-                self.rows[match.club1].won += 1
-                self.rows[match.club1].points += pointsperwin
-                self.rows[match.club2].lost += 1
+                self.rows[match.club1.name].won += 1
+                self.rows[match.club1.name].points += pointsperwin
+                self.rows[match.club2.name].lost += 1
             elif rt == Match.MatchResultType.Club2:
-                self.rows[match.club2].won += 1
-                self.rows[match.club2].points += pointsperwin
-                self.rows[match.club1].lost += 1
+                self.rows[match.club2.name].won += 1
+                self.rows[match.club2.name].points += pointsperwin
+                self.rows[match.club1.name].lost += 1
             elif rt == Match.MatchResultType.Draw:
-                self.rows[match.club1].drawn += 1
-                self.rows[match.club2].drawn += 1
-                self.rows[match.club1].points += 1
-                self.rows[match.club2].points += 1
+                self.rows[match.club1.name].drawn += 1
+                self.rows[match.club2.name].drawn += 1
+                self.rows[match.club1.name].points += 1
+                self.rows[match.club2.name].points += 1
 
     def get_top(self, num):
         names = get_sorted_league_table_clubs(self)
@@ -134,7 +130,7 @@ def create_league_table(rounds, club_names, pointsperwin):
     l = LeagueTable()
     for round in rounds:
         for match in round:
-            if match.club1 in club_names and match.club2 in club_names:
+            if match.club1.name in club_names and match.club2.name in club_names:
                 l.add_match(match, pointsperwin)
     return l
 
@@ -167,7 +163,7 @@ class Stage:
         while len(club_names) > 0 and len(self.club_names) < self.setup.participantnum:
             self.club_names.append(club_names.pop(0))
 
-    def to_rounds(self):
+    def to_rounds(self, db):
         if len(self.rounds) > 0:
             return self.rounds
         missing_clubs = self.setup.participantnum - len(self.club_names)
@@ -177,6 +173,7 @@ class Stage:
 
         if len(self.club_names) == 0:
             return self.rounds
+        random.shuffle(self.club_names)
         if self.type == StageType.League:
             num_clubs_per_club = self.setup.participantnum / self.setup.groups
             plans = []
@@ -201,21 +198,13 @@ class Stage:
         for round in plan:
             matches = []
             for c1, c2 in round:
-                matches.append(Match.Match(c1, c2, self.setup.matchrules))
+                matches.append(Match.Match(db.clubs[c1], db.clubs[c2], self.setup.matchrules))
             if len(matches) > 0:
                 self.rounds.append(matches)
-        # self.club_names = []
         return self.rounds
 
     def get_next_round(self):
         return self.rounds[self.current_round]
-
-    def play_next_round(self):
-        if self.current_round >= len(self.rounds):
-            return self.get_winners()
-        for m in self.rounds[self.current_round]:
-            print "%-40s %-20s" % (m, m.play_random())
-        self.round_played()
 
     def round_played(self):
         self.current_round += 1
@@ -228,7 +217,7 @@ class Stage:
         retval = []
         if self.type == StageType.Cup:
             for m in self.rounds[0]:
-                w = m.get_winner()
+                w = m.get_winner_name()
                 if w != "unknown":
                     retval.append(w)
         else:
@@ -238,11 +227,11 @@ class Stage:
                     retval.extend(table.get_top(self.promotions[0].num / self.setup.groups))  # TODO - only returns top x
         return retval
 
-    def update_club_names(self, new_club_names):
+    def update_club_names(self, new_club_names, db):
         self.rounds = []
         self.club_names = [name for name in self.club_names if name != "unknown"]
         self.feed_club_names(new_club_names)
-        self.to_rounds()
+        self.to_rounds(db)
 
     def pretty_print(self):
         if self.type == StageType.Cup:

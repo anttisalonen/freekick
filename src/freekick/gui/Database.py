@@ -12,10 +12,6 @@ import Match
 
 def get_db(path):
     db = SoccerData.DB()
-    db.clubs = {}
-    db.players = {}
-    db.countries = {}
-    db.tournaments = {}
     xml_list = glob.glob(os.path.join(path, '*.xml'))
     for fn in xml_list:
         tree = etree.parse(fn)
@@ -34,6 +30,8 @@ def get_db(path):
             db.tournaments.update(get_tournaments(root))
         else:
             print "Don't know how to parse %s" % fn
+    for club in db.clubs.values():
+        club.get_players(db.players)
     print "%d clubs parsed" % len(db.clubs)
     print "%d countries parsed" % len(db.countries)
     print "%d players parsed" % len(db.players)
@@ -84,13 +82,13 @@ def parse_player_position(node):
 def parse_player_personality(node):
     p = SoccerData.player_personality()
     for n in ["active", "risktaking", "offensive", "aggressive", "consistent", "creative", "experienced"]:
-        setattr(p, n, node.get(n))
+        setattr(p, n, int(node.get(n)))
     return p
 
 def parse_player_skills(node):
     p = SoccerData.player_skills()
     for n in ["stamina", "dexterity", "speed", "tackling", "passing", "shooting", "control", "accuracy", "goalkeeping", "heading"]:
-        setattr(p, n, node.get(n))
+        setattr(p, n, int(node.get(n)))
     return p
 
 def get_clubs(root):
