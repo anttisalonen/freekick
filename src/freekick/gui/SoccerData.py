@@ -64,7 +64,7 @@ class Club:
         self.name = name
         self.kits = []
         self.contracts = []
-        self.players = []
+        self.players = {}
         self.org_name = ""
         self.stadium = ""
     def __str__(self):
@@ -78,13 +78,13 @@ class Stadium:
 class Region:
     def __init__(self, name):
         self.name = name
-        self.subregions = []
-        self.stadiums = []
+        self.subregions = {}
+        self.stadiums = {}
 
 class Country:
     def __init__(self, name):
         self.name = name
-        self.tournaments = []
+        self.tournaments = {}
     def get_stages(self):
         ret = []
         for l in self.leaguesystem.levels:

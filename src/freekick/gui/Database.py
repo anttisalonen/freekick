@@ -167,14 +167,15 @@ def parse_country(countrynode):
         elif node.tag == "leaguesystem":
             country.leaguesystem = parse_leaguesystem(node)
         elif node.tag == "Tournaments":
-            country.tournaments = parse_tournaments(node)
+            country.tournaments = get_tournaments(node)
     return name, country
 
 def parse_regions(regnode):
-    regs = []
+    regs = {}
     for node in regnode:
         if node.tag == "Region":
-            regs.append(parse_region(node))
+            n, r = parse_region(node)
+            regs[n] = r
     return regs
 
 def parse_region(regnode):
@@ -182,13 +183,17 @@ def parse_region(regnode):
     region = SoccerData.Region(name)
     for node in regnode:
         if node.tag == "Region" and node.get("name") != name:
-            region.subregions.append(parse_region(node))
+            n, s = parse_region(node)
+            region.subregions[n] = s
         elif node.tag == "stadium":
-            region.stadiums.append(parse_stadium(node))
-    return region
+            n, s = parse_stadium(node)
+            region.stadiums[n] = s
+    return name, region
 
 def parse_stadium(stadnode):
-    return SoccerData.Stadium(stadnode.get("name"), stadnode.get("capacity"))
+    name = stadnode.get("name")
+    stad = SoccerData.Stadium(name, stadnode.get("capacity"))
+    return name, stad
 
 def parse_leaguesystem(lsnode):
     name = lsnode.get("name")
@@ -305,14 +310,6 @@ def get_tournaments(root):
     for tournament in root:
         n, t = parse_tournament(tournament)
         tournaments[n] = t
-    return tournaments
-
-def parse_tournaments(tnode):
-    tournaments = []
-    for node in tnode:
-        if node.tag == "tournament":
-            n, t = parse_tournament(node)
-            tournaments.append(t)
     return tournaments
 
 def parse_tournament(tnode):

@@ -6,6 +6,7 @@ import datetime
 import Database
 import SoccerData
 import Schedule
+import Tournament
 
 db = SoccerData.DB()
 
@@ -32,11 +33,27 @@ if __name__ == '__main__':
     database_path = "../../../share/DB/"
     db = Database.get_db(database_path)
 
+    if len(sys.argv) == 2:
+        tournamentname = sys.argv[1]
+        tournament = db.tournaments[tournamentname]
+    else:
+        countryname = sys.argv[1]
+        tournamentname = sys.argv[2]
+        try:
+            tournament = db.countries[countryname].tournaments[tournamentname]
+        except KeyError:
+            tournament = None
+            for l in db.countries[countryname].leaguesystem.levels:
+                for b in l.branches:
+                    for s in b.stages:
+                        if s.name == tournamentname:
+                            tournament = Tournament.Tournament(tournamentname)
+                            tournament.stages = [s]
+            if tournament == None:
+                raise KeyError("Tournament '%s' not found" % tournamentname)
+
     startdate = datetime.date(2008, 8, 1)
     enddate = datetime.date(2008, 9, 18)
-    tournamentname = sys.argv[1]
-    tournament = db.tournaments[tournamentname]
-
     es = create_event_schedule(startdate, enddate, tournament)
     schedule = Schedule.Schedule(es)
 
