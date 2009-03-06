@@ -5,6 +5,19 @@ def sorted_dict_values(adict):
     items.sort()
     return [(key, value) for key, value in items]
 
+def ziplists(ls):
+    if len(ls) == 0:
+        return []
+    minlen = len(ls[0])
+    for l in ls:
+        minlen = min(minlen, len(l))
+
+    ll = []
+    for i in range(minlen):
+        for l in ls:
+            ll.append(l[i])
+    return ll
+
 class Color:
     def __init__(self, r, g, b):
         self.red = r

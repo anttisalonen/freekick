@@ -244,11 +244,7 @@ def parse_stage(stage_node):
     stage = Tournament.Stage(name, type)
     for node in stage_node:
         if node.tag == "setup":
-            for n in ["seeded", "rounds"]:
-                a = node.get(n)
-                if a != None:
-                    setattr(stage.setup, n, int(a))
-            for n in ["participantnum", "groups", "pointsperwin"]:
+            for n in ["seeded", "rounds", "participantnum", "groups", "pointsperwin"]:
                 a = node.get(n)
                 if a != None:
                     setattr(stage.setup, n, int(a))

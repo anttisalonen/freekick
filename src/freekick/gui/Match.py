@@ -58,8 +58,8 @@ class MatchResult:
 
     def play_random_penalties(self):
         while self.pen1 == self.pen2:
-            self.pen1 = random.randint(1, 5)
-            self.pen2 = random.randint(1, 5)
+            self.pen1 = random.randint(3, 5)
+            self.pen2 = random.randint(3, 5)
 
     def __str__(self):
         s1 = ""
