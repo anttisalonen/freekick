@@ -211,7 +211,7 @@ def parse_exchange(node):
         if val != None:
             setattr(exchange, a, val)
     val = node.get("num")
-    if val != None:        # not needed by cups
+    if val != None:        # not needed by knockout rounds
         exchange.num = int(val)
     return exchange
 
@@ -276,6 +276,9 @@ def parse_stage(stage_node):
         elif node.tag == "cuppr":
             exchange = parse_exchange(node)
             stage.promotions.append(exchange)
+        elif node.tag == "cuprl":
+            exchange = parse_exchange(node)
+            stage.relegations.append(exchange)
         elif node.tag == "leagueprs":
             for prnode in node:
                 if prnode.tag == "leaguepr":

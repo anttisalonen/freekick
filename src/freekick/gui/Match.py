@@ -12,6 +12,9 @@ class MatchRules:
     def allow_draw(self):
         return self.penalties == False and self.awaygoals == TiebreakerType.Off
 
+def std_match_rules():
+    return MatchRules(False, False)
+
 class MatchResultType:
     NotPlayed = 0
     Club1 = 1
@@ -26,6 +29,17 @@ class MatchResult:
         self.et2 = et2
         self.pen1 = pen1
         self.pen2 = pen2
+
+    def __str__(self):
+        s1 = ""
+        s2 = ""
+        s3 = ""
+        if self.pen1 != 0 or self.pen2 != 0:
+            s3 = " --- after penalties: %d - %d" % (self.pen1, self.pen2)
+        if self.pen1 != 0 or self.pen2 != 0 or self.et1 != 0 or self.et2 != 0:
+            s2 = " --- A.E.T. %d - %d" % (self.et1, self.et2)
+        s1 = "%d - %d" % (self.g1, self.g2)
+        return s1 + s2 + s3
 
     def result_type(self):
         if self.g1 < 0 or self.g2 < 0:
@@ -64,17 +78,6 @@ class MatchResult:
             self.pen1 = random.randint(3, 5)
             self.pen2 = random.randint(3, 5)
 
-    def __str__(self):
-        s1 = ""
-        s2 = ""
-        s3 = ""
-        if self.pen1 != 0 or self.pen2 != 0:
-            s3 = " --- after penalties: %d - %d" % (self.pen1, self.pen2)
-        if self.pen1 != 0 or self.pen2 != 0 or self.et1 != 0 or self.et2 != 0:
-            s2 = " --- A.E.T. %d - %d" % (self.et1, self.et2)
-        s1 = "%d - %d" % (self.g1, self.g2)
-        return s1 + s2 + s3
-
 class TiebreakerType:
     Off = 0
     After90Min = 1
@@ -89,12 +92,12 @@ def double_match_result(res1, res2, matchrules):
         return MatchResultType.Club2
     awg_1 = res1.g2
     awg_2 = res2.g2
-    if matchrules.away_goals == TiebreakerType.After90Min:
+    if matchrules.awaygoals == TiebreakerType.After90Min:
         if awg_1 > awg_2:
             return MatchResultType.Club1
         elif awg_2 > awg_1:
             return MatchResultType.Club2
-    if matchrules.away_goals == matchrules.TiebreakerType.AfterET:
+    if matchrules.awaygoals == TiebreakerType.AfterET:
         awg_1 = res1.g2 + res2.et1
         awg_2 = res2.g2 + res2.et2
         if awg_1 > awg_2:
@@ -111,6 +114,7 @@ def double_match_result(res1, res2, matchrules):
             return MatchResultType.Club1
         if res2.pen2 > res2.pen1:
             return MatchResultType.Club2
+    print "Fall through: 90: %d-%d, et: %d-%d, penalties: %d-%d" % (tot_after_90_1, tot_after_90_2, res2.et1, res2.et2, res2.pen1, res2.pen2)
     return MatchResultType.Draw
 
 def generate_simple_random_match_result(matchrules):
@@ -176,38 +180,64 @@ def generate_second_leg_random_match_result(prev_res, matchrules):
     return res2, MatchResultType.Draw
 
 class Match:
-    def __init__(self, club1, club2, rules, place = None, date = None, time = None, match_name = ""):
+    def __init__(self, club1, club2, rules, prev_res, place = None, date = None, time = None, match_name = ""):
         self.mr = MatchResult()
         self.rules = rules
         self.club1 = club1
         self.club2 = club2
+        self.prev_res = prev_res
 
     def __str__(self):
-        return self.club1.name + " - " + self.club2.name
+        s0 = "%-40s" % (self.club1.name + " - " + self.club2.name)
+        s1 = ""
+        s2 = ""
+        s3 = ""
+        s4 = ""
+        if self.mr.result_type() != MatchResultType.NotPlayed:
+            if self.mr.pen1 != 0 or self.mr.pen2 != 0:
+                s3 = " --- after penalties: %d - %d" % (self.mr.pen1, self.mr.pen2)
+            if self.mr.pen1 != 0 or self.mr.pen2 != 0 or self.mr.et1 != 0 or self.mr.et2 != 0:
+                s2 = " --- A.E.T. %d - %d" % (self.mr.et1, self.mr.et2)
+            if self.prev_res.result_type() != MatchResultType.NotPlayed:
+                s4 = " --- (%d - %d on agg.)" % (self.mr.g1 + self.prev_res.g2 + self.mr.et1, self.mr.g2 + self.prev_res.g1 + self.mr.et2)
+            s1 = "%d - %d" % (self.mr.g1, self.mr.g2)
+        return s0 + s1 + s2 + s3 + s4
 
     def play_match(self):
-        if self.rules.allow_draw():
-            self.generate_simulated_result(False)
+        if self.prev_res.result_type() == MatchResultType.NotPlayed:
+            if self.rules.allow_draw():
+                self.mr = self.generate_simulated_result(False)
+            else:
+                self.mr = self.generate_simulated_result(True)
         else:
-            self.generate_simulated_result(True)
+            self.mr = self.generate_simulated_second_match_result()
         return self.mr
 
-    def generate_simulated_result(self, tiebreaker):
+    def generate_simulated_second_match_result(self):
+        res, strength = self.generate_general_result(False)
+        std_mr = self.generate_desired_result(res, strength, std_match_rules())
+        tot_res = double_match_result(self.prev_res, std_mr, self.rules)
+        if tot_res == MatchResultType.Draw:
+            std_mr.play_random_et()
+            tot_res = double_match_result(self.prev_res, std_mr, self.rules)
+            if tot_res == MatchResultType.Draw:
+                std_mr.play_random_penalties()
+        return std_mr
+
+    def generate_general_result(self, tiebreaker):
         c1 = self.club1.get_rating() / 1000.0
         c2 = self.club2.get_rating() / 1000.0
         c1r = int(c1 ** 2.0)
         c2r = int(c2 ** 2.0)
         if c1r > c2r * 1.5:
-            self.generate_desired_result(MatchResultType.Club1, 1.0)
-            return
+            return MatchResultType.Club1, 1.0
         elif c2r > c1r * 1.5:
-            self.generate_desired_result(MatchResultType.Club2, 1.0)
-            return
+            return MatchResultType.Club2, 1.0
         tot_rating = c1r + c2r
         chosen_point = random.randint(0, tot_rating)
         draw_point_1 = min(c1r, c2r) - (min(c1r, c2r) / 3)
         draw_point_2 = min(c1r, c2r) + (min(c1r, c2r) / 3)
-        print "club values: %d %d; tot: %d, chosen: %d, d1: %d, d2: %d" % (c1r, c2r, tot_rating, chosen_point, draw_point_1, draw_point_2)
+        # print "club values: %d %d; tot: %d, chosen: %d, d1: %d, d2: %d" % (c1r, c2r, tot_rating, chosen_point, draw_point_1, draw_point_2)
         if tiebreaker:
             mid_point = draw_point_1 + ((draw_point_2 - draw_point_1) / 2)
             draw_point_1 = mid_point
@@ -224,24 +254,29 @@ class Match:
         else:
             res = MatchResultType.Draw
             strength = 0
-        self.generate_desired_result(res, strength)
+        return res, strength
 
-    def generate_desired_result(self, type, strength):
+    def generate_simulated_result(self, tiebreaker):
+        res, strength = self.generate_general_result(tiebreaker)
+        return self.generate_desired_result(res, strength, self.rules)
+
+    def generate_desired_result(self, type, strength, rules):
+        thismr = MatchResult()
         if type == MatchResultType.Draw:
-            self.mr.g1 = random.randint(0, 3)
-            self.mr.g2 = self.mr.g1
-            if self.rules.extratime:
-                self.mr.et1 = self.mr.g1
-                self.mr.et2 = self.mr.g2
+            thismr.g1 = random.randint(0, 3)
+            thismr.g2 = thismr.g1
+            if rules.extratime:
+                thismr.et1 = thismr.g1
+                thismr.et2 = thismr.g2
         else:
             et1 = 0
             et2 = 0
             pen1 = 0
             pen2 = 0
-            if self.rules.extratime and strength < 0.3:
+            if rules.extratime and strength < 0.3:
                 g1 = random.randint(0, 2)
                 g2 = g1
-                if self.rules.penalties and strength < 0.2:
+                if rules.penalties and strength < 0.2:
                     et1 = g1 + random.randint(0, 1)
                     et2 = et1
                     pen1 = random.randint(4, 5)
@@ -256,22 +291,23 @@ class Match:
                 if g1 > 4:
                     g2 = min(g2, 1)
             if type == MatchResultType.Club1:
-                self.mr.g1 = g1
-                self.mr.g2 = g2
-                self.mr.et1 = et1
-                self.mr.et2 = et2
-                self.mr.pen1 = pen1
-                self.mr.pen2 = pen2
+                thismr.g1 = g1
+                thismr.g2 = g2
+                thismr.et1 = et1
+                thismr.et2 = et2
+                thismr.pen1 = pen1
+                thismr.pen2 = pen2
             else:
-                self.mr.g1 = g2
-                self.mr.g2 = g1
-                self.mr.et1 = et2
-                self.mr.et2 = et1
-                self.mr.pen1 = pen2
-                self.mr.pen2 = pen1
+                thismr.g1 = g2
+                thismr.g2 = g1
+                thismr.et1 = et2
+                thismr.et2 = et1
+                thismr.pen1 = pen2
+                thismr.pen2 = pen1
+        return thismr
 
     def play_random(self):
-        self.mr = generate_simple_random_match_result(self.rules)
+        self.mr = generate_simple_random_match_result(rules)
         return self.mr
 
     def get_winner_name(self):
@@ -305,10 +341,10 @@ if __name__ == "__main__":
     for i in range(0, num_cls):
         simpleres = generate_simple_random_match_result(simple)
         clres, clwinner = generate_second_leg_random_match_result(simpleres, cl)
-        print "CL:     \t%-30s   %-30s   %s" % (simpleres, clres, clwinner)
+        print "CL:     \t%-30s   %-30s   %s (%s)" % (simpleres, clres, clwinner, double_match_result(simpleres, clres, cl))
 
     num_complex = 4
     for i in range(0, num_complex):
         simpleres = generate_simple_random_match_result(simple)
         complexres, complexwinner = generate_second_leg_random_match_result(simpleres, complex)
-        print "Complex:\t%-30s   %-30s   %s" % (simpleres, complexres, complexwinner)
+        print "Complex:\t%-30s   %-30s   %s (%s)" % (simpleres, complexres, complexwinner, double_match_result(simpleres, complexres, complex))

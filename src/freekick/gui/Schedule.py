@@ -3,7 +3,8 @@
 class Schedule:
     def __init__(self, es):
         self.events = []
-        self.add_event_schedule(es)
+        for e in es:
+            self.add_event_schedule(e)
 
     def add_event_schedule(self, es):
         for date in es.dates:

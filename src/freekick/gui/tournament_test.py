@@ -33,40 +33,55 @@ if __name__ == '__main__':
     database_path = "../../../share/DB/"
     db = Database.get_db(database_path)
 
+    tournaments = []
     if len(sys.argv) == 2:
-        tournamentname = sys.argv[1]
-        tournament = db.tournaments[tournamentname]
+        try:
+            tournamentname = sys.argv[1]
+            tournaments.append(db.tournaments[tournamentname])
+        except KeyError:
+            countryname = sys.argv[1]
+            tournaments.extend(db.countries[countryname].tournaments.values())
+            for l in db.countries[countryname].leaguesystem.levels:
+                for b in l.branches:
+                    for s in b.stages:
+                        t = Tournament.Tournament(s.name)
+                        t.stages = [s]
+                        tournaments.append(t)
     else:
         countryname = sys.argv[1]
         tournamentname = sys.argv[2]
         try:
-            tournament = db.countries[countryname].tournaments[tournamentname]
+            tournaments.append(db.countries[countryname].tournaments[tournamentname])
         except KeyError:
-            tournament = None
             for l in db.countries[countryname].leaguesystem.levels:
                 for b in l.branches:
                     for s in b.stages:
                         if s.name == tournamentname:
-                            tournament = Tournament.Tournament(tournamentname)
-                            tournament.stages = [s]
-            if tournament == None:
+                            t = Tournament.Tournament(tournamentname)
+                            t.stages = [s]
+                            tournaments.append(t)
+            if len(tournaments) == 0:
                 raise KeyError("Tournament '%s' not found" % tournamentname)
 
-    startdate = datetime.date(2008, 8, 1)
-    enddate = datetime.date(2008, 9, 18)
-    es = create_event_schedule(startdate, enddate, tournament)
+    if len(tournaments) == 0:
+        raise KeyError("Tournament/country not found")
+
+    startdate = datetime.date(2007, 9, 1)
+    enddate = datetime.date(2008, 5, 18)
+    es = []
+    for t in tournaments:
+        es.append(create_event_schedule(startdate, enddate, t))
     schedule = Schedule.Schedule(es)
 
-    for stage in reversed(tournament.stages):        
-        stage.to_rounds(db)
-
-    tournament.pretty_print()
-    f = raw_input()
+    # f = raw_input()
     for d, t in schedule.next_event():
         round = t.get_next_round()
         for match in round:
             mr = match.play_match()
-            print d, match, mr, "\n"
-            t.pretty_print()
-            f = raw_input()
+            # print d, match, "\n"
+            # t.pretty_print()
+            # f = raw_input()
         cont = t.round_played(db)
+
+    for t in tournaments:
+        t.pretty_print()

@@ -67,7 +67,7 @@ class Player(Primitives.Human):
     def get_rating(self):
         if self.rating < 0:
             self.calculate_rating()
-        print "Rating for player %s: %d" % (self.name, self.rating)
+        # print "Rating for player %s: %d" % (self.name, self.rating)
         return self.rating
 
 class Coach(Primitives.Human):
@@ -120,7 +120,7 @@ class Club:
     def get_rating(self):
         if self.rating < 0:
             self.calculate_rating()
-        print "Rating for club %s: %d" % (self.name, self.rating)
+        # print "Rating for club %s: %d" % (self.name, self.rating)
         return self.rating
 
 class Stadium:
@@ -182,6 +182,8 @@ class Exchange:
     def __init__(self, highest = 0, num = 0):
         self.highest = highest
         self.num = num
+        self.tournament = ""
+        self.stage = ""
 
 class Trophy:
     def __init__(self, name):

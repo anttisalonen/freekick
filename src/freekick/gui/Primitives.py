@@ -18,6 +18,10 @@ def ziplists(ls):
             ll.append(l[i])
     return ll
 
+def switch_tuple(t):
+    t1, t2 = t
+    return t2, t1
+
 class Color:
     def __init__(self, r, g, b):
         self.red = r

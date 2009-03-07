@@ -187,23 +187,44 @@ class Stage:
             i = False
             l = []
             for c in self.club_names:
-                i = not i 
+                i = not i
                 if i:
                     c1 = c
                 else:
                     c2 = c
                     l.append((c1, c2))
-            plan = [l]
+            num_planned_rounds = self.setup.rounds
+            if self.setup.matchrules.replays != Match.TiebreakerType.Off:
+                num_planned_rounds += 1
+            plan = []
+            i = False
+            l_sw = [Primitives.switch_tuple(cp) for cp in l]
+            for i in range(num_planned_rounds):
+                i = not i
+                if i:
+                    plan.append(l)
+                else:
+                    plan.append(l_sw)
 
         for round in plan:
             matches = []
+            self.multiple_legs = self.type == StageType.Cup and self.setup.rounds > 1
+            used_rules = self.setup.matchrules
+            if self.multiple_legs:
+                used_rules = Match.std_match_rules()
             for c1, c2 in round:
-                matches.append(Match.Match(db.clubs[c1], db.clubs[c2], self.setup.matchrules))
+                m = Match.Match(db.clubs[c1], db.clubs[c2], used_rules, Match.MatchResult())
+                matches.append(m)
             if len(matches) > 0:
                 self.rounds.append(matches)
         return self.rounds
 
     def get_next_round(self):
+        if self.multiple_legs and self.current_round == len(self.rounds) - 1:
+            fst_matches = []
+            for i in range(len(self.rounds[self.current_round])):
+                self.rounds[self.current_round][i].prev_res = self.rounds[self.current_round - 1][i].mr
+                self.rounds[self.current_round][i].rules = self.setup.matchrules
         return self.rounds[self.current_round]
 
     def round_played(self):
@@ -216,10 +237,23 @@ class Stage:
     def get_winners(self):
         retval = []
         if self.type == StageType.Cup:
-            for m in self.rounds[0]:
-                w = m.get_winner_name()
-                if w != "unknown":
-                    retval.append(w)
+            if self.setup.rounds == 1:
+                for m in self.rounds[0]:
+                    w = m.get_winner_name()
+                    if w != "unknown":
+                        retval.append(w)
+            elif self.setup.rounds == 2:
+                ms = zip(self.rounds[0], self.rounds[1])
+                for m1, m2 in ms:
+                    w = Match.double_match_result(m1.mr, m2.mr, self.setup.matchrules)
+                    if w == Match.MatchResultType.Club1:
+                        retval.append(m2.club1.name)
+                    elif w == Match.MatchResultType.Club2:
+                        retval.append(m2.club2.name)
+                    else:
+                        raise ValueError("Match.double_match_result() returned draw!")
+            else:
+                raise ValueError("Only up to two rounds per knockout stage supported at the moment")
         else:
             for group in self.groups_club_names:
                 table = create_league_table(self.rounds, group, self.setup.pointsperwin)
@@ -237,11 +271,7 @@ class Stage:
         if self.type == StageType.Cup:
             for round in self.rounds:
                 for match in round:
-                    if match.mr.result_type() != Match.MatchResultType.NotPlayed:
-                        mr = match.mr.__str__()
-                    else:
-                        mr = ""
-                    print "%-40s %-80s" % (match, mr)
+                    print match
         else:
             for i in range(len(self.groups_club_names)):
                 print "Group", (i + 1)
