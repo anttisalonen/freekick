@@ -137,7 +137,7 @@ def create_league_table(rounds, club_names, pointsperwin):
 def print_league_table(table):
     strings = []
     for k, v in table.rows.items():
-        strings.append((v.points, "%-20s %3d %3d %3d %3d %3d %3d %3d %3d" % (v.name, v.played, v.won, v.drawn, v.lost, v.goals_for, v.goals_against, v.goals_total, v.points)))
+        strings.append(((v.points, v.goals_total, v.goals_for), "%-20s %3d %3d %3d %3d %3d %3d %3d %3d" % (v.name, v.played, v.won, v.drawn, v.lost, v.goals_for, v.goals_against, v.goals_total, v.points)))
     strings.sort(reverse = True)
     for points, string in strings:
         print string
