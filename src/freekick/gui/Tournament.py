@@ -193,13 +193,13 @@ class Stage:
                 else:
                     c2 = c
                     l.append((c1, c2))
-            num_planned_rounds = self.setup.rounds
+            self.num_planned_rounds = self.setup.rounds
             if self.setup.matchrules.replays != Match.TiebreakerType.Off:
-                num_planned_rounds += 1
+                self.num_planned_rounds += 1
             plan = []
             i = False
             l_sw = [Primitives.switch_tuple(cp) for cp in l]
-            for i in range(num_planned_rounds):
+            for i in range(self.setup.rounds):
                 i = not i
                 if i:
                     plan.append(l)
@@ -210,26 +210,40 @@ class Stage:
             matches = []
             self.multiple_legs = self.type == StageType.Cup and self.setup.rounds > 1
             used_rules = self.setup.matchrules
-            if self.multiple_legs:
+            if self.multiple_legs or self.setup.matchrules.replays != Match.TiebreakerType.Off:   # TODO: replays.AfterET
                 used_rules = Match.std_match_rules()
             for c1, c2 in round:
                 m = Match.Match(db.clubs[c1], db.clubs[c2], used_rules, Match.MatchResult())
                 matches.append(m)
             if len(matches) > 0:
                 self.rounds.append(matches)
+        if self.setup.matchrules.replays != Match.TiebreakerType.Off:
+            self.rounds.append([])
         return self.rounds
 
     def get_next_round(self):
+        if self.current_round >= self.num_planned_rounds:
+            return []
         if self.multiple_legs and self.current_round == len(self.rounds) - 1:
-            fst_matches = []
             for i in range(len(self.rounds[self.current_round])):
                 self.rounds[self.current_round][i].prev_res = self.rounds[self.current_round - 1][i].mr
                 self.rounds[self.current_round][i].rules = self.setup.matchrules
+        elif self.type == StageType.Cup and self.setup.matchrules.replays != Match.TiebreakerType.Off:
+            matches = []
+            for i in range(len(self.rounds[self.current_round - 1])):
+                if self.rounds[self.current_round - 1][i].mr.result_type() == Match.MatchResultType.Draw:
+                    c1 = self.rounds[self.current_round - 1][i].club2
+                    c2 = self.rounds[self.current_round - 1][i].club1
+                    m = Match.Match(c1, c2, self.setup.matchrules, Match.MatchResult())
+                    matches.append(m)
+                    # print "Added match:", m
+            self.rounds[self.current_round].extend(matches)
+
         return self.rounds[self.current_round]
 
     def round_played(self):
         self.current_round += 1
-        if self.current_round >= len(self.rounds):
+        if self.current_round >= self.num_planned_rounds:
             print "Stage finished"
             return self.get_winners()
         return []
@@ -237,23 +251,35 @@ class Stage:
     def get_winners(self):
         retval = []
         if self.type == StageType.Cup:
-            if self.setup.rounds == 1:
+            if self.setup.matchrules.replays != Match.TiebreakerType.Off:
                 for m in self.rounds[0]:
                     w = m.get_winner_name()
+                    if w != "unknown" and w != "draw":
+                        retval.append(w)
+                for m in self.rounds[1]:
+                    w = m.get_winner_name()
+                    if w == "draw":
+                        raise ValueError("Replay match was a draw!")
                     if w != "unknown":
                         retval.append(w)
-            elif self.setup.rounds == 2:
-                ms = zip(self.rounds[0], self.rounds[1])
-                for m1, m2 in ms:
-                    w = Match.double_match_result(m1.mr, m2.mr, self.setup.matchrules)
-                    if w == Match.MatchResultType.Club1:
-                        retval.append(m2.club1.name)
-                    elif w == Match.MatchResultType.Club2:
-                        retval.append(m2.club2.name)
-                    else:
-                        raise ValueError("Match.double_match_result() returned draw!")
             else:
-                raise ValueError("Only up to two rounds per knockout stage supported at the moment")
+                if self.setup.rounds == 1:
+                    for m in self.rounds[0]:
+                        w = m.get_winner_name()
+                        if w != "unknown":
+                            retval.append(w)
+                elif self.setup.rounds == 2:
+                    ms = zip(self.rounds[0], self.rounds[1])
+                    for m1, m2 in ms:
+                        w = Match.double_match_result(m1.mr, m2.mr, self.setup.matchrules)
+                        if w == Match.MatchResultType.Club1:
+                            retval.append(m2.club1.name)
+                        elif w == Match.MatchResultType.Club2:
+                            retval.append(m2.club2.name)
+                        else:
+                            raise ValueError("Match.double_match_result() returned draw!")
+                else:
+                    raise ValueError("Only up to two rounds per knockout stage supported at the moment")
         else:
             for group in self.groups_club_names:
                 table = create_league_table(self.rounds, group, self.setup.pointsperwin)

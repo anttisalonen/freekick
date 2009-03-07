@@ -7,6 +7,7 @@ import Database
 import SoccerData
 import Schedule
 import Tournament
+import Match
 
 db = SoccerData.DB()
 
@@ -18,6 +19,8 @@ def create_event_schedule(startdate, enddate, tournament):
     total_rounds = []
     for stage in reversed(tournament.stages):
         total_rounds.append(stage.to_rounds(db))
+        if stage.type == Tournament.StageType.Cup and stage.setup.matchrules.replays != Match.TiebreakerType.Off:
+            num_rounds += 1
 
     for stage in total_rounds:
         num_rounds += len(stage)
