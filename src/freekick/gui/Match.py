@@ -105,16 +105,16 @@ def double_match_result(res1, res2, matchrules):
         elif awg_2 > awg_1:
             return MatchResultType.Club2
     if matchrules.extratime:
-        if res2.et1 > res2.et2:
+        if tot_after_90_1 + res2.et1 > tot_after_90_2 + res2.et2:
             return MatchResultType.Club1
-        if res2.et2 > res2.et1:
+        if tot_after_90_2 + res2.et2 > tot_after_90_1 + res2.et1:
             return MatchResultType.Club2
     if matchrules.penalties:
         if res2.pen1 > res2.pen2:
             return MatchResultType.Club1
         if res2.pen2 > res2.pen1:
             return MatchResultType.Club2
-    print "Fall through: 90: %d-%d, et: %d-%d, penalties: %d-%d" % (tot_after_90_1, tot_after_90_2, res2.et1, res2.et2, res2.pen1, res2.pen2)
+    # print "Fall through: 90: %d-%d, et: %d-%d, penalties: %d-%d" % (tot_after_90_1, tot_after_90_2, res2.et1, res2.et2, res2.pen1, res2.pen2)
     return MatchResultType.Draw
 
 def generate_simple_random_match_result(matchrules):
