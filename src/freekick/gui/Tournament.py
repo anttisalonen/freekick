@@ -46,10 +46,18 @@ class Tournament:
             if len(clubs) == 0:
                 break
 
+    def clear_clubs(self):
+        for s in self.stages:
+            s.clear_clubs()
+
     def get_next_round(self):
+        if self.current_stage < 0:
+            return []
         return self.stages[self.current_stage].get_next_round()
 
     def round_played(self, db):
+        if self.current_stage < 0:
+            return True
         winners = self.stages[self.current_stage].round_played()
         return self.update_stage(winners, db)
 
@@ -60,6 +68,14 @@ class Tournament:
                 self.stages[self.current_stage].update_club_names(winners, db)
             return True
         return False
+
+    def finished(self):
+        if len(self.stages) > 1:
+            return self.current_stage < 0
+        elif len(self.stages) == 0:
+            return False
+        else:
+            return self.stages[self.current_stage].finished()
 
     def pretty_print(self):
         for stage in reversed(self.stages):
@@ -116,6 +132,10 @@ class LeagueTable:
         names = get_sorted_league_table_clubs(self)
         return names[:num]
 
+    def get_bottom(self, num):
+        names = get_sorted_league_table_clubs(self)
+        return names[-num:]
+
 def get_sorted_league_table_clubs(table):
     clubs = []
     club_names = []
@@ -153,8 +173,12 @@ class Stage:
         self.current_round = 0
         if self.type == StageType.League:
             self.setup = LeagueSetup()
+            self.num_planned_rounds = len(self.rounds)
         else:
             self.setup = CupSetup()
+            self.num_planned_rounds = self.setup.rounds
+            if self.setup.matchrules.replays != Match.TiebreakerType.Off:
+                self.num_planned_rounds += 1
 
     def get_club_names(self):
         return self.club_names
@@ -162,6 +186,11 @@ class Stage:
     def feed_club_names(self, club_names):
         while len(club_names) > 0 and len(self.club_names) < self.setup.participantnum:
             self.club_names.append(club_names.pop(0))
+
+    def clear_clubs(self):
+        self.club_names = []
+        self.rounds = []
+        self.current_round = 0
 
     def to_rounds(self, db):
         if len(self.rounds) > 0:
@@ -193,9 +222,6 @@ class Stage:
                 else:
                     c2 = c
                     l.append((c1, c2))
-            self.num_planned_rounds = self.setup.rounds
-            if self.setup.matchrules.replays != Match.TiebreakerType.Off:
-                self.num_planned_rounds += 1
             plan = []
             i = False
             l_sw = [Primitives.switch_tuple(cp) for cp in l]
@@ -221,6 +247,10 @@ class Stage:
             self.rounds.append([])
         if self.type == StageType.League:
             self.num_planned_rounds = len(self.rounds)
+        else:
+            self.num_planned_rounds = self.setup.rounds
+            if self.setup.matchrules.replays != Match.TiebreakerType.Off:
+                self.num_planned_rounds += 1
         return self.rounds
 
     def get_next_round(self):
@@ -249,6 +279,9 @@ class Stage:
             print "Stage finished"
             return self.get_winners()
         return []
+
+    def finished(self):
+        return self.num_planned_rounds > 0 and self.current_round >= self.num_planned_rounds
 
     def get_winners(self):
         retval = []
@@ -288,6 +321,25 @@ class Stage:
                 if len(self.promotions) > 0:
                     retval.extend(table.get_top(self.promotions[0].num / self.setup.groups))  # TODO - only returns top x
         return retval
+
+    def get_attendances(self):
+        return self.attendances()
+
+    def get_promotions(self):
+        if self.type == StageType.League:
+            return self.get_winners()
+        else:
+            return []
+
+    def get_relegations(self):
+        if self.type == StageType.League:
+            for group in self.groups_club_names:
+                table = create_league_table(self.rounds, group, self.setup.pointsperwin)
+                if len(self.relegations) > 0:
+                    retval.extend(table.get_bottom(self.promotions[0].num / self.setup.groups))  # TODO - only returns bottom x
+            return retval
+        else:
+            return []
 
     def update_club_names(self, new_club_names, db):
         self.rounds = []

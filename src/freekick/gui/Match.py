@@ -204,6 +204,8 @@ class Match:
         return s0 + s1 + s2 + s3 + s4
 
     def play_match(self):
+        if self.club1.name == "unknown" or self.club2.name == "unknown":
+            raise ValueError("'unknown' plays a match")
         if self.prev_res.result_type() == MatchResultType.NotPlayed:
             if self.rules.allow_draw():
                 self.mr = self.generate_simulated_result(False)
