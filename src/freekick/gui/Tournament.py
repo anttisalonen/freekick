@@ -219,6 +219,8 @@ class Stage:
                 self.rounds.append(matches)
         if self.setup.matchrules.replays != Match.TiebreakerType.Off:
             self.rounds.append([])
+        if self.type == StageType.League:
+            self.num_planned_rounds = len(self.rounds)
         return self.rounds
 
     def get_next_round(self):
