@@ -70,7 +70,7 @@ namespace freekick
                 switch(it->first)
                 {
                     case Goalkeeper:
-                        mFormationMap.insert(pair<int, Square>(it->second, Square(0.48f, 0.52f, 0.0f, 0.02f)));
+                        mFormationMap.insert(pair<int, Square>(it->second, Square(0.48f, 0.52f, 0.0f, 0.05f)));
                         break;
                     case Defender:
                         mFormationMap.insert(pair<int, Square>(it->second, 
