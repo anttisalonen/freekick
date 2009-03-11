@@ -176,11 +176,11 @@ namespace freekick
             switch(collgroup)
             {
                 case Collision_Ball:
-                    collmask = Collision_Static;
+                    collmask = Collision_Static | Collision_Player;
                     break;
 
                 case Collision_Player:
-                    collmask = Collision_Static | Collision_Player;
+                    collmask = Collision_Static | Collision_Player | Collision_Ball;
                     break;
 
                 case Collision_Static:
