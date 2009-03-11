@@ -87,7 +87,7 @@ namespace addutil
         }
     };
 
-    std::ostream& operator<<(std::ostream& os, const Vector3& e);
+    std::ostream& operator<<(std::ostream& os, const Vector3& v);
     bool inArea(const Vector3& tl, const Vector3& br, const Vector3& p);
 }
 

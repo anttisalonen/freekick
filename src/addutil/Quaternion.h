@@ -41,7 +41,7 @@ namespace addutil
         Quaternion(float xzangle);
         virtual ~Quaternion() { }
         void set(float _w, float _x, float _y, float _z);
-        void toAxisAngle(addutil::Vector3& axis, float angle) const;
+        void toAxisAngle(addutil::Vector3& axis, float& angle) const;
         // void fromVector(const Vector3& n);
         // void fromVector(float _x, float _y, float _z);
         // Vector3 toVector();
@@ -60,6 +60,7 @@ namespace addutil
             ar & z;
         }
     };
+    std::ostream& operator<<(std::ostream& os, const Quaternion& e);
 }
 
 #endif // QUATERNION_H

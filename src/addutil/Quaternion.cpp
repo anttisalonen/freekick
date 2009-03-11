@@ -47,7 +47,7 @@ namespace addutil
         z = _z;
     }
 
-    void Quaternion::toAxisAngle(addutil::Vector3& axis, float angle) const
+    void Quaternion::toAxisAngle(addutil::Vector3& axis, float& angle) const
     {
         angle = 2 * acos(w);
         float l = sqrt(x * x + y * y + z * z);
@@ -92,4 +92,9 @@ namespace addutil
     }
 */
 
+    std::ostream& operator<<(std::ostream& os, const Quaternion& e)
+    {
+        os << e.w << " " << e.x << " " << e.y << " " << e.z;
+        return os;
+    }
 }
