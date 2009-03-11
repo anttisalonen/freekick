@@ -123,16 +123,16 @@ namespace freekick
 
                     successful = mPhysicsEngine->stepWorld(frametime);
                     const BallState bs = mMatchStatus->getBallState();
-                    if(bs.bio_type == Kickoff && bs.blocked_play)
+                    if(bs.bio_type == Kickoff)
                     {
                         addutil::Vector3 p = mMatchStatus->getCentreSpot();
                         p.y = ball_radius;
                         mPhysicsEngine->setObjectPosition(BallID, p);
                     }
-                    else if(bs.blocked_play && 
-                            (bs.bio_type != BallIn &&
-                             bs.bio_type != HalfFullTime &&
-                             bs.bio_type != PreKickoff))
+                    else if( // bs.blocked_play && 
+                        (bs.bio_type != BallIn &&
+                         bs.bio_type != HalfFullTime &&
+                         bs.bio_type != PreKickoff))
                     {
                         addutil::Vector3 p = bs.restart_point;
                         p.y = ball_radius;
@@ -176,13 +176,14 @@ namespace freekick
                         if(mPhysicsEngine->getObjectPositionAndOrientation(holder, plpos, orien))
                         {
                             addutil::Vector3 ballpos;
-/*
-  addutil::Vector3 pldir;
-  float ang = 0.0f;
-  orien.toAxisAngle(pldir, ang);
-  ballpos = plpos + pldir * 0.7f;
-*/
-                            ballpos = plpos;
+                            addutil::Vector3 pldir;
+                            float ang = 0.0f;
+                            orien.toAxisAngle(pldir, ang);
+                            ballpos.x = plpos.x + cos(ang) * 0.5f;
+                            ballpos.y = plpos.y;
+                            ballpos.z = plpos.z + sin(ang) * 0.5f;
+                            // std::cerr << "Holding: orien: " << orien.w << ";" << orien.x << ";" << orien.y << ";" << orien.z << "; pldir: " << pldir << "; ang: " << ang << std::endl;
+                            // std::cerr << "Player pos: " << plpos << "; ballpos: " << ballpos << std::endl;
                             mPhysicsEngine->setObjectPosition(BallID, ballpos);
                         }
                     }
