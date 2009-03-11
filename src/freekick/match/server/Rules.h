@@ -84,7 +84,10 @@ namespace freekick
 
                 void check_for_touched_ball(const OwnerMessageList& c, bool& new_ball_status, bool& ball_touched);
                 void check_for_over_pitch(const PhysicsMessageList& l, bool& new_ball_status, GoalQuery& goal_scored);
-                void check_for_bio_change(bool& new_ball_status, bool& ball_touched);
+                void check_for_bio_change(bool& new_ball_status, const bool& ball_touched);
+                bool play_can_be_given_free() const;
+                bool ball_due_for_throwin(const addutil::Vector3 ballvec) const;
+                bool ball_over_a_goal_line(const addutil::Vector3& ballvec) const;
             };
 
         }

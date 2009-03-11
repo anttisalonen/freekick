@@ -67,25 +67,36 @@ namespace freekick
                         }
                         else
                         {
-                            if(mBallState.owner == b)
+                            if(mBallState.owner == b && !mBallState.blocked_play)
                             {
-                                // TODO: check if play can really be given free (no nearby opponents etc.)
-                                mBallState.blocked_play = false;
-                                mBallState.bio_type = BallIn;
-                                new_ball_status = true;
+                                ball_touched = true;
                             }
                             else
                             {
                                 std::cerr << "Rules::update: Player kicks the ball but was not allowed (play blocked/ball out of play)\n";
                             }
                         }
-                        ball_touched = true;
                     }
                     catch(...)
                     {
                         // invalid ID in owner message (referee, etc.) -> ignore.
                     }
                 }
+            }
+
+            bool Rules::ball_due_for_throwin(const addutil::Vector3 ballvec) const
+            {
+                if(ballvec.z > 0.0f && ballvec.z < mPitch->getLength() && 
+                   (ballvec.x < 0.0f || ballvec.x > mPitch->getWidth()))
+                {
+                    return true;
+                }
+                return false;
+            }
+
+            bool Rules::ball_over_a_goal_line(const addutil::Vector3& ballvec) const
+            {
+                return (ballvec.z < 0.0f || ballvec.z > mPitch->getLength());
             }
 
             void Rules::check_for_over_pitch(const PhysicsMessageList& l, bool& new_ball_status, GoalQuery& goal_scored)
@@ -111,7 +122,7 @@ namespace freekick
                     {
                         addutil::Vector3 vec;
                         it->getVector(vec);
-                        if(vec.x < 0.0f || vec.x > pitch_width)        // Throwin
+                        if(ball_due_for_throwin(vec))
                         {
                             new_ball_status = true;
                             mBallState.bio_type = Throwin;
@@ -120,7 +131,7 @@ namespace freekick
                             mBallState.restart_point.z = vec.z;
                             mBallState.blocked_play = true;
                         }
-                        else if(vec.z < 0.0f || vec.z > pitch_length)
+                        else if(ball_over_a_goal_line(vec))
                         {
                             new_ball_status = true;
                             mBallState.flipOwner();
@@ -191,16 +202,27 @@ namespace freekick
                 }
             }
 
-            void Rules::check_for_bio_change(bool& new_ball_status, bool& ball_touched)
+            bool Rules::play_can_be_given_free() const
             {
-                if(mBallState.bio_type == PreKickoff || mBallState.bio_type == Kickoff)
+                typedef std::map<int, boost::shared_ptr<MatchPlayer> > EntityMap;
+                std::map<int, boost::shared_ptr<MatchPlayer> > entitymap;
+                mMatchStatus->getPlayers(entitymap);
+                std::vector<int>::const_iterator it;
+                switch (mBallState.bio_type)
                 {
-                    typedef std::map<int, boost::shared_ptr<MatchPlayer> > EntityMap;
-                    std::map<int, boost::shared_ptr<MatchPlayer> > entitymap;
-                    mMatchStatus->getPlayers(entitymap);
-                    std::vector<int>::const_iterator it;
-
-                    if(mBallState.bio_type == PreKickoff)
+                    case Throwin:
+                        if(ball_due_for_throwin(mMatchStatus->getBall()->getPosition()))
+                            return false;
+                        // fall through
+                    case Goalkick:
+                    case Cornerkick:
+                        if(ball_over_a_goal_line(mMatchStatus->getBall()->getPosition()))
+                            return false;
+                    case IndirectFreekick:
+                    case DirectFreekick:
+                    case PenaltyKick:
+                    case DroppedBall:
+                    case PreKickoff:
                     {
                         bool substitute_on_pitch = false;
 
@@ -213,66 +235,85 @@ namespace freekick
                                 {
                                     addutil::Vector3 v = eit->second->getPosition();
                                     if(mPitch->onPitch(v.x, v.z))
-                                        substitute_on_pitch = true;
-                                }
-                            }
-                        }
-                        if(!substitute_on_pitch)
-                        {
-                            new_ball_status = true;
-                            mBallState.bio_type = Kickoff;
-                            mBallState.blocked_play = true;
-                        }
-                    }
-                    else if(mBallState.bio_type == Kickoff)
-                    {
-                        // TODO: check if a player moved from his side to the other after giving play free
-                        if(mBallState.blocked_play)
-                        {
-                            bool player_not_on_his_side = false;
-                            for(int i = 0; i < 2 && player_not_on_his_side == false; i++)
-                            {
-                                for(it = players[i].begin(); it != players[i].end() && player_not_on_his_side == false; it++)
-                                {
-                                    EntityMap::const_iterator eit = entitymap.find(*it);
-                                    if(eit != entitymap.end())
                                     {
-                                        addutil::Vector3 v = eit->second->getPosition();
-                                        // TODO: check for half time/coin toss
-                                        if(!mPitch->onSide((i == 0), v.x, v.z))
-                                            player_not_on_his_side = true;
+                                        substitute_on_pitch = true;
                                     }
                                 }
                             }
-                            if(!player_not_on_his_side)
-                            {
-                                new_ball_status = true;
-                                mBallState.blocked_play = false;
-                            }
-                            // TODO: check for ball in centre
                         }
-                        else
+                        return (!substitute_on_pitch);
+                        break;
+                    }
+                    case Kickoff:
+                    {
+                        bool player_not_on_his_side = false;
+                        for(int i = 0; i < 2 && player_not_on_his_side == false; i++)
                         {
+                            for(it = players[i].begin(); it != players[i].end() && player_not_on_his_side == false; it++)
+                            {
+                                EntityMap::const_iterator eit = entitymap.find(*it);
+                                if(eit != entitymap.end())
+                                {
+                                    addutil::Vector3 v = eit->second->getPosition();
+                                    // TODO: check for half time/coin toss
+                                    if(!mPitch->onSide((i == 0), v.x, v.z))
+                                        player_not_on_his_side = true;
+                                }
+                            }
+                        }
+                        return (!player_not_on_his_side);
+                        break;
+                    }
+                    case BallIn:
+                        return true;
+                    case HalfFullTime:
+                    default:
+                        return false;
+                        break;
+                }
+                return false;
+            }
+
+            void Rules::check_for_bio_change(bool& new_ball_status, const bool& ball_touched)
+            {
+                if(mBallState.bio_type == PreKickoff && !mBallState.blocked_play)
+                {
+                    mBallState.bio_type = Kickoff;
+                    mBallState.blocked_play = true;
+                }
+                if(mBallState.bio_type != BallIn)
+                {
+                    bool can_give_free = play_can_be_given_free();
+                    if(can_give_free)
+                    {
+                        if(mBallState.blocked_play)
+                        {
+                            std::cerr << __func__ << ": can give free and blocked; unblocking.\n";
+                            new_ball_status = true;
+                            mBallState.blocked_play = false;
                             if(ball_touched)
                             {
-                                new_ball_status = true;
-                                mBallState.bio_type = BallIn;
+                                std::cerr << __func__ << ": ball touched.\n";
+                                mBallState.nextBallInOut();
                             }
                         }
+                        if(!mBallState.blocked_play && ball_touched)
+                        {
+                            std::cerr << __func__ << ": can give free, not blocked, now touched.\n";
+                            mBallState.bio_type = BallIn;
+                            mBallState.blocked_play = false;
+                            new_ball_status = true;
+                        }
                     }
-                }
-                else if (mBallState.bio_type != HalfFullTime)
-                {
-                    // throwin, goal kick, etc...
-                    if(ball_touched)
+                    else
                     {
-                        new_ball_status = true;
-                        mBallState.blocked_play = false;
-                        mBallState.bio_type = BallIn;
+                        if(!mBallState.blocked_play)
+                        {
+                            std::cerr << __func__ << ": can not give free, not blocked; blocking.\n";
+                            mBallState.blocked_play = true;
+                            new_ball_status = true;
+                        }
                     }
-                }
-                else       // HalfFullTime
-                {
                 }
             }
 
