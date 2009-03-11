@@ -1109,10 +1109,10 @@ void create_freekick_country_xml(const team_list& teams, const char* country_nam
         const char* stage_name;
         switch(i)
         {
-            case 0:  stage_name = "Premier league"; break;
-            case 1:  stage_name = "First league"; break;
-            case 2:  stage_name = "Second league"; break;
-            default: stage_name = "Third league"; break;
+            case 0:  stage_name = "Premier League"; break;
+            case 1:  stage_name = "First League"; break;
+            case 2:  stage_name = "Second League"; break;
+            default: stage_name = "Third League"; break;
         }
         add_attribute(stage_node, "name", stage_name);
         add_attribute(stage_node, "type", "0");
