@@ -37,7 +37,7 @@
   </tournament>
   <tournament name="DIY League">
     <stage name="League" type="0">
-      <setup seeded="0" participantnum="10" groups="1" rounds="2" pointsperwin="3"/>
+      <setup seeded="0" participantnum="10" groups="1" rounds="4" pointsperwin="3"/>
       <trophy name="DIY trophy"/>
       <preset>
         <club name="Barnsley"/>

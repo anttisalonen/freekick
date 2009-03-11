@@ -273,7 +273,99 @@
           <trophy name="English Cup champion"/>
         </stage>
         <stage name="Semifinals" type="1">
-          <setup seeded="0" participantnum="4" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" penalties="1" replays="1" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" penalties="1" replays="1" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+        </stage>
+        <stage name="Third round" type="1">
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" penalties="1" replays="1" awaygoals="0"/>
+          <cuppr stage="Quarterfinals"/>
+        </stage>
+        <stage name="Second round" type="1">
+          <setup seeded="0" participantnum="32" rounds="1" extratime="1" penalties="1" replays="1" awaygoals="0"/>
+          <cuppr stage="Third round"/>
+        </stage>
+        <stage name="First round" type="1">
+          <setup seeded="0" participantnum="64" rounds="1" extratime="1" penalties="1" replays="1" awaygoals="0"/>
+          <cuppr stage="Second round"/>
+          <preset>
+            <club name="Arsenal"/>
+            <club name="Aston Villa"/>
+            <club name="Birmingham City"/>
+            <club name="Blackburn Rovers"/>
+            <club name="Bolton Wanderers"/>
+            <club name="Chelsea"/>
+            <club name="Derby County"/>
+            <club name="Everton"/>
+            <club name="Fulham"/>
+            <club name="Manchester City"/>
+            <club name="Liverpool"/>
+            <club name="Manchester Utd"/>
+            <club name="Middlesbrough"/>
+            <club name="Newcastle Utd"/>
+            <club name="Portsmouth"/>
+            <club name="Reading"/>
+            <club name="Sunderland"/>
+            <club name="Tottenham"/>
+            <club name="West Ham Utd"/>
+            <club name="Wigan Athletic"/>
+            <club name="Barnsley"/>
+            <club name="Charlton"/>
+            <club name="Coventry City"/>
+            <club name="Crystal Palace"/>
+            <club name="Ipswich Town"/>
+            <club name="Leicester City"/>
+            <club name="Norwich City"/>
+            <club name="Qpr"/>
+            <club name="Sheffield Wed"/>
+            <club name="Sheffield Utd"/>
+            <club name="Southampton"/>
+            <club name="Stoke City"/>
+            <club name="Wba"/>
+            <club name="Wolves"/>
+            <club name="Blackpool"/>
+            <club name="Bristol City"/>
+            <club name="Burnley"/>
+            <club name="Cardiff City"/>
+            <club name="Colchester Utd"/>
+            <club name="Hull City"/>
+            <club name="Plymouth Argyle"/>
+            <club name="Preston"/>
+            <club name="Scunthorpe Utd"/>
+            <club name="Watford"/>
+            <club name="Huddersfield"/>
+            <club name="Oldham Athletic"/>
+            <club name="Port Vale"/>
+            <club name="Nott'm Forest"/>
+            <club name="Southend Utd"/>
+            <club name="Swindon Town"/>
+            <club name="Tranmere Rovers"/>
+            <club name="Bournemouth"/>
+            <club name="Brighton"/>
+            <club name="Bristol Rovers"/>
+            <club name="Cheltenham Town"/>
+            <club name="Carlisle Utd"/>
+            <club name="Crewe Alexandra"/>
+            <club name="Doncaster Rovers"/>
+            <club name="Leeds Utd"/>
+            <club name="Gillingham"/>
+            <club name="Hartlepool Utd"/>
+            <club name="Leyton Orient"/>
+            <club name="Luton Town"/>
+            <club name="Millwall"/>
+          </preset>
+        </stage>
+      </tournament>
+      <tournament name="League Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+          <trophy name="English League Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="2" extratime="1" penalties="1" replays="0" awaygoals="1"/>
           <cuppr stage="Final"/>
         </stage>
         <stage name="Quarterfinals" type="1">
