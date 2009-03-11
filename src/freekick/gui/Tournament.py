@@ -35,6 +35,7 @@ class Tournament:
         self.name = name
         self.stages = []
         self.current_stage = 0
+        self.in_league_system = False
 
     def add_stage(self, stage):
         self.stages.append(stage)
@@ -68,6 +69,18 @@ class Tournament:
                 self.stages[self.current_stage].update_club_names(winners, db)
             return True
         return False
+
+    def get_attendances(self):
+        return self.stages[0].attendances
+
+    def get_promotions(self):
+        return self.stages[0].get_promotions()
+
+    def get_relegations(self):
+        return self.stages[0].get_relegations()
+
+    def get_staying(self):
+        return self.stages[0].get_staying()
 
     def finished(self):
         if len(self.stages) > 1:
@@ -136,6 +149,9 @@ class LeagueTable:
         names = get_sorted_league_table_clubs(self)
         return names[-num:]
 
+    def get_all(self):
+        return get_sorted_league_table_clubs(self)
+
 def get_sorted_league_table_clubs(table):
     clubs = []
     club_names = []
@@ -171,6 +187,7 @@ class Stage:
         self.relegations = []
         self.rounds = []
         self.current_round = 0
+        self.attendances = []
         if self.type == StageType.League:
             self.setup = LeagueSetup()
             self.num_planned_rounds = len(self.rounds)
@@ -327,17 +344,41 @@ class Stage:
 
     def get_promotions(self):
         if self.type == StageType.League:
-            return self.get_winners()
+            ret = []
+            clubs = self.get_winners()
+            for club in clubs:
+                ret.append((self.promotions[0].tournament, self.promotions[0].stage, club))
+            return ret
         else:
             return []
 
     def get_relegations(self):
         if self.type == StageType.League:
+            clubs = []
+            ret = []
             for group in self.groups_club_names:
                 table = create_league_table(self.rounds, group, self.setup.pointsperwin)
                 if len(self.relegations) > 0:
-                    retval.extend(table.get_bottom(self.promotions[0].num / self.setup.groups))  # TODO - only returns bottom x
-            return retval
+                    clubs.extend(table.get_bottom(self.promotions[0].num / self.setup.groups))  # TODO - only returns bottom x
+            for club in clubs:
+                ret.append((self.relegations[0].tournament, self.relegations[0].stage, club))
+            return ret
+        else:
+            return []
+
+    def get_staying(self):
+        if self.type == StageType.League:
+            proms = self.get_promotions()
+            rels = self.get_relegations()
+            all = []
+            for group in self.groups_club_names:
+                table = create_league_table(self.rounds, group, self.setup.pointsperwin)
+                all += table.get_all()
+            ret = []
+            for club in all:
+                if club not in proms and club not in rels:
+                    ret.append(club)
+            return ret
         else:
             return []
 

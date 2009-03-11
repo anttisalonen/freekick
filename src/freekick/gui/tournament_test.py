@@ -35,6 +35,7 @@ def get_country_league(cname, tname, db):
                 if s.name == tname:
                     t = Tournament.Tournament(tname)
                     t.stages = [copy.deepcopy(s)]
+                    t.in_league_system = True
                     return t
     raise KeyError("Tournament '%s' not found" % tname)
 
@@ -43,27 +44,29 @@ def main():
         print_usage()
         sys.exit(1)
 
-    tournaments = []
+    tournaments = {}
     if len(sys.argv) == 2:          # Either DIY or a whole country
         try:
             tournamentname = sys.argv[1]
-            tournaments.append(copy.deepcopy(db.tournaments[tournamentname]))
+            tournaments[tournamentname] = copy.deepcopy(db.tournaments[tournamentname])
         except KeyError:
             countryname = sys.argv[1]
-            tournaments.extend(copy.deepcopy(db.countries[countryname].tournaments.values()))
+            for k, v in db.countries[countryname].tournaments.items():
+                tournaments[k] = copy.deepcopy(v)
             for l in db.countries[countryname].leaguesystem.levels:
                 for b in l.branches:
                     for s in b.stages:
                         t = Tournament.Tournament(s.name)
                         t.stages = [copy.deepcopy(s)]
-                        tournaments.append(t)
+                        t.in_league_system = True
+                        tournaments[s.name] = t
     else:                           # Specific tournament from a country
         countryname = sys.argv[1]
         tournamentname = sys.argv[2]
         try:
-            tournaments.append(copy.deepcopy(db.countries[countryname].tournaments[tournamentname]))
+            tournaments[tournamentname] = copy.deepcopy(db.countries[countryname].tournaments[tournamentname])
         except KeyError:
-            tournaments.append(get_country_league(countryname, tournamentname, db))
+            tournaments[tournamentname] = get_country_league(countryname, tournamentname, db)
 
     if len(tournaments) == 0:
         raise KeyError("Tournament/country not found")
@@ -73,8 +76,8 @@ def main():
 
     schedule = Schedule.Schedule([])
 
-    add_season_to_schedule(schedule, get_startdate(year), get_enddate(year), tournaments)
-    tournaments = []
+    add_season_to_schedule(schedule, get_startdate(year), get_enddate(year), tournaments.values())
+    tournaments = {}
 
     # f = raw_input()
     for d, t in schedule.next_event():
@@ -85,18 +88,59 @@ def main():
             # t.pretty_print()
             # f = raw_input()
         cont = t.round_played(db)
-        # t.pretty_print()
-        # f = raw_input()
+        t.pretty_print()
+        f = raw_input()
         if t.finished() and new_season:
             print "Tournament '%s' finished on %s" % (t.name, d)
             t.pretty_print()
-            try:
-                newt = copy.deepcopy(db.countries[countryname].tournaments[t.name])
-            except KeyError:
-                newt = get_country_league(countryname, t.name, db)
-            add_season_to_schedule(schedule, get_startdate(d.year), get_enddate(d.year), [newt])
-            # print schedule
-            f = raw_input()
+            if t.name not in tournaments:
+                add_future_tournament(t, countryname, schedule, d)
+            else:
+                update_future_tournament(t, countryname, schedule, d)
+
+def add_moved_clubs(moved_clubs, tgt_stage):
+    if tgt_stage in tournaments.keys():
+        tgt_tournament = tournaments[tgt_stage]
+    else:
+        tgt_tournament = copy.deepcopy(get_country_league(coutryname, tgt_stage, db))
+        tgt_tournament.clear_clubs()
+        add_season_to_schedule(schedule, get_startdate(d.year), get_enddate(d.year), [tgt_tournament])
+    for ptour, pstage, pclub in moved_clubs:
+        tgt_tournament.add_clubs([pclub])
+
+def add_future_tournament(t, countryname, schedule, date):
+    try:
+        newt = copy.deepcopy(db.countries[countryname].tournaments[t.name])
+    except KeyError:
+        newt = copy.deepcopy(get_country_league(countryname, t.name, db))
+
+    if t.in_league_system:
+        newt.clear_clubs()
+
+    proms = t.get_promotions()
+    if t.in_league_system and len(proms) > 0:
+        higher_stage = db.countries[countryname].leaguesystem.get_higher_stage(t.name)
+        add_moved_clubs(proms, higher_stage)
+
+    stays = t.get_staying()
+    newt.add_clubs(stays)
+
+    rels = t.get_relegations()
+    if t.in_league_system and len(rels) > 0:
+        lower_stage = db.countries[countryname].leaguesystem.get_lower_stage(t.name)
+        add_moved_clubs(proms, lower_stage)
+
+    att = newt.get_attendances()
+    if len(att) > 0:
+        """ 
+        TODO: add new tournament and to it all the clubs of this new tournament, also the clubs that will be
+        added to it in the future(!)
+        """
+        pass    
+
+    add_season_to_schedule(schedule, get_startdate(date.year), get_enddate(date.year), [newt])
+    # print schedule
+    f = raw_input()
 
 def get_startdate(year):
     return datetime.date(year, 9, 1)

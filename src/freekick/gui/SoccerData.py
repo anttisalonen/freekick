@@ -199,6 +199,26 @@ class Leaguesystem:
     def __init__(self, name):
         self.name = name
 
+    def get_higher_stage(self, stagename):
+        for l in self.levels:
+            for b in l.branches:
+                for i in range(len(b.stages)):
+                    if stagename == b.stages[i].name:
+                        if i == 0:
+                            raise ValueError("No higher stage")
+                        return b.stages[i - 1]
+        raise ValueError("Stage not found")
+
+    def get_lower_stage(self, stagename):
+        for l in self.levels:
+            for b in l.branches:
+                for i in range(len(b.stages)):
+                    if stagename == b.stages[i].name:
+                        if i == len(b.stages) - 1:
+                            raise ValueError("No lower stage")
+                        return b.stages[i + 1]
+        raise ValueError("Stage not found")
+
 class Preset:
     def __init__(self, name):
         self.name = name
