@@ -450,6 +450,7 @@ namespace freekick
         GoalQuery MatchStatus::ballInGoalArea() const
         {
             GoalQuery q = mMatchData->getStadium()->getPitch()->inGoalArea(mBall->getPosition());
+            if(q == NoGoal) return q;
             if(secondhalf) return other(q);
             return q;
         }
