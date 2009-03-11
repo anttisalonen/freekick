@@ -1,3 +1,8 @@
+-22.02.2009--------------
+matchstatus/client:
+-entity interpolation
+matchstatus/server:
+-lag compensation (http://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking)
 -16.02.2009--------------
 org:
 -creating schedules

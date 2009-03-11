@@ -1,7 +1,7 @@
 formation definition:
 1. general team strategy
  general team strategy is a weighted list of strategies
- each strategy is given a weight between -1 and 1
+ each strategy is given a weight between 0 and 1
  strategies:
  -long ball (opposite: short passes)
  -counter attack (opposite: pressure/possessive)
@@ -23,7 +23,7 @@ formation definition:
    forwards are responsible for:
    -scoring
 4. attributes for all players
-  each player has a list of attribute values between -1 and 1 given by coach
+  each player has a list of attribute values between 0 and 1 given by coach
   attributes:
    offensiveness
    
