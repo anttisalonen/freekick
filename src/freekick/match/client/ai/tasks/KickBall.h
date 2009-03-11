@@ -30,6 +30,7 @@
 #include "Helpers.h"
 #include "Primitives.h"
 
+#include "AIConfig.h"
 #include "tasks/CompositeTask.h"
 #include "messages/KickPlayerControlMessage.h"
 

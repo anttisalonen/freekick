@@ -49,8 +49,10 @@ namespace freekick
                         float plength = mMatchStatus->getPitchLength();
                         const float max_pass_length = 25.0f;
                         float opt_val = 0.0f;
-                        const float defensive_area_threshold = 25.0f;
+                        const float defensive_area_threshold = 0.25f;
                         const float defensive_area_coefficient = 0.15f;
+                        const float offensive_area_threshold = 0.75f;
+                        const float offensive_area_coefficient = 0.15f;
 
                         float best_z    = 0.0f;
                         float own_z     = (t == UpTarget) ? plength - ownpos.z : ownpos.z;
@@ -93,10 +95,16 @@ namespace freekick
 
                         std::cerr << "best_z: " << best_z << std::endl;
                         opt_val = 1.0f - (target.length() / max_pass_length);
-                        if(best_z < defensive_area_threshold) 
+                        soccer::BallOwner our_club = mMatchStatus->getPlayerSide(mPlayerID);
+                        float best_z_rel = mMatchStatus->absolute_pitch_position_to_percent(addutil::Vector3(0.0f, 0.0f, best_z), our_club).z;
+                        if(best_z_rel < defensive_area_threshold) 
                         {
                             opt_val *= defensive_area_coefficient;
                             std::cerr << "pass target in defensive area\n";
+                        }
+                        if(best_z_rel > offensive_area_threshold) 
+                        {
+                            opt_val *= offensive_area_coefficient;
                         }
 
                         Helpers::correctPassVector(target);
@@ -209,17 +217,27 @@ namespace freekick
                         tgtgoal = mMatchStatus->getGoalPosition(t);
                         goalvec = tgtgoal - ownpos;
 
+                        using namespace messages;
+                        bool holdingtheball = (mMatchStatus->holdingBall() == mPlayerID);
+                        if(holdingtheball)
+                        {
+                            std::cerr << "KickBall: held the ball, now letting go.\n";
+                            return boost::shared_ptr<KickPlayerControlMessage>(new KickPlayerControlMessage(mPlayerID, getOptimalLongBall().get<1>()));
+                        }
+
                         optimal_kick optimalpass = getOptimalPass();
                         optimal_kick optimalshot = getOptimalShot();
                         optimal_kick optimaldribble = getOptimalDribble();
                         optimal_kick optimallong = getOptimalLongBall();
-                        std::cerr << "Pass value: " << optimalpass.get<0>() << std::endl;
-                        std::cerr << "Shot value: " << optimalshot.get<0>() << std::endl;
-                        std::cerr << "Dribble value: " << optimaldribble.get<0>() << std::endl;
-                        std::cerr << "Long ball value: " << optimallong.get<0>() << std::endl;
-                        std::cerr << std::endl;
+                        if(AIConfig::getInstance()->verbose >= 1)
+                        {
+                            std::cerr << "Pass value: " << optimalpass.get<0>() << std::endl;
+                            std::cerr << "Shot value: " << optimalshot.get<0>() << std::endl;
+                            std::cerr << "Dribble value: " << optimaldribble.get<0>() << std::endl;
+                            std::cerr << "Long ball value: " << optimallong.get<0>() << std::endl;
+                            std::cerr << std::endl;
+                        }
 
-                        using namespace messages;
                         if(optimalpass.get<0>() >= optimalshot.get<0>() &&
                            optimalpass.get<0>() >= optimaldribble.get<0>() &&
                            optimalpass.get<0>() >= optimallong.get<0>())

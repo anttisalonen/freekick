@@ -25,6 +25,7 @@
 
 #include <boost/thread/thread.hpp>
 #include <boost/bind.hpp>
+#include <boost/program_options.hpp>
 #include <boost/exception.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
 
@@ -33,6 +34,7 @@
 #include "client/Configuration.h"
 #include "client/Network.h"
 #include "client/ai/AI_Engine.h"
+#include "client/ai/AIConfig.h"
 
 #include "messages/InitialDataRequest.h"
 
@@ -44,6 +46,26 @@ int main(int argc, char** argv)
 {
     try
     {
+        boost::program_options::options_description desc("Parameters");
+        desc.add_options()
+            ("help", "show this help message")
+            ("verbose,v", boost::program_options::value<int>(), "set verbosity")
+            ;
+
+        boost::program_options::variables_map vm;
+        boost::program_options::store(boost::program_options::parse_command_line(argc, argv, desc), vm);
+        boost::program_options::notify(vm);
+
+        if (vm.count("verbose"))
+        {
+            std::cout << "Verbose level: " << vm["verbose"].as<int>() << ".\n";
+            AIConfig::getInstance()->verbose = vm["verbose"].as<int>();
+        }
+        else
+        {
+            AIConfig::getInstance()->verbose = 0;
+        }
+
         Configuration* configuration = new Configuration (argc, argv);
         addutil::network::IP_Connection conn = configuration->getServerConnection();
         Network* network;

@@ -110,6 +110,7 @@ aiclient_env['LIBS'] = ['boost_thread',
                         'boost_system', 
                         'boost_serialization',
                         'boost_regex',
+                        'boost_program_options',
                         'client']
 
 aiclient_name = 'bin/aiclient'

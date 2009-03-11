@@ -48,19 +48,23 @@ namespace freekick
 
                         clearTasks();
 
-                        if(h.own != h.b && (h.isnearestplayer || h.ballinourgoalarea))
+                        addutil::Vector3 ballpos_corrected = 
+                            mMatchStatus->absolute_pitch_position_to_percent(mMatchStatus->getBall()->getPosition(), h.b);
+                        bool ballinmyarea = mMatchStatus->getPlayerFormation(mPlayerID)->getPlayerArea(mPlayerID).in(
+                            ballpos_corrected);
+                        if(h.own != h.b && h.ballinourgoalarea && (h.isnearestplayer || ballinmyarea))
                         {
-                            // std::cerr << "GoalkeeperAction: Ball holder: " << mMatchStatus->holdingBall() << std::endl;
+                            std::cerr << "GoalkeeperAction: Ball holder: " << mMatchStatus->holdingBall() << std::endl;
                             if(!h.holdingtheball)
                             {
-                                // std::cerr << "GoalkeeperAction: wanting to hold the ball.\n";
+                                std::cerr << "GoalkeeperAction: wanting to hold the ball.\n";
                                 boost::shared_ptr<GoalkeeperGetBall> t(new GoalkeeperGetBall(mMatchStatus, mPlayerID));
                                 addTask(t);
                             }
                             else
                             {
                                 // TODO: implement timer to wait for a while before kicking ball away
-                                // std::cerr << "GoalkeeperAction: kicking the ball.\n";
+                                std::cerr << "GoalkeeperAction: kicking the ball.\n";
                                 boost::shared_ptr<KickBall> t(new KickBall(mMatchStatus, mPlayerID));
                                 addTask(t);
                             }
