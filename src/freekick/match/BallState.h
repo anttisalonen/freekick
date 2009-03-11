@@ -52,6 +52,7 @@ namespace freekick
         public:
             BallState();
             void flipOwner();
+            bool nextBallInOut();
 
             BallInOut bio_type;
             soccer::BallOwner owner;

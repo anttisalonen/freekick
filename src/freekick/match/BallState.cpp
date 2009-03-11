@@ -52,6 +52,59 @@ namespace freekick
             return HalfFullTime;
         }
 
+        bool BallState::nextBallInOut()
+        {
+            switch(bio_type)
+            {
+                case BallIn:
+                    blocked_play = false;
+                    return false;
+                case PreKickoff:
+                    if(blocked_play)
+                    {
+                        blocked_play = false;
+                    }
+                    else
+                    {
+                        bio_type = Kickoff;
+                        blocked_play = true;
+                    }
+                    return true;
+                case Kickoff:
+                case Throwin:
+                case Goalkick:
+                case Cornerkick:
+                case IndirectFreekick:
+                case DirectFreekick:
+                case PenaltyKick:
+                case DroppedBall:
+                    if(blocked_play)
+                    {
+                        blocked_play = false;
+                    }
+                    else
+                    {
+                        bio_type = BallIn;
+                        blocked_play = true;
+                    }
+                    return true;
+                case HalfFullTime:
+                    if(blocked_play)
+                    {
+                        return false;
+                    }
+                    else
+                    {
+                        bio_type = PreKickoff;
+                        blocked_play = true;
+                        return true;
+                    }
+                default:
+                    break;
+            }
+            return false;
+        }
+
         std::ostream& operator<<(std::ostream& os, const BallState& e)
         {
             os << e.bio_type << " " << e.owner << " " << e.restart_point << " " << e.blocked_play;
