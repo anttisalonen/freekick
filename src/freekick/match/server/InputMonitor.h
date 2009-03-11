@@ -29,6 +29,7 @@
 
 #include "addutil/Vector3.h"
 
+#include "Constants.h"
 #include "MatchStatus.h"
 #include "messages/MovePlayerControlMessage.h"
 #include "messages/KickPlayerControlMessage.h"

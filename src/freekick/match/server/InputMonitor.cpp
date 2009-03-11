@@ -57,7 +57,10 @@ namespace freekick
                     mVelocities->insert(std::pair<int, addutil::Vector3>(plid, Vector3(0.0f, 0.0f, 0.0f)));
 
                 if(mMatchStatus->holdingBall() == plid)
+                {
+                    std::cerr << "InputMonitor: client holding the ball moved (not holding the ball anymore).\n";
                     mMatchStatus->setBallHolder(0);
+                }
             }
 
             void InputMonitor::newClientMessage (const messages::KickPlayerControlMessage& e)
@@ -79,9 +82,8 @@ namespace freekick
                 }
                 addutil::Vector3 dist = pl->getPosition() - mMatchStatus->getBall()->getPosition();
 
-                // TODO: define max. kicking distance somewhere else
                 // TODO: also check ball height vs. feet
-                if(dist.length() > 2.5f)
+                if(dist.length() > constants::max_kick_distance)
                 {
                     // std::cerr << "InputMonitor: Player tried to kick but was too far away\n";
                     return;
@@ -97,7 +99,10 @@ namespace freekick
                 (*mKicks)[plid] = v;
 
                 if(mMatchStatus->holdingBall() == plid)
+                {
+                    std::cerr << "InputMonitor: client holding the ball kicked the ball away.\n";
                     mMatchStatus->setBallHolder(0);
+                }
             }
 
             void InputMonitor::newClientMessage (const messages::HoldPlayerControlMessage& e)
@@ -119,12 +124,12 @@ namespace freekick
                     return;
                 }
                 float dist = (pl->getPosition() - mMatchStatus->getBall()->getPosition()).length();
-                if(dist < 2.5f)           // TODO: define this somewhere else (and make it more realistic)
+                if(dist < 1.5f)           // TODO: define this somewhere else (and make it more realistic)
                 {
-                    // std::cerr << "InputMonitor: Player " << e.getPlayerID() << " holds the ball\n";
+                    std::cerr << "InputMonitor: Player " << e.getPlayerID() << " holds the ball\n";
                     mMatchStatus->setBallHolder(e.getPlayerID());
                 }
-                // else std::cerr << "InputMonitor: Player tried to hold ball but was too far away\n";
+                else std::cerr << "InputMonitor: Player tried to hold ball but was too far away\n";
             }
 
             void InputMonitor::interpolate(unsigned long microseconds)
