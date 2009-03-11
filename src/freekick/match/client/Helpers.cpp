@@ -39,7 +39,7 @@ namespace freekick
                   own(bss.owner),
                   isnearestplayer(nearestown.get<0>() == mPlayerID),
                   startplay((iskickoff && !blocked && isnearestplayer && own == b)),
-                  abletokick(isnearestplayer && nearestown.get<1>() < 1.5f), // TODO: read max. kicking distance from somewhere else
+                  abletokick(isnearestplayer && nearestown.get<1>() < constants::max_kick_distance),
                   issub(mPlayer->isSubstitute()),
                   nearestother(mMatchStatus->nearestPlayerFromClubToBall(other(b))),
                   amnearerthanthey(nearestown.get<1>() < nearestother.get<1>()),

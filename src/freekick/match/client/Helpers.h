@@ -25,6 +25,7 @@
 
 #include "addutil/Vector3.h"
 
+#include "Constants.h"
 #include "MatchStatus.h"
 
 namespace freekick 
