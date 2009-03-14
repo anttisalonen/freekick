@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+from lxml import etree
+
 def sorted_dict_values(adict):
     items = adict.items()
     items.sort()
@@ -23,21 +25,27 @@ def switch_tuple(t):
     return t2, t1
 
 class Color:
-    def __init__(self, r, g, b):
+    def __init__(self, r = 0, g = 0, b = 0):
         self.red = r
         self.green = g
         self.blue = b
+
     def __str__(self):
         return '%d %d %d' % (self.red, self.green, self.blue)
+
+    def to_xml(self):
+        return etree.Element("color", r = str(self.red), g = str(self.green), b = str(self.blue))
 
 class Human:
     def __init__(self, first_name, last_name):
         self.name = first_name + " " + last_name
+
     def __init__(self, name):
         self.name = name
 
-class Date:
-    def __init__(self, y, m, d):
-        self.year = y
-        self.month = m
-        self.day = d
+class Square:
+    def __init__(self, min_x, max_x, min_y, max_y):
+        self.min_x = min_x
+        self.max_x = max_x
+        self.min_y = min_y
+        self.max_y = max_y

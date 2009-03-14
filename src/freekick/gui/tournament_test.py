@@ -20,7 +20,11 @@ def create_event_schedule(startdate, enddate, tournament):
     num_rounds = 0
     total_rounds = []
     for stage in reversed(tournament.stages):
-        total_rounds.append(stage.to_rounds(db))
+        rounds = stage.to_rounds(db)
+        for round in rounds:
+            for match in round:
+                match.tournament_name = tournament.name
+        total_rounds.append(rounds)
 
     for stage in total_rounds:
         num_rounds += len(stage)
@@ -83,10 +87,13 @@ def main():
     for d, t in schedule.next_event():
         round = t.get_next_round()
         for match in round:
+            match.date = d
+            match.time = datetime.time(18, 00)
+            match.create_temp_xml(db)
             mr = match.play_match()
-            # print d, match, "\n"
-            # t.pretty_print()
-            # f = raw_input()
+            print d, match, "\n"
+            t.pretty_print()
+            f = raw_input()
         cont = t.round_played(db)
         t.pretty_print()
         f = raw_input()

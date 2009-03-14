@@ -3,6 +3,7 @@
 import sys
 import os
 import glob
+import datetime
 from lxml import etree
 
 import Primitives
@@ -28,10 +29,24 @@ def get_db(path):
         elif root.tag == "Tournaments":
             print "Parsing tournaments in %s" % fn
             db.tournaments.update(get_tournaments(root))
+        elif root.tag == "Formations":
+            print "Parsing tournaments in %s" % fn
+            db.formations.update(get_formations(root))
+        elif root.tag == "Pitches":
+            print "Parsing pitches in %s" % fn
+            db.pitches.update(get_pitches(root))
         else:
             print "Don't know how to parse %s" % fn
     for club in db.clubs.values():
-        club.get_players(db.players)
+        if club.name != "unknown":
+            club.get_players(db.players)
+            club.get_formation(db.formations)
+
+    for country in db.countries.values():
+        for region in country.regions.values():
+            db.stadiums.update(region.stadiums)
+
+    print "%d stadiums parsed" % len(db.stadiums)
     print "%d clubs parsed" % len(db.clubs)
     print "%d countries parsed" % len(db.countries)
     print "%d players parsed" % len(db.players)
@@ -53,7 +68,7 @@ def parse_player(plnode):
             pl.name = node.get("name")
             for prnode in node:
                 if prnode.tag == "birth":
-                    pl.birthdate = Primitives.Date(int(prnode.get("year")), int(prnode.get("month")), int(prnode.get("day")))
+                    pl.birthdate = datetime.date(int(prnode.get("year")), int(prnode.get("month")), int(prnode.get("day")))
                 elif prnode.tag == "skin":
                     pl.skin_color = parse_color(prnode)
                 elif prnode.tag == "hair":
@@ -81,13 +96,13 @@ def parse_player_position(node):
 
 def parse_player_personality(node):
     p = SoccerData.player_personality()
-    for n in ["active", "risktaking", "offensive", "aggressive", "consistent", "creative", "experienced"]:
+    for n in SoccerData.player_personalities_list:
         setattr(p, n, int(node.get(n)))
     return p
 
 def parse_player_skills(node):
     p = SoccerData.player_skills()
-    for n in ["stamina", "dexterity", "speed", "tackling", "passing", "shooting", "control", "accuracy", "goalkeeping", "heading"]:
+    for n in SoccerData.player_skills_list:
         setattr(p, n, int(node.get(n)))
     return p
 
@@ -101,6 +116,7 @@ def get_clubs(root):
 def parse_club(clubnode):
     name = clubnode.get("name")
     club = SoccerData.Club(name)
+    club.formation_name = "4-4-2"
     for node in clubnode:
         if node.tag == "coach":
             club.coach = SoccerData.Coach(node.get("name"))
@@ -114,6 +130,8 @@ def parse_club(clubnode):
             club.stadium = node.get("name")
         elif node.tag == "contracts":
             club.contracts = parse_contracts(node)
+        elif node.tag == "formation":
+            club.formation_name = node.get("name") # TODO: add this to the XML files
     return name, club
 
 def parse_contracts(contractsnode):
@@ -137,7 +155,7 @@ def parse_kit(kitnode):
             kit.jersey_type = int(node.get("type"))
             for unode in node:
                 if unode.tag == "color":
-                    kit.jersey_color = parse_color(unode)
+                    kit.jersey_colors.append(parse_color(unode))
                 elif unode.tag == "image":
                     kit.jersey_image = unode.get("value")
         elif node.tag == "shorts":
@@ -190,7 +208,8 @@ def parse_region(regnode):
 
 def parse_stadium(stadnode):
     name = stadnode.get("name")
-    stad = SoccerData.Stadium(name, stadnode.get("capacity"))
+    stad = SoccerData.Stadium(name, int(stadnode.get("capacity")))
+    # TODO: parse pitch name
     return name, stad
 
 def parse_leaguesystem(lsnode):
@@ -320,6 +339,47 @@ def parse_tournament(tnode):
         if node.tag == "stage":
             tournament.add_stage(parse_stage(node))
     return tname, tournament
+
+def get_formations(root):
+    formations = {}
+    for formation in root:
+        n, f = parse_formation(formation)
+        formations[n] = f
+    return formations
+
+def parse_formation(fnode):
+    fname = fnode.get("name")
+    formation = SoccerData.Formation(fname)
+    for node in fnode:
+        if node.tag == "tactic":
+            tactic = SoccerData.PlayerTactic()
+            tactic.name = node.get("name")
+            for tnode in node:
+                if tnode.tag == "position":
+                    tactic.pos = parse_player_position(tnode)
+                elif tnode.tag == "attributes":
+                    for attribute in SoccerData.tactic_attributes_list:
+                        setattr(tactic, attribute, tnode.get(attribute))
+                if tnode.tag == "area":
+                    index = 0
+                    if tnode.get("offensive") != "0":
+                        index += 1
+                    if tnode.get("own") != "0":
+                        index += 2
+                    tactic.areas[index] = Primitives.Square(tnode.get("min_x"), tnode.get("max_x"), tnode.get("min_y"), tnode.get("max_y"))
+            formation.tactics.append(tactic)
+    return fname, formation
+
+def get_pitches(root):
+    pitches = {}
+    for pitch in root:
+        n, p = parse_pitch(pitch)
+        pitches[n] = p
+    return pitches
+
+def parse_pitch(pnode):
+    # TODO: parse pitches (values defined in SoccerData.Pitch class
+    return "grass01", SoccerData.default_pitch()
 
 def print_usage():
     print "Usage: %s path_to_club_xml" % sys.argv[0]

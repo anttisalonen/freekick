@@ -1,6 +1,11 @@
 #!/usr/bin/python
 
 import random
+import tempfile
+from lxml import etree
+
+import Primitives
+import SoccerData
 
 class MatchRules:
     def __init__(self, extratime = False, penalties = False):
@@ -180,12 +185,15 @@ def generate_second_leg_random_match_result(prev_res, matchrules):
     return res2, MatchResultType.Draw
 
 class Match:
-    def __init__(self, club1, club2, rules, prev_res, place = None, date = None, time = None, match_name = ""):
+    def __init__(self, club1, club2, rules, prev_res, stadium = None, tournament_name = "", stage_name = ""):
         self.mr = MatchResult()
         self.rules = rules
         self.club1 = club1
         self.club2 = club2
         self.prev_res = prev_res
+        self.stadium = stadium
+        self.tournament_name = tournament_name
+        self.stage_name = stage_name
 
     def __str__(self):
         s0 = "%-40s" % (self.club1.name + " - " + self.club2.name)
@@ -320,6 +328,73 @@ class Match:
             return self.club2.name
         else:
             return "draw"
+
+    def create_temp_xml(self, db):
+        temp_file = tempfile.NamedTemporaryFile()
+        temp_file_name = temp_file.name
+        root = etree.Element("Match")
+
+        clubs = etree.SubElement(root, "Clubs")
+        clubs.append(self.club1.to_xml())
+        clubs.append(self.club2.to_xml())
+
+        club1plnode = etree.SubElement(root, "HomeClubPlayers")
+        club2plnode = etree.SubElement(root, "AwayClubPlayers")
+        for player in self.club1.players.values():
+            pnode = player.to_xml()
+            statusnode = etree.SubElement(pnode, "status")
+            statusnode.set("warnings", "0")   # TODO
+            statusnode.set("form", "1.0")     # TODO
+            club1plnode.append(pnode)
+        for player in self.club2.players.values():
+            pnode = player.to_xml()
+            statusnode = etree.SubElement(pnode, "status")
+            statusnode.set("warnings", "0")
+            statusnode.set("form", "1.0")
+            club2plnode.append(pnode)
+
+        otherkitsnode = etree.SubElement(root, "OtherKits")
+        gk1kit = SoccerData.Kit() # TODO - better kits
+        gk1kit.jersey_colors.append(Primitives.Color())
+        gk2kit = SoccerData.Kit()
+        gk2kit.jersey_colors.append(Primitives.Color())
+        refkit = SoccerData.Kit()
+        refkit.jersey_colors.append(Primitives.Color())
+        gk1kitnode = gk1kit.to_xml()
+        gk2kitnode = gk2kit.to_xml()
+        refkitnode = refkit.to_xml()
+        gk1kitnode.set("owner", "home goalkeeper")
+        gk2kitnode.set("owner", "away goalkeeper")
+        refkitnode.set("owner", "referee")
+        otherkitsnode.append(gk1kitnode)
+        otherkitsnode.append(gk2kitnode)
+        otherkitsnode.append(refkitnode)
+
+        tournamentnode = etree.SubElement(root, "Tournament", name = self.tournament_name, stage = self.stage_name)
+        stadiumnode = self.stadium.to_xml()
+        stadiumnode.set("attendance", str(random.randint(10, self.stadium.capacity)))  # TODO: more realistic attendance
+        startnode = etree.SubElement(root, "start", date = str(self.date), time = str(self.time))
+        weathernode = etree.SubElement(root, "weather", description = "normal")
+        ballnode = etree.SubElement(root, "ball", description = "normal")
+
+        formation1node = self.club1.formation.to_xml()
+        formation2node = self.club2.formation.to_xml()
+        formation1node.set("owner", "home")
+        formation2node.set("owner", "away")
+        root.append(formation1node)
+        root.append(formation2node)
+
+        lineup1node = self.club1.lineup.to_xml()
+        lineup2node = self.club2.lineup.to_xml()
+        lineup1node.set("owner", "home")
+        lineup2node.set("owner", "away")
+        root.append(lineup1node)
+        root.append(lineup2node)
+
+        temp_file.write(etree.tostring(root, pretty_print = True))
+        temp_file.flush()
+        print "Temp file saved as", temp_file_name
+        f = raw_input()
 
 if __name__ == "__main__":
     simple = MatchRules()

@@ -1,15 +1,16 @@
 #!/usr/bin/env python
 
 import datetime
+from lxml import etree
 
 import Primitives
 import Match
 
 class player_position_type:
-    Goalkeeper = 1
-    Defender = 2
-    Midfielder = 3
-    Forward = 4
+    Goalkeeper = 0
+    Defender = 1
+    Midfielder = 2
+    Forward = 3
 
 def num_to_pos(num):
     if num == 0:
@@ -27,11 +28,32 @@ class player_position:
         self.left = left
         self.winger = winger
 
+    def to_xml(self):
+        positionnode = etree.Element("position")
+        positionnode.set("pos", str(self.pos))
+        positionnode.set("left", str(int(self.left)))
+        positionnode.set("wing", str(int(self.winger)))
+        return positionnode
+
+    def equals(self, other):
+        return (self.pos == other.pos and self.left == other.left and self.winger == other.winger)
+
+player_personalities_list = ["active", "risktaking", "offensive", "aggressive", "consistent", "creative", "experienced"]
+player_skills_list = ["stamina", "dexterity", "speed", "tackling", "passing", "shooting", "control", "accuracy", "goalkeeping", "heading"]
+
 class player_skills:
-    pass
+    def to_xml(self):
+        root = etree.Element("skills")
+        for skill in player_skills_list:
+            root.set(skill, str(getattr(self, skill)))
+        return root
 
 class player_personality:
-    pass
+    def to_xml(self):
+        root = etree.Element("personality")
+        for personality in player_personalities_list:
+            root.set(personality, str(getattr(self, personality)))
+        return root
 
 class Player(Primitives.Human):
     def __init__(self, pid, name = ""):
@@ -70,8 +92,22 @@ class Player(Primitives.Human):
         # print "Rating for player %s: %d" % (self.name, self.rating)
         return self.rating
 
+    def to_xml(self):
+        playernode = etree.Element("player", id = str(self.id))
+        personalnode = etree.SubElement(playernode, "personal", name = self.name)
+        appearancenode = etree.SubElement(personalnode, "appearance", value = str(self.appearance))
+        nationalitynode = etree.SubElement(personalnode, "nationality", value = self.nationality)
+        personalitynode = self.personality.to_xml()
+        playernode.append(personalitynode)
+        skillsnode = self.skills.to_xml()
+        playernode.append(skillsnode)
+        positionnode = self.position.to_xml()
+        playernode.append(positionnode)
+        return playernode
+
 class Coach(Primitives.Human):
-    pass
+    def __init__(self, name):
+        Primitives.Human.__init__(self, name)
 
 class player_factory:
     def __init__(self):
@@ -85,8 +121,74 @@ class Kit:
     def __init__(self):
         self.jersey_type = 0
         self.jersey_image = ""
+        self.jersey_colors = []
+        self.shorts_color = Primitives.Color()
+        self.socks_color = Primitives.Color()
+
     def __str__(self):
-        return '%s; %s; %s' % (self.jersey_color, self.shorts_color, self.socks_color)
+        return '%s; %s; %s' % (self.jersey_colors[0], self.shorts_color, self.socks_color)
+
+    def to_xml(self):
+        kitnode = etree.Element("kit")
+        jerseynode = etree.SubElement(kitnode, "jersey", type = str(self.jersey_type))
+        for jcolor in self.jersey_colors:
+            jerseynode.append(jcolor.to_xml())
+        shortsnode = etree.SubElement(kitnode, "shorts")
+        shortsnode.append(self.shorts_color.to_xml())
+        socksnode = etree.SubElement(kitnode, "socks")
+        socksnode.append(self.socks_color.to_xml())
+        return kitnode
+
+tactic_attributes_list = ["active", "risktaking", "offensive"]
+
+class PlayerTactic:
+    def __init__(self, name = "", pos = None, active = 0.5, risktaking = 0.5, offensive = 0.5):
+        self.pos = pos
+        self.name = ""
+        self.active = active
+        self.risktaking = risktaking
+        self.offensive = offensive
+        self.areas = []
+        for i in range(4):
+            self.areas.append(Primitives.Square(0, 0, 0, 0))
+
+class Lineup:
+    def __init__(self):
+        self.positions = {}
+        self.substitutes = []
+
+    def to_xml(self):
+        root = etree.Element("lineup")
+        for k, v in self.positions.items():
+            posnode = etree.SubElement(root, "position", name = k, player = str(v))
+        return root
+
+class Formation:
+    def __init__(self, name):
+        self.name = name
+        self.tactics = []
+
+    def to_xml(self):
+        root = etree.Element("formation", name = self.name)
+        for tactic in self.tactics:
+            tacticnode = etree.SubElement(root, "tactic", name = tactic.name)
+            tacticnode.append(tactic.pos.to_xml())
+            attribnode = etree.SubElement(tacticnode, "attributes", active = str(tactic.active), risktaking = str(tactic.risktaking), offensive = str(tactic.offensive))
+            for i in range(4):
+                area = tactic.areas[i]
+                if i == 0:
+                    areanode = etree.SubElement(tacticnode, "area", offensive = "0", own = "0")
+                elif i == 1:
+                    areanode = etree.SubElement(tacticnode, "area", offensive = "0", own = "1")
+                elif i == 2:
+                    areanode = etree.SubElement(tacticnode, "area", offensive = "1", own = "0")
+                else:
+                    areanode = etree.SubElement(tacticnode, "area", offensive = "1", own = "1")
+                areanode.set("min_x", str(area.min_x))
+                areanode.set("max_x", str(area.max_x))
+                areanode.set("min_y", str(area.min_y))
+                areanode.set("max_y", str(area.max_y))
+        return root        
 
 class Club:
     def __init__(self, name):
@@ -94,6 +196,7 @@ class Club:
         self.kits = []
         self.contracts = []
         self.players = {}
+        self.lineup = Lineup()
         self.org_name = ""
         self.stadium = ""
         self.rating = -1
@@ -104,6 +207,24 @@ class Club:
     def get_players(self, plsdb):
         for contract in self.contracts:
             self.players[contract] = plsdb[contract]
+
+    def get_formation(self, fmdb):
+        self.formation = fmdb[self.formation_name]
+        for tactic in self.formation.tactics:
+            found = False
+            for plid, player in self.players.items():
+                if player.position.equals(tactic.pos):
+                    self.lineup.positions[tactic.name] = plid
+                    found = True
+                    break
+            if not found:
+                for plid in self.players.keys():
+                    if plid not in self.lineup.positions.values():
+                        self.lineup.positions[tactic.name] = plid
+                        break
+        for plid, player in self.players.items():
+            if plid not in self.lineup.positions.values():
+                self.lineup.substitutes.append(plid)
 
     def calculate_rating(self):
         self.rating = 0
@@ -123,10 +244,43 @@ class Club:
         # print "Rating for club %s: %d" % (self.name, self.rating)
         return self.rating
 
+    def to_xml(self):
+        root = etree.Element("club", name = self.name)
+        coachnode = etree.SubElement(root, "coach", name = self.coach.name)
+        kitsnode = etree.SubElement(root, "kits")
+        for kit in self.kits:
+            kitnode = kit.to_xml()
+            kitsnode.append(kitnode)
+        countrynode = etree.SubElement(root, "country", name = self.org_name)
+        stadiumnode = etree.SubElement(root, "stadium", name = self.stadium)
+        contractsnode = etree.SubElement(root, "contracts")
+        for contract in self.contracts:
+            contractnode = etree.SubElement(contractsnode, "contract", player = str(contract))
+        return root
+
+class Pitch:
+    def __init__(self, name, friction, length, width, size_length, size_width, pattern = [], state = []):
+        self.name = name
+        self.size_length = size_length
+        self.size_width = size_width
+        self.length = length
+        self.width = width
+        self.pattern = pattern
+        self.state = state
+
+def default_pitch():
+    p = Pitch("grass01", 0.95, 100, 70, 110, 80)
+    return p
+
 class Stadium:
     def __init__(self, name, capacity = 0):
         self.name = name
         self.capacity = capacity
+        self.pitch = default_pitch()
+
+    def to_xml(self):
+        root = etree.Element("stadium", name = self.name, capacity = str(self.capacity))
+        return root
 
 class Region:
     def __init__(self, name):
@@ -229,6 +383,9 @@ class DB:
         self.players = {}
         self.countries = {}
         self.tournaments = {}
+        self.stadiums = {}
+        self.formations = {}
+        self.pitches = {}
         self.clubs["unknown"] = Club("unknown")
 
 if __name__ == '__main__':

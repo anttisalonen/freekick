@@ -1,0 +1,92 @@
+<Formations>
+  <formation name="4-4-2">
+    <tactic name="Goalkeeper">
+      <position pos="0" left="0" wing="0"/>
+      <attributes active="0.5" risktaking="0.5" offensive="0.5"/>
+      <area offensive="0" own="0" min_x="0.48" max_x="0.52" min_y="0.0" max_y="0.04"/>
+      <area offensive="0" own="1" min_x="0.48" max_x="0.52" min_y="0.0" max_y="0.04"/>
+      <area offensive="1" own="0" min_x="0.48" max_x="0.52" min_y="0.0" max_y="0.04"/>
+      <area offensive="1" own="1" min_x="0.48" max_x="0.52" min_y="0.0" max_y="0.04"/>
+    </tactic>
+    <tactic name="Right full back">
+      <position pos="1" left="0" wing="1"/>
+      <attributes active="0.5" risktaking="0.5" offensive="0.5"/>
+      <area offensive="0" own="0" min_x="0.0"  max_x="0.25" min_y="0.0" max_y="0.4"/>
+      <area offensive="0" own="1" min_x="0.0"  max_x="0.25" min_y="0.0" max_y="0.4"/>
+      <area offensive="1" own="0" min_x="0.0"  max_x="0.3"  min_y="0.1" max_y="0.5"/>
+      <area offensive="1" own="1" min_x="0.0"  max_x="0.3"  min_y="0.3" max_y="0.6"/>
+    </tactic>
+    <tactic name="Right central defender">
+      <position pos="1" left="0" wing="0"/>
+      <attributes active="0.5" risktaking="0.5" offensive="0.5"/>
+      <area offensive="0" own="0" min_x="0.2"  max_x="0.5"  min_y="0.0" max_y="0.4"/>
+      <area offensive="0" own="1" min_x="0.2"  max_x="0.5"  min_y="0.0" max_y="0.4"/>
+      <area offensive="1" own="0" min_x="0.2"  max_x="0.5"  min_y="0.1" max_y="0.5"/>
+      <area offensive="1" own="1" min_x="0.2"  max_x="0.5"  min_y="0.3" max_y="0.5"/>
+    </tactic>
+    <tactic name="Left central defender">
+      <position pos="1" left="1" wing="0"/>
+      <attributes active="0.5" risktaking="0.5" offensive="0.5"/>
+      <area offensive="0" own="0" min_x="0.5"  max_x="0.8"  min_y="0.0" max_y="0.4"/>
+      <area offensive="0" own="1" min_x="0.5"  max_x="0.8"  min_y="0.0" max_y="0.4"/>
+      <area offensive="1" own="0" min_x="0.5"  max_x="0.8"  min_y="0.1" max_y="0.5"/>
+      <area offensive="1" own="1" min_x="0.5"  max_x="0.8"  min_y="0.3" max_y="0.5"/>
+    </tactic>
+    <tactic name="Left full back">
+      <position pos="1" left="1" wing="1"/>
+      <attributes active="0.5" risktaking="0.5" offensive="0.5"/>
+      <area offensive="0" own="0" min_x="0.75" max_x="1.0"  min_y="0.0" max_y="0.4"/>
+      <area offensive="0" own="1" min_x="0.75" max_x="1.0"  min_y="0.0" max_y="0.4"/>
+      <area offensive="1" own="0" min_x="0.7"  max_x="1.0"  min_y="0.1" max_y="0.5"/>
+      <area offensive="1" own="1" min_x="0.7"  max_x="1.0"  min_y="0.3" max_y="0.6"/>
+    </tactic>
+    <tactic name="Right wing">
+      <position pos="2" left="0" wing="1"/>
+      <attributes active="0.5" risktaking="0.5" offensive="0.5"/>
+      <area offensive="0" own="0" min_x="0.0"  max_x="0.25" min_y="0.4" max_y="0.7"/>
+      <area offensive="0" own="1" min_x="0.0"  max_x="0.25" min_y="0.4" max_y="0.7"/>
+      <area offensive="1" own="0" min_x="0.0"  max_x="0.3"  min_y="0.5" max_y="0.9"/>
+      <area offensive="1" own="1" min_x="0.0"  max_x="0.3"  min_y="0.5" max_y="0.9"/>
+    </tactic>
+    <tactic name="Right central midfielder">
+      <position pos="2" left="0" wing="0"/>
+      <attributes active="0.5" risktaking="0.5" offensive="0.5"/>
+      <area offensive="0" own="0" min_x="0.2"  max_x="0.5"  min_y="0.3" max_y="0.6"/>
+      <area offensive="0" own="1" min_x="0.2"  max_x="0.5"  min_y="0.3" max_y="0.6"/>
+      <area offensive="1" own="0" min_x="0.2"  max_x="0.5"  min_y="0.4" max_y="0.7"/>
+      <area offensive="1" own="1" min_x="0.2"  max_x="0.5"  min_y="0.4" max_y="0.7"/>
+    </tactic>
+    <tactic name="Left central midfielder">
+      <position pos="2" left="1" wing="0"/>
+      <attributes active="0.5" risktaking="0.5" offensive="0.5"/>
+      <area offensive="0" own="0" min_x="0.5"  max_x="0.8"  min_y="0.3" max_y="0.6"/>
+      <area offensive="0" own="1" min_x="0.5"  max_x="0.8"  min_y="0.3" max_y="0.6"/>
+      <area offensive="1" own="0" min_x="0.5"  max_x="0.8"  min_y="0.4" max_y="0.7"/>
+      <area offensive="1" own="1" min_x="0.5"  max_x="0.8"  min_y="0.4" max_y="0.7"/>
+    </tactic>
+    <tactic name="Left wing">
+      <position pos="2" left="1" wing="1"/>
+      <attributes active="0.5" risktaking="0.5" offensive="0.5"/>
+      <area offensive="0" own="0" min_x="0.75" max_x="1.0"  min_y="0.4" max_y="0.7"/>
+      <area offensive="0" own="1" min_x="0.75" max_x="1.0"  min_y="0.4" max_y="0.7"/>
+      <area offensive="1" own="0" min_x="0.7"  max_x="1.0"  min_y="0.5" max_y="0.9"/>
+      <area offensive="1" own="1" min_x="0.7"  max_x="1.0"  min_y="0.5" max_y="0.9"/>
+    </tactic>
+    <tactic name="Right forward">
+      <position pos="3" left="0" wing="0"/>
+      <attributes active="0.5" risktaking="0.5" offensive="0.5"/>
+      <area offensive="0" own="0" min_x="0.0"  max_x="0.6"  min_y="0.5" max_y="1.0"/>
+      <area offensive="0" own="1" min_x="0.0"  max_x="0.6"  min_y="0.6" max_y="1.0"/>
+      <area offensive="1" own="0" min_x="0.0"  max_x="0.6"  min_y="0.6" max_y="1.0"/>
+      <area offensive="1" own="1" min_x="0.0"  max_x="0.6"  min_y="0.7" max_y="1.0"/>
+    </tactic>
+    <tactic name="Left forward">
+      <position pos="3" left="1" wing="0"/>
+      <attributes active="0.5" risktaking="0.5" offensive="0.5"/>
+      <area offensive="0" own="0" min_x="0.4"  max_x="1.0"  min_y="0.5" max_y="1.0"/>
+      <area offensive="0" own="1" min_x="0.4"  max_x="1.0"  min_y="0.6" max_y="1.0"/>
+      <area offensive="1" own="0" min_x="0.4"  max_x="1.0"  min_y="0.6" max_y="1.0"/>
+      <area offensive="1" own="1" min_x="0.4"  max_x="1.0"  min_y="0.7" max_y="1.0"/>
+    </tactic>
+  </formation>
+</Formations>

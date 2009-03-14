@@ -257,6 +257,9 @@ class Stage:
                 used_rules = Match.std_match_rules()
             for c1, c2 in round:
                 m = Match.Match(db.clubs[c1], db.clubs[c2], used_rules, Match.MatchResult())
+                if db.clubs[c1].name != "unknown":
+                    m.stadium = db.stadiums[db.clubs[c1].stadium]
+                m.stage_name = self.name
                 matches.append(m)
             if len(matches) > 0:
                 self.rounds.append(matches)
@@ -283,7 +286,9 @@ class Stage:
                 if self.rounds[self.current_round - 1][i].mr.result_type() == Match.MatchResultType.Draw:
                     c1 = self.rounds[self.current_round - 1][i].club2
                     c2 = self.rounds[self.current_round - 1][i].club1
-                    m = Match.Match(c1, c2, self.setup.matchrules, Match.MatchResult())
+                    m = Match.Match(c1, c2, self.setup.matchrules, Match.MatchResult(), self.rounds[self.current_round - 1][i].stadium)
+                    m.tournament_name = self.rounds[self.current_round - 1][i].tournament_name
+                    m.stage_name = self.rounds[self.current_round - 1][i].stage_name
                     matches.append(m)
                     # print "Added match:", m
             self.rounds[self.current_round].extend(matches)
