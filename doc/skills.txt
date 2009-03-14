@@ -1,0 +1,24 @@
+Personality:
+ x active - actively seek and hold ball instead of waiting and passing
+ x risktaking - e.g. pass to a player with better position but with higher risk
+ x offensive - rather shoot or pass to an offensive positioned player instead of a defensive positioned
+   aggressive - more often and harder tackles
+   consistent - variability of personality values between matches
+   creative - try out some of the less usual options when making a decision
+   experienced - correct estimation of the values when making a decision
+
+ x - affected by coach and tactics
+
+
+
+Skills:
+stamina - ability to do physical work for a longer period of time
+dexterity - fast acceleration when running, faster consecutive kicking and tackling
+speed - maximum running speed
+tackling - ability to take ball from opponent, accuracy, speed and distance when tackling
+passing - maximum passing velocity and distance while still being accurate
+shooting - maximum shooting velocity
+control - ability to hold ball near opponent, take incoming ball down, kick ball sideways or towards back
+accuracy - shooting accuracy
+goalkeeping - ability to block and hold an incoming ball, jump distance
+heading - accuracy and power when heading

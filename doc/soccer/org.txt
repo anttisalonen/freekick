@@ -224,6 +224,7 @@ created by org before launching server.
   - Personality
   - Form
   - Yellow cards
+ - Tactics
 
 Data in 4: (only relevant clubs and players; also see protocol2.txt)
 1. Clubs:
