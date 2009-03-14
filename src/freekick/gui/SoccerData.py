@@ -160,7 +160,9 @@ class Lineup:
     def to_xml(self):
         root = etree.Element("lineup")
         for k, v in self.positions.items():
-            posnode = etree.SubElement(root, "position", name = k, player = str(v))
+            etree.SubElement(root, "position", name = k, player = str(v))
+        for subid in self.substitutes:
+            etree.SubElement(root, "substitute", player = str(subid))
         return root
 
 class Formation:
