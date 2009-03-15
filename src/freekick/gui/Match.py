@@ -372,7 +372,7 @@ class Match:
 
         tournamentnode = etree.SubElement(root, "Tournament", name = self.tournament_name, stage = self.stage_name)
         stadiumnode = self.stadium.to_xml()
-        stadiumnode.set("attendance", str(random.randint(10, self.stadium.capacity)))  # TODO: more realistic attendance
+        stadiumnode.set("attendance", str(random.randint(10, self.stadium.capacity)))  # TODO: more realistic attendance and third party host flag
         startnode = etree.SubElement(root, "start", date = str(self.date), time = str(self.time))
         weathernode = etree.SubElement(root, "weather", description = "normal")
         ballnode = etree.SubElement(root, "ball", description = "normal")
