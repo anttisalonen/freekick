@@ -32,8 +32,8 @@
 #include <map>
 #include <cmath>
 
-#include <libxml/parser.h>
-#include <libxml/tree.h>
+#include "addutil/XML.h"
+#include "addutil/General.h"
 
 using namespace std;
 
@@ -120,97 +120,9 @@ void correct_name(char* n)
     }
 }
 
-float rand_float()
-{
-    return (rand() / (float)RAND_MAX);
-}
-
-int rand_int(int max)
-{
-    return (rand() % max);
-}
-
-float rand_std_normal_distribution()
-{
-    float x1, x2, q;
-    do
-    {
-        x1 = rand_float();
-        x2 = rand_float();
-        q = (2 * x1 - 1.0f) * (2 * x1 - 1.0f) + (2 * x2 - 1.0f) * (2 * x2 - 1.0f);
-    } while (q > 1.0f);
-    float p = sqrt((-2.0f * log(q)) / q);
-    float z1 = (2 * x1 - 1) * p;
-    // float z2 = (2 * x2 - 1) * p;
-    return z1;
-}
-
-
-int rand_normal_distribution(int min, int max)
-{
-    int half_range = (max - min) / 2;
-    int mid = half_range + min;
-    if(half_range < 5) return min;
-    int val;
-    do
-    {
-        float f = rand_std_normal_distribution();
-        val = f * 0.3f * half_range;
-        val += mid;
-    } while (val > max || val < min);
-    return val;
-}
-
 int rand_personality_value()
 {
-    return rand_normal_distribution(0, 1000);
-}
-
-void colorbyte_to_color(char color, int& r, int& g, int& b)
-{
-    switch(color)
-    {
-        case 0:   // grey
-            r = g = b = 128; break;
-        case 1:   // white
-            r = g = b = 255; break;
-        case 2:   // black
-            r = g = b = 0; break;
-        case 3:   // orange
-            r = 255;
-            g = 127;
-            b = 0;
-            break;
-        case 4:   // red
-            r = 255;
-            g = b = 0;
-            break;
-        case 5:   // blue
-            b = 255;
-            r = g = 0;
-            break;
-        case 6:   // brown
-            r = 150;
-            g = 75;
-            b = 0;
-            break;
-        case 7:   // light blue
-            r = 173;
-            g = 216;
-            b = 230;
-            break;
-        case 8:   // green
-            r = b = 0;
-            g = 255;
-            break;
-        case 9:   // yellow
-            r = g = 255;
-            b = 0;
-            break;
-        default:
-            r = g = b = 255;
-            break;
-    }
+    return addutil::general::rand_normal_distribution(0, 1000);
 }
 
 const char* nationality_to_string(int nat)
@@ -373,36 +285,9 @@ const char* nationality_to_string(int nat)
     }
 }
 
-void name_to_first_and_last_name(const char* name, string& first_name, string& last_name)
-{
-    first_name = "";
-    last_name = "";
-    const char* iter = name;
-    bool last = false;
-    while(*iter != 0)
-    {
-        if(*iter == ' ' && last == false)
-        {
-            last = true;
-        }
-        else
-        {
-            if(!last)
-            {
-                first_name.append(1, *iter);
-            }
-            else
-            {
-                last_name.append(1, *iter);
-            }
-        }
-        iter++;
-    }
-}
-
 void swos_position_to_freekick_num(int n, int& pos, int& left, int& wing)
 {
-    int ran_left = (rand_float() < 0.2f) ? 1 : 0;
+    int ran_left = (addutil::general::rand_float() < 0.2f) ? 1 : 0;
     switch(n)
     {
         case 0: // gk
@@ -465,31 +350,6 @@ int head_type_to_appearance(int h)
     }
 }
 
-xmlNodePtr add_child(xmlNodePtr parent, const char* name)
-{
-    return xmlNewChild(parent, NULL, BAD_CAST name, NULL);
-}
-
-void add_attribute(xmlNodePtr n, const char* name, const char* value)
-{
-    xmlNewProp(n, BAD_CAST name, BAD_CAST value);
-}
-
-void add_attribute(xmlNodePtr n, const char* name, int value)
-{
-    char f[8];
-    sprintf(f, "%d", value);
-    add_attribute(n, name, f);
-}
-
-void add_attribute(xmlNodePtr n, const char* value, const char* first_name_attr_name, const char* last_name_attr_name)
-{
-    string first, last;
-    name_to_first_and_last_name(value, first, last);
-    add_attribute(n, first_name_attr_name, first.c_str());
-    add_attribute(n, last_name_attr_name, last.c_str());
-}
-
 void color_variate(int& val, int max_var, int min_val, int max_val)
 {
     int orig_val = val;
@@ -549,22 +409,12 @@ void add_physical_traits(xmlNodePtr node, int head_type)
     color_std_variate(hr); color_std_variate(hg); color_std_variate(hb);
     color_std_variate(er); color_std_variate(eg); color_std_variate(eb);
     xmlNodePtr skin, hair, eyes;
-    skin = add_child(node, "skin");
-    add_attribute(skin, "r", sr); add_attribute(skin, "g", sg); add_attribute(skin, "b", sb);
-    hair = add_child(node, "hair");
-    add_attribute(hair, "r", hr); add_attribute(hair, "g", hg); add_attribute(hair, "b", hb);
-    eyes = add_child(node, "eyes");
-    add_attribute(eyes, "r", er); add_attribute(eyes, "g", eg); add_attribute(eyes, "b", eb);
-}
-
-void color_to_xml(xmlNodePtr parent, char color, const char* node_name)
-{
-    xmlNodePtr color_node = add_child(parent, node_name);
-    int r, g, b;
-    colorbyte_to_color(color, r, g, b);
-    add_attribute(color_node, "r", r);
-    add_attribute(color_node, "g", g);
-    add_attribute(color_node, "b", b);
+    skin = addutil::xml::add_child(node, "skin");
+    addutil::xml::add_attribute(skin, "r", sr); addutil::xml::add_attribute(skin, "g", sg); addutil::xml::add_attribute(skin, "b", sb);
+    hair = addutil::xml::add_child(node, "hair");
+    addutil::xml::add_attribute(hair, "r", hr); addutil::xml::add_attribute(hair, "g", hg); addutil::xml::add_attribute(hair, "b", hb);
+    eyes = addutil::xml::add_child(node, "eyes");
+    addutil::xml::add_attribute(eyes, "r", er); addutil::xml::add_attribute(eyes, "g", eg); addutil::xml::add_attribute(eyes, "b", eb);
 }
 
 string team_name_to_stadium_name(const char* team_name)
@@ -729,12 +579,12 @@ void create_swos_xml(const team_list& teams, const char* swos_out_filename)
     int num_teams = teams.size();
     for(int i = 0; i < num_teams; i++)
     {
-        sub_node = add_child(root_node, "players");
+        sub_node = addutil::xml::add_child(root_node, "players");
         for (int j = 0; j < number_of_players; j++)
         {
-            sub_node2 = add_child(sub_node, "player");
-            add_attribute(sub_node2, "name", teams[i].players[j].player_name);
-            add_attribute(sub_node2, "position", teams[i].players[j].field_position);
+            sub_node2 = addutil::xml::add_child(sub_node, "player");
+            addutil::xml::add_attribute(sub_node2, "name", teams[i].players[j].player_name);
+            addutil::xml::add_attribute(sub_node2, "position", teams[i].players[j].field_position);
         }
     }
 
@@ -758,35 +608,35 @@ void create_freekick_player_xml(const team_list& teams, const char* player_out_f
     {
         for (int j = 0; j < number_of_players; j++)
         {
-            player_node = add_child(root_node, "player");
-            add_attribute(player_node, "id", teams[i].players[j].id);
-            personal_node = add_child(player_node, "personal");
-            add_attribute(personal_node, "name", teams[i].players[j].player_name);
+            player_node = addutil::xml::add_child(root_node, "player");
+            addutil::xml::add_attribute(player_node, "id", teams[i].players[j].id);
+            personal_node = addutil::xml::add_child(player_node, "personal");
+            addutil::xml::add_attribute(personal_node, "name", teams[i].players[j].player_name);
 
 /*
-            sub_node = add_child(personal_node, "birth");
-            add_attribute(sub_node, "year", "1980");
-            add_attribute(sub_node, "month", "1");
-            add_attribute(sub_node, "day", "1");
+            sub_node = addutil::xml::add_child(personal_node, "birth");
+            addutil::xml::add_attribute(sub_node, "year", "1980");
+            addutil::xml::add_attribute(sub_node, "month", "1");
+            addutil::xml::add_attribute(sub_node, "day", "1");
             add_physical_traits(personal_node, teams[i].players[j].head_type);
-            sub_node = add_child(personal_node, "height");
-            add_attribute(sub_node, "value", "178");
+            sub_node = addutil::xml::add_child(personal_node, "height");
+            addutil::xml::add_attribute(sub_node, "value", "178");
 */
-            sub_node = add_child(personal_node, "appearance");
-            add_attribute(sub_node, "value", head_type_to_appearance(teams[i].players[j].head_type));
-            sub_node = add_child(personal_node, "nationality");
-            add_attribute(sub_node, "value", nationality_to_string(teams[i].players[j].nationality));
+            sub_node = addutil::xml::add_child(personal_node, "appearance");
+            addutil::xml::add_attribute(sub_node, "value", head_type_to_appearance(teams[i].players[j].head_type));
+            sub_node = addutil::xml::add_child(personal_node, "nationality");
+            addutil::xml::add_attribute(sub_node, "value", nationality_to_string(teams[i].players[j].nationality));
 
-            sub_node = add_child(player_node, "personality");
-            add_attribute(sub_node, "active", rand_personality_value());
-            add_attribute(sub_node, "risktaking", rand_personality_value());
-            add_attribute(sub_node, "offensive", rand_personality_value());
-            add_attribute(sub_node, "aggressive", rand_personality_value());
-            add_attribute(sub_node, "consistent", rand_personality_value());
-            add_attribute(sub_node, "creative", rand_personality_value());
-            add_attribute(sub_node, "experienced", rand_personality_value());
+            sub_node = addutil::xml::add_child(player_node, "personality");
+            addutil::xml::add_attribute(sub_node, "active", rand_personality_value());
+            addutil::xml::add_attribute(sub_node, "risktaking", rand_personality_value());
+            addutil::xml::add_attribute(sub_node, "offensive", rand_personality_value());
+            addutil::xml::add_attribute(sub_node, "aggressive", rand_personality_value());
+            addutil::xml::add_attribute(sub_node, "consistent", rand_personality_value());
+            addutil::xml::add_attribute(sub_node, "creative", rand_personality_value());
+            addutil::xml::add_attribute(sub_node, "experienced", rand_personality_value());
 
-            sub_node = add_child(player_node, "skills");
+            sub_node = addutil::xml::add_child(player_node, "skills");
             // 1. 0 <= r < 200
             /* 2. price defines general level: 50 price levels
                e.g. price level  0: all skills 200 < s < 400
@@ -813,17 +663,17 @@ void create_freekick_player_xml(const team_list& teams, const char* player_out_f
             int sta = abs_min * 0.5f;
             int dex = abs_min * 0.5f;
             int spe = abs_min * 0.5f;
-            int tac = abs_min + rand_int(std_price_level_range);
-            int pas = abs_min + rand_int(std_price_level_range);
-            int sho = abs_min + rand_int(std_price_level_range);
-            int con = abs_min + rand_int(std_price_level_range);
-            int acc = abs_min + rand_int(std_price_level_range);
-            int goa = abs_min + rand_int(std_price_level_range);
-            int hea = abs_min + rand_int(std_price_level_range);
+            int tac = abs_min + addutil::general::rand_int(std_price_level_range);
+            int pas = abs_min + addutil::general::rand_int(std_price_level_range);
+            int sho = abs_min + addutil::general::rand_int(std_price_level_range);
+            int con = abs_min + addutil::general::rand_int(std_price_level_range);
+            int acc = abs_min + addutil::general::rand_int(std_price_level_range);
+            int goa = abs_min + addutil::general::rand_int(std_price_level_range);
+            int hea = abs_min + addutil::general::rand_int(std_price_level_range);
 
-            sta += rand_int(550);
-            dex += rand_int(550);
-            spe += rand_int(550);
+            sta += addutil::general::rand_int(550);
+            dex += addutil::general::rand_int(550);
+            spe += addutil::general::rand_int(550);
             switch(teams[i].players[j].field_position)
             {
                 case 0:  // gk
@@ -831,63 +681,63 @@ void create_freekick_player_xml(const team_list& teams, const char* player_out_f
                     con *= 0.8f;
                     acc *= 0.5f;
                     hea *= 0.5f;
-                    goa += 50 + rand_int(50);
+                    goa += 50 + addutil::general::rand_int(50);
                     break;
                 case 1: case 2: // back
-                    sta += rand_int(50);
-                    dex += rand_int(50);
-                    tac += rand_int(50);
-                    pas += rand_int(50);
-                    con += rand_int(50);
+                    sta += addutil::general::rand_int(50);
+                    dex += addutil::general::rand_int(50);
+                    tac += addutil::general::rand_int(50);
+                    pas += addutil::general::rand_int(50);
+                    con += addutil::general::rand_int(50);
                     goa /= field_player_goalkeeping_divisor;
                     break;
                 case 3:  // def
-                    dex += rand_int(50);
-                    tac += rand_int(100);
-                    pas += rand_int(50);
-                    con += rand_int(50);
+                    dex += addutil::general::rand_int(50);
+                    tac += addutil::general::rand_int(100);
+                    pas += addutil::general::rand_int(50);
+                    con += addutil::general::rand_int(50);
                     goa /= field_player_goalkeeping_divisor;
                     break;
                 case 4: case 5: // wing
-                    sta += rand_int(50);
-                    dex += rand_int(50);
-                    spe += rand_int(50);
-                    pas += rand_int(50);
-                    con += rand_int(50);
+                    sta += addutil::general::rand_int(50);
+                    dex += addutil::general::rand_int(50);
+                    spe += addutil::general::rand_int(50);
+                    pas += addutil::general::rand_int(50);
+                    con += addutil::general::rand_int(50);
                     goa /= field_player_goalkeeping_divisor;
                     break;
                 case 6:  // mf
-                    sta += rand_int(50);
-                    dex += rand_int(50);
-                    tac += rand_int(50);
-                    pas += rand_int(50);
-                    con += rand_int(50);
+                    sta += addutil::general::rand_int(50);
+                    dex += addutil::general::rand_int(50);
+                    tac += addutil::general::rand_int(50);
+                    pas += addutil::general::rand_int(50);
+                    con += addutil::general::rand_int(50);
                     goa /= field_player_goalkeeping_divisor;
                     break;
                 case 7: default: // forw
-                    sho += rand_int(100);
-                    acc += rand_int(100);
-                    hea += rand_int(50);
+                    sho += addutil::general::rand_int(100);
+                    acc += addutil::general::rand_int(100);
+                    hea += addutil::general::rand_int(50);
                     goa /= field_player_goalkeeping_divisor;
                     break;
             }
-            add_attribute(sub_node, "stamina", sta);
-            add_attribute(sub_node, "dexterity", dex);
-            add_attribute(sub_node, "speed", spe);
-            add_attribute(sub_node, "tackling", tac);
-            add_attribute(sub_node, "passing", pas);
-            add_attribute(sub_node, "shooting", sho);
-            add_attribute(sub_node, "control", con);
-            add_attribute(sub_node, "accuracy", acc);
-            add_attribute(sub_node, "goalkeeping", goa);
-            add_attribute(sub_node, "heading", hea);
+            addutil::xml::add_attribute(sub_node, "stamina", sta);
+            addutil::xml::add_attribute(sub_node, "dexterity", dex);
+            addutil::xml::add_attribute(sub_node, "speed", spe);
+            addutil::xml::add_attribute(sub_node, "tackling", tac);
+            addutil::xml::add_attribute(sub_node, "passing", pas);
+            addutil::xml::add_attribute(sub_node, "shooting", sho);
+            addutil::xml::add_attribute(sub_node, "control", con);
+            addutil::xml::add_attribute(sub_node, "accuracy", acc);
+            addutil::xml::add_attribute(sub_node, "goalkeeping", goa);
+            addutil::xml::add_attribute(sub_node, "heading", hea);
 
-            sub_node = add_child(player_node, "position");
+            sub_node = addutil::xml::add_child(player_node, "position");
             int pos, left, wing;
             swos_position_to_freekick_num(teams[i].players[j].field_position, pos, left, wing);
-            add_attribute(sub_node, "pos", pos);
-            add_attribute(sub_node, "left", left);
-            add_attribute(sub_node, "wing", wing);
+            addutil::xml::add_attribute(sub_node, "pos", pos);
+            addutil::xml::add_attribute(sub_node, "left", left);
+            addutil::xml::add_attribute(sub_node, "wing", wing);
         }
     }
     xmlSaveFormatFileEnc(player_out_filename, doc, "UTF-8", 1);
@@ -909,39 +759,39 @@ void create_freekick_club_xml(const team_list& teams, const char* country_name, 
     int num_teams = teams.size();
     for(int i = 0; i < num_teams; i++)
     {
-        team_node = add_child(root_node, "club");
-        add_attribute(team_node, "name", teams[i].team_name);
-        sub_node = add_child(team_node, "coach");
-        add_attribute(sub_node, "name", teams[i].coach_name);
-        sub_node = add_child(team_node, "kits");
+        team_node = addutil::xml::add_child(root_node, "club");
+        addutil::xml::add_attribute(team_node, "name", teams[i].team_name);
+        sub_node = addutil::xml::add_child(team_node, "coach");
+        addutil::xml::add_attribute(sub_node, "name", teams[i].coach_name);
+        sub_node = addutil::xml::add_child(team_node, "kits");
         for(int j = 0; j < 2; j++)
         {
             const s_kit* kit = (j == 0) ? &teams[i].primary_kit : &teams[i].secondary_kit;
-            sub_node2 = add_child(sub_node, "kit");
-                sub_node3 = add_child(sub_node2, "jersey");
-                    add_attribute(sub_node3, "type", kit->type);
-                    color_to_xml(sub_node3, kit->first_color, "color");
-                    color_to_xml(sub_node3, kit->second_color, "color");
-                sub_node3 = add_child(sub_node2, "shorts");
-                color_to_xml(sub_node3, kit->short_color, "color");
-                sub_node3 = add_child(sub_node2, "socks");
-                color_to_xml(sub_node3, kit->socks_color, "color");
+            sub_node2 = addutil::xml::add_child(sub_node, "kit");
+                sub_node3 = addutil::xml::add_child(sub_node2, "jersey");
+                    addutil::xml::add_attribute(sub_node3, "type", kit->type);
+                    addutil::xml::color_to_xml(sub_node3, kit->first_color, "color");
+                    addutil::xml::color_to_xml(sub_node3, kit->second_color, "color");
+                sub_node3 = addutil::xml::add_child(sub_node2, "shorts");
+                addutil::xml::color_to_xml(sub_node3, kit->short_color, "color");
+                sub_node3 = addutil::xml::add_child(sub_node2, "socks");
+                addutil::xml::color_to_xml(sub_node3, kit->socks_color, "color");
         }
-        sub_node = add_child(team_node, "country");
-        add_attribute(sub_node, "name", country_name);
+        sub_node = addutil::xml::add_child(team_node, "country");
+        addutil::xml::add_attribute(sub_node, "name", country_name);
 
 /*
-        sub_node = add_child(team_node, "region");
-        add_attribute(sub_node, "name", country_name);
+        sub_node = addutil::xml::add_child(team_node, "region");
+        addutil::xml::add_attribute(sub_node, "name", country_name);
 */
 
-        sub_node = add_child(team_node, "stadium");
-        add_attribute(sub_node, "name", team_name_to_stadium_name(teams[i].team_name).c_str());
-        sub_node = add_child(team_node, "contracts");
+        sub_node = addutil::xml::add_child(team_node, "stadium");
+        addutil::xml::add_attribute(sub_node, "name", team_name_to_stadium_name(teams[i].team_name).c_str());
+        sub_node = addutil::xml::add_child(team_node, "contracts");
         for (int j = 0; j < number_of_players; j++)
         {
-            sub_node2 = add_child(sub_node, "contract");
-            add_attribute(sub_node2, "player", teams[i].players[j].id);
+            sub_node2 = addutil::xml::add_child(sub_node, "contract");
+            addutil::xml::add_attribute(sub_node2, "player", teams[i].players[j].id);
         }
     }
     xmlSaveFormatFileEnc(club_out_filename, doc, "UTF-8", 1);
@@ -1001,24 +851,24 @@ void create_freekick_country_xml(const team_list& teams, const char* country_nam
     doc = xmlNewDoc(BAD_CAST "1.0");
     root_node = xmlNewNode(NULL, BAD_CAST "Countries");
     xmlDocSetRootElement(doc, root_node);
-    country_node = add_child(root_node, "Country");
-    add_attribute(country_node, "name", country_name);
-    regions_node = add_child(country_node, "Regions");
-    region_node = add_child(regions_node, "Region");
-    add_attribute(region_node, "name", country_name);
-    league_system_node = add_child(country_node, "leaguesystem");
-    add_attribute(league_system_node, "name", (string(country_adjective) + " league").c_str());
-    levels_node = add_child(league_system_node, "Levels");
+    country_node = addutil::xml::add_child(root_node, "Country");
+    addutil::xml::add_attribute(country_node, "name", country_name);
+    regions_node = addutil::xml::add_child(country_node, "Regions");
+    region_node = addutil::xml::add_child(regions_node, "Region");
+    addutil::xml::add_attribute(region_node, "name", country_name);
+    league_system_node = addutil::xml::add_child(country_node, "leaguesystem");
+    addutil::xml::add_attribute(league_system_node, "name", (string(country_adjective) + " league").c_str());
+    levels_node = addutil::xml::add_child(league_system_node, "Levels");
 
     team_list::const_iterator it;
     for(it = teams.begin(); it != teams.end(); it++)
     {
-        stadium_node = add_child(region_node, "stadium");
-        add_attribute(stadium_node, "name", team_name_to_stadium_name(it->team_name).c_str());
+        stadium_node = addutil::xml::add_child(region_node, "stadium");
+        addutil::xml::add_attribute(stadium_node, "name", team_name_to_stadium_name(it->team_name).c_str());
         int capacity = pow(it->value, 1.7) / 100;
         if(capacity >= 4)
-            capacity = capacity + rand_int(capacity / 2) - (capacity / 4);
-        add_attribute(stadium_node, "capacity", capacity * 100);
+            capacity = capacity + addutil::general::rand_int(capacity / 2) - (capacity / 4);
+        addutil::xml::add_attribute(stadium_node, "capacity", capacity * 100);
         if(it->division < num_divisions)
         {
             clubs_in_divisions[it->division]++;
@@ -1042,36 +892,36 @@ void create_freekick_country_xml(const team_list& teams, const char* country_nam
     {
         int s;
         xmlNodePtr tournaments, tournament, t_stage, t_setup, t_trophy, t_cuppr = NULL;
-        tournaments = add_child(country_node, "Tournaments");
-        tournament = add_child(tournaments, "tournament");
-        add_attribute(tournament, "name", tournament_name.c_str());
+        tournaments = addutil::xml::add_child(country_node, "Tournaments");
+        tournament = addutil::xml::add_child(tournaments, "tournament");
+        addutil::xml::add_attribute(tournament, "name", tournament_name.c_str());
         for(s = 1; s <= num_cup_stages; s++)
         {
-            t_stage = add_child(tournament, "stage");
+            t_stage = addutil::xml::add_child(tournament, "stage");
             const char* stage_name = stage_number_to_stage_name(s, num_cup_stages);
             if(strlen(stage_name) < 1)
                 break;
-            add_attribute(t_stage, "name", stage_name);
-            add_attribute(t_stage, "type", "1");
+            addutil::xml::add_attribute(t_stage, "name", stage_name);
+            addutil::xml::add_attribute(t_stage, "type", "1");
 
-            t_setup = add_child(t_stage, "setup");
-            add_attribute(t_setup, "seeded", "0");
-            add_attribute(t_setup, "participantnum", pow(2, s));
-            add_attribute(t_setup, "rounds", "1");
-            add_attribute(t_setup, "extratime", "1");
-            add_attribute(t_setup, "penalties", "1");
-            add_attribute(t_setup, "replays", "0");
-            add_attribute(t_setup, "awaygoals", "0");
+            t_setup = addutil::xml::add_child(t_stage, "setup");
+            addutil::xml::add_attribute(t_setup, "seeded", "0");
+            addutil::xml::add_attribute(t_setup, "participantnum", pow(2, s));
+            addutil::xml::add_attribute(t_setup, "rounds", "1");
+            addutil::xml::add_attribute(t_setup, "extratime", "1");
+            addutil::xml::add_attribute(t_setup, "penalties", "1");
+            addutil::xml::add_attribute(t_setup, "replays", "0");
+            addutil::xml::add_attribute(t_setup, "awaygoals", "0");
 
             if(s == 1)
             {
-                t_trophy = add_child(t_stage, "trophy");
-                add_attribute(t_trophy, "name", (string(country_adjective) + " Cup champion").c_str());
+                t_trophy = addutil::xml::add_child(t_stage, "trophy");
+                addutil::xml::add_attribute(t_trophy, "name", (string(country_adjective) + " Cup champion").c_str());
             }
             else
             {
-                t_cuppr = add_child(t_stage, "cuppr");
-                add_attribute(t_cuppr, "stage", stage_number_to_stage_name(s - 1, num_cup_stages));
+                t_cuppr = addutil::xml::add_child(t_stage, "cuppr");
+                addutil::xml::add_attribute(t_cuppr, "stage", stage_number_to_stage_name(s - 1, num_cup_stages));
             }
 
             if(s == num_cup_stages)
@@ -1081,15 +931,15 @@ void create_freekick_country_xml(const team_list& teams, const char* country_nam
 
                 xmlNodePtr t_preset, t_club = NULL;
                 vector<const s_team*>::const_iterator it2;
-                t_preset = add_child(t_stage, "preset");
+                t_preset = addutil::xml::add_child(t_stage, "preset");
 
                 for(i = 0; i < num_divisions && added_clubs < total_num_clubs; i++)
                 {
                     for(it2 = divisions[i].begin(); it2 != divisions[i].end() && added_clubs < total_num_clubs; it2++)
                     {
                         added_clubs++;
-                        t_club = add_child(t_preset, "club");
-                        add_attribute(t_club, "name", (*it2)->team_name);
+                        t_club = addutil::xml::add_child(t_preset, "club");
+                        addutil::xml::add_attribute(t_club, "name", (*it2)->team_name);
                     }
                 }
             }
@@ -1103,9 +953,9 @@ void create_freekick_country_xml(const team_list& teams, const char* country_nam
             continue;
         xmlNodePtr level_node, branch_node, stage_node, setup_node = NULL;
         xmlNodePtr leagueprs, leaguepr, leaguerls, leaguerl, attendances, attendance, trophy = NULL;
-        level_node = add_child(levels_node, "level");
-        branch_node = add_child(level_node, "branch");
-        stage_node = add_child(branch_node, "stage");
+        level_node = addutil::xml::add_child(levels_node, "level");
+        branch_node = addutil::xml::add_child(level_node, "branch");
+        stage_node = addutil::xml::add_child(branch_node, "stage");
         const char* stage_name;
         switch(i)
         {
@@ -1114,43 +964,43 @@ void create_freekick_country_xml(const team_list& teams, const char* country_nam
             case 2:  stage_name = "Second League"; break;
             default: stage_name = "Third League"; break;
         }
-        add_attribute(stage_node, "name", stage_name);
-        add_attribute(stage_node, "type", "0");
-        setup_node = add_child(stage_node, "setup");
-        add_attribute(setup_node, "seeded", "0");
-        add_attribute(setup_node, "participantnum", clubs_in_divisions[i]);
-        add_attribute(setup_node, "groups", "1");
-        add_attribute(setup_node, "rounds", "2");
-        add_attribute(setup_node, "pointsperwin", "3");
-        trophy = add_child(stage_node, "trophy");
-        add_attribute(trophy, "name", (string(country_adjective) + " " + stage_name + " champion").c_str());
+        addutil::xml::add_attribute(stage_node, "name", stage_name);
+        addutil::xml::add_attribute(stage_node, "type", "0");
+        setup_node = addutil::xml::add_child(stage_node, "setup");
+        addutil::xml::add_attribute(setup_node, "seeded", "0");
+        addutil::xml::add_attribute(setup_node, "participantnum", clubs_in_divisions[i]);
+        addutil::xml::add_attribute(setup_node, "groups", "1");
+        addutil::xml::add_attribute(setup_node, "rounds", "2");
+        addutil::xml::add_attribute(setup_node, "pointsperwin", "3");
+        trophy = addutil::xml::add_child(stage_node, "trophy");
+        addutil::xml::add_attribute(trophy, "name", (string(country_adjective) + " " + stage_name + " champion").c_str());
 
         if(i > 0)
         {
-            leaguepr = add_child(stage_node, "leaguepr");
-            add_attribute(leaguepr, "num", "3");
+            leaguepr = addutil::xml::add_child(stage_node, "leaguepr");
+            addutil::xml::add_attribute(leaguepr, "num", "3");
         }
         if(i < num_divisions - 1 && clubs_in_divisions[i + 1] > 0)
         {
-            leaguerl = add_child(stage_node, "leaguerl");
-            add_attribute(leaguerl, "num", "3");
+            leaguerl = addutil::xml::add_child(stage_node, "leaguerl");
+            addutil::xml::add_attribute(leaguerl, "num", "3");
         }
-        attendances = add_child(stage_node, "attendances");
+        attendances = addutil::xml::add_child(stage_node, "attendances");
         if(strlen(bottom_tournament_stage) > 0)
         {
-            attendance = add_child(attendances, "attendance");
-            add_attribute(attendance, "tournament", tournament_name.c_str());
-            add_attribute(attendance, "stage", bottom_tournament_stage);
+            attendance = addutil::xml::add_child(attendances, "attendance");
+            addutil::xml::add_attribute(attendance, "tournament", tournament_name.c_str());
+            addutil::xml::add_attribute(attendance, "stage", bottom_tournament_stage);
         }
 
         xmlNodePtr preset, preset_club = NULL;
         vector<const s_team*>::const_iterator it2;
-        preset = add_child(stage_node, "preset");
+        preset = addutil::xml::add_child(stage_node, "preset");
 
         for(it2 = divisions[i].begin(); it2 != divisions[i].end(); it2++)
         {
-            preset_club = add_child(preset, "club");
-            add_attribute(preset_club, "name", (*it2)->team_name);
+            preset_club = addutil::xml::add_child(preset, "club");
+            addutil::xml::add_attribute(preset_club, "name", (*it2)->team_name);
         }
     }
 

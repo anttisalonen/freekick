@@ -46,8 +46,9 @@ for t in clients + servers:
 if swos2fk_name in BUILD_TARGETS:
     swos2fk_env = def_env.Clone()
     swos2fk_env.Append(CPPPATH = ['./src/tools/swos2fk'])
+    swos2fk_env['LIBPATH'] = ['./lib']
+    swos2fk_env['LIBS'] = ['addutil']
     swos2fk_env.ParseConfig("pkg-config libxml-2.0 --cflags --libs")
-
     swos2fk_files = Glob('src/tools/swos2fk/*.cpp')
     swos2fk = swos2fk_env.Program(swos2fk_name, swos2fk_files)
 
@@ -56,6 +57,7 @@ if swos2fk_name in BUILD_TARGETS:
 addutil_env = def_env.Clone()
 addutil_env.Append(CPPPATH = ['src/addutil'])
 # addutil_env['CPPFLAGS'] += '-fPIC '
+addutil_env.ParseConfig("pkg-config libxml-2.0 --cflags --libs")
 addutil_obj = addutil_env.Object(Glob('src/addutil/*.cpp') + 
                                  Glob('src/addutil/network/*.cpp') +
                                  Glob('src/addutil/ai/*.cpp'))

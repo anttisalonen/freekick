@@ -24,6 +24,7 @@
 #include <cmath>
 #include <set>
 #include <iostream>
+#include <string>
 
 #include <boost/foreach.hpp>
 
@@ -95,6 +96,8 @@ namespace addutil
         int rand_int(int max);
         float rand_std_normal_distribution();
         int rand_normal_distribution(int min, int max);
+        void colorbyte_to_color(char color, int& r, int& g, int& b);
+        void name_to_first_and_last_name(const char* name, std::string& first_name, std::string& last_name);
     }
 }
 

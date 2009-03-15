@@ -68,5 +68,79 @@ namespace addutil
             return val;
         }
 
+        void colorbyte_to_color(char color, int& r, int& g, int& b)
+        {
+            switch(color)
+            {
+                case 0:   // grey
+                    r = g = b = 128; break;
+                case 1:   // white
+                    r = g = b = 255; break;
+                case 2:   // black
+                    r = g = b = 0; break;
+                case 3:   // orange
+                    r = 255;
+                    g = 127;
+                    b = 0;
+                    break;
+                case 4:   // red
+                    r = 255;
+                    g = b = 0;
+                    break;
+                case 5:   // blue
+                    b = 255;
+                    r = g = 0;
+                    break;
+                case 6:   // brown
+                    r = 150;
+                    g = 75;
+                    b = 0;
+                    break;
+                case 7:   // light blue
+                    r = 173;
+                    g = 216;
+                    b = 230;
+                    break;
+                case 8:   // green
+                    r = b = 0;
+                    g = 255;
+                    break;
+                case 9:   // yellow
+                    r = g = 255;
+                    b = 0;
+                    break;
+                default:
+                    r = g = b = 255;
+                    break;
+            }
+        }
+
+        void name_to_first_and_last_name(const char* name, std::string& first_name, std::string& last_name)
+        {
+            first_name = "";
+            last_name = "";
+            const char* iter = name;
+            bool last = false;
+            while(*iter != 0)
+            {
+                if(*iter == ' ' && last == false)
+                {
+                    last = true;
+                }
+                else
+                {
+                    if(!last)
+                    {
+                        first_name.append(1, *iter);
+                    }
+                    else
+                    {
+                        last_name.append(1, *iter);
+                    }
+                }
+                iter++;
+            }
+        }
+
     }
 }
