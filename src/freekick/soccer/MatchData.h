@@ -59,6 +59,7 @@ namespace freekick
                        boost::shared_ptr<Club> cl2,
                        boost::shared_ptr<Stadium> s);
             MatchData (const char* filename);
+            MatchData (const std::string& xmldata);
             virtual ~MatchData();
 
             boost::shared_ptr<Club> getClub(BallOwner b) const;
@@ -71,6 +72,7 @@ namespace freekick
             boost::shared_ptr<Ball> getBall() const;
             void setStadium(boost::shared_ptr<Stadium>& stad);
             boost::shared_ptr<Stadium> getStadium() const;
+            xmlDocPtr getInitialDataXML() const;
 
         private:
             boost::shared_ptr<Club> homeclub;
@@ -79,7 +81,9 @@ namespace freekick
             boost::shared_ptr<Referee> referee;
             boost::shared_ptr<Ball> ball;
             Time starttime;
+            xmlDocPtr m_initial_data;
 
+            void create_from_doc(xmlDocPtr doc);
             void parse_match(xmlNode*);
             void parse_players(xmlNode*, bool);
             void parse_clubs(xmlNode*);

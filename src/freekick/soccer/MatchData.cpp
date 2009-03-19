@@ -30,20 +30,54 @@ namespace freekick
             : homeclub(cl1),
               awayclub(cl2),
               stadium(s),
-              ball(new Ball(0.4f))     // don't forget the ball
+              ball(new Ball(0.4f)),     // don't forget the ball
+              m_initial_data(NULL)
         {
+            LIBXML_TEST_VERSION;
+            // TODO: create m_initial_data XML doc
+            std::cerr << "created MatchData from classes\n";
+        }
+
+        MatchData::MatchData (const std::string& xmldata)
+        {
+            LIBXML_TEST_VERSION;
+            std::cerr << "creating MatchData from string\n";
+            xmlDocPtr doc = xmlReadMemory(xmldata.c_str(), xmldata.length(), "", "UTF-8", 0);
+            if(doc == NULL)
+            {
+                std::stringstream ss;
+                ss << __func__ << ": could not parse XML string";
+                std::cerr << ss.str() << std::endl;
+                throw addutil::Exception(ss.str());
+            }
+            create_from_doc(doc);
         }
 
         MatchData::MatchData (const char* filename)
+            : m_initial_data(NULL)
         {
             LIBXML_TEST_VERSION;
+            std::cerr << "creating MatchData from file\n";
             xmlDocPtr doc = xmlReadFile(filename, NULL, 0);
             if(doc == NULL)
             {
                 std::stringstream ss;
                 ss << __func__ << ": could not parse XML file";
+                std::cerr << ss.str() << std::endl;
                 throw addutil::Exception(ss.str());
             }
+            create_from_doc(doc);
+        }
+
+        MatchData::~MatchData()
+        {
+            if(m_initial_data)
+                xmlFreeDoc(m_initial_data);
+            xmlCleanupParser();
+        }
+
+        void MatchData::create_from_doc (xmlDocPtr doc)
+        {
             xmlNode *root_element = xmlDocGetRootElement(doc);
             if(!addutil::xml::node_has_name(root_element, "Match"))
             {
@@ -56,8 +90,8 @@ namespace freekick
 
             try
             {
+                std::cerr << __func__ << ": parsing match\n";
                 parse_match(root_element->children);
-                
             } 
             catch(addutil::Exception& e)
             {
@@ -66,9 +100,11 @@ namespace freekick
                 throw e;
             }
 
+            std::cerr << __func__ << ": copying\n";
+            m_initial_data = xmlCopyDoc(doc, 1);
+
             // success
             xmlFreeDoc(doc);
-            xmlCleanupParser();
         }
 
         void MatchData::parse_match(xmlNode* root)
@@ -79,30 +115,37 @@ namespace freekick
             {
                 if(node_is_node(node, "Clubs"))
                 {
+                    std::cerr << __func__ << ": parsing clubs\n";
                     parse_clubs(node->children);
                 }
                 else if (node_is_node(node, "HomeClubPlayers"))
                 {
+                    std::cerr << __func__ << ": parsing home club players\n";
                     parse_players(node->children, true);
                 }
                 else if (node_is_node(node, "AwayClubPlayers"))
                 {
+                    std::cerr << __func__ << ": parsing away club players\n";
                     parse_players(node->children, false);
                 }
                 else if (node_is_node(node, "OtherKits"))
                 {
+                    std::cerr << __func__ << ": parsing other kits\n";
                     parse_other_kits(node->children);
                 }
                 else if(node_is_node(node, "Tournament"))
                 {
+                    std::cerr << __func__ << ": parsing tournament\n";
                     // TODO
                 }
                 else if(node_is_node(node, "stadium"))
                 {
+                    std::cerr << __func__ << ": parsing stadium\n";
                     // TODO
                 }
                 else if(node_is_node(node, "pitch"))
                 {
+                    std::cerr << __func__ << ": parsing pitch\n";
                     float w, l;
                     xmlNodePtr chnode = NULL;
                     for(chnode = node->children; chnode; chnode = chnode->next)
@@ -285,10 +328,6 @@ namespace freekick
             }
         }
 
-        MatchData::~MatchData()
-        {
-        }
-
         boost::shared_ptr<Club> MatchData::getClub(BallOwner b) const
         {
             if(b == Home)
@@ -341,6 +380,11 @@ namespace freekick
         boost::shared_ptr<Stadium> MatchData::getStadium() const
         {
             return stadium;
+        }
+
+        xmlDocPtr MatchData::getInitialDataXML() const
+        {
+            return m_initial_data;
         }
     }
 }
