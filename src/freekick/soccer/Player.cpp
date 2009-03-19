@@ -25,9 +25,9 @@ namespace freekick
     {
         Player::Player (const std::string& _name, int num, unsigned int _idnumber, PlayerPosition pos)
             : Human(_name),
+              position(pos),
               number(num), 
-              idnumber(_idnumber),
-              position(pos)
+              idnumber(_idnumber)
         {
             id_string = addutil::num_to_string(idnumber);
             number_string = addutil::num_to_string(number);
@@ -58,16 +58,6 @@ namespace freekick
             return position;
         }
 
-        PlayerPersonality& Player::getPersonality()
-        {
-            return playerpersonality;
-        }
-
-        PlayerSkills& Player::getSkills()
-        {
-            return playerskills;
-        }
-
         PlayerPosition IntToPlayerPosition(int i)
         {
             if(i == 0)
@@ -77,6 +67,14 @@ namespace freekick
             else if (i == 2)
                 return Midfielder;
             return Forward;
+        }
+
+        PlayerPosition pp_from_xml(xmlNodePtr node)
+        {
+            int pos;
+            addutil::xml::get_attribute(node, "pos", pos);
+            return IntToPlayerPosition(pos);
+            // TODO: left/right, wing/central
         }
     }
 }

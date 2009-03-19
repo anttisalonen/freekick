@@ -37,6 +37,8 @@
 #include <boost/serialization/shared_ptr.hpp>
 
 #include "addutil/Time.h"
+#include "addutil/XML.h"
+#include "addutil/Exception.h"
 
 #include "Stadium.h"
 #include "Ball.h"
@@ -56,6 +58,7 @@ namespace freekick
             MatchData (boost::shared_ptr<Club> cl1, 
                        boost::shared_ptr<Club> cl2,
                        boost::shared_ptr<Stadium> s);
+            MatchData (const char* filename);
             virtual ~MatchData();
 
             boost::shared_ptr<Club> getClub(BallOwner b) const;
@@ -76,6 +79,13 @@ namespace freekick
             boost::shared_ptr<Referee> referee;
             boost::shared_ptr<Ball> ball;
             Time starttime;
+
+            void parse_match(xmlNode*);
+            void parse_players(xmlNode*, bool);
+            void parse_clubs(xmlNode*);
+            void parse_formation(xmlNode*);
+            void parse_lineup(xmlNode*);
+            void parse_other_kits(xmlNode*);
 
             friend class boost::serialization::access;
             template<class Archive>

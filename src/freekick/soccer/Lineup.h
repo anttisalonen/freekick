@@ -23,9 +23,12 @@
 
 #include <vector>
 #include <map>
+#include <string>
 
 #include <boost/shared_ptr.hpp>
 #include <boost/foreach.hpp>
+
+#include "addutil/XML.h"
 
 #include "Player.h"
 
@@ -33,7 +36,7 @@ namespace freekick
 {
     namespace soccer
     {
-        typedef std::multimap<PlayerPosition, int> PlayerMap;
+        typedef std::map<int, std::string> PlayerMap;
 
         enum PlayerInLineup
         {
@@ -46,11 +49,12 @@ namespace freekick
         {
         public:
             Lineup();
+            Lineup(xmlNodePtr root);
             virtual ~Lineup() { }
             bool doSubstitution(int out, int in);
             PlayerInLineup playerInLineup(int plid) const;
-            PlayerPosition getPlayerPosition(int plid) const;
-            void addPlayer(int id, PlayerPosition pos, bool substitute);
+            const std::string& getPlayerPosition(int plid) const;
+            void addPlayer(int id, const std::string& pos, bool substitute);
             void clear();
             std::vector<int> getPitchPlayerIDs() const;
             std::vector<int> getSubstituteIDs() const;
@@ -60,8 +64,6 @@ namespace freekick
             PlayerMap pitchplayers;
             PlayerMap substitutes;
         };
-
-        void playersInPlayerMap(const PlayerMap& pm, int& gk, int& def, int& midf, int& forw);
     }
 }
 

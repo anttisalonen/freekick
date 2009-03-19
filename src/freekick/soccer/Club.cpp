@@ -34,6 +34,59 @@ namespace freekick
         {
         }
 
+        void Club::from_xml(xmlNodePtr root)
+        {
+            using namespace addutil::xml;
+            xmlNode *node = NULL;
+            for (node = root->next; node; node = node->next)
+            {
+                if(node_is_node(node, "coach"))
+                {
+                    // TODO
+                }
+                else if(node_is_node(node, "kits"))
+                {
+                    kits.clear();
+                    xmlNodePtr chnode = NULL;
+                    for (chnode = node->children; chnode; chnode = chnode->next)
+                    {
+                        if (chnode->type == XML_ELEMENT_NODE)
+                        {
+                            if(node_is_node(chnode, "kit"))
+                            {
+                                kits.push_back(Kit(chnode->children));
+                            }
+                        }
+                    }
+                }
+                else if(node_is_node(node, "country"))
+                {
+                    // TODO
+                }
+                else if(node_is_node(node, "stadium"))
+                {
+                    // TODO
+                }
+                else if(node_is_node(node, "contracts"))
+                {
+                    contracts.clear();
+                    xmlNodePtr chnode = NULL;
+                    for (chnode = node->children; chnode; chnode = chnode->next)
+                    {
+                        if (chnode->type == XML_ELEMENT_NODE)
+                        {
+                            if(node_is_node(chnode, "contract"))
+                            {
+                                int plnum;
+                                get_attribute(chnode, "player", plnum);
+                                contracts.insert(plnum);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
         const std::string& Club::getName() const
         {
             return name;
@@ -48,11 +101,13 @@ namespace freekick
         {
             int id = p->getID();
             players[id] = p;
-            if(st != NotPlaying)
+            if(st == Playing)
             {
-                bool sub = (st == Substitute);
-                PlayerPosition pp = p->getPlayerPosition();
-                lineup->addPlayer(id, pp, sub);
+                lineup->addPlayer(id, "", false);
+            }
+            else if(st == Substitute)
+            {
+                lineup->addPlayer(id, "", true);
             }
         }
 
@@ -123,53 +178,17 @@ namespace freekick
             return mFormation;
         }
 
-        void Club::setupStandardLineup()
+        void Club::setFormation(const boost::shared_ptr<Formation>& f)
         {
-            lineup->clear();
-            typedef std::pair<int, boost::shared_ptr<Player> > pair_pl;
-            int gk = 0, df = 0, mf = 0, fw = 0;
-            int substitutes = 0;
-
-            BOOST_FOREACH(pair_pl p, players)
-            {
-                bool substitute = false;
-                PlayerPosition pp = p.second->getPlayerPosition();
-                if(pp == Goalkeeper)
-                {
-                    if(gk >= 1)
-                        substitute = true;
-                    gk++;
-                }
-                else if (pp == Defender)
-                {
-                    if (df >= 4)
-                        substitute = true;
-                    df++;
-                }
-                else if (pp == Midfielder)
-                {
-                    if (mf >= 4)
-                        substitute = true;
-                    mf++;
-                }
-                else
-                {
-                    if (fw >= 2)
-                        substitute = true;
-                    fw++;
-                }
-                if (substitute)
-                {
-                    substitutes++;
-                    if(substitutes >= 6) continue;
-                }
-                lineup->addPlayer(p.second->getID(), pp, substitute);
-            }
-
-            mFormation->updateLineup(lineup);
+            mFormation = f;
         }
 
-        PlayerPosition Club::getPlayerPosition(int i) const
+        void Club::setLineup(const boost::shared_ptr<Lineup>& l)
+        {
+            lineup = l;
+        }
+
+        const std::string& Club::getPlayerPosition(int i) const
         {
             return lineup->getPlayerPosition(i);
         }

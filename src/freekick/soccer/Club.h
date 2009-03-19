@@ -32,6 +32,8 @@
 #include <boost/serialization/map.hpp>
 #include <boost/serialization/vector.hpp>
 
+#include "addutil/XML.h"
+
 #include "Player.h"
 #include "Kit.h"
 #include "Lineup.h"
@@ -50,7 +52,8 @@ namespace freekick
         class Club
         {
         public:
-            Club (const std::string& _name);
+            Club (const std::string& _name = "");
+            void from_xml(xmlNodePtr root);
             const std::string& getName() const;
             int getNumberOfPlayers() const;
             void addPlayer(boost::shared_ptr<Player>& p, PlayerInLineup st);
@@ -62,8 +65,9 @@ namespace freekick
             void getPlayerIDs(std::set<int>& ids) const;
             const boost::shared_ptr<Lineup>& getLineup() const;
             const boost::shared_ptr<Formation>& getFormation() const;
-            void setupStandardLineup();
-            PlayerPosition getPlayerPosition(int i) const;
+            void setFormation(const boost::shared_ptr<Formation>& f);
+            void setLineup(const boost::shared_ptr<Lineup>& l);
+            const std::string& getPlayerPosition(int i) const;
 
         private:
             std::string name;
@@ -71,6 +75,7 @@ namespace freekick
             std::vector <Kit> kits;
             boost::shared_ptr<Lineup> lineup;
             boost::shared_ptr<Formation> mFormation;
+            std::set <int> contracts;
 
             friend class boost::serialization::access;
             template<class Archive>

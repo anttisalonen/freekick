@@ -37,7 +37,7 @@ namespace freekick
         class Ball
         {
         public:
-            Ball(float m);
+            Ball(float m = 0.4f);
             float getMass() const;
         private:
             std::string texture;

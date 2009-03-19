@@ -29,6 +29,7 @@
 #include <boost/serialization/vector.hpp>
 #include <boost/serialization/string.hpp>
 
+#include "addutil/XML.h"
 #include "addutil/Color.h"
 
 /**
@@ -44,6 +45,7 @@ namespace freekick
         {
         public:
             Kit (int jtype, const Color& jcolor1, const Color& jcolor2, const Color& shortscol, const Color& sockscol );
+            Kit(xmlNodePtr root);
             int getJerseyType() const;
             void getFirstJerseyColor(Color& c) const;
             void getSecondJerseyColor(Color& c) const;

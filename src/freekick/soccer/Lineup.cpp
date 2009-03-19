@@ -27,6 +27,31 @@ namespace freekick
         {
         }
 
+        Lineup::Lineup(xmlNodePtr root)
+        {
+            using namespace addutil::xml;
+            xmlNode *node = NULL;
+            std::string name;
+
+            for (node = root; node; node = node->next)
+            {
+                if(node_is_node(node, "position"))
+                {
+                    std::string name;
+                    int plid;
+                    get_attribute(node, "player", plid);
+                    get_attribute(node, "name", name);
+                    pitchplayers[plid] = name;
+                }
+                else if(node_is_node(node, "substitute"))
+                {
+                    int plid;
+                    get_attribute(node, "player", plid);
+                    substitutes[plid] = "";
+                }
+            }
+        }
+
         bool Lineup::doSubstitution(int out, int in)
         {
             // TODO
@@ -36,27 +61,18 @@ namespace freekick
         PlayerInLineup Lineup::playerInLineup(int plid) const
         {
             PlayerMap::const_iterator it1, it2;
-            for(it1 = pitchplayers.begin(); it1 != pitchplayers.end(); it1++)
-            {
-                if((*it1).second == plid) return Playing;
-            }
-            for(it2 = substitutes.begin(); it2 != substitutes.end(); it2++)
-            {
-                if((*it2).second == plid) return Substitute;
-            }
+            it1 = pitchplayers.find(plid);
+            if(it1 != pitchplayers.end()) return Playing;
+            it2 = substitutes.find(plid);
+            if(it2 != substitutes.end()) return Substitute;
             return NotPlaying;
         }
 
-        PlayerPosition Lineup::getPlayerPosition(int plid) const
+        const std::string& Lineup::getPlayerPosition(int plid) const
         {
             PlayerMap::const_iterator it1;
-            for(it1 = pitchplayers.begin(); it1 != pitchplayers.end(); it1++)
-            {
-                if((*it1).second == plid)
-                {
-                    return it1->first;
-                }
-            }
+            it1 = pitchplayers.find(plid);
+            if(it1 != pitchplayers.end()) return it1->second;
             throw "Lineup::getPlayerPosition: not playing\n";
         }
 
@@ -66,7 +82,7 @@ namespace freekick
             PlayerMap::const_iterator it;
             for(it = pitchplayers.begin(); it != pitchplayers.end(); it++)
             {
-                ids.push_back(it->second);
+                ids.push_back(it->first);
             }
             return ids;
         }
@@ -77,17 +93,17 @@ namespace freekick
             PlayerMap::const_iterator it;
             for(it = substitutes.begin(); it != substitutes.end(); it++)
             {
-                ids.push_back(it->second);
+                ids.push_back(it->first);
             }
             return ids;
         }
 
-        void Lineup::addPlayer(int id, PlayerPosition pos, bool substitute)
+        void Lineup::addPlayer(int id, const std::string& pos, bool substitute)
         {
             if(!substitute)
-                pitchplayers.insert(std::pair<PlayerPosition, int>(pos, id));
+                pitchplayers.insert(std::pair<int, const std::string>(id, pos));
             else
-                substitutes.insert(std::pair<PlayerPosition, int>(pos, id));
+                substitutes.insert(std::pair<int, const std::string>(id, pos));
         }
 
         const PlayerMap& Lineup::getPitchPlayers() const
@@ -104,23 +120,6 @@ namespace freekick
         {
             pitchplayers.clear();
             substitutes.clear();
-        }
-
-        void playersInPlayerMap(const PlayerMap& pm, int& gk, int& def, int& midf, int& forw)
-        {
-            gk = def = midf = forw = 0;
-            PlayerMap::const_iterator it;
-            for(it = pm.begin(); it != pm.end(); it++)
-            {
-                switch(it->first)
-                {
-                    case Goalkeeper: gk++;   break;
-                    case Defender:   def++;  break;
-                    case Midfielder: midf++; break;
-                    case Forward:    forw++; break;
-                    default: break;
-                }
-            }
         }
     }
 }

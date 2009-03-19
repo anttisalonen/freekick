@@ -31,6 +31,11 @@ namespace freekick
             jerseycolors[1] = jcolor2;
         }
 
+        Kit::Kit(xmlNodePtr root)
+        {
+            // TODO
+        }
+
         int Kit::getJerseyType() const
         {
             return jerseytype;

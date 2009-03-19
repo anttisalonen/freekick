@@ -26,6 +26,7 @@
 #include <boost/serialization/base_object.hpp>
 
 #include "addutil/Human.h"
+#include "addutil/XML.h"
 #include "addutil/Color.h"
 #include "addutil/Parsing.h"
 
@@ -75,22 +76,15 @@ namespace freekick
         class Player : public addutil::Human
         {
         public:
-
-            // Constructors/Destructors
-            //  
-
-            /**
-             * @param  name
-             * @param  num
-             */
             Player (const std::string& _name, int num, unsigned int _idnumber, PlayerPosition pos);
             unsigned int getID() const;
             const std::string& getIDString() const;
             const std::string& getNumberString() const;
             int getNumber() const;
             PlayerPosition getPlayerPosition() const;
-            PlayerPersonality& getPersonality();
-            PlayerSkills& getSkills();
+            PlayerPersonality playerpersonality;
+            PlayerSkills playerskills;
+            PlayerPosition position;
 
         private:
 
@@ -98,9 +92,6 @@ namespace freekick
             const unsigned int idnumber;
             std::string id_string;
             std::string number_string;
-            PlayerPosition position;
-            PlayerPersonality playerpersonality;
-            PlayerSkills playerskills;
 
             friend class boost::serialization::access;
             template<class Archive>
@@ -113,6 +104,7 @@ namespace freekick
         };
 
         PlayerPosition IntToPlayerPosition(int i);
+        PlayerPosition pp_from_xml(xmlNodePtr node);
     }
 }
 

@@ -23,30 +23,32 @@
 
 #include <map>
 #include <iostream>
+#include <string>
 
 #include <boost/shared_ptr.hpp>
 
 #include "addutil/Square.h"
+#include "addutil/XML.h"
 
-#include "Lineup.h"
+#include "Tactic.h"
 
 namespace freekick
 {
     namespace soccer
     {
-        typedef std::map<int, addutil::Square> FormationMap;
+        typedef std::map<const std::string, boost::shared_ptr<Tactic> > TacticList;
         class Formation
         {
         public:
             Formation();
-            Formation(const boost::shared_ptr<Lineup>& l);
-            bool updateLineup(const boost::shared_ptr<Lineup>& l);
+            Formation(xmlNodePtr root);
             virtual ~Formation() { }
-            const addutil::Square& getPlayerArea(int id) const;
-            const addutil::Vector3 getPlayerAreaCenter(int id) const;
-            bool inPlayerArea(int id, const addutil::Vector3& plloc) const;
+            const addutil::Square& getTacticArea(bool own, bool offensive, const std::string& tactic) const;
+            const addutil::Vector3 getTacticAreaCenter(bool own, bool offensive, const std::string& tactic) const;
+            bool inTacticArea(bool own, bool offensive, const std::string& tactic, const addutil::Vector3& plloc) const;
         private:
-            FormationMap mFormationMap;
+            std::string m_name;
+            TacticList mTacticList;
         };
     }
 }

@@ -30,8 +30,259 @@ namespace freekick
             : homeclub(cl1),
               awayclub(cl2),
               stadium(s),
-              ball(new Ball(0.4))     // don't forget the ball
+              ball(new Ball(0.4f))     // don't forget the ball
         {
+        }
+
+        MatchData::MatchData (const char* filename)
+        {
+            LIBXML_TEST_VERSION;
+            xmlDocPtr doc = xmlReadFile(filename, NULL, 0);
+            if(doc == NULL)
+            {
+                std::stringstream ss;
+                ss << __func__ << ": could not parse XML file";
+                throw addutil::Exception(ss.str());
+            }
+            xmlNode *root_element = xmlDocGetRootElement(doc);
+            if(!addutil::xml::node_has_name(root_element, "Match"))
+            {
+                xmlFreeDoc(doc);
+                xmlCleanupParser();
+                std::stringstream ss;
+                ss << __func__ << ": expected: Match; found: " << root_element->name;
+                throw addutil::Exception(ss.str());
+            }
+
+            try
+            {
+                parse_match(root_element->children);
+                
+            } 
+            catch(addutil::Exception& e)
+            {
+                xmlFreeDoc(doc);
+                xmlCleanupParser();
+                throw e;
+            }
+
+            // success
+            xmlFreeDoc(doc);
+            xmlCleanupParser();
+        }
+
+        void MatchData::parse_match(xmlNode* root)
+        {
+            using namespace addutil::xml;
+            xmlNode *node = NULL;
+            for (node = root; node; node = node->next)
+            {
+                if(node_is_node(node, "Clubs"))
+                {
+                    parse_clubs(node->children);
+                }
+                else if (node_is_node(node, "HomeClubPlayers"))
+                {
+                    parse_players(node->children, true);
+                }
+                else if (node_is_node(node, "AwayClubPlayers"))
+                {
+                    parse_players(node->children, false);
+                }
+                else if (node_is_node(node, "OtherKits"))
+                {
+                    parse_other_kits(node->children);
+                }
+                else if(node_is_node(node, "Tournament"))
+                {
+                    // TODO
+                }
+                else if(node_is_node(node, "stadium"))
+                {
+                    // TODO
+                }
+                else if(node_is_node(node, "pitch"))
+                {
+                    float w, l;
+                    xmlNodePtr chnode = NULL;
+                    for(chnode = node->children; chnode; chnode = chnode->next)
+                    {
+                        if(node_is_node(chnode, "area"))
+                        {
+                            get_attribute(chnode, "width", w);
+                            get_attribute(chnode, "length", l);
+                        }
+                    }
+                    stadium.reset(new Stadium(w, l));
+                    // TODO: rest
+                }
+                else if(node_is_node(node, "start"))
+                {
+                    // TODO
+                }
+                else if(node_is_node(node, "weather"))
+                {
+                    // TODO
+                }
+                else if(node_is_node(node, "ball"))
+                {
+                    // TODO
+                    ball.reset(new Ball(0.4f));
+                }
+                else if(node_is_node(node, "formation"))
+                {
+                    parse_formation(node);
+                }
+                else if(node_is_node(node, "lineup"))
+                {
+                    parse_lineup(node);
+                }
+                else if(!node_has_name(node, "text"))
+                {
+                    std::cerr << __func__ << ": unknown node met: " << node->name << std::endl;
+                }
+            }
+        }
+
+        void MatchData::parse_clubs(xmlNode* root)
+        {
+            using namespace addutil::xml;
+            xmlNode *node = NULL;
+            for (node = root->next; node; node = node->next)
+            {
+                if(node_is_node(node, "club"))
+                {
+                    std::string clubname, ishome;
+                    try
+                    {
+                        get_attribute(node, "name", clubname);
+                        get_attribute(node, "home", ishome);
+                    }
+                    catch(addutil::Exception& e)
+                    {
+                        std::cerr << __func__ << ": " << e.what() << std::endl;
+                        throw e;
+                    }
+
+                    if(ishome != "0")
+                    {
+                        homeclub.reset(new Club(clubname));
+                        std::cout << "Home club name: " << homeclub->getName() << std::endl;
+                        homeclub->from_xml(node->children);
+                    }
+                    else
+                    {
+                        awayclub.reset(new Club(clubname));
+                        std::cout << "Away club name: " << awayclub->getName() << std::endl;
+                        awayclub->from_xml(node->children);
+                    }
+                }                
+            }
+        }
+
+        void MatchData::parse_players(xmlNode* root, bool home)
+        {
+            using namespace addutil::xml;
+            xmlNode *node = NULL;
+            for (node = root->next; node; node = node->next)
+            {
+                if(node_is_node(node, "player"))
+                {
+                    boost::shared_ptr<Player> pl;
+                    int plid;
+                    std::string plname;
+                    get_attribute(node, "id", plid);
+                    xmlNodePtr chnode = NULL;
+                    for(chnode = node->children; chnode; chnode = chnode->next)
+                    {
+                        if(node_is_node(chnode, "personal"))
+                        {
+                            get_attribute(chnode, "name", plname);
+                            pl.reset(new Player(plname, 0, plid, Goalkeeper));
+                            // TODO: appearance, nationality
+                        }
+                    }
+                    if(pl.get() == 0)
+                        throw addutil::Exception("Error while parsing player: player not created");
+                    for(chnode = node->children; chnode; chnode = chnode->next)
+                    {
+                        if(node_is_node(chnode, "personality"))
+                        {
+                            get_attribute(chnode, "active", pl->playerpersonality.active);
+                            get_attribute(chnode, "risktaking", pl->playerpersonality.risktaking);
+                            get_attribute(chnode, "offensive", pl->playerpersonality.offensive);
+                            get_attribute(chnode, "aggressive", pl->playerpersonality.aggressive);
+                            get_attribute(chnode, "consistent", pl->playerpersonality.consistent);
+                            get_attribute(chnode, "creative", pl->playerpersonality.creative);
+                            get_attribute(chnode, "experienced", pl->playerpersonality.experienced);
+                        }
+                        else if(node_is_node(chnode, "skills"))
+                        {
+                            get_attribute(chnode, "stamina", pl->playerskills.stamina);
+                            get_attribute(chnode, "dexterity", pl->playerskills.dexterity);
+                            get_attribute(chnode, "speed", pl->playerskills.speed);
+                            get_attribute(chnode, "tackling", pl->playerskills.tackling);
+                            get_attribute(chnode, "passing", pl->playerskills.passing);
+                            get_attribute(chnode, "shooting", pl->playerskills.shooting);
+                            get_attribute(chnode, "control", pl->playerskills.control);
+                            get_attribute(chnode, "accuracy", pl->playerskills.accuracy);
+                            get_attribute(chnode, "goalkeeping", pl->playerskills.goalkeeping);
+                            get_attribute(chnode, "heading", pl->playerskills.heading);
+                        }
+                        else if(node_is_node(chnode, "position"))
+                        {
+                            pl->position = pp_from_xml(chnode);
+                        }
+                        else if(node_is_node(chnode, "status"))
+                        {
+                            // TODO
+                        }
+                    }
+                    if(home)
+                    {
+                        homeclub->addPlayer(pl, NotPlaying);
+                    }
+                    else
+                    {
+                        awayclub->addPlayer(pl, NotPlaying);
+                    }
+                }
+            }
+        }
+
+        void MatchData::parse_other_kits(xmlNode* root)
+        {
+            // TODO
+        }
+
+        void MatchData::parse_formation(xmlNode* root)
+        {
+            boost::shared_ptr<Formation> f(new Formation(root));
+            std::string owner;
+            addutil::xml::get_attribute(root, "owner", owner);
+            if(owner == homeclub->getName())
+            {
+                homeclub->setFormation(f);
+            }
+            else
+            {
+                awayclub->setFormation(f);
+            }
+        }
+
+        void MatchData::parse_lineup(xmlNode* root)
+        {
+            boost::shared_ptr<Lineup> l(new Lineup(root));
+            std::string owner;
+            addutil::xml::get_attribute(root, "owner", owner);
+            if(owner == homeclub->getName())
+            {
+                homeclub->setLineup(l);
+            }
+            else
+            {
+                awayclub->setLineup(l);
+            }
         }
 
         MatchData::~MatchData()
