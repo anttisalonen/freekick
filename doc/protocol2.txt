@@ -251,6 +251,12 @@ Exact form of messages:
 200: (+ 200 "ball description words, separated by commas" +)
      ball description words: normal
 
+1. Initialization:
+Data padded by (+ and +) and a 3-digit number, e.g. (+ 501 data +).
+The initialization data is the data necessary for clients to correctly
+display the match:
+The XML message from the Org to the server, on one line (without line breaks).
+
 2. General update 
   Player locations
   Interrupts (at special events)
