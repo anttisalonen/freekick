@@ -64,7 +64,7 @@ using namespace std;
 class Curses_Engine
 {
 public:
-    Curses_Engine(MatchStatus* ms, Network* n)
+    Curses_Engine(boost::shared_ptr<MatchStatus> ms, Network* n)
         : m_matchstatus(ms),
           m_network(n)
     {
@@ -176,7 +176,7 @@ public:
     }
 
 private:
-    MatchStatus* m_matchstatus;
+    boost::shared_ptr<MatchStatus> m_matchstatus;
     Network* m_network;
 
     std::vector <boost::shared_ptr<MatchPlayer> > m_playermap_home;
@@ -194,7 +194,7 @@ private:
     float m_pitch_length;
 };
 
-void run_game(MatchStatus* ms, Network* n)
+void run_game(boost::shared_ptr<MatchStatus> ms, Network* n)
 {
     using namespace std;
     
@@ -215,7 +215,7 @@ int main(int argc, char** argv)
         conn.ip_address = "127.0.0.1";
         conn.port = "32105";
         Network* network;
-        MatchStatus* status;
+        boost::shared_ptr<MatchStatus> status;
         std::cerr << "Freekick Curses client starting" << std::endl;
         try
         {
@@ -229,8 +229,8 @@ int main(int argc, char** argv)
             }
             network->sendMessage(freekick::match::messages::InitialDataRequest());
             boost::this_thread::sleep(boost::posix_time::milliseconds(1000));
-            status = network->getMatchStatus();
-            if(status == 0)
+            status.reset(network->getMatchStatus());
+            if(status.get() == 0)
             {
                 std::string err("Network::Network: no match status created.\n");
                 std::cerr << err;
@@ -243,14 +243,13 @@ int main(int argc, char** argv)
             std::cerr << "Network connection failed; exiting.\n";
             return 1;
         }
-        if(status == 0) { std::cerr << "Received invalid match status?\n"; return 1; }
+        if(status.get() == 0) { std::cerr << "Received invalid match status?\n"; return 1; }
 
         run_game(status, network);
         std::cout << "Shutting down client.\n";
         cleanup(0);
 
         delete network;
-        delete status;
     }
     catch (boost::exception& e)
     {

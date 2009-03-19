@@ -28,7 +28,8 @@ namespace freekick
         {
             namespace cl_ogre
             {
-                InputHandler::InputHandler (const boost::shared_ptr<InputConfiguration>& inputconf, 
+                InputHandler::InputHandler (int player_id,
+                                            const boost::shared_ptr<InputConfiguration>& inputconf, 
                                             MatchStatus* ms,
                                             const std::string& windowhnd, 
                                             Ogre::RenderWindow* win,
@@ -38,7 +39,7 @@ namespace freekick
                     : inputconfiguration(inputconf),
                       mMatchStatus(ms),
                       network(netw),
-                      mControlledPlayer(110),
+                      mControlledPlayer(player_id),
                       mSceneMgr(mgr),
                       mCamera(cam),
                       mRenderWindow(win)
@@ -101,7 +102,8 @@ namespace freekick
                     mRaySceneQuery = mSceneMgr->createRayQuery(Ogre::Ray());
                     // mRaySceneQuery->setWorldFragmentType(Ogre::SceneQuery::WFT_SINGLE_INTERSECTION);
 
-                    network->sendMessage(messages::PlayerControlRequestMessage(mControlledPlayer));
+                    if(mControlledPlayer > 0)
+                        network->sendMessage(messages::PlayerControlRequestMessage(mControlledPlayer));
                 }
 
                 InputHandler::~InputHandler()
@@ -141,6 +143,8 @@ namespace freekick
 
                 bool InputHandler::mousePressed (const OIS::MouseEvent& e, OIS::MouseButtonID id )
                 {
+                    if(mControlledPlayer < 1)
+                        return true;
                     // CEGUI::Point mousePos = CEGUI::MouseCursor::getSingleton().getPosition();
                     Ogre::Ray mouseRay = mCamera->getCameraToViewportRay(
                         e.state.X.abs / float(e.state.width), 
@@ -278,7 +282,8 @@ namespace freekick
                             break;
 
                         case OIS::KC_X:
-                            network->sendMessage(messages::PlayerControlRequestMessage(mControlledPlayer));
+                            if(mControlledPlayer > 0)
+                                network->sendMessage(messages::PlayerControlRequestMessage(mControlledPlayer));
                             break;
 
                         case OIS::KC_1:
@@ -418,7 +423,8 @@ namespace freekick
 
                 void InputHandler::sendMoveMessage(const addutil::Vector3& to)
                 {
-                    network->sendMessage(messages::MovePlayerControlMessage(mControlledPlayer, to));
+                    if(mControlledPlayer > 0)
+                        network->sendMessage(messages::MovePlayerControlMessage(mControlledPlayer, to));
                 }
 
                 void InputHandler::sendMoveMessage(Direction d, float mag)

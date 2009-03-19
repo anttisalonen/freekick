@@ -89,7 +89,8 @@ namespace freekick
                 class InputHandler : public Ogre::FrameListener, public OIS::MouseListener, public OIS::KeyListener, public Ogre::WindowEventListener
                 {
                 public:
-                    InputHandler (const boost::shared_ptr<InputConfiguration>& inputconf,
+                    InputHandler (int player_id,
+                                  const boost::shared_ptr<InputConfiguration>& inputconf,
                                   MatchStatus* ms,
                                   const std::string& windowhnd, 
                                   Ogre::RenderWindow* win,

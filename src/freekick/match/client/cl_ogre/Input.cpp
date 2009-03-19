@@ -28,10 +28,11 @@ namespace freekick
         {
             namespace cl_ogre
             {
-                Input::Input (Configuration* conf, MatchStatus* stat, Network* netw ) 
+                Input::Input (int player_id, Configuration* conf, MatchStatus* stat, Network* netw ) 
                     : configuration(conf), 
                       status(stat), 
-                      network(netw)
+                      network(netw),
+                      m_player_id(player_id)
                 {
                 }
 
@@ -50,7 +51,7 @@ namespace freekick
                                              Ogre::SceneManager* mgr,
                                              Ogre::Camera* cam)
                 {
-                    inputhandler = new InputHandler(configuration->getInputConfiguration(), status, windowhnd, win, network, mgr, cam);
+                    inputhandler = new InputHandler(m_player_id, configuration->getInputConfiguration(), status, windowhnd, win, network, mgr, cam);
                 }
 
                 Ogre::FrameListener* Input::getFrameListener()

@@ -39,7 +39,6 @@ namespace freekick
 
             Network::Network (IP_Connection conn, bool ai)
                 : Client(conn),
-                  status(0),
                   constant_update_interval_ms(50),
                   general_update_interval_ms(1000),
                   aicontroller(ai)
@@ -50,7 +49,7 @@ namespace freekick
             {
             }
 
-            freekick::match::MatchStatus* Network::getMatchStatus()
+            boost::shared_ptr<freekick::match::MatchStatus> Network::getMatchStatus() const
             {
                 return status;
             }
@@ -148,120 +147,107 @@ namespace freekick
                         if (t == serialization_delim)
                         {
                             int st = getSerializationMessageType(this_event);
-                            if(st == initialdata_club_id)
+                            if(st == initialdata_xml_id)
                             {
-                                std::cout << "Received initial data club message\n";
-                                const messages::InitialDataClubMessage idm(this_event);
-                                std::cout << "Parsed initial data club message\n";
-                                boost::shared_ptr<Club> c1, c2;
-                                idm.getClub(true, c1);
-                                idm.getClub(false, c2);
-                                c1->setupStandardLineup();
-                                c2->setupStandardLineup();
-                                boost::shared_ptr<Stadium> stad(new Stadium());
-
-                                boost::shared_ptr<MatchData> md(new MatchData(c1, c2, stad));
-                                std::cout << "Created matchdata\n";
-                                status = new MatchStatus(md);
-                                std::cout << "\n--------------------------\nParsed initial data club message.\n----------------------------------\n";
+                                try
+                                {
+                                    std::cout << "Received initial data XML message\n";
+                                    const messages::InitialDataXMLMessage idm(this_event);
+                                    std::cout << "Parsed initial data XML message\n";
+                                    status = idm.getMatchStatus();
+                                }
+                                catch(std::exception& e)
+                                {
+                                    std::cerr << "Error when parsing initial data XML message:" << e.what() << std::endl;
+                                }
                                 continue;
                             }
-                            if(status != 0)
-                            {
-                                boost::shared_ptr<MatchData> md = status->getMatchData();
-
-                                if(st == initialdata_kit_id)
-                                {
-                                    continue;
-                                }
-                            }
-                            // TODO: parse all possible serialization messages
                         }
 
-                        if(status != 0)
+                        else if(status.get() == 0)
+                            continue;
+
+                        if (t == s_const_upd)
                         {
-                            if (t == s_const_upd)
+                            try
                             {
-                                try
-                                {
-                                    const messages::ConstantUpdateMessage m(this_event);
-                                    status->update(m, constant_update_interval_ms * 0.001f);
-                                }
-                                catch(...)
-                                {
-                                    std::cerr << "Network: failed to parse ConstantUpdateMessage.\n";
-                                }
-                                continue;
+                                const messages::ConstantUpdateMessage m(this_event);
+                                status->update(m, constant_update_interval_ms * 0.001f);
                             }
-                            else if (t == s_gen_status_upd)
+                            catch(...)
                             {
-                                try
-                                {
-                                    const messages::GeneralUpdateStatusMessage m(this_event);
-                                    status->update(m);
-                                }
-                                catch(...)
-                                {
-                                    std::cerr << "Network: failed to parse GeneralUpdateStatusMessage.\n";
-                                }
-                                continue;
+                                std::cerr << "Network: failed to parse ConstantUpdateMessage.\n";
                             }
-                            else if (t == s_gen_score_upd)
+                            continue;
+                        }
+                        else if (t == s_gen_status_upd)
+                        {
+                            try
                             {
-                                try
-                                {
-                                    const messages::GeneralUpdateScoreMessage m(this_event);
-                                    status->update(m);
-                                }
-                                catch(...)
-                                {
-                                    std::cerr << "Network: failed to parse GeneralUpdateScoreMessage.\n";
-                                }
-                                continue;
+                                const messages::GeneralUpdateStatusMessage m(this_event);
+                                status->update(m);
                             }
-                            else if (t == s_give_gen_upd_int)
+                            catch(...)
                             {
-                                try
-                                {
-                                    const messages::GiveGeneralUpdateIntervalMessage m(this_event);
-                                    general_update_interval_ms = m.getValue();
-                                }
-                                catch(...)
-                                {
-                                    std::cerr << "Network: failed to parse GiveGeneralUpdateIntervalMessage.\n";
-                                }
-                                continue;
+                                std::cerr << "Network: failed to parse GeneralUpdateStatusMessage.\n";
                             }
-                            else if (t == s_give_const_upd_int)
+                            continue;
+                        }
+                        else if (t == s_gen_score_upd)
+                        {
+                            try
                             {
-                                try
-                                {
-                                    const messages::GiveConstantUpdateIntervalMessage m(this_event);
-                                    constant_update_interval_ms = m.getValue();
-                                }
-                                catch(...)
-                                {
-                                    std::cerr << "Network: failed to parse GiveConstantUpdateIntervalMessage.\n";
-                                }
-                                continue;
+                                const messages::GeneralUpdateScoreMessage m(this_event);
+                                status->update(m);
                             }
-                            else if (t == s_list_of_players)
+                            catch(...)
                             {
-                                try
-                                {
-                                    const messages::ListOfPlayersMessage m(this_event);
-                                    if(plh)
-                                        plh->newListOfPlayers(m.getList());
-                                }
-                                catch(...)
-                                {
-                                    std::cerr << "Network: failed to parse ListOfPlayersMessage.\n";
-                                }
+                                std::cerr << "Network: failed to parse GeneralUpdateScoreMessage.\n";
                             }
-                            else
+                            continue;
+                        }
+                        else if (t == s_give_gen_upd_int)
+                        {
+                            try
                             {
-                                std::cerr << "Network::read: received an unknown message.\n";
+                                const messages::GiveGeneralUpdateIntervalMessage m(this_event);
+                                general_update_interval_ms = m.getValue();
                             }
+                            catch(...)
+                            {
+                                std::cerr << "Network: failed to parse GiveGeneralUpdateIntervalMessage.\n";
+                            }
+                            continue;
+                        }
+                        else if (t == s_give_const_upd_int)
+                        {
+                            try
+                            {
+                                const messages::GiveConstantUpdateIntervalMessage m(this_event);
+                                constant_update_interval_ms = m.getValue();
+                            }
+                            catch(...)
+                            {
+                                std::cerr << "Network: failed to parse GiveConstantUpdateIntervalMessage.\n";
+                            }
+                            continue;
+                        }
+                        else if (t == s_list_of_players)
+                        {
+                            try
+                            {
+                                const messages::ListOfPlayersMessage m(this_event);
+                                if(plh)
+                                    plh->newListOfPlayers(m.getList());
+                            }
+                            catch(...)
+                            {
+                                std::cerr << "Network: failed to parse ListOfPlayersMessage.\n";
+                            }
+                        }
+                        else
+                        {
+                            std::cerr << "Network::read: received an unknown message.\n";
                         }
                     }
                 }

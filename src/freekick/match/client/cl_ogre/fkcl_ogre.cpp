@@ -58,12 +58,18 @@ void run_network(Network* n)
 
 int main(int argc, char** argv)
 {
-    bool start_graphics = true;
-    if(argc > 1)
+    int player_id = 0;
+    if(argc == 1)
     {
-        if(!std::strcmp(argv[1], "-n"))
+        std::cerr << "No command line argument specifying player ID - being a spectator." << std::endl;
+    }
+    else
+    {
+        player_id = atoi(argv[1]);
+        if(player_id < 1)
         {
-            start_graphics = false;
+            std::cerr << "Error: could not parse player ID from the command line.\n";
+            exit(1);
         }
     }
     try
@@ -71,7 +77,7 @@ int main(int argc, char** argv)
         Configuration* configuration = new Configuration (argc, argv);
         addutil::network::IP_Connection conn = configuration->getServerConnection();
         Network* network;
-        MatchStatus* status;
+        boost::shared_ptr<MatchStatus> status;
         std::cerr << "Freekick client starting" << std::endl;
         try
         {
@@ -86,7 +92,7 @@ int main(int argc, char** argv)
             network->sendMessage(messages::InitialDataRequest());
             boost::this_thread::sleep(boost::posix_time::milliseconds(1000));
             status = network->getMatchStatus();
-            if(status == 0)
+            if(status.get() == 0)
             {
                 std::string err("Network::Network: no match status created.\n");
                 std::cerr << err;
@@ -99,26 +105,18 @@ int main(int argc, char** argv)
             std::cerr << "Network connection failed; exiting.\n";
             return 1;
         }
-        if(status == 0) { std::cerr << "Received invalid match status?\n"; return 1; }
-        Input* input = new Input(configuration, status, network);
-        Graphics* graphics = new Graphics(configuration, status, input);
+        if(status.get() == 0) { std::cerr << "Received invalid match status?\n"; return 1; }
+        Input* input = new Input(player_id, configuration, status.get(), network);
+        Graphics* graphics = new Graphics(configuration, status.get(), input);
 
         // boost::thread status_thread(boost::bind(&run_status, status));
-        if(start_graphics)
-        {
-            boost::thread graphics_thread(boost::bind(&run_graphics, graphics));
-            graphics_thread.join();
-            std::cout << "Shutting down client.\n";
-        }
-        else
-        {
-            // network_thread.join();
-        }
+        boost::thread graphics_thread(boost::bind(&run_graphics, graphics));
+        graphics_thread.join();
+        std::cout << "Shutting down client.\n";
 
         delete graphics;
         delete input;
         delete network;
-        delete status;
         delete configuration;
     }
     catch (boost::exception& e)

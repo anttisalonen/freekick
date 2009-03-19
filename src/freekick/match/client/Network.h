@@ -60,7 +60,7 @@ namespace freekick
             public:
                 Network (addutil::network::IP_Connection conn, bool ai);
                 virtual ~Network();
-                freekick::match::MatchStatus* getMatchStatus();
+                boost::shared_ptr<freekick::match::MatchStatus> getMatchStatus() const;
 
                 bool run (bool async = false);
                 void sendMessage(const messages::Message& m);
@@ -74,7 +74,7 @@ namespace freekick
                 void read(std::string buf);
 
             private:
-                freekick::match::MatchStatus* status;
+                boost::shared_ptr<freekick::match::MatchStatus> status;
                 std::string buffer;
                 bool handshake;
                 int constant_update_interval_ms;

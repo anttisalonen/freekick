@@ -53,7 +53,7 @@ namespace freekick
                 {
                 public:
 
-                    Input (Configuration* conf, MatchStatus* stat, Network* netw );
+                    Input (int player_id, Configuration* conf, MatchStatus* stat, Network* netw);
                     ~Input();
                     boost::shared_ptr<InputConfiguration>& getInputConfiguration ( ) const;
                     void setCameraPos(float x, float y, float z);
@@ -69,7 +69,7 @@ namespace freekick
                     MatchStatus* status;
                     Network* network;
                     InputHandler* inputhandler;
-
+                    int m_player_id;
                 };
             }
         }
