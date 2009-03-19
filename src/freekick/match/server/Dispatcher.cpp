@@ -155,23 +155,11 @@ namespace freekick
                     return;
                 }
 
-                // TODO: get actual colors of the clubs, goalkeepers and referee
-                boost::shared_ptr<Club> club1 = md->getHomeClub();
-                boost::shared_ptr<Club> club2 = md->getAwayClub();
-                using addutil::Color;
-                Kit temporarykit(0, Color(1.0f, 1.0f, 0.0f), Color(0.5f, 0.5f, 1.0f), Color(0.0f, 0.1f, 0.2f), Color(1.0f, 0.0f, 1.0f));
-
                 using namespace messages;
-                std::vector<boost::shared_ptr<Message> > ms;
-                boost::shared_ptr<InitialDataClubMessage> icm1(new InitialDataClubMessage(club1, club2));
-                boost::shared_ptr<InitialDataKitMessage>  icm2(new InitialDataKitMessage (temporarykit, temporarykit, temporarykit, temporarykit, temporarykit));
-                ms.push_back(icm1);
-                ms.push_back(icm2);
-
+                boost::shared_ptr<InitialDataXMLMessage> icm(new InitialDataXMLMessage(md->getInitialDataXML()));
                 try
                 {
-                    BOOST_FOREACH(boost::shared_ptr<Message> m, ms)
-                        srv.write(m->toString(), clid);
+                    srv.write(icm->toString(), clid);
                 }
                 catch (...)
                 {
