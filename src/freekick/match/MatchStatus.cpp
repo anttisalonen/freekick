@@ -612,9 +612,17 @@ namespace freekick
             return getOffsideLine(Away);
         }
 
-        bool MatchStatus::onPitch(const addutil::Vector3 pos) const
+        bool MatchStatus::onPitch(const addutil::Vector3& pos) const
         {
             return getPitch()->onPitch(pos.x, pos.z);
+        }
+
+        bool MatchStatus::onOwnSide(const addutil::Vector3& pos, BallOwner side) const
+        {
+            bool on_top_side = getPitch()->onSide(true, pos.x, pos.z);
+            if((side == Home && !secondhalf) || (side == Away && secondhalf))
+                return on_top_side;
+            return !on_top_side;
         }
 
         bool MatchStatus::inOffsidePosition(soccer::PlayerTarget b, const addutil::Vector3& v) const

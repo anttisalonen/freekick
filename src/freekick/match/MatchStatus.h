@@ -112,7 +112,8 @@ namespace freekick
             bool inOffsidePosition(int id) const;
             float getOffsideLine(BallOwner b) const;
             float getOffsideLine(PlayerTarget b) const;
-            bool onPitch(const addutil::Vector3 pos) const;
+            bool onPitch(const addutil::Vector3& pos) const;
+            bool onOwnSide(const addutil::Vector3& pos, BallOwner b) const;
             bool inOffsidePosition(soccer::PlayerTarget b, const addutil::Vector3& v) const;
 
         protected:
