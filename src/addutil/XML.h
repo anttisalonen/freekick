@@ -22,6 +22,7 @@
 #define ADDUTIL_XML_H
 
 #include <string>
+#include <sstream>
 
 #include <libxml/parser.h>
 #include <libxml/tree.h>
@@ -43,6 +44,7 @@ namespace addutil
         void get_attribute(const xmlNodePtr node, const char* attrname, std::string& attrvalue);
         void get_attribute(const xmlNodePtr node, const char* attrname, int& attrvalue);
         void get_attribute(const xmlNodePtr node, const char* attrname, float& attrvalue);
+        void node_to_stringstream(const xmlNodePtr node, std::ostringstream& oss, bool formatted);
     }
 }
 

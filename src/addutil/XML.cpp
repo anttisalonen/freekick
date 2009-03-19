@@ -99,5 +99,14 @@ namespace addutil
             attrvalue = atof(s.c_str());
             return;
         }
+
+        void node_to_stringstream(const xmlNodePtr node, std::ostringstream& oss, bool formatted)
+        {
+            xmlBufferPtr buf = xmlBufferCreate();
+            xmlNodeDump(buf, NULL, node, 0, formatted);
+            const xmlChar* cont = xmlBufferContent(buf);
+            oss << cont;
+            xmlBufferFree(buf);
+        }
     }
 }
