@@ -270,6 +270,18 @@ class Pitch:
         self.pattern = pattern
         self.state = state
 
+    def to_xml(self):
+        root = etree.Element("pitch", name = self.name)
+        etree.SubElement(root, "area", length = str(self.length), width = str(self.width))
+        etree.SubElement(root, "size", length = str(self.size_length), width = str(self.size_width))
+        patnode = etree.SubElement(root, "patterns")
+        for pattern in self.pattern:
+            etree.SubElement(patnode, "pattern", keyword = pattern)
+        statenode = etree.SubElement(root, "states")
+        for state in self.state:
+            etree.SubElement(statenode, "state", keyword = state)
+        return root
+
 def default_pitch():
     p = Pitch("grass01", 0.95, 100, 70, 110, 80)
     return p
@@ -281,7 +293,7 @@ class Stadium:
         self.pitch = default_pitch()
 
     def to_xml(self):
-        root = etree.Element("stadium", name = self.name, capacity = str(self.capacity))
+        root = etree.Element("stadium", name = self.name, capacity = str(self.capacity), pitch = self.pitch.name)
         return root
 
 class Region:

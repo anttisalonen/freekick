@@ -335,8 +335,12 @@ class Match:
         root = etree.Element("Match")
 
         clubs = etree.SubElement(root, "Clubs")
-        clubs.append(self.club1.to_xml())
-        clubs.append(self.club2.to_xml())
+        club1node = self.club1.to_xml()
+        club1node.set("home", "1")
+        clubs.append(club1node)
+        club2node = self.club2.to_xml()
+        club2node.set("home", "0")
+        clubs.append(club2node)
 
         club1plnode = etree.SubElement(root, "HomeClubPlayers")
         club2plnode = etree.SubElement(root, "AwayClubPlayers")
@@ -363,8 +367,8 @@ class Match:
         gk1kitnode = gk1kit.to_xml()
         gk2kitnode = gk2kit.to_xml()
         refkitnode = refkit.to_xml()
-        gk1kitnode.set("owner", "home goalkeeper")
-        gk2kitnode.set("owner", "away goalkeeper")
+        gk1kitnode.set("owner", self.club1.name)
+        gk2kitnode.set("owner", self.club1.name)
         refkitnode.set("owner", "referee")
         otherkitsnode.append(gk1kitnode)
         otherkitsnode.append(gk2kitnode)
@@ -373,21 +377,26 @@ class Match:
         tournamentnode = etree.SubElement(root, "Tournament", name = self.tournament_name, stage = self.stage_name)
         stadiumnode = self.stadium.to_xml()
         stadiumnode.set("attendance", str(random.randint(10, self.stadium.capacity)))  # TODO: more realistic attendance and third party host flag
+        root.append(stadiumnode)
+
+        pitchnode = self.stadium.pitch.to_xml()
+        root.append(pitchnode)
+
         startnode = etree.SubElement(root, "start", date = str(self.date), time = str(self.time))
         weathernode = etree.SubElement(root, "weather", description = "normal")
         ballnode = etree.SubElement(root, "ball", description = "normal")
 
         formation1node = self.club1.formation.to_xml()
         formation2node = self.club2.formation.to_xml()
-        formation1node.set("owner", "home")
-        formation2node.set("owner", "away")
+        formation1node.set("owner", self.club1.name)
+        formation2node.set("owner", self.club2.name)
         root.append(formation1node)
         root.append(formation2node)
 
         lineup1node = self.club1.lineup.to_xml()
         lineup2node = self.club2.lineup.to_xml()
-        lineup1node.set("owner", "home")
-        lineup2node.set("owner", "away")
+        lineup1node.set("owner", self.club1.name)
+        lineup2node.set("owner", self.club2.name)
         root.append(lineup1node)
         root.append(lineup2node)
 
