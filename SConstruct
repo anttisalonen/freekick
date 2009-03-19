@@ -1,3 +1,8 @@
+import os
+num_cpu = int(os.environ.get('NUM_CPU', 2))
+SetOption('num_jobs', num_cpu)
+print "running with -j", GetOption('num_jobs')
+
 def_env = Environment()
 def_env['CPPFLAGS'] = '-Wall -Wno-deprecated '
 def_env.Append(CPPPATH = ['src'])
