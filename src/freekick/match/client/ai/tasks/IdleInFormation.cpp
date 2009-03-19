@@ -49,9 +49,10 @@ namespace freekick
                         addutil::Vector3 ownpos = mPlayer->getPosition();
                         const boost::shared_ptr<Formation> f = mMatchStatus->getPlayerClub(mPlayerID)->getFormation();
                         addutil::Vector3 ballpos = mMatchStatus->getBall()->getPosition();
+                        Helpers h(mMatchStatus, mPlayerID);
 
                         using namespace messages;
-                        if(f->inPlayerArea(mPlayerID, 
+                        if(f->inTacticArea(h.ourclubhasball, h.ballonourside, h.plpos,
                                            mMatchStatus->absolute_pitch_position_to_percent(ownpos, mMatchStatus->getPlayerSide(mPlayerID))) &&
                            !(mMatchStatus->inOffsidePosition(mPlayerID)))
                         {
@@ -63,7 +64,7 @@ namespace freekick
 
                         soccer::PlayerTarget b = mMatchStatus->getPlayerTarget(mPlayerID);
                         PlayerPosition pp = mPlayer->getPlayerPosition();
-                        addutil::Vector3 formationpoint = f->getPlayerAreaCenter(mPlayerID);
+                        addutil::Vector3 formationpoint = f->getTacticAreaCenter(h.ourclubhasball, h.ballonourside, h.plpos);
                         addutil::Vector3 movedFormationpoint(formationpoint);
                         float plength = mMatchStatus->getPitchLength();
                         float pwidth = mMatchStatus->getPitchWidth();

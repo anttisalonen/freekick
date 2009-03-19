@@ -48,11 +48,7 @@ namespace freekick
 
                         clearTasks();
 
-                        addutil::Vector3 ballpos_corrected = 
-                            mMatchStatus->absolute_pitch_position_to_percent(mMatchStatus->getBall()->getPosition(), h.b);
-                        bool ballinmyarea = mMatchStatus->getPlayerFormation(mPlayerID)->getPlayerArea(mPlayerID).in(
-                            ballpos_corrected);
-                        if(h.own != h.b && h.ballinourgoalarea && (h.isnearestplayer || ballinmyarea))
+                        if(h.own != h.b && h.ballinourgoalarea && (h.isnearestplayer || h.ballinmyarea))
                         {
                             std::cerr << "GoalkeeperAction: Ball holder: " << mMatchStatus->holdingBall() << std::endl;
                             if(!h.holdingtheball)

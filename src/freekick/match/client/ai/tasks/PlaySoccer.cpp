@@ -90,11 +90,7 @@ namespace freekick
                                 }
                                 else
                                 {
-                                    addutil::Vector3 ballpos_corrected = 
-                                        mMatchStatus->absolute_pitch_position_to_percent(mMatchStatus->getBall()->getPosition(), h.b);
-                                    bool ballinmyarea = mMatchStatus->getPlayerFormation(mPlayerID)->getPlayerArea(mPlayerID).in(
-                                        ballpos_corrected);
-                                    if((h.isnearestplayer || ballinmyarea) && h.allowed_to_kick)
+                                    if((h.isnearestplayer || h.ballinmyarea) && h.allowed_to_kick)
                                     {
                                         if(h.abletokick)
                                         {
@@ -103,7 +99,7 @@ namespace freekick
                                         }
                                         else
                                         {
-                                            if(h.amnearerthanthey)         // run to ball
+                                            if(h.ourclubhasball)         // run to ball
                                             {
                                                 boost::shared_ptr<FetchBall> t(new FetchBall(mMatchStatus, mPlayerID));
                                                 addTask(t);

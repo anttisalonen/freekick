@@ -42,7 +42,8 @@ namespace freekick
                             addutil::Vector3 formationpoint;
                             try
                             {
-                                formationpoint = mMatchStatus->getPlayerClub(mPlayerID)->getFormation()->getPlayerAreaCenter(mPlayerID);
+                                const std::string& plpos = mMatchStatus->getPlayerClub(mPlayerID)->getPlayerPosition(mPlayerID);
+                                formationpoint = mMatchStatus->getPlayerClub(mPlayerID)->getFormation()->getTacticAreaCenter(true, true, plpos);
                                 ownformationpos.x = formationpoint.x;
                             }
                             catch(...)
