@@ -21,6 +21,16 @@
 
 namespace addutil
 {
+    Exception::Exception(const std::string& msg)
+        : m_msg(msg)
+    {
+    }
+
+    const char* Exception::what() const throw ()
+    {
+        return m_msg.c_str();
+    }
+
     void output_boost_exception(boost::exception& e, const std::string& msg)
     {
 #if defined(BOOST_VERSION) && (BOOST_VERSION < 103700)

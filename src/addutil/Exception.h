@@ -23,6 +23,7 @@
 
 #include <string>
 #include <iostream>
+#include <exception>
 
 #include <boost/exception.hpp>
 #include <boost/version.hpp>
@@ -33,10 +34,14 @@
 
 namespace addutil
 {
-    class Exception
+    class Exception : public std::exception
     {
     public:
-        virtual ~Exception() { }
+        Exception(const std::string& msg);
+        virtual ~Exception() throw() { }
+        virtual const char* what() const throw();
+    private:
+        std::string m_msg;
     };
     
     void output_boost_exception(boost::exception& e, const std::string& msg = "A boost::exception has occurred");

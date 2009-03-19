@@ -31,7 +31,7 @@ namespace addutil
     class Square
     {
     public:
-        Square(float minx, float maxx, float minz, float maxz);
+        Square(float minx = 0.0f, float maxx = 0.0f, float minz = 0.0f, float maxz = 0.0f);
         Square(const Vector3& a, const Vector3& b);
         bool in(const Vector3& t) const;
         const Vector3 getCenter() const;        

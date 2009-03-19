@@ -26,46 +26,23 @@
 #include <libxml/parser.h>
 #include <libxml/tree.h>
 
+#include "Exception.h"
 #include "General.h"
 
 namespace addutil
 {
     namespace xml
     {
-        xmlNodePtr add_child(xmlNodePtr parent, const char* name)
-        {
-            return xmlNewChild(parent, NULL, BAD_CAST name, NULL);
-        }
-
-        void add_attribute(xmlNodePtr n, const char* name, const char* value)
-        {
-            xmlNewProp(n, BAD_CAST name, BAD_CAST value);
-        }
-
-        void add_attribute(xmlNodePtr n, const char* name, int value)
-        {
-            char f[8];
-            sprintf(f, "%d", value);
-            add_attribute(n, name, f);
-        }
-
-        void add_name_attribute(xmlNodePtr n, const char* value, const char* first_name_attr_name, const char* last_name_attr_name)
-        {
-            std::string first, last;
-            general::name_to_first_and_last_name(value, first, last);
-            add_attribute(n, first_name_attr_name, first.c_str());
-            add_attribute(n, last_name_attr_name, last.c_str());
-        }
-
-        void color_to_xml(xmlNodePtr parent, char color, const char* node_name)
-        {
-            xmlNodePtr color_node = add_child(parent, node_name);
-            int r, g, b;
-            general::colorbyte_to_color(color, r, g, b);
-            add_attribute(color_node, "r", r);
-            add_attribute(color_node, "g", g);
-            add_attribute(color_node, "b", b);
-        }
+        xmlNodePtr add_child(xmlNodePtr parent, const char* name);
+        void add_attribute(xmlNodePtr n, const char* name, const char* value);
+        void add_attribute(xmlNodePtr n, const char* name, int value);
+        void add_name_attribute(xmlNodePtr n, const char* value, const char* first_name_attr_name, const char* last_name_attr_name);
+        bool node_has_name(const xmlNodePtr node, const char* name);
+        bool node_is_node(const xmlNodePtr node, const char* name);
+        void color_to_xml(xmlNodePtr parent, char color, const char* node_name);
+        void get_attribute(const xmlNodePtr node, const char* attrname, std::string& attrvalue);
+        void get_attribute(const xmlNodePtr node, const char* attrname, int& attrvalue);
+        void get_attribute(const xmlNodePtr node, const char* attrname, float& attrvalue);
     }
 }
 
