@@ -50,16 +50,16 @@ namespace freekick
                         s1.assign(what[1].first, what[1].second);
                         msg.assign(what[2].first, what[2].second);
                         int this_id = atoi(s1.c_str());
-                        if(corr_id != this_id) throw "SerializationDataMessage: incorrect ID";
+                        if(corr_id != this_id) throw addutil::Exception("SerializationDataMessage: incorrect ID");
                     }
                     else
-                        throw "SerializationDataMessage: failed parse";                    
+                        throw addutil::Exception("SerializationDataMessage: failed parse");
                 }
 
                 const std::string serString(const std::string& msg) const
                 {
                     std::ostringstream oss(std::ostringstream::out);
-                    oss << serialization_delim << " " << m_serializationid << " " << msg << " " << m_serializationid << " " << serialization_delim;
+                    oss << serialization_delim << " " << m_serializationid << " " << msg << " " << serialization_delim;
                     return stdString(oss.str());
                 }
 

@@ -28,6 +28,8 @@
 #include <cctype>
 #include <cstdlib>
 
+#include "addutil/Exception.h"
+
 namespace freekick
 {
     namespace match
@@ -37,7 +39,8 @@ namespace freekick
             const static std::string freekick_server_id 	= "FREEKICK_SERVER";
             const static std::string freekick_client_id 	= "FREEKICK_CLIENT";
             const static std::string serialization_delim	= "+";
-            const static int initialdata_id			= 1;
+            const static int serialization_id_digits            = 3;
+            const static int initialdata_xml_id			= 501;
             const static int initialdata_club_id		= 100;
             const static int initialdata_kit_id			= 110;
             const static int initialdata_pitch_id		= 130;

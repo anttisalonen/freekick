@@ -39,7 +39,7 @@
 #include "GiveGeneralUpdateIntervalMessage.h"
 #include "HeadPlayerControlMessage.h"
 #include "HoldPlayerControlMessage.h"
-#include "InitialDataMessage.h"
+#include "InitialDataXMLMessage.h"
 #include "InitialDataClubMessage.h"
 #include "InitialDataKitMessage.h"
 #include "InitialDataRequest.h"

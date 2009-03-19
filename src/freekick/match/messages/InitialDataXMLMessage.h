@@ -18,10 +18,14 @@
 **************************************************************************/
 
 
-#ifndef FREEKICK_MATCH_MESSAGES_INITIALDATAMESSAGE_H
-#define FREEKICK_MATCH_MESSAGES_INITIALDATAMESSAGE_H
+#ifndef FREEKICK_MATCH_MESSAGES_INITIALDATAXMLMESSAGE_H
+#define FREEKICK_MATCH_MESSAGES_INITIALDATAXMLMESSAGE_H
+
+#include <sstream>
 
 #include <boost/archive/text_oarchive.hpp>
+
+#include "addutil/XML.h"
 
 #include "MatchStatus.h"
 
@@ -33,26 +37,36 @@ namespace freekick
     {
         namespace messages
         {
-            class InitialDataMessage : public SerializationDataMessage
+            class InitialDataXMLMessage : public SerializationDataMessage
             {
             public:
-                InitialDataMessage(const MatchStatus& ms)
-                    : SerializationDataMessage(initialdata_id)
-                    , m_ms(ms)
+                InitialDataXMLMessage(const xmlDocPtr doc)
+                    : SerializationDataMessage(initialdata_xml_id)
                 {
+                    addutil::xml::node_to_stringstream(xmlDocGetRootElement(doc), m_ser_stream, false);
                 }
-                virtual ~InitialDataMessage() { }
+                InitialDataXMLMessage(std::string& msg)
+                    : SerializationDataMessage(msg, initialdata_xml_id)
+                {
+                    boost::shared_ptr<MatchData> data(new MatchData(msg));
+                    m_status.reset(new MatchStatus(data));
+                }
+
+                virtual ~InitialDataXMLMessage() { }
 
                 const std::string toString () const
                 {
-                    std::ostringstream oss(std::ostringstream::out);
-                    boost::archive::text_oarchive oa(oss);
-                    oa << m_ms;
-                    return serString(oss.str());
+                    return serString(m_ser_stream.str());
+                }
+
+                boost::shared_ptr<MatchStatus> getMatchStatus() const
+                {
+                    return m_status;
                 }
 
             private:
-                const MatchStatus& m_ms;
+                std::ostringstream m_ser_stream;
+                boost::shared_ptr<MatchStatus> m_status;
             };
         }
     }

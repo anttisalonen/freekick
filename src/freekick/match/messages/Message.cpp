@@ -72,7 +72,7 @@ namespace freekick
             int getSerializationMessageType(const std::string& s)
             {
                 if(getMessageType(s) != serialization_delim) throw "getSerializationMessageType: not a serialization message\n";
-                std::string n(s, 3, 3);
+                std::string n(s, serialization_delim.length() + 2, serialization_id_digits);
                 int i = atoi(n.c_str());
                 return i;
             }
