@@ -1,6 +1,7 @@
 def_env = Environment()
 def_env['CPPFLAGS'] = '-Wall -Wno-deprecated '
 def_env.Append(CPPPATH = ['src'])
+def_env.ParseConfig("pkg-config libxml-2.0 --cflags --libs")
 
 prof = ARGUMENTS.get('prof', 0)
 if int(prof):
@@ -47,8 +48,7 @@ if swos2fk_name in BUILD_TARGETS:
     swos2fk_env = def_env.Clone()
     swos2fk_env.Append(CPPPATH = ['./src/tools/swos2fk'])
     swos2fk_env['LIBPATH'] = ['./lib']
-    swos2fk_env['LIBS'] = ['addutil']
-    swos2fk_env.ParseConfig("pkg-config libxml-2.0 --cflags --libs")
+    swos2fk_env['LIBS'] += ['addutil']
     swos2fk_files = Glob('src/tools/swos2fk/*.cpp')
     swos2fk = swos2fk_env.Program(swos2fk_name, swos2fk_files)
 
@@ -57,7 +57,6 @@ if swos2fk_name in BUILD_TARGETS:
 addutil_env = def_env.Clone()
 addutil_env.Append(CPPPATH = ['src/addutil'])
 # addutil_env['CPPFLAGS'] += '-fPIC '
-addutil_env.ParseConfig("pkg-config libxml-2.0 --cflags --libs")
 addutil_obj = addutil_env.Object(Glob('src/addutil/*.cpp') + 
                                  Glob('src/addutil/network/*.cpp') +
                                  Glob('src/addutil/ai/*.cpp'))
@@ -71,7 +70,7 @@ if build_libs:
     soccer_env = addutil_env.Clone()
     soccer_env.Append(CPPPATH = ['src/freekick/soccer'])
     soccer_env['LIBPATH'] = ['./lib']
-    soccer_env['LIBS'] = ['addutil']
+    soccer_env['LIBS'] += ['addutil']
     soccer_obj = soccer_env.Object(Glob('src/freekick/soccer/*.cpp')) + addutil_obj
     soccer_env.Library(soccer_name, soccer_obj)
 
@@ -110,15 +109,11 @@ if ogreclient_name in BUILD_TARGETS:
     ogreclient_env.ParseConfig("pkg-config CEGUI-OGRE --cflags --libs")
     ogreclient_env.ParseConfig("pkg-config OIS --cflags --libs")
     ogreclient_env.ParseConfig("pkg-config CEGUI --cflags --libs")
-    ogreclient_env['LIBS'] = ['boost_thread', 
-                              'boost_system', 
-                              'boost_serialization',
-                              'boost_regex',
-                              'OgreMain', 
-                              'CEGUIBase', 
-                              'OIS', 
-                              'CEGUIOgreRenderer', 
-                              'client']
+    ogreclient_env['LIBS'] += ['boost_thread', 
+                               'boost_system', 
+                               'boost_serialization',
+                               'boost_regex',
+                               'client']
 
     ogreclient_files = (Glob('src/freekick/match/client/cl_ogre/*.cpp'))
     ogre_client = ogreclient_env.Program(ogreclient_name, ogreclient_files)
@@ -134,12 +129,12 @@ if ncursesclient_name in BUILD_TARGETS:
     ncursesclient_env.Append(CPPPATH = ['./src/freekick/match/client'])
     ncursesclient_env.Append(CPPPATH = ['./src/freekick/match/client/ncurses'])
     ncursesclient_env.Append(LIBPATH = ['./lib'])
-    ncursesclient_env['LIBS'] = ['boost_thread',
-                                 'boost_system',
-                                 'boost_serialization',
-                                 'boost_regex',
-                                 'ncurses',
-                                 'client']
+    ncursesclient_env['LIBS'] += ['boost_thread',
+                                  'boost_system',
+                                  'boost_serialization',
+                                  'boost_regex',
+                                  'ncurses',
+                                  'client']
 
     ncursesclient_files = (Glob('src/freekick/match/client/ncurses/*.cpp'))
     ncursesclient = ncursesclient_env.Program(ncursesclient_name, ncursesclient_files)
@@ -155,12 +150,12 @@ if aiclient_name in BUILD_TARGETS:
     aiclient_env.Append(CPPPATH = ['./src/freekick/match/client'])
     aiclient_env.Append(CPPPATH = ['./src/freekick/match/client/ai'])
     aiclient_env.Append(LIBPATH = ['./lib'])
-    aiclient_env['LIBS'] = ['boost_thread', 
-                            'boost_system', 
-                            'boost_serialization',
-                            'boost_regex',
-                            'boost_program_options',
-                            'client']
+    aiclient_env['LIBS'] += ['boost_thread', 
+                             'boost_system', 
+                             'boost_serialization',
+                             'boost_regex',
+                             'boost_program_options',
+                             'client']
 
     aiclient_files = (Glob('src/freekick/match/client/ai/*.cpp') +
                       Glob('src/freekick/match/client/ai/tasks/*.cpp'))
@@ -186,12 +181,12 @@ if fkserver_name in BUILD_TARGETS:
 
     fkserver_conf = Configure(fkserver_env)
 
-    fkserver_env['LIBS'] = ['boost_thread', 
-                            'boost_system', 
-                            'boost_serialization',
-                            'boost_regex',
-                            'match',
-                            bulletlibs]
+    fkserver_env['LIBS'] += ['boost_thread', 
+                             'boost_system', 
+                             'boost_serialization',
+                             'boost_regex',
+                             'match',
+                             bulletlibs]
 
     fkserver_files = Glob('src/freekick/match/server/*.cpp')
     fkserver = fkserver_env.Program(fkserver_name, fkserver_files)
@@ -209,12 +204,12 @@ if freekick_client_py_name in BUILD_TARGETS:
     freekick_client_py_env.Append(CPPPATH = ['/usr/include/python2.5'])
     freekick_client_py_env.Append(LIBPATH = ['./lib'])
 
-    freekick_client_py_env['LIBS'] = ['boost_thread', 
-                                      'boost_system', 
-                                      'boost_serialization',
-                                      'boost_regex',
-                                      'boost_python',
-                                      'client']
+    freekick_client_py_env['LIBS'] += ['boost_thread', 
+                                       'boost_system', 
+                                       'boost_serialization',
+                                       'boost_regex',
+                                       'boost_python',
+                                       'client']
 
     freekick_client_py_files = Glob('src/freekick/match/client/python/*.cpp')
     freekick_client_py = freekick_client_py_env.SharedLibrary(freekick_client_py_name, freekick_client_py_files)
