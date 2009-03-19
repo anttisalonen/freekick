@@ -44,31 +44,12 @@ int main(int argc, char** argv)
 {
     try
     {
-        boost::shared_ptr<Club> club1(new Club("home club name"));
-        boost::shared_ptr<Club> club2(new Club("away club name"));
-
-        int idnum;
-        for(idnum = 100; idnum < 120; idnum++)
+        if(argc == 1)
         {
-            int pos = idnum % 4;
-            PlayerPosition ppos = IntToPlayerPosition(pos);
-            boost::shared_ptr<Player> p(new Player("home player name", idnum % 20 + 1, idnum, ppos));
-            club1->addPlayer(p, NotPlaying);
+            std::cerr << "No command line argument - please specify a matchdata file to load." << std::endl;
+            exit(1);
         }
-        club1->setupStandardLineup();
-
-        for(idnum = 200; idnum < 220; idnum++)
-        {
-            int pos = idnum % 4;
-            PlayerPosition ppos = IntToPlayerPosition(pos);
-            boost::shared_ptr<Player> p(new Player("away player name", idnum % 20 + 1, idnum, ppos));
-            club2->addPlayer(p, NotPlaying);
-        }
-        club2->setupStandardLineup();
-
-        boost::shared_ptr<Stadium> stadium(new Stadium(70.0f, 100.0f));
-
-        boost::shared_ptr<MatchData> data(new MatchData(club1, club2, stadium));
+        boost::shared_ptr<MatchData> data(new MatchData(argv[1]));
         boost::shared_ptr<MatchStatus> status(new MatchStatus(data));
 
         std::cerr << "Starting Freekick server" << std::endl;
