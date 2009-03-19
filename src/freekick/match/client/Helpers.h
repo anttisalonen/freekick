@@ -21,6 +21,8 @@
 #ifndef FREEKICKTASKSHELPERS_H
 #define FREEKICKTASKSHELPERS_H
 
+#include <string>
+
 #include <boost/shared_ptr.hpp>
 
 #include "addutil/Vector3.h"
@@ -57,8 +59,12 @@ namespace freekick
                 const bool startplay;
                 const bool abletokick;
                 const bool issub;
+                const addutil::Vector3 ballpos_corrected;
                 const boost::tuple<int, float> nearestother;
-                const bool amnearerthanthey;
+                const std::string& plpos;
+                const bool ballonourside;
+                const bool ballinmyarea;
+                const bool ourclubhasball;
                 const bool ballinourgoalarea;
                 const bool holdingtheball;
                 const bool ballisheld;

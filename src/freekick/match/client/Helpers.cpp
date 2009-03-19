@@ -41,8 +41,12 @@ namespace freekick
                   startplay((iskickoff && !blocked && isnearestplayer && own == b)),
                   abletokick(isnearestplayer && nearestown.get<1>() < constants::max_kick_distance),
                   issub(mPlayer->isSubstitute()),
+                  ballpos_corrected(mMatchStatus->absolute_pitch_position_to_percent(mMatchStatus->getBall()->getPosition(), b)),
+                  plpos(mMatchStatus->getPlayerClub(mPlayerID)->getPlayerPosition(mPlayerID)),
                   nearestother(mMatchStatus->nearestPlayerFromClubToBall(other(b))),
-                  amnearerthanthey(nearestown.get<1>() < nearestother.get<1>()),
+                  ballonourside(mMatchStatus->onOwnSide(mMatchStatus->getBall()->getPosition(), b)),
+                  ballinmyarea(mMatchStatus->getPlayerFormation(mPlayerID)->inTacticArea(ourclubhasball, ballonourside, plpos, ballpos_corrected)),
+                  ourclubhasball(nearestown.get<1>() < nearestother.get<1>()),
                   ballinourgoalarea(ownersGoal(b, mMatchStatus->ballInGoalArea())),
                   holdingtheball(mMatchStatus->holdingBall() == mPlayerID),
                   ballisheld(mMatchStatus->holdingBall() != 0)
