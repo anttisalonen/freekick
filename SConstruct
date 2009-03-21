@@ -1,5 +1,5 @@
 import os
-num_cpu = int(os.environ.get('NUM_CPU', 2))
+num_cpu = int(os.environ.get('NUM_CPU', 1))
 SetOption('num_jobs', num_cpu)
 print "running with -j", GetOption('num_jobs')
 
