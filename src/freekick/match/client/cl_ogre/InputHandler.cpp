@@ -29,6 +29,7 @@ namespace freekick
             namespace cl_ogre
             {
                 InputHandler::InputHandler (int player_id,
+                                            bool follow_mouse,
                                             const boost::shared_ptr<InputConfiguration>& inputconf, 
                                             MatchStatus* ms,
                                             const std::string& windowhnd, 
@@ -42,7 +43,8 @@ namespace freekick
                       mControlledPlayer(player_id),
                       mSceneMgr(mgr),
                       mCamera(cam),
-                      mRenderWindow(win)
+                      mRenderWindow(win),
+                      mFollowMouse(follow_mouse)
                 {
                     mRotate = 0.13;
                     mMove = 50;
@@ -141,19 +143,17 @@ namespace freekick
                     return mContinue;
                 }
 
-                bool InputHandler::mousePressed (const OIS::MouseEvent& e, OIS::MouseButtonID id )
+                Ogre::Vector3 InputHandler::getPointedPitchPosition(const OIS::MouseEvent& e) const
                 {
-                    if(mControlledPlayer < 1)
-                        return true;
+                    using namespace Ogre;
                     // CEGUI::Point mousePos = CEGUI::MouseCursor::getSingleton().getPosition();
-                    Ogre::Ray mouseRay = mCamera->getCameraToViewportRay(
+                    Ray mouseRay = mCamera->getCameraToViewportRay(
                         e.state.X.abs / float(e.state.width), 
                         e.state.Y.abs / float(e.state.height));
                     mRaySceneQuery->setRay(mouseRay);
                     mRaySceneQuery->setSortByDistance(false);
-                    // std::cerr << "X: " << e.state.X.abs << "; Y: " << e.state.Y.abs << "; width: " << e.state.width << "; height: " << e.state.height << std::endl;
-
-                    using namespace Ogre;
+                    // std::cerr << "X: " << e.state.X.abs << "; Y: " << e.state.Y.abs << 
+                    // "; width: " << e.state.width << "; height: " << e.state.height << std::endl;
                     RaySceneQueryResult& result = mRaySceneQuery->execute();
                     RaySceneQueryResult::iterator itr = result.begin();
 
@@ -161,51 +161,75 @@ namespace freekick
                     {
                         if(itr->distance == 0.0f)
                             continue;
-                        Ogre::Vector3 clickpos = mouseRay.getPoint(itr->distance);
-                        // std::cerr << "Clicked; dist: " << itr->distance << "; pos: " << clickpos.x << ";" << clickpos.y << ";" << clickpos.z << std::endl;
-                        try
+                        return mouseRay.getPoint(itr->distance);
+                    }
+                    return Ogre::Vector3(0.0f, 0.0f, 0.0f);
+                }
+
+                bool InputHandler::mouseReleased (const OIS::MouseEvent& e, OIS::MouseButtonID id )
+                {
+                    if(mControlledPlayer < 1)
+                        return true;
+
+                    Ogre::Vector3 clickpos = getPointedPitchPosition(e);
+                    if(clickpos.x == 0.0f && clickpos.y == 0 && clickpos.z == 0)
+                        return true;
+                    // std::cerr << "Clicked; dist: " << itr->distance << "; pos: " << clickpos.x << ";" << clickpos.y << ";" << clickpos.z << std::endl;
+                    try
+                    {
+                        boost::shared_ptr<MatchPlayer> pl = mMatchStatus->getPlayer(mControlledPlayer);
+                        addutil::Vector3 plpos = pl->getPosition();
+                        addutil::Vector3 target(clickpos.x - plpos.x, clickpos.y - plpos.y, clickpos.z - plpos.z);
+                        if(id == OIS::MB_Left)
                         {
-                            boost::shared_ptr<MatchPlayer> pl = mMatchStatus->getPlayer(mControlledPlayer);
-                            addutil::Vector3 plpos = pl->getPosition();
-                            addutil::Vector3 target(clickpos.x - plpos.x, clickpos.y - plpos.y, clickpos.z - plpos.z);
-                            if(id == OIS::MB_Left)
-                            {
-                                Helpers::correctPassVector(target);
-                            }
-                            else
-                            {
-                                Helpers::correctShootVector(target);
-                            }
-                            network->sendMessage(messages::KickPlayerControlMessage(mControlledPlayer, target));
+                            Helpers::correctPassVector(target);
                         }
-                        catch(...)
+                        else
                         {
-                            std::cerr << "Tried to kick, but the player is not in the match status.\n";
+                            Helpers::correctShootVector(target);
                         }
-                        break;
+                        network->sendMessage(messages::KickPlayerControlMessage(mControlledPlayer, target));
+                    }
+                    catch(...)
+                    {
+                        std::cerr << "Tried to kick, but the player is not in the match status.\n";
                     }
 
                     return true;
                 }
 
-                bool InputHandler::mouseReleased (const OIS::MouseEvent& e, OIS::MouseButtonID id )
+                bool InputHandler::mousePressed (const OIS::MouseEvent& e, OIS::MouseButtonID id )
                 {
                     return true;
                 }
 
                 bool InputHandler::mouseMoved (const OIS::MouseEvent& e )
                 {
-                    // CEGUI::System::getSingleton().injectMouseMove(e.state.X.rel, e.state.Y.rel);
-/*
-                    if (e.state.buttonDown(OIS::MB_Right))
+                    if(!mFollowMouse)
+                        return true;
+
+                    if(mControlledPlayer < 1)
+                        return true;
+
+                    if(e.state.buttonDown(OIS::MB_Left) || e.state.buttonDown(OIS::MB_Right))
+                        return true;     // do not update when holding button down
+
+                    Ogre::Vector3 clickpos = getPointedPitchPosition(e);
+                    if(clickpos.x == 0.0f && clickpos.y == 0 && clickpos.z == 0)
+                        return true;
+                    clickpos.y = 0.0f;
+                    try
                     {
-                        if(mCamNode)
-                        {
-                            mCamNode->yaw(Ogre::Degree(-mRotate * e.state.X.rel), Ogre::Node::TS_WORLD);
-                            mCamNode->pitch(Ogre::Degree(-mRotate * e.state.Y.rel), Ogre::Node::TS_LOCAL);
-                        }
+                        boost::shared_ptr<MatchPlayer> pl = mMatchStatus->getPlayer(mControlledPlayer);
+                        addutil::Vector3 plpos = pl->getPosition();
+                        addutil::Vector3 target(clickpos.x - plpos.x, clickpos.y - plpos.y, clickpos.z - plpos.z);
+                        network->sendMessage(messages::MovePlayerControlMessage(mControlledPlayer, target));
                     }
-*/
+                    catch(...)
+                    {
+                        std::cerr << "Tried to move, but the player is not in the match status.\n";
+                    }
+
                     return true;
                 }
 
@@ -313,59 +337,63 @@ namespace freekick
                     bool sendmove = false;
                     switch (e.key)
                     {
-                        case OIS::KC_UP:
-                            mDirection.z += mMove;
-                            break;
-
-                        case OIS::KC_DOWN:
-                            mDirection.z -= mMove;
-                            break;
-
-                        case OIS::KC_LEFT:
-                            mDirection.x += mMove;
-                            break;
-
-                        case OIS::KC_RIGHT:
-                            mDirection.x -= mMove;
-                            break;
-
-                        case OIS::KC_PGDOWN:
-                            mDirection.y += mMove;
-                            break;
-
-                        case OIS::KC_PGUP:
-                            mDirection.y -= mMove;
-                            break;
-
                         case OIS::KC_W:
+                        case OIS::KC_UP:
                             setMoveVector(DirUp, -15.0f);
                             sendmove = true;
                             break;
 
                         case OIS::KC_S:
+                        case OIS::KC_DOWN:
                             setMoveVector(DirDown, -15.0f);
                             sendmove = true;
                             break;
 
                         case OIS::KC_A:
+                        case OIS::KC_LEFT:
                             setMoveVector(DirLeft, -15.0f);
                             sendmove = true;
                             break;
 
                         case OIS::KC_D:
+                        case OIS::KC_RIGHT:
                             setMoveVector(DirRight, -15.0f);
                             sendmove = true;
                             break;
 
                         case OIS::KC_Q:
+                        case OIS::KC_PGUP:
                             setMoveVector(DirUp, -15.0f);
                             sendmove = true;
                             break;
 
                         case OIS::KC_E:
+                        case OIS::KC_PGDOWN:
                             setMoveVector(DirCrouch, -15.0f);
                             sendmove = true;
                             break;
+
+                        case OIS::KC_RCONTROL:
+                        case OIS::KC_LCONTROL:
+                        {
+                            addutil::Vector3 target(mRunDirection);
+                            target.normalize();
+                            target *= 20.0f;
+                            Helpers::correctPassVector(target);
+                            network->sendMessage(messages::KickPlayerControlMessage(mControlledPlayer, target));
+                            break;
+                        }
+
+                        case OIS::KC_RSHIFT:
+                        case OIS::KC_LSHIFT:
+                        {
+                            addutil::Vector3 target(mRunDirection);
+                            target.normalize();
+                            target *= 20.0f;
+                            Helpers::correctShootVector(target);
+                            network->sendMessage(messages::KickPlayerControlMessage(mControlledPlayer, target));
+                            break;
+                        }
 
                         default:
                             break;

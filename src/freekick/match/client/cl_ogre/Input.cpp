@@ -51,7 +51,7 @@ namespace freekick
                                              Ogre::SceneManager* mgr,
                                              Ogre::Camera* cam)
                 {
-                    inputhandler = new InputHandler(m_player_id, configuration->getInputConfiguration(), status, windowhnd, win, network, mgr, cam);
+                    inputhandler = new InputHandler(m_player_id, false, configuration->getInputConfiguration(), status, windowhnd, win, network, mgr, cam);
                 }
 
                 Ogre::FrameListener* Input::getFrameListener()

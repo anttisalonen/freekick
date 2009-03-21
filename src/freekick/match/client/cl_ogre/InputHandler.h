@@ -90,6 +90,7 @@ namespace freekick
                 {
                 public:
                     InputHandler (int player_id,
+                                  bool follow_mouse,
                                   const boost::shared_ptr<InputConfiguration>& inputconf,
                                   MatchStatus* ms,
                                   const std::string& windowhnd, 
@@ -113,6 +114,7 @@ namespace freekick
                     void sendMoveMessage(const addutil::Vector3& to);
                     void sendMoveMessage(Direction d, float mag);
                     void switchToCameraMode(CameraMode m);
+                    Ogre::Vector3 getPointedPitchPosition(const OIS::MouseEvent& e) const;
 
                     boost::shared_ptr<InputConfiguration> inputconfiguration;
                     MatchStatus* mMatchStatus;
@@ -142,6 +144,8 @@ namespace freekick
                     Ogre::RaySceneQuery* mRaySceneQuery;
                     CEGUI::Renderer *mGUIRenderer;
                     Ogre::RenderWindow* mRenderWindow;
+
+                    bool mFollowMouse;
                 };
             }
         }
