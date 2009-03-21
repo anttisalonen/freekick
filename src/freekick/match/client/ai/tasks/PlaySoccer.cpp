@@ -48,18 +48,7 @@ namespace freekick
 
                     boost::shared_ptr<messages::PlayerControlMessage> PlaySoccer::process()
                     {
-                        Helpers h(mMatchStatus, mPlayerID);
-
-/*
-  boost::shared_ptr<Task> nexttask = getNextTask();
-  if(nexttask->finished())
-  {
-  deleteNextTask();
-  }
-*/
-                        clearTasks();
-
-                        if(h.issub)
+                        if(mPlayer->isSubstitute())
                         {
                             // TODO: replace with BeingASubstituteTask
                             if(emptyTasks())
@@ -68,8 +57,12 @@ namespace freekick
                                 addTask(t);
                             }
                         }
+
                         else
                         {
+                            Helpers h(mMatchStatus, mPlayerID);
+                            clearTasks();
+
                             if(!emptyTasks())
                             {
                                 // TODO: check if current task should be cleared
