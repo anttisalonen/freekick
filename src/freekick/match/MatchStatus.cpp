@@ -27,6 +27,8 @@ namespace freekick
             : mMatchData(md),
               mContinue(true),
               mBall(new MatchBall(*mMatchData->getBall())),
+              score_home(0),
+              score_away(0),
               secondhalf(false)
         {
             float pwidth = mMatchData->getStadium()->getPitch()->getWidth();
