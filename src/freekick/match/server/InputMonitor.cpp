@@ -43,11 +43,21 @@ namespace freekick
                 // if(player_on_ground)   // TODO: define
                     (*mVelocities)[plid].y = v.y;
 
-                // TODO: define max. velocity somewhere else and take stamina etc. into account
+                int plspeed_skill = 0;
+                try
+                {
+                    plspeed_skill = mMatchStatus->getPlayer(plid)->playerskills.speed;
+                } catch(...)
+                {
+                    std::cerr << "InputMonitor:" << __func__ << ": move player control message from a non-existing player?\n";
+                    return;
+                }
+
+                // TODO: define max/min velocity somewhere else and take stamina etc. into account
                 if(v.length() > 10.0f)
                 {
                     v.normalize();
-                    v *= 10.0f;
+                    v *= (5.0f + (plspeed_skill / 200.0f));
                 }
 
                 (*mSetpoints)[plid] = v;
