@@ -76,7 +76,7 @@ namespace addutil
             if(!attrval)
             {
                 std::stringstream ss;
-                ss << __func__ << ": expected attribute " << attrname;
+                ss << __func__ << ": expected attribute '" << attrname << "'";
                 throw addutil::Exception(ss.str());
             }
             attrvalue = (const char*)attrval;
