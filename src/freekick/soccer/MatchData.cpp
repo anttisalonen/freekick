@@ -174,10 +174,12 @@ namespace freekick
                 }
                 else if(node_is_node(node, "formation"))
                 {
+                    std::cerr << __func__ << ": parsing formation\n";
                     parse_formation(node);
                 }
                 else if(node_is_node(node, "lineup"))
                 {
+                    std::cerr << __func__ << ": parsing lineup\n";
                     parse_lineup(node);
                 }
                 else if(!node_has_name(node, "text"))

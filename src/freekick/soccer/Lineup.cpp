@@ -33,7 +33,7 @@ namespace freekick
             xmlNode *node = NULL;
             std::string name;
 
-            for (node = root; node; node = node->next)
+            for (node = root->children; node; node = node->next)
             {
                 if(node_is_node(node, "position"))
                 {
