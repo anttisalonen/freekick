@@ -39,18 +39,21 @@ namespace freekick
 
                 bool GraphicsUpdater::frameStarted(const Ogre::FrameEvent& evt)
                 {
-                    typedef boost::shared_ptr<MatchPlayer> PtrPlayer;
-                    std::map <int, PtrPlayer> drs;
+                    typedef boost::shared_ptr<MatchPlayer> PlayerPtr;
+                    std::map <int, PlayerPtr> drs;
                     status->getPlayers(drs);
-                    std::map <int, PtrPlayer>::iterator d;
+                    std::map <int, PlayerPtr>::iterator d;
 
                     bool success;
+
+                    // Players
                     for (d = drs.begin(); d != drs.end(); d++)
                     {
                         success = updateOgreNode(*d, evt);
                         if(!success) return false;
                     }
 
+                    // Ball
                     boost::shared_ptr<MatchBall> b = status->getBall();
                     success = updateOgreNode(b, evt);
 
@@ -77,14 +80,21 @@ namespace freekick
                             const std::string modelfile = d->getModel();
                             Ogre::Entity* ent = smgr->createEntity (ename.str(), modelfile);
                             ent->setCastShadows(true);
-                            if(dr_id >= 200)        // TODO: get actual kits
-                                ent->setMaterialName("Examples/EnvMappedRustySteel");
                             node = smgr->getRootSceneNode()->createChildSceneNode(nname.str());
                             node->attachObject(ent);
-                            if(modelfile == "robot.mesh")
-                                node->setScale(0.03f, 0.03f, 0.03f);
-                            if(modelfile == "ball.mesh")
+                            if(dr_id == BallID)
+                            {
                                 node->setScale(0.3f, 0.3f, 0.3f);
+                            }
+                            else if(dr_id > 0)  // Player
+                            {
+                                node->setScale(0.03f, 0.03f, 0.03f);
+                                soccer::BallOwner bo = status->getPlayerSide(dr_id);
+                                if(bo == Away)       // TODO: get actual kits
+                                {
+                                    ent->setMaterialName("Examples/EnvMappedRustySteel");
+                                }
+                            }
                             entitymap[dr_id] = ent;
                         }
                         else

@@ -36,6 +36,7 @@
 
 #include "MatchStatus.h"
 #include "MatchPlayer.h"
+#include "MatchIDs.h"
 
 /**
  * class GraphicsUpdater
