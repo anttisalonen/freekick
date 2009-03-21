@@ -229,7 +229,7 @@ int main(int argc, char** argv)
             }
             network->sendMessage(freekick::match::messages::InitialDataRequest());
             boost::this_thread::sleep(boost::posix_time::milliseconds(1000));
-            status.reset(network->getMatchStatus());
+            status = network->getMatchStatus();
             if(status.get() == 0)
             {
                 std::string err("Network::Network: no match status created.\n");
