@@ -22,19 +22,43 @@
 
 namespace addutil
 {
-// Constructors/Destructors
-//  
-
-/**
- * @param  hh
- * @param  mm
- * @param  ss
- * @param  mss
- */
-    Time::Time (unsigned int hh, unsigned int mm, unsigned int ss, unsigned int mss)
+    Time::Time (int hh, int mm, int ss, float mss)
         : h(hh), m(mm), s(ss), ms(mss) 
     {
+    }
 
+    void Time::add_m(int _m)
+    {
+        m += _m;
+    }
+
+    void Time::add_s(float _s)
+    {
+        add_ms(s * 1000.0f);
+    }
+
+    void Time::add_s(int _s)
+    {
+        int final_s = (s + _s) % 60;
+        int additional_m = (s + _s) / 60;
+        s = final_s;
+        if(additional_m)
+            add_m(additional_m);
+    }
+
+    void Time::add_ms(float _ms)
+    {
+        float final_ms = std::fmod((_ms + ms), 1000);
+        int additional_s = (_ms + ms) / 1000;
+        ms = final_ms;
+        if(additional_s > 0)
+            add_s(additional_s);
+    }
+
+    void Time::reset()
+    {
+        h = m = s = 0;
+        ms = 0.0f;
     }
 }
 

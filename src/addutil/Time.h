@@ -22,33 +22,27 @@
 #ifndef TIME_H
 #define TIME_H
 
-#include <boost/serialization/serialization.hpp>
+#include <cmath>
+#include <iostream>
 
-/**
- * class Time
- */
+#include <boost/serialization/serialization.hpp>
 
 namespace addutil
 {
     class Time
     {
     public:
+        Time (int hh = 0, int mm = 0, int ss = 0, float mss = 0 );
 
-        // Constructors/Destructors
-        //  
-
-        /**
-         * @param  hh
-         * @param  mm
-         * @param  ss
-         * @param  mss
-         */
-        Time (unsigned int hh = 0, unsigned int mm = 0, unsigned int ss = 0, unsigned int mss = 0 );
-
-        unsigned int h;
-        unsigned int m;
-        unsigned int s;
-        unsigned int ms;
+        int h;
+        int m;
+        int s;
+        float ms;
+        void add_m(int _m);
+        void add_s(float s);
+        void add_s(int _s);
+        void add_ms(float _ms);
+        void reset();
 
     private:
 
