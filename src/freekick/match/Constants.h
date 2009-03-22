@@ -28,6 +28,7 @@ namespace freekick
         namespace constants
         {
             static const float max_kick_distance = 1.2f;
+            static const int match_time_min = 1;
         }
     }
 }
