@@ -47,6 +47,7 @@ namespace freekick
                         bool finished() const;
                         boost::shared_ptr<messages::PlayerControlMessage> process();
                     private:
+                        void set_own_formation_pos();
                         boost::shared_ptr<MatchStatus> mMatchStatus;
                         int mPlayerID;
                         addutil::Vector3 ownformationpos;

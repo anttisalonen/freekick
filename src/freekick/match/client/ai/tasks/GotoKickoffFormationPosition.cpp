@@ -33,6 +33,10 @@ namespace freekick
                         : mMatchStatus(ms),
                           mPlayerID(id)
                     {
+                    }
+
+                    void GotoKickoffFormationPosition::set_own_formation_pos()
+                    {
                         boost::shared_ptr<MatchPlayer> pl = mMatchStatus->getPlayer(mPlayerID);
                         soccer::BallOwner own = mMatchStatus->getPlayerSide(mPlayerID);
                         PlayerPosition pp = pl->getPlayerPosition();
@@ -71,10 +75,13 @@ namespace freekick
                             ownformationpos.x = -0.1f;
                             ownformationpos.z = 0.4f;
                         }
-                        if(own == Away)
+                        if((own == Away && !mMatchStatus->isSecondHalf()) || (own == Home && mMatchStatus->isSecondHalf()))
                         {
-                            ownformationpos.x = 1.0f - ownformationpos.x;
-                            ownformationpos.z = 1.0f - ownformationpos.z;
+                            if(!issub)
+                            {
+                                ownformationpos.x = 1.0f - ownformationpos.x;
+                                ownformationpos.z = 1.0f - ownformationpos.z;
+                            }
                         }
                         float pitchw = mMatchStatus->getPitchWidth();
                         float pitchl = mMatchStatus->getPitchLength();
@@ -94,6 +101,7 @@ namespace freekick
 
                     boost::shared_ptr<messages::PlayerControlMessage> GotoKickoffFormationPosition::process()
                     {
+                        set_own_formation_pos();
                         boost::shared_ptr<MatchPlayer> pl = mMatchStatus->getPlayer(mPlayerID);
                         addutil::Vector3 ownpos = pl->getPosition();
                         addutil::Vector3 gotovec = ownformationpos - ownpos;
