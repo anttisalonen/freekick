@@ -242,30 +242,6 @@ namespace freekick
                             mContinue = false;
                             break;
 
-                        case OIS::KC_UP:
-                            mDirection.z -= mMove;
-                            break;
-
-                        case OIS::KC_DOWN:
-                            mDirection.z += mMove;
-                            break;
-
-                        case OIS::KC_LEFT:
-                            mDirection.x -= mMove;
-                            break;
-
-                        case OIS::KC_RIGHT:
-                            mDirection.x += mMove;
-                            break;
-
-                        case OIS::KC_PGDOWN:
-                            mDirection.y -= mMove;
-                            break;
-
-                        case OIS::KC_PGUP:
-                            mDirection.y += mMove;
-                            break;
-
                         case OIS::KC_O:
                         {
                             const Ogre::Vector3& vec = mCamera->getPosition();
@@ -276,31 +252,37 @@ namespace freekick
                         }
 
                         case OIS::KC_W:
+                        case OIS::KC_UP:
                             setMoveVector(DirUp, 15.0f);
                             sendmove = true;
                             break;
 
                         case OIS::KC_S:
+                        case OIS::KC_DOWN:
                             setMoveVector(DirDown, 15.0f);
                             sendmove = true;
                             break;
 
                         case OIS::KC_A:
+                        case OIS::KC_LEFT:
                             setMoveVector(DirLeft, 15.0f);
                             sendmove = true;
                             break;
 
                         case OIS::KC_D:
+                        case OIS::KC_RIGHT:
                             setMoveVector(DirRight, 15.0f);
                             sendmove = true;
                             break;
 
                         case OIS::KC_Q:
+                        case OIS::KC_PGUP:
                             setMoveVector(DirJump, 15.0f);
                             sendmove = true;
                             break;
 
                         case OIS::KC_E:
+                        case OIS::KC_PGDOWN:
                             setMoveVector(DirCrouch, 15.0f);
                             sendmove = true;
                             break;
