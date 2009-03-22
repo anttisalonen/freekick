@@ -30,7 +30,8 @@ namespace freekick
         namespace server
         {
             Physics::Physics (boost::shared_ptr<MatchStatus> ms, boost::shared_ptr<InputMonitor> im)
-                : mMatchStatus(ms),
+                : m_added_time(0.0f),
+                  mMatchStatus(ms),
                   mPhysicsEngine(new BulletPhysicsEngine(Vector3(-200,-100,-200), 
                                                          Vector3( 200, 100, 200), 
                                                          500,
@@ -112,6 +113,7 @@ namespace freekick
                 unsigned long sleep_time = frametime * 1000000;
                 bool successful = true;
                 long time_left = 0;
+                m_added_time = frametime;
 
                 std::map<int, addutil::Vector3>::iterator it;
                 boost::shared_ptr<std::map<int, addutil::Vector3> > velocityMap;
@@ -255,10 +257,11 @@ namespace freekick
                 newowners.clear();
             }
 
-            void Physics::getUpdates(PhysicsMessageList& l, OwnerMessageList& c) const
+            void Physics::getUpdates(PhysicsMessageList& l, OwnerMessageList& c, float& t) const
             {
                 l = newmessages;
                 c = newowners;
+                t = m_added_time;
             }
         }
     }

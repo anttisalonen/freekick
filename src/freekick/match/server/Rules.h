@@ -45,10 +45,12 @@ namespace freekick
     {
         namespace server
         {
-            typedef messages::GeneralUpdateStatusMessage RulesMessage;
-            typedef std::vector<RulesMessage> RulesMessageList;
+            typedef messages::GeneralUpdateStatusMessage StatusMessage;
+            typedef std::vector<StatusMessage> StatusMessageList;
             typedef messages::GeneralUpdateScoreMessage ScoreMessage;
             typedef std::vector<ScoreMessage> ScoreMessageList;
+            typedef messages::GeneralUpdateTimeMessage TimeMessage;
+            typedef std::vector<TimeMessage> TimeMessageList;
 
             class Rules : public addutil::Publisher<Rules>, public addutil::Reader<Physics>
             {
@@ -60,7 +62,7 @@ namespace freekick
                 void update(Physics* p);
 
                 // Publisher<Rules>
-                void getUpdates (RulesMessageList& pes, ScoreMessageList& scs) const;
+                void getUpdates (StatusMessageList& pes, ScoreMessageList& scs, TimeMessageList& tis) const;
 
             protected:
                 // Publisher<Rules>
@@ -73,8 +75,9 @@ namespace freekick
                 boost::array<std::vector<int>, 2> substitutes;
 
                 // Messages that will be published are stored here
-                RulesMessageList newmessages;
+                StatusMessageList newstatus;
                 ScoreMessageList newscores;
+                TimeMessageList newtimes;
 
                 BallState mBallState;
                 boost::shared_ptr<Pitch> mPitch;
@@ -84,10 +87,12 @@ namespace freekick
 
                 void check_for_touched_ball(const OwnerMessageList& c, bool& new_ball_status, bool& ball_touched);
                 void check_for_over_pitch(const PhysicsMessageList& l, bool& new_ball_status, GoalQuery& goal_scored);
-                void check_for_bio_change(bool& new_ball_status, const bool& ball_touched);
+                void check_for_bio_change(bool& new_ball_status, const bool& ball_touched, float added_time);
+                bool handle_time(float added_time);
                 bool play_can_be_given_free() const;
                 bool ball_due_for_throwin(const addutil::Vector3 ballvec) const;
                 bool ball_over_a_goal_line(const addutil::Vector3& ballvec) const;
+                bool group_on_pitch(const boost::array<std::vector<int>, 2> grp) const;
             };
 
         }

@@ -65,33 +65,26 @@ namespace freekick
             {
                 PhysicsMessageList l;
                 OwnerMessageList c;
-                p->getUpdates(l, c);
+                float t;
+                p->getUpdates(l, c, t);
                 dispatchPhysicsMessages(l);
                 // TODO: owner messages are not dispatched
             }
 
             void Dispatcher::update(Rules* r)
             {
-                RulesMessageList l;
+                StatusMessageList l;
                 ScoreMessageList s;
-                r->getUpdates(l, s);
-                dispatchRulesMessages(l);
-                dispatchScoreMessages(s);
+                TimeMessageList t;
+                r->getUpdates(l, s, t);
+                dispatchMessages(l);
+                dispatchMessages(s);
+                dispatchMessages(t);
             }
 
             void Dispatcher::dispatchClientInformation ( ) 
             {
-
-            }
-
-            void Dispatcher::dispatchConnectionMessage (const ConnectionMessage& e ) 
-            {
-
-            }
-
-            void Dispatcher::dispatchPhysicsMessage (const PhysicsMessage& e ) 
-            {
-
+                // TODO
             }
 
             void Dispatcher::dispatchPhysicsMessages (const PhysicsMessageList& es ) 
@@ -111,34 +104,6 @@ namespace freekick
 
                 std::ostringstream oss(std::ostringstream::out);
                 BOOST_FOREACH(PhysicsMessage m, es)
-                {
-                    oss << m.toString();
-                }
-                oss << "\n";
-                srv.multicast(oss.str(), 1);  // TODO: enum instead of 1 (gid)
-            }
-
-            void Dispatcher::dispatchRulesMessages (const RulesMessageList& es ) 
-            {
-                if(es.size() < 1) return;
-                std::ostringstream oss(std::ostringstream::out);
-                BOOST_FOREACH(RulesMessage m, es)
-                {
-                    oss << m.toString();
-                }
-                oss << "\n";
-                srv.multicast(oss.str(), 1);  // TODO: enum instead of 1 (gid)
-            }
-
-            void Dispatcher::dispatchConnectionMessages (const ConnectionMessageList& es)
-            {
-            }
-
-            void Dispatcher::dispatchScoreMessages (const ScoreMessageList& es ) 
-            {
-                if(es.size() < 1) return;
-                std::ostringstream oss(std::ostringstream::out);
-                BOOST_FOREACH(ScoreMessage m, es)
                 {
                     oss << m.toString();
                 }

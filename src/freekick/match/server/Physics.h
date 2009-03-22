@@ -71,7 +71,7 @@ namespace freekick
                 void update(PhysicsEngine* e);
 
                 // Publisher<Physics>
-                void getUpdates(PhysicsMessageList& l, OwnerMessageList& c) const;
+                void getUpdates(PhysicsMessageList& l, OwnerMessageList& c, float& t) const;
 
             protected:
                 // Publisher<Physics>
@@ -79,6 +79,7 @@ namespace freekick
 
             private:
                 bool mPause;
+                float m_added_time;
 
                 boost::shared_ptr<MatchStatus> mMatchStatus;
                 boost::shared_ptr<PhysicsEngine> mPhysicsEngine;

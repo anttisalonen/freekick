@@ -224,23 +224,7 @@ namespace freekick
                     case DroppedBall:
                     case PreKickoff:
                     {
-                        bool substitute_on_pitch = false;
-
-                        for(int i = 0; i < 2 && substitute_on_pitch == false; i++)
-                        {
-                            for(it = substitutes[i].begin(); it != substitutes[i].end() && substitute_on_pitch == false; it++)
-                            {
-                                EntityMap::const_iterator eit = entitymap.find(*it);
-                                if(eit != entitymap.end())
-                                {
-                                    addutil::Vector3 v = eit->second->getPosition();
-                                    if(mPitch->onPitch(v.x, v.z))
-                                    {
-                                        substitute_on_pitch = true;
-                                    }
-                                }
-                            }
-                        }
+                        bool substitute_on_pitch = group_on_pitch(substitutes);
                         return (!substitute_on_pitch);
                         break;
                     }
@@ -256,7 +240,7 @@ namespace freekick
                                 {
                                     addutil::Vector3 v = eit->second->getPosition();
                                     // TODO: check for half time/coin toss
-                                    if(!mPitch->onSide((i == 0), v.x, v.z))
+                                    if(!mPitch->onSide((i == 0) ^ mMatchStatus->isSecondHalf(), v.x, v.z))
                                         player_not_on_his_side = true;
                                 }
                             }
@@ -268,14 +252,70 @@ namespace freekick
                         return true;
                     case HalfFullTime:
                     default:
-                        return false;
+                        bool player_on_pitch = group_on_pitch(players);
+                        if(!player_on_pitch)
+                            return true;
                         break;
                 }
                 return false;
             }
 
-            void Rules::check_for_bio_change(bool& new_ball_status, const bool& ball_touched)
+            bool Rules::group_on_pitch(const boost::array<std::vector<int>, 2> grp) const
             {
+                bool on_pitch = false;
+                typedef std::map<int, boost::shared_ptr<MatchPlayer> > EntityMap;
+                std::map<int, boost::shared_ptr<MatchPlayer> > entitymap;
+                mMatchStatus->getPlayers(entitymap);
+
+                std::vector<int>::const_iterator it;
+                for(int i = 0; i < 2 && on_pitch == false; i++)
+                {
+                    for(it = grp[i].begin(); it != grp[i].end() && on_pitch == false; it++)
+                    {
+                        EntityMap::const_iterator eit = entitymap.find(*it);
+                        if(eit != entitymap.end())
+                        {
+                            addutil::Vector3 v = eit->second->getPosition();
+                            if(mPitch->onPitch(v.x, v.z))
+                            {
+                                on_pitch = true;
+                            }
+                        }
+                    }
+                }
+                return on_pitch;
+            }
+
+            bool Rules::handle_time(float added_time)
+            {
+                if(mBallState.bio_type == Kickoff && mMatchStatus->getTimeSec() == 0)
+                    return false;
+
+                if(mBallState.bio_type == PreKickoff)
+                {
+                    mMatchStatus->resetTime();
+                    return false;
+                }
+                if(mBallState.bio_type == HalfFullTime)
+                {
+                    return false;
+                }
+
+                mMatchStatus->addTime(added_time);
+                int m, s;
+                mMatchStatus->getTime(m, s);
+                if(m >= constants::match_time_min)
+                {
+                    mBallState.bio_type = HalfFullTime;
+                    return true;
+                }
+                return false;
+            }
+
+            void Rules::check_for_bio_change(bool& new_ball_status, const bool& ball_touched, float added_time)
+            {
+                if(handle_time(added_time))
+                    new_ball_status = true;
                 if(mBallState.bio_type == PreKickoff && !mBallState.blocked_play)
                 {
                     mBallState.bio_type = Kickoff;
@@ -304,6 +344,23 @@ namespace freekick
                             mBallState.blocked_play = false;
                             new_ball_status = true;
                         }
+                        if(mBallState.bio_type == HalfFullTime)
+                        {
+                            if(!mMatchStatus->isSecondHalf())
+                            {
+                                new_ball_status = true;
+                                mMatchStatus->setSecondHalf(2);
+                                mBallState.bio_type = PreKickoff;
+                                mBallState.blocked_play = true;
+                                mMatchStatus->resetTime();
+                                std::cerr << __func__ << ": starting second half\n";
+                            }
+                            else
+                            {
+                                std::cerr << __func__ << ": match ended -> exiting\n";
+                                mMatchStatus->setContinue(false);
+                            }
+                        }
                     }
                     else
                     {
@@ -321,7 +378,8 @@ namespace freekick
             {
                 PhysicsMessageList l;
                 OwnerMessageList c;
-                p->getUpdates(l, c);
+                float t;
+                p->getUpdates(l, c, t);
 
                 bool new_ball_status = false;
                 bool ball_touched = false;
@@ -333,18 +391,28 @@ namespace freekick
                     check_for_over_pitch(l, new_ball_status, goal_scored);
                 }
 
-                check_for_bio_change(new_ball_status, ball_touched);
+                check_for_bio_change(new_ball_status, ball_touched, t);
 
                 boost::posix_time::ptime this_time(boost::posix_time::microsec_clock::local_time());
                 boost::posix_time::time_period diff_time(last_update_time, this_time);
                 boost::posix_time::time_duration diff_dur = diff_time.length();
                 unsigned long us_diff = diff_dur.total_microseconds();
-                if(us_diff > update_time_interval_ms) new_ball_status = true;
+                if(us_diff > update_time_interval_ms)
+                {
+                    last_update_time = this_time;
+                    new_ball_status = true;
+
+                    int m, s;
+                    mMatchStatus->getTime(m, s);
+                    bool sech = mMatchStatus->isSecondHalf();
+                    messages::GeneralUpdateTimeMessage tm(m, s, (sech + 1));
+                    newtimes.push_back(tm);
+                }
 
                 if(new_ball_status)
                 {
                     messages::GeneralUpdateStatusMessage rm(mBallState);
-                    newmessages.push_back(rm);
+                    newstatus.push_back(rm);
                 }
 
                 if(goal_scored != NoGoal)
@@ -354,26 +422,28 @@ namespace freekick
                     newscores.push_back(rm);
                 }
 
-                if(newmessages.size() > 0 || newscores.size() > 0)
+                if(newtimes.size() > 0 || newstatus.size() > 0 || newscores.size() > 0)
                 {
-                    last_update_time = this_time;
                     publish();
-                    mMatchStatus->update(newmessages);
+                    mMatchStatus->update(newtimes);
+                    mMatchStatus->update(newstatus);
                     mMatchStatus->update(newscores);
                     clearMessages();
                 }
             }
 
-            void Rules::getUpdates (RulesMessageList& pes, ScoreMessageList& scs) const
+            void Rules::getUpdates (StatusMessageList& pes, ScoreMessageList& scs, TimeMessageList& tis) const
             {
-                pes = newmessages;
+                pes = newstatus;
                 scs = newscores;
+                tis = newtimes;
             }
 
             void Rules::clearMessages()
             {
-                newmessages.clear();
+                newstatus.clear();
                 newscores.clear();
+                newtimes.clear();
             }
         }
     }

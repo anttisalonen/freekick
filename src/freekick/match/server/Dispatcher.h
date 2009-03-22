@@ -62,14 +62,19 @@ namespace freekick
                 void update(Rules* r);
 
                 void dispatchClientInformation ( );
-                void dispatchConnectionMessage (const ConnectionMessage& e );
-                
-                void dispatchPhysicsMessage (const PhysicsMessage& e );
-                void dispatchRulesMessage (const RulesMessage& e );
+                template <typename T> void dispatchMessages(const std::vector<T>& ms)
+                {
+                    if(ms.size() < 1) return;
+                    std::ostringstream oss(std::ostringstream::out);
+                    typename std::vector<T>::const_iterator it;
+                    for(it = ms.begin(); it != ms.end(); ++it)
+                    {
+                        oss << it->toString();
+                    }
+                    oss << "\n";
+                    srv.multicast(oss.str(), 1);  // TODO: enum instead of 1 (gid)
+                }
                 void dispatchPhysicsMessages (const PhysicsMessageList& es );
-                void dispatchRulesMessages (const RulesMessageList& es );
-                void dispatchScoreMessages (const ScoreMessageList& es );
-                void dispatchConnectionMessages (const ConnectionMessageList& es );
                 void newClientMessage(unsigned int clid, const messages::InitialDataRequest& m);   // TODO: add handlers for all receivable messages
                 void newClientMessage(unsigned int clid, const messages::SetGeneralUpdateIntervalMessage& m);
                 void newClientMessage(unsigned int clid, const messages::SetConstantUpdateIntervalMessage& m);
