@@ -58,8 +58,11 @@ namespace freekick
                 boost::thread physics_thread(boost::bind(&freekick::match::server::Physics::run, p));
                 std::cerr << "Starting listening on port " << mPort << std::endl;
                 boost::thread listen_thread(boost::bind(&freekick::match::server::ServerManager::startListening, this, mPort));
-                console_thread.join();
+                physics_thread.join();
+                // console_thread.join();
                 // listen_thread.interrupt();
+                stopListening();
+                mMatchStatus->createMatchResultFile();
                 return true;
             }
 
