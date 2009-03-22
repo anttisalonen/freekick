@@ -127,8 +127,8 @@ namespace freekick
                         max_variation = pass_len * 0.1f;
                     else
                         max_variation = pass_len * 0.3f;
-                    v.x += rand_float(0.0f, max_variation);
-                    v.z += rand_float(0.0f, max_variation);
+                    v.x += rand_float(-max_variation, max_variation);
+                    v.z += rand_float(-max_variation, max_variation);
                 }
                 else
                 {
@@ -150,11 +150,11 @@ namespace freekick
                         max_variation = shot_len * 0.05f;
                     else
                         max_variation = shot_len * 0.35f;
-                    v.x += rand_float(0.0f, max_variation);
-                    v.y += rand_float(0.0f, max_variation);
+                    v.x += rand_float(-max_variation, max_variation);
+                    v.y += rand_float(-max_variation, max_variation);
                     if(v.y < 0.0f)
                         v.y = 0.0f;
-                    v.z += rand_float(0.0f, max_variation);
+                    v.z += rand_float(-max_variation, max_variation);
                 }
 
                 (*mKicks)[plid] = v;
