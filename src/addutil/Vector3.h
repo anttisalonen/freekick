@@ -68,6 +68,7 @@ namespace addutil
         void capZ(float n);
         void reset();
         void set(float _x, float _y, float _z);
+        Vector3 normalized() const;
 
         float XZAngle() const;
         // Public attributes

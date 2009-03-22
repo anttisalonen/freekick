@@ -44,11 +44,7 @@ namespace addutil
 
     Vector3& Vector3::normalize()
     {
-        float len = length();
-        if(len == 0.0f) return *this;
-        x = x / len;
-        y = y / len;
-        z = z / len;
+        *this = normalized();
         return *this;
     }
 
@@ -80,6 +76,13 @@ namespace addutil
     void Vector3::reset()
     {
         x = y = z = 0.0f;
+    }
+
+    Vector3 Vector3::normalized() const
+    {
+        float len = length();
+        if(len == 0.0f) return Vector3(0.0f, 0.0f, 0.0f);
+        return Vector3(x / len, y / len, z / len);
     }
 
     void Vector3::set(float _x, float _y, float _z)
