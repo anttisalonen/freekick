@@ -36,6 +36,7 @@ namespace freekick
             LIBXML_TEST_VERSION;
             // TODO: create m_initial_data XML doc
             std::cerr << "created MatchData from classes\n";
+            temp_file_name = "";
         }
 
         MatchData::MatchData (const std::string& xmldata)
@@ -51,6 +52,7 @@ namespace freekick
                 throw addutil::Exception(ss.str());
             }
             create_from_doc(doc);
+            temp_file_name = "";
         }
 
         MatchData::MatchData (const char* filename)
@@ -67,6 +69,7 @@ namespace freekick
                 throw addutil::Exception(ss.str());
             }
             create_from_doc(doc);
+            temp_file_name = filename;
         }
 
         MatchData::~MatchData()
@@ -387,6 +390,11 @@ namespace freekick
         xmlDocPtr MatchData::getInitialDataXML() const
         {
             return m_initial_data;
+        }
+
+        const char* MatchData::getFilename() const
+        {
+            return temp_file_name;
         }
     }
 }

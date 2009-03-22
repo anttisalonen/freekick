@@ -73,6 +73,7 @@ namespace freekick
             void setStadium(boost::shared_ptr<Stadium>& stad);
             boost::shared_ptr<Stadium> getStadium() const;
             xmlDocPtr getInitialDataXML() const;
+            const char* getFilename() const;
 
         private:
             boost::shared_ptr<Club> homeclub;
@@ -82,6 +83,7 @@ namespace freekick
             boost::shared_ptr<Ball> ball;
             Time starttime;
             xmlDocPtr m_initial_data;
+            const char* temp_file_name;
 
             void create_from_doc(xmlDocPtr doc);
             void parse_match(xmlNode*);
