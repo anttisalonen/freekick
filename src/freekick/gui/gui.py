@@ -7,6 +7,7 @@ import signal
 import time
 import functools
 import math
+import copy
 
 from PyQt4 import QtGui, QtCore
 from PyQt4 import Qt as qt
@@ -89,6 +90,37 @@ def add_to_tree(widget):
                 for club in stage.club_names:
                     club_item = get_tree_widget_item(club)
                     st_item.addChild(club_item)
+
+class GeneralChooser(QtGui.QWidget):
+    def __init__(self, options, chosen_func, parent = None):
+        QtGui.QWidget.__init__(self, parent)
+        self.setWindowTitle('Please choose')
+        self.chosen_func = chosen_func
+
+        highest_box = QtGui.QVBoxLayout()
+        bottom_buttons_box = QtGui.QHBoxLayout()
+        top_choosing_box = QtGui.QHBoxLayout()
+
+        back = QtGui.QPushButton("Back")
+
+        self.options = QtGui.QListWidget()
+        for opt in options:
+            self.options.addItem(opt)
+
+        bottom_buttons_box.addWidget(back)
+        top_choosing_box.addWidget(self.options)
+
+        highest_box.addLayout(top_choosing_box)
+        highest_box.addLayout(bottom_buttons_box)
+
+        self.setLayout(highest_box)
+        self.resize(800, 600)
+
+        self.connect(back, QtCore.SIGNAL('clicked()'), self, QtCore.SLOT('close()'))
+        self.connect(self.options, QtCore.SIGNAL('itemClicked(QListWidgetItem *)'), self.goForward)
+
+    def goForward(self):
+        self.chosen_func(str(self.options.item(0).text()))
 
 class GeneralClubChooser(QtGui.QWidget):
     def __init__(self, num_clubs_to_choose, chosen_func, parent = None):
@@ -177,7 +209,22 @@ class Preset(QtGui.QWidget):
 
 class Season(QtGui.QWidget):
     def __init__(self, parent=None):
-        QtGui.QWidget.__init__(self, parent)
+        countries = []
+        sorted_countries = sorted_dict_values(db.countries)
+        for countryname, country in sorted_countries:
+            countries.append(countryname)
+        cc = GeneralChooser(countries, self.start_season)
+        cc.show()
+        self.wins = [cc]
+
+    def start_season(self, chosen_country):
+        s = db.countries[chosen_country].leaguesystem.levels[0].branches[0].stages[0]
+        t = Tournament.Tournament(s.name)
+        t.stages = [copy.deepcopy(s)]
+        t.in_league_system = True
+        tournament_screen = TournamentScreen(t, chosen_country)
+        tournament_screen.show()
+        self.wins.append(tournament_screen)
 
 class DIY(QtGui.QWidget):
     def __init__(self, parent=None):
