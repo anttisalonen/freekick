@@ -38,6 +38,27 @@ namespace freekick
                     , m_half(half)
                 {
                 }
+
+                GeneralUpdateTimeMessage(std::string& msg)
+                {
+                    using namespace boost;
+                    // TODO: read s_gen_time_upd from Message.h
+                    regex expr(" *?\\(B +([0-9]{1,2}?) +([0-9]{1,2}?) +([0-4])\\).*");
+                    cmatch what;
+                    if(regex_match(msg.c_str(), what, expr))
+                    {
+                        std::string s1, s2, s3;
+                        s1.assign(what[1].first, what[1].second);
+                        s2.assign(what[2].first, what[2].second);
+                        s3.assign(what[3].first, what[3].second);
+                        m_min  = atoi(s1.c_str());
+                        m_sec  = atoi(s2.c_str());
+                        m_half = atoi(s3.c_str());
+                    }
+                    else
+                        throw "GeneralUpdateTimeMessage: failed parse";
+                }
+
                 virtual ~GeneralUpdateTimeMessage() { }
                 const std::string toString() const
                 {
@@ -46,7 +67,6 @@ namespace freekick
                     return stdString(oss.str());
                 }
 
-            private:
                 unsigned int m_min, m_sec, m_half;
             };
         }
