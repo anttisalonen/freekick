@@ -14,6 +14,7 @@ from PyQt4 import Qt as qt
 from Primitives import sorted_dict_values
 import Database
 import SoccerData
+import Tournament
 
 class Lineups(QtGui.QWidget):
     def __init__(self, clubnames, parent=None):
@@ -78,17 +79,17 @@ def add_to_tree(widget):
         widget.addTopLevelItem(item)
         stages = country.get_stages()
         if len(stages) == 1:
-            for club in stages[0].clubs:
+            for club in stages[0].club_names:
                 club_item = get_tree_widget_item(club)
                 item.addChild(club_item)
         elif len(stages) > 1:
             for stage in stages:
                 st_item = get_tree_widget_item(stage.name)
                 item.addChild(st_item)
-                for club in stage.clubs:
+                for club in stage.club_names:
                     club_item = get_tree_widget_item(club)
                     st_item.addChild(club_item)
-            
+
 class GeneralClubChooser(QtGui.QWidget):
     def __init__(self, num_clubs_to_choose, chosen_func, parent = None):
         QtGui.QWidget.__init__(self, parent)
@@ -171,6 +172,10 @@ class Friendly:
         self.wins.append(ln)
 
 class Preset(QtGui.QWidget):
+    def __init__(self, parent=None):
+        QtGui.QWidget.__init__(self, parent)
+
+class Season(QtGui.QWidget):
     def __init__(self, parent=None):
         QtGui.QWidget.__init__(self, parent)
 
@@ -288,13 +293,13 @@ class DIY(QtGui.QWidget):
         for stage in range(self.max_num_stages):
             if self.num_clubs_boxes[stage].value() < 1:
                 break
-            s_type = SoccerData.StageType.League
+            s_type = Tournament.StageType.League
             if str(self.stage_type_boxes[stage].currentText()) == "Knockout":
-                s_type = SoccerData.StageType.Cup
-            new_stage = SoccerData.Stage(SoccerData.stage_number_to_stage_name(stage, self.max_num_stages), s_type)
+                s_type = Tournament.StageType.Cup
+            new_stage = Tournament.Stage(SoccerData.stage_number_to_stage_name(stage, self.max_num_stages), s_type)
             new_stage.setup.participantnum = self.additional_clubs_boxes[stage].value() + self.num_clubs_boxes[stage].value()
             t_stages.append(new_stage)
-        self.tournament = SoccerData.Tournament("DIY Tournament")
+        self.tournament = Tournament.Tournament("DIY Tournament")
         self.tournament.stages = t_stages
         cc = GeneralClubChooser(total_clubs, self.start_tournament)
         cc.show()
@@ -315,12 +320,12 @@ class TournamentScreen(QtGui.QWidget):
         self.bottom_buttons_box = QtGui.QHBoxLayout()
 
         self.this_stage = tournament.stages[0]
-        if self.this_stage.type == SoccerData.StageType.Cup:
+        if self.this_stage.type == Tournament.StageType.Cup:
             self.matches_box = QtGui.QHBoxLayout()
             self.left_matches_box = QtGui.QVBoxLayout()
             self.right_matches_box = QtGui.QVBoxLayout()
             index = 0
-            for club in self.this_stage.clubs:
+            for club in self.this_stage.club_names:
                 label = QtGui.QLabel(club)
                 if index % 2 == 0:
                     self.left_matches_box.addWidget(label)
@@ -386,6 +391,7 @@ class MainMenu(QtGui.QWidget):
         self.connect(friendly, QtCore.SIGNAL('clicked()'), self.doFriendly)
         self.connect(diy, QtCore.SIGNAL('clicked()'), self.doDIY)
         self.connect(preset, QtCore.SIGNAL('clicked()'), self.doPreset)
+        self.connect(season, QtCore.SIGNAL('clicked()'), self.doSeason)
         self.connect(quit, QtCore.SIGNAL('clicked()'), QtGui.qApp, QtCore.SLOT('quit()'))
 
     def doFriendly(self):
@@ -398,6 +404,11 @@ class MainMenu(QtGui.QWidget):
 
     def doPreset(self):
         wn = Preset()
+        wn.show()
+        self.wins += [wn]
+
+    def doSeason(self):
+        wn = Season()
         wn.show()
         self.wins += [wn]
 
