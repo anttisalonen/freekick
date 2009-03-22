@@ -206,6 +206,19 @@ namespace freekick
                             }
                             continue;
                         }
+                        else if (t == s_gen_time_upd)
+                        {
+                            try
+                            {
+                                const messages::GeneralUpdateTimeMessage m(this_event);
+                                status->update(m);
+                            }
+                            catch(...)
+                            {
+                                std::cerr << "Network: failed to parse GeneralUpdateTimeMessage.\n";
+                            }
+                            continue;
+                        }
                         else if (t == s_give_gen_upd_int)
                         {
                             try
