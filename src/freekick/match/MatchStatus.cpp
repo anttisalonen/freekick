@@ -189,15 +189,6 @@ namespace freekick
             mBallState = m.getBallState();
         }
 
-        void MatchStatus::update(const std::vector<messages::GeneralUpdateStatusMessage>& ms)
-        {
-            typedef std::pair<std::string, boost::shared_ptr<MatchClub> > pair_cl;
-            BOOST_FOREACH(messages::GeneralUpdateStatusMessage m, ms)
-            {
-                update(m);
-            }
-        }
-
         void MatchStatus::update(const messages::GeneralUpdateScoreMessage& m)
         {
             score_home = m.goals(true, false);
@@ -206,13 +197,16 @@ namespace freekick
             std::cout << "MatchStatus::update::GeneralUpdateScoreMessage: " << score_home << " : " << score_away << std::endl;
         }
 
-        void MatchStatus::update(const std::vector<messages::GeneralUpdateScoreMessage>& ms)
+        void MatchStatus::update(const messages::GeneralUpdateTimeMessage& m)
         {
-            typedef std::pair<std::string, boost::shared_ptr<MatchClub> > pair_cl;
-            BOOST_FOREACH(messages::GeneralUpdateScoreMessage m, ms)
-            {
-                update(m);
-            }            
+            currtime.m = m.m_min;
+            currtime.s = m.m_sec;
+            if(m.m_half == 2)
+                secondhalf = true;
+            else if(m.m_half == 1)
+                secondhalf = false;
+            // TODO: parse extra time
+            std::cout << "MatchStatus::update::GeneralUpdateTimeMessage: " << currtime.m << ":" << currtime.s << " (" << secondhalf << " half)\n";
         }
 
         boost::shared_ptr<MatchPlayer> MatchStatus::getPlayer(int id) const
@@ -640,6 +634,64 @@ namespace freekick
                 offside_line = getPitchLength() - offside_line;
                 return (v.z > offside_line);
             }
+        }
+
+        void MatchStatus::resetTime()
+        {
+            currtime.reset();
+        }
+
+        void MatchStatus::addTime(float sec)
+        {
+            currtime.add_ms(sec * 1000.0f);
+        }
+
+        void MatchStatus::getTime(int& m, int& s) const
+        {
+            m = currtime.m;
+            s = currtime.s;
+        }
+
+        int MatchStatus::getTimeSec() const
+        {
+            return currtime.m * 60 + currtime.s;
+        }
+
+        bool MatchStatus::isSecondHalf() const
+        {
+            return secondhalf;
+        }
+
+        void MatchStatus::setSecondHalf(int val)
+        {
+            if(val == 2)
+                secondhalf = true;
+            else if(val == 1)
+                secondhalf = false;
+        }
+
+        bool MatchStatus::createMatchResultFile() const
+        {
+            const char* filename = mMatchData->getFilename();
+            if(!filename)
+                return false;
+            if(strcmp(filename, "") == 0)
+                return false;
+
+            xmlDocPtr doc = NULL;       /* document pointer */
+            xmlNodePtr root_node = NULL;
+            xmlNodePtr sub_node = NULL;
+
+            doc = xmlNewDoc(BAD_CAST "1.0");
+            root_node = xmlNewNode(NULL, BAD_CAST "MatchResult");
+            xmlDocSetRootElement(doc, root_node);
+            sub_node = addutil::xml::add_child(root_node, "home");
+            addutil::xml::add_attribute(sub_node, "score", score_home);
+            sub_node = addutil::xml::add_child(root_node, "away");
+            addutil::xml::add_attribute(sub_node, "score", score_away);
+            xmlSaveFormatFileEnc(filename, doc, "UTF-8", 1);
+            xmlFreeDoc(doc);
+            return true;
         }
     }
 }

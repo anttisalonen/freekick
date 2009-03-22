@@ -46,6 +46,7 @@
 #include "messages/ConstantUpdateMessage.h"
 #include "messages/GeneralUpdateScoreMessage.h"
 #include "messages/GeneralUpdateStatusMessage.h"
+#include "messages/GeneralUpdateTimeMessage.h"
 
 namespace freekick
 {
@@ -62,9 +63,16 @@ namespace freekick
             void update(const messages::ConstantUpdateMessage& m, float time_interval = 0.0f, bool update_offside_pos = true);
             void update(const std::vector<messages::ConstantUpdateMessage>& ms, float time_interval = 0.0f);
             void update(const messages::GeneralUpdateStatusMessage& m);
-            void update(const std::vector<messages::GeneralUpdateStatusMessage>& ms);
             void update(const messages::GeneralUpdateScoreMessage& m);
-            void update(const std::vector<messages::GeneralUpdateScoreMessage>& ms);
+            void update(const messages::GeneralUpdateTimeMessage& m);
+            template <typename T> void update(const std::vector<T>& ms)
+            {
+                typename std::vector<T>::const_iterator it;
+                for(it = ms.begin(); it != ms.end(); ++it)
+                {
+                    update(*it);
+                }
+            }
             const boost::shared_ptr<MatchData>& getMatchData() const;
             void getPlayers (std::map <int, boost::shared_ptr<MatchPlayer> >& v) const;
             std::vector<boost::shared_ptr<MatchPlayer> > getPlayers() const;
@@ -115,6 +123,13 @@ namespace freekick
             bool onPitch(const addutil::Vector3& pos) const;
             bool onOwnSide(const addutil::Vector3& pos, BallOwner b) const;
             bool inOffsidePosition(soccer::PlayerTarget b, const addutil::Vector3& v) const;
+            void addTime(float sec);
+            void resetTime();
+            int getTimeSec() const;
+            void getTime(int& m, int& s) const;
+            bool isSecondHalf() const;
+            void setSecondHalf(int val);
+            bool createMatchResultFile() const;
 
         protected:
             void updateEntity(addutil::DynamicEntity* e, const messages::ConstantUpdateMessage& m, float time_interval);
