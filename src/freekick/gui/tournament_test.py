@@ -89,17 +89,18 @@ def main():
         for match in round:
             match.date = d
             match.time = datetime.time(18, 00)
-            match.create_temp_xml(db)
+            # match.create_temp_xml(db)
             mr = match.play_match()
-            print d, match, "\n"
-            t.pretty_print()
-            f = raw_input()
+            print d, match
+            # t.pretty_print()
+            # f = raw_input()
         cont = t.round_played(db)
         t.pretty_print()
         f = raw_input()
         if t.finished() and new_season:
             print "Tournament '%s' finished on %s" % (t.name, d)
             t.pretty_print()
+            break      # comment this line to start next season (doesn't work)
             if t.name not in tournaments:
                 add_future_tournament(t, countryname, schedule, d)
             else:
