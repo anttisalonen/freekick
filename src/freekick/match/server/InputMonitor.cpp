@@ -106,6 +106,57 @@ namespace freekick
                     v *= 30.0f;
                 }
 
+                bool passing = v.normalized().y < 0.12f;
+
+                using addutil::general::rand_float;
+                if(passing)
+                {   // TODO: define constants somewhere else
+                    int plpass_skill = pl->playerskills.passing;
+                    float plpass_percent = plpass_skill * 0.001f;
+                    float max_easy_pass_len = 15.0f * plpass_percent;
+                    float max_possible_pass_len = 5.0f + 25.0f * plpass_percent;
+                    float pass_len = v.length();
+                    if(pass_len > max_possible_pass_len)
+                    {
+                        v.normalize();
+                        v *= max_possible_pass_len;
+                        pass_len = max_possible_pass_len;
+                    }
+                    float max_variation;
+                    if(pass_len < max_easy_pass_len)
+                        max_variation = pass_len * 0.1f;
+                    else
+                        max_variation = pass_len * 0.3f;
+                    v.x += rand_float(0.0f, max_variation);
+                    v.z += rand_float(0.0f, max_variation);
+                }
+                else
+                {
+                    int plshoot_skill = pl->playerskills.shooting;
+                    int placc_skill = pl->playerskills.accuracy;
+                    float plshoot_percent = plshoot_skill * 0.001f;
+                    float placc_percent = placc_skill * 0.001f;
+                    float max_easy_shot_len = 15.0f * placc_percent;
+                    float max_possible_shot_len = 10.0f + 20.0f * plshoot_percent;
+                    float shot_len = v.length();
+                    if(shot_len > max_possible_shot_len)
+                    {
+                        v.normalize();
+                        v *= max_possible_shot_len;
+                        shot_len = max_possible_shot_len;
+                    }
+                    float max_variation;
+                    if(shot_len < max_easy_shot_len)
+                        max_variation = shot_len * 0.05f;
+                    else
+                        max_variation = shot_len * 0.35f;
+                    v.x += rand_float(0.0f, max_variation);
+                    v.y += rand_float(0.0f, max_variation);
+                    if(v.y < 0.0f)
+                        v.y = 0.0f;
+                    v.z += rand_float(0.0f, max_variation);
+                }
+
                 (*mKicks)[plid] = v;
 
                 if(mMatchStatus->holdingBall() == plid)

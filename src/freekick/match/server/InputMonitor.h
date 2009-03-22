@@ -28,6 +28,7 @@
 #include <boost/shared_ptr.hpp>
 
 #include "addutil/Vector3.h"
+#include "addutil/General.h"
 
 #include "Constants.h"
 #include "MatchStatus.h"
