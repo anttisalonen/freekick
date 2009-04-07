@@ -24,6 +24,7 @@ if int(opt):
 
 swos2fk_name = 'bin/swos2fk'
 addutil_name = 'lib/addutil'
+addutil_test1_name = 'bin/tests/vector3_test'
 soccer_name = 'lib/soccer'
 match_name = 'lib/match'
 client_name = 'lib/client'
@@ -67,6 +68,17 @@ addutil_obj = addutil_env.Object(Glob('src/addutil/*.cpp') +
                                  Glob('src/addutil/ai/*.cpp'))
 addutil_env.Library(addutil_name, addutil_obj)
 
+
+# Libaddutil tests
+
+if addutil_test1_name in BUILD_TARGETS:
+    addutil_test_env = Environment()
+    addutil_test_env['CPPFLAGS'] = '-Wall -Wno-deprecated '
+    addutil_test_env.Append(CPPPATH = ['src'])
+    addutil_test_env.Program(addutil_test1_name, 'src/addutil/tests/Test_Vector3.cpp')
+    addutil_test_env['LIBPATH'] = ['./lib']
+    addutil_test_env['LIBS'] = ['addutil']
+    addutil_test_env['LIBS'] += ['boost_unit_test_framework']
 
 # Libraries
 
