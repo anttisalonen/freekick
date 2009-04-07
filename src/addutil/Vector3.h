@@ -53,12 +53,13 @@ namespace addutil
          */
         Vector3 (float _x, float _y, float _z );
 
-        Vector3& operator+=(Vector3 a);
-        Vector3 operator+(Vector3 a) const;
-        Vector3& operator-=(Vector3 a);
-        Vector3 operator-(Vector3 a) const;
+        Vector3& operator+=(const Vector3& a);
+        Vector3 operator+(const Vector3& a) const;
+        Vector3& operator-=(const Vector3& a);
+        Vector3 operator-(const Vector3& a) const;
         Vector3& operator*=(float s);
         Vector3 operator*(float s) const;
+        bool operator==(const Vector3& b) const;
 
         Vector3& normalize();
         float length() const;
@@ -69,6 +70,8 @@ namespace addutil
         void reset();
         void set(float _x, float _y, float _z);
         Vector3 normalized() const;
+        float dot(const Vector3& b) const;
+        Vector3 cross(const Vector3& b) const;
 
         float XZAngle() const;
         // Public attributes

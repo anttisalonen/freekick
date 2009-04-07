@@ -97,7 +97,7 @@ namespace addutil
         return atan2(-z, x);
     }
 
-    Vector3& Vector3::operator+=(Vector3 a)
+    Vector3& Vector3::operator+=(const Vector3& a)
     {
         x += a.x;
         y += a.y;
@@ -105,13 +105,12 @@ namespace addutil
         return *this;
     }
 
-    Vector3 Vector3::operator+(Vector3 a) const
+    Vector3 Vector3::operator+(const Vector3& a) const
     {
-        Vector3 r(x + a.x, y + a.y, z + a.z);
-        return r;
+        return Vector3(x + a.x, y + a.y, z + a.z);
     }
 
-    Vector3& Vector3::operator-=(Vector3 a)
+    Vector3& Vector3::operator-=(const Vector3& a)
     {
         x -= a.x;
         y -= a.y;
@@ -119,10 +118,9 @@ namespace addutil
         return *this;
     }
 
-    Vector3 Vector3::operator-(Vector3 a) const
+    Vector3 Vector3::operator-(const Vector3& a) const
     {
-        Vector3 r(x - a.x, y - a.y, z - a.z);
-        return r;
+        return Vector3(x - a.x, y - a.y, z - a.z);
     }
 
     Vector3& Vector3::operator*=(float s)
@@ -135,14 +133,31 @@ namespace addutil
 
     Vector3 Vector3::operator*(float s) const
     {
-        Vector3 r(x * s, y * s, z * s);
-        return r;
+        return Vector3(x * s, y * s, z * s);
+    }
+
+    bool Vector3::operator==(const Vector3& b) const
+    {
+        return (x == b.x && y == b.y && z == b.z);
     }
 
     std::ostream& operator<<(std::ostream& os, const Vector3& v)
     {
         os << v.x << " " << v.y << " " << v.z;
         return os;
+    }
+
+    float Vector3::dot(const Vector3& b) const
+    {
+        return x * b.x + y * b.y + z * b.z;
+    }
+
+    Vector3 Vector3::cross(const Vector3& b) const
+    {
+        float _x = y * b.z - z * b.y;
+        float _y = z * b.x - x * b.z;
+        float _z = x * b.y - y * b.x;
+        return Vector3(_x, _y, _z);
     }
 
     bool inArea(const Vector3& tl, const Vector3& br, const Vector3& p)
