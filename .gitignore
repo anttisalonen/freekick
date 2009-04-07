@@ -5,6 +5,7 @@ config.log
 *.o
 *.os
 *~
+*.swp
 TAGS
 bin/
 lib/
