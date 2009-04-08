@@ -56,7 +56,7 @@ namespace freekick
                         addutil::Vector3 gotovec = steering::pursuit(ownpos, ballpos, ballvel, maxvelocity);
 
                         using namespace messages;
-                        if(balldist < 2.5f)      // TODO: get length from somewhere else
+                        if(balldist < 1.5f)      // TODO: get length from somewhere else
                         {
                             return boost::shared_ptr<HoldPlayerControlMessage>(new HoldPlayerControlMessage(mPlayerID, gotovec));
                         }

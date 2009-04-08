@@ -65,7 +65,7 @@ namespace freekick
                                 addTask(t);
                             }
                         }
-                        else if (h.isnearestplayer)
+                        else if (h.isnearestplayer && h.ballinourgoalarea)
                         {
                             boost::shared_ptr<KickBall> t(new KickBall(mMatchStatus, mPlayerID));
                             addTask(t);
