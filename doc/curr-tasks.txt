@@ -9,17 +9,17 @@ org:
 -calculating results
 -stepping through tournaments
 general:
--define matchdata file (from org to server):
- -see doc/soccer/org.txt
++define matchdata file (from org to server):
+ +see doc/soccer/org.txt
 tactics:
  general:
- -define tactics + formation
+ +define tactics + formation
  org:
- -create formation + tactics data for server
+ +create formation + tactics data for server
  server:
- -send formation + tactics to clients
+ +send formation + tactics to clients
  client:
- -parse formation + tactics
+ +parse formation + tactics
  ai:
  -execute formation + tactics
 ncurses:
@@ -53,9 +53,9 @@ client:
 -server: add ability to restart match+shut down server by master client
 -server: add ability to tie to a client so that shutting down client shuts 
   down server
--server: read matchdata from file (given as parameter)
--server: write match result+injuries+statistics to file (given as parameter)
--server: half+full time
++server: read matchdata from file (given as parameter)
++server: write match result+injuries+statistics to file (given as parameter)
++server: half+full time
 -general: define aftermatch file
  -result
  -injuries
@@ -66,8 +66,8 @@ client:
 -server: read options file (given as parameter)
 -organization: create organization
 -27.01.2009--------------
--client: third camera (tv style)
--client: reading player id from parameters
++client: third camera (tv style)
++client: reading player id from parameters
 bugs:
 -physics: goal too wide -> goalkeeper may get stuck behind
 -rules: when a goalkeeper gets stuck behind a goal and a goal is made, the
