@@ -29,6 +29,8 @@
 #include "MatchStatus.h"
 #include "Helpers.h"
 
+#include "AIConfig.h"
+
 #include "tasks/CompositeTask.h"
 #include "tasks/Idle.h"
 #include "tasks/FetchBall.h"

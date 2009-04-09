@@ -106,8 +106,19 @@ namespace freekick
                                     }
                                     else
                                     {
-                                        boost::shared_ptr<IdleInFormation> t(new IdleInFormation(mMatchStatus, mPlayerID));
-                                        addTask(t);
+                                        addutil::Vector3 future_pos = mMatchStatus->getBall()->getFuturePosition(AIConfig::getInstance()->future_lookup_time);
+                                        future_pos.y = 0.0f;
+                                        float future_dist = (mPlayer->getPosition() - future_pos).length();
+                                        if(future_dist < AIConfig::getInstance()->max_future_fetch_distance)
+                                        {
+                                            boost::shared_ptr<FetchBall> t(new FetchBall(mMatchStatus, mPlayerID));
+                                            addTask(t);
+                                        }
+                                        else
+                                        {
+                                            boost::shared_ptr<IdleInFormation> t(new IdleInFormation(mMatchStatus, mPlayerID));
+                                            addTask(t);
+                                        }
                                     }
                                 }
                             }
