@@ -38,6 +38,8 @@ namespace freekick
                 AIConfig::AIConfig()
                 {
                     verbose = 0;
+                    max_future_fetch_distance = 3.0f;
+                    future_lookup_time = 1.0f;
                 }
             }
         }

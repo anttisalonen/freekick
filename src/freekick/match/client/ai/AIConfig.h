@@ -34,6 +34,8 @@ namespace freekick
                 public:
                     static AIConfig* getInstance();
                     int verbose;
+                    float max_future_fetch_distance;
+                    float future_lookup_time;
                 protected:
                     AIConfig();
                 private:
