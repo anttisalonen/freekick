@@ -99,28 +99,18 @@ namespace freekick
                             mTarget = formationpoint;
                         }
 
-                        float offside_line = mMatchStatus->getOffsideLine(b);
                         if(b == UpTarget)
                         {
                             mTarget.z = 1.0f - mTarget.z;
                             mTarget.x = 1.0f - mTarget.x;
                         }
-                        else
-                        {
-                            offside_line = plength - offside_line;
-                        }
 
                         mTarget.x *= pwidth;
                         mTarget.z *= plength;
-                        if(b != UpTarget)
+
+                        if(mMatchStatus->inOffsidePosition(b, mTarget))
                         {
-                            if(mTarget.z > offside_line)
-                                mTarget.z = offside_line;
-                        }
-                        else
-                        {
-                            if(mTarget.z < offside_line)
-                                mTarget.z = offside_line;
+                            mTarget.z = mMatchStatus->getOffsideLine(b);
                         }
 
                         addutil::Vector3 gotovec = mTarget - ownpos;
