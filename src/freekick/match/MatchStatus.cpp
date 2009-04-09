@@ -561,21 +561,32 @@ namespace freekick
                 if(it->second->isSubstitute())
                     continue;
                 float this_pos = it->second->getPosition().z;
-                if(sides_flipped(other(b)))
+                if(ballOwnerToPlayerTarget(other(b), secondhalf)) // they have uptarget
                 {
-                    this_pos = getPitchLength() - this_pos;
+                    if(this_pos < lowest_opponent)
+                    {
+                        second_lowest_opponent = lowest_opponent;
+                        lowest_opponent = this_pos;
+                    }
+                    else if(this_pos < second_lowest_opponent)
+                    {
+                        second_lowest_opponent = this_pos;
+                    }
                 }
-                if(this_pos < lowest_opponent)
+                else
                 {
-                    second_lowest_opponent = lowest_opponent;
-                    lowest_opponent = this_pos;
-                }
-                else if(this_pos < second_lowest_opponent)
-                {
-                    second_lowest_opponent = this_pos;
+                    if(this_pos > lowest_opponent)
+                    {
+                        second_lowest_opponent = lowest_opponent;
+                        lowest_opponent = this_pos;
+                    }
+                    else if(this_pos > second_lowest_opponent)
+                    {
+                        second_lowest_opponent = this_pos;
+                    }
                 }
             }
-            offside_lines[index] = second_lowest_opponent;      // TODO: take body side into account (currently measured from middle of body)
+            offside_lines[index] = second_lowest_opponent;      // TODO: take body size into account (currently measured from middle of body)
         }
 
         bool MatchStatus::inOffsidePosition(int id) const
@@ -592,12 +603,16 @@ namespace freekick
         {
             int index = (b == Home) ? 0 : 1;
             float ball_pos_z = mBall->getPosition().z;
-            if(sides_flipped(b))
+            if(ballOwnerToPlayerTarget(b, secondhalf) == UpTarget)
             {
-                ball_pos_z = getPitchLength() - ball_pos_z;
+                if(ball_pos_z < offside_lines[index])
+                    return 0.0f;
             }
-            if(ball_pos_z > offside_lines[index])
-                return 0.0f;
+            else
+            {
+                if(ball_pos_z > offside_lines[index])
+                    return getPitch()->getLength();
+            }
             return offside_lines[index];
         }
 
@@ -625,13 +640,12 @@ namespace freekick
         {
             float offside_line = getOffsideLine(b);
 
-            if(b != UpTarget)
+            if(b == UpTarget)
             {
                 return (v.z < offside_line);
             }
             else
             {
-                offside_line = getPitchLength() - offside_line;
                 return (v.z > offside_line);
             }
         }
@@ -672,11 +686,12 @@ namespace freekick
 
         bool MatchStatus::createMatchResultFile() const
         {
-            const char* filename = mMatchData->getFilename();
-            if(!filename)
+            if(!mMatchData->getFilename())
                 return false;
-            if(strcmp(filename, "") == 0)
+            std::string filename(mMatchData->getFilename());
+            if(filename.empty())
                 return false;
+            filename += "_res";
 
             xmlDocPtr doc = NULL;       /* document pointer */
             xmlNodePtr root_node = NULL;
@@ -689,7 +704,7 @@ namespace freekick
             addutil::xml::add_attribute(sub_node, "score", score_home);
             sub_node = addutil::xml::add_child(root_node, "away");
             addutil::xml::add_attribute(sub_node, "score", score_away);
-            xmlSaveFormatFileEnc(filename, doc, "UTF-8", 1);
+            xmlSaveFormatFileEnc(filename.c_str(), doc, "UTF-8", 1);
             xmlFreeDoc(doc);
             return true;
         }
