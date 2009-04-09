@@ -169,6 +169,11 @@ namespace addutil
         position += (velocity * interval);
     }
 
+    Vector3 Entity::getFuturePosition(float interval) const
+    {
+        return position + (velocity * interval) + (acceleration * 0.5f * interval * interval);
+    }
+
     void Entity::interpolate(boost::posix_time::ptime pt)
     {
         boost::posix_time::time_period diff_time(last_move, pt);
