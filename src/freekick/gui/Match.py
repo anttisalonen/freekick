@@ -402,8 +402,8 @@ class Match:
 
         temp_file.write(etree.tostring(root, pretty_print = True))
         temp_file.flush()
-        # print "Temp file saved as", temp_file_name
-        # f = raw_input()
+        print "Temp file saved as", temp_file_name
+        f = raw_input()
 
 if __name__ == "__main__":
     simple = MatchRules()

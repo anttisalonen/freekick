@@ -89,11 +89,11 @@ def main():
         for match in round:
             match.date = d
             match.time = datetime.time(18, 00)
-            # match.create_temp_xml(db)
+            t.pretty_print()
+            # f = raw_input()
+            match.create_temp_xml(db)
             mr = match.play_match()
             print d, match
-            # t.pretty_print()
-            # f = raw_input()
         cont = t.round_played(db)
         t.pretty_print()
         f = raw_input()
