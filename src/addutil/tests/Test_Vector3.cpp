@@ -38,3 +38,13 @@ BOOST_AUTO_TEST_CASE(arithmetic)
     BOOST_CHECK_EQUAL(v1.cross(v2), Vector3(12.0f, 4.0f, -24.0f));
 }
 
+BOOST_AUTO_TEST_CASE(angle)
+{
+    Vector3 v1(3.0f, 2.0f, 3.0f);
+    Vector3 v2(5.0f, 7.0f, -5.0f);
+    Vector3 v3(-2.0f, 1.0f, 0.0f);
+    BOOST_CHECK(fabs(v1.angleBetweenXZ(v2)) - pi_2 < 0.01f);
+    BOOST_CHECK(fabs(v2.angleBetweenXZ(v3)) - (pi_2 + pi_4) < 0.01f);
+    BOOST_CHECK(fabs(v3.angleBetweenXZ(v1)) - (pi_2 + pi_4) < 0.01f);
+}
+

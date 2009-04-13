@@ -39,6 +39,12 @@ namespace addutil
         Z_Axis
     };
 
+    static const float pi = 3.1415926535f;
+    static const float pi_2 = pi / 2.0f;
+    static const float pi_4 = pi / 4.0f;
+    static const float pi_3_4 = 3.0f * pi / 4.0f;
+    static const float pi_8 = pi / 8.0f;
+
     class Vector3
     {
     public:
@@ -72,6 +78,7 @@ namespace addutil
         Vector3 normalized() const;
         float dot(const Vector3& b) const;
         Vector3 cross(const Vector3& b) const;
+        float angleBetweenXZ(const Vector3& b) const;
 
         float XZAngle() const;
         // Public attributes

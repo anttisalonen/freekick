@@ -160,6 +160,11 @@ namespace addutil
         return Vector3(_x, _y, _z);
     }
 
+    float Vector3::angleBetweenXZ(const Vector3& b) const
+    {
+        return (atan2(b.y, b.x) - atan2(y, x));
+    }
+
     bool inArea(const Vector3& tl, const Vector3& br, const Vector3& p)
     {
         if(p.x < tl.x) return false;
