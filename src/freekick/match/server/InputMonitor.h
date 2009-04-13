@@ -77,6 +77,8 @@ namespace freekick
                 boost::shared_ptr<VelocityMap> mVelocities;
                 boost::shared_ptr<KickMap> mKicks;
                 static const float maxJumpVelocity = 5.0f;
+
+                bool variateDueToMovingBall(const Vector3& kickvec) const;
             };
         }
     }

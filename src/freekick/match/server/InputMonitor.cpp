@@ -99,6 +99,11 @@ namespace freekick
                     return;
                 }
 
+                if(!pl->timerCanKick())
+                {
+                    std::cerr << __func__ << ": player timer not at 0 yet" << std::endl;
+                    return;
+                }
                 // TODO: define max. kick velocity somewhere else and take stamina, current player velocity, etc. into account
                 if(v.length() > 30.0f)
                 {
@@ -127,6 +132,10 @@ namespace freekick
                         max_variation = pass_len * 0.1f;
                     else
                         max_variation = pass_len * 0.3f;
+                    if(variateDueToMovingBall(v))
+                    {
+                        max_variation *= 2.0f;
+                    }
                     v.x += rand_float(-max_variation, max_variation);
                     v.z += rand_float(-max_variation, max_variation);
                 }
@@ -150,6 +159,10 @@ namespace freekick
                         max_variation = shot_len * 0.05f;
                     else
                         max_variation = shot_len * 0.35f;
+                    if(variateDueToMovingBall(v))
+                    {
+                        max_variation *= 2.0f;
+                    }
                     v.x += rand_float(-max_variation, max_variation);
                     v.y += rand_float(-max_variation, max_variation);
                     if(v.y < 0.0f)
@@ -157,6 +170,7 @@ namespace freekick
                     v.z += rand_float(-max_variation, max_variation);
                 }
 
+                pl->setKickTimer(constants::kick_timer);
                 (*mKicks)[plid] = v;
 
                 if(mMatchStatus->holdingBall() == plid)
@@ -164,6 +178,17 @@ namespace freekick
                     std::cerr << "InputMonitor: client holding the ball kicked the ball away.\n";
                     mMatchStatus->setBallHolder(0);
                 }
+            }
+
+            bool InputMonitor::variateDueToMovingBall(const Vector3& kickvec) const
+            {
+                if(kickvec.length2() < 1.0f) 
+                    return false;
+                const addutil::Vector3& ballvec = mMatchStatus->getBall()->getVelocity();
+                if(ballvec.length2() < 1.0f)
+                    return false;
+                float ang = kickvec.angleBetweenXZ(ballvec);
+                return (abs(ang) < addutil::pi_4 || abs(ang) > addutil::pi_3_4);
             }
 
             void InputMonitor::newClientMessage (const messages::HoldPlayerControlMessage& e)

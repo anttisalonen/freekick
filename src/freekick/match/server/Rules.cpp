@@ -385,6 +385,8 @@ namespace freekick
                 bool ball_touched = false;
                 GoalQuery goal_scored = NoGoal;
 
+                mMatchStatus->updateTimers(t);
+
                 if(!(mBallState.bio_type == PreKickoff || mBallState.bio_type == HalfFullTime))
                 {
                     check_for_touched_ball(c, new_ball_status, ball_touched);
