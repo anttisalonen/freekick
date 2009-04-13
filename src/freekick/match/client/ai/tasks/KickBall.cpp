@@ -209,6 +209,20 @@ namespace freekick
                         return optimal_kick(opt_val, target);
                     }
 
+                    void KickBall::maybePrepareForKick(addutil::Vector3& kickvec) const
+                    {
+                        if(kickvec.length2() < 1.0f) 
+                            return;
+                        const addutil::Vector3& ballvec = mMatchStatus->getBall()->getVelocity();
+                        if(ballvec.length2() < 1.0f)
+                            return;
+                        float ang = kickvec.angleBetweenXZ(ballvec);
+                        if (abs(ang) < addutil::pi_4 || abs(ang) > addutil::pi_3_4)
+                        {
+                            kickvec.reset();
+                        }
+                    }
+
                     boost::shared_ptr<messages::PlayerControlMessage> KickBall::process()
                     {
                         clearTasks();
@@ -242,19 +256,23 @@ namespace freekick
                            optimalpass.get<0>() >= optimaldribble.get<0>() &&
                            optimalpass.get<0>() >= optimallong.get<0>())
                         {
+                            maybePrepareForKick(optimalpass.get<1>());
                             return boost::shared_ptr<KickPlayerControlMessage>(new KickPlayerControlMessage(mPlayerID, optimalpass.get<1>()));
                         }
                         else if (optimalshot.get<0>() >= optimaldribble.get<0>() &&
                                  optimalshot.get<0>() >= optimallong.get<0>())
                         {
+                            maybePrepareForKick(optimalpass.get<1>());
                             return boost::shared_ptr<KickPlayerControlMessage>(new KickPlayerControlMessage(mPlayerID, optimalshot.get<1>()));
                         }
                         else if (optimaldribble.get<0>() >= optimallong.get<0>())
                         {
+                            maybePrepareForKick(optimalpass.get<1>());
                             return boost::shared_ptr<KickPlayerControlMessage>(new KickPlayerControlMessage(mPlayerID, optimaldribble.get<1>()));
                         }
                         else
                         {
+                            maybePrepareForKick(optimalpass.get<1>());
                             return boost::shared_ptr<KickPlayerControlMessage>(new KickPlayerControlMessage(mPlayerID, optimallong.get<1>()));
                         }
                     }

@@ -56,6 +56,7 @@ namespace freekick
                         optimal_kick getOptimalShot() const;
                         optimal_kick getOptimalDribble() const;
                         optimal_kick getOptimalLongBall() const;
+                        void maybePrepareForKick(addutil::Vector3& kickvec) const;
                         boost::shared_ptr<MatchStatus> mMatchStatus;
                         int mPlayerID;
                         boost::shared_ptr<MatchPlayer> mPlayer;
