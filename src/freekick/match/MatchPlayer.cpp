@@ -28,7 +28,8 @@ namespace freekick
             : Player(p), 
               DynamicEntity(70.0f, "robot.mesh"),
               m_side(_side),
-              substitute(sub)
+              substitute(sub),
+              m_kicktimer(0.0f)
         {
         }
 
@@ -45,6 +46,23 @@ namespace freekick
         soccer::BallOwner MatchPlayer::getSide() const
         {
             return m_side;
+        }
+
+        void MatchPlayer::updateTimer(float time_interval)
+        {
+            if(m_kicktimer <= 0.0f)
+                return;
+            m_kicktimer -= time_interval;
+        }
+
+        void MatchPlayer::setKickTimer(float kicktime)
+        {
+            m_kicktimer = kicktime;
+        }
+
+        bool MatchPlayer::timerCanKick() const
+        {
+            return m_kicktimer <= 0.0f;
         }
     }
 }

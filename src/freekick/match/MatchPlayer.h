@@ -50,10 +50,14 @@ namespace freekick
             const int getID() const;
             bool isSubstitute() const;
             soccer::BallOwner getSide() const;
+            void updateTimer(float time_interval);
+            void setKickTimer(float kicktime);
+            bool timerCanKick() const;
 
         private:
             soccer::BallOwner m_side;
             bool substitute;
+            float m_kicktimer;
 
             friend class boost::serialization::access;
             template<class Archive>
@@ -63,6 +67,7 @@ namespace freekick
                 ar & boost::serialization::base_object<addutil::DynamicEntity>(*this);
                 ar & m_side;
                 ar & substitute;
+                ar & m_kicktimer;
             }
         };
     }
