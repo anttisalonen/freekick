@@ -124,6 +124,7 @@ namespace freekick
             bool onOwnSide(const addutil::Vector3& pos, BallOwner b) const;
             bool inOffsidePosition(soccer::PlayerTarget b, const addutil::Vector3& v) const;
             void addTime(float sec);
+            void updateTimers(float sec);
             void resetTime();
             int getTimeSec() const;
             void getTime(int& m, int& s) const;

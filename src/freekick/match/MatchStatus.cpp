@@ -660,6 +660,15 @@ namespace freekick
             currtime.add_ms(sec * 1000.0f);
         }
 
+        void MatchStatus::updateTimers(float sec)
+        {
+            std::map<int, boost::shared_ptr<MatchPlayer> >::iterator it;
+            for(it = mPlayers.begin(); it != mPlayers.end(); ++it)
+            {
+                it->second->updateTimer(sec);
+            }
+        }
+
         void MatchStatus::getTime(int& m, int& s) const
         {
             m = currtime.m;
