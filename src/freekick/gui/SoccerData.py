@@ -315,8 +315,10 @@ class Country:
         return ret
 
 class Branch:
-    def __init__(self, stages = []):
+    def __init__(self, stages, prs, rls):
         self.stages = stages
+        self.promotions = prs
+        self.relegations = rls
 
 def stage_number_to_stage_name(s, max_stages):
     if s < 1 or max_stages < 1:
@@ -353,6 +355,9 @@ class Exchange:
         self.tournament = ""
         self.stage = ""
 
+    def __str__(self):
+        return "%s %s %d" % (self.tournament, self.stage, self.num)
+
 class Trophy:
     def __init__(self, name):
         self.name = name
@@ -367,24 +372,24 @@ class Leaguesystem:
     def __init__(self, name):
         self.name = name
 
-    def get_higher_stage(self, stagename):
-        for l in self.levels:
-            for b in l.branches:
-                for i in range(len(b.stages)):
+    def get_higher_level(self, stagename):
+        for i in range(len(self.levels)):
+            for b in self.levels[i].branches:
+                for j in range(len(b.stages)):
                     if stagename == b.stages[i].name:
                         if i == 0:
-                            raise ValueError("No higher stage")
-                        return b.stages[i - 1]
+                            raise ValueError("No higher level")
+                        return self.levels[i - 1]
         raise ValueError("Stage not found")
 
-    def get_lower_stage(self, stagename):
-        for l in self.levels:
-            for b in l.branches:
-                for i in range(len(b.stages)):
+    def get_lower_level(self, stagename):
+        for i in range(len(self.levels)):
+            for b in self.levels[i].branches:
+                for j in range(len(b.stages)):
                     if stagename == b.stages[i].name:
-                        if i == len(b.stages) - 1:
-                            raise ValueError("No lower stage")
-                        return b.stages[i + 1]
+                        if i == len(self.levels) - 1:
+                            raise ValueError("No lower levels")
+                        return self.levels[i + 1]
         raise ValueError("Stage not found")
 
 class Preset:

@@ -8,6 +8,7 @@ import Primitives
 import SoccerData
 
 class MatchRules:
+    """Match rules class."""
     def __init__(self, extratime = False, penalties = False):
         self.extratime = extratime
         self.replays = TiebreakerType.Off
@@ -21,13 +22,17 @@ def std_match_rules():
     return MatchRules(False, False)
 
 class MatchResultType:
+    """Enum for match result types."""
     NotPlayed = 0
     Club1 = 1
     Club2 = 2
     Draw = 3
 
 class MatchResult:
+    """Match result class."""
     def __init__(self, g1 = -1, g2 = -1, et1 = 0, et2 = 0, pen1 = 0, pen2 = 0):
+        """Creates match result. With g1 = -1 and g2 = -1, type will be
+        NotPlayed."""
         self.g1 = g1
         self.g2 = g2
         self.et1 = et1
@@ -47,6 +52,7 @@ class MatchResult:
         return s1 + s2 + s3
 
     def result_type(self):
+        """Return corresponding MatchResultType."""
         if self.g1 < 0 or self.g2 < 0:
             return MatchResultType.NotPlayed
         if self.g1 > self.g2:
@@ -69,16 +75,19 @@ class MatchResult:
             return MatchResultType.Draw
 
     def play_random_90min(self):
+        """Fully randomizes 90 minutes result."""
         max_goals_per_side = 6.0
         self.g1 = int(random.betavariate(2, 5) * max_goals_per_side)
         self.g2 = int(random.betavariate(2, 5) * max_goals_per_side)
 
     def play_random_et(self):
+        """Fully randomizes ET result."""
         max_goals_et = 1
         self.et1 = random.randint(self.g1, self.g1 + max_goals_et)
         self.et2 = random.randint(self.g2, self.g2 + max_goals_et)
 
     def play_random_penalties(self):
+        """Fully randomizes penalty kicks result."""
         while self.pen1 == self.pen2:
             self.pen1 = random.randint(3, 5)
             self.pen2 = random.randint(3, 5)
@@ -89,6 +98,13 @@ class TiebreakerType:
     AfterET = 2
 
 def double_match_result(res1, res2, matchrules):
+    """Given two match results and rules, returns corresponding match result
+    type.
+    
+    If results are unfinished according to rules (e.g. no extra time played,
+    even though it should have), will also return invalid result (e.g. draw in
+    the example.) So only call when results are really final.
+    """
     tot_after_90_1 = res1.g2 + res2.g1
     tot_after_90_2 = res1.g1 + res2.g2
     if tot_after_90_1 > tot_after_90_2:
@@ -123,6 +139,7 @@ def double_match_result(res1, res2, matchrules):
     return MatchResultType.Draw
 
 def generate_simple_random_match_result(matchrules):
+    """Given rules, returns a randomized match result."""
     mr = MatchResult()
     mr.play_random_90min()
     if mr.g1 == mr.g2:
@@ -133,6 +150,7 @@ def generate_simple_random_match_result(matchrules):
     return mr
 
 def generate_second_leg_random_match_result(prev_res, matchrules):
+    """Generates a valid but randomized second leg result."""
     # First play 90 minutes
     res2 = MatchResult()
     res2.play_random_90min()
@@ -185,7 +203,19 @@ def generate_second_leg_random_match_result(prev_res, matchrules):
     return res2, MatchResultType.Draw
 
 class Match:
+    """Match class."""
     def __init__(self, club1, club2, rules, prev_res, stadium = None, tournament_name = "", stage_name = ""):
+        """Match constructor.
+        
+        :param club1: club 1 (actual club, not just the name)
+        :param club2: club 2
+        :param rules: match rules
+        :param prev_res: previous result (use MatchResult() if unimportant or
+        first leg)
+        :param stadium: stadium
+        :param tournament_name: tournament name
+        :param stage_name: stage name
+        """
         self.mr = MatchResult()
         self.rules = rules
         self.club1 = club1
@@ -196,7 +226,7 @@ class Match:
         self.stage_name = stage_name
 
     def __str__(self):
-        s0 = "%-40s" % (self.club1.name + " - " + self.club2.name)
+        s0 = "%-15s - %-15s: %-40s" % (self.tournament_name, self.stage_name, self.club1.name + " - " + self.club2.name)
         s1 = ""
         s2 = ""
         s3 = ""
@@ -212,7 +242,9 @@ class Match:
         return s0 + s1 + s2 + s3 + s4
 
     def play_match(self):
+        """Play match. Save result in the match and return the result."""
         if self.club1.name == "unknown" or self.club2.name == "unknown":
+            print self
             raise ValueError("'unknown' plays a match")
         if self.prev_res.result_type() == MatchResultType.NotPlayed:
             if self.rules.allow_draw():
@@ -224,6 +256,7 @@ class Match:
         return self.mr
 
     def generate_simulated_second_match_result(self):
+        """Create a result that fits the rules for second leg."""
         res, strength = self.generate_general_result(False)
         std_mr = self.generate_desired_result(res, strength, std_match_rules())
         tot_res = double_match_result(self.prev_res, std_mr, self.rules)
@@ -235,6 +268,10 @@ class Match:
         return std_mr
 
     def generate_general_result(self, tiebreaker):
+        """Create a simulated result.
+        
+        :param tiebreaker: true if this is a tiebreaker (no draw allowed)
+        """
         c1 = self.club1.get_rating() / 1000.0
         c2 = self.club2.get_rating() / 1000.0
         c1r = int(c1 ** 2.0)
@@ -267,10 +304,21 @@ class Match:
         return res, strength
 
     def generate_simulated_result(self, tiebreaker):
+        """Create and return simulated result.
+
+        :param tiebreaker: true if this is a tiebreaker (no draw allowed)
+        """
         res, strength = self.generate_general_result(tiebreaker)
         return self.generate_desired_result(res, strength, self.rules)
 
     def generate_desired_result(self, type, strength, rules):
+        """Generate the result as desired in type.
+        
+        :param type: match result type
+        :param strength: an integer that represents the strength relationship
+        between clubs.
+        :param rules: match rules
+        """
         thismr = MatchResult()
         if type == MatchResultType.Draw:
             thismr.g1 = random.randint(0, 3)
@@ -317,10 +365,12 @@ class Match:
         return thismr
 
     def play_random(self):
+        """Generate random result."""
         self.mr = generate_simple_random_match_result(rules)
         return self.mr
 
     def get_winner_name(self):
+        """Returns winner club name or 'draw' if draw."""
         rt = self.mr.result_type()
         if rt == MatchResultType.Club1:
             return self.club1.name
@@ -330,6 +380,7 @@ class Match:
             return "draw"
 
     def create_temp_xml(self, db):
+        """Create XML representing the match (for server)."""
         temp_file = tempfile.NamedTemporaryFile()
         temp_file_name = temp_file.name
         root = etree.Element("Match")

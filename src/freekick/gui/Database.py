@@ -8,6 +8,7 @@ from lxml import etree
 
 import Primitives
 import Tournament
+import Stage
 import SoccerData
 import Match
 
@@ -240,30 +241,41 @@ def parse_level(level_node):
     for node in level_node:
         if node.tag == "branch":
             l.branches.append(parse_branch(node))
-        elif node.tag == "leagueprs":
-            for prnode in node:
-                if prnode.tag == "leaguepr":
-                    exchange = parse_exchange(prnode)
-                    l.promotions.append(exchange)
-        elif node.tag == "leaguerls":
-            for prnode in node:
-                if prnode.tag == "leaguerl":
-                    exchange = parse_exchange(prnode)
-                    l.relegations.append(exchange)
     return l
 
 def parse_branch(branch_node):
     stages = parse_list(branch_node, "stage", parse_stage)
-    return SoccerData.Branch(stages)
+    prs = []
+    rls = []
+    for node in branch_node:
+        if node.tag == "leagueprs":
+            for prnode in node:
+                if prnode.tag == "leaguepr":
+                    exchange = parse_exchange(prnode)
+                    prs.append(exchange)
+        elif node.tag == "leaguerls":
+            for prnode in node:
+                if prnode.tag == "leaguerl":
+                    exchange = parse_exchange(prnode)
+                    rls.append(exchange)
+        elif node.tag == "kickoff":
+            for prnode in node:
+                pass # TODO: parse kickoffs
+    for s in stages:
+        for prom in prs:
+            s.promotions.append(prom)
+        for rel in rls:
+            s.relegations.append(rel)
+    return SoccerData.Branch(stages, prs, rls)
 
 def parse_stage(stage_node):
     name = stage_node.get("name")
     type = stage_node.get("type")
     if type == "0":
-        type = Tournament.StageType.League
+        type = Stage.StageType.League
     else:
-        type = Tournament.StageType.Cup        
-    stage = Tournament.Stage(name, type)
+        type = Stage.StageType.Cup        
+    stage = Stage.Stage(name, type)
     for node in stage_node:
         if node.tag == "setup":
             for n in ["seeded", "rounds", "participantnum", "groups", "pointsperwin"]:
