@@ -107,6 +107,7 @@
               <trophy name="English Premier league champion"/>
               <attendances>
                 <attendance tournament="English Cup" stage="First round"/>
+                <attendance tournament="League Cup" stage="First round"/>
               </attendances>
               <preset>
                 <club name="Arsenal"/>
@@ -131,11 +132,11 @@
                 <club name="Wigan Athletic"/>
               </preset>
             </stage>
+            <leagueprs/>
+            <leaguerls>
+              <leaguerl tournament="First league" num="3"/>
+            </leaguerls>
           </branch>
-          <leagueprs/>
-          <leaguerls>
-            <leaguerl num="3"/>
-          </leaguerls>
         </level>
         <level>
           <branch>
@@ -144,6 +145,7 @@
               <trophy name="English First league champion"/>
               <attendances>
                 <attendance tournament="English Cup" stage="First round"/>
+                <attendance tournament="League Cup" stage="First round"/>
               </attendances>
               <preset>
                 <club name="Barnsley"/>
@@ -172,13 +174,13 @@
                 <club name="Watford"/>
               </preset>
             </stage>
+            <leagueprs>
+              <leaguepr tournament="Premier league" num="3"/>
+            </leagueprs>
+            <leaguerls>
+              <leaguerl tournament="Second league" num="3"/>
+            </leaguerls>
           </branch>
-          <leagueprs>
-            <leaguepr num="3"/>
-          </leagueprs>
-          <leaguerls>
-            <leaguerl num="3"/>
-          </leaguerls>
         </level>
         <level>
           <branch>
@@ -187,6 +189,7 @@
               <trophy name="English Second league champion"/>
               <attendances>
                 <attendance tournament="English Cup" stage="First round"/>
+                <attendance tournament="League Cup" stage="First round"/>
               </attendances>
               <preset>
                 <club name="Huddersfield"/>
@@ -215,13 +218,13 @@
                 <club name="Yeovil Town"/>
               </preset>
             </stage>
+            <leagueprs>
+              <leaguepr tournament="First league" num="3"/>
+            </leagueprs>
+            <leaguerls>
+              <leaguerl tournament="Third league" num="3"/>
+            </leaguerls>
           </branch>
-          <leagueprs>
-            <leaguepr num="3"/>
-          </leagueprs>
-          <leaguerls>
-            <leaguerl num="3"/>
-          </leaguerls>
         </level>
         <level>
           <branch>
@@ -230,6 +233,7 @@
               <trophy name="English Third league champion"/>
               <attendances>
                 <attendance tournament="English Cup" stage="First round"/>
+                <attendance tournament="League Cup" stage="First round"/>
               </attendances>
               <preset>
                 <club name="Bradford City"/>
@@ -258,11 +262,11 @@
                 <club name="Wycombe Wdrs"/>
               </preset>
             </stage>
+            <leagueprs>
+              <leaguepr tournament="Second league" num="3"/>
+            </leagueprs>
+            <leaguerls/>
           </branch>
-          <leagueprs>
-            <leaguepr num="3"/>
-          </leagueprs>
-          <leaguerls/>
         </level>
       </Levels>
     </leaguesystem>
@@ -274,23 +278,23 @@
         </stage>
         <stage name="Semifinals" type="1">
           <setup seeded="0" participantnum="4" rounds="1" extratime="1" penalties="1" replays="1" awaygoals="0"/>
-          <cuppr stage="Final"/>
+          <cuppr tournament="English Cup" stage="Final"/>
         </stage>
         <stage name="Quarterfinals" type="1">
           <setup seeded="0" participantnum="8" rounds="1" extratime="1" penalties="1" replays="1" awaygoals="0"/>
-          <cuppr stage="Semifinals"/>
+          <cuppr tournament="English Cup" stage="Semifinals"/>
         </stage>
         <stage name="Third round" type="1">
           <setup seeded="0" participantnum="16" rounds="1" extratime="1" penalties="1" replays="1" awaygoals="0"/>
-          <cuppr stage="Quarterfinals"/>
+          <cuppr tournament="English Cup" stage="Quarterfinals"/>
         </stage>
         <stage name="Second round" type="1">
           <setup seeded="0" participantnum="32" rounds="1" extratime="1" penalties="1" replays="1" awaygoals="0"/>
-          <cuppr stage="Third round"/>
+          <cuppr tournament="English Cup" stage="Third round"/>
         </stage>
         <stage name="First round" type="1">
           <setup seeded="0" participantnum="64" rounds="1" extratime="1" penalties="1" replays="1" awaygoals="0"/>
-          <cuppr stage="Second round"/>
+          <cuppr tournament="English Cup" stage="Second round"/>
           <preset>
             <club name="Arsenal"/>
             <club name="Aston Villa"/>
@@ -366,23 +370,23 @@
         </stage>
         <stage name="Semifinals" type="1">
           <setup seeded="0" participantnum="4" rounds="2" extratime="1" penalties="1" replays="0" awaygoals="1"/>
-          <cuppr stage="Final"/>
+          <cuppr tournament="League Cup" stage="Final"/>
         </stage>
         <stage name="Quarterfinals" type="1">
           <setup seeded="0" participantnum="8" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
-          <cuppr stage="Semifinals"/>
+          <cuppr tournament="League Cup" stage="Semifinals"/>
         </stage>
         <stage name="Third round" type="1">
           <setup seeded="0" participantnum="16" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
-          <cuppr stage="Quarterfinals"/>
+          <cuppr tournament="League Cup" stage="Quarterfinals"/>
         </stage>
         <stage name="Second round" type="1">
           <setup seeded="0" participantnum="32" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
-          <cuppr stage="Third round"/>
+          <cuppr tournament="League Cup" stage="Third round"/>
         </stage>
         <stage name="First round" type="1">
           <setup seeded="0" participantnum="64" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
-          <cuppr stage="Second round"/>
+          <cuppr tournament="League Cup" stage="Second round"/>
           <preset>
             <club name="Arsenal"/>
             <club name="Aston Villa"/>
