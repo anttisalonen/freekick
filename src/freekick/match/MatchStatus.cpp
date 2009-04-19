@@ -182,6 +182,7 @@ namespace freekick
             }
             update_offside_positions(Home);
             update_offside_positions(Away);
+            // std::cout << "Offside lines: " << offside_lines[0] << "; " << offside_lines[1] << std::endl;
         }
 
         void MatchStatus::update(const messages::GeneralUpdateStatusMessage& m)
@@ -548,32 +549,21 @@ namespace freekick
             return retval;
         }
 
-        void MatchStatus::update_offside_positions(BallOwner b)
+        void MatchStatus::update_offside_positions(BallOwner o)
         {
-            int index = (b == Home) ? 0 : 1;
-            float second_lowest_opponent = 100000.0f;
+            PlayerTarget b = ballOwnerToPlayerTarget(o, secondhalf);
+            int index = (b == DownTarget) ? 0 : 1;
+            float second_lowest_opponent = index * 100000.0f;
             float lowest_opponent = 200000.0f;
             MatchPlayerMap::const_iterator it;
             for(it = mPlayers.begin(); it != mPlayers.end(); it++)
             {
-                if(it->second->getSide() == b)
+                if(it->second->getSide() == o)
                     continue;
                 if(it->second->isSubstitute())
                     continue;
                 float this_pos = it->second->getPosition().z;
-                if(ballOwnerToPlayerTarget(other(b), secondhalf)) // they have uptarget
-                {
-                    if(this_pos < lowest_opponent)
-                    {
-                        second_lowest_opponent = lowest_opponent;
-                        lowest_opponent = this_pos;
-                    }
-                    else if(this_pos < second_lowest_opponent)
-                    {
-                        second_lowest_opponent = this_pos;
-                    }
-                }
-                else
+                if(b == DownTarget) // they have uptarget
                 {
                     if(this_pos > lowest_opponent)
                     {
@@ -581,6 +571,18 @@ namespace freekick
                         lowest_opponent = this_pos;
                     }
                     else if(this_pos > second_lowest_opponent)
+                    {
+                        second_lowest_opponent = this_pos;
+                    }
+                }
+                else
+                {
+                    if(this_pos < lowest_opponent)
+                    {
+                        second_lowest_opponent = lowest_opponent;
+                        lowest_opponent = this_pos;
+                    }
+                    else if(this_pos < second_lowest_opponent)
                     {
                         second_lowest_opponent = this_pos;
                     }
@@ -601,9 +603,14 @@ namespace freekick
 
         float MatchStatus::getOffsideLine(BallOwner b) const
         {
-            int index = (b == Home) ? 0 : 1;
+            return getOffsideLine(ballOwnerToPlayerTarget(b, secondhalf));
+        }
+
+        float MatchStatus::getOffsideLine(PlayerTarget b) const
+        {
+            int index = (b == DownTarget) ? 0 : 1;
             float ball_pos_z = mBall->getPosition().z;
-            if(ballOwnerToPlayerTarget(b, secondhalf) == UpTarget)
+            if(b == UpTarget)
             {
                 if(ball_pos_z < offside_lines[index])
                     return 0.0f;
@@ -614,13 +621,6 @@ namespace freekick
                     return getPitch()->getLength();
             }
             return offside_lines[index];
-        }
-
-        float MatchStatus::getOffsideLine(PlayerTarget b) const
-        {
-            if((b == DownTarget && !secondhalf) || (b == UpTarget && secondhalf))
-                return getOffsideLine(Home);
-            return getOffsideLine(Away);
         }
 
         bool MatchStatus::onPitch(const addutil::Vector3& pos) const
