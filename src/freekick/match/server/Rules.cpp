@@ -157,14 +157,40 @@ namespace freekick
                                     mBallState.owner = Home;
                                 }
                             }
-
-                            else if((vec.z < 0.0f && mBallState.owner == Home) || (vec.z > pitch_length && mBallState.owner == Away))
-                            {
-                                mBallState.bio_type = Goalkick;
-                            }
                             else
                             {
-                                mBallState.bio_type = Cornerkick;
+                                bool over_up = vec.z > pitch_length;
+                                bool home_attacks_up = !mMatchStatus->isSecondHalf();
+                                bool one_who_restarts = mBallState.owner;
+                                bool goalkick;
+                                std::cout << "Over up: " << over_up << "; home attacks up: " << home_attacks_up << "; one_who_restarts = home: " << (one_who_restarts == Home) << std::endl;
+                                if(over_up)
+                                {
+                                    if(home_attacks_up)
+                                    {
+                                        goalkick = one_who_restarts == Away;
+                                    }
+                                    else
+                                    {
+                                        goalkick = one_who_restarts == Home;
+                                    }
+                                }
+                                else
+                                {
+                                    if(!home_attacks_up)
+                                    {
+                                        goalkick = one_who_restarts == Away;
+                                    }
+                                    else
+                                    {
+                                        goalkick = one_who_restarts == Home;
+                                    }
+                                }
+                                std::cout << "Goal kick: " << goalkick << std::endl;
+                                if(goalkick)
+                                    mBallState.bio_type = Goalkick;
+                                else
+                                    mBallState.bio_type = Cornerkick;
                             }
 
                             if(mBallState.bio_type == Goalkick)
