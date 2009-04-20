@@ -155,7 +155,7 @@ def create_next_season(templates, oldts):
         exchanges = oldt.get_exchanges()
         # print "Tournament %s: %d" % (oldt.name, len(exchanges))
         for target_t, target_s, clubname in exchanges:
-            # print "%s -> %s" % (clubname, target_t)
+            print "%s -> %s" % (clubname, target_t)
             newts[target_t].add_clubs([clubname])
 
     att_ts = {}
@@ -171,7 +171,7 @@ def create_next_season(templates, oldts):
     for attk, attv in att_ts.items():
         newts[attk].add_preliminary_clubs(attv)
         # print "Tournament name: %s; Number of clubs: %d" % (attk, len(attv))
-    # f = raw_input()
+    f = raw_input()
     return newts.values()
 
 def add_moved_clubs(moved_clubs, tgt_stage):

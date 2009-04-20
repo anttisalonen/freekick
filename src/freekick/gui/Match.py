@@ -82,15 +82,22 @@ class MatchResult:
 
     def play_random_et(self):
         """Fully randomizes ET result."""
-        max_goals_et = 1
-        self.et1 = random.randint(self.g1, self.g1 + max_goals_et)
-        self.et2 = random.randint(self.g2, self.g2 + max_goals_et)
+        goal_chance_coeff = 20
+        first_goal = random.randint(0, 100) < goal_chance_coeff
+        second_goal = random.randint(0, 100) < goal_chance_coeff
+        self.et1 = self.g1
+        self.et2 = self.g2
+        if first_goal:
+            self.et1 += 1
+        if second_goal:
+            self.et2 += 1
 
     def play_random_penalties(self):
         """Fully randomizes penalty kicks result."""
         while self.pen1 == self.pen2:
-            self.pen1 = random.randint(3, 5)
-            self.pen2 = random.randint(3, 5)
+            additional = random.randint(2, 3)
+            self.pen1 = random.randint(0, 2) + additional
+            self.pen2 = random.randint(0, 2) + additional
 
 class TiebreakerType:
     Off = 0
@@ -271,6 +278,10 @@ class Match:
         """Create a simulated result.
         
         :param tiebreaker: true if this is a tiebreaker (no draw allowed)
+        Return value is a tuple of result type and strength ratio, where
+        result is either Club1, Club2 or Draw. The value strength is a float
+        between 0 and 1 representing the strength of the winning club, i.e.
+        1 => very strong win. In case of draw strength will be 0.
         """
         c1 = self.club1.get_rating() / 1000.0
         c2 = self.club2.get_rating() / 1000.0
@@ -327,6 +338,8 @@ class Match:
                 thismr.et1 = thismr.g1
                 thismr.et2 = thismr.g2
         else:
+            # club 1 wins for now.
+            # results are flipped if club2 should win.
             et1 = 0
             et2 = 0
             pen1 = 0
@@ -335,8 +348,8 @@ class Match:
                 g1 = random.randint(0, 2)
                 g2 = g1
                 if rules.penalties and strength < 0.2:
-                    et1 = g1 + random.randint(0, 1)
-                    et2 = et1
+                    et1 = g1
+                    et2 = g2
                     pen1 = random.randint(4, 5)
                     pen2 = random.randint(3, (pen1 - 1))
                 else:
