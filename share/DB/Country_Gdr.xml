@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+  <Country name="Germany">
+    <Regions>
+      <Region name="Germany">
+        <stadium name="1860 Munchen Stadium" capacity="7400"/>
+        <stadium name="A Bielefeld Stadium" capacity="24700"/>
+        <stadium name="Bayer Leverkusen Stadium" capacity="27500"/>
+        <stadium name="Bayern Munchen Stadium" capacity="44200"/>
+        <stadium name="B Dortmund Stadium" capacity="44800"/>
+        <stadium name="Carl Zeiss Jena Stadium" capacity="7300"/>
+        <stadium name="Alemannia Aachen Stadium" capacity="16000"/>
+        <stadium name="Koln Stadium" capacity="14900"/>
+        <stadium name="Dynamo Dresden Stadium" capacity="3900"/>
+        <stadium name="E Frankfurt Stadium" capacity="31200"/>
+        <stadium name="Erzgebirge Aue Stadium" capacity="11400"/>
+        <stadium name="Energie Cottbus Stadium" capacity="16800"/>
+        <stadium name="Freiburg Stadium" capacity="15100"/>
+        <stadium name="Augsburg Stadium" capacity="8500"/>
+        <stadium name="Mainz 05 Stadium" capacity="14600"/>
+        <stadium name="F Dusseldorf Stadium" capacity="4000"/>
+        <stadium name="Greuther Furth Stadium" capacity="8900"/>
+        <stadium name="Hamburg Stadium" capacity="41300"/>
+        <stadium name="Hannover 96 Stadium" capacity="22300"/>
+        <stadium name="Hansa Rostock Stadium" capacity="17500"/>
+        <stadium name="Monchengladbach Stadium" capacity="14700"/>
+        <stadium name="Rot-weiss Essen Stadium" capacity="4300"/>
+        <stadium name="Nurnberg Stadium" capacity="26700"/>
+        <stadium name="Karlsruhe Stadium" capacity="14800"/>
+        <stadium name="K Offenbach Stadium" capacity="6200"/>
+        <stadium name="Hertha Berlin Stadium" capacity="34500"/>
+        <stadium name="Duisburg Stadium" capacity="19200"/>
+        <stadium name="Kaiserslautern Stadium" capacity="12200"/>
+        <stadium name="Paderborn Stadium" capacity="7700"/>
+        <stadium name="E Braunschweig Stadium" capacity="5700"/>
+        <stadium name="Schalke 04 Stadium" capacity="37600"/>
+        <stadium name="St Pauli Stadium" capacity="6600"/>
+        <stadium name="Wehen Stadium" capacity="7100"/>
+        <stadium name="Hoffenheim Stadium" capacity="10000"/>
+        <stadium name="Wuppertaler Stadium" capacity="3500"/>
+        <stadium name="Unterhaching Stadium" capacity="4300"/>
+        <stadium name="Aalen Stadium" capacity="3900"/>
+        <stadium name="Siegen Stadium" capacity="4300"/>
+        <stadium name="Osnabruck Stadium" capacity="5000"/>
+        <stadium name="Stuttgart Stadium" capacity="48800"/>
+        <stadium name="Bochum Stadium" capacity="20500"/>
+        <stadium name="Wolfsburg Stadium" capacity="27100"/>
+        <stadium name="Koblenz Stadium" capacity="8200"/>
+        <stadium name="Frankfurt Stadium" capacity="3600"/>
+        <stadium name="Werder Bremen Stadium" capacity="42700"/>
+        <stadium name="Bayern Amateure Stadium" capacity="2200"/>
+      </Region>
+    </Regions>
+    <leaguesystem name="German league">
+      <Levels>
+        <level>
+          <branch>
+            <stage name="Premier League" type="0">
+              <setup seeded="0" participantnum="18" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="German Premier League champion"/>
+              <attendances>
+                <attendance tournament="German Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="A Bielefeld"/>
+                <club name="Bayer Leverkusen"/>
+                <club name="Bayern Munchen"/>
+                <club name="B Dortmund"/>
+                <club name="E Frankfurt"/>
+                <club name="Energie Cottbus"/>
+                <club name="Hamburg"/>
+                <club name="Hannover 96"/>
+                <club name="Hansa Rostock"/>
+                <club name="Nurnberg"/>
+                <club name="Karlsruhe"/>
+                <club name="Hertha Berlin"/>
+                <club name="Duisburg"/>
+                <club name="Schalke 04"/>
+                <club name="Stuttgart"/>
+                <club name="Bochum"/>
+                <club name="Wolfsburg"/>
+                <club name="Werder Bremen"/>
+              </preset>
+            </stage>
+            <leagueprs/>
+            <leaguerls>
+              <leaguerl tournament="First League" num="3"/>
+            </leaguerls>
+          </branch>
+        </level>
+        <level>
+          <branch>
+            <stage name="First League" type="0">
+              <setup seeded="0" participantnum="18" groups="1" rounds="2" pointsperwin="3"/>
+              <trophy name="German First League champion"/>
+              <attendances>
+                <attendance tournament="German Cup" stage="First round"/>
+              </attendances>
+              <preset>
+                <club name="1860 Munchen"/>
+                <club name="Carl Zeiss Jena"/>
+                <club name="Alemannia Aachen"/>
+                <club name="Koln"/>
+                <club name="Erzgebirge Aue"/>
+                <club name="Freiburg"/>
+                <club name="Augsburg"/>
+                <club name="Mainz 05"/>
+                <club name="Greuther Furth"/>
+                <club name="Monchengladbach"/>
+                <club name="K Offenbach"/>
+                <club name="Kaiserslautern"/>
+                <club name="Paderborn"/>
+                <club name="St Pauli"/>
+                <club name="Wehen"/>
+                <club name="Hoffenheim"/>
+                <club name="Osnabruck"/>
+                <club name="Koblenz"/>
+              </preset>
+            </stage>
+            <leagueprs>
+              <leaguepr tournament="Premier League" num="3"/>
+            </leagueprs>
+            <leaguerls/>
+          </branch>
+        </level>
+      </Levels>
+    </leaguesystem>
+    <Tournaments>
+      <tournament name="German Cup">
+        <stage name="Final" type="1">
+          <setup seeded="0" participantnum="2" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+          <trophy name="German Cup champion"/>
+        </stage>
+        <stage name="Semifinals" type="1">
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
+        </stage>
+        <stage name="Quarterfinals" type="1">
+          <setup seeded="0" participantnum="8" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Semifinals"/>
+        </stage>
+        <stage name="Second round" type="1">
+          <setup seeded="0" participantnum="16" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Quarterfinals"/>
+        </stage>
+        <stage name="First round" type="1">
+          <setup seeded="0" participantnum="32" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Second round"/>
+          <preset>
+            <club name="A Bielefeld"/>
+            <club name="Bayer Leverkusen"/>
+            <club name="Bayern Munchen"/>
+            <club name="B Dortmund"/>
+            <club name="E Frankfurt"/>
+            <club name="Energie Cottbus"/>
+            <club name="Hamburg"/>
+            <club name="Hannover 96"/>
+            <club name="Hansa Rostock"/>
+            <club name="Nurnberg"/>
+            <club name="Karlsruhe"/>
+            <club name="Hertha Berlin"/>
+            <club name="Duisburg"/>
+            <club name="Schalke 04"/>
+            <club name="Stuttgart"/>
+            <club name="Bochum"/>
+            <club name="Wolfsburg"/>
+            <club name="Werder Bremen"/>
+            <club name="1860 Munchen"/>
+            <club name="Carl Zeiss Jena"/>
+            <club name="Alemannia Aachen"/>
+            <club name="Koln"/>
+            <club name="Erzgebirge Aue"/>
+            <club name="Freiburg"/>
+            <club name="Augsburg"/>
+            <club name="Mainz 05"/>
+            <club name="Greuther Furth"/>
+            <club name="Monchengladbach"/>
+            <club name="K Offenbach"/>
+            <club name="Kaiserslautern"/>
+            <club name="Paderborn"/>
+            <club name="St Pauli"/>
+          </preset>
+        </stage>
+      </tournament>
+    </Tournaments>
+  </Country>
+</Countries>
