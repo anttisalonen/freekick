@@ -3,27 +3,27 @@
   <Country name="Finland">
     <Regions>
       <Region name="Finland">
-        <stadium name="Honka Stadium" capacity="2400"/>
-        <stadium name="Lahti Stadium" capacity="2100"/>
-        <stadium name="Haka Stadium" capacity="2400"/>
-        <stadium name="Hjk Stadium" capacity="4300"/>
-        <stadium name="Mariehamn Stadium" capacity="2300"/>
+        <stadium name="Honka Stadium" capacity="3200"/>
+        <stadium name="Lahti Stadium" capacity="1900"/>
+        <stadium name="Haka Stadium" capacity="3100"/>
+        <stadium name="Hjk Stadium" capacity="5800"/>
+        <stadium name="Mariehamn Stadium" capacity="2400"/>
         <stadium name="Inter Turku Stadium" capacity="1400"/>
-        <stadium name="Jaro Stadium" capacity="1900"/>
-        <stadium name="Kooteepee Stadium" capacity="1300"/>
-        <stadium name="Mypa Stadium" capacity="2100"/>
-        <stadium name="Tampere Utd Stadium" capacity="4400"/>
-        <stadium name="Tps Stadium" capacity="2200"/>
-        <stadium name="Vps Stadium" capacity="1400"/>
+        <stadium name="Jaro Stadium" capacity="1700"/>
+        <stadium name="Kooteepee Stadium" capacity="1500"/>
+        <stadium name="Mypa Stadium" capacity="2000"/>
+        <stadium name="Tampere Utd Stadium" capacity="3900"/>
+        <stadium name="Tps Stadium" capacity="1600"/>
+        <stadium name="Vps Stadium" capacity="1000"/>
       </Region>
     </Regions>
     <leaguesystem name="Finnish league">
       <Levels>
         <level>
           <branch>
-            <stage name="Premier league" type="0">
+            <stage name="Premier League" type="0">
               <setup seeded="0" participantnum="12" groups="1" rounds="2" pointsperwin="3"/>
-              <trophy name="Finnish Premier league champion"/>
+              <trophy name="Finnish Premier League champion"/>
               <attendances>
                 <attendance tournament="Finnish Cup" stage="Quarterfinals"/>
               </attendances>
@@ -42,9 +42,9 @@
                 <club name="Vps"/>
               </preset>
             </stage>
+            <leagueprs/>
+            <leaguerls/>
           </branch>
-          <leagueprs/>
-          <leaguerls/>
         </level>
       </Levels>
     </leaguesystem>

@@ -3,111 +3,110 @@
   <Country name="England">
     <Regions>
       <Region name="England">
-        <stadium name="Arsenal Stadium" capacity="47100"/>
-        <stadium name="Aston Villa Stadium" capacity="35900"/>
-        <stadium name="Barnsley Stadium" capacity="17200"/>
-        <stadium name="Birmingham City Stadium" capacity="25900"/>
-        <stadium name="Blackburn Rovers Stadium" capacity="37700"/>
-        <stadium name="Bolton Wanderers Stadium" capacity="37600"/>
-        <stadium name="Bradford City Stadium" capacity="4400"/>
-        <stadium name="Charlton Stadium" capacity="25200"/>
-        <stadium name="Chelsea Stadium" capacity="67200"/>
-        <stadium name="Coventry City Stadium" capacity="13800"/>
-        <stadium name="Crystal Palace Stadium" capacity="13800"/>
-        <stadium name="Derby County Stadium" capacity="20300"/>
-        <stadium name="Everton Stadium" capacity="51000"/>
-        <stadium name="Grimsby Town Stadium" capacity="4200"/>
-        <stadium name="Huddersfield Stadium" capacity="5500"/>
-        <stadium name="Ipswich Town Stadium" capacity="18100"/>
-        <stadium name="Fulham Stadium" capacity="38600"/>
-        <stadium name="Manchester City Stadium" capacity="39700"/>
-        <stadium name="Liverpool Stadium" capacity="69400"/>
-        <stadium name="Leicester City Stadium" capacity="15100"/>
-        <stadium name="Manchester Utd Stadium" capacity="65600"/>
-        <stadium name="Middlesbrough Stadium" capacity="38100"/>
-        <stadium name="Newcastle Utd Stadium" capacity="51200"/>
-        <stadium name="Norwich City Stadium" capacity="12800"/>
-        <stadium name="Portsmouth Stadium" capacity="47900"/>
-        <stadium name="Oldham Athletic Stadium" capacity="7600"/>
-        <stadium name="Macclesfield Stadium" capacity="3700"/>
-        <stadium name="Port Vale Stadium" capacity="8200"/>
-        <stadium name="Nott'm Forest Stadium" capacity="9000"/>
-        <stadium name="Qpr Stadium" capacity="15800"/>
-        <stadium name="Sheffield Wed Stadium" capacity="15500"/>
-        <stadium name="Sheffield Utd Stadium" capacity="27200"/>
+        <stadium name="Arsenal Stadium" capacity="52900"/>
+        <stadium name="Aston Villa Stadium" capacity="39100"/>
+        <stadium name="Barnsley Stadium" capacity="12400"/>
+        <stadium name="Birmingham City Stadium" capacity="30200"/>
+        <stadium name="Blackburn Rovers Stadium" capacity="44600"/>
+        <stadium name="Bolton Wanderers Stadium" capacity="39900"/>
+        <stadium name="Bradford City Stadium" capacity="4600"/>
+        <stadium name="Charlton Stadium" capacity="22500"/>
+        <stadium name="Chelsea Stadium" capacity="53400"/>
+        <stadium name="Coventry City Stadium" capacity="16000"/>
+        <stadium name="Crystal Palace Stadium" capacity="20600"/>
+        <stadium name="Derby County Stadium" capacity="25000"/>
+        <stadium name="Everton Stadium" capacity="47500"/>
+        <stadium name="Grimsby Town Stadium" capacity="3400"/>
+        <stadium name="Huddersfield Stadium" capacity="5600"/>
+        <stadium name="Ipswich Town Stadium" capacity="14800"/>
+        <stadium name="Fulham Stadium" capacity="27500"/>
+        <stadium name="Manchester City Stadium" capacity="53300"/>
+        <stadium name="Liverpool Stadium" capacity="47600"/>
+        <stadium name="Leicester City Stadium" capacity="18700"/>
+        <stadium name="Manchester Utd Stadium" capacity="61600"/>
+        <stadium name="Middlesbrough Stadium" capacity="46000"/>
+        <stadium name="Newcastle Utd Stadium" capacity="45100"/>
+        <stadium name="Norwich City Stadium" capacity="15000"/>
+        <stadium name="Portsmouth Stadium" capacity="45300"/>
+        <stadium name="Oldham Athletic Stadium" capacity="8400"/>
+        <stadium name="Macclesfield Stadium" capacity="3800"/>
+        <stadium name="Port Vale Stadium" capacity="7600"/>
+        <stadium name="Nott'm Forest Stadium" capacity="12700"/>
+        <stadium name="Qpr Stadium" capacity="15300"/>
+        <stadium name="Sheffield Wed Stadium" capacity="12600"/>
+        <stadium name="Sheffield Utd Stadium" capacity="21500"/>
         <stadium name="Reading Stadium" capacity="25600"/>
-        <stadium name="Southampton Stadium" capacity="26800"/>
-        <stadium name="Southend Utd Stadium" capacity="7000"/>
-        <stadium name="Stoke City Stadium" capacity="12000"/>
-        <stadium name="Sunderland Stadium" capacity="34200"/>
-        <stadium name="Swindon Town Stadium" capacity="7800"/>
-        <stadium name="Tottenham Stadium" capacity="44000"/>
-        <stadium name="Tranmere Rovers Stadium" capacity="7300"/>
-        <stadium name="Wba Stadium" capacity="22000"/>
-        <stadium name="West Ham Utd Stadium" capacity="39300"/>
-        <stadium name="Wigan Athletic Stadium" capacity="43200"/>
-        <stadium name="Wolves Stadium" capacity="17700"/>
-        <stadium name="Barnet Stadium" capacity="3600"/>
-        <stadium name="Blackpool Stadium" capacity="12300"/>
-        <stadium name="Bournemouth Stadium" capacity="6200"/>
-        <stadium name="Brentford Stadium" capacity="5000"/>
-        <stadium name="Brighton Stadium" capacity="6500"/>
-        <stadium name="Bristol City Stadium" capacity="9600"/>
-        <stadium name="Bristol Rovers Stadium" capacity="6900"/>
-        <stadium name="Burnley Stadium" capacity="17000"/>
-        <stadium name="Bury Stadium" capacity="3500"/>
-        <stadium name="Cheltenham Town Stadium" capacity="5500"/>
-        <stadium name="Cardiff City Stadium" capacity="14500"/>
-        <stadium name="Carlisle Utd Stadium" capacity="6700"/>
-        <stadium name="Chester City Stadium" capacity="4100"/>
-        <stadium name="Chesterfield Stadium" capacity="4200"/>
-        <stadium name="Colchester Utd Stadium" capacity="11400"/>
-        <stadium name="Crewe Alexandra Stadium" capacity="9200"/>
-        <stadium name="Darlington Stadium" capacity="5400"/>
-        <stadium name="Doncaster Rovers Stadium" capacity="7100"/>
-        <stadium name="Accrington Stadium" capacity="4600"/>
-        <stadium name="Leeds Utd Stadium" capacity="14500"/>
-        <stadium name="Gillingham Stadium" capacity="8800"/>
-        <stadium name="Cambridge Utd Stadium" capacity="1800"/>
-        <stadium name="Hartlepool Utd Stadium" capacity="5600"/>
-        <stadium name="Hereford Utd Stadium" capacity="4500"/>
-        <stadium name="Hull City Stadium" capacity="16200"/>
-        <stadium name="Leyton Orient Stadium" capacity="7100"/>
-        <stadium name="Lincoln City Stadium" capacity="3300"/>
-        <stadium name="Luton Town Stadium" capacity="11900"/>
-        <stadium name="Mansfield Town Stadium" capacity="3600"/>
-        <stadium name="Millwall Stadium" capacity="6300"/>
-        <stadium name="Northampton Town Stadium" capacity="7600"/>
-        <stadium name="Notts County Stadium" capacity="3700"/>
-        <stadium name="Peterborough Utd Stadium" capacity="4900"/>
-        <stadium name="Plymouth Argyle Stadium" capacity="14100"/>
-        <stadium name="Preston Stadium" capacity="11800"/>
-        <stadium name="Rochdale Stadium" capacity="4700"/>
-        <stadium name="Rotherham Utd Stadium" capacity="5000"/>
-        <stadium name="Dagenham Stadium" capacity="2400"/>
-        <stadium name="Scunthorpe Utd Stadium" capacity="10300"/>
-        <stadium name="Shrewsbury Town Stadium" capacity="3300"/>
-        <stadium name="Stockport County Stadium" capacity="4800"/>
-        <stadium name="Swansea City Stadium" capacity="9900"/>
-        <stadium name="Morecambe Stadium" capacity="2700"/>
-        <stadium name="Walsall Stadium" capacity="5200"/>
-        <stadium name="Watford Stadium" capacity="27700"/>
-        <stadium name="Mk Dons Stadium" capacity="6000"/>
-        <stadium name="Wrexham Stadium" capacity="5000"/>
-        <stadium name="Wycombe Wdrs Stadium" capacity="4700"/>
-        <stadium name="Yeovil Town Stadium" capacity="6300"/>
+        <stadium name="Southampton Stadium" capacity="23500"/>
+        <stadium name="Southend Utd Stadium" capacity="10600"/>
+        <stadium name="Stoke City Stadium" capacity="12700"/>
+        <stadium name="Sunderland Stadium" capacity="26800"/>
+        <stadium name="Swindon Town Stadium" capacity="5300"/>
+        <stadium name="Tottenham Stadium" capacity="62500"/>
+        <stadium name="Tranmere Rovers Stadium" capacity="9200"/>
+        <stadium name="Wba Stadium" capacity="26700"/>
+        <stadium name="West Ham Utd Stadium" capacity="45600"/>
+        <stadium name="Wigan Athletic Stadium" capacity="30500"/>
+        <stadium name="Wolves Stadium" capacity="16700"/>
+        <stadium name="Barnet Stadium" capacity="3300"/>
+        <stadium name="Blackpool Stadium" capacity="8600"/>
+        <stadium name="Bournemouth Stadium" capacity="7900"/>
+        <stadium name="Brentford Stadium" capacity="4000"/>
+        <stadium name="Brighton Stadium" capacity="7100"/>
+        <stadium name="Bristol City Stadium" capacity="9800"/>
+        <stadium name="Bristol Rovers Stadium" capacity="6000"/>
+        <stadium name="Burnley Stadium" capacity="19900"/>
+        <stadium name="Bury Stadium" capacity="4800"/>
+        <stadium name="Cheltenham Town Stadium" capacity="5700"/>
+        <stadium name="Cardiff City Stadium" capacity="21100"/>
+        <stadium name="Carlisle Utd Stadium" capacity="7900"/>
+        <stadium name="Chester City Stadium" capacity="4900"/>
+        <stadium name="Chesterfield Stadium" capacity="4700"/>
+        <stadium name="Colchester Utd Stadium" capacity="13600"/>
+        <stadium name="Crewe Alexandra Stadium" capacity="9500"/>
+        <stadium name="Darlington Stadium" capacity="4900"/>
+        <stadium name="Doncaster Rovers Stadium" capacity="6300"/>
+        <stadium name="Accrington Stadium" capacity="3900"/>
+        <stadium name="Leeds Utd Stadium" capacity="9500"/>
+        <stadium name="Gillingham Stadium" capacity="7700"/>
+        <stadium name="Cambridge Utd Stadium" capacity="2400"/>
+        <stadium name="Hartlepool Utd Stadium" capacity="8000"/>
+        <stadium name="Hereford Utd Stadium" capacity="5200"/>
+        <stadium name="Hull City Stadium" capacity="18700"/>
+        <stadium name="Leyton Orient Stadium" capacity="7800"/>
+        <stadium name="Lincoln City Stadium" capacity="4700"/>
+        <stadium name="Luton Town Stadium" capacity="9300"/>
+        <stadium name="Mansfield Town Stadium" capacity="4300"/>
+        <stadium name="Millwall Stadium" capacity="6000"/>
+        <stadium name="Northampton Town Stadium" capacity="7800"/>
+        <stadium name="Notts County Stadium" capacity="3600"/>
+        <stadium name="Peterborough Utd Stadium" capacity="4200"/>
+        <stadium name="Plymouth Argyle Stadium" capacity="11200"/>
+        <stadium name="Preston Stadium" capacity="10800"/>
+        <stadium name="Rochdale Stadium" capacity="4000"/>
+        <stadium name="Rotherham Utd Stadium" capacity="3400"/>
+        <stadium name="Dagenham Stadium" capacity="2500"/>
+        <stadium name="Scunthorpe Utd Stadium" capacity="12500"/>
+        <stadium name="Shrewsbury Town Stadium" capacity="4700"/>
+        <stadium name="Stockport County Stadium" capacity="4300"/>
+        <stadium name="Swansea City Stadium" capacity="8800"/>
+        <stadium name="Morecambe Stadium" capacity="3600"/>
+        <stadium name="Walsall Stadium" capacity="7700"/>
+        <stadium name="Watford Stadium" capacity="20600"/>
+        <stadium name="Mk Dons Stadium" capacity="6500"/>
+        <stadium name="Wrexham Stadium" capacity="3200"/>
+        <stadium name="Wycombe Wdrs Stadium" capacity="4600"/>
+        <stadium name="Yeovil Town Stadium" capacity="6700"/>
       </Region>
     </Regions>
     <leaguesystem name="English league">
       <Levels>
         <level>
           <branch>
-            <stage name="Premier league" type="0">
+            <stage name="Premier League" type="0">
               <setup seeded="0" participantnum="20" groups="1" rounds="2" pointsperwin="3"/>
-              <trophy name="English Premier league champion"/>
+              <trophy name="English Premier League champion"/>
               <attendances>
                 <attendance tournament="English Cup" stage="First round"/>
-                <attendance tournament="League Cup" stage="First round"/>
               </attendances>
               <preset>
                 <club name="Arsenal"/>
@@ -134,18 +133,17 @@
             </stage>
             <leagueprs/>
             <leaguerls>
-              <leaguerl tournament="First league" num="3"/>
+              <leaguerl tournament="First League" num="3"/>
             </leaguerls>
           </branch>
         </level>
         <level>
           <branch>
-            <stage name="First league" type="0">
+            <stage name="First League" type="0">
               <setup seeded="0" participantnum="24" groups="1" rounds="2" pointsperwin="3"/>
-              <trophy name="English First league champion"/>
+              <trophy name="English First League champion"/>
               <attendances>
                 <attendance tournament="English Cup" stage="First round"/>
-                <attendance tournament="League Cup" stage="First round"/>
               </attendances>
               <preset>
                 <club name="Barnsley"/>
@@ -175,21 +173,20 @@
               </preset>
             </stage>
             <leagueprs>
-              <leaguepr tournament="Premier league" num="3"/>
+              <leaguepr tournament="Premier League" num="3"/>
             </leagueprs>
             <leaguerls>
-              <leaguerl tournament="Second league" num="3"/>
+              <leaguerl tournament="Second League" num="3"/>
             </leaguerls>
           </branch>
         </level>
         <level>
           <branch>
-            <stage name="Second league" type="0">
+            <stage name="Second League" type="0">
               <setup seeded="0" participantnum="24" groups="1" rounds="2" pointsperwin="3"/>
-              <trophy name="English Second league champion"/>
+              <trophy name="English Second League champion"/>
               <attendances>
                 <attendance tournament="English Cup" stage="First round"/>
-                <attendance tournament="League Cup" stage="First round"/>
               </attendances>
               <preset>
                 <club name="Huddersfield"/>
@@ -219,21 +216,20 @@
               </preset>
             </stage>
             <leagueprs>
-              <leaguepr tournament="First league" num="3"/>
+              <leaguepr tournament="First League" num="3"/>
             </leagueprs>
             <leaguerls>
-              <leaguerl tournament="Third league" num="3"/>
+              <leaguerl tournament="Third League" num="3"/>
             </leaguerls>
           </branch>
         </level>
         <level>
           <branch>
-            <stage name="Third league" type="0">
+            <stage name="Third League" type="0">
               <setup seeded="0" participantnum="24" groups="1" rounds="2" pointsperwin="3"/>
-              <trophy name="English Third league champion"/>
+              <trophy name="English Third League champion"/>
               <attendances>
                 <attendance tournament="English Cup" stage="First round"/>
-                <attendance tournament="League Cup" stage="First round"/>
               </attendances>
               <preset>
                 <club name="Bradford City"/>
@@ -263,7 +259,7 @@
               </preset>
             </stage>
             <leagueprs>
-              <leaguepr tournament="Second league" num="3"/>
+              <leaguepr tournament="Second League" num="3"/>
             </leagueprs>
             <leaguerls/>
           </branch>
@@ -277,116 +273,24 @@
           <trophy name="English Cup champion"/>
         </stage>
         <stage name="Semifinals" type="1">
-          <setup seeded="0" participantnum="4" rounds="1" extratime="1" penalties="1" replays="1" awaygoals="0"/>
-          <cuppr tournament="English Cup" stage="Final"/>
-        </stage>
-        <stage name="Quarterfinals" type="1">
-          <setup seeded="0" participantnum="8" rounds="1" extratime="1" penalties="1" replays="1" awaygoals="0"/>
-          <cuppr tournament="English Cup" stage="Semifinals"/>
-        </stage>
-        <stage name="Third round" type="1">
-          <setup seeded="0" participantnum="16" rounds="1" extratime="1" penalties="1" replays="1" awaygoals="0"/>
-          <cuppr tournament="English Cup" stage="Quarterfinals"/>
-        </stage>
-        <stage name="Second round" type="1">
-          <setup seeded="0" participantnum="32" rounds="1" extratime="1" penalties="1" replays="1" awaygoals="0"/>
-          <cuppr tournament="English Cup" stage="Third round"/>
-        </stage>
-        <stage name="First round" type="1">
-          <setup seeded="0" participantnum="64" rounds="1" extratime="1" penalties="1" replays="1" awaygoals="0"/>
-          <cuppr tournament="English Cup" stage="Second round"/>
-          <preset>
-            <club name="Arsenal"/>
-            <club name="Aston Villa"/>
-            <club name="Birmingham City"/>
-            <club name="Blackburn Rovers"/>
-            <club name="Bolton Wanderers"/>
-            <club name="Chelsea"/>
-            <club name="Derby County"/>
-            <club name="Everton"/>
-            <club name="Fulham"/>
-            <club name="Manchester City"/>
-            <club name="Liverpool"/>
-            <club name="Manchester Utd"/>
-            <club name="Middlesbrough"/>
-            <club name="Newcastle Utd"/>
-            <club name="Portsmouth"/>
-            <club name="Reading"/>
-            <club name="Sunderland"/>
-            <club name="Tottenham"/>
-            <club name="West Ham Utd"/>
-            <club name="Wigan Athletic"/>
-            <club name="Barnsley"/>
-            <club name="Charlton"/>
-            <club name="Coventry City"/>
-            <club name="Crystal Palace"/>
-            <club name="Ipswich Town"/>
-            <club name="Leicester City"/>
-            <club name="Norwich City"/>
-            <club name="Qpr"/>
-            <club name="Sheffield Wed"/>
-            <club name="Sheffield Utd"/>
-            <club name="Southampton"/>
-            <club name="Stoke City"/>
-            <club name="Wba"/>
-            <club name="Wolves"/>
-            <club name="Blackpool"/>
-            <club name="Bristol City"/>
-            <club name="Burnley"/>
-            <club name="Cardiff City"/>
-            <club name="Colchester Utd"/>
-            <club name="Hull City"/>
-            <club name="Plymouth Argyle"/>
-            <club name="Preston"/>
-            <club name="Scunthorpe Utd"/>
-            <club name="Watford"/>
-            <club name="Huddersfield"/>
-            <club name="Oldham Athletic"/>
-            <club name="Port Vale"/>
-            <club name="Nott'm Forest"/>
-            <club name="Southend Utd"/>
-            <club name="Swindon Town"/>
-            <club name="Tranmere Rovers"/>
-            <club name="Bournemouth"/>
-            <club name="Brighton"/>
-            <club name="Bristol Rovers"/>
-            <club name="Cheltenham Town"/>
-            <club name="Carlisle Utd"/>
-            <club name="Crewe Alexandra"/>
-            <club name="Doncaster Rovers"/>
-            <club name="Leeds Utd"/>
-            <club name="Gillingham"/>
-            <club name="Hartlepool Utd"/>
-            <club name="Leyton Orient"/>
-            <club name="Luton Town"/>
-            <club name="Millwall"/>
-          </preset>
-        </stage>
-      </tournament>
-      <tournament name="League Cup">
-        <stage name="Final" type="1">
-          <setup seeded="0" participantnum="2" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
-          <trophy name="English League Cup champion"/>
-        </stage>
-        <stage name="Semifinals" type="1">
-          <setup seeded="0" participantnum="4" rounds="2" extratime="1" penalties="1" replays="0" awaygoals="1"/>
-          <cuppr tournament="League Cup" stage="Final"/>
+          <setup seeded="0" participantnum="4" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+          <cuppr stage="Final"/>
         </stage>
         <stage name="Quarterfinals" type="1">
           <setup seeded="0" participantnum="8" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
-          <cuppr tournament="League Cup" stage="Semifinals"/>
+          <cuppr stage="Semifinals"/>
         </stage>
         <stage name="Third round" type="1">
           <setup seeded="0" participantnum="16" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
-          <cuppr tournament="League Cup" stage="Quarterfinals"/>
+          <cuppr stage="Quarterfinals"/>
         </stage>
         <stage name="Second round" type="1">
           <setup seeded="0" participantnum="32" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
-          <cuppr tournament="League Cup" stage="Third round"/>
+          <cuppr stage="Third round"/>
         </stage>
         <stage name="First round" type="1">
           <setup seeded="0" participantnum="64" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
-          <cuppr tournament="League Cup" stage="Second round"/>
+          <cuppr stage="Second round"/>
           <preset>
             <club name="Arsenal"/>
             <club name="Aston Villa"/>

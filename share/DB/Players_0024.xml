@@ -5,8 +5,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="356" risktaking="600" offensive="224" aggressive="597" consistent="498" creative="469" experienced="495"/>
-    <skills stamina="491" dexterity="543" speed="188" tackling="140" passing="419" shooting="355" control="312" accuracy="168" goalkeeping="355" heading="152"/>
+    <personality active="486" risktaking="354" offensive="698" aggressive="626" consistent="351" creative="431" experienced="844"/>
+    <skills stamina="545" dexterity="523" speed="169" tackling="127" passing="436" shooting="300" control="207" accuracy="185" goalkeeping="530" heading="180"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24001">
@@ -14,8 +14,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="486" risktaking="374" offensive="402" aggressive="550" consistent="554" creative="503" experienced="598"/>
-    <skills stamina="421" dexterity="429" speed="280" tackling="126" passing="288" shooting="389" control="285" accuracy="190" goalkeeping="347" heading="187"/>
+    <personality active="290" risktaking="674" offensive="367" aggressive="500" consistent="508" creative="534" experienced="519"/>
+    <skills stamina="472" dexterity="248" speed="162" tackling="173" passing="242" shooting="357" control="214" accuracy="193" goalkeeping="498" heading="195"/>
     <position pos="0" left="1" wing="0"/>
   </player>
   <player id="24002">
@@ -23,8 +23,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="310" risktaking="371" offensive="486" aggressive="509" consistent="432" creative="399" experienced="297"/>
-    <skills stamina="450" dexterity="533" speed="490" tackling="349" passing="284" shooting="402" control="478" accuracy="326" goalkeeping="45" heading="449"/>
+    <personality active="346" risktaking="737" offensive="354" aggressive="588" consistent="603" creative="395" experienced="354"/>
+    <skills stamina="485" dexterity="350" speed="525" tackling="320" passing="401" shooting="380" control="468" accuracy="439" goalkeeping="75" heading="395"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="24003">
@@ -32,8 +32,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="492" risktaking="798" offensive="578" aggressive="500" consistent="465" creative="706" experienced="304"/>
-    <skills stamina="344" dexterity="337" speed="260" tackling="302" passing="365" shooting="361" control="314" accuracy="315" goalkeeping="58" heading="322"/>
+    <personality active="721" risktaking="401" offensive="342" aggressive="619" consistent="307" creative="512" experienced="416"/>
+    <skills stamina="592" dexterity="408" speed="634" tackling="269" passing="385" shooting="368" control="444" accuracy="411" goalkeeping="58" heading="249"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="24004">
@@ -41,17 +41,17 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="510" risktaking="388" offensive="517" aggressive="724" consistent="495" creative="465" experienced="290"/>
-    <skills stamina="333" dexterity="263" speed="436" tackling="431" passing="397" shooting="465" control="358" accuracy="302" goalkeeping="57" heading="311"/>
-    <position pos="1" left="1" wing="0"/>
+    <personality active="487" risktaking="360" offensive="400" aggressive="388" consistent="196" creative="526" experienced="393"/>
+    <skills stamina="400" dexterity="421" speed="169" tackling="324" passing="431" shooting="336" control="424" accuracy="374" goalkeeping="51" heading="454"/>
+    <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24005">
     <personal name="Hannu Patronen">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="417" risktaking="553" offensive="492" aggressive="629" consistent="477" creative="525" experienced="308"/>
-    <skills stamina="660" dexterity="495" speed="203" tackling="410" passing="469" shooting="510" control="593" accuracy="493" goalkeeping="75" heading="438"/>
+    <personality active="472" risktaking="746" offensive="572" aggressive="516" consistent="460" creative="444" experienced="483"/>
+    <skills stamina="678" dexterity="479" speed="570" tackling="466" passing="526" shooting="395" control="544" accuracy="371" goalkeeping="86" heading="382"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24006">
@@ -59,8 +59,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="589" risktaking="765" offensive="594" aggressive="496" consistent="752" creative="444" experienced="743"/>
-    <skills stamina="581" dexterity="622" speed="260" tackling="427" passing="404" shooting="304" control="336" accuracy="447" goalkeeping="47" heading="386"/>
+    <personality active="362" risktaking="416" offensive="386" aggressive="477" consistent="286" creative="609" experienced="453"/>
+    <skills stamina="541" dexterity="182" speed="208" tackling="398" passing="303" shooting="345" control="299" accuracy="370" goalkeeping="69" heading="415"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="24007">
@@ -68,8 +68,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="228" risktaking="694" offensive="788" aggressive="606" consistent="207" creative="753" experienced="454"/>
-    <skills stamina="507" dexterity="271" speed="504" tackling="436" passing="401" shooting="343" control="477" accuracy="354" goalkeeping="45" heading="456"/>
+    <personality active="682" risktaking="384" offensive="451" aggressive="196" consistent="585" creative="369" experienced="615"/>
+    <skills stamina="298" dexterity="256" speed="210" tackling="322" passing="345" shooting="410" control="497" accuracy="289" goalkeeping="59" heading="431"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="24008">
@@ -77,8 +77,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="539" risktaking="654" offensive="563" aggressive="227" consistent="316" creative="271" experienced="540"/>
-    <skills stamina="225" dexterity="614" speed="235" tackling="402" passing="400" shooting="479" control="540" accuracy="346" goalkeeping="71" heading="453"/>
+    <personality active="549" risktaking="389" offensive="308" aggressive="337" consistent="510" creative="857" experienced="594"/>
+    <skills stamina="603" dexterity="206" speed="236" tackling="328" passing="470" shooting="327" control="461" accuracy="305" goalkeeping="63" heading="460"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24009">
@@ -86,8 +86,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="400" risktaking="396" offensive="536" aggressive="396" consistent="314" creative="719" experienced="699"/>
-    <skills stamina="559" dexterity="531" speed="167" tackling="325" passing="397" shooting="280" control="275" accuracy="307" goalkeeping="46" heading="387"/>
+    <personality active="362" risktaking="350" offensive="333" aggressive="243" consistent="541" creative="526" experienced="156"/>
+    <skills stamina="507" dexterity="544" speed="227" tackling="440" passing="378" shooting="290" control="423" accuracy="319" goalkeeping="74" heading="451"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24010">
@@ -95,17 +95,17 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="730" risktaking="440" offensive="437" aggressive="649" consistent="597" creative="591" experienced="668"/>
-    <skills stamina="646" dexterity="666" speed="491" tackling="509" passing="450" shooting="306" control="363" accuracy="359" goalkeeping="68" heading="437"/>
-    <position pos="2" left="0" wing="0"/>
+    <personality active="378" risktaking="344" offensive="312" aggressive="859" consistent="441" creative="311" experienced="494"/>
+    <skills stamina="199" dexterity="423" speed="327" tackling="407" passing="288" shooting="458" control="389" accuracy="442" goalkeeping="78" heading="345"/>
+    <position pos="2" left="1" wing="0"/>
   </player>
   <player id="24011">
     <personal name="John Weckstrom">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="486" risktaking="653" offensive="731" aggressive="548" consistent="732" creative="151" experienced="485"/>
-    <skills stamina="561" dexterity="694" speed="259" tackling="373" passing="357" shooting="452" control="350" accuracy="342" goalkeeping="55" heading="458"/>
+    <personality active="761" risktaking="469" offensive="387" aggressive="545" consistent="459" creative="672" experienced="329"/>
+    <skills stamina="546" dexterity="472" speed="269" tackling="339" passing="330" shooting="277" control="348" accuracy="436" goalkeeping="57" heading="315"/>
     <position pos="2" left="1" wing="0"/>
   </player>
   <player id="24012">
@@ -113,17 +113,17 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="466" risktaking="477" offensive="474" aggressive="525" consistent="760" creative="382" experienced="252"/>
-    <skills stamina="274" dexterity="308" speed="332" tackling="414" passing="281" shooting="300" control="364" accuracy="416" goalkeeping="60" heading="480"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="706" risktaking="440" offensive="672" aggressive="493" consistent="481" creative="341" experienced="372"/>
+    <skills stamina="487" dexterity="266" speed="655" tackling="367" passing="360" shooting="514" control="375" accuracy="539" goalkeeping="78" heading="325"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24013">
     <personal name="Roni Porokara">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="6" risktaking="457" offensive="284" aggressive="507" consistent="456" creative="551" experienced="747"/>
-    <skills stamina="409" dexterity="414" speed="583" tackling="404" passing="524" shooting="511" control="445" accuracy="439" goalkeeping="65" heading="388"/>
+    <personality active="435" risktaking="285" offensive="628" aggressive="431" consistent="292" creative="619" experienced="409"/>
+    <skills stamina="349" dexterity="571" speed="445" tackling="360" passing="388" shooting="474" control="497" accuracy="536" goalkeeping="57" heading="511"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24014">
@@ -131,8 +131,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="313" risktaking="320" offensive="614" aggressive="454" consistent="571" creative="575" experienced="435"/>
-    <skills stamina="165" dexterity="343" speed="382" tackling="357" passing="343" shooting="434" control="378" accuracy="420" goalkeeping="59" heading="401"/>
+    <personality active="546" risktaking="261" offensive="248" aggressive="692" consistent="435" creative="821" experienced="196"/>
+    <skills stamina="350" dexterity="409" speed="589" tackling="443" passing="418" shooting="436" control="338" accuracy="431" goalkeeping="51" heading="287"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24015">
@@ -140,8 +140,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="297" risktaking="341" offensive="502" aggressive="403" consistent="529" creative="423" experienced="683"/>
-    <skills stamina="673" dexterity="630" speed="535" tackling="355" passing="314" shooting="325" control="414" accuracy="426" goalkeeping="59" heading="355"/>
+    <personality active="688" risktaking="492" offensive="417" aggressive="277" consistent="465" creative="660" experienced="450"/>
+    <skills stamina="611" dexterity="541" speed="578" tackling="429" passing="400" shooting="429" control="353" accuracy="538" goalkeeping="67" heading="353"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24016">
@@ -149,17 +149,17 @@
       <appearance value="0"/>
       <nationality value="Poland"/>
     </personal>
-    <personality active="170" risktaking="334" offensive="659" aggressive="532" consistent="569" creative="522" experienced="456"/>
-    <skills stamina="261" dexterity="428" speed="623" tackling="176" passing="270" shooting="395" control="230" accuracy="220" goalkeeping="331" heading="174"/>
-    <position pos="0" left="0" wing="0"/>
+    <personality active="510" risktaking="401" offensive="589" aggressive="699" consistent="549" creative="566" experienced="304"/>
+    <skills stamina="428" dexterity="345" speed="161" tackling="179" passing="395" shooting="252" control="246" accuracy="146" goalkeeping="358" heading="220"/>
+    <position pos="0" left="1" wing="0"/>
   </player>
   <player id="24017">
     <personal name="Saku Pesonen">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="422" risktaking="541" offensive="354" aggressive="644" consistent="468" creative="747" experienced="519"/>
-    <skills stamina="181" dexterity="664" speed="541" tackling="123" passing="408" shooting="400" control="274" accuracy="123" goalkeeping="454" heading="151"/>
+    <personality active="397" risktaking="244" offensive="539" aggressive="532" consistent="374" creative="586" experienced="493"/>
+    <skills stamina="498" dexterity="552" speed="556" tackling="161" passing="411" shooting="320" control="260" accuracy="134" goalkeeping="431" heading="150"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24018">
@@ -167,8 +167,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="359" risktaking="424" offensive="576" aggressive="286" consistent="396" creative="492" experienced="416"/>
-    <skills stamina="337" dexterity="233" speed="202" tackling="353" passing="436" shooting="254" control="473" accuracy="371" goalkeeping="45" heading="406"/>
+    <personality active="822" risktaking="451" offensive="384" aggressive="373" consistent="494" creative="393" experienced="716"/>
+    <skills stamina="601" dexterity="197" speed="246" tackling="352" passing="244" shooting="244" control="363" accuracy="338" goalkeeping="72" heading="429"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="24019">
@@ -176,8 +176,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="449" risktaking="376" offensive="577" aggressive="516" consistent="678" creative="550" experienced="411"/>
-    <skills stamina="682" dexterity="686" speed="456" tackling="428" passing="277" shooting="418" control="368" accuracy="305" goalkeeping="52" heading="281"/>
+    <personality active="527" risktaking="554" offensive="430" aggressive="667" consistent="696" creative="452" experienced="539"/>
+    <skills stamina="411" dexterity="264" speed="594" tackling="294" passing="301" shooting="404" control="456" accuracy="378" goalkeeping="55" heading="367"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="24020">
@@ -185,8 +185,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="415" risktaking="579" offensive="421" aggressive="311" consistent="488" creative="329" experienced="824"/>
-    <skills stamina="287" dexterity="415" speed="524" tackling="426" passing="438" shooting="271" control="405" accuracy="423" goalkeeping="42" heading="407"/>
+    <personality active="346" risktaking="477" offensive="341" aggressive="538" consistent="319" creative="562" experienced="409"/>
+    <skills stamina="181" dexterity="314" speed="331" tackling="374" passing="346" shooting="437" control="416" accuracy="256" goalkeeping="45" heading="258"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24021">
@@ -194,8 +194,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="651" risktaking="775" offensive="333" aggressive="555" consistent="527" creative="531" experienced="497"/>
-    <skills stamina="553" dexterity="542" speed="615" tackling="517" passing="400" shooting="390" control="414" accuracy="366" goalkeeping="67" heading="339"/>
+    <personality active="225" risktaking="332" offensive="602" aggressive="390" consistent="405" creative="768" experienced="738"/>
+    <skills stamina="673" dexterity="207" speed="264" tackling="291" passing="369" shooting="289" control="296" accuracy="341" goalkeeping="50" heading="335"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24022">
@@ -203,8 +203,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="495" risktaking="422" offensive="603" aggressive="597" consistent="433" creative="448" experienced="336"/>
-    <skills stamina="159" dexterity="415" speed="176" tackling="444" passing="430" shooting="251" control="296" accuracy="288" goalkeeping="72" heading="404"/>
+    <personality active="477" risktaking="498" offensive="372" aggressive="540" consistent="306" creative="544" experienced="281"/>
+    <skills stamina="468" dexterity="376" speed="485" tackling="427" passing="365" shooting="314" control="356" accuracy="308" goalkeeping="66" heading="302"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24023">
@@ -212,8 +212,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="579" risktaking="750" offensive="771" aggressive="632" consistent="614" creative="774" experienced="846"/>
-    <skills stamina="367" dexterity="576" speed="201" tackling="423" passing="469" shooting="314" control="386" accuracy="385" goalkeeping="67" heading="337"/>
+    <personality active="459" risktaking="484" offensive="563" aggressive="389" consistent="399" creative="448" experienced="263"/>
+    <skills stamina="570" dexterity="529" speed="648" tackling="316" passing="406" shooting="389" control="455" accuracy="429" goalkeeping="45" heading="303"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="24024">
@@ -221,8 +221,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="617" risktaking="665" offensive="348" aggressive="407" consistent="685" creative="365" experienced="642"/>
-    <skills stamina="603" dexterity="653" speed="442" tackling="411" passing="314" shooting="300" control="320" accuracy="373" goalkeeping="49" heading="304"/>
+    <personality active="481" risktaking="478" offensive="379" aggressive="472" consistent="799" creative="787" experienced="493"/>
+    <skills stamina="479" dexterity="406" speed="196" tackling="441" passing="440" shooting="378" control="449" accuracy="396" goalkeeping="65" heading="329"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24025">
@@ -230,8 +230,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="552" risktaking="491" offensive="490" aggressive="443" consistent="481" creative="610" experienced="637"/>
-    <skills stamina="649" dexterity="238" speed="226" tackling="300" passing="388" shooting="341" control="370" accuracy="384" goalkeeping="63" heading="281"/>
+    <personality active="590" risktaking="462" offensive="506" aggressive="465" consistent="808" creative="453" experienced="544"/>
+    <skills stamina="385" dexterity="272" speed="290" tackling="400" passing="419" shooting="306" control="342" accuracy="257" goalkeeping="44" heading="331"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24026">
@@ -239,8 +239,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="852" risktaking="403" offensive="540" aggressive="454" consistent="565" creative="386" experienced="650"/>
-    <skills stamina="265" dexterity="710" speed="366" tackling="467" passing="364" shooting="391" control="471" accuracy="313" goalkeeping="72" heading="452"/>
+    <personality active="647" risktaking="254" offensive="194" aggressive="610" consistent="259" creative="697" experienced="487"/>
+    <skills stamina="386" dexterity="523" speed="272" tackling="384" passing="441" shooting="317" control="400" accuracy="311" goalkeeping="54" heading="447"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24027">
@@ -248,17 +248,17 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="566" risktaking="524" offensive="596" aggressive="653" consistent="361" creative="393" experienced="520"/>
-    <skills stamina="638" dexterity="504" speed="306" tackling="444" passing="417" shooting="421" control="395" accuracy="429" goalkeeping="44" heading="362"/>
-    <position pos="2" left="1" wing="0"/>
+    <personality active="613" risktaking="514" offensive="623" aggressive="792" consistent="553" creative="469" experienced="539"/>
+    <skills stamina="539" dexterity="523" speed="415" tackling="428" passing="366" shooting="335" control="458" accuracy="416" goalkeeping="55" heading="366"/>
+    <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24028">
     <personal name="Eero Korte">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="482" risktaking="215" offensive="554" aggressive="332" consistent="478" creative="405" experienced="379"/>
-    <skills stamina="192" dexterity="685" speed="197" tackling="470" passing="407" shooting="273" control="335" accuracy="324" goalkeeping="45" heading="380"/>
+    <personality active="619" risktaking="236" offensive="475" aggressive="675" consistent="760" creative="668" experienced="373"/>
+    <skills stamina="696" dexterity="155" speed="342" tackling="414" passing="329" shooting="333" control="457" accuracy="429" goalkeeping="49" heading="295"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24029">
@@ -266,8 +266,8 @@
       <appearance value="0"/>
       <nationality value="Brazil"/>
     </personal>
-    <personality active="381" risktaking="684" offensive="619" aggressive="468" consistent="433" creative="421" experienced="610"/>
-    <skills stamina="671" dexterity="344" speed="670" tackling="395" passing="315" shooting="338" control="411" accuracy="356" goalkeeping="71" heading="342"/>
+    <personality active="421" risktaking="808" offensive="457" aggressive="529" consistent="516" creative="602" experienced="506"/>
+    <skills stamina="623" dexterity="441" speed="378" tackling="396" passing="364" shooting="418" control="365" accuracy="476" goalkeeping="72" heading="407"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24030">
@@ -275,8 +275,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="501" risktaking="554" offensive="659" aggressive="748" consistent="563" creative="392" experienced="769"/>
-    <skills stamina="678" dexterity="567" speed="244" tackling="393" passing="473" shooting="313" control="327" accuracy="401" goalkeeping="47" heading="400"/>
+    <personality active="334" risktaking="474" offensive="609" aggressive="576" consistent="697" creative="350" experienced="541"/>
+    <skills stamina="240" dexterity="286" speed="329" tackling="430" passing="380" shooting="335" control="316" accuracy="468" goalkeeping="59" heading="337"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24031">
@@ -284,8 +284,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="267" risktaking="392" offensive="341" aggressive="531" consistent="451" creative="540" experienced="499"/>
-    <skills stamina="341" dexterity="266" speed="602" tackling="345" passing="295" shooting="410" control="425" accuracy="334" goalkeeping="61" heading="334"/>
+    <personality active="178" risktaking="321" offensive="705" aggressive="544" consistent="345" creative="553" experienced="527"/>
+    <skills stamina="269" dexterity="582" speed="519" tackling="356" passing="382" shooting="441" control="306" accuracy="293" goalkeeping="71" heading="381"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24032">
@@ -293,8 +293,8 @@
       <appearance value="0"/>
       <nationality value="Russia"/>
     </personal>
-    <personality active="497" risktaking="680" offensive="401" aggressive="568" consistent="670" creative="27" experienced="697"/>
-    <skills stamina="595" dexterity="598" speed="356" tackling="213" passing="336" shooting="317" control="220" accuracy="184" goalkeeping="353" heading="188"/>
+    <personality active="781" risktaking="496" offensive="462" aggressive="571" consistent="445" creative="254" experienced="472"/>
+    <skills stamina="374" dexterity="445" speed="651" tackling="170" passing="369" shooting="333" control="327" accuracy="156" goalkeeping="380" heading="138"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24033">
@@ -302,17 +302,17 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="579" risktaking="562" offensive="486" aggressive="276" consistent="336" creative="497" experienced="205"/>
-    <skills stamina="316" dexterity="329" speed="166" tackling="205" passing="249" shooting="229" control="220" accuracy="147" goalkeeping="491" heading="153"/>
-    <position pos="0" left="1" wing="0"/>
+    <personality active="528" risktaking="435" offensive="202" aggressive="654" consistent="375" creative="329" experienced="700"/>
+    <skills stamina="639" dexterity="552" speed="629" tackling="119" passing="337" shooting="262" control="217" accuracy="123" goalkeeping="410" heading="110"/>
+    <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24034">
     <personal name="Jusso Kangaskorpi">
       <appearance value="8"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="576" risktaking="576" offensive="416" aggressive="676" consistent="374" creative="342" experienced="545"/>
-    <skills stamina="176" dexterity="208" speed="325" tackling="394" passing="449" shooting="378" control="398" accuracy="299" goalkeeping="53" heading="394"/>
+    <personality active="593" risktaking="400" offensive="629" aggressive="387" consistent="422" creative="372" experienced="576"/>
+    <skills stamina="434" dexterity="479" speed="357" tackling="360" passing="509" shooting="476" control="343" accuracy="392" goalkeeping="53" heading="301"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="24035">
@@ -320,8 +320,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="243" risktaking="436" offensive="271" aggressive="457" consistent="463" creative="108" experienced="640"/>
-    <skills stamina="327" dexterity="599" speed="320" tackling="423" passing="452" shooting="348" control="453" accuracy="309" goalkeeping="43" heading="365"/>
+    <personality active="354" risktaking="529" offensive="277" aggressive="510" consistent="694" creative="491" experienced="586"/>
+    <skills stamina="291" dexterity="497" speed="237" tackling="397" passing="395" shooting="362" control="340" accuracy="300" goalkeeping="49" heading="359"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="24036">
@@ -329,8 +329,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="641" risktaking="578" offensive="702" aggressive="679" consistent="389" creative="544" experienced="716"/>
-    <skills stamina="209" dexterity="329" speed="500" tackling="499" passing="458" shooting="313" control="335" accuracy="388" goalkeeping="60" heading="450"/>
+    <personality active="396" risktaking="638" offensive="675" aggressive="623" consistent="452" creative="482" experienced="339"/>
+    <skills stamina="679" dexterity="635" speed="149" tackling="448" passing="297" shooting="463" control="394" accuracy="445" goalkeeping="66" heading="373"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24037">
@@ -338,26 +338,26 @@
       <appearance value="8"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="373" risktaking="284" offensive="482" aggressive="264" consistent="691" creative="310" experienced="772"/>
-    <skills stamina="361" dexterity="209" speed="427" tackling="531" passing="443" shooting="368" control="496" accuracy="490" goalkeeping="76" heading="464"/>
-    <position pos="1" left="0" wing="0"/>
+    <personality active="508" risktaking="505" offensive="309" aggressive="461" consistent="448" creative="431" experienced="508"/>
+    <skills stamina="168" dexterity="258" speed="515" tackling="392" passing="473" shooting="465" control="490" accuracy="379" goalkeeping="58" heading="356"/>
+    <position pos="1" left="1" wing="0"/>
   </player>
   <player id="24038">
     <personal name="Petri Viljanen">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="729" risktaking="565" offensive="572" aggressive="548" consistent="313" creative="432" experienced="489"/>
-    <skills stamina="162" dexterity="353" speed="175" tackling="521" passing="452" shooting="348" control="391" accuracy="318" goalkeeping="50" heading="379"/>
-    <position pos="1" left="1" wing="0"/>
+    <personality active="417" risktaking="631" offensive="511" aggressive="337" consistent="454" creative="367" experienced="377"/>
+    <skills stamina="218" dexterity="512" speed="638" tackling="487" passing="397" shooting="309" control="367" accuracy="435" goalkeeping="57" heading="405"/>
+    <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24039">
     <personal name="Mikko Manninen">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="320" risktaking="451" offensive="644" aggressive="461" consistent="553" creative="374" experienced="610"/>
-    <skills stamina="185" dexterity="402" speed="669" tackling="458" passing="420" shooting="391" control="354" accuracy="428" goalkeeping="72" heading="413"/>
+    <personality active="253" risktaking="254" offensive="354" aggressive="750" consistent="425" creative="512" experienced="494"/>
+    <skills stamina="196" dexterity="347" speed="408" tackling="362" passing="467" shooting="330" control="403" accuracy="348" goalkeeping="56" heading="423"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="24040">
@@ -365,8 +365,8 @@
       <appearance value="8"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="443" risktaking="542" offensive="559" aggressive="603" consistent="690" creative="491" experienced="489"/>
-    <skills stamina="380" dexterity="524" speed="253" tackling="389" passing="489" shooting="473" control="363" accuracy="494" goalkeeping="73" heading="448"/>
+    <personality active="947" risktaking="733" offensive="374" aggressive="319" consistent="760" creative="430" experienced="509"/>
+    <skills stamina="199" dexterity="500" speed="208" tackling="384" passing="362" shooting="417" control="438" accuracy="367" goalkeeping="63" heading="337"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24041">
@@ -374,8 +374,8 @@
       <appearance value="8"/>
       <nationality value="South Africa"/>
     </personal>
-    <personality active="277" risktaking="472" offensive="433" aggressive="726" consistent="570" creative="317" experienced="612"/>
-    <skills stamina="371" dexterity="375" speed="626" tackling="389" passing="439" shooting="340" control="479" accuracy="301" goalkeeping="61" heading="392"/>
+    <personality active="419" risktaking="817" offensive="437" aggressive="377" consistent="395" creative="204" experienced="592"/>
+    <skills stamina="362" dexterity="514" speed="201" tackling="404" passing="343" shooting="351" control="425" accuracy="326" goalkeeping="71" heading="317"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24042">
@@ -383,8 +383,8 @@
       <appearance value="8"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="377" risktaking="556" offensive="704" aggressive="576" consistent="490" creative="580" experienced="462"/>
-    <skills stamina="550" dexterity="242" speed="496" tackling="441" passing="377" shooting="400" control="330" accuracy="311" goalkeeping="58" heading="446"/>
+    <personality active="611" risktaking="524" offensive="401" aggressive="552" consistent="593" creative="714" experienced="466"/>
+    <skills stamina="204" dexterity="610" speed="277" tackling="312" passing="352" shooting="425" control="332" accuracy="345" goalkeeping="60" heading="273"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24043">
@@ -392,26 +392,26 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="328" risktaking="505" offensive="319" aggressive="552" consistent="246" creative="662" experienced="689"/>
-    <skills stamina="638" dexterity="331" speed="339" tackling="452" passing="449" shooting="392" control="346" accuracy="356" goalkeeping="57" heading="283"/>
-    <position pos="2" left="0" wing="0"/>
+    <personality active="619" risktaking="470" offensive="515" aggressive="685" consistent="731" creative="220" experienced="587"/>
+    <skills stamina="588" dexterity="502" speed="463" tackling="430" passing="410" shooting="423" control="426" accuracy="405" goalkeeping="45" heading="289"/>
+    <position pos="2" left="1" wing="0"/>
   </player>
   <player id="24044">
     <personal name="Valeri Popovich">
       <appearance value="0"/>
       <nationality value="Russia"/>
     </personal>
-    <personality active="489" risktaking="343" offensive="506" aggressive="698" consistent="512" creative="434" experienced="312"/>
-    <skills stamina="503" dexterity="645" speed="583" tackling="430" passing="293" shooting="520" control="476" accuracy="383" goalkeeping="62" heading="455"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="610" risktaking="482" offensive="612" aggressive="290" consistent="332" creative="422" experienced="301"/>
+    <skills stamina="498" dexterity="180" speed="356" tackling="378" passing="340" shooting="296" control="486" accuracy="374" goalkeeping="80" heading="452"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24045">
     <personal name="Ville Pajula">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="435" risktaking="458" offensive="255" aggressive="339" consistent="476" creative="555" experienced="242"/>
-    <skills stamina="313" dexterity="437" speed="321" tackling="370" passing="443" shooting="445" control="349" accuracy="323" goalkeeping="57" heading="411"/>
+    <personality active="745" risktaking="601" offensive="608" aggressive="485" consistent="301" creative="762" experienced="339"/>
+    <skills stamina="203" dexterity="521" speed="414" tackling="261" passing="358" shooting="291" control="460" accuracy="346" goalkeeping="69" heading="289"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24046">
@@ -419,8 +419,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="335" risktaking="618" offensive="556" aggressive="455" consistent="326" creative="598" experienced="763"/>
-    <skills stamina="495" dexterity="304" speed="514" tackling="395" passing="272" shooting="443" control="319" accuracy="421" goalkeeping="49" heading="449"/>
+    <personality active="604" risktaking="639" offensive="438" aggressive="617" consistent="464" creative="378" experienced="581"/>
+    <skills stamina="363" dexterity="181" speed="394" tackling="269" passing="395" shooting="344" control="268" accuracy="356" goalkeeping="44" heading="461"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24047">
@@ -428,35 +428,35 @@
       <appearance value="8"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="763" risktaking="615" offensive="535" aggressive="478" consistent="648" creative="524" experienced="176"/>
-    <skills stamina="405" dexterity="570" speed="490" tackling="388" passing="505" shooting="585" control="485" accuracy="553" goalkeeping="82" heading="361"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="521" risktaking="345" offensive="532" aggressive="454" consistent="774" creative="547" experienced="514"/>
+    <skills stamina="607" dexterity="226" speed="544" tackling="504" passing="520" shooting="582" control="523" accuracy="476" goalkeeping="88" heading="531"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24048">
     <personal name="Vile Wallen">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="422" risktaking="589" offensive="443" aggressive="386" consistent="438" creative="524" experienced="495"/>
-    <skills stamina="553" dexterity="697" speed="422" tackling="249" passing="369" shooting="420" control="268" accuracy="238" goalkeeping="483" heading="235"/>
-    <position pos="0" left="1" wing="0"/>
+    <personality active="422" risktaking="523" offensive="484" aggressive="341" consistent="762" creative="362" experienced="375"/>
+    <skills stamina="515" dexterity="579" speed="544" tackling="174" passing="501" shooting="435" control="369" accuracy="213" goalkeeping="583" heading="222"/>
+    <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24049">
     <personal name="Mika Johansson">
       <appearance value="8"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="642" risktaking="446" offensive="557" aggressive="480" consistent="524" creative="290" experienced="455"/>
-    <skills stamina="146" dexterity="196" speed="509" tackling="194" passing="282" shooting="439" control="284" accuracy="188" goalkeeping="412" heading="202"/>
-    <position pos="0" left="1" wing="0"/>
+    <personality active="617" risktaking="469" offensive="321" aggressive="344" consistent="343" creative="392" experienced="288"/>
+    <skills stamina="157" dexterity="426" speed="431" tackling="213" passing="319" shooting="383" control="332" accuracy="131" goalkeeping="402" heading="184"/>
+    <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24050">
     <personal name="Mika Nurmela">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="500" risktaking="402" offensive="659" aggressive="821" consistent="505" creative="310" experienced="592"/>
-    <skills stamina="423" dexterity="221" speed="501" tackling="561" passing="425" shooting="537" control="488" accuracy="522" goalkeeping="79" heading="515"/>
+    <personality active="549" risktaking="571" offensive="531" aggressive="669" consistent="509" creative="418" experienced="541"/>
+    <skills stamina="577" dexterity="458" speed="479" tackling="501" passing="571" shooting="513" control="446" accuracy="410" goalkeeping="74" heading="395"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="24051">
@@ -464,8 +464,8 @@
       <appearance value="8"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="406" risktaking="335" offensive="589" aggressive="462" consistent="536" creative="794" experienced="424"/>
-    <skills stamina="367" dexterity="394" speed="653" tackling="381" passing="338" shooting="439" control="332" accuracy="366" goalkeeping="64" heading="395"/>
+    <personality active="596" risktaking="803" offensive="461" aggressive="252" consistent="710" creative="779" experienced="688"/>
+    <skills stamina="443" dexterity="688" speed="362" tackling="349" passing="349" shooting="295" control="358" accuracy="478" goalkeeping="71" heading="300"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="24052">
@@ -473,26 +473,26 @@
       <appearance value="8"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="534" risktaking="538" offensive="650" aggressive="704" consistent="603" creative="345" experienced="742"/>
-    <skills stamina="448" dexterity="500" speed="193" tackling="365" passing="430" shooting="407" control="502" accuracy="388" goalkeeping="82" heading="319"/>
-    <position pos="1" left="0" wing="0"/>
+    <personality active="749" risktaking="450" offensive="650" aggressive="357" consistent="632" creative="433" experienced="581"/>
+    <skills stamina="404" dexterity="363" speed="632" tackling="455" passing="493" shooting="338" control="412" accuracy="488" goalkeeping="63" heading="318"/>
+    <position pos="1" left="1" wing="0"/>
   </player>
   <player id="24053">
     <personal name="Tuomas Aho">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="555" risktaking="757" offensive="536" aggressive="454" consistent="678" creative="369" experienced="282"/>
-    <skills stamina="260" dexterity="585" speed="331" tackling="419" passing="488" shooting="333" control="492" accuracy="401" goalkeeping="70" heading="496"/>
-    <position pos="1" left="1" wing="0"/>
+    <personality active="438" risktaking="395" offensive="554" aggressive="576" consistent="655" creative="382" experienced="356"/>
+    <skills stamina="306" dexterity="246" speed="230" tackling="430" passing="378" shooting="429" control="473" accuracy="378" goalkeeping="84" heading="319"/>
+    <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24054">
     <personal name="Jukka Raitala">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="538" risktaking="588" offensive="485" aggressive="560" consistent="457" creative="353" experienced="636"/>
-    <skills stamina="578" dexterity="484" speed="498" tackling="417" passing="365" shooting="280" control="372" accuracy="349" goalkeeping="56" heading="354"/>
+    <personality active="798" risktaking="456" offensive="346" aggressive="446" consistent="664" creative="605" experienced="687"/>
+    <skills stamina="321" dexterity="485" speed="422" tackling="461" passing="379" shooting="346" control="300" accuracy="316" goalkeeping="46" heading="432"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="24055">
@@ -500,8 +500,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="373" risktaking="403" offensive="332" aggressive="558" consistent="156" creative="357" experienced="557"/>
-    <skills stamina="214" dexterity="700" speed="501" tackling="401" passing="419" shooting="359" control="363" accuracy="381" goalkeeping="65" heading="430"/>
+    <personality active="534" risktaking="480" offensive="471" aggressive="689" consistent="456" creative="239" experienced="451"/>
+    <skills stamina="685" dexterity="516" speed="498" tackling="394" passing="473" shooting="453" control="337" accuracy="296" goalkeeping="55" heading="390"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24056">
@@ -509,8 +509,8 @@
       <appearance value="0"/>
       <nationality value="Scotland"/>
     </personal>
-    <personality active="714" risktaking="305" offensive="721" aggressive="284" consistent="619" creative="343" experienced="597"/>
-    <skills stamina="406" dexterity="241" speed="439" tackling="428" passing="347" shooting="448" control="372" accuracy="306" goalkeeping="65" heading="486"/>
+    <personality active="507" risktaking="372" offensive="499" aggressive="640" consistent="653" creative="510" experienced="406"/>
+    <skills stamina="315" dexterity="220" speed="487" tackling="309" passing="362" shooting="397" control="511" accuracy="371" goalkeeping="75" heading="332"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24057">
@@ -518,17 +518,17 @@
       <appearance value="8"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="317" risktaking="318" offensive="410" aggressive="475" consistent="238" creative="430" experienced="609"/>
-    <skills stamina="506" dexterity="730" speed="446" tackling="521" passing="411" shooting="426" control="510" accuracy="460" goalkeeping="70" heading="364"/>
-    <position pos="2" left="0" wing="0"/>
+    <personality active="524" risktaking="218" offensive="676" aggressive="699" consistent="763" creative="352" experienced="631"/>
+    <skills stamina="547" dexterity="470" speed="420" tackling="422" passing="440" shooting="516" control="434" accuracy="509" goalkeeping="59" heading="535"/>
+    <position pos="2" left="1" wing="0"/>
   </player>
   <player id="24058">
     <personal name="Mohamed Medjoudj">
       <appearance value="0"/>
       <nationality value="Algeria"/>
     </personal>
-    <personality active="478" risktaking="527" offensive="676" aggressive="451" consistent="547" creative="514" experienced="602"/>
-    <skills stamina="188" dexterity="349" speed="521" tackling="420" passing="375" shooting="284" control="316" accuracy="290" goalkeeping="67" heading="378"/>
+    <personality active="403" risktaking="488" offensive="323" aggressive="636" consistent="642" creative="631" experienced="764"/>
+    <skills stamina="309" dexterity="698" speed="482" tackling="458" passing="457" shooting="443" control="425" accuracy="418" goalkeeping="73" heading="475"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24059">
@@ -536,8 +536,8 @@
       <appearance value="1"/>
       <nationality value="Sierra Leone"/>
     </personal>
-    <personality active="415" risktaking="288" offensive="361" aggressive="326" consistent="395" creative="560" experienced="402"/>
-    <skills stamina="638" dexterity="544" speed="403" tackling="543" passing="560" shooting="372" control="564" accuracy="402" goalkeeping="78" heading="514"/>
+    <personality active="669" risktaking="578" offensive="529" aggressive="335" consistent="353" creative="455" experienced="61"/>
+    <skills stamina="565" dexterity="326" speed="464" tackling="427" passing="454" shooting="444" control="558" accuracy="408" goalkeeping="73" heading="448"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24060">
@@ -545,17 +545,17 @@
       <appearance value="8"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="403" risktaking="615" offensive="300" aggressive="177" consistent="497" creative="596" experienced="581"/>
-    <skills stamina="252" dexterity="685" speed="246" tackling="357" passing="449" shooting="311" control="357" accuracy="291" goalkeeping="71" heading="365"/>
-    <position pos="2" left="0" wing="0"/>
+    <personality active="287" risktaking="462" offensive="478" aggressive="322" consistent="602" creative="470" experienced="753"/>
+    <skills stamina="682" dexterity="366" speed="487" tackling="328" passing="336" shooting="396" control="426" accuracy="400" goalkeeping="49" heading="402"/>
+    <position pos="2" left="1" wing="0"/>
   </player>
   <player id="24061">
     <personal name="Kabba Samura">
       <appearance value="1"/>
       <nationality value="Sierra Leone"/>
     </personal>
-    <personality active="672" risktaking="394" offensive="443" aggressive="291" consistent="624" creative="99" experienced="432"/>
-    <skills stamina="495" dexterity="276" speed="173" tackling="479" passing="348" shooting="485" control="321" accuracy="418" goalkeeping="49" heading="475"/>
+    <personality active="586" risktaking="565" offensive="416" aggressive="269" consistent="565" creative="685" experienced="544"/>
+    <skills stamina="279" dexterity="376" speed="159" tackling="382" passing="294" shooting="359" control="341" accuracy="442" goalkeeping="59" heading="471"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24062">
@@ -563,17 +563,17 @@
       <appearance value="1"/>
       <nationality value="Gambia"/>
     </personal>
-    <personality active="475" risktaking="438" offensive="241" aggressive="567" consistent="592" creative="529" experienced="403"/>
-    <skills stamina="167" dexterity="269" speed="571" tackling="386" passing="378" shooting="410" control="369" accuracy="457" goalkeeping="67" heading="338"/>
-    <position pos="3" left="0" wing="0"/>
+    <personality active="418" risktaking="339" offensive="551" aggressive="515" consistent="590" creative="587" experienced="545"/>
+    <skills stamina="386" dexterity="271" speed="417" tackling="423" passing="326" shooting="354" control="447" accuracy="412" goalkeeping="61" heading="472"/>
+    <position pos="3" left="1" wing="0"/>
   </player>
   <player id="24063">
     <personal name="Hermanni Vuorinen">
       <appearance value="8"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="281" risktaking="209" offensive="766" aggressive="554" consistent="741" creative="775" experienced="525"/>
-    <skills stamina="388" dexterity="228" speed="579" tackling="357" passing="427" shooting="294" control="412" accuracy="511" goalkeeping="61" heading="317"/>
+    <personality active="424" risktaking="182" offensive="603" aggressive="896" consistent="335" creative="439" experienced="489"/>
+    <skills stamina="414" dexterity="491" speed="374" tackling="403" passing="272" shooting="425" control="373" accuracy="425" goalkeeping="70" heading="297"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24064">
@@ -581,26 +581,26 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="580" risktaking="442" offensive="348" aggressive="505" consistent="532" creative="766" experienced="288"/>
-    <skills stamina="326" dexterity="316" speed="162" tackling="189" passing="358" shooting="434" control="212" accuracy="157" goalkeeping="499" heading="180"/>
-    <position pos="0" left="1" wing="0"/>
+    <personality active="338" risktaking="506" offensive="562" aggressive="496" consistent="702" creative="510" experienced="380"/>
+    <skills stamina="158" dexterity="466" speed="497" tackling="137" passing="280" shooting="383" control="332" accuracy="167" goalkeeping="383" heading="160"/>
+    <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24065">
     <personal name="Willis Ochieng">
       <appearance value="1"/>
       <nationality value="Kenia"/>
     </personal>
-    <personality active="533" risktaking="341" offensive="560" aggressive="483" consistent="461" creative="481" experienced="382"/>
-    <skills stamina="598" dexterity="434" speed="266" tackling="202" passing="260" shooting="290" control="221" accuracy="155" goalkeeping="340" heading="217"/>
-    <position pos="0" left="0" wing="0"/>
+    <personality active="501" risktaking="755" offensive="442" aggressive="393" consistent="528" creative="594" experienced="676"/>
+    <skills stamina="572" dexterity="120" speed="596" tackling="191" passing="249" shooting="418" control="215" accuracy="209" goalkeeping="490" heading="120"/>
+    <position pos="0" left="1" wing="0"/>
   </player>
   <player id="24066">
     <personal name="Mats Gustafsson">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="209" risktaking="763" offensive="445" aggressive="139" consistent="425" creative="415" experienced="697"/>
-    <skills stamina="685" dexterity="531" speed="588" tackling="324" passing="389" shooting="412" control="440" accuracy="337" goalkeeping="43" heading="262"/>
+    <personality active="419" risktaking="658" offensive="511" aggressive="569" consistent="514" creative="617" experienced="717"/>
+    <skills stamina="270" dexterity="656" speed="620" tackling="338" passing="358" shooting="335" control="437" accuracy="308" goalkeeping="52" heading="387"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="24067">
@@ -608,8 +608,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="577" risktaking="683" offensive="511" aggressive="108" consistent="272" creative="117" experienced="659"/>
-    <skills stamina="681" dexterity="653" speed="462" tackling="344" passing="487" shooting="423" control="347" accuracy="267" goalkeeping="45" heading="275"/>
+    <personality active="402" risktaking="567" offensive="218" aggressive="500" consistent="588" creative="632" experienced="277"/>
+    <skills stamina="609" dexterity="198" speed="172" tackling="404" passing="343" shooting="364" control="365" accuracy="339" goalkeeping="63" heading="423"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="24068">
@@ -617,17 +617,17 @@
       <appearance value="0"/>
       <nationality value="Sweden"/>
     </personal>
-    <personality active="653" risktaking="549" offensive="806" aggressive="451" consistent="743" creative="339" experienced="675"/>
-    <skills stamina="182" dexterity="499" speed="306" tackling="379" passing="384" shooting="341" control="373" accuracy="351" goalkeeping="62" heading="467"/>
-    <position pos="1" left="0" wing="0"/>
+    <personality active="734" risktaking="617" offensive="560" aggressive="796" consistent="419" creative="561" experienced="502"/>
+    <skills stamina="216" dexterity="340" speed="652" tackling="372" passing="380" shooting="290" control="509" accuracy="416" goalkeeping="64" heading="367"/>
+    <position pos="1" left="1" wing="0"/>
   </player>
   <player id="24069">
     <personal name="Daniel Ahnstrom">
       <appearance value="0"/>
       <nationality value="Sweden"/>
     </personal>
-    <personality active="305" risktaking="264" offensive="271" aggressive="467" consistent="435" creative="583" experienced="437"/>
-    <skills stamina="481" dexterity="170" speed="474" tackling="282" passing="462" shooting="353" control="304" accuracy="351" goalkeeping="57" heading="379"/>
+    <personality active="438" risktaking="622" offensive="597" aggressive="401" consistent="596" creative="300" experienced="661"/>
+    <skills stamina="392" dexterity="331" speed="396" tackling="327" passing="430" shooting="429" control="327" accuracy="345" goalkeeping="68" heading="243"/>
     <position pos="2" left="1" wing="0"/>
   </player>
   <player id="24070">
@@ -635,8 +635,8 @@
       <appearance value="1"/>
       <nationality value="Zambia"/>
     </personal>
-    <personality active="430" risktaking="87" offensive="563" aggressive="576" consistent="338" creative="606" experienced="775"/>
-    <skills stamina="319" dexterity="371" speed="180" tackling="428" passing="456" shooting="410" control="385" accuracy="324" goalkeeping="50" heading="414"/>
+    <personality active="216" risktaking="446" offensive="228" aggressive="469" consistent="783" creative="182" experienced="532"/>
+    <skills stamina="354" dexterity="472" speed="427" tackling="363" passing="308" shooting="255" control="468" accuracy="249" goalkeeping="68" heading="375"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="24071">
@@ -644,8 +644,8 @@
       <appearance value="0"/>
       <nationality value="Serbia"/>
     </personal>
-    <personality active="427" risktaking="648" offensive="687" aggressive="407" consistent="401" creative="350" experienced="626"/>
-    <skills stamina="306" dexterity="225" speed="249" tackling="436" passing="383" shooting="323" control="431" accuracy="410" goalkeeping="64" heading="423"/>
+    <personality active="377" risktaking="792" offensive="404" aggressive="369" consistent="372" creative="692" experienced="500"/>
+    <skills stamina="236" dexterity="350" speed="190" tackling="432" passing="360" shooting="334" control="332" accuracy="255" goalkeeping="55" heading="261"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="24072">
@@ -653,8 +653,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="592" risktaking="534" offensive="560" aggressive="497" consistent="406" creative="706" experienced="346"/>
-    <skills stamina="214" dexterity="234" speed="554" tackling="363" passing="416" shooting="392" control="520" accuracy="490" goalkeeping="60" heading="473"/>
+    <personality active="676" risktaking="333" offensive="487" aggressive="909" consistent="336" creative="420" experienced="202"/>
+    <skills stamina="625" dexterity="479" speed="670" tackling="484" passing="400" shooting="464" control="393" accuracy="403" goalkeeping="78" heading="401"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24073">
@@ -662,17 +662,17 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="442" risktaking="431" offensive="273" aggressive="544" consistent="390" creative="515" experienced="635"/>
-    <skills stamina="219" dexterity="288" speed="467" tackling="460" passing="386" shooting="266" control="337" accuracy="398" goalkeeping="60" heading="445"/>
-    <position pos="1" left="1" wing="0"/>
+    <personality active="463" risktaking="171" offensive="478" aggressive="500" consistent="463" creative="151" experienced="403"/>
+    <skills stamina="647" dexterity="398" speed="622" tackling="387" passing="380" shooting="290" control="375" accuracy="371" goalkeeping="65" heading="299"/>
+    <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24074">
     <personal name="Andreas Bjork">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="336" risktaking="491" offensive="363" aggressive="590" consistent="365" creative="460" experienced="470"/>
-    <skills stamina="253" dexterity="522" speed="433" tackling="387" passing="423" shooting="424" control="299" accuracy="371" goalkeeping="44" heading="315"/>
+    <personality active="700" risktaking="735" offensive="538" aggressive="260" consistent="480" creative="593" experienced="611"/>
+    <skills stamina="670" dexterity="648" speed="280" tackling="405" passing="421" shooting="337" control="388" accuracy="431" goalkeeping="55" heading="415"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24075">
@@ -680,8 +680,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="461" risktaking="193" offensive="562" aggressive="901" consistent="803" creative="433" experienced="537"/>
-    <skills stamina="294" dexterity="707" speed="388" tackling="304" passing="384" shooting="380" control="406" accuracy="455" goalkeeping="66" heading="398"/>
+    <personality active="297" risktaking="352" offensive="535" aggressive="407" consistent="379" creative="498" experienced="531"/>
+    <skills stamina="331" dexterity="388" speed="351" tackling="356" passing="417" shooting="318" control="319" accuracy="397" goalkeeping="45" heading="423"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24076">
@@ -689,8 +689,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="392" risktaking="301" offensive="381" aggressive="640" consistent="740" creative="397" experienced="687"/>
-    <skills stamina="475" dexterity="339" speed="511" tackling="394" passing="415" shooting="313" control="356" accuracy="305" goalkeeping="67" heading="363"/>
+    <personality active="249" risktaking="374" offensive="677" aggressive="374" consistent="655" creative="654" experienced="483"/>
+    <skills stamina="237" dexterity="507" speed="518" tackling="437" passing="420" shooting="324" control="351" accuracy="411" goalkeeping="56" heading="339"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24077">
@@ -698,8 +698,8 @@
       <appearance value="0"/>
       <nationality value="Sweden"/>
     </personal>
-    <personality active="770" risktaking="534" offensive="310" aggressive="478" consistent="409" creative="675" experienced="383"/>
-    <skills stamina="259" dexterity="476" speed="260" tackling="458" passing="344" shooting="401" control="453" accuracy="457" goalkeeping="57" heading="397"/>
+    <personality active="629" risktaking="500" offensive="205" aggressive="566" consistent="253" creative="436" experienced="483"/>
+    <skills stamina="524" dexterity="323" speed="526" tackling="422" passing="479" shooting="552" control="364" accuracy="354" goalkeeping="79" heading="508"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24078">
@@ -707,8 +707,8 @@
       <appearance value="0"/>
       <nationality value="Sweden"/>
     </personal>
-    <personality active="549" risktaking="383" offensive="662" aggressive="534" consistent="395" creative="689" experienced="290"/>
-    <skills stamina="134" dexterity="242" speed="226" tackling="264" passing="296" shooting="496" control="370" accuracy="481" goalkeeping="52" heading="378"/>
+    <personality active="416" risktaking="512" offensive="711" aggressive="825" consistent="537" creative="845" experienced="449"/>
+    <skills stamina="498" dexterity="508" speed="576" tackling="354" passing="346" shooting="487" control="325" accuracy="368" goalkeeping="58" heading="323"/>
     <position pos="3" left="1" wing="0"/>
   </player>
   <player id="24079">
@@ -716,8 +716,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="681" risktaking="544" offensive="294" aggressive="574" consistent="664" creative="431" experienced="555"/>
-    <skills stamina="409" dexterity="342" speed="406" tackling="432" passing="391" shooting="377" control="436" accuracy="458" goalkeeping="68" heading="326"/>
+    <personality active="269" risktaking="393" offensive="435" aggressive="633" consistent="359" creative="609" experienced="328"/>
+    <skills stamina="497" dexterity="551" speed="505" tackling="317" passing="426" shooting="429" control="321" accuracy="480" goalkeeping="42" heading="393"/>
     <position pos="3" left="1" wing="0"/>
   </player>
   <player id="24080">
@@ -725,17 +725,17 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="634" risktaking="347" offensive="303" aggressive="332" consistent="398" creative="210" experienced="733"/>
-    <skills stamina="550" dexterity="247" speed="659" tackling="138" passing="296" shooting="339" control="325" accuracy="128" goalkeeping="446" heading="170"/>
-    <position pos="0" left="1" wing="0"/>
+    <personality active="705" risktaking="556" offensive="392" aggressive="707" consistent="582" creative="691" experienced="476"/>
+    <skills stamina="240" dexterity="488" speed="156" tackling="145" passing="342" shooting="421" control="213" accuracy="197" goalkeeping="470" heading="224"/>
+    <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24081">
     <personal name="Patrick Bantamoi">
       <appearance value="1"/>
       <nationality value="Sierra Leone"/>
     </personal>
-    <personality active="521" risktaking="677" offensive="232" aggressive="307" consistent="429" creative="387" experienced="450"/>
-    <skills stamina="467" dexterity="564" speed="188" tackling="161" passing="428" shooting="299" control="241" accuracy="213" goalkeeping="468" heading="129"/>
+    <personality active="510" risktaking="459" offensive="989" aggressive="527" consistent="519" creative="258" experienced="759"/>
+    <skills stamina="529" dexterity="630" speed="235" tackling="194" passing="406" shooting="363" control="228" accuracy="164" goalkeeping="437" heading="150"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24082">
@@ -743,8 +743,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="660" risktaking="539" offensive="444" aggressive="654" consistent="377" creative="679" experienced="470"/>
-    <skills stamina="289" dexterity="243" speed="373" tackling="286" passing="414" shooting="434" control="347" accuracy="256" goalkeeping="63" heading="242"/>
+    <personality active="202" risktaking="346" offensive="540" aggressive="440" consistent="609" creative="527" experienced="353"/>
+    <skills stamina="182" dexterity="443" speed="626" tackling="330" passing="388" shooting="398" control="276" accuracy="439" goalkeeping="41" heading="328"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="24083">
@@ -752,8 +752,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="540" risktaking="550" offensive="817" aggressive="418" consistent="514" creative="435" experienced="387"/>
-    <skills stamina="463" dexterity="477" speed="631" tackling="380" passing="351" shooting="367" control="348" accuracy="306" goalkeeping="44" heading="329"/>
+    <personality active="386" risktaking="348" offensive="559" aggressive="372" consistent="573" creative="531" experienced="494"/>
+    <skills stamina="677" dexterity="511" speed="605" tackling="419" passing="326" shooting="449" control="316" accuracy="306" goalkeeping="66" heading="306"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="24084">
@@ -761,8 +761,8 @@
       <appearance value="0"/>
       <nationality value="The Netherlands"/>
     </personal>
-    <personality active="478" risktaking="309" offensive="295" aggressive="570" consistent="316" creative="169" experienced="617"/>
-    <skills stamina="467" dexterity="555" speed="263" tackling="478" passing="495" shooting="471" control="288" accuracy="348" goalkeeping="69" heading="395"/>
+    <personality active="561" risktaking="564" offensive="520" aggressive="578" consistent="199" creative="549" experienced="508"/>
+    <skills stamina="467" dexterity="438" speed="389" tackling="506" passing="360" shooting="447" control="488" accuracy="285" goalkeeping="76" heading="324"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24085">
@@ -770,26 +770,26 @@
       <appearance value="0"/>
       <nationality value="Argentina"/>
     </personal>
-    <personality active="651" risktaking="397" offensive="642" aggressive="421" consistent="640" creative="614" experienced="654"/>
-    <skills stamina="378" dexterity="334" speed="295" tackling="426" passing="318" shooting="344" control="394" accuracy="272" goalkeeping="58" heading="448"/>
-    <position pos="1" left="0" wing="0"/>
+    <personality active="567" risktaking="452" offensive="315" aggressive="315" consistent="544" creative="405" experienced="455"/>
+    <skills stamina="643" dexterity="219" speed="264" tackling="282" passing="299" shooting="342" control="368" accuracy="408" goalkeeping="55" heading="337"/>
+    <position pos="1" left="1" wing="0"/>
   </player>
   <player id="24086">
     <personal name="Jermu Gustafsson">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="544" risktaking="476" offensive="413" aggressive="573" consistent="736" creative="425" experienced="504"/>
-    <skills stamina="566" dexterity="362" speed="277" tackling="505" passing="372" shooting="319" control="378" accuracy="299" goalkeeping="64" heading="282"/>
-    <position pos="1" left="1" wing="0"/>
+    <personality active="474" risktaking="386" offensive="528" aggressive="435" consistent="534" creative="769" experienced="298"/>
+    <skills stamina="242" dexterity="170" speed="525" tackling="342" passing="311" shooting="407" control="364" accuracy="306" goalkeeping="63" heading="413"/>
+    <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24087">
     <personal name="Mika Ojala">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="457" risktaking="392" offensive="401" aggressive="694" consistent="355" creative="586" experienced="410"/>
-    <skills stamina="510" dexterity="204" speed="329" tackling="242" passing="390" shooting="252" control="379" accuracy="384" goalkeeping="49" heading="274"/>
+    <personality active="295" risktaking="541" offensive="513" aggressive="320" consistent="709" creative="411" experienced="415"/>
+    <skills stamina="423" dexterity="304" speed="587" tackling="357" passing="413" shooting="314" control="459" accuracy="254" goalkeeping="45" heading="394"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="24088">
@@ -797,8 +797,8 @@
       <appearance value="1"/>
       <nationality value="Brazil"/>
     </personal>
-    <personality active="464" risktaking="731" offensive="255" aggressive="606" consistent="745" creative="559" experienced="444"/>
-    <skills stamina="282" dexterity="452" speed="382" tackling="404" passing="352" shooting="306" control="301" accuracy="365" goalkeeping="42" heading="426"/>
+    <personality active="659" risktaking="262" offensive="339" aggressive="509" consistent="474" creative="338" experienced="613"/>
+    <skills stamina="308" dexterity="625" speed="518" tackling="296" passing="460" shooting="448" control="344" accuracy="389" goalkeeping="43" heading="353"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24089">
@@ -806,8 +806,8 @@
       <appearance value="1"/>
       <nationality value="Nigeria"/>
     </personal>
-    <personality active="597" risktaking="417" offensive="542" aggressive="525" consistent="445" creative="751" experienced="804"/>
-    <skills stamina="663" dexterity="309" speed="343" tackling="395" passing="324" shooting="441" control="277" accuracy="315" goalkeeping="61" heading="441"/>
+    <personality active="275" risktaking="720" offensive="553" aggressive="570" consistent="599" creative="413" experienced="521"/>
+    <skills stamina="436" dexterity="247" speed="383" tackling="439" passing="275" shooting="405" control="406" accuracy="299" goalkeeping="49" heading="326"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24090">
@@ -815,8 +815,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="840" risktaking="467" offensive="319" aggressive="496" consistent="467" creative="666" experienced="966"/>
-    <skills stamina="433" dexterity="282" speed="546" tackling="370" passing="299" shooting="312" control="381" accuracy="447" goalkeeping="54" heading="404"/>
+    <personality active="490" risktaking="520" offensive="895" aggressive="622" consistent="543" creative="425" experienced="425"/>
+    <skills stamina="249" dexterity="467" speed="147" tackling="381" passing="432" shooting="373" control="463" accuracy="303" goalkeeping="69" heading="391"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24091">
@@ -824,17 +824,17 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="636" risktaking="546" offensive="490" aggressive="482" consistent="763" creative="574" experienced="559"/>
-    <skills stamina="250" dexterity="290" speed="567" tackling="299" passing="367" shooting="269" control="315" accuracy="381" goalkeeping="62" heading="441"/>
-    <position pos="2" left="1" wing="0"/>
+    <personality active="355" risktaking="601" offensive="532" aggressive="531" consistent="422" creative="652" experienced="525"/>
+    <skills stamina="473" dexterity="179" speed="430" tackling="362" passing="413" shooting="349" control="342" accuracy="377" goalkeeping="48" heading="290"/>
+    <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24092">
     <personal name="Prince Oto'o">
       <appearance value="1"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="368" risktaking="389" offensive="543" aggressive="680" consistent="572" creative="679" experienced="592"/>
-    <skills stamina="701" dexterity="435" speed="223" tackling="422" passing="413" shooting="391" control="445" accuracy="398" goalkeeping="53" heading="349"/>
+    <personality active="584" risktaking="299" offensive="458" aggressive="460" consistent="395" creative="272" experienced="477"/>
+    <skills stamina="259" dexterity="232" speed="526" tackling="379" passing="340" shooting="411" control="334" accuracy="331" goalkeeping="42" heading="379"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24093">
@@ -842,8 +842,8 @@
       <appearance value="1"/>
       <nationality value="Sweden"/>
     </personal>
-    <personality active="787" risktaking="455" offensive="306" aggressive="513" consistent="346" creative="637" experienced="465"/>
-    <skills stamina="185" dexterity="286" speed="497" tackling="413" passing="441" shooting="507" control="465" accuracy="357" goalkeeping="61" heading="479"/>
+    <personality active="315" risktaking="398" offensive="681" aggressive="517" consistent="594" creative="450" experienced="617"/>
+    <skills stamina="506" dexterity="655" speed="329" tackling="346" passing="378" shooting="526" control="428" accuracy="410" goalkeeping="56" heading="325"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24094">
@@ -851,26 +851,26 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="527" risktaking="438" offensive="570" aggressive="438" consistent="313" creative="576" experienced="357"/>
-    <skills stamina="243" dexterity="615" speed="588" tackling="442" passing="422" shooting="323" control="389" accuracy="469" goalkeeping="53" heading="323"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="190" risktaking="608" offensive="505" aggressive="517" consistent="571" creative="623" experienced="763"/>
+    <skills stamina="392" dexterity="256" speed="473" tackling="399" passing="280" shooting="373" control="261" accuracy="374" goalkeeping="48" heading="334"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24095">
     <personal name="Valter Laaksonen">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="553" risktaking="782" offensive="383" aggressive="539" consistent="432" creative="352" experienced="537"/>
-    <skills stamina="299" dexterity="551" speed="211" tackling="291" passing="314" shooting="306" control="349" accuracy="296" goalkeeping="44" heading="329"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="431" risktaking="463" offensive="414" aggressive="467" consistent="518" creative="638" experienced="256"/>
+    <skills stamina="661" dexterity="612" speed="298" tackling="326" passing="285" shooting="319" control="402" accuracy="450" goalkeeping="50" heading="458"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24096">
     <personal name="Antti-jussi Karnio">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="934" risktaking="437" offensive="518" aggressive="583" consistent="254" creative="746" experienced="505"/>
-    <skills stamina="132" dexterity="334" speed="653" tackling="205" passing="418" shooting="277" control="331" accuracy="146" goalkeeping="417" heading="137"/>
+    <personality active="783" risktaking="380" offensive="554" aggressive="601" consistent="502" creative="405" experienced="612"/>
+    <skills stamina="306" dexterity="252" speed="319" tackling="130" passing="350" shooting="438" control="354" accuracy="149" goalkeeping="401" heading="155"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24097">
@@ -878,8 +878,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="645" risktaking="570" offensive="736" aggressive="573" consistent="366" creative="603" experienced="406"/>
-    <skills stamina="302" dexterity="152" speed="361" tackling="183" passing="327" shooting="259" control="268" accuracy="149" goalkeeping="425" heading="146"/>
+    <personality active="665" risktaking="792" offensive="299" aggressive="552" consistent="328" creative="711" experienced="423"/>
+    <skills stamina="465" dexterity="158" speed="631" tackling="154" passing="247" shooting="398" control="209" accuracy="145" goalkeeping="404" heading="122"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24098">
@@ -887,8 +887,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="325" risktaking="408" offensive="460" aggressive="465" consistent="385" creative="587" experienced="593"/>
-    <skills stamina="381" dexterity="577" speed="467" tackling="375" passing="448" shooting="336" control="269" accuracy="257" goalkeeping="60" heading="372"/>
+    <personality active="672" risktaking="339" offensive="479" aggressive="537" consistent="213" creative="580" experienced="669"/>
+    <skills stamina="346" dexterity="431" speed="127" tackling="341" passing="412" shooting="331" control="418" accuracy="366" goalkeeping="49" heading="430"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="24099">
@@ -896,8 +896,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="720" risktaking="657" offensive="535" aggressive="462" consistent="441" creative="600" experienced="567"/>
-    <skills stamina="272" dexterity="519" speed="209" tackling="441" passing="285" shooting="384" control="404" accuracy="384" goalkeeping="59" heading="386"/>
+    <personality active="280" risktaking="477" offensive="574" aggressive="443" consistent="771" creative="852" experienced="344"/>
+    <skills stamina="587" dexterity="482" speed="191" tackling="424" passing="488" shooting="426" control="337" accuracy="368" goalkeeping="58" heading="312"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="24100">
@@ -905,26 +905,26 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="605" risktaking="451" offensive="510" aggressive="423" consistent="644" creative="546" experienced="460"/>
-    <skills stamina="315" dexterity="567" speed="610" tackling="321" passing="381" shooting="287" control="470" accuracy="429" goalkeeping="67" heading="382"/>
-    <position pos="1" left="0" wing="0"/>
+    <personality active="497" risktaking="626" offensive="413" aggressive="312" consistent="334" creative="463" experienced="349"/>
+    <skills stamina="227" dexterity="416" speed="611" tackling="507" passing="293" shooting="261" control="339" accuracy="324" goalkeeping="44" heading="382"/>
+    <position pos="1" left="1" wing="0"/>
   </player>
   <player id="24101">
     <personal name="Chad Botha">
       <appearance value="0"/>
       <nationality value="South Africa"/>
     </personal>
-    <personality active="571" risktaking="543" offensive="684" aggressive="580" consistent="424" creative="818" experienced="541"/>
-    <skills stamina="648" dexterity="501" speed="313" tackling="385" passing="314" shooting="363" control="455" accuracy="390" goalkeeping="41" heading="324"/>
-    <position pos="1" left="1" wing="0"/>
+    <personality active="646" risktaking="691" offensive="549" aggressive="406" consistent="449" creative="216" experienced="424"/>
+    <skills stamina="475" dexterity="281" speed="213" tackling="279" passing="387" shooting="311" control="360" accuracy="403" goalkeeping="52" heading="405"/>
+    <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24102">
     <personal name="Jonas Portin">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="371" risktaking="491" offensive="362" aggressive="279" consistent="574" creative="535" experienced="462"/>
-    <skills stamina="333" dexterity="252" speed="126" tackling="481" passing="323" shooting="365" control="410" accuracy="281" goalkeeping="51" heading="348"/>
+    <personality active="683" risktaking="457" offensive="353" aggressive="641" consistent="516" creative="410" experienced="355"/>
+    <skills stamina="640" dexterity="181" speed="505" tackling="424" passing="436" shooting="355" control="298" accuracy="242" goalkeeping="64" heading="423"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24103">
@@ -932,8 +932,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="676" risktaking="593" offensive="572" aggressive="370" consistent="399" creative="386" experienced="707"/>
-    <skills stamina="269" dexterity="484" speed="425" tackling="368" passing="402" shooting="283" control="353" accuracy="386" goalkeeping="58" heading="390"/>
+    <personality active="774" risktaking="399" offensive="729" aggressive="251" consistent="425" creative="506" experienced="444"/>
+    <skills stamina="450" dexterity="355" speed="509" tackling="447" passing="437" shooting="445" control="308" accuracy="396" goalkeeping="65" heading="260"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="24104">
@@ -941,8 +941,8 @@
       <appearance value="0"/>
       <nationality value="Brazil"/>
     </personal>
-    <personality active="255" risktaking="500" offensive="813" aggressive="439" consistent="381" creative="396" experienced="537"/>
-    <skills stamina="179" dexterity="190" speed="617" tackling="339" passing="361" shooting="315" control="358" accuracy="353" goalkeeping="73" heading="359"/>
+    <personality active="540" risktaking="812" offensive="500" aggressive="551" consistent="273" creative="417" experienced="812"/>
+    <skills stamina="442" dexterity="364" speed="600" tackling="255" passing="273" shooting="308" control="369" accuracy="350" goalkeeping="43" heading="299"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24105">
@@ -950,17 +950,17 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="454" risktaking="430" offensive="209" aggressive="521" consistent="320" creative="375" experienced="588"/>
-    <skills stamina="337" dexterity="506" speed="201" tackling="449" passing="353" shooting="263" control="421" accuracy="366" goalkeeping="64" heading="382"/>
-    <position pos="2" left="1" wing="0"/>
+    <personality active="383" risktaking="506" offensive="749" aggressive="487" consistent="707" creative="238" experienced="601"/>
+    <skills stamina="301" dexterity="420" speed="514" tackling="429" passing="407" shooting="276" control="356" accuracy="289" goalkeeping="59" heading="363"/>
+    <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24106">
     <personal name="Jimmy Wargh">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="719" risktaking="638" offensive="393" aggressive="604" consistent="796" creative="427" experienced="562"/>
-    <skills stamina="683" dexterity="444" speed="508" tackling="449" passing="451" shooting="457" control="441" accuracy="347" goalkeeping="64" heading="417"/>
+    <personality active="410" risktaking="483" offensive="397" aggressive="558" consistent="419" creative="467" experienced="487"/>
+    <skills stamina="636" dexterity="498" speed="298" tackling="466" passing="420" shooting="385" control="346" accuracy="374" goalkeeping="58" heading="275"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24107">
@@ -968,8 +968,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="387" risktaking="273" offensive="345" aggressive="488" consistent="552" creative="616" experienced="672"/>
-    <skills stamina="294" dexterity="142" speed="560" tackling="375" passing="371" shooting="411" control="255" accuracy="417" goalkeeping="71" heading="404"/>
+    <personality active="430" risktaking="343" offensive="630" aggressive="577" consistent="501" creative="795" experienced="553"/>
+    <skills stamina="610" dexterity="588" speed="129" tackling="437" passing="360" shooting="322" control="304" accuracy="461" goalkeeping="62" heading="396"/>
     <position pos="3" left="1" wing="0"/>
   </player>
   <player id="24108">
@@ -977,8 +977,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="471" risktaking="360" offensive="694" aggressive="384" consistent="441" creative="416" experienced="536"/>
-    <skills stamina="542" dexterity="622" speed="486" tackling="478" passing="412" shooting="324" control="387" accuracy="332" goalkeeping="72" heading="284"/>
+    <personality active="251" risktaking="342" offensive="777" aggressive="675" consistent="787" creative="406" experienced="489"/>
+    <skills stamina="346" dexterity="442" speed="576" tackling="353" passing="318" shooting="353" control="319" accuracy="397" goalkeeping="63" heading="350"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24109">
@@ -986,26 +986,26 @@
       <appearance value="0"/>
       <nationality value="Ukraine"/>
     </personal>
-    <personality active="290" risktaking="364" offensive="552" aggressive="537" consistent="523" creative="554" experienced="355"/>
-    <skills stamina="226" dexterity="392" speed="274" tackling="390" passing="323" shooting="364" control="373" accuracy="315" goalkeeping="75" heading="299"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="713" risktaking="563" offensive="393" aggressive="472" consistent="459" creative="469" experienced="439"/>
+    <skills stamina="599" dexterity="137" speed="628" tackling="272" passing="349" shooting="506" control="382" accuracy="485" goalkeeping="53" heading="416"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24110">
     <personal name="Jani Koivisto">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="577" risktaking="503" offensive="634" aggressive="678" consistent="769" creative="500" experienced="265"/>
-    <skills stamina="494" dexterity="583" speed="295" tackling="303" passing="248" shooting="375" control="385" accuracy="338" goalkeeping="59" heading="320"/>
-    <position pos="3" left="0" wing="0"/>
+    <personality active="713" risktaking="452" offensive="689" aggressive="676" consistent="583" creative="439" experienced="504"/>
+    <skills stamina="319" dexterity="234" speed="179" tackling="383" passing="317" shooting="415" control="367" accuracy="421" goalkeeping="50" heading="404"/>
+    <position pos="3" left="1" wing="0"/>
   </player>
   <player id="24111">
     <personal name="Jussi Rolko">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="269" risktaking="486" offensive="668" aggressive="735" consistent="592" creative="378" experienced="620"/>
-    <skills stamina="271" dexterity="208" speed="555" tackling="410" passing="311" shooting="468" control="434" accuracy="387" goalkeeping="42" heading="266"/>
+    <personality active="224" risktaking="406" offensive="397" aggressive="619" consistent="311" creative="65" experienced="511"/>
+    <skills stamina="196" dexterity="128" speed="589" tackling="287" passing="381" shooting="419" control="434" accuracy="356" goalkeeping="68" heading="487"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24112">
@@ -1013,8 +1013,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="513" risktaking="833" offensive="262" aggressive="670" consistent="509" creative="584" experienced="623"/>
-    <skills stamina="393" dexterity="176" speed="409" tackling="168" passing="299" shooting="312" control="276" accuracy="147" goalkeeping="523" heading="139"/>
+    <personality active="423" risktaking="321" offensive="289" aggressive="382" consistent="759" creative="683" experienced="474"/>
+    <skills stamina="452" dexterity="231" speed="548" tackling="222" passing="313" shooting="345" control="219" accuracy="137" goalkeeping="346" heading="148"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24113">
@@ -1022,17 +1022,17 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="317" risktaking="491" offensive="359" aggressive="545" consistent="301" creative="589" experienced="708"/>
-    <skills stamina="454" dexterity="617" speed="448" tackling="172" passing="387" shooting="409" control="287" accuracy="117" goalkeeping="487" heading="178"/>
-    <position pos="0" left="1" wing="0"/>
+    <personality active="373" risktaking="522" offensive="485" aggressive="733" consistent="497" creative="566" experienced="411"/>
+    <skills stamina="117" dexterity="591" speed="533" tackling="162" passing="238" shooting="261" control="255" accuracy="150" goalkeeping="393" heading="147"/>
+    <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24114">
     <personal name="Marko Tyyska">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="426" risktaking="399" offensive="389" aggressive="447" consistent="482" creative="643" experienced="648"/>
-    <skills stamina="488" dexterity="389" speed="609" tackling="453" passing="353" shooting="417" control="398" accuracy="260" goalkeeping="67" heading="243"/>
+    <personality active="411" risktaking="677" offensive="370" aggressive="614" consistent="602" creative="660" experienced="486"/>
+    <skills stamina="269" dexterity="681" speed="634" tackling="297" passing="311" shooting="312" control="374" accuracy="351" goalkeeping="57" heading="373"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="24115">
@@ -1040,8 +1040,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="486" risktaking="377" offensive="601" aggressive="492" consistent="647" creative="312" experienced="342"/>
-    <skills stamina="675" dexterity="532" speed="309" tackling="330" passing="308" shooting="370" control="339" accuracy="345" goalkeeping="57" heading="423"/>
+    <personality active="626" risktaking="663" offensive="383" aggressive="596" consistent="613" creative="550" experienced="601"/>
+    <skills stamina="686" dexterity="700" speed="326" tackling="447" passing="377" shooting="376" control="334" accuracy="258" goalkeeping="51" heading="383"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="24116">
@@ -1049,8 +1049,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="603" risktaking="189" offensive="526" aggressive="616" consistent="341" creative="634" experienced="591"/>
-    <skills stamina="369" dexterity="535" speed="505" tackling="434" passing="444" shooting="441" control="447" accuracy="359" goalkeeping="49" heading="278"/>
+    <personality active="532" risktaking="357" offensive="477" aggressive="279" consistent="397" creative="437" experienced="528"/>
+    <skills stamina="157" dexterity="615" speed="287" tackling="506" passing="312" shooting="412" control="415" accuracy="296" goalkeeping="59" heading="328"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24117">
@@ -1058,8 +1058,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="478" risktaking="372" offensive="311" aggressive="583" consistent="725" creative="534" experienced="493"/>
-    <skills stamina="549" dexterity="319" speed="546" tackling="377" passing="320" shooting="378" control="320" accuracy="422" goalkeeping="46" heading="372"/>
+    <personality active="242" risktaking="430" offensive="480" aggressive="417" consistent="390" creative="367" experienced="368"/>
+    <skills stamina="562" dexterity="586" speed="563" tackling="335" passing="459" shooting="439" control="405" accuracy="250" goalkeeping="41" heading="263"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24118">
@@ -1067,8 +1067,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="532" risktaking="351" offensive="274" aggressive="670" consistent="271" creative="464" experienced="334"/>
-    <skills stamina="519" dexterity="346" speed="244" tackling="443" passing="308" shooting="240" control="277" accuracy="395" goalkeeping="51" heading="385"/>
+    <personality active="653" risktaking="465" offensive="785" aggressive="462" consistent="651" creative="497" experienced="793"/>
+    <skills stamina="174" dexterity="329" speed="278" tackling="446" passing="357" shooting="373" control="438" accuracy="283" goalkeeping="53" heading="406"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24119">
@@ -1076,8 +1076,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="560" risktaking="559" offensive="358" aggressive="415" consistent="393" creative="587" experienced="413"/>
-    <skills stamina="313" dexterity="324" speed="130" tackling="374" passing="322" shooting="251" control="324" accuracy="412" goalkeeping="72" heading="435"/>
+    <personality active="493" risktaking="374" offensive="496" aggressive="604" consistent="81" creative="255" experienced="533"/>
+    <skills stamina="427" dexterity="460" speed="251" tackling="291" passing="416" shooting="300" control="356" accuracy="321" goalkeeping="51" heading="374"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="24120">
@@ -1085,8 +1085,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="512" risktaking="406" offensive="551" aggressive="568" consistent="504" creative="409" experienced="431"/>
-    <skills stamina="474" dexterity="530" speed="688" tackling="366" passing="357" shooting="425" control="398" accuracy="322" goalkeeping="69" heading="262"/>
+    <personality active="542" risktaking="550" offensive="701" aggressive="514" consistent="421" creative="360" experienced="305"/>
+    <skills stamina="645" dexterity="478" speed="513" tackling="365" passing="299" shooting="318" control="411" accuracy="333" goalkeeping="45" heading="448"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="24121">
@@ -1094,8 +1094,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="625" risktaking="663" offensive="674" aggressive="521" consistent="380" creative="563" experienced="335"/>
-    <skills stamina="424" dexterity="239" speed="208" tackling="347" passing="345" shooting="415" control="399" accuracy="295" goalkeeping="69" heading="297"/>
+    <personality active="323" risktaking="413" offensive="544" aggressive="626" consistent="471" creative="770" experienced="517"/>
+    <skills stamina="344" dexterity="553" speed="171" tackling="293" passing="440" shooting="275" control="330" accuracy="436" goalkeeping="44" heading="297"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24122">
@@ -1103,8 +1103,8 @@
       <appearance value="1"/>
       <nationality value="Ghana"/>
     </personal>
-    <personality active="486" risktaking="400" offensive="520" aggressive="562" consistent="205" creative="656" experienced="641"/>
-    <skills stamina="479" dexterity="362" speed="247" tackling="285" passing="314" shooting="311" control="374" accuracy="409" goalkeeping="43" heading="328"/>
+    <personality active="618" risktaking="353" offensive="753" aggressive="509" consistent="547" creative="501" experienced="623"/>
+    <skills stamina="472" dexterity="325" speed="323" tackling="358" passing="250" shooting="337" control="354" accuracy="262" goalkeeping="64" heading="365"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24123">
@@ -1112,8 +1112,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="325" risktaking="480" offensive="585" aggressive="774" consistent="682" creative="617" experienced="566"/>
-    <skills stamina="579" dexterity="435" speed="480" tackling="385" passing="328" shooting="419" control="333" accuracy="282" goalkeeping="51" heading="334"/>
+    <personality active="540" risktaking="486" offensive="612" aggressive="616" consistent="350" creative="558" experienced="470"/>
+    <skills stamina="554" dexterity="645" speed="306" tackling="465" passing="328" shooting="428" control="341" accuracy="287" goalkeeping="55" heading="393"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24124">
@@ -1121,8 +1121,8 @@
       <appearance value="8"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="580" risktaking="716" offensive="441" aggressive="287" consistent="406" creative="472" experienced="530"/>
-    <skills stamina="214" dexterity="436" speed="658" tackling="349" passing="424" shooting="399" control="395" accuracy="261" goalkeeping="72" heading="260"/>
+    <personality active="326" risktaking="444" offensive="399" aggressive="956" consistent="784" creative="463" experienced="446"/>
+    <skills stamina="555" dexterity="485" speed="349" tackling="390" passing="312" shooting="309" control="331" accuracy="351" goalkeeping="47" heading="434"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24125">
@@ -1130,8 +1130,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="480" risktaking="607" offensive="518" aggressive="760" consistent="473" creative="312" experienced="498"/>
-    <skills stamina="303" dexterity="310" speed="587" tackling="294" passing="316" shooting="470" control="302" accuracy="352" goalkeeping="66" heading="481"/>
+    <personality active="442" risktaking="371" offensive="675" aggressive="425" consistent="745" creative="476" experienced="477"/>
+    <skills stamina="396" dexterity="567" speed="273" tackling="288" passing="445" shooting="423" control="287" accuracy="401" goalkeeping="67" heading="361"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24126">
@@ -1139,8 +1139,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="713" risktaking="467" offensive="375" aggressive="193" consistent="418" creative="550" experienced="648"/>
-    <skills stamina="371" dexterity="501" speed="659" tackling="448" passing="314" shooting="402" control="310" accuracy="269" goalkeeping="60" heading="435"/>
+    <personality active="335" risktaking="275" offensive="349" aggressive="452" consistent="561" creative="639" experienced="392"/>
+    <skills stamina="273" dexterity="196" speed="327" tackling="288" passing="375" shooting="475" control="371" accuracy="439" goalkeeping="50" heading="281"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24127">
@@ -1148,8 +1148,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="193" risktaking="433" offensive="686" aggressive="374" consistent="605" creative="496" experienced="525"/>
-    <skills stamina="341" dexterity="386" speed="502" tackling="440" passing="290" shooting="426" control="366" accuracy="441" goalkeeping="75" heading="438"/>
+    <personality active="633" risktaking="458" offensive="237" aggressive="429" consistent="417" creative="527" experienced="466"/>
+    <skills stamina="493" dexterity="230" speed="281" tackling="423" passing="327" shooting="279" control="335" accuracy="465" goalkeeping="68" heading="437"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24128">
@@ -1157,8 +1157,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="311" risktaking="459" offensive="445" aggressive="707" consistent="449" creative="441" experienced="270"/>
-    <skills stamina="211" dexterity="587" speed="621" tackling="210" passing="307" shooting="290" control="391" accuracy="150" goalkeeping="491" heading="200"/>
+    <personality active="405" risktaking="537" offensive="500" aggressive="459" consistent="616" creative="364" experienced="557"/>
+    <skills stamina="544" dexterity="597" speed="317" tackling="203" passing="332" shooting="336" control="328" accuracy="203" goalkeeping="480" heading="180"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24129">
@@ -1166,17 +1166,17 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="685" risktaking="468" offensive="749" aggressive="538" consistent="621" creative="542" experienced="461"/>
-    <skills stamina="566" dexterity="228" speed="331" tackling="143" passing="369" shooting="404" control="236" accuracy="144" goalkeeping="323" heading="157"/>
-    <position pos="0" left="0" wing="0"/>
+    <personality active="520" risktaking="468" offensive="384" aggressive="607" consistent="633" creative="523" experienced="653"/>
+    <skills stamina="213" dexterity="169" speed="375" tackling="115" passing="317" shooting="297" control="278" accuracy="179" goalkeeping="441" heading="134"/>
+    <position pos="0" left="1" wing="0"/>
   </player>
   <player id="24130">
     <personal name="Toni Huttunen">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="448" risktaking="398" offensive="321" aggressive="223" consistent="500" creative="585" experienced="622"/>
-    <skills stamina="423" dexterity="495" speed="230" tackling="423" passing="317" shooting="301" control="378" accuracy="437" goalkeeping="59" heading="451"/>
+    <personality active="662" risktaking="274" offensive="180" aggressive="321" consistent="475" creative="493" experienced="378"/>
+    <skills stamina="467" dexterity="354" speed="496" tackling="296" passing="375" shooting="385" control="291" accuracy="398" goalkeeping="67" heading="338"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="24131">
@@ -1184,8 +1184,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="501" risktaking="491" offensive="305" aggressive="674" consistent="562" creative="222" experienced="432"/>
-    <skills stamina="537" dexterity="497" speed="618" tackling="370" passing="373" shooting="400" control="349" accuracy="446" goalkeeping="65" heading="406"/>
+    <personality active="642" risktaking="483" offensive="538" aggressive="541" consistent="699" creative="394" experienced="239"/>
+    <skills stamina="399" dexterity="275" speed="348" tackling="434" passing="500" shooting="422" control="293" accuracy="402" goalkeeping="50" heading="310"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="24132">
@@ -1193,8 +1193,8 @@
       <appearance value="0"/>
       <nationality value="Paraguay"/>
     </personal>
-    <personality active="492" risktaking="181" offensive="517" aggressive="332" consistent="378" creative="252" experienced="162"/>
-    <skills stamina="248" dexterity="623" speed="280" tackling="573" passing="441" shooting="458" control="503" accuracy="370" goalkeeping="59" heading="330"/>
+    <personality active="411" risktaking="247" offensive="395" aggressive="389" consistent="558" creative="539" experienced="488"/>
+    <skills stamina="598" dexterity="491" speed="399" tackling="578" passing="539" shooting="346" control="466" accuracy="342" goalkeeping="66" heading="335"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24133">
@@ -1202,8 +1202,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="718" risktaking="410" offensive="511" aggressive="652" consistent="456" creative="536" experienced="560"/>
-    <skills stamina="129" dexterity="644" speed="287" tackling="381" passing="344" shooting="376" control="367" accuracy="271" goalkeeping="53" heading="423"/>
+    <personality active="421" risktaking="120" offensive="607" aggressive="432" consistent="693" creative="446" experienced="558"/>
+    <skills stamina="462" dexterity="599" speed="405" tackling="340" passing="366" shooting="410" control="442" accuracy="244" goalkeeping="58" heading="241"/>
     <position pos="1" left="1" wing="0"/>
   </player>
   <player id="24134">
@@ -1211,8 +1211,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="670" risktaking="672" offensive="658" aggressive="698" consistent="385" creative="501" experienced="664"/>
-    <skills stamina="669" dexterity="326" speed="475" tackling="435" passing="369" shooting="307" control="334" accuracy="304" goalkeeping="53" heading="432"/>
+    <personality active="474" risktaking="540" offensive="354" aggressive="486" consistent="599" creative="554" experienced="642"/>
+    <skills stamina="644" dexterity="637" speed="380" tackling="445" passing="326" shooting="339" control="364" accuracy="280" goalkeeping="75" heading="360"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="24135">
@@ -1220,8 +1220,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="571" risktaking="513" offensive="565" aggressive="581" consistent="433" creative="403" experienced="632"/>
-    <skills stamina="242" dexterity="549" speed="413" tackling="275" passing="452" shooting="457" control="493" accuracy="452" goalkeeping="68" heading="294"/>
+    <personality active="521" risktaking="474" offensive="580" aggressive="521" consistent="476" creative="448" experienced="604"/>
+    <skills stamina="528" dexterity="331" speed="504" tackling="420" passing="464" shooting="407" control="452" accuracy="398" goalkeeping="48" heading="365"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24136">
@@ -1229,8 +1229,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="377" risktaking="333" offensive="625" aggressive="487" consistent="589" creative="590" experienced="279"/>
-    <skills stamina="625" dexterity="259" speed="397" tackling="374" passing="461" shooting="344" control="317" accuracy="322" goalkeeping="61" heading="295"/>
+    <personality active="373" risktaking="479" offensive="406" aggressive="500" consistent="459" creative="504" experienced="595"/>
+    <skills stamina="322" dexterity="677" speed="266" tackling="420" passing="460" shooting="315" control="386" accuracy="347" goalkeeping="66" heading="327"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24137">
@@ -1238,8 +1238,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="556" risktaking="480" offensive="416" aggressive="496" consistent="256" creative="498" experienced="381"/>
-    <skills stamina="491" dexterity="287" speed="222" tackling="369" passing="308" shooting="354" control="434" accuracy="276" goalkeeping="71" heading="267"/>
+    <personality active="617" risktaking="756" offensive="385" aggressive="405" consistent="589" creative="341" experienced="567"/>
+    <skills stamina="273" dexterity="381" speed="525" tackling="436" passing="356" shooting="300" control="391" accuracy="330" goalkeeping="47" heading="322"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24138">
@@ -1247,8 +1247,8 @@
       <appearance value="1"/>
       <nationality value="Togo"/>
     </personal>
-    <personality active="444" risktaking="124" offensive="631" aggressive="577" consistent="308" creative="444" experienced="457"/>
-    <skills stamina="453" dexterity="707" speed="645" tackling="404" passing="315" shooting="343" control="442" accuracy="491" goalkeeping="60" heading="397"/>
+    <personality active="432" risktaking="440" offensive="559" aggressive="557" consistent="438" creative="559" experienced="398"/>
+    <skills stamina="219" dexterity="419" speed="297" tackling="466" passing="419" shooting="460" control="425" accuracy="414" goalkeeping="57" heading="506"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24139">
@@ -1256,8 +1256,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="500" risktaking="569" offensive="503" aggressive="733" consistent="543" creative="417" experienced="501"/>
-    <skills stamina="653" dexterity="178" speed="581" tackling="314" passing="415" shooting="313" control="460" accuracy="287" goalkeeping="53" heading="394"/>
+    <personality active="719" risktaking="561" offensive="632" aggressive="664" consistent="516" creative="512" experienced="466"/>
+    <skills stamina="463" dexterity="200" speed="609" tackling="449" passing="302" shooting="318" control="329" accuracy="279" goalkeeping="52" heading="264"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24140">
@@ -1265,8 +1265,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="370" risktaking="539" offensive="810" aggressive="457" consistent="488" creative="364" experienced="282"/>
-    <skills stamina="536" dexterity="525" speed="318" tackling="260" passing="446" shooting="372" control="307" accuracy="317" goalkeeping="64" heading="394"/>
+    <personality active="481" risktaking="518" offensive="420" aggressive="508" consistent="597" creative="553" experienced="555"/>
+    <skills stamina="507" dexterity="184" speed="586" tackling="302" passing="387" shooting="416" control="278" accuracy="355" goalkeeping="57" heading="452"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24141">
@@ -1274,8 +1274,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="324" risktaking="369" offensive="444" aggressive="489" consistent="590" creative="511" experienced="505"/>
-    <skills stamina="503" dexterity="651" speed="312" tackling="322" passing="430" shooting="305" control="305" accuracy="452" goalkeeping="53" heading="459"/>
+    <personality active="277" risktaking="447" offensive="395" aggressive="503" consistent="90" creative="438" experienced="531"/>
+    <skills stamina="191" dexterity="188" speed="268" tackling="380" passing="395" shooting="457" control="300" accuracy="309" goalkeeping="64" heading="456"/>
     <position pos="3" left="1" wing="0"/>
   </player>
   <player id="24142">
@@ -1283,8 +1283,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="472" risktaking="348" offensive="381" aggressive="247" consistent="347" creative="535" experienced="593"/>
-    <skills stamina="649" dexterity="589" speed="434" tackling="264" passing="317" shooting="477" control="327" accuracy="479" goalkeeping="41" heading="420"/>
+    <personality active="491" risktaking="354" offensive="372" aggressive="599" consistent="399" creative="344" experienced="570"/>
+    <skills stamina="571" dexterity="469" speed="380" tackling="261" passing="351" shooting="315" control="364" accuracy="375" goalkeeping="68" heading="354"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24143">
@@ -1292,8 +1292,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="661" risktaking="423" offensive="231" aggressive="501" consistent="431" creative="336" experienced="608"/>
-    <skills stamina="514" dexterity="250" speed="578" tackling="318" passing="307" shooting="506" control="269" accuracy="291" goalkeeping="51" heading="476"/>
+    <personality active="423" risktaking="415" offensive="544" aggressive="414" consistent="400" creative="416" experienced="654"/>
+    <skills stamina="315" dexterity="591" speed="132" tackling="364" passing="378" shooting="407" control="263" accuracy="396" goalkeeping="56" heading="359"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24144">
@@ -1301,8 +1301,8 @@
       <appearance value="8"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="378" risktaking="508" offensive="344" aggressive="557" consistent="343" creative="407" experienced="752"/>
-    <skills stamina="538" dexterity="195" speed="430" tackling="256" passing="480" shooting="529" control="304" accuracy="245" goalkeeping="516" heading="176"/>
+    <personality active="594" risktaking="484" offensive="384" aggressive="554" consistent="387" creative="426" experienced="485"/>
+    <skills stamina="652" dexterity="394" speed="544" tackling="269" passing="529" shooting="380" control="326" accuracy="247" goalkeeping="510" heading="247"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24145">
@@ -1310,8 +1310,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="518" risktaking="573" offensive="565" aggressive="580" consistent="363" creative="618" experienced="575"/>
-    <skills stamina="640" dexterity="347" speed="574" tackling="202" passing="279" shooting="387" control="332" accuracy="200" goalkeeping="377" heading="213"/>
+    <personality active="740" risktaking="585" offensive="260" aggressive="246" consistent="716" creative="549" experienced="442"/>
+    <skills stamina="560" dexterity="309" speed="339" tackling="167" passing="335" shooting="407" control="266" accuracy="138" goalkeeping="321" heading="200"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24146">
@@ -1319,8 +1319,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="236" risktaking="386" offensive="625" aggressive="577" consistent="722" creative="612" experienced="275"/>
-    <skills stamina="414" dexterity="497" speed="498" tackling="422" passing="369" shooting="321" control="418" accuracy="372" goalkeeping="70" heading="349"/>
+    <personality active="607" risktaking="578" offensive="277" aggressive="611" consistent="615" creative="615" experienced="697"/>
+    <skills stamina="208" dexterity="469" speed="368" tackling="423" passing="319" shooting="473" control="439" accuracy="392" goalkeeping="61" heading="471"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="24147">
@@ -1328,8 +1328,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="517" risktaking="593" offensive="280" aggressive="633" consistent="411" creative="358" experienced="591"/>
-    <skills stamina="238" dexterity="302" speed="419" tackling="293" passing="404" shooting="360" control="413" accuracy="314" goalkeeping="51" heading="472"/>
+    <personality active="218" risktaking="575" offensive="432" aggressive="439" consistent="333" creative="488" experienced="508"/>
+    <skills stamina="323" dexterity="586" speed="149" tackling="351" passing="344" shooting="356" control="315" accuracy="372" goalkeeping="54" heading="391"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="24148">
@@ -1337,8 +1337,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="189" risktaking="577" offensive="546" aggressive="504" consistent="700" creative="590" experienced="588"/>
-    <skills stamina="524" dexterity="321" speed="339" tackling="535" passing="464" shooting="300" control="484" accuracy="419" goalkeeping="48" heading="453"/>
+    <personality active="277" risktaking="379" offensive="372" aggressive="653" consistent="674" creative="324" experienced="513"/>
+    <skills stamina="365" dexterity="189" speed="335" tackling="356" passing="427" shooting="440" control="425" accuracy="416" goalkeeping="58" heading="354"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24149">
@@ -1346,17 +1346,17 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="316" risktaking="563" offensive="312" aggressive="440" consistent="315" creative="431" experienced="451"/>
-    <skills stamina="290" dexterity="334" speed="289" tackling="412" passing="418" shooting="353" control="297" accuracy="375" goalkeeping="47" heading="381"/>
-    <position pos="1" left="0" wing="0"/>
+    <personality active="613" risktaking="381" offensive="705" aggressive="526" consistent="607" creative="439" experienced="497"/>
+    <skills stamina="196" dexterity="459" speed="616" tackling="431" passing="376" shooting="261" control="314" accuracy="455" goalkeeping="45" heading="306"/>
+    <position pos="1" left="1" wing="0"/>
   </player>
   <player id="24150">
     <personal name="Antti Ojanpera">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="591" risktaking="560" offensive="437" aggressive="399" consistent="279" creative="414" experienced="403"/>
-    <skills stamina="408" dexterity="451" speed="606" tackling="469" passing="495" shooting="438" control="456" accuracy="348" goalkeeping="45" heading="279"/>
+    <personality active="396" risktaking="544" offensive="485" aggressive="273" consistent="584" creative="529" experienced="626"/>
+    <skills stamina="603" dexterity="706" speed="678" tackling="339" passing="350" shooting="356" control="362" accuracy="291" goalkeeping="61" heading="326"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="24151">
@@ -1364,8 +1364,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="564" risktaking="326" offensive="673" aggressive="500" consistent="597" creative="538" experienced="361"/>
-    <skills stamina="282" dexterity="229" speed="570" tackling="309" passing="343" shooting="302" control="396" accuracy="493" goalkeeping="52" heading="393"/>
+    <personality active="703" risktaking="634" offensive="619" aggressive="258" consistent="492" creative="453" experienced="724"/>
+    <skills stamina="573" dexterity="650" speed="348" tackling="452" passing="515" shooting="402" control="476" accuracy="329" goalkeeping="76" heading="312"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="24152">
@@ -1373,8 +1373,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="721" risktaking="690" offensive="311" aggressive="407" consistent="380" creative="690" experienced="385"/>
-    <skills stamina="303" dexterity="396" speed="207" tackling="367" passing="364" shooting="297" control="467" accuracy="344" goalkeeping="50" heading="489"/>
+    <personality active="626" risktaking="340" offensive="509" aggressive="674" consistent="547" creative="587" experienced="684"/>
+    <skills stamina="206" dexterity="652" speed="302" tackling="343" passing="489" shooting="433" control="396" accuracy="367" goalkeeping="74" heading="442"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24153">
@@ -1382,71 +1382,71 @@
       <appearance value="8"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="608" risktaking="527" offensive="810" aggressive="326" consistent="626" creative="718" experienced="392"/>
-    <skills stamina="444" dexterity="547" speed="211" tackling="542" passing="426" shooting="473" control="397" accuracy="366" goalkeeping="61" heading="448"/>
-    <position pos="2" left="1" wing="0"/>
+    <personality active="581" risktaking="530" offensive="182" aggressive="478" consistent="544" creative="288" experienced="283"/>
+    <skills stamina="425" dexterity="283" speed="206" tackling="405" passing="414" shooting="541" control="496" accuracy="519" goalkeeping="74" heading="451"/>
+    <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24154">
     <personal name="Juska Savolainen">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="519" risktaking="266" offensive="405" aggressive="374" consistent="321" creative="784" experienced="256"/>
-    <skills stamina="171" dexterity="395" speed="683" tackling="378" passing="301" shooting="459" control="478" accuracy="437" goalkeeping="57" heading="323"/>
-    <position pos="2" left="0" wing="0"/>
+    <personality active="217" risktaking="165" offensive="375" aggressive="494" consistent="574" creative="432" experienced="354"/>
+    <skills stamina="237" dexterity="213" speed="183" tackling="449" passing="405" shooting="375" control="396" accuracy="296" goalkeeping="79" heading="295"/>
+    <position pos="2" left="1" wing="0"/>
   </player>
   <player id="24155">
     <personal name="Antti Nynynen">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="652" risktaking="508" offensive="556" aggressive="189" consistent="535" creative="347" experienced="365"/>
-    <skills stamina="699" dexterity="400" speed="406" tackling="492" passing="326" shooting="428" control="376" accuracy="423" goalkeeping="59" heading="434"/>
-    <position pos="2" left="0" wing="0"/>
+    <personality active="362" risktaking="337" offensive="401" aggressive="605" consistent="473" creative="398" experienced="639"/>
+    <skills stamina="157" dexterity="680" speed="556" tackling="302" passing="342" shooting="308" control="329" accuracy="455" goalkeeping="54" heading="314"/>
+    <position pos="2" left="1" wing="0"/>
   </player>
   <player id="24156">
     <personal name="Daniel Chimezie Nwoke">
       <appearance value="1"/>
       <nationality value="Nigeria"/>
     </personal>
-    <personality active="699" risktaking="473" offensive="362" aggressive="450" consistent="800" creative="469" experienced="457"/>
-    <skills stamina="445" dexterity="657" speed="439" tackling="354" passing="337" shooting="426" control="307" accuracy="479" goalkeeping="53" heading="451"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="417" risktaking="456" offensive="673" aggressive="704" consistent="240" creative="485" experienced="543"/>
+    <skills stamina="485" dexterity="354" speed="548" tackling="387" passing="343" shooting="527" control="384" accuracy="466" goalkeeping="65" heading="364"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24157">
     <personal name="Antti Pohja">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="807" risktaking="519" offensive="539" aggressive="443" consistent="326" creative="383" experienced="483"/>
-    <skills stamina="408" dexterity="653" speed="597" tackling="468" passing="514" shooting="398" control="552" accuracy="597" goalkeeping="78" heading="577"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="670" risktaking="728" offensive="701" aggressive="660" consistent="722" creative="432" experienced="397"/>
+    <skills stamina="670" dexterity="255" speed="455" tackling="523" passing="549" shooting="449" control="494" accuracy="526" goalkeeping="89" heading="449"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24158">
     <personal name="Jari Niemi">
       <appearance value="8"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="445" risktaking="510" offensive="677" aggressive="557" consistent="342" creative="397" experienced="407"/>
-    <skills stamina="724" dexterity="204" speed="432" tackling="514" passing="514" shooting="423" control="472" accuracy="465" goalkeeping="67" heading="586"/>
-    <position pos="3" left="0" wing="0"/>
+    <personality active="389" risktaking="519" offensive="426" aggressive="632" consistent="672" creative="268" experienced="398"/>
+    <skills stamina="310" dexterity="449" speed="596" tackling="378" passing="386" shooting="539" control="481" accuracy="518" goalkeeping="75" heading="405"/>
+    <position pos="3" left="1" wing="0"/>
   </player>
   <player id="24159">
     <personal name="Tomi Petrescu">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="406" risktaking="468" offensive="387" aggressive="768" consistent="487" creative="699" experienced="718"/>
-    <skills stamina="428" dexterity="607" speed="334" tackling="361" passing="442" shooting="362" control="412" accuracy="459" goalkeeping="48" heading="490"/>
-    <position pos="3" left="0" wing="0"/>
+    <personality active="368" risktaking="536" offensive="760" aggressive="209" consistent="432" creative="684" experienced="593"/>
+    <skills stamina="251" dexterity="459" speed="504" tackling="436" passing="300" shooting="343" control="274" accuracy="440" goalkeeping="69" heading="393"/>
+    <position pos="3" left="1" wing="0"/>
   </player>
   <player id="24160">
     <personal name="Jukka Lehtovaara">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="329" risktaking="131" offensive="743" aggressive="320" consistent="437" creative="624" experienced="841"/>
-    <skills stamina="147" dexterity="581" speed="133" tackling="193" passing="324" shooting="412" control="245" accuracy="172" goalkeeping="448" heading="151"/>
+    <personality active="627" risktaking="585" offensive="839" aggressive="645" consistent="669" creative="559" experienced="351"/>
+    <skills stamina="217" dexterity="150" speed="591" tackling="183" passing="334" shooting="427" control="212" accuracy="201" goalkeeping="367" heading="218"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24161">
@@ -1454,17 +1454,17 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="424" risktaking="393" offensive="439" aggressive="452" consistent="394" creative="357" experienced="506"/>
-    <skills stamina="641" dexterity="192" speed="313" tackling="197" passing="332" shooting="380" control="200" accuracy="197" goalkeeping="315" heading="188"/>
-    <position pos="0" left="1" wing="0"/>
+    <personality active="438" risktaking="534" offensive="378" aggressive="693" consistent="294" creative="599" experienced="856"/>
+    <skills stamina="514" dexterity="214" speed="399" tackling="142" passing="236" shooting="359" control="319" accuracy="124" goalkeeping="408" heading="148"/>
+    <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24162">
     <personal name="Rami Rahmonen">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="637" risktaking="487" offensive="580" aggressive="619" consistent="62" creative="186" experienced="308"/>
-    <skills stamina="457" dexterity="207" speed="223" tackling="290" passing="371" shooting="247" control="371" accuracy="418" goalkeeping="62" heading="358"/>
+    <personality active="525" risktaking="579" offensive="364" aggressive="447" consistent="670" creative="325" experienced="519"/>
+    <skills stamina="187" dexterity="332" speed="509" tackling="360" passing="426" shooting="324" control="425" accuracy="387" goalkeeping="57" heading="330"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="24163">
@@ -1472,8 +1472,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="298" risktaking="394" offensive="213" aggressive="671" consistent="469" creative="400" experienced="401"/>
-    <skills stamina="578" dexterity="136" speed="346" tackling="257" passing="358" shooting="435" control="469" accuracy="415" goalkeeping="58" heading="330"/>
+    <personality active="636" risktaking="582" offensive="370" aggressive="529" consistent="517" creative="287" experienced="426"/>
+    <skills stamina="684" dexterity="328" speed="512" tackling="319" passing="350" shooting="319" control="402" accuracy="265" goalkeeping="62" heading="395"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="24164">
@@ -1481,8 +1481,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="551" risktaking="554" offensive="498" aggressive="341" consistent="348" creative="329" experienced="132"/>
-    <skills stamina="195" dexterity="284" speed="320" tackling="394" passing="333" shooting="338" control="372" accuracy="427" goalkeeping="44" heading="429"/>
+    <personality active="581" risktaking="659" offensive="791" aggressive="312" consistent="747" creative="679" experienced="626"/>
+    <skills stamina="549" dexterity="191" speed="301" tackling="457" passing="395" shooting="332" control="378" accuracy="385" goalkeeping="71" heading="366"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24165">
@@ -1490,8 +1490,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="449" risktaking="495" offensive="389" aggressive="676" consistent="531" creative="695" experienced="361"/>
-    <skills stamina="403" dexterity="415" speed="149" tackling="330" passing="298" shooting="256" control="291" accuracy="313" goalkeeping="53" heading="404"/>
+    <personality active="495" risktaking="473" offensive="513" aggressive="645" consistent="732" creative="469" experienced="829"/>
+    <skills stamina="425" dexterity="221" speed="519" tackling="347" passing="408" shooting="301" control="320" accuracy="324" goalkeeping="71" heading="303"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24166">
@@ -1499,8 +1499,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="414" risktaking="664" offensive="503" aggressive="564" consistent="500" creative="449" experienced="561"/>
-    <skills stamina="568" dexterity="219" speed="212" tackling="346" passing="397" shooting="368" control="448" accuracy="307" goalkeeping="66" heading="422"/>
+    <personality active="528" risktaking="214" offensive="379" aggressive="455" consistent="450" creative="403" experienced="172"/>
+    <skills stamina="243" dexterity="548" speed="411" tackling="330" passing="389" shooting="439" control="311" accuracy="412" goalkeeping="48" heading="263"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="24167">
@@ -1508,8 +1508,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="371" risktaking="323" offensive="770" aggressive="594" consistent="516" creative="562" experienced="340"/>
-    <skills stamina="288" dexterity="627" speed="320" tackling="371" passing="308" shooting="424" control="416" accuracy="439" goalkeeping="66" heading="364"/>
+    <personality active="535" risktaking="369" offensive="794" aggressive="531" consistent="477" creative="704" experienced="669"/>
+    <skills stamina="628" dexterity="667" speed="432" tackling="344" passing="271" shooting="419" control="485" accuracy="310" goalkeeping="44" heading="366"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24168">
@@ -1517,17 +1517,17 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="461" risktaking="412" offensive="453" aggressive="626" consistent="584" creative="412" experienced="431"/>
-    <skills stamina="587" dexterity="166" speed="440" tackling="399" passing="340" shooting="355" control="425" accuracy="375" goalkeeping="70" heading="443"/>
-    <position pos="1" left="0" wing="0"/>
+    <personality active="557" risktaking="657" offensive="599" aggressive="419" consistent="555" creative="536" experienced="378"/>
+    <skills stamina="351" dexterity="601" speed="406" tackling="390" passing="353" shooting="431" control="380" accuracy="331" goalkeeping="70" heading="322"/>
+    <position pos="1" left="1" wing="0"/>
   </player>
   <player id="24169">
     <personal name="Simo Valakari">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="370" risktaking="507" offensive="749" aggressive="688" consistent="199" creative="290" experienced="582"/>
-    <skills stamina="354" dexterity="277" speed="534" tackling="362" passing="519" shooting="443" control="362" accuracy="346" goalkeeping="68" heading="469"/>
+    <personality active="319" risktaking="562" offensive="390" aggressive="490" consistent="292" creative="563" experienced="353"/>
+    <skills stamina="165" dexterity="210" speed="680" tackling="406" passing="385" shooting="381" control="360" accuracy="430" goalkeeping="51" heading="376"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24170">
@@ -1535,8 +1535,8 @@
       <appearance value="8"/>
       <nationality value="England"/>
     </personal>
-    <personality active="532" risktaking="419" offensive="607" aggressive="725" consistent="424" creative="504" experienced="278"/>
-    <skills stamina="391" dexterity="520" speed="248" tackling="351" passing="310" shooting="316" control="441" accuracy="265" goalkeeping="62" heading="362"/>
+    <personality active="410" risktaking="298" offensive="524" aggressive="451" consistent="631" creative="299" experienced="653"/>
+    <skills stamina="316" dexterity="390" speed="567" tackling="419" passing="430" shooting="419" control="306" accuracy="435" goalkeeping="58" heading="277"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24171">
@@ -1544,8 +1544,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="505" risktaking="366" offensive="600" aggressive="319" consistent="538" creative="347" experienced="586"/>
-    <skills stamina="577" dexterity="172" speed="204" tackling="409" passing="275" shooting="416" control="435" accuracy="438" goalkeeping="70" heading="342"/>
+    <personality active="466" risktaking="293" offensive="607" aggressive="349" consistent="795" creative="587" experienced="370"/>
+    <skills stamina="288" dexterity="602" speed="483" tackling="310" passing="438" shooting="257" control="443" accuracy="419" goalkeeping="51" heading="325"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24172">
@@ -1553,17 +1553,17 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="429" risktaking="393" offensive="604" aggressive="467" consistent="324" creative="581" experienced="480"/>
-    <skills stamina="386" dexterity="519" speed="540" tackling="419" passing="383" shooting="319" control="448" accuracy="391" goalkeeping="72" heading="328"/>
-    <position pos="2" left="1" wing="0"/>
+    <personality active="468" risktaking="193" offensive="428" aggressive="563" consistent="567" creative="765" experienced="390"/>
+    <skills stamina="566" dexterity="611" speed="555" tackling="438" passing="297" shooting="378" control="310" accuracy="416" goalkeeping="53" heading="256"/>
+    <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24173">
     <personal name="Mikko Paatelainen">
       <appearance value="8"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="529" risktaking="299" offensive="837" aggressive="345" consistent="697" creative="495" experienced="421"/>
-    <skills stamina="626" dexterity="270" speed="497" tackling="386" passing="317" shooting="525" control="327" accuracy="393" goalkeeping="49" heading="369"/>
+    <personality active="541" risktaking="240" offensive="536" aggressive="753" consistent="423" creative="436" experienced="417"/>
+    <skills stamina="488" dexterity="617" speed="603" tackling="329" passing="482" shooting="405" control="480" accuracy="489" goalkeeping="62" heading="349"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24174">
@@ -1571,26 +1571,26 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="449" risktaking="317" offensive="224" aggressive="483" consistent="486" creative="557" experienced="605"/>
-    <skills stamina="164" dexterity="332" speed="658" tackling="307" passing="408" shooting="340" control="300" accuracy="364" goalkeeping="70" heading="416"/>
-    <position pos="3" left="0" wing="0"/>
+    <personality active="571" risktaking="414" offensive="622" aggressive="540" consistent="558" creative="657" experienced="620"/>
+    <skills stamina="479" dexterity="171" speed="303" tackling="367" passing="422" shooting="518" control="391" accuracy="370" goalkeeping="69" heading="427"/>
+    <position pos="3" left="1" wing="0"/>
   </player>
   <player id="24175">
     <personal name="Armand One">
       <appearance value="1"/>
       <nationality value="France"/>
     </personal>
-    <personality active="626" risktaking="559" offensive="325" aggressive="504" consistent="700" creative="335" experienced="470"/>
-    <skills stamina="632" dexterity="455" speed="204" tackling="306" passing="335" shooting="299" control="439" accuracy="432" goalkeeping="59" heading="381"/>
-    <position pos="3" left="0" wing="0"/>
+    <personality active="400" risktaking="577" offensive="447" aggressive="473" consistent="876" creative="558" experienced="486"/>
+    <skills stamina="449" dexterity="323" speed="378" tackling="321" passing="304" shooting="432" control="267" accuracy="478" goalkeeping="50" heading="410"/>
+    <position pos="3" left="1" wing="0"/>
   </player>
   <player id="24176">
     <personal name="Henri Silanpaa">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="552" risktaking="477" offensive="419" aggressive="499" consistent="385" creative="422" experienced="459"/>
-    <skills stamina="437" dexterity="464" speed="381" tackling="174" passing="308" shooting="292" control="264" accuracy="218" goalkeeping="342" heading="199"/>
+    <personality active="543" risktaking="671" offensive="422" aggressive="404" consistent="534" creative="614" experienced="229"/>
+    <skills stamina="657" dexterity="495" speed="290" tackling="147" passing="357" shooting="363" control="329" accuracy="216" goalkeeping="353" heading="182"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24177">
@@ -1598,8 +1598,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="630" risktaking="493" offensive="774" aggressive="577" consistent="469" creative="721" experienced="518"/>
-    <skills stamina="588" dexterity="196" speed="448" tackling="208" passing="248" shooting="343" control="336" accuracy="145" goalkeeping="376" heading="133"/>
+    <personality active="604" risktaking="391" offensive="393" aggressive="315" consistent="588" creative="784" experienced="408"/>
+    <skills stamina="386" dexterity="453" speed="319" tackling="179" passing="420" shooting="248" control="226" accuracy="154" goalkeeping="464" heading="127"/>
     <position pos="0" left="0" wing="0"/>
   </player>
   <player id="24178">
@@ -1607,8 +1607,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="671" risktaking="749" offensive="262" aggressive="436" consistent="550" creative="366" experienced="287"/>
-    <skills stamina="460" dexterity="602" speed="198" tackling="381" passing="247" shooting="426" control="377" accuracy="280" goalkeeping="68" heading="302"/>
+    <personality active="516" risktaking="708" offensive="199" aggressive="544" consistent="523" creative="367" experienced="675"/>
+    <skills stamina="535" dexterity="610" speed="146" tackling="380" passing="423" shooting="355" control="344" accuracy="387" goalkeeping="39" heading="273"/>
     <position pos="1" left="0" wing="1"/>
   </player>
   <player id="24179">
@@ -1616,8 +1616,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="635" risktaking="579" offensive="469" aggressive="521" consistent="346" creative="358" experienced="416"/>
-    <skills stamina="656" dexterity="379" speed="350" tackling="368" passing="263" shooting="408" control="402" accuracy="377" goalkeeping="46" heading="290"/>
+    <personality active="439" risktaking="420" offensive="588" aggressive="664" consistent="570" creative="698" experienced="230"/>
+    <skills stamina="320" dexterity="591" speed="133" tackling="280" passing="424" shooting="337" control="438" accuracy="379" goalkeeping="55" heading="414"/>
     <position pos="1" left="1" wing="1"/>
   </player>
   <player id="24180">
@@ -1625,8 +1625,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="486" risktaking="446" offensive="635" aggressive="271" consistent="225" creative="340" experienced="362"/>
-    <skills stamina="584" dexterity="557" speed="481" tackling="386" passing="311" shooting="390" control="475" accuracy="356" goalkeeping="54" heading="430"/>
+    <personality active="562" risktaking="597" offensive="382" aggressive="503" consistent="695" creative="556" experienced="548"/>
+    <skills stamina="560" dexterity="551" speed="468" tackling="388" passing="410" shooting="319" control="433" accuracy="311" goalkeeping="43" heading="269"/>
     <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24181">
@@ -1634,26 +1634,26 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="527" risktaking="766" offensive="497" aggressive="537" consistent="434" creative="581" experienced="637"/>
-    <skills stamina="439" dexterity="132" speed="253" tackling="372" passing="444" shooting="438" control="343" accuracy="401" goalkeeping="57" heading="405"/>
-    <position pos="1" left="1" wing="0"/>
+    <personality active="417" risktaking="318" offensive="529" aggressive="766" consistent="399" creative="202" experienced="530"/>
+    <skills stamina="160" dexterity="254" speed="192" tackling="359" passing="423" shooting="311" control="442" accuracy="420" goalkeeping="73" heading="426"/>
+    <position pos="1" left="0" wing="0"/>
   </player>
   <player id="24182">
     <personal name="Mikko-ville Hyyhonen">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="230" risktaking="277" offensive="756" aggressive="479" consistent="535" creative="614" experienced="493"/>
-    <skills stamina="444" dexterity="223" speed="417" tackling="420" passing="285" shooting="253" control="286" accuracy="374" goalkeeping="45" heading="343"/>
-    <position pos="1" left="0" wing="0"/>
+    <personality active="570" risktaking="584" offensive="244" aggressive="623" consistent="695" creative="343" experienced="573"/>
+    <skills stamina="224" dexterity="365" speed="455" tackling="399" passing="388" shooting="416" control="299" accuracy="325" goalkeeping="65" heading="291"/>
+    <position pos="1" left="1" wing="0"/>
   </player>
   <player id="24183">
     <personal name="Tero Taipale">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="442" risktaking="790" offensive="446" aggressive="372" consistent="403" creative="518" experienced="531"/>
-    <skills stamina="398" dexterity="129" speed="267" tackling="423" passing="335" shooting="264" control="395" accuracy="356" goalkeeping="69" heading="258"/>
+    <personality active="440" risktaking="723" offensive="440" aggressive="528" consistent="411" creative="914" experienced="747"/>
+    <skills stamina="473" dexterity="697" speed="416" tackling="289" passing="354" shooting="262" control="296" accuracy="408" goalkeeping="53" heading="285"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24184">
@@ -1661,8 +1661,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="479" risktaking="257" offensive="628" aggressive="463" consistent="931" creative="436" experienced="540"/>
-    <skills stamina="146" dexterity="667" speed="421" tackling="343" passing="332" shooting="317" control="407" accuracy="443" goalkeeping="64" heading="345"/>
+    <personality active="561" risktaking="401" offensive="314" aggressive="696" consistent="197" creative="232" experienced="565"/>
+    <skills stamina="439" dexterity="590" speed="716" tackling="424" passing="314" shooting="318" control="339" accuracy="262" goalkeeping="52" heading="303"/>
     <position pos="2" left="0" wing="1"/>
   </player>
   <player id="24185">
@@ -1670,8 +1670,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="485" risktaking="548" offensive="543" aggressive="455" consistent="487" creative="565" experienced="547"/>
-    <skills stamina="530" dexterity="442" speed="373" tackling="480" passing="479" shooting="328" control="408" accuracy="416" goalkeeping="51" heading="412"/>
+    <personality active="919" risktaking="669" offensive="297" aggressive="329" consistent="473" creative="801" experienced="836"/>
+    <skills stamina="665" dexterity="250" speed="454" tackling="319" passing="347" shooting="413" control="336" accuracy="409" goalkeeping="61" heading="382"/>
     <position pos="2" left="1" wing="1"/>
   </player>
   <player id="24186">
@@ -1679,8 +1679,8 @@
       <appearance value="1"/>
       <nationality value="Cameroon"/>
     </personal>
-    <personality active="479" risktaking="475" offensive="692" aggressive="873" consistent="307" creative="624" experienced="574"/>
-    <skills stamina="537" dexterity="272" speed="235" tackling="288" passing="412" shooting="412" control="406" accuracy="273" goalkeeping="50" heading="303"/>
+    <personality active="567" risktaking="300" offensive="623" aggressive="292" consistent="629" creative="800" experienced="302"/>
+    <skills stamina="187" dexterity="233" speed="233" tackling="335" passing="432" shooting="361" control="413" accuracy="315" goalkeeping="71" heading="398"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24187">
@@ -1688,8 +1688,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="431" risktaking="401" offensive="412" aggressive="520" consistent="393" creative="190" experienced="570"/>
-    <skills stamina="460" dexterity="154" speed="175" tackling="262" passing="411" shooting="319" control="277" accuracy="322" goalkeeping="46" heading="345"/>
+    <personality active="649" risktaking="838" offensive="362" aggressive="520" consistent="454" creative="702" experienced="562"/>
+    <skills stamina="386" dexterity="443" speed="559" tackling="382" passing="439" shooting="493" control="409" accuracy="388" goalkeeping="66" heading="362"/>
     <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24188">
@@ -1697,8 +1697,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="522" risktaking="726" offensive="408" aggressive="386" consistent="449" creative="586" experienced="763"/>
-    <skills stamina="606" dexterity="399" speed="168" tackling="267" passing="291" shooting="418" control="284" accuracy="325" goalkeeping="53" heading="336"/>
+    <personality active="667" risktaking="432" offensive="396" aggressive="235" consistent="504" creative="534" experienced="933"/>
+    <skills stamina="265" dexterity="474" speed="199" tackling="379" passing="286" shooting="331" control="320" accuracy="240" goalkeeping="70" heading="246"/>
     <position pos="2" left="0" wing="0"/>
   </player>
   <player id="24189">
@@ -1706,17 +1706,17 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="363" risktaking="675" offensive="561" aggressive="615" consistent="220" creative="335" experienced="531"/>
-    <skills stamina="186" dexterity="155" speed="246" tackling="410" passing="272" shooting="418" control="258" accuracy="362" goalkeeping="56" heading="312"/>
-    <position pos="3" left="1" wing="0"/>
+    <personality active="488" risktaking="698" offensive="381" aggressive="623" consistent="345" creative="414" experienced="436"/>
+    <skills stamina="604" dexterity="439" speed="358" tackling="381" passing="292" shooting="403" control="327" accuracy="419" goalkeeping="72" heading="353"/>
+    <position pos="3" left="0" wing="0"/>
   </player>
   <player id="24190">
     <personal name="Miika Ekstrom">
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="385" risktaking="531" offensive="342" aggressive="483" consistent="624" creative="474" experienced="481"/>
-    <skills stamina="580" dexterity="570" speed="260" tackling="314" passing="431" shooting="315" control="262" accuracy="461" goalkeeping="62" heading="361"/>
+    <personality active="714" risktaking="453" offensive="388" aggressive="309" consistent="471" creative="430" experienced="498"/>
+    <skills stamina="417" dexterity="635" speed="132" tackling="349" passing="295" shooting="353" control="280" accuracy="370" goalkeeping="61" heading="356"/>
     <position pos="3" left="1" wing="0"/>
   </player>
   <player id="24191">
@@ -1724,8 +1724,8 @@
       <appearance value="0"/>
       <nationality value="Finland"/>
     </personal>
-    <personality active="496" risktaking="552" offensive="459" aggressive="328" consistent="429" creative="463" experienced="546"/>
-    <skills stamina="539" dexterity="192" speed="427" tackling="338" passing="365" shooting="408" control="412" accuracy="383" goalkeeping="62" heading="482"/>
+    <personality active="432" risktaking="538" offensive="410" aggressive="321" consistent="419" creative="273" experienced="350"/>
+    <skills stamina="408" dexterity="431" speed="426" tackling="320" passing="429" shooting="289" control="369" accuracy="321" goalkeeping="56" heading="463"/>
     <position pos="3" left="0" wing="0"/>
   </player>
 </Players>
