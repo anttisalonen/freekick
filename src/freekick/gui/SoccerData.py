@@ -349,11 +349,11 @@ def stage_number_to_stage_name(s, max_stages):
     return ""
 
 class Exchange:
-    def __init__(self, highest = 0, num = 0):
+    def __init__(self, highest = 0, num = 0, tournament = "", stage = ""):
         self.highest = highest
         self.num = num
-        self.tournament = ""
-        self.stage = ""
+        self.tournament = tournament
+        self.stage = stage
 
     def __str__(self):
         return "%s %s %d" % (self.tournament, self.stage, self.num)

@@ -88,6 +88,7 @@ def main():
     new_season = len(tournaments) > 1
     create_xml = False
     show_each_round = False
+    num_finished_seasons = 0
 
     tournament_templates = copy.deepcopy(tournaments)
     for t in tournament_templates.values():
@@ -125,9 +126,12 @@ def main():
             break
         else:
             schedule = Schedule.Schedule([])
+            num_finished_seasons += 1
             new_tournaments = create_next_season(tournament_templates, finished_tournaments)
-            add_season_to_schedule(schedule, get_startdate(year),
-                    get_enddate(year), new_tournaments)
+            add_season_to_schedule(schedule, 
+                    get_startdate(year + num_finished_seasons),
+                    get_enddate(year + num_finished_seasons), 
+                    new_tournaments)
             for newt in new_tournaments:
                 newt.pretty_print()
             f = raw_input()
@@ -143,22 +147,31 @@ def create_next_season(templates, oldts):
     for oldt in oldts:
         print oldt.name
         staying = oldt.get_staying()
+        """
         for s in staying:
             print "%s -- %s" % (s, oldt.name)
+            """
         newts[oldt.name].add_clubs(staying)
         exchanges = oldt.get_exchanges()
-        print "Tournament %s: %d" % (oldt.name, len(exchanges))
+        # print "Tournament %s: %d" % (oldt.name, len(exchanges))
         for target_t, target_s, clubname in exchanges:
-            print "%s -> %s" % (clubname, target_t)
+            # print "%s -> %s" % (clubname, target_t)
             newts[target_t].add_clubs([clubname])
-        f = raw_input()
 
+    att_ts = {}
     for newt in newts.values():
         attendances = newt.get_attendances()
         for attendance_t, attendance_s in attendances:
-            newts[attendance_t].add_clubs(newt.get_clubs())
-            print "%s %s %s %d" % (newt.name, attendance_t, attendance_s,
-                    len(newt.get_clubs()))
+            if attendance_t in att_ts.keys():
+                # print "Extending", attendance_t
+                att_ts[attendance_t].extend(list(newt.get_clubs()))
+            else:
+                # print "Having new", attendance_t
+                att_ts[attendance_t] = list(newt.get_clubs())
+    for attk, attv in att_ts.items():
+        newts[attk].add_preliminary_clubs(attv)
+        # print "Tournament name: %s; Number of clubs: %d" % (attk, len(attv))
+    # f = raw_input()
     return newts.values()
 
 def add_moved_clubs(moved_clubs, tgt_stage):
@@ -173,54 +186,6 @@ def add_moved_clubs(moved_clubs, tgt_stage):
         add_season_to_schedule(schedule, get_startdate(d.year), get_enddate(d.year), [tgt_tournament])
     for ptour, pstage, pclub in moved_clubs:
         tgt_tournament.add_clubs([pclub])
-
-def level_to_stage(level):
-    """Returns the name of the first stage of the first branch of the given
-    level."""
-    return level.branches[0].stages[0].name
-
-def add_future_tournament(t, countryname, schedule, date):
-    """Turns a finished tournament into the following tournaments.
-    
-    :param t: finished tournament
-    :param countryname: name of the country of the tournament
-    :param schedule: schedule where future tournaments will be added
-    :param date: finishing date
-    TODO: this function obviously has something wrong (just look at the
-    needed parameters). Needs to be fixed.
-    """
-    try:
-        newt = copy.deepcopy(db.countries[countryname].tournaments[t.name])
-    except KeyError:
-        newt = copy.deepcopy(get_country_league(countryname, t.name, db))
-
-    if t.in_league_system:
-        newt.clear_clubs()
-
-    proms = t.get_promotions()
-    if t.in_league_system and len(proms) > 0:
-        higher_level = db.countries[countryname].leaguesystem.get_higher_level(t.name)
-        add_moved_clubs(proms, level_to_stage(higher_level))
-
-    stays = t.get_staying()
-    newt.add_clubs(stays)
-
-    rels = t.get_relegations()
-    if t.in_league_system and len(rels) > 0:
-        lower_level = db.countries[countryname].leaguesystem.get_lower_level(t.name)
-        add_moved_clubs(proms, level_to_stage(lower_level))
-
-    att = newt.get_attendances()
-    if len(att) > 0:
-        """ 
-        TODO: add new tournament and to it all the clubs of this new tournament, also the clubs that will be
-        added to it in the future(!)
-        """
-        pass    
-
-    add_season_to_schedule(schedule, get_startdate(date.year), get_enddate(date.year), [newt])
-    # print schedule
-    f = raw_input()
 
 def get_startdate(year):
     """Returns 1.9.year."""
@@ -244,3 +209,4 @@ def add_season_to_schedule(schedule, startdate, enddate, tournaments):
 
 if __name__ == '__main__':
     main()
+

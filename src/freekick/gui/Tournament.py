@@ -2,6 +2,7 @@
 
 import SoccerData
 import Match
+import Stage
 
 class Tournament:
     """Tournament class."""
@@ -18,11 +19,39 @@ class Tournament:
         self.current_stage = len(self.stages) - 1
 
     def add_clubs(self, clubs):
-        """Add clubs to the tournament."""
+        """Add clubs to the tournament.
+        
+        Clubs are added to the first stage that still has free slots, filling
+        the stages as it goes."""
         for s in reversed(self.stages):
             s.feed_club_names(clubs)
             if len(clubs) == 0:
                 break
+
+    def add_preliminary_clubs(self, clubs):
+        """Add clubs to the tournament.
+        
+        Clubs are only added to the first stage, and if there are too many
+        clubs to add, an extra stage is automatically created with the same
+        rules as the previous first stage, where the additional clubs are fit
+        into.
+        TODO: if number of clubs to add is more than twice the number of 
+        clubs that the 'usual' first round would accept, the behavior is
+        undefined (will probably crash). So use this only if you are
+        adding one preliminary round until this is fixed.
+        """
+        num_add_clubs = len(clubs)
+        num_free_slots = self.stages[-1].setup.participantnum -\
+            len(self.stages[-1].club_names)
+        if num_add_clubs > num_free_slots:
+            diff_clubs = num_add_clubs - num_free_slots
+            s = Stage.gen_preliminary_stage("Preliminary round", 
+                    self.stages[-1], 
+                    diff_clubs * 2)
+            self.add_stage(s)
+            self.add_clubs(clubs)
+        else:
+            self.stages[-1].feed_club_names(clubs)
 
     def get_clubs(self):
         clubs = []

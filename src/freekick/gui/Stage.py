@@ -1,11 +1,13 @@
 #!/usr/bin/python
 
 import random
+import copy
 
 import Primitives
 import round_robin
 import Match
 import LeagueTable
+import SoccerData
 
 class StageType:
     """Enumeration for stage types."""
@@ -34,6 +36,31 @@ class CupSetup(StageSetup):
         StageSetup.__init__(self)
         self.matchrules.extratime = True
         self.matchrules.penalties = True
+
+def gen_preliminary_stage(name, oth_stage, num_participants):
+    """Generate preliminary stage.
+
+    Generates a stage. The rules of the other stage will be copied, but no
+    names of clubs or results. This stage will be a feeder to the other
+    stage. The stage will accept num_participants participants.
+    """
+    s = Stage(name, oth_stage.type)
+    if num_participants % 2 == 1:
+        raise ValueError("Invalid number of participants")
+    s.name = name
+    s.type = oth_stage.type
+    s.club_names = []
+    s.promotions = []
+    s.promotions.append(SoccerData.Exchange(0, num_participants / 2, 
+        oth_stage.promotions[0].tournament, oth_stage.name))
+    s.relegations = []
+    s.rounds = []
+    s.current_round = 0
+    s.attendances = list(oth_stage.attendances)
+    s.setup = copy.deepcopy(oth_stage.setup)
+    s.setup.participantnum = num_participants
+    s.num_planned_rounds = oth_stage.num_planned_rounds
+    return s
 
 class Stage:
     """Class for stages."""
