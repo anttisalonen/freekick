@@ -422,6 +422,17 @@ string team_name_to_stadium_name(const char* team_name)
     return string(team_name) + " Stadium";
 }
 
+const char* get_stage_name(int index)
+{
+    switch(index)
+    {
+        case 0:  return "Premier League"; break;
+        case 1:  return "First League"; break;
+        case 2:  return "Second League"; break;
+        default: return "Third League"; break;
+    }
+}
+
 int parse_player(const unsigned char* player_block, int pid, s_player* player)
 {
     const unsigned char* iter = player_block;
@@ -956,14 +967,9 @@ void create_freekick_country_xml(const team_list& teams, const char* country_nam
         level_node = addutil::xml::add_child(levels_node, "level");
         branch_node = addutil::xml::add_child(level_node, "branch");
         stage_node = addutil::xml::add_child(branch_node, "stage");
-        const char* stage_name;
-        switch(i)
-        {
-            case 0:  stage_name = "Premier League"; break;
-            case 1:  stage_name = "First League"; break;
-            case 2:  stage_name = "Second League"; break;
-            default: stage_name = "Third League"; break;
-        }
+        leagueprs = addutil::xml::add_child(branch_node, "leagueprs");
+        leaguerls = addutil::xml::add_child(branch_node, "leaguerls");
+        const char* stage_name = get_stage_name(i);
         addutil::xml::add_attribute(stage_node, "name", stage_name);
         addutil::xml::add_attribute(stage_node, "type", "0");
         setup_node = addutil::xml::add_child(stage_node, "setup");
@@ -977,12 +983,14 @@ void create_freekick_country_xml(const team_list& teams, const char* country_nam
 
         if(i > 0)
         {
-            leaguepr = addutil::xml::add_child(stage_node, "leaguepr");
+            leaguepr = addutil::xml::add_child(leagueprs, "leaguepr");
+            addutil::xml::add_attribute(leaguepr, "tournament", get_stage_name(i - 1));
             addutil::xml::add_attribute(leaguepr, "num", "3");
         }
         if(i < num_divisions - 1 && clubs_in_divisions[i + 1] > 0)
         {
-            leaguerl = addutil::xml::add_child(stage_node, "leaguerl");
+            leaguerl = addutil::xml::add_child(leaguerls, "leaguerl");
+            addutil::xml::add_attribute(leaguerl, "tournament", get_stage_name(i + 1));
             addutil::xml::add_attribute(leaguerl, "num", "3");
         }
         attendances = addutil::xml::add_child(stage_node, "attendances");
