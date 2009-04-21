@@ -24,8 +24,11 @@ namespace freekick
     namespace match
     {
         BallState::BallState ()
+            : bio_type(PreKickoff),
+              owner(soccer::Home),
+              restart_point(0.0f, 0.0f, 0.0f),
+              blocked_play(true)
         {
-            bio_type = PreKickoff; blocked_play = true; 
         }
 
         void BallState::flipOwner()
