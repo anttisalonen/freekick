@@ -97,7 +97,7 @@ namespace freekick
         bool Pitch::maybeInGoal(float x, float y, float z) const
         {
             if(onPitch(x, z)) return false;
-            if(abs((width / 2.0f) - x) > goal_width) return false;
+            if(abs((width * 0.5f) - x) > goal_width * 0.5f) return false;
             if(y < 0.0f || y > goal_height) return false;
             return true;
         }
