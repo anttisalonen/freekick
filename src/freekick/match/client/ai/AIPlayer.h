@@ -21,13 +21,13 @@
 #ifndef AIPLAYER_H
 #define AIPLAYER_H
 
-#include <vector>
-#include <set>
+#include <string>
 
 #include <boost/shared_ptr.hpp>
 #include <boost/foreach.hpp>
 
-#include "addutil/DynamicEntity.h"
+#include "addutil/Vector3.h"
+#include "addutil/Steering.h"
 
 #include "messages/PlayerControlMessage.h"
 #include "messages/MovePlayerControlMessage.h"
@@ -35,10 +35,14 @@
 #include "messages/HoldPlayerControlMessage.h"
 
 #include "MatchStatus.h"
+#include "MatchPlayer.h"
 #include "Club.h"
 #include "BallState.h"
-#include "tasks/Task.h"
-#include "tasks/Soccer.h"
+#include "Constants.h"
+
+#include "ClubAI.h"
+#include "AIConfig.h"
+#include "Helpers.h"
 
 namespace freekick
 {
@@ -48,26 +52,59 @@ namespace freekick
         {
             namespace ai_client
             {
+                typedef boost::shared_ptr<messages::PlayerControlMessage> CtrlMsg;
+                typedef boost::tuple<float, addutil::Vector3> optimal_kick;
                 class AIPlayer
                 {
                 public:
-                    AIPlayer(boost::shared_ptr<MatchStatus> ms, int id, bool active = true);
+                    AIPlayer(boost::shared_ptr<MatchStatus> ms, 
+                            boost::shared_ptr<MatchPlayer> mp, 
+                            boost::shared_ptr<ClubAI> clubai, 
+                            bool active = true);
                     virtual ~AIPlayer();
                     boost::shared_ptr<messages::PlayerControlMessage> act();
                     int getID() const;
 
+                protected:
+                    void set_own_kickoff_pos();
+                    addutil::Vector3 cabins_pos() const;
+                    CtrlMsg runTo(const addutil::Vector3& tgt) const;
+                    CtrlMsg think();
+
+                    CtrlMsg idle();
+                    CtrlMsg kickoffpos();
+                    CtrlMsg goalkeeper();
+                    CtrlMsg gkgetball();
+                    CtrlMsg kickball();
+                    CtrlMsg fetchball();
+                    CtrlMsg idleinformation();
+                    CtrlMsg gotocabins();
+                    optimal_kick getOptimalPass() const;
+                    optimal_kick getOptimalShot() const;
+                    optimal_kick getOptimalDribble() const;
+                    optimal_kick getOptimalLongBall() const;
+                    void maybePrepareForKick(addutil::Vector3& kickvec) const;
                 private:
                     boost::shared_ptr<MatchStatus> mMatchStatus;
-                    int mPlayerID;
                     boost::shared_ptr<MatchPlayer> mPlayer;
-                    boost::shared_ptr<Club> mClub;
-                    boost::shared_ptr<Club> mOpponentClub;
-                    std::vector<boost::shared_ptr<MatchPlayer> > mTeammates;
-                    std::vector<boost::shared_ptr<MatchPlayer> > mOpponents;
+                    boost::shared_ptr<ClubAI> mClubAI;
+                    int mPlayerID;
                     bool mActive;
-                    boost::shared_ptr<tasks::Task> mTask;
+                    addutil::Vector3 ownkickoffpos;
+                    addutil::Vector3 ownpos;
 
-                    void fillPlayers(std::vector<boost::shared_ptr<MatchPlayer> >& pl, const std::set<int>& plids);
+                    bool allowed_to_kick;
+                    bool isnearestplayer;
+                    bool abletokick;
+                    bool issub;
+                    std::string plpos;
+                    bool ballinmyarea;
+                    bool holdingtheball;
+                    bool startplay;
+                    soccer::PlayerTarget t;
+                    addutil::Vector3 tgtgoal;
+                    addutil::Vector3 goalvec;
+                    static const float max_velocity = 10.0f; // TODO: does this belong here?
                 };
             }
         }

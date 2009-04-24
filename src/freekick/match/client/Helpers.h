@@ -38,37 +38,7 @@ namespace freekick
         {
             class Helpers
             {
-            public:
-                Helpers(boost::shared_ptr<MatchStatus> ms, int id);
-
-            private:
-                boost::shared_ptr<MatchStatus> mMatchStatus;
-                int mPlayerID;
-                boost::shared_ptr<MatchPlayer> mPlayer;
-
-            public:
-                const soccer::BallOwner b;
-                const boost::tuple<int, float> nearestown;
-                const BallState bss;
-                const bool allowed_to_kick;
-                const BallInOut bio;
-                const bool iskickoff;
-                const bool blocked;
-                const bool own;
-                const bool isnearestplayer;
-                const bool startplay;
-                const bool abletokick;
-                const bool issub;
-                const addutil::Vector3 ballpos_corrected;
-                const boost::tuple<int, float> nearestother;
-                const std::string& plpos;
-                const bool ballonourside;
-                const bool ballinmyarea;
-                const bool ourclubhasball;
-                const bool ballinourgoalarea;
-                const bool holdingtheball;
-                const bool ballisheld;
-
+                public:
                 static void correctPassVector(addutil::Vector3& target);
                 static void correctShootVector(addutil::Vector3& target);
                 static void correctLongBallVector(addutil::Vector3& target);

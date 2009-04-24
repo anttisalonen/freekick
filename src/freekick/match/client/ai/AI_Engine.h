@@ -35,6 +35,7 @@
 #include "messages/PlayerControlRequestMessage.h"
 
 #include "ai/AIPlayer.h"
+#include "ai/ClubAI.h"
 
 namespace freekick
 {
@@ -55,6 +56,7 @@ namespace freekick
                 private:
                     boost::shared_ptr<MatchStatus> mMatchStatus;
                     Network* mNetwork;
+                    boost::array<boost::shared_ptr<ClubAI>, 2> clubais;
                     std::vector<AIPlayer> aiplayers;
                     bool aiplayers_locked;
                 };

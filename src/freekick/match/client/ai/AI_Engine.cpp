@@ -38,11 +38,14 @@ namespace freekick
                     pls[1] = mMatchStatus->getMatchData()->getHomeClub()->getLineup()->getSubstituteIDs();
                     pls[2] = mMatchStatus->getMatchData()->getAwayClub()->getLineup()->getPitchPlayerIDs();
                     pls[3] = mMatchStatus->getMatchData()->getAwayClub()->getLineup()->getSubstituteIDs();
-                    BOOST_FOREACH(std::vector<int> v, pls)
+                    clubais[0].reset(new ClubAI(Home, mMatchStatus));
+                    clubais[1].reset(new ClubAI(Away, mMatchStatus));
+                    for(int s = 0; s < 4; s++)
                     {
-                        BOOST_FOREACH(int i, v)
+                        BOOST_FOREACH(int i, pls[s])
                         {
-                            aiplayers.push_back(AIPlayer(mMatchStatus, i));
+                            int club_i = (s < 2) ? 0 : 1;
+                            aiplayers.push_back(AIPlayer(mMatchStatus, mMatchStatus->getPlayer(i), clubais[club_i]));
                             allplids.insert(i);
                         }
                     }
@@ -54,12 +57,17 @@ namespace freekick
                     using namespace boost::posix_time;
                     unsigned long sleep_time = 1000000/20;
 
+                    std::vector<ClubAI>::iterator club_it;
                     std::vector<AIPlayer>::iterator it;
                     std::vector<boost::shared_ptr<messages::Message> > msgs;
                     while(1)
                     {
                         msgs.clear();
                         ptime before_time(microsec_clock::local_time());
+                        for(int i = 0; i < 2; i++)
+                        {
+                            clubais[i]->updateAll();
+                        }
                         for(it = aiplayers.begin(); it != aiplayers.end(); it++)
                         {
                             if(aiplayers_locked)

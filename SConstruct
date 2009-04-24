@@ -174,8 +174,7 @@ if aiclient_name in BUILD_TARGETS:
                              'boost_program_options',
                              'client']
 
-    aiclient_files = (Glob('src/freekick/match/client/ai/*.cpp') +
-                      Glob('src/freekick/match/client/ai/tasks/*.cpp'))
+    aiclient_files = (Glob('src/freekick/match/client/ai/*.cpp'))
     ai_client = aiclient_env.Program(aiclient_name, aiclient_files)
 
 

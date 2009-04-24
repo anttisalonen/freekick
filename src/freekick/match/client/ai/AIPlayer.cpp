@@ -27,75 +27,518 @@ namespace freekick
         {
             namespace ai_client
             {
-                AIPlayer::AIPlayer(boost::shared_ptr<MatchStatus> ms, int id, bool active)
+                using namespace messages;
+
+                AIPlayer::AIPlayer(boost::shared_ptr<MatchStatus>ms, boost::shared_ptr<MatchPlayer> mp, boost::shared_ptr<ClubAI> clubai, bool active)
                     : mMatchStatus(ms),
-                      mPlayerID(id),
-                      mActive(active),
-                      mTask(new tasks::Soccer(mMatchStatus, mPlayerID))
+                      mPlayer(mp),
+                      mClubAI(clubai),
+                      mPlayerID(mp->getID()),
+                      mActive(active)
                 {
-                    try
-                    {
-                        mPlayer = mMatchStatus->getPlayer(mPlayerID);
-                    }
-                    catch (...)
-                    {
-                        throw "AIPlayer::AIPlayer: player not found in matchstatus!";
-                    }
-
-                    soccer::BallOwner own = mMatchStatus->getPlayerSide(mPlayerID);
-                    boost::shared_ptr<Club> c1 = mMatchStatus->getMatchData()->getHomeClub();
-                    boost::shared_ptr<Club> c2 = mMatchStatus->getMatchData()->getAwayClub();
-                    std::set<int> ids1;
-                    c1->getPlayerIDs(ids1);
-                    std::set<int> ids2;
-                    c2->getPlayerIDs(ids2);
-
-                    if(own == Home)
-                    {
-                        mClub = c1;
-                        mOpponentClub = c2;
-                    }
-                    else
-                    {
-                        mClub = c2;
-                        mOpponentClub = c1;
-                    }
-
-                    if(own == Home)
-                    {
-                        fillPlayers(mTeammates, ids1);
-                        fillPlayers(mOpponents, ids2);
-                    }
-                    else
-                    {
-                        fillPlayers(mTeammates, ids2);
-                        fillPlayers(mOpponents, ids1);
-                    }
-                }
-
-                void AIPlayer::fillPlayers(std::vector<boost::shared_ptr<MatchPlayer> >& pl, const std::set<int>& plids)
-                {
-                    BOOST_FOREACH(int i, plids)
-                    {
-                        try
-                        {
-                            boost::shared_ptr<MatchPlayer> d = mMatchStatus->getPlayer(i);
-                            pl.push_back(d);
-                        }
-                        catch (...)
-                        {
-                            // Player not playing -> ignore
-                        }
-                    }
+                    plpos = "";
                 }
 
                 AIPlayer::~AIPlayer()
                 {
                 }
 
-                boost::shared_ptr<messages::PlayerControlMessage> AIPlayer::act()
+                CtrlMsg AIPlayer::act()
                 {
-                    return mTask->process();
+                    allowed_to_kick = mMatchStatus->playerAllowedToKick(mPlayerID) || (mClubAI->isBlocked() && mClubAI->weAreOwner());
+                    isnearestplayer = mClubAI->nearestOwn().get<0>() == mPlayerID;
+                    abletokick = isnearestplayer && mClubAI->nearestOwn().get<1>() < constants::max_kick_distance;
+                    issub = mPlayer->isSubstitute();
+                    if(!issub)
+                    {
+                        plpos = mMatchStatus->getPlayerClub(mPlayerID)->getPlayerPosition(mPlayerID);
+                        ballinmyarea = mMatchStatus->getPlayerFormation(mPlayerID)->inTacticArea(
+                                mClubAI->ourClubHasBall(), 
+                                mClubAI->ballOnOurSide(), 
+                                plpos,
+                                mClubAI->ballPosCorrected());
+                    }
+                    holdingtheball = mMatchStatus->holdingBall() == mPlayerID;
+                    startplay = (mClubAI->isKickoff() && !mClubAI->isBlocked() && isnearestplayer && mClubAI->weAreOwner());
+                    ownpos = mPlayer->getPosition();
+                    t = mMatchStatus->getPlayerTarget(mPlayerID);
+                    tgtgoal = mMatchStatus->getGoalPosition(t);
+                    goalvec = tgtgoal - ownpos;
+
+                    return think();
+                }
+
+                CtrlMsg AIPlayer::think()
+                {
+                    if(mClubAI->getBio() == PreKickoff && mClubAI->isBlocked())
+                    {
+                        return kickoffpos();
+                    }
+                    if(mClubAI->getBio() == HalfFullTime)
+                    {
+                        return gotocabins();
+                    }
+                    if(issub)
+                    {
+                        return idle();
+                    }
+                    if(mPlayer->getPlayerPosition() == Goalkeeper && mClubAI->getBio() == BallIn)
+                    {
+                        return goalkeeper();
+                    }
+                    if(mClubAI->isKickoff() && !startplay)
+                    {
+                        return kickoffpos();
+                    }
+                    if((isnearestplayer || ballinmyarea) && allowed_to_kick)
+                    {
+                        if(abletokick)
+                        {
+                            return kickball();
+                        }
+                        if(mClubAI->ourClubHasBall())
+                        {   // run to ball
+                            return fetchball();
+                        }
+                        // defensive
+                        return fetchball();
+                    }
+                    addutil::Vector3 futpos = mClubAI->ballFuturePos();
+                    futpos.y = 0.0f;
+                    float future_dist = (ownpos - futpos).length();
+                    if(allowed_to_kick && future_dist < AIConfig::getInstance()->max_future_fetch_distance)
+                    {
+                        return fetchball();
+                    }
+                    return idleinformation();
+                }
+
+                CtrlMsg AIPlayer::idle()
+                {
+                    return boost::shared_ptr<MovePlayerControlMessage>(
+                            new MovePlayerControlMessage(mPlayerID, addutil::Vector3()));
+                }
+
+                CtrlMsg AIPlayer::idleinformation()
+                {
+                    const boost::shared_ptr<Formation> f = mMatchStatus->getPlayerClub(mPlayerID)->getFormation();
+                    addutil::Vector3 ballpos = mMatchStatus->getBall()->getPosition();
+
+                    using namespace messages;
+                    if(f->inTacticArea(mClubAI->ourClubHasBall(), mClubAI->ballOnOurSide(), plpos,
+                                       mMatchStatus->absolute_pitch_position_to_percent(ownpos, mClubAI->ourClub())) &&
+                       !(mMatchStatus->inOffsidePosition(mPlayerID)))
+                    {
+                        addutil::Vector3 gotovec = ballpos - ownpos;
+                        gotovec.normalize();
+                        gotovec *= 0.05f;
+                        return boost::shared_ptr<MovePlayerControlMessage>(new MovePlayerControlMessage(mPlayerID, gotovec));
+                    }
+
+                    addutil::Vector3 formationpoint = f->getTacticAreaCenter(mClubAI->ourClubHasBall(), mClubAI->ballOnOurSide(), plpos);
+                    addutil::Vector3 movedFormationpoint(formationpoint);
+                    float plength = mMatchStatus->getPitchLength();
+                    float pwidth = mMatchStatus->getPitchWidth();
+                    float bheight = ballpos.z / plength;
+                    float bwidth = ballpos.x / pwidth;
+                    if(t == UpTarget)
+                    {
+                        bheight = 1.0f - bheight;
+                    }
+                    // 0.0f: own goal; 1.0f: opponent's goal
+
+                    float target_z_modifier = 
+                        (1.0f - formationpoint.z) * 
+                        (bheight - formationpoint.z) * 
+                        (mPlayer->getPlayerPosition() == Goalkeeper ? 0.04f : 0.2f);
+                    movedFormationpoint.z += target_z_modifier;
+
+                    float target_x_modifier = (bwidth - 0.5f) * 0.2f;
+                    if(t == UpTarget)
+                    {
+                        movedFormationpoint.x -= target_x_modifier;
+                    }
+                    else
+                    {
+                        movedFormationpoint.x += target_x_modifier;
+                    }
+                    addutil::general::clamp(movedFormationpoint.x, 0.0f, 1.0f);
+
+                    addutil::Vector3 tgtvec;
+                    if((movedFormationpoint - ownpos).length() > 5.0f)
+                    {
+                        tgtvec = movedFormationpoint;
+                    }
+                    else
+                    {
+                        tgtvec = formationpoint;
+                    }
+
+                    if(t == UpTarget)
+                    {
+                        tgtvec.z = 1.0f - tgtvec.z;
+                        tgtvec.x = 1.0f - tgtvec.x;
+                    }
+
+                    tgtvec.x *= pwidth;
+                    tgtvec.z *= plength;
+
+                    if(mMatchStatus->inOffsidePosition(t, tgtvec))
+                    {
+                        tgtvec.z = mMatchStatus->getOffsideLine(t);
+                    }
+
+                    return runTo(tgtvec);
+                }
+
+                CtrlMsg AIPlayer::gotocabins()
+                {
+                    return runTo(cabins_pos());
+                }
+
+                addutil::Vector3 AIPlayer::cabins_pos() const
+                {
+                    addutil::Vector3 retval;
+                    retval.x = -0.1f;
+                    retval.z = 0.4f;
+                    if(mClubAI->ourClub() == Away)
+                    {
+                        retval.z = 1.0f - retval.z;
+                    }
+                    float pitchw = mMatchStatus->getMatchData()->getStadium()->getPitch()->getWidth();
+                    float pitchl = mMatchStatus->getMatchData()->getStadium()->getPitch()->getLength();
+                    retval.x *= pitchw;
+                    retval.z *= pitchl;
+                    return retval;
+                }
+
+                CtrlMsg AIPlayer::kickoffpos()
+                {
+                    set_own_kickoff_pos();
+                    return runTo(ownkickoffpos);
+                }
+
+                CtrlMsg AIPlayer::goalkeeper()
+                {
+                    if(!mClubAI->weAreOwner() && mClubAI->ballInOurGoalArea() && (ballinmyarea || isnearestplayer))
+                    {
+                        if(!holdingtheball)
+                        {
+                            return gkgetball();
+                        }
+                        return kickball();
+                    }
+                    if(isnearestplayer && mClubAI->ballInOurGoalArea())
+                    {
+                        return kickball();
+                    }
+                    return idle();
+                }
+
+                CtrlMsg AIPlayer::gkgetball()
+                {
+                    addutil::Vector3 ballpos = mMatchStatus->getBall()->getPosition();
+                    addutil::Vector3 ballvel = mMatchStatus->getBall()->getVelocity();
+                    float balldist = (ownpos - ballpos).length();
+
+                    ballpos.y = 0.0f;
+                    ballvel.y = 0.0f;
+                    ownpos.y = 0.0f;
+
+                    addutil::Vector3 gotovec = steering::pursuit(ownpos, ballpos, ballvel, max_velocity);
+
+                    using namespace messages;
+                    if(balldist < 1.5f)      // TODO: get length from somewhere else
+                    {
+                        return boost::shared_ptr<HoldPlayerControlMessage>(new HoldPlayerControlMessage(mPlayerID, gotovec));
+                    }
+                    else
+                    {
+                        return boost::shared_ptr<MovePlayerControlMessage>(new MovePlayerControlMessage(mPlayerID, gotovec));
+                    }
+                }
+
+                optimal_kick AIPlayer::getOptimalPass() const
+                {
+                    float plength = mMatchStatus->getPitchLength();
+                    const float max_pass_length = 25.0f;
+                    float opt_val = 0.0f;
+                    const float defensive_area_threshold = 0.25f;
+                    const float defensive_area_coefficient = 0.15f;
+                    const float offensive_area_threshold = 0.75f;
+                    const float offensive_area_coefficient = 0.15f;
+
+                    float best_z    = 0.0f;
+                    float own_z     = (mMatchStatus->getPlayerTarget(mPlayerID) == UpTarget) ? plength - ownpos.z : ownpos.z;
+                    addutil::Vector3 bestpass;
+
+                    // TODO: take opponents near target into account
+                    std::vector<boost::shared_ptr<MatchPlayer> > ownclub;
+                    std::vector<boost::shared_ptr<MatchPlayer> >::const_iterator clubit;
+
+                    mMatchStatus->getPlayers(ownclub, mMatchStatus->getPlayerSide(mPlayerID));
+                    for(clubit = ownclub.begin(); clubit != ownclub.end(); clubit++)
+                    {
+                        addutil::Vector3 clubitpos = (*clubit)->getPosition();
+                        // TODO: passing ahead of the player
+                        float diff = (clubitpos - ownpos).length();
+                        float this_z = clubitpos.z;
+                        if(this_z == ownpos.z)
+                            continue;
+                        if(diff < 10.0f || diff > max_pass_length)
+                            continue;
+                        if(!mMatchStatus->onPitch(clubitpos))
+                            continue;
+                        if(mMatchStatus->inOffsidePosition((*clubit)->getID()))
+                            continue;
+
+                        if(mMatchStatus->getPlayerTarget(mPlayerID) == UpTarget) 
+                            this_z = plength - this_z;
+                        if (this_z < own_z - 10.0f)
+                            continue;
+
+                        if(this_z > best_z)
+                        {
+                            bestpass = clubitpos;
+                            best_z = this_z;
+                        }
+                    }
+                    if(bestpass.length2() == 0.0f)
+                        return optimal_kick(0.0f, bestpass);
+                    addutil::Vector3 target = bestpass - ownpos;
+
+                    std::cerr << "best_z: " << best_z << std::endl;
+                    opt_val = 1.0f - (target.length() / max_pass_length);
+                    soccer::BallOwner our_club = mMatchStatus->getPlayerSide(mPlayerID);
+                    float best_z_rel = mMatchStatus->absolute_pitch_position_to_percent(addutil::Vector3(0.0f, 0.0f, best_z), our_club).z;
+                    if(best_z_rel < defensive_area_threshold) 
+                    {
+                        opt_val *= defensive_area_coefficient;
+                        std::cerr << "pass target in defensive area\n";
+                    }
+                    if(best_z_rel > offensive_area_threshold) 
+                    {
+                        opt_val *= offensive_area_coefficient;
+                    }
+
+                    Helpers::correctPassVector(target);
+                    // std::cout << "Pass: Kick target: " << (target + ownpos) << std::endl;
+
+                    return optimal_kick(opt_val, target);
+                }
+
+                optimal_kick AIPlayer::getOptimalShot() const
+                {
+                    addutil::Vector3 target(goalvec);
+                    Helpers::correctShootVector(target);
+                    float gvlen = goalvec.length();
+                    float max_shoot_len = 35.0f;
+                    float min_opt_shoot_len = 10.0f;
+                    float val;
+                    // TODO: take angle into account
+                    if(gvlen < min_opt_shoot_len)
+                        val = 1.0f;
+                    if(gvlen > max_shoot_len)
+                        val = 0.0f;
+                    else 
+                        val = 1.0f - ((gvlen - min_opt_shoot_len) / (max_shoot_len - min_opt_shoot_len));
+                    return optimal_kick(val, target);
+                }
+
+                optimal_kick AIPlayer::getOptimalDribble() const
+                {
+                    addutil::Vector3 target(goalvec);
+                    soccer::BallOwner our_club = mMatchStatus->getPlayerSide(mPlayerID);
+                    soccer::BallOwner other_club = soccer::other(our_club);
+                    float nop_len = mMatchStatus->nearestPlayerFromClubToPlayer(other_club, mPlayerID).get<1>();
+                    const float nop_max_len = 10.0f;
+                    if(nop_len > nop_max_len) nop_len = nop_max_len;
+                    target.normalize();
+                    const float dribble_strength = 10.0f;
+                    target *= dribble_strength;
+                    const float dribble_coefficient = 0.2f;
+                    float opt_val = (nop_len / nop_max_len) * dribble_coefficient;
+
+                    const float offensive_area_multiplier = 2.0f;
+                    const float offensive_area_threshold = 0.65f;
+                    const float defensive_area_multiplier = 0.5f;
+                    const float defensive_area_threshold = 0.20f;
+                    addutil::Vector3 ownpos_rel = mMatchStatus->absolute_pitch_position_to_percent(ownpos, our_club);
+
+                    if(ownpos_rel.z > offensive_area_threshold)
+                        opt_val *= offensive_area_multiplier;
+                    else if(ownpos_rel.z < defensive_area_threshold)
+                        opt_val *= defensive_area_multiplier;
+
+                    return optimal_kick(opt_val, target);
+                }
+
+                optimal_kick AIPlayer::getOptimalLongBall() const
+                {
+                    float plength = mMatchStatus->getPitchLength();
+                    float opt_val = 0.0f;
+
+                    float best_z    = 0.0f;
+                    float own_z     = (mMatchStatus->getPlayerTarget(mPlayerID) == UpTarget) ? plength - ownpos.z : ownpos.z;
+                    addutil::Vector3 bestpass;
+
+                    std::vector<boost::shared_ptr<MatchPlayer> > ownclub;
+                    std::vector<boost::shared_ptr<MatchPlayer> >::const_iterator clubit;
+
+                    mMatchStatus->getPlayers(ownclub, mMatchStatus->getPlayerSide(mPlayerID));
+                    for(clubit = ownclub.begin(); clubit != ownclub.end(); clubit++)
+                    {
+                        addutil::Vector3 clubitpos = (*clubit)->getPosition();
+                        float diff = (clubitpos - ownpos).length();
+                        float this_z = clubitpos.z;
+                        if(this_z == ownpos.z)
+                            continue;
+                        if(t == UpTarget) this_z = plength - this_z;
+
+                        if(diff < 5.0f)
+                            continue;
+                        if (this_z < own_z + 25.0f)
+                            continue;
+                        if(mMatchStatus->inOffsidePosition((*clubit)->getID()))
+                            continue;
+
+                        if(this_z > best_z)
+                        {
+                            bestpass = clubitpos;
+                            best_z = this_z;
+                        }
+                    }
+                    if(bestpass.length2() == 0.0f)
+                        return optimal_kick(0.0f, bestpass);
+                    addutil::Vector3 target = bestpass - ownpos;
+
+                    float tlen = target.length();
+                    const float max_long_pass = 70.0f;
+                    const float long_ball_coefficient = 0.2f;
+                    if(tlen > max_long_pass) tlen = max_long_pass;
+                    opt_val = (tlen / max_long_pass) * long_ball_coefficient;
+
+                    Helpers::correctLongBallVector(target);
+                    return optimal_kick(opt_val, target);
+                }
+
+                void AIPlayer::maybePrepareForKick(addutil::Vector3& kickvec) const
+                {
+                    // maybe prepare for kick: potentially stop the ball first for easier kick
+                    if(kickvec.length2() < 1.0f) 
+                        return;
+                    const addutil::Vector3& ballvec = mMatchStatus->getBall()->getVelocity();
+                    if(ballvec.length2() < 1.0f)
+                        return;
+                    float ang = kickvec.angleBetweenXZ(ballvec);
+                    if (abs(ang) < addutil::pi_4 || abs(ang) > addutil::pi_3_4)
+                    {
+                        kickvec.reset();
+                    }
+                }
+
+                CtrlMsg AIPlayer::kickball()
+                {
+                    using namespace messages;
+                    if(holdingtheball)
+                    {
+                        std::cerr << "AIPlayer: held the ball, now letting go.\n";
+                        return boost::shared_ptr<KickPlayerControlMessage>(new KickPlayerControlMessage(mPlayerID, getOptimalLongBall().get<1>()));
+                    }
+
+                    optimal_kick optimalpass = getOptimalPass();
+                    optimal_kick optimalshot = getOptimalShot();
+                    optimal_kick optimaldribble = getOptimalDribble();
+                    optimal_kick optimallong = getOptimalLongBall();
+                    if(AIConfig::getInstance()->verbose >= 1)
+                    {
+                        std::cerr << "Pass value: " << optimalpass.get<0>() << std::endl;
+                        std::cerr << "Shot value: " << optimalshot.get<0>() << std::endl;
+                        std::cerr << "Dribble value: " << optimaldribble.get<0>() << std::endl;
+                        std::cerr << "Long ball value: " << optimallong.get<0>() << std::endl;
+                        std::cerr << std::endl;
+                    }
+
+                    if(optimalpass.get<0>() >= optimalshot.get<0>() &&
+                       optimalpass.get<0>() >= optimaldribble.get<0>() &&
+                       optimalpass.get<0>() >= optimallong.get<0>())
+                    {
+                        maybePrepareForKick(optimalpass.get<1>());
+                        return boost::shared_ptr<KickPlayerControlMessage>(new KickPlayerControlMessage(mPlayerID, optimalpass.get<1>()));
+                    }
+                    else if (optimalshot.get<0>() >= optimaldribble.get<0>() &&
+                             optimalshot.get<0>() >= optimallong.get<0>())
+                    {
+                        maybePrepareForKick(optimalpass.get<1>());
+                        return boost::shared_ptr<KickPlayerControlMessage>(new KickPlayerControlMessage(mPlayerID, optimalshot.get<1>()));
+                    }
+                    else if (optimaldribble.get<0>() >= optimallong.get<0>())
+                    {
+                        maybePrepareForKick(optimalpass.get<1>());
+                        return boost::shared_ptr<KickPlayerControlMessage>(new KickPlayerControlMessage(mPlayerID, optimaldribble.get<1>()));
+                    }
+                    else
+                    {
+                        maybePrepareForKick(optimalpass.get<1>());
+                        return boost::shared_ptr<KickPlayerControlMessage>(new KickPlayerControlMessage(mPlayerID, optimallong.get<1>()));
+                    }
+                }
+
+                CtrlMsg AIPlayer::fetchball()
+                {
+                    addutil::Vector3 ballpos = mMatchStatus->getBall()->getPosition();
+                    addutil::Vector3 ballvel = mMatchStatus->getBall()->getVelocity();
+
+                    ballpos.y = 0.0f;
+                    ballvel.y = 0.0f;
+                    ownpos.y = 0.0f;
+
+                    addutil::Vector3 gotovec = steering::pursuit(ownpos, ballpos, ballvel * 2.0f, max_velocity);
+
+                    using namespace messages;
+                    return boost::shared_ptr<MovePlayerControlMessage>(new MovePlayerControlMessage(mPlayerID, gotovec));
+                }
+
+                CtrlMsg AIPlayer::runTo(const addutil::Vector3& tgt) const
+                {
+                    using namespace addutil::steering;
+                    return boost::shared_ptr<MovePlayerControlMessage>(
+                            new MovePlayerControlMessage(mPlayerID, arrive(ownpos, tgt, max_velocity)));
+                }
+
+                void AIPlayer::set_own_kickoff_pos()
+                {
+                    if(!issub)
+                    {
+                        addutil::Vector3 formationpoint;
+                        try
+                        {
+                            formationpoint = mMatchStatus->getPlayerFormation(mPlayerID)->getTacticAreaCenter(true, true, plpos);
+                            ownkickoffpos.x = formationpoint.x;
+                            ownkickoffpos.z = formationpoint.z * 0.5f;
+                        }
+                        catch(...)
+                        {
+                            ownkickoffpos.x = 0.5f;
+                        }
+                    }
+                    else
+                    {
+                        ownkickoffpos = cabins_pos();
+                        return;
+                    }
+                    if((mClubAI->ourClub() == Away && !mMatchStatus->isSecondHalf()) || (mClubAI->ourClub() == Home && mMatchStatus->isSecondHalf()))
+                    {
+                        if(!issub)
+                        {
+                            ownkickoffpos.x = 1.0f - ownkickoffpos.x;
+                            ownkickoffpos.z = 1.0f - ownkickoffpos.z;
+                        }
+                    }
+                    float pitchw = mMatchStatus->getPitchWidth();
+                    float pitchl = mMatchStatus->getPitchLength();
+                    ownkickoffpos.x *= pitchw;
+                    ownkickoffpos.z *= pitchl;
                 }
 
                 int AIPlayer::getID() const

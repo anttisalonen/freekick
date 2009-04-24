@@ -25,35 +25,6 @@ namespace freekick
     {
         namespace client
         {
-            Helpers::Helpers (boost::shared_ptr<MatchStatus> ms, int id)
-                : mMatchStatus(ms),
-                  mPlayerID(id),
-                  mPlayer(mMatchStatus->getPlayer(mPlayerID)),
-                  b(mMatchStatus->getPlayerSide(mPlayerID)),
-                  nearestown(mMatchStatus->nearestPlayerFromClubToBall(b)),
-                  bss(mMatchStatus->getBallState()),
-                  allowed_to_kick(mMatchStatus->playerAllowedToKick(mPlayerID) || (bss.blocked_play && bss.owner == b)),
-                  bio(bss.bio_type),
-                  iskickoff((bio == Kickoff)),
-                  blocked(bss.blocked_play),
-                  own(bss.owner),
-                  isnearestplayer(nearestown.get<0>() == mPlayerID),
-                  startplay((iskickoff && !blocked && isnearestplayer && own == b)),
-                  abletokick(isnearestplayer && nearestown.get<1>() < constants::max_kick_distance),
-                  issub(mPlayer->isSubstitute()),
-                  ballpos_corrected(mMatchStatus->absolute_pitch_position_to_percent(mMatchStatus->getBall()->getPosition(), b)),
-                  nearestother(mMatchStatus->nearestPlayerFromClubToBall(other(b))),
-                  plpos(mMatchStatus->getPlayerClub(mPlayerID)->getPlayerPosition(mPlayerID)),
-                  ballonourside(mMatchStatus->onOwnSide(mMatchStatus->getBall()->getPosition(), b)),
-                  ballinmyarea(mMatchStatus->getPlayerFormation(mPlayerID)->inTacticArea(ourclubhasball, ballonourside, plpos, ballpos_corrected)),
-                  ourclubhasball(nearestown.get<1>() < nearestother.get<1>()),
-                  ballinourgoalarea(ownersGoal(b, mMatchStatus->ballInGoalArea())),
-                  holdingtheball(mMatchStatus->holdingBall() == mPlayerID),
-                  ballisheld(mMatchStatus->holdingBall() != 0)
-            {
-                // TODO: replace with lazy initialization
-            }
-
             void Helpers::correctPassVector(addutil::Vector3& target)
             {
                 if (target.length() > 20.0f)
