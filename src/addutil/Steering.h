@@ -21,6 +21,8 @@
 #ifndef ADDUTIL_STEERING_H
 #define ADDUTIL_STEERING_H
 
+#include <cmath>
+
 #include "Vector3.h"
 
 namespace addutil
@@ -28,6 +30,7 @@ namespace addutil
     namespace steering
     {
         Vector3 seek(const Vector3& from, const Vector3& to, float maxspeed);
+        Vector3 arrive(const Vector3& from, const Vector3& to, float maxspeed);
         Vector3 pursuit(const Vector3& from, const Vector3& to, const Vector3& tgtvelocity, float maxspeed);
     }
 }
