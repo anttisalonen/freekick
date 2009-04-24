@@ -598,6 +598,7 @@ namespace freekick
 
         bool MatchStatus::sides_flipped(BallOwner side) const
         {
+            // TODO: add handling for extra time
             return ((side == Away && !secondhalf) || (side == Home && secondhalf));
         }
 
