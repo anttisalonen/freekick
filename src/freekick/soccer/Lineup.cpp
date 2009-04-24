@@ -73,7 +73,7 @@ namespace freekick
             PlayerMap::const_iterator it1;
             it1 = pitchplayers.find(plid);
             if(it1 != pitchplayers.end()) return it1->second;
-            throw "Lineup::getPlayerPosition: not playing\n";
+            throw "Lineup::getPlayerPosition: not playing";
         }
 
         std::vector<int> Lineup::getPitchPlayerIDs() const
