@@ -207,7 +207,8 @@ namespace freekick
             else if(m.m_half == 1)
                 secondhalf = false;
             // TODO: parse extra time
-            std::cout << "MatchStatus::update::GeneralUpdateTimeMessage: " << currtime.m << ":" << currtime.s << " (" << secondhalf << " half)\n";
+            if(currtime.s == 0 && currtime.m != 0)
+                std::cerr << "MatchStatus::update::GeneralUpdateTimeMessage: " << currtime.m << ":" << currtime.s << " (" << secondhalf << " half)\n";
         }
 
         boost::shared_ptr<MatchPlayer> MatchStatus::getPlayer(int id) const
@@ -554,7 +555,7 @@ namespace freekick
             PlayerTarget b = ballOwnerToPlayerTarget(o, secondhalf);
             int index = (b == DownTarget) ? 0 : 1;
             float second_lowest_opponent = index * 100000.0f;
-            float lowest_opponent = 200000.0f;
+            float lowest_opponent = index * 200000.0f;
             MatchPlayerMap::const_iterator it;
             for(it = mPlayers.begin(); it != mPlayers.end(); it++)
             {
