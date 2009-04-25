@@ -91,6 +91,17 @@ namespace addutil
             }
         }
 
+        /**
+         * "normalizes" a value, i.e. returns a point between 0 and 1.
+         * e.g.: say you have a value 40, and you want to normalize it
+         * to be 0.4 as 100 is the maximum. maxval = 100, point = 40.
+         * return value: 0.4.
+         */
+        template <typename T> T normalize(const T& maxval, const T& point)
+        {
+            return std::max(0.0f, maxval - point / maxval);
+        }
+
         float rand_float();
         float rand_float(float min, float max);
         int rand_int(int max);
