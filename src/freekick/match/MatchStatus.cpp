@@ -490,7 +490,7 @@ namespace freekick
 
         float MatchStatus::distanceToNearestOpponent(int id) const
         {
-            return nearestPlayerFromClubToEntity(other(getPlayerSide(id)), getPlayer(id)).get<0>();
+            return nearestPlayerFromClubToEntity(other(getPlayerSide(id)), getPlayer(id)).get<1>();
         }
 
         bool MatchStatus::ballInOwnPenaltyBox(BallOwner b) const
