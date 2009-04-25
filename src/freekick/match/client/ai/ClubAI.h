@@ -28,6 +28,7 @@
 #include <boost/foreach.hpp>
 
 #include "addutil/Vector3.h"
+#include "addutil/General.h"
 
 #include "Primitives.h"
 #include "MatchStatus.h"
@@ -64,7 +65,11 @@ namespace freekick
                     bool weAreOwner() const { return mWeAreOwner; }
                     BallInOut getBio() const { return mBio; }
                     addutil::Vector3 ballPosCorrected() const { return mBallpos_corrected; }
+                    addutil::Vector3 getBallPos() const { return mBallPos; }
                     addutil::Vector3 ballFuturePos() const { return mBallFuturePos; }
+                    addutil::Vector3 getTargetGoal() const { return mTargetGoal; }
+                    float getBallDesire() const { return mBallDesire; }
+                    soccer::PlayerTarget getTarget() const { return mTarget; }
                 protected:
                     void updatePlayerPoints();
                     void updatePlayerPoint(int plid, const addutil::Vector3& plpos);
@@ -89,7 +94,14 @@ namespace freekick
                     bool mBallisheld;
                     bool mOwnerClub;
                     bool mWeAreOwner;
+                    float mBallDesire;
+                    soccer::PlayerTarget mTarget;
+                    addutil::Vector3 mOwnGoal;
+                    addutil::Vector3 mTargetGoal;
+                    addutil::Vector3 mBallPos;
                     addutil::Vector3 mBallFuturePos;
+
+                    static const float desire_max_dist = 30.0f;
                 };
             }
         }

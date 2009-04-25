@@ -61,9 +61,11 @@ namespace freekick
                     holdingtheball = mMatchStatus->holdingBall() == mPlayerID;
                     startplay = (mClubAI->isKickoff() && !mClubAI->isBlocked() && isnearestplayer && mClubAI->weAreOwner());
                     ownpos = mPlayer->getPosition();
-                    t = mMatchStatus->getPlayerTarget(mPlayerID);
-                    tgtgoal = mMatchStatus->getGoalPosition(t);
-                    goalvec = tgtgoal - ownpos;
+                    goalvec = mClubAI->getTargetGoal() - ownpos;
+                    disttoball = (ownpos - mClubAI->getBallPos()).length();
+                    dangerlevel = std::max(
+                            mClubAI->getBallDesire(), 
+                            addutil::general::normalize(max_danger_dist, mMatchStatus->distanceToNearestOpponent(mPlayerID)));
 
                     return think();
                 }
@@ -122,7 +124,7 @@ namespace freekick
                 CtrlMsg AIPlayer::idleinformation()
                 {
                     const boost::shared_ptr<Formation> f = mMatchStatus->getPlayerClub(mPlayerID)->getFormation();
-                    addutil::Vector3 ballpos = mMatchStatus->getBall()->getPosition();
+                    addutil::Vector3 ballpos = mClubAI->getBallPos();
 
                     using namespace messages;
                     if(f->inTacticArea(mClubAI->ourClubHasBall(), mClubAI->ballOnOurSide(), plpos,
@@ -141,7 +143,7 @@ namespace freekick
                     float pwidth = mMatchStatus->getPitchWidth();
                     float bheight = ballpos.z / plength;
                     float bwidth = ballpos.x / pwidth;
-                    if(t == UpTarget)
+                    if(mClubAI->getTarget() == UpTarget)
                     {
                         bheight = 1.0f - bheight;
                     }
@@ -154,7 +156,7 @@ namespace freekick
                     movedFormationpoint.z += target_z_modifier;
 
                     float target_x_modifier = (bwidth - 0.5f) * 0.2f;
-                    if(t == UpTarget)
+                    if(mClubAI->getTarget() == UpTarget)
                     {
                         movedFormationpoint.x -= target_x_modifier;
                     }
@@ -174,7 +176,7 @@ namespace freekick
                         tgtvec = formationpoint;
                     }
 
-                    if(t == UpTarget)
+                    if(mClubAI->getTarget() == UpTarget)
                     {
                         tgtvec.z = 1.0f - tgtvec.z;
                         tgtvec.x = 1.0f - tgtvec.x;
@@ -183,17 +185,17 @@ namespace freekick
                     tgtvec.x *= pwidth;
                     tgtvec.z *= plength;
 
-                    if(mMatchStatus->inOffsidePosition(t, tgtvec))
+                    if(mMatchStatus->inOffsidePosition(mClubAI->getTarget(), tgtvec))
                     {
-                        tgtvec.z = mMatchStatus->getOffsideLine(t);
+                        tgtvec.z = mMatchStatus->getOffsideLine(mClubAI->getTarget());
                     }
 
-                    return runTo(tgtvec);
+                    return runTo(tgtvec, gen_jog_vel);
                 }
 
                 CtrlMsg AIPlayer::gotocabins()
                 {
-                    return runTo(cabins_pos());
+                    return runTo(cabins_pos(), min_walk_vel);
                 }
 
                 addutil::Vector3 AIPlayer::cabins_pos() const
@@ -215,7 +217,7 @@ namespace freekick
                 CtrlMsg AIPlayer::kickoffpos()
                 {
                     set_own_kickoff_pos();
-                    return runTo(ownkickoffpos);
+                    return runTo(ownkickoffpos, gen_jog_vel);
                 }
 
                 CtrlMsg AIPlayer::goalkeeper()
@@ -237,7 +239,7 @@ namespace freekick
 
                 CtrlMsg AIPlayer::gkgetball()
                 {
-                    addutil::Vector3 ballpos = mMatchStatus->getBall()->getPosition();
+                    addutil::Vector3 ballpos = mClubAI->getBallPos();
                     addutil::Vector3 ballvel = mMatchStatus->getBall()->getVelocity();
                     float balldist = (ownpos - ballpos).length();
 
@@ -393,7 +395,7 @@ namespace freekick
                         float this_z = clubitpos.z;
                         if(this_z == ownpos.z)
                             continue;
-                        if(t == UpTarget) this_z = plength - this_z;
+                        if(mClubAI->getTarget() == UpTarget) this_z = plength - this_z;
 
                         if(diff < 5.0f)
                             continue;
@@ -486,24 +488,34 @@ namespace freekick
 
                 CtrlMsg AIPlayer::fetchball()
                 {
-                    addutil::Vector3 ballpos = mMatchStatus->getBall()->getPosition();
+                    addutil::Vector3 ballpos = mClubAI->getBallPos();
                     addutil::Vector3 ballvel = mMatchStatus->getBall()->getVelocity();
 
                     ballpos.y = 0.0f;
                     ballvel.y = 0.0f;
                     ownpos.y = 0.0f;
+                    if(disttoball < 10.0f)
+                        return seekTo(ballpos, dangerlevel * max_velocity);
 
                     addutil::Vector3 gotovec = steering::pursuit(ownpos, ballpos, ballvel * 2.0f, max_velocity);
+                    return seekTo(gotovec + ownpos, dangerlevel * max_velocity);
 
-                    using namespace messages;
-                    return boost::shared_ptr<MovePlayerControlMessage>(new MovePlayerControlMessage(mPlayerID, gotovec));
+                    // using namespace messages;
+                    // return boost::shared_ptr<MovePlayerControlMessage>(new MovePlayerControlMessage(mPlayerID, gotovec));
                 }
 
-                CtrlMsg AIPlayer::runTo(const addutil::Vector3& tgt) const
+                CtrlMsg AIPlayer::seekTo(const addutil::Vector3& tgt, float vel) const
                 {
                     using namespace addutil::steering;
                     return boost::shared_ptr<MovePlayerControlMessage>(
-                            new MovePlayerControlMessage(mPlayerID, arrive(ownpos, tgt, max_velocity)));
+                            new MovePlayerControlMessage(mPlayerID, seek(ownpos, tgt, std::max(min_walk_vel, vel))));
+                }
+
+                CtrlMsg AIPlayer::runTo(const addutil::Vector3& tgt, float vel) const
+                {
+                    using namespace addutil::steering;
+                    return boost::shared_ptr<MovePlayerControlMessage>(
+                            new MovePlayerControlMessage(mPlayerID, arrive(ownpos, tgt, std::max(min_walk_vel, vel))));
                 }
 
                 void AIPlayer::set_own_kickoff_pos()

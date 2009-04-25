@@ -55,6 +55,13 @@ namespace freekick
                     mOwnerClub = mBss.owner;
                     mWeAreOwner = mBss.owner == mOurClub;
                     mBallFuturePos = mMatchStatus->getBall()->getFuturePosition(AIConfig::getInstance()->future_lookup_time);
+                    mTarget = ballOwnerToPlayerTarget(mOurClub, mMatchStatus->isSecondHalf());
+                    mOwnGoal = mMatchStatus->getGoalPosition(other(mTarget));
+                    mTargetGoal = mMatchStatus->getGoalPosition(mTarget);
+                    mBallPos = mMatchStatus->getBall()->getPosition();
+                    mBallDesire = std::max(
+                            addutil::general::normalize(desire_max_dist, (mBallPos - mOwnGoal).length()),
+                            addutil::general::normalize(desire_max_dist, (mBallPos - mTargetGoal).length()));
 
                     updatePlayerPoints();
                 }

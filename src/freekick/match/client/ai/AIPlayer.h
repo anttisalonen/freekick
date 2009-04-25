@@ -27,6 +27,7 @@
 #include <boost/foreach.hpp>
 
 #include "addutil/Vector3.h"
+#include "addutil/General.h"
 #include "addutil/Steering.h"
 
 #include "messages/PlayerControlMessage.h"
@@ -68,7 +69,8 @@ namespace freekick
                 protected:
                     void set_own_kickoff_pos();
                     addutil::Vector3 cabins_pos() const;
-                    CtrlMsg runTo(const addutil::Vector3& tgt) const;
+                    CtrlMsg runTo(const addutil::Vector3& tgt, float vel = 10.0f) const;
+                    CtrlMsg seekTo(const addutil::Vector3& tgt, float vel = 10.0f) const;
                     CtrlMsg think();
 
                     CtrlMsg idle();
@@ -92,6 +94,8 @@ namespace freekick
                     bool mActive;
                     addutil::Vector3 ownkickoffpos;
                     addutil::Vector3 ownpos;
+                    float disttoball;
+                    float dangerlevel;
 
                     bool allowed_to_kick;
                     bool isnearestplayer;
@@ -101,10 +105,11 @@ namespace freekick
                     bool ballinmyarea;
                     bool holdingtheball;
                     bool startplay;
-                    soccer::PlayerTarget t;
-                    addutil::Vector3 tgtgoal;
                     addutil::Vector3 goalvec;
                     static const float max_velocity = 10.0f; // TODO: does this belong here?
+                    static const float max_danger_dist = 20.0f;
+                    static const float min_walk_vel = 1.5f;
+                    static const float gen_jog_vel = 3.0f;
                 };
             }
         }
