@@ -78,14 +78,17 @@ namespace freekick
                 boost::shared_ptr<Club> club2 = mMatchStatus->getMatchData()->getAwayClub();
                 club1->getPlayerIDs(hplayers);
                 club2->getPlayerIDs(aplayers);
+                float loc_x = mMatchStatus->getPitchWidth() * -0.1f;
+                float loc_z_home = mMatchStatus->getPitchLength() * 0.4f;
+                float loc_z_away = mMatchStatus->getPitchLength() * 0.6f;
                 BOOST_FOREACH(int idnum, hplayers)
                 {
-                    Vector3 loc(idnum % (int)pwidth + 1, idnum % 2 + 2, (idnum * 2) % (int)plength + 1);
+                    Vector3 loc(loc_x - (idnum % 5), 2.0f, loc_z_home - ((idnum * 2) % 5));
                     mPhysicsEngine->addControllableObject(idnum, Vector3(0.6f, collision_box_height, 0.4f), 80.0f, loc);
                 }
                 BOOST_FOREACH(int idnum, aplayers)
                 {
-                    Vector3 loc(idnum % (int)pwidth + 1, idnum % 2 + 4, (idnum * 2) % (int)plength + 1);
+                    Vector3 loc(loc_x - (idnum % 5), 2.0f, loc_z_away - ((idnum * 2) % 5));
                     mPhysicsEngine->addControllableObject(idnum, Vector3(0.6f, collision_box_height, 0.4f), 80.0f, loc);
                 }
             }
