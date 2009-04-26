@@ -57,6 +57,7 @@ namespace freekick
                                 mClubAI->ballOnOurSide(), 
                                 plpos,
                                 mClubAI->ballPosCorrected());
+                        mGoalie = plpos == "Goalkeeper";
                     }
                     holdingtheball = mMatchStatus->holdingBall() == mPlayerID;
                     startplay = (mClubAI->isKickoff() && !mClubAI->isBlocked() && isnearestplayer && mClubAI->weAreOwner());
@@ -66,51 +67,41 @@ namespace freekick
                     dangerlevel = std::max(
                             mClubAI->getBallDesire(), 
                             addutil::general::normalize(max_danger_dist, mMatchStatus->distanceToNearestOpponent(mPlayerID)));
+                    futpos = mClubAI->ballFuturePos();
+                    futpos.y = 0.0f;
+                    futpos_dist = (ownpos - futpos).length();
 
                     return think();
                 }
 
                 CtrlMsg AIPlayer::think()
                 {
-                    if(mClubAI->getBio() == PreKickoff && mClubAI->isBlocked())
-                    {
+                    if((mClubAI->getBio() == PreKickoff && mClubAI->isBlocked()) || 
+                            (mClubAI->isKickoff() && !startplay))
+                    {   // before kickoff
                         return kickoffpos();
                     }
-                    if(mClubAI->getBio() == HalfFullTime)
-                    {
+                    if(issub || mClubAI->getBio() == HalfFullTime)
+                    {   // to the bench
                         return gotocabins();
                     }
-                    if(issub)
-                    {
-                        return idle();
-                    }
-                    if(mPlayer->getPlayerPosition() == Goalkeeper && mClubAI->getBio() == BallIn)
-                    {
+                    if(mGoalie && mClubAI->getBio() == BallIn)
+                    {   // goalkeeper
                         return goalkeeper();
                     }
-                    if(mClubAI->isKickoff() && !startplay)
-                    {
-                        return kickoffpos();
-                    }
-                    if((isnearestplayer || ballinmyarea) && allowed_to_kick)
-                    {
+                    if(allowed_to_kick)
+                    {   // match time
                         if(abletokick)
-                        {
+                        {   // on the ball
                             return kickball();
                         }
-                        if(mClubAI->ourClubHasBall())
-                        {   // run to ball
+                        if(isnearestplayer || 
+                                futpos_dist < AIConfig::getInstance()->max_future_fetch_distance)
+                        {   // near the ball
                             return fetchball();
                         }
-                        // defensive
-                        return fetchball();
-                    }
-                    addutil::Vector3 futpos = mClubAI->ballFuturePos();
-                    futpos.y = 0.0f;
-                    float future_dist = (ownpos - futpos).length();
-                    if(allowed_to_kick && future_dist < AIConfig::getInstance()->max_future_fetch_distance)
-                    {
-                        return fetchball();
+                        // idling
+                        return idleinformation();
                     }
                     return idleinformation();
                 }
@@ -152,7 +143,7 @@ namespace freekick
                     float target_z_modifier = 
                         (1.0f - formationpoint.z) * 
                         (bheight - formationpoint.z) * 
-                        (mPlayer->getPlayerPosition() == Goalkeeper ? 0.04f : 0.2f);
+                        (mGoalie ? 0.04f : 0.2f);
                     movedFormationpoint.z += target_z_modifier;
 
                     float target_x_modifier = (bwidth - 0.5f) * 0.2f;
@@ -222,19 +213,15 @@ namespace freekick
 
                 CtrlMsg AIPlayer::goalkeeper()
                 {
-                    if(!mClubAI->weAreOwner() && mClubAI->ballInOurGoalArea() && (ballinmyarea || isnearestplayer))
-                    {
-                        if(!holdingtheball)
-                        {
-                            return gkgetball();
-                        }
-                        return kickball();
-                    }
                     if(isnearestplayer && mClubAI->ballInOurGoalArea())
                     {
-                        return kickball();
+                        if(abletokick)
+                        {
+                            return kickball();
+                        }
+                        return gkgetball();
                     }
-                    return idle();
+                    return idleinformation();
                 }
 
                 CtrlMsg AIPlayer::gkgetball()
@@ -249,15 +236,12 @@ namespace freekick
 
                     addutil::Vector3 gotovec = steering::pursuit(ownpos, ballpos, ballvel, max_velocity);
 
-                    using namespace messages;
                     if(balldist < 1.5f)      // TODO: get length from somewhere else
                     {
+                        using namespace messages;
                         return boost::shared_ptr<HoldPlayerControlMessage>(new HoldPlayerControlMessage(mPlayerID, gotovec));
                     }
-                    else
-                    {
-                        return boost::shared_ptr<MovePlayerControlMessage>(new MovePlayerControlMessage(mPlayerID, gotovec));
-                    }
+                    return fetchball();
                 }
 
                 optimal_kick AIPlayer::getOptimalPass() const
@@ -427,16 +411,20 @@ namespace freekick
                 void AIPlayer::maybePrepareForKick(addutil::Vector3& kickvec) const
                 {
                     // maybe prepare for kick: potentially stop the ball first for easier kick
-                    if(kickvec.length2() < 1.0f) 
+                    if(kickvec.length2() < 8.0f) 
                         return;
                     const addutil::Vector3& ballvec = mMatchStatus->getBall()->getVelocity();
-                    if(ballvec.length2() < 1.0f)
+                    if(ballvec.length2() < 8.0f)
                         return;
+                    kickvec.reset();
+                    return;
+                    /*
                     float ang = kickvec.angleBetweenXZ(ballvec);
                     if (abs(ang) < addutil::pi_4 || abs(ang) > addutil::pi_3_4)
                     {
                         kickvec.reset();
                     }
+                    */
                 }
 
                 CtrlMsg AIPlayer::kickball()
@@ -494,7 +482,7 @@ namespace freekick
                     ballpos.y = 0.0f;
                     ballvel.y = 0.0f;
                     ownpos.y = 0.0f;
-                    if(disttoball < 10.0f)
+                    if(disttoball < 2.0f)
                         return seekTo(ballpos, dangerlevel * max_velocity);
 
                     addutil::Vector3 gotovec = steering::pursuit(ownpos, ballpos, ballvel * 2.0f, max_velocity);

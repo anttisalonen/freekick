@@ -94,6 +94,8 @@ namespace freekick
                     bool mActive;
                     addutil::Vector3 ownkickoffpos;
                     addutil::Vector3 ownpos;
+                    addutil::Vector3 futpos;
+                    float futpos_dist;
                     float disttoball;
                     float dangerlevel;
 
@@ -105,6 +107,7 @@ namespace freekick
                     bool ballinmyarea;
                     bool holdingtheball;
                     bool startplay;
+                    bool mGoalie;
                     addutil::Vector3 goalvec;
                     static const float max_velocity = 10.0f; // TODO: does this belong here?
                     static const float max_danger_dist = 20.0f;
