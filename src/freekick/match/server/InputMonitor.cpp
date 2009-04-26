@@ -182,10 +182,10 @@ namespace freekick
 
             bool InputMonitor::variateDueToMovingBall(const Vector3& kickvec) const
             {
-                if(kickvec.length2() < 1.0f) 
+                if(kickvec.length2() < 8.0f) 
                     return false;
                 const addutil::Vector3& ballvec = mMatchStatus->getBall()->getVelocity();
-                if(ballvec.length2() < 1.0f)
+                if(ballvec.length2() < 8.0f)
                     return false;
                 float ang = kickvec.angleBetweenXZ(ballvec);
                 return (abs(ang) < addutil::pi_4 || abs(ang) > addutil::pi_3_4);
