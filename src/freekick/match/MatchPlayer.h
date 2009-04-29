@@ -47,7 +47,7 @@ namespace freekick
             // Constructors/Destructors
             //  
             MatchPlayer (const freekick::soccer::Player& p, soccer::BallOwner _side, bool sub);
-            const int getID() const;
+            int getID() const;
             bool isSubstitute() const;
             soccer::BallOwner getSide() const;
             void updateTimer(float time_interval);

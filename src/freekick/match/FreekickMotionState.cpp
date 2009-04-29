@@ -49,7 +49,7 @@ namespace freekick
             mPhysicsEngine->addUpdatedObject(mId, this);
         }
 
-        const int FreekickMotionState::getID() const
+        int FreekickMotionState::getID() const
         {
             return mId;
         }

@@ -68,7 +68,7 @@ struct EntityWrap : Entity, wrapper<Entity>
         return Vector3(v);
     }
 
-    const int getID() const
+    int getID() const
     {
         return this->get_override("getID")();
     }
@@ -86,7 +86,7 @@ struct DynamicEntityWrap : DynamicEntity, wrapper<DynamicEntity>
     {
     }
 
-    const int getID() const
+    int getID() const
     {
         return this->get_override("getID")();
     }

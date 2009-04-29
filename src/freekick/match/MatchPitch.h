@@ -42,7 +42,7 @@ namespace freekick
         public:
 
             MatchPitch (const Pitch& p);
-            const int getID() const { return PitchID; }
+            int getID() const { return PitchID; }
 
         private:
 

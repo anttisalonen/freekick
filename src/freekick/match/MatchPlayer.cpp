@@ -33,7 +33,7 @@ namespace freekick
         {
         }
 
-        const int MatchPlayer::getID() const
+        int MatchPlayer::getID() const
         {
             return Player::getID();
         }

@@ -47,7 +47,7 @@ namespace freekick
              * @param  _mass
              */
             MatchBall (const Ball& b);
-            const int getID() const { return BallID; }
+            int getID() const { return BallID; }
             int getHolder() const;
             void setHolder(int h);
 

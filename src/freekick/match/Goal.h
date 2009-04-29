@@ -45,7 +45,7 @@ namespace freekick
              * @param  first
              */
             Goal (bool _first );
-            const int getID() const { if (first) return FirstGoalID; return SecondGoalID; }
+            int getID() const { if (first) return FirstGoalID; return SecondGoalID; }
 
         private:
             bool first;

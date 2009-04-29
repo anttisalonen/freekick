@@ -47,7 +47,7 @@ namespace freekick
             /**
              */
             MatchReferee (const freekick::soccer::Referee& r);
-            const int getID() const { return RefereeID; }
+            int getID() const { return RefereeID; }
 
         private:
 
