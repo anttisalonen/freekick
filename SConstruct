@@ -4,7 +4,7 @@ SetOption('num_jobs', num_cpu)
 print "running with -j", GetOption('num_jobs')
 
 def_env = Environment()
-def_env['CPPFLAGS'] = '-Wall -Wno-deprecated '
+def_env['CPPFLAGS'] = '-Wall -Wno-deprecated -pipe '
 def_env.Append(CPPPATH = ['src'])
 def_env.ParseConfig("pkg-config libxml-2.0 --cflags --libs")
 
@@ -21,8 +21,6 @@ opt = ARGUMENTS.get('opt', 1)
 if int(opt):
     def_env.Append(CPPFLAGS = '-O2 ')
 
-
-swos2fk_name = 'bin/swos2fk'
 addutil_name = 'lib/addutil'
 addutil_test1_name = 'bin/tests/vector3_test'
 soccer_name = 'lib/soccer'
@@ -33,14 +31,20 @@ aiclient_name = 'bin/aiclient'
 fkserver_name = 'bin/fkserver'
 freekick_client_py_name = 'lib/freekick_client_py'
 ncursesclient_name = 'bin/ncclient'
+swos2fk_name = 'bin/swos2fk'
+
+clients = [client_name, ogreclient_name, aiclient_name, ncursesclient_name]
+servers = [fkserver_name]
+rest = [swos2fk_name, addutil_test1_name]
+
+comp_all = ARGUMENTS.get('all', 0)
+if int(comp_all):
+    BUILD_TARGETS = clients + servers + rest
 
 if len(BUILD_TARGETS) == 0:
    BUILD_TARGETS = [ogreclient_name, aiclient_name, fkserver_name]
 
 print "Building", map(str, BUILD_TARGETS)
-
-clients = [client_name, ogreclient_name, aiclient_name, freekick_client_py_name, ncursesclient_name]
-servers = [fkserver_name]
 
 build_libs = False
 for t in clients + servers:
