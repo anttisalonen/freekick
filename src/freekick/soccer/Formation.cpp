@@ -45,7 +45,7 @@ namespace freekick
             }
         }
 
-        const addutil::Square& Formation::getTacticArea(bool own, bool offensive, const std::string& tactic) const
+        const addutil::Square Formation::getTacticArea(bool own, bool offensive, const std::string& tactic) const
         {
             TacticList::const_iterator it = mTacticList.find(tactic);
             if(it == mTacticList.end()) throw "Formation::getTacticArea: tactic not found\n";

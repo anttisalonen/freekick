@@ -43,7 +43,7 @@ namespace freekick
             Formation();
             Formation(xmlNodePtr root);
             virtual ~Formation() { }
-            const addutil::Square& getTacticArea(bool own, bool offensive, const std::string& tactic) const;
+            const addutil::Square getTacticArea(bool own, bool offensive, const std::string& tactic) const;
             const addutil::Vector3 getTacticAreaCenter(bool own, bool offensive, const std::string& tactic) const;
             bool inTacticArea(bool own, bool offensive, const std::string& tactic, const addutil::Vector3& plloc) const;
         private:
