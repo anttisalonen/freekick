@@ -285,17 +285,20 @@ class Match:
         """
         c1 = self.club1.get_rating() / 1000.0
         c2 = self.club2.get_rating() / 1000.0
-        c1r = int(c1 ** 2.0)
-        c2r = int(c2 ** 2.0)
-        if c1r > c2r * 1.5:
-            return MatchResultType.Club1, 1.0
-        elif c2r > c1r * 1.5:
-            return MatchResultType.Club2, 1.0
+        c1r = int(c1 ** 2.5)
+        c2r = int(c2 ** 2.5)
+        # Ultimately superior
+        skip_ultimately_superior = random.randint(0, 10) == 0
+        if not skip_ultimately_superior:
+            if c1r > c2r * 1.5:
+                return MatchResultType.Club1, 1.0
+            elif c2r > c1r * 1.5:
+                return MatchResultType.Club2, 1.0
         tot_rating = c1r + c2r
         chosen_point = random.randint(0, tot_rating)
         draw_point_1 = min(c1r, c2r) - (min(c1r, c2r) / 3)
         draw_point_2 = min(c1r, c2r) + (min(c1r, c2r) / 3)
-        # print "club values: %d %d; tot: %d, chosen: %d, d1: %d, d2: %d" % (c1r, c2r, tot_rating, chosen_point, draw_point_1, draw_point_2)
+        # print "club values (%s - %s): %d %d; tot: %d, chosen: %d, d1: %d, d2: %d" % (self.club1.name, self.club2.name, c1r, c2r, tot_rating, chosen_point, draw_point_1, draw_point_2)
         if tiebreaker:
             mid_point = draw_point_1 + ((draw_point_2 - draw_point_1) / 2)
             draw_point_1 = mid_point
