@@ -80,7 +80,7 @@ class world:
 
     def next_round(self):
         for d, t in self.schedule.next_event():
-            yield t.get_next_round()
+            yield d, t.get_next_round()
             t.round_played(db) # return value ignored
             if self.show_each_round:
                 t.pretty_print()
@@ -91,16 +91,27 @@ class world:
                 f = raw_input()
                 self.finished_tournaments.append(t)
 
+    def get_schedule(self, clubname):
+        ret = []
+        for t in self.tournaments:
+            for stage in self.tournaments.stages:
+                for round in stage.rounds:
+                    for match in round:
+                        if match.club1.name == clubname or \
+                           match.club2.name == clubname:
+                            ret.append(match)
+        return ret
+
     def new_schedule(self):
         self.schedule = Schedule.Schedule([])
         self.num_finished_seasons += 1
-        new_tournaments = create_next_season(self.tournament_templates, self.finished_tournaments)
+        self.tournaments = create_next_season(self.tournament_templates, self.finished_tournaments)
         self.finished_tournaments = []
         self.schedule.add_season_to_schedule(
                 get_startdate(self.year + self.num_finished_seasons),
                 get_enddate(self.year + self.num_finished_seasons), 
-                new_tournaments, self.db)
-        for newt in new_tournaments:
+                self.tournaments, self.db)
+        for newt in self.tournaments:
             newt.pretty_print()
         f = raw_input()
 
@@ -115,12 +126,17 @@ def main():
         raise KeyError("Tournament/country not found")
 
     w = world(tournaments, db)
+
+    ms = w.get_schedule("Sunderland")
+    for m in ms:
+        print m
+    f = raw_input()
     
     while True:
         # f = raw_input()
-        for round in w.next_round():
+        for d, round in w.next_round():
             for match in round:
-                # match.date = d
+                match.date = d
                 match.time = datetime.time(18, 00)
                 # f = raw_input()
                 if w.create_xml:
