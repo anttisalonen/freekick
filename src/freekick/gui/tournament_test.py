@@ -16,25 +16,6 @@ db = Database.get_db(database_path)
 def print_usage():
     print "Usage: %s countryname tournamentname" % sys.argv[0]
 
-def create_event_schedule(startdate, enddate, tournament):
-    """Create event schedule from start- and enddates and the tournament.
-    
-    Returns EventSchedule."""
-    num_rounds = 0
-    total_rounds = []
-    for stage in reversed(tournament.stages):
-        rounds = stage.to_rounds(db)
-        for round in rounds:
-            for match in round:
-                match.tournament_name = tournament.name
-        total_rounds.append(rounds)
-
-    for stage in total_rounds:
-        num_rounds += len(stage)
-
-    s = Schedule.EventSchedule(startdate, enddate, tournament, num_rounds)
-    return s
-
 def get_country_league(cname, tname, db):
     """Get a copy of a specific league in a country.
     
@@ -51,12 +32,7 @@ def get_country_league(cname, tname, db):
                     return t
     raise KeyError("Tournament '%s' not found" % tname)
 
-def main():
-    """Entry point."""
-    if len(sys.argv) == 1:
-        print_usage()
-        sys.exit(1)
-
+def get_tournaments():
     tournaments = {}
     if len(sys.argv) == 2:          # Either DIY or a whole country
         try:                        # DIY
@@ -80,61 +56,82 @@ def main():
             tournaments[tournamentname] = copy.deepcopy(db.countries[countryname].tournaments[tournamentname])
         except KeyError:            # league system
             tournaments[tournamentname] = get_country_league(countryname, tournamentname, db)
+    return tournaments
 
-    if len(tournaments) == 0:
-        raise KeyError("Tournament/country not found")
+class world:
+    def __init__(self, tournaments, db):
+        self.tournaments = tournaments
+        self.db = db
+        self.year = 2007
+        self.new_season = len(tournaments) > 1
+        self.create_xml = False
+        self.show_each_round = False
+        self.num_finished_seasons = 0
+        self.prepare_tournament_templates()
+        self.schedule = Schedule.Schedule([])
+        self.schedule.add_season_to_schedule(get_startdate(self.year),
+                get_enddate(self.year), self.tournaments.values(), self.db)
+        self.finished_tournaments = []
 
-    year = 2007
-    new_season = len(tournaments) > 1
-    create_xml = False
-    show_each_round = False
-    num_finished_seasons = 0
+    def prepare_tournament_templates(self):
+        self.tournament_templates = copy.deepcopy(self.tournaments)
+        for t in self.tournament_templates.values():
+            t.clear_clubs()
 
-    tournament_templates = copy.deepcopy(tournaments)
-    for t in tournament_templates.values():
-        t.clear_clubs()
-
-    schedule = Schedule.Schedule([])
-
-    add_season_to_schedule(schedule, get_startdate(year), get_enddate(year), tournaments.values())
-    tournaments = {}
-
-    while True:
-        finished_tournaments = []
-        # f = raw_input()
-        for d, t in schedule.next_event():
-            round = t.get_next_round()
-            for match in round:
-                match.date = d
-                match.time = datetime.time(18, 00)
-                # f = raw_input()
-                if create_xml:
-                    t.pretty_print()
-                    match.create_temp_xml(db)
-                mr = match.play_match()
-                # print d, match
-            expelled_clubs = t.round_played(db)
-            if show_each_round:
+    def next_round(self):
+        for d, t in self.schedule.next_event():
+            yield t.get_next_round()
+            t.round_played(db) # return value ignored
+            if self.show_each_round:
                 t.pretty_print()
                 f = raw_input()
             if t.finished():
                 print "Tournament '%s' finished on %s" % (t.name, d)
                 t.pretty_print()
                 f = raw_input()
-                finished_tournaments.append(t)
-        if not new_season:
+                self.finished_tournaments.append(t)
+
+    def new_schedule(self):
+        self.schedule = Schedule.Schedule([])
+        self.num_finished_seasons += 1
+        new_tournaments = create_next_season(self.tournament_templates, self.finished_tournaments)
+        self.finished_tournaments = []
+        self.schedule.add_season_to_schedule(
+                get_startdate(self.year + self.num_finished_seasons),
+                get_enddate(self.year + self.num_finished_seasons), 
+                new_tournaments, self.db)
+        for newt in new_tournaments:
+            newt.pretty_print()
+        f = raw_input()
+
+def main():
+    """Entry point."""
+    if len(sys.argv) == 1:
+        print_usage()
+        sys.exit(1)
+
+    tournaments = get_tournaments()
+    if len(tournaments) == 0:
+        raise KeyError("Tournament/country not found")
+
+    w = world(tournaments, db)
+    
+    while True:
+        # f = raw_input()
+        for round in w.next_round():
+            for match in round:
+                # match.date = d
+                match.time = datetime.time(18, 00)
+                # f = raw_input()
+                if w.create_xml:
+                    # t.pretty_print()
+                    match.create_temp_xml(db)
+                mr = match.play_match()
+                # print d, match
+        if not w.new_season:
             break
         else:
-            schedule = Schedule.Schedule([])
-            num_finished_seasons += 1
-            new_tournaments = create_next_season(tournament_templates, finished_tournaments)
-            add_season_to_schedule(schedule, 
-                    get_startdate(year + num_finished_seasons),
-                    get_enddate(year + num_finished_seasons), 
-                    new_tournaments)
-            for newt in new_tournaments:
-                newt.pretty_print()
-            f = raw_input()
+            w.new_schedule()
 
 def create_next_season(templates, oldts):
     """Create the tournaments of the next season.
@@ -174,19 +171,6 @@ def create_next_season(templates, oldts):
     f = raw_input()
     return newts.values()
 
-def add_moved_clubs(moved_clubs, tgt_stage):
-    """Adds moved (exchanged) clubs to the target stage.
-
-    Doesn't work."""
-    if tgt_stage in tournaments.keys():
-        tgt_tournament = tournaments[tgt_stage]
-    else:
-        tgt_tournament = copy.deepcopy(get_country_league(coutryname, tgt_stage, db))
-        tgt_tournament.clear_clubs()
-        add_season_to_schedule(schedule, get_startdate(d.year), get_enddate(d.year), [tgt_tournament])
-    for ptour, pstage, pclub in moved_clubs:
-        tgt_tournament.add_clubs([pclub])
-
 def get_startdate(year):
     """Returns 1.9.year."""
     return datetime.date(year, 9, 1)
@@ -194,18 +178,6 @@ def get_startdate(year):
 def get_enddate(year):
     """Returns 18.5.(year + 1)"""
     return datetime.date(year + 1, 5, 18)
-
-def add_season_to_schedule(schedule, startdate, enddate, tournaments):
-    """Adds all tournaments to the schedule.
-
-    :param schedule: Schedule to be extended.
-    :param startdate: startdate of the tournaments.
-    :param enddate: enddate of the tournaments.
-    :param tournaments: list of tournaments to add.
-    """
-    for t in tournaments:
-        e = create_event_schedule(startdate, enddate, t)
-        schedule.add_event_schedule(e)
 
 if __name__ == '__main__':
     main()
