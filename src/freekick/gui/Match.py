@@ -262,6 +262,11 @@ class Match:
             self.mr = self.generate_simulated_second_match_result()
         return self.mr
 
+    def play_tactical_match(self):
+        print self.club1.lineup
+        print self.club2.lineup
+        return self.play_match()
+
     def has_club(self, clubname):
         return self.club1.name == clubname or self.club2.name == clubname
 

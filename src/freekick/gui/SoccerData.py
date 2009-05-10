@@ -55,6 +55,14 @@ class player_personality:
             root.set(personality, str(getattr(self, personality)))
         return root
 
+def to_stars(skill):
+    num_stars = (skill + 100) / 200
+    plus = skill % 200 < 100 and num_stars < 5
+    s = "*" * num_stars
+    if plus:
+        s += "+"
+    return s
+
 class Player(Primitives.Human):
     def __init__(self, pid, name = ""):
         Primitives.Human.__init__(self, name)
@@ -63,7 +71,30 @@ class Player(Primitives.Human):
         self.rating = -1
 
     def __str__(self):
-        return self.name
+        return "%-30s %-5s %-5s %-5s %-5s %-5s %-5s %-5s %-5s %-5s %-5s" % (self.name,
+                to_stars(self.skills.stamina),
+                to_stars(self.skills.speed),
+                to_stars(self.skills.dexterity),
+                to_stars(self.skills.goalkeeping),
+                to_stars(self.skills.tackling),
+                to_stars(self.skills.passing),
+                to_stars(self.skills.control),
+                to_stars(self.skills.heading),
+                to_stars(self.skills.shooting),
+                to_stars(self.skills.accuracy))
+
+    def str2(self):
+        return "%-30s %-5d %-5d %-5d %-5d %-5d %-5d %-5d %-5d %-5d %-5d" % (self.name,
+                self.skills.stamina,
+                self.skills.speed,
+                self.skills.dexterity,
+                self.skills.goalkeeping,
+                self.skills.tackling,
+                self.skills.passing,
+                self.skills.control,
+                self.skills.heading,
+                self.skills.shooting,
+                self.skills.accuracy)
 
     def calculate_rating(self):
         self.rating = 0
@@ -139,58 +170,143 @@ class Kit:
         socksnode.append(self.socks_color.to_xml())
         return kitnode
 
-tactic_attributes_list = ["active", "risktaking", "offensive"]
+class Tactic:
+    def __init__(self, long_ball = 0.5, width_attack = 0.5, 
+            width_defense = 0.5, counter_attack = 0.5):
+        self.long_ball = long_ball
+        self.width_attack = width_attack
+        self.width_defense = width_defense  
+        self.counter_attack = counter_attack
 
-class PlayerTactic:
-    def __init__(self, name = "", pos = None, active = 0.5, risktaking = 0.5, offensive = 0.5):
-        self.pos = pos
-        self.name = ""
-        self.active = active
-        self.risktaking = risktaking
-        self.offensive = offensive
-        self.areas = []
-        for i in range(4):
-            self.areas.append(Primitives.Square(0, 0, 0, 0))
-
-class Lineup:
-    def __init__(self):
-        self.positions = {}
-        self.substitutes = []
-
-    def to_xml(self):
-        root = etree.Element("lineup")
-        for k, v in self.positions.items():
-            etree.SubElement(root, "position", name = k, player = str(v))
-        for subid in self.substitutes:
-            etree.SubElement(root, "substitute", player = str(subid))
-        return root
+    def __str__(self):
+        return "Long balls: %1.3f\nWidth in attack: %1.3f\nWidth in defense: "\
+            "%1.3f\nCounter attacks: %1.3f\n" % (self.long_ball, self.width_attack,
+                    self.width_defense, self.counter_attack)
 
 class Formation:
-    def __init__(self, name):
+    def __init__(self, name = ""):
         self.name = name
-        self.tactics = []
+        self.gk = []
+        self.dfc = []
+        self.dfw = []
+        self.mdc = []
+        self.mdw = []
+        self.fw = []
+        self.subs = []
+        self.tactic = Tactic()
+
+    def setup(self, gk, dfc, dfw, mdc, mdw, fw, subs):
+        self.gk = gk
+        self.dfc = dfc
+        self.dfw = dfw
+        self.mdc = mdc
+        self.mdw = mdw
+        self.fw = fw
+        self.subs = subs
+        tot_rating = 0
+        avg_rating = 0
+        pas_rating = 0
+        self.for_rating = 0
+        self.dfc_rating = 0
+        self.dfw_rating = 0
+        self.mdc_rating = 0
+        self.mdw_rating = 0
+        tot_num = len(dfc) + len(dfw) + len(mdc) + len(mdw) + len(fw)
+        for p in dfc:
+            tot_rating += p.rating
+            self.dfc_rating += p.rating
+            pas_rating += p.skills.passing
+        for p in dfw:
+            tot_rating += p.rating
+            self.dfw_rating += p.rating
+            pas_rating += p.skills.passing
+        for p in mdc:
+            tot_rating += p.rating
+            self.mdc_rating += p.rating
+            pas_rating += p.skills.passing
+        for p in mdw:
+            tot_rating += p.rating
+            self.mdw_rating += p.rating
+            pas_rating += p.skills.passing
+        for p in fw:
+            tot_rating += p.rating
+            self.for_rating += p.rating
+            pas_rating += p.skills.passing
+        avg_rating = tot_rating / tot_num
+        # print "pas: %d; avg: %d" % (pas_rating / tot_num, avg_rating)
+        # print "mdc: %d; mdw: %d" % (self.mdc_rating, self.mdw_rating)
+        # print "dfc: %d; for: %d" % (self.dfc_rating, self.for_rating)
+        if not mdw:
+            mdw_avg = 0
+        else:
+            mdw_avg = self.mdw_rating / len(mdw)
+        if not mdc:
+            mdc_avg = 0
+        else:
+            mdc_avg = self.mdc_rating / len(mdc)
+        if not dfw:
+            dfw_avg = 0
+        else:
+            dfw_avg = self.dfw_rating / len(dfw)
+        if not dfc:
+            dfc_avg = 0
+        else:
+            dfc_avg = self.dfc_rating / len(dfc)
+        if not fw:
+            for_avg = 0
+        else:
+            for_avg = self.for_rating / len(fw)
+        diff = 90.0
+        long_balls = 1.0 - (Primitives.clamp(((pas_rating / tot_num) -
+            avg_rating), -diff,
+            diff) / diff * 0.5 + 0.5)
+        width_attack = Primitives.clamp((mdw_avg - mdc_avg), \
+                -diff, diff) / diff * 0.5 + 0.5
+        width_defense = Primitives.clamp((dfw_avg - dfc_avg), \
+                -diff, diff) / diff * 0.5 + 0.5
+        counter_attack = Primitives.clamp((dfc_avg - for_avg), \
+                -diff, diff) / diff * 0.5 + 0.5
+        self.tactic = Tactic(long_balls, width_attack, width_defense,
+                counter_attack)
+        self.name = ("%d-%d-%d" % ((len(dfc) + len(dfw)), (len(mdc) + 
+            len(mdw)), len(fw))) # TODO: more descriptive name
 
     def to_xml(self):
-        root = etree.Element("formation", name = self.name)
-        for tactic in self.tactics:
-            tacticnode = etree.SubElement(root, "tactic", name = tactic.name)
-            tacticnode.append(tactic.pos.to_xml())
-            attribnode = etree.SubElement(tacticnode, "attributes", active = str(tactic.active), risktaking = str(tactic.risktaking), offensive = str(tactic.offensive))
-            for i in range(4):
-                area = tactic.areas[i]
-                if i == 0:
-                    areanode = etree.SubElement(tacticnode, "area", offensive = "0", own = "0")
-                elif i == 1:
-                    areanode = etree.SubElement(tacticnode, "area", offensive = "0", own = "1")
-                elif i == 2:
-                    areanode = etree.SubElement(tacticnode, "area", offensive = "1", own = "0")
-                else:
-                    areanode = etree.SubElement(tacticnode, "area", offensive = "1", own = "1")
-                areanode.set("min_x", str(area.min_x))
-                areanode.set("max_x", str(area.max_x))
-                areanode.set("min_y", str(area.min_y))
-                areanode.set("max_y", str(area.max_y))
-        return root        
+        pass   # TODO
+
+    def __str__(self):
+        return "%s\n%s\n%s\n%s" % (self.name, self.lineupstr(),
+                self.strengthstr(), self.tactic.__str__())
+
+    def strengthstr(self):
+        retval = ""
+        retval += "Central defense: %d\n" % self.dfc_rating
+        retval += "Wing defense: %d\n" % self.dfw_rating
+        retval += "Central middlefield: %d\n" % self.mdc_rating
+        retval += "Wing middlefield: %d\n" % self.mdw_rating
+        retval += "Forwards: %d\n" % self.for_rating
+        return retval
+
+    def lineupstr(self):
+        retval = "Goalkeeper:\n"
+        retval += "\t%s\n" % self.gk[0].name
+        retval += "Centre Backs:\n"
+        for d in self.dfc:
+            retval += "\t%s\n" % d.name
+        retval += "Full Backs:\n"
+        for d in self.dfw:
+            retval += "\t%s\n" % d.name
+        retval += "Centre midfielders:\n"
+        for d in self.mdc:
+            retval += "\t%s\n" % d.name
+        if self.mdw:
+            retval += "Wingers:\n"
+            for d in self.mdw:
+                retval += "\t%s\n" % d.name
+        retval += "Forwards:\n"
+        for d in self.fw:
+            retval += "\t%s\n" % d.name
+        return retval
 
 class Club:
     def __init__(self, name):
@@ -198,45 +314,111 @@ class Club:
         self.kits = []
         self.contracts = []
         self.players = {}
-        self.lineup = Lineup()
         self.org_name = ""
         self.stadium = ""
         self.rating = -1
+        self.formation = Formation()
+        self.player_ratings = []
 
     def __str__(self):
-        return '%s\n%s\n%s\n%s' % (self.name, self.contracts, self.org_name, self.stadium)
+        retval = ""
+        retval += "%s - %s - %s\n" % (self.name, self.org_name, self.stadium)
+        retval += "%-30s %-5s %-5s %-5s %-5s %-5s %-5s %-5s %-5s %-5s %-5s\n" % ("Name",
+                "Stamn", "Speed", "Dextr", "Goalk", "Tackl", "Passn", "Contr",
+                "Headn", "Shoot", "Accur")
+        for p in self.players.values():
+            retval += "%s\n" % str(p)
+        retval += self.formation.__str__()
+        return retval
 
     def get_players(self, plsdb):
         for contract in self.contracts:
             self.players[contract] = plsdb[contract]
+        self.setup_formation()
 
-    def get_formation(self, fmdb):
-        self.formation = fmdb[self.formation_name]
-        for tactic in self.formation.tactics:
-            found = False
-            for plid, player in self.players.items():
-                if player.position.equals(tactic.pos):
-                    self.lineup.positions[tactic.name] = plid
-                    found = True
-                    break
-            if not found:
-                for plid in self.players.keys():
-                    if plid not in self.lineup.positions.values():
-                        self.lineup.positions[tactic.name] = plid
+    def setup_formation(self):
+        """Setups the formation based on given players.
+
+        This simply takes the best players the club has and assigns them
+        appropriately. A better way (TODO) would be to also consider the
+        areas on the pitch where players are needed, even if the best players
+        aren't available on those areas.
+        """
+        if not self.player_ratings:
+            self.setup_player_ratings()
+        gk = []
+        dfc = []
+        dfw = []
+        mdc = []
+        mdw = []
+        fw = []
+        subs = []
+        for v, p in self.player_ratings:
+            tot_pls = len(dfc) + len(mdc) + len(fw)
+            if len(gk) < 1 and p.position.pos == player_position_type.Goalkeeper:
+                gk.append(p)
+            elif tot_pls >= 10:
+                subs.append(p)
+            elif len(dfc) < 6 and p.position.pos == player_position_type.Defender:
+                dfc.append(p)
+            elif len(mdc) < 5 and p.position.pos == player_position_type.Midfielder:
+                mdc.append(p)
+            elif len(mdw) < 4 and p.position.pos == player_position_type.Forward:
+                fw.append(p)
+            else:
+                subs.append(p)
+        # print "tot pls: %d" % tot_pls
+        self.subs_to_pos(subs, dfc, player_position_type.Defender, 3)
+        self.subs_to_pos(subs, mdc, player_position_type.Midfielder, 2)
+        self.subs_to_pos(subs, fw, player_position_type.Forward, 1)
+        while len(dfc) + len(mdc) + len(fw) > 10:
+            if len(dfc) > 3: # just take the first position that fits
+                subs.append(dfc.pop())
+            elif len(mdc) > 2:
+                subs.append(mdc.pop())
+            elif len(fw) > 1:
+                subs.append(fw.pop())
+        self.pos_to_wing(dfc, dfw)
+        self.pos_to_wing(mdc, mdw)
+        self.formation.setup(gk, dfc, dfw, mdc, mdw, fw, subs)
+
+    def pos_to_wing(self, pos, wings):
+        if len(pos) < 3:
+            return
+        for p in pos:
+            if p.position.winger:
+                wings.append(p)
+                pos.remove(p)
+                if len(wings) >= 2:
+                    return
+        while len(wings) < 2 and len(pos) > 0:
+            wings.append(pos.pop(0))
+
+    def subs_to_pos(self, subs, pos, postype, min):
+        if len(pos) < min:
+            for p in subs:
+                if p.position.pos == postype:
+                    pos.append(p)
+                    subs.remove(p)
+                    if len(pos) == min:
                         break
-        for plid, player in self.players.items():
-            if plid not in self.lineup.positions.values():
-                self.lineup.substitutes.append(plid)
+            if len(pos) < min:
+                raise ValueError("%s: Not enough players for position %d!" %
+                        (self.name, postype))
 
-    def calculate_rating(self):
-        self.rating = 0
-        pls = []
-        min_val = 0
-        num_pls = 0
+    def setup_player_ratings(self):
+        self.player_ratings = []
         for p in self.players.values():
             val = p.get_rating()
-            pls.append((val, p))
-        chosen = sorted(pls)[:12]
+            self.player_ratings.append((val, p))
+        self.player_ratings.sort()
+        self.player_ratings.reverse()
+
+    def calculate_rating(self):
+        if not self.player_ratings:
+            self.setup_player_ratings()
+        self.rating = 0
+        chosen = self.player_ratings[:12]
         for v, p in chosen:
             self.rating += v
 

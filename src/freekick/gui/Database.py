@@ -41,7 +41,6 @@ def get_db(path):
     for club in db.clubs.values():
         if club.name != "unknown":
             club.get_players(db.players)
-            club.get_formation(db.formations)
 
     for country in db.countries.values():
         for region in country.regions.values():
@@ -117,7 +116,6 @@ def get_clubs(root):
 def parse_club(clubnode):
     name = clubnode.get("name")
     club = SoccerData.Club(name)
-    club.formation_name = "4-4-2"
     for node in clubnode:
         if node.tag == "coach":
             club.coach = SoccerData.Coach(node.get("name"))
@@ -131,8 +129,6 @@ def parse_club(clubnode):
             club.stadium = node.get("name")
         elif node.tag == "contracts":
             club.contracts = parse_contracts(node)
-        elif node.tag == "formation":
-            club.formation_name = node.get("name") # TODO: add this to the XML files
     return name, club
 
 def parse_contracts(contractsnode):

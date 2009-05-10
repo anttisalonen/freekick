@@ -20,6 +20,13 @@ def ziplists(ls):
             ll.append(l[i])
     return ll
 
+def clamp(v, mn, mx):
+    if v < mn:
+        return mn
+    if v > mx:
+        return mx
+    return v
+
 def switch_tuple(t):
     t1, t2 = t
     return t2, t1

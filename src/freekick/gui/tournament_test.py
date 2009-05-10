@@ -152,8 +152,8 @@ def main():
             w.new_schedule()
 
 def players_match(match, t):
+    mr = match.play_tactical_match()
     t.pretty_print()
-    mr = match.play_match()
     print match.date, match
     f = raw_input()
     return mr
