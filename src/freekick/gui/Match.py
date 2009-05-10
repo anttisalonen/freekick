@@ -262,6 +262,9 @@ class Match:
             self.mr = self.generate_simulated_second_match_result()
         return self.mr
 
+    def has_club(self, clubname):
+        return self.club1.name == clubname or self.club2.name == clubname
+
     def generate_simulated_second_match_result(self):
         """Create a result that fits the rules for second leg."""
         res, strength = self.generate_general_result(False)

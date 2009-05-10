@@ -60,47 +60,51 @@ def get_tournaments():
 
 class world:
     def __init__(self, tournaments, db):
-        self.tournaments = tournaments
+        self.tournaments = tournaments.values()
         self.db = db
         self.year = 2007
-        self.new_season = len(tournaments) > 1
-        self.create_xml = False
-        self.show_each_round = False
         self.num_finished_seasons = 0
-        self.prepare_tournament_templates()
+        self.prepare_tournament_templates(tournaments)
         self.schedule = Schedule.Schedule([])
         self.schedule.add_season_to_schedule(get_startdate(self.year),
-                get_enddate(self.year), self.tournaments.values(), self.db)
+                get_enddate(self.year), self.tournaments, self.db)
         self.finished_tournaments = []
 
-    def prepare_tournament_templates(self):
-        self.tournament_templates = copy.deepcopy(self.tournaments)
+    def prepare_tournament_templates(self, ts):
+        self.tournament_templates = copy.deepcopy(ts)
         for t in self.tournament_templates.values():
             t.clear_clubs()
 
     def next_round(self):
         for d, t in self.schedule.next_event():
-            yield t.get_next_round()
+            yield d, t, t.get_next_round()
             t.round_played(db) # return value ignored
-            if self.show_each_round:
-                t.pretty_print()
-                f = raw_input()
             if t.finished():
                 print "Tournament '%s' finished on %s" % (t.name, d)
                 t.pretty_print()
                 f = raw_input()
                 self.finished_tournaments.append(t)
 
+    def get_schedule(self, clubname):
+        ret = []
+        for t in self.tournaments:
+            for stage in t.stages:
+                for round in stage.rounds:
+                    for match in round:
+                        if match.has_club(clubname):
+                            ret.append(match)
+        return ret
+
     def new_schedule(self):
         self.schedule = Schedule.Schedule([])
         self.num_finished_seasons += 1
-        new_tournaments = create_next_season(self.tournament_templates, self.finished_tournaments)
+        self.tournaments = create_next_season(self.tournament_templates, self.finished_tournaments)
         self.finished_tournaments = []
         self.schedule.add_season_to_schedule(
                 get_startdate(self.year + self.num_finished_seasons),
                 get_enddate(self.year + self.num_finished_seasons), 
-                new_tournaments, self.db)
-        for newt in new_tournaments:
+                self.tournaments, self.db)
+        for newt in self.tournaments:
             newt.pretty_print()
         f = raw_input()
 
@@ -115,23 +119,44 @@ def main():
         raise KeyError("Tournament/country not found")
 
     w = world(tournaments, db)
+    create_xml = False
+    show_each_round = False
+    new_season = len(tournaments) > 1
+
+    plclub = "Sunderland"
     
     while True:
+        ms = w.get_schedule(plclub)
+        for m in ms:
+            print m
+        f = raw_input()
         # f = raw_input()
-        for round in w.next_round():
+        for d, t, round in w.next_round():
             for match in round:
-                # match.date = d
+                match.date = d     # TODO: move this somewhere else
                 match.time = datetime.time(18, 00)
                 # f = raw_input()
-                if w.create_xml:
+                if show_each_round:
+                    t.pretty_print()
+                    f = raw_input()
+                if create_xml:
                     # t.pretty_print()
                     match.create_temp_xml(db)
-                mr = match.play_match()
-                # print d, match
-        if not w.new_season:
+                if match.has_club(plclub):
+                    mr = players_match(match, t)
+                else:
+                    mr = match.play_match()
+        if not new_season:
             break
         else:
             w.new_schedule()
+
+def players_match(match, t):
+    t.pretty_print()
+    mr = match.play_match()
+    print match.date, match
+    f = raw_input()
+    return mr
 
 def create_next_season(templates, oldts):
     """Create the tournaments of the next season.

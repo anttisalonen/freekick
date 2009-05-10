@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 import SoccerData
-import Match
 import Stage
 
 class Tournament:
