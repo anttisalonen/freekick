@@ -130,7 +130,6 @@ def main():
         for m in ms:
             print m
         f = raw_input()
-        # f = raw_input()
         for d, t, round in w.next_round():
             for match in round:
                 match.date = d     # TODO: move this somewhere else
@@ -142,6 +141,7 @@ def main():
                 if create_xml:
                     # t.pretty_print()
                     match.create_temp_xml(db)
+                    f = raw_input()
                 if match.has_club(plclub):
                     mr = players_match(match, t)
                 else:

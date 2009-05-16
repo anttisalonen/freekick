@@ -263,8 +263,8 @@ class Match:
         return self.mr
 
     def play_tactical_match(self):
-        print self.club1.lineup
-        print self.club2.lineup
+        print self.club1
+        print self.club2
         return self.play_match()
 
     def has_club(self, clubname):
@@ -467,13 +467,6 @@ class Match:
         formation2node.set("owner", self.club2.name)
         root.append(formation1node)
         root.append(formation2node)
-
-        lineup1node = self.club1.lineup.to_xml()
-        lineup2node = self.club2.lineup.to_xml()
-        lineup1node.set("owner", self.club1.name)
-        lineup2node.set("owner", self.club2.name)
-        root.append(lineup1node)
-        root.append(lineup2node)
 
         temp_file.write(etree.tostring(root, pretty_print = True))
         temp_file.flush()
