@@ -140,7 +140,7 @@ class Stage:
             plan = []
             i = False
             l_sw = [Primitives.switch_tuple(cp) for cp in l]
-            for i in range(self.setup.rounds):
+            for ind in range(self.setup.rounds):
                 i = not i
                 if i:
                     plan.append(l)
