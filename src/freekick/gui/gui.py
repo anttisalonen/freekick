@@ -15,6 +15,7 @@ from PyQt4 import Qt as qt
 from Primitives import sorted_dict_values
 import Database
 import SoccerData
+import Stage
 import Tournament
 
 class Lineups(QtGui.QWidget):
@@ -340,10 +341,10 @@ class DIY(QtGui.QWidget):
         for stage in range(self.max_num_stages):
             if self.num_clubs_boxes[stage].value() < 1:
                 break
-            s_type = Tournament.StageType.League
+            s_type = Stage.StageType.League
             if str(self.stage_type_boxes[stage].currentText()) == "Knockout":
-                s_type = Tournament.StageType.Cup
-            new_stage = Tournament.Stage(SoccerData.stage_number_to_stage_name(stage, self.max_num_stages), s_type)
+                s_type = Stage.StageType.Cup
+            new_stage = Stage.Stage(SoccerData.stage_number_to_stage_name(stage, self.max_num_stages), s_type)
             new_stage.setup.participantnum = self.additional_clubs_boxes[stage].value() + self.num_clubs_boxes[stage].value()
             t_stages.append(new_stage)
         self.tournament = Tournament.Tournament("DIY Tournament")
@@ -367,7 +368,7 @@ class TournamentScreen(QtGui.QWidget):
         self.bottom_buttons_box = QtGui.QHBoxLayout()
 
         self.this_stage = tournament.stages[0]
-        if self.this_stage.type == Tournament.StageType.Cup:
+        if self.this_stage.type == Stage.StageType.Cup:
             self.matches_box = QtGui.QHBoxLayout()
             self.left_matches_box = QtGui.QVBoxLayout()
             self.right_matches_box = QtGui.QVBoxLayout()
@@ -462,7 +463,7 @@ class MainMenu(QtGui.QWidget):
 db = SoccerData.DB()
 
 if __name__ == '__main__':
-    database_path = "../share/DB/"
+    database_path = "../../../share/DB/"
     db = Database.get_db(database_path)
     app = QtGui.QApplication(sys.argv)
     mm = MainMenu()
