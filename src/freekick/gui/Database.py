@@ -13,45 +13,48 @@ import SoccerData
 import Match
 
 def get_db(path):
-    db = SoccerData.DB()
+    """Reads the files in given path and parses the database.
+
+    Returns the parsed database."""
+    dbase = SoccerData.DB()
     xml_list = glob.glob(os.path.join(path, '*.xml'))
     for fn in xml_list:
         tree = etree.parse(fn)
         root = tree.getroot()
         if root.tag == "Clubs":
             print "Parsing clubs in %s" % fn
-            db.clubs.update(get_clubs(root))
+            dbase.clubs.update(get_clubs(root))
         elif root.tag == "Players":
             print "Parsing players in %s" % fn
-            db.players.update(get_players(root))
+            dbase.players.update(get_players(root))
         elif root.tag == "Countries":
             print "Parsing countries in %s" % fn
-            db.countries.update(get_countries(root))
+            dbase.countries.update(get_countries(root))
         elif root.tag == "Tournaments":
             print "Parsing tournaments in %s" % fn
-            db.tournaments.update(get_tournaments(root))
+            dbase.tournaments.update(get_tournaments(root))
         elif root.tag == "Formations":
             print "Parsing tournaments in %s" % fn
-            db.formations.update(get_formations(root))
+            dbase.formations.update(get_formations(root))
         elif root.tag == "Pitches":
             print "Parsing pitches in %s" % fn
-            db.pitches.update(get_pitches(root))
+            dbase.pitches.update(get_pitches(root))
         else:
             print "Don't know how to parse %s" % fn
-    for club in db.clubs.values():
+    for club in dbase.clubs.values():
         if club.name != "unknown":
-            club.get_players(db.players)
+            club.get_players(dbase.players)
 
-    for country in db.countries.values():
+    for country in dbase.countries.values():
         for region in country.regions.values():
-            db.stadiums.update(region.stadiums)
+            dbase.stadiums.update(region.stadiums)
 
-    print "%d stadiums parsed" % len(db.stadiums)
-    print "%d clubs parsed" % len(db.clubs)
-    print "%d countries parsed" % len(db.countries)
-    print "%d players parsed" % len(db.players)
-    print "%d DIY tournaments parsed" % len(db.tournaments)
-    return db
+    print "%d stadiums parsed" % len(dbase.stadiums)
+    print "%d clubs parsed" % len(dbase.clubs)
+    print "%d countries parsed" % len(dbase.countries)
+    print "%d players parsed" % len(dbase.players)
+    print "%d DIY tournaments parsed" % len(dbase.tournaments)
+    return dbase
 
 def get_players(root):
     players = {}
@@ -68,7 +71,10 @@ def parse_player(plnode):
             pl.name = node.get("name")
             for prnode in node:
                 if prnode.tag == "birth":
-                    pl.birthdate = datetime.date(int(prnode.get("year")), int(prnode.get("month")), int(prnode.get("day")))
+                    pl.birthdate = datetime.date(
+                            int(prnode.get("year")), 
+                            int(prnode.get("month")), 
+                            int(prnode.get("day")))
                 elif prnode.tag == "skin":
                     pl.skin_color = parse_color(prnode)
                 elif prnode.tag == "hair":
@@ -274,7 +280,11 @@ def parse_stage(stage_node):
     stage = Stage.Stage(name, type)
     for node in stage_node:
         if node.tag == "setup":
-            for n in ["seeded", "rounds", "participantnum", "groups", "pointsperwin"]:
+            for n in ["seeded", 
+                    "rounds", 
+                    "participantnum", 
+                    "groups", 
+                    "pointsperwin"]:
                 a = node.get(n)
                 if a != None:
                     setattr(stage.setup, n, int(a))
@@ -287,19 +297,24 @@ def parse_stage(stage_node):
             a = node.get("replays")
             if a != None:
                 if a == "1":
-                    stage.setup.matchrules.replays = Match.TiebreakerType.After90Min
+                    stage.setup.matchrules.replays = \
+                            Match.TiebreakerType.After90Min
                 elif a == "2":
-                    stage.setup.matchrules.replays = Match.TiebreakerType.AfterET
+                    stage.setup.matchrules.replays = \
+                            Match.TiebreakerType.AfterET
             a = node.get("awaygoals")
             if a != None:
                 if a == "1":
-                    stage.setup.matchrules.awaygoals = Match.TiebreakerType.After90Min
+                    stage.setup.matchrules.awaygoals = \
+                            Match.TiebreakerType.After90Min
                 elif a == "2":
-                    stage.setup.matchrules.awaygoals = Match.TiebreakerType.AfterET
+                    stage.setup.matchrules.awaygoals = \
+                            Match.TiebreakerType.AfterET
         elif node.tag == "trophy":
             stage.trophy = SoccerData.Trophy(node.get("name"))
         elif node.tag == "attendances":
-            stage.attendances = parse_list(node, "attendance", parse_attendance)
+            stage.attendances = parse_list(
+                    node, "attendance", parse_attendance)
         elif node.tag == "cuppr":
             exchange = parse_exchange(node)
             stage.promotions.append(exchange)
@@ -324,7 +339,8 @@ def parse_stage(stage_node):
     return stage
 
 def parse_attendance(attendance_node):
-    return attendance_node.get("tournament"), attendance_node.get("stage")
+    return attendance_node.get("tournament"), \
+            attendance_node.get("stage")
 
 def parse_list(top_node, child_node_name, f):
     l = []
@@ -374,7 +390,11 @@ def parse_formation(fnode):
                         index += 1
                     if tnode.get("own") != "0":
                         index += 2
-                    tactic.areas[index] = Primitives.Square(tnode.get("min_x"), tnode.get("max_x"), tnode.get("min_y"), tnode.get("max_y"))
+                    tactic.areas[index] = Primitives.Square(
+                            tnode.get("min_x"), 
+                            tnode.get("max_x"), 
+                            tnode.get("min_y"), 
+                            tnode.get("max_y"))
             formation.tactics.append(tactic)
     return fname, formation
 
@@ -396,16 +416,16 @@ if __name__ == '__main__':
     if len(sys.argv) < 2:
         print_usage()
         sys.exit(1)
-    db = get_db(sys.argv[1])
+    dbase = get_db(sys.argv[1])
 
-    for k, v in db.tournaments.iteritems():
+    for k, v in dbase.tournaments.iteritems():
         print k, len(v.stages)
-    for k, v in db.countries.iteritems():
+    for k, v in dbase.countries.iteritems():
         print k,
         for t in v.tournaments:
             print t.name, len(t.stages)
 
 """
-    for pl in db.players:
+    for pl in dbase.players:
         print pl
 """
