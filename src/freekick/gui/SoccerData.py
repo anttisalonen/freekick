@@ -6,6 +6,8 @@ from lxml import etree
 import Primitives
 import Match
 
+total_players = 11
+
 class player_position_type:
     Goalkeeper = 0
     Defender = 1
@@ -170,7 +172,52 @@ class Kit:
         socksnode.append(self.socks_color.to_xml())
         return kitnode
 
-class Tactic:
+class PlayerTactic:
+    """PlayerTactic class.
+
+    Each PlayerTactic belongs to a specific player. PlayerTactic includes
+    the general position on the pitch for the player as well as offensiveness
+    rating. PlayerTactic is generic - it can be saved, loaded and reused."""
+    def __init__(self, name = ""):
+        self.name = name
+        self.pos = 0.5, 0.5
+        self.offensive = 0.5
+
+    def to_xml(self):
+        root = etree.Element("Tactic", name = self.name)
+        xcoord, ycoord = self.pos
+        posnode = etree.SubElement(root, "pos", x = str(xcoord), y =
+                str(ycoord))
+        attrnode = etree.SubElement(root, "attr", offensive =
+                str(self.offensive))
+        return root
+
+class PitchTactic:
+    """PitchTactic is a collection of all the player tactics of the players
+    plus name."""
+    def __init__(self, name, num_d, num_m, num_f, player_tactics):
+        self.name = name
+        self.player_tactics = player_tactics
+        self.num_d = num_d
+        self.num_m = num_m
+        self.num_f = num_f
+
+    def to_xml(self):
+        root = etree.Element("PitchTactic")
+        root.set("name", self.name)
+        root.set("defenders", str(self.num_d))
+        root.set("midfielders", str(self.num_m))
+        root.set("forwards", str(self.num_f))
+        for tac in self.player_tactics:
+            root.append(tac.to_xml())
+        return root
+
+class GeneralTactic:
+    """GeneralTactic class defines club-wide tactics.
+
+    This consists of a few attributes that influence player decisions.
+    Note that GeneralTactic is generic - it can be saved, loaded and 
+    reused."""
     def __init__(self, long_ball = 0.5, width_attack = 0.5, 
             width_defense = 0.5, counter_attack = 0.5):
         self.long_ball = long_ball
@@ -183,130 +230,63 @@ class Tactic:
             "%1.3f\nCounter attacks: %1.3f\n" % (self.long_ball, self.width_attack,
                     self.width_defense, self.counter_attack)
 
-class Formation:
-    def __init__(self, name = ""):
-        self.name = name
-        self.gk = []
-        self.dfc = []
-        self.dfw = []
-        self.mdc = []
-        self.mdw = []
-        self.fw = []
-        self.subs = []
-        self.tactic = Tactic()
+class Lineup:
+    """Lineup class.
 
-    def setup(self, gk, dfc, dfw, mdc, mdw, fw, subs):
-        self.gk = gk
-        self.dfc = dfc
-        self.dfw = dfw
-        self.mdc = mdc
-        self.mdw = mdw
-        self.fw = fw
-        self.subs = subs
-        tot_rating = 0
-        avg_rating = 0
-        pas_rating = 0
-        self.for_rating = 0
-        self.dfc_rating = 0
-        self.dfw_rating = 0
-        self.mdc_rating = 0
-        self.mdw_rating = 0
-        tot_num = len(dfc) + len(dfw) + len(mdc) + len(mdw) + len(fw)
-        for p in dfc:
-            tot_rating += p.rating
-            self.dfc_rating += p.rating
-            pas_rating += p.skills.passing
-        for p in dfw:
-            tot_rating += p.rating
-            self.dfw_rating += p.rating
-            pas_rating += p.skills.passing
-        for p in mdc:
-            tot_rating += p.rating
-            self.mdc_rating += p.rating
-            pas_rating += p.skills.passing
-        for p in mdw:
-            tot_rating += p.rating
-            self.mdw_rating += p.rating
-            pas_rating += p.skills.passing
-        for p in fw:
-            tot_rating += p.rating
-            self.for_rating += p.rating
-            pas_rating += p.skills.passing
-        avg_rating = tot_rating / tot_num
-        # print "pas: %d; avg: %d" % (pas_rating / tot_num, avg_rating)
-        # print "mdc: %d; mdw: %d" % (self.mdc_rating, self.mdw_rating)
-        # print "dfc: %d; for: %d" % (self.dfc_rating, self.for_rating)
-        if not mdw:
-            mdw_avg = 0
+    This is what you give to the referee: list of people that are allowed to 
+    enter the pitch and the bench. Therefore it is also club specific."""
+    def __init__(self):
+        """Sets up an empty lineup with no players nor substitutes."""
+        self.pitch_players = []
+        self.substitutes = []
+
+    def add_player(self, playerid, pitchplayer):
+        if pitchplayer:
+            self.pitch_players.append(playerid)
         else:
-            mdw_avg = self.mdw_rating / len(mdw)
-        if not mdc:
-            mdc_avg = 0
-        else:
-            mdc_avg = self.mdc_rating / len(mdc)
-        if not dfw:
-            dfw_avg = 0
-        else:
-            dfw_avg = self.dfw_rating / len(dfw)
-        if not dfc:
-            dfc_avg = 0
-        else:
-            dfc_avg = self.dfc_rating / len(dfc)
-        if not fw:
-            for_avg = 0
-        else:
-            for_avg = self.for_rating / len(fw)
-        diff = 90.0
-        long_balls = 1.0 - (Primitives.clamp(((pas_rating / tot_num) -
-            avg_rating), -diff,
-            diff) / diff * 0.5 + 0.5)
-        width_attack = Primitives.clamp((mdw_avg - mdc_avg), \
-                -diff, diff) / diff * 0.5 + 0.5
-        width_defense = Primitives.clamp((dfw_avg - dfc_avg), \
-                -diff, diff) / diff * 0.5 + 0.5
-        counter_attack = Primitives.clamp((dfc_avg - for_avg), \
-                -diff, diff) / diff * 0.5 + 0.5
-        self.tactic = Tactic(long_balls, width_attack, width_defense,
-                counter_attack)
-        self.name = ("%d-%d-%d" % ((len(dfc) + len(dfw)), (len(mdc) + 
-            len(mdw)), len(fw))) # TODO: more descriptive name
+            self.substitutes.append(playerid)
+
+    def is_valid(self, max_subs):
+        return self.pitch_players
+
+class CompleteTactic:
+    """CompleteTactic consists of the general, pitch-wide tactic as well
+    as all the player specific tactics. Therefore it is generic - it can
+    be saved, loaded and reused."""
+    def __init__(self, general_tactic, player_tactics):
+        """Constructs CompleteTactic from general tactic and player 
+        tactics."""
+        self.general_tactic = general_tactic
+        self.player_tactics = player_tactics
+
+class Formation:
+    """Formation class is the main class a club takes with itself to a match.
+
+    It includes a) the lineup, and b) CompleteTactic. Lineup is the list of
+    attending players and 'open' information. CompleteTactic includes all the
+    tactical decisions by the club. Formation maps the player specific, 
+    generic tactics to the individual players in the lineup. While Lineup is 
+    club specific, CompleteTactic is generic.
+    """
+    def __init__(self, name, general_tactic, player_tactics):
+        self.name = name
+        self.tactic = GeneralTactic(general_tactic, player_tactics)
+        self.lineup = Lineup()
+        self.tacticmap = {}
+
+    def add_player(self, playerid, pitchplayer, playertacticname = ""):
+        self.lineup.add_player(playerid, pitchplayer)
+        self.tacticmap[playerid] = playertacticname
 
     def to_xml(self):
         pass   # TODO
 
-    def __str__(self):
-        return "%s\n%s\n%s\n%s" % (self.name, self.lineupstr(),
-                self.strengthstr(), self.tactic.__str__())
-
-    def strengthstr(self):
-        retval = ""
-        retval += "Central defense: %d\n" % self.dfc_rating
-        retval += "Wing defense: %d\n" % self.dfw_rating
-        retval += "Central middlefield: %d\n" % self.mdc_rating
-        retval += "Wing middlefield: %d\n" % self.mdw_rating
-        retval += "Forwards: %d\n" % self.for_rating
-        return retval
-
-    def lineupstr(self):
-        retval = "Goalkeeper:\n"
-        retval += "\t%s\n" % self.gk[0].name
-        retval += "Centre Backs:\n"
-        for d in self.dfc:
-            retval += "\t%s\n" % d.name
-        retval += "Full Backs:\n"
-        for d in self.dfw:
-            retval += "\t%s\n" % d.name
-        retval += "Centre midfielders:\n"
-        for d in self.mdc:
-            retval += "\t%s\n" % d.name
-        if self.mdw:
-            retval += "Wingers:\n"
-            for d in self.mdw:
-                retval += "\t%s\n" % d.name
-        retval += "Forwards:\n"
-        for d in self.fw:
-            retval += "\t%s\n" % d.name
-        return retval
+    def setup(self, gk, dfc, dfw, mdc, mdw, fw, subs):
+        for pl in gk + dfc + dfw + mdc + mdw + fw:
+            self.lineup.add_player(pl.id, True)
+            # self.tacticmap[pl.id] = 
+        for pl in subs:
+            self.lineup.add_player(pl.id, False)
 
 class Club:
     def __init__(self, name):
@@ -317,7 +297,7 @@ class Club:
         self.org_name = ""
         self.stadium = ""
         self.rating = -1
-        self.formation = Formation()
+        # self.formation = Formation()
         self.player_ratings = []
 
     def __str__(self):
@@ -328,13 +308,13 @@ class Club:
                 "Headn", "Shoot", "Accur")
         for p in self.players.values():
             retval += "%s\n" % str(p)
-        retval += self.formation.__str__()
+        # retval += self.formation.__str__()
         return retval
 
     def get_players(self, plsdb):
         for contract in self.contracts:
             self.players[contract] = plsdb[contract]
-        self.setup_formation()
+        # self.setup_formation()
 
     def setup_formation(self):
         """Setups the formation based on given players.
