@@ -144,7 +144,7 @@ class MainApplication:
             raise KeyError("Tournament/country not found")
 
         world = World(tournaments, self.dbase)
-        create_xml = False
+        create_xml = True
         show_each_round = False
         new_season = len(tournaments) > 1
 

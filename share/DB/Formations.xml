@@ -1,0 +1,674 @@
+<PitchTactics>
+  <PitchTactic name="3-2-5" defenders="3" midfielders="2" forwards="5">
+    <Tactic name="Right full back">
+      <pos y="0.25" x="0.15"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Left full back">
+      <pos y="0.25" x="0.85"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Central back">
+      <pos y="0.2" x="0.5"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Right midfielder">
+      <pos y="0.45" x="0.4"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left midfielder">
+      <pos y="0.45" x="0.6"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Central forward">
+      <pos y="0.75" x="0.5"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Right forward">
+      <pos y="0.75" x="0.35"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Left forward">
+      <pos y="0.75" x="0.65"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Right wing forward">
+      <pos y="0.7" x="0.2"/>
+      <attr offensive="0.7"/>
+    </Tactic>
+    <Tactic name="Left wing forward">
+      <pos y="0.7" x="0.8"/>
+      <attr offensive="0.7"/>
+    </Tactic>
+  </PitchTactic>
+  <PitchTactic name="3-3-4" defenders="3" midfielders="3" forwards="4">
+    <Tactic name="Right full back">
+      <pos y="0.25" x="0.15"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Left full back">
+      <pos y="0.25" x="0.85"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Central back">
+      <pos y="0.2" x="0.5"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Central midfielder">
+      <pos y="0.5" x="0.5"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right winger">
+      <pos y="0.55" x="0.2"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left winger">
+      <pos y="0.55" x="0.8"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right forward">
+      <pos y="0.75" x="0.35"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Left forward">
+      <pos y="0.75" x="0.65"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Right wing forward">
+      <pos y="0.7" x="0.2"/>
+      <attr offensive="0.7"/>
+    </Tactic>
+    <Tactic name="Left wing forward">
+      <pos y="0.7" x="0.8"/>
+      <attr offensive="0.7"/>
+    </Tactic>
+  </PitchTactic>
+  <PitchTactic name="3-4-3" defenders="3" midfielders="4" forwards="3">
+    <Tactic name="Right full back">
+      <pos y="0.25" x="0.15"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Left full back">
+      <pos y="0.25" x="0.85"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Central back">
+      <pos y="0.2" x="0.5"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Right midfielder">
+      <pos y="0.45" x="0.4"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left midfielder">
+      <pos y="0.45" x="0.6"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right winger">
+      <pos y="0.55" x="0.2"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left winger">
+      <pos y="0.55" x="0.8"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Central forward">
+      <pos y="0.75" x="0.5"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Right forward">
+      <pos y="0.75" x="0.35"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Left forward">
+      <pos y="0.75" x="0.65"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+  </PitchTactic>
+  <PitchTactic name="3-5-2" defenders="3" midfielders="5" forwards="2">
+    <Tactic name="Right full back">
+      <pos y="0.25" x="0.15"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Left full back">
+      <pos y="0.25" x="0.85"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Central back">
+      <pos y="0.2" x="0.5"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Central midfielder">
+      <pos y="0.5" x="0.5"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right winger">
+      <pos y="0.55" x="0.2"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left winger">
+      <pos y="0.55" x="0.8"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right supporting midfielder">
+      <pos y="0.5" x="0.3"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left supporting midfielder">
+      <pos y="0.5" x="0.7"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right forward">
+      <pos y="0.75" x="0.35"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Left forward">
+      <pos y="0.75" x="0.65"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+  </PitchTactic>
+  <PitchTactic name="4-1-5" defenders="4" midfielders="1" forwards="5">
+    <Tactic name="Right full back">
+      <pos y="0.25" x="0.15"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Left full back">
+      <pos y="0.25" x="0.85"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Right back">
+      <pos y="0.2" x="0.3"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Left back">
+      <pos y="0.2" x="0.7"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Central midfielder">
+      <pos y="0.5" x="0.5"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Central forward">
+      <pos y="0.75" x="0.5"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Right forward">
+      <pos y="0.75" x="0.35"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Left forward">
+      <pos y="0.75" x="0.65"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Right wing forward">
+      <pos y="0.7" x="0.2"/>
+      <attr offensive="0.7"/>
+    </Tactic>
+    <Tactic name="Left wing forward">
+      <pos y="0.7" x="0.8"/>
+      <attr offensive="0.7"/>
+    </Tactic>
+  </PitchTactic>
+  <PitchTactic name="4-2-4" defenders="4" midfielders="2" forwards="4">
+    <Tactic name="Right full back">
+      <pos y="0.25" x="0.15"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Left full back">
+      <pos y="0.25" x="0.85"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Right back">
+      <pos y="0.2" x="0.3"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Left back">
+      <pos y="0.2" x="0.7"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Right midfielder">
+      <pos y="0.45" x="0.4"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left midfielder">
+      <pos y="0.45" x="0.6"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right forward">
+      <pos y="0.75" x="0.35"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Left forward">
+      <pos y="0.75" x="0.65"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Right wing forward">
+      <pos y="0.7" x="0.2"/>
+      <attr offensive="0.7"/>
+    </Tactic>
+    <Tactic name="Left wing forward">
+      <pos y="0.7" x="0.8"/>
+      <attr offensive="0.7"/>
+    </Tactic>
+  </PitchTactic>
+  <PitchTactic name="4-3-3" defenders="4" midfielders="3" forwards="3">
+    <Tactic name="Right full back">
+      <pos y="0.25" x="0.15"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Left full back">
+      <pos y="0.25" x="0.85"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Right back">
+      <pos y="0.2" x="0.3"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Left back">
+      <pos y="0.2" x="0.7"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Central midfielder">
+      <pos y="0.5" x="0.5"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right winger">
+      <pos y="0.55" x="0.2"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left winger">
+      <pos y="0.55" x="0.8"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Central forward">
+      <pos y="0.75" x="0.5"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Right forward">
+      <pos y="0.75" x="0.35"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Left forward">
+      <pos y="0.75" x="0.65"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+  </PitchTactic>
+  <PitchTactic name="4-4-2" defenders="4" midfielders="4" forwards="2">
+    <Tactic name="Right full back">
+      <pos y="0.25" x="0.15"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Left full back">
+      <pos y="0.25" x="0.85"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Right back">
+      <pos y="0.2" x="0.3"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Left back">
+      <pos y="0.2" x="0.7"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Right midfielder">
+      <pos y="0.45" x="0.4"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left midfielder">
+      <pos y="0.45" x="0.6"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right winger">
+      <pos y="0.55" x="0.2"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left winger">
+      <pos y="0.55" x="0.8"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right forward">
+      <pos y="0.75" x="0.35"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Left forward">
+      <pos y="0.75" x="0.65"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+  </PitchTactic>
+  <PitchTactic name="4-5-1" defenders="4" midfielders="5" forwards="1">
+    <Tactic name="Right full back">
+      <pos y="0.25" x="0.15"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Left full back">
+      <pos y="0.25" x="0.85"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Right back">
+      <pos y="0.2" x="0.3"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Left back">
+      <pos y="0.2" x="0.7"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Central midfielder">
+      <pos y="0.5" x="0.5"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right winger">
+      <pos y="0.55" x="0.2"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left winger">
+      <pos y="0.55" x="0.8"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right supporting midfielder">
+      <pos y="0.5" x="0.3"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left supporting midfielder">
+      <pos y="0.5" x="0.7"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Central forward">
+      <pos y="0.75" x="0.5"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+  </PitchTactic>
+  <PitchTactic name="5-1-4" defenders="5" midfielders="1" forwards="4">
+    <Tactic name="Right full back">
+      <pos y="0.25" x="0.15"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Left full back">
+      <pos y="0.25" x="0.85"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Central back">
+      <pos y="0.2" x="0.5"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Right supporting back">
+      <pos y="0.22" x="0.35"/>
+      <attr offensive="0.3"/>
+    </Tactic>
+    <Tactic name="Left supporting back">
+      <pos y="0.22" x="0.65"/>
+      <attr offensive="0.3"/>
+    </Tactic>
+    <Tactic name="Central midfielder">
+      <pos y="0.5" x="0.5"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right forward">
+      <pos y="0.75" x="0.35"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Left forward">
+      <pos y="0.75" x="0.65"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Right wing forward">
+      <pos y="0.7" x="0.2"/>
+      <attr offensive="0.7"/>
+    </Tactic>
+    <Tactic name="Left wing forward">
+      <pos y="0.7" x="0.8"/>
+      <attr offensive="0.7"/>
+    </Tactic>
+  </PitchTactic>
+  <PitchTactic name="5-2-3" defenders="5" midfielders="2" forwards="3">
+    <Tactic name="Right full back">
+      <pos y="0.25" x="0.15"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Left full back">
+      <pos y="0.25" x="0.85"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Central back">
+      <pos y="0.2" x="0.5"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Right supporting back">
+      <pos y="0.22" x="0.35"/>
+      <attr offensive="0.3"/>
+    </Tactic>
+    <Tactic name="Left supporting back">
+      <pos y="0.22" x="0.65"/>
+      <attr offensive="0.3"/>
+    </Tactic>
+    <Tactic name="Right midfielder">
+      <pos y="0.45" x="0.4"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left midfielder">
+      <pos y="0.45" x="0.6"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Central forward">
+      <pos y="0.75" x="0.5"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Right forward">
+      <pos y="0.75" x="0.35"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Left forward">
+      <pos y="0.75" x="0.65"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+  </PitchTactic>
+  <PitchTactic name="5-3-2" defenders="5" midfielders="3" forwards="2">
+    <Tactic name="Right full back">
+      <pos y="0.25" x="0.15"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Left full back">
+      <pos y="0.25" x="0.85"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Central back">
+      <pos y="0.2" x="0.5"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Right supporting back">
+      <pos y="0.22" x="0.35"/>
+      <attr offensive="0.3"/>
+    </Tactic>
+    <Tactic name="Left supporting back">
+      <pos y="0.22" x="0.65"/>
+      <attr offensive="0.3"/>
+    </Tactic>
+    <Tactic name="Central midfielder">
+      <pos y="0.5" x="0.5"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right winger">
+      <pos y="0.55" x="0.2"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left winger">
+      <pos y="0.55" x="0.8"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right forward">
+      <pos y="0.75" x="0.35"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Left forward">
+      <pos y="0.75" x="0.65"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+  </PitchTactic>
+  <PitchTactic name="5-4-1" defenders="5" midfielders="4" forwards="1">
+    <Tactic name="Right full back">
+      <pos y="0.25" x="0.15"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Left full back">
+      <pos y="0.25" x="0.85"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Central back">
+      <pos y="0.2" x="0.5"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Right supporting back">
+      <pos y="0.22" x="0.35"/>
+      <attr offensive="0.3"/>
+    </Tactic>
+    <Tactic name="Left supporting back">
+      <pos y="0.22" x="0.65"/>
+      <attr offensive="0.3"/>
+    </Tactic>
+    <Tactic name="Right midfielder">
+      <pos y="0.45" x="0.4"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left midfielder">
+      <pos y="0.45" x="0.6"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right winger">
+      <pos y="0.55" x="0.2"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left winger">
+      <pos y="0.55" x="0.8"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Central forward">
+      <pos y="0.75" x="0.5"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+  </PitchTactic>
+  <PitchTactic name="6-1-3" defenders="6" midfielders="1" forwards="3">
+    <Tactic name="Right full back">
+      <pos y="0.25" x="0.15"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Left full back">
+      <pos y="0.25" x="0.85"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Right back">
+      <pos y="0.2" x="0.3"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Left back">
+      <pos y="0.2" x="0.7"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Right supporting back">
+      <pos y="0.22" x="0.35"/>
+      <attr offensive="0.3"/>
+    </Tactic>
+    <Tactic name="Left supporting back">
+      <pos y="0.22" x="0.65"/>
+      <attr offensive="0.3"/>
+    </Tactic>
+    <Tactic name="Central midfielder">
+      <pos y="0.5" x="0.5"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Central forward">
+      <pos y="0.75" x="0.5"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Right forward">
+      <pos y="0.75" x="0.35"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Left forward">
+      <pos y="0.75" x="0.65"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+  </PitchTactic>
+  <PitchTactic name="6-2-2" defenders="6" midfielders="2" forwards="2">
+    <Tactic name="Right full back">
+      <pos y="0.25" x="0.15"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Left full back">
+      <pos y="0.25" x="0.85"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Right back">
+      <pos y="0.2" x="0.3"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Left back">
+      <pos y="0.2" x="0.7"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Right supporting back">
+      <pos y="0.22" x="0.35"/>
+      <attr offensive="0.3"/>
+    </Tactic>
+    <Tactic name="Left supporting back">
+      <pos y="0.22" x="0.65"/>
+      <attr offensive="0.3"/>
+    </Tactic>
+    <Tactic name="Right midfielder">
+      <pos y="0.45" x="0.4"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left midfielder">
+      <pos y="0.45" x="0.6"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right forward">
+      <pos y="0.75" x="0.35"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+    <Tactic name="Left forward">
+      <pos y="0.75" x="0.65"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+  </PitchTactic>
+  <PitchTactic name="6-3-1" defenders="6" midfielders="3" forwards="1">
+    <Tactic name="Right full back">
+      <pos y="0.25" x="0.15"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Left full back">
+      <pos y="0.25" x="0.85"/>
+      <attr offensive="0.6"/>
+    </Tactic>
+    <Tactic name="Right back">
+      <pos y="0.2" x="0.3"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Left back">
+      <pos y="0.2" x="0.7"/>
+      <attr offensive="0.2"/>
+    </Tactic>
+    <Tactic name="Right supporting back">
+      <pos y="0.22" x="0.35"/>
+      <attr offensive="0.3"/>
+    </Tactic>
+    <Tactic name="Left supporting back">
+      <pos y="0.22" x="0.65"/>
+      <attr offensive="0.3"/>
+    </Tactic>
+    <Tactic name="Central midfielder">
+      <pos y="0.5" x="0.5"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Right winger">
+      <pos y="0.55" x="0.2"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Left winger">
+      <pos y="0.55" x="0.8"/>
+      <attr offensive="0.5"/>
+    </Tactic>
+    <Tactic name="Central forward">
+      <pos y="0.75" x="0.5"/>
+      <attr offensive="0.8"/>
+    </Tactic>
+  </PitchTactic>
+</PitchTactics>

@@ -5,8 +5,7 @@ from lxml import etree
 
 import Primitives
 import Match
-
-total_players = 11
+import Tactics
 
 class player_position_type:
     Goalkeeper = 0
@@ -172,122 +171,6 @@ class Kit:
         socksnode.append(self.socks_color.to_xml())
         return kitnode
 
-class PlayerTactic:
-    """PlayerTactic class.
-
-    Each PlayerTactic belongs to a specific player. PlayerTactic includes
-    the general position on the pitch for the player as well as offensiveness
-    rating. PlayerTactic is generic - it can be saved, loaded and reused."""
-    def __init__(self, name = ""):
-        self.name = name
-        self.pos = 0.5, 0.5
-        self.offensive = 0.5
-
-    def to_xml(self):
-        root = etree.Element("Tactic", name = self.name)
-        xcoord, ycoord = self.pos
-        posnode = etree.SubElement(root, "pos", x = str(xcoord), y =
-                str(ycoord))
-        attrnode = etree.SubElement(root, "attr", offensive =
-                str(self.offensive))
-        return root
-
-class PitchTactic:
-    """PitchTactic is a collection of all the player tactics of the players
-    plus name."""
-    def __init__(self, name, num_d, num_m, num_f, player_tactics):
-        self.name = name
-        self.player_tactics = player_tactics
-        self.num_d = num_d
-        self.num_m = num_m
-        self.num_f = num_f
-
-    def to_xml(self):
-        root = etree.Element("PitchTactic")
-        root.set("name", self.name)
-        root.set("defenders", str(self.num_d))
-        root.set("midfielders", str(self.num_m))
-        root.set("forwards", str(self.num_f))
-        for tac in self.player_tactics:
-            root.append(tac.to_xml())
-        return root
-
-class GeneralTactic:
-    """GeneralTactic class defines club-wide tactics.
-
-    This consists of a few attributes that influence player decisions.
-    Note that GeneralTactic is generic - it can be saved, loaded and 
-    reused."""
-    def __init__(self, long_ball = 0.5, width_attack = 0.5, 
-            width_defense = 0.5, counter_attack = 0.5):
-        self.long_ball = long_ball
-        self.width_attack = width_attack
-        self.width_defense = width_defense  
-        self.counter_attack = counter_attack
-
-    def __str__(self):
-        return "Long balls: %1.3f\nWidth in attack: %1.3f\nWidth in defense: "\
-            "%1.3f\nCounter attacks: %1.3f\n" % (self.long_ball, self.width_attack,
-                    self.width_defense, self.counter_attack)
-
-class Lineup:
-    """Lineup class.
-
-    This is what you give to the referee: list of people that are allowed to 
-    enter the pitch and the bench. Therefore it is also club specific."""
-    def __init__(self):
-        """Sets up an empty lineup with no players nor substitutes."""
-        self.pitch_players = []
-        self.substitutes = []
-
-    def add_player(self, playerid, pitchplayer):
-        if pitchplayer:
-            self.pitch_players.append(playerid)
-        else:
-            self.substitutes.append(playerid)
-
-    def is_valid(self, max_subs):
-        return self.pitch_players
-
-class CompleteTactic:
-    """CompleteTactic consists of the general, pitch-wide tactic as well
-    as all the player specific tactics. Therefore it is generic - it can
-    be saved, loaded and reused."""
-    def __init__(self, general_tactic, player_tactics):
-        """Constructs CompleteTactic from general tactic and player 
-        tactics."""
-        self.general_tactic = general_tactic
-        self.player_tactics = player_tactics
-
-class Formation:
-    """Formation class is the main class a club takes with itself to a match.
-
-    It includes a) the lineup, and b) CompleteTactic. Lineup is the list of
-    attending players and 'open' information. CompleteTactic includes all the
-    tactical decisions by the club. Formation maps the player specific, 
-    generic tactics to the individual players in the lineup. While Lineup is 
-    club specific, CompleteTactic is generic.
-    """
-    def __init__(self, name, general_tactic, player_tactics):
-        self.name = name
-        self.tactic = GeneralTactic(general_tactic, player_tactics)
-        self.lineup = Lineup()
-        self.tacticmap = {}
-
-    def add_player(self, playerid, pitchplayer, playertacticname = ""):
-        self.lineup.add_player(playerid, pitchplayer)
-        self.tacticmap[playerid] = playertacticname
-
-    def to_xml(self):
-        pass   # TODO
-
-    def setup(self, gk, dfc, dfw, mdc, mdw, fw, subs):
-        for pl in gk + dfc + dfw + mdc + mdw + fw:
-            self.lineup.add_player(pl.id, True)
-            # self.tacticmap[pl.id] = 
-        for pl in subs:
-            self.lineup.add_player(pl.id, False)
-
 class Club:
     def __init__(self, name):
         self.name = name
@@ -297,7 +180,6 @@ class Club:
         self.org_name = ""
         self.stadium = ""
         self.rating = -1
-        # self.formation = Formation()
         self.player_ratings = []
 
     def __str__(self):
@@ -311,12 +193,13 @@ class Club:
         # retval += self.formation.__str__()
         return retval
 
-    def get_players(self, plsdb):
+    def get_players(self, dbase):
+        plsdb = dbase.players
         for contract in self.contracts:
             self.players[contract] = plsdb[contract]
-        # self.setup_formation()
+        self.setup_formation(dbase.pitch_tactics)
 
-    def setup_formation(self):
+    def setup_formation(self, pitch_tactics):
         """Setups the formation based on given players.
 
         This simply takes the best players the club has and assigns them
@@ -324,6 +207,7 @@ class Club:
         areas on the pitch where players are needed, even if the best players
         aren't available on those areas.
         """
+        pltacs = []
         if not self.player_ratings:
             self.setup_player_ratings()
         gk = []
@@ -358,9 +242,15 @@ class Club:
                 subs.append(mdc.pop())
             elif len(fw) > 1:
                 subs.append(fw.pop())
-        self.pos_to_wing(dfc, dfw)
-        self.pos_to_wing(mdc, mdw)
-        self.formation.setup(gk, dfc, dfw, mdc, mdw, fw, subs)
+        form_name = "%d-%d-%d" % (len(dfc), len(mdc), len(fw))
+        gentac = Tactics.GeneralTactic()
+        pitch_tactic = pitch_tactics[form_name]
+        self.formation = Tactics.Formation(gentac, pitch_tactic)
+        for player in gk + dfc + mdc + fw:
+            self.formation.lineup.add_player(player.id, True)
+        # self.pos_to_wing(dfc, dfw)
+        # self.pos_to_wing(mdc, mdw)
+        # self.formation.setup(gk, dfc, dfw, mdc, mdw, fw, subs)
 
     def pos_to_wing(self, pos, wings):
         if len(pos) < 3:
@@ -567,6 +457,7 @@ class DB:
         self.stadiums = {}
         self.formations = {}
         self.pitches = {}
+        self.pitch_tactics = {}
         self.clubs["unknown"] = Club("unknown")
 
 if __name__ == '__main__':

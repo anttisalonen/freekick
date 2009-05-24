@@ -25,12 +25,12 @@ def main():
                     len(mid_line), len(forward_line), def_line +
                     mid_line + forward_line))
 
+    root = etree.Element("PitchTactics")
     for complete_tactic in complete_tactics:
-        root = etree.Element("PitchTactics")
         root.append(complete_tactic.to_xml())
-        tree = etree.ElementTree(root)
-        tree.write(''.join([complete_tactic.name, ".xml"]), pretty_print=True,
-                encoding='UTF-8')
+    tree = etree.ElementTree(root)
+    tree.write("Formations.xml", pretty_print=True,
+            encoding='UTF-8')
 
 def full_back():
     pt = PlayerTactic("full back")

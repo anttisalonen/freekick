@@ -11,6 +11,7 @@ import Tournament
 import Stage
 import SoccerData
 import Match
+import Tactics
 
 def get_db(path):
     """Reads the files in given path and parses the database.
@@ -39,11 +40,14 @@ def get_db(path):
         elif root.tag == "Pitches":
             print "Parsing pitches in %s" % fn
             dbase.pitches.update(get_pitches(root))
+        elif root.tag == "PitchTactics":
+            print "Parsing pitch tactics in %s" % fn
+            dbase.pitch_tactics.update(get_pitch_tactics(root))
         else:
             print "Don't know how to parse %s" % fn
     for club in dbase.clubs.values():
         if club.name != "unknown":
-            club.get_players(dbase.players)
+            club.get_players(dbase)
 
     for country in dbase.countries.values():
         for region in country.regions.values():
@@ -365,18 +369,14 @@ def parse_tournament(tnode):
     return tname, tournament
 
 def get_formations(root):
-    formations = {}
-    for formation in root:
-        n, f = parse_formation(formation)
-        formations[n] = f
-    return formations
+    return get_all(root, parse_formation)
 
 def parse_formation(fnode):
     fname = fnode.get("name")
-    formation = SoccerData.Formation(fname)
+    formation = Tactics.Formation(fname)
     for node in fnode:
         if node.tag == "tactic":
-            tactic = SoccerData.PlayerTactic()
+            tactic = Tactics.PlayerTactic()
             tactic.name = node.get("name")
             for tnode in node:
                 if tnode.tag == "position":
@@ -399,15 +399,44 @@ def parse_formation(fnode):
     return fname, formation
 
 def get_pitches(root):
-    pitches = {}
-    for pitch in root:
-        n, p = parse_pitch(pitch)
-        pitches[n] = p
-    return pitches
+    return get_all(root, parse_pitch)
 
 def parse_pitch(pnode):
     # TODO: parse pitches (values defined in SoccerData.Pitch class
     return "grass01", SoccerData.default_pitch()
+
+def get_all(root, func):
+    coll = {}
+    for node in root:
+        n, val = func(node)
+        coll[n] = val
+    return coll
+
+def get_pitch_tactics(root):
+    return get_all(root, parse_pitch_tactic)
+
+def parse_pitch_tactic(tnode):
+    tname = tnode.get("name")
+    ndef = int(tnode.get("defenders"))
+    nmid = int(tnode.get("midfielders"))
+    nfor = int(tnode.get("forwards"))
+    tacs = []
+    for node in tnode:
+        tacs.append(parse_player_tactic(node))
+    return tname, Tactics.PitchTactic(tname, ndef, nmid, nfor, tacs)
+
+def parse_player_tactic(tnode):
+    tname = tnode.get("name")
+    for node in tnode:
+        if node.tag == "pos":
+            posx = node.get("x")
+            posy = node.get("y")
+        elif node.tag == "attr":
+            off = node.get("offensive")
+    t = Tactics.PlayerTactic(tname)
+    t.pos = posx, posy
+    t.offensive = off
+    return t
 
 def print_usage():
     print "Usage: %s path_to_club_xml" % sys.argv[0]
