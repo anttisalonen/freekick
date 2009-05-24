@@ -436,7 +436,7 @@ def parse_player_tactic(tnode):
     t = Tactics.PlayerTactic(tname)
     t.pos = posx, posy
     t.offensive = off
-    return t
+    return tname, t
 
 def print_usage():
     print "Usage: %s path_to_club_xml" % sys.argv[0]

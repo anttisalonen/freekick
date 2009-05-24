@@ -33,7 +33,7 @@ class PlayerTactic:
         xcoord, ycoord = self.pos
         posnode = etree.SubElement(root, "pos", x = str(xcoord), y =
                 str(ycoord))
-        attrnode = etree.SubElement(root, "attr", offensive =
+        attrnode = etree.SubElement(root, "attributes", offensive =
                 str(self.offensive))
         return root
 
@@ -53,7 +53,7 @@ class PitchTactic:
         root.set("defenders", str(self.num_d))
         root.set("midfielders", str(self.num_m))
         root.set("forwards", str(self.num_f))
-        for tac in self.player_tactics:
+        for tacname, tac in self.player_tactics:
             root.append(tac.to_xml())
         return root
 
@@ -97,9 +97,9 @@ class Lineup:
         self.pitch_players = []
         self.substitutes = []
 
-    def add_player(self, playerid, pitchplayer):
-        if pitchplayer:
-            self.pitch_players.append(playerid)
+    def add_player(self, playerid, position):
+        if position:
+            self.pitch_players.append((playerid, position))
         else:
             self.substitutes.append(playerid)
 
@@ -109,10 +109,10 @@ class Lineup:
 
     def to_xml(self):
         root = etree.Element("lineup")
-        for p in self.pitch_players:
-            etree.SubElement(root, "player", id = str(p))
-        for p in self.substitutes:
-            etree.SubElement(root, "substitute", id = str(p))
+        for plid, ppos in self.pitch_players:
+            etree.SubElement(root, "player", id = str(plid), position = ppos)
+        for plid in self.substitutes:
+            etree.SubElement(root, "substitute", id = str(plid))
         return root
 
 class Formation:

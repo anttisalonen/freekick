@@ -246,8 +246,11 @@ class Club:
         gentac = Tactics.GeneralTactic()
         pitch_tactic = pitch_tactics[form_name]
         self.formation = Tactics.Formation(gentac, pitch_tactic)
-        for player in gk + dfc + mdc + fw:
-            self.formation.lineup.add_player(player.id, True)
+        for player in gk:
+            self.formation.lineup.add_player(player.id, "Goalkeeper")
+        # TODO: remove random lineup creation
+        for (tacname, tactic), player in zip(pitch_tactic.player_tactics, dfc + mdc + fw):
+            self.formation.lineup.add_player(player.id, tacname)
         # self.pos_to_wing(dfc, dfw)
         # self.pos_to_wing(mdc, mdw)
         # self.formation.setup(gk, dfc, dfw, mdc, mdw, fw, subs)

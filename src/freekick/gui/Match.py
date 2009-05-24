@@ -409,7 +409,7 @@ class Match:
         temp_file_name = temp_file.name
         root = etree.Element("Match")
 
-        clubs = etree.SubElement(root, "Clubs")
+        clubs = etree.SubElement(root, "clubs")
         club1node = self.club1.to_xml()
         club1node.set("home", "1")
         clubs.append(club1node)
@@ -417,8 +417,8 @@ class Match:
         club2node.set("home", "0")
         clubs.append(club2node)
 
-        club1plnode = etree.SubElement(root, "HomeClubPlayers")
-        club2plnode = etree.SubElement(root, "AwayClubPlayers")
+        club1plnode = etree.SubElement(root, "homeplayers")
+        club2plnode = etree.SubElement(root, "awayplayers")
         for player in self.club1.players.values():
             pnode = player.to_xml()
             statusnode = etree.SubElement(pnode, "status")
@@ -432,7 +432,7 @@ class Match:
             statusnode.set("form", "1.0")
             club2plnode.append(pnode)
 
-        otherkitsnode = etree.SubElement(root, "OtherKits")
+        otherkitsnode = etree.SubElement(root, "otherkits")
         gk1kit = SoccerData.Kit() # TODO - better kits
         gk1kit.jersey_colors.append(Primitives.Color())
         gk2kit = SoccerData.Kit()
@@ -449,7 +449,7 @@ class Match:
         otherkitsnode.append(gk2kitnode)
         otherkitsnode.append(refkitnode)
 
-        tournamentnode = etree.SubElement(root, "Tournament", name = self.tournament_name, stage = self.stage_name)
+        tournamentnode = etree.SubElement(root, "tournament", name = self.tournament_name, stage = self.stage_name)
         stadiumnode = self.stadium.to_xml()
         stadiumnode.set("attendance", str(random.randint(10, self.stadium.capacity)))  # TODO: more realistic attendance and third party host flag
         root.append(stadiumnode)
