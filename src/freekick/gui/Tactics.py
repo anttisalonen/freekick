@@ -131,8 +131,8 @@ class Formation:
 
     def to_xml(self):
         root = etree.Element("formation")
-        root.append(self.lineup.to_xml())
         root.append(self.general_tactic.to_xml())
         root.append(self.pitch_tactic.to_xml())
+        root.append(self.lineup.to_xml())
         return root
 
