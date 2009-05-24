@@ -1,8 +1,7 @@
 #!/usr/bin/python
 """This module includes all the classes for formations and tactics.
 
-There's PlayerTactic, PitchTactic, GeneralTactic, Lineup, CompleteTactic and
-Formation.
+There's PlayerTactic, PitchTactic, GeneralTactic, Lineup and Formation.
 
 PlayerTactic includes the orders given to one specific player, e.g. position.
 
@@ -12,10 +11,7 @@ GeneralTactic includes the clubwide tactics.
 
 Lineup is simply two lists of player IDs: pitch players and substitutes.
 
-CompleteTactic has only PitchTactic and GeneralTactic.
-
-Formation has CompleteTactic, Lineup and a dictionary that maps the player ID
-of each player to a specific PlayerTactic."""
+Formation has PitchTactic, GeneralTactic and Lineup."""
 
 from lxml import etree
 
@@ -119,38 +115,24 @@ class Lineup:
             etree.SubElement(root, "substitute", id = str(p))
         return root
 
-class CompleteTactic:
-    """CompleteTactic consists of the general, pitch-wide tactic as well
-    as all the player specific tactics. Therefore it is generic - it can
-    be saved, loaded and reused."""
-    def __init__(self, general_tactic, pitch_tactics):
-        """Constructs CompleteTactic from general tactic and player 
-        tactics."""
-        self.general_tactic = general_tactic
-        self.pitch_tactics = pitch_tactics
-
-    def to_xml(self):
-        root = etree.Element("completetactic")
-        root.append(self.general_tactic.to_xml())
-        root.append(self.pitch_tactics.to_xml())
-        return root
-
 class Formation:
     """Formation class is the main class a club takes with itself to a match.
 
-    It includes a) the lineup, and b) CompleteTactic. Lineup is the list of
-    attending players and 'open' information. CompleteTactic includes all the
+    It includes a) the lineup, and b) club tactics. Lineup is the list of
+    attending players and 'open' information. Club tactics include all the
     tactical decisions by the club. Formation maps the player specific, 
     generic tactics to the individual players in the lineup. While Lineup is 
-    club specific, CompleteTactic is generic.
+    club specific, club tactics are generic.
     """
     def __init__(self, general_tactic, pitch_tactic):
-        self.tactic = CompleteTactic(general_tactic, pitch_tactic)
+        self.general_tactic = general_tactic
+        self.pitch_tactic = pitch_tactic
         self.lineup = Lineup()
 
     def to_xml(self):
         root = etree.Element("formation")
         root.append(self.lineup.to_xml())
-        root.append(self.tactic.to_xml())
+        root.append(self.general_tactic.to_xml())
+        root.append(self.pitch_tactic.to_xml())
         return root
 
