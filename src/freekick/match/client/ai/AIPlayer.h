@@ -26,9 +26,11 @@
 #include <boost/shared_ptr.hpp>
 #include <boost/foreach.hpp>
 
+#include "addutil/Square.h"
 #include "addutil/Vector3.h"
 #include "addutil/General.h"
 #include "addutil/Steering.h"
+#include "addutil/Exception.h"
 
 #include "messages/PlayerControlMessage.h"
 #include "messages/MovePlayerControlMessage.h"
@@ -80,6 +82,9 @@ namespace freekick
                     CtrlMsg kickball();
                     CtrlMsg fetchball();
                     CtrlMsg idleinformation();
+                    CtrlMsg defensive();
+                    CtrlMsg support();
+                    CtrlMsg inownarea();
                     CtrlMsg gotocabins();
                     optimal_kick getOptimalPass() const;
                     optimal_kick getOptimalShot() const;
@@ -109,6 +114,8 @@ namespace freekick
                     bool startplay;
                     bool mGoalie;
                     addutil::Vector3 goalvec;
+                    addutil::Square formsq;
+
                     static const float max_velocity = 10.0f; // TODO: does this belong here?
                     static const float max_danger_dist = 20.0f;
                     static const float min_walk_vel = 1.5f;

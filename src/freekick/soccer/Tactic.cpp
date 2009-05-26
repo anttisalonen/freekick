@@ -37,40 +37,18 @@ namespace freekick
 
             for (node = root->children; node; node = node->next)
             {
-                if(node_is_node(node, "position"))
+                if(node_is_node(node, "pos"))
                 {
-                    pos = pp_from_xml(node);
+                    float x, y;
+                    get_attribute(node, "y", y);
+                    get_attribute(node, "x", x);
+                    m_pos.set(x, 0.0f, y);
                 }
                 else if(node_is_node(node, "attributes"))
                 {
-                    // TODO
-                }
-                else if(node_is_node(node, "area"))
-                {
-                    int own, offensive;
-                    float min_x, max_x, min_y, max_y;
-                    get_attribute(node, "own", own);
-                    get_attribute(node, "offensive", offensive);
-                    get_attribute(node, "min_x", min_x);
-                    get_attribute(node, "min_y", min_y);
-                    get_attribute(node, "max_x", max_x);
-                    get_attribute(node, "max_y", max_y);
-                    int index = ownOffensiveToIndex(own, offensive);
-                    m_areas[index] = addutil::Square(min_x, max_x, min_y, max_y);
+                    get_attribute(node, "offensive", m_offensive);
                 }
             }
-        }
-
-        void Tactic::setArea(bool own, bool offensive, const addutil::Square& sq)
-        {
-            int index = ownOffensiveToIndex(own, offensive);
-            m_areas[index] = sq;
-        }
-
-        const addutil::Square& Tactic::getArea(bool own, bool offensive) const
-        {
-            int index = ownOffensiveToIndex(own, offensive);
-            return m_areas[index];
         }
 
         const std::string& Tactic::getName() const
@@ -78,12 +56,37 @@ namespace freekick
             return m_name;
         }
 
-        int ownOffensiveToIndex(bool own, bool offensive)
+        const addutil::Vector3& Tactic::getPosition() const
         {
-            int index = 0;
-            if(own) index += 1;
-            if(offensive) index += 2;
-            return index;            
+            return m_pos;
+        }
+
+        float Tactic::getOffensive() const
+        {
+            return m_offensive;
+        }
+
+        void Tactic::setPosition(const addutil::Vector3& pos)
+        {
+            m_pos = pos;
+        }
+
+        void Tactic::setName(const std::string& name)
+        {
+            m_name = name;
+        }
+
+        void Tactic::setOffensive(float off)
+        {
+            m_offensive = off;
+        }
+
+        Tactic goalkeeperTactic()
+        {
+            Tactic t("Goalkeeper");
+            t.setOffensive(0.05);
+            t.setPosition(addutil::Vector3(0.5f, 0.0f, 0.0f));
+            return t;
         }
     }
 }

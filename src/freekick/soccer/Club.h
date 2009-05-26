@@ -36,7 +36,6 @@
 
 #include "Player.h"
 #include "Kit.h"
-#include "Lineup.h"
 #include "Formation.h"
 
 /**
@@ -63,7 +62,7 @@ namespace freekick
             void getPlayers(std::set<boost::shared_ptr<Player> >& pls) const;
             void getPlayerIDs(std::vector<int>& ids) const;
             void getPlayerIDs(std::set<int>& ids) const;
-            const boost::shared_ptr<Lineup>& getLineup() const;
+            boost::shared_ptr<Lineup> getLineup() const;
             const boost::shared_ptr<Formation>& getFormation() const;
             void setFormation(const boost::shared_ptr<Formation>& f);
             void setLineup(const boost::shared_ptr<Lineup>& l);
@@ -73,7 +72,6 @@ namespace freekick
             std::string name;
             std::map <int, boost::shared_ptr<Player> > players;
             std::vector <Kit> kits;
-            boost::shared_ptr<Lineup> lineup;
             boost::shared_ptr<Formation> mFormation;
             std::set <int> contracts;
 

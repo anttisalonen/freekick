@@ -40,19 +40,18 @@ namespace freekick
             Tactic(const std::string& name);
             Tactic(xmlNodePtr root);
             virtual ~Tactic() { }
-            PlayerPosition pos;
-            float active;
-            float risktaking;
-            float offensive;
-            void setArea(bool own, bool offensive, const addutil::Square& sq);
-            const addutil::Square& getArea(bool own, bool offensive) const;
             const std::string& getName() const;
+            const addutil::Vector3& getPosition() const;
+            float getOffensive() const;
+            void setPosition(const addutil::Vector3& pos);
+            void setName(const std::string& name);
+            void setOffensive(float off);
         private:
             std::string m_name;
-            boost::array<addutil::Square, 4> m_areas;
+            addutil::Vector3 m_pos;
+            float m_offensive;
         };
-
-        int ownOffensiveToIndex(bool own, bool offensive);
+        Tactic goalkeeperTactic();
     }
 }
 

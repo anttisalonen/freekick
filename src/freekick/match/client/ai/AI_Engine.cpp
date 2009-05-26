@@ -60,6 +60,7 @@ namespace freekick
                     std::vector<ClubAI>::iterator club_it;
                     std::vector<AIPlayer>::iterator it;
                     std::vector<boost::shared_ptr<messages::Message> > msgs;
+                    std::cerr << "AI_Engine running\n";
                     while(1)
                     {
                         msgs.clear();

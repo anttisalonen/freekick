@@ -31,35 +31,52 @@ namespace freekick
         {
             using namespace addutil::xml;
             xmlNode *node = NULL;
-            get_attribute(root, "name", m_name);
 
             mTacticList.clear();
             for (node = root->children; node; node = node->next)
             {
-                if(node_is_node(node, "tactic"))
+                if(node_is_node(node, "lineup"))
                 {
-                    boost::shared_ptr<Tactic> t(new Tactic(node));
-                    const std::string& tname = t->getName();
-                    mTacticList[tname] = t;
+                    mLineup.reset(new Lineup(node));
+                }
+                else if(node_is_node(node, "generaltactic"))
+                {
+                    mGeneralTactic.reset(new GeneralTactic(node));
+                }
+                else if(node_is_node(node, "pitchtactic"))
+                {
+                    xmlNode *pnode = NULL;
+                    for (pnode = node->children; pnode; pnode = pnode->next)
+                    {
+                        if(node_is_node(pnode, "tactic"))
+                        {
+                            boost::shared_ptr<Tactic> t(new Tactic(pnode));
+                            const std::string& tname = t->getName();
+                            mTacticList[tname] = t;
+                        }
+                    }
+                    boost::shared_ptr<Tactic> t(new Tactic(goalkeeperTactic()));
+                    mTacticList[t->getName()] = t;
                 }
             }
         }
 
-        const addutil::Square Formation::getTacticArea(bool own, bool offensive, const std::string& tactic) const
+        addutil::Vector3 Formation::getPitchPoint(const std::string& pos) const
         {
-            TacticList::const_iterator it = mTacticList.find(tactic);
-            if(it == mTacticList.end()) throw "Formation::getTacticArea: tactic not found\n";
-            return it->second->getArea(own, offensive);
+            TacticList::const_iterator it = mTacticList.find(pos);
+            if(it != mTacticList.end())
+                return it->second->getPosition();
+            throw addutil::Exception("Position not found in tactic list");
+        }
+        
+        boost::shared_ptr<Lineup> Formation::getLineup() const
+        {
+            return mLineup;
         }
 
-        const addutil::Vector3 Formation::getTacticAreaCenter(bool own, bool offensive, const std::string& tactic) const
+        void Formation::setLineup(boost::shared_ptr<Lineup> l)
         {
-            return getTacticArea(own, offensive, tactic).getCenter();
-        }
-
-        bool Formation::inTacticArea(bool own, bool offensive, const std::string& tactic, const addutil::Vector3& plloc) const
-        {
-            return getTacticArea(own, offensive, tactic).in(plloc);
+            mLineup = l;
         }
     }
 }

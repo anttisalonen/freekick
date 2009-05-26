@@ -116,27 +116,27 @@ namespace freekick
             xmlNode *node = NULL;
             for (node = root; node; node = node->next)
             {
-                if(node_is_node(node, "Clubs"))
+                if(node_is_node(node, "clubs"))
                 {
                     std::cerr << __func__ << ": parsing clubs\n";
                     parse_clubs(node->children);
                 }
-                else if (node_is_node(node, "HomeClubPlayers"))
+                else if (node_is_node(node, "homeplayers"))
                 {
                     std::cerr << __func__ << ": parsing home club players\n";
                     parse_players(node->children, true);
                 }
-                else if (node_is_node(node, "AwayClubPlayers"))
+                else if (node_is_node(node, "awayplayers"))
                 {
                     std::cerr << __func__ << ": parsing away club players\n";
                     parse_players(node->children, false);
                 }
-                else if (node_is_node(node, "OtherKits"))
+                else if (node_is_node(node, "otherkits"))
                 {
                     std::cerr << __func__ << ": parsing other kits\n";
                     parse_other_kits(node->children);
                 }
-                else if(node_is_node(node, "Tournament"))
+                else if(node_is_node(node, "tournament"))
                 {
                     std::cerr << __func__ << ": parsing tournament\n";
                     // TODO

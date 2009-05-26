@@ -52,11 +52,6 @@ namespace freekick
                     if(!issub)
                     {
                         plpos = mMatchStatus->getPlayerClub(mPlayerID)->getPlayerPosition(mPlayerID);
-                        ballinmyarea = mMatchStatus->getPlayerFormation(mPlayerID)->inTacticArea(
-                                mClubAI->ourClubHasBall(), 
-                                mClubAI->ballOnOurSide(), 
-                                plpos,
-                                mClubAI->ballPosCorrected());
                         mGoalie = plpos == "Goalkeeper";
                     }
                     holdingtheball = mMatchStatus->holdingBall() == mPlayerID;
@@ -114,10 +109,31 @@ namespace freekick
 
                 CtrlMsg AIPlayer::idleinformation()
                 {
+                    if(mClubAI->ourClubHasBall())
+                    {
+                        return support();
+                    }
+                    return defensive();
+                }
+
+                CtrlMsg AIPlayer::support()
+                {
+                    // float bz = mClubAI->ballPosCorrected().z;
+                    return inownarea();
+                }
+
+                CtrlMsg AIPlayer::defensive()
+                {
+                    return inownarea();
+                }
+
+                CtrlMsg AIPlayer::inownarea()
+                {
                     const boost::shared_ptr<Formation> f = mMatchStatus->getPlayerClub(mPlayerID)->getFormation();
                     addutil::Vector3 ballpos = mClubAI->getBallPos();
 
                     using namespace messages;
+                    /*
                     if(f->inTacticArea(mClubAI->ourClubHasBall(), mClubAI->ballOnOurSide(), plpos,
                                        mMatchStatus->absolute_pitch_position_to_percent(ownpos, mClubAI->ourClub())) &&
                        !(mMatchStatus->inOffsidePosition(mPlayerID)))
@@ -127,8 +143,9 @@ namespace freekick
                         gotovec *= 0.05f;
                         return boost::shared_ptr<MovePlayerControlMessage>(new MovePlayerControlMessage(mPlayerID, gotovec));
                     }
+                    */
 
-                    addutil::Vector3 formationpoint = f->getTacticAreaCenter(mClubAI->ourClubHasBall(), mClubAI->ballOnOurSide(), plpos);
+                    addutil::Vector3 formationpoint = f->getPitchPoint(plpos);
                     addutil::Vector3 movedFormationpoint(formationpoint);
                     float plength = mMatchStatus->getPitchLength();
                     float pwidth = mMatchStatus->getPitchWidth();
@@ -513,12 +530,13 @@ namespace freekick
                         addutil::Vector3 formationpoint;
                         try
                         {
-                            formationpoint = mMatchStatus->getPlayerFormation(mPlayerID)->getTacticAreaCenter(true, true, plpos);
+                            formationpoint = mMatchStatus->getPlayerFormation(mPlayerID)->getPitchPoint(plpos);
                             ownkickoffpos.x = formationpoint.x;
                             ownkickoffpos.z = formationpoint.z * 0.5f;
                         }
-                        catch(...)
+                        catch(addutil::Exception& e)
                         {
+                            std::cerr << "Could not find position: " << plpos << std::endl;
                             ownkickoffpos.x = 0.5f;
                         }
                     }

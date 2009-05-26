@@ -35,18 +35,18 @@ namespace freekick
 
             for (node = root->children; node; node = node->next)
             {
-                if(node_is_node(node, "position"))
+                if(node_is_node(node, "player"))
                 {
                     std::string name;
                     int plid;
-                    get_attribute(node, "player", plid);
-                    get_attribute(node, "name", name);
+                    get_attribute(node, "id", plid);
+                    get_attribute(node, "position", name);
                     pitchplayers[plid] = name;
                 }
                 else if(node_is_node(node, "substitute"))
                 {
                     int plid;
-                    get_attribute(node, "player", plid);
+                    get_attribute(node, "id", plid);
                     substitutes[plid] = "";
                 }
             }

@@ -29,8 +29,11 @@
 
 #include "addutil/Square.h"
 #include "addutil/XML.h"
+#include "addutil/Exception.h"
 
 #include "Tactic.h"
+#include "GeneralTactic.h"
+#include "Lineup.h"
 
 namespace freekick
 {
@@ -43,12 +46,13 @@ namespace freekick
             Formation();
             Formation(xmlNodePtr root);
             virtual ~Formation() { }
-            const addutil::Square getTacticArea(bool own, bool offensive, const std::string& tactic) const;
-            const addutil::Vector3 getTacticAreaCenter(bool own, bool offensive, const std::string& tactic) const;
-            bool inTacticArea(bool own, bool offensive, const std::string& tactic, const addutil::Vector3& plloc) const;
+            addutil::Vector3 getPitchPoint(const std::string& pos) const;
+            boost::shared_ptr<Lineup> getLineup() const;
+            void setLineup(boost::shared_ptr<Lineup> l);
         private:
-            std::string m_name;
             TacticList mTacticList;
+            boost::shared_ptr<Lineup> mLineup;
+            boost::shared_ptr<GeneralTactic> mGeneralTactic;
         };
     }
 }
