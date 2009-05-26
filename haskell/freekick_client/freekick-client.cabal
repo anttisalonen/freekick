@@ -9,6 +9,7 @@ Stability:      Unstable
 Homepage:       http://finder.homelinux.org/freekick
 Category:       Games
 Synopsis:       A soccer game
+Build-type:     Simple
 
 Data-files:
   README
@@ -24,22 +25,7 @@ Executable freekickmenu
   Main-is:        Main.hs
   Hs-Source-Dirs: FreekickMenu
   Include-dirs:   .
-  Ghc-options:    -Wall
-
-Executable wxmenu
-  Build-Depends:  base, haskell98, hexpat,
-                  process, containers, 
-                  directory, libaddutil>=0.0.1,
-                  libfreekick>=0.0.2,
-                  wx>=0.10.3
-  Main-is:        Main.hs
-  Hs-Source-Dirs: wxMenu
-  Include-dirs:   .
-  Ghc-options:    -Wall
-  if flag(wxgui)
-    Buildable:      True
-  else
-    Buildable:      False
+  Ghc-options:    -Wall -fvia-c -optc-O2
 
 Executable fksdl
   Build-Depends:  base, haskell98, 
@@ -50,5 +36,5 @@ Executable fksdl
   Main-is:        Main.hs
   Hs-Source-Dirs: client/src
   Include-dirs:   .
-  Ghc-options:    -Wall -O
+  Ghc-options:    -Wall -fvia-c -optc-O2 -threaded
 

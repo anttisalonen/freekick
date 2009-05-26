@@ -26,5 +26,5 @@ Library
     Libaddutil.Collision
 
   Include-dirs:   .
-  Ghc-options:    -Wall -O2
+  Ghc-options:    -Wall -fvia-c -optc-O2
 

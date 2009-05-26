@@ -36,7 +36,7 @@ Library
     Freekick.Libmatch.Rules, Freekick.Libmatch.SoccerPhysics
 
   Include-dirs:   .
-  Ghc-options:    -Wall -O2
+  Ghc-options:    -Wall -fvia-c -optc-O2
 
   Other-modules:
     Freekick.Libsoccer.DatabaseHelper

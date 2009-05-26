@@ -15,6 +15,7 @@ import Data.Maybe
 import Control.Monad.State
 import System.Time
 import Debug.Trace
+import CPUTime
 
 import Libaddutil.Vector
 import Libaddutil.Entity

@@ -22,7 +22,7 @@ Executable physics
   Hs-Source-Dirs: physics/src
   Other-Modules:  Console
   Include-dirs:   .
-  Ghc-options:    -Wall -O
+  Ghc-options:    -Wall -fvia-c -optc-O2 -threaded
 
 Executable ai
   Build-Depends:  base, haskell98, 
@@ -32,5 +32,5 @@ Executable ai
   Main-is:        Main.hs
   Hs-Source-Dirs: ai/src
   Include-dirs:   .
-  Ghc-options:    -Wall -O
+  Ghc-options:    -Wall -fvia-c -optc-O2
 
