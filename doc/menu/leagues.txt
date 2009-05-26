@@ -1,0 +1,93 @@
+<leaguesystem name="English league">
+  <Levels>
+    <level>
+      <branch>
+        <stage name="Premier league" type="0">
+        </stage>
+      </branch>
+      <leagueprs/>
+      <leaguerls/>
+    </level>
+  </Levels>
+</leaguesystem>
+
+
+                   leaguesystem
+                      /   |   \
+                  level level level      | levels
+                /   |  \
+          branch branch branch           | parallel (regional) divisions
+         /  |   \
+     stage stage stage                   | league matches + playoffs
+
+each branch promotes/relegates x clubs
+clubs are promoted/relegated between levels
+branches define, 
+
+
+<leaguesystem name="English league">
+  <Levels>
+    <level>                                                     <!-- top level -->
+      <branch>                                                  <!-- only branch -->
+        <stage name="National league" type="0">                 <!-- top league -->
+          <setup seeded="0" participantnum="24" groups="1" rounds="2" pointsperwin="3"/>
+          <attendances/>
+        </stage>
+        <kickoffs direction="down" number="4" exchanged="2">    <!-- relegation kickoff -->
+          <tournament name="Relegation kickoffs">               <!-- pos 19-22 participate (see <leaguerls/>) -->
+            <stage name="Kickoff Final" type="1">               <!-- two losers are relegated -->
+              <setup seeded="0" participantnum="4" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+            </stage>
+          </tournament>
+        </kickoffs>
+        <leagueprs/>
+        <leaguerls>
+          <leaguerl num="4"/>                                   <!-- total 4 are relegated -->
+        </leaguerls>                                            <!-- two through kickoffs => two through league -->
+      </branch>
+    </level>
+    <level>                                                     <!-- second level -->
+      <branch>                                                  <!-- northern branch -->
+        <stage name="Northern league" type="0">                 <!-- league in branch -->
+          <setup seeded="0" participantnum="16" groups="1" rounds="2" pointsperwin="3"/>
+          <attendances/>
+        </stage>
+        <leagueprs>                                             <!-- top two are promoted -->
+          <leaguepr num="2"/>
+        </leagueprs>
+        <leaguerls/>
+      </branch>
+      <branch>                                                  <!-- southern branch -->
+        <stage name="Southern league" type="0">                 <!-- league in branch -->
+          <setup seeded="0" participantnum="24" groups="1" rounds="2" pointsperwin="3"/>
+          <attendances/>
+        </stage>
+        <kickoffs direction="up" number="4" exchanged="1">      <!-- kickoffs for promotion -->
+          <tournament name="Promotion kickoffs">                <!-- positions 2-5 participate (see <leaguerls/>) -->
+            <stage name="Kickoff Final" type="1">               <!-- kickoff tournament winner is promoted -->
+              <setup seeded="0" participantnum="2" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+            </stage>
+            <stage name="Kickoff Semifinals" type="1">
+              <setup seeded="0" participantnum="4" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
+            </stage>
+          </tournament>
+        </kickoffs>
+        <leagueprs>
+          <leaguepr num="2"/>                                   <!-- total two are promoted -->
+        </leagueprs>                                            <!-- one through kickoffs => one through league -->
+        <leaguerls/>
+      </branch>
+    </level>
+  </Levels>
+</leaguesystem>
+
+Notes:
+1. Inside <kickoffs/> tag, the kickoff tournament has form of standard tournament
+2. there can be two kickoffs, one for both directions
+3. positions of clubs that participate in kickoffs is inferred from the number of clubs promoted/relegated
+4. clubs not promoted/relegated via kickoffs are promoted/relegated via league
+5. checking needs to be done to ensure not too many clubs are promoted/relegated (kickoffs exchanged > leaguepr num)
+6. it also needs be to checked that the total number of relegated clubs in all branches of the upper level
+   matches the total number of promoted clubs in all branches of the lower level
+7. stages themselves have no information on how many clubs are promoted/relegated, but only the branch
+

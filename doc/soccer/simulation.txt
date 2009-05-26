@@ -1,0 +1,53 @@
+1. Result generation based on sum of general player ratings of the clubs
+2. Result generation based on club lineup, strengths on different areas on
+   the pitch and tactics
+2a. Long balls, width in attack, counter attacks, area strengths:
+    -> Number of goals
+    Strength on central middlefield and no width in attack or
+    strength on side middlefield and width in attack and
+    less opponent strength on width in defense and that area
+    of the pitch ->
+    rating of central defense against forwards -> goals
+    -> long balls, counter attacks, goalkeeper neglected
+3. Event generation based on club lineup, players on different areas on
+   the pitch, tactics, player skills and personality
+3a. Long balls, width in attack, counter attacks,
+    player skills:
+    -> Number of goal chances
+    Player skills:
+    -> Number of shots on goal
+    Player skills:
+    -> Number of goals
+3b. A try by club A:
+    1. Defenders have the ball
+    2. Either long ball to forwards or pass to midfielders
+     Long ball: control, heading, dexterity by forwards
+     Pass to midfielders: either to the wings or central, depending on width 
+      in attack: defenders' passing, receivers' control
+    3. Wingers have ball: cross to the forwards: heading, control, dexterity
+       by forwards; passing, shooting, speed by wingers
+    4. Central midfielders have ball: passing, stamina, speed, control by
+       midfielders; control, speed by forwards
+    5. Forwards have ball: shooting, accuracy, heading, control, dexterity, 
+       speed by forwards
+    Defensive action:
+    Players on the respective area of the pitch: tackling, speed, dexterity, 
+    heading; goalkeeper: goalkeeping
+3c. When defensive skills overweigh offensive skills, the defending club
+    gets the ball and the initiative
+3d. Excellency in certain skills of a player against the opposing player
+    in that area lead to higher success probability (e.g. speed on wingers)
+3e. Stamina is a general skill that affects general performance with emphasis
+    on later game
+3f. Counter attacks save stamina, reducing the negative effect by stamina
+3g. Area strengths are neglected, but individual player skills are taken into
+    account when the ball is in the specific area
+3h. Each time when match activity in the specific area is simulated, the
+    player/one of the players in the area is taken into account
+3i. Injuries happen at random
+3j. Standard situations happen at random
+3k. A goal is possible from a standard situation based on forward and 
+    middlefielder heading and shooting
+3l. Yellow and red cards happen at random (player aggressivity is taken
+    into account)
+4. Soccer match simulation
