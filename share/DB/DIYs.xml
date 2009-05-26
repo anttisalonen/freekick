@@ -48,7 +48,7 @@
         <club name="Watford"/>
         <club name="Arsenal"/>
         <club name="Inter Turku"/>
-        <club name="Varteks"/>
+        <club name="Hoffenheim"/>
         <club name="Kooteepee"/>
       </preset>
     </stage>
@@ -76,7 +76,7 @@
       <setup seeded="0" participantnum="12" rounds="1" extratime="1" penalties="1" replays="0" awaygoals="0"/>
       <cuppr stage="Group phase"/>
       <preset>
-        <club name="Varteks"/>
+        <club name="Hoffenheim"/>
         <club name="Kooteepee"/>
         <club name="Scunthorpe Utd"/>
         <club name="Bournemouth"/>
