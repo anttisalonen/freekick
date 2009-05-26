@@ -1,3 +1,21 @@
+-25.04.2009--------------
+-update copyright
+-central definition of sub bench coordinates (e.g. mstatus, pitch)
+-variate due to moving ball (inputmonitor): define constants in constants
+-python: bug: goalkeeper assigned as midfielder
+-utility dots: grid of x*x meters for optimal support positions
+ -for determining pass target
+ -for determining support position where to move to
+-generate pitch texture:
+ Vid landskamper måste planen vara mellan 64 och 75 meter bred och mellan 100 och 110 meter lång.
+-14.04.2009--------------
+-goalkeepers holding ball:
+ -revert change that made bug nearly invisible
+ -actually fix the bug
+-second half restarts
+-dribbling towards pitch end instead of goal
+-first going behind ball in throwins
+-walking when not in hurry
 -22.02.2009--------------
 matchstatus/client:
 -entity interpolation
