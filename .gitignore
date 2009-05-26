@@ -13,3 +13,4 @@ tmp/
 doxygen/
 *.pyc
 tags
+*.lint
