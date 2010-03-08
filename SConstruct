@@ -182,9 +182,9 @@ if aiclient_name in BUILD_TARGETS:
     ai_client = aiclient_env.Program(aiclient_name, aiclient_files)
 
 
-bulletlibs = ['bulletdynamics',
-              'bulletcollision',
-              'bulletmath']
+bulletlibs = ['BulletDynamics',
+              'BulletCollision',
+              'LinearMath']
 
 # Server
 
