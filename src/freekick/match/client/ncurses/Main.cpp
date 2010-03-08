@@ -27,7 +27,12 @@
 #include <boost/thread/thread.hpp>
 #include <boost/bind.hpp>
 #include <boost/archive/text_oarchive.hpp>
+#include <boost/version.hpp>
+#if BOOST_VERSION > 104000
+#include <boost/exception/all.hpp>
+#else
 #include <boost/exception.hpp>
+#endif
 #include <boost/date_time/posix_time/posix_time.hpp>
 
 #include "addutil/Exception.h"

@@ -130,7 +130,7 @@ if ogreclient_name in BUILD_TARGETS:
     ogreclient_env.ParseConfig("pkg-config CEGUI-OGRE --cflags --libs")
     ogreclient_env.ParseConfig("pkg-config OIS --cflags --libs")
     ogreclient_env.ParseConfig("pkg-config CEGUI --cflags --libs")
-    ogreclient_env['LIBS'] += ['boost_thread', 
+    ogreclient_env['LIBS'] += ['boost_thread-mt', 
                                'boost_system', 
                                'boost_serialization',
                                'boost_regex',
@@ -150,7 +150,7 @@ if ncursesclient_name in BUILD_TARGETS:
     ncursesclient_env.Append(CPPPATH = ['./src/freekick/match/client'])
     ncursesclient_env.Append(CPPPATH = ['./src/freekick/match/client/ncurses'])
     ncursesclient_env.Append(LIBPATH = ['./lib'])
-    ncursesclient_env['LIBS'] += ['boost_thread',
+    ncursesclient_env['LIBS'] += ['boost_thread-mt',
                                   'boost_system',
                                   'boost_serialization',
                                   'boost_regex',
@@ -171,7 +171,7 @@ if aiclient_name in BUILD_TARGETS:
     aiclient_env.Append(CPPPATH = ['./src/freekick/match/client'])
     aiclient_env.Append(CPPPATH = ['./src/freekick/match/client/ai'])
     aiclient_env.Append(LIBPATH = ['./lib'])
-    aiclient_env['LIBS'] += ['boost_thread', 
+    aiclient_env['LIBS'] += ['boost_thread-mt', 
                              'boost_system', 
                              'boost_serialization',
                              'boost_regex',
@@ -201,7 +201,7 @@ if fkserver_name in BUILD_TARGETS:
 
     fkserver_conf = Configure(fkserver_env)
 
-    fkserver_env['LIBS'] += ['boost_thread', 
+    fkserver_env['LIBS'] += ['boost_thread-mt', 
                              'boost_system', 
                              'boost_serialization',
                              'boost_regex',
@@ -224,7 +224,7 @@ if freekick_client_py_name in BUILD_TARGETS:
     freekick_client_py_env.Append(CPPPATH = ['/usr/include/python2.5'])
     freekick_client_py_env.Append(LIBPATH = ['./lib'])
 
-    freekick_client_py_env['LIBS'] += ['boost_thread', 
+    freekick_client_py_env['LIBS'] += ['boost_thread-mt', 
                                        'boost_system', 
                                        'boost_serialization',
                                        'boost_regex',

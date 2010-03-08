@@ -25,7 +25,12 @@
 #include <iostream>
 #include <exception>
 
+#include <boost/version.hpp>
+#if BOOST_VERSION > 104001
+#include <boost/exception/all.hpp>
+#else
 #include <boost/exception.hpp>
+#endif
 #include <boost/version.hpp>
 
 /**

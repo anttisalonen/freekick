@@ -35,8 +35,10 @@ namespace addutil
     {
 #if defined(BOOST_VERSION) && (BOOST_VERSION < 103700)
         std::cerr << msg << ": " << e.diagnostic_information() << std::endl;
-#else 
+#elif BOOST_VERSION < 104000 
         std::cerr << msg << ": " << boost::exception_detail::get_diagnostic_information(e) << std::endl;
+#else 
+        std::cerr << msg << ": " << boost::exception_detail::get_diagnostic_information(e, __func__) << std::endl;
 #endif
     }
 }

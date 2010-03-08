@@ -25,7 +25,12 @@
 #include <set>
 
 #include <boost/asio.hpp>
+#include <boost/version.hpp>
+#if BOOST_VERSION > 104000
+#include <boost/exception/all.hpp>
+#else
 #include <boost/exception.hpp>
+#endif
 #include <boost/bind.hpp>
 #include <boost/foreach.hpp>
 #include <boost/shared_ptr.hpp>
